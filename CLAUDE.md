@@ -93,6 +93,18 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] **i18n (8 languages)** — `lib/i18n.ts` with dictionaries for FR EN ES IT PT DE JA ZH. Server-side: `lib/i18n-server.ts` reads `moomz_locale` cookie or falls back to `Accept-Language`. Client-side: `LocaleProvider` + `useT()` hook. Locale switcher rendered in the page footer with native language names. Fallback chain: requested → en → fr → key.
 - [x] **Notif badge** in BottomNav for `/mes-sondages` — polls with new votes since last seen. Read via `/api/polls-stats` (slug list → vote_count map). Cleared when user opens a poll (cookie `moomz_seen_<slug>` set to current `voteCount`).
 - [x] **"Se connecter" placeholder** in `/mes-votes` only — sets up the upcoming auth flow without leaking it into other surfaces.
+- [x] **Username profiles** (`/[username]` resolves before falling through to `/[slug]`). Cookie-based pseudo-auth via `moomz_profile_token` (httpOnly), reserved-username CHECK on DB, `profiles_public` view hides the token. `/me` page is claim-or-edit form (avatar emoji, display name, bio, Insta/TikTok/X/website). Polls auto-link to current profile via cookie at creation; existing anon polls back-link when claiming.
+- [x] **Streak + points system** — SSX-style multipliers (×1 → ×2 at 3 votes → ×3 at 7 → ×4 at 12 → ×5 at 18), 3-min window for streak persistence. Stored in `moomz_streak` cookie AND in `profiles.total_points` / `profiles.top_streak` for users with a profile. `castVote()` returns `{ points: { gained, total, current, top, multiplier } }`.
+- [x] **StreakHUD** (top-right, glass pill, `app/streak-hud.tsx`) shows total pts + ×N indicator. Listens for `moomz:vote` window events for instant updates. Pops a big centered `STREAK ×N` overlay when crossing a multiplier threshold.
+- [x] **3 varied vote effects** (random per vote, `app/confetti.tsx`): emoji rain (5 themed pools), starburst (12 stars radiating outward), comic word burst ("BOOM!" "NICE!" "FIRE!" with shockwave ring + comic stroke text).
+- [x] **Points float** `+N ×M` at center of card on every vote (gradient text, animated upward).
+- [x] **Display font (`Bagel Fat One`)** for the moomz logo, discover title, score numbers, comic bursts. SSX-cartoon vibe.
+- [x] **Morphing blobs** — background blob shapes animate organic blob morphs via `border-radius` keyframes alongside the hue-shift + float.
+- [x] **Colored questions** — each poll question h3 gets a gradient using `paletteFor(slug)` (white core + slug palette accents) so titles are colorful but readable on the dark background.
+- [x] **Discover auto-advance** — after voting in a card, the snap-scroll container scrolls smoothly to the next poll. Skipped polls are filtered from the feed. User can scroll back up to see results.
+- [x] **Anti-noise filter** on `createPoll` — rejects 5+ consecutive same chars, no-letter strings, < 40% letter ratio, near-duplicate options.
+- [x] **Perf: visibility-gated PollCard** — `IntersectionObserver` (200px rootMargin) gates both the count preload and the Supabase realtime subscription, so a 30-card discover feed only opens channels for visible cards. Discover query reduced 80 → 40.
+- [x] **Bot v2** (`fake_vote_burst`) — every minute, picks 4 polls weighted 3:1 toward real (non-seed) polls, with an age-based time curve (drip on brand-new polls, bursts on older ones).
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)
