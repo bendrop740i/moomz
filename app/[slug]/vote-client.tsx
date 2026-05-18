@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useTransition } from "react";
 import { castVote, refreshCounts } from "../actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
+import AnimatedNumber from "../animated-number";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -199,7 +200,7 @@ export default function VoteClient({
                     </span>
                   </div>
                   <span className="tabular-nums text-sm font-semibold text-white/80 shrink-0">
-                    {pct}% <span className="text-white/40 font-normal">· {c}</span>
+                    <AnimatedNumber value={pct} />% <span className="text-white/40 font-normal">· <AnimatedNumber value={c} /></span>
                   </span>
                 </div>
               </div>
@@ -210,7 +211,7 @@ export default function VoteClient({
         {showResults && (
           <div className="flex items-center justify-between text-sm text-white/50">
             <span>
-              {total} vote{total > 1 ? "s" : ""} au total
+              <AnimatedNumber value={total} /> vote{total > 1 ? "s" : ""} au total
             </span>
             <span className="flex items-center gap-2">
               {isLive ? (
