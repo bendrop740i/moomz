@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useEffect, useRef, useState, useTransition } from "react";
 import { castVote, refreshCounts } from "../actions";
+import { getBrowserSupabase } from "@/lib/supabase-browser";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -30,8 +31,53 @@ export default function VoteClient({
   const [total, setTotal] = useState<number>(initialTotal);
   const [copied, setCopied] = useState(false);
   const [animKey, setAnimKey] = useState(0);
+  const [isLive, setIsLive] = useState(false);
+  const myVoterIdRef = useRef<string | null>(null);
 
   const showResults = voted !== null;
+
+  useEffect(() => {
+    const match = typeof document !== "undefined"
+      ? document.cookie.match(/(?:^|;\s*)moomz_voter=([^;]+)/)
+      : null;
+    myVoterIdRef.current = match ? decodeURIComponent(match[1]) : null;
+  }, []);
+
+  useEffect(() => {
+    if (!showResults) return;
+    const supabase = getBrowserSupabase();
+    const channel = supabase
+      .channel(`poll-${pollId}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "INSERT",
+          schema: "public",
+          table: "votes",
+          filter: `poll_id=eq.${pollId}`,
+        },
+        (payload) => {
+          const row = payload.new as { voter_id?: string; option_index?: number };
+          if (row.voter_id && row.voter_id === myVoterIdRef.current) return;
+          if (typeof row.option_index !== "number") return;
+          setCounts((c) => {
+            const next = [...c];
+            next[row.option_index!] = (next[row.option_index!] ?? 0) + 1;
+            return next;
+          });
+          setTotal((t) => t + 1);
+          setAnimKey((k) => k + 1);
+        },
+      )
+      .subscribe((status) => {
+        if (status === "SUBSCRIBED") setIsLive(true);
+        if (status === "CLOSED" || status === "CHANNEL_ERROR") setIsLive(false);
+      });
+    return () => {
+      supabase.removeChannel(channel);
+      setIsLive(false);
+    };
+  }, [showResults, pollId]);
 
   const vote = (i: number) => {
     if (voted !== null || pending) return;
@@ -155,13 +201,25 @@ export default function VoteClient({
             <span>
               {total} vote{total > 1 ? "s" : ""} au total
             </span>
-            <button
-              onClick={refresh}
-              disabled={pending}
-              className="hover:text-white transition disabled:opacity-50"
-            >
-              ⟳ rafraîchir
-            </button>
+            <span className="flex items-center gap-2">
+              {isLive ? (
+                <span className="flex items-center gap-1.5 text-emerald-300/90">
+                  <span className="relative inline-flex w-2 h-2">
+                    <span className="absolute inline-flex w-full h-full rounded-full bg-emerald-400 opacity-75 animate-ping" />
+                    <span className="relative inline-flex w-2 h-2 rounded-full bg-emerald-400" />
+                  </span>
+                  live
+                </span>
+              ) : (
+                <button
+                  onClick={refresh}
+                  disabled={pending}
+                  className="hover:text-white transition disabled:opacity-50"
+                >
+                  ⟳ rafraîchir
+                </button>
+              )}
+            </span>
           </div>
         )}
       </div>

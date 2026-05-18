@@ -51,25 +51,38 @@ npm run dev    # http://localhost:3001 (port 3000 occupied by another app)
 ## Deploy
 Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` from project root (CLI installed, authenticated as `bendrop740i`).
 
-## DNS status (as of 2026-05-18)
+## DNS status (as of 2026-05-18, post-cutover)
 - Registrar : GoDaddy
 - Nameservers : `ns45.domaincontrol.com`, `ns46.domaincontrol.com` (default GoDaddy)
-- Apex `moomz.com` → A record `76.76.21.21` (Vercel)
+- Apex `moomz.com` → A record `216.198.79.1` (Vercel's new range — old `76.76.21.21` also still works)
 - `www.moomz.com` → CNAME `030303df38959843.vercel-dns-017.com` (Vercel-generated)
-- Propagation in progress at last check. Verify with : `dig moomz.com +short` (should return `76.76.21.21`)
+- ✅ **moomz.com is LIVE** as of 2026-05-18. Verified via curl HTTP 200.
 
 ## Known issues / decisions
 - **GitHub PAT was leaked in chat earlier** (already revoked / should be revoked at https://github.com/settings/tokens). For future push from Claude Code, set up Git Credential Manager interactively from a real PowerShell once, OR use SSH keys, OR generate a fresh PAT (NEVER paste it in chat — drop it into a local file `.git-token` that's gitignored and never committed).
 - **Supabase API key format** : we use the new `sb_publishable_xxx` format. Requires `@supabase/supabase-js@^2.50` or later. Don't downgrade.
 - **Port 3000 occupied** locally → dev server runs on `3001`. Not a code issue, just the user's machine.
 
-## What's left to do
-- [ ] Wait for DNS propagation, verify `https://moomz.com` serves the site
-- [ ] Revoke the leaked GitHub PAT, set up cleaner auth
-- [ ] (Optional v2) Add emoji reactions in addition to vote
+## Done so far
+- [x] MVP shipped — create poll, vote, see results
+- [x] Dark glass design + Space Grotesk + animated blob background + emoji per option
+- [x] Optimistic vote with server-side count sync (no `router.refresh` dance)
+- [x] moomz.com domain linked + DNS configured + HTTPS live
+- [x] Dynamic OG image per poll (`app/[slug]/opengraph-image.tsx`) + home OG (`app/opengraph-image.tsx`) — rich previews when sharing links
+
+## What's left to do (by priority)
+- [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)
+- [ ] **Realtime live counts** — Supabase Realtime subscription so bars update when others vote, no manual refresh
+- [ ] **Pre-filled social share buttons** — WhatsApp / X / "Copy link" with prepared text
+- [ ] **Poll expiration** — auto-close after N hours (optional, premium-tier hook)
+- [ ] **Niche-down the landing copy** — pick one audience and tailor the homepage
+- [ ] Seed 20 funny polls for the launch
+- [ ] (Optional v2) Emoji reactions on top of vote
 - [ ] (Optional v2) Auth (Google) so users can find their past polls
-- [ ] (Optional v2) Premium tier : custom branding, unlimited polls, CSV export
-- [ ] (Optional) Open Graph image generator so shared links look slick
+- [ ] (Optional v2) Premium tier : custom branding, unlimited polls, CSV export, longer slugs
+
+## Session continuity
+**At the end of each significant change**, update this file's "Done so far" / "What's left to do" sections so a fresh session can pick up cold. The user explicitly asked for this so a PC shutdown doesn't lose context.
 
 ## Reusable commands
 ```powershell

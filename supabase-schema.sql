@@ -21,6 +21,16 @@ create table if not exists votes (
 
 create index if not exists votes_poll_id_idx on votes(poll_id);
 
+-- Realtime: stream INSERTs on votes to subscribed clients.
+do $$ begin
+  if not exists (
+    select 1 from pg_publication_tables
+    where pubname = 'supabase_realtime' and schemaname = 'public' and tablename = 'votes'
+  ) then
+    execute 'alter publication supabase_realtime add table votes';
+  end if;
+end $$;
+
 -- RLS: allow public read + insert via anon key (no auth needed for v1).
 alter table polls enable row level security;
 alter table votes enable row level security;
