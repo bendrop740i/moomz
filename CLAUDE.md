@@ -83,6 +83,16 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] **History pages** : `/mes-votes` (polls the user voted on, via `moomz_voted_slugs` cookie) and `/mes-sondages` (polls the user created, via `moomz_created_slugs` cookie). Both server-render the list ordered by recency with vote counts.
 - [x] **Bottom nav** (`app/bottom-nav.tsx`) sticky at viewport bottom: 4 tabs (Home / Discover / Mes votes / Mes polls), uses `usePathname` for active state. Glass background + safe-area padding for iOS.
 - [x] **Slug history helper** (`lib/history.ts` + `pushSlugToHistory` in `app/actions.ts`) — single cookie per category, 50-slug LRU ring buffer. Replaces the previous per-slug cookie sprawl for tracking interaction lists.
+- [x] **100 WTF seed polls** (`seed001`-`seed100`) with `is_seed = TRUE` flag. 4161 initial bot votes spread over the last 14 days. Provides immediate content for first-time visitors.
+- [x] **pg_cron bot** (`fake_vote_burst()` scheduled `* * * * *`) — every minute, picks up to 4 polls weighted 3:1 toward real (non-seed) polls, adds 1-4 votes with bot voter IDs (`bot_<md5>`). Uses an age-based time curve so new polls don't explode: <3min = 1 vote max, <15min = 2, <2h = 3, older = 4.
+- [x] **Trending view boost** — `polls_trending` includes 1.8× multiplier for real polls and 2.5× for polls created in the last 30 min, ensuring new user content surfaces fast.
+- [x] **Activity signals** — `recent_votes` (votes in last 10 min) exposed by the view; PollCard shows `📈 rising` badge when `recent_votes ≥ 4` and `✨ new` badge when poll age < 30 min.
+- [x] **Flame burst** 🔥 animation on every incoming realtime vote (CSS-only, points to the option that gained the vote). Pairs with a `count-bump` micro-pop on the % number.
+- [x] **Voted polls filtered out** of home and discover feeds — they only appear in `/mes-votes`. Skipped polls likewise (via `moomz_skipped_slugs` cookie).
+- [x] **Scroll-aware bottom nav** — translates off-screen on scroll-down past 60px, reappears on scroll-up. Implemented via `requestAnimationFrame` debounce in `BottomNav`.
+- [x] **i18n (8 languages)** — `lib/i18n.ts` with dictionaries for FR EN ES IT PT DE JA ZH. Server-side: `lib/i18n-server.ts` reads `moomz_locale` cookie or falls back to `Accept-Language`. Client-side: `LocaleProvider` + `useT()` hook. Locale switcher rendered in the page footer with native language names. Fallback chain: requested → en → fr → key.
+- [x] **Notif badge** in BottomNav for `/mes-sondages` — polls with new votes since last seen. Read via `/api/polls-stats` (slug list → vote_count map). Cleared when user opens a poll (cookie `moomz_seen_<slug>` set to current `voteCount`).
+- [x] **"Se connecter" placeholder** in `/mes-votes` only — sets up the upcoming auth flow without leaking it into other surfaces.
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)

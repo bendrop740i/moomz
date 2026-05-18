@@ -59,8 +59,10 @@ export default function PollCard({
     myVoterIdRef.current = match ? decodeURIComponent(match[1]) : null;
   }, []);
 
+  // Preload counts as soon as the card mounts so an upcoming vote can do
+  // an accurate optimistic increment (instead of jumping from 100% to real %).
   useEffect(() => {
-    if (!showResults || counts) return;
+    if (counts) return;
     let cancelled = false;
     refreshCounts(pollId, options.length).then((res) => {
       if (cancelled) return;
@@ -70,7 +72,7 @@ export default function PollCard({
     return () => {
       cancelled = true;
     };
-  }, [showResults, pollId, options.length, counts]);
+  }, [pollId, options.length, counts]);
 
   useEffect(() => {
     if (!showResults) return;
@@ -112,9 +114,18 @@ export default function PollCard({
   const vote = (i: number) => {
     if (voted !== null || pending) return;
     setVoted(i);
-    setTotal(total + 1);
-    const optimistic = options.map((_, idx) => (idx === i ? 1 : 0));
-    setCounts(optimistic);
+    setTotal((t) => t + 1);
+    // Optimistic: increment the chosen option on top of current counts (which
+    // were preloaded on mount). If counts haven't loaded yet, fall back to a
+    // neutral starting array so we don't pretend it's 100%.
+    setCounts((c) => {
+      if (c) {
+        const next = [...c];
+        next[i] = (next[i] ?? 0) + 1;
+        return next;
+      }
+      return options.map(() => 0).map((_, idx) => (idx === i ? 1 : 0));
+    });
     setConfettiKey((k) => k + 1);
 
     startTransition(async () => {
