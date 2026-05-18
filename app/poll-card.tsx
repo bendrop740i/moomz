@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useTransition } from "react";
 import Link from "next/link";
-import { castVote, refreshCounts } from "./actions";
+import { castVote, refreshCounts, skipPoll } from "./actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import AnimatedNumber from "./animated-number";
 import Confetti from "./confetti";
@@ -17,6 +17,7 @@ type Props = {
   initialVoteCount: number;
   alreadyVoted: number | null;
   isHot?: boolean;
+  onSkip?: () => void;
 };
 
 export default function PollCard({
@@ -27,7 +28,9 @@ export default function PollCard({
   initialVoteCount,
   alreadyVoted,
   isHot,
+  onSkip,
 }: Props) {
+  const [skipped, setSkipped] = useState(false);
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[] | null>(null);
@@ -185,13 +188,32 @@ export default function PollCard({
         <span>
           <AnimatedNumber value={total} /> vote{total > 1 ? "s" : ""}
         </span>
-        <Link
-          href={`/${slug}`}
-          className="hover:text-white transition flex items-center gap-1"
-        >
-          Détail + partage →
-        </Link>
+        <div className="flex items-center gap-3">
+          {!showResults && (
+            <button
+              onClick={() => {
+                setSkipped(true);
+                skipPoll(slug).catch(() => {});
+                if (onSkip) setTimeout(onSkip, 200);
+              }}
+              className="hover:text-white transition"
+            >
+              passer ↓
+            </button>
+          )}
+          <Link
+            href={`/${slug}`}
+            className="hover:text-white transition flex items-center gap-1"
+          >
+            Détail + partage →
+          </Link>
+        </div>
       </div>
+      {skipped && (
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center text-white/60 rounded-3xl">
+          Passé ↓
+        </div>
+      )}
     </article>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk } from "next/font/google";
+import BottomNav from "./bottom-nav";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -40,7 +41,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="blob blob-3" />
         </div>
         <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
-        <main className="relative mx-auto w-full max-w-xl px-5 py-10 sm:py-16">{children}</main>
+        <main className="relative mx-auto w-full max-w-xl px-5 pt-8 sm:pt-12 pb-28">{children}</main>
+        <BottomNav />
       </body>
     </html>
   );

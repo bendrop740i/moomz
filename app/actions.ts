@@ -27,6 +27,22 @@ function voterId() {
   return id;
 }
 
+const HISTORY_LIMIT = 50;
+
+function pushSlugToHistory(cookieName: string, slug: string) {
+  const jar = cookies();
+  const raw = jar.get(cookieName)?.value ?? "";
+  const list = raw ? raw.split(",").filter(Boolean) : [];
+  const filtered = list.filter((s) => s !== slug);
+  filtered.unshift(slug);
+  const trimmed = filtered.slice(0, HISTORY_LIMIT);
+  jar.set(cookieName, trimmed.join(","), {
+    sameSite: "lax",
+    maxAge: 60 * 60 * 24 * 365,
+    path: "/",
+  });
+}
+
 export async function createPoll(formData: FormData) {
   const question = String(formData.get("question") || "").trim();
   const optionsRaw = formData.getAll("option").map((o) => String(o).trim()).filter(Boolean);
@@ -53,7 +69,13 @@ export async function createPoll(formData: FormData) {
   });
   if (error) throw new Error(error.message);
 
+  pushSlugToHistory("moomz_created_slugs", slug);
+
   redirect(`/${slug}`);
+}
+
+export async function skipPoll(slug: string) {
+  pushSlugToHistory("moomz_skipped_slugs", slug);
 }
 
 export async function castVote(
@@ -77,6 +99,7 @@ export async function castVote(
     maxAge: 60 * 60 * 24 * 365,
     path: "/",
   });
+  pushSlugToHistory("moomz_voted_slugs", slug);
 
   const { data: votes } = await supabase
     .from("votes")
