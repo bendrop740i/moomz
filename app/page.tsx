@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { createPoll } from "./actions";
 
+const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
+
 export default function HomePage() {
   const [options, setOptions] = useState(["", ""]);
   const [pending, setPending] = useState(false);
@@ -17,10 +19,15 @@ export default function HomePage() {
     options.length > 2 && setOptions(options.filter((_, idx) => idx !== i));
 
   return (
-    <div className="space-y-8">
-      <header className="text-center space-y-2">
-        <h1 className="text-5xl font-black tracking-tight">moomz</h1>
-        <p className="text-neutral-600">Pose ta question. Partage le lien. Vois la vibe.</p>
+    <div className="space-y-10 fade-up">
+      <header className="text-center space-y-3">
+        <h1 className="text-6xl sm:text-7xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+          moomz
+        </h1>
+        <p className="text-white/60 text-lg text-balance">
+          Pose ta question. Partage le lien.<br className="hidden sm:block" />
+          Vois la vibe en live.
+        </p>
       </header>
 
       <form
@@ -33,23 +40,28 @@ export default function HomePage() {
             setPending(false);
           }
         }}
-        className="space-y-4 rounded-3xl bg-white/70 backdrop-blur p-6 shadow-xl shadow-pink-100/40 border border-white"
+        className="glass rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10"
       >
         <div>
-          <label className="block text-sm font-medium mb-1">Ta question</label>
+          <label className="block text-sm font-medium mb-2 text-white/70">
+            Ta question
+          </label>
           <input
             name="question"
             required
             maxLength={200}
             placeholder="Pizza ananas, oui ou non ?"
-            className="w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-lg outline-none focus:ring-2 focus:ring-pink-300"
+            className="w-full rounded-2xl bg-white/5 border border-white/10 px-4 py-4 text-xl font-medium outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
           />
         </div>
 
-        <div className="space-y-2">
-          <label className="block text-sm font-medium">Options</label>
+        <div className="space-y-2.5">
+          <label className="block text-sm font-medium text-white/70">Options</label>
           {options.map((opt, i) => (
-            <div key={i} className="flex gap-2">
+            <div key={i} className="flex gap-2 items-center group">
+              <span className="text-2xl select-none" aria-hidden>
+                {EMOJIS[i]}
+              </span>
               <input
                 name="option"
                 required
@@ -57,13 +69,13 @@ export default function HomePage() {
                 value={opt}
                 onChange={(e) => updateOption(i, e.target.value)}
                 placeholder={`Option ${i + 1}`}
-                className="flex-1 rounded-xl border border-neutral-200 bg-white px-4 py-2.5 outline-none focus:ring-2 focus:ring-pink-300"
+                className="flex-1 rounded-xl bg-white/5 border border-white/10 px-4 py-3 outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
               />
               {options.length > 2 && (
                 <button
                   type="button"
                   onClick={() => removeOption(i)}
-                  className="rounded-xl px-3 text-neutral-400 hover:text-red-500 hover:bg-red-50 transition"
+                  className="rounded-xl w-10 h-10 flex items-center justify-center text-white/40 hover:text-red-400 hover:bg-red-500/10 transition"
                   aria-label="Supprimer"
                 >
                   ×
@@ -75,7 +87,7 @@ export default function HomePage() {
             <button
               type="button"
               onClick={addOption}
-              className="text-sm text-neutral-500 hover:text-neutral-800 transition"
+              className="text-sm text-white/50 hover:text-white transition ml-9"
             >
               + ajouter une option
             </button>
@@ -85,14 +97,14 @@ export default function HomePage() {
         <button
           type="submit"
           disabled={pending}
-          className="w-full rounded-xl bg-neutral-900 text-white font-semibold py-3 text-lg hover:bg-neutral-700 transition disabled:opacity-50"
+          className="w-full rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-4 text-lg hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
         >
           {pending ? "Création…" : "Créer le moomz →"}
         </button>
       </form>
 
-      <p className="text-center text-xs text-neutral-400">
-        Gratuit, pas de compte, lien partageable instantanément.
+      <p className="text-center text-xs text-white/30">
+        Gratuit · pas de compte · partage instantané
       </p>
     </div>
   );

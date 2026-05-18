@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import { useRouter } from "next/navigation";
-import { castVote } from "../actions";
+import { castVote, refreshCounts } from "../actions";
+
+const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
 type Props = {
   pollId: string;
@@ -19,34 +20,56 @@ export default function VoteClient({
   slug,
   question,
   options,
-  counts,
-  total,
+  counts: initialCounts,
+  total: initialTotal,
   alreadyVoted,
 }: Props) {
-  const router = useRouter();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
+  const [counts, setCounts] = useState<number[]>(initialCounts);
+  const [total, setTotal] = useState<number>(initialTotal);
   const [copied, setCopied] = useState(false);
+  const [animKey, setAnimKey] = useState(0);
 
   const showResults = voted !== null;
 
   const vote = (i: number) => {
-    if (voted !== null) return;
+    if (voted !== null || pending) return;
     setVoted(i);
+    const optimistic = [...counts];
+    optimistic[i] = (optimistic[i] ?? 0) + 1;
+    setCounts(optimistic);
+    setTotal(total + 1);
+    setAnimKey((k) => k + 1);
+
     startTransition(async () => {
       try {
-        await castVote(pollId, slug, i);
-        router.refresh();
+        const res = await castVote(pollId, slug, i, options.length);
+        setCounts(res.counts);
+        setTotal(res.total);
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");
         setVoted(null);
+        setCounts(initialCounts);
+        setTotal(initialTotal);
       }
+    });
+  };
+
+  const refresh = () => {
+    startTransition(async () => {
+      try {
+        const res = await refreshCounts(pollId, options.length);
+        setCounts(res.counts);
+        setTotal(res.total);
+        setAnimKey((k) => k + 1);
+      } catch {}
     });
   };
 
   const share = async () => {
     const url = typeof window !== "undefined" ? window.location.href : "";
-    if (navigator.share) {
+    if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({ title: "moomz", text: question, url });
         return;
@@ -58,19 +81,22 @@ export default function VoteClient({
   };
 
   return (
-    <div className="space-y-8">
-      <header className="text-center space-y-2">
-        <a href="/" className="text-2xl font-black tracking-tight inline-block">
+    <div className="space-y-8 fade-up">
+      <header className="text-center">
+        <a
+          href="/"
+          className="inline-block text-3xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent"
+        >
           moomz
         </a>
       </header>
 
-      <div className="rounded-3xl bg-white/70 backdrop-blur p-6 shadow-xl shadow-pink-100/40 border border-white space-y-5">
-        <h1 className="text-2xl font-bold leading-tight">{question}</h1>
+      <div className="glass rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10">
+        <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-balance">{question}</h1>
 
-        <div className="space-y-2">
+        <div className="space-y-2.5">
           {options.map((opt, i) => {
-            const c = counts[i];
+            const c = counts[i] ?? 0;
             const pct = total > 0 ? Math.round((c / total) * 100) : 0;
             const isMine = voted === i;
 
@@ -80,32 +106,43 @@ export default function VoteClient({
                   key={i}
                   onClick={() => vote(i)}
                   disabled={pending}
-                  className="w-full text-left rounded-xl border-2 border-neutral-200 bg-white px-4 py-3 hover:border-pink-400 hover:bg-pink-50 transition disabled:opacity-50"
+                  className="w-full text-left rounded-2xl border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-4 py-4 flex items-center gap-3 disabled:opacity-50"
                 >
-                  {opt}
+                  <span className="text-2xl">{EMOJIS[i]}</span>
+                  <span className="font-medium text-lg">{opt}</span>
                 </button>
               );
             }
 
             return (
               <div
-                key={i}
-                className={`relative overflow-hidden rounded-xl border-2 ${
-                  isMine ? "border-pink-400" : "border-neutral-200"
-                } bg-white px-4 py-3`}
+                key={`${i}-${animKey}`}
+                className={`relative overflow-hidden rounded-2xl border-2 ${
+                  isMine ? "border-pink-400/60" : "border-white/10"
+                } bg-white/5 px-4 py-4 ${isMine ? "pop" : ""}`}
               >
                 <div
                   className={`absolute inset-y-0 left-0 ${
-                    isMine ? "bg-pink-100" : "bg-neutral-100"
-                  } transition-all`}
+                    isMine
+                      ? "bg-gradient-to-r from-pink-500/40 to-purple-500/40"
+                      : "bg-white/8"
+                  } bar-grow`}
                   style={{ width: `${pct}%` }}
                 />
-                <div className="relative flex justify-between items-center font-medium">
-                  <span>
-                    {opt} {isMine && <span className="text-pink-500 text-sm">· ton vote</span>}
-                  </span>
-                  <span className="tabular-nums text-sm text-neutral-600">
-                    {pct}% · {c}
+                <div className="relative flex justify-between items-center gap-3">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <span className="text-2xl shrink-0">{EMOJIS[i]}</span>
+                    <span className="font-semibold text-lg truncate">
+                      {opt}
+                      {isMine && (
+                        <span className="ml-2 text-pink-300 text-xs uppercase tracking-wide">
+                          · toi
+                        </span>
+                      )}
+                    </span>
+                  </div>
+                  <span className="tabular-nums text-sm font-semibold text-white/80 shrink-0">
+                    {pct}% <span className="text-white/40 font-normal">· {c}</span>
                   </span>
                 </div>
               </div>
@@ -114,22 +151,31 @@ export default function VoteClient({
         </div>
 
         {showResults && (
-          <p className="text-center text-sm text-neutral-500">
-            {total} vote{total > 1 ? "s" : ""} au total
-          </p>
+          <div className="flex items-center justify-between text-sm text-white/50">
+            <span>
+              {total} vote{total > 1 ? "s" : ""} au total
+            </span>
+            <button
+              onClick={refresh}
+              disabled={pending}
+              className="hover:text-white transition disabled:opacity-50"
+            >
+              ⟳ rafraîchir
+            </button>
+          </div>
         )}
       </div>
 
       <div className="flex gap-2">
         <button
           onClick={share}
-          className="flex-1 rounded-xl bg-neutral-900 text-white font-semibold py-3 hover:bg-neutral-700 transition"
+          className="flex-1 rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-4 hover:scale-[1.02] active:scale-[0.98] transition shadow-lg shadow-pink-500/30"
         >
-          {copied ? "Lien copié ✓" : "Partager le lien"}
+          {copied ? "Lien copié ✓" : "📤 Partager le lien"}
         </button>
         <a
           href="/"
-          className="rounded-xl border-2 border-neutral-200 bg-white font-semibold py-3 px-4 hover:border-neutral-400 transition flex items-center"
+          className="rounded-2xl border-2 border-white/15 bg-white/5 hover:bg-white/10 font-semibold py-4 px-5 transition flex items-center"
         >
           + nouveau
         </a>

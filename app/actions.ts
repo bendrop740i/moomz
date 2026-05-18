@@ -56,7 +56,12 @@ export async function createPoll(formData: FormData) {
   redirect(`/${slug}`);
 }
 
-export async function castVote(pollId: string, slug: string, optionIndex: number) {
+export async function castVote(
+  pollId: string,
+  slug: string,
+  optionIndex: number,
+  optionCount: number,
+): Promise<{ counts: number[]; total: number }> {
   const id = voterId();
   const supabase = getSupabase();
   const { error } = await supabase.from("votes").insert({
@@ -64,7 +69,6 @@ export async function castVote(pollId: string, slug: string, optionIndex: number
     option_index: optionIndex,
     voter_id: id,
   });
-  // unique violation = déjà voté, on ignore
   if (error && !error.message.toLowerCase().includes("duplicate")) {
     throw new Error(error.message);
   }
@@ -73,4 +77,31 @@ export async function castVote(pollId: string, slug: string, optionIndex: number
     maxAge: 60 * 60 * 24 * 365,
     path: "/",
   });
+
+  const { data: votes } = await supabase
+    .from("votes")
+    .select("option_index")
+    .eq("poll_id", pollId);
+
+  const counts = Array.from({ length: optionCount }, (_, i) =>
+    votes?.filter((v) => v.option_index === i).length ?? 0,
+  );
+  const total = counts.reduce((a, b) => a + b, 0);
+  return { counts, total };
+}
+
+export async function refreshCounts(
+  pollId: string,
+  optionCount: number,
+): Promise<{ counts: number[]; total: number }> {
+  const supabase = getSupabase();
+  const { data: votes } = await supabase
+    .from("votes")
+    .select("option_index")
+    .eq("poll_id", pollId);
+  const counts = Array.from({ length: optionCount }, (_, i) =>
+    votes?.filter((v) => v.option_index === i).length ?? 0,
+  );
+  const total = counts.reduce((a, b) => a + b, 0);
+  return { counts, total };
 }
