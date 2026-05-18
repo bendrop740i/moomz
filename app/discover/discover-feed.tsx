@@ -46,6 +46,13 @@ export default function DiscoverFeed({
     setPolls((curr) => curr.filter((p) => p.slug !== slug));
   };
 
+  const scrollToNext = () => {
+    const el = containerRef.current;
+    if (!el) return;
+    const slideHeight = el.clientHeight;
+    el.scrollTo({ top: el.scrollTop + slideHeight, behavior: "smooth" });
+  };
+
   if (polls.length === 0) {
     return (
       <div className="h-[calc(100vh-6rem)] flex flex-col items-center justify-center gap-4 text-center px-6">
@@ -96,6 +103,7 @@ export default function DiscoverFeed({
                   isNew={isNew}
                   isRising={isRising}
                   onSkip={() => skip(p.slug)}
+                  onVoted={scrollToNext}
                 />
                 <div className="mt-3 text-center text-[11px] uppercase tracking-widest text-white/30">
                   {i + 1} / {polls.length} · {t("discover.swipe")}

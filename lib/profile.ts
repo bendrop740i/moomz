@@ -9,6 +9,8 @@ export type Profile = {
   socials: Record<string, string>;
   avatar_emoji: string;
   created_at: string;
+  total_points?: number | null;
+  top_streak?: number | null;
 };
 
 export type PrivateProfile = Profile & { claim_token: string };
@@ -19,7 +21,7 @@ export async function getMyProfile(): Promise<PrivateProfile | null> {
   const supabase = getSupabase();
   const { data } = await supabase
     .from("profiles")
-    .select("id,username,display_name,bio,socials,avatar_emoji,claim_token,created_at")
+    .select("id,username,display_name,bio,socials,avatar_emoji,claim_token,created_at,total_points,top_streak")
     .eq("claim_token", token)
     .maybeSingle();
   return (data as PrivateProfile | null) ?? null;

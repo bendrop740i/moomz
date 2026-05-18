@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useTransition } from "react";
 import { castVote, refreshCounts } from "../actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
+import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "../animated-number";
 
 type Props = {
@@ -36,6 +37,7 @@ export default function VoteClient({
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
+  const pal = paletteFor(slug);
 
   useEffect(() => {
     const match = typeof document !== "undefined"
@@ -162,7 +164,12 @@ export default function VoteClient({
       </header>
 
       <div className="glass rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10">
-        <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-balance">{question}</h1>
+        <h1
+          className="text-3xl sm:text-4xl font-bold leading-tight text-balance bg-clip-text text-transparent drop-shadow-[0_1px_10px_rgba(0,0,0,0.45)]"
+          style={{ backgroundImage: `linear-gradient(135deg, ${pal.c1}, #ffffff 55%, ${pal.c2})` }}
+        >
+          {question}
+        </h1>
 
         <div className="space-y-2.5">
           {options.map((opt, i) => {

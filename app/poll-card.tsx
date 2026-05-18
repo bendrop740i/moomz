@@ -5,6 +5,7 @@ import Link from "next/link";
 import { castVote, refreshCounts, skipPoll } from "./actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
+import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "./animated-number";
 import Confetti from "./confetti";
 import { useT } from "./locale-context";
@@ -21,6 +22,7 @@ type Props = {
   isNew?: boolean;
   isRising?: boolean;
   onSkip?: () => void;
+  onVoted?: () => void;
 };
 
 export default function PollCard({
@@ -35,6 +37,7 @@ export default function PollCard({
   isNew,
   isRising,
   onSkip,
+  onVoted,
 }: Props) {
   const [skipped, setSkipped] = useState(false);
   const t = useT();
@@ -69,6 +72,7 @@ export default function PollCard({
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
+  const pal = paletteFor(slug);
 
   useEffect(() => {
     const match =
@@ -164,6 +168,7 @@ export default function PollCard({
             },
           }),
         );
+        if (onVoted) setTimeout(onVoted, 1400);
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");
         setVoted(null);
@@ -192,7 +197,12 @@ export default function PollCard({
       )}
 
       <div className="flex items-start justify-between gap-2">
-        <h3 className="text-lg sm:text-xl font-bold leading-tight text-balance flex-1">
+        <h3
+          className="text-lg sm:text-xl font-bold leading-tight text-balance flex-1 bg-clip-text text-transparent drop-shadow-[0_1px_8px_rgba(0,0,0,0.4)]"
+          style={{
+            backgroundImage: `linear-gradient(135deg, ${pal.c1}, #ffffff 55%, ${pal.c2})`,
+          }}
+        >
           {question}
         </h3>
         <div className="flex flex-col items-end gap-1 shrink-0">
