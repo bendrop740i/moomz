@@ -2,10 +2,11 @@ import { cookies } from "next/headers";
 import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
+import { emojisFor } from "@/lib/emojis";
+import { getLocale } from "@/lib/i18n-server";
+import { t } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
-
-const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
 type Row = {
   slug: string;
@@ -25,6 +26,8 @@ function timeAgo(iso: string): string {
 }
 
 export default async function MesSondagesPage() {
+  const locale = getLocale();
+  const tx = (k: string) => t(k, locale);
   const slugs = readSlugHistory("moomz_created_slugs");
   const jar = cookies();
 
@@ -51,29 +54,29 @@ export default async function MesSondagesPage() {
     <div className="space-y-6 fade-up">
       <header className="space-y-1">
         <div className="flex items-center gap-2">
-          <h1 className="text-3xl font-bold tracking-tight">Mes sondages</h1>
+          <h1 className="text-3xl font-bold tracking-tight">{tx("polls.title")}</h1>
           {totalNew > 0 && (
             <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-pink-200">
-              +{totalNew} new
+              +{totalNew} {tx("polls.newBadge")}
             </span>
           )}
         </div>
         <p className="text-white/50 text-xs sm:text-sm">
           {polls.length > 0
-            ? `${polls.length} sondage${polls.length > 1 ? "s" : ""} · ${totalVotes} vote${totalVotes > 1 ? "s" : ""} reçu${totalVotes > 1 ? "s" : ""}`
-            : "Pas encore de sondages créés."}
+            ? `${polls.length} · ${totalVotes} ${totalVotes > 1 ? tx("card.votes") : tx("card.vote")}`
+            : tx("polls.empty")}
         </p>
       </header>
 
       {polls.length === 0 ? (
         <div className="glass rounded-2xl p-6 text-center space-y-3">
           <div className="text-4xl">📊</div>
-          <p className="text-white/60 text-sm">Crée ton premier moomz.</p>
+          <p className="text-white/60 text-sm">{tx("polls.emptyBody")}</p>
           <Link
             href="/"
             className="inline-block rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-2.5 px-5 text-sm hover:scale-[1.02] active:scale-[0.98] transition shadow-lg shadow-pink-500/30"
           >
-            Créer →
+            {tx("polls.emptyCta")}
           </Link>
         </div>
       ) : (
@@ -81,6 +84,7 @@ export default async function MesSondagesPage() {
           {polls.map((p, idx) => {
             const seen = Number(jar.get(`moomz_seen_${p.slug}`)?.value ?? 0);
             const newVotes = Math.max(0, p.vote_count - seen);
+            const E = emojisFor(p.slug, p.options.length);
             return (
               <Link
                 key={p.slug}
@@ -106,7 +110,7 @@ export default async function MesSondagesPage() {
                           key={i}
                           className="inline-flex items-center gap-0.5 bg-white/5 rounded-full px-1.5 py-0.5"
                         >
-                          <span>{EMOJIS[i]}</span>
+                          <span>{E[i]}</span>
                           <span className="truncate max-w-[60px] sm:max-w-[80px]">{opt}</span>
                         </span>
                       ))}
@@ -120,7 +124,7 @@ export default async function MesSondagesPage() {
                       {p.vote_count}
                     </div>
                     <div className="text-[9px] uppercase tracking-wide text-white/30">
-                      vote{p.vote_count > 1 ? "s" : ""}
+                      {p.vote_count > 1 ? tx("card.votes") : tx("card.vote")}
                     </div>
                     <div className="text-[9px] text-white/30 mt-0.5">
                       {timeAgo(p.created_at)}

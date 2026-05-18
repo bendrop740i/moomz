@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { getLocale } from "@/lib/i18n-server";
+import { t } from "@/lib/i18n";
 
 export default function NotFound() {
+  const locale = getLocale();
+  const tx = (k: string) => t(k, locale);
+
   return (
     <div className="space-y-8 fade-up text-center">
       <header className="space-y-3">
@@ -15,12 +20,8 @@ export default function NotFound() {
       <div className="glass rounded-3xl p-8 space-y-5 shadow-2xl shadow-pink-500/10">
         <div className="text-8xl">👀</div>
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold">Ce moomz n'existe pas</h1>
-          <p className="text-white/60 text-base text-balance">
-            Le sondage que tu cherches a été supprimé ou n'a jamais existé.
-            <br />
-            Le lien est peut-être tapé de travers ?
-          </p>
+          <h1 className="text-3xl font-bold">{tx("notFound.title")}</h1>
+          <p className="text-white/60 text-base text-balance">{tx("notFound.body")}</p>
         </div>
       </div>
 
@@ -28,7 +29,7 @@ export default function NotFound() {
         href="/"
         className="inline-block rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-4 px-8 hover:scale-[1.02] active:scale-[0.98] transition shadow-lg shadow-pink-500/30"
       >
-        Créer un sondage →
+        {tx("notFound.cta")}
       </Link>
     </div>
   );

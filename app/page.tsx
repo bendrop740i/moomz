@@ -2,6 +2,7 @@ import { cookies } from "next/headers";
 import CreatePollForm from "./create-poll-form";
 import PollCard from "./poll-card";
 import { getSupabase } from "@/lib/supabase";
+import { readSlugHistory } from "@/lib/history";
 
 export const dynamic = "force-dynamic";
 
@@ -12,16 +13,17 @@ type TrendingPoll = {
   options: string[];
   created_at: string;
   vote_count: number;
+  recent_votes: number;
   trending_score: number;
   last_vote_at: string | null;
 };
 
-async function getTrending(limit = 15): Promise<TrendingPoll[]> {
+async function getTrending(limit = 30): Promise<TrendingPoll[]> {
   try {
     const supabase = getSupabase();
     const { data } = await supabase
       .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,trending_score,last_vote_at")
+      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at")
       .order("trending_score", { ascending: false })
       .limit(limit);
     return (data as TrendingPoll[]) ?? [];
@@ -30,8 +32,20 @@ async function getTrending(limit = 15): Promise<TrendingPoll[]> {
   }
 }
 
+import { getLocale } from "@/lib/i18n-server";
+import { t } from "@/lib/i18n";
+
 export default async function HomePage() {
-  const [polls, jar] = await Promise.all([getTrending(15), Promise.resolve(cookies())]);
+  const locale = getLocale();
+  const tx = (k: string) => t(k, locale);
+  const allPolls = await getTrending(30);
+  const jar = cookies();
+
+  const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));
+  const skippedSet = new Set(readSlugHistory("moomz_skipped_slugs"));
+  const polls = allPolls
+    .filter((p) => !votedSet.has(p.slug) && !skippedSet.has(p.slug))
+    .slice(0, 15);
 
   const top1Score = polls[0]?.trending_score ?? 0;
 
@@ -42,7 +56,7 @@ export default async function HomePage() {
           moomz
         </h1>
         <p className="text-white/50 text-sm sm:text-base text-balance">
-          Vote, partage, vois la vibe en live.
+          {tx("home.tagline")}
         </p>
       </header>
 
@@ -52,9 +66,11 @@ export default async function HomePage() {
         <section className="space-y-3">
           <div className="flex items-center justify-between">
             <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2">
-              <span>🔥 Trending</span>
+              <span>{tx("home.trending")}</span>
             </h2>
-            <span className="text-xs text-white/30">{polls.length} actifs</span>
+            <span className="text-xs text-white/30">
+              {polls.length} {tx("home.active")}
+            </span>
           </div>
           <div className="space-y-3">
             {polls.map((p, i) => {
@@ -64,6 +80,8 @@ export default async function HomePage() {
               const isLive = p.last_vote_at
                 ? Date.now() - new Date(p.last_vote_at).getTime() < 90_000
                 : false;
+              const isNew = Date.now() - new Date(p.created_at).getTime() < 30 * 60_000;
+              const isRising = (p.recent_votes ?? 0) >= 4 && !isNew;
               return (
                 <div
                   key={p.id}
@@ -79,6 +97,8 @@ export default async function HomePage() {
                     alreadyVoted={alreadyVoted}
                     isHot={isHot}
                     isLive={isLive}
+                    isNew={isNew}
+                    isRising={isRising}
                   />
                 </div>
               );
@@ -87,13 +107,11 @@ export default async function HomePage() {
         </section>
       ) : (
         <section className="text-center text-white/40 text-sm">
-          Pas encore de sondages — sois le premier.
+          {tx("home.empty")}
         </section>
       )}
 
-      <p className="text-center text-xs text-white/30">
-        Gratuit · pas de compte · partage instantané
-      </p>
+      <p className="text-center text-xs text-white/30">{tx("home.footer")}</p>
     </div>
   );
 }

@@ -3,14 +3,18 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import PollCard from "../poll-card";
+import { useT } from "../locale-context";
 
 type Poll = {
   id: string;
   slug: string;
   question: string;
   options: string[];
+  created_at: string;
   vote_count: number;
+  recent_votes: number;
   trending_score: number;
+  last_vote_at: string | null;
   alreadyVoted: number | null;
 };
 
@@ -21,6 +25,7 @@ export default function DiscoverFeed({
   polls: Poll[];
   topScore: number;
 }) {
+  const t = useT();
   const [polls, setPolls] = useState<Poll[]>(initialPolls);
   const [activeIdx, setActiveIdx] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -45,17 +50,19 @@ export default function DiscoverFeed({
     return (
       <div className="h-[calc(100vh-6rem)] flex flex-col items-center justify-center gap-4 text-center px-6">
         <div className="text-6xl">🌶️</div>
-        <p className="text-white/70 text-lg">Plus rien à découvrir.</p>
-        <p className="text-white/40 text-sm">Tu as tout vu — reviens plus tard.</p>
+        <p className="text-white/70 text-lg">{t("discover.empty")}</p>
+        <p className="text-white/40 text-sm">{t("discover.emptyHint")}</p>
         <Link
           href="/"
           className="rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 px-6 mt-2 hover:scale-[1.02] transition"
         >
-          Créer un sondage →
+          {t("discover.create")}
         </Link>
       </div>
     );
   }
+
+  const now = Date.now();
 
   return (
     <div className="relative">
@@ -66,6 +73,11 @@ export default function DiscoverFeed({
       >
         {polls.map((p, i) => {
           const isHot = topScore > 0 && p.trending_score >= topScore * 0.6 && p.vote_count >= 3;
+          const isNew = now - new Date(p.created_at).getTime() < 30 * 60_000;
+          const isRising = (p.recent_votes ?? 0) >= 4 && !isNew;
+          const isLive = p.last_vote_at
+            ? now - new Date(p.last_vote_at).getTime() < 90_000
+            : false;
           return (
             <section
               key={p.id}
@@ -80,10 +92,13 @@ export default function DiscoverFeed({
                   initialVoteCount={p.vote_count}
                   alreadyVoted={p.alreadyVoted}
                   isHot={isHot}
+                  isLive={isLive}
+                  isNew={isNew}
+                  isRising={isRising}
                   onSkip={() => skip(p.slug)}
                 />
                 <div className="mt-3 text-center text-[11px] uppercase tracking-widest text-white/30">
-                  {i + 1} / {polls.length} · glisse pour le suivant
+                  {i + 1} / {polls.length} · {t("discover.swipe")}
                 </div>
               </div>
             </section>

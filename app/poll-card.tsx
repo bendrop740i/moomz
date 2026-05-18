@@ -7,6 +7,7 @@ import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
 import AnimatedNumber from "./animated-number";
 import Confetti from "./confetti";
+import { useT } from "./locale-context";
 
 type Props = {
   pollId: string;
@@ -17,6 +18,8 @@ type Props = {
   alreadyVoted: number | null;
   isHot?: boolean;
   isLive?: boolean;
+  isNew?: boolean;
+  isRising?: boolean;
   onSkip?: () => void;
 };
 
@@ -29,9 +32,12 @@ export default function PollCard({
   alreadyVoted,
   isHot,
   isLive,
+  isNew,
+  isRising,
   onSkip,
 }: Props) {
   const [skipped, setSkipped] = useState(false);
+  const t = useT();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[] | null>(null);
@@ -134,15 +140,25 @@ export default function PollCard({
           {question}
         </h3>
         <div className="flex flex-col items-end gap-1 shrink-0">
-          {isHot && (
+          {isNew && (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-cyan-500/30 to-blue-500/30 border border-cyan-400/50 text-cyan-200">
+              ✨ new
+            </span>
+          )}
+          {isHot && !isNew && (
             <span className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-gradient-to-r from-orange-500/30 to-pink-500/30 border border-orange-400/40 text-orange-200">
-              🔥 hot
+              {t("card.hot")}
+            </span>
+          )}
+          {isRising && (
+            <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/50 text-purple-200">
+              📈 rising
             </span>
           )}
           {isLive && (
             <span className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200">
               <span className="live-dot w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
-              live
+              {t("card.live")}
             </span>
           )}
         </div>
@@ -190,7 +206,7 @@ export default function PollCard({
                   <span className="font-semibold truncate text-sm sm:text-base">{opt}</span>
                   {isMine && (
                     <span className="text-pink-300 text-[10px] uppercase tracking-wide shrink-0">
-                      toi
+                      {t("card.you")}
                     </span>
                   )}
                 </div>
@@ -220,7 +236,7 @@ export default function PollCard({
 
       <div className="flex items-center justify-between text-xs text-white/40">
         <span>
-          <AnimatedNumber value={total} /> vote{total > 1 ? "s" : ""}
+          <AnimatedNumber value={total} /> {total > 1 ? t("card.votes") : t("card.vote")}
         </span>
         <div className="flex items-center gap-3">
           {!showResults && (
@@ -232,20 +248,20 @@ export default function PollCard({
               }}
               className="hover:text-white transition"
             >
-              passer ↓
+              {t("card.skip")}
             </button>
           )}
           <Link
             href={`/${slug}`}
             className="hover:text-white transition flex items-center gap-1"
           >
-            Détail + partage →
+            {t("card.detail")}
           </Link>
         </div>
       </div>
       {skipped && (
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center text-white/60 rounded-3xl">
-          Passé ↓
+          {t("card.passed")}
         </div>
       )}
     </article>

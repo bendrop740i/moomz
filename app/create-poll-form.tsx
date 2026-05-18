@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createPoll } from "./actions";
+import { useT } from "./locale-context";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -23,6 +24,7 @@ const OPTION_EXAMPLES: [string, string][] = [
 ];
 
 export default function CreatePollForm() {
+  const t = useT();
   const [options, setOptions] = useState(["", ""]);
   const [pending, setPending] = useState(false);
   const [pIdx, setPIdx] = useState(0);
@@ -63,7 +65,7 @@ export default function CreatePollForm() {
     >
       <div>
         <label className="block text-xs font-medium mb-1.5 text-white/60 uppercase tracking-wider">
-          Question
+          {t("form.question.label")}
         </label>
         <input
           name="question"
@@ -76,7 +78,7 @@ export default function CreatePollForm() {
 
       <div className="space-y-2">
         <label className="block text-xs font-medium text-white/60 uppercase tracking-wider">
-          Options
+          {t("form.options.label")}
         </label>
         {options.map((opt, i) => (
           <div key={i} className="flex gap-2 items-center group">
@@ -110,7 +112,7 @@ export default function CreatePollForm() {
             onClick={addOption}
             className="text-xs text-white/50 hover:text-white transition ml-8"
           >
-            + ajouter une option
+            {t("form.add")}
           </button>
         )}
       </div>
@@ -120,7 +122,7 @@ export default function CreatePollForm() {
         disabled={pending}
         className="w-full rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 text-base sm:text-lg hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
       >
-        {pending ? "Création…" : "Créer le moomz →"}
+        {pending ? t("form.creating") : t("form.create")}
       </button>
     </form>
   );
