@@ -1,107 +1,112 @@
-"use client";
+import Link from "next/link";
+import CreatePollForm from "./create-poll-form";
+import { getSupabase } from "@/lib/supabase";
 
-import { useState } from "react";
-import { createPoll } from "./actions";
+export const dynamic = "force-dynamic";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
-export default function HomePage() {
-  const [options, setOptions] = useState(["", ""]);
-  const [pending, setPending] = useState(false);
+type RecentPoll = {
+  slug: string;
+  question: string;
+  options: string[];
+  vote_count: number;
+  created_at: string;
+};
 
-  const updateOption = (i: number, v: string) => {
-    const next = [...options];
-    next[i] = v;
-    setOptions(next);
-  };
-  const addOption = () => options.length < 6 && setOptions([...options, ""]);
-  const removeOption = (i: number) =>
-    options.length > 2 && setOptions(options.filter((_, idx) => idx !== i));
+async function getRecentPolls(): Promise<RecentPoll[]> {
+  try {
+    const supabase = getSupabase();
+    const { data } = await supabase
+      .from("polls_with_stats")
+      .select("slug,question,options,vote_count,created_at")
+      .gt("vote_count", 0)
+      .order("created_at", { ascending: false })
+      .limit(6);
+    return (data as RecentPoll[]) ?? [];
+  } catch {
+    return [];
+  }
+}
+
+function timeAgo(iso: string): string {
+  const s = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
+  if (s < 60) return `${s}s`;
+  if (s < 3600) return `${Math.floor(s / 60)}min`;
+  if (s < 86400) return `${Math.floor(s / 3600)}h`;
+  return `${Math.floor(s / 86400)}j`;
+}
+
+export default async function HomePage() {
+  const recent = await getRecentPolls();
 
   return (
-    <div className="space-y-10 fade-up">
+    <div className="space-y-12 fade-up">
       <header className="text-center space-y-3">
         <h1 className="text-6xl sm:text-7xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
           moomz
         </h1>
         <p className="text-white/60 text-lg text-balance">
-          Pose ta question. Partage le lien.<br className="hidden sm:block" />
+          Pose ta question. Partage le lien.
+          <br className="hidden sm:block" />
           Vois la vibe en live.
         </p>
       </header>
 
-      <form
-        action={async (fd) => {
-          setPending(true);
-          try {
-            await createPoll(fd);
-          } catch (e) {
-            alert(e instanceof Error ? e.message : "Erreur");
-            setPending(false);
-          }
-        }}
-        className="glass rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10"
-      >
-        <div>
-          <label className="block text-sm font-medium mb-2 text-white/70">
-            Ta question
-          </label>
-          <input
-            name="question"
-            required
-            maxLength={200}
-            placeholder="Pizza ananas, oui ou non ?"
-            className="w-full rounded-2xl bg-white/5 border border-white/10 px-4 py-4 text-xl font-medium outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
-          />
-        </div>
+      <CreatePollForm />
 
-        <div className="space-y-2.5">
-          <label className="block text-sm font-medium text-white/70">Options</label>
-          {options.map((opt, i) => (
-            <div key={i} className="flex gap-2 items-center group">
-              <span className="text-2xl select-none" aria-hidden>
-                {EMOJIS[i]}
-              </span>
-              <input
-                name="option"
-                required
-                maxLength={80}
-                value={opt}
-                onChange={(e) => updateOption(i, e.target.value)}
-                placeholder={`Option ${i + 1}`}
-                className="flex-1 rounded-xl bg-white/5 border border-white/10 px-4 py-3 outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
-              />
-              {options.length > 2 && (
-                <button
-                  type="button"
-                  onClick={() => removeOption(i)}
-                  className="rounded-xl w-10 h-10 flex items-center justify-center text-white/40 hover:text-red-400 hover:bg-red-500/10 transition"
-                  aria-label="Supprimer"
-                >
-                  ×
-                </button>
-              )}
-            </div>
-          ))}
-          {options.length < 6 && (
-            <button
-              type="button"
-              onClick={addOption}
-              className="text-sm text-white/50 hover:text-white transition ml-9"
-            >
-              + ajouter une option
-            </button>
-          )}
-        </div>
-
-        <button
-          type="submit"
-          disabled={pending}
-          className="w-full rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-4 text-lg hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
-        >
-          {pending ? "Création…" : "Créer le moomz →"}
-        </button>
-      </form>
+      {recent.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-sm uppercase tracking-widest text-white/40 font-medium">
+              Sondages en cours
+            </h2>
+            <span className="text-xs text-white/30">
+              {recent.length} récent{recent.length > 1 ? "s" : ""}
+            </span>
+          </div>
+          <div className="space-y-2.5">
+            {recent.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}`}
+                className="glass block rounded-2xl p-4 hover:bg-white/[0.08] hover:border-pink-400/30 transition group"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0 flex-1 space-y-1.5">
+                    <p className="font-semibold text-base leading-snug line-clamp-2 group-hover:text-white">
+                      {p.question}
+                    </p>
+                    <div className="flex items-center gap-1.5 text-xs text-white/40 flex-wrap">
+                      {p.options.slice(0, 4).map((opt, i) => (
+                        <span
+                          key={i}
+                          className="inline-flex items-center gap-1 bg-white/5 rounded-full px-2 py-0.5"
+                        >
+                          <span>{EMOJIS[i]}</span>
+                          <span className="truncate max-w-[80px]">{opt}</span>
+                        </span>
+                      ))}
+                      {p.options.length > 4 && (
+                        <span className="text-white/30">+{p.options.length - 4}</span>
+                      )}
+                    </div>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <div className="text-pink-300 font-semibold tabular-nums">
+                      {p.vote_count}
+                    </div>
+                    <div className="text-[10px] uppercase tracking-wide text-white/30">
+                      vote{p.vote_count > 1 ? "s" : ""}
+                    </div>
+                    <div className="text-[10px] text-white/30 mt-1">{timeAgo(p.created_at)}</div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <p className="text-center text-xs text-white/30">
         Gratuit · pas de compte · partage instantané

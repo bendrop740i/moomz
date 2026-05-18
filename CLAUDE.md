@@ -69,11 +69,13 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] Optimistic vote with server-side count sync (no `router.refresh` dance)
 - [x] moomz.com domain linked + DNS configured + HTTPS live
 - [x] Dynamic OG image per poll (`app/[slug]/opengraph-image.tsx`) + home OG (`app/opengraph-image.tsx`) — rich previews when sharing links
-- [x] **Realtime live counts** via Supabase Realtime subscription on `votes` table. Filter excludes the user's own voter_id (cookie-based) to avoid double-counting with the optimistic update. Requires `alter publication supabase_realtime add table votes;` to be run once in Supabase SQL editor (now part of `supabase-schema.sql`).
+- [x] **Realtime live counts** via Supabase Realtime subscription on `votes` table. Filter excludes the user's own voter_id (cookie-based) to avoid double-counting with the optimistic update. The realtime publication for `votes` was applied via the Supabase MCP on 2026-05-18.
+- [x] **Share buttons** (WhatsApp / X / Telegram / Copy link) on results screen with pre-filled text. Mobile fallback "Autre app…" uses `navigator.share`. WhatsApp uses brand green, X is black with new logo, Telegram is brand blue.
+- [x] **Dynamic favicon** at `app/icon.tsx` (64×64, gradient "m") + Apple touch icon at `app/apple-icon.tsx` (180×180, dark with blob bg).
+- [x] **Supabase MCP wired** via project-scoped `.mcp.json`. After session resume, MCP tools (`execute_sql`, `list_tables`, etc.) are available without re-auth.
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)
-- [ ] **Pre-filled social share buttons** — WhatsApp / X / "Copy link" with prepared text
 - [ ] **Poll expiration** — auto-close after N hours (optional, premium-tier hook)
 - [ ] **Niche-down the landing copy** — pick one audience and tailor the homepage
 - [ ] Seed 20 funny polls for the launch

@@ -21,6 +21,21 @@ create table if not exists votes (
 
 create index if not exists votes_poll_id_idx on votes(poll_id);
 
+-- Public view used by the home page to list recent polls + vote counts in one query.
+create or replace view polls_with_stats as
+select
+  p.id,
+  p.slug,
+  p.question,
+  p.options,
+  p.created_at,
+  coalesce(count(v.id), 0)::int as vote_count
+from polls p
+left join votes v on v.poll_id = p.id
+group by p.id, p.slug, p.question, p.options, p.created_at;
+
+grant select on polls_with_stats to anon, authenticated;
+
 -- Realtime: stream INSERTs on votes to subscribed clients.
 do $$ begin
   if not exists (
