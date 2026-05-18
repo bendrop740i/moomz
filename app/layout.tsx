@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
 import BottomNav from "./bottom-nav";
 import StreakHUD from "./streak-hud";
 import { LocaleProvider } from "./locale-context";
@@ -15,6 +15,14 @@ const font = Space_Grotesk({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
+  variable: "--font-sans",
+});
+
+const fontDisplay = Bagel_Fat_One({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+  variable: "--font-display",
 });
 
 export const metadata: Metadata = {
@@ -37,7 +45,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = getLocale();
   return (
-    <html lang={locale} className={font.className}>
+    <html lang={locale} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
         <LocaleProvider value={locale}>
           <div className="fixed inset-0 -z-10 bg-[#0b0613]" />

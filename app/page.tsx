@@ -52,7 +52,7 @@ export default async function HomePage() {
   return (
     <div className="space-y-7 fade-up">
       <header className="text-center space-y-1.5">
-        <h1 className="text-5xl sm:text-6xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+        <h1 className="font-display text-6xl sm:text-7xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(255,61,139,0.4)]">
           moomz
         </h1>
         <p className="text-white/50 text-sm sm:text-base text-balance">

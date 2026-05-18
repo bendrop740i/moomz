@@ -48,7 +48,7 @@ export default async function DiscoverPage() {
   return (
     <div className="fade-up -mx-5 -mt-8 sm:-mt-12">
       <header className="px-5 pb-3 pt-1 flex items-center justify-between">
-        <h1 className="text-2xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+        <h1 className="font-display text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
           {tx("discover.title")}
         </h1>
         <span className="text-[10px] uppercase tracking-widest text-white/40">

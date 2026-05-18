@@ -1,8 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type Streak = { pts: number; cur: number; top: number; ts: number };
+
+function multFor(streak: number) {
+  return streak >= 18 ? 5 : streak >= 12 ? 4 : streak >= 7 ? 3 : streak >= 3 ? 2 : 1;
+}
 
 function readStreak(): Streak | null {
   if (typeof document === "undefined") return null;
@@ -21,9 +25,13 @@ export default function StreakHUD() {
   const [streak, setStreak] = useState<Streak | null>(null);
   const [flash, setFlash] = useState(false);
   const [active, setActive] = useState(false);
+  const [milestone, setMilestone] = useState<{ mult: number; k: number } | null>(null);
+  const prevMultRef = useRef(1);
 
   useEffect(() => {
-    setStreak(readStreak());
+    const initial = readStreak();
+    setStreak(initial);
+    prevMultRef.current = initial ? multFor(initial.cur) : 1;
     const handler = (e: Event) => {
       const ev = e as CustomEvent<{ gained: number; total: number; streak: number; multiplier: number }>;
       setStreak((prev) => ({
@@ -34,6 +42,12 @@ export default function StreakHUD() {
       }));
       setFlash(true);
       setTimeout(() => setFlash(false), 600);
+      const newMult = ev.detail.multiplier;
+      if (newMult > prevMultRef.current && newMult >= 2) {
+        setMilestone({ mult: newMult, k: Date.now() });
+        setTimeout(() => setMilestone(null), 1500);
+      }
+      prevMultRef.current = newMult;
     };
     window.addEventListener("moomz:vote", handler);
     return () => window.removeEventListener("moomz:vote", handler);
@@ -50,28 +64,48 @@ export default function StreakHUD() {
     return () => clearInterval(id);
   }, [streak]);
 
-  if (!streak || streak.pts === 0) return null;
-
-  const multiplier =
-    streak.cur >= 18 ? 5 : streak.cur >= 12 ? 4 : streak.cur >= 7 ? 3 : streak.cur >= 3 ? 2 : 1;
+  const multiplier = streak ? multFor(streak.cur) : 1;
+  const hidden = !streak || streak.pts === 0;
 
   return (
-    <div className="pointer-events-none fixed top-3 right-3 z-30">
-      <div
-        className={`glass rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold transition ${
-          flash ? "scale-110" : "scale-100"
-        }`}
-      >
-        <span className="text-lg leading-none">{active && multiplier > 1 ? "🔥" : "⭐"}</span>
-        <span className="tabular-nums text-white">{streak.pts.toLocaleString()}</span>
-        {active && multiplier > 1 && (
-          <span
-            className={`tabular-nums text-pink-300 ${flash ? "count-bump" : ""}`}
+    <>
+      {!hidden && (
+        <div className="pointer-events-none fixed top-3 right-3 z-30">
+          <div
+            className={`glass rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold transition ${
+              flash ? "scale-110" : "scale-100"
+            }`}
           >
-            ×{multiplier}
-          </span>
-        )}
-      </div>
-    </div>
+            <span className="text-lg leading-none">{active && multiplier > 1 ? "🔥" : "⭐"}</span>
+            <span className="tabular-nums text-white">{streak!.pts.toLocaleString()}</span>
+            {active && multiplier > 1 && (
+              <span className={`tabular-nums text-pink-300 ${flash ? "count-bump" : ""}`}>
+                ×{multiplier}
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+
+      {milestone && (
+        <div className="pointer-events-none fixed inset-0 z-40 flex items-center justify-center">
+          <div
+            key={milestone.k}
+            className="comic-burst font-display tracking-tight text-center"
+            style={{
+              fontSize: "clamp(3.5rem, 12vw, 7rem)",
+              color: "#fff",
+              textShadow:
+                "0 0 0 #000, 4px 4px 0 #000, 0 0 30px #ff3d8b, 0 0 60px #7c3aed",
+              WebkitTextStroke: "2px #000",
+            }}
+          >
+            STREAK
+            <br />
+            <span style={{ color: "#ffd1e6" }}>×{milestone.mult}</span>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

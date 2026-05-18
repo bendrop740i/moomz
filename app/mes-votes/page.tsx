@@ -1,11 +1,25 @@
 import Link from "next/link";
+import { cookies } from "next/headers";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { emojisFor } from "@/lib/emojis";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
+import { getMyProfile } from "@/lib/profile";
 
 export const dynamic = "force-dynamic";
+
+type StreakCookie = { pts: number; cur: number; top: number; ts: number };
+
+function readStreakCookie(): StreakCookie | null {
+  const raw = cookies().get("moomz_streak")?.value;
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as StreakCookie;
+  } catch {
+    return null;
+  }
+}
 
 type Row = {
   slug: string;
@@ -17,6 +31,10 @@ type Row = {
 export default async function MesVotesPage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
+  const myProfile = await getMyProfile();
+  const streak = readStreakCookie();
+  const totalPts = myProfile?.total_points ?? streak?.pts ?? 0;
+  const topStreak = Math.max(myProfile?.top_streak ?? 0, streak?.top ?? 0);
 
   const slugs = readSlugHistory("moomz_voted_slugs");
 
@@ -44,21 +62,49 @@ export default async function MesVotesPage() {
         </p>
       </header>
 
-      <div className="glass rounded-2xl p-3 flex items-center justify-between gap-3 text-sm">
+      <div className="glass rounded-2xl p-4 grid grid-cols-3 gap-2 text-center">
         <div>
-          <div className="text-white/90 font-medium">Sync soon</div>
-          <div className="text-white/40 text-xs">
-            Lier ton compte pour retrouver tes votes partout
+          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-yellow-300 via-pink-400 to-purple-500 bg-clip-text text-transparent">
+            {totalPts.toLocaleString()}
           </div>
+          <div className="text-[10px] uppercase tracking-widest text-white/40">pts</div>
         </div>
-        <button
-          disabled
-          className="rounded-xl bg-white/10 border border-white/15 text-white/60 font-medium py-2 px-3 text-xs cursor-not-allowed"
-          title="Bientôt disponible"
-        >
-          Se connecter
-        </button>
+        <div>
+          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-orange-300 via-pink-400 to-red-500 bg-clip-text text-transparent">
+            🔥 {topStreak}
+          </div>
+          <div className="text-[10px] uppercase tracking-widest text-white/40">top streak</div>
+        </div>
+        <div>
+          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-cyan-300 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+            {polls.length}
+          </div>
+          <div className="text-[10px] uppercase tracking-widest text-white/40">votes</div>
+        </div>
       </div>
+
+      <Link
+        href="/me"
+        className="glass block rounded-2xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition"
+      >
+        <div className="flex items-center gap-3 text-sm">
+          <div className="text-2xl">{myProfile?.avatar_emoji ?? "✨"}</div>
+          <div className="flex-1 min-w-0">
+            {myProfile ? (
+              <>
+                <div className="font-semibold text-white">@{myProfile.username}</div>
+                <div className="text-white/40 text-xs">Tes points & top streak sont sauvegardés</div>
+              </>
+            ) : (
+              <>
+                <div className="font-semibold text-white">Sauvegarde tes points</div>
+                <div className="text-white/40 text-xs">Réserve ton username pour garder ton score</div>
+              </>
+            )}
+          </div>
+          <div className="text-pink-300 text-lg shrink-0">→</div>
+        </div>
+      </Link>
 
       {polls.length === 0 ? (
         <div className="glass rounded-2xl p-6 text-center space-y-3">
