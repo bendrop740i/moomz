@@ -49,6 +49,7 @@ export default function PollCard({
   const [bumpKey, setBumpKey] = useState<{ idx: number; k: number } | null>(null);
   const [flames, setFlames] = useState<{ id: number; idx: number }[]>([]);
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
+  const [reveal, setReveal] = useState<{ isMajority: boolean; isRebel: boolean; userPct: number } | null>(null);
   const [isVisible, setIsVisible] = useState(false);
   const myVoterIdRef = useRef<string | null>(null);
   const flameIdRef = useRef(0);
@@ -158,6 +159,7 @@ export default function PollCard({
         setTotal(res.total);
         setPointsToast({ k: Date.now(), gained: res.points.gained, mult: res.points.multiplier });
         setTimeout(() => setPointsToast(null), 1600);
+        setReveal({ isMajority: res.reveal.isMajority, isRebel: res.reveal.isRebel, userPct: res.reveal.userPct });
         window.dispatchEvent(
           new CustomEvent("moomz:vote", {
             detail: {
@@ -168,7 +170,12 @@ export default function PollCard({
             },
           }),
         );
-        if (onVoted) setTimeout(onVoted, 1400);
+        if (res.achievements.length > 0) {
+          window.dispatchEvent(
+            new CustomEvent("moomz:achievements", { detail: { ids: res.achievements } }),
+          );
+        }
+        if (onVoted) setTimeout(onVoted, 1800);
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");
         setVoted(null);
@@ -299,6 +306,26 @@ export default function PollCard({
           );
         })}
       </div>
+
+      {reveal && (
+        <div
+          className={`rounded-xl px-3 py-2 text-sm font-semibold text-center border ${
+            reveal.isRebel
+              ? "bg-gradient-to-r from-orange-500/20 to-pink-500/20 border-orange-400/40 text-orange-200"
+              : reveal.isMajority
+              ? "bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border-emerald-400/40 text-emerald-200"
+              : "bg-white/5 border-white/15 text-white/70"
+          }`}
+        >
+          {reveal.isRebel ? (
+            <>🌶️ <b>REBEL</b> · t'es dans les {reveal.userPct}%</>
+          ) : reveal.isMajority ? (
+            <>✅ avec la majorité · {reveal.userPct}%</>
+          ) : (
+            <>👀 partagé · {reveal.userPct}%</>
+          )}
+        </div>
+      )}
 
       <div className="flex items-center justify-between text-xs text-white/40">
         <span>

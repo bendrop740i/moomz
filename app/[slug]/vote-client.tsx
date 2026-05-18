@@ -32,6 +32,7 @@ export default function VoteClient({
   const [total, setTotal] = useState<number>(initialTotal);
   const [copied, setCopied] = useState(false);
   const [animKey, setAnimKey] = useState(0);
+  const [reveal, setReveal] = useState<{ isMajority: boolean; isRebel: boolean; userPct: number } | null>(null);
   const [isLive, setIsLive] = useState(false);
   const myVoterIdRef = useRef<string | null>(null);
 
@@ -96,7 +97,13 @@ export default function VoteClient({
         const res = await castVote(pollId, slug, i, options.length);
         setCounts(res.counts);
         setTotal(res.total);
+        setReveal({ isMajority: res.reveal.isMajority, isRebel: res.reveal.isRebel, userPct: res.reveal.userPct });
         if (typeof window !== "undefined") {
+          if (res.achievements.length > 0) {
+            window.dispatchEvent(
+              new CustomEvent("moomz:achievements", { detail: { ids: res.achievements } }),
+            );
+          }
           window.dispatchEvent(
             new CustomEvent("moomz:vote", {
               detail: {
@@ -226,6 +233,26 @@ export default function VoteClient({
             );
           })}
         </div>
+
+        {reveal && (
+          <div
+            className={`rounded-xl px-3 py-2.5 text-sm font-semibold text-center border ${
+              reveal.isRebel
+                ? "bg-gradient-to-r from-orange-500/20 to-pink-500/20 border-orange-400/40 text-orange-200"
+                : reveal.isMajority
+                ? "bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 border-emerald-400/40 text-emerald-200"
+                : "bg-white/5 border-white/15 text-white/70"
+            }`}
+          >
+            {reveal.isRebel ? (
+              <>🌶️ <b>REBEL</b> · t'es dans les {reveal.userPct}%</>
+            ) : reveal.isMajority ? (
+              <>✅ avec la majorité · {reveal.userPct}%</>
+            ) : (
+              <>👀 partagé · {reveal.userPct}%</>
+            )}
+          </div>
+        )}
 
         {showResults && (
           <div className="flex items-center justify-between text-sm text-white/50">

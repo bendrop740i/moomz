@@ -100,10 +100,23 @@ export async function createPoll(formData: FormData) {
   if (token) {
     const { data: prof } = await supabase
       .from("profiles")
-      .select("id")
+      .select("id, achievements, polls_created")
       .eq("claim_token", token)
       .maybeSingle();
-    if (prof) profileId = prof.id;
+    if (prof) {
+      profileId = prof.id;
+      const owned = new Set<string>((prof.achievements ?? []) as string[]);
+      const newPollsCreated = (prof.polls_created ?? 0) + 1;
+      owned.add("creator");
+      owned.add("claimed");
+      await supabase
+        .from("profiles")
+        .update({
+          polls_created: newPollsCreated,
+          achievements: Array.from(owned),
+        })
+        .eq("id", prof.id);
+    }
   }
 
   const { error } = await supabase.from("polls").insert({
@@ -193,7 +206,12 @@ export async function claimUsername(formData: FormData) {
   const token = randomToken();
   const { data: inserted, error } = await supabase
     .from("profiles")
-    .insert({ username, display_name: displayName, claim_token: token })
+    .insert({
+      username,
+      display_name: displayName,
+      claim_token: token,
+      achievements: ["claimed"],
+    })
     .select("id")
     .single();
   if (error) {
@@ -282,6 +300,8 @@ type CastVoteResult = {
   counts: number[];
   total: number;
   points: { gained: number; total: number; current: number; top: number; multiplier: number };
+  reveal: { isMajority: boolean; isRebel: boolean; userPct: number; majorityPct: number };
+  achievements: string[];
 };
 
 export async function castVote(
@@ -325,24 +345,6 @@ export async function castVote(
     },
   );
 
-  const profileToken = cookies().get("moomz_profile_token")?.value;
-  if (profileToken) {
-    const { data: prof } = await supabase
-      .from("profiles")
-      .select("id,total_points,top_streak")
-      .eq("claim_token", profileToken)
-      .maybeSingle();
-    if (prof) {
-      await supabase
-        .from("profiles")
-        .update({
-          total_points: (prof.total_points ?? 0) + streak.gained,
-          top_streak: Math.max(prof.top_streak ?? 0, streak.cur),
-        })
-        .eq("id", prof.id);
-    }
-  }
-
   const { data: votes } = await supabase
     .from("votes")
     .select("option_index")
@@ -352,6 +354,58 @@ export async function castVote(
     votes?.filter((v) => v.option_index === i).length ?? 0,
   );
   const total = counts.reduce((a, b) => a + b, 0);
+
+  const userCount = counts[optionIndex] ?? 0;
+  const maxCount = Math.max(...counts);
+  const userPct = total > 0 ? Math.round((userCount / total) * 100) : 0;
+  const majorityPct = total > 0 ? Math.round((maxCount / total) * 100) : 0;
+  const isMajority = userCount === maxCount;
+  const isRebel = !isMajority && userPct < 100 / optionCount;
+
+  const newAchievements: string[] = [];
+  const profileToken = cookies().get("moomz_profile_token")?.value;
+  if (profileToken) {
+    const { data: prof } = await supabase
+      .from("profiles")
+      .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created")
+      .eq("claim_token", profileToken)
+      .maybeSingle();
+    if (prof) {
+      const owned = new Set<string>((prof.achievements ?? []) as string[]);
+      const unlock = (id: string) => {
+        if (!owned.has(id)) {
+          owned.add(id);
+          newAchievements.push(id);
+        }
+      };
+      const newVotesCast = (prof.votes_cast ?? 0) + 1;
+      const newRebelCount = (prof.rebel_count ?? 0) + (isRebel ? 1 : 0);
+      const newMajorityCount = (prof.majority_count ?? 0) + (isMajority ? 1 : 0);
+
+      if (newVotesCast === 1) unlock("first_vote");
+      if (isRebel && newRebelCount === 1) unlock("first_rebel");
+      if (newRebelCount >= 10) unlock("rebel_x10");
+      if (newVotesCast >= 100) unlock("marathon");
+      if (streak.cur >= 3) unlock("streak_3");
+      if (streak.cur >= 7) unlock("streak_7");
+      if (streak.cur >= 12) unlock("streak_12");
+      if (streak.cur >= 18) unlock("streak_18");
+      unlock("claimed");
+
+      await supabase
+        .from("profiles")
+        .update({
+          total_points: (prof.total_points ?? 0) + streak.gained,
+          top_streak: Math.max(prof.top_streak ?? 0, streak.cur),
+          votes_cast: newVotesCast,
+          rebel_count: newRebelCount,
+          majority_count: newMajorityCount,
+          achievements: Array.from(owned),
+        })
+        .eq("id", prof.id);
+    }
+  }
+
   return {
     counts,
     total,
@@ -362,6 +416,8 @@ export async function castVote(
       top: streak.top,
       multiplier: streak.multiplier,
     },
+    reveal: { isMajority, isRebel, userPct, majorityPct },
+    achievements: newAchievements,
   };
 }
 

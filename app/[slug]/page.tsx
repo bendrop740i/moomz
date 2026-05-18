@@ -66,14 +66,18 @@ export default async function Page({ params }: { params: { slug: string } }) {
           .limit(30),
         supabase
           .from("profiles_public")
-          .select("total_points,top_streak")
+          .select("total_points,top_streak,achievements")
           .eq("id", profile.id)
           .maybeSingle(),
       ]);
+      const stats = statsRes.data as
+        | { total_points?: number; top_streak?: number; achievements?: string[] }
+        | null;
       const profileWithStats = {
         ...profile,
-        total_points: (statsRes.data as { total_points?: number } | null)?.total_points ?? 0,
-        top_streak: (statsRes.data as { top_streak?: number } | null)?.top_streak ?? 0,
+        total_points: stats?.total_points ?? 0,
+        top_streak: stats?.top_streak ?? 0,
+        achievements: stats?.achievements ?? [],
       };
       return <ProfileView profile={profileWithStats} polls={pollsRes.data ?? []} />;
     }

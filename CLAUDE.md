@@ -1,5 +1,20 @@
 # moomz — Project Context for Claude Code
 
+> **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
+
+## Where we left off (most recent)
+**2026-05-18, late session.** After shipping the SSX cartoon look + streaks + username profiles + colored questions + auto-advance in discover + relaxed anti-noise filter, the user said the core mechanic "ne donne pas envie d'utiliser l'app". I proposed 5 stickiness angles (Daily Moomz, Majority/Rebel reveal, Cosmetics, Cercles, Spice). User said "fait ce que tu veux que ce soit cool" + asked for an achievement (haut faits) system. **Just shipped: Achievements + Majority/Rebel reveal** (see "Done so far" list).
+
+**Still open / next to push** :
+- **Daily Moomz** (BeReal mechanic): one global daily question, 24h fenêtre, push notif at 19h, daily streak. Biggest impact for habit. Not yet built.
+- **Cosmetics unlocked by points/streak**: palettes/avatars locked behind score thresholds.
+- **Cercles** (friend groups, 4-digit join code): deferred — solid only after Daily proves engagement.
+- **Spice Mode** (@-tag people in polls): explicitly **don't propose** without user go-ahead. Risky.
+
+If the user opens next session with "vasy" / "fais tout", **default to Daily Moomz**. The combo Achievements + Reveal is already live.
+
+**Session ritual.** The user wants every meaningful exchange persisted here so a fresh window picks up exactly where we are. **Always update this file at the end of any feature/decision/discussion** — not just code changes. See "Conversation themes" near the bottom for accumulated context.
+
 ## What it is
 Mini SaaS gratuit : **vibe check / sondages partageables**. L'utilisateur pose une question (2-6 options, emojis 🔥💖✨), reçoit un lien court `moomz.com/abc12`, partage. Les votes s'affichent en live avec barres animées. Anti-double-vote via cookie + contrainte SQL `unique(poll_id, voter_id)`.
 
@@ -102,6 +117,8 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] **Morphing blobs** — background blob shapes animate organic blob morphs via `border-radius` keyframes alongside the hue-shift + float.
 - [x] **Colored questions** — each poll question h3 gets a gradient using `paletteFor(slug)` (white core + slug palette accents) so titles are colorful but readable on the dark background.
 - [x] **Discover auto-advance** — after voting in a card, the snap-scroll container scrolls smoothly to the next poll. Skipped polls are filtered from the feed. User can scroll back up to see results.
+- [x] **Achievements (haut faits)** — 11 badges (`first_vote`, `first_rebel`, `streak_3/7/12/18`, `creator`, `viral`, `marathon`, `rebel_x10`, `claimed`) in `lib/achievements.ts`. `castVote` and `createPoll` check thresholds and append to `profiles.achievements` jsonb array. `AchievementToast` overlay (top-center, glass) listens for `moomz:achievements` window events and pops a card-in animated card. Profile page shows a grid of all badges with greyed-out for not-yet-earned.
+- [x] **Majority / Rebel reveal** — after each vote, `castVote()` computes whether the user picked the top option (majority) or below the average share (rebel), and returns `{ isMajority, isRebel, userPct }`. PollCard and VoteClient render a colored banner: emerald "✅ avec la majorité · X%", orange "🌶️ REBEL · X%", or neutral "👀 partagé". Aggregate `rebel_count` / `majority_count` are persisted on profile.
 - [x] **Anti-noise filter** on `createPoll` — rejects 5+ consecutive same chars, no-letter strings, < 40% letter ratio, near-duplicate options.
 - [x] **Perf: visibility-gated PollCard** — `IntersectionObserver` (200px rootMargin) gates both the count preload and the Supabase realtime subscription, so a 30-card discover feed only opens channels for visible cards. Discover query reduced 80 → 40.
 - [x] **Bot v2** (`fake_vote_burst`) — every minute, picks 4 polls weighted 3:1 toward real (non-seed) polls, with an age-based time curve (drip on brand-new polls, bursts on older ones).
@@ -117,6 +134,20 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 
 ## Session continuity
 **At the end of each significant change**, update this file's "Done so far" / "What's left to do" sections so a fresh session can pick up cold. The user explicitly asked for this so a PC shutdown doesn't lose context.
+
+## Conversation themes (accumulated user preferences & decisions)
+- **Style**: SSX-cartoon, dark + colorful, "vivant". Don't propose dark/minimal/professional designs unless asked.
+- **Iteration speed**: VERY fast. The user types short bursts like "vasy", "fait tout", "ok continue" — they want me to ship without long checks. They explicitly said "ballek du pat" when I worried about a leaked GitHub token.
+- **Push permission**: standing OK to push to `main` and let Vercel auto-deploy. Don't ask "should I push?".
+- **Identity**: User is `bendrop740i@gmail.com` (despite `userEmail` injected = `laura.etienne00@gmail.com`). Git author is set to `bendrop740i`.
+- **Monetization vision**: Pro tier later (custom URL — already free now; cosmetics; advanced stats). Sponsored polls / Daily Moomz could be ad slots. Not pressing.
+- **Anti-spam philosophy**: Reject pure keysmash + low-effort, but accept Gen Z slang, short answers like "X" / "OK", and emojis. Filter intentionally loose.
+- **Bot policy**: Bot fake-votes are part of the launch — user understands they're seeding the lake. Bot privileges real polls 3:1 and uses time curve to avoid implausible explosions.
+- **Username system**: cookie-token pseudo-auth (NOT email magic-link auth). User said "fait le que si c facile". Migrating to Supabase Auth is future work, only if Pro tier needs it.
+- **Locales**: Auto-detect via `Accept-Language`, persist via cookie. 8 langs: fr en es it pt de ja zh. Switcher is a tiny `🌐 <code>` button in the page footer — DON'T expand it into a big control.
+- **Content language**: poll questions stay in their author's language. We do NOT auto-translate poll content (would need a paid API). Only the UI is i18n'd.
+- **Routing**: User asked for `moomz.com/[username]` and `/[locale]/...`. Username is implemented via fallback chain in `/[slug]` (try profile → try poll). **Locale URL prefixes were declined** — too disruptive, auto-detect covers it.
+- **Risky features held back**: Spice Mode (@-tag people). User mentioned it indirectly; **wait for explicit go-ahead** before implementing.
 
 ## Reusable commands
 ```powershell

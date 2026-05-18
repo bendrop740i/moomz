@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Profile } from "@/lib/profile";
 import { emojisFor } from "@/lib/emojis";
+import { ACHIEVEMENT_ORDER, ACHIEVEMENTS, type AchievementId } from "@/lib/achievements";
 
 type PollRow = {
   slug: string;
@@ -14,6 +15,7 @@ type PollRow = {
 type ProfileWithStats = Profile & {
   total_points?: number | null;
   top_streak?: number | null;
+  achievements?: string[] | null;
 };
 
 const SOCIAL_ICONS: Record<string, { label: string; url: (v: string) => string; color: string }> = {
@@ -93,6 +95,36 @@ export default function ProfileView({
           <Stat label="streak" value={profile.top_streak ?? 0} icon="🔥" />
         </div>
       </header>
+
+      {profile.achievements && profile.achievements.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2">
+            🏆 Achievements
+            <span className="text-xs normal-case tracking-normal text-white/30 font-normal">
+              {profile.achievements.length} / {ACHIEVEMENT_ORDER.length}
+            </span>
+          </h2>
+          <div className="grid grid-cols-4 sm:grid-cols-6 gap-2">
+            {ACHIEVEMENT_ORDER.map((id) => {
+              const owned = (profile.achievements ?? []).includes(id);
+              const ach = ACHIEVEMENTS[id as AchievementId];
+              return (
+                <div
+                  key={id}
+                  title={`${ach.title} — ${ach.desc}`}
+                  className={`aspect-square rounded-xl flex items-center justify-center text-2xl sm:text-3xl transition ${
+                    owned
+                      ? "bg-gradient-to-br from-pink-500/20 to-purple-500/20 border border-pink-400/40"
+                      : "bg-white/[0.03] border border-white/5 grayscale opacity-30"
+                  }`}
+                >
+                  {ach.emoji}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {polls.length === 0 ? (
         <div className="glass rounded-2xl p-6 text-center text-white/50 text-sm">

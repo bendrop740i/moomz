@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
 import BottomNav from "./bottom-nav";
 import StreakHUD from "./streak-hud";
+import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
 import { getLocale } from "@/lib/i18n-server";
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </main>
           <StreakHUD />
+          <AchievementToast />
           <BottomNav />
         </LocaleProvider>
       </body>
