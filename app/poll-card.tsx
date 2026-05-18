@@ -45,8 +45,27 @@ export default function PollCard({
   const [confettiKey, setConfettiKey] = useState(0);
   const [bumpKey, setBumpKey] = useState<{ idx: number; k: number } | null>(null);
   const [flames, setFlames] = useState<{ id: number; idx: number }[]>([]);
+  const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
+  const [isVisible, setIsVisible] = useState(false);
   const myVoterIdRef = useRef<string | null>(null);
   const flameIdRef = useRef(0);
+  const rootRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") {
+      setIsVisible(true);
+      return;
+    }
+    const obs = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) setIsVisible(e.isIntersecting);
+      },
+      { rootMargin: "200px" },
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
@@ -59,10 +78,10 @@ export default function PollCard({
     myVoterIdRef.current = match ? decodeURIComponent(match[1]) : null;
   }, []);
 
-  // Preload counts as soon as the card mounts so an upcoming vote can do
-  // an accurate optimistic increment (instead of jumping from 100% to real %).
+  // Preload counts only when the card scrolls into view — avoids hammering
+  // the DB with 50 simultaneous queries on long feeds like /discover.
   useEffect(() => {
-    if (counts) return;
+    if (counts || !isVisible) return;
     let cancelled = false;
     refreshCounts(pollId, options.length).then((res) => {
       if (cancelled) return;
@@ -72,10 +91,10 @@ export default function PollCard({
     return () => {
       cancelled = true;
     };
-  }, [pollId, options.length, counts]);
+  }, [pollId, options.length, counts, isVisible]);
 
   useEffect(() => {
-    if (!showResults) return;
+    if (!showResults || !isVisible) return;
     const supabase = getBrowserSupabase();
     const channel = supabase
       .channel(`card-${pollId}`)
@@ -109,7 +128,7 @@ export default function PollCard({
     return () => {
       supabase.removeChannel(channel);
     };
-  }, [showResults, pollId]);
+  }, [showResults, pollId, isVisible]);
 
   const vote = (i: number) => {
     if (voted !== null || pending) return;
@@ -133,6 +152,18 @@ export default function PollCard({
         const res = await castVote(pollId, slug, i, options.length);
         setCounts(res.counts);
         setTotal(res.total);
+        setPointsToast({ k: Date.now(), gained: res.points.gained, mult: res.points.multiplier });
+        setTimeout(() => setPointsToast(null), 1600);
+        window.dispatchEvent(
+          new CustomEvent("moomz:vote", {
+            detail: {
+              gained: res.points.gained,
+              total: res.points.total,
+              streak: res.points.current,
+              multiplier: res.points.multiplier,
+            },
+          }),
+        );
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");
         setVoted(null);
@@ -143,8 +174,22 @@ export default function PollCard({
   };
 
   return (
-    <article className="glass rounded-2xl p-4 sm:p-5 space-y-3 relative overflow-hidden">
+    <article
+      ref={rootRef as React.RefObject<HTMLElement>}
+      className="glass rounded-2xl p-4 sm:p-5 space-y-3 relative overflow-hidden"
+    >
       <Confetti trigger={confettiKey} />
+      {pointsToast && (
+        <div
+          key={pointsToast.k}
+          className="points-float absolute left-1/2 top-1/2 z-20 text-2xl sm:text-3xl font-extrabold tracking-tighter bg-gradient-to-br from-yellow-300 via-pink-400 to-purple-500 bg-clip-text text-transparent drop-shadow"
+        >
+          +{pointsToast.gained}{" "}
+          {pointsToast.mult > 1 && (
+            <span className="text-base text-pink-300">×{pointsToast.mult}</span>
+          )}
+        </div>
+      )}
 
       <div className="flex items-start justify-between gap-2">
         <h3 className="text-lg sm:text-xl font-bold leading-tight text-balance flex-1">

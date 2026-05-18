@@ -28,7 +28,7 @@ export default async function DiscoverPage() {
     .from("polls_trending")
     .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at")
     .order("trending_score", { ascending: false })
-    .limit(80);
+    .limit(40);
 
   const rows = (data as TrendingRow[]) ?? [];
   const skipped = new Set(readSlugHistory("moomz_skipped_slugs"));

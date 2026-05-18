@@ -5,6 +5,7 @@ import { readSlugHistory } from "@/lib/history";
 import { emojisFor } from "@/lib/emojis";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
+import { getMyProfile } from "@/lib/profile";
 
 export const dynamic = "force-dynamic";
 
@@ -30,6 +31,7 @@ export default async function MesSondagesPage() {
   const tx = (k: string) => t(k, locale);
   const slugs = readSlugHistory("moomz_created_slugs");
   const jar = cookies();
+  const myProfile = await getMyProfile();
 
   let polls: Row[] = [];
   if (slugs.length > 0) {
@@ -67,6 +69,35 @@ export default async function MesSondagesPage() {
             : tx("polls.empty")}
         </p>
       </header>
+
+      <Link
+        href="/me"
+        className="glass block rounded-2xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition"
+      >
+        <div className="flex items-center gap-3">
+          <div className="text-3xl">{myProfile?.avatar_emoji ?? "✨"}</div>
+          <div className="flex-1 min-w-0">
+            {myProfile ? (
+              <>
+                <div className="font-semibold text-white">
+                  @{myProfile.username}
+                </div>
+                <div className="text-xs text-white/40">
+                  Édite ton profil · moomz.com/{myProfile.username}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="font-semibold text-white">Réserve ton @username</div>
+                <div className="text-xs text-white/40">
+                  Mini Linktree + tes polls sous moomz.com/toi
+                </div>
+              </>
+            )}
+          </div>
+          <div className="text-pink-300 text-lg shrink-0">→</div>
+        </div>
+      </Link>
 
       {polls.length === 0 ? (
         <div className="glass rounded-2xl p-6 text-center space-y-3">

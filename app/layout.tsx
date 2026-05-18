@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk } from "next/font/google";
 import BottomNav from "./bottom-nav";
+import StreakHUD from "./streak-hud";
 import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
 import { getLocale } from "@/lib/i18n-server";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <LocaleSwitcher />
             </div>
           </main>
+          <StreakHUD />
           <BottomNav />
         </LocaleProvider>
       </body>

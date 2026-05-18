@@ -94,6 +94,18 @@ export default function VoteClient({
         const res = await castVote(pollId, slug, i, options.length);
         setCounts(res.counts);
         setTotal(res.total);
+        if (typeof window !== "undefined") {
+          window.dispatchEvent(
+            new CustomEvent("moomz:vote", {
+              detail: {
+                gained: res.points.gained,
+                total: res.points.total,
+                streak: res.points.current,
+                multiplier: res.points.multiplier,
+              },
+            }),
+          );
+        }
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");
         setVoted(null);
