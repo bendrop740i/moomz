@@ -21,6 +21,7 @@ type Props = {
   isLive?: boolean;
   isNew?: boolean;
   isRising?: boolean;
+  imageUrl?: string | null;
   onSkip?: () => void;
   onVoted?: () => void;
 };
@@ -36,6 +37,7 @@ export default function PollCard({
   isLive,
   isNew,
   isRising,
+  imageUrl,
   onSkip,
   onVoted,
 }: Props) {
@@ -200,6 +202,13 @@ export default function PollCard({
           {pointsToast.mult > 1 && (
             <span className="text-base text-pink-300">×{pointsToast.mult}</span>
           )}
+        </div>
+      )}
+
+      {imageUrl && (
+        <div className="-mx-4 sm:-mx-5 -mt-4 sm:-mt-5 mb-1 rounded-t-2xl overflow-hidden border-b border-white/10">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={imageUrl} alt="" className="w-full max-h-48 object-cover" />
         </div>
       )}
 

@@ -3,6 +3,7 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
+import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
 
 const ALPHABET = "abcdefghijkmnopqrstuvwxyz23456789";
 
@@ -119,11 +120,16 @@ export async function createPoll(formData: FormData) {
     }
   }
 
+  const imageUrl = String(formData.get("image_url") ?? "").trim() || null;
+  const topics = tagQuestion(question, optionsRaw);
+
   const { error } = await supabase.from("polls").insert({
     slug,
     question,
     options: optionsRaw,
     profile_id: profileId,
+    image_url: imageUrl,
+    topics,
   });
   if (error) throw new Error(error.message);
 
@@ -138,6 +144,15 @@ export async function skipPoll(slug: string) {
 
 export async function markPollSeen(slug: string, voteCount: number) {
   cookies().set(`moomz_seen_${slug}`, String(voteCount), {
+    sameSite: "lax",
+    maxAge: 60 * 60 * 24 * 365,
+    path: "/",
+  });
+}
+
+export async function setTopics(topics: string[]) {
+  const valid = topics.filter((t) => (TOPIC_IDS as string[]).includes(t)).slice(0, 6);
+  cookies().set("moomz_topics", valid.join(","), {
     sameSite: "lax",
     maxAge: 60 * 60 * 24 * 365,
     path: "/",
@@ -362,12 +377,20 @@ export async function castVote(
   const isMajority = userCount === maxCount;
   const isRebel = !isMajority && userPct < 100 / optionCount;
 
+  // Is this today's daily moomz?
+  const { data: today } = await supabase
+    .from("daily_moomz")
+    .select("poll_id")
+    .eq("date", new Date().toISOString().slice(0, 10))
+    .maybeSingle();
+  const isDaily = today?.poll_id === pollId;
+
   const newAchievements: string[] = [];
   const profileToken = cookies().get("moomz_profile_token")?.value;
   if (profileToken) {
     const { data: prof } = await supabase
       .from("profiles")
-      .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created")
+      .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created,daily_streak,last_daily_date")
       .eq("claim_token", profileToken)
       .maybeSingle();
     if (prof) {
@@ -392,6 +415,22 @@ export async function castVote(
       if (streak.cur >= 18) unlock("streak_18");
       unlock("claimed");
 
+      let newDailyStreak = prof.daily_streak ?? 0;
+      let newLastDailyDate: string | null = prof.last_daily_date ?? null;
+      if (isDaily) {
+        const todayStr = new Date().toISOString().slice(0, 10);
+        const last = prof.last_daily_date ? new Date(prof.last_daily_date) : null;
+        if (last && prof.last_daily_date === todayStr) {
+          // already counted today
+        } else {
+          const yesterday = new Date();
+          yesterday.setUTCDate(yesterday.getUTCDate() - 1);
+          const yStr = yesterday.toISOString().slice(0, 10);
+          newDailyStreak = prof.last_daily_date === yStr ? (prof.daily_streak ?? 0) + 1 : 1;
+          newLastDailyDate = todayStr;
+        }
+      }
+
       await supabase
         .from("profiles")
         .update({
@@ -401,6 +440,8 @@ export async function castVote(
           rebel_count: newRebelCount,
           majority_count: newMajorityCount,
           achievements: Array.from(owned),
+          daily_streak: newDailyStreak,
+          last_daily_date: newLastDailyDate,
         })
         .eq("id", prof.id);
     }

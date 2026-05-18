@@ -1,8 +1,11 @@
 import { cookies } from "next/headers";
 import CreatePollForm from "./create-poll-form";
 import PollCard from "./poll-card";
+import DailyCard from "./daily-card";
+import Onboarding from "./onboarding";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
+import { parseTopicsCookie } from "@/lib/topics";
 
 export const dynamic = "force-dynamic";
 
@@ -16,19 +19,42 @@ type TrendingPoll = {
   recent_votes: number;
   trending_score: number;
   last_vote_at: string | null;
+  topics?: string[];
+  image_url?: string | null;
 };
 
-async function getTrending(limit = 30): Promise<TrendingPoll[]> {
+async function getTrending(limit = 40): Promise<TrendingPoll[]> {
   try {
     const supabase = getSupabase();
     const { data } = await supabase
       .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at")
+      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics,image_url")
       .order("trending_score", { ascending: false })
       .limit(limit);
     return (data as TrendingPoll[]) ?? [];
   } catch {
     return [];
+  }
+}
+
+async function getDailyMoomz() {
+  try {
+    const supabase = getSupabase();
+    const today = new Date().toISOString().slice(0, 10);
+    const { data: daily } = await supabase
+      .from("daily_moomz")
+      .select("poll_id")
+      .eq("date", today)
+      .maybeSingle();
+    if (!daily) return null;
+    const { data: poll } = await supabase
+      .from("polls_with_stats")
+      .select("slug,question,vote_count")
+      .eq("id", daily.poll_id)
+      .maybeSingle();
+    return poll as { slug: string; question: string; vote_count: number } | null;
+  } catch {
+    return null;
   }
 }
 
@@ -38,14 +64,24 @@ import { t } from "@/lib/i18n";
 export default async function HomePage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
-  const allPolls = await getTrending(30);
+  const [allPolls, daily] = await Promise.all([getTrending(40), getDailyMoomz()]);
   const jar = cookies();
 
   const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));
   const skippedSet = new Set(readSlugHistory("moomz_skipped_slugs"));
+  const myTopics = parseTopicsCookie(jar.get("moomz_topics")?.value);
+  const myTopicsSet = new Set(myTopics);
+
+  const matchesTopics = (p: TrendingPoll) =>
+    myTopicsSet.size === 0 || (p.topics ?? []).some((t) => myTopicsSet.has(t as any));
+
   const fresh = allPolls.filter((p) => !votedSet.has(p.slug) && !skippedSet.has(p.slug));
+  const onTopic = fresh.filter(matchesTopics);
+  const offTopic = fresh.filter((p) => !matchesTopics(p));
   const alreadyVoted = allPolls.filter((p) => votedSet.has(p.slug) && !skippedSet.has(p.slug));
-  const polls = [...fresh, ...alreadyVoted].slice(0, 15);
+  const polls = [...onTopic, ...offTopic, ...alreadyVoted].slice(0, 15);
+
+  const dailyVoted = daily ? votedSet.has(daily.slug) : false;
 
   const top1Score = polls[0]?.trending_score ?? 0;
 
@@ -60,7 +96,18 @@ export default async function HomePage() {
         </p>
       </header>
 
+      {daily && (
+        <DailyCard
+          slug={daily.slug}
+          question={daily.question}
+          voteCount={daily.vote_count}
+          alreadyVoted={dailyVoted}
+        />
+      )}
+
       <CreatePollForm />
+
+      <Onboarding />
 
       {polls.length > 0 ? (
         <section className="space-y-3">
@@ -99,6 +146,7 @@ export default async function HomePage() {
                     isLive={isLive}
                     isNew={isNew}
                     isRising={isRising}
+                    imageUrl={p.image_url}
                   />
                 </div>
               );

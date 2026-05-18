@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { createPoll } from "./actions";
 import { useT } from "./locale-context";
+import { getBrowserSupabase } from "@/lib/supabase-browser";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -28,6 +29,36 @@ export default function CreatePollForm() {
   const [options, setOptions] = useState(["", ""]);
   const [pending, setPending] = useState(false);
   const [pIdx, setPIdx] = useState(0);
+  const [imageUrl, setImageUrl] = useState<string | null>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadErr, setUploadErr] = useState<string | null>(null);
+
+  const onPickImage = async (file: File) => {
+    if (!file) return;
+    if (file.size > 5 * 1024 * 1024) {
+      setUploadErr("Image trop lourde (max 5MB).");
+      return;
+    }
+    setUploading(true);
+    setUploadErr(null);
+    try {
+      const supabase = getBrowserSupabase();
+      const ext = (file.name.split(".").pop() ?? "jpg").toLowerCase().slice(0, 4);
+      const key = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+      const { error } = await supabase.storage.from("poll-images").upload(key, file, {
+        cacheControl: "31536000",
+        upsert: false,
+        contentType: file.type,
+      });
+      if (error) throw new Error(error.message);
+      const { data } = supabase.storage.from("poll-images").getPublicUrl(key);
+      setImageUrl(data.publicUrl);
+    } catch (e) {
+      setUploadErr(e instanceof Error ? e.message : "Upload échoué");
+    } finally {
+      setUploading(false);
+    }
+  };
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -54,6 +85,7 @@ export default function CreatePollForm() {
     <form
       action={async (fd) => {
         setPending(true);
+        if (imageUrl) fd.set("image_url", imageUrl);
         try {
           await createPoll(fd);
         } catch (e) {
@@ -74,6 +106,36 @@ export default function CreatePollForm() {
           placeholder={QUESTION_PLACEHOLDERS[pIdx]}
           className="w-full rounded-xl bg-white/5 border border-white/10 px-3.5 py-3 text-base sm:text-lg font-medium outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
         />
+      </div>
+
+      <div>
+        {imageUrl ? (
+          <div className="relative rounded-xl overflow-hidden border border-white/15">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={imageUrl} alt="Aperçu" className="w-full max-h-48 object-cover" />
+            <button
+              type="button"
+              onClick={() => setImageUrl(null)}
+              className="absolute top-2 right-2 w-8 h-8 rounded-full bg-black/70 text-white text-base flex items-center justify-center hover:bg-black"
+              aria-label="Retirer l'image"
+            >
+              ×
+            </button>
+          </div>
+        ) : (
+          <label className="flex items-center gap-2 cursor-pointer rounded-xl bg-white/5 border border-dashed border-white/15 px-3 py-2.5 text-xs text-white/50 hover:bg-white/10 hover:text-white/80 transition">
+            <span className="text-lg">📸</span>
+            <span>{uploading ? "Upload…" : "Ajouter une image (optionnel)"}</span>
+            <input
+              type="file"
+              accept="image/*"
+              onChange={(e) => e.target.files?.[0] && onPickImage(e.target.files[0])}
+              className="hidden"
+              disabled={uploading}
+            />
+          </label>
+        )}
+        {uploadErr && <div className="text-xs text-red-300 mt-1">{uploadErr}</div>}
       </div>
 
       <div className="space-y-2">
