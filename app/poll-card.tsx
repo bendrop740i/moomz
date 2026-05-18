@@ -37,7 +37,10 @@ export default function PollCard({
   const [counts, setCounts] = useState<number[] | null>(null);
   const [total, setTotal] = useState<number>(initialVoteCount);
   const [confettiKey, setConfettiKey] = useState(0);
+  const [bumpKey, setBumpKey] = useState<{ idx: number; k: number } | null>(null);
+  const [flames, setFlames] = useState<{ id: number; idx: number }[]>([]);
   const myVoterIdRef = useRef<string | null>(null);
+  const flameIdRef = useRef(0);
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
@@ -80,13 +83,18 @@ export default function PollCard({
           const row = payload.new as { voter_id?: string; option_index?: number };
           if (row.voter_id && row.voter_id === myVoterIdRef.current) return;
           if (typeof row.option_index !== "number") return;
+          const idx = row.option_index;
           setCounts((c) => {
             if (!c) return c;
             const next = [...c];
-            next[row.option_index!] = (next[row.option_index!] ?? 0) + 1;
+            next[idx] = (next[idx] ?? 0) + 1;
             return next;
           });
           setTotal((t) => t + 1);
+          setBumpKey({ idx, k: Date.now() });
+          const fid = ++flameIdRef.current;
+          setFlames((f) => [...f, { id: fid, idx }]);
+          setTimeout(() => setFlames((f) => f.filter((x) => x.id !== fid)), 1200);
         },
       )
       .subscribe();
@@ -160,6 +168,7 @@ export default function PollCard({
             );
           }
 
+          const fireForThis = flames.filter((f) => f.idx === i);
           return (
             <div
               key={i}
@@ -185,10 +194,25 @@ export default function PollCard({
                     </span>
                   )}
                 </div>
-                <span className="tabular-nums text-sm font-semibold text-white/80 shrink-0">
+                <span
+                  key={bumpKey?.idx === i ? bumpKey.k : undefined}
+                  className={`tabular-nums text-sm font-semibold text-white/80 shrink-0 ${
+                    bumpKey?.idx === i ? "count-bump" : ""
+                  }`}
+                >
                   <AnimatedNumber value={pct} />%
                 </span>
               </div>
+              {fireForThis.map((f) => (
+                <span
+                  key={f.id}
+                  className="flame-burst absolute right-3 top-1/2 -translate-y-1/2 text-2xl"
+                  style={{ ["--fx" as string]: `${(Math.random() - 0.5) * 30}px` }}
+                  aria-hidden
+                >
+                  🔥
+                </span>
+              ))}
             </div>
           );
         })}

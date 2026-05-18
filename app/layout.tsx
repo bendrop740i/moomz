@@ -1,6 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk } from "next/font/google";
 import BottomNav from "./bottom-nav";
+import { LocaleProvider } from "./locale-context";
+import LocaleSwitcher from "./locale-switcher";
+import { getLocale } from "@/lib/i18n-server";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -31,18 +34,26 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = getLocale();
   return (
-    <html lang="fr" className={font.className}>
+    <html lang={locale} className={font.className}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
-        <div className="fixed inset-0 -z-10 bg-[#0b0613]" />
-        <div className="fixed inset-0 -z-10 opacity-70">
-          <div className="blob blob-1" />
-          <div className="blob blob-2" />
-          <div className="blob blob-3" />
-        </div>
-        <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
-        <main className="relative mx-auto w-full max-w-xl px-5 pt-8 sm:pt-12 pb-28">{children}</main>
-        <BottomNav />
+        <LocaleProvider value={locale}>
+          <div className="fixed inset-0 -z-10 bg-[#0b0613]" />
+          <div className="fixed inset-0 -z-10 opacity-70">
+            <div className="blob blob-1" />
+            <div className="blob blob-2" />
+            <div className="blob blob-3" />
+          </div>
+          <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
+          <main className="relative mx-auto w-full max-w-xl px-5 pt-8 sm:pt-12 pb-28">
+            {children}
+            <div className="flex justify-end mt-8">
+              <LocaleSwitcher />
+            </div>
+          </main>
+          <BottomNav />
+        </LocaleProvider>
       </body>
     </html>
   );

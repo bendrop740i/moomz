@@ -86,6 +86,16 @@ export async function markPollSeen(slug: string, voteCount: number) {
   });
 }
 
+export async function setLocale(locale: string) {
+  const allowed = ["fr", "en", "es", "it"];
+  if (!allowed.includes(locale)) return;
+  cookies().set("moomz_locale", locale, {
+    sameSite: "lax",
+    maxAge: 60 * 60 * 24 * 365,
+    path: "/",
+  });
+}
+
 export async function castVote(
   pollId: string,
   slug: string,

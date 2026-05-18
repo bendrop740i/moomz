@@ -2,18 +2,43 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useT } from "./locale-context";
 
 const items = [
-  { href: "/", label: "Home", icon: HomeIcon, badgeKey: null },
-  { href: "/discover", label: "Discover", icon: DiscoverIcon, badgeKey: null },
-  { href: "/mes-votes", label: "Votes", icon: VotesIcon, badgeKey: null },
-  { href: "/mes-sondages", label: "Polls", icon: PollsIcon, badgeKey: "polls" as const },
+  { href: "/", labelKey: "nav.home", icon: HomeIcon, badgeKey: null },
+  { href: "/discover", labelKey: "nav.discover", icon: DiscoverIcon, badgeKey: null },
+  { href: "/mes-votes", labelKey: "nav.votes", icon: VotesIcon, badgeKey: null },
+  { href: "/mes-sondages", labelKey: "nav.polls", icon: PollsIcon, badgeKey: "polls" as const },
 ];
 
 export default function BottomNav() {
   const pathname = usePathname();
+  const t = useT();
   const [pollsBadge, setPollsBadge] = useState<number | null>(null);
+  const [hidden, setHidden] = useState(false);
+  const lastY = useRef(0);
+
+  useEffect(() => {
+    lastY.current = window.scrollY;
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const y = window.scrollY;
+        const delta = y - lastY.current;
+        if (Math.abs(delta) > 6) {
+          if (delta > 0 && y > 60) setHidden(true);
+          else if (delta < 0) setHidden(false);
+          lastY.current = y;
+        }
+        ticking = false;
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [pathname]);
 
   useEffect(() => {
     let cancelled = false;
@@ -54,7 +79,11 @@ export default function BottomNav() {
   }, [pathname]);
 
   return (
-    <nav className="fixed bottom-0 inset-x-0 z-40 pb-[env(safe-area-inset-bottom)]">
+    <nav
+      className={`fixed bottom-0 inset-x-0 z-40 pb-[env(safe-area-inset-bottom)] transition-transform duration-300 will-change-transform ${
+        hidden ? "translate-y-[120%]" : "translate-y-0"
+      }`}
+    >
       <div className="mx-auto max-w-xl px-4 pb-3">
         <div className="glass rounded-2xl px-2 py-2 flex items-center justify-around shadow-2xl shadow-black/40">
           {items.map((item) => {
@@ -64,17 +93,18 @@ export default function BottomNav() {
                 : pathname === item.href || pathname?.startsWith(item.href + "/");
             const Icon = item.icon;
             const badge = item.badgeKey === "polls" ? pollsBadge : null;
+            const label = t(item.labelKey);
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                aria-label={item.label}
+                aria-label={label}
                 className={`relative flex flex-col items-center justify-center gap-0.5 px-3 py-1.5 rounded-xl transition ${
                   active ? "text-white" : "text-white/40 hover:text-white/70"
                 }`}
               >
                 <Icon active={active} />
-                <span className="text-[10px] font-medium">{item.label}</span>
+                <span className="text-[10px] font-medium">{label}</span>
                 {badge !== null && badge > 0 && (
                   <span className="absolute -top-0.5 right-1 inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 text-[10px] font-bold rounded-full bg-pink-500 text-white border-2 border-[#0b0613]">
                     {badge > 9 ? "9+" : badge}
