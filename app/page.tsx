@@ -43,9 +43,9 @@ export default async function HomePage() {
 
   const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));
   const skippedSet = new Set(readSlugHistory("moomz_skipped_slugs"));
-  const polls = allPolls
-    .filter((p) => !votedSet.has(p.slug) && !skippedSet.has(p.slug))
-    .slice(0, 15);
+  const fresh = allPolls.filter((p) => !votedSet.has(p.slug) && !skippedSet.has(p.slug));
+  const alreadyVoted = allPolls.filter((p) => votedSet.has(p.slug) && !skippedSet.has(p.slug));
+  const polls = [...fresh, ...alreadyVoted].slice(0, 15);
 
   const top1Score = polls[0]?.trending_score ?? 0;
 

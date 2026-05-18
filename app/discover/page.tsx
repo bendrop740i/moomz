@@ -35,13 +35,14 @@ export default async function DiscoverPage() {
   const voted = new Set(readSlugHistory("moomz_voted_slugs"));
   const jar = cookies();
 
-  const polls = rows
-    .filter((r) => !skipped.has(r.slug) && !voted.has(r.slug))
-    .map((r) => {
-      const votedRaw = jar.get(`moomz_voted_${r.slug}`)?.value;
-      const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
-      return { ...r, alreadyVoted };
-    });
+  const enrich = (r: TrendingRow) => {
+    const votedRaw = jar.get(`moomz_voted_${r.slug}`)?.value;
+    const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
+    return { ...r, alreadyVoted };
+  };
+  const fresh = rows.filter((r) => !voted.has(r.slug) && !skipped.has(r.slug)).map(enrich);
+  const seenAgain = rows.filter((r) => voted.has(r.slug) && !skipped.has(r.slug)).map(enrich);
+  const polls = [...fresh, ...seenAgain];
 
   const topScore = rows[0]?.trending_score ?? 0;
 
