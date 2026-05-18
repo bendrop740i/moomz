@@ -69,10 +69,10 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] Optimistic vote with server-side count sync (no `router.refresh` dance)
 - [x] moomz.com domain linked + DNS configured + HTTPS live
 - [x] Dynamic OG image per poll (`app/[slug]/opengraph-image.tsx`) + home OG (`app/opengraph-image.tsx`) — rich previews when sharing links
+- [x] **Realtime live counts** via Supabase Realtime subscription on `votes` table. Filter excludes the user's own voter_id (cookie-based) to avoid double-counting with the optimistic update. Requires `alter publication supabase_realtime add table votes;` to be run once in Supabase SQL editor (now part of `supabase-schema.sql`).
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)
-- [ ] **Realtime live counts** — Supabase Realtime subscription so bars update when others vote, no manual refresh
 - [ ] **Pre-filled social share buttons** — WhatsApp / X / "Copy link" with prepared text
 - [ ] **Poll expiration** — auto-close after N hours (optional, premium-tier hook)
 - [ ] **Niche-down the landing copy** — pick one audience and tailor the homepage
