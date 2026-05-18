@@ -1,6 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  themeColor: "#ff3d8b",
+};
 
 const font = Space_Grotesk({
   subsets: ["latin"],
@@ -9,14 +13,20 @@ const font = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://moomz.com"),
   title: "moomz — quick vibe check",
   description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
   openGraph: {
     title: "moomz — quick vibe check",
     description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
     type: "website",
+    siteName: "moomz",
   },
-  themeColor: "#ff3d8b",
+  twitter: {
+    card: "summary_large_image",
+    title: "moomz — quick vibe check",
+    description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

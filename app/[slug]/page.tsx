@@ -1,9 +1,35 @@
+import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getSupabase, type Poll } from "@/lib/supabase";
 import VoteClient from "./vote-client";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const supabase = getSupabase();
+  const { data: poll } = await supabase
+    .from("polls")
+    .select("question")
+    .eq("slug", params.slug)
+    .maybeSingle<{ question: string }>();
+
+  const title = poll ? `${poll.question} — moomz` : "moomz";
+  const description = poll
+    ? "Vote en 1 clic. Vois les résultats en live."
+    : "Crée ton sondage en 10 secondes.";
+
+  return {
+    title,
+    description,
+    openGraph: { title, description, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
+  };
+}
 
 export default async function PollPage({ params }: { params: { slug: string } }) {
   const supabase = getSupabase();
