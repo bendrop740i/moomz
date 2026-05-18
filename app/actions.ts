@@ -43,20 +43,24 @@ function pushSlugToHistory(cookieName: string, slug: string) {
   });
 }
 
-function looksLikeNoise(text: string): boolean {
+function looksLikeNoise(text: string, minLen = 2): boolean {
   const t = text.trim();
-  if (t.length < 2) return true;
-  // 5+ consecutive same characters (e.g. "aaaaa", "...........")
-  if (/(.)\1{4,}/i.test(t)) return true;
-  // No letter at all (pure digits/symbols)
+  if (t.length < 1) return true;
+  // Short answers like "X", "OK", "AB" are intentional — accept anything under 4 chars.
+  if (t.length < 4) return false;
+  // 6+ consecutive same characters (e.g. "aaaaaa")
+  if (/(.)\1{5,}/i.test(t)) return true;
+  // Has at least one letter
   if (!/\p{L}/u.test(t)) return true;
-  // Less than 3 unique characters in the stripped string (e.g. "lol lol lol" → "lo")
+  // Less than 3 unique characters across the whole string (excludes "lol lol lol")
   const stripped = t.toLowerCase().replace(/[\s\W_]+/g, "");
   if (stripped.length === 0) return true;
-  if (new Set(stripped).size < Math.min(3, stripped.length)) return true;
-  // < 40% letters — too symbol/digit heavy
-  const letters = (t.match(/\p{L}/gu) ?? []).length;
-  if (letters / t.length < 0.4) return true;
+  if (stripped.length >= 5 && new Set(stripped).size < 3) return true;
+  // < 30% letters only flagged for longer strings (don't punish "wtf 2 2 2" style)
+  if (t.length >= 8) {
+    const letters = (t.match(/\p{L}/gu) ?? []).length;
+    if (letters / t.length < 0.3) return true;
+  }
   return false;
 }
 
