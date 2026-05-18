@@ -3,9 +3,8 @@
 import { useEffect, useRef, useState, useTransition } from "react";
 import { castVote, refreshCounts } from "../actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
+import { emojisFor } from "@/lib/emojis";
 import AnimatedNumber from "../animated-number";
-
-const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
 type Props = {
   pollId: string;
@@ -36,6 +35,7 @@ export default function VoteClient({
   const myVoterIdRef = useRef<string | null>(null);
 
   const showResults = voted !== null;
+  const EMOJIS = emojisFor(slug, options.length);
 
   useEffect(() => {
     const match = typeof document !== "undefined"

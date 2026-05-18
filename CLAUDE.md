@@ -78,6 +78,11 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] **Branded 404 page** at `app/not-found.tsx` — matches glass design, 👀 emoji, CTA to create a new poll. Triggered by `notFound()` in `app/[slug]/page.tsx` for unknown slugs.
 - [x] **Trending social feed on home** with inline `PollCard` — the home now functions like a social app: header + quick create form + scrollable feed of trending polls. Each card lets the user vote inline (without leaving the page), shows results + realtime live updates + animated counters, and a "🔥 hot" gradient badge appears on polls scoring in the top 60% of the leader. Algorithm: SQL view `polls_trending` ranks by `vote_count / (age_hours + 2)^1.2` (Hacker News decay) over a 14-day window.
 - [x] **Confetti** (`app/confetti.tsx`) — emoji rain (🎉 ✨ 💖 🔥 💫 🌟) animates on successful vote via CSS keyframes, 22 pieces, ~2.5s duration, no JS deps.
+- [x] **Discover mode (TikTok-style)** at `/discover` — full-viewport snap-scroll feed (`scroll-snap-type: y mandatory`). Each poll fills the screen, swipe up for next. Right-side progress dots indicate position. Skipped polls are filtered out via cookie.
+- [x] **Skip button** on every `PollCard` — calls `skipPoll(slug)` server action (stores in `moomz_skipped_slugs` cookie, 50-slug ring buffer) and locally fades out. In Discover, also triggers `onSkip` to remove from feed.
+- [x] **History pages** : `/mes-votes` (polls the user voted on, via `moomz_voted_slugs` cookie) and `/mes-sondages` (polls the user created, via `moomz_created_slugs` cookie). Both server-render the list ordered by recency with vote counts.
+- [x] **Bottom nav** (`app/bottom-nav.tsx`) sticky at viewport bottom: 4 tabs (Home / Discover / Mes votes / Mes polls), uses `usePathname` for active state. Glass background + safe-area padding for iOS.
+- [x] **Slug history helper** (`lib/history.ts` + `pushSlugToHistory` in `app/actions.ts`) — single cookie per category, 50-slug LRU ring buffer. Replaces the previous per-slug cookie sprawl for tracking interaction lists.
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)

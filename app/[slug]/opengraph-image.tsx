@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getSupabase, type Poll } from "@/lib/supabase";
+import { paletteFor } from "@/lib/palette";
 
 export const runtime = "edge";
 export const alt = "moomz — vibe check";
@@ -19,6 +20,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
   const question = poll?.question ?? "Crée ton vibe check";
   const options = poll?.options ?? ["", ""];
   const slug = poll?.slug ?? params.slug;
+  const pal = paletteFor(slug);
 
   return new ImageResponse(
     (
@@ -42,7 +44,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
             left: -160,
             width: 520,
             height: 520,
-            background: "#ff3d8b",
+            background: pal.c1,
             filter: "blur(100px)",
             borderRadius: 9999,
             opacity: 0.7,
@@ -56,7 +58,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
             right: -120,
             width: 560,
             height: 560,
-            background: "#7c3aed",
+            background: pal.c2,
             filter: "blur(100px)",
             borderRadius: 9999,
             opacity: 0.7,
@@ -70,7 +72,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
             right: 200,
             width: 360,
             height: 360,
-            background: "#f59e0b",
+            background: pal.c3,
             filter: "blur(110px)",
             borderRadius: 9999,
             opacity: 0.45,

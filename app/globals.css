@@ -101,3 +101,26 @@ body {
   animation-timing-function: cubic-bezier(0.16, 0.84, 0.44, 1);
   animation-fill-mode: forwards;
 }
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.card-in {
+  animation: card-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(1.18); }
+}
+.live-dot {
+  animation: live-pulse 1.4s ease-in-out infinite;
+}

@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getSupabase, type Poll } from "@/lib/supabase";
 import VoteClient from "./vote-client";
+import MarkSeenIfOwner from "../mark-seen-if-owner";
 
 export const dynamic = "force-dynamic";
 
@@ -53,14 +54,17 @@ export default async function PollPage({ params }: { params: { slug: string } })
   const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
 
   return (
-    <VoteClient
-      pollId={poll.id}
-      slug={poll.slug}
-      question={poll.question}
-      options={poll.options}
-      counts={counts}
-      total={total}
-      alreadyVoted={alreadyVoted}
-    />
+    <>
+      <MarkSeenIfOwner slug={poll.slug} voteCount={total} />
+      <VoteClient
+        pollId={poll.id}
+        slug={poll.slug}
+        question={poll.question}
+        options={poll.options}
+        counts={counts}
+        total={total}
+        alreadyVoted={alreadyVoted}
+      />
+    </>
   );
 }

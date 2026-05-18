@@ -2,16 +2,56 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const items = [
-  { href: "/", label: "Home", icon: HomeIcon },
-  { href: "/discover", label: "Discover", icon: DiscoverIcon },
-  { href: "/mes-votes", label: "Mes votes", icon: VotesIcon },
-  { href: "/mes-sondages", label: "Mes polls", icon: PollsIcon },
+  { href: "/", label: "Home", icon: HomeIcon, badgeKey: null },
+  { href: "/discover", label: "Discover", icon: DiscoverIcon, badgeKey: null },
+  { href: "/mes-votes", label: "Votes", icon: VotesIcon, badgeKey: null },
+  { href: "/mes-sondages", label: "Polls", icon: PollsIcon, badgeKey: "polls" as const },
 ];
 
 export default function BottomNav() {
   const pathname = usePathname();
+  const [pollsBadge, setPollsBadge] = useState<number | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    const compute = async () => {
+      const match = document.cookie.match(/(?:^|;\s*)moomz_created_slugs=([^;]+)/);
+      if (!match) {
+        if (!cancelled) setPollsBadge(null);
+        return;
+      }
+      const slugs = decodeURIComponent(match[1]).split(",").filter(Boolean).slice(0, 20);
+      if (slugs.length === 0) {
+        if (!cancelled) setPollsBadge(null);
+        return;
+      }
+      try {
+        const res = await fetch(`/api/polls-stats?slugs=${encodeURIComponent(slugs.join(","))}`, {
+          cache: "no-store",
+        });
+        if (!res.ok) return;
+        const data: { slug: string; vote_count: number }[] = await res.json();
+        let total = 0;
+        for (const row of data) {
+          const seenMatch = document.cookie.match(
+            new RegExp(`(?:^|;\\s*)moomz_seen_${row.slug}=([^;]+)`),
+          );
+          const seen = seenMatch ? Number(seenMatch[1]) : 0;
+          total += Math.max(0, row.vote_count - seen);
+        }
+        if (!cancelled) setPollsBadge(total > 0 ? total : null);
+      } catch {}
+    };
+    compute();
+    const id = setInterval(compute, 30_000);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
+  }, [pathname]);
 
   return (
     <nav className="fixed bottom-0 inset-x-0 z-40 pb-[env(safe-area-inset-bottom)]">
@@ -23,17 +63,23 @@ export default function BottomNav() {
                 ? pathname === "/"
                 : pathname === item.href || pathname?.startsWith(item.href + "/");
             const Icon = item.icon;
+            const badge = item.badgeKey === "polls" ? pollsBadge : null;
             return (
               <Link
                 key={item.href}
                 href={item.href}
                 aria-label={item.label}
-                className={`flex flex-col items-center justify-center gap-0.5 px-3 py-1.5 rounded-xl transition ${
+                className={`relative flex flex-col items-center justify-center gap-0.5 px-3 py-1.5 rounded-xl transition ${
                   active ? "text-white" : "text-white/40 hover:text-white/70"
                 }`}
               >
                 <Icon active={active} />
                 <span className="text-[10px] font-medium">{item.label}</span>
+                {badge !== null && badge > 0 && (
+                  <span className="absolute -top-0.5 right-1 inline-flex items-center justify-center min-w-[18px] h-[18px] px-1 text-[10px] font-bold rounded-full bg-pink-500 text-white border-2 border-[#0b0613]">
+                    {badge > 9 ? "9+" : badge}
+                  </span>
+                )}
               </Link>
             );
           })}

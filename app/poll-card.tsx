@@ -4,10 +4,9 @@ import { useEffect, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { castVote, refreshCounts, skipPoll } from "./actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
+import { emojisFor } from "@/lib/emojis";
 import AnimatedNumber from "./animated-number";
 import Confetti from "./confetti";
-
-const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
 type Props = {
   pollId: string;
@@ -17,6 +16,7 @@ type Props = {
   initialVoteCount: number;
   alreadyVoted: number | null;
   isHot?: boolean;
+  isLive?: boolean;
   onSkip?: () => void;
 };
 
@@ -28,6 +28,7 @@ export default function PollCard({
   initialVoteCount,
   alreadyVoted,
   isHot,
+  isLive,
   onSkip,
 }: Props) {
   const [skipped, setSkipped] = useState(false);
@@ -39,6 +40,7 @@ export default function PollCard({
   const myVoterIdRef = useRef<string | null>(null);
 
   const showResults = voted !== null;
+  const EMOJIS = emojisFor(slug, options.length);
 
   useEffect(() => {
     const match =
@@ -116,18 +118,26 @@ export default function PollCard({
   };
 
   return (
-    <article className="glass rounded-3xl p-5 sm:p-6 space-y-4 relative overflow-hidden">
+    <article className="glass rounded-2xl p-4 sm:p-5 space-y-3 relative overflow-hidden">
       <Confetti trigger={confettiKey} />
 
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="text-xl sm:text-2xl font-bold leading-tight text-balance flex-1">
+      <div className="flex items-start justify-between gap-2">
+        <h3 className="text-lg sm:text-xl font-bold leading-tight text-balance flex-1">
           {question}
         </h3>
-        {isHot && (
-          <span className="shrink-0 inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-gradient-to-r from-orange-500/30 to-pink-500/30 border border-orange-400/40 text-orange-200">
-            🔥 hot
-          </span>
-        )}
+        <div className="flex flex-col items-end gap-1 shrink-0">
+          {isHot && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-gradient-to-r from-orange-500/30 to-pink-500/30 border border-orange-400/40 text-orange-200">
+              🔥 hot
+            </span>
+          )}
+          {isLive && (
+            <span className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200">
+              <span className="live-dot w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
+              live
+            </span>
+          )}
+        </div>
       </div>
 
       <div className="space-y-2">
@@ -142,10 +152,10 @@ export default function PollCard({
                 key={i}
                 onClick={() => vote(i)}
                 disabled={pending}
-                className="w-full text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3.5 py-3 flex items-center gap-2.5 disabled:opacity-50"
+                className="w-full text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 py-2.5 flex items-center gap-2 disabled:opacity-50"
               >
-                <span className="text-xl">{EMOJIS[i]}</span>
-                <span className="font-medium">{opt}</span>
+                <span className="text-lg">{EMOJIS[i]}</span>
+                <span className="font-medium text-sm sm:text-base">{opt}</span>
               </button>
             );
           }
@@ -155,7 +165,7 @@ export default function PollCard({
               key={i}
               className={`relative overflow-hidden rounded-xl border ${
                 isMine ? "border-pink-400/60" : "border-white/10"
-              } bg-white/5 px-3.5 py-3`}
+              } bg-white/5 px-3 py-2.5`}
             >
               <div
                 className={`absolute inset-y-0 left-0 ${
@@ -166,9 +176,9 @@ export default function PollCard({
                 style={{ width: `${pct}%` }}
               />
               <div className="relative flex justify-between items-center gap-2">
-                <div className="flex items-center gap-2.5 min-w-0">
-                  <span className="text-xl shrink-0">{EMOJIS[i]}</span>
-                  <span className="font-semibold truncate">{opt}</span>
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className="text-lg shrink-0">{EMOJIS[i]}</span>
+                  <span className="font-semibold truncate text-sm sm:text-base">{opt}</span>
                   {isMine && (
                     <span className="text-pink-300 text-[10px] uppercase tracking-wide shrink-0">
                       toi

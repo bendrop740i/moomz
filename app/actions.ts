@@ -78,6 +78,14 @@ export async function skipPoll(slug: string) {
   pushSlugToHistory("moomz_skipped_slugs", slug);
 }
 
+export async function markPollSeen(slug: string, voteCount: number) {
+  cookies().set(`moomz_seen_${slug}`, String(voteCount), {
+    sameSite: "lax",
+    maxAge: 60 * 60 * 24 * 365,
+    path: "/",
+  });
+}
+
 export async function castVote(
   pollId: string,
   slug: string,
