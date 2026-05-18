@@ -74,6 +74,8 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - [x] **Dynamic favicon** at `app/icon.tsx` (64×64, gradient "m") + Apple touch icon at `app/apple-icon.tsx` (180×180, dark with blob bg).
 - [x] **Supabase MCP wired** via project-scoped `.mcp.json`. After session resume, MCP tools (`execute_sql`, `list_tables`, etc.) are available without re-auth.
 - [x] **Recent polls feed on home** — server component fetches up to 6 polls with `vote_count > 0` ordered by recency, from the SQL view `polls_with_stats` (defined in `supabase-schema.sql`). Form extracted to `app/create-poll-form.tsx` (client) so home stays server-rendered.
+- [x] **Animated number counter** (`app/animated-number.tsx`) — vote percentages, individual counts, and total smoothly tween via requestAnimationFrame with ease-out cubic when values change. Used in `vote-client.tsx`.
+- [x] **Branded 404 page** at `app/not-found.tsx` — matches glass design, 👀 emoji, CTA to create a new poll. Triggered by `notFound()` in `app/[slug]/page.tsx` for unknown slugs.
 
 ## What's left to do (by priority)
 - [ ] Revoke any leftover GitHub PATs that were leaked in earlier chats (https://github.com/settings/tokens)

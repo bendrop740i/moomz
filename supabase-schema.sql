@@ -36,6 +36,27 @@ group by p.id, p.slug, p.question, p.options, p.created_at;
 
 grant select on polls_with_stats to anon, authenticated;
 
+-- Trending feed view : Hacker News-style decay over a 14-day window.
+create or replace view polls_trending as
+with vote_counts as (
+  select poll_id, count(*)::int as total_votes
+  from votes
+  group by poll_id
+)
+select
+  p.id, p.slug, p.question, p.options, p.created_at,
+  coalesce(vc.total_votes, 0) as vote_count,
+  coalesce(vc.total_votes, 0)::float *
+  power(
+    1.0 / greatest(extract(epoch from (now() - p.created_at)) / 3600.0 + 2, 0.1),
+    1.2
+  ) as trending_score
+from polls p
+left join vote_counts vc on vc.poll_id = p.id
+where p.created_at > now() - interval '14 days';
+
+grant select on polls_trending to anon, authenticated;
+
 -- Realtime: stream INSERTs on votes to subscribed clients.
 do $$ begin
   if not exists (
