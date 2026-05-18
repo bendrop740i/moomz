@@ -2,7 +2,7 @@
 
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { getSupabase } from "@/lib/supabase";
 
 const ALPHABET = "abcdefghijkmnopqrstuvwxyz23456789";
 
@@ -38,6 +38,7 @@ export async function createPoll(formData: FormData) {
   if (optionsRaw.length > 6) throw new Error("6 options max.");
   if (optionsRaw.some((o) => o.length > 80)) throw new Error("Une option fait plus de 80 caractères.");
 
+  const supabase = getSupabase();
   let slug = randomSlug();
   for (let i = 0; i < 5; i++) {
     const { data } = await supabase.from("polls").select("id").eq("slug", slug).maybeSingle();
@@ -57,6 +58,7 @@ export async function createPoll(formData: FormData) {
 
 export async function castVote(pollId: string, slug: string, optionIndex: number) {
   const id = voterId();
+  const supabase = getSupabase();
   const { error } = await supabase.from("votes").insert({
     poll_id: pollId,
     option_index: optionIndex,

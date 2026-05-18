@@ -1,11 +1,12 @@
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
-import { supabase, type Poll } from "@/lib/supabase";
+import { getSupabase, type Poll } from "@/lib/supabase";
 import VoteClient from "./vote-client";
 
 export const dynamic = "force-dynamic";
 
 export default async function PollPage({ params }: { params: { slug: string } }) {
+  const supabase = getSupabase();
   const { data: poll } = await supabase
     .from("polls")
     .select("*")
