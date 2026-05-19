@@ -94,6 +94,11 @@ const fr: Dict = {
   "auth.logout": "Se déconnecter",
   "auth.cta.connect": "Se connecter / Créer un compte",
   "auth.cta.secure": "Sécuriser ton compte avec un email →",
+
+  "install.cta": "📥 Installer l'app",
+  "install.ios.title": "Installer sur iPhone",
+  "install.ios.body": "Tape l'icône Partage en bas de Safari (⎙), puis « Sur l'écran d'accueil ».",
+  "install.dismiss": "Fermer",
 };
 
 const en: Dict = {
@@ -176,6 +181,11 @@ const en: Dict = {
   "auth.logout": "Sign out",
   "auth.cta.connect": "Sign in / Create account",
   "auth.cta.secure": "Save your account with an email →",
+
+  "install.cta": "📥 Install app",
+  "install.ios.title": "Install on iPhone",
+  "install.ios.body": "Tap the Share icon at the bottom of Safari (⎙), then choose 'Add to Home Screen'.",
+  "install.dismiss": "Close",
 };
 
 const es: Dict = {
@@ -258,6 +268,11 @@ const es: Dict = {
   "auth.logout": "Cerrar sesión",
   "auth.cta.connect": "Iniciar sesión / Crear cuenta",
   "auth.cta.secure": "Asegura tu cuenta con un email →",
+
+  "install.cta": "📥 Instalar app",
+  "install.ios.title": "Instalar en iPhone",
+  "install.ios.body": "Toca el icono Compartir (⎙) en Safari, luego elige 'Añadir a la pantalla de inicio'.",
+  "install.dismiss": "Cerrar",
 };
 
 const it: Dict = {
@@ -340,6 +355,11 @@ const it: Dict = {
   "auth.logout": "Esci",
   "auth.cta.connect": "Accedi / Crea account",
   "auth.cta.secure": "Salva il tuo account con un'email →",
+
+  "install.cta": "📥 Installa app",
+  "install.ios.title": "Installa su iPhone",
+  "install.ios.body": "Tocca l'icona Condividi (⎙) in basso su Safari, poi 'Aggiungi alla schermata Home'.",
+  "install.dismiss": "Chiudi",
 };
 
 const pt: Dict = {
@@ -394,6 +414,11 @@ const pt: Dict = {
   "auth.logout": "Sair",
   "auth.cta.connect": "Entrar / Criar conta",
   "auth.cta.secure": "Salve sua conta com um email →",
+
+  "install.cta": "📥 Instalar app",
+  "install.ios.title": "Instalar no iPhone",
+  "install.ios.body": "Toque no ícone Compartilhar (⎙) na parte inferior do Safari e escolha 'Adicionar à Tela de Início'.",
+  "install.dismiss": "Fechar",
 };
 
 const de: Dict = {
@@ -448,6 +473,11 @@ const de: Dict = {
   "auth.logout": "Abmelden",
   "auth.cta.connect": "Anmelden / Konto erstellen",
   "auth.cta.secure": "Sichere dein Konto mit einer E-Mail →",
+
+  "install.cta": "📥 App installieren",
+  "install.ios.title": "Auf dem iPhone installieren",
+  "install.ios.body": "Tippe in Safari unten auf das Teilen-Symbol (⎙), dann auf 'Zum Home-Bildschirm'.",
+  "install.dismiss": "Schließen",
 };
 
 const ja: Dict = {
@@ -502,6 +532,11 @@ const ja: Dict = {
   "auth.logout": "ログアウト",
   "auth.cta.connect": "ログイン / アカウント作成",
   "auth.cta.secure": "メールでアカウントを保存 →",
+
+  "install.cta": "📥 アプリをインストール",
+  "install.ios.title": "iPhone にインストール",
+  "install.ios.body": "Safari 下部の共有アイコン（⎙）→『ホーム画面に追加』をタップ。",
+  "install.dismiss": "閉じる",
 };
 
 const zh: Dict = {
@@ -556,6 +591,11 @@ const zh: Dict = {
   "auth.logout": "退出登录",
   "auth.cta.connect": "登录 / 注册",
   "auth.cta.secure": "用邮箱保存你的账号 →",
+
+  "install.cta": "📥 安装应用",
+  "install.ios.title": "在 iPhone 上安装",
+  "install.ios.body": "在 Safari 底部点击分享图标（⎙），选择「添加到主屏幕」。",
+  "install.dismiss": "关闭",
 };
 
 const DICTS: Record<Locale, Dict> = { fr, en, es, it, pt, de, ja, zh };

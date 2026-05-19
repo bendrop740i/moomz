@@ -24,8 +24,12 @@
 - Redirect URLs (Add URL): `https://moomz.com/auth/callback`, `http://localhost:3001/auth/callback`
 - Email auth provider: enabled (it is by default). Free-tier SMTP is 4 emails/hour — fine for testing, not launch. For launch wire up Resend/Postmark/SendGrid in Auth → Email settings.
 
-**Still open / next to push** (carried over):
-- **PWA + push notifs** — user explicitly asked for "vraie app" install + notifs (typingmind-style). Manifest + service worker + VAPID keys + subscription store + push sending. ~4-5h.
+**Just shipped in second wave (2026-05-19)**:
+- **PWA basics** — `app/manifest.ts`, `public/sw.js` (network-first HTML, cache-first static), `app/sw-register.tsx` (registers only in prod), `app/install-prompt.tsx` (intercepts `beforeinstallprompt` on Chrome/Android, custom modal for iOS Safari with Add-to-Home-Screen instructions). Dismissal stored 14d in localStorage. `install.*` keys in all 8 langs.
+- **Seed polls multilang** — 140 polls (20 × 7 langs: en/es/it/pt/de/ja/zh) in `supabase-migrations/003-seed-polls-multilang.sql`. Topic-tagged, slugs `seed_<lang>NN`, `is_seed=true`.
+
+**Still open / next to push**:
+- **Push notifs** — Manifest done, now need VAPID keys + subscription endpoint + server-side push for Daily Moomz. ~2-3h. User generates VAPID via `npx web-push generate-vapid-keys` and pastes the public/private into env vars.
 - **Profile picture upload + resize** — Supabase Storage bucket already exists for `poll-images`, just need an `avatars` bucket + client-side canvas resize before upload.
 - **ASK feature** (Q&A on profile, Ask.fm-style anonymous, 3 questions/day max for recipient). Premium gating: streak unlocks cosmetics (not premium), premium = paid Stripe €2.99/mo.
 - **Stripe €2.99/mo Premium** — separate session: webhooks + customer portal + grace period.

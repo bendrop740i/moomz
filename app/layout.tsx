@@ -5,7 +5,10 @@ import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
+import ServiceWorkerRegister from "./sw-register";
+import InstallPrompt from "./install-prompt";
 import { getLocale } from "@/lib/i18n-server";
+import { t } from "@/lib/i18n";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -45,6 +48,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = getLocale();
+  const installStrings = {
+    cta: t("install.cta", locale),
+    iosTitle: t("install.ios.title", locale),
+    iosBody: t("install.ios.body", locale),
+    dismiss: t("install.dismiss", locale),
+  };
   return (
     <html lang={locale} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
@@ -65,6 +74,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <StreakHUD />
           <AchievementToast />
           <BottomNav />
+          <InstallPrompt strings={installStrings} />
+          <ServiceWorkerRegister />
         </LocaleProvider>
       </body>
     </html>
