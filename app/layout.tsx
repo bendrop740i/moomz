@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
-import BottomNav from "./bottom-nav";
+import BottomNav from "./bottom-nav-v2";
+import SiteHeader from "./site-header";
 import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
@@ -84,7 +85,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="blob blob-3" />
           </div>
           <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
-          <main className="relative mx-auto w-full max-w-xl px-5 pt-8 sm:pt-12 pb-28">
+          <main className="relative mx-auto w-full max-w-xl px-5 pt-4 sm:pt-6 pb-28">
+            <SiteHeader />
             {children}
             <div className="flex justify-end mt-8">
               <LocaleSwitcher />
