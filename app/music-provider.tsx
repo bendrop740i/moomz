@@ -36,6 +36,8 @@ const Ctx = createContext<MusicState | null>(null);
 
 const RECENT_KEY = "moomz_music_recent";
 const VOLUME_KEY = "moomz_music_volume";
+const CURRENT_KEY = "moomz_music_current";
+const POSITION_KEY = "moomz_music_position";
 const RECENT_MAX = 60;
 
 export function MusicProvider({ children }: { children: React.ReactNode }) {
@@ -44,17 +46,59 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [volume, setVolumeState] = useState(0.6);
+  const restoredRef = useRef(false);
 
+  // Restore volume + last track from localStorage on first mount.
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const stored = localStorage.getItem(VOLUME_KEY);
-    if (stored !== null) {
-      const v = Number(stored);
+    if (restoredRef.current) return;
+    restoredRef.current = true;
+
+    const storedVol = localStorage.getItem(VOLUME_KEY);
+    if (storedVol !== null) {
+      const v = Number(storedVol);
       if (!Number.isNaN(v)) setVolumeState(v);
+    }
+
+    try {
+      const raw = localStorage.getItem(CURRENT_KEY);
+      if (raw) {
+        const track = JSON.parse(raw) as Track;
+        if (track && track.id) {
+          // Load the track in <audio> but do NOT play (browser blocks autoplay without user gesture).
+          const el = audioRef.current;
+          if (el) {
+            el.src = `/api/track/${track.id}`;
+            const storedPos = Number(localStorage.getItem(POSITION_KEY) ?? "0");
+            if (!Number.isNaN(storedPos) && storedPos > 0) {
+              const onMeta = () => {
+                try {
+                  el.currentTime = storedPos;
+                } catch {}
+                el.removeEventListener("loadedmetadata", onMeta);
+              };
+              el.addEventListener("loadedmetadata", onMeta);
+            }
+          }
+          setCurrent(track);
+        }
+      }
+    } catch {
+      // ignore malformed storage
     }
   }, []);
 
-  // Read recently played ids
+  // Persist current track id on change.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (current) {
+      try {
+        localStorage.setItem(CURRENT_KEY, JSON.stringify(current));
+      } catch {}
+    }
+  }, [current]);
+
+  // Read recently played ids.
   const readRecent = useCallback((): string[] => {
     if (typeof window === "undefined") return [];
     try {
@@ -89,9 +133,13 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     async (track: Track, shouldPlay: boolean) => {
       setCurrent(track);
       pushRecent(track.id);
+      // New track → reset stored position.
+      try {
+        localStorage.setItem(POSITION_KEY, "0");
+      } catch {}
       const el = audioRef.current;
       if (!el) return;
-      // /api/track/[id] redirects to a freshly-signed Vercel Blob URL each play.
+      // /api/track/[id] proxies a freshly-resolved Vercel Blob stream each play.
       el.src = `/api/track/${track.id}`;
       el.volume = volume;
       try {
@@ -167,6 +215,31 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     [loadAndMaybePlay],
   );
 
+  // Persist current playback position every 3s while playing, plus on pause.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const el = audioRef.current;
+    if (!el) return;
+
+    const save = () => {
+      try {
+        localStorage.setItem(POSITION_KEY, String(Math.floor(el.currentTime || 0)));
+      } catch {}
+    };
+    const id = setInterval(() => {
+      if (!el.paused) save();
+    }, 3000);
+    el.addEventListener("pause", save);
+    el.addEventListener("seeked", save);
+    window.addEventListener("beforeunload", save);
+    return () => {
+      clearInterval(id);
+      el.removeEventListener("pause", save);
+      el.removeEventListener("seeked", save);
+      window.removeEventListener("beforeunload", save);
+    };
+  }, []);
+
   const value = useMemo<MusicState>(
     () => ({ current, isPlaying, isLoading, volume, play, pause, toggle, next, setVolume, start, playTrack }),
     [current, isPlaying, isLoading, volume, play, pause, toggle, next, setVolume, start, playTrack],
@@ -178,14 +251,18 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       <audio
         ref={audioRef}
         preload="metadata"
+        playsInline
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
         onEnded={() => {
-          // auto-advance with smart shuffle
+          // Auto-advance with smart shuffle.
+          try {
+            localStorage.setItem(POSITION_KEY, "0");
+          } catch {}
           next();
         }}
         onError={() => {
-          // bad blob URL / network — skip
+          // Bad URL / network — skip to next.
           next();
         }}
       />
