@@ -5,11 +5,11 @@ import { getSupabase } from "@/lib/supabase";
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-// Returns a 302 redirect to a freshly-signed Vercel Blob URL for the track.
-// Music player uses `/api/track/<id>` as the audio src; the browser follows
-// the redirect each time it (re)opens the stream.
+// Streams a private Vercel Blob track to the client by proxying the bytes
+// with our BLOB_READ_WRITE_TOKEN. Range requests pass through so HTML audio
+// elements can seek normally.
 export async function GET(
-  _req: NextRequest,
+  req: NextRequest,
   { params }: { params: { id: string } },
 ) {
   const supabase = getSupabase();
@@ -23,21 +23,57 @@ export async function GET(
     return new NextResponse("Track not found", { status: 404 });
   }
 
-  // blob_url holds the stable pathname (e.g. "tracks/after-midnight.mp3").
-  // head() resolves it to a fresh downloadUrl with a signed token.
+  const token = process.env.BLOB_READ_WRITE_TOKEN;
+  if (!token) {
+    return new NextResponse("Blob token not configured", { status: 500 });
+  }
+
+  // Resolve pathname → private blob URL.
+  let blobUrl: string;
   try {
-    const info = await head(data.blob_url, {
-      token: process.env.BLOB_READ_WRITE_TOKEN,
-    });
-    const target = info.downloadUrl || info.url;
-    if (!target) {
-      return new NextResponse("No downloadable URL", { status: 502 });
-    }
-    return NextResponse.redirect(target, { status: 302 });
+    const info = await head(data.blob_url, { token });
+    blobUrl = info.url;
   } catch (e) {
     return new NextResponse(
       `Blob lookup failed: ${e instanceof Error ? e.message : "unknown"}`,
       { status: 502 },
     );
   }
+
+  const range = req.headers.get("range");
+  const upstream = await fetch(blobUrl, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      ...(range ? { Range: range } : {}),
+    },
+  });
+
+  if (!upstream.ok && upstream.status !== 206) {
+    return new NextResponse(
+      `Blob fetch failed: ${upstream.status}`,
+      { status: 502 },
+    );
+  }
+
+  const headers = new Headers();
+  const passThrough = [
+    "content-type",
+    "content-length",
+    "content-range",
+    "accept-ranges",
+    "etag",
+    "last-modified",
+  ];
+  for (const k of passThrough) {
+    const v = upstream.headers.get(k);
+    if (v) headers.set(k, v);
+  }
+  if (!headers.has("content-type")) headers.set("content-type", "audio/mpeg");
+  if (!headers.has("accept-ranges")) headers.set("accept-ranges", "bytes");
+  headers.set("cache-control", "public, max-age=3600");
+
+  return new NextResponse(upstream.body, {
+    status: upstream.status,
+    headers,
+  });
 }
