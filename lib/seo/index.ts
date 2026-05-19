@@ -5,6 +5,7 @@ import { ideasEn } from "./ideas-en";
 import { guides } from "./guides";
 import { blog } from "./blog";
 import { extras } from "./extras";
+import { read } from "./read";
 
 export const allPages: SeoPage[] = [
   ...idees1,
@@ -13,6 +14,7 @@ export const allPages: SeoPage[] = [
   ...guides,
   ...blog,
   ...extras,
+  ...read,
 ];
 
 export function pagesByCategory(category: Category): SeoPage[] {

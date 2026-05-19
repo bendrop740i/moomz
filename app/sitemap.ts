@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { allPages } from "@/lib/seo";
+import { getAllKeywords } from "@/lib/seo/keywords/loader";
+import { keywordUrl } from "@/lib/seo/keywords/types";
 import { getSupabase } from "@/lib/supabase";
 
 const BASE = "https://moomz.com";
@@ -64,8 +66,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/ideas`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/guides`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/read`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/mot`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/word`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
+
+  const keywordUrls: MetadataRoute.Sitemap = getAllKeywords().map((k) => ({
+    url: `${BASE}${keywordUrl(k)}`,
+    lastModified: new Date(k.updatedAt),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
 
   const seoUrls: MetadataRoute.Sitemap = allPages.map((p) => ({
     url: `${BASE}/${p.category}/${p.slug}`,
@@ -90,5 +102,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticUrls, ...seoUrls, ...pollUrls, ...profileUrls];
+  return [...staticUrls, ...seoUrls, ...keywordUrls, ...pollUrls, ...profileUrls];
 }

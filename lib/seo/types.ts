@@ -1,6 +1,6 @@
-export type Locale = "fr" | "en";
+export type Locale = "fr" | "en" | "es" | "it" | "pt" | "de" | "ja" | "zh";
 
-export type Category = "idees" | "ideas" | "guides" | "blog";
+export type Category = "idees" | "ideas" | "guides" | "blog" | "read";
 
 export type SeoPoll = {
   q: string;

@@ -3,16 +3,16 @@ import { allPages } from "@/lib/seo";
 
 const FOOTER_LINKS_FR = [
   { label: "Idées de sondage", href: "/idees" },
+  { label: "📖 Read", href: "/read" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
-  { label: "Poll ideas (EN)", href: "/ideas" },
 ];
 
 const FOOTER_LINKS_EN = [
   { label: "Poll ideas", href: "/ideas" },
+  { label: "📖 Read", href: "/read" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
-  { label: "Idées (FR)", href: "/idees" },
 ];
 
 const FEATURED_SLUGS_FR = [
