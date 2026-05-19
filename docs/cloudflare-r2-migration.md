@@ -6,10 +6,14 @@ Why: R2 has **free egress** + S3-compatible API + edge CDN. Vercel Blob bills
 per-GB egress on top of compute. For audio streaming (range requests, repeat
 plays), R2 wins on every axis.
 
-Architecture: bucket is **public**, fronted by a custom domain
-(`music.moomz.com`). The `/api/track/[id]` route 302-redirects to that domain,
-so the browser hits R2's edge directly — zero Vercel function compute or
-bandwidth per play.
+Architecture: bucket is **public**, accessed via the Cloudflare-provided
+`pub-<hash>.r2.dev` URL (no custom domain needed since `moomz.com` is on
+GoDaddy DNS, not Cloudflare). The `/api/track/[id]` route 302-redirects to
+that URL, so the browser hits R2's edge directly — zero Vercel function
+compute or bandwidth per play.
+
+A custom domain like `music.moomz.com` is optional later if/when you move
+DNS to Cloudflare — it'd be a one-env-var swap (`R2_PUBLIC_BASE_URL`).
 
 The runtime route auto-falls-back to the old Vercel-Blob proxy whenever
 `R2_PUBLIC_BASE_URL` is not set, so the migration is non-disruptive: copy
@@ -28,24 +32,21 @@ the files first, flip the env var second, remove the fallback last.
      but R2's edge distribution makes this nearly irrelevant).
 4. Once created, open the bucket → **Settings** tab.
 
-## Step 2 — Make it publicly readable via custom domain
+## Step 2 — Enable the public r2.dev URL
 
-Option A (preferred — custom domain, branded URLs):
+Since `moomz.com` is on GoDaddy DNS (not Cloudflare), we use the
+Cloudflare-provided public subdomain — no DNS work, no domain transfer.
 
-1. **Settings → Public access → Custom Domains → Connect Domain**.
-2. Enter `music.moomz.com`.
-3. Cloudflare adds the CNAME automatically (since `moomz.com` is on
-   Cloudflare). If it's on GoDaddy, add the CNAME shown there manually.
-4. Wait ~1 min, then `curl https://music.moomz.com/` should return Cloudflare
-   404 (proves DNS works; bucket is empty so 404 is normal).
+1. In the bucket: **Settings → Public access → R2.dev subdomain → Allow access**.
+2. Cloudflare will warn that the URL is unbranded — that's fine, click confirm.
+3. Copy the URL — looks like `https://pub-<long-hash>.r2.dev`. **Save it.**
 
-Option B (faster, but uglier URL):
+That URL is your `R2_PUBLIC_BASE_URL`.
 
-1. **Settings → Public access → R2.dev subdomain → Allow access**.
-2. Copy the URL — looks like `https://pub-<hash>.r2.dev`.
-
-Either way you end up with a public base URL. **Save it.** That's
-`R2_PUBLIC_BASE_URL`.
+> **Later optional**: if you ever move `moomz.com` DNS to Cloudflare, you can
+> swap to a branded `music.moomz.com` URL by adding a Custom Domain in the
+> bucket settings, then updating the env var. The code doesn't change — it
+> reads whatever's in `R2_PUBLIC_BASE_URL`.
 
 ## Step 3 — Create an R2 API token
 
@@ -112,8 +113,8 @@ through Vercel Blob and 302-redirects to R2 instead.
 
 ```powershell
 vercel env add R2_PUBLIC_BASE_URL production
-# When prompted, enter:  https://music.moomz.com
-# (or your r2.dev URL)
+# When prompted, enter the r2.dev URL from Step 2, e.g.:
+#   https://pub-9abc123def456.r2.dev
 ```
 
 Repeat for `preview` and `development` if you want the same behaviour there
@@ -127,8 +128,8 @@ After the deploy is live:
 
 1. Open the network tab on moomz.com, hit "Lancer la radio".
 2. Look at the request to `/api/track/<id>`. It should respond **302** with
-   `Location: https://music.moomz.com/tracks/<slug>.mp3`.
-3. The next request should go straight to `music.moomz.com` and stream.
+   `Location: https://pub-<hash>.r2.dev/tracks/<slug>.mp3`.
+3. The next request should go straight to `pub-<hash>.r2.dev` and stream.
 4. `Cache-Control: public, max-age=86400, immutable` should be on both the
    redirect AND the audio response (set at upload time).
 
