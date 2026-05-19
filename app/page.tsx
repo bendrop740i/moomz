@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import CreatePollForm from "./create-poll-form";
-import Onboarding from "./onboarding";
 import FeaturedAsks from "./featured-asks";
 import SeoFooter from "./seo-footer";
 import DailyCardSection from "./_home/daily-card-section";
@@ -133,8 +132,6 @@ export default function HomePage() {
       <Suspense fallback={<FeaturedAsksSkeleton />}>
         <FeaturedAsks />
       </Suspense>
-
-      <Onboarding />
 
       <Suspense fallback={<TrendingFeedSkeleton />}>
         <TrendingFeed />
