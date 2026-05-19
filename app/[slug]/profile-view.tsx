@@ -59,18 +59,20 @@ export default function ProfileView({
 
   return (
     <div className="space-y-6 fade-up">
-      <header className="glass relative rounded-3xl p-5 sm:p-6 space-y-4 text-center">
+      <header className="glass relative rounded-3xl p-4 sm:p-6 space-y-4 text-center">
         <ShareLinker username={profile.username} displayName={profile.display_name} />
-        <div className="text-6xl">{profile.avatar_emoji}</div>
+        <div className="text-5xl sm:text-6xl">{profile.avatar_emoji}</div>
         <div className="space-y-1">
-          <h1 className="text-2xl font-bold tracking-tight">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight break-words">
             {profile.display_name ?? `@${profile.username}`}
           </h1>
           {profile.display_name && (
-            <div className="text-sm text-white/50">@{profile.username}</div>
+            <div className="text-sm text-white/50 break-all">@{profile.username}</div>
           )}
           {profile.bio && (
-            <p className="text-white/70 text-sm pt-1 text-balance">{profile.bio}</p>
+            <p className="text-white/70 text-sm pt-1 text-balance break-words whitespace-pre-wrap">
+              {profile.bio}
+            </p>
           )}
         </div>
 
@@ -85,7 +87,7 @@ export default function ProfileView({
                   href={cfg.url(value)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 bg-gradient-to-r ${cfg.color} text-white text-xs font-semibold hover:scale-[1.04] active:scale-[0.98] transition`}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-3 min-h-[36px] py-1.5 bg-gradient-to-r ${cfg.color} text-white text-xs font-semibold hover:scale-[1.04] active:scale-[0.98] transition`}
                 >
                   {cfg.label}
                 </a>
@@ -94,7 +96,7 @@ export default function ProfileView({
           </div>
         )}
 
-        <div className="flex items-center justify-center gap-5 pt-2 text-sm">
+        <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 pt-2 text-sm">
           <Stat label="moomz" value={polls.length} />
           <Stat label="votes" value={totalVotes} />
           <Stat label="pts" value={profile.total_points ?? 0} />

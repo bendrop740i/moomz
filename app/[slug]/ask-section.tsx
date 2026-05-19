@@ -166,11 +166,11 @@ function AskComposer({
 
   return (
     <div className="glass rounded-2xl p-4 sm:p-5 space-y-3 relative overflow-hidden border-pink-400/20">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-2">
         <h3 className="text-base sm:text-lg font-bold tracking-tight">
           {t("ask.compose.title")}
         </h3>
-        <span className="text-[10px] uppercase tracking-widest text-pink-300/80 font-semibold">
+        <span className="text-[10px] uppercase tracking-widest text-pink-300/80 font-semibold shrink-0">
           🤫 {t("ask.anonymous")}
         </span>
       </div>
@@ -179,16 +179,17 @@ function AskComposer({
         onChange={(e) => setText(e.target.value.slice(0, MAX_LEN))}
         placeholder={t("ask.compose.placeholder")}
         rows={3}
-        className="w-full rounded-xl bg-white/5 border border-white/10 focus:border-pink-400/60 focus:outline-none px-3 py-2.5 text-sm placeholder:text-white/30 resize-none"
+        style={{ ["fieldSizing" as string]: "content" } as React.CSSProperties}
+        className="w-full rounded-xl bg-white/5 border border-white/10 focus:border-pink-400/60 focus:outline-none px-3 py-2.5 text-sm placeholder:text-white/30 resize-y min-h-[88px]"
       />
       <div className="flex items-center justify-between gap-2">
-        <span className={`text-[10px] tabular-nums ${remaining < 30 ? "text-orange-300" : "text-white/30"}`}>
+        <span className={`text-xs tabular-nums font-medium ${remaining < 30 ? "text-orange-300" : "text-white/40"}`}>
           {text.length}/{MAX_LEN}
         </span>
         <button
           onClick={send}
           disabled={!canSend}
-          className="rounded-xl px-4 py-2 text-sm font-bold bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 active:scale-95 transition shadow-lg shadow-pink-500/30 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="rounded-xl px-4 py-2 min-h-[40px] text-sm font-bold bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 active:scale-95 transition shadow-lg shadow-pink-500/30 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {pending ? t("ask.compose.sending") : t("ask.compose.send")}
         </button>
@@ -199,18 +200,19 @@ function AskComposer({
           <div className="text-[10px] uppercase tracking-widest text-white/40 font-semibold">
             {t("ask.compose.suggestions")}
           </div>
-          <div className="flex flex-wrap gap-1.5">
-            {prompts.slice(0, 6).map((p, i) => (
-              <button
-                key={i}
-                onClick={() => setText(p.slice(0, MAX_LEN))}
-                className="rounded-full px-3 py-1 text-xs bg-white/[0.06] border border-white/10 hover:border-pink-400/40 hover:bg-pink-500/10 transition text-left max-w-full truncate"
-                style={{ maxWidth: "100%" }}
-                title={p}
-              >
-                {p}
-              </button>
-            ))}
+          <div className="-mx-4 sm:-mx-5 px-4 sm:px-5 overflow-x-auto snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <div className="flex gap-1.5 w-max">
+              {prompts.slice(0, 6).map((p, i) => (
+                <button
+                  key={i}
+                  onClick={() => setText(p.slice(0, MAX_LEN))}
+                  className="snap-start shrink-0 rounded-full px-3.5 min-h-[44px] text-xs bg-white/[0.06] border border-white/10 hover:border-pink-400/40 hover:bg-pink-500/10 transition text-left max-w-[260px] truncate"
+                  title={p}
+                >
+                  {p}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}
@@ -275,22 +277,23 @@ function PendingCard({
   };
 
   return (
-    <li className="glass rounded-2xl p-3.5 space-y-2.5 border-pink-400/20">
+    <li className="glass rounded-2xl p-3.5 sm:p-4 space-y-2.5 border border-pink-400/30 bg-pink-500/[0.04]">
       <div className="flex items-start gap-2">
-        <span className="text-base shrink-0">👤</span>
-        <p className="text-sm sm:text-base font-semibold leading-snug">{q.text}</p>
+        <span className="text-base shrink-0 leading-snug">👤</span>
+        <p className="text-sm sm:text-base font-semibold leading-snug break-words min-w-0">{q.text}</p>
       </div>
       <textarea
         value={draft}
         onChange={(e) => setDraft(e.target.value.slice(0, 500))}
         placeholder={t("ask.answer.placeholder")}
         rows={2}
-        className="w-full rounded-xl bg-white/5 border border-white/10 focus:border-pink-400/60 focus:outline-none px-3 py-2 text-sm placeholder:text-white/30 resize-none"
+        style={{ ["fieldSizing" as string]: "content" } as React.CSSProperties}
+        className="w-full rounded-xl bg-white/5 border border-white/10 focus:border-pink-400/60 focus:outline-none px-3 py-2 text-sm placeholder:text-white/30 resize-y min-h-[64px]"
       />
       <div className="flex items-center justify-between gap-2">
         <button
           onClick={del}
-          className="text-xs text-white/40 hover:text-orange-300 transition"
+          className="text-xs text-white/40 hover:text-orange-300 transition min-h-[40px] px-2"
           disabled={pending}
         >
           {t("ask.answer.delete")}
@@ -298,7 +301,7 @@ function PendingCard({
         <button
           onClick={publish}
           disabled={pending || draft.trim().length < 1}
-          className="rounded-xl px-4 py-1.5 text-sm font-bold bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 active:scale-95 transition disabled:opacity-40"
+          className="rounded-xl px-4 py-1.5 min-h-[40px] text-sm font-bold bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 active:scale-95 transition disabled:opacity-40"
         >
           {pending ? t("ask.answer.sending") : t("ask.answer.send")}
         </button>
@@ -311,14 +314,14 @@ function PendingCard({
 function AnsweredCard({ q }: { q: AskItem }) {
   const t = useT();
   return (
-    <li className="glass rounded-2xl p-3.5 space-y-2">
+    <li className="glass rounded-2xl p-3.5 sm:p-4 space-y-2">
       <div className="flex items-start gap-2 text-white/70">
-        <span className="text-base shrink-0">👤</span>
-        <p className="text-sm font-medium leading-snug">{q.text}</p>
+        <span className="text-base shrink-0 leading-snug">👤</span>
+        <p className="text-sm font-medium leading-snug break-words min-w-0">{q.text}</p>
       </div>
       <div className="flex items-start gap-2 pl-1">
-        <span className="text-base shrink-0">💬</span>
-        <p className="text-sm sm:text-base font-semibold leading-snug whitespace-pre-wrap">
+        <span className="text-base shrink-0 leading-snug">💬</span>
+        <p className="text-sm sm:text-base font-semibold leading-snug whitespace-pre-wrap break-words min-w-0">
           {q.answer}
         </p>
       </div>
