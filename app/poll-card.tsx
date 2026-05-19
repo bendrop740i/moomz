@@ -14,6 +14,59 @@ import { useT } from "./locale-context";
 // pool data lazily so the home/discover feed doesn't pay for it up-front.
 const Confetti = dynamic(() => import("./confetti"), { ssr: false });
 
+// Inject vote-flow micro-animations once. We define our own classes so this
+// component keeps working even if the shared `.shimmer` from globals.css
+// hasn't landed yet — the names are namespaced (`moomz-*`) to avoid collisions.
+// If a `.shimmer` later exists in globals.css we keep this fallback locally
+// scoped via class names; no override of the shared class.
+const VOTE_FLOW_STYLE_ID = "moomz-vote-flow-style";
+function ensureVoteFlowStyle() {
+  if (typeof document === "undefined") return;
+  if (document.getElementById(VOTE_FLOW_STYLE_ID)) return;
+  const el = document.createElement("style");
+  el.id = VOTE_FLOW_STYLE_ID;
+  el.textContent = `
+@keyframes moomz-shimmer-sweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.moomz-shimmer {
+  background-image: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0) 65%
+  );
+  background-size: 200% 100%;
+  animation: moomz-shimmer-sweep 1.4s ease-in-out infinite;
+  will-change: background-position;
+}
+/* Smoothly tween the result bars from 0 → target on mount and on every
+   realtime update. Cubic-ease-out, ~400ms. */
+.moomz-bar {
+  transition: width 420ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: width;
+}
+@keyframes moomz-emoji-pulse {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.35); }
+  60%  { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+.moomz-emoji-pulse {
+  display: inline-block;
+  animation: moomz-emoji-pulse 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .moomz-shimmer { animation: none; }
+  .moomz-bar { transition: none; }
+  .moomz-emoji-pulse { animation: none; }
+}
+`;
+  document.head.appendChild(el);
+}
+
 type Props = {
   pollId: string;
   slug: string;
@@ -64,6 +117,21 @@ export default function PollCard({
   const flameIdRef = useRef(0);
   const rootRef = useRef<HTMLElement | null>(null);
   const preloadInFlightRef = useRef(false);
+
+  useEffect(() => {
+    ensureVoteFlowStyle();
+  }, []);
+
+  // If the user landed already-voted, arm the bars right away so they render
+  // at their final width on first paint (no 0% → target sweep on every reload).
+  // Also arm the bars once counts arrive after a vote, in case the optimistic
+  // requestAnimationFrame chain was raced by the server response.
+  useEffect(() => {
+    if (voted !== null && counts && !barsArmed) {
+      const id = requestAnimationFrame(() => setBarsArmed(true));
+      return () => cancelAnimationFrame(id);
+    }
+  }, [voted, counts, barsArmed]);
 
   useEffect(() => {
     const el = rootRef.current;

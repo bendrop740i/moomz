@@ -7,6 +7,54 @@ import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "../animated-number";
 
+// Same vote-flow stylesheet as PollCard. Inject once into <head>; the dedupe
+// guard means we don't re-add it if PollCard already mounted it elsewhere.
+const VOTE_FLOW_STYLE_ID = "moomz-vote-flow-style";
+function ensureVoteFlowStyle() {
+  if (typeof document === "undefined") return;
+  if (document.getElementById(VOTE_FLOW_STYLE_ID)) return;
+  const el = document.createElement("style");
+  el.id = VOTE_FLOW_STYLE_ID;
+  el.textContent = `
+@keyframes moomz-shimmer-sweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.moomz-shimmer {
+  background-image: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0) 65%
+  );
+  background-size: 200% 100%;
+  animation: moomz-shimmer-sweep 1.4s ease-in-out infinite;
+  will-change: background-position;
+}
+.moomz-bar {
+  transition: width 420ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: width;
+}
+@keyframes moomz-emoji-pulse {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.35); }
+  60%  { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+.moomz-emoji-pulse {
+  display: inline-block;
+  animation: moomz-emoji-pulse 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .moomz-shimmer { animation: none; }
+  .moomz-bar { transition: none; }
+  .moomz-emoji-pulse { animation: none; }
+}
+`;
+  document.head.appendChild(el);
+}
+
 type Props = {
   pollId: string;
   slug: string;
@@ -31,9 +79,14 @@ export default function VoteClient({
   const [counts, setCounts] = useState<number[]>(initialCounts);
   const [total, setTotal] = useState<number>(initialTotal);
   const [copied, setCopied] = useState(false);
-  const [animKey, setAnimKey] = useState(0);
   const [reveal, setReveal] = useState<{ isMajority: boolean; isRebel: boolean; userPct: number } | null>(null);
   const [isLive, setIsLive] = useState(false);
+  // Toggled to true one tick after the user votes so the bars tween from 0 → target
+  // width instead of snapping to 100% on the chosen option during the optimistic
+  // window. Also armed on mount if the user landed already-voted.
+  const [barsArmed, setBarsArmed] = useState(false);
+  // Triggers a CSS pulse on the chosen option's emoji on click.
+  const [emojiPulse, setEmojiPulse] = useState<{ idx: number; k: number } | null>(null);
   const myVoterIdRef = useRef<string | null>(null);
 
   const showResults = voted !== null;
@@ -41,11 +94,23 @@ export default function VoteClient({
   const pal = paletteFor(slug);
 
   useEffect(() => {
+    ensureVoteFlowStyle();
+  }, []);
+
+  useEffect(() => {
     const match = typeof document !== "undefined"
       ? document.cookie.match(/(?:^|;\s*)moomz_voter=([^;]+)/)
       : null;
     myVoterIdRef.current = match ? decodeURIComponent(match[1]) : null;
   }, []);
+
+  // Arm the bars after voting (next paint), so width tweens from 0 → target.
+  useEffect(() => {
+    if (showResults && !barsArmed) {
+      const id = requestAnimationFrame(() => setBarsArmed(true));
+      return () => cancelAnimationFrame(id);
+    }
+  }, [showResults, barsArmed]);
 
   useEffect(() => {
     if (!showResults) return;
@@ -70,7 +135,6 @@ export default function VoteClient({
             return next;
           });
           setTotal((t) => t + 1);
-          setAnimKey((k) => k + 1);
         },
       )
       .subscribe((status) => {
@@ -86,11 +150,17 @@ export default function VoteClient({
   const vote = (i: number) => {
     if (voted !== null || pending) return;
     setVoted(i);
+    setEmojiPulse({ idx: i, k: Date.now() });
     const optimistic = [...counts];
     optimistic[i] = (optimistic[i] ?? 0) + 1;
     setCounts(optimistic);
     setTotal(total + 1);
-    setAnimKey((k) => k + 1);
+    // Force a 0 → target tween on the result bars: paint once at width 0,
+    // then arm on the next frame so CSS transitions interpolate to pct.
+    setBarsArmed(false);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => setBarsArmed(true));
+    });
 
     startTransition(async () => {
       try {
@@ -130,7 +200,6 @@ export default function VoteClient({
         const res = await refreshCounts(pollId, options.length);
         setCounts(res.counts);
         setTotal(res.total);
-        setAnimKey((k) => k + 1);
       } catch {}
     });
   };
@@ -190,6 +259,7 @@ export default function VoteClient({
             const c = counts[i] ?? 0;
             const pct = total > 0 ? Math.round((c / total) * 100) : 0;
             const isMine = voted === i;
+            const isPulsing = emojiPulse?.idx === i;
 
             if (!showResults) {
               return (
@@ -198,17 +268,28 @@ export default function VoteClient({
                   onClick={() => vote(i)}
                   disabled={pending}
                   aria-label={`Voter pour: ${opt}, actuellement ${pct}%`}
-                  className="w-full text-left rounded-2xl border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 sm:px-4 py-3.5 sm:py-4 flex items-center gap-3 disabled:opacity-50 min-h-[56px]"
+                  className="w-full text-left rounded-2xl border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.97] transition px-3 sm:px-4 py-3.5 sm:py-4 flex items-center gap-3 disabled:opacity-50 min-h-[56px]"
                 >
-                  <span className="text-2xl shrink-0" aria-hidden>{EMOJIS[i]}</span>
+                  <span
+                    key={isPulsing ? emojiPulse!.k : undefined}
+                    className={`text-2xl shrink-0 ${isPulsing ? "moomz-emoji-pulse" : ""}`}
+                    aria-hidden
+                  >
+                    {EMOJIS[i]}
+                  </span>
                   <span className="font-medium text-base sm:text-lg break-words min-w-0">{opt}</span>
                 </button>
               );
             }
 
+            // Tween from 0 → pct on the first paint after voting; subsequent
+            // realtime updates animate via the CSS `transition: width` rule.
+            const renderedPct = barsArmed ? pct : 0;
             return (
               <div
-                key={`${i}-${animKey}`}
+                // Stable key — re-mounting the row on every realtime update would
+                // wipe the CSS transition and snap the bar to its new width.
+                key={i}
                 role="group"
                 aria-label={`${opt}${isMine ? " (ton vote)" : ""}: ${pct}%, ${c} vote${c > 1 ? "s" : ""}`}
                 className={`relative overflow-hidden rounded-2xl border-2 ${
@@ -217,16 +298,22 @@ export default function VoteClient({
               >
                 <div
                   aria-hidden
-                  className={`absolute inset-y-0 left-0 ${
+                  className={`moomz-bar absolute inset-y-0 left-0 ${
                     isMine
                       ? "bg-gradient-to-r from-pink-500/40 to-purple-500/40"
                       : "bg-white/8"
-                  } bar-grow`}
-                  style={{ width: `${pct}%` }}
+                  }`}
+                  style={{ width: `${renderedPct}%` }}
                 />
                 <div className="relative flex justify-between items-center gap-3">
                   <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-                    <span className="text-2xl shrink-0" aria-hidden>{EMOJIS[i]}</span>
+                    <span
+                      key={isPulsing ? emojiPulse!.k : undefined}
+                      className={`text-2xl shrink-0 ${isPulsing ? "moomz-emoji-pulse" : ""}`}
+                      aria-hidden
+                    >
+                      {EMOJIS[i]}
+                    </span>
                     <span className="font-semibold text-base sm:text-lg truncate">
                       {opt}
                       {isMine && (
