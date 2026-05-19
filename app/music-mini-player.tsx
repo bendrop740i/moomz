@@ -4,16 +4,30 @@ import { useMusic } from "./music-provider";
 import TrackCover from "./music/track-cover";
 
 export default function MusicMiniPlayer() {
-  const { current, isPlaying, isLoading, toggle, next } = useMusic();
+  const {
+    current,
+    isPlaying,
+    isLoading,
+    isBuffering,
+    isLoadingNext,
+    toggle,
+    next,
+  } = useMusic();
 
   // Only render once playback has started — no idle button cluttering the UI.
   if (!current) return null;
+
+  const showBufferingDot = isBuffering && !isLoadingNext;
 
   return (
     <div className="fixed bottom-20 right-3 z-30 select-none">
       <div className="glass rounded-full shadow-lg shadow-black/30 pl-1 pr-1 py-1 flex items-center gap-2 text-xs max-w-[250px]">
         <div className="w-7 h-7 rounded-full overflow-hidden shrink-0 relative">
-          <TrackCover seed={current.id} label={current.title} className="absolute inset-0 w-full h-full" />
+          <TrackCover
+            seed={current.id}
+            label={current.title}
+            className="absolute inset-0 w-full h-full"
+          />
         </div>
         <button
           onClick={toggle}
@@ -32,12 +46,29 @@ export default function MusicMiniPlayer() {
           )}
         </button>
         <div className="flex-1 min-w-0">
-          <div className="truncate font-medium text-white/90">{current.title}</div>
+          <div className="truncate font-medium text-white/90 flex items-center gap-1.5">
+            {isLoadingNext ? (
+              <span className="italic text-white/70">Loading next…</span>
+            ) : (
+              <>
+                <span className="truncate">{current.title}</span>
+                {showBufferingDot && (
+                  <span
+                    className="inline-block w-1.5 h-1.5 rounded-full bg-pink-400 shrink-0"
+                    style={{
+                      animation: "moomz-mini-dot 1s ease-in-out infinite",
+                    }}
+                    aria-label="Chargement audio"
+                  />
+                )}
+              </>
+            )}
+          </div>
           <div className="text-[10px] text-white/40">🎵 moomz radio</div>
         </div>
         <button
           onClick={next}
-          disabled={isLoading}
+          disabled={isLoading || isLoadingNext}
           className="w-7 h-7 rounded-full hover:bg-white/10 text-white/70 hover:text-white flex items-center justify-center shrink-0 disabled:opacity-50"
           aria-label="Suivant"
           title="Suivant"
@@ -48,6 +79,16 @@ export default function MusicMiniPlayer() {
           </svg>
         </button>
       </div>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+@keyframes moomz-mini-dot {
+  0%, 100% { transform: scale(1); opacity: 0.55; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+`,
+        }}
+      />
     </div>
   );
 }

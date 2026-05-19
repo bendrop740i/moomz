@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getSupabase } from "@/lib/supabase";
 import MusicGrid from "./music-grid";
 
@@ -35,7 +36,27 @@ type Track = {
   duration_s: number | null;
 };
 
-export default async function MusicPage() {
+function GridSkeleton() {
+  // 6 cards mirroring the live grid (2 cols mobile / 3 cols sm+).
+  const cards = Array.from({ length: 6 });
+  return (
+    <div className="space-y-3" aria-busy="true" aria-live="polite">
+      <div className="w-full rounded-2xl bg-white/5 h-12 skeleton-box shimmer" />
+      <div className="w-full glass rounded-xl h-10 opacity-60" />
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+        {cards.map((_, i) => (
+          <div key={i} className="glass rounded-xl p-3">
+            <div className="aspect-square rounded-lg overflow-hidden mb-2 skeleton-box shimmer" />
+            <div className="h-3 rounded skeleton-box shimmer mb-1.5" />
+            <div className="h-3 rounded skeleton-box shimmer w-2/3" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+async function TracksGrid() {
   const supabase = getSupabase();
   const { data } = await supabase
     .from("tracks")
@@ -64,22 +85,16 @@ export default async function MusicPage() {
   };
 
   return (
-    <div className="space-y-6 fade-up">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <header className="space-y-1">
-        <h1 className="text-3xl font-display tracking-tight bg-gradient-to-br from-pink-400 via-purple-400 to-amber-400 bg-clip-text text-transparent">
-          Vibe radio — musique en shuffle infini
-        </h1>
-        <p className="text-white/50 text-xs sm:text-sm">
-          {tracks.length > 0
-            ? `${tracks.length} tracks · shuffle infini, jamais 2x la même`
-            : "Bibliothèque vide pour l'instant."}
-        </p>
-      </header>
-
+      <p className="text-white/50 text-xs sm:text-sm -mt-4">
+        {tracks.length > 0
+          ? `${tracks.length} tracks · shuffle infini, jamais 2x la même`
+          : "Bibliothèque vide pour l'instant."}
+      </p>
       {tracks.length === 0 ? (
         <div className="glass rounded-2xl p-6 text-center space-y-2">
           <div className="text-4xl">🎧</div>
@@ -90,6 +105,22 @@ export default async function MusicPage() {
       ) : (
         <MusicGrid tracks={tracks} />
       )}
+    </>
+  );
+}
+
+export default function MusicPage() {
+  return (
+    <div className="space-y-6 fade-up">
+      <header className="space-y-1">
+        <h1 className="text-3xl font-display tracking-tight bg-gradient-to-br from-pink-400 via-purple-400 to-amber-400 bg-clip-text text-transparent">
+          Vibe radio — musique en shuffle infini
+        </h1>
+      </header>
+
+      <Suspense fallback={<GridSkeleton />}>
+        <TracksGrid />
+      </Suspense>
     </div>
   );
 }

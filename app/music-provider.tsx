@@ -197,10 +197,20 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   const loadAndMaybePlay = useCallback(
     async (track: Track, shouldPlay: boolean) => {
       const el = audioRef.current;
-      // CRITICAL: kick off the audio fetch BEFORE any React state updates so
-      // the network round-trip overlaps with rendering. Calling .play() while
+      // Flip UI state synchronously FIRST so the clicked card shows the veil
+      // and the mini-player appears with the new title before any network /
+      // codec work happens. `setCurrent` here is committed in the same React
+      // batch as the synchronous `intentId` flag — together they remove the
+      // 100-400ms "did my click register?" gap.
+      setCurrent(track);
+      setIntentId(track.id);
+      // Optimistically mark as buffering until <audio> fires `canplay` /
+      // `playing`. The mini-player listens to this to show the pulsing dot.
+      if (shouldPlay) setIsBuffering(true);
+      // CRITICAL: kick off the audio fetch BEFORE any awaited work so the
+      // network round-trip overlaps with React commit. Calling .play() while
       // a fresh user gesture is still on the stack also avoids autoplay
-      // blocks in some browsers.
+      // blocks in some browsers (mobile Safari especially).
       if (el) {
         el.src = `/api/track/${track.id}`;
         el.volume = volume;
@@ -212,10 +222,10 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
           // new state while the browser opens the connection in parallel.
           el.play().catch(() => {
             // Browser blocked autoplay (no user gesture yet). UI shows paused.
+            setIsBuffering(false);
           });
         }
       }
-      setCurrent(track);
       pushRecent(track.id);
       // New track → reset stored position.
       try {
@@ -227,9 +237,15 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
 
   const next = useCallback(async () => {
     setIsLoading(true);
+    setIsLoadingNext(true);
     const t = await fetchNextTrack();
     setIsLoading(false);
-    if (t) loadAndMaybePlay(t, true);
+    if (t) {
+      loadAndMaybePlay(t, true);
+    }
+    // Clear "Loading next…" once we have the track id wired up. The actual
+    // audio-buffering indicator (`isBuffering`) takes over from here.
+    setIsLoadingNext(false);
   }, [fetchNextTrack, loadAndMaybePlay]);
 
   const start = useCallback(async () => {
@@ -319,8 +335,38 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const value = useMemo<MusicState>(
-    () => ({ current, isPlaying, isLoading, volume, play, pause, toggle, next, setVolume, start, playTrack }),
-    [current, isPlaying, isLoading, volume, play, pause, toggle, next, setVolume, start, playTrack],
+    () => ({
+      current,
+      isPlaying,
+      isLoading,
+      isBuffering,
+      isLoadingNext,
+      intentId,
+      volume,
+      play,
+      pause,
+      toggle,
+      next,
+      setVolume,
+      start,
+      playTrack,
+    }),
+    [
+      current,
+      isPlaying,
+      isLoading,
+      isBuffering,
+      isLoadingNext,
+      intentId,
+      volume,
+      play,
+      pause,
+      toggle,
+      next,
+      setVolume,
+      start,
+      playTrack,
+    ],
   );
 
   return (
@@ -330,8 +376,18 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
         ref={audioRef}
         preload="auto"
         playsInline
-        onPlay={() => setIsPlaying(true)}
+        onPlay={() => {
+          setIsPlaying(true);
+          setIsBuffering(false);
+        }}
+        onPlaying={() => {
+          setIsPlaying(true);
+          setIsBuffering(false);
+        }}
         onPause={() => setIsPlaying(false)}
+        onWaiting={() => setIsBuffering(true)}
+        onStalled={() => setIsBuffering(true)}
+        onCanPlay={() => setIsBuffering(false)}
         onEnded={() => {
           // Auto-advance with smart shuffle.
           try {
@@ -341,6 +397,7 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
         }}
         onError={() => {
           // Bad URL / network — skip to next.
+          setIsBuffering(false);
           next();
         }}
       />
