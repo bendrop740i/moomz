@@ -9,7 +9,10 @@ import {
   useRef,
   useState,
 } from "react";
-import { getBrowserSupabase } from "@/lib/supabase-browser";
+// supabase-browser is intentionally NOT imported at module level — it pulls in
+// ~187 kB of @supabase/supabase-js that would otherwise ship with every route
+// (including 500+ SEO pages that never touch the radio). Loaded on-demand
+// inside the idle prefetch and inside fetchNextTrack().
 
 export type Track = {
   id: string;
@@ -22,6 +25,13 @@ type MusicState = {
   current: Track | null;
   isPlaying: boolean;
   isLoading: boolean;
+  isBuffering: boolean;
+  isLoadingNext: boolean;
+  // Track id the user just clicked — flipped synchronously inside the click
+  // handler so the UI can show "playing" before the audio element actually
+  // emits `play`. Distinct from `current?.id` because for the very first
+  // gesture we want instant veil feedback even before any state commit lands.
+  intentId: string | null;
   volume: number;
   play: () => Promise<void>;
   pause: () => void;
@@ -45,8 +55,14 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   const [current, setCurrent] = useState<Track | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [isBuffering, setIsBuffering] = useState(false);
+  const [isLoadingNext, setIsLoadingNext] = useState(false);
+  const [intentId, setIntentId] = useState<string | null>(null);
   const [volume, setVolumeState] = useState(0.6);
   const restoredRef = useRef(false);
+  // Speculatively-fetched next track so the first "Lancer la radio" click can
+  // skip the Supabase RPC round-trip and go straight to play().
+  const prefetchedRef = useRef<Track | null>(null);
 
   // Restore volume + last track from localStorage on first mount.
   useEffect(() => {
@@ -98,6 +114,48 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     }
   }, [current]);
 
+  // Speculatively fetch one candidate track so the first user click on
+  // "Lancer la radio" skips the Supabase RPC round-trip. Runs in the
+  // background after mount, only if there's nothing currently loaded.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (current) return; // already have something loaded from storage
+    if (prefetchedRef.current) return;
+    let cancelled = false;
+    // Defer slightly so we don't compete with critical above-fold rendering.
+    const idle = (window as unknown as {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+    }).requestIdleCallback;
+    const schedule = idle
+      ? (cb: () => void) => idle(cb, { timeout: 1500 })
+      : (cb: () => void) => window.setTimeout(cb, 600);
+    schedule(async () => {
+      if (cancelled) return;
+      const { getBrowserSupabase } = await import("@/lib/supabase-browser");
+      if (cancelled) return;
+      const supabase = getBrowserSupabase();
+      const recent = (() => {
+        try {
+          const raw = localStorage.getItem(RECENT_KEY);
+          return raw ? (JSON.parse(raw) as string[]) : [];
+        } catch {
+          return [];
+        }
+      })();
+      const { data, error } = await supabase.rpc("pick_random_track", {
+        p_exclude: recent,
+      });
+      if (cancelled || error) return;
+      const arr = data as unknown as Track[] | null;
+      if (arr && arr.length > 0) {
+        prefetchedRef.current = arr[0];
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [current]);
+
   // Read recently played ids.
   const readRecent = useCallback((): string[] => {
     if (typeof window === "undefined") return [];
@@ -118,6 +176,13 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   }, [readRecent]);
 
   const fetchNextTrack = useCallback(async (): Promise<Track | null> => {
+    // Use the speculatively-prefetched track if one is waiting.
+    if (prefetchedRef.current) {
+      const t = prefetchedRef.current;
+      prefetchedRef.current = null;
+      return t;
+    }
+    const { getBrowserSupabase } = await import("@/lib/supabase-browser");
     const supabase = getBrowserSupabase();
     const recent = readRecent();
     const { data, error } = await supabase.rpc("pick_random_track", {
@@ -131,25 +196,31 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
 
   const loadAndMaybePlay = useCallback(
     async (track: Track, shouldPlay: boolean) => {
+      const el = audioRef.current;
+      // CRITICAL: kick off the audio fetch BEFORE any React state updates so
+      // the network round-trip overlaps with rendering. Calling .play() while
+      // a fresh user gesture is still on the stack also avoids autoplay
+      // blocks in some browsers.
+      if (el) {
+        el.src = `/api/track/${track.id}`;
+        el.volume = volume;
+        // Don't call el.load() — setting `src` already triggers the load and
+        // calling load() afterwards can interrupt the play() promise on some
+        // browsers (Safari especially).
+        if (shouldPlay) {
+          // Fire-and-forget: don't await, so React can finish committing the
+          // new state while the browser opens the connection in parallel.
+          el.play().catch(() => {
+            // Browser blocked autoplay (no user gesture yet). UI shows paused.
+          });
+        }
+      }
       setCurrent(track);
       pushRecent(track.id);
       // New track → reset stored position.
       try {
         localStorage.setItem(POSITION_KEY, "0");
       } catch {}
-      const el = audioRef.current;
-      if (!el) return;
-      // /api/track/[id] proxies a freshly-resolved Vercel Blob stream each play.
-      el.src = `/api/track/${track.id}`;
-      el.volume = volume;
-      try {
-        el.load();
-        if (shouldPlay) {
-          await el.play();
-        }
-      } catch {
-        // Browser blocked autoplay (no user gesture yet). UI will show paused state.
-      }
     },
     [pushRecent, volume],
   );
@@ -158,23 +229,32 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     setIsLoading(true);
     const t = await fetchNextTrack();
     setIsLoading(false);
-    if (t) await loadAndMaybePlay(t, true);
+    if (t) loadAndMaybePlay(t, true);
   }, [fetchNextTrack, loadAndMaybePlay]);
 
   const start = useCallback(async () => {
     if (current) {
       const el = audioRef.current;
       if (el) {
-        try {
-          await el.play();
-        } catch {}
+        // Don't await — keep the click handler synchronous so the browser
+        // treats this as a user gesture and never throws autoplay errors.
+        el.play().catch(() => {});
       }
+      return;
+    }
+    // Fast path: if we already prefetched a candidate, kick off audio loading
+    // synchronously inside this click handler. Critical for mobile Safari
+    // which only allows .play() within the same user-gesture tick.
+    const prefetched = prefetchedRef.current;
+    if (prefetched) {
+      prefetchedRef.current = null;
+      loadAndMaybePlay(prefetched, true);
       return;
     }
     setIsLoading(true);
     const t = await fetchNextTrack();
     setIsLoading(false);
-    if (t) await loadAndMaybePlay(t, true);
+    if (t) loadAndMaybePlay(t, true);
   }, [current, fetchNextTrack, loadAndMaybePlay]);
 
   const play = useCallback(async () => {
@@ -184,9 +264,7 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       await start();
       return;
     }
-    try {
-      await el.play();
-    } catch {}
+    el.play().catch(() => {});
   }, [current, start]);
 
   const pause = useCallback(() => {
@@ -250,7 +328,7 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       {children}
       <audio
         ref={audioRef}
-        preload="metadata"
+        preload="auto"
         playsInline
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}

@@ -8,8 +8,22 @@ export default function ServiceWorkerRegister() {
     if (!("serviceWorker" in navigator)) return;
     if (process.env.NODE_ENV !== "production") return;
 
-    const register = () => {
-      navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {});
+    let reg: ServiceWorkerRegistration | null = null;
+
+    const register = async () => {
+      try {
+        reg = await navigator.serviceWorker.register("/sw.js", {
+          scope: "/",
+          // Don't let HTTP cache pin the SW — always check the network on update.
+          updateViaCache: "none",
+        });
+      } catch {
+        // ignore
+      }
+    };
+
+    const triggerUpdate = () => {
+      if (reg) reg.update().catch(() => {});
     };
 
     if (document.readyState === "complete") {
@@ -17,6 +31,15 @@ export default function ServiceWorkerRegister() {
     } else {
       window.addEventListener("load", register, { once: true });
     }
+
+    // Refresh the SW when the tab regains focus — catches new builds quickly.
+    window.addEventListener("focus", triggerUpdate);
+    document.addEventListener("visibilitychange", triggerUpdate);
+
+    return () => {
+      window.removeEventListener("focus", triggerUpdate);
+      document.removeEventListener("visibilitychange", triggerUpdate);
+    };
   }, []);
 
   return null;

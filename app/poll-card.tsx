@@ -2,13 +2,17 @@
 
 import { useEffect, useRef, useState, useTransition } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { castVote, refreshCounts, skipPoll } from "./actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "./animated-number";
-import Confetti from "./confetti";
 import { useT } from "./locale-context";
+
+// Confetti is only rendered after a vote — load its 4 kB of keyframe + emoji
+// pool data lazily so the home/discover feed doesn't pay for it up-front.
+const Confetti = dynamic(() => import("./confetti"), { ssr: false });
 
 type Props = {
   pollId: string;
@@ -51,6 +55,11 @@ export default function PollCard({
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
   const [reveal, setReveal] = useState<{ isMajority: boolean; isRebel: boolean; userPct: number } | null>(null);
   const [isVisible, setIsVisible] = useState(false);
+  // Toggled to true one tick after the user votes so the bars tween from 0 → target width
+  // instead of snapping to 100% on the chosen option.
+  const [barsArmed, setBarsArmed] = useState(false);
+  // Triggers a CSS pulse on the chosen option's emoji on click.
+  const [emojiPulse, setEmojiPulse] = useState<{ idx: number; k: number } | null>(null);
   const myVoterIdRef = useRef<string | null>(null);
   const flameIdRef = useRef(0);
   const rootRef = useRef<HTMLElement | null>(null);
@@ -152,6 +161,7 @@ export default function PollCard({
   const vote = (i: number) => {
     if (voted !== null || pending) return;
     setVoted(i);
+    setEmojiPulse({ idx: i, k: Date.now() });
     setTotal((t) => t + 1);
     // Optimistic: increment the chosen option on top of current counts (which
     // were preloaded on mount). If counts haven't loaded yet, fall back to a
@@ -165,6 +175,12 @@ export default function PollCard({
       return options.map(() => 0).map((_, idx) => (idx === i ? 1 : 0));
     });
     setConfettiKey((k) => k + 1);
+    // Arm bars on the next frame so the first paint has width:0 and the second
+    // paint transitions to the target percentage (smooth 0 → target tween).
+    setBarsArmed(false);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => setBarsArmed(true));
+    });
 
     startTransition(async () => {
       try {
@@ -261,23 +277,42 @@ export default function PollCard({
           const c = counts?.[i] ?? 0;
           const pct = counts && total > 0 ? Math.round((c / total) * 100) : 0;
           const isMine = voted === i;
+          const isPulsing = emojiPulse?.idx === i;
 
           if (!showResults) {
+            // Counts haven't landed yet — overlay a subtle shimmer that fades out
+            // the moment counts arrive. Height matches the voted row exactly so
+            // there is no layout shift on transition.
+            const isLoading = !counts && isVisible;
             return (
               <button
                 key={i}
                 onClick={() => vote(i)}
                 disabled={pending}
                 aria-label={`Voter pour: ${opt}`}
-                className="w-full min-h-[44px] text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 py-3 flex items-center gap-2.5 disabled:opacity-50"
+                className="relative overflow-hidden w-full min-h-[44px] text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.97] transition px-3 py-3 flex items-center gap-2.5 disabled:opacity-50"
               >
-                <span className="text-lg shrink-0" aria-hidden>{EMOJIS[i]}</span>
-                <span className="font-medium text-sm sm:text-base break-words min-w-0">{opt}</span>
+                <span
+                  aria-hidden
+                  className="moomz-shimmer pointer-events-none absolute inset-0 rounded-xl transition-opacity duration-200"
+                  style={{ opacity: isLoading ? 1 : 0 }}
+                />
+                <span
+                  key={isPulsing ? emojiPulse!.k : undefined}
+                  className={`relative text-lg shrink-0 ${isPulsing ? "moomz-emoji-pulse" : ""}`}
+                  aria-hidden
+                >
+                  {EMOJIS[i]}
+                </span>
+                <span className="relative font-medium text-sm sm:text-base break-words min-w-0">{opt}</span>
               </button>
             );
           }
 
           const fireForThis = flames.filter((f) => f.idx === i);
+          // Tween from 0 → pct on the first paint after voting; subsequent
+          // realtime updates animate via the CSS `transition: width` rule.
+          const renderedPct = barsArmed ? pct : 0;
           return (
             <div
               key={i}
@@ -286,16 +321,22 @@ export default function PollCard({
               } bg-white/5 px-3 py-3`}
             >
               <div
-                className={`absolute inset-y-0 left-0 ${
+                className={`moomz-bar absolute inset-y-0 left-0 ${
                   isMine
                     ? "bg-gradient-to-r from-pink-500/40 to-purple-500/40"
                     : "bg-white/[0.08]"
-                } bar-grow`}
-                style={{ width: `${pct}%` }}
+                }`}
+                style={{ width: `${renderedPct}%` }}
               />
               <div className="relative flex justify-between items-center gap-2">
                 <div className="flex items-center gap-2 min-w-0 flex-1">
-                  <span className="text-lg shrink-0" aria-hidden>{EMOJIS[i]}</span>
+                  <span
+                    key={isPulsing ? emojiPulse!.k : undefined}
+                    className={`text-lg shrink-0 ${isPulsing ? "moomz-emoji-pulse" : ""}`}
+                    aria-hidden
+                  >
+                    {EMOJIS[i]}
+                  </span>
                   <span className="font-semibold truncate text-sm sm:text-base min-w-0">{opt}</span>
                   {isMine && (
                     <span className="text-pink-300 text-[10px] uppercase tracking-wide shrink-0">

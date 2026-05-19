@@ -23,6 +23,9 @@ const font = Space_Grotesk({
   weight: ["400", "500", "600", "700"],
   display: "swap",
   variable: "--font-sans",
+  preload: true,
+  adjustFontFallback: true,
+  fallback: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
 });
 
 const fontDisplay = Bagel_Fat_One({
@@ -30,6 +33,9 @@ const fontDisplay = Bagel_Fat_One({
   weight: "400",
   display: "swap",
   variable: "--font-display",
+  preload: false,
+  adjustFontFallback: true,
+  fallback: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
 });
 
 export const metadata: Metadata = {

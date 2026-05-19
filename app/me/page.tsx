@@ -12,9 +12,14 @@ import AskInbox from "./ask-inbox";
 export const dynamic = "force-dynamic";
 
 export default async function MePage() {
-  const profile = await getMyProfile();
   const supabase = getServerSupabase();
-  const { data: auth } = await supabase.auth.getUser();
+  // getMyProfile() and auth.getUser() are independent (getMyProfile reads its own
+  // auth/session inside but only returns the profile row) — run in parallel.
+  const [profile, authRes] = await Promise.all([
+    getMyProfile(),
+    supabase.auth.getUser(),
+  ]);
+  const auth = authRes.data;
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
 
