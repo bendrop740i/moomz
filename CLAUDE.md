@@ -3,7 +3,33 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, Cloudflare R2 migration prep (latest).** User asked to prepare moving music storage from Vercel Blob to Cloudflare R2 ("prepare le changement de vercel blob a lcoduflare r2"). All code is in place, awaiting the user to create the R2 bucket + paste creds. Architecture: **public R2 bucket fronted by `music.moomz.com`** custom domain. `/api/track/[id]` does a 302 redirect to the R2 URL — no proxying, no Vercel function bandwidth per play. Falls back to the old Vercel Blob proxy whenever `R2_PUBLIC_BASE_URL` is unset, so the cutover is non-disruptive.
+**2026-05-20, Science QCM pack (latest).** User asked for QCM (multiple-choice quiz) pages on lots of subjects, physics-first, in multiple languages, with 10 agents ("fait stp des page de QCM sur plein de sujet physique etc et dans plsuieur langue met 10 agent la dessus"). Shipped via **10 parallel agents** — **39 new quizzes / ~463 new questions across 8 languages**, plus activated the previously-WIP quiz routes.
+
+New data files in `lib/quizzes/data/`:
+- `physique-fr.ts` — 4 quiz FR: mécanique classique, électricité & magnétisme, ondes/son/optique, relativité & quantique (45 questions)
+- `physics-en.ts` — 4 quiz EN: Newtonian mechanics, quantum basics, special/general relativity, particle & cosmology (48 q)
+- `chimie-multi.ts` — 4 quiz FR+EN: tableau périodique FR, réactions FR, organic chem EN, biochemistry EN (48 q)
+- `maths-multi.ts` — 4 quiz FR/EN/ES/DE: algèbre FR, calculus EN, geometría ES, Statistik DE (46 q, topic `culture-generale`)
+- `astronomie-multi.ts` — 4 quiz FR/EN/IT/JA: système solaire, black holes/stars, galassie, 宇宙探究 (48 q)
+- `biologie-avancee.ts` — 4 quiz FR/EN: génétique/ADN, evolution, ecology, microbiologie (48 q)
+- `ciencias-es.ts` — 4 quiz ES: física, química, biología celular, astronomía (48 q)
+- `wissenschaft-de.ts` — 3 quiz DE: Physik, Chemie, Biologie & Evolution (36 q)
+- `scienze-it-pt.ts` — 4 quiz IT+PT: fisica classica IT, chimica IT, física mecânica PT, biologia celular PT (48 q)
+- `sciences-ja-zh.ts` — 4 quiz JA+ZH: 物理の基本 JA, 化学と周期表 JA, 物理基础 ZH, 化学与元素周期表 ZH (48 q)
+
+Routes activated by renaming `.wip` → `.tsx`:
+- `app/quiz/page.tsx` — hub grouped by topic, ItemList JSON-LD, glass cards
+- `app/quiz/[slug]/page.tsx` — quiz article + BreadcrumbList + Quiz schema.org JSON-LD, static `details`-collapsed all-answers section for SEO indexing, FAQ-style microdata per question
+- `app/quiz/[slug]/quiz-play.tsx` — client interactive player (step-by-step, scored, verdict tier, restart)
+
+Wiring:
+- `lib/quizzes/index.ts` extended with 10 new imports + spreads — `allQuizzes` now totals ~60 quizzes (existing 21 + new 39)
+- `app/sitemap.ts` — added `/quiz` hub URL + map over `allQuizzes` for individual `/quiz/[slug]` (priority 0.75, monthly changefreq)
+- Reserved username `quiz` was already in 50+ list shipped earlier today
+
+Facts are real / well-known: Planck h=6.626e-34, c=299,792,458 m/s, Newton 1687, Mendeleïev 1869, Avogadro 6.022e23, Watson/Crick 1953, Higgs 2012, CMB 2.725K, etc. JA/ZH files use single-quoted strings to avoid the unescaped CJK quote bug that broke `lib/seo/read/r08.ts`.
+
+**2026-05-20, Cloudflare R2 migration prep.** User asked to prepare moving music storage from Vercel Blob to Cloudflare R2 ("prepare le changement de vercel blob a lcoduflare r2"). All code is in place, awaiting the user to create the R2 bucket + paste creds. Architecture: **public R2 bucket fronted by `music.moomz.com`** custom domain. `/api/track/[id]` does a 302 redirect to the R2 URL — no proxying, no Vercel function bandwidth per play. Falls back to the old Vercel Blob proxy whenever `R2_PUBLIC_BASE_URL` is unset, so the cutover is non-disruptive.
 
 Files shipped:
 - **`lib/r2.ts`** — `getR2PublicBase()` + `r2PublicUrl(key)` builder reading `R2_PUBLIC_BASE_URL`. Returns null when unset → triggers Vercel-Blob fallback in the route.

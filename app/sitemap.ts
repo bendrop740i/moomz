@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { allPages } from "@/lib/seo";
 import { getAllKeywords } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
+import { allQuizzes } from "@/lib/quizzes";
+import { quizUrl } from "@/lib/quizzes/types";
 import { getSupabase } from "@/lib/supabase";
 
 const BASE = "https://moomz.com";
@@ -69,6 +71,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/read`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/mot`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/word`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/quiz`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
@@ -77,6 +80,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified: new Date(k.updatedAt),
     changeFrequency: "weekly" as const,
     priority: 0.7,
+  }));
+
+  const quizUrls: MetadataRoute.Sitemap = allQuizzes.map((q) => ({
+    url: `${BASE}${quizUrl(q)}`,
+    lastModified: new Date(q.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
   }));
 
   const seoUrls: MetadataRoute.Sitemap = allPages.map((p) => ({
@@ -102,5 +112,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticUrls, ...seoUrls, ...keywordUrls, ...pollUrls, ...profileUrls];
+  return [...staticUrls, ...seoUrls, ...keywordUrls, ...quizUrls, ...pollUrls, ...profileUrls];
 }
