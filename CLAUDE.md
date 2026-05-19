@@ -3,7 +3,18 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-19, SEO push (latest).** User asked for 100+ SEO landing pages ("écris une centaine de page pour référencer le site, je veux que tu sois fort, cibles les niche cible tout"). Shipped:
+**2026-05-19, WorldVibes map (latest).** User asked for a world map discreetly integrated in the app ("ajoute une maps monde que tu intégre disctrement dans lapp, interactive et belle gosse et utile avec lapp"). Shipped:
+- **Migration 010** (`supabase-migrations/010-vote-country.sql`) — adds `votes.country` text column with an ISO-2 CHECK constraint, indexes on `(country, created_at desc)`, and a `votes_world_24h` view aggregating non-null countries from the last 24h. Anon `SELECT` granted on the view.
+- **Migration 010b** (`010b-bot-country.sql`) — updated `fake_vote_burst()` to pick a random ISO-2 country from a curated pool of 69 codes (matches `lib/countries.ts`) so the map keeps refreshing during low-traffic windows.
+- **Geo capture** in `castVote()` (`app/actions.ts`) — reads `x-vercel-ip-country` from Next.js `headers()` and inserts it alongside the vote. Validates `^[A-Za-z]{2}$` client-side because of the DB CHECK.
+- **`lib/countries.ts`** — curated 69 country centroids (cc/name/lat/lon) covering Europe, Mideast, Africa, Asia, Oceania, Americas. Hand-picked to land dots on populated centers, not deserts.
+- **`app/world-vibes.tsx`** — client component. Equirectangular projection cropped lat ∈ [-60,+75] (drops empty polar regions), 360×135 SVG viewbox, 2.67:1 aspect. Faint equator + tropics lines. For each country: idle dot (rgba white 0.18) if no votes, glowing pink dot with animated pulse halo (`<animate>` r and opacity 2.8s loop) sized by sqrt(votes / maxVotes) if active. Hover/touch shows tooltip with native country name + vote count. Header: emoji 🌍 + i18n title + total votes + active country count.
+- **Home wiring** — `app/page.tsx` fetches `votes_world_24h` in parallel with trending + daily, renders `<WorldVibes>` between the polls feed and `<SeoFooter>`. Discreet placement: glass card matching the rest of the home.
+- **i18n** — `world.{title,votes,countries,empty}` keys across all 8 langs (fr/en/es/it/pt/de/ja/zh).
+- **Backfill** — bot votes from the last 24h were retro-assigned random countries via SQL so the map shows live data immediately (~20 countries with 700+ bot votes each).
+- **Build** — typecheck green for all my files; the existing untracked `lib/seo/read/r08.ts` has parse errors (unescaped Chinese quotes) that pre-date this work and don't ship (untracked + unimported).
+
+**Earlier 2026-05-19, SEO push.** User asked for 100+ SEO landing pages ("écris une centaine de page pour référencer le site, je veux que tu sois fort, cibles les niche cible tout"). Shipped:
 - **101 statically-generated landing pages** (build output: 118 total routes):
   - 45 `/idees/[slug]` FR (Insta, TikTok, Snap, WhatsApp, Discord, couple, premier-rdv, ami, BFF, soirée, anniv, mariage, EVJF, EVG, baby shower, famille, enfants, ado, lycée, fac, classe primaire, collègues, team-building, startup, drôle, rebelle, drama, débat, this-or-that, would-you-rather, food, restau, voyage, Netflix, musique, mode, fitness, gaming, ferme du buzz, St-Valentin, Halloween, Noël cadeau, rentrée, été plage, argent finances)
   - 29 `/ideas/[slug]` EN miroir + politics/sports/debate/icebreaker

@@ -155,6 +155,11 @@ const fr: Dict = {
   "ask.featured.cta": "{n} question en attente",
   "ask.featured.ctaPlural": "{n} questions en attente",
   "ask.featured.ask": "Lui poser une question →",
+
+  "world.title": "Vibes mondiales",
+  "world.votes": "votes",
+  "world.countries": "pays",
+  "world.empty": "En attente d'activité…",
 };
 
 const en: Dict = {
@@ -298,6 +303,11 @@ const en: Dict = {
   "ask.featured.cta": "{n} question waiting",
   "ask.featured.ctaPlural": "{n} questions waiting",
   "ask.featured.ask": "Ask them a question →",
+
+  "world.title": "Global vibes",
+  "world.votes": "votes",
+  "world.countries": "countries",
+  "world.empty": "Warming up…",
 };
 
 const es: Dict = {
@@ -440,6 +450,11 @@ const es: Dict = {
   "ask.featured.cta": "{n} pregunta esperando",
   "ask.featured.ctaPlural": "{n} preguntas esperando",
   "ask.featured.ask": "Hazle una pregunta →",
+
+  "world.title": "Vibras globales",
+  "world.votes": "votos",
+  "world.countries": "países",
+  "world.empty": "Calentando…",
 };
 
 const it: Dict = {
@@ -582,6 +597,11 @@ const it: Dict = {
   "ask.featured.cta": "{n} domanda in attesa",
   "ask.featured.ctaPlural": "{n} domande in attesa",
   "ask.featured.ask": "Fagli una domanda →",
+
+  "world.title": "Vibe globali",
+  "world.votes": "voti",
+  "world.countries": "paesi",
+  "world.empty": "In attesa…",
 };
 
 const pt: Dict = {
@@ -696,6 +716,11 @@ const pt: Dict = {
   "ask.featured.cta": "{n} pergunta à espera",
   "ask.featured.ctaPlural": "{n} perguntas à espera",
   "ask.featured.ask": "Fazer uma pergunta →",
+
+  "world.title": "Vibes globais",
+  "world.votes": "votos",
+  "world.countries": "países",
+  "world.empty": "A aquecer…",
 };
 
 const de: Dict = {
@@ -810,6 +835,11 @@ const de: Dict = {
   "ask.featured.cta": "{n} Frage offen",
   "ask.featured.ctaPlural": "{n} Fragen offen",
   "ask.featured.ask": "Frag sie/ihn →",
+
+  "world.title": "Globale Vibes",
+  "world.votes": "Stimmen",
+  "world.countries": "Länder",
+  "world.empty": "Noch ruhig…",
 };
 
 const ja: Dict = {
@@ -924,6 +954,11 @@ const ja: Dict = {
   "ask.featured.cta": "{n} 件の質問待ち",
   "ask.featured.ctaPlural": "{n} 件の質問待ち",
   "ask.featured.ask": "質問する →",
+
+  "world.title": "世界のバイブス",
+  "world.votes": "投票",
+  "world.countries": "国",
+  "world.empty": "まだ静かです…",
 };
 
 const zh: Dict = {
@@ -1038,6 +1073,11 @@ const zh: Dict = {
   "ask.featured.cta": "{n} 个问题等回答",
   "ask.featured.ctaPlural": "{n} 个问题等回答",
   "ask.featured.ask": "去提问 →",
+
+  "world.title": "全球氛围",
+  "world.votes": "票",
+  "world.countries": "国家",
+  "world.empty": "暂时安静…",
 };
 
 const DICTS: Record<Locale, Dict> = { fr, en, es, it, pt, de, ja, zh };

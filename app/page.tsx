@@ -6,6 +6,7 @@ import DailyCard from "./daily-card";
 import Onboarding from "./onboarding";
 import FeaturedAsks from "./featured-asks";
 import SeoFooter from "./seo-footer";
+import WorldVibes from "./world-vibes";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
@@ -39,6 +40,22 @@ async function getTrending(limit = 40): Promise<TrendingPoll[]> {
   }
 }
 
+async function getWorldVibes(): Promise<Array<{ cc: string; votes: number }>> {
+  try {
+    const supabase = getSupabase();
+    const { data } = await supabase
+      .from("votes_world_24h")
+      .select("country,votes")
+      .limit(120);
+    if (!data) return [];
+    return data
+      .filter((r): r is { country: string; votes: number } => !!r.country)
+      .map((r) => ({ cc: r.country, votes: r.votes }));
+  } catch {
+    return [];
+  }
+}
+
 async function getDailyMoomz() {
   try {
     const supabase = getSupabase();
@@ -66,7 +83,11 @@ import { t } from "@/lib/i18n";
 export default async function HomePage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
-  const [allPolls, daily] = await Promise.all([getTrending(40), getDailyMoomz()]);
+  const [allPolls, daily, worldVibes] = await Promise.all([
+    getTrending(40),
+    getDailyMoomz(),
+    getWorldVibes(),
+  ]);
   const jar = cookies();
 
   const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));
@@ -117,11 +138,11 @@ export default async function HomePage() {
 
       {polls.length > 0 ? (
         <section className="space-y-3">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2">
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2 min-w-0 truncate">
               <span>{tx("home.trending")}</span>
             </h2>
-            <span className="text-xs text-white/30">
+            <span className="text-xs text-white/30 tabular-nums shrink-0">
               {polls.length} {tx("home.active")}
             </span>
           </div>
@@ -163,6 +184,14 @@ export default async function HomePage() {
           {tx("home.empty")}
         </section>
       )}
+
+      <WorldVibes
+        data={worldVibes}
+        title={tx("world.title")}
+        votesLabel={tx("world.votes")}
+        countriesLabel={tx("world.countries")}
+        emptyLabel={tx("world.empty")}
+      />
 
       <p className="text-center text-xs text-white/30">{tx("home.footer")}</p>
 

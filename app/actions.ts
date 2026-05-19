@@ -1,6 +1,6 @@
 "use server";
 
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
 import { getServerSupabase } from "@/lib/supabase-server";
@@ -350,10 +350,15 @@ export async function castVote(
 ): Promise<CastVoteResult> {
   const id = voterId();
   const supabase = getSupabase();
+  // Best-effort geo from Vercel edge headers. Falls back to null in dev / when
+  // header is absent. We validate ISO-2 client-side because the DB has a CHECK.
+  const rawCc = headers().get("x-vercel-ip-country");
+  const country = rawCc && /^[A-Za-z]{2}$/.test(rawCc) ? rawCc.toUpperCase() : null;
   const { error } = await supabase.from("votes").insert({
     poll_id: pollId,
     option_index: optionIndex,
     voter_id: id,
+    country,
   });
   if (error && !error.message.toLowerCase().includes("duplicate")) {
     throw new Error(error.message);
