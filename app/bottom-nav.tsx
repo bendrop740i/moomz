@@ -8,6 +8,7 @@ import { useT } from "./locale-context";
 const items = [
   { href: "/", labelKey: "nav.home", icon: HomeIcon, badgeKey: null },
   { href: "/discover", labelKey: "nav.discover", icon: DiscoverIcon, badgeKey: null },
+  { href: "/music", labelKey: "nav.music", icon: MusicIcon, badgeKey: null },
   { href: "/mes-votes", labelKey: "nav.votes", icon: VotesIcon, badgeKey: null },
   { href: "/mes-sondages", labelKey: "nav.polls", icon: PollsIcon, badgeKey: "polls" as const },
 ];
@@ -142,6 +143,16 @@ function VotesIcon({ active }: { active?: boolean }) {
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <path d="M9 12l2 2 4-4" />
       <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c2.39 0 4.68.94 6.36 2.64" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.15 : 0} />
+    </svg>
+  );
+}
+
+function MusicIcon({ active }: { active?: boolean }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M9 18V5l12-2v13" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.15 : 0} />
+      <circle cx="6" cy="18" r="3" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.25 : 0} />
+      <circle cx="18" cy="16" r="3" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.25 : 0} />
     </svg>
   );
 }

@@ -53,6 +53,7 @@ const fr: Dict = {
 
   "nav.home": "Home",
   "nav.discover": "Discover",
+  "nav.music": "Music",
   "nav.votes": "Votes",
   "nav.polls": "Polls",
 
@@ -142,6 +143,7 @@ const en: Dict = {
 
   "nav.home": "Home",
   "nav.discover": "Discover",
+  "nav.music": "Music",
   "nav.votes": "Votes",
   "nav.polls": "Polls",
 

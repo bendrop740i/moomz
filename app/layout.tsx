@@ -7,6 +7,8 @@ import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
 import InstallPrompt from "./install-prompt";
+import { MusicProvider } from "./music-provider";
+import MusicMiniPlayer from "./music-mini-player";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 import "./globals.css";
@@ -58,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang={locale} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
         <LocaleProvider value={locale}>
+          <MusicProvider>
           <div className="fixed inset-0 -z-10 bg-[#0b0613]" />
           <div className="fixed inset-0 -z-10 opacity-70">
             <div className="blob blob-1" />
@@ -74,8 +77,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <StreakHUD />
           <AchievementToast />
           <BottomNav />
+          <MusicMiniPlayer />
           <InstallPrompt strings={installStrings} />
           <ServiceWorkerRegister />
+          </MusicProvider>
         </LocaleProvider>
       </body>
     </html>
