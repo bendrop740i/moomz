@@ -14,12 +14,14 @@ export default async function LoginPage() {
   const tx = (k: string) => t(k, locale);
 
   return (
-    <div className="space-y-6 fade-up max-w-md mx-auto">
-      <header className="space-y-1 text-center">
-        <h1 className="text-3xl font-display tracking-tight">
+    <div className="space-y-6 fade-up max-w-md mx-auto px-1">
+      <header className="space-y-2 text-center">
+        <h1 className="text-3xl sm:text-4xl font-display tracking-tight bg-gradient-to-br from-white via-pink-200 to-purple-300 bg-clip-text text-transparent">
           {tx("auth.login.title")}
         </h1>
-        <p className="text-white/50 text-sm">{tx("auth.login.body")}</p>
+        <p className="text-white/60 text-sm sm:text-base max-w-xs mx-auto">
+          {tx("auth.login.body")}
+        </p>
       </header>
       <LoginForm
         placeholder={tx("auth.login.placeholder")}

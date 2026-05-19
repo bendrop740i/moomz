@@ -72,24 +72,28 @@ export default async function MesSondagesPage() {
 
       <Link
         href="/me"
-        className="glass block rounded-2xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition"
+        className="glass block rounded-2xl px-3 py-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition min-h-[64px]"
       >
         <div className="flex items-center gap-3">
-          <div className="text-3xl">{myProfile?.avatar_emoji ?? "✨"}</div>
+          <div className="text-2xl sm:text-3xl shrink-0 leading-none">
+            {myProfile?.avatar_emoji ?? "✨"}
+          </div>
           <div className="flex-1 min-w-0">
             {myProfile ? (
               <>
-                <div className="font-semibold text-white">
+                <div className="font-semibold text-white truncate">
                   @{myProfile.username}
                 </div>
-                <div className="text-xs text-white/40">
+                <div className="text-xs text-white/40 truncate">
                   Édite ton profil · moomz.com/{myProfile.username}
                 </div>
               </>
             ) : (
               <>
-                <div className="font-semibold text-white">Réserve ton @username</div>
-                <div className="text-xs text-white/40">
+                <div className="font-semibold text-white truncate">
+                  Réserve ton @username
+                </div>
+                <div className="text-xs text-white/40 truncate">
                   Mini Linktree + tes polls sous moomz.com/toi
                 </div>
               </>
@@ -100,14 +104,16 @@ export default async function MesSondagesPage() {
       </Link>
 
       {polls.length === 0 ? (
-        <div className="glass rounded-2xl p-6 text-center space-y-3">
-          <div className="text-4xl">📊</div>
-          <p className="text-white/60 text-sm">{tx("polls.emptyBody")}</p>
+        <div className="glass rounded-2xl p-6 sm:p-8 text-center space-y-4">
+          <div className="text-5xl sm:text-6xl">📊</div>
+          <p className="text-white/70 text-sm sm:text-base max-w-xs mx-auto">
+            {tx("polls.emptyBody")}
+          </p>
           <Link
             href="/"
-            className="inline-block rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-2.5 px-5 text-sm hover:scale-[1.02] active:scale-[0.98] transition shadow-lg shadow-pink-500/30"
+            className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            {tx("polls.emptyCta")}
+            {tx("polls.emptyCta")} →
           </Link>
         </div>
       ) : (
@@ -120,7 +126,7 @@ export default async function MesSondagesPage() {
               <Link
                 key={p.slug}
                 href={`/${p.slug}`}
-                className="glass block rounded-xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
+                className="glass block rounded-xl px-3 py-2.5 min-h-[60px] hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
                 style={{ ["--i" as string]: idx }}
               >
                 <div className="flex items-start justify-between gap-2.5">

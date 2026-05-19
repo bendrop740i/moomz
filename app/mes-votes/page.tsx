@@ -64,38 +64,44 @@ export default async function MesVotesPage() {
         </p>
       </header>
 
-      <div className="glass rounded-2xl p-4 grid grid-cols-3 gap-2 text-center">
-        <div>
-          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-yellow-300 via-pink-400 to-purple-500 bg-clip-text text-transparent">
+      <div className="glass rounded-2xl px-3 py-3.5 sm:p-4 grid grid-cols-3 gap-1.5 sm:gap-3 text-center">
+        <div className="min-w-0 px-1">
+          <div className="text-xl sm:text-2xl font-display tabular-nums leading-tight bg-gradient-to-br from-yellow-300 via-pink-400 to-purple-500 bg-clip-text text-transparent truncate">
             {totalPts.toLocaleString()}
           </div>
-          <div className="text-[10px] uppercase tracking-widest text-white/40">pts</div>
-        </div>
-        <div>
-          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-orange-300 via-pink-400 to-red-500 bg-clip-text text-transparent">
-            🔥 {topStreak}
+          <div className="text-[9px] sm:text-[10px] uppercase tracking-widest text-white/40 mt-1">
+            pts
           </div>
-          <div className="text-[10px] uppercase tracking-widest text-white/40">top streak</div>
         </div>
-        <div>
-          <div className="text-2xl font-display tabular-nums bg-gradient-to-br from-cyan-300 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+        <div className="min-w-0 px-1 border-x border-white/5">
+          <div className="text-xl sm:text-2xl font-display tabular-nums leading-tight bg-gradient-to-br from-orange-300 via-pink-400 to-red-500 bg-clip-text text-transparent truncate">
+            <span aria-hidden="true">🔥</span> {topStreak}
+          </div>
+          <div className="text-[9px] sm:text-[10px] uppercase tracking-widest text-white/40 mt-1 truncate">
+            top streak
+          </div>
+        </div>
+        <div className="min-w-0 px-1">
+          <div className="text-xl sm:text-2xl font-display tabular-nums leading-tight bg-gradient-to-br from-cyan-300 via-purple-400 to-pink-500 bg-clip-text text-transparent truncate">
             {polls.length}
           </div>
-          <div className="text-[10px] uppercase tracking-widest text-white/40">votes</div>
+          <div className="text-[9px] sm:text-[10px] uppercase tracking-widest text-white/40 mt-1">
+            votes
+          </div>
         </div>
       </div>
 
       <Link
         href={myProfile ? "/me" : "/login"}
-        className="glass block rounded-2xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition"
+        className="glass block rounded-2xl px-3 py-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition min-h-[64px]"
       >
         <div className="flex items-center gap-3 text-sm">
-          <div className="text-2xl">{myProfile?.avatar_emoji ?? "✨"}</div>
+          <div className="text-2xl shrink-0 leading-none">{myProfile?.avatar_emoji ?? "✨"}</div>
           <div className="flex-1 min-w-0">
             {myProfile ? (
               <>
-                <div className="font-semibold text-white">@{myProfile.username}</div>
-                <div className="text-white/40 text-xs">
+                <div className="font-semibold text-white truncate">@{myProfile.username}</div>
+                <div className="text-white/40 text-xs truncate">
                   {auth.user
                     ? "Compte sauvegardé via email"
                     : "Sécurise ton compte avec ton email →"}
@@ -103,8 +109,8 @@ export default async function MesVotesPage() {
               </>
             ) : (
               <>
-                <div className="font-semibold text-white">{tx("auth.cta.connect")}</div>
-                <div className="text-white/40 text-xs">
+                <div className="font-semibold text-white truncate">{tx("auth.cta.connect")}</div>
+                <div className="text-white/40 text-xs truncate">
                   Garde tes points, ton pseudo et tes sondages.
                 </div>
               </>
@@ -115,14 +121,16 @@ export default async function MesVotesPage() {
       </Link>
 
       {polls.length === 0 ? (
-        <div className="glass rounded-2xl p-6 text-center space-y-3">
-          <div className="text-4xl">🗳️</div>
-          <p className="text-white/60 text-sm">{tx("votes.emptyBody")}</p>
+        <div className="glass rounded-2xl p-6 sm:p-8 text-center space-y-4">
+          <div className="text-5xl sm:text-6xl">🗳️</div>
+          <p className="text-white/70 text-sm sm:text-base max-w-xs mx-auto">
+            {tx("votes.emptyBody")}
+          </p>
           <Link
             href="/discover"
-            className="inline-block rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-2.5 px-5 text-sm hover:scale-[1.02] active:scale-[0.98] transition shadow-lg shadow-pink-500/30"
+            className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            {tx("votes.emptyCta")}
+            {tx("votes.emptyCta")} →
           </Link>
         </div>
       ) : (
@@ -133,7 +141,7 @@ export default async function MesVotesPage() {
               <Link
                 key={p.slug}
                 href={`/${p.slug}`}
-                className="glass block rounded-xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
+                className="glass block rounded-xl px-3 py-2.5 min-h-[60px] hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
                 style={{ ["--i" as string]: idx }}
               >
                 <div className="flex items-start justify-between gap-2.5">

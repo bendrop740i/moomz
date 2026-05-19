@@ -45,10 +45,15 @@ export default async function MePage() {
       </header>
 
       {auth.user ? (
-        <div className="glass rounded-2xl p-3 flex items-center justify-between gap-2 text-xs">
-          <div className="text-white/60 truncate">📩 {auth.user.email}</div>
-          <form action={signOut}>
-            <button className="text-white/70 hover:text-white underline shrink-0">
+        <div className="glass rounded-2xl px-3 py-2.5 flex items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-1.5 min-w-0 flex-1">
+            <span className="shrink-0" aria-hidden="true">📩</span>
+            <span className="text-white/60 truncate" title={auth.user.email ?? ""}>
+              {auth.user.email}
+            </span>
+          </div>
+          <form action={signOut} className="shrink-0">
+            <button className="rounded-full px-3 py-1.5 bg-white/5 border border-white/10 text-white/70 hover:text-white hover:bg-white/10 transition text-[11px] font-medium">
               {tx("auth.logout")}
             </button>
           </form>
@@ -56,7 +61,7 @@ export default async function MePage() {
       ) : (
         <Link
           href="/login"
-          className="glass block rounded-2xl p-3 text-sm text-center hover:bg-white/[0.08] hover:border-pink-400/30 transition"
+          className="glass block rounded-2xl px-3 py-3 text-sm text-center hover:bg-white/[0.08] hover:border-pink-400/30 transition min-h-[44px] flex items-center justify-center"
         >
           {tx("auth.cta.secure")}
         </Link>
@@ -70,17 +75,21 @@ export default async function MePage() {
         <div className="grid grid-cols-2 gap-2">
           <Link
             href={`/${profile.username}`}
-            className="glass rounded-2xl p-3 text-center hover:bg-white/[0.08] transition"
+            className="glass rounded-2xl px-3 py-3 text-center hover:bg-white/[0.08] transition min-h-[64px] flex flex-col items-center justify-center"
           >
-            <div className="text-lg">{profile.avatar_emoji}</div>
-            <div className="text-xs text-white/60 mt-0.5">@{profile.username}</div>
+            <div className="text-xl leading-none">{profile.avatar_emoji}</div>
+            <div className="text-[11px] sm:text-xs text-white/60 mt-1 truncate max-w-full">
+              @{profile.username}
+            </div>
           </Link>
           <Link
             href="/mes-sondages"
-            className="glass rounded-2xl p-3 text-center hover:bg-white/[0.08] transition"
+            className="glass rounded-2xl px-3 py-3 text-center hover:bg-white/[0.08] transition min-h-[64px] flex flex-col items-center justify-center"
           >
-            <div className="text-lg">📊</div>
-            <div className="text-xs text-white/60 mt-0.5">{tx("polls.title")}</div>
+            <div className="text-xl leading-none">📊</div>
+            <div className="text-[11px] sm:text-xs text-white/60 mt-1 truncate max-w-full">
+              {tx("polls.title")}
+            </div>
           </Link>
         </div>
       )}

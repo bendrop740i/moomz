@@ -23,9 +23,12 @@ export default function LoginForm(props: Props) {
 
   if (sentTo) {
     return (
-      <div className="glass rounded-2xl p-6 text-center space-y-2 card-in">
-        <h2 className="text-xl font-display">{props.sentTitle}</h2>
-        <p className="text-sm text-white/60">
+      <div className="glass rounded-2xl p-6 sm:p-7 text-center space-y-3 card-in">
+        <div className="text-4xl" aria-hidden="true">
+          📬
+        </div>
+        <h2 className="text-xl sm:text-2xl font-display">{props.sentTitle}</h2>
+        <p className="text-sm text-white/70 break-words">
           {props.sentBody.replace("{email}", sentTo)}
         </p>
       </div>
@@ -56,9 +59,9 @@ export default function LoginForm(props: Props) {
             }
           });
         }}
-        className="w-full rounded-xl bg-white text-black font-semibold py-3 flex items-center justify-center gap-2 hover:bg-white/90 active:scale-[0.99] transition shadow-lg disabled:opacity-60"
+        className="w-full min-h-[48px] rounded-xl bg-white text-black font-semibold py-3 px-4 flex items-center justify-center gap-2.5 hover:bg-white/95 active:scale-[0.99] transition shadow-lg shadow-black/20 ring-1 ring-white/20 disabled:opacity-60"
       >
-        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 18 18" aria-hidden="true" className="shrink-0">
           <path
             fill="#4285F4"
             d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84c-.21 1.13-.85 2.08-1.8 2.72v2.26h2.91c1.7-1.57 2.69-3.88 2.69-6.62z"
@@ -76,13 +79,13 @@ export default function LoginForm(props: Props) {
             d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.95l2.99 2.34C4.66 5.16 6.65 3.58 9 3.58z"
           />
         </svg>
-        <span>{props.google}</span>
+        <span className="truncate">{props.google}</span>
       </button>
 
-      <div className="flex items-center gap-3 text-xs text-white/40">
-        <div className="flex-1 h-px bg-white/10" />
-        <span>{props.orSeparator}</span>
-        <div className="flex-1 h-px bg-white/10" />
+      <div className="flex items-center gap-3 text-[11px] uppercase tracking-widest text-white/40">
+        <div className="flex-1 h-px bg-gradient-to-r from-transparent via-white/15 to-white/15" />
+        <span className="px-1">{props.orSeparator}</span>
+        <div className="flex-1 h-px bg-gradient-to-l from-transparent via-white/15 to-white/15" />
       </div>
 
       <form
@@ -116,22 +119,30 @@ export default function LoginForm(props: Props) {
           required
           autoComplete="email"
           inputMode="email"
+          autoCapitalize="none"
+          autoCorrect="off"
+          spellCheck={false}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder={props.placeholder}
-          className="w-full glass rounded-xl px-4 py-3 text-base text-white placeholder:text-white/30 outline-none focus:border-pink-400/40"
+          className="w-full glass rounded-xl px-4 py-3 min-h-[48px] text-base text-white placeholder:text-white/30 outline-none focus:border-pink-400/50 focus:bg-white/[0.08] transition"
         />
         <button
           type="submit"
           disabled={pending}
-          className="w-full rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 hover:scale-[1.01] active:scale-[0.99] transition shadow-lg shadow-pink-500/30 disabled:opacity-60"
+          className="w-full min-h-[48px] rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 hover:scale-[1.01] active:scale-[0.99] transition shadow-lg shadow-pink-500/30 disabled:opacity-60"
         >
           {pending ? props.sending : props.cta}
         </button>
       </form>
 
       {error && (
-        <p className="text-center text-sm text-red-300/90">{error}</p>
+        <p
+          role="alert"
+          className="text-center text-sm text-red-300/90 bg-red-500/10 border border-red-400/30 rounded-xl px-3 py-2"
+        >
+          {error}
+        </p>
       )}
     </div>
   );
