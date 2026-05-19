@@ -7,6 +7,7 @@ import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
 import InstallPrompt from "./install-prompt";
+import PushPrompt from "./push-prompt";
 import { MusicProvider } from "./music-provider";
 import MusicMiniPlayer from "./music-mini-player";
 import { getLocale } from "@/lib/i18n-server";
@@ -56,6 +57,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     iosBody: t("install.ios.body", locale),
     dismiss: t("install.dismiss", locale),
   };
+  const pushStrings = {
+    headline: t("push.headline", locale),
+    body: t("push.body", locale),
+    allow: t("push.allow", locale),
+    dismiss: t("push.dismiss", locale),
+  };
   return (
     <html lang={locale} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
@@ -79,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <BottomNav />
           <MusicMiniPlayer />
           <InstallPrompt strings={installStrings} />
+          <PushPrompt strings={pushStrings} />
           <ServiceWorkerRegister />
           </MusicProvider>
         </LocaleProvider>

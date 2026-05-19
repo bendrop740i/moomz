@@ -104,6 +104,11 @@ const fr: Dict = {
   "install.ios.body": "Tape l'icône Partage en bas de Safari (⎙), puis « Sur l'écran d'accueil ».",
   "install.dismiss": "Fermer",
 
+  "push.headline": "Active les notifs",
+  "push.body": "Vibe checks chauds, nouvelles questions ASK, ton streak — on te ping quand ça compte.",
+  "push.allow": "Activer",
+  "push.dismiss": "Plus tard",
+
   "linker.share.aria": "Partager mon linker",
   "linker.share.label": "Partager",
   "linker.share.copied": "Copié",
@@ -242,6 +247,11 @@ const en: Dict = {
   "install.ios.body": "Tap the Share icon at the bottom of Safari (⎙), then choose 'Add to Home Screen'.",
   "install.dismiss": "Close",
 
+  "push.headline": "Turn on notifications",
+  "push.body": "Hot vibe checks, ASK questions you got, streak warnings — only when it counts.",
+  "push.allow": "Enable",
+  "push.dismiss": "Later",
+
   "linker.share.aria": "Share my linker",
   "linker.share.label": "Share",
   "linker.share.copied": "Copied",
@@ -378,6 +388,11 @@ const es: Dict = {
   "install.ios.title": "Instalar en iPhone",
   "install.ios.body": "Toca el icono Compartir (⎙) en Safari, luego elige 'Añadir a la pantalla de inicio'.",
   "install.dismiss": "Cerrar",
+
+  "push.headline": "Activa las notificaciones",
+  "push.body": "Vibe checks calientes, preguntas ASK, tu racha — solo cuando importa.",
+  "push.allow": "Activar",
+  "push.dismiss": "Después",
 
   "linker.share.aria": "Compartir mi linker",
   "linker.share.label": "Compartir",
@@ -516,6 +531,11 @@ const it: Dict = {
   "install.ios.body": "Tocca l'icona Condividi (⎙) in basso su Safari, poi 'Aggiungi alla schermata Home'.",
   "install.dismiss": "Chiudi",
 
+  "push.headline": "Attiva le notifiche",
+  "push.body": "Vibe check caldi, domande ASK, streak — solo quando conta.",
+  "push.allow": "Attiva",
+  "push.dismiss": "Più tardi",
+
   "linker.share.aria": "Condividi il mio linker",
   "linker.share.label": "Condividi",
   "linker.share.copied": "Copiato",
@@ -624,6 +644,11 @@ const pt: Dict = {
   "install.ios.title": "Instalar no iPhone",
   "install.ios.body": "Toque no ícone Compartilhar (⎙) na parte inferior do Safari e escolha 'Adicionar à Tela de Início'.",
   "install.dismiss": "Fechar",
+
+  "push.headline": "Ativa as notificações",
+  "push.body": "Vibe checks quentes, perguntas ASK, racha — só quando importa.",
+  "push.allow": "Ativar",
+  "push.dismiss": "Depois",
 
   "linker.share.aria": "Partilhar o meu linker",
   "linker.share.label": "Partilhar",
@@ -734,6 +759,11 @@ const de: Dict = {
   "install.ios.body": "Tippe in Safari unten auf das Teilen-Symbol (⎙), dann auf 'Zum Home-Bildschirm'.",
   "install.dismiss": "Schließen",
 
+  "push.headline": "Push aktivieren",
+  "push.body": "Heiße Vibe Checks, ASK-Fragen, Streak — nur wenn's zählt.",
+  "push.allow": "Aktivieren",
+  "push.dismiss": "Später",
+
   "linker.share.aria": "Meinen Linker teilen",
   "linker.share.label": "Teilen",
   "linker.share.copied": "Kopiert",
@@ -843,6 +873,11 @@ const ja: Dict = {
   "install.ios.body": "Safari 下部の共有アイコン（⎙）→『ホーム画面に追加』をタップ。",
   "install.dismiss": "閉じる",
 
+  "push.headline": "通知をONにする",
+  "push.body": "話題のバイブチェック、匿名質問、ストリーク — 大事な時だけ通知。",
+  "push.allow": "ON",
+  "push.dismiss": "あとで",
+
   "linker.share.aria": "リンカーをシェア",
   "linker.share.label": "シェア",
   "linker.share.copied": "コピーしました",
@@ -951,6 +986,11 @@ const zh: Dict = {
   "install.ios.title": "在 iPhone 上安装",
   "install.ios.body": "在 Safari 底部点击分享图标（⎙），选择「添加到主屏幕」。",
   "install.dismiss": "关闭",
+
+  "push.headline": "开启推送通知",
+  "push.body": "热门 vibe check、匿名提问、连击提醒 — 只在重要时刻提醒。",
+  "push.allow": "开启",
+  "push.dismiss": "稍后",
 
   "linker.share.aria": "分享我的 linker",
   "linker.share.label": "分享",

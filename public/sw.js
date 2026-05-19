@@ -1,7 +1,8 @@
 // moomz service worker — minimal: cache-first for static assets, network-first for HTML.
+// Also receives Web Push events (Daily Moomz, ASK pings, streak warnings).
 // Version bump invalidates old caches on next activate.
 
-const VERSION = "moomz-v1";
+const VERSION = "moomz-v2-push";
 const STATIC_CACHE = `${VERSION}-static`;
 
 const STATIC_PATHS = ["/", "/icon-192.svg", "/icon-512.svg", "/manifest.webmanifest"];
@@ -63,5 +64,59 @@ self.addEventListener("fetch", (event) => {
         return res;
       })
       .catch(() => caches.match(req).then((hit) => hit || caches.match("/"))),
+  );
+});
+
+// --- Web Push ------------------------------------------------------------
+// Server payload shape (see lib/push.ts):
+//   { title, body, url, tag?, icon?, badge? }
+
+self.addEventListener("push", (event) => {
+  let payload = { title: "moomz", body: "Nouvelle activité 👀", url: "/" };
+  try {
+    if (event.data) payload = { ...payload, ...event.data.json() };
+  } catch {
+    // Some browsers send empty pushes to test the channel — fall through.
+  }
+  const { title, body, url, tag, icon, badge } = payload;
+
+  event.waitUntil(
+    self.registration.showNotification(title, {
+      body,
+      icon: icon || "/icon",
+      badge: badge || "/icon",
+      tag: tag || "moomz",
+      // Same tag → notifications replace each other instead of stacking.
+      renotify: true,
+      data: { url: url || "/" },
+    }),
+  );
+});
+
+// Tapping the notification: focus an existing tab if open, else open new.
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const target = event.notification.data?.url || "/";
+
+  event.waitUntil(
+    (async () => {
+      const all = await self.clients.matchAll({
+        type: "window",
+        includeUncontrolled: true,
+      });
+      for (const client of all) {
+        try {
+          const url = new URL(client.url);
+          if (url.origin === self.location.origin) {
+            client.focus();
+            client.navigate(target);
+            return;
+          }
+        } catch {
+          // ignore malformed client URLs
+        }
+      }
+      await self.clients.openWindow(target);
+    })(),
   );
 });
