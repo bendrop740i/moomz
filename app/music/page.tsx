@@ -37,8 +37,7 @@ export default async function MusicPage() {
         <div className="glass rounded-2xl p-6 text-center space-y-2">
           <div className="text-4xl">🎧</div>
           <p className="text-white/60 text-sm">
-            Lance le script <code className="text-pink-300">scripts/upload-music.mjs</code> pour
-            uploader tes sons SUNO sur Vercel Blob.
+            La bibliothèque arrive bientôt.
           </p>
         </div>
       ) : (

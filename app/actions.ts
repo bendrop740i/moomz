@@ -140,7 +140,6 @@ export async function createPoll(formData: FormData) {
     }
   }
 
-  const imageUrl = String(formData.get("image_url") ?? "").trim() || null;
   const topics = tagQuestion(question, optionsRaw);
 
   const { error } = await supabase.from("polls").insert({
@@ -148,7 +147,6 @@ export async function createPoll(formData: FormData) {
     question,
     options: optionsRaw,
     profile_id: profileId,
-    image_url: imageUrl,
     topics,
   });
   if (error) throw new Error(error.message);

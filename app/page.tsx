@@ -20,7 +20,6 @@ type TrendingPoll = {
   trending_score: number;
   last_vote_at: string | null;
   topics?: string[];
-  image_url?: string | null;
 };
 
 async function getTrending(limit = 40): Promise<TrendingPoll[]> {
@@ -28,7 +27,7 @@ async function getTrending(limit = 40): Promise<TrendingPoll[]> {
     const supabase = getSupabase();
     const { data } = await supabase
       .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics,image_url")
+      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics")
       .order("trending_score", { ascending: false })
       .limit(limit);
     return (data as TrendingPoll[]) ?? [];
@@ -146,7 +145,6 @@ export default async function HomePage() {
                     isLive={isLive}
                     isNew={isNew}
                     isRising={isRising}
-                    imageUrl={p.image_url}
                   />
                 </div>
               );
