@@ -3,7 +3,30 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, security hardening pass (latest).** Ran a 25-agent audit on the whole app (auth/RLS/realtime/i18n/perf/...). Critical block shipped in migration **`012-security-hardening.sql`** + 2 code patches:
+**2026-05-20, Cloudflare R2 migration prep (latest).** User asked to prepare moving music storage from Vercel Blob to Cloudflare R2 ("prepare le changement de vercel blob a lcoduflare r2"). All code is in place, awaiting the user to create the R2 bucket + paste creds. Architecture: **public R2 bucket fronted by `music.moomz.com`** custom domain. `/api/track/[id]` does a 302 redirect to the R2 URL — no proxying, no Vercel function bandwidth per play. Falls back to the old Vercel Blob proxy whenever `R2_PUBLIC_BASE_URL` is unset, so the cutover is non-disruptive.
+
+Files shipped:
+- **`lib/r2.ts`** — `getR2PublicBase()` + `r2PublicUrl(key)` builder reading `R2_PUBLIC_BASE_URL`. Returns null when unset → triggers Vercel-Blob fallback in the route.
+- **`app/api/track/[id]/route.ts`** — rewritten. Caches the Supabase row lookup forever (tracks are immutable, no TTL needed). If R2 is configured, returns `NextResponse.redirect(r2Url, 302)` with `Cache-Control: public, max-age=86400, immutable`. Otherwise falls back to the existing Vercel-Blob proxy logic (kept intact, with its 10-min signed-URL TTL cache).
+- **`scripts/upload-music.mjs`** — replaced `put()` from `@vercel/blob` with `S3Client + PutObjectCommand` against R2's S3-compatible endpoint. Idempotent: HeadObject pre-check skips uploads already in R2. Sets `Cache-Control: public, max-age=31536000, immutable` at upload time. Reads new secrets from `.secrets.txt`: `r2_account_id`, `r2_access_key_id`, `r2_secret_access_key`, `r2_bucket`.
+- **`scripts/migrate-blob-to-r2.mjs`** — new one-shot. Walks every row in `tracks`, downloads bytes via `head() + fetch` from Vercel Blob (needs `BLOB_READ_WRITE_TOKEN`), uploads to R2 under the same key. `--dry-run` flag. Idempotent (skips keys that already exist in R2).
+- **`docs/cloudflare-r2-migration.md`** — step-by-step user runbook: create bucket → custom domain → API token → fill secrets → `npm install` → `migrate-blob-to-r2.mjs --dry-run` → real run → `vercel env add R2_PUBLIC_BASE_URL` → verify the 302 in the browser → eventually drop the `@vercel/blob` fallback + dep.
+- **`package.json`** — added `@aws-sdk/client-s3@^3.682.0` to `devDependencies` (used only by the two scripts, not bundled by Next).
+
+The `tracks.blob_url` column stays as-is — it stores the bucket key (e.g. `tracks/foo.mp3`), which is backend-agnostic. Renaming would cost a code-wide migration for zero functional gain.
+
+**User's TODO to actually flip the switch** (in order):
+1. Create R2 bucket `moomz-music` on Cloudflare dashboard.
+2. Connect custom domain `music.moomz.com` (or use the `pub-<hash>.r2.dev` URL).
+3. Create R2 API token (Object R/W, scoped to that bucket).
+4. Append `r2_*` entries to `.secrets.txt` per the docs.
+5. `npm install` to pull in `@aws-sdk/client-s3`.
+6. `node scripts/migrate-blob-to-r2.mjs --dry-run` then for real.
+7. `vercel env add R2_PUBLIC_BASE_URL production` with the custom domain URL.
+8. Deploy / redeploy.
+9. (Days later) drop the Vercel-Blob fallback from the route + `@vercel/blob` from deps.
+
+**2026-05-20, security hardening pass.** Ran a 25-agent audit on the whole app (auth/RLS/realtime/i18n/perf/...). Critical block shipped in migration **`012-security-hardening.sql`** + 2 code patches:
 
 - **Open redirect fixed** in `app/auth/callback/route.ts` — `next` param is now only honored if it starts with `/` and not `//`. Previous code accepted `?next=https://evil.com`.
 - **Reserved usernames expanded** in `app/actions.ts` from 23 to 50+ — covered the SEO routes (`idees`, `ideas`, `guides`, `mot`, `word`, `read`, `music`, `creators`, `pricing`, `alternatives`) and reserved future surfaces (`ask`, `daily`, `world`, `register`, `logout`, etc.). Without this, a user could claim `ideas` and shadow the whole `/ideas/[slug]` SEO surface.
