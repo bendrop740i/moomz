@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import PollCard from "../poll-card";
 import { useT } from "../locale-context";
@@ -21,12 +21,31 @@ type Poll = {
 export default function DiscoverFeed({
   polls: initialPolls,
   topScore,
+  firstInitialVoteCount,
 }: {
   polls: Poll[];
   topScore: number;
+  /**
+   * Server-prefetched authoritative vote count for the first poll. When the
+   * server fetch lands before the trending-view aggregate updates, this gives
+   * us a more accurate seed value than `polls_trending.vote_count` and lets
+   * the first card render with a non-zero number on the very first paint —
+   * no "blank for 500ms" while IntersectionObserver / refreshCounts catches up.
+   */
+  firstInitialVoteCount?: number;
 }) {
   const t = useT();
-  const [polls, setPolls] = useState<Poll[]>(initialPolls);
+  // Bake the server-prefetched count into the first poll so the card shows it
+  // immediately. The client-side refreshCounts call (gated by visibility) will
+  // still re-sync per-option counts shortly after mount.
+  const seeded = useMemo<Poll[]>(() => {
+    if (initialPolls.length === 0 || firstInitialVoteCount === undefined) {
+      return initialPolls;
+    }
+    const [head, ...rest] = initialPolls;
+    return [{ ...head, vote_count: firstInitialVoteCount }, ...rest];
+  }, [initialPolls, firstInitialVoteCount]);
+  const [polls, setPolls] = useState<Poll[]>(seeded);
   const [activeIdx, setActiveIdx] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -60,7 +79,7 @@ export default function DiscoverFeed({
 
   if (polls.length === 0) {
     return (
-      <div className="min-h-[70dvh] flex flex-col items-center justify-center gap-5 text-center px-6 py-10">
+      <div className="fade-up min-h-[70dvh] flex flex-col items-center justify-center gap-5 text-center px-6 py-10 pt-[calc(env(safe-area-inset-top)+4rem)]">
         <div className="text-7xl sm:text-8xl animate-bounce drop-shadow-[0_8px_24px_rgba(236,72,153,0.35)]">
           🎉
         </div>
@@ -130,7 +149,7 @@ export default function DiscoverFeed({
         {polls.map((_, i) => (
           <span
             key={i}
-            className={`block w-1 rounded-full transition-all ${
+            className={`block w-1 rounded-full transition-all duration-300 ease-out ${
               i === activeIdx ? "h-6 bg-pink-400" : "h-1.5 bg-white/20"
             }`}
           />

@@ -68,6 +68,22 @@ export default async function DiscoverPage() {
 
   const topScore = rows[0]?.trending_score ?? 0;
 
+  // First-card preload: fetch the per-option vote distribution server-side
+  // for the very first poll so we can pass an authoritative initialVoteCount
+  // (and warm any client-side preload). This kills the "first card looks
+  // empty for half a second" feel before IntersectionObserver kicks in.
+  let firstInitialVoteCount: number | undefined;
+  const firstPoll = polls[0];
+  if (firstPoll) {
+    const { data: firstVotes } = await supabase
+      .from("votes")
+      .select("option_index")
+      .eq("poll_id", firstPoll.id);
+    if (firstVotes) {
+      firstInitialVoteCount = firstVotes.length;
+    }
+  }
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -104,7 +120,11 @@ export default async function DiscoverPage() {
           {polls.length > 1 ? "s" : ""}
         </span>
       </header>
-      <DiscoverFeed polls={polls} topScore={topScore} />
+      <DiscoverFeed
+        polls={polls}
+        topScore={topScore}
+        firstInitialVoteCount={firstInitialVoteCount}
+      />
     </div>
   );
 }
