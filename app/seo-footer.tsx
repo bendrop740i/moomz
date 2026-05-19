@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { allPages } from "@/lib/seo";
+import type { SeoPage } from "@/lib/seo/types";
 
 const FOOTER_LINKS_FR = [
   { label: "Idées de sondage", href: "/idees" },
@@ -15,39 +16,108 @@ const FOOTER_LINKS_EN = [
   { label: "Blog", href: "/blog" },
 ];
 
-const FEATURED_SLUGS_FR = [
-  "instagram-story",
-  "tiktok",
-  "couple",
-  "soiree",
-  "drole",
-  "this-or-that",
-  "would-you-rather",
-  "drama",
-  "mariage",
-  "voyage",
-  "famille",
-  "ado",
-];
+// Deterministic shuffle seeded by day-of-year so the footer rotates daily
+// without breaking caching mid-day.
+function seededShuffle<T>(arr: T[], seed: number): T[] {
+  const out = arr.slice();
+  let s = seed >>> 0;
+  for (let i = out.length - 1; i > 0; i--) {
+    s = (s * 1664525 + 1013904223) >>> 0;
+    const j = s % (i + 1);
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
 
-const FEATURED_SLUGS_EN = [
-  "instagram-story-poll",
-  "tiktok-poll",
-  "couple-questions",
-  "party-en",
-  "this-or-that",
-  "would-you-rather-en",
-  "drama-polls",
-  "wedding-en",
-];
+function todaySeed(): number {
+  return Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+}
+
+const VS_RE = /^moomz-vs-/;
+const FORMAT_RE = /(-option-poll$|^sondage-\d-options$|yes-no-poll|sondage-oui-non|this-or-that-poll|sondage-this-or-that-fr|emoji-poll|sondage-emoji|image-poll|sondage-avec-image|anonymous-poll|sondage-anonyme)/;
+
+function bucketize(pages: SeoPage[]) {
+  const ideas: SeoPage[] = [];
+  const guides: SeoPage[] = [];
+  const vs: SeoPage[] = [];
+  const formats: SeoPage[] = [];
+  const blog: SeoPage[] = [];
+
+  for (const p of pages) {
+    if (p.category === "idees" || p.category === "ideas") ideas.push(p);
+    else if (p.category === "blog") blog.push(p);
+    else if (p.category === "guides") {
+      if (VS_RE.test(p.slug)) vs.push(p);
+      else if (FORMAT_RE.test(p.slug)) formats.push(p);
+      else guides.push(p);
+    }
+  }
+  return { ideas, guides, vs, formats, blog };
+}
+
+function pillLabel(p: SeoPage): string {
+  // The H1 often starts with "Sondages " / "Poll " — strip and take the head before ":"
+  const head = p.h1.split(":")[0].split("—")[0].trim();
+  return head.replace(/^Sondages?\s+/i, "").replace(/^Polls?\s+/i, "").trim();
+}
+
+function Section({
+  title,
+  pages,
+  limit,
+}: {
+  title: string;
+  pages: SeoPage[];
+  limit: number;
+}) {
+  if (pages.length === 0) return null;
+  const list = pages.slice(0, limit);
+  return (
+    <div>
+      <div className="text-xs uppercase tracking-widest text-white/30 mb-2">{title}</div>
+      <ul className="flex flex-wrap gap-1.5">
+        {list.map((p) => (
+          <li key={p.slug + p.category} className="max-w-full">
+            <Link
+              href={`/${p.category}/${p.slug}`}
+              className="inline-flex items-center max-w-full rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:text-white transition whitespace-nowrap overflow-hidden text-ellipsis"
+            >
+              <span className="truncate">
+                {p.emoji ? `${p.emoji} ` : ""}
+                {pillLabel(p)}
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
 export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
   const links = locale === "en" ? FOOTER_LINKS_EN : FOOTER_LINKS_FR;
-  const slugs = locale === "en" ? FEATURED_SLUGS_EN : FEATURED_SLUGS_FR;
-  const category = locale === "en" ? "ideas" : "idees";
-  const featured = slugs
-    .map((s) => allPages.find((p) => p.slug === s && p.category === category))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+  // Filter pages by locale (with EN as fallback for FR-only readers if pool is thin)
+  const localePages = allPages.filter((p) => p.locale === locale);
+  const seed = todaySeed();
+  const shuffled = seededShuffle(localePages, seed);
+  const buckets = bucketize(shuffled);
+
+  const labels = locale === "en"
+    ? {
+        ideas: "Popular ideas",
+        guides: "Guides",
+        vs: "moomz vs…",
+        formats: "Poll formats",
+        blog: "Blog",
+      }
+    : {
+        ideas: "Idées populaires",
+        guides: "Guides",
+        vs: "moomz vs…",
+        formats: "Formats de sondage",
+        blog: "Blog",
+      };
 
   return (
     <footer className="mt-12 pt-8 border-t border-white/10 space-y-6">
@@ -62,27 +132,12 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
           </Link>
         ))}
       </div>
-      {featured.length > 0 && (
-        <div>
-          <div className="text-xs uppercase tracking-widest text-white/30 mb-2">
-            {locale === "en" ? "Popular ideas" : "Idées populaires"}
-          </div>
-          <ul className="flex flex-wrap gap-1.5">
-            {featured.map((p) => (
-              <li key={p.slug + p.category} className="max-w-full">
-                <Link
-                  href={`/${p.category}/${p.slug}`}
-                  className="inline-flex items-center max-w-full rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:text-white transition whitespace-nowrap overflow-hidden text-ellipsis"
-                >
-                  <span className="truncate">
-                    {p.emoji} {p.h1.split(":")[0].replace(/^Sondages? /i, "").trim()}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+
+      <Section title={labels.ideas} pages={buckets.ideas} limit={12} />
+      <Section title={labels.guides} pages={buckets.guides} limit={8} />
+      <Section title={labels.vs} pages={buckets.vs} limit={6} />
+      <Section title={labels.formats} pages={buckets.formats} limit={6} />
+      <Section title={labels.blog} pages={buckets.blog} limit={6} />
     </footer>
   );
 }
