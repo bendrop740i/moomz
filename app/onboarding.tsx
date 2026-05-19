@@ -5,16 +5,31 @@ import { useRouter } from "next/navigation";
 import { setTopics } from "./actions";
 import { TOPICS, type Topic } from "@/lib/topics";
 
+const MAX_PICK = 5;
+
 export default function Onboarding() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [picked, setPicked] = useState<Set<Topic>>(new Set());
   const [saving, setSaving] = useState(false);
+  const [enter, setEnter] = useState(false);
 
   useEffect(() => {
     const has = document.cookie.match(/(?:^|;\s*)moomz_topics=/);
-    if (!has) setOpen(true);
+    if (!has) {
+      setOpen(true);
+      // small delay so the slide-in animation can play after mount
+      requestAnimationFrame(() => requestAnimationFrame(() => setEnter(true)));
+    }
   }, []);
+
+  useEffect(() => {
+    if (!open) return;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
 
   if (!open) return null;
 
@@ -22,72 +37,143 @@ export default function Onboarding() {
     setPicked((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
-      else if (next.size < 5) next.add(id);
+      else if (next.size < MAX_PICK) next.add(id);
       return next;
     });
   };
 
   const submit = async () => {
+    if (picked.size === 0) return;
     setSaving(true);
     await setTopics(Array.from(picked));
-    setOpen(false);
-    router.refresh();
+    setEnter(false);
+    setTimeout(() => {
+      setOpen(false);
+      router.refresh();
+    }, 220);
   };
 
   const skip = async () => {
     setSaving(true);
     await setTopics([]);
-    setOpen(false);
+    setEnter(false);
+    setTimeout(() => setOpen(false), 220);
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center sm:p-4 bg-black/60 backdrop-blur-sm">
-      <div className="glass rounded-t-3xl sm:rounded-3xl w-full max-w-md max-h-[92vh] sm:max-h-[88vh] flex flex-col shadow-2xl shadow-pink-500/30 border-pink-400/40 fade-up">
-        <div className="px-5 sm:px-6 pt-5 sm:pt-6 pb-3 space-y-1 text-center shrink-0">
-          <h2 className="font-display text-3xl bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-            Bienvenue
-          </h2>
-          <p className="text-white/60 text-sm">
-            Pick tes vibes ({picked.size}/5) — on te montrera les bons polls.
-          </p>
+    <div
+      className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center bg-black/70 backdrop-blur-md"
+      aria-modal="true"
+      role="dialog"
+    >
+      {/* soft animated glow behind the sheet */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
+        <div className="absolute -top-32 -left-20 w-80 h-80 rounded-full bg-pink-500/30 blur-3xl animate-pulse" />
+        <div className="absolute -bottom-32 -right-20 w-96 h-96 rounded-full bg-purple-500/30 blur-3xl animate-pulse" style={{ animationDelay: "0.8s" }} />
+      </div>
+
+      <div
+        className={`relative w-full sm:max-w-md sm:mx-4 flex flex-col bg-gradient-to-b from-[#1a0a26] to-[#0b0613] border border-pink-400/30 rounded-t-3xl sm:rounded-3xl shadow-2xl shadow-pink-500/30 transition-transform duration-300 ease-out ${
+          enter ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+        }`}
+        style={{
+          maxHeight: "min(92dvh, 760px)",
+          paddingBottom: "env(safe-area-inset-bottom)",
+        }}
+      >
+        {/* drag handle (mobile sheet affordance) */}
+        <div className="sm:hidden flex justify-center pt-2.5 pb-1">
+          <div className="w-10 h-1 rounded-full bg-white/20" />
         </div>
 
-        <div className="overflow-y-auto px-5 sm:px-6 py-2 flex-1">
-          <div className="grid grid-cols-2 gap-2">
+        {/* header */}
+        <div className="px-5 sm:px-7 pt-3 sm:pt-7 pb-4 text-center shrink-0">
+          <div className="text-3xl mb-1.5" aria-hidden>👋✨</div>
+          <h2 className="font-display text-3xl sm:text-4xl leading-tight bg-gradient-to-br from-white via-pink-200 to-purple-300 bg-clip-text text-transparent">
+            C&apos;est ta vibe
+          </h2>
+          <p className="text-white/65 text-sm sm:text-base mt-2 max-w-xs mx-auto leading-snug">
+            Choisis 1 à 5 thèmes. On te montre les polls qui te parlent vraiment.
+          </p>
+
+          {/* picked counter dots */}
+          <div className="flex items-center justify-center gap-1.5 mt-4" aria-hidden>
+            {Array.from({ length: MAX_PICK }).map((_, i) => (
+              <div
+                key={i}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  i < picked.size
+                    ? "w-6 bg-gradient-to-r from-pink-400 to-purple-400"
+                    : "w-1.5 bg-white/15"
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* topic grid */}
+        <div className="overflow-y-auto overscroll-contain px-4 sm:px-6 pb-3 flex-1 min-h-0">
+          <div className="grid grid-cols-3 sm:grid-cols-3 gap-2">
             {TOPICS.map((t) => {
               const active = picked.has(t.id);
+              const disabled = !active && picked.size >= MAX_PICK;
               return (
                 <button
                   key={t.id}
                   onClick={() => toggle(t.id)}
-                  className={`min-h-[44px] flex items-center gap-2 rounded-xl px-3 py-2.5 transition border text-left ${
+                  disabled={disabled}
+                  aria-pressed={active}
+                  className={`group relative flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-3.5 min-h-[88px] transition-all duration-200 border-2 ${
                     active
-                      ? "bg-gradient-to-r from-pink-500/30 to-purple-500/30 border-pink-400/60 scale-[1.02]"
-                      : "bg-white/5 border-white/10 hover:bg-white/10"
+                      ? "bg-gradient-to-br from-pink-500/40 via-purple-500/30 to-amber-500/20 border-pink-400/80 shadow-lg shadow-pink-500/30 scale-[1.04]"
+                      : disabled
+                        ? "bg-white/[0.03] border-white/5 opacity-40 cursor-not-allowed"
+                        : "bg-white/[0.04] border-white/10 hover:bg-white/[0.08] hover:border-white/20 active:scale-[0.97]"
                   }`}
                 >
-                  <span className="text-xl shrink-0" aria-hidden>{t.emoji}</span>
-                  <span className="text-sm font-medium break-words min-w-0">{t.label}</span>
+                  <span
+                    className={`text-3xl leading-none transition-transform ${
+                      active ? "scale-110" : "group-hover:scale-105"
+                    }`}
+                    aria-hidden
+                  >
+                    {t.emoji}
+                  </span>
+                  <span className="text-xs sm:text-sm font-semibold text-center leading-tight">
+                    {t.label}
+                  </span>
+                  {active && (
+                    <span className="absolute top-1.5 right-1.5 w-4 h-4 rounded-full bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center shadow-md shadow-pink-500/50">
+                      <svg width="9" height="9" viewBox="0 0 12 12" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                        <polyline points="2 6 5 9 10 3" />
+                      </svg>
+                    </span>
+                  )}
                 </button>
               );
             })}
           </div>
         </div>
 
-        <div className="flex gap-2 px-5 sm:px-6 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] border-t border-white/5 shrink-0 bg-white/[0.02] backdrop-blur-sm rounded-b-3xl">
+        {/* sticky footer */}
+        <div className="shrink-0 px-4 sm:px-6 py-3.5 sm:py-4 border-t border-white/10 bg-black/40 backdrop-blur rounded-b-3xl sm:rounded-b-3xl flex items-center gap-2">
           <button
             onClick={skip}
             disabled={saving}
-            className="min-h-[44px] rounded-xl bg-white/5 border border-white/10 text-white/60 font-medium px-4 text-sm hover:bg-white/10 transition shrink-0"
+            className="min-h-[48px] rounded-xl px-4 text-sm font-medium text-white/60 hover:text-white hover:bg-white/5 transition disabled:opacity-50 shrink-0"
           >
             Plus tard
           </button>
           <button
             onClick={submit}
             disabled={saving || picked.size === 0}
-            className="flex-1 min-h-[44px] rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
+            className="flex-1 min-h-[48px] rounded-xl bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-600 text-white font-bold text-sm sm:text-base hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:hover:scale-100 disabled:cursor-not-allowed shadow-xl shadow-pink-500/40"
           >
-            {picked.size === 0 ? "Choisis-en au moins 1" : "C'est parti →"}
+            {saving
+              ? "…"
+              : picked.size === 0
+                ? "Choisis au moins 1 vibe"
+                : `C'est parti → (${picked.size})`}
           </button>
         </div>
       </div>
