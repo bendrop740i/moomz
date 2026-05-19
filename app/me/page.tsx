@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { getMyProfile } from "@/lib/profile";
+import { getSupabase } from "@/lib/supabase";
 import { getServerSupabase } from "@/lib/supabase-server";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 import { signOut } from "../actions";
 import ProfileForm from "./profile-form";
+import type { AskItem } from "../[slug]/ask-section";
+import AskInbox from "./ask-inbox";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +17,19 @@ export default async function MePage() {
   const { data: auth } = await supabase.auth.getUser();
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
+
+  let pending: AskItem[] = [];
+  if (profile) {
+    const anon = getSupabase();
+    const { data } = await anon
+      .from("ask_questions_public")
+      .select("id,text,answer,status,created_at,answered_at")
+      .eq("recipient_id", profile.id)
+      .eq("status", "pending")
+      .order("created_at", { ascending: false })
+      .limit(50);
+    pending = (data as AskItem[]) ?? [];
+  }
 
   return (
     <div className="space-y-6 fade-up">
@@ -44,6 +60,29 @@ export default async function MePage() {
         >
           {tx("auth.cta.secure")}
         </Link>
+      )}
+
+      {profile && pending.length > 0 && (
+        <AskInbox username={profile.username} pending={pending} />
+      )}
+
+      {profile && (
+        <div className="grid grid-cols-2 gap-2">
+          <Link
+            href={`/${profile.username}`}
+            className="glass rounded-2xl p-3 text-center hover:bg-white/[0.08] transition"
+          >
+            <div className="text-lg">{profile.avatar_emoji}</div>
+            <div className="text-xs text-white/60 mt-0.5">@{profile.username}</div>
+          </Link>
+          <Link
+            href="/mes-sondages"
+            className="glass rounded-2xl p-3 text-center hover:bg-white/[0.08] transition"
+          >
+            <div className="text-lg">📊</div>
+            <div className="text-xs text-white/60 mt-0.5">{tx("polls.title")}</div>
+          </Link>
+        </div>
       )}
 
       <ProfileForm initialProfile={profile} />

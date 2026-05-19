@@ -3,6 +3,7 @@ import CreatePollForm from "./create-poll-form";
 import PollCard from "./poll-card";
 import DailyCard from "./daily-card";
 import Onboarding from "./onboarding";
+import FeaturedAsks from "./featured-asks";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
@@ -105,6 +106,8 @@ export default async function HomePage() {
       )}
 
       <CreatePollForm />
+
+      <FeaturedAsks />
 
       <Onboarding />
 

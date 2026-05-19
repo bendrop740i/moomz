@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getSupabase, type Poll } from "@/lib/supabase";
-import { getProfileByUsername } from "@/lib/profile";
+import { getProfileByUsername, getMyProfile } from "@/lib/profile";
 import VoteClient from "./vote-client";
 import MarkSeenIfOwner from "../mark-seen-if-owner";
 import ProfileView from "./profile-view";
 import PollExplainer from "./poll-explainer";
+import type { AskItem } from "./ask-section";
 
 export const dynamic = "force-dynamic";
 
@@ -76,7 +77,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   if (/^[a-z0-9_]{3,20}$/.test(handle)) {
     const profile = await getProfileByUsername(handle);
     if (profile) {
-      const [pollsRes, statsRes] = await Promise.all([
+      const [pollsRes, statsRes, askAnsweredRes, viewerProfile] = await Promise.all([
         supabase
           .from("polls_with_stats")
           .select("slug,question,options,vote_count,created_at,last_vote_at")
@@ -88,7 +89,27 @@ export default async function Page({ params }: { params: { slug: string } }) {
           .select("total_points,top_streak,achievements")
           .eq("id", profile.id)
           .maybeSingle(),
+        supabase
+          .from("ask_questions_public")
+          .select("id,text,answer,status,created_at,answered_at")
+          .eq("recipient_id", profile.id)
+          .eq("status", "answered")
+          .order("answered_at", { ascending: false })
+          .limit(50),
+        getMyProfile(),
       ]);
+      const isOwner = !!viewerProfile && viewerProfile.id === profile.id;
+      let pending: AskItem[] = [];
+      if (isOwner) {
+        const { data: pendingRows } = await supabase
+          .from("ask_questions_public")
+          .select("id,text,answer,status,created_at,answered_at")
+          .eq("recipient_id", profile.id)
+          .eq("status", "pending")
+          .order("created_at", { ascending: false })
+          .limit(50);
+        pending = (pendingRows as AskItem[]) ?? [];
+      }
       const stats = statsRes.data as
         | { total_points?: number; top_streak?: number; achievements?: string[] }
         | null;
@@ -98,7 +119,17 @@ export default async function Page({ params }: { params: { slug: string } }) {
         top_streak: stats?.top_streak ?? 0,
         achievements: stats?.achievements ?? [],
       };
-      return <ProfileView profile={profileWithStats} polls={pollsRes.data ?? []} />;
+      return (
+        <ProfileView
+          profile={profileWithStats}
+          polls={pollsRes.data ?? []}
+          ask={{
+            isOwner,
+            answered: (askAnsweredRes.data as AskItem[]) ?? [],
+            pending,
+          }}
+        />
+      );
     }
   }
 

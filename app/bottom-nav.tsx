@@ -9,14 +9,15 @@ const items = [
   { href: "/", labelKey: "nav.home", icon: HomeIcon, badgeKey: null },
   { href: "/discover", labelKey: "nav.discover", icon: DiscoverIcon, badgeKey: null },
   { href: "/music", labelKey: "nav.music", icon: MusicIcon, badgeKey: null },
-  { href: "/mes-votes", labelKey: "nav.votes", icon: VotesIcon, badgeKey: null },
-  { href: "/mes-sondages", labelKey: "nav.polls", icon: PollsIcon, badgeKey: "polls" as const },
+  { href: "/mes-votes", labelKey: "nav.votes", icon: VotesIcon, badgeKey: "polls" as const },
+  { href: "/me", labelKey: "nav.me", icon: MeIcon, badgeKey: "ask" as const },
 ];
 
 export default function BottomNav() {
   const pathname = usePathname();
   const t = useT();
   const [pollsBadge, setPollsBadge] = useState<number | null>(null);
+  const [askBadge, setAskBadge] = useState<number | null>(null);
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
 
@@ -39,6 +40,24 @@ export default function BottomNav() {
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, [pathname]);
+
+  useEffect(() => {
+    let cancelled = false;
+    const fetchAsk = async () => {
+      try {
+        const res = await fetch("/api/ask-pending", { cache: "no-store" });
+        if (!res.ok) return;
+        const data: { count: number } = await res.json();
+        if (!cancelled) setAskBadge(data.count > 0 ? data.count : null);
+      } catch {}
+    };
+    fetchAsk();
+    const id = setInterval(fetchAsk, 30_000);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
   }, [pathname]);
 
   useEffect(() => {
@@ -93,7 +112,12 @@ export default function BottomNav() {
                 ? pathname === "/"
                 : pathname === item.href || pathname?.startsWith(item.href + "/");
             const Icon = item.icon;
-            const badge = item.badgeKey === "polls" ? pollsBadge : null;
+            const badge =
+              item.badgeKey === "polls"
+                ? pollsBadge
+                : item.badgeKey === "ask"
+                  ? askBadge
+                  : null;
             const label = t(item.labelKey);
             return (
               <Link
@@ -164,6 +188,15 @@ function PollsIcon({ active }: { active?: boolean }) {
       <line x1="7" y1="17" x2="7" y2="11" />
       <line x1="12" y1="17" x2="12" y2="7" />
       <line x1="17" y1="17" x2="17" y2="14" />
+    </svg>
+  );
+}
+
+function MeIcon({ active }: { active?: boolean }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="8" r="4" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.2 : 0} />
+      <path d="M4 21c0-4.42 3.58-8 8-8s8 3.58 8 8" fill={active ? "currentColor" : "none"} fillOpacity={active ? 0.12 : 0} />
     </svg>
   );
 }

@@ -3,6 +3,8 @@ import { ACHIEVEMENT_ORDER, ACHIEVEMENTS, type AchievementId } from "@/lib/achie
 import ShareLinker from "./share-linker";
 import MadeWithMoomz from "./made-with-moomz";
 import LinkerPollsGrid from "./linker-polls-grid";
+import ProfileTabs from "./profile-tabs";
+import AskSection, { type AskItem } from "./ask-section";
 
 type PollRow = {
   slug: string;
@@ -45,9 +47,11 @@ const SOCIAL_ICONS: Record<string, { label: string; url: (v: string) => string; 
 export default function ProfileView({
   profile,
   polls,
+  ask,
 }: {
   profile: ProfileWithStats;
   polls: PollRow[];
+  ask: { isOwner: boolean; answered: AskItem[]; pending: AskItem[] };
 }) {
   const totalVotes = polls.reduce((s, p) => s + p.vote_count, 0);
   const socials = profile.socials ?? {};
@@ -128,18 +132,28 @@ export default function ProfileView({
         </section>
       )}
 
-      {polls.length === 0 ? (
-        <div className="glass rounded-2xl p-6 text-center text-white/50 text-sm">
-          Pas encore de sondages publiés.
-        </div>
-      ) : (
-        <section className="space-y-3">
-          <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-            Ses sondages
-          </h2>
-          <LinkerPollsGrid polls={polls} />
-        </section>
-      )}
+      <ProfileTabs
+        pollsCount={polls.length}
+        askCount={ask.isOwner ? ask.pending.length : ask.answered.length}
+        polls={
+          polls.length === 0 ? (
+            <div className="glass rounded-2xl p-6 text-center text-white/50 text-sm">
+              Pas encore de sondages publiés.
+            </div>
+          ) : (
+            <LinkerPollsGrid polls={polls} />
+          )
+        }
+        ask={
+          <AskSection
+            recipientId={profile.id}
+            recipientUsername={profile.username}
+            isOwner={ask.isOwner}
+            answered={ask.answered}
+            pending={ask.pending}
+          />
+        }
+      />
 
       <MadeWithMoomz />
     </div>

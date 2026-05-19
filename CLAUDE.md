@@ -3,7 +3,25 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-19, this session.** User reported the auth gap ("dans /mes-votes y'a 'réserve ton nom' mais pas 'se connecter'"). Migrated from cookie-only pseudo-auth to **Supabase Auth magic-link** while preserving legacy claim_token users. Also shipped:
+**2026-05-19, later session.** Shipped the full **ASK feature** (Ask.fm-style anonymous Q&A on profiles) + **16 multilingual fake profiles** with 87 pending questions across 8 langs. Also redesigned the bottom nav: replaced the "Mes sondages" tab with a unified **Profile (/me) tab** that surfaces the ASK inbox badge.
+
+- **Migration 005** (`supabase-migrations/005-ask-feature.sql`) — new `ask_questions` table (id, recipient_id, asker_id, text, answer, status pending/answered/skipped, locale, timestamps) + `ask_questions_public` view (drops asker_id), RLS (anon insert ok, anon SELECT scoped to answered on base table; full read via the public view), `ask_recent_count(recipient,asker)` helper for rate limiting (3/day), `profiles.is_bot` flag, realtime publication. Also refreshes `profiles_public` to expose `is_bot`.
+- **Migration 005b** (`supabase-migrations/005b-ask-public-view.sql`) — applied after 005 to lock the policy + ensure the public view covers all statuses.
+- **Migration 006** (`supabase-migrations/006-seed-fake-profiles.sql`) — 16 bot profiles (2 per locale × 8 langs) with avatars/bios/usernames like `luna_fr`, `theo_fr`, `maya_en`, `jay_en`, `sofia_es`, `diego_es`, `giulia_it`, `matteo_it`, `rita_pt`, `joao_pt`, `lara_de`, `finn_de`, `aoi_ja`, `haru_ja`, `mei_zh`, `lin_zh`. Each carries 5-6 pending questions seeded with `asker_id LIKE 'seed_bot_%'` so re-runs are idempotent.
+- **Server actions** (`app/ask-actions.ts`) — `askQuestion`, `answerQuestion`, `skipAskQuestion`, `deleteAskQuestion`. Rate limit 3/asker/recipient/24h via `ask_recent_count` RPC. Noise filter reused. Returns `{ ok, error }` discriminated union.
+- **`lib/ask-prompts.ts`** — 32 addictive Ask.fm-style prompts × 8 languages = 256 curated chips. `getAskPrompts(locale, n)` returns a shuffled subset. Shown as inspiration chips in the composer.
+- **UI on `/[username]`** — new `ProfileTabs` (moomz / ask) with a counter badge. `AskSection` renders the composer (textarea + prompt chips + 280-char counter + anonymous toggle), the pending list (owner only), and the answered Q&A feed. Optimistic answer/delete with `useTransition`. `ask-section.tsx` is a client component.
+- **`/me` inbox** — `app/me/ask-inbox.tsx` shows pending questions with inline answer composer + delete. Surfaces above the profile-edit form when ≥1 pending.
+- **`/api/ask-pending`** — JSON `{count}` endpoint reading from `ask_questions_public`. Used by `BottomNav` to drive the pink badge on the new Profile tab (`/me`).
+- **Home page** — new `FeaturedAsks` server component renders a horizontal snap-scroll carousel of bot profiles with sample pending question text + count CTA. Built from `profiles_public` (filtered by `is_bot=true`) joined to `ask_questions_public`.
+- **Bottom nav redesign** — swapped the `/mes-sondages` tab for a new `/me` tab (`MeIcon` person glyph) with the ASK pending badge. `/mes-sondages` still works as a page; quick link from `/me`. `nav.me` i18n key added across 8 langs.
+- **8-lang i18n** — full `ask.*` namespace (composer, answers, pending, featured carousel CTAs, errors) translated in fr/en/es/it/pt/de/ja/zh.
+- **Public view safety** — `ask_questions_public` strips `asker_id` so anyone can read pending teasers and counts without exposing who asked.
+
+**Build status**: typecheck green (`npx tsc --noEmit`), `next build` produces all routes including `/api/ask-pending`. Smoke-tested locally: home renders "🌟 Profils du jour" carousel with Luna/Maya/etc., `/luna_fr` shows the ask composer with FR prompt chips, `/api/ask-pending` returns 200.
+
+---
+**Earlier 2026-05-19, first session.** User reported the auth gap ("dans /mes-votes y'a 'réserve ton nom' mais pas 'se connecter'"). Migrated from cookie-only pseudo-auth to **Supabase Auth magic-link** while preserving legacy claim_token users. Also shipped:
 - **SSH auth for git** (key at `~/.ssh/id_ed25519`, fingerprint `SHA256:9PwEfDFVEUzIuipwR1rSWrzcZsO3JK2Ozz+Aan850vw`)
 - **`@supabase/ssr`** package with cookie-aware server/browser clients (`lib/supabase-server.ts`, updated `lib/supabase-browser.ts`)
 - **`/login`** page with magic-link form (`app/login/page.tsx` + `login-form.tsx`)
