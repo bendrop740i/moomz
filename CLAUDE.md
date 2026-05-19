@@ -3,7 +3,22 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-19, later session.** Shipped the full **ASK feature** (Ask.fm-style anonymous Q&A on profiles) + **16 multilingual fake profiles** with 87 pending questions across 8 langs. Also redesigned the bottom nav: replaced the "Mes sondages" tab with a unified **Profile (/me) tab** that surfaces the ASK inbox badge.
+**2026-05-19, SEO push (latest).** User asked for 100+ SEO landing pages ("écris une centaine de page pour référencer le site, je veux que tu sois fort, cibles les niche cible tout"). Shipped:
+- **101 statically-generated landing pages** (build output: 118 total routes):
+  - 45 `/idees/[slug]` FR (Insta, TikTok, Snap, WhatsApp, Discord, couple, premier-rdv, ami, BFF, soirée, anniv, mariage, EVJF, EVG, baby shower, famille, enfants, ado, lycée, fac, classe primaire, collègues, team-building, startup, drôle, rebelle, drama, débat, this-or-that, would-you-rather, food, restau, voyage, Netflix, musique, mode, fitness, gaming, ferme du buzz, St-Valentin, Halloween, Noël cadeau, rentrée, été plage, argent finances)
+  - 29 `/ideas/[slug]` EN miroir + politics/sports/debate/icebreaker
+  - 12 `/guides/[slug]` (sondage Instagram/anonyme/WhatsApp en FR + EN counterparts + Strawpoll alt + free poll maker + icebreaker guide)
+  - 15 `/blog/[slug]` (vibe-check meaning, Gen Z poll culture, dating poll trend, viral case studies, moomz-vs-Instagram-poll, moomz-vs-Google-Forms, polls engagement stats, psychologie sondage, ferme du buzz c'est quoi…)
+- **Content layer**: `lib/seo/` typed TS data (`types.ts`, `idees-1.ts`, `idees-2.ts`, `ideas-en.ts`, `guides.ts`, `blog.ts`, `extras.ts`, `index.ts`). Each `SeoPage` carries title/h1/description/intro + 4 sections + 10 polls + 4-6 FAQ + related links + updatedAt. ~500-700 words per page, substantive content (not boilerplate).
+- **Route handlers**: `app/{idees,ideas,guides,blog}/[slug]/page.tsx` use `generateStaticParams` + `generateMetadata` (canonical, OG, Twitter); `app/{idees,ideas,guides,blog}/page.tsx` are hub indexes.
+- **Shared views**: `app/_seo/seo-page.tsx` (article layout with sticky CTA, prompt grid with "lancer ce sondage" deeplinks, FAQ, related), `app/_seo/seo-hub.tsx` (grid of all pages), `app/_seo/json-ld.tsx` (Article + FAQPage schemas).
+- **`app/sitemap.ts`** — auto-generated, 108 URLs. **`app/robots.ts`** — allows root, disallows /api, /auth, /me, /mes-votes, /mes-sondages.
+- **`app/seo-footer.tsx`** — internal-link footer (4 hub links + 12 featured slug pills). Added to home + 404.
+- **CreatePollForm prefill**: reads `?q=...&o=opt1|opt2|opt3` via `useSearchParams`. Every poll suggestion on SEO pages deeplinks to `/?q=...&o=...` which prefills the create form. Wrapped in `<Suspense>` on home.
+- **Build verified** (`npm run build` green). **Smoke tested** locally on port 3010 — all SEO routes return 200, sitemap.xml has 108 `<loc>` entries.
+- **Commit `b282b10`** pushed to main. Vercel deploys automatically.
+
+**Earlier same day session.** Shipped the full **ASK feature** (Ask.fm-style anonymous Q&A on profiles) + **16 multilingual fake profiles** with 87 pending questions across 8 langs. Also redesigned the bottom nav: replaced the "Mes sondages" tab with a unified **Profile (/me) tab** that surfaces the ASK inbox badge.
 
 - **Migration 005** (`supabase-migrations/005-ask-feature.sql`) — new `ask_questions` table (id, recipient_id, asker_id, text, answer, status pending/answered/skipped, locale, timestamps) + `ask_questions_public` view (drops asker_id), RLS (anon insert ok, anon SELECT scoped to answered on base table; full read via the public view), `ask_recent_count(recipient,asker)` helper for rate limiting (3/day), `profiles.is_bot` flag, realtime publication. Also refreshes `profiles_public` to expose `is_bot`.
 - **Migration 005b** (`supabase-migrations/005b-ask-public-view.sql`) — applied after 005 to lock the policy + ensure the public view covers all statuses.
