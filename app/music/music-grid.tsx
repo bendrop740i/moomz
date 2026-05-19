@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useMusic, type Track } from "../music-provider";
+import TrackCover from "./track-cover";
 
 export default function MusicGrid({ tracks }: { tracks: Track[] }) {
   const { current, isPlaying, toggle, start, playTrack } = useMusic();
@@ -46,10 +47,15 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
                 isCurrent ? "border-pink-400/50 bg-white/[0.06]" : ""
               }`}
             >
-              <div className="aspect-square rounded-lg bg-gradient-to-br from-pink-500/40 via-purple-500/40 to-amber-500/40 flex items-center justify-center mb-2">
-                <span className="text-3xl">
-                  {isCurrent && isPlaying ? "⏸" : "🎵"}
-                </span>
+              <div className="aspect-square rounded-lg overflow-hidden mb-2 relative">
+                <TrackCover seed={t.id} label={t.title} className="absolute inset-0 w-full h-full" />
+                {isCurrent && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 backdrop-blur-[2px]">
+                    <span className="text-3xl drop-shadow-lg">
+                      {isPlaying ? "⏸" : "▶"}
+                    </span>
+                  </div>
+                )}
               </div>
               <div className="text-xs font-medium text-white/90 truncate" title={t.title}>
                 {t.title}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMusic } from "./music-provider";
+import TrackCover from "./music/track-cover";
 
 export default function MusicMiniPlayer() {
   const { current, isPlaying, isLoading, toggle, next } = useMusic();
@@ -10,7 +11,10 @@ export default function MusicMiniPlayer() {
 
   return (
     <div className="fixed bottom-20 right-3 z-30 select-none">
-      <div className="glass rounded-full shadow-lg shadow-black/30 pl-2 pr-1 py-1 flex items-center gap-2 text-xs max-w-[230px]">
+      <div className="glass rounded-full shadow-lg shadow-black/30 pl-1 pr-1 py-1 flex items-center gap-2 text-xs max-w-[250px]">
+        <div className="w-7 h-7 rounded-full overflow-hidden shrink-0 relative">
+          <TrackCover seed={current.id} label={current.title} className="absolute inset-0 w-full h-full" />
+        </div>
         <button
           onClick={toggle}
           className="w-7 h-7 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 text-white flex items-center justify-center shrink-0"
