@@ -1,20 +1,32 @@
 import type { Category, Locale, SeoPage } from "./types";
 import { idees1 } from "./idees-1";
 import { idees2 } from "./idees-2";
+import { idees3 } from "./idees-3";
 import { ideasEn } from "./ideas-en";
+import { ideasEn2 } from "./ideas-en-2";
 import { guides } from "./guides";
+import { guides2 } from "./guides-2";
 import { blog } from "./blog";
+import { blog2 } from "./blog-2";
 import { extras } from "./extras";
 import { read } from "./read";
+import { seoVs } from "./seo-vs";
+import { seoFormats } from "./seo-formats";
 
 export const allPages: SeoPage[] = [
   ...idees1,
   ...idees2,
+  ...idees3,
   ...ideasEn,
+  ...ideasEn2,
   ...guides,
+  ...guides2,
   ...blog,
+  ...blog2,
   ...extras,
   ...read,
+  ...seoVs,
+  ...seoFormats,
 ];
 
 export function pagesByCategory(category: Category): SeoPage[] {
