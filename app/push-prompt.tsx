@@ -126,7 +126,7 @@ export default function PushPrompt({
   if (!show) return null;
 
   return (
-    <div className="fixed bottom-20 sm:bottom-6 inset-x-3 sm:inset-x-auto sm:right-6 sm:max-w-sm z-50 fade-up">
+    <div className="fixed bottom-36 sm:bottom-6 inset-x-3 sm:inset-x-auto sm:right-6 sm:max-w-sm z-50 fade-up">
       <div className="glass rounded-2xl p-4 shadow-2xl shadow-pink-500/20 border-pink-400/30 space-y-3">
         <div className="space-y-1">
           <div className="text-base font-bold tracking-tight">🔔 {strings.headline}</div>

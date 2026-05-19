@@ -67,7 +67,7 @@ export default function InstallPrompt({ strings }: { strings: Strings }) {
 
   return (
     <>
-      <div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-40 glass rounded-2xl shadow-xl shadow-black/40 px-3 py-2.5 flex items-center gap-2 text-sm card-in max-w-[90vw]">
+      <div className="fixed bottom-36 sm:bottom-24 left-1/2 -translate-x-1/2 z-40 glass rounded-2xl shadow-xl shadow-black/40 px-3 py-2.5 flex items-center gap-2 text-sm card-in max-w-[90vw]">
         <span className="text-2xl">📲</span>
         <button
           onClick={() => {
