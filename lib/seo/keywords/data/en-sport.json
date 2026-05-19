@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "football",
+    "locale": "en",
+    "keyword": "Football (NFL)",
+    "matchPatterns": ["football", "nfl", "quarterback", "super bowl", "touchdown", "patriots", "chiefs", "cowboys"],
+    "topic": "sport",
+    "title": "Football Polls: NFL Vibe Checks, Super Bowl Takes and Fan Debates",
+    "description": "Vote on the NFL's biggest debates: GOAT QBs, Super Bowl picks, dynasty teams and Sunday rivalries. Fast polls, live results, zero gatekeeping.",
+    "emoji": "🏈",
+    "intro": "Football in America is less a sport and more a national mood. Founded in 1920 as the American Professional Football Association in a Hupmobile car showroom in Canton, Ohio, the league we now call the NFL turned a regional rough-and-tumble pastime into a billion-dollar Sunday ritual. Tailgates, fantasy leagues, prop bets, Super Bowl halftime shows, the Madden curse, the eternal Cowboys-versus-Eagles spite: it all stacks into one of the loudest cultural ecosystems on the planet. And because every fan has an opinion sharper than a perfectly thrown spiral, football is built for polling. Was Tom Brady's seventh ring really the dagger that ended the GOAT debate, or did Patrick Mahomes' three rings before 30 reopen it? Is Travis Kelce overrated now that the Taylor Swift cameras follow him into every commercial break? Should the Cowboys be contractually banned from being called America's Team until they actually make a conference championship again? On moomz we cut through the talk-show noise: you launch a poll, your group chat votes in 30 seconds, the bar chart fills in live, and suddenly you know whether your friends are reasonable people or Jets apologists. Whether you're debating dynasties, ranking the most clutch QBs of the cap era, voting on the saddest Browns moment, or just figuring out which wing flavor wins Super Bowl Sunday, this is the page where football opinions get receipts. Drop your hot takes and let the people decide.",
+    "sections": [
+      {
+        "h": "The GOAT debate isn't over, it's just paused",
+        "body": "Tom Brady walked away with seven Super Bowl rings, five Super Bowl MVPs, and a stat sheet that reads like a typo. The debate seemed closed, until Patrick Mahomes started doing impossible things by 28 with a no-look sidearm and a roster that keeps losing pieces. Joe Montana fans still wave the perfect 4-0 Super Bowl record. Peyton Manning fans cite the regular-season MVPs. Aaron Rodgers fans cite, well, the off-season interviews. Football fans love a tier list and hate consensus, which is why this debate refuses to die. The fun part is that the criteria shift with the era. Brady's longevity matters more than Montana's win rate to some, Mahomes' degree-of-difficulty plays matter more than Manning's volume to others. Run a moomz poll asking your group chat who they actually start a franchise with today, then watch the Cowboys fan stubbornly type Dak Prescott into the options. The point isn't to settle it. The point is to surface where your tribe stands and learn who you can never watch a playoff game with again."
+      },
+      {
+        "h": "Sunday rivalries that define the season",
+        "body": "The NFL schedule is engineered for spite. Packers-Bears is the longest-running pro football rivalry, dating back to 1921, played 200-plus times, hated more with every kickoff. Steelers-Ravens turns the AFC North into a quarterly mugging. Chiefs-Bills has quietly become the new defining playoff matchup of the era, with three straight postseason classics that ended in Mahomes magic or Allen heartbreak. Cowboys-Eagles produces more group-chat venom than any other regular-season game. Niners-Seahawks faded but left a Sherman tip-pass in everyone's brain. The point of a rivalry isn't just hate, it's that you're forced to argue about it every September, every Thanksgiving, every wild-card weekend. That's polling gold. Ask your friends to rank the five rivalries that actually move the needle now, or which one they would never miss live. Throw in a curveball like Jets-Patriots being declared officially over until proven otherwise. The vote chart will tell you instantly whether your group is locked into the 2010s memory or actually watching 2025 football."
+      },
+      {
+        "h": "Beyond the field: culture, fantasy, and the moomz takes",
+        "body": "Football is also fantasy drafts that destroy friendships, prop bets that ruin Sundays, and Madden cover curses that ruin careers. The Super Bowl halftime show is its own discourse Olympics: Beyonce versus Rihanna versus Prince in the rain versus Michael Jackson 1993 versus whichever current pop star polarizes the timeline this year. Tailgate food rankings, jersey debates (throwbacks always win, fight me), Color Rush opinions, the eternal question of whether the kicker counts as a real position: it all matters. A moomz poll thread on Super Bowl prop bets is more accurate than half of Vegas. Drop options like coin toss heads, anthem over 1:50, first commercial under 30 seconds, halftime guest appearance yes or no, and watch your group's collective wisdom out-perform the sportsbooks. Football's cultural surface area is huge, which is why a single page can't contain it. Pick a wedge, drop a poll, let the chart do the talking."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was the NFL actually founded?",
+        "a": "The league was founded in 1920 as the American Professional Football Association inside a Hupmobile dealership in Canton, Ohio, with Jim Thorpe as its first president. It renamed itself the National Football League in 1922. The first Super Bowl was not played until January 1967, when the NFL merged its title game with the rival AFL's championship to create what is now the single biggest annual sporting event in the United States."
+      },
+      {
+        "q": "Who has the most Super Bowl rings ever?",
+        "a": "Tom Brady has seven Super Bowl titles as a player, more than any single franchise. Behind him a cluster of Steelers and 49ers from the dynasty eras tie at four. Among active quarterbacks Patrick Mahomes has three before age 30, putting him on a pace nobody else has matched. The trophy itself, the Vince Lombardi Trophy, is hand-made by Tiffany & Co. every year and weighs about seven pounds of sterling silver."
+      },
+      {
+        "q": "Why is football so big in America compared to soccer?",
+        "a": "Television built it. The NFL embraced national broadcast deals early, prioritized Sunday afternoons as appointment viewing, scheduled commercial-friendly breaks into the rules, and let fantasy football turn every game into personal stakes for non-fans. Soccer never got that scheduling-and-ad alignment in the US market. Add high-school and college football as cultural pipelines feeding identity from age 12, and the NFL essentially owns a day of the American week."
+      },
+      {
+        "q": "Are NFL polls on moomz fair if my group has only Cowboys fans?",
+        "a": "Polls on moomz are exactly as fair as the room you share them with. That is also why they are funny. If your group chat is 90% Cowboys fans, your Dak-versus-Mahomes poll will produce comedy, not truth. Share the link wider, drop it in a multi-team Discord, or post it on Reddit if you actually want a representative read. moomz gives you a live bar chart in seconds either way, so calibration is on you."
+      }
+    ],
+    "related": ["soccer", "nba", "basketball", "ufc", "formula1", "tennis", "olympics", "premier-league"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "soccer",
+    "locale": "en",
+    "keyword": "Soccer",
+    "matchPatterns": ["soccer", "world cup", "football", "fifa", "messi", "ronaldo", "mbappe", "haaland"],
+    "topic": "sport",
+    "title": "Soccer Polls: World Cup Takes, GOAT Debates and Group-Chat Vibe Checks",
+    "description": "Vote on the world's biggest sport: Messi vs Ronaldo, World Cup picks, top leagues, dream XIs. Fast polls, live results, every continent welcome.",
+    "emoji": "⚽",
+    "intro": "Soccer, or football to roughly seven billion of the planet's eight, is the world's loudest argument. FIFA was founded in Paris in 1904 by seven European federations who wanted a single set of rules for international play. A little over a century later it now runs a World Cup watched by more than five billion people across a single month, sells media rights for tens of billions, and somehow still cannot stop a single ref from missing an obvious handball. That gap, between how huge the sport is and how messy it remains, is exactly why soccer polls thrive. Was the 2022 World Cup final the greatest match ever played, or did the Mbappe hat-trick get overshadowed because Messi finally lifted the trophy? Is Erling Haaland the future, or just the Premier League's most efficient cheat code? Should Saudi Pro League moves be respected or laughed at? Which league actually plays the best football right now: the Premier League with its money, La Liga with its skill, the Bundesliga with its atmosphere, Serie A on its slow comeback, or Ligue 1 with PSG's chaos? On moomz the world's most-played sport gets the world's fastest debate engine: drop a poll, the bar chart fills live, your group chat finally puts up or shuts up. From dream XIs to manager firings to whether VAR ruined the game forever, this is the page where soccer opinions stop being shouted at the TV and start being counted.",
+    "sections": [
+      {
+        "h": "The World Cup is still the only trophy that matters",
+        "body": "Club football has more money, more games, more daily drama. But the World Cup remains the only event that pulls every continent into the same conversation for a month. The 2022 final in Lusail, when Argentina beat France on penalties after a 3-3 thriller that Mbappe hat-tricked through, is widely called the greatest final ever played, and it finally gave Messi the one trophy his career was missing. The 2026 edition expands to 48 teams across the US, Canada and Mexico, which will either be the best tournament ever or the most bloated, depending on which forum you read. Either way the polls will come thick. Who lifts it. Who flames out in the group stage. Whether the host trio actually deserves co-hosting. Whether the third-place playoff should be quietly killed. Whether the golden ball should be picked before the final, ever again. Run a moomz poll the morning of every knockout match and you will know your group chat better by the end of the tournament than after years of normal conversation."
+      },
+      {
+        "h": "Messi or Ronaldo, the debate that refuses to die",
+        "body": "Lionel Messi, born 1987 in Rosario, Argentina, has eight Ballons d'Or, the 2022 World Cup, and a left foot that engineers should be required to study. Cristiano Ronaldo, born 1985 in Madeira, Portugal, has 850-plus career goals, five Champions Leagues, and a work ethic so famous it has its own cottage industry of motivational TikToks. The debate is two decades old and refuses to die because every metric you pick gives a different answer. Trophies count more for one side, individual brilliance for the other, longevity for a third, World Cup wins for a fourth. Pep Guardiola once said arguing Messi versus Ronaldo is like arguing whether a Picasso is better than a Van Gogh: pointless and you should just enjoy both. He is right, and we will keep doing the polls anyway. Drop one in your group chat and watch how the votes split exactly along the lines of who grew up watching which one. That alone is more revealing than any actual ranking."
+      },
+      {
+        "h": "Which league actually plays the best football",
+        "body": "Every fan thinks their league is the best, but the data is messier than the takes. The Premier League has the most money, the deepest mid-table quality, and the most globally televised drama. La Liga has the highest technical ceiling, two of the most decorated clubs in history, and a recent post-Messi identity crisis. The Bundesliga has the best atmospheres, the cheapest tickets, and Bayern's tedious monopoly. Serie A has the best tactical chess, a beautiful slow renaissance, and a stadium infrastructure problem. Ligue 1 has PSG, Marseille, and not much else above them, but it produces young talent that everyone else then buys. The Saudi Pro League has the money and the meme value. MLS has Messi now, which counts more than people admit. A moomz poll asking your friends to rank the top five leagues by entertainment value will surface the regional bias instantly. It will also produce the loudest fight your group chat has had since last transfer window."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was FIFA founded and why?",
+        "a": "FIFA was founded on May 21, 1904, in Paris by representatives of seven European football associations: France, Belgium, Denmark, Netherlands, Spain, Sweden and Switzerland. The goal was to unify rules and organize international matches that everyone could trust. England joined in 1905. The first FIFA World Cup followed in 1930, hosted and won by Uruguay. FIFA now governs football across 211 member associations, more than the United Nations has member states."
+      },
+      {
+        "q": "Why is it called soccer in some countries and football in others?",
+        "a": "Both names trace back to England. Association football was nicknamed assoc, then soccer, by British students in the 1880s to distinguish it from rugby football. The name soccer was actively used in Britain for most of the 20th century before it fell out of fashion. Countries where another football code already existed, like the US, Canada and Australia, kept using soccer to avoid confusion. Everywhere else, it stayed football."
+      },
+      {
+        "q": "How many Ballons d'Or do Messi and Ronaldo have?",
+        "a": "Lionel Messi has won eight Ballons d'Or, the most in history, with his most recent coming in 2023 after winning the 2022 World Cup with Argentina. Cristiano Ronaldo has five, tying him with Michel Platini and Johan Cruyff for second on the all-time list before they were both passed. The next active player closest to them is Karim Benzema with one, won in 2022, which tells you how dominant the duo has been for a full era."
+      },
+      {
+        "q": "Can I run a soccer poll in a non-English group on moomz?",
+        "a": "Yes, moomz works in eight languages and auto-detects yours from the browser, so a French group sees French UI, a Spanish group sees Spanish, and so on. The poll question and options stay in whatever language you type them. That is perfect for soccer because the sport is global and your group chat probably already mixes English, Spanish, French and a handful of emoji. Drop a poll, share the link, the bar chart speaks every language."
+      }
+    ],
+    "related": ["football", "premier-league", "champions-league", "messi", "ronaldo", "tennis", "basketball", "olympics"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "tennis",
+    "locale": "en",
+    "keyword": "Tennis",
+    "matchPatterns": ["tennis", "wimbledon", "roland garros", "us open", "australian open", "grand slam", "djokovic", "nadal", "federer", "alcaraz"],
+    "topic": "sport",
+    "title": "Tennis Polls: Big 3 Debates, Grand Slam Picks and Court-Side Vibe Checks",
+    "description": "Vote on tennis takes: Federer vs Nadal vs Djokovic, Wimbledon picks, GOAT debates, next gen rankings. Fast polls, live results, no umpire needed.",
+    "emoji": "🎾",
+    "intro": "Tennis is the rare sport that is both intensely individual and culturally global. Wimbledon, the oldest tennis tournament in the world, was first played in 1877 on the lawns of the All England Croquet and Lawn Tennis Club, and it still serves strawberries and cream, requires whites, and somehow stays the most prestigious title in the calendar. The other three Grand Slams, the Australian Open, Roland Garros, and the US Open, fill the rest of the year with their own personalities: the Aussie heat and outback humor, Paris clay and slow-burn drama, New York night sessions and pure showbiz. For two decades the Big Three of Roger Federer, Rafael Nadal and Novak Djokovic stacked 66 Grand Slams between them and turned tennis polling into a borderline religious activity. Federer for the elegance, Nadal for the heart, Djokovic for the cold execution. The debate is now both settled by the stat sheet, with Djokovic out alone in front on slam count, and unsettled by every fan's emotional bias. Behind them Carlos Alcaraz and Jannik Sinner finally feel like a generational rivalry that can carry tennis into the next decade, while Iga Swiatek, Coco Gauff and Aryna Sabalenka trade WTA number-one weeks. On moomz a single poll is enough to find out whether your group is team grass, team clay, team hard court, or team I-will-never-forgive-2019-Wimbledon-final.",
+    "sections": [
+      {
+        "h": "The Big Three and the polls that won't end",
+        "body": "Novak Djokovic finishes most polls in first place on raw numbers: 24 Grand Slams, more weeks at world number one than anyone, the only player to win every Slam at least three times in the Open Era. Rafael Nadal counters with 22 Slams, 14 of them at Roland Garros, a number so absurd it makes the clay-court record functionally untouchable. Roger Federer sits at 20, retired, and somehow still wins every aesthetic poll because of how he moved on a tennis court, like the ball was something he was choosing to hit, not chase. Ask a casual fan who the GOAT is and you get Federer. Ask a stats nerd and you get Djokovic. Ask a romantic and you get Nadal. moomz polls on the Big Three are essentially personality tests at this point: the answer reveals more about the voter than the player. Drop the question into a group chat that spans three continents and you will get the most honest cultural map of tennis fandom you have ever seen."
+      },
+      {
+        "h": "Alcaraz versus Sinner, the next era is real",
+        "body": "Tennis spent five years panicking about the post-Big-Three drop-off and then Carlos Alcaraz and Jannik Sinner happened. Alcaraz, the 22-year-old Spaniard with a touch nobody his age should have, already owns Wimbledon, the US Open, Roland Garros and an Australian Open run-in. Sinner, the cool-headed Italian with the cleanest baseline game on tour, has reached every Slam final stage and traded titles with Alcaraz in matches that already feel historic. Their head-to-head is the new core rivalry of men's tennis, and the polls have shifted overnight: who wins the most Slams by 30, who has the better backhand, who handles the surface change best, who do you actually pay to watch. On the women's side Iga Swiatek's clay dominance, Coco Gauff's two-time Slam swing, and Aryna Sabalenka's hard-court fire give the WTA tour three legitimately different number ones in rotation, which is a healthier polling landscape than it has had in years."
+      },
+      {
+        "h": "Surface wars and the cultural quirks that drive the debates",
+        "body": "Tennis is one of the few sports where the court itself changes the conversation. Clay rewards endurance and topspin, which is why Nadal owns Paris like a building. Grass rewards serve-and-volley instincts and quick courts, which is why Wimbledon still produces the most chaotic upsets. Hard courts are the neutral arena where modern athleticism wins, which is why Djokovic and the next gen dominate them. Polls on the best surface, the worst Slam, the most overrated tradition, the funniest umpire moment, all of these turn tennis into pop culture rather than pure sport. moomz lets you collect those opinions in 30 seconds and watch the bar chart fill. Did Wimbledon ban Russian players in 2022 the right call? Should Roland Garros stop doing the night session? Is the US Open final the loudest crowd in tennis or just the most American? Drop the poll, get the receipts, settle nothing, argue forever. That is tennis."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was Wimbledon first played and why is it the oldest?",
+        "a": "Wimbledon was first played in 1877 on the croquet lawns of the All England Club in southwest London, with just 22 male competitors and a single trophy. It predates every other Grand Slam by decades and has been held continuously except during the two World Wars and the 2020 Covid pause. Its longevity, its grass surface, and its strict traditions (white clothing, no on-court ads, royal box) make it the most prestigious title in tennis even when the prize money is lower than the US Open."
+      },
+      {
+        "q": "Who has the most Grand Slam titles in tennis?",
+        "a": "On the men's side Novak Djokovic leads with 24 Grand Slam singles titles, ahead of Rafael Nadal on 22 and Roger Federer on 20. On the women's side Margaret Court holds 24, Serena Williams 23, and Steffi Graf 22, though Court's total includes pre-Open Era titles which some debate. Among active women Iga Swiatek leads the next generation with five so far. Tennis is one of the most ruthlessly clear sports for ranking GOATs because the count is final."
+      },
+      {
+        "q": "Is the tennis GOAT debate actually over?",
+        "a": "Statistically Djokovic has the edge: most Slams, most weeks at number one, most ATP year-end finals, only Career Golden Slam holder when you add an Olympic singles gold. Aesthetically Federer still wins. Emotionally Nadal wins for many fans, especially clay-court loyalists. So the count is settled, the culture is not, and that is why moomz polls on the GOAT will probably never stop. The fun is in the disagreement, not the resolution."
+      },
+      {
+        "q": "How do tennis polls work in a moomz group chat?",
+        "a": "Open moomz, type a question like which surface produces the best tennis or who wins the next Wimbledon, add two to six options with emoji, hit create, and copy the short link. Share it in your group, the votes come in live with animated bars, results stay anonymous, and the whole exchange takes about a minute. Tennis fans tend to vote fast because they already have the take loaded. Perfect format for a sport that thrives on opinion."
+      }
+    ],
+    "related": ["football", "soccer", "basketball", "olympics", "ronaldo", "messi", "formula1", "ufc"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "basketball",
+    "locale": "en",
+    "keyword": "Basketball",
+    "matchPatterns": ["basketball", "nba", "lebron", "jordan", "curry", "playoffs", "finals", "dunk", "wnba"],
+    "topic": "sport",
+    "title": "Basketball Polls: GOAT Debates, Dunk Rankings and Hoops Vibe Checks",
+    "description": "Vote on basketball's biggest debates: Jordan vs LeBron, Finals MVPs, dynasty rankings, dunk contests. Fast polls, live results, hooper-tested.",
+    "emoji": "🏀",
+    "intro": "Basketball is the sport that scales perfectly to every screen, from a playground in Manila to a 4K iso clip on TikTok. The game was invented by James Naismith in December 1891 in Springfield, Massachusetts using two peach baskets and a soccer ball. The professional league we now call the NBA started life as the Basketball Association of America in 1946, merged with the rival NBL in 1949, and turned into the single most globally televised league below soccer. Hoops is the sport of icons. Michael Jordan turned the 1990s into his personal six-ring decade. Kobe Bryant turned the 2000s into a study in obsession. LeBron James turned the 2010s and 2020s into a longevity story nobody else has matched. Steph Curry rewrote the rulebook by making the three-point line the most valuable real estate on the floor. And the next wave, from Victor Wembanyama to Anthony Edwards to Luka Doncic, is already filling the polls. Basketball polling is brutal because the sample size is huge and the takes are loud. Was the 1996 Bulls better than the 2017 Warriors? Is LeBron actually past Jordan now or does ring count still close the case? Should Caitlin Clark be in the WNBA conversation already? On moomz the chart fills in seconds and your group chat finally puts up or shuts up.",
+    "sections": [
+      {
+        "h": "Jordan or LeBron, the polling never stops",
+        "body": "Michael Jordan is 6-0 in NBA Finals with six Finals MVPs, five regular-season MVPs, a Defensive Player of the Year award, and a cultural footprint so massive he reshaped sneakers as a global market. LeBron James has four titles, four MVPs, the all-time scoring record, 20-plus seasons of elite play, and the only career that has reached four different Finals in four different decades of his life. Jordan fans say undefeated in the Finals closes the case. LeBron fans say longevity, versatility and statistical dominance close it harder. Kobe fans are still in the room. Hakeem fans are still in the room. Even Kareem fans, with the second-most points and six rings, show up when the polls open. moomz turns this into a 30-second group-chat exercise: pick your five-criteria GOAT debate, drop the poll, see how your friends split. The result will not settle the debate. It will settle who in your chat is too young to have actually watched Jordan."
+      },
+      {
+        "h": "Dynasties, dunks and the cultural side of hoops",
+        "body": "Basketball polls are not just about players. Dynasty rankings, dunk contest highlights, the best City Edition jerseys, the funniest in-arena moments, the most heartbreaking Finals losses, all of them get the chart treatment. The 1995-96 Bulls won 72 games and lost the cultural debate to the 2015-16 Warriors who won 73 but lost in the Finals. The 1986 Celtics, the Showtime Lakers, the Bad Boy Pistons, the early-2000s Lakers, the post-2014 Warriors: each gets its loyalists and its haters. On the dunk side, Vince Carter's 2000 contest is still cited as the high-water mark, Aaron Gordon's 2020 robbery is still debated, and Mac McClung's three-peat made hoops Twitter argue about whether the contest is broken. Throw a moomz poll asking your group to pick the single most replayed highlight in NBA history and watch the votes split between MJ's switch hand layup, Kobe's 81-point game, LeBron's chase-down block in 2016, and Steph turning his back before the ball went in. The chart is the conversation."
+      },
+      {
+        "h": "Global game, women's game, and the next wave",
+        "body": "Basketball has gone fully global. The MVP race for the last six seasons has been won by international players, from Giannis Antetokounmpo's two MVPs to Nikola Jokic's three to Joel Embiid's one. The 2024 Olympics in Paris ended with a Team USA gold game that came down to the final minute against France. The 2023 World Cup was won by Germany. The WNBA is having its biggest cultural moment ever, with Caitlin Clark, Angel Reese, A'ja Wilson and Sabrina Ionescu pulling record viewership and finally getting the polling attention the league deserves. Wembanyama, the 7-foot-4 French rookie of the year turned generational defender, is reshaping what the polls will even ask in five years. moomz lets you cover all of it in one place: drop a poll on the next MVP, the next dynasty, the next Olympic favorite, the next WNBA Finals MVP. Your group chat is the new ESPN and you don't need a hot-take desk to settle anything."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was the NBA actually founded?",
+        "a": "The league we now call the NBA started as the Basketball Association of America (BAA) on June 6, 1946 in New York. It merged with the rival National Basketball League in 1949 to form the National Basketball Association. The first official NBA championship was won by the Philadelphia Warriors in 1947. The league grew slowly until television deals in the 1980s, and exploded globally in the 1990s thanks to Michael Jordan and the Dream Team's 1992 Olympic gold in Barcelona."
+      },
+      {
+        "q": "Is LeBron actually past Jordan in the GOAT debate?",
+        "a": "Statistically LeBron leads in nearly every counting category: points, total games, total playoff games, assists for a non-point-guard, longevity. Jordan leads in efficiency, ring-rate (6-0 in Finals versus 4-6), MVPs (5 to 4), Finals MVPs (6 to 4) and cultural dominance. Most analytics-driven lists put LeBron number one now. Most legacy-driven lists keep Jordan. moomz polls split the chart almost exactly along generational lines, which is the most honest answer there is."
+      },
+      {
+        "q": "Why is the three-pointer suddenly so dominant?",
+        "a": "Two reasons: math and Steph Curry. A three is worth 50 percent more than a two. Once data analytics teams quantified that even a 36 percent three-point shooter outscores a 50 percent mid-range shooter, the mid-range died as a primary look. Curry then proved the three could be a 30-feet-out volume weapon and not just a corner stretch shot. The league average jumped from around 18 attempts per game in 2010 to over 35 today. The polls on whether this is good for the game are heated and ongoing."
+      },
+      {
+        "q": "Do basketball polls on moomz work for international groups?",
+        "a": "Yes, moomz is built for global group chats. Pick your question, drop the link, anyone with the URL can vote without an account, and the UI auto-detects their language. Basketball spans every continent now, so a poll on the next MVP can pull responses from Manila to Madrid to Minneapolis and the chart fills in real time. The bar chart speaks no language but its own."
+      }
+    ],
+    "related": ["nba", "football", "soccer", "tennis", "olympics", "ufc", "formula1", "messi"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "olympics",
+    "locale": "en",
+    "keyword": "Olympics",
+    "matchPatterns": ["olympics", "olympic", "gold medal", "tokyo 2020", "paris 2024", "la 2028", "athlete", "team usa"],
+    "topic": "sport",
+    "title": "Olympics Polls: Gold-Medal Picks, Sport Rankings and Opening-Ceremony Vibes",
+    "description": "Vote on the Olympics: best country, most-watched sport, GOAT athletes, weirdest events. Fast polls, live results, every four years feels different.",
+    "emoji": "🏅",
+    "intro": "The Olympics is the only event that briefly convinces the planet that sports actually matter equally everywhere. The ancient Games were first held in 776 BC at Olympia in Greece, ran every four years for nearly 12 centuries, and were banned by the Roman emperor Theodosius in 393 AD for being too pagan. The modern Olympics started in 1896 in Athens with a baron named Pierre de Coubertin selling the world on a sporting peace treaty. It worked, mostly. Today the Summer Games gather around 11,000 athletes across 32 sports, the Winter Games gather around 3,000 across 15 sports, and both produce the most chaotic two-week polling environment on earth. Paris 2024 reset the cultural bar with a Seine-river opening ceremony, Simone Biles' comeback, Leon Marchand's home-pool four golds, and the closing slap of breaking's debut. LA 2028 is already promising to add flag football, lacrosse, squash and the return of baseball-softball, which will produce its own polling chaos. Olympic polls are uniquely fun because every fan has a country to root for and a sport they suddenly care about for 17 days. On moomz drop a poll on the medal table, the best closing ceremony, the most underrated event, or which new sport should be killed by 2032, and the chart fills in seconds.",
+    "sections": [
+      {
+        "h": "The Games shifted at Paris 2024",
+        "body": "Paris 2024 was a turning point. The opening ceremony skipped the stadium entirely and floated 10,500 athletes down the Seine while it rained, which was either visionary or chaotic depending on your mood. The medal table ended with the US and China tied at 40 golds each, the first time the top two have been level since the boycott era. Leon Marchand won four individual swimming golds for France on home soil. Simone Biles came back to win three more golds and finally close the Tokyo 2020 mental-health chapter with the cleanest narrative arc the Games have ever produced. Stephen Nedoroscik went viral as the American pommel-horse guy. Snoop Dogg carried the torch. The polls on whether Paris was the best modern Olympics will not settle, but the consensus is that the bar moved. LA 2028 has to follow it, plus introduce flag football and squash, plus survive an American election aftermath. Drop a moomz poll asking your friends which modern Summer Games was the best. Spoiler: it will be Sydney 2000, London 2012, or Paris 2024 in every single chart."
+      },
+      {
+        "h": "Sports the Olympics absolutely needs and sports it should kill",
+        "body": "Olympic polls split fast along the line of which sports actually deserve the stage. The classics, athletics, swimming, gymnastics, judo, rowing, are non-negotiable. The newer additions get more controversial. Skateboarding has become a genuine highlight thanks to the Tokyo and Paris finals. Surfing produced postcard-perfect footage in Tahiti. Sport climbing turned out to be the most-watchable obscure sport in the program. Breaking debuted in Paris, produced one viral moment for the wrong reasons, and now exits stage left for LA 2028. Modern pentathlon, with its bizarre horseback ride that has caused multiple animal-welfare scandals, is reformatting itself with obstacle racing. Race walking is on borrowed time. A moomz poll asking your group which sports they would add, keep or kill produces the most chaotic chart of the Games cycle. The answers reveal who actually watched at 4 a.m. versus who only opened the closing ceremony."
+      },
+      {
+        "h": "The GOATs the Olympics built",
+        "body": "The Olympics produces a different category of GOAT than club sport. Michael Phelps, with 23 golds, owns the entire medal-table conversation alone. Larisa Latynina, the Soviet gymnast with 18 medals across three Games, was the standard before him. Usain Bolt, with eight golds across three Games before getting one taken back for relay doping, owns the cultural memory of the 100 meters. Simone Biles, with 11 medals and the most decorated gymnast in world championship history, owns the post-2016 conversation. Carl Lewis, Mark Spitz, Allyson Felix, Katie Ledecky, Eliud Kipchoge, Marit Bjorgen for the Winter side: the Olympic GOAT list is so deep that polls just become exercises in personal taste. moomz lets you put the question to your group fast: pick five athletes, who is the single greatest Olympian of all time, watch the chart. The split between Phelps fans and Bolt fans alone is enough to start a respectable argument."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the ancient Olympics actually start?",
+        "a": "The first recorded ancient Olympic Games took place in 776 BC at Olympia, a sanctuary in the western Peloponnese of Greece. The Games were held every four years for nearly 12 centuries until 393 AD when the Roman emperor Theodosius banned them as a pagan festival. Original events included foot races, wrestling, chariot racing, the pentathlon and the pankration. The modern Olympics were revived in Athens in 1896 by the French baron Pierre de Coubertin."
+      },
+      {
+        "q": "Why are the Olympics held every four years?",
+        "a": "The four-year cycle comes straight from the ancient Greek Games, which used the Olympiad as a unit of time measurement. The modern movement kept it both for tradition and to give organizing cities enough time to build infrastructure. Since 1994 the Summer and Winter Games have been staggered by two years, so an Olympic event happens every two years overall. The Youth Olympics, founded in 2010, runs on its own four-year cycle."
+      },
+      {
+        "q": "Which country has won the most Olympic medals ever?",
+        "a": "The United States leads the all-time medal table by a wide margin, with over 2,600 Olympic medals across Summer and Winter Games, including more than 1,000 golds. The Soviet Union is second on the historic list despite ceasing to exist in 1991. Germany, Great Britain, France, China and Italy round out the top tier. On a per-capita basis small nations like Norway, Hungary and Jamaica punch enormously above their weight, which is its own polling debate."
+      },
+      {
+        "q": "Are the Olympics still worth watching in 2028?",
+        "a": "Polling on moomz says yes, overwhelmingly. The Games remain the only place where you can watch ten-year careers settle in 90 seconds, where countries with no other global stage become temporarily famous, and where sports you have never seen produce your favorite athlete of the year. LA 2028 adds flag football, lacrosse, squash, and the return of baseball-softball. Whether the host city handles it gracefully or chaotically is itself a great moomz poll question."
+      }
+    ],
+    "related": ["football", "soccer", "tennis", "basketball", "nba", "formula1", "ufc", "premier-league"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ronaldo",
+    "locale": "en",
+    "keyword": "Cristiano Ronaldo",
+    "matchPatterns": ["ronaldo", "cristiano", "cr7", "siu", "al nassr", "portugal", "madeira", "manchester united"],
+    "topic": "sport",
+    "title": "Cristiano Ronaldo Polls: GOAT Debate, Goals and Siuuu Vibe Checks",
+    "description": "Vote on Cristiano Ronaldo: GOAT or not, best era, Saudi move take, top moments. Fast polls, live results, the CR7 group-chat decider.",
+    "emoji": "🐐",
+    "intro": "Cristiano Ronaldo dos Santos Aveiro, born February 5, 1985 in Funchal on the Portuguese island of Madeira, is statistically the most-scored player in the history of organized football and the most-followed human being on Instagram. He has scored more than 850 senior career goals across Sporting CP, Manchester United, Real Madrid, Juventus, Manchester United again, and Al Nassr, plus more than 130 for Portugal, which itself is the all-time international record. He has won five Champions League titles, seven domestic league titles across four countries, the Euro 2016 with Portugal, and five Ballon d'Or trophies. He has also turned a single goal celebration, the airborne Siu, into a global meme, a multi-billion-dollar personal brand, a CR7 fashion line, and a YouTube channel that crossed 100 million subscribers in days. Polling on Ronaldo is unavoidable because nothing about him is moderate: the work ethic, the physique, the trophy count, the Saudi Arabia move at 38, the post-press-conference Coca-Cola bottle incident, the GOAT debate against Messi. On moomz the polls split fast and loud. Was leaving Madrid the moment his peak ended? Was the Saudi move a cash grab or a genuine project? Should he have scored at the 2026 World Cup? Drop a poll, the bar chart fills, your group chat finally settles whether they are CR7 die-hards, CR7 critics, or just here for the Siu.",
+    "sections": [
+      {
+        "h": "The numbers that won't let you ignore him",
+        "body": "Ronaldo's career numbers read like a typo. 850-plus career goals across senior football. 130-plus international goals for Portugal, the highest ever by any male player. Five Champions League titles, four of them with Real Madrid in five years, the most by any player in the modern era. Five Ballons d'Or, tied with Michel Platini and Johan Cruyff before Messi pulled ahead. The first player to score in five different World Cups. The first player to win league titles in England, Spain, Italy and Saudi Arabia. More than 1,200 senior matches played without major injury, which for a striker over 20 years is a borderline medical miracle. The polls on whether longevity counts more than peak dominance always swing wide. Fans of peak Messi say Messi's 2009-2012 stretch is the highest level any player has ever reached. Fans of peak Ronaldo say his 2013-2016 Madrid run, where he averaged over a goal per game and won three Champions Leagues in a row, is the real apex. Drop the moomz poll and watch the chart split exactly along the lines of who is in your group chat."
+      },
+      {
+        "h": "The Saudi move, the brand, the Siu",
+        "body": "Ronaldo signed with Al Nassr in December 2022 for a reported 200 million dollars a year, the biggest single contract in football history, and instantly turned the Saudi Pro League from a backwater into a transfer-window force. The polling on this move is brutal and ongoing. Critics say it was a cash grab that ended his European relevance. Supporters say it was a calculated project that brought the league global TV deals, attracted Benzema, Neymar, Mane and Mahrez, and gave Ronaldo a path to break the 1,000-goal mark on his terms. Beyond the football, the CR7 brand became its own industry: hotels, gyms, fragrance, fashion, the YouTube channel that hit 100 million subs faster than any other in history, and the Siu celebration that became an emoji, a TikTok trend, and a stadium chant. moomz polls on whether the Saudi move was the right call usually split 60-40 in favor of the critics, but the chart shifts every time Al Nassr wins a knockout match or Ronaldo scores his Nth absurd header."
+      },
+      {
+        "h": "The Messi debate and where it stands now",
+        "body": "Ronaldo versus Messi is the most polled rivalry in sports history. After the 2022 World Cup, when Messi finally lifted the one trophy his career was missing, most analyst lists moved Messi to number one all-time. Ronaldo fans counter with the international scoring record, the longevity, the five Champions Leagues, the cross-league dominance, the work ethic that Messi himself has publicly praised. Polls on which player you would actually start a team with in 2025 still split wildly because Ronaldo's late-30s output remains absurd. Polls on which player has the better all-time legacy increasingly tilt to Messi. Polls on which player has the better off-pitch brand tilt to Ronaldo. Polls on which player you would rather watch in their prime, that one is a coin flip and a personality test. moomz turns the whole thing into a 30-second chart. The fight is not the answer, the fight is the point."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When and where was Cristiano Ronaldo born?",
+        "a": "Cristiano Ronaldo was born on February 5, 1985 in Funchal, the capital of Madeira, a Portuguese island in the Atlantic Ocean. He grew up in a working-class family, the fourth child, and was named Ronaldo after the actor Ronald Reagan, his father's favorite. He joined Sporting CP's youth academy in Lisbon at 12 after his family scraped together the move from Madeira, and broke into the senior team at 17 before Manchester United bought him in 2003."
+      },
+      {
+        "q": "How many career goals has Ronaldo scored?",
+        "a": "Cristiano Ronaldo has scored more than 850 senior career goals across club and country, the highest documented total in organized football history. The exact number ticks up nearly every week thanks to his Al Nassr output. Of those, more than 130 came for the Portugal national team, which is the all-time international record for a male player. He is the only player in history to score in five different FIFA World Cups."
+      },
+      {
+        "q": "Why did Ronaldo leave Europe for Saudi Arabia?",
+        "a": "Ronaldo signed with Al Nassr in December 2022 after a public falling-out with Manchester United during his second spell there. The deal was reported at around 200 million dollars per year, the biggest contract in football history. He framed the move as a chance to grow football in Asia and the Middle East, and his arrival did directly precede the wave of Benzema, Neymar, Mane, Mahrez, and others moving to the Saudi Pro League the following summer."
+      },
+      {
+        "q": "Is Ronaldo or Messi the GOAT according to moomz polls?",
+        "a": "moomz polls split wildly depending on the region of the group chat. In Portuguese, Saudi and Manchester-United-leaning chats Ronaldo wins. In Argentine, Spanish and Barcelona-leaning chats Messi wins. In neutral global polls Messi tends to lead by 5 to 15 points since the 2022 World Cup, but Ronaldo's brand pulls back significant chart share when the question shifts to off-pitch impact or longevity. It is the most evenly split GOAT debate in sports."
+      }
+    ],
+    "related": ["messi", "soccer", "champions-league", "premier-league", "football", "olympics", "nba", "tennis"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "messi",
+    "locale": "en",
+    "keyword": "Lionel Messi",
+    "matchPatterns": ["messi", "lionel", "leo", "argentina", "barcelona", "psg", "inter miami", "ballon dor"],
+    "topic": "sport",
+    "title": "Lionel Messi Polls: GOAT Take, Ballon d'Or Count and World Cup Vibe",
+    "description": "Vote on Messi: GOAT or not, Barca era vs Argentina era, Inter Miami era, best goal ever. Fast polls, live results, Rosario-tested.",
+    "emoji": "🐐",
+    "intro": "Lionel Andres Messi was born on June 24, 1987 in Rosario, Argentina. He moved to Barcelona at 13 because the club agreed to pay for the growth-hormone treatment his family could not afford, signed his first contract on a napkin in a Barcelona restaurant, and then proceeded to spend the next two decades being the most decorated football player in history. He has won eight Ballons d'Or, the most ever. He scored 672 goals for Barcelona, the most by any player for any club in the history of football. He won the 2022 FIFA World Cup with Argentina in Qatar, the trophy that closed the only gap on his resume. He won the Copa America in 2021 and again in 2024. He won Olympic gold in 2008. He won the Champions League four times. He has now moved to Inter Miami in MLS at 36 and turned a struggling expansion club into the biggest non-NFL sports story in America. The polling on Messi is unavoidable because he is, at this point, the statistical consensus GOAT of football, and yet the debate refuses to die because Ronaldo, Pele and Maradona stans keep showing up. On moomz the chart fills fast: was the 2022 final the greatest match ever played, was the Barcelona 2009-2012 team the greatest club side ever, is the Ballon d'Or even still a meaningful trophy, is the MLS move a victory lap or a real second act.",
+    "sections": [
+      {
+        "h": "Eight Ballons d'Or and the trophy that closed the case",
+        "body": "Messi has won the Ballon d'Or eight times, in 2009, 2010, 2011, 2012, 2015, 2019, 2021 and 2023. Nobody else has more than five. The 2023 award came after the 2022 World Cup, the trophy his entire career had been measured against, and the one his critics used as proof he was not yet on the Pele or Maradona tier of all-time Argentine icon. The 2022 final in Lusail Stadium, a 3-3 draw with France in regulation and extra time that Argentina won on penalties, is widely considered the greatest final ever played. Messi scored twice, dragged his country through every knockout round, and lifted the trophy with a smile that closed an entire generation of arguments. moomz polls on the GOAT debate since that night have shifted decisively in Messi's direction. Polls on the single greatest moment in modern football pick that final over Maradona's 1986 hand-of-god, over Zidane's 1998 headers, over Iniesta's 2010 winner, over every other contender. The chart does not lie."
+      },
+      {
+        "h": "Barcelona, the dynasty that bent the sport",
+        "body": "Pep Guardiola's Barcelona of 2008-2012 is, by polling consensus, the greatest club side in football history. Six trophies in 2009. Two more Champions Leagues. A tiki-taka possession style that every coach since has tried and failed to copy. Messi at the center, often as a false nine, scored absurd quantities at absurd rates. His 91 goals in calendar year 2012 is a record that will probably never be broken. His five-goal Champions League knockout game versus Bayer Leverkusen in 2012 will probably also never be broken. The polls on whether prime Messi from 2009 to 2012 is the highest peak any player has ever reached overwhelmingly say yes. Even Ronaldo fans concede the peak, while arguing Ronaldo's longevity, peak height and cross-league trophy haul matter more. The Messi-Barcelona era ended in 2021 with the financial collapse of the club and a tearful press conference. The polling on whether Barcelona ever recovers from losing him in that exact way is still ongoing and the chart says no."
+      },
+      {
+        "h": "Inter Miami and the American second act",
+        "body": "Messi signed with Inter Miami in July 2023, turning a struggling MLS expansion side into the biggest non-NFL story in American sports. His debut, a free-kick winner in extra time of his first match, broke the Apple TV MLS Season Pass platform for the night. The 2024 Leagues Cup win was Miami's first trophy. The 2024 Supporters' Shield was the franchise's first regular-season title. The 2025 season has been a series of polls on whether the league is good enough to keep him healthy, whether Miami can win MLS Cup, whether the move has actually grown soccer in the US the way Beckham's 2007 LA Galaxy stint failed to. moomz polls on the Messi-in-America experiment split sharply along generational lines: older European fans see a sad victory lap, younger American fans see a real second peak and a sport that finally has a face. Both polls are valid, both charts are right, both are funny when shared with your friends in the group chat moments before the match starts."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When and where was Lionel Messi born?",
+        "a": "Lionel Andres Messi was born on June 24, 1987 in Rosario, Argentina, a port city in Santa Fe province. He started playing for the local club Newell's Old Boys at age 6. At 11 he was diagnosed with a growth-hormone deficiency that his family could not afford to treat. Barcelona offered to pay for it if he moved to Spain, his father signed the famous napkin contract in a Barcelona restaurant in late 2000, and Messi joined La Masia at 13."
+      },
+      {
+        "q": "How many Ballons d'Or does Messi have?",
+        "a": "Lionel Messi has won the Ballon d'Or eight times, the most of any player in history. His wins are in 2009, 2010, 2011, 2012, 2015, 2019, 2021 and 2023. Cristiano Ronaldo has five. Michel Platini and Johan Cruyff have three each. Marco van Basten has three. The 2023 award, given after Argentina's 2022 World Cup victory in Qatar, is widely considered the moment the GOAT debate tipped decisively in Messi's favor in mainstream consensus."
+      },
+      {
+        "q": "Why did Messi leave Barcelona?",
+        "a": "Messi left Barcelona in August 2021 because the club could no longer afford his salary under La Liga's financial fair play rules. The club's debt had ballooned past 1.3 billion euros, partly from years of overspending and partly from the Covid-era revenue collapse. Both Messi and the club president Joan Laporta said publicly they wanted a renewal but the math was impossible. He signed with Paris Saint-Germain on a two-year deal, won two Ligue 1 titles, then moved to Inter Miami in 2023."
+      },
+      {
+        "q": "Is the 2022 World Cup final really the greatest match ever?",
+        "a": "moomz polls overwhelmingly say yes. The match ended 3-3 after extra time, with Messi scoring twice and Kylian Mbappe scoring a hat-trick, before Argentina won on penalties. It was the highest-scoring World Cup final since 1966. It contained possibly the most dramatic momentum swings in any final ever played. Messi finally lifted the trophy his career was missing. Even neutral observers and English-language pundits, usually allergic to praising South American football, called it the best final ever played. The chart settled this one cleanly."
+      }
+    ],
+    "related": ["ronaldo", "soccer", "champions-league", "premier-league", "football", "olympics", "tennis", "nba"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "nba",
+    "locale": "en",
+    "keyword": "NBA",
+    "matchPatterns": ["nba", "basketball", "lebron", "curry", "jokic", "playoffs", "finals", "all-star", "draft"],
+    "topic": "sport",
+    "title": "NBA Polls: MVP Picks, Finals Predictions and League-Pass Vibe Checks",
+    "description": "Vote on the NBA: MVP race, Finals predictions, GOAT debates, draft hot takes. Fast polls, live results, made for the League Pass crew.",
+    "emoji": "🏀",
+    "intro": "The NBA is the most globally televised pro sports league in the world below soccer, the most online of any traditional league, and the only one where the offseason produces more polls than the regular season. Founded as the Basketball Association of America on June 6, 1946 in New York City, it merged with the rival NBL in 1949 and slowly built itself into a 30-team, 82-game, 18-billion-dollar-a-year operation. The current era is the most internationally dominant in league history. Six of the last seven MVPs have gone to non-American players: Giannis Antetokounmpo twice, Nikola Jokic three times, Joel Embiid once, with Shai Gilgeous-Alexander joining the conversation. The Western Conference is the deepest it has ever been, with Denver, Oklahoma City, Minnesota, the Lakers, the Clippers, Dallas and the Warriors all able to take any series. The Eastern Conference is finally interesting again with Boston defending, the Knicks rising, Philadelphia trying to keep Embiid healthy, and the Cavs and Magic emerging. On moomz the polls fly every week. Who is the MVP. Who wins the Finals. Is the in-season tournament actually good. Should the load-management rule stay. Is Wembanyama the next face of the league. Drop the question, the chart fills in seconds, your group chat finally settles whether anyone is actually watching the games or just the highlights.",
+    "sections": [
+      {
+        "h": "The current MVP race is the deepest ever",
+        "body": "The 2024-25 NBA MVP race had at least seven legitimate candidates by the All-Star break, which is unprecedented depth. Nikola Jokic stayed in the conversation because he is Nikola Jokic. Shai Gilgeous-Alexander led the Thunder to the best record in the league with the most polished mid-range scoring season since prime Kobe. Giannis Antetokounmpo kept averaging 30-and-12 like it was easy. Luka Doncic carried Dallas to the conference finals despite the Anthony Davis trade chaos. Jayson Tatum led the defending champion Celtics. Anthony Edwards turned into a genuine MVP-level scorer. Victor Wembanyama, in his second season, broke defensive metrics and started forcing teams to redesign offenses around avoiding him. moomz polls on the MVP usually split four ways for the top candidates and the bar chart looks like a fence. That is the league right now: a top tier so deep that nobody can call it cleanly. Drop a poll in your fantasy basketball group chat and watch the votes settle exactly along the lines of who streamed the games versus who just read the box scores."
+      },
+      {
+        "h": "Finals predictions, conference imbalance, and the new playoff format",
+        "body": "The NBA Finals have produced a different champion every year for seven straight seasons, the longest stretch of new champions since the 1970s. The West has won most of the recent Finals despite the East playing a softer regular-season schedule. The play-in tournament, introduced in 2020, has become a legitimate event in its own right, with bubble teams playing higher-stakes basketball than the eighth seed normally would. The in-season tournament, now called the Emirates NBA Cup, gave the league its first new mid-season trophy ever and pulled real ratings in its second year. Polls on the new format split: traditionalists say it cheapens the regular season, younger fans say it finally gave November basketball stakes. moomz polls on Finals predictions, who wins MVP, which seed wins it all, are the most-shared poll category of the playoff window. Group chats turn into mini-betting markets and the chart is the closest thing to a fair odds market your friends will ever produce."
+      },
+      {
+        "h": "The future: Wemby, the draft, and the global league",
+        "body": "Victor Wembanyama, the 7-foot-4 French rookie of the year who turned defensive rotation back into an art form, has already changed the polling landscape. His ceiling, if healthy, is the most-polled question in basketball: the next Hakeem, the next KG, or something the league has never seen. Behind him the next draft classes are stacked with international talent, Cooper Flagg as the rare American number-one consensus, and the G League Ignite experiment shutting down to clear the way for college NIL deals. The league is also playing more international games than ever, with regular-season matches in Paris, Mexico City, Abu Dhabi and a stated goal of a European NBA expansion by the 2030s. moomz polls on the future of the league split heavily by age: older fans want fewer games, younger fans want more events, everyone wants better health management. Drop a poll on what one rule change you would make and the chart turns into a wishlist that the commissioner should probably read."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When and where was the NBA founded?",
+        "a": "The league we now call the NBA was founded on June 6, 1946 in New York City as the Basketball Association of America (BAA). It merged with the rival National Basketball League (NBL) on August 3, 1949 to form the National Basketball Association. The first BAA champion was the Philadelphia Warriors in 1947. The league grew slowly through the 1950s and 60s, exploded culturally in the 1980s with Magic and Bird, and went global in the 1990s with Michael Jordan and the Dream Team."
+      },
+      {
+        "q": "Who has won the most NBA MVPs ever?",
+        "a": "Kareem Abdul-Jabbar holds the all-time MVP record with six awards across his Bucks and Lakers years. Bill Russell has five with the Celtics. Michael Jordan and LeBron James are tied at four. Wilt Chamberlain has four. Among active players Nikola Jokic has three, putting him on a pace to chase Kareem if he stays healthy. The MVP is voted by a panel of sportswriters and broadcasters who increasingly factor in availability, which has made the modern award harder to win than ever."
+      },
+      {
+        "q": "Why are international players dominating the NBA MVP race?",
+        "a": "Six of the last seven MVPs have gone to non-American players. The reasons are layered: international development systems like Spain's ACB, Slovenia's youth pipeline, Greece's youth pipeline, and France's INSEP produce technical fundamentals that American AAU systems sometimes skip. The international stars also play year-round for club and country, so by the time they reach the NBA at 19 or 20 they have a more polished base. The American star pipeline is still strong but it has finally been matched."
+      },
+      {
+        "q": "Are NBA polls on moomz actually fun for casual fans?",
+        "a": "Yes, that is exactly the format moomz is built for. You do not need to know advanced stats to vote in a poll on who wins the next Finals, which jersey is the cleanest, or whether load management should be banned. Drop the link in your group chat, anyone can vote without an account, the bar chart fills live, and the conversation that follows is the same conversation NBA Twitter is having for free. Bring popcorn."
+      }
+    ],
+    "related": ["basketball", "football", "soccer", "tennis", "olympics", "ufc", "formula1", "messi"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "premier-league",
+    "locale": "en",
+    "keyword": "Premier League",
+    "matchPatterns": ["premier league", "epl", "manchester", "liverpool", "arsenal", "chelsea", "tottenham", "man city", "manchester city"],
+    "topic": "sport",
+    "title": "Premier League Polls: Title Race, Top 4 Picks and Match-Day Vibe Checks",
+    "description": "Vote on the Premier League: title race, top 4, sackings, GOAT manager. Fast polls, live results, perfect for the match-day group chat.",
+    "emoji": "🏟️",
+    "intro": "The English Premier League, founded on February 20, 1992 when the 22 top-flight English clubs broke away from the Football League to negotiate their own TV rights, is the most-watched domestic football league in the world. Its broadcasts reach more than 200 countries, its global TV deal alone is worth over 10 billion pounds across a three-year cycle, and a single mid-season Saturday produces more polling chatter than most leagues' entire seasons. The league has produced one truly modern dynasty in Manchester City under Pep Guardiola, four Premier League titles in a row from 2020-21 to 2023-24, with the historical context of Manchester United's Sir Alex Ferguson era still defining the long-term standard. Liverpool, Arsenal, Chelsea, Tottenham, and the new wave of Newcastle, Aston Villa and Brighton round out the top tier. The Big Six idea has loosened. The relegation battle is increasingly polled and increasingly cruel. The transfer window dominates entire months. On moomz the chart fills every match-day weekend. Who lifts the title. Who finishes top four. Which manager gets sacked first. Whether VAR has ruined the league. Whether the financial fair play rules will actually punish anyone. Drop a poll, the bar chart resolves the group-chat argument, and the league rolls on.",
+    "sections": [
+      {
+        "h": "The title race has finally opened up again",
+        "body": "Manchester City won four Premier League titles in a row from 2020-21 to 2023-24, the only club ever to do it, under Pep Guardiola. The 2024-25 season cracked open the floor when City endured the worst run of Pep's career mid-season and Arsenal, Liverpool and the new-money Newcastle all entered the title conversation in a way they had not since the pre-City era. Arsenal under Mikel Arteta has rebuilt into a perennial top-two side without yet finding the final mental edge to lift the trophy. Liverpool under Arne Slot, post-Klopp, has stayed surprisingly close to the level Klopp left behind. Chelsea is finally stabilizing under their reshuffled ownership group after burning through five managers in two years. Tottenham continues to be Tottenham. moomz polls on the title race in any given match week split four or five ways now, which is the healthiest the league has looked in a decade. Drop a poll on who lifts it this May, watch the chart shift after every big match, post the screenshot in the group chat to settle the argument."
+      },
+      {
+        "h": "Managers, sackings and the ruthless calendar",
+        "body": "The Premier League sacks managers faster than any league on earth. The average tenure for a manager in the league is now under 18 months. Roberto De Zerbi at Brighton became a poll favorite for the next big job in any given week. Ange Postecoglou at Tottenham went from cult hero to under-fire in a single Champions League cycle. Jurgen Klopp's farewell to Liverpool in 2024 was the most polled goodbye in the league's history, and the Arne Slot succession is being polled every match. The next-manager-sacked market on moomz is borderline brutal but it is also the most-shared poll category in the English football corner of the app. Pair that with the GOAT-manager debate, where Sir Alex Ferguson's 13 league titles in 26 years at Manchester United is still the consensus number one, Guardiola's six titles in eight years at City is the modern number two, Klopp's transformative Liverpool spell is the cult number three, and Mourinho's two titles plus four other top-tier trophies are the controversial number four. The chart is alive every match week."
+      },
+      {
+        "h": "VAR, money, and the polls that won't stop",
+        "body": "VAR (video assistant referee) was introduced to the Premier League in 2019-20 and has been the most-polled topic in the league ever since. Fans hate it, players hate it, managers hate it on camera and use it off camera. The polls on whether VAR has ruined the spontaneity of football typically run 65-35 against VAR among English fans, closer to 50-50 among neutral fans, and surprisingly pro-VAR among data-driven analysts. The other dominant polling topic is money: Newcastle's Saudi takeover, the City financial-fair-play charges that still have not produced a verdict, the Chelsea ownership-group spending spree, the Manchester United Glazer-to-Ratcliffe transition, the Everton points deductions, the Forest points deduction. Every Tuesday produces a new financial controversy and a new moomz poll on whether the league has lost its soul. The chart says yes and no in equal measure and the league sells more shirts globally either way."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was the Premier League founded?",
+        "a": "The Premier League was founded on February 20, 1992 when the 22 clubs of the old First Division resigned from the Football League to form a breakaway competition that could negotiate its own TV rights. The first season was 1992-93, broadcast in the UK by Sky Sports under the original deal worth 304 million pounds over five years. The current TV deal is worth more than 10 billion pounds globally per three-year cycle, making it the most lucrative domestic league in any sport."
+      },
+      {
+        "q": "Who has won the most Premier League titles?",
+        "a": "Manchester United leads the all-time count with 13 Premier League titles, all but the most recent few under Sir Alex Ferguson. Manchester City is second with eight, all won since the 2008 Abu Dhabi takeover, six of them under Pep Guardiola including the unprecedented four-in-a-row from 2020-21 to 2023-24. Chelsea has five, Arsenal three, and Liverpool, Leicester, and Blackburn have one each. The Sir Alex Ferguson era at United from 1992 to 2013 produced the modern dynasty standard."
+      },
+      {
+        "q": "Why is the Premier League so much bigger than other leagues globally?",
+        "a": "Timing, English language reach, and TV-first strategy. The league launched in 1992 just as global satellite TV was scaling up. It packaged matches into clean Saturday-Sunday slots, produced English-language broadcast feeds that worked from Asia to Africa to the Americas, and reinvested its TV money into player wages that pulled global stars from every league. The result is the most internationally televised domestic competition in any team sport, with mid-table clubs more globally famous than top clubs in most other leagues."
+      },
+      {
+        "q": "Can I run a Premier League poll on moomz mid-match?",
+        "a": "Yes, moomz is built for fast polling. Drop a question like will Arsenal score in the second half, who wins the Manchester derby, will VAR overturn a goal this match, and your group can vote live while the game is happening. The bar chart fills in real time, the link is shareable in WhatsApp, Discord and group chats, and the polls auto-close when you say so. Perfect for the match-day crew."
+      }
+    ],
+    "related": ["soccer", "champions-league", "ronaldo", "messi", "football", "olympics", "tennis", "nba"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "champions-league",
+    "locale": "en",
+    "keyword": "Champions League",
+    "matchPatterns": ["champions league", "ucl", "uefa", "european cup", "knockout", "final"],
+    "topic": "sport",
+    "title": "Champions League Polls: Knockout Picks, Final Vibes and UCL Group Chats",
+    "description": "Vote on the UEFA Champions League: knockout picks, final predictions, GOAT winners, anthem opinions. Fast polls, live results, Tuesday-Wednesday energy.",
+    "emoji": "⭐",
+    "intro": "The UEFA Champions League is European club football's biggest annual prize and the most prestigious club competition on earth. It started life in 1955 as the European Cup, a straight knockout invitational designed by the French sports paper L'Equipe, won by Real Madrid in five straight finals from 1956 to 1960, and turned in 1992 into the modern Champions League format with a group stage, mid-season knockouts, and a stand-alone final. The 2024-25 season launched a new league-phase format with 36 clubs in a single Swiss-style table, replacing the 32-team group stage, which produced its own immediate polling debate about whether the new format is better or just longer. The anthem, composed by Tony Britten in 1992 and based loosely on Handel's Zadok the Priest, is one of the most recognizable pieces of music in modern sports. Real Madrid leads all clubs with 15 European titles. The polls fly every knockout week. Who wins it. Who chokes in the round of 16. Whether the new format ruins the magic. Whether the Super League threat is finally dead. Whether the anthem should be played in extra time too. On moomz the chart fills in seconds and your Tuesday-night group chat finally settles whether you are watching the actual football or just the storylines.",
+    "sections": [
+      {
+        "h": "Real Madrid and the polls that won't die",
+        "body": "Real Madrid has won the European Cup or Champions League 15 times, more than double any other club. Five in a row from 1956 to 1960. Four in five years from 1998 to 2002. Five in seven years from 2014 to 2022, including three in a row from 2016 to 2018 under Zinedine Zidane, which is the only modern back-to-back-to-back run in the competition. The 2022 quarterfinal comeback against PSG, the 2022 semifinal comeback against Manchester City, and the 2022 final win over Liverpool produced what most fans now consider the most dramatic single Champions League run in history. Then they did it again in 2024 with the Bellingham-era squad. moomz polls on which club is the true GOAT of the European Cup are barely polls at this point, the chart is just a Real Madrid landslide. The real polls are on the moments. The Sergio Ramos 2014 header. The Iniesta 2009 ghost goal. The Liverpool 2005 Istanbul comeback from 3-0 down. The Manchester United 1999 Camp Nou injury time. Pick five moments, drop a moomz poll, watch the group chat fight."
+      },
+      {
+        "h": "The new league phase format and whether it actually works",
+        "body": "The 2024-25 Champions League launched a new format: 36 clubs in a single league-phase table, each playing 8 different opponents (4 home, 4 away) instead of the old 6-game group stage. Top 8 go straight to the round of 16. Teams 9-24 play a knockout playoff. The format is more games, more televised matches, more revenue, more chaos in the standings until the final week. The early polling was harshly divided. Traditionalists hated the loss of the dramatic six-game group of death stakes. New-format fans loved that mid-table clubs suddenly had skin in the game all the way through January. Polls now sit closer to 60-40 in favor of the new format among fans under 30, closer to 50-50 in older demographics, and roughly 70-30 against the format among neutral journalists. moomz polls on whether the format change made the competition better are the most-asked competition question of the cycle. Drop one in your group chat the night before a big league-phase match and the chart will tell you who actually watched."
+      },
+      {
+        "h": "The anthem, the magic, the moments money cannot buy",
+        "body": "Champions League nights are a different category of football experience. The anthem hits, the corners of the badge banners drop, the floodlights warm, and even fans whose clubs are not playing watch. The competition has produced more singular iconic moments per minute than any other club tournament in football history. The 1999 Manchester United injury-time comeback at Camp Nou. The 2005 Liverpool comeback from 3-0 down at half time in Istanbul. The 2014 Sergio Ramos 93rd-minute equalizer. The 2017 Barcelona 6-1 comeback over PSG. The 2019 Liverpool 4-0 over Barcelona at Anfield. The 2019 Tottenham comeback at Amsterdam. The 2022 Real Madrid four-knockout-comeback run. The 2024 Bellingham debut season. moomz polls on the single greatest Champions League night ever cannot settle this because the answers depend entirely on the age of the voter. The chart is more a memory test than a ranking. Drop the poll anyway, share the screenshot, fight about it on the next match day."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the Champions League actually start?",
+        "a": "The competition started in 1955 as the European Champion Clubs' Cup, usually called the European Cup. It was designed by the French sports paper L'Equipe, organized by UEFA, and won by Real Madrid in each of its first five editions. In 1992 it was rebranded as the UEFA Champions League with the introduction of a group stage. In 2024-25 it changed again to a single league-phase format with 36 clubs playing eight matches each before the knockout rounds."
+      },
+      {
+        "q": "Which club has won the most Champions League titles?",
+        "a": "Real Madrid leads by a huge margin with 15 European Cup or Champions League titles, including five in a row from 1956 to 1960 and three in a row from 2016 to 2018 under Zidane. AC Milan is second with seven. Liverpool and Bayern Munich are tied at six. Barcelona has five. Ajax has four. The combined number of titles for the top three clubs is more than every English club ever winning combined, which is its own polling debate about competitive balance."
+      },
+      {
+        "q": "Why is the Champions League anthem so famous?",
+        "a": "The anthem was composed by Tony Britten in 1992 specifically for the rebranded Champions League and is loosely based on George Frideric Handel's 1727 coronation anthem Zadok the Priest. It is performed by the Royal Philharmonic Orchestra and the Academy of St Martin in the Fields choir, with lyrics in English, French and German repeating the words the champions, les meilleures equipes, die Meister. It plays before every match and at the trophy lift. Most fans consider it the single most recognizable piece of music in club sports."
+      },
+      {
+        "q": "Will the European Super League ever actually happen?",
+        "a": "The 2021 Super League launch lasted 48 hours before fan and government backlash collapsed it. The 2024 European Court of Justice ruling on competition law theoretically opened a path for a new format, but the major English Premier League clubs have publicly committed to the existing UEFA structure, which removes most of the commercial leverage. Polls on whether a Super League actually happens by 2030 currently sit around 25-30 percent yes among fans. The chart trend has been moving down, not up."
+      }
+    ],
+    "related": ["soccer", "premier-league", "ronaldo", "messi", "football", "olympics", "tennis", "nba"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ufc",
+    "locale": "en",
+    "keyword": "UFC",
+    "matchPatterns": ["ufc", "mma", "mcgregor", "khabib", "jon jones", "fight night", "octagon", "dana white"],
+    "topic": "sport",
+    "title": "UFC Polls: GOAT Fighter, Best Knockouts and Octagon Vibe Checks",
+    "description": "Vote on the UFC: GOAT fighter, best knockout, McGregor vs Khabib, pound-for-pound list. Fast polls, live results, perfect for fight-night chats.",
+    "emoji": "🥋",
+    "intro": "The UFC, the world's biggest mixed martial arts promotion, was founded on November 12, 1993 at the McNichols Sports Arena in Denver, Colorado as a one-night, no-weight-class, almost-no-rules tournament built to answer a single question: which martial art actually wins a real fight. Royce Gracie won that first event with Brazilian jiu-jitsu, the audience was small, the production was rough, and the company nearly went bankrupt multiple times in the 1990s before being bought by the Fertitta brothers in 2001 for two million dollars. They installed Dana White as president, lobbied to legalize the sport in every US state, launched The Ultimate Fighter reality show in 2005, and turned the UFC into a 12-billion-dollar combat-sports empire by 2024. The athletes are now serious mixed martial artists with NCAA wrestling, Olympic judo, world-class boxing and submission grappling backgrounds. The polls are brutal because every fight ends with someone unconscious or tapping out, which means every fan has a hot take about every result. On moomz the chart fills every fight week. GOAT debates, McGregor versus Khabib, Jon Jones versus history, Islam Makhachev versus the next era, the best knockout ever, the worst decision ever. Drop a poll the morning of the main card and watch your group chat finally settle who is just watching highlights and who actually paid for the PPV.",
+    "sections": [
+      {
+        "h": "The GOAT debate, brutal and unsettled",
+        "body": "Jon Jones is the modern statistical GOAT by almost every metric: a record number of light-heavyweight title defenses, an undefeated record except for one disqualification loss for illegal elbows, and a successful move up to heavyweight where he won the title at 35. The asterisks on his career, multiple suspensions for banned substances, multiple legal issues outside the cage, are enough that polls on the true UFC GOAT often split. Khabib Nurmagomedov retired 29-0 with the lightweight title still around his waist, the only major champion to leave with an undefeated record. Anderson Silva ran a 16-fight win streak across seven years that defined the middleweight era. Georges St-Pierre returned from a four-year retirement to win a second weight class. Demetrious Johnson set the lower-weight standard. Amanda Nunes did it across two weight classes in the women's era. moomz polls on the GOAT splinter five or six ways. That is the fun. Drop the poll and watch the chart reveal who in your group chat has been watching since the Tito Ortiz era and who started during the McGregor pop."
+      },
+      {
+        "h": "McGregor, Khabib, and the era that built the brand",
+        "body": "Conor McGregor versus Khabib Nurmagomedov, fought on October 6, 2018 in Las Vegas, is the single most-polled UFC event of the modern era. Khabib won by fourth-round submission, then jumped the cage to fight McGregor's training partner, and turned the post-fight night into the most chaotic scene the sport has ever broadcast. The pre-fight build, with McGregor smashing the bus in Brooklyn, the post-fight interview where Dana White had to physically pull a microphone away, and the Khabib team unbeaten run that followed, defined the UFC's mainstream breakthrough. McGregor never recovered his peak. Khabib retired at 29-0 in 2020 after his father's death. The polls on whether McGregor could have won that fight in any timeline, whether Khabib was the better fighter or just the better matchup, whether the rivalry built the UFC or only briefly inflated it, all of them are still active. moomz polls on the single most important UFC fight ever currently put Khabib vs McGregor in first place, ahead of Hughes vs GSP, Silva vs Sonnen, and Jones vs Gustafsson. The chart says the moment was that big."
+      },
+      {
+        "h": "The current era, the next generation, the polling chaos",
+        "body": "The current UFC era has more depth than any in the company's history. Islam Makhachev defends the lightweight title against an absurd top ten. Alex Pereira moved up from middleweight to win light-heavyweight gold inside a year. Ilia Topuria knocked out Volkanovski at featherweight and now sits at the top of multiple pound-for-pound lists. Leon Edwards won welterweight gold with a final-minute head kick that became a meme. Sean O'Malley pulled the bantamweight title and turned it into a TikTok-era brand. Tom Aspinall is one Jones unification fight away from owning the heavyweight era. The women's side has Valentina Shevchenko, Zhang Weili, Alexa Grasso and Kayla Harrison all in title-fight rotation. moomz polls on the pound-for-pound rankings in any given month are the most active combat-sports polls on the app. The chart shifts every fight night. Drop a poll on who you think wins the next McGregor return, the next Jones unification, the next welterweight challenger, and your group chat suddenly has skin in the game without any actual gambling involved."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When and where was the first UFC event held?",
+        "a": "UFC 1 took place on November 12, 1993 at the McNichols Sports Arena in Denver, Colorado. It was a single-night, eight-fighter tournament designed to determine which martial art was most effective in real combat. There were almost no rules: no weight classes, no judges, no rounds, and no gloves. Royce Gracie won the tournament using Brazilian jiu-jitsu, defeating opponents who outweighed him by 40 to 80 pounds, and instantly made BJJ the most important grappling style in MMA history."
+      },
+      {
+        "q": "Who is the GOAT of MMA according to most rankings?",
+        "a": "Most modern rankings put Jon Jones first based on his light-heavyweight dominance and heavyweight title win, with Khabib Nurmagomedov a close second because of his undefeated 29-0 record. Georges St-Pierre, Anderson Silva, Demetrious Johnson and Amanda Nunes round out the consensus top six. Fan polls on moomz split sharply because Jones has multiple PED-related asterisks while Khabib retired clean but with a smaller sample of championship defenses. The debate is one of the most evenly split GOAT polls in combat sports."
+      },
+      {
+        "q": "Why did Khabib retire undefeated?",
+        "a": "Khabib Nurmagomedov retired at 29-0 in October 2020 after defending the lightweight title against Justin Gaethje at UFC 254. His father Abdulmanap, who was his lifelong coach, had died from Covid-19 complications a few months earlier, and Khabib had promised his mother he would stop fighting after one more match. He confirmed retirement immediately after the Gaethje submission win, was offered multiple eight-figure paydays to return, and refused. He is the only major UFC champion to leave undefeated."
+      },
+      {
+        "q": "Are UFC polls fair if my group is half casuals and half hardcores?",
+        "a": "On moomz the poll is exactly as fair as the room you share it with. A half-casual, half-hardcore split usually produces the most interesting chart because the casuals vote based on the recent main event while the hardcores vote based on a deeper sample. The post-poll group-chat argument is where the actual learning happens. Drop the poll, the chart speaks, and somebody is finally forced to admit they only watched the highlight reel."
+      }
+    ],
+    "related": ["football", "soccer", "basketball", "nba", "tennis", "olympics", "formula1", "ronaldo"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "formula1",
+    "locale": "en",
+    "keyword": "Formula 1",
+    "matchPatterns": ["formula 1", "formula1", "f1", "verstappen", "hamilton", "ferrari", "mercedes", "red bull", "grand prix"],
+    "topic": "sport",
+    "title": "Formula 1 Polls: Driver GOAT, Title Race and Grand-Prix Vibe Checks",
+    "description": "Vote on Formula 1: GOAT driver, championship picks, Hamilton vs Verstappen, best track. Fast polls, live results, perfect for the F1 fan group chat.",
+    "emoji": "🏎️",
+    "intro": "Formula 1 is the highest tier of single-seater open-wheel racing in the world. The first official F1 race took place on May 13, 1950 at Silverstone in the UK, won by Italian Giuseppe Farina in an Alfa Romeo. Seventy-five years later the sport spans 24 grands prix across five continents, 10 constructor teams, a Netflix show that quadrupled the American audience, a Las Vegas night race the FIA fast-tracked through Vegas traffic, and a global TV reach that finally matches the production values of the sport itself. The current era is defined by Max Verstappen's Red Bull dominance from 2021 to 2024, four straight drivers' championships, and the slow McLaren and Ferrari resurgence that finally gave the 2025 season a real fight. Behind that, the long arc of Lewis Hamilton's seven titles, his shock 2025 move to Ferrari, the ongoing Mercedes rebuild, the Audi-Sauber 2026 entry, the new Cadillac team, and the major engine rule reset for 2026 all turn every race weekend into a five-layer narrative. F1 polls thrive on this because the data is precise (lap times to the thousandth), the drama is huge (boardroom firings, helmet swaps, last-corner safety cars), and the fans are intensely opinionated. On moomz the chart fills the second qualifying ends. Who wins. Who podiums. Who gets the strategy wrong. Who is the all-time GOAT. Drop the poll, the bar chart resolves the argument, you keep watching the race instead of texting paragraph rants in the group chat.",
+    "sections": [
+      {
+        "h": "The GOAT debate after seven Hamiltons and four Verstappens",
+        "body": "The F1 GOAT debate has more layers than most sports because the car often outranks the driver. Lewis Hamilton has seven world championships, tied with Michael Schumacher, plus the all-time records for wins, pole positions, podiums, and laps led. Max Verstappen has four straight championships from 2021 to 2024, the fastest 100 wins ever, and a peak-dominance season in 2023 where he won 19 of 22 races. Schumacher's five-in-a-row from 2000 to 2004 with Ferrari is still the longest title streak. Juan Manuel Fangio's five titles in the 1950s came across four different teams. Ayrton Senna's three titles are the smallest sample but produced the most polled qualifying laps in history. Alain Prost's four are the smartest. Jim Clark's two are the most untouchable per-race-entered. moomz polls on the F1 GOAT split so cleanly along generational lines that the chart is essentially a birth-year heatmap. Older fans vote Senna or Schumacher. Mid-career fans vote Schumacher or Hamilton. Newer fans vote Hamilton or Verstappen. The chart is the conversation."
+      },
+      {
+        "h": "The current grid: Red Bull falling, McLaren rising, Ferrari shock",
+        "body": "The 2024-25 F1 season is the first in five years with a real four-way constructor fight. Red Bull's dominance cracked under the weight of internal politics, Adrian Newey's exit, and the Mercedes-Honda 2026 engine partnership uncertainty. McLaren built the best chassis on the grid for the first time since the 2010s and won the constructors' title. Ferrari signed Lewis Hamilton in the most shocking driver move of the modern era, ending his 12-year Mercedes relationship and pairing him with Charles Leclerc in a lineup that the polls say will either be the greatest pairing in Ferrari history or the most explosive locker room. Mercedes is rebuilding around George Russell and the new Kimi Antonelli teenage prodigy. Aston Martin signed Adrian Newey for 2026. Audi takes over Sauber for 2026. Cadillac joins the grid in 2026 as the 11th team. moomz polls on who wins the 2025 drivers' championship currently split among Verstappen, Norris, Leclerc and Piastri with Hamilton in fifth, which is the closest title-race poll the sport has produced since 2021."
+      },
+      {
+        "h": "Tracks, Netflix, and the polls that fill race week",
+        "body": "F1 polls cover more than the championship. The best track is its own subgenre and the chart usually puts Spa, Suzuka, Monaco and Silverstone in the top four. Monaco gets the most polarized votes because it is the historic crown jewel and also the most boring race to actually watch overtake-wise. The new Las Vegas Strip circuit, fast-tracked in 2023 to a primetime US slot, split fans hard. The Drive to Survive Netflix effect on the American audience is a polling topic in itself: did it grow the sport or just commodify it for binge-watchers. The 2026 engine rules, halving turbo power and adding much bigger electric power units, are the most-polled regulation change since the 2017 aero overhaul. Drop a moomz poll the morning of any grand prix asking your friends to predict pole, podium, fastest lap, and the safety car number, and you will have a group-chat fantasy league with no app required. The chart is the prediction market."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was the first official Formula 1 race?",
+        "a": "The first official Formula 1 World Championship race was the 1950 British Grand Prix at Silverstone, held on May 13, 1950, won by Italian driver Giuseppe Nino Farina in an Alfa Romeo 158. The race attracted around 100,000 spectators including King George VI, Queen Elizabeth and Princess Margaret, the first reigning British monarch to attend a motor race. Seven races made up that first championship season, all in Europe except the Indianapolis 500 which counted for points until 1960."
+      },
+      {
+        "q": "Who has won the most F1 world championships?",
+        "a": "Lewis Hamilton and Michael Schumacher are tied at the top with seven drivers' championships each. Behind them sit Juan Manuel Fangio with five, Max Verstappen with four (with more likely on the way), Alain Prost with four, and Sebastian Vettel with four. Hamilton also holds the all-time records for race wins (103+), pole positions (104+), podiums (200+), and laps led. The Hamilton versus Schumacher GOAT debate on moomz typically splits 50-50 with younger fans tilting Hamilton."
+      },
+      {
+        "q": "Why did Hamilton move to Ferrari?",
+        "a": "Lewis Hamilton announced his move to Ferrari for the 2025 season on February 1, 2024, ending his 12-year Mercedes relationship one year before his existing contract was up. The decision was driven by a combination of factors: the chance to drive for Ferrari before his career ends (a stated childhood dream), the Mercedes regression since 2022, the lure of partnering with Charles Leclerc at the most iconic team in motorsport, and the 2026 engine reset that resets the competitive baseline. It is the biggest driver move in modern F1 history."
+      },
+      {
+        "q": "Are F1 polls actually fun if I am new to the sport?",
+        "a": "Yes, especially if you are new. F1 polls work for casuals because the questions can stay simple: who wins the race, which team has the best livery, is Drive to Survive accurate, which track would you actually visit. moomz lets you drop a poll in your group chat, anyone votes without an account, the bar chart fills live, and you learn the sport faster from the post-poll arguments than from any explainer video. New fans tend to vote the most confidently, which is the funniest chart of all."
+      }
+    ],
+    "related": ["football", "soccer", "tennis", "basketball", "nba", "olympics", "ufc", "premier-league"],
+    "updatedAt": "2026-05-19"
+  }
+]

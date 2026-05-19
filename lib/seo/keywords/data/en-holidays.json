@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "christmas",
+    "locale": "en",
+    "keyword": "Christmas",
+    "matchPatterns": ["christmas", "xmas", "santa", "noel", "advent", "holiday tree", "carol"],
+    "topic": "holidays",
+    "title": "Christmas Vibe Check Polls: Vote, Compare, Win the Group Chat",
+    "description": "Open Christmas polls with friends on moomz. Vote on gifts, dinners, traditions, and Santa debates. Live results, 2 taps, no app to install.",
+    "emoji": "🎄",
+    "intro": "Christmas is the loudest opinion festival of the year. Real tree or fake one. Gifts on the 24th at midnight or the morning of the 25th. Turkey, ham, or just a giant cheese board. Mariah Carey on loop or absolutely banned. Every family thinks their version is the canonical one, and every group chat turns into a small civil war between the second week of December and New Year's Eve. The date itself carries centuries of layered tradition: December 25 was the Roman feast of Sol Invictus, the unconquered sun, before the early Christian church anchored the birth of Christ to the same day to fold the older solstice celebrations into the new calendar. That mash-up is exactly why Christmas today is a moodboard of pagan logs, German trees, Dutch saints rebranded as Santa, English carols, and TikTok present-opening rituals all stacked into one week. So the only honest way to settle anything is to put it to a vote. On moomz you write a question, drop two to six options, and share a short link to your friends, your family chat, your class, your team at work. Results come in live with animated bars and a quiet little flame for every new vote. No account needed, no app to install, no algorithm picking winners for you. Just clean democratic chaos for the holiday season. The Christmas polls below are the ones that go viral every year, from gift-wrapping ethics to the eternal Home Alone versus Love Actually argument, so steal them, remix them, or use them as warm-ups for your own family group chat.",
+    "sections": [
+      {
+        "h": "Christmas polls that actually settle arguments",
+        "body": "The best holiday polls are the ones nobody can resolve with logic. Real tree or plastic. Wrapping paper or gift bags. Stockings still relevant past age 12. Whether opening one present on Christmas Eve is cute family ritual or a slippery slope to opening everything by 11 PM. These are not neutral questions, they are personality tests dressed up as festive admin. A vote settles them in two minutes and gives you a screenshot to bring to next year's dinner. moomz lets you frame each question your way: keep it light with emoji options (🎄 vs 🪵 vs 🎁), or sharpen it with prose like \"if your partner gives you a vacuum cleaner is that a red flag or just practical.\" Drop the link in the family chat and watch the cousins, the in-laws, and the one uncle who never reads the messages all show up to vote. The bar animations are part of the fun: a single new vote can swing the result and reignite the debate."
+      },
+      {
+        "h": "Gifts, movies, and the food court of opinions",
+        "body": "Christmas content splits cleanly into three eternal categories: presents, screens, and the table. For presents, the high-engagement polls are always the dilemmas: cash versus a thoughtful but mid-quality gift, surprise versus wishlist, handmade versus store-bought, regifting allowed or banned. For movies, the trio of Home Alone, Love Actually, and Die Hard generates the most chaotic results because everyone defends a different one to the death. Add Elf, The Holiday, The Polar Express, or anything Hallmark and you have a full bracket. For food, the regional split is brutal: turkey camp, ham camp, roast goose camp, raclette camp, seven fishes camp, and the rising vegetarian roast camp. Use moomz to run a four-option bracket per category, then post the winners. By Boxing Day you will have a homemade Christmas yearbook of what your circle actually believes, not what they pretend to like in front of grandma."
+      },
+      {
+        "h": "Office Secret Santa, school class, and friend-group polls",
+        "body": "Christmas polls work in three social arenas at once. At the office, the eternal questions are Secret Santa budget, whether the holiday party should be on a weekday, and if ugly sweaters are mandatory or optional. At school or university, polls are perfect for picking a class gift for a teacher, deciding the theme of the end-of-term party, or just ranking the worst holiday song. In the friend group, polls solve the impossible coordination problem of who hosts the pre-NYE Christmas hangout, who brings what, and whether you do gifts or a white elephant. Because moomz is anonymous by default, even the awkward questions land safely: nobody knows if Sarah really voted to keep her co-worker out of the gift exchange. Run a series of three or four polls in the same chat and you have a small festive newsroom going."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best Christmas poll to send to my family?",
+        "a": "The classic high-engagement one is real tree versus fake tree, because every household has a strong opinion and a story behind it. Other reliable hits are Christmas Eve dinner versus Christmas Day lunch, opening presents at midnight or in the morning, and the deeply controversial Mariah Carey ban poll. Keep the question short, add a relevant emoji, and post it in the group chat about a week before Christmas for maximum traffic."
+      },
+      {
+        "q": "When did December 25 become the official Christmas date?",
+        "a": "The early Roman empire celebrated Sol Invictus, the unconquered sun, around the winter solstice, with December 25 emerging as a fixed festival in the third century. The Christian church formally linked the birth of Christ to that date by the mid-fourth century, partly to absorb the existing solstice celebrations. So the date carries layers: a Roman solar festival underneath, Christian liturgy on top, and centuries of European folk traditions woven through both. That is why Christmas feels like a hybrid holiday."
+      },
+      {
+        "q": "Can I use moomz for a Secret Santa decision?",
+        "a": "Yes. Create a poll with the candidate budgets like 10, 20, 50, and 100, share the link in the team channel, and let the result decide. You can also run a separate poll on whether gag gifts are allowed, whether handmade counts, and the deadline for buying. Because the votes are anonymous by default, colleagues actually pick what they prefer instead of what looks generous in front of the boss."
+      },
+      {
+        "q": "Is the Mariah Carey All I Want for Christmas debate really worth a poll?",
+        "a": "It is the single most reliable engagement bait of the season. The song has been on the Billboard Hot 100 every December since 2017, peaking at number one repeatedly, which means half your friends are devoted and half are exhausted. A two-option poll with 🎶 versus 🚫 will collect votes for days. Bonus: add a third option for people who only like it ironically and you will get genuinely funny replies in the chat under the link."
+      }
+    ],
+    "related": ["new-year", "halloween", "valentines", "birthday", "easter", "chocolate", "wine"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "summer",
+    "locale": "en",
+    "keyword": "Summer",
+    "matchPatterns": ["summer", "beach", "vacation", "holidays", "sunburn", "festival", "july", "august"],
+    "topic": "holidays",
+    "title": "Summer Polls: Beach, Festivals, Plans, and Hot Takes",
+    "description": "Run summer vibe-check polls on moomz. Vote on destinations, festivals, beach versus mountain, sunscreen, and the perfect playlist. Live results.",
+    "emoji": "☀️",
+    "intro": "Summer is when group chats turn into travel agencies, restaurant booking apps, and concert ticket pools all at once. Everyone wants to do something, nobody agrees on what, and the planning slowly drifts until somebody finally says \"just decide.\" That is where a poll wins. Summer brings the biggest planning problems of the year because the stakes are real: a bad weekend in the wrong city with the wrong people leaves a mark. Beach or mountain. Festival or chill cabin. Greek islands or southern Italy. Camping or a cheap Airbnb. Hot pool party or quiet lake. Each of these splits a group along a fault line that exists year-round but only surfaces when the calendar opens up. On top of that, summer has its own subgenres of micro-decisions: which sunscreen brand, whether tanning is still a thing or skincare won, whether festival tickets are worth it post-inflation, and the eternal question of which playlist gets to be \"the song of the summer.\" Use moomz to put each of these on the table. You write a question, add up to six options, and share a short link. Friends vote in two taps, results stream in live with animated bars, and you have a screenshot to end the debate. No app, no signup, no algorithm. The polls below are the ones that consistently hit highest engagement when you drop them in a summer group chat, plus a few specifically built for festival season and beach trips.",
+    "sections": [
+      {
+        "h": "Trip planning polls that save the friend group",
+        "body": "The summer trip is the highest-stakes decision the group will make all year. A bad choice and you spend a week resenting whichever friend pushed for it. Polls reduce the social cost by making the choice collective and traceable: nobody can say \"I told you so\" if everyone voted. The classics are destination polls (Bali versus Greece versus Portugal versus road trip in your own country), accommodation polls (Airbnb versus hotel versus camping versus hostel), and budget polls (under 500, 500-1000, 1000-2000, 2000+). Then come the lifestyle splits: party trip or chill trip, beach focus or city focus, packed itinerary or zero plans. Drop one poll per decision in the group chat, give people 24 hours, and you have a fully democratic itinerary by the end of the week. moomz keeps things light enough that even the friend who hates planning will tap a button."
+      },
+      {
+        "h": "Festival, beach, and city summer polls",
+        "body": "Festivals are content goldmines for polls. Coachella versus Glastonbury versus Tomorrowland versus a local one. Headliner ranking, outfit themes, camping versus hotel nearby, day pass or full weekend. People who would never argue in real life will defend their festival pick with religious intensity in a vote. Beach polls run on smaller decisions but higher volume: SPF 30 or SPF 50, towel or no towel, beach bar or homemade picnic, swimming pool or actual sea, morning or sunset session. City summer polls cover the urban side: rooftop bar, park hang, museum on a hot day, river swim, evening run, terrace dinner. Combine these into a multi-poll thread and you get a personality map of your friend group's summer style. It also makes for great post-vacation content when you compare what people voted versus what they actually did."
+      },
+      {
+        "h": "Sunscreen, playlists, and very online summer debates",
+        "body": "Beyond logistics, summer drives a whole layer of opinion content. Sunscreen brands and SPF levels generate real engagement because skincare TikTok turned them into identity markers. Playlist polls are eternal: which song is the actual song of the summer, do you skip the obvious hit or play it on repeat, is reggaeton in or out, are house tracks back. Food polls multiply in heat: ice cream flavor wars, the watermelon vinegar argument, gazpacho ride-or-die, the pineapple-on-pizza question always returning. Finally there are the cultural ones: tan as a flex or a skincare crime, gym in summer or full hibernation, AC at 18 degrees or 24 degrees, working from a cafe terrace or pure laptop-in-bed. Each of these makes a great two- to four-option poll and the comments in the linked chat tend to be funnier than the vote itself."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I pick a summer destination with friends without arguing?",
+        "a": "Run a two-stage poll. Stage one is broad: city, beach, mountain, road trip. Stage two narrows the winner: if beach wins, post a follow-up with three or four specific destinations and a budget option attached. moomz lets each poll be its own short link, so the group sees a clear sequence of decisions instead of a giant debate. Make the deadline explicit, like \"vote by Sunday night,\" and the planning closes itself."
+      },
+      {
+        "q": "Are summer poll ideas different from regular polls?",
+        "a": "Yes, because the stakes are concrete. A regular vibe-check might be Netflix versus going out, but a summer one is real money on the line: flight prices, hotel deposits, festival passes. So you want clearer options, a budget signal in the wording, and a tighter deadline. Also lean into the seasonal vocabulary: words like festival, beach, SPF, terrace, road trip get higher tap-through rates because they feel timely."
+      },
+      {
+        "q": "What is the best song-of-the-summer poll format?",
+        "a": "Four to six options, all 2026 tracks released between April and June, ranked by streams. Add a sixth option for write-in or wildcard so people who hate the mainstream get a voice. Share it on the first weekend of August, when the conversation peaks, and you will get a flood of votes plus chat comments arguing about whether the obvious hit deserves to win or if the underdog should take it."
+      },
+      {
+        "q": "Can I run a summer-long poll series on moomz?",
+        "a": "Yes, that works well. Create one poll per week with a recurring theme, like \"track of the week,\" \"trip of the week,\" or \"hottest take of the week,\" and share each one in the same group chat. Because each moomz poll has its own link and live results, you can pin the latest one and let people scroll back through past results to see how opinions shifted across the season. It builds a small summer archive of group taste."
+      }
+    ],
+    "related": ["beach", "ocean", "sun", "road-trip", "camping", "bali", "ice-cream"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "halloween",
+    "locale": "en",
+    "keyword": "Halloween",
+    "matchPatterns": ["halloween", "costume", "spooky", "pumpkin", "scary", "trick or treat", "samhain"],
+    "topic": "holidays",
+    "title": "Halloween Polls: Costumes, Movies, Candy, and Spooky Hot Takes",
+    "description": "Vote on Halloween costumes, scary movies, candy rankings, and party plans. Open polls in 10 seconds on moomz, share with friends, see live results.",
+    "emoji": "🎃",
+    "intro": "Halloween is the only holiday where the central question is literally \"who do you want to be tonight,\" so it generates more polls per capita than any other date on the calendar. Costume planning starts in early October, the movie marathon arguments start the same week, and by mid-month every group chat is rotating through links to costume references, candy lists, decor ideas, and party invitations. The holiday itself is older than most of its modern trappings. Samhain, the Celtic festival of the boundary between the living and the dead, is roughly two thousand years old, marked at the end of the harvest when the veil between worlds was thought to thin. The carved turnips of medieval Ireland became American pumpkins, Christian All Saints' Eve layered on top, and twentieth-century commercial culture stacked candy, costumes, and horror movies on the foundation. So when your friend insists their idea of Halloween is the right one, they are probably defending one specific era of a two-thousand-year-old tradition. A poll lets the whole group declare their version in two taps. On moomz you write the question, drop up to six options, and share a short link. The results animate in live with a quiet flicker for each new vote. The polls below are the ones that travel best: costume picks, candy hierarchies, scary-movie tiers, and the eternal hot takes about whether adults should still trick-or-treat or stay in.",
+    "sections": [
+      {
+        "h": "Costume polls that decide the whole night",
+        "body": "Picking a costume is the most public decision of the year and the easiest one to mess up. Too basic and you blend in. Too obscure and nobody gets it. Too edgy and it lands in a screenshot. Polls solve this by surfacing how a costume actually reads to the audience before the night happens. The reliable poll formats are: classic versus trendy (witch vs Sabrina, vampire vs Wednesday Addams), couple costume versus solo costume, group theme versus individual freedom, scary versus sexy versus funny, last-minute Amazon costume versus full DIY. Add an emoji per option and the poll scrolls well in a chat. Pro move: run a costume poll twice. First one a week out, second one two days before. Watch how votes drift as people actually shop. Screenshots of both make great content for the night itself and feel like a small documentary of your group's Halloween."
+      },
+      {
+        "h": "Scary movie polls, candy hierarchies, and party plans",
+        "body": "Halloween splits into three poll genres beyond costumes. Movies: Hocus Pocus camp vs Scream camp vs Hereditary camp vs Conjuring camp vs Halloween (the franchise) camp. Whether you watch the same movie every year or alternate. Whether comedy horror counts as horror. Candy: the eternal Reese's vs Snickers vs Kit Kat vs Twix bracket, plus the polarizing options (candy corn, full-size vs fun-size, dark chocolate). Decor: full graveyard front yard vs single pumpkin minimalism, real candles or fake LED, cobwebs everywhere or just one strategic skull. Party plans: stay in and hand out candy, house party, club night themed, trick-or-treat with kids/nephews, or completely skip the whole thing. Each of these is a four-option poll that takes ten seconds to write and generates real chat activity. moomz live results mean the chat keeps pinging as votes come in, which keeps the thread alive."
+      },
+      {
+        "h": "Spooky hot takes and very-online debates",
+        "body": "Beyond logistics, Halloween fuels the strongest opinion content of the autumn. Some hot-take polls that consistently go off: should adults trick-or-treat (yes if you are with a kid, no after age 16, yes always, never). Is candy corn good (yes, no, only one a year). Is Halloween better in the US or in your country (regional pride argument). Is a couples costume cute or cringe (always, depends, never). Are pet costumes funny or animal cruelty (light or strong takes). Is the Halloween season too commercial now or just right. Each of these splits a group along a real fault line. They also work outside Halloween week as nostalgia polls: in March, ask \"what was your favorite Halloween costume ever\" and watch the chat fill with photos. Polls are how a holiday extends beyond its single date."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the most viral Halloween poll to send?",
+        "a": "The costume reveal poll: drop two or three of your candidate costumes as options and let the group vote on which one you should actually wear. It works because the audience feels invested in the outcome, they will check back to see what won, and they are way more likely to compliment the costume on the night since they helped pick it. Run it five to seven days before so you still have time to buy or borrow the winner."
+      },
+      {
+        "q": "How old is Halloween really?",
+        "a": "Roughly two thousand years, traced back to Samhain, the Celtic festival marking the end of the harvest and the beginning of winter, when the boundary between the living and the dead was thought to thin. Medieval Ireland carved turnips as protective lanterns, which became pumpkins in 19th-century America. The Christian church layered All Saints' Day on November 1, giving October 31 its modern name All Hallows' Eve. The candy, costumes, and horror-movie traditions are 20th-century American additions."
+      },
+      {
+        "q": "Are scary-movie polls worth running every year?",
+        "a": "Yes, because the answer shifts every year. New horror releases (Saw or Conjuring sequels, A24 hits, Mike Flanagan series on Netflix) change the ranking annually. Run a fresh four-option poll each October with one classic, one recent hit, one comedy horror, and one wildcard. The chat will remind itself which movies dominated past years, and you build a yearly tradition out of one simple poll."
+      },
+      {
+        "q": "Can moomz host a Halloween party RSVP poll?",
+        "a": "Yes. Create a poll with question \"can you come to the Halloween party at my place on the 31st?\" and options yes, no, maybe, only after another event. Share the link in the group chat and you have a live headcount. Run a second poll for the theme: classic horror, sexy school, decades night, characters. moomz keeps it lightweight so people RSVP in two taps without the formality of a full event page."
+      }
+    ],
+    "related": ["christmas", "birthday", "movies", "anime", "harry-potter", "drama", "ghosting"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "birthday",
+    "locale": "en",
+    "keyword": "Birthday",
+    "matchPatterns": ["birthday", "bday", "party", "cake", "candle", "gift", "anniversary"],
+    "topic": "holidays",
+    "title": "Birthday Polls: Cake, Plans, Gifts, and the Big Theme Vote",
+    "description": "Plan a birthday with moomz polls. Vote on themes, cake, restaurants, guest lists, and the gift idea. Two-tap polls, live results, no app.",
+    "emoji": "🎂",
+    "intro": "A birthday is the most coordinated event a normal person hosts all year. There is a date, a location, a cake, a guest list, a budget, a theme, a gift situation, and a music question. Decide any of those wrong and someone is going to be quietly disappointed for the next six months. The clean fix is to outsource the decisions to a vote. Polls work especially well for birthdays because the audience is already invested: friends and family actively want to make the night good, so they will tap a vote in two seconds. They also remove the awkwardness of the host having to ask \"is this okay\" five times in the group chat. One link, four options, done. On moomz you write the question, drop the options, share the link, and the bars animate as people vote. No app, no signup, no algorithm. The polls below are the ones that travel best for any birthday from a 16th to a 40th: theme picks, venue choices, cake debates, gift coordination, and the surprisingly contentious dress-code question. For surprise parties, moomz polls are anonymous by default which means you can run them in a smaller side chat without the birthday person seeing the vote in their inbox. For their own poll-driven birthday, drop a public link and let your friends vibe-check your taste in real time. Bonus: a screenshot of the final vote becomes a souvenir of the planning process and looks great in a year-end recap.",
+    "sections": [
+      {
+        "h": "The theme and venue vote that defines the night",
+        "body": "Theme is the highest-leverage decision for a birthday because it sets everything else: outfits, decor, music, the kind of food. Polls work best when you offer four sharply different options instead of five close variations. Examples: dinner at a fancy restaurant vs house party vs club night vs activity (escape room, bowling, karaoke). Or for theme nights: nineties, two thousands, glitter and chrome, all-black, pyjamas, character costume. Run the theme vote first, then a follow-up venue vote that fits the winning theme. moomz lets you chain polls into a small thread of decisions, which feels more like a fun reveal sequence than a planning meeting. For larger birthdays (25, 30, 40), let people vote on a budget range too so nobody is surprised by the cost on the night. The transparency reduces no-shows and builds anticipation."
+      },
+      {
+        "h": "Cake, drinks, and food polls that prevent disasters",
+        "body": "Cake choice is more contested than most people admit. Chocolate vs vanilla vs red velvet vs cheesecake vs tiramisu vs ice cream cake. Each option has a cult following and the host's instinct is usually biased toward their own preference. A poll on the day before lets the host make a non-controversial pick. Same for food: pizza, sushi, finger food platter, full sit-down dinner. Cocktails or just beer and wine. With dietary needs, add a quick poll on \"are we vegan-friendly tonight?\" Drinks polls are also a stealth headcount: people only vote if they are actually coming, so you get attendance data for free. Decor polls (balloons yes or no, banner reading the age in big numbers, photo wall, no decor) settle quickly and give you a budget signal. Anything that costs money and triggers strong opinions should go to a vote rather than a single text in the chat."
+      },
+      {
+        "h": "Gifts, group cards, and the surprise-party logistics",
+        "body": "Gift coordination is the most stressful part of any birthday for the friends, not the host. Should the group buy one big gift or each give something. What budget. Cash in an envelope (efficient but cold) or a thoughtful object (lovely but might miss). Polls solve the awkward chat about money: one anonymous vote on the per-person amount and the group commits. Pair it with a second poll on the actual gift idea: vacation contribution, fancy watch, experience like a concert ticket, handmade book of memories. For surprise parties, the polls have to happen in a side chat without the birthday person. moomz works fine for this because each poll has its own short link, the side chat decides venue and timing, and the main chat gets the final invite once the surprise is locked. After the night, a quick \"rate the party\" poll in the same chat closes the loop and gives the host real feedback they can use next year."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I run a birthday poll without spoiling a surprise party?",
+        "a": "Create a separate group chat with the friends who are in on the surprise and run the polls only there. moomz polls are accessible by direct link, so unless you share the link in the main chat the birthday person never sees it. Use the side chat for venue, theme, gift, and timing votes, and only post the final invite to the birthday person at the end. Keep the polls focused on logistics rather than on the surprise itself so a screenshot leak does not give it away."
+      },
+      {
+        "q": "What is the best gift coordination poll format?",
+        "a": "A two-poll sequence. Poll one: per-person budget with options like 10, 20, 50, 100. Poll two (after the budget wins): the actual gift idea, with three or four pre-shortlisted options that fit the winning budget. This avoids the classic mistake of voting on a gift before agreeing on how much everyone can spend. moomz lets you share each poll as a separate link so the chat reads as a clear sequence of decisions."
+      },
+      {
+        "q": "Can I run an RSVP poll for a birthday on moomz?",
+        "a": "Yes, with the question \"can you come to my birthday on [date]?\" and options yes, no, maybe, depends on the time. Add a follow-up poll for the time slot if multiple slots are possible (afternoon, evening, late night). The bar animations give you a live headcount and the host can plan catering and venue size based on it. For paid venues with a guarantee, set a deadline in the question text."
+      },
+      {
+        "q": "Is a cake poll really worth running?",
+        "a": "Yes, especially for groups of more than ten people, because the cake is the visual centerpiece of the night and chocolate-vs-vanilla feelings are stronger than people admit. Run a five-option poll the day before with chocolate, vanilla, red velvet, cheesecake, and an alternative for non-cake people like a fruit platter. The vote takes ten seconds to write and saves you from the awkward moment where half the guests politely refuse a slice."
+      }
+    ],
+    "related": ["wedding", "bachelorette", "bachelor", "baby-shower", "christmas", "chocolate", "wine"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "valentines",
+    "locale": "en",
+    "keyword": "Valentine's Day",
+    "matchPatterns": ["valentine", "valentines", "love day", "february 14", "saint valentine"],
+    "topic": "holidays",
+    "title": "Valentine's Day Polls: Date Ideas, Gifts, Hot Takes, and Single-on-Purpose",
+    "description": "Vote on Valentine's Day plans, gifts, restaurants, and hot takes about the holiday. Share polls on moomz with friends or your partner in two taps.",
+    "emoji": "💌",
+    "intro": "Valentine's Day is the most divisive date on the calendar after Christmas. Half the planet treats February 14 as a sacred romantic check-in, the other half thinks it is corporate emotional blackmail invented by florists and chocolate brands. Both sides are wrong about the history. The day was formalized by Pope Gelasius in 496 AD as the feast of Saint Valentine, a third-century martyr whose story merged at least two different historical figures over the centuries. The romantic association only emerged in the medieval period through poets like Chaucer, who linked February 14 to the start of birds' mating season in his poem Parlement of Foules. The card-and-gift industrial complex is a 19th-century Victorian invention, with mass-produced cards arriving by the 1840s and the chocolate-and-roses package becoming standard 20th-century marketing. So when your friend says it is fake, they mean the Victorian part, not the medieval one. Either way, the modern question is what to do about it. Stay in or go out. Gift or no gift. Public love post on Instagram or no post at all. Group dinner with single friends or romantic dinner for two. moomz polls handle every one of these debates in two taps. You write the question, drop the options, share the short link, and watch the bars animate live. The polls below are the ones that travel best every February: date plans, gift dilemmas, hot takes about the holiday itself, and a few specifically designed for single-on-purpose energy.",
+    "sections": [
+      {
+        "h": "Date-night polls for couples and almost-couples",
+        "body": "The most contested couple decision of the year is what to actually do on February 14. Restaurants are 200% booked and 50% worse. Cooking at home is sweet but might feel anticlimactic. A movie night is safe but feels low-effort. A weekend trip the following weekend is the smart workaround. Polls between couples are a love language for the planner type: instead of trying to read minds, you offer your partner three or four pre-thought options and they tap. For almost-couples, the polls work even better because they let you test gestures without overcommitting. Should we exchange small gifts. Are we doing the day at all. Quiet at-home dinner or actual restaurant. The transparency reduces the classic February 13 panic spiral where one person assumes nothing is happening and the other assumes a full romantic production. Send the poll, get the data, plan accordingly. moomz polls are short and clean enough that it does not feel like a Google Form."
+      },
+      {
+        "h": "Gift polls, hot takes, and Galentine's energy",
+        "body": "Gift coordination on Valentine's Day is harder than it looks. Roses are expensive on February 14 and cheaper on the 13th or 15th. Chocolate is safe but generic. Jewelry is high-stakes if you are not officially serious. Experiences (concert tickets, spa day, weekend stay) read more thoughtful but require coordinating schedules. A poll between you and a friend about what to give a new partner is one of the most-shared moomz use cases of February. Beyond gifts, the holiday generates strong hot-take polls: is Valentine's actually nice or corporate (the classic split), is the public Insta post sweet or cringe, are heart emojis cute or scary, is February 14 better with a partner or with friends (Galentine's energy). Group polls in the friend chat work beautifully on the 14th itself, especially among single friends planning a Galentine's dinner. Ranking who has the worst dating life of the group, with full anonymous voting, is one of the most chaotic and beloved poll formats of the year."
+      },
+      {
+        "h": "Single-on-purpose, breakup-anniversary, and anti-Valentine polls",
+        "body": "Valentine's Day for single people has shifted from melancholy to chosen. The dominant vibe now is single-on-purpose, with Galentine's dinners, anti-Valentine parties, and \"treat yourself\" content trending hard every February. Polls match this perfectly. Vote on the anti-Valentine outfit color: black, red (ironic), pink (ironic), white (rebellion). Vote on the dinner format: full sushi feast, takeaway pizza marathon, fancy restaurant for one, group dinner with the friends. Vote on the movie of the night: classic anti-romance like 500 Days of Summer, full romcom in ironic mode, horror, or anything that has zero love in it. Breakup-anniversary polls are a smaller niche but real: friends helping a recently-single person decide whether to text the ex, post the closure Insta, or completely log off February 14. moomz polls are anonymous enough that the friends can be honest without performing supportive."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did Valentine's Day actually become romantic?",
+        "a": "The feast day itself was formalized by Pope Gelasius in 496 AD honoring Saint Valentine, but the romantic meaning emerged in the medieval period. The English poet Geoffrey Chaucer linked February 14 to birds choosing their mates in his late-14th-century poem Parlement of Foules, and that association spread through European literature. The modern card-and-gift industry is a Victorian invention from the 1840s, with chocolate-and-roses standardized by 20th-century marketing campaigns from Hershey, Cadbury, and the floral industry."
+      },
+      {
+        "q": "Should we exchange gifts on Valentine's if we are not officially dating?",
+        "a": "It depends on how recent the relationship is and what you both want it to mean. The clean way to answer that without an awkward DM is to run a small two-option poll between just the two of you (or in a side chat with one trusted friend) on whether to exchange small gifts. If a partner is asking through a poll on moomz, that itself signals they are taking the situation seriously, which is information either way."
+      },
+      {
+        "q": "What is the best anti-Valentine poll for single friends?",
+        "a": "The dinner-of-the-night poll: takeaway pizza marathon, fancy sushi for the group, dive bar with bad cocktails, or full at-home spa night. Each option appeals to a different mood and the result becomes the actual plan for the evening. Add a second poll on movie genre (romcom in ironic mode, horror, action, documentary about something completely unrelated like jewel heists) and the night writes itself. Send the polls in the group chat on the morning of the 14th."
+      },
+      {
+        "q": "Are Valentine's polls a good idea inside a couple?",
+        "a": "Yes, especially for the gift and the activity decision. Instead of guessing what your partner wants, send a poll with three pre-thought options and let them pick. It feels collaborative rather than transactional. For the activity, run a poll with restaurant, cook at home, weekend trip moved to the next weekend, and one wild card like an unusual experience (escape room, concert, museum-and-cocktails crawl). The bar animations turn the planning into part of the gesture."
+      }
+    ],
+    "related": ["first-date", "crush", "kiss", "marriage", "ex", "long-distance", "chocolate"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "new-year",
+    "locale": "en",
+    "keyword": "New Year",
+    "matchPatterns": ["new year", "nye", "resolutions", "december 31", "january 1", "midnight", "akitu"],
+    "topic": "holidays",
+    "title": "New Year Polls: NYE Plans, Resolutions, Predictions, and Year Reviews",
+    "description": "Vote on NYE plans, resolutions, midnight kiss policies, and predictions for the year. moomz polls in two taps, live results, no app to install.",
+    "emoji": "🎆",
+    "intro": "New Year is the single highest-pressure social night of the year. Where you are at midnight matters more than where you are on any other random night, who you are with matters more, what you wear matters more, even the kiss-at-midnight question carries weight that no other night supports. The pressure is partly cultural but partly ancient. The idea of marking a new beginning at the turn of the calendar is roughly four thousand years old, tracing back to the Babylonian festival of Akitu, which lasted eleven days at the spring equinox and involved crowning a king, swearing oaths, and starting agricultural cycles fresh. The Romans moved the marker to January 1 around 153 BC, naming the month after Janus, the two-faced god who looks backward and forward. The midnight ritual, the resolutions, the noisemakers, and the kiss are all later layers stacked on top of that ancient \"reset\" instinct. Modern New Year amplifies all of it with social media: people post their fits, their crews, their countdown, their resolutions, their first-of-the-year selfie, and every photo becomes a small reference point for the next twelve months. Polls cut through the pressure by surfacing what the group actually wants instead of letting one loud voice decide. House party or club. Big crew or small. Resolutions out loud or kept quiet. Mocktail or full open bar. On moomz the polls are two taps, the results animate live, and a screenshot becomes the consensus of the night.",
+    "sections": [
+      {
+        "h": "NYE planning polls that lock in the night",
+        "body": "The NYE planning chat starts in early December and limps along until December 28 when someone finally says \"we need to decide.\" Polls collapse that into one afternoon. Run a sequence: format (house party, club night, dinner, low-key chill, traveling), then venue (whose place, which club, which restaurant), then dress code (black-tie, glitter, smart-casual, pyjamas-and-champagne), then arrival time (early dinner shift, 10 PM, post-midnight). Each poll takes ten seconds and removes a layer of uncertainty. moomz works particularly well for NYE because polls have anonymous default voting, so the people who do not want to go out clubbing can vote against it without seeming like the wet blanket of the chat. Add a separate budget poll if money is a real factor, because NYE pricing is brutal. Save the screenshots: the chat ends up with a small archive of how the plan came together, which is fun to look back on in February."
+      },
+      {
+        "h": "Resolution polls and the year-in-review",
+        "body": "Resolutions are the most public hot take of the year. Some people genuinely commit, others mock the whole concept, and most fall in between. Polls turn the whole exchange into content. Run polls like: gym membership in January, optimistic or doomed. Reading challenge: 12 books, 24, 52, none. Dry January: in or out. Save money: yes, how much, no chance. Learn a skill: language, instrument, code, sport. Each gives you a snapshot of where the group actually is. Then run a year-in-review series in the last week of December: best song of the year, best movie, worst news story, most surprising couple, biggest meme. Each poll travels well on its own and the full sequence reads like your group's personal almanac. moomz polls archive at their short link so you can revisit January resolutions in December and run a brutal accountability poll on who actually kept theirs."
+      },
+      {
+        "h": "Midnight rituals, predictions, and the kiss question",
+        "body": "The minute around midnight on NYE is the most ritualized moment of the calendar. Champagne or sparkling cider. Countdown in the room or from the TV. Fireworks watching from the window, the rooftop, the street, or skipping completely. Kiss at midnight: with partner only, with anyone, with the closest person, or absolutely no kissing this year. Each of these is its own micro-poll and the chat reads like a small cultural map of the group. Then there are prediction polls: who in the group will move cities first, who will get engaged, who will quit their job, who will go viral, who will start a podcast nobody listens to. Predictions polls are gold because they create accountability: a screenshot in January, a re-run in December. Add one poll on \"what big world event will happen this year\" with options like election surprise, tech meltdown, surprise war ending, surprise war starting, and a wildcard. The end-of-year version compares predictions to reality."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the oldest known New Year celebration?",
+        "a": "The Babylonian festival of Akitu, roughly four thousand years old, is the earliest documented new-year celebration. It lasted eleven days at the spring equinox, involved crowning or recrowning the king, oath-swearing, and starting the agricultural cycle fresh. The Romans moved the marker to January 1 around 153 BC, naming the month after Janus, the two-faced god of beginnings and endings. So the modern January 1 New Year is a Roman calendar choice layered on top of a much older \"reset\" instinct."
+      },
+      {
+        "q": "How do I run a resolution poll without making people feel judged?",
+        "a": "Keep the options light and self-deprecating. Instead of \"will you go to the gym every day,\" use \"gym membership in January: optimistic, ambitious, doomed, not even trying.\" The humor lets people vote honestly without committing to anything publicly. Run the same poll on July 1 for a mid-year check, and again in December for the year-end review. Three data points across a year make the chat feel like a small reality show."
+      },
+      {
+        "q": "Is the midnight kiss tradition really old?",
+        "a": "Not as old as the rest of New Year. The midnight kiss has roots in English and German folk traditions from the 19th and early 20th centuries, with the idea that the first social interactions of the year set the tone for the next twelve months. So a positive kiss at midnight was thought to bring affection and luck. The tradition spread globally through American pop culture, especially mid-century films and TV. The actual New Year reset goes back four thousand years, but the kiss is much more recent."
+      },
+      {
+        "q": "Can I run prediction polls for the year ahead on moomz?",
+        "a": "Yes, this is one of the most fun annual uses. In late December, post three or four polls with predictions: who in the group will move first, who will get engaged, biggest world event of the year, song that will dominate. Save the short links. In December of the next year, re-share the same links so the group can compare predictions to reality. moomz keeps poll results live, so the archive is accessible whenever you want to revisit it."
+      }
+    ],
+    "related": ["christmas", "birthday", "kiss", "first-date", "wine", "savings", "investing"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ramadan",
+    "locale": "en",
+    "keyword": "Ramadan",
+    "matchPatterns": ["ramadan", "iftar", "suhoor", "eid", "fasting", "ramzan", "moon"],
+    "topic": "holidays",
+    "title": "Ramadan Polls: Iftar Plans, Suhoor Picks, Recipes, and Eid Vibes",
+    "description": "Vote on iftar menus, suhoor habits, charity ideas, and Eid plans during Ramadan. Share polls on moomz with family and friends, see live results.",
+    "emoji": "🌙",
+    "intro": "Ramadan is the ninth month of the Islamic lunar calendar and one of the most personal and communal months in the world for an estimated 1.9 billion Muslims globally. Observance includes fasting from dawn to sunset, increased prayer, charitable giving, and reflection. Because the Islamic calendar is lunar, Ramadan moves backward by roughly eleven days each year against the solar calendar, meaning a person born in 2000 has experienced Ramadan in every season of the year multiple times. The month ends with Eid al-Fitr, a three-day celebration that is often the largest gathering of the year for families, with new clothes, special food, gifts, and visits. Around all of this sits a giant amount of practical group coordination: who is hosting iftar tonight, what recipes everyone is cooking, whose grandmother makes the best dates dish, what time everyone is doing suhoor, what Eid clothes the kids are getting, how the charity giving is being split, and which family is hosting Eid lunch. Polls are perfect for all of this because they are quick, anonymous by default, and respectful of the time pressure of fast hours. moomz lets you write a question, drop two to six options, and share a short link in the family chat or the friends group. The bar animations show live results so the hosting and cooking decisions resolve fast. The polls below are the ones that consistently work well during the month, organized around iftar, suhoor, recipes, charity, and the run-up to Eid.",
+    "sections": [
+      {
+        "h": "Iftar planning polls for family and friends",
+        "body": "Iftar is the meal that breaks the fast at sunset and it is the most coordinated dinner of the year for most observing families. Polls work especially well here because the planning has tight constraints: timing tied to sunset, dietary preferences, who can host, what dish each person brings. Run polls like: tonight at whose place (rotation through family members), main dish (traditional recipes like haleem, biryani, harira, ouzi, machboos, kebabs vs new experiments), drink (fresh juice, qamar al-din, water only, herbal tea), dates variety (medjool, ajwa, sukkari, deglet noor). For larger family circles, run a poll on the iftar size: small immediate family, extended family, friends invited too, charitable iftar with neighbors. The bar animations let the host see commitments in real time, which matters because preparing iftar is timed to the minute. moomz polls have no signup requirement so older relatives who do not use apps can still tap a vote from a shared link."
+      },
+      {
+        "h": "Suhoor habits, recipes, and the daily routine polls",
+        "body": "Suhoor is the pre-dawn meal eaten before the fast begins. It is more personal than iftar and the polls around it tend to be lighter and funnier. Vote on the suhoor lifestyle: full meal at 4 AM, just dates and water, leftover from iftar, oatmeal, no suhoor at all. Run a poll on the energy strategy: caffeine before suhoor, no caffeine, herbal only. For workplaces and student groups, polls on the daytime routine help peers compare notes: who works out before iftar, who naps in the afternoon, who pushes through and only feels it at 5 PM. Recipe polls are highly shareable: chickpea dishes, lentil soups, samosa variants, dessert ranking (kunafa vs basbousa vs qatayef vs baklava). Add a poll on the family chef of the year, with five or six relatives as options, anonymously voted. The screenshots become loving content for the family chat year after year."
+      },
+      {
+        "h": "Charity, Eid planning, and the end-of-month rituals",
+        "body": "Charitable giving (zakat and sadaqah) is a central part of Ramadan and polls help groups coordinate without the awkwardness of public donation discussions. Run polls anonymously on which cause to support collectively: orphanages, refugee relief, neighborhood food drives, local mosque renovations, scholarship funds. For Eid planning, the polls multiply: who hosts Eid lunch, what time the gathering starts, dress code (formal traditional, smart-casual, kids' new outfits theme), gift coordination for the children, charity component before the meal. Eid eve has its own micro-polls about henna patterns, dessert prep, and the morning prayer arrangement. For diaspora families, polls help coordinate across time zones, especially when family members are observing Ramadan in different countries with slightly different moon-sighting practices. moomz works in any browser without an account, so polls travel easily across WhatsApp family chats spanning multiple continents. Save the short links: rerunning the same Eid hosting poll year after year becomes a tradition itself."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is Ramadan in the simplest terms?",
+        "a": "Ramadan is the ninth month of the Islamic lunar calendar, observed by an estimated 1.9 billion Muslims worldwide. Observance includes fasting from dawn to sunset, increased prayer, charitable giving, and reflection. The fast is broken at sunset with iftar, the pre-dawn meal is called suhoor. The month ends with Eid al-Fitr, a three-day celebration that is often the largest family gathering of the year. Because the calendar is lunar, the dates shift backward by roughly eleven days each solar year."
+      },
+      {
+        "q": "Are polls okay to use during Ramadan?",
+        "a": "Yes, polls are widely used for coordinating iftar, suhoor, recipes, hosting rotations, and Eid planning. They are practical tools for what is already happening in family group chats every evening of the month. moomz polls take two taps and do not require an account, which makes them work well across generations in family circles where some relatives prefer simple links over apps. Use them for logistics and lighter cultural questions, and keep more solemn religious topics off the poll format."
+      },
+      {
+        "q": "How do I organize the iftar rotation for a large family?",
+        "a": "Run a poll listing each potential host family with the days they are available. Each member votes for the family that should host on a given week. After the first poll, run a follow-up specifically for the menu of each iftar so the host knows what people are expecting and what others are bringing. Pin both polls in the family chat so the rotation is visible and traceable. This avoids the classic problem of two families preparing the same dish."
+      },
+      {
+        "q": "Can I use moomz for an Eid gift coordination poll?",
+        "a": "Yes. Run an anonymous poll on the per-child Eidi amount for the kids in the family, with options like 10, 20, 50, 100. Add a second poll for whether the adults exchange gifts this year or only the children. Because votes are anonymous, family members who would be embarrassed to ask for a smaller amount publicly can vote honestly. The results give the family a quiet consensus without anyone having to be the one who says it out loud."
+      }
+    ],
+    "related": ["easter", "christmas", "new-year", "wedding", "chocolate", "coffee", "tokyo"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "easter",
+    "locale": "en",
+    "keyword": "Easter",
+    "matchPatterns": ["easter", "paques", "egg", "bunny", "passover", "good friday", "spring holiday"],
+    "topic": "holidays",
+    "title": "Easter Polls: Egg Hunts, Brunch, Chocolate, and Family Plans",
+    "description": "Vote on Easter brunch menus, egg hunt rules, chocolate brands, and family plans. moomz polls in two taps, live results, no app required.",
+    "emoji": "🐰",
+    "intro": "Easter is the most movable holiday on the calendar. The date is set by a 1700-year-old formula: the Council of Nicaea in 325 AD established that Easter falls on the first Sunday after the first full moon following the spring equinox, which means it can land anywhere from March 22 to April 25 depending on the year. That moving target is why Easter feels seasonally different every time: some years it is still cold and wet, others it is already proper spring with cherry blossoms and outdoor brunches. The holiday itself stacks layers like Christmas does: Christian observance of the resurrection at the core, the older Germanic spring festival of Ostara (from which the English word derives) underneath, the egg as a near-universal symbol of new life that predates both, and the rabbit as a 17th-century German folk tradition imported to America that became the candy-and-basket industry we know today. Modern Easter splits into three main poll territories: family brunch logistics, the egg hunt rules debate for households with kids, and the chocolate-and-candy ranking that travels well even with people who do not celebrate religiously. moomz handles all of these in two-tap polls with live animated results. The polls below cover brunch menus, egg hunt fairness rules, the chocolate brand bracket, and the eternal question of what to actually do on Easter Monday across countries where it is a holiday and countries where it is not.",
+    "sections": [
+      {
+        "h": "Brunch menu polls and the hosting question",
+        "body": "Easter brunch or lunch is the most common family gathering of spring. Polls handle the eternal coordination problem: who hosts, what time, what menu, who brings what. Run polls like: hosting rotation (parents, uncle, sister, restaurant booking), start time (11 AM, noon, 1 PM, 2 PM), main course (roast lamb, glazed ham, vegetarian centerpiece, brunch board with eggs and pastries), dessert (chocolate cake, simnel cake, pavlova, hot cross buns, tiramisu). For families that span religious and non-religious members, a poll on whether to do a blessing at the table can be quietly resolved without anyone having to lead the conversation. moomz polls being anonymous by default means even the relatives with the strongest opinions vote without arguing. Run a separate dietary poll a few days before (vegetarian guests, gluten-free, dairy-free) so the host has time to plan. Pin the menu poll in the family chat with the final result so nobody shows up assuming the wrong dish."
+      },
+      {
+        "h": "Egg hunt rules, kids' party, and the fairness debate",
+        "body": "The Easter egg hunt is the most contested ritual in any family with multiple kids. Older kids find everything in two minutes. Younger kids get nothing. The fairness debate runs deep and a poll usually settles it cleaner than an argument. Run polls on: age-based zones (yes, fully split garden, mixed but with handicap, free for all), egg type (chocolate only, mixed with small toys, just chocolate hidden plus one big golden egg, themed scavenger hunt with clues), parental involvement (parents hide and watch, one parent hides one helps younger kids, full hands-off). Budget poll for the chocolate (under 30, 30-60, 60-100, 100+). For larger family gatherings with cousins, polls work as the rule-setting layer so no parent has to be the one who lays down the law. Save the short link of the rules poll: rerunning it next year creates a tradition and shows how the kids' ages shift the fair answer. Older cousins eventually vote themselves out of the hunt and into the chocolate-tasting jury position."
+      },
+      {
+        "h": "Chocolate, candy bracket, and Easter Monday plans",
+        "body": "Easter chocolate is its own genre. Lindt vs Cadbury vs Milka vs Ferrero vs local artisanal vs the supermarket house brand. Hollow versus filled. Dark versus milk versus white. Bunny shape versus egg shape. Run a four-option bracket per category and have the family vote. The chocolate poll travels brilliantly even with friends who do not celebrate religiously because the candy-and-egg layer is global pop culture. For Easter Monday, which is a public holiday in many countries (France, Germany, UK, Italy, Spain, Australia, Canada) but not in the US, the plans diverge widely. Poll the group on the Monday: full chill day, family lunch part two with leftovers, outdoor walk if weather, weekend trip extension, completely normal day if your country does not have the holiday off. For diaspora families spanning countries, a poll on \"what is everyone doing tomorrow\" surfaces the cultural difference and starts a chat that lasts the rest of the day."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does the Easter date move every year?",
+        "a": "Because of a formula set by the Council of Nicaea in 325 AD: Easter falls on the first Sunday after the first full moon following the spring equinox. That puts it anywhere from March 22 to April 25 depending on the year. The moving date is why some Easters feel like winter holdouts with cold rain, and others land in full spring with cherry blossoms and outdoor brunches. Eastern Orthodox Easter often falls on a different date because it uses the Julian calendar for the calculation."
+      },
+      {
+        "q": "What is the best egg hunt fairness rule for mixed-age cousins?",
+        "a": "The age-zone split. Divide the garden or house into a younger-kids zone (4 and under, easy hiding spots, ground level) and an older-kids zone (5 and up, harder hides, climbing required). Each child finds eggs only in their zone for the first 10 minutes, then a free-for-all if anything remains. Run a poll on this exact format with parents in the family chat the week before so everyone agrees and no one has to enforce the rule on the day."
+      },
+      {
+        "q": "Are Easter chocolate brand polls really worth running?",
+        "a": "Yes, they are some of the highest-engagement polls of the spring. Chocolate brand loyalty is unexpectedly strong, regional differences are real (Cadbury vs Hershey is a transatlantic argument, Milka and Lindt have continental European camps), and the screenshots make great content for the family chat. Run a four-option bracket: round one picks top milk chocolate, round two picks top filled chocolate, round three picks top dark, final picks overall champion. Stretch the bracket across the long weekend."
+      },
+      {
+        "q": "Can moomz handle a multilingual family poll for diaspora gatherings?",
+        "a": "Yes. The interface is in multiple languages and the poll question and options are whatever you type, so a French-Italian-English family chat can vote on a poll written in any language they share. moomz polls have no signup, work in any browser, and the short link spreads cleanly across WhatsApp, iMessage, Telegram, and SMS. For families gathered across time zones, polls let everyone participate in the planning regardless of whose afternoon it is."
+      }
+    ],
+    "related": ["christmas", "ramadan", "birthday", "chocolate", "wedding", "wine", "coffee"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "wedding",
+    "locale": "en",
+    "keyword": "Wedding",
+    "matchPatterns": ["wedding", "marriage", "bride", "groom", "ceremony", "reception", "vows", "honeymoon"],
+    "topic": "holidays",
+    "title": "Wedding Polls: Venues, Guest Lists, Menu, Music, and the Big Vibes",
+    "description": "Plan a wedding with moomz polls. Vote on venues, dress codes, menus, music, seating, and honeymoon ideas. Two-tap polls with live results, no app.",
+    "emoji": "💒",
+    "intro": "A wedding is the most decision-dense event most people host in their lifetime. Venue, date, guest list, dress code, ceremony format, vows style, ring choice, menu, cake, music, seating chart, photographer, video, flowers, favors, honeymoon, post-wedding brunch. Each of those is its own constellation of sub-decisions, and each one tends to involve at least two opinionated stakeholders: the couple plus parents plus a few key friends. Decision fatigue is the biggest hidden cost of wedding planning, well before the actual money. Polls are a quiet superpower for this. They give every stakeholder a voice without endless group calls, they create a clear paper trail of decisions, and they reduce the chance of the bride or groom being publicly blamed for any single call. moomz polls work especially well for weddings because they take two taps to vote, the results animate live, and the short link travels cleanly across WhatsApp, iMessage, and email. You can also run polls anonymously by default, which matters when asking guests about dietary needs or song requests they would never say out loud. The polls below cover the main wedding categories: venue and date, guest list and seating tensions, food and drinks, music and entertainment, and the surprisingly contested honeymoon question. Use them as starting points and remix the options for your own context. Save the short links: the full sequence becomes a small archive of how the wedding came together, which couples often look back on years later.",
+    "sections": [
+      {
+        "h": "Venue, date, and guest-list polls for the early planning",
+        "body": "The earliest wedding polls are about scale and location. Run polls on venue style (country garden, beach, urban rooftop, vineyard, traditional church-plus-reception, destination abroad), guest count (under 50, 50-100, 100-150, 150-300), date season (spring, summer, autumn, winter for the indoor cosy aesthetic). For destination weddings, a separate poll among close friends about whether they could realistically attend gives the couple a real number before committing flights and venue deposits. Guest-list polls are political but useful: a poll among the inner circle on whether plus-ones are allowed for all guests, only for serious partners, or by name only. Same for kids: invited, only family kids, no kids at all. Each of these polls reduces the agonizing one-on-one conversations the couple would otherwise have to navigate. moomz keeps the polls anonymous by default which lets honest opinions emerge."
+      },
+      {
+        "h": "Menu, cake, music, and the entertainment vote",
+        "body": "Food and music are the two most-remembered parts of any wedding. For the menu, run polls on style (plated dinner, buffet, family-style sharing, food trucks for a casual outdoor vibe, cocktail-only reception). Then specific course polls (starter options, three main courses with one veggie, dessert format). Cake polls take a small bracket: classic three-tier with white frosting, naked cake, croquembouche, dessert table without a single cake, cake plus dessert table. Dietary polls one month out (vegetarian count, vegan count, gluten-free count, allergies). For music, the polls multiply: live band, DJ, mixed, ceremony classical-vs-modern, first dance song shortlist (run a poll among close friends to test which song lands best emotionally), reception bangers shortlist. A separate poll among guests a week before the wedding asking for one song they want guaranteed to play is a strong move: it gives the DJ a request list, makes guests feel involved, and surfaces wedding-banger gems."
+      },
+      {
+        "h": "Honeymoon, after-party, and post-wedding brunch polls",
+        "body": "The honeymoon is the most personal wedding poll and often runs between just the two of you. Run a poll between the couple on destination style (full beach relaxation, adventurous travel like Japan or South America, safari, European city-hopping, all-inclusive resort versus boutique villa, road trip). Budget polls between the couple are also useful before either of you fall in love with an unrealistic option. For the after-party (the post-ceremony party for the closest friends only), run polls on format (full club night, intimate cocktail bar, late-night burger run with the inner circle, hotel room party until dawn). Post-wedding brunch the next morning is another classic moomz poll territory: at the venue, at a nearby restaurant, casual at the family home, skip entirely. Save each poll's short link in a single wedding-planning document. Couples often look back on the sequence of polls a year later and find it weirdly emotional: every animated bar represents a small consensus that built the day they remember."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the most useful poll to send to wedding guests?",
+        "a": "The dietary and song request poll, one month before the wedding. Question: \"any dietary needs we should tell the caterer\" with options vegetarian, vegan, gluten-free, allergies, none. Second poll: \"one song you want the DJ to play.\" Both give the couple practical data and make guests feel involved in the planning. moomz keeps the polls anonymous so people are honest about dietary needs they might be shy to mention in a direct DM."
+      },
+      {
+        "q": "Can polls help with the seating chart?",
+        "a": "Indirectly. A direct seating poll among guests is risky (it surfaces social tensions), but polls among the bridal party or close friends about whether to do open seating, assigned tables only, or full assigned seats, are very useful. Some couples also run a private poll between just themselves and one trusted friend on specific tricky pairings: the divorced cousins, the friend who brought a complicated date, the parents' work friends. moomz polls being anonymous keeps the discussion calm."
+      },
+      {
+        "q": "What is a smart way to use polls for the wedding budget?",
+        "a": "Run polls between the couple and any contributing parents on the budget ranges per category: venue, catering, photography, flowers, music, dress and suit, honeymoon. Each poll has four options with realistic numbers for your region. The advantage is that everyone votes anonymously on what they think is reasonable, which surfaces gaps in expectations before they become arguments. Polls also create a paper trail of who agreed to what."
+      },
+      {
+        "q": "Are honeymoon polls really worth running on moomz?",
+        "a": "Yes, especially if the couple has different travel styles. Run polls on destination style, budget range, length, activity level (full relax vs full adventure), and accommodation type. Voting reveals preferences that conversations sometimes hide. For couples planning years ahead, the polls also create a record of evolving preferences: a beach poll voted in February might be a city-hopping poll voted in November. The destination decision becomes a small fun story together."
+      }
+    ],
+    "related": ["bachelorette", "bachelor", "marriage", "first-date", "kiss", "birthday", "baby-shower"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "bachelorette",
+    "locale": "en",
+    "keyword": "Bachelorette Party",
+    "matchPatterns": ["bachelorette", "hen party", "hen do", "evjf", "bride to be", "girls trip"],
+    "topic": "holidays",
+    "title": "Bachelorette Polls: Destination, Theme, Activities, and the Wild Vote",
+    "description": "Plan a bachelorette with moomz polls. Vote on destination, theme, dare list, dress code, and budget. Two-tap polls, live results, no app required.",
+    "emoji": "👰",
+    "intro": "Planning a bachelorette party (or hen do, or EVJF depending on where you grew up) is the highest-stakes group coordination of any wedding adjacent event, and almost always falls on one person, the maid of honor. The bride wants a great weekend but cannot plan it for herself. The friend group wants to deliver but every member has a different budget, schedule, energy level, and tolerance for chaos. Costs spiral fast: flights, accommodation, dinners, activities, costumes, decorations, gifts, the inevitable last-minute extras. The maid of honor ends up the project manager of an emotionally charged weekend where the bride must have a perfect time and everyone else must feel included. Polls are the cleanest tool for this. They distribute the decision-making load, surface the actual preferences (not the polite-in-the-chat preferences), and give the maid of honor a paper trail when she has to make a call. moomz polls take two taps, are anonymous by default, and travel as short links across the bachelorette chat. The polls below are the ones that get used most often in real bachelorette planning: destination, budget, theme, activities, dress code, dinner format, and the eternal question of how wild to go. Run them in sequence over a few weeks and you have a full plan without a single planning call. Save the screenshots: they become a small archive that the bride can look at after the wedding as part of the memory of the weekend.",
+    "sections": [
+      {
+        "h": "Destination, budget, and date polls that lock the plan early",
+        "body": "The first decision is destination and date, and these have to be locked early because flights and accommodation only get more expensive. Run polls on destination type: domestic city break, beach weekend abroad, European capital, Vegas-style party city, countryside chateau with a private chef, ski weekend if winter. Then specific city polls within the winning category. Budget poll right after destination: total weekend cost per person, with options that match the destination (under 200, 200-400, 400-700, 700-1200, 1200+). The budget vote is anonymous on moomz which lets friends with less money signal honestly without saying so publicly. Date polls are the third critical lock: usually a Friday-Sunday or Saturday-Monday window six to eight weeks before the wedding (close enough to feel pre-wedding, far enough not to interfere with final dress fittings or honeymoon prep). Get those three polls done in the first two weeks of planning and the rest falls into place."
+      },
+      {
+        "h": "Theme, dress code, and activity polls",
+        "body": "Theme is what makes a bachelorette feel intentional rather than a regular trip. Polls on theme: classic glam (white for the bride, color for the squad), nineties throwback, beach bohemian, cowgirl, disco, Barbie pink, all-black with one statement piece, custom matching tees. Then dress code polls per day if it is a multi-day trip: day one travel and welcome dinner, day two beach or city activity, day three brunch and wrap. Activity polls multiply: spa day, boat trip, cooking class, dance class, escape room, scavenger hunt around the city, museum-and-cocktails crawl, full club night, low-key vineyard or rooftop. Each activity option has a different price, energy level, and vibe. The poll surfaces what the actual group wants, not what looks best on Instagram. For larger groups (10+), the maid of honor can run two parallel polls: one for the must-do activity the whole group does, and one for the optional split-off activity for the friends who want a quieter or wilder version."
+      },
+      {
+        "h": "Dare list, dinner format, and the wildness vote",
+        "body": "The classic bachelorette dare list (the list of small challenges the bride completes through the weekend) needs a poll on its own. Vote on the tone: full chaotic dares with strangers, just fun mild dares within the friend group, no dares because the bride hates them, photo scavenger hunt instead. Each option speaks to a different bride. The maid of honor should know which it is before printing the list. Dinner polls separate by night: night one classic restaurant, night two private chef at the Airbnb, night three big group dinner with rotating seats. The wildness vote is the most honest poll of the weekend: how wild should the bachelorette go (totally chill girls trip vibes, party but no strippers, full Vegas energy with no rules). Run this poll only among the bridesmaids, not including the bride, to find the consensus. moomz polls anonymous default removes the social pressure of voting on the louder side just to seem fun. The result becomes the brief for the weekend."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the first poll the maid of honor should send?",
+        "a": "The budget range poll, anonymously. Before locking destination or dates, run a moomz poll among the bridesmaids and close friends on the total weekend cost they can comfortably do. Anonymous voting is critical because friends will not publicly admit financial constraints. Once you have the budget signal, destination polls become realistic. Skipping this step is the most common bachelorette planning mistake and the source of most pre-wedding friend group tension."
+      },
+      {
+        "q": "How do I poll about wildness without offending the bride?",
+        "a": "Run the wildness poll in a side chat with only the bridesmaids, excluding the bride. The bride should not feel like her friends are pre-deciding the tone of her weekend, but the maid of honor needs the data to brief the activities. After the poll, the maid of honor checks in privately with the bride on the result before locking it. moomz polls being anonymous means the bridesmaids vote honestly about their own comfort level."
+      },
+      {
+        "q": "Can I use moomz for the bachelorette outfit coordination?",
+        "a": "Yes. Run polls on the group dress code per day with three or four options each. Include a poll on the bride's outfit options if she wants squad input. Friends can vote on the matching color, the cowgirl hats yes-or-no, the sash style, the tiara, and the custom tee design. Each poll is a short link that the bride or the maid of honor can share, and the bars animate live which makes the chat feel collaborative rather than admin-heavy."
+      },
+      {
+        "q": "Should I poll the bride directly or plan everything in a side chat?",
+        "a": "Both. Run logistics polls (budget, date conflicts, dare list tone) in the bridesmaids-only side chat without the bride, so honest signals come through. Run aesthetic polls (theme, dress code, color palette, activity preference) in the main chat with the bride so she feels involved in the fun parts. The split keeps the bride out of the stressful coordination while letting her shape the experience. moomz polls have separate short links so the two chats stay cleanly separated."
+      }
+    ],
+    "related": ["bachelor", "wedding", "marriage", "birthday", "first-date", "baby-shower", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "bachelor",
+    "locale": "en",
+    "keyword": "Bachelor Party",
+    "matchPatterns": ["bachelor", "stag", "stag do", "evg", "groom to be", "boys trip"],
+    "topic": "holidays",
+    "title": "Bachelor Polls: Destination, Activities, Wildness, and the Squad Vote",
+    "description": "Plan a bachelor party with moomz polls. Vote on destination, activities, dress code, budget, and wildness level. Two-tap polls, live results.",
+    "emoji": "🤵",
+    "intro": "A bachelor party (stag do, EVG, depending on where you grew up) is a weekend with two competing forces. The groom wants a memorable send-off with his closest friends. The best man wants to deliver but does not want to be the one who ruins someone's wedding by pushing too hard. The friend group spans different life stages: the single ones, the partnered ones, the new dads, the old college roommates, and the work friends. Each has a different idea of what a good bachelor weekend looks like. Some want full chaos. Some want a chill cabin with whisky and a fire. Some are torn between the two. The classic mistake is to default to a Vegas template or a stag-cliche stripper night without checking what the groom actually wants. Polls fix this in one move. The best man runs a series of polls to surface the real preferences, lock the budget, pick the destination, and build the activity list. moomz polls are two-tap, anonymous by default, and travel as short links across WhatsApp or iMessage. The polls below are the ones that get used most often in real bachelor planning: destination, budget, activities (the full range from poker night to extreme sports), dress code, dinner format, and the wildness vote. Run them across two or three weeks and the weekend assembles itself without endless group calls. Save the short links: months later the chat can rerun the same polls for the next friend's bachelor.",
+    "sections": [
+      {
+        "h": "Destination, budget, and the weekend format poll",
+        "body": "First lock the destination type. Run polls on format: city weekend (Vegas, Miami, Barcelona, Berlin, Amsterdam), countryside escape (cabin, hunting lodge, vineyard, fishing trip), adventure (skiing, mountain biking, surf camp, rafting), all-inclusive resort, golf weekend, festival like a music or sports event tied to the trip. Each option implies a different energy and budget. Budget poll right after: total weekend cost per person, with options that match the destination (under 250, 250-500, 500-900, 900-1500, 1500+). Anonymous voting on moomz lets friends who do not want to overspend say so without losing face. Date polls follow: typically a Thursday-Sunday or Friday-Sunday window six to ten weeks before the wedding. Pick a date that does not clash with the bachelorette weekend so partners are not both away at once. Get destination, budget, and dates locked in two weeks and the rest builds easily."
+      },
+      {
+        "h": "Activities, dinners, and the daytime program",
+        "body": "Activities are the heart of the bachelor weekend and where preferences diverge most. Run polls on the big daytime activity: golf, paintball, go-karting, axe throwing, rafting, helicopter ride, brewery tour, casino daytime, watersports, escape room, gun range where legal. For the evening: nice steakhouse, dive bar crawl, club night, poker night at the rental, sports event in town (NBA, NFL, Premier League depending on city and season), late-night burger run. For the daytime split, the best man can run two polls: a main activity for the whole group and an optional second one for the friends who want a quieter or wilder version. Dress code poll if the group is leaning theme: matching shirts, all-black, custom hats, full suits for the dinner. Add a poll on whether the groom wears something distinct (sash, custom shirt, hat) so everyone knows the level of public visibility he is comfortable with."
+      },
+      {
+        "h": "Wildness vote, dare list, and the closing brunch",
+        "body": "The wildness vote is the most important poll of the bachelor weekend. Run it in the side chat with the groomsmen only, not including the groom, so honest signals come through. Options: full Vegas energy with strippers and clubs, party but no strippers, party with strippers off the table but with rage room and night-out energy, full chill weekend with whisky and conversation, mixed (one wild night plus rest chill). The result is the brief for the weekend. The best man then checks privately with the groom on a few key calls (strippers yes or no, public visibility, drinking pace) before locking. Dare list polls follow the same tone-setting logic: chaotic dares involving strangers, mild fun dares within the friend group, photo scavenger hunt, no dares because the groom hates them. Closing brunch the morning of the last day: full at the rental with the leftover food, at a recovery restaurant nearby, skip entirely and head to the airport. Save the polls: the next bachelor in the friend group reuses the template, with the groom subbed out for the next one."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the first poll the best man should send?",
+        "a": "The anonymous budget range poll. Before destination, before activities, before anything else, run a moomz poll among the groomsmen and the close friends on the total weekend budget each can comfortably handle. Anonymous voting is critical because men in particular tend to overestimate their willingness to spend in public chat and then back out closer to the date. Lock the budget first, then build the destination and activities to match. This avoids the most common bachelor planning failure: the last-minute drop-outs."
+      },
+      {
+        "q": "How do I poll about strippers without making it weird?",
+        "a": "Run the poll in the groomsmen-only side chat, excluding the groom, with options yes the groom would love it, no he would hate it, only mild like a club with dancers and no private bookings, depends but we should ask him first. moomz polls being anonymous removes social pressure to vote on the louder side. After the poll, the best man checks with the groom privately on a single yes-or-no question rather than dragging out the chat debate."
+      },
+      {
+        "q": "Can the bachelor and bachelorette share polls?",
+        "a": "Only the very high-level ones, like the date window so the trips do not clash. Beyond that, the bachelor and bachelorette planning chats should stay completely separate. Each side runs its own polls in its own chat with its own short links on moomz. Sharing detailed plans across the two chats is the fastest way to leak surprises and create awkwardness between the couple about activities they were each promised would stay private."
+      },
+      {
+        "q": "Should the groom vote in any of the bachelor polls?",
+        "a": "Yes, but selectively. The groom should vote on aesthetic polls (destination type, dress code, theme, dare list tone, golf vs activity preference) so he shapes the experience. He should not vote on logistic and tone polls (budget per person, wildness level, surprise activities). The best man runs the second set of polls in the groomsmen-only side chat. Splitting the polls across two chats keeps the groom involved in the fun parts and shielded from the project management."
+      }
+    ],
+    "related": ["bachelorette", "wedding", "marriage", "first-date", "birthday", "road-trip", "ufc"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "baby-shower",
+    "locale": "en",
+    "keyword": "Baby Shower",
+    "matchPatterns": ["baby shower", "gender reveal", "nursery", "diaper", "newborn", "parent to be"],
+    "topic": "holidays",
+    "title": "Baby Shower Polls: Theme, Games, Gifts, and Gender Reveal",
+    "description": "Plan a baby shower with moomz polls. Vote on theme, games, gift registry, food, and gender reveal style. Two-tap polls, live results, no app.",
+    "emoji": "🍼",
+    "intro": "The modern baby shower is younger than most people assume. The term itself only entered mainstream American usage around 1947, in the postwar consumer boom that turned a previously informal practice into a structured social event with a gift registry, themed decor, games, and a guest list. Before that, communities marked impending parenthood in much more varied and quiet ways across cultures: small gatherings, single gifts from close family, no formal celebration at all in many traditions. Today the baby shower is a global format with major regional variations: in the US it is often a women-only afternoon centered on games and gifts, in the UK it stayed niche until the 2010s, in many Asian and Middle Eastern cultures the equivalent ritual happens after the baby is born rather than before, and in Latin America the bautizo and post-birth celebrations often outweigh the pre-birth shower. Planning one in 2026 involves navigating expectations across all of those traditions, which is a lot for one host (usually a sister, best friend, or mother-in-law). Polls handle the load. They surface what the parents-to-be actually want, what the guests will actually attend, and what games will land vs flop. moomz polls take two taps, are anonymous by default, and travel as short links. The polls below cover the main baby shower categories: theme, format, games, gifts, gender reveal, and the after-shower thank-you logistics.",
+    "sections": [
+      {
+        "h": "Theme, format, and guest list polls",
+        "body": "First poll the parents-to-be on whether they even want a baby shower. Some couples genuinely do not. Options: yes traditional baby shower, yes but small and low-key, only a sip-and-see after the baby arrives, no shower at all just gifts welcome. Once green-lit, run polls on the format: women-only traditional, mixed gender modern style, virtual for distant family with video call element, twin parties (one local one remote). Theme polls follow: classic blue or pink, gender-neutral nature theme (woodland, jungle, ocean), Disney or character theme, minimalist sage and cream aesthetic, fully personal theme based on a hobby of the parents (books, travel, music). Guest list polls are sensitive but useful: invite extended family yes or no, work friends invited, children of the guests invited or adults only. moomz polls being anonymous means the parents-to-be can vote honestly on the awkward calls without anyone feeling singled out. Lock theme and format two months out so invitations can go out one month before."
+      },
+      {
+        "h": "Games, food, and the afternoon program",
+        "body": "Games are the most love-or-hate element of any baby shower. Some guests live for them, others find them awkward. Poll the parents-to-be on the games yes-or-no question first: full games schedule, just one or two light games, no games at all. If yes, run a follow-up poll on which specific games: guess-the-baby-food taste test, baby photo match (each guest brings a photo of themselves as a baby), name-the-baby brainstorm, who-knows-mom-or-dad-best trivia, diaper raffle, predictions for the baby's birthday and weight. Each is a different vibe. Food polls multiply: afternoon tea finger foods, full lunch, brunch format, dessert table only, cake and coffee. Drinks polls: full bar yes or no (some parents prefer all guests stay sober out of solidarity), mocktail bar, just water and juices. Decor polls: balloon arch yes or no, photo wall, custom backdrop with the baby's name, simple flowers only. Save the short links for each: the full sequence becomes the host's playbook for the day."
+      },
+      {
+        "h": "Gifts, gender reveal, and the thank-you logistics",
+        "body": "Gift coordination is the most stressful guest-facing element. Run polls in the guest chat (not including the parents-to-be) on the gift coordination format: group gift to the registry, each guest brings own gift from the registry, mix of one group gift plus small individual ones, cash gift in a card for the parents to choose later. Budget polls anonymously, with options like 20, 50, 100, 200. For the gender reveal element (if the parents are doing one and want it tied to the shower), run polls on the format: classic colored cupcakes, balloon pop, smoke cannon, fireworks if outdoor, no reveal because the parents want to keep it private until birth. The thank-you logistics are often forgotten: poll the parents-to-be on whether they want a thank-you card sent (yes individual, yes group, no thank-yous expected), whether photos from the shower are okay to share publicly on social media or strictly family only. moomz polls travel cleanly across the family WhatsApp chat without anyone needing an app."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the modern baby shower format start?",
+        "a": "The term baby shower entered mainstream American usage around 1947 in the postwar consumer boom, when an informal community practice was formalized into a structured social event with games, registry, and themed decor. Before that, communities marked impending parenthood quietly through small family gatherings or single gifts. The format spread globally through American pop culture from the 1990s onward, with major regional variations in the UK, Asia, the Middle East, and Latin America where post-birth celebrations often replace the pre-birth shower."
+      },
+      {
+        "q": "How do I ask the parents-to-be if they even want a baby shower?",
+        "a": "Send a single private poll on moomz to one of them, with options: yes traditional shower, yes but small, only a sip-and-see after baby arrives, no shower just gifts welcome. Anonymous voting is not really the point here since the audience is just one or two people, but the poll format is gentler than a direct question because it offers structured options. Some parents-to-be genuinely do not want one and the poll format makes it easy to say no without feeling rude."
+      },
+      {
+        "q": "What is the best game-versus-no-games poll for a baby shower?",
+        "a": "Send the poll to the parents-to-be and to two or three close guests with this question and options: full games schedule, one or two light games only, no games at all. If the result leans toward games, follow up with a second poll listing five specific game options and let the result decide which two or three to run. This avoids the awkward situation where the host plans games the parents-to-be quietly hate."
+      },
+      {
+        "q": "Can moomz handle the gender reveal poll among guests?",
+        "a": "Yes. Run polls on the format (cupcakes, balloon pop, smoke cannon, fireworks, no reveal at all), and a separate guest prediction poll on whether they think it is a boy or a girl. The prediction poll is great content for the day: a screenshot of the live results just before the reveal creates a small dramatic moment. moomz polls anonymous default means guests vote honestly rather than guessing what the parents want to hear."
+      }
+    ],
+    "related": ["wedding", "birthday", "bachelorette", "marriage", "first-date", "baby-shower", "christmas"],
+    "updatedAt": "2026-05-19"
+  }
+]

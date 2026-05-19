@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "paris",
+    "locale": "en",
+    "keyword": "Paris",
+    "matchPatterns": ["paris", "eiffel", "louvre", "montmartre", "seine"],
+    "topic": "travel",
+    "title": "Paris Polls: Vote Like a True Parisian on moomz",
+    "description": "Vote on Paris polls about food, fashion, neighborhoods, and Eiffel Tower views. Share with friends, see live results, and discover the real Paris vibe on moomz.",
+    "emoji": "🗼",
+    "intro": "Paris is more than the Eiffel Tower and a postcard skyline. It is a 2,000-year-old conversation that started when the Celtic Parisii tribe settled on the Ile de la Cite around 250 BC, fishing the Seine and trading with travelers heading north to Britannia. Rome turned it into Lutetia, Hugues Capet made it the seat of the French kingdom, Haussmann redrew its boulevards in the 1850s, and today twenty arrondissements wrap around the same old island in a tight spiral that locals know by heart. To love Paris is to argue about it. Which bakery has the best croissant. Whether the Marais beats Pigalle for a Friday night. Whether the Louvre is worth the queue or if the Musee d'Orsay is the smarter pick. Whether tourists should ever wear a beret. These are not boring questions. They are the kind of debates that fill terraces, kitchens, and group chats every single day across the city. moomz lets you turn those debates into instant polls. Drop a Paris question, send the short link to your friends, and watch the votes roll in live with animated bars and emoji reactions. Whether you are planning a weekend trip, moving for a year, or just dreaming of warm pain au chocolat by the Canal Saint-Martin, the city becomes way more fun when you crowdsource opinions. Read on for the polls Paris lovers are running right now, the questions that always go viral, and how to vote like a real Parisian, not a tourist with a checklist.",
+    "sections": [
+      {
+        "h": "What Paris really feels like, beyond the postcards",
+        "body": "Paris is loud, layered, and a little contradictory. You can find a boulangerie that opens at 6 AM next to a wine bar that closes at 2 AM, on the same medieval street, in the same building. The city has roughly 2.1 million people inside the peripherique but 12 million in the metropolitan area, which means the version of Paris you experience changes a lot depending on whether you are in the 7th, the 11th, the 19th, or in nearby Saint-Denis. Visitors usually do the Tour Eiffel, the Louvre, Notre-Dame, the Champs-Elysees, and Sacre-Coeur in three days. Locals roll their eyes at all of that and tell you to go to Belleville at sunset, eat dumplings on rue de Belleville, walk down to the Buttes-Chaumont park, and end the night at a wine bar where nobody speaks English. Both versions are real. Both versions are Paris. The polls people post on moomz capture exactly that split. Tourists ask things like best photo spot near the Eiffel Tower or best macaron shop. Locals ask which arrondissement is the most overrated, whether the metro line 13 is genuinely cursed, or if Bofinger or Brasserie Lipp serves the better choucroute. Use polls to bridge those two perspectives, especially if you are visiting and want honest answers instead of TripAdvisor sludge."
+      },
+      {
+        "h": "Polls Parisians love to run on moomz",
+        "body": "The most viral Paris polls follow a few clear patterns. First, the food fights: best croissant in the city, best falafel rue des Rosiers, best burger, best natural wine bar, best ramen on rue Sainte-Anne. Food is identity in Paris, and opinions are loud. Second, the neighborhood debates: Marais vs Le Marais Nord, Pigalle vs South Pigalle, Republique vs Bastille, 11th vs 10th. People will argue for hours about whether the 10th is still cool or whether it got too gentrified. Third, the practical questions for visitors: rooftop vs underground bar for the first night, Versailles or Giverny for a day trip, Eiffel Tower at sunset or at the blue hour. Fourth, the Parisian habits polls: pain au chocolat or chocolatine (and yes, in Paris it is pain au chocolat, do not start a war), still water or sparkling, Ricard or pastis, escalators on the right or stand wherever you want. moomz makes those polls land because the format is fast, share is one tap, and results animate live. You can launch a poll while you are still standing in front of the bakery and have ten answers before you reach the counter."
+      },
+      {
+        "h": "How to plan a Paris trip with crowdsourced polls",
+        "body": "Treat your Paris trip like a series of small decisions and turn each one into a poll. Day one route: Louvre or Orsay first. Lunch: bistro classic like steak frites at Le Relais de l'Entrecote, or something lighter like a salad in the Marais. Afternoon: Sainte-Chapelle stained glass or Pere Lachaise cemetery. Aperitif: rooftop at Perchoir or terrace at Cafe de Flore. Dinner: small natural wine bar in the 11th or classic brasserie in the 9th. Each of those questions takes thirty seconds to set up on moomz and gives your group a vote rather than a long Whatsapp argument. The city is dense enough that you can pivot in the middle of the day with no real downside, so polls also work mid-trip. Lost between Pigalle and South Pigalle at 9 PM. Drop a poll, get four votes from friends back home in two minutes, decide, move on. The other Paris-specific tip: ask locals through the poll prompt itself. If you tag your poll with French and post the share link in a Paris subreddit or Discord, you can get dozens of real answers in an hour. The city rewards curiosity more than checklists, and polls make curiosity scalable."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Paris worth visiting on a tight budget?",
+        "a": "Yes, easily. The metro is cheap, museums are free on the first Sunday of each month, and bakery lunches under 8 euros are everywhere. Sleep outside the 1st-7th, walk a lot, eat at boulangeries and small bistros at lunch, and grab supermarket wine for picnics on the Seine. The city has been welcoming broke travelers since the Belle Epoque. moomz polls help you pick the right neighborhood and avoid tourist traps with restaurant menus pinned in five languages."
+      },
+      {
+        "q": "When is the best time of year to visit Paris?",
+        "a": "May, June, and September are the sweet spots: mild weather, long days, fewer crowds than peak July-August. August empties the city because locals leave on vacation, which is charming but a lot of small shops close. December is magical with lights but cold and grey. Avoid the second half of July if you hate crowds. Polls on moomz often capture real-time local sentiment on when the city actually feels best."
+      },
+      {
+        "q": "Eiffel Tower at sunset or at night?",
+        "a": "Both, honestly. Sunset gives you the golden glow on the Seine, but the tower itself looks better at night when the wrought iron lights up and sparkles for five minutes every hour from sunset until 1 AM. Go to Trocadero around 30 minutes before sunset, stay through the first sparkle. If you only have one shot, choose night for the photos but keep the daytime visit if you want to climb it."
+      },
+      {
+        "q": "How do moomz Paris polls work?",
+        "a": "You write a question with 2 to 6 options, hit publish, and get a short link like moomz.com/abc12. Share the link in your group chat or social story. Votes show up live with animated bars and an instant percentage breakdown. No login required, no apps to install, no ads. It takes less time than typing the question into Google, and the results are way more fun because they come from people you actually know."
+      }
+    ],
+    "related": ["tokyo", "london", "new-york", "rome", "barcelona", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "tokyo",
+    "locale": "en",
+    "keyword": "Tokyo",
+    "matchPatterns": ["tokyo", "shibuya", "shinjuku", "harajuku", "akihabara"],
+    "topic": "travel",
+    "title": "Tokyo Polls: Vote on Ramen, Shibuya, and Late-Night Tokyo Vibes",
+    "description": "Crowdsource your Tokyo trip with moomz polls about ramen shops, neighborhoods, anime spots, and karaoke nights. Live results, instant sharing, zero login.",
+    "emoji": "🗾",
+    "intro": "Tokyo only became Tokyo in 1868. Before then it was Edo, a fishing village that exploded into the largest city on earth under the Tokugawa shogunate, then was renamed Tokyo, eastern capital, when Emperor Meiji moved the imperial seat from Kyoto and dragged Japan into the modern era almost overnight. That hinge moment is why Tokyo feels like two cities stacked on top of each other. There is the new Tokyo of Shibuya Crossing, neon-lit Shinjuku, glass towers in Roppongi, robot dogs in Akihabara, conveyor belt sushi, Pokemon cafes, and Don Quijote stores open until 5 AM. And there is the older Tokyo of Yanaka cemetery, wooden temples in Asakusa, public bathhouses in shitamachi, old-school standing bars under the train tracks in Yurakucho, and quiet shrines tucked between vending machines. Both versions coexist, sometimes within two blocks of each other. That is what makes Tokyo such a perfect city to poll about. Every block triggers a decision. Tonkotsu ramen or shoyu ramen. Conveyor sushi or omakase. Karaoke until 4 AM or first train back to your Airbnb. Shibuya Sky observation deck or Tokyo Tower. The city has too many great options to ever pick blind, and one poll on moomz can save you a wasted evening. This guide walks through the polls Tokyo lovers actually run, the questions that always trigger the loudest debate, and how to use crowdsourced votes to plan a trip that feels authentic instead of generic.",
+    "sections": [
+      {
+        "h": "Tokyo by neighborhood: which one is your trip about",
+        "body": "Tokyo is functionally a constellation of cities. Shibuya is young, loud, fashion-forward, and home to the famous scramble crossing where about 2,500 people cross every two minutes. Shinjuku is bigger, denser, with the world's busiest train station and the neon alleys of Kabukicho. Harajuku is fashion experiments and Takeshita-dori candy stores. Akihabara is anime, manga, retro games, and maid cafes. Ginza is luxury shopping and old-money sushi temples. Roppongi is nightlife and art museums. Asakusa is temples and traditional Tokyo. Shimokitazawa is vintage stores, indie music, and slow afternoons in coffee shops. Each one is essentially a different trip, which is why veteran Tokyo travelers always ask first: which neighborhood do you want this trip to be about. The other version of this question, the one that gets the most votes on moomz, is which neighborhood is most overrated. The answers are spicier than you'd think. Some people will defend Shibuya forever. Others say it is just a giant Uniqlo. Akihabara polarizes too: anime fans love it, everyone else finds it overwhelming. Polls cut through the noise faster than reading thirty blog posts."
+      },
+      {
+        "h": "Food polls that turn Tokyo trips into food trips",
+        "body": "Tokyo has more Michelin stars than any other city in the world, but the magic is at the bottom of the price ladder. A 900-yen tonkotsu ramen at Ichiran, conveyor sushi at Uobei in Shibuya, a 7-Eleven egg sandwich at 3 AM, melon pan from a corner bakery, soba at a stand-and-slurp counter in a subway station. The food poll grid writes itself. Ichiran or Ippudo for ramen. Sukiyabashi Jiro or a random kaiten place where the salmon costs 100 yen a plate. Conbini breakfast or proper kissaten coffee. Yakitori in a smoky alley or fancy isakaya. Each one of these is a poll people want to run. moomz polls are also great for fixing the analysis paralysis problem unique to Tokyo: there are 80,000 restaurants in the central wards alone, and Google ratings are useless because every place has 4.0. Friends voting on three concrete options is faster than scrolling Tabelog for an hour and ending up at a chain because you got hungry."
+      },
+      {
+        "h": "Nightlife, karaoke, and Tokyo at 3 AM",
+        "body": "Tokyo's last trains stop around midnight, which means a Tokyo night is either over by then or going until 5 AM when service resumes. Most travelers underestimate option two. The city at 3 AM is a different world: golden-lit izakaya in Ebisu, kombini snack runs with locals coming back from second shifts, karaoke booths in Shinjuku with bottomless drinks until dawn, the Robot Restaurant if you want chaos, jazz bars in Shimokitazawa for something quieter, and Don Quijote runs because somehow you always need socks at 4 AM. Polls help groups decide where the night actually goes. Karaoke or bar hopping. Shinjuku Golden Gai or Nonbei Yokocho. Whisky highball or chuhai. Walking distance to Yamanote line or just take a cab. The other classic moomz poll: how long do we stay out. First train, second train, or push to breakfast at Tsukiji outer market for sushi rice bowls before sleeping all day. There is no wrong answer, only the answer your group commits to."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do you need for Tokyo?",
+        "a": "Four full days is the minimum to scratch the surface. A week lets you do Tokyo plus a day trip to Hakone or Kamakura. Two weeks is when the city stops feeling overwhelming and starts feeling navigable. Most people regret going too short rather than too long. Polls on moomz help you pick which neighborhoods to prioritize if your time is tight, so you do not waste a day wandering aimlessly between districts that all blur together for newcomers."
+      },
+      {
+        "q": "Is Tokyo expensive compared to Paris or London?",
+        "a": "Less than you think. A solid ramen costs about 1,000 yen, around 7 dollars. Conbini breakfast is 500 yen. Hotels are cheaper than Paris and metro fares are reasonable for the distances involved. Where Tokyo gets expensive is taxis, Michelin-tier sushi, and Roppongi clubs. Stick to mid-range options and you'll spend less per day than Paris or London. Polls help you decide where to splurge and where to keep it cheap."
+      },
+      {
+        "q": "Is it easy to get around without speaking Japanese?",
+        "a": "Surprisingly easy in central Tokyo. Train signs are bilingual, Google Maps and Google Translate work flawlessly, and most restaurants have picture menus or plastic food displays. Tap-to-pay with Suica is universal. Some izakaya and tiny ramen places are Japanese-only but pointing works. Outside Tokyo and Kyoto the language barrier is more real, but the central wards are very tourist-functional, especially since the 2020 Olympics push."
+      },
+      {
+        "q": "Best season to visit Tokyo?",
+        "a": "Late March to early April for cherry blossoms is unbeatable but crowded. October and November give you crisp weather, foliage in nearby Nikko, and fewer tourists. Avoid the rainy season in June and the humid heat of August unless you love sweating. Winter is mild for Tokyo proper, maybe 5-10 degrees Celsius, and the city looks beautiful with clear blue skies and Mount Fuji visible from observation decks on cold days."
+      }
+    ],
+    "related": ["paris", "bali", "ramen", "anime", "kpop", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "beach",
+    "locale": "en",
+    "keyword": "Beach",
+    "matchPatterns": ["beach", "sea", "sand", "ocean shore", "coast"],
+    "topic": "travel",
+    "title": "Beach Polls: Vote on the Best Beaches, Vibes, and Trips",
+    "description": "Pick your dream beach with moomz polls. Vote on tropical vs Med, crowded vs hidden, surf vs swim, and the best beach destinations of the year.",
+    "emoji": "🏖️",
+    "intro": "Beaches are universal but never the same. The Mediterranean has tiny pebble coves where the water is so clear you can see your toes ten feet down. The Caribbean has powder-soft sand and that turquoise color that looks photoshopped even in person. Australian beaches like Bondi or Whitehaven have a wild, surfy energy. Bali, Goa, and Tulum each have their own beach culture, half travel destination and half lifestyle. Then there are the underdog beaches, the ones nobody talks about but locals defend with their lives: the cold but wild Atlantic coast of Portugal, the Black Sea in Bulgaria, Lake Michigan in summer when it suddenly feels like an ocean. A beach is never just a beach. It is a question about climate, crowds, vibe, water temperature, sunset orientation, sand color, and what you actually want to do, swim, surf, snorkel, drink, read, party, or do absolutely nothing. moomz makes those questions easy to crowdsource. Drop a poll between two beach destinations, share with your group chat, get five votes in three minutes, book the flights. This guide walks through how to think about beach trips, the polls that always go viral, and the kind of beach questions friends actually want to vote on.",
+    "sections": [
+      {
+        "h": "Tropical vs Mediterranean: the eternal beach debate",
+        "body": "There are essentially two beach archetypes that dominate travel polls. Tropical beaches, the Caribbean, Southeast Asia, the Indian Ocean, the Maldives, Mexico, Costa Rica, Bali, are warm water year-round, palm trees, white or pink sand, often coral reefs nearby, and an all-day swimming temperature even in winter. Mediterranean beaches, the south of France, Italy, Greece, Croatia, Spain, are pebble or sand, clear blue water that is genuinely cold in May and almost warm by August, rocky cliffs, and a culture that takes its beach lunches seriously, two-hour breaks with cold rose and grilled fish. Each side has die-hard fans. Tropical fans love the warm water and lush vibe. Mediterranean fans love the food, the history within walking distance, and the lower humidity. moomz polls on this question always split fifty-fifty within the same friend group. Which is why running the poll is more useful than arguing. You also learn things, like which friends will absolutely refuse to swim in anything under 23 degrees Celsius, and which ones think the Atlantic at 15 degrees is bracing rather than miserable."
+      },
+      {
+        "h": "Hidden beaches vs Instagram beaches",
+        "body": "The most viral beach trend of the last five years was the Instagram beach. Bali's Diamond Beach. Sardinia's La Pelosa. The Algarve's Benagil cave. Whitehaven Beach in Australia. Maya Bay in Thailand, which had to close for three years to recover from over-tourism. All photogenic, all famous, all crowded. The pendulum is swinging back. A new generation of travelers, especially those who travel solo or as couples rather than influencer groups, prefer hidden coves, public-transport beaches outside big resorts, and beaches that show up on local maps but not on TikTok. The poll question that always works on moomz is: hidden gem or famous beach. Half your friends will pick the famous one for the photos and bragging rights. The other half will pick the hidden one because they actually want to swim. Both are valid. Honest answer though: the best beach trips usually mix one or two famous spots with three or four obscure ones, ideally that you found through a local recommendation or a moomz poll posted in a niche travel forum. Crowdsourcing beats Top 10 listicles every time."
+      },
+      {
+        "h": "What to actually do at the beach (besides scroll)",
+        "body": "The hardest part of a beach trip is honestly the third day, when you have done your first swim, taken your golden hour photos, and are now staring at the horizon wondering what's next. Some friends want to read all afternoon. Others want to snorkel, paddleboard, kayak to a cave, hike to a viewpoint, learn to surf, eat seafood, drink frose, jet ski, or party at a beach club until 4 AM. Each of these is a poll. moomz beach polls also tend to surface a real divide: chill beach vs active beach. Some people travel to do nothing. Others would lose their minds doing nothing. Knowing which camp your travel group is in saves a lot of friction. The other practical tip: poll your group on logistics. Beach club with day beds at 60 euros or public beach with a towel. Hotel breakfast or beach shack. Sunset cocktails at the fancy spot or two-euro beers at the marina. Polls cut decision fatigue, especially when everyone is sunburnt and underslept and nobody wants to choose."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What's the best beach destination for a first trip?",
+        "a": "It depends on your home airport, but the safest first-beach-trip picks are the Algarve in Portugal, the Greek islands like Naxos or Milos, the Croatian coast around Split, and Tulum or the Caribbean side of Mexico. They balance beach quality, affordability, and easy logistics. Bali and Thailand are amazing but logistically tougher for a first solo or couple trip. Use moomz polls to pick between two or three shortlisted destinations and let your group vote."
+      },
+      {
+        "q": "Sand or pebble beaches: which is better?",
+        "a": "Sand wins for lounging and kids. Pebble wins for water clarity, because pebbles do not get kicked up into the water like sand does. Mediterranean coves with pebble beaches usually have crystal-clear visibility for snorkeling. Pack water shoes if you go pebble, swim shoes solve the only real downside. Sand is more comfortable for naps but gets everywhere, in your bag, your car, your bed for two weeks."
+      },
+      {
+        "q": "How to find non-touristy beaches?",
+        "a": "Three tricks. One: rent a car or scooter and drive past the first three signposted beaches, the fourth is usually emptier. Two: ask the staff at your hotel where they go on their day off, not where they recommend tourists go. Three: post a moomz poll in a destination subreddit or Facebook group asking locals for two underrated beaches near the famous one. Locals love being asked and you get answers in hours."
+      },
+      {
+        "q": "Best beach activities for a group with mixed vibes?",
+        "a": "Snorkeling because it works for everyone, paddleboarding because it is easy and looks cool in photos, a sunset boat trip because nobody refuses sunset, and a beach lunch with grilled fish and rose. Skip the things that require everyone to commit, like a full surf lesson, unless you already know everyone is into it. Poll your group before booking anything that costs more than 30 euros per person."
+      }
+    ],
+    "related": ["bali", "ocean", "sun", "summer", "road-trip", "barcelona"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mountains",
+    "locale": "en",
+    "keyword": "Mountains",
+    "matchPatterns": ["mountain", "alps", "hiking", "summit", "peak", "trail"],
+    "topic": "travel",
+    "title": "Mountain Polls: Vote on Hikes, Peaks, and Alpine Escapes",
+    "description": "Pick your next mountain trip with moomz polls. Vote on Alps vs Rockies, hike vs ski, day trip vs week-long trek, and the best mountain villages.",
+    "emoji": "⛰️",
+    "intro": "Mountains do something to people. They reset your nervous system. They humble you with scale. They show you weather changing in real time. They give you that specific kind of tired where you sleep ten hours straight and wake up feeling lighter than you have in months. Mountain trips are also one of the most under-shared travel categories online, because they are harder to compress into a 30-second TikTok and the best moments are usually the quiet ones, hot tea at a mountain hut, a sunrise above the clouds, a thunderstorm rolling in across a valley. The Alps cover seven countries and are the most accessible big-mountain range for most Europeans. The Rockies and the Sierra Nevada are the American equivalent. The Andes run nearly five thousand miles from Colombia to Patagonia. Norway has fjords and arctic peaks. Japan has Mount Fuji and the Japanese Alps. New Zealand has Fiordland and the Southern Alps. Each one has its own culture, food, and trail style. moomz polls make picking a mountain trip easier because the questions that matter are big and specific at the same time. Alps or Rockies. Summer hiking or winter skiing. Mountain hut traverse or one base village. Solo or with friends. Each one is a fork, and friends voting on it is faster than browsing seven blogs that all say the same thing.",
+    "sections": [
+      {
+        "h": "Alps vs Rockies vs the rest of the world",
+        "body": "The Alps win for infrastructure and village culture. Almost every Alpine valley has a centuries-old village with proper restaurants, mountain huts (refuges) that serve real meals and let you sleep in dorms, and trail signage in three languages. You can hike hut-to-hut for a week with just a daypack because food and beds are sorted at each stop. The Rockies win for raw scale and wilderness. Glacier National Park, Banff, Jasper, Rocky Mountain National Park, you get the sense of being genuinely far from civilization. Patagonia and the Andes win for drama, weather, and that end-of-the-world feeling. Japan wins for trail quality, hot springs at the trailhead, and that unique mix of mountain shrines and ramen at every refuge. moomz polls comparing these always get fierce engagement because each one has a fan base. The most useful version of the poll is not which is best in the abstract, but which is best for your specific trip: a week off in August, a long weekend in October, a Christmas escape, a multi-week adventure. Frame the question with constraints and the votes get more honest."
+      },
+      {
+        "h": "Hiking, skiing, or just sitting on a balcony",
+        "body": "The other big mountain trip fork is what you actually do there. Hiking covers everything from a one-hour stroll on a clearly marked trail with a coffee at the end, to a 12-day Tour du Mont Blanc with a 30-kilo pack. Skiing splits between resort skiing, where the lifts do the climbing, ski touring with skins for the climb up, and freeride off-piste. Climbing is a whole other world, from sport climbing at the base of cliffs to multi-pitch alpine routes. And then there is the underrated option: doing nothing. Renting a chalet, sleeping ten hours a night, reading on the balcony, eating raclette, walking thirty minutes a day, hot tub at night. moomz polls on this question are gold because they expose the gap between what friends say they want, an active mountain trip, and what they actually do once they arrive, which is mostly sleep and eat. Honest polls upfront avoid the trip where one person is up at 6 AM with crampons and the other is still in pajamas at noon."
+      },
+      {
+        "h": "Mountain food, mountain weather, mountain logistics",
+        "body": "A mountain trip is half logistics and half pure experience. Food is one of the underrated joys. Alpine cuisine, fondue, raclette, tartiflette, polenta, mountain cheeses, dark rye bread, hearty stews, is engineered for high-altitude calorie burn and tastes incredible at 2,000 meters. Japanese mountain food, ramen, soba, grilled river fish, miso soup at a refuge, hits different after a long climb. American mountain food is usually breakfast diners and post-hike beers in a town brewery. Weather is the wildcard. In the Alps, summer afternoons often have thunderstorms, so you start early and finish by 2 PM. In the Rockies, weather changes by the hour above tree line. Always check forecasts the morning of, not the day before. Logistics: book mountain huts months in advance for peak season in Europe, North American backcountry permits in winter, Patagonia anything in shoulder season. moomz polls help groups decide which constraint matters most: cheapest, most beautiful, easiest logistics, or wildest. You rarely get all four, and voting forces the trade-off into the open."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Best mountain destination for beginners?",
+        "a": "The French and Swiss Alps for summer hiking, because the trails are well marked, the huts are warm and welcoming, and you can do real high-altitude hikes without ever being more than an hour from a village. Chamonix, Zermatt, and the Tour du Mont Blanc are bucket list but accessible. Avoid Patagonia or Alaska for a first big mountain trip, the weather and logistics are tougher than they look on Instagram."
+      },
+      {
+        "q": "When is the best season for mountain hiking?",
+        "a": "Late June through mid-September for the Alps and the Rockies, with August being peak. Snow on high passes can linger into July in big snow years. Late September is gorgeous for autumn colors but huts start closing. Spring is unreliable above 2,000 meters because of snowmelt and rockfall. Plan around the snow line: peaks above 3,000 meters often need crampons even in summer."
+      },
+      {
+        "q": "How fit do you need to be for a mountain trip?",
+        "a": "It varies wildly. A village-based trip with cable cars and short walks needs zero fitness. A serious hut-to-hut hike like the Haute Route or the John Muir Trail needs months of training. Be honest with your group with a moomz poll before booking. Friends often overestimate their fitness, and a trip that is too hard turns miserable fast when one person is destroyed and another is just warming up."
+      },
+      {
+        "q": "Solo or group mountain trip?",
+        "a": "Solo is incredible for headspace but riskier on big terrain. Group is more fun socially but slower and prone to weakest-link pace. The sweet spot for most people is small group of three to five with similar fitness, ideally with one person who knows the area. moomz polls let your group sort out itinerary, hut bookings, and food without endless Whatsapp threads. Use polls for every decision over 50 euros."
+      }
+    ],
+    "related": ["snow", "wind", "climate", "camping", "road-trip", "tokyo"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "london",
+    "locale": "en",
+    "keyword": "London",
+    "matchPatterns": ["london", "thames", "soho", "shoreditch", "camden", "westminster"],
+    "topic": "travel",
+    "title": "London Polls: Vote on Pubs, Markets, and the Real London",
+    "description": "Crowdsource your London trip with moomz polls about pubs, markets, museums, and curry houses. Live results, instant share, and zero login needed.",
+    "emoji": "🇬🇧",
+    "intro": "London started as a Roman trading post called Londinium around 50 AD, founded near a fordable point on the river Thames. The Romans gave it a wall, a forum, a bridge, and a basilica, then left in the 5th century when the empire fell apart. The Anglo-Saxons mostly ignored the abandoned Roman city for two centuries, then slowly grew a new settlement just to the west. By the time William the Conqueror arrived in 1066 it was already England's biggest town, and it has never stopped growing since. Today's London has 9 million people, 32 boroughs, more than 270 nationalities living within the M25, and a famously chaotic geography where you can be in a Georgian crescent one street and a Victorian railway viaduct the next. London is impossible to summarize because it is functionally five or six cities laid on top of each other: the financial city, the royal city, the Bangladeshi city around Brick Lane, the West End theater city, the Caribbean city in Brixton, the Polish city in Hammersmith, the West African city in Peckham. Tourists do the big six: Buckingham Palace, Westminster, the Eye, Tower Bridge, the British Museum, Notting Hill. Locals roll their eyes and tell you to skip half of those and spend the day in Hackney, Peckham, or Walthamstow instead. moomz polls let you cut through that gap fast. Drop a poll on which East London market to do on Saturday, get five votes in three minutes, decide.",
+    "sections": [
+      {
+        "h": "Pubs, pints, and the great London debate",
+        "body": "London is a pub city before it is anything else. A proper London pub has roots going back centuries, plays no music or very quiet music, serves cask ale at cellar temperature, has a beer garden in summer, and a fireplace in winter. The debate that splits Londoners is whether the best pubs are the historic ones (The George near London Bridge, dating from 1677, or Ye Olde Cheshire Cheese off Fleet Street, rebuilt in 1667 after the Great Fire), the gastropubs (The Eagle in Farringdon basically invented the format in 1991), the craft beer pubs that cluster around Bermondsey and Hackney, or the modern reinventions in Peckham and Walthamstow. moomz polls on London pubs always trigger fierce engagement because everyone has their local. The other classic London poll: pint or half. Beer garden or upstairs. Roast on Sunday or no roast on Sunday. London does Sunday roast better than almost any other city in the world, and an entire weekend afternoon can disappear into a long roast at a proper pub. Use polls to pick the pub before everyone scatters into three different Whatsapp threads."
+      },
+      {
+        "h": "Markets, neighborhoods, and walking the city",
+        "body": "London is a walking city if you let it be. The classic Saturday route: start with a coffee in Spitalfields, walk through Brick Lane for beigels and curry houses, up to Columbia Road flower market by 11 AM, lunch at one of the small spots around Shoreditch, then either the Truman Brewery pop-ups or a slow walk along the canal to Victoria Park. Or do the south London version: Brixton market for Caribbean food, walk to Herne Hill, brunch in Peckham, sunset at the Frank's Cafe rooftop, dinner at one of the new Peckham spots. Each neighborhood has its own pace and crowd. moomz polls work great for this because Londoners have strong opinions: Borough Market is touristy but the produce is incredible, Maltby Street is the cool kid alternative, Greenwich Market is underrated, and Brick Lane on Sunday is chaos but worth it once. Polls let your group commit to one route instead of starting four arguments in the group chat about transport."
+      },
+      {
+        "h": "Theatre, museums, and the rainy day plan",
+        "body": "London does world-class culture better than almost anywhere. The British Museum, the National Gallery, the V&A, the Tate Modern, the Tate Britain, the Natural History Museum, and the Science Museum are all free, no ticket required, just walk in. That's not normal globally. The West End has more theater than Broadway, with shows ranging from huge musicals to fringe productions in 60-seat rooms above pubs. The other underrated rainy-day move: bookshops. Daunt Books on Marylebone High Street, Foyles on Charing Cross Road, Hatchards on Piccadilly, and any of the small Belgravia second-hand shops. moomz polls help groups choose between competing options when the weather forces a pivot. Museum or matinee. National Gallery or Tate Modern. Big musical or small fringe show. The decision is half the fun and crowdsourcing it with friends, especially if some of your group is local and some is visiting, makes the day feel collaborative rather than dictated by whoever planned the trip."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do you need for London?",
+        "a": "Four to five days is the sweet spot. Three is enough to hit the highlights but you will feel rushed. A week lets you do central London plus a day trip to Oxford, Brighton, or Cambridge. Most first-timers underestimate how big the city is, the Tube takes 30 to 45 minutes between most neighborhoods. moomz polls help you prioritize: museums vs neighborhoods, central vs east, classic vs modern. Decide your trip's center of gravity early."
+      },
+      {
+        "q": "Best neighborhood to stay in?",
+        "a": "Bloomsbury or Fitzrovia for first-timers, central but quieter than Soho, walking distance to the British Museum and Covent Garden. Shoreditch or Bethnal Green if you want hip, cocktail-bar London. South Bank for theater lovers. Notting Hill if you want pretty streets and the market on Saturday. Avoid Leicester Square for hotels, it is expensive and loud."
+      },
+      {
+        "q": "Is London expensive?",
+        "a": "Yes, but it has tiers. Hotels are pricey, restaurants in central can hit 50 quid a head fast, and pints are 6 to 7 in central. But museums are free, parks are free, walking the city is free, pub lunches can be 12 to 15, and east and south London are noticeably cheaper than zone 1. A week in London on a budget is very doable, especially if you book accommodation outside zone 1."
+      },
+      {
+        "q": "Tube, bus, or walk?",
+        "a": "All three, in that order of distance. The Tube is fast for cross-city, the bus is great for short hops and seeing the city through the window, walking is the best way to actually understand neighborhoods. Tap your contactless card on entry, no need for an Oyster anymore. Buses cap daily charges so unlimited bus rides cost about 5 quid. Walking from Soho to Borough Market takes 25 minutes and you see more than the Tube ever shows you."
+      }
+    ],
+    "related": ["paris", "new-york", "rome", "barcelona", "tokyo", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "new-york",
+    "locale": "en",
+    "keyword": "New York",
+    "matchPatterns": ["new york", "nyc", "manhattan", "brooklyn", "queens", "bronx"],
+    "topic": "travel",
+    "title": "New York Polls: Vote on Pizza, Boroughs, and Late-Night NYC",
+    "description": "Crowdsource your NYC trip with moomz polls about pizza, boroughs, rooftops, and bagels. Live results, friend-sourced answers, zero login required.",
+    "emoji": "🗽",
+    "intro": "Manhattan was bought in 1626 by the Dutch West India Company from the Lenape people for trade goods worth about 60 guilders, a deal that has been mythologized, mocked, and revised for four hundred years. By 1664 the British took it from the Dutch, renamed it from New Amsterdam to New York, and the city started becoming the city the world now knows. Today, New York is five boroughs, 8.3 million people inside the city limits, 23 million in the metropolitan area, more than 800 languages spoken on a given day, and an attitude that you either love instantly or take a week to settle into. The classic tourist version is Times Square, Empire State, Central Park, Brooklyn Bridge, Statue of Liberty. The locals' version is bodegas at 2 AM, cheap dollar slices, the F train across the Manhattan Bridge at golden hour, a borough you've never been to with a friend who grew up there. moomz polls work great for New York because the city is built on opinions. Best pizza joint in your neighborhood. Best bagel. Best deli sandwich. Best dive bar. Best subway line. Best Brooklyn neighborhood. New Yorkers will argue these for hours, and they will respect you more if you bring data, even if the data is just five votes from your group chat. This guide walks through what makes NYC trips great, the polls that always go viral, and how to use crowdsourced votes to plan a trip that feels like the city instead of a hotel checklist.",
+    "sections": [
+      {
+        "h": "Pizza, bagels, and the eternal NYC food debates",
+        "body": "Pizza is the canonical New York food argument. New York-style is thin, foldable, sold by the slice, ideally from a corner shop with a counter facing the sidewalk. Joe's Pizza in Greenwich Village (open since 1975) is the classic. Di Fara in Midwood is the legend. L'Industrie in Williamsburg is the new wave. Prince Street Pizza does the spicy pepperoni square that became Instagram-famous. Each one has die-hard fans. moomz polls on best NYC pizza are violent because every neighborhood has a local champion and people defend it like family. Bagels are the second great NYC food debate. Ess-a-Bagel, Russ and Daughters, Absolute Bagels, Tompkins Square Bagels, Black Seed, each has its faction. Lox and cream cheese, plain with butter, scallion schmear, or the everything with veggie cream cheese. moomz polls cut these debates into something productive: instead of arguing, you vote. Bonus: when you post a poll asking 'best NYC bagel' in any New York group online, expect 200 answers in an hour. The city loves nothing more than recommending things."
+      },
+      {
+        "h": "Manhattan vs Brooklyn vs the outer boroughs",
+        "body": "Tourists usually stay in Manhattan. Locals will tell you that is half the city. Brooklyn alone has 2.6 million people and contains some of the most distinct neighborhoods in America: Williamsburg (cool, expensive, post-Bedford Avenue era now), Greenpoint (Polish heritage, getting cooler), Bushwick (art and warehouse parties), Park Slope (brownstones and families), Dumbo (waterfront and views back to Manhattan), Bed-Stuy (historic Black New York, gorgeous architecture). Queens has the best food in the city, hands down, from Flushing's Chinese food to Astoria's Greek to Jackson Heights' South Asian. The Bronx has the Yankees, Arthur Avenue for old-school Italian, and the New York Botanical Garden. Staten Island is mostly suburban but the ferry ride is free and gives you the best free Statue of Liberty view in the city. moomz polls on which borough to base your trip out of are surprisingly contentious because each side has real arguments. Manhattan is convenient but expensive. Brooklyn is cooler and cheaper. Queens is best for food. Pick based on what you actually want from the trip."
+      },
+      {
+        "h": "The city at 3 AM and the energy nobody else has",
+        "body": "Other cities have nightlife. New York has 3 AM as a baseline. The subway runs 24 hours, bodegas never close, slices are available until 4 AM in most neighborhoods, and a real New York night usually starts at 10 PM and ends at sunrise. The classic move is dinner at 8, drinks at a divey spot at 10, transition to a real bar at midnight, dancing until 2, slice at 3, train home or sunrise on the Williamsburg Bridge. Each step is a poll. Where to dinner, which bar after, which DJ, which slice place after closing. moomz polls compress those decisions into 30 seconds. The other late-night NYC thing: rooftops in summer. Westlight, Le Bain, the Top of the Standard, plus a thousand smaller ones on top of every Brooklyn bar. Sunset cocktails with the Manhattan skyline lighting up across the East River is one of those experiences that lives up to the hype every single time. Polls help your group commit before the line gets too long."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days do you need in New York?",
+        "a": "Four days is the absolute minimum to scratch the surface. A week lets you do Manhattan, Brooklyn, and Queens with real depth. Two weeks is when the city stops being overwhelming. Most first-timers regret going too short. moomz polls help you prioritize: museums vs neighborhoods, food crawl vs nightlife, classic vs hipster. Pick your trip's identity before you book the flight."
+      },
+      {
+        "q": "Best time of year to visit NYC?",
+        "a": "Late April to early June and September to early November are peak. Crisp weather, long days, the city looking its best. July and August can be brutally humid and August empties out as locals leave. December is magical with Christmas lights at Rockefeller but cold. January and February are cheaper hotel-wise but expect freezing temperatures and occasional snowstorms. October is probably the sweetest spot."
+      },
+      {
+        "q": "Is the subway safe at night?",
+        "a": "Generally yes. The subway runs 24 hours and millions of New Yorkers use it at all hours. Stick to crowded cars, avoid empty platforms late at night by waiting near the booth, and use your common sense the same way you would in any major city. Apps like Citymapper give you real-time train info. If you feel uneasy, just grab a cab or an Uber, late-night NYC has both in abundance."
+      },
+      {
+        "q": "Manhattan or Brooklyn to stay in?",
+        "a": "Manhattan if you want classic NYC convenience and walking everywhere. Brooklyn (especially Williamsburg, Greenpoint, or Bed-Stuy) if you want a cooler vibe, cheaper hotels, and a quick subway back to Manhattan. Avoid Times Square for hotels, expensive and you'll hate the crowds. East Village, Lower East Side, or Brooklyn waterfront are the sweet spots for a first trip."
+      }
+    ],
+    "related": ["paris", "london", "tokyo", "pizza", "road-trip", "rome"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "rome",
+    "locale": "en",
+    "keyword": "Rome",
+    "matchPatterns": ["rome", "roma", "colosseum", "vatican", "trastevere", "pantheon"],
+    "topic": "travel",
+    "title": "Rome Polls: Vote on Pasta, Ruins, and the Real Roma",
+    "description": "Crowdsource your Rome trip with moomz polls about carbonara, neighborhoods, Vatican vs Colosseum, and aperitivo spots. Live results, instant share.",
+    "emoji": "🏛️",
+    "intro": "Rome was founded, according to legend, on April 21 in the year 753 BC by Romulus, the twin who killed his brother Remus in an argument about which hill to build the city on. The historians push back on the legend but agree the actual founding is somewhere around that century, on the seven hills above a bend in the Tiber. From a small settlement of Latin and Sabine farmers, Rome became the largest empire in antiquity, ruling 70 million people at its peak, then collapsed, then became the spiritual capital of Christianity, then capital of unified Italy in 1871. Today it has 2.8 million people inside the city limits and roughly four million in the metropolitan area, and it still walks on top of itself: dig anywhere in central Rome and you hit ancient ruins within a meter. There are 25 centuries of layered city in walking distance of each other. Walking around Rome is genuinely time travel. You can have lunch in a piazza built on the foundations of an imperial market, see a 1st-century pantheon still standing with its original concrete dome, then drink wine in a medieval alley two streets away. moomz polls work especially well for Rome because the city has so many great options at every meal, every neighborhood, every museum, that pure recommendation overload kills most trips. A poll cuts through. Carbonara at Roscioli or Felice. Trastevere or Monti for the evening. Colosseum at sunrise or Pantheon at midnight. Friends vote, you go.",
+    "sections": [
+      {
+        "h": "Carbonara, cacio e pepe, and the four Roman pastas",
+        "body": "Roman cuisine is hyper-specific and proudly conservative. The four classic Roman pastas are carbonara (egg yolk, guanciale, pecorino, pepper), cacio e pepe (pecorino, pepper, pasta water), amatriciana (tomato, guanciale, pecorino), and gricia (guanciale, pecorino, no tomato). No cream, no bacon, no parmesan, ever. moomz polls about best Roman pasta always split between the famous spots and the neighborhood trattorias. Famous: Roscioli (the carbonara of Instagram), Da Felice (Anthony Bourdain's cacio e pepe spot), Tonnarello (Trastevere classic). Neighborhood: Da Enzo al 29 in Trastevere if you can get a table, Trattoria Pennestri in Ostiense, Salumeria Roscioli for a quick lunch. The poll question that always works: Roscioli or Da Felice. Both have factions. Both are great. The honest answer is to do both on the same trip and let your group vote afterward. Beyond pasta, Rome eats well around supplì (fried rice balls), pizza al taglio (rectangular slices by weight), and gelato. Pollster bonus: post a moomz poll asking 'best gelato in Trastevere' and watch Roman friends argue for an hour."
+      },
+      {
+        "h": "Ancient Rome, Vatican Rome, and the neighborhoods worth wandering",
+        "body": "Most first-time Rome trips revolve around the same big sights: Colosseum, Roman Forum, Palatine Hill, Pantheon, Trevi Fountain, Piazza Navona, Spanish Steps, Vatican (St Peter's plus Sistine Chapel). All worth it, all crowded, all manageable if you book early-morning tickets. The real magic is between the sights. Wandering Trastevere in the evening when the cobbled streets fill with locals and tourists drinking spritz. Monti, the neighborhood between the Colosseum and Termini, full of vintage shops and small wine bars. Testaccio for the food market and proper trattorias. Ostiense for street art and the new wave. The Aventine Hill for the keyhole view of St Peter's. Each of these is a poll your group should run on moomz before committing. Trastevere or Monti for the night out. Vatican on day one or day three. Sistine Chapel guided tour or just queue early. The other Rome-specific tip: the Vatican is technically a separate country (Vatican City became independent in 1929 with the Lateran Treaty), and the Sistine Chapel is open at hours you cannot find on most tourist guides if you book the right tour."
+      },
+      {
+        "h": "Aperitivo, walking, and how Rome is meant to be paced",
+        "body": "Rome is a slow-food city in a slow-walking culture. Locals do not power-walk between sights. They eat lunch for two hours, take an espresso standing at the bar, walk for twenty minutes to digest, sit in a piazza for half an hour, then maybe do the next thing. Tourists who try to do five sights a day end up exhausted and grumpy. The right Rome rhythm is two sights per day, one meal that takes hours, an aperitivo at 6 PM with a spritz and small plates, dinner at 9, gelato afterward. Aperitivo in Rome is sacred. Order a spritz (Aperol or Campari) or a negroni, and most decent bars give you a small plate of bites: olives, taralli, focaccia, sometimes more. It is dinner before dinner. moomz polls help groups pace the day: long lunch or quick bite, one big sight or two small, walking or taxi. Treat the trip like a series of decisions, vote on each, and you avoid the classic mistake of crashing on day three from over-touring. Rome rewards patience more than energy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days for Rome?",
+        "a": "Four full days is the minimum. Three is doable but rushed. A week lets you do Rome plus a day trip to Tivoli, Ostia Antica, or the coast. Most people regret going too short rather than too long. Rome is dense enough that you can layer slow days on top of intense sightseeing days. Polls help you decide pacing: do the Vatican on day one when you have energy, leave Trastevere for the last evening when you want to go slow."
+      },
+      {
+        "q": "Best time to visit Rome?",
+        "a": "April to mid-June and September to October are the sweet spots: mild weather, manageable crowds, comfortable walking. July and August are hot, humid, and crowded. Winter is mild (8 to 14 degrees), cheaper, and you can have the Colosseum almost to yourself in January morning. Avoid Easter week unless you specifically want the Vatican experience, hotels triple and lines are huge."
+      },
+      {
+        "q": "Skip-the-line tickets worth it?",
+        "a": "Yes for the Colosseum, Vatican Museums, and the Borghese Gallery. Skipping a 90-minute queue in summer heat is worth the small surcharge. For the Pantheon, just walk in (no ticket needed unless they reintroduced charges). For the Forum, book a combined ticket with the Colosseum. moomz polls help your group decide whether to splurge on a guided tour vs DIY audio guide, the right answer depends on your group's appetite for history."
+      },
+      {
+        "q": "Trastevere or Monti for the evening?",
+        "a": "Trastevere is louder, more touristy, lots of restaurants and bars, beautiful at night, can get rowdy in summer. Monti is smaller, hipper, more local-feeling, great wine bars and tiny restaurants. Most people end up doing both on a 4-day trip. Trastevere for one big lively night, Monti for a slower evening with better wine. Use moomz polls to commit before everyone disappears into separate dinner plans."
+      }
+    ],
+    "related": ["paris", "london", "barcelona", "pizza", "new-york", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "barcelona",
+    "locale": "en",
+    "keyword": "Barcelona",
+    "matchPatterns": ["barcelona", "barca", "gaudi", "sagrada", "gothic quarter", "barceloneta"],
+    "topic": "travel",
+    "title": "Barcelona Polls: Vote on Tapas, Gaudi, and Mediterranean Vibes",
+    "description": "Crowdsource your Barcelona trip with moomz polls about tapas, beaches, Gaudi sites, and barrios. Live results, friend-voted answers, no login.",
+    "emoji": "🇪🇸",
+    "intro": "Barcelona was founded by the Romans around 15 BC as a colony called Barcino, a small settlement on the Catalan coast that grew slowly under the empire, then expanded dramatically in the medieval period as a Mediterranean trading powerhouse. The Gothic Quarter still preserves Roman walls and medieval streets you can walk through today. Antoni Gaudi reinvented the city's architectural identity in the late 19th and early 20th centuries with the Sagrada Familia (started in 1882 and still under construction), Park Guell, Casa Batllo, and La Pedrera. The 1992 Olympics gave the city its modern beachfront, opening Barceloneta as a real city beach instead of a working port. Today Barcelona has 1.6 million people inside the city, 5.5 million in the metropolitan area, and the rare combination of mountains, beach, world-class food, world-class architecture, and a 365-day mild climate. It is also one of the most poll-worthy cities in Europe because every choice has strong opinions behind it. Tapas crawl or sit-down dinner. Beach day or Park Guell. Gothic Quarter at night or El Born. Gaudi tour or skip the Sagrada Familia altogether (yes, some locals will tell you to skip it). moomz polls let your travel group commit instead of bouncing between four different blog recommendations. This guide walks through how to think about Barcelona trips, the polls that always trigger debate, and the questions that make your trip feel local instead of bus-tour generic.",
+    "sections": [
+      {
+        "h": "Gaudi or no Gaudi: the great Barcelona divide",
+        "body": "Barcelona without Gaudi is unthinkable for first-timers, and yet some seasoned visitors and many locals will tell you the Gaudi tour is the most overrated thing in the city. The Sagrada Familia is genuinely incredible inside (book the tower for the best experience) but the queue and the crowds can be brutal in peak season. Park Guell is beautiful but feels small once you arrive. Casa Batllo and La Pedrera are stunning but expensive. The honest middle ground: do Sagrada Familia (it is worth it once in your life), pick one of the houses (Casa Batllo for the most theatrical interior), and skip the others if you are on a tight schedule. moomz polls on which Gaudi site to prioritize always split fiercely. Half your friends will say all of them, half will say one is enough. The right answer depends on whether you actually love architecture or are just doing the tourist checklist. The other Gaudi-adjacent move: walk Passeig de Gracia from end to end. You pass Casa Batllo and La Pedrera in the same kilometer, plus the best high-street shopping in Spain."
+      },
+      {
+        "h": "Tapas, pintxos, and how to eat in Barcelona",
+        "body": "Barcelona is a tapas city but the tapas culture here is different from the Basque country. In San Sebastian you eat pintxos, small bites pinned on bread, displayed on the bar. In Barcelona tapas are smaller plates ordered at the table, ideally shared across multiple bars in one night. The classic tapas crawl: start in El Born around 8 PM (still early by Barcelona standards), do two or three tapas at the first bar, walk for ten minutes to the next, repeat until midnight. Patatas bravas, pan con tomate, jamon iberico, croquetas, boquerones, tortilla espanola, calamares a la romana. Wash down with cava or vermouth. Most tapas bars also serve menus, you can sit down for a full meal, but the rhythm of bar-hopping is part of the experience. moomz polls on best tapas spots are gold because Barcelona has hundreds of legitimate places and the differences are real. El Xampanyet, Cal Pep, Bar Mut, Bormuth, Tapeo, La Cova Fumada (the original bomba), each has its character. The food market move: La Boqueria for the tourist photo, Sant Antoni or Santa Caterina for the locals' market with better prices and atmosphere."
+      },
+      {
+        "h": "Beach, neighborhoods, and the Mediterranean lifestyle",
+        "body": "Barcelona is the rare big European city with a real urban beach. Barceloneta runs for about a kilometer along the Mediterranean, with a wide promenade, restaurants, beach bars (chiringuitos), and packed sand in summer. It gets crowded, especially on weekends, but the experience of walking from the Gothic Quarter to the beach in 15 minutes is unique. For quieter beaches, take the train half an hour north to Sitges or south to Castelldefels. Beyond the beach, Barcelona's neighborhoods each have their own personality. El Born is medieval streets and cool bars. Gracia is bohemian, lots of small squares with tables outside. El Raval is multicultural and edgy, with the best Pakistani food in the city. Eixample is the grid neighborhood, modernist architecture and high-street shopping. Poble-Sec is the new wave, hip restaurants and rooftop bars. moomz polls work great for picking which neighborhood to stay in or focus on during your trip. The pace of Barcelona is also different from Paris or London. People eat dinner at 9 or 10 PM. Bars get busy at midnight. Clubs do not really start until 2 AM. Adjust your trip accordingly or you will be the only people at the restaurant at 7 PM."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days for Barcelona?",
+        "a": "Four full days is ideal. Three is enough for the big sights, four lets you slow down and do a beach day, five lets you add a day trip to Sitges, Montserrat monastery, or a wine tour in Penedes. Most people regret going too short. moomz polls help your group decide between beach time and city time, which is the eternal Barcelona trip dilemma."
+      },
+      {
+        "q": "Best time of year for Barcelona?",
+        "a": "May, June, September, and early October are the sweet spots: warm but not crushing, beach is swimmable, evenings are perfect for tapas terraces. July and August are very hot and very crowded, especially the beach. April is mild and cheaper. December and January are pleasant temperatures (12 to 16 degrees) and the city is much less touristy. Avoid the second half of August unless you like crowds."
+      },
+      {
+        "q": "Is Barcelona safe?",
+        "a": "Generally yes, but petty theft and pickpocketing are notorious, especially around La Rambla, the metro, and the beach. Keep your phone and wallet secure, do not put bags on the back of chairs in restaurants, and stay alert in crowded tourist zones. Violence is very rare. Use moomz polls to ask friends which neighborhoods felt safe at night, the answers are usually El Born and Gracia, with caution in El Raval after 1 AM."
+      },
+      {
+        "q": "Sagrada Familia: worth the hype?",
+        "a": "Yes, but only with the tower ticket and only booked at least a week ahead in season. The interior is genuinely transcendent, the stained glass at sunset is unreal, and the towers give you a view over the city. Skip if you are very anti-crowds or have seen many cathedrals already. moomz polls on this always split, but everyone who actually goes inside usually agrees afterward that it was worth it."
+      }
+    ],
+    "related": ["paris", "rome", "london", "beach", "new-york", "road-trip"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "bali",
+    "locale": "en",
+    "keyword": "Bali",
+    "matchPatterns": ["bali", "ubud", "canggu", "seminyak", "uluwatu", "kuta"],
+    "topic": "travel",
+    "title": "Bali Polls: Vote on Ubud, Canggu, Beaches, and Hindu Temples",
+    "description": "Crowdsource your Bali trip with moomz polls about Ubud vs Canggu, surf spots, temples, and rice terraces. Live results, friend-voted answers.",
+    "emoji": "🌴",
+    "intro": "Bali is a small island, only about 5,800 square kilometers, but it has carried an outsized cultural weight for centuries. Hindu kingdoms have ruled here since the 9th century, while the rest of Indonesia converted to Islam. The result is an island where 87 percent of the population is Hindu, where every village has its own temple, where offerings (canang sari) are placed on doorsteps every single morning, and where the largest temple complex, Pura Besakih on the slopes of Mount Agung, has been a sacred site for more than a thousand years. That spiritual layer sits underneath the modern Bali tourist experience, which is itself a layered ecosystem: surf towns, yoga retreats, beach clubs, rice terrace villages, volcanic mountain hikes, and digital nomad hubs. Eat Pray Love (2010) introduced Bali to a mass western audience that has never really stopped coming, and the island has tripled its tourist infrastructure since then. Today the island gets around 6 million international visitors a year. Bali polls work great because the island is so varied that every group has to make hard choices. Ubud for the jungle and culture, or Canggu for the beach and nightlife. Uluwatu for the surf, or Sanur for the family vibe. Volcano sunrise hike, or a slow morning at a cafe. moomz polls let your group commit to a route instead of arguing over which Lonely Planet recommendation to follow. This guide walks through how to think about Bali, the polls that travelers actually want answered, and the questions that make your trip feel real instead of a copy of someone's Instagram.",
+    "sections": [
+      {
+        "h": "Ubud vs Canggu vs Uluwatu: the three Bali archetypes",
+        "body": "Bali splits into roughly three main travel zones, and most trips choose two out of three. Ubud is the inland cultural capital: rice terraces, monkey forest, yoga retreats, vegan cafes, traditional dances, healing communities, and a slower pace. It is the Eat Pray Love zone, now with much more wellness infrastructure than in 2010. Canggu is the beach-side digital nomad hub: long stretches of black sand, surf schools, fashionable beach clubs, co-working spaces, smoothie bowls, and a very specific demographic of young European and Australian travelers spending three to six months there. Uluwatu is the dramatic clifftop south: world-class surf breaks, sunset temples, white sand beaches at the base of cliffs, fewer crowds than Canggu but a growing scene. Sanur is the calm family beach. Seminyak is the older luxury zone. Kuta is the original party beach, now mostly avoided by anyone over 25. moomz polls on which zones to base your trip out of always trigger debate because each side has loyalists. Pick two zones, stay 3 to 5 nights in each, and you cover most of the island's diversity without spending half your trip driving."
+      },
+      {
+        "h": "Temples, ceremonies, and the spiritual side most tourists miss",
+        "body": "Bali has more than 10,000 temples. Every village has a minimum of three: one for the gods, one for the spirits, one for the ancestors. Pura Besakih on Mount Agung is the largest and most sacred, a complex of more than 80 temples built up the volcano's slopes. Tanah Lot, perched on a sea rock, is the most photographed at sunset. Uluwatu Temple has the cliffside fire dance (Kecak) most evenings. Pura Lempuyang has the famous Gates of Heaven photo spot. Tirta Empul is where Balinese Hindus and tourists alike participate in purification rituals in sacred spring water. moomz polls about which temples to prioritize are useful because most tourists do two or three and stop. The deeper version is to time your visit with a ceremony, which happens hundreds of times a year across the island. If you see a procession, watch from a respectful distance, dress modestly (sarongs are usually provided at temple entrances), and ask before taking photos. Bali's spiritual layer is not a tourist performance but a daily practice you are a guest in. The trips that go beyond the Instagram version usually slow down enough to notice this."
+      },
+      {
+        "h": "Surf, scooters, and the rhythm of a Bali week",
+        "body": "Bali's daily rhythm rewards travelers who match it. Mornings are cool and beautiful, perfect for surf sessions, rice terrace walks, or temple visits before the heat. Midday is hot, ideal for a long lunch at a cafe or a pool break. Afternoon is for the beach or another activity. Sunset is the daily ritual: beach club, clifftop bar, or a quiet beach with bintang beers. Evenings are for dinner and one drink, then early to bed because tomorrow's sunrise activity starts at 5 AM. The classic Bali week: surf school in Canggu for two days, drive to Ubud for two days of rice terraces and waterfalls, drive to Uluwatu for cliff sunsets and one beach club afternoon, optional volcano sunrise hike at Mount Batur (start at 3 AM, summit by sunrise, back by 9 AM). moomz polls help your group decide on the trade-offs. Volcano hike or sleep in. Multiple beach clubs or one big day. Massage every day or just twice. The single most underrated Bali decision: book a private driver for cross-island days instead of renting scooters. It costs around 40 euros for a full day with a driver who knows the roads, and Bali traffic is brutal."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days for Bali?",
+        "a": "Ten days is the sweet spot. A week feels rushed because you spend half a day moving between zones. Two weeks lets you add Nusa Penida or the Gili Islands. Most people who go for less than a week regret it. moomz polls help your group commit to which zones to prioritize, the big trip-killer is trying to do everything and ending up driving constantly."
+      },
+      {
+        "q": "Best time to visit Bali?",
+        "a": "April to October is the dry season, June through September is peak. The shoulder months of April, May, and October are the sweet spot: less crowded, prices lower, weather still mostly dry. Wet season (November to March) gets daily afternoon rain but mornings are usually clear and prices are dramatically lower. Avoid August in Canggu specifically if you hate crowds."
+      },
+      {
+        "q": "Is Bali still cheap?",
+        "a": "Cheaper than Europe or the US, but not as cheap as Thailand or Vietnam. Mid-range villas with pools are 80 to 150 euros a night, meals at nice cafes 8 to 15 euros, beach clubs charge serious money for day beds, and Uluwatu hotels can rival European prices. Budget travel is still very possible, especially in Ubud and away from the south. moomz polls help groups decide budget tiers before booking."
+      },
+      {
+        "q": "Scooter or driver?",
+        "a": "Scooter for short trips within one zone if you know how to ride and have an international license. Driver for everything else, especially cross-island. Bali traffic is intense and the roads are narrow, accidents involving tourist scooters are common. A private driver for a full day costs around 40 to 60 euros, splittable across the group. Worth it for sanity and safety."
+      }
+    ],
+    "related": ["beach", "ocean", "sun", "tokyo", "marrakech", "summer"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "marrakech",
+    "locale": "en",
+    "keyword": "Marrakech",
+    "matchPatterns": ["marrakech", "marrakesh", "medina", "souk", "morocco", "jemaa el fna"],
+    "topic": "travel",
+    "title": "Marrakech Polls: Vote on Riads, Souks, and the Real Medina",
+    "description": "Crowdsource your Marrakech trip with moomz polls about riads, souks, hammams, and tagines. Live results, friend-voted answers, no login required.",
+    "emoji": "🐪",
+    "intro": "Marrakech was founded in 1062 by the Almoravid dynasty, a Berber Muslim movement that swept north from the Sahara and chose this oasis at the foot of the Atlas Mountains as their new capital. The Almoravids built the city's first walls and irrigation system, the Almohads added the Koutoubia mosque in the 12th century (whose minaret remains the city's tallest landmark and the architectural template for the Giralda in Seville), and the Saadian dynasty added the royal tombs and palace complexes in the 16th century. Today Marrakech has about a million people inside the city and the medina, the old walled city, is a UNESCO World Heritage site. Walking through the medina is genuinely time travel: same maze of narrow alleys laid out a thousand years ago, same souks selling spices, leather, lanterns, slippers, carpets, same call to prayer five times a day from the Koutoubia. Outside the medina is the new city, Gueliz, built by the French during the protectorate (1912 to 1956), with wide boulevards, modern restaurants, and rooftop bars. The contrast between the two halves is part of what makes Marrakech so unique. moomz polls work great for Marrakech because every traveler faces the same set of decisions. Stay in a riad inside the medina or a modern hotel in Gueliz. Get lost in the souks or take a guided tour. Hammam at a tourist spa or local hammam. Day trip to the Atlas Mountains or to Essaouira on the coast. Friends voting beats reading ten contradictory blogs.",
+    "sections": [
+      {
+        "h": "The medina, the souks, and getting wonderfully lost",
+        "body": "The medina is the heart of any Marrakech trip and the most disorienting part. The alleys are intentionally maze-like, both for medieval defensive reasons and just because cities grow that way over a thousand years. Google Maps barely works inside the walls because the alleys are too narrow and too dense. The souks are organized by trade: the dyers' souk, the leather souk, the carpet souk, the spice souk, the metal workers' souk, the jewelry souk. Walk slowly, accept that you will get lost, follow the sound of metal hammering or the smell of leather to figure out where you are. The big square at the center is Jemaa el-Fna, which transforms throughout the day: orange juice carts and snake charmers in the morning, food stalls and storytellers at night. moomz polls help groups decide pace: full souk crawl with bargaining (every price is negotiable, expect to pay 30 to 50 percent of the first quote), or a calmer route that hits the highlights without losing four hours. Bargaining is part of the culture, do it with humor and a smile, not anger. Walk away if the price stays too high, often the seller will follow."
+      },
+      {
+        "h": "Riads, hammams, and slowing down between the chaos",
+        "body": "A riad is a traditional Moroccan house with rooms arranged around a central courtyard, usually with a small fountain or pool and an orange or lemon tree. Most riads inside the medina have been converted into small hotels or guesthouses, usually 5 to 12 rooms, with a rooftop terrace for breakfast and sunset. Staying in a riad inside the medina is the single best decision for a first Marrakech trip, even if it makes airport transfers more complex (your taxi drops you at the nearest gate and a porter walks you through the alleys with a hand cart for your luggage). The contrast between the chaos of the souks outside and the silence of the riad inside is unbeatable. Hammams are the other half of the Marrakech slow-down. A traditional hammam is a public steam bath where you scrub down with black soap and a kessa glove, get exfoliated by an attendant, and end up softer than you started. Tourist hammams in spas are gentler and pricier (40 to 80 euros). Local hammams are 5 to 10 euros and intense (you bring your own products). moomz polls on which to try always split between adventurous and cautious travelers."
+      },
+      {
+        "h": "Tagines, mint tea, and eating across the city",
+        "body": "Moroccan food is one of the great underrated world cuisines. Tagine, the slow-cooked stew named after the conical clay pot, comes in many forms: chicken with preserved lemon and olives, lamb with prunes and almonds, beef with vegetables, vegetable for the vegetarian version. Couscous is traditionally served on Fridays. Pastilla is a sweet-savory pigeon (or chicken) pie with cinnamon and powdered sugar. Harira is the soup eaten to break the Ramadan fast and available year-round. Mint tea is the national drink, poured from height to aerate, usually with so much sugar it doubles as dessert. Eating in Marrakech splits into three tiers. Street food at the Jemaa el-Fna evening market: cheap, intense, occasionally risky for unprepared stomachs. Mid-range medina restaurants: Cafe Clock, Nomad, Le Jardin, often in beautiful courtyards or rooftops. Higher-end Gueliz restaurants: Le Tobsil, La Famille, Latitude 31, more polished and pricier. moomz polls help groups pick across these tiers without endless debate. The honest tip: do at least one rooftop dinner at sunset, do at least one Jemaa el-Fna grill stall night, and you have covered the essentials."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many days in Marrakech?",
+        "a": "Three full days in the city is the right amount. A week lets you add the Atlas Mountains (1 to 2 days), Essaouira on the coast (2 days), or the Sahara desert (a 2 to 3 day round trip to Merzouga). Most people regret leaving without a desert night under the stars. moomz polls help your group decide which side trip to prioritize, the desert trip is intense but unforgettable."
+      },
+      {
+        "q": "Best time to visit Marrakech?",
+        "a": "March to May and September to November are the sweet spots: warm but not crushing, evenings cool enough for a sweater on the rooftop. June through August can hit 40 degrees and the souks are exhausting. December and January are pleasant during the day (18 to 22 degrees) and cold at night. Ramadan changes the city's rhythm significantly and is worth a look if you want a deeper cultural experience."
+      },
+      {
+        "q": "Is Marrakech safe for solo travelers?",
+        "a": "Generally yes, with the usual precautions. Solo female travelers report a mix of experiences, mostly fine but with persistent attention in the souks. Travel with sunglasses, walk with purpose, ignore hustlers, and trust your instincts. Stay in a well-reviewed riad, take official taxis (negotiate the price first), and avoid the alleys very late at night. moomz polls in solo female travel groups are full of honest answers about Marrakech specifically."
+      },
+      {
+        "q": "Riad inside the medina or hotel in Gueliz?",
+        "a": "Riad in the medina for a first trip, hands down. The medina experience is the entire point of Marrakech, and waking up in a courtyard with mint tea is unforgettable. Gueliz is more convenient (taxis can reach the door, easier for solo travelers, closer to restaurants and nightlife) but you lose the magic. moomz polls always split here, but the riad faction is usually right for first-timers."
+      }
+    ],
+    "related": ["paris", "barcelona", "tokyo", "beach", "road-trip", "rome"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "road-trip",
+    "locale": "en",
+    "keyword": "Road Trip",
+    "matchPatterns": ["road trip", "roadtrip", "drive", "highway", "rv", "route 66"],
+    "topic": "travel",
+    "title": "Road Trip Polls: Vote on Routes, Playlists, and Stops",
+    "description": "Plan your next road trip with moomz polls. Vote on routes, playlists, pit stops, and dream drives. Live results, friend-voted answers, zero login.",
+    "emoji": "🚗",
+    "intro": "A road trip is the most democratic form of travel. You do not need a passport, a flight, or even much money. You just need a car, a route, and a few people who can handle each other for several hundred kilometers without the conversation collapsing. The classic American road trip was mythologized by Jack Kerouac's On the Road (1957), then by Route 66, the Pacific Coast Highway, the Great River Road, and a thousand movies set behind a windshield. Europe has its own version: the French Riviera coast road, the Norwegian fjord drives, the Amalfi Coast hairpins, the Scottish Highlands single-tracks, the Croatian coastal highway from Split to Dubrovnik. Australia has the Great Ocean Road. New Zealand has both islands as one continuous road trip. Iceland has the Ring Road. South Africa has the Garden Route. Each of these has its own rhythm, its own iconic stops, its own playlist. What they share is the structure: you wake up somewhere, you drive a few hours, you stop somewhere unexpected, you drive a few more hours, you sleep somewhere new. Each day's plan is half decided, half discovered, which makes road trips perfect for polls. moomz polls turn road trip decisions into fast votes: lunch stop A or B, scenic detour or push through, motel or camp, gas station snack run vote. This guide walks through how to plan a road trip that works, the polls every road trip group ends up running, and the small decisions that separate a good trip from a great one.",
+    "sections": [
+      {
+        "h": "Picking a route: the choice that shapes everything",
+        "body": "Road trips usually fail not because of the people but because of the route. Too far in too few days means you spend the whole trip driving. Too short means you run out of road and end up bored. The sweet spot for most road trips is 200 to 400 kilometers a day, with the option to do longer stretches occasionally if there is something specific at the end. The other route question is theme: scenic vs efficient. Scenic means coastal roads, mountain passes, small towns. Efficient means highways and quick distance. Most great road trips weight 70 percent scenic, 30 percent efficient, with the highways used to bridge gaps. moomz polls on routes are gold because everyone in the group has a different vision. One person wants the cliffside drive, another wants to stop at every diner, another wants to push 600 kilometers in a day. Polls force the group to commit before the trip starts. The other classic poll: north to south or south to north. The wind, the light, the side of the car the views are on, all change with direction. For the California PCH, north to south is the consensus because the ocean is on your right (the scenic side) the whole way. For the Croatian coast, either direction works but Dubrovnik as a finale is hard to beat."
+      },
+      {
+        "h": "Playlists, snacks, and the things that make hours disappear",
+        "body": "A road trip without a good playlist is a road trip you regret. The playlist debate is real: classic road trip rock (Springsteen, Tom Petty, Fleetwood Mac, CCR), modern road trip pop (Taylor Swift, Harry Styles, The 1975), a country playlist for the American highway, an indie playlist for the European countryside, podcast vs music for the long flat sections. moomz polls let your group commit to a playlist owner per day, rotating, so nobody monopolizes. Snacks are the other underrated road trip variable. American road trips run on gas station beef jerky, Reese's cups, sour candies, and Slurpees. European road trips run on bakery stops, baguette sandwiches, supermarket sliced cheese, and apricots from a roadside stand. moomz polls on best gas station snack always trigger fierce debate. The other small things that matter: who drives which leg (rotate every two hours), AC vs windows open (debate), how often to stop (every two hours is the sustainable rhythm), and the unwritten rule that the driver picks the music. Polls let your group set these expectations day one so the trip stays smooth."
+      },
+      {
+        "h": "Sleeping, eating, and the unplanned stops",
+        "body": "Where you sleep changes the road trip's character. Motels and budget hotels: convenient, predictable, cheap, kind of soulless. Airbnbs: more local, more variable, sometimes great, sometimes weird. Camping or van life: cheaper, more adventurous, more setup time. Boutique inns: the splurge option, often the best memories. moomz polls help groups decide nightly: do we book ahead or wing it. Winging it works for off-peak shoulder seasons but is brutal in summer. The Booking.com app late at night is fine but locks you into commercial places. The unplanned stops are where road trips actually live. The diner with the handwritten menu. The roadside attraction that looks ridiculous from the highway but turns into the trip's best photo. The pull-off with the view nobody mentioned online. The local bar where you ended up staying three hours because the bartender's dog adopted you. These cannot be planned, only enabled by leaving slack in the schedule. moomz polls help with the planned stops, but the unplanned ones are the reason to do road trips in the first place. Build in a buffer day with no destination, you will fill it with something better than any guidebook recommendation."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Best road trip for first-timers?",
+        "a": "Pacific Coast Highway (San Francisco to LA) for the classic American experience, 5 to 7 days. The Amalfi Coast (Naples to Salerno) for the European postcard version, 3 to 4 days. Scotland's North Coast 500 if you want wilderness and pubs, 5 to 7 days. Iceland's Ring Road if you want surreal landscapes and zero traffic, 7 to 10 days. moomz polls help your group pick based on budget, time, and tolerance for left-side driving."
+      },
+      {
+        "q": "How long can a road trip be before it gets old?",
+        "a": "Honest answer: 7 to 14 days is the sweet spot for most groups. After two weeks, energy drops, the car gets messy, and tiny annoyances become big ones. The exceptions are van life trips or solo road trips where the rhythm can stretch much longer. moomz polls about ideal trip length usually surface that people want shorter than they think, build in rest days and end early if needed."
+      },
+      {
+        "q": "Solo road trip or with friends?",
+        "a": "Solo road trips are incredible for headspace, total schedule freedom, and meeting more locals (you talk to people more when alone). Group road trips are more fun socially, cheaper per person, and safer for long stretches. The right answer depends on what you need from the trip. moomz polls inside a group chat often reveal that not everyone is up for the same kind of road trip, surface that early."
+      },
+      {
+        "q": "Rental car or your own car?",
+        "a": "Rental for one-way trips and unfamiliar countries, your own car for circular routes and trips longer than 10 days. Rental insurance is annoying but worth it, and many credit cards include rental coverage. For long international road trips, check rental return rules carefully, one-way drop-offs can double the price. moomz polls help groups split costs fairly, the standard is everyone pays gas in turn and the driver buys lunch."
+      }
+    ],
+    "related": ["mountains", "beach", "camping", "new-york", "paris", "barcelona"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "camping",
+    "locale": "en",
+    "keyword": "Camping",
+    "matchPatterns": ["camping", "tent", "campfire", "campground", "wild camp", "backpacking"],
+    "topic": "travel",
+    "title": "Camping Polls: Vote on Tents, Trails, and Campfire Vibes",
+    "description": "Plan your next camping trip with moomz polls. Vote on tent vs hammock, wild camp vs campground, gear lists, and best campfire foods.",
+    "emoji": "🏕️",
+    "intro": "Camping is travel stripped to its essentials. You bring shelter, you bring food, you bring fire, and you trade comfort for something cleaner. The night sky looks different when you sleep under it. Sounds change, distances change, time changes. A weekend in a tent does more for your stress levels than a week in a hotel ever could, which is why camping has had a massive resurgence over the past decade, especially since 2020 when outdoor travel became the default. Modern camping is a spectrum. On one end, ultralight backpacking, where you carry a 6 kilo pack for a 5-day trail and your gear is engineered to the gram. In the middle, classic car camping at a campground with a fire pit, picnic table, and a 10-minute walk to a swimmable lake. On the other end, glamping, with tents that have proper beds, running water, and sometimes electricity, basically a hotel with canvas walls. Beyond that there is RV travel, van life, hammock camping in tropical forests, and bivouac camping above the tree line in the Alps. Each one is its own culture with its own gear obsessives. moomz polls work great for camping because the decisions are concrete and the trade-offs are real. Tent or hammock. Campground or wild camping. Pack light or bring the camp chairs. Fire-cooked dinner or stove. Friends voting on these saves your group from the classic camping fight where one person wanted comfort and the other wanted suffering. This guide walks through how to plan a camping trip that does not collapse, the polls every camping group runs, and the small choices that make the difference between a great trip and a miserable one.",
+    "sections": [
+      {
+        "h": "Wild camping vs campgrounds: legality, vibe, and trade-offs",
+        "body": "The first big camping decision is where you actually sleep. Campgrounds are reliable: marked sites, often with a fire pit, sometimes with showers and toilets, usually 10 to 30 euros a night. National parks in the US and Canada have legendary campgrounds, often booking out months in advance for summer weekends. European campgrounds tend to be denser and more facility-focused. Wild camping (camping outside designated sites) is the freedom version: pick your spot, no neighbors, often no facilities. Legality varies hugely. Scotland allows it under the Right to Roam. Sweden, Norway, and Finland have the Right of Public Access. Spain, France, and Italy ban wild camping in most places, though tolerated above the tree line for bivouac. The US has dispersed camping on most BLM and national forest land. Always check local rules before you pitch. moomz polls on wild vs developed camping always split the group. Adventurous campers want wild, pragmatic ones want a real shower. The compromise is to do one or two nights wild for the experience and the rest at campgrounds for comfort. Wild camping also requires more gear: water filter, more food carry, navigation, and absolute discipline about leave-no-trace."
+      },
+      {
+        "h": "Gear, food, and the things that actually matter",
+        "body": "Camping gear obsession is its own subculture, but you only need a few things to do it well. A tent or hammock that matches the climate. A sleeping bag rated for the temperatures you'll actually face (always assume 5 degrees colder than forecast). A sleeping pad, the single biggest comfort upgrade most beginners skip. A stove, either canister (Jetboil-style) or alcohol (lighter, slower). A water filter or treatment for any wild camping. A headlamp, ideally rechargeable. Good shoes. That is most of it. Everything else is variable. moomz polls about what to actually pack always reveal the over-packers and the under-packers in your group. Over-packers bring camp chairs, full kitchens, propane lanterns, and complain about the weight. Under-packers bring one shirt and complain about the cold. Find the middle. Food is the next big decision. Car camping lets you bring a proper cooler, fresh meat, real ingredients, and cook elaborate meals over the fire. Backpacking food is dehydrated meals, oatmeal, jerky, nuts, chocolate, instant coffee. Some campers go luxurious with steaks, foil-wrapped vegetables, and a Dutch oven. Others go ultralight with one pot and dehydrated everything. moomz polls help your group pick a tier and stick to it."
+      },
+      {
+        "h": "Campfire culture, stars, and the rhythm of camp nights",
+        "body": "The single best part of camping is the evening. Fire crackling, dinner sizzling in cast iron, a beer or wine, friends in camp chairs, conversation slowing down as the sun drops. The fire is sacred and also tightly regulated in most places. Many western US national parks have fire bans through summer because of drought. Many European campgrounds limit fires to designated pits. Always check before you arrive. Once the fire is going, the rhythm is universal: marshmallows or s'mores for the kids and the kid-at-heart, whiskey or hot chocolate for the adults, a guitar if someone in the group plays, stories that always go on longer than expected. moomz polls about campfire food, marshmallows vs grilled bananas with chocolate, whiskey vs wine, songs vs scary stories, are gold because every camper has strong opinions. The other half of camping nights is the stars. Away from light pollution, even a mediocre night sky looks incredible. Bortle scale 1 and 2 locations (the darkest skies on earth) are mostly in deserts, mountains, and remote islands. Use a sky app like Star Walk or SkyView to identify constellations. Plan your trip for new moon week if you want maximum stars. Then put the phone away and just look up for an hour. Polls help with the rest of the trip, but the night sky moment is meant to be unmediated."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Best camping for beginners?",
+        "a": "Car camping at a well-reviewed campground in a national park or state park is the gentlest start. You sleep in a tent but you have a car as backup, a picnic table for cooking, and toilets within walking distance. Pick a campground with a swimmable lake or river nearby for daytime activity. Try one or two nights before committing to a longer trip. moomz polls help your group figure out comfort levels before booking."
+      },
+      {
+        "q": "Best time of year for camping?",
+        "a": "Late spring through early autumn in temperate climates: mild nights, dry weather, long days. Avoid mosquito peak (late spring to early summer in many places) if you hate bugs. Shoulder season (May, September, October) is often the sweet spot: fewer crowds, less heat, beautiful light. Winter camping is its own world, requires real gear and experience, do not start there."
+      },
+      {
+        "q": "Tent or hammock?",
+        "a": "Tent for open spaces, mountains, or anywhere above the tree line. Hammock for forests with sturdy trees, especially in warm humid climates where you want airflow. Hammocks need a tarp for rain and an underquilt for cold nights, so they are not actually lighter once dialed in. moomz polls on tent vs hammock always trigger fierce debate among campers, the truth is both work great in the right conditions."
+      },
+      {
+        "q": "How to camp without freezing at night?",
+        "a": "Three things: sleeping bag rated 5 degrees colder than the lowest forecast temperature, a quality sleeping pad with an R-value of 3 or higher, and a hat plus base layers to sleep in. Cold feet ruin nights, wear merino wool socks. Hot drink before bed warms you faster than anything. Avoid sweating in your sleep clothes during the day, change into dry layers before bed. These four habits solve 90 percent of cold-night camping problems."
+      }
+    ],
+    "related": ["mountains", "road-trip", "summer", "wind", "rain", "camping"],
+    "updatedAt": "2026-05-19"
+  }
+]

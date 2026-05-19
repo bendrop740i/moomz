@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "pizza",
+    "locale": "fr",
+    "keyword": "Pizza",
+    "matchPatterns": ["pizza", "pizzeria", "napolitaine", "margherita", "quatre fromages"],
+    "topic": "food",
+    "title": "Pizza : histoire, styles et vibe-check sur moomz",
+    "description": "De la Margherita napolitaine de 1889 aux pizzas new-yorkaises pliées en deux, on déroule l'histoire et les meilleures façons d'apprécier une vraie pizza.",
+    "emoji": "🍕",
+    "intro": "La pizza, c'est probablement le plat qui fait l'unanimité la plus large sur la planète. On peut être végétarien, flexitarien, en couple compliqué ou en pleine rupture, il y a toujours une part de pizza qui répare quelque chose. L'histoire moderne commence officiellement en 1889 à Naples : le pizzaiolo Raffaele Esposito prépare une pizza tricolore pour la reine Marguerite de Savoie — tomate (rouge), mozzarella (blanc), basilic (vert) — et la baptise Margherita. Elle existait sans doute déjà sous d'autres formes dans les rues napolitaines, mais c'est cette légende qui a fait basculer la pizza du statut de street food pauvre à celui d'icône culturelle. Aujourd'hui, la pizza napolitaine est même inscrite au patrimoine immatériel de l'UNESCO depuis 2017, ce qui n'est pas rien pour un disque de pâte. Sur moomz, la pizza revient sans arrêt dans les vibe-checks : on l'associe à la flemme du dimanche soir, aux soirées Netflix entre potes, aux retours de soirée à 3 h du matin et aux date nights qui finissent dans une pizzeria parce que c'est neutre, rassurant et photogénique. C'est aussi un des rares plats qui supporte d'être mangé seul devant son téléphone sans donner l'impression d'être triste. Avant de commander, ça vaut le coup de savoir ce qu'on choisit : pizza napolitaine fine au bord épais, pizza romaine ultra-craquante, pizza new-yorkaise large et pliable, pizza détroit en pavé. Chaque style raconte un imaginaire différent et déclenche une émotion différente — et c'est exactement ce que moomz aime décortiquer.",
+    "sections": [
+      {
+        "h": "Les grandes familles de pizza",
+        "body": "La pizza napolitaine, c'est la matrice. Pâte hydratée, cuisson très rapide (60 à 90 secondes) dans un four à bois entre 430 et 480 °C, bord gonflé (le cornicione) et centre légèrement humide qu'on mange à la fourchette. La vraie Vera Pizza Napoletana est même protégée par un cahier des charges strict. La pizza romaine se présente sous deux formes : la tonda romana, fine et croustillante comme du cracker, et la pizza al taglio vendue au poids dans toute Rome. La pizza new-yorkaise est née quand les immigrés napolitains ont débarqué à New York au début du XXe siècle : grandes parts qu'on plie en deux pour les manger en marchant, fromage très étiré, sauce sucrée-acidulée. La pizza détroit, elle, est carrée, cuite dans un moule huilé d'origine industrielle, avec un fromage qui caramélise sur les bords. Et puis il y a la pizza chicago deep-dish, plus proche d'une tourte, à manger à la fourchette. Choisir son style, c'est déjà choisir une humeur."
+      },
+      {
+        "h": "Pourquoi la pizza marche autant en rendez-vous",
+        "body": "Sociologiquement, la pizza coche presque toutes les cases d'un bon premier rendez-vous ou d'une soirée chill : c'est abordable, ça se partage, ça ne tache pas trop, ça ne sent pas l'effort excessif (donc pas de pression), et ça laisse les mains libres pour parler. À l'inverse d'un resto étoilé qui peut intimider, une pizzeria avec nappe à carreaux désamorce le sérieux. C'est aussi un plat très instagrammable : la mozzarella qui file, le four à bois en arrière-plan, la part triangulaire tenue en l'air — autant de visuels qui marchent sur Insta et TikTok. Sur moomz, beaucoup de récits de date démarrent par une pizza partagée et un verre de vin rouge italien (chianti, montepulciano, primitivo). Le piège classique : la pizza ananas. Statistiquement, c'est l'un des sujets qui divise le plus une table — certains adorent l'hawaïenne, d'autres considèrent que c'est un crime contre l'Italie. Tester l'avis de l'autre dessus, c'est presque un mini vibe-check incognito."
+      },
+      {
+        "h": "Comment juger une bonne pizzeria",
+        "body": "Quelques signaux ne trompent pas. D'abord, la carte courte : une vraie pizzeria napolitaine propose rarement plus de 15 pizzas, parce qu'elle maîtrise ses bases. Ensuite, la pâte : si elle est élastique, légèrement humide au centre et un peu noircie par endroits sur le bord, c'est bon signe — ce sont les fameuses leopard spots des fours très chauds. Une bonne pizza ne doit pas être lourde : la fermentation longue (24 à 72 heures) rend la pâte digeste. Côté ingrédients, on cherche des produits AOP : tomates San Marzano D.O.P., mozzarella di bufala campana D.O.P., huile d'olive extra vierge, basilic frais ajouté à la fin. Méfiez-vous des pizzerias qui mettent dix ingrédients par pizza : la signature italienne, c'est trois ou quatre ingrédients de qualité. Enfin, le prix : une vraie napolitaine en France tourne entre 11 et 16 euros. En dessous, il y a souvent un compromis sur la matière première. Au-dessus de 20, on paye surtout le quartier."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi la pizza Margherita s'appelle comme ça ?",
+        "a": "La légende officielle raconte qu'en juin 1889, le pizzaiolo napolitain Raffaele Esposito a créé une pizza pour la reine Marguerite de Savoie en visite à Naples. Il a choisi les trois couleurs du drapeau italien — tomate rouge, mozzarella blanche, basilic vert — et l'a baptisée Margherita en son honneur. Des historiens ont depuis montré qu'une pizza très similaire existait déjà avant 1889, mais c'est cette histoire royale qui a popularisé le nom dans toute l'Italie puis dans le monde."
+      },
+      {
+        "q": "Quelle est la différence entre mozzarella et mozzarella di bufala ?",
+        "a": "La mozzarella classique (fior di latte) est faite à partir de lait de vache. La mozzarella di bufala campana, elle, est fabriquée à partir de lait de bufflonne, dans une zone précise du sud de l'Italie (principalement Campanie et Latium). Elle est protégée par une AOP depuis 1996. Goût plus prononcé, texture plus crémeuse, taux de matière grasse plus élevé. Sur une pizza napolitaine traditionnelle, on utilise plutôt du fior di latte pour éviter que la pizza ne soit trop humide."
+      },
+      {
+        "q": "La pizza ananas, c'est vraiment une hérésie ?",
+        "a": "La pizza hawaïenne — jambon et ananas — a été inventée en 1962 par Sam Panopoulos, un restaurateur grec installé au Canada, dans la ville de Chatham, Ontario. Donc rien d'italien là-dedans. Les puristes italiens la détestent ouvertement (un ancien président islandais a même plaisanté sur l'envie de l'interdire). Mais en termes de goût, le mélange sucré-salé est cohérent et a ses fans. Sur moomz, c'est un classique des débats de couples — un vrai test de tolérance gastronomique."
+      },
+      {
+        "q": "Pourquoi la pizza napolitaine est-elle classée à l'UNESCO ?",
+        "a": "En décembre 2017, l'art du pizzaiolo napolitain a été inscrit au patrimoine culturel immatériel de l'UNESCO. Ce n'est pas la pizza en tant que recette qui est protégée, mais le savoir-faire : le geste pour étaler la pâte à la main (jamais au rouleau), la fermentation longue, l'usage du four à bois, et la transmission orale entre générations de pizzaioli napolitains. Une pétition de deux millions de signatures avait accompagné le dossier. C'est la reconnaissance officielle que la pizza, c'est bien plus qu'un fast-food."
+      }
+    ],
+    "related": ["fromage", "vin", "mcdo", "netflix", "premier-rdv", "rome"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "sushi",
+    "locale": "fr",
+    "keyword": "Sushi",
+    "matchPatterns": ["sushi", "maki", "sashimi", "nigiri", "japonais"],
+    "topic": "food",
+    "title": "Sushi : origine japonaise, styles et bonnes adresses",
+    "description": "Tout sur le sushi : ses racines à Edo, la différence entre nigiri, maki et sashimi, et comment repérer un vrai bon restaurant japonais sur moomz.",
+    "emoji": "🍣",
+    "intro": "Le sushi est sûrement l'un des plats les plus mal compris en Occident. Quand on dit sushi, beaucoup pensent automatiquement aux makis californiens enroulés autour d'avocat et de surimi. En réalité, le sushi tel qu'on le connaît aujourd'hui — un petit pavé de riz vinaigré surmonté d'un morceau de poisson cru — est né au début du XIXe siècle dans la ville d'Edo, l'ancien nom de Tokyo. On l'appelait edomae-zushi, littéralement sushi de la baie d'Edo, parce que les poissons étaient pêchés directement dans la baie. À l'origine, le concept de conservation du poisson dans du riz fermenté (le narezushi) existait depuis le VIIIe siècle, importé de Chine, mais c'est un chef nommé Hanaya Yohei qui aurait inventé vers 1820 le nigiri rapide à manger sur le pouce — une sorte de fast-food japonais avant l'heure. Sur moomz, le sushi revient régulièrement comme plat de rendez-vous, parce qu'il combine plusieurs choses : un côté un peu chic sans être prétentieux, une dimension photogénique évidente, et un terrain de jeu pour observer l'autre (qui prend du wasabi, qui se débrouille avec les baguettes, qui ose le sashimi de thon gras). C'est aussi un plat qui sépare assez vite les gens qui aiment goûter et les gens qui restent dans leur zone de confort. Bref, c'est un mini-révélateur de personnalité, en plus d'être délicieux.",
+    "sections": [
+      {
+        "h": "Sushi, sashimi, maki : enfin la différence",
+        "body": "Le sushi désigne en réalité tout plat à base de riz vinaigré (shari). Donc tout ce qui contient ce riz aromatisé est techniquement un sushi. Le nigiri, c'est la forme la plus pure : une boulette de riz pressée à la main, surmontée d'une tranche de poisson cru (ou cuit), parfois liée par une touche de wasabi. Le maki est un rouleau enveloppé d'une feuille d'algue (nori), tranché en six ou huit morceaux. Le sashimi, lui, n'est PAS un sushi : c'est juste du poisson cru tranché finement, sans riz. Beaucoup de gens confondent. Ensuite, il y a les variantes : temaki (cône d'algue à manger à la main), uramaki (riz à l'extérieur, popularisé en Californie dans les années 1960), gunkan (bateau d'algue rempli d'œufs de poisson), chirashi (bol de riz avec poissons assortis dessus). En France, les sushis qu'on commande en click & collect sont presque tous des dérivés californiens, très éloignés du sushi traditionnel."
+      },
+      {
+        "h": "Comment reconnaître un bon restaurant de sushis",
+        "body": "Premier réflexe : regardez la carte. Si elle propose 250 références dont des spring rolls, des nouilles thaï, des rouleaux de printemps vietnamiens et des bo bun, ce n'est pas vraiment un restaurant japonais. Un vrai sushi-ya a une carte courte centrée sur les poissons du jour. Deuxième signe : le bar à sushi avec le chef visible. Idéalement, vous voyez le itamae (chef sushi) travailler devant vous. Troisième : la qualité du riz. Beaucoup de gens jugent un sushi à son poisson, mais un vrai amateur juge d'abord le shari — sa température (légèrement tiède, jamais froid), son taux de vinaigre, sa texture lâche mais qui se tient. Quatrième : les prix. Un omakase (menu choisi par le chef) dans un vrai japonais à Paris commence à 80 euros environ et peut monter à 300 euros pour les tables les plus pointues comme certaines adresses à Tokyo où le ticket dépasse 500 euros. En dessous de 25 euros, vous mangez du sushi industriel, point."
+      },
+      {
+        "h": "Le sushi comme code social",
+        "body": "Au Japon, manger des sushis est codifié. On trempe le poisson dans la sauce soja, jamais le riz (sinon il se désagrège). On mange un nigiri en une bouchée, idéalement avec les doigts, pas avec les baguettes. On ne mélange JAMAIS le wasabi dans la sauce soja, considéré comme un manque de respect au chef qui a déjà dosé le wasabi entre le riz et le poisson. Le gingembre mariné (gari) sert à se rincer le palais entre deux sushis, pas à mettre sur le sushi. En France, on est plus relax sur tout ça, mais connaître ces codes change votre rapport au plat. Sur moomz, beaucoup racontent leurs premiers rendez-vous sushi : qui finit par avaler le wasabi en croyant que c'est de l'avocat, qui commande systématiquement californien-saumon-avocat parce qu'il ne sait pas lire le reste. Le sushi, c'est un terrain d'apprentissage et un moment partagé."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qui a inventé le sushi ?",
+        "a": "La forme moderne du sushi, le nigiri, est attribuée à Hanaya Yohei, un chef qui officiait à Edo (Tokyo) dans les années 1820-1830. Mais l'idée de conserver du poisson dans du riz fermenté existait bien avant, dès le VIIIe siècle au Japon, importée de Chine. Cette technique ancienne s'appelait narezushi : le poisson fermentait pendant des mois, et on jetait souvent le riz pour ne manger que le poisson. C'est Hanaya Yohei qui a transformé ça en street food rapide, l'ancêtre direct des sushis qu'on mange aujourd'hui."
+      },
+      {
+        "q": "Pourquoi le sushi est-il si cher ?",
+        "a": "Plusieurs raisons. D'abord, le poisson de qualité sushi représente une fraction infime des prises mondiales — il faut un poisson ultra-frais, idéalement vivant ou ikejime (méthode japonaise d'abattage qui préserve la texture). Ensuite, la formation d'un itamae prend traditionnellement des années : on dit qu'il faut dix ans pour cuire le riz parfaitement avant même de toucher au poisson. Enfin, le thon rouge sauvage de la baie de Toyosu peut atteindre des prix records aux enchères, le record absolu étant de 3,1 millions d'euros pour un seul thon en 2019."
+      },
+      {
+        "q": "Peut-on manger du sushi enceinte ?",
+        "a": "En France, les autorités sanitaires recommandent d'éviter la consommation de poisson cru pendant la grossesse, à cause des risques de listériose, toxoplasmose et anisakiase. Le risque est plus élevé en cas de sushi de magasin que dans un restaurant qui maîtrise sa chaîne du froid. Au Japon, paradoxalement, beaucoup de femmes enceintes en mangent sans souci particulier, à condition que le poisson soit ultra-frais. Les sushis cuits (anguille, crevette tempura, omelette tamago) restent une option sûre pour les femmes enceintes qui veulent en profiter."
+      },
+      {
+        "q": "Pourquoi on mange du gingembre entre les sushis ?",
+        "a": "Le gari, ce gingembre rose mariné, sert principalement à nettoyer le palais entre deux sushis aux saveurs différentes. Par exemple, si vous passez d'un sushi à la sardine très iodé à un sushi à la daurade très délicat, le gari remet les compteurs à zéro. Il a aussi des propriétés antibactériennes — historiquement, c'était une protection supplémentaire à une époque où la conservation du poisson cru n'était pas aussi maîtrisée. À ne pas confondre avec le wasabi, qui se met sur le sushi, pas dans la sauce soja."
+      }
+    ],
+    "related": ["ramen", "vin", "tokyo", "premier-rdv", "miyazaki", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "cafe",
+    "locale": "fr",
+    "keyword": "Café",
+    "matchPatterns": ["cafe", "café", "espresso", "latte", "cappuccino", "barista"],
+    "topic": "food",
+    "title": "Café : espresso, latte, filtre — quel style te correspond ?",
+    "description": "De l'expresso italien au café de spécialité, on déroule l'histoire du café et ce qu'il dit de toi quand tu commandes ta boisson préférée.",
+    "emoji": "☕",
+    "intro": "Le café, c'est probablement la boisson la plus politiquement, culturellement et socialement chargée au monde. Deuxième matière première la plus échangée sur la planète après le pétrole pendant des décennies, c'est aussi l'excuse parfaite pour un premier rendez-vous, le rituel matinal de la moitié de la planète et un véritable marqueur générationnel. La légende dit que le café aurait été découvert vers le IXe siècle en Éthiopie par un berger nommé Kaldi, qui aurait remarqué que ses chèvres devenaient hyperactives après avoir mangé des baies rouges d'un certain arbuste. Vrai ou faux, ce qui est sûr, c'est que la consommation de café se diffuse depuis l'Éthiopie vers le Yémen au XVe siècle, où les soufis l'utilisent pour rester éveillés pendant les prières nocturnes. Le café arrive en Europe via Venise au XVIIe siècle, et le premier café parisien (le Procope) ouvre en 1686, encore en activité aujourd'hui. Sur moomz, le café est partout : la pause clope-café entre deux meetings, le date du dimanche dans un coffee shop hipster avec ses cafés de spécialité, la dispute sur qui commande le pire latte. Et puis il y a la question essentielle : ton ordre Starbucks ou ton ordre dans le bistro du coin, ça raconte qui tu es. C'est presque devenu un mini test de personnalité.",
+    "sections": [
+      {
+        "h": "Espresso, americano, latte : sortir du flou",
+        "body": "L'espresso, c'est la base : 7 à 9 grammes de café moulu fin, 25 à 30 secondes d'extraction sous 9 bars de pression, environ 30 ml dans la tasse. Tout le reste en dérive. L'americano, c'est un espresso allongé avec de l'eau chaude — l'origine viendrait des soldats américains en Italie pendant la Seconde Guerre mondiale qui trouvaient l'espresso trop fort. Le cappuccino est un espresso + lait vapeur + mousse dense (1/3-1/3-1/3), traditionnellement bu le matin en Italie, jamais après 11 h. Le latte (caffè latte) contient plus de lait que de mousse — c'est un espresso noyé dans le lait vapeur. Le flat white, inventé en Australie ou en Nouvelle-Zélande dans les années 1980, est entre le cappuccino et le latte avec une mousse très fine et microfoamée. Le macchiato, c'est un espresso avec juste une cuillère de mousse. Et le ristretto, c'est un espresso encore plus court (15 ml), plus concentré et moins amer."
+      },
+      {
+        "h": "Café de spécialité : la troisième vague",
+        "body": "On parle de troisième vague du café depuis les années 2000. La première vague, c'était l'industrialisation du café (Nescafé, Maxwell House). La deuxième, c'était Starbucks et la démocratisation du latte. La troisième, c'est le café traité comme un produit noble, avec traçabilité origine, méthode de torréfaction artisanale, méthodes d'extraction douces (V60, Aeropress, Chemex, syphon). Un café de spécialité doit obtenir au moins 80/100 sur l'échelle de la Specialty Coffee Association. Aujourd'hui, des villes comme Paris (Belleville Brûlerie, Coutume, Café Mokxa), Tokyo, Melbourne ou Oslo sont des références mondiales. Les terroirs prennent de l'importance — un café éthiopien Yirgacheffe a des notes florales et fruitées, un Brésilien Cerrado est plus chocolaté et noisette, un Kenyan AA est acidulé comme une groseille. Le prix au kilo d'un grain de spécialité peut atteindre 50 à 100 euros, voire 600 euros pour un Geisha panaméen, contre 20 à 25 euros pour du commercial."
+      },
+      {
+        "h": "Le café comme rituel social",
+        "body": "Dans le monde latin, on commande un café au comptoir, on le boit en deux gorgées, on paye 1,50 euro et on repart. C'est rapide, codifié, masculin presque. Dans les pays anglo-saxons et nordiques, le café est un moment posé, en mug, avec du wifi et un fauteuil. C'est aussi le terrain de jeu du premier rendez-vous low-stakes : si ça ne marche pas, on s'en va après 30 minutes sans avoir à payer un repas. Sur moomz, beaucoup racontent leurs dates café — souvent le bon plan quand on hésite à investir un dîner entier dans quelqu'un qu'on connaît juste par appli. Côté office culture, le café est devenu un rituel performatif : commander un cold brew double-shot avec lait d'avoine en open space, c'est un statement. À l'inverse, demander un Nescafé instantané, c'est presque une provocation calme. Bref, ce que tu bois dit beaucoup."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi les Italiens ne boivent jamais de cappuccino l'après-midi ?",
+        "a": "Question de tradition. En Italie, le lait est considéré comme un aliment lourd qu'on consomme le matin, jamais après un repas. Le cappuccino accompagne un cornetto au petit-déjeuner, point. Après 11 h, un Italien commande un caffè (espresso) ou éventuellement un macchiato. Commander un cappuccino après le déjeuner dans une trattoria, c'est immédiatement repérer le touriste. Cette règle informelle est tellement ancrée que beaucoup de bars italiens ne servent même plus de cappuccino en fin d'après-midi sans broncher."
+      },
+      {
+        "q": "Le café déshydrate vraiment ?",
+        "a": "Mythe largement déconstruit. Pendant longtemps on a dit que la caféine était diurétique, donc déshydratante. En réalité, plusieurs études (notamment celle de l'University of Birmingham en 2014) ont montré qu'une consommation modérée de café (3-4 tasses par jour) contribue normalement à l'hydratation. L'effet diurétique de la caféine est faible et compensé largement par l'eau contenue dans la boisson. Donc ton café du matin compte bien dans ta consommation d'eau quotidienne, contrairement à ce que ton oncle disait."
+      },
+      {
+        "q": "Quel café choisir pour ne pas être ballonné ?",
+        "a": "Si tu as l'estomac fragile, l'espresso pur est paradoxalement souvent mieux toléré que le café filtre, parce qu'il contient moins de caféine totale (environ 60-70 mg contre 90-150 mg pour un mug filtre) et que l'extraction rapide capture moins d'acides chlorogéniques irritants. Les cafés de torréfaction foncée sont aussi moins acides. Évite le café sur estomac vide si tu as tendance aux remontées acides. Et le cold brew, avec son extraction lente à froid (12-24 h), est nettement moins acide que le café chaud."
+      },
+      {
+        "q": "Pourquoi le café Starbucks a-t-il un goût brûlé ?",
+        "a": "C'est un choix volontaire de la marque. Starbucks pratique une torréfaction très foncée (dark roast) sur la majorité de ses cafés, ce qui donne ce goût carbonisé caractéristique. Historiquement, ça permettait d'uniformiser le profil de café à travers des milliers de boutiques avec des grains de qualité variable — la torréfaction foncée masque les défauts. Beaucoup d'amateurs de spécialité reprochent à Starbucks d'avoir habitué tout une génération à confondre dark roast et qualité. Mais commercialement, ça reste un modèle qui fonctionne."
+      }
+    ],
+    "related": ["chocolat", "croissant", "premier-rdv", "paris", "iphone", "vie-de-couple"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "vin",
+    "locale": "fr",
+    "keyword": "Vin",
+    "matchPatterns": ["vin", "rouge", "blanc", "bordeaux", "champagne", "aoc"],
+    "topic": "food",
+    "title": "Vin : AOC, cépages et accords — le vibe-check œnologique",
+    "description": "Vin rouge, blanc, naturel, biodynamique : on démystifie les AOC françaises, les grands cépages et comment choisir une bouteille sans se planter.",
+    "emoji": "🍷",
+    "intro": "Le vin, en France, c'est une religion civile. On parle d'une boisson qui structure le paysage agricole sur 750 000 hectares de vignes, qui pèse environ 14 milliards d'euros d'exportations annuelles, et qui occupe une place culturelle disproportionnée par rapport à sa consommation réelle. Parce que oui — la consommation française a chuté de 120 litres par habitant et par an dans les années 1960 à environ 40 litres aujourd'hui. La génération moomz, elle, boit moins mais mieux : le rapport au vin est devenu celui de la curiosité, du naturel, de la biodynamie, des vins de petits domaines. Historiquement, le vin français doit beaucoup au système des AOC (Appellation d'Origine Contrôlée), créé officiellement en 1935 avec l'INAO pour protéger les terroirs après la crise du phylloxéra et la fraude massive du début du XXe siècle. Aujourd'hui, on compte environ 360 AOC viticoles en France, chacune avec son cahier des charges précis : cépages autorisés, rendement maximum, méthodes de vinification, parfois même temps de vieillissement. Sur moomz, le vin revient dans les vibe-checks de date (le mec qui commande direct un bordeaux pour faire sérieux), dans les soirées entre potes, dans les apéros qui dérapent. Et il y a toujours cette question : naturel ou conventionnel, rouge ou orange, AOC ou vin de France ?",
+    "sections": [
+      {
+        "h": "Comprendre les AOC françaises",
+        "body": "Une AOC, c'est une garantie de lien entre un produit et son terroir. Pour le vin, ça signifie des cépages imposés, une zone géographique délimitée, un rendement plafonné, et souvent une dégustation d'agrément. Les grandes régions : Bordeaux (cabernet sauvignon, merlot, cabernet franc, sauvignon blanc, sémillon), Bourgogne (pinot noir, chardonnay quasi exclusivement), Champagne (chardonnay, pinot noir, pinot meunier), Rhône (syrah au nord, grenache-syrah-mourvèdre au sud), Loire (chenin, sauvignon, cabernet franc, melon de Bourgogne), Alsace (riesling, gewurztraminer, pinot gris), Languedoc et Provence. Une AOC ne garantit pas un grand vin, juste un vin typique d'un endroit. Au-dessus, on trouve les premiers crus et grands crus (notamment en Bourgogne), qui désignent des parcelles précises avec un terroir d'exception. À noter : le sigle AOP (Appellation d'Origine Protégée) est l'équivalent européen, qui remplace progressivement l'AOC sur les étiquettes."
+      },
+      {
+        "h": "Vin naturel, biodynamie, conventionnel",
+        "body": "Le vin conventionnel utilise des intrants standard : levures sélectionnées, sulfites en quantité significative (jusqu'à 150 mg/L en blanc, 100 mg/L en rouge), parfois enzymes, tanins ajoutés, copeaux de chêne. Le vin bio, certifié depuis 2012 en Europe, limite ces intrants et impose un raisin bio. La biodynamie va plus loin : pratiques inspirées de Rudolf Steiner, calendrier lunaire, préparations à base de bouse de corne ou silice. Certifications Demeter ou Biodyvin. Le vin naturel n'a pas de définition légale stricte mais se définit en pratique par : raisin bio ou biodynamique, vendanges manuelles, fermentation avec les levures indigènes, aucun ou très peu d'intrants, sulfites ajoutés très limités (souvent moins de 30 mg/L au total). Le mouvement nature, né dans le Beaujolais et la Loire dans les années 1980, a explosé chez les moins de 35 ans dans les années 2010 — bars à vin nature à Paris, Berlin, Tokyo, Copenhague."
+      },
+      {
+        "h": "Choisir une bouteille sans se planter",
+        "body": "Quelques règles pratiques. Pour un dîner en couple sans prétention, vise une bouteille entre 12 et 25 euros chez un caviste indépendant — il connaît son stock et adaptera à ton repas et à ton budget. Évite les vins de supermarché en dessous de 8 euros (souvent industriels et chargés en sulfites). Sur l'étiquette, regarde : le nom du domaine (un domaine identifiable, c'est mieux qu'une marque générique), l'appellation, le millésime, et idéalement la mention nature, bio ou biodynamie. Pour les accords classiques : huîtres + muscadet ou chablis, viande rouge + pomerol ou côte-rôtie, fromages affinés + vin blanc moelleux ou rouge tannique selon le fromage, chocolat + maury ou banyuls (vins doux naturels). Et règle d'or : pas plus d'un degré d'écart entre la complexité du vin et celle du plat. Sur moomz, le snobisme vin est un sujet récurrent — apprendre à ne pas se laisser intimider est libérateur."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi le vin coûte-t-il si cher ?",
+        "a": "Plusieurs facteurs. D'abord, le coût foncier viticole français est exorbitant — un hectare en Pomerol ou en Romanée-Conti peut dépasser 10 millions d'euros, et même les terres en appellations moyennes coûtent 30 000 à 200 000 euros l'hectare. Ensuite, la vinification artisanale prend du temps et nécessite de la main-d'œuvre, surtout en biodynamie. Le vieillissement en cave (12, 18, 24 mois) immobilise du capital. Enfin, la spéculation sur les grands crus a fait exploser certaines références : un Romanée-Conti se vend entre 15 000 et 25 000 euros la bouteille."
+      },
+      {
+        "q": "Le champagne est-il forcément cher ?",
+        "a": "Pas obligatoirement. La région champenoise produit du champagne entre 25 euros (grandes marques de supermarché ou récoltants peu connus) et plus de 1000 euros (Dom Pérignon vintage, Krug Clos d'Ambonnay). Les amateurs préfèrent souvent les champagnes de récoltants-manipulants (signalés par les initiales RM sur l'étiquette), entre 30 et 60 euros, qui ont plus de caractère que les grandes maisons. À éviter : les crémants présentés comme du champagne — ils peuvent être très bons mais ne sont pas du champagne, qui doit obligatoirement venir de la zone AOC Champagne en France."
+      },
+      {
+        "q": "Comment savoir si un vin est bouchonné ?",
+        "a": "Un vin bouchonné a un défaut causé par une molécule, le trichloranisole (TCA), qui se développe parfois dans le bouchon en liège. À l'ouverture, on sent une odeur très désagréable de carton humide, de moisi ou de chien mouillé. Ce n'est pas dangereux mais c'est imbuvable. Statistiquement, environ 2 à 5 % des bouteilles avec bouchon liège sont touchées. Dans un restaurant, c'est une raison légitime de demander le changement de bouteille — le sommelier le fait sans discuter. C'est l'une des raisons pour lesquelles les capsules à vis se développent."
+      },
+      {
+        "q": "Pourquoi le vin nature est-il à la mode ?",
+        "a": "Plusieurs raisons convergent. D'abord, la prise de conscience environnementale : les jeunes consommateurs veulent du raisin sans pesticides. Ensuite, le rejet du marketing des grandes marques au profit de petits domaines à visage humain. Le vin nature est aussi souvent plus digeste (moins de sulfites) et offre des profils gustatifs inhabituels — vins légers, fruités, parfois acidulés, parfois funky. La scène est très visible sur Instagram et TikTok depuis 2018, avec des cavistes comme Septime La Cave à Paris ou des bars comme Le Verre Volé. C'est devenu un marqueur culturel autant qu'un choix de boisson."
+      }
+    ],
+    "related": ["fromage", "pizza", "sushi", "premier-rdv", "paris", "vie-de-couple"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "chocolat",
+    "locale": "fr",
+    "keyword": "Chocolat",
+    "matchPatterns": ["chocolat", "cacao", "praliné", "ganache", "noir"],
+    "topic": "food",
+    "title": "Chocolat : du cacao au carré — pourquoi on en raffole",
+    "description": "Origine du cacao, fabrication, chocolat noir contre lait, et pourquoi le chocolat fait partie de nos rituels émotionnels — décrypté sur moomz.",
+    "emoji": "🍫",
+    "intro": "Le chocolat occupe une place à part dans nos vies. C'est à la fois le réflexe-confort après une rupture, le cadeau anniversaire safe, le rituel de fin de repas, et l'objet de tous les fantasmes marketing autour de Pâques et de la Saint-Valentin. Les Français en consomment en moyenne 7 kg par personne et par an — moins que les Suisses (10 kg) ou les Allemands (9 kg), mais avec une exigence qualitative parmi les plus élevées au monde. L'histoire du chocolat commence en Mésoamérique il y a au moins 3000 ans, chez les Olmèques, puis les Mayas et les Aztèques, qui consommaient le cacao sous forme de boisson amère, épicée, parfois mêlée de piment. Les Aztèques l'appelaient xocoatl, littéralement eau amère — racine étymologique du mot chocolat. Cortès le rapporte en Espagne au XVIe siècle, où on lui ajoute du sucre. La grande révolution intervient en 1828, quand le Néerlandais Van Houten invente le procédé pour séparer le beurre de cacao de la poudre, rendant possible la fabrication du chocolat solide. En 1875, le Suisse Daniel Peter ajoute du lait condensé en poudre, et le chocolat au lait est né. Sur moomz, le chocolat revient sans cesse dans les vibe-checks émotionnels — c'est l'aliment-doudou par excellence, scientifiquement prouvé pour stimuler la sérotonine et la dopamine.",
+    "sections": [
+      {
+        "h": "Du cacao au chocolat : la transformation",
+        "body": "Tout part du cacaoyer (Theobroma cacao, littéralement nourriture des dieux), un arbuste qui pousse dans la ceinture équatoriale, principalement en Côte d'Ivoire, au Ghana, en Indonésie, en Équateur. Les cabosses contiennent des fèves entourées d'une pulpe blanche. Étape 1 : fermentation (5 à 7 jours), pendant laquelle les arômes se développent. Étape 2 : séchage. Étape 3 : torréfaction (120-150 °C selon l'origine), qui crée les arômes typiques de chocolat. Étape 4 : concassage et broyage pour obtenir la masse de cacao. Étape 5 : conchage, étape clé inventée par Rodolphe Lindt en 1879 — on brasse le chocolat pendant des heures (jusqu'à 72 h pour les grands crus) pour obtenir cette texture fondante. Étape 6 : tempérage, pour cristalliser le beurre de cacao et obtenir le snap caractéristique. Un grand chocolat de couverture contient au moins 70 % de cacao, parfois 85 % ou 100 % pour les puristes. Le chocolat au lait standard tourne entre 30 et 40 %, le chocolat blanc ne contient pas de cacao en poudre mais uniquement du beurre de cacao."
+      },
+      {
+        "h": "Noir, lait, blanc, ruby : qui choisir ?",
+        "body": "Le chocolat noir est le plus pur — plus le pourcentage de cacao est élevé, plus il est intense et amer. Au-delà de 80 %, c'est presque médicinal. Le chocolat au lait, plus doux, plus sucré, est celui que la majorité préfère. Le chocolat blanc divise : techniquement ce n'est pas vraiment du chocolat (pas de pâte de cacao), mais c'est très apprécié en pâtisserie pour sa douceur. Le chocolat ruby, inventé par le groupe Barry Callebaut et lancé en 2017, est obtenu à partir d'une fève rose naturelle — couleur rose, goût acidulé légèrement fruité. C'est la première nouvelle catégorie de chocolat en 80 ans. Côté santé, le chocolat noir à 70 % et plus est riche en antioxydants (flavonoïdes), magnésium, et contient peu de sucre par rapport au chocolat au lait. Mais attention à la teneur en cadmium, naturellement présent dans certains terroirs (Amérique du Sud notamment) — l'UE a fixé des seuils maximum en 2019."
+      },
+      {
+        "h": "Chocolat et émotions : pourquoi on en mange en cas de stress",
+        "body": "Il y a une vraie base biochimique. Le chocolat contient plusieurs composés psychoactifs : la théobromine (légèrement stimulante), la phényléthylamine (associée au sentiment amoureux), l'anandamide (mimétique du cannabis à très faible dose), du tryptophane (précurseur de la sérotonine). Mais les quantités sont trop faibles pour produire des effets pharmacologiques significatifs — l'essentiel de l'effet réconfortant est psychologique et conditionné. On associe le chocolat à des moments positifs depuis l'enfance (Pâques, Noël, anniversaires), donc en manger active des souvenirs heureux. Sur moomz, c'est un classique des vibe-checks post-rupture : la tablette devant Netflix, le pot de pâte à tartiner à la cuillère, la fondue chocolat entre potes. Le chocolat est aussi devenu un terrain d'expression amoureuse — offrir une boîte de Pierre Hermé ou de Patrick Roger, c'est un statement émotionnel."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le chocolat noir est-il vraiment bon pour la santé ?",
+        "a": "Oui, à condition que ce soit du noir 70 % minimum et en quantité raisonnable (20-30 g par jour). Les flavonoïdes du cacao ont des effets démontrés sur la santé cardiovasculaire (amélioration de la fonction endothéliale, baisse modeste de la tension artérielle), et sur les fonctions cognitives. Le magnésium contenu (environ 200 mg pour 100 g) aide aussi à la récupération musculaire. Mais attention : une tablette entière par jour, c'est 500-600 kcal et beaucoup de matière grasse. Le chocolat n'est pas un super-aliment magique, juste un plaisir qu'on peut consommer sans culpabilité modérément."
+      },
+      {
+        "q": "Pourquoi le chocolat est-il blanc parfois en surface ?",
+        "a": "C'est ce qu'on appelle le blanchiment du chocolat. Deux causes possibles : le blanchiment gras (le beurre de cacao migre à la surface, formant un voile blanc) qui arrive quand le chocolat a été conservé à température variable ou trop chaude. Et le blanchiment sucré (le sucre se cristallise à la surface) qui arrive quand le chocolat a été exposé à l'humidité. Dans les deux cas, le chocolat reste comestible mais a perdu en texture et en aspect. Le meilleur stockage : entre 14 et 18 °C, à l'abri de la lumière, dans un emballage hermétique, jamais au frigo."
+      },
+      {
+        "q": "Quel chocolat offrir à un date ?",
+        "a": "Évite les boîtes industrielles. Privilégie un chocolatier artisanal de ta ville — en France, des références comme Pierre Hermé, Jacques Genin, Patrick Roger, Yann Couvreur ou des chocolatiers locaux. Pour un premier rendez-vous, ne pars pas sur des cadeaux trop romantiques (cœurs, roses) qui peuvent paraître intenses. Une boîte de pralinés artisanaux à 25-40 euros est parfaite : ça montre de l'attention sans aller dans le too much. Si tu veux jouer la carte aventureuse, va chercher un chocolat à origine unique (Madagascar, Vénézuéla, Pérou) qui ouvrira la conversation."
+      },
+      {
+        "q": "Pourquoi le chocolat fait-il maigrir certaines personnes ?",
+        "a": "Il ne fait pas maigrir. Ce qui est vrai, c'est qu'une petite portion de chocolat noir (10-20 g) peut aider à couper la sensation de faim, parce qu'il est riche en graisses et déclenche un signal de satiété. Une étude de l'Université de Copenhague en 2008 avait montré que le chocolat noir avant un repas réduisait la consommation calorique totale comparée au chocolat au lait. Mais consommé en plus du reste de l'alimentation, le chocolat est calorique (550-600 kcal/100 g). La modération reste la clé — pas de miracle."
+      }
+    ],
+    "related": ["cafe", "vin", "ex", "st-valentin", "noel", "rupture"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "fromage",
+    "locale": "fr",
+    "keyword": "Fromage",
+    "matchPatterns": ["fromage", "camembert", "comté", "roquefort", "aoc fromage"],
+    "topic": "food",
+    "title": "Fromage : 1200 variétés françaises et comment les goûter",
+    "description": "La France compte plus de 1200 fromages dont 46 sous AOP. On déroule les grandes familles, les AOC à connaître et comment composer un plateau parfait.",
+    "emoji": "🧀",
+    "intro": "On dit souvent que la France compte 365 fromages, un par jour de l'année — phrase attribuée au général de Gaulle qui se demandait comment gouverner un pays pareil. En réalité, c'est largement plus : environ 1200 variétés différentes, dont 46 sont protégées par une AOP (Appellation d'Origine Protégée). Le fromage français représente un pilier culturel comparable au vin — chaque région a ses fromages emblématiques, chaque terroir produit des laits avec des arômes spécifiques. La consommation française tourne autour de 27 kg par habitant et par an, l'une des plus élevées au monde. Historiquement, le fromage est une invention millénaire — on trouve des poteries néolithiques avec des résidus de matière grasse caillée datant de 7000 ans avant J.-C. Le Roquefort, lui, est attesté dès 1411, quand le roi Charles VI accorde le monopole de l'affinage aux habitants du village de Roquefort-sur-Soulzon — c'est la plus ancienne appellation fromagère officielle d'Europe. Sur moomz, le fromage revient dans les conversations apéro, dans les vibe-checks de fin de date (le plateau partagé qui prolonge la soirée), dans les engueulades sur le sens de la dégustation (qui mange la croûte, qui ne la mange pas). Le fromage est aussi un marqueur identitaire très français, parfois moqué à l'étranger, toujours défendu à la maison.",
+    "sections": [
+      {
+        "h": "Les huit grandes familles de fromages",
+        "body": "Pour s'y retrouver, les fromages se classent traditionnellement en huit familles. 1) Les pâtes pressées cuites : comté, beaufort, emmental, gruyère — fromages de garde, longs à affiner (12-36 mois). 2) Les pâtes pressées non cuites : cantal, salers, reblochon, tomme de Savoie, morbier. 3) Les pâtes molles à croûte fleurie : camembert, brie, neufchâtel — la croûte blanche typique du penicillium. 4) Les pâtes molles à croûte lavée : époisses, munster, livarot, maroilles — odeur puissante, croûte orangée. 5) Les pâtes persillées : roquefort, bleu d'Auvergne, fourme d'Ambert, bleu des Causses — moisissure interne. 6) Les chèvres : crottin de Chavignol, sainte-maure de Touraine, valençay, pélardon. 7) Les pâtes filées et non affinées : mozzarella (italienne), feta (grecque). 8) Le frais et le faisselle. Connaître ces familles permet de composer un plateau équilibré sans se planter."
+      },
+      {
+        "h": "Composer un plateau de fromages",
+        "body": "Règle de base : 4 à 6 fromages pour un plateau de 6 personnes, environ 50-80 g par personne au total. Le plateau idéal mixe les familles : un pâte pressée vieille (comté 24 mois ou beaufort d'alpage), un chèvre (crottin de Chavignol ou sainte-maure), un pâte molle (camembert AOP de Normandie au lait cru ou brie de Meaux), un bleu (roquefort, fourme d'Ambert), et éventuellement un fromage de caractère (époisses, munster). Sortez-les du frigo une heure avant — un fromage froid n'exprime pas ses arômes. Coupez selon la forme : en pointe pour les ronds (camembert, brie), en lamelles pour les pâtes pressées, en colonne pour les chèvres bûches. Accompagnez de pain blanc neutre (baguette ou tradition), pas de pain aromatique qui masquerait les goûts. Côté vins, oubliez le réflexe rouge tannique systématique : les vins blancs accompagnent souvent mieux les fromages (sauternes avec roquefort, gewurztraminer avec munster, chablis avec chèvres)."
+      },
+      {
+        "h": "Lait cru vs lait pasteurisé : le débat",
+        "body": "Un fromage au lait cru est fabriqué avec un lait non chauffé au-dessus de 40 °C, ce qui préserve les bactéries naturelles qui donnent les arômes complexes. Un fromage pasteurisé est issu d'un lait chauffé à 72 °C pendant 15 secondes (méthode HTST), ce qui élimine les pathogènes mais aussi une partie des bactéries de saveur. Pour les amateurs, le lait cru est non négociable — c'est ce qui fait la complexité aromatique d'un vrai camembert AOP normand par rapport à un camembert industriel pasteurisé vendu en supermarché. Aux États-Unis, l'importation de fromages au lait cru affinés moins de 60 jours est interdite, ce qui exclut beaucoup de classiques français. En France, les autorités sanitaires recommandent l'éviction du lait cru pour les femmes enceintes, les enfants de moins de 5 ans et les personnes immunodéprimées, à cause du risque listeria. Sur moomz, c'est un débat récurrent entre puristes et prudents."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi le Roquefort est-il bleu à l'intérieur ?",
+        "a": "Le Roquefort tire sa couleur et son goût caractéristiques d'un champignon, le Penicillium roqueforti, qui se développe dans la pâte du fromage. Historiquement, on l'obtenait en laissant moisir du pain de seigle dans les grottes de Roquefort-sur-Soulzon, puis en l'incorporant au caillé. Aujourd'hui, on utilise des cultures pures de ce champignon, mais la magie reste la même : l'affinage se fait obligatoirement dans les caves naturelles du Combalou, des grottes calcaires ventilées par des fissures appelées fleurines qui maintiennent température et humidité idéales."
+      },
+      {
+        "q": "Faut-il manger la croûte du camembert ?",
+        "a": "Oui pour un camembert au lait cru — la croûte fleurie blanche est composée de Penicillium candidum, parfaitement comestible, et elle apporte une grosse partie des arômes. Beaucoup d'amateurs disent que sans la croûte, on perd l'essentiel du goût. Pour un camembert industriel pasteurisé, la croûte peut être plus farineuse et moins intéressante. À éviter en revanche : les croûtes traitées au plastique alimentaire ou colorées (orange, rouge) qui couvrent certains fromages industriels, comme certaines tommes ou édam, qui ne sont pas faites pour être mangées."
+      },
+      {
+        "q": "Pourquoi certains fromages puent autant ?",
+        "a": "L'odeur puissante de l'époisses, du munster ou du maroilles vient des bactéries de croûte lavée (Brevibacterium linens), les mêmes qui causent l'odeur de pieds — d'où le rapprochement souvent fait avec ironie. Pendant l'affinage, ces fromages sont lavés régulièrement à l'eau salée, parfois additionnée de marc, ce qui favorise le développement de ces bactéries. L'odeur ne reflète pas le goût : un époisses bien fait sent fort mais a un goût étonnamment doux et crémeux, presque sucré en finale. C'est l'un des grands plaisirs gastronomiques français."
+      },
+      {
+        "q": "Comment conserver le fromage à la maison ?",
+        "a": "Idéalement, sortez le fromage du frigo une heure avant dégustation. Pour le stockage long, le bac à légumes du frigo (entre 6 et 10 °C) convient bien. Enveloppez chaque fromage dans son papier d'origine ou du papier sulfurisé, puis dans un torchon — jamais directement dans du film plastique qui le fait suffoquer. Séparez les fromages forts des fromages doux pour éviter que les arômes se mélangent. Une cloche à fromage en verre conserve les morceaux entamés sans trop dessécher. Un fromage qui développe une moisissure verte ou bleue indésirable peut être consommé en retirant la zone — sauf pour les fromages frais et les chèvres."
+      }
+    ],
+    "related": ["vin", "pizza", "croissant", "premier-rdv", "paris", "mariage"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "croissant",
+    "locale": "fr",
+    "keyword": "Croissant",
+    "matchPatterns": ["croissant", "viennoiserie", "boulangerie", "pain au chocolat"],
+    "topic": "food",
+    "title": "Croissant : autrichien, français, et comment reconnaître le vrai",
+    "description": "Le croissant vient en réalité d'Autriche, mais c'est la France qui l'a perfectionné. On décrypte la vraie histoire et la recette du croissant feuilleté.",
+    "emoji": "🥐",
+    "intro": "Le croissant est l'un des plus grands malentendus culinaires : alors qu'il est devenu l'emblème mondial du petit-déjeuner français — au point que beaucoup d'Américains croient qu'on en mange tous les matins comme dans les films — il est en réalité d'origine autrichienne. La légende, contestée par les historiens mais durable, raconte qu'en 1683, après le siège de Vienne par les Ottomans, les boulangers viennois auraient créé une pâtisserie en forme de croissant de lune, le symbole ottoman, pour célébrer la victoire. Cette pâtisserie s'appelait le kipferl, et elle existait probablement déjà avant. Ce qui est plus solidement attesté : le kipferl arrive en France au XIXe siècle, popularisé notamment par August Zang, un Autrichien qui ouvre une boulangerie viennoise à Paris en 1839, rue de Richelieu. Mais le croissant moderne, avec sa pâte feuilletée levée, est une invention spécifiquement française du début du XXe siècle. La première mention écrite de la recette feuilletée date des années 1900-1910 dans les manuels de boulangerie français. Sur moomz, le croissant est l'aliment du brunch dominical, du retour de soirée à 9 h du matin, du premier petit-déjeuner partagé dans un nouveau couple. Il est aussi devenu un objet d'export massif — un croissant bien fait peut coûter 3 à 5 euros à Tokyo ou New York, contre 1,20 euro à Paris.",
+    "sections": [
+      {
+        "h": "La fabrication : le tour, le détrempage, le repos",
+        "body": "Un vrai croissant artisanal demande 24 à 48 heures de fabrication. Tout commence par la détrempe : farine, eau, lait, levure, sucre, sel. On pétrit une boule de pâte qu'on laisse reposer au frais. Puis vient le tourage : on étale la pâte, on dépose une plaque de beurre (au moins 25 % du poids de la pâte, idéalement un beurre de tourage à 84 % de matière grasse), et on plie selon une technique précise. Un tour double (portefeuille), puis un tour simple, avec des repos au frais entre chaque pour que le beurre reste ferme — trois tours au total, créant 81 couches de pâte alternant avec le beurre. Le résultat, après cuisson à 200-220 °C pendant 15-18 minutes, est ce feuilletage croustillant à l'extérieur et alvéolé à l'intérieur, dégageant l'arôme du beurre. Un croissant industriel saute toutes ces étapes et utilise souvent de la margarine — résultat lourd et caoutchouteux."
+      },
+      {
+        "h": "Croissant pur beurre vs croissant ordinaire",
+        "body": "Depuis un décret de 1977, la mention pur beurre est strictement encadrée en France : le croissant doit contenir uniquement du beurre comme matière grasse de feuilletage, sans aucune margarine. Pour le reconnaître à l'œil, regardez la forme : un croissant pur beurre est traditionnellement droit (en forme de barre), tandis que le croissant ordinaire (au feuilletage à base de margarine) est courbé en forme de demi-lune. Cette règle remonte au XIXe siècle et permet de distinguer instantanément les deux à la vitrine. Côté goût, la différence est massive : le croissant pur beurre a un fondant et un parfum incomparables, le croissant ordinaire reste plat et gras. Côté prix, comptez 1,20 à 1,80 euro pour un pur beurre dans une bonne boulangerie parisienne, contre 0,90 à 1,10 euro pour un ordinaire. Avec les concours du meilleur croissant de Paris, certaines boulangeries d'exception montent jusqu'à 2,50 euros, ce qui reste raisonnable pour un produit de cette qualité."
+      },
+      {
+        "h": "Le brunch, le rituel et le croissant",
+        "body": "Le croissant fait partie de ces aliments qui transcendent leur statut alimentaire. C'est un objet rituel, un marqueur de moment plutôt qu'un simple petit-déjeuner. Manger un croissant au lit avec son ou sa partenaire un dimanche matin, c'est un mini-rituel romantique très codifié, repris dans les films et les pubs depuis 70 ans. Aller chercher des croissants chauds le matin après une grasse matinée, c'est presque un geste d'amour. Sur moomz, on retrouve souvent ce moment dans les récits de débuts de relations : le croissant comme proxy de l'intimité partagée. Côté business, la boulangerie française vit aussi grâce à ce produit — plus de 2 milliards d'euros de chiffre d'affaires annuel pour la viennoiserie, dont le croissant représente la part la plus visible. Et à l'international, les chaînes type Maison Kayser ou Pierre Hermé ont exporté ce modèle dans plus de 30 pays. Le croissant est devenu un soft power culinaire."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi le croissant a-t-il cette forme ?",
+        "a": "La forme en croissant de lune viendrait du kipferl autrichien créé après le siège de Vienne en 1683, en référence au croissant ottoman du drapeau turc. C'est la légende officielle. Les historiens sont plus prudents et notent que des pâtisseries en forme de croissant existaient bien avant ça en Europe centrale. En France, depuis le décret de 1977, la forme distingue le croissant pur beurre (droit) du croissant ordinaire (courbé), donc la forme a aussi une signification réglementaire moderne au-delà de son origine légendaire."
+      },
+      {
+        "q": "Combien de calories dans un croissant ?",
+        "a": "Un croissant pur beurre artisanal moyen pèse environ 60-80 g et contient entre 250 et 350 kcal. Sa composition est dominée par les matières grasses (15-20 g, principalement saturées du beurre) et les glucides (30-35 g). C'est un aliment plaisir, pas un aliment quotidien d'un point de vue nutritionnel. Mais comparé à beaucoup de petits-déjeuners industriels (céréales sucrées, brioches industrielles), un croissant artisanal a au moins le mérite d'être composé d'ingrédients simples et identifiables : farine, beurre, lait, sucre, levure, sel."
+      },
+      {
+        "q": "Pourquoi les croissants industriels sont-ils si mauvais ?",
+        "a": "Plusieurs raisons. D'abord, ils utilisent souvent de la margarine ou des matières grasses végétales hydrogénées à la place du beurre. Ensuite, le tourage est mécanisé et raccourci, ce qui donne moins de couches et un feuilletage moins développé. Enfin, ils sont produits puis surgelés des semaines avant la vente — donc à la cuisson, ils ne lèvent pas correctement. Résultat : texture caoutchouteuse, goût plat, aspect huileux. La différence avec un croissant artisanal bien fait est immédiate et brutale. La plupart des grandes chaînes de boulangerie de gare ou de supermarché travaillent avec des produits surgelés."
+      },
+      {
+        "q": "Croissant ou pain au chocolat ?",
+        "a": "Question politique. Les deux utilisent la même pâte feuilletée levée, mais le pain au chocolat (ou chocolatine dans le sud-ouest) ajoute deux barres de chocolat noir. Côté préférence française, les sondages varient mais le croissant l'emporte généralement (55 % contre 45 %). Sur le plan calorique, le pain au chocolat est légèrement plus calorique (350-400 kcal) à cause du chocolat. Sur moomz, c'est un mini débat de couple récurrent — qui prend quoi à la boulangerie, qui partage avec qui. Et il y a la guerre lexicale chocolatine vs pain au chocolat qui ne s'arrêtera jamais."
+      }
+    ],
+    "related": ["cafe", "fromage", "premier-rdv", "paris", "vie-de-couple", "noel"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mcdo",
+    "locale": "fr",
+    "keyword": "McDo",
+    "matchPatterns": ["mcdo", "mcdonalds", "mcdonald's", "fast food", "big mac"],
+    "topic": "food",
+    "title": "McDo : histoire, secrets de menu et pourquoi on y retourne toujours",
+    "description": "De Marbella aux McDo français les plus rentables au monde, on raconte McDonald's, sa stratégie et pourquoi c'est devenu un rituel générationnel.",
+    "emoji": "🍔",
+    "intro": "McDonald's est sans doute la chaîne de restauration la plus emblématique au monde, avec environ 40 000 restaurants dans plus de 100 pays. En France, où la chaîne a longtemps été moquée et même attaquée (Bové et son démontage du McDo de Millau en 1999), elle est devenue paradoxalement l'un des marchés les plus rentables de la planète — un McDo français génère en moyenne 50 % de chiffre d'affaires de plus qu'un McDo américain. Histoire rapide : la chaîne est fondée en 1940 par les frères Richard et Maurice McDonald à San Bernardino, en Californie, avec le concept révolutionnaire du Speedee Service System — un service ultra-rapide à la chaîne, comme une usine. En 1955, Ray Kroc, un commercial de machines à milkshakes, devient leur partenaire puis rachète la franchise pour 2,7 millions de dollars en 1961. Il transforme l'entreprise en empire mondial. Anecdote célèbre : le tout premier McDonald's hors États-Unis ouvre à Sarcelles, France, en 1972 (avant de fermer dans des conditions controversées), puis l'expansion européenne démarre vraiment dans les années 1980. Aujourd'hui, McDo compte plus de 1500 restaurants en France. Sur moomz, McDo revient sans cesse dans les vibe-checks : le go-to après une soirée arrosée à 3 h du mat, le réflexe nostalgie de l'enfance, le McDate ironique, le débat éternel sur la qualité réelle de la nourriture.",
+    "sections": [
+      {
+        "h": "Comment McDo s'est imposé en France",
+        "body": "L'arrivée de McDo en France a été culturellement compliquée. Le pays gastronomique par excellence a vu la chaîne comme une menace contre sa cuisine traditionnelle. Pourtant, McDonald's a réussi une adaptation locale impressionnante : recettes adaptées (Le McBaguette, Le Croque McDo, Le Royal Cheese avec moutarde au lieu de mayo), partenariats avec des produits français (pomme de terre de l'Aisne, salade française, viande charolaise pour certains menus), restaurants au design plus chaleureux que dans le reste du monde. Le McDo français est ouvertement plus haut de gamme : tables en bois, vrais espaces de service à table, McCafé avec macarons. Côté business, la France est devenue un laboratoire d'innovation pour la marque : les bornes de commande tactiles ont été déployées massivement en France avant le reste du monde, et le service McDelivery a explosé pendant le Covid. Le grand paradoxe : malgré toutes les critiques, les Français y vont en moyenne plus que les Américains."
+      },
+      {
+        "h": "Secrets de menu et stratégie marketing",
+        "body": "McDo est passé maître dans l'art du menu psychologique. Le Big Mac, créé en 1967 par Jim Delligatti, franchisé de Pittsburgh, est devenu un standard mondial — il a même donné son nom à l'indice Big Mac, mesure informelle du pouvoir d'achat dans différents pays, publiée par The Economist depuis 1986. Le Happy Meal, lancé en 1979, a révolutionné la chaîne en ciblant directement les enfants avec des jouets — un modèle copié partout. Côté secret moins connu : la sauce Big Mac, inventée par accident, contient principalement de la mayonnaise, du vinaigre de cornichon sucré, de la moutarde jaune et des oignons déshydratés. Le café McCafé, sous-marque lancée en 1993 en Australie, génère des marges hallucinantes (jusqu'à 90 %) parce que le coût d'un café est ridicule par rapport à son prix de vente. Et les frites McDo ont une recette mythifiée : depuis 1990, elles ne contiennent plus de saindoux de bœuf mais conservent un arôme naturel de bœuf qui leur donne leur goût caractéristique, controversé pour les végétariens."
+      },
+      {
+        "h": "Le McDo comme phénomène culturel et social",
+        "body": "McDo est devenu un objet culturel à part entière. Aux États-Unis, le terme McJob est entré dans le vocabulaire pour désigner un emploi précaire et peu qualifié. Le film documentaire Super Size Me de Morgan Spurlock (2004) a marqué une génération sur les dangers du fast-food. À l'inverse, dans certains pays comme la Chine ou le Vietnam, manger au McDo est un marqueur de statut. À Marbella, en Espagne, le McDonald's de la Costa del Sol est connu pour être un point de rendez-vous des people et des influenceurs — le McDo de Banus a même fait l'objet d'articles dans la presse internationale. Sur moomz, le McDo est associé aux moments low-key : le McDate à 15 euros total pour rester accessible, le drive du dimanche soir après le Netflix qui s'est terminé tard, le McMuffin du dimanche matin façon brunch ironique. C'est aussi devenu un terrain de blagues générationnelles — la culture McDo est dans les memes, dans TikTok, dans les conversations de groupe."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi le McDo français est-il meilleur qu'aux États-Unis ?",
+        "a": "Plusieurs raisons concrètes. D'abord, la réglementation européenne et française impose des standards plus stricts sur la viande, les additifs et la traçabilité. Les baguettes McDo France sont fournies par des boulangers français. Les pommes de terre françaises (Bintje d'Île-de-France, Aisne) sont reconnues comme excellentes. Les œufs sont en France des œufs frais cassés sur place, alors qu'aux États-Unis ils utilisent souvent des produits liquides. La présentation est aussi plus soignée. Enfin, le panier moyen français est plus élevé (10-12 euros) qu'aux États-Unis (8-9 dollars), ce qui finance une qualité supérieure."
+      },
+      {
+        "q": "Combien de calories dans un Big Mac ?",
+        "a": "Un Big Mac classique en France contient environ 495 kcal, avec 24 g de matières grasses (dont 9 g saturées), 41 g de glucides, 27 g de protéines et 950 mg de sodium. C'est l'équivalent calorique d'un repas relativement modéré, mais ajoutez les frites (340 kcal pour une moyenne) et un soda (210 kcal pour un Coca moyen), et vous atteignez plus de 1000 kcal pour un seul menu — soit environ la moitié des besoins quotidiens. Le menu Maxi Best Of monte facilement à 1300 kcal. Pour info, le burger le moins calorique du menu est le Hamburger simple à 250 kcal."
+      },
+      {
+        "q": "Pourquoi le McDo est-il toujours ouvert tard ?",
+        "a": "Stratégie commerciale historique. McDonald's a compris dès les années 1990 que les heures tardives représentent un marché captif : étudiants, fêtards, travailleurs de nuit. Aux États-Unis, beaucoup de restaurants sont ouverts 24h/24. En France, la plupart des McDo sont ouverts jusqu'à 1 h ou 2 h du matin, certains en drive 24h/24, surtout en zones urbaines et étudiantes. C'est l'un des principaux générateurs de revenus du second semestre. Sur moomz, le McDo post-soirée est un classique du récit de vie nocturne — le passage obligé avant de rentrer dormir."
+      },
+      {
+        "q": "McDo est-il vraiment meilleur marché qu'avant ?",
+        "a": "Non, l'inverse. McDonald's France a augmenté ses prix d'environ 20 % entre 2020 et 2025, sous l'effet de l'inflation alimentaire et de l'énergie. Un menu Big Mac est passé d'environ 8 euros en 2020 à 11-12 euros aujourd'hui dans la plupart des restaurants. Le rapport qualité-prix s'est dégradé, ce qui a ouvert une concurrence : Five Guys, Burger King, et surtout les chaînes de smash burgers indépendants ont gagné des parts de marché en proposant une qualité plus visible à un prix similaire. McDo reste le leader mais son avantage prix s'est érodé."
+      }
+    ],
+    "related": ["kebab", "tacos", "pizza", "premier-rdv", "ferme-du-buzz", "smic"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "kebab",
+    "locale": "fr",
+    "keyword": "Kebab",
+    "matchPatterns": ["kebab", "döner", "grec", "shawarma", "sandwich grec"],
+    "topic": "food",
+    "title": "Kebab : origine turque, döner berlinois et le sandwich préféré des étudiants",
+    "description": "L'histoire vraie du kebab : du döner d'Istanbul au sandwich berlinois inventé en 1972, jusqu'au kebab français devenu institution étudiante.",
+    "emoji": "🥙",
+    "intro": "Le kebab — ou plus précisément le döner kebab en sandwich — est probablement l'un des plats les plus injustement méprisés de l'histoire récente. Considéré pendant des années comme nourriture de fin de soirée bas de gamme, il est aujourd'hui réhabilité par toute une génération de chefs et de food critics qui en font un véritable plat de gastronomie urbaine. Histoire : le mot kebab vient du turc et désigne en réalité toute viande grillée — il existe des centaines de variétés de kebabs au Moyen-Orient (şiş kebab en brochettes, adana kebab épicé, iskender kebab à la sauce yaourt). Le döner kebab tel qu'on le connaît en sandwich — viande tournant verticalement sur une broche, tranchée et servie dans du pain — a été popularisé sous cette forme à Berlin en 1972 par Kadir Nurman, un travailleur immigré turc, qui a eu l'idée géniale de servir le döner traditionnel dans un pain plat avec des crudités, pour le rendre mangeable en marchant. C'est donc bien un plat turco-allemand dans sa version moderne. L'Allemagne compte aujourd'hui plus de kebabs que de McDonald's, et c'est un poids économique majeur (2,5 milliards d'euros annuels). En France, le kebab est arrivé dans les années 1980 et a explosé dans les années 2000 — on compte aujourd'hui environ 12 000 restaurants kebab dans le pays. Sur moomz, le kebab est l'aliment des étudiants, des fins de soirée, et du débat sur la sauce blanche, samouraï, algérienne ou harissa.",
+    "sections": [
+      {
+        "h": "La vraie histoire du döner kebab",
+        "body": "Avant 1972, le döner existait en Turquie depuis le XIXe siècle, servi sur assiette avec du riz et des légumes — pas en sandwich. C'est l'ingéniosité de Kadir Nurman à Berlin qui a transformé ce plat en street food portative. Il a ouvert son stand à la gare de Berlin-Zoo en 1972, en pensant aux travailleurs immigrés qui n'avaient pas le temps de s'asseoir. Le succès a été immédiat. Une autre figure souvent citée est Mehmet Aygün, qui aurait ouvert un stand similaire à peu près à la même période. Le döner s'est ensuite diffusé dans toute l'Allemagne et l'Europe via la communauté turque. Aujourd'hui à Berlin, on compte plus de 1000 stands à kebab, dont certains sont devenus des institutions (Mustafa's Gemüse Kebap près de Mehringdamm peut avoir 1h de queue à toute heure). À noter : en Allemagne, le kebab contient traditionnellement choux blanc, choux rouge, oignons, salade, tomate, sauce yaourt-ail et sauce piquante — bien plus garni que la version française."
+      },
+      {
+        "h": "Le kebab français : sauce blanche et frites",
+        "body": "La spécificité française, c'est l'ajout systématique des frites — soit dans le sandwich, soit en accompagnement. Aucun autre pays ne fait ça aussi systématiquement. La sauce blanche, autre marqueur français, est un mélange yaourt-mayonnaise-herbes qui n'existe pas en Allemagne ni en Turquie. Elle est devenue tellement iconique qu'elle est commercialisée en supermarché. Le débat des sauces est un vrai phénomène culturel français : sauce blanche (la safe), sauce samouraï (mayonnaise + harissa), sauce algérienne (mayonnaise + tomate épicée), sauce andalouse, sauce barbecue, sauce curry. Côté viande, l'industrie française du kebab utilise majoritairement des broches préfabriquées (poulet ou mélange dinde-bœuf), souvent congelées, achetées chez des fournisseurs comme Tat ou Reyland. Les puristes recherchent les kebabs avec broche fraîche montée chaque matin — beaucoup plus rare. Prix moyen d'un kebab-frites en France : 7 à 9 euros, ce qui en fait l'un des repas chauds les moins chers au-dessus de la qualité de la malbouffe pure."
+      },
+      {
+        "h": "Pourquoi le kebab est-il l'aliment des étudiants ?",
+        "body": "Plusieurs raisons convergent. D'abord, le prix : entre 6 et 9 euros pour un repas qui rassasie complètement, c'est l'un des meilleurs rapports calories/euros disponibles. Ensuite, la disponibilité : les kebabs sont ouverts tard, souvent jusqu'à 2 h ou 3 h du matin, parfois 24h/24 dans les quartiers étudiants. Ensuite, le côté pratique : ça se mange en marchant, dans le métro, devant l'ordinateur. Et puis, paradoxalement, le kebab a une dimension identitaire forte chez les jeunes : c'est devenu un marqueur urbain, multiculturel, antitorquilité gastronomique snob. Sur moomz, le kebab est partout dans les récits de soirée : le kebab post-bar qui sauve la sortie, le kebab du dimanche soir devant Netflix, le kebab partagé avec un date au lieu d'un resto cher. Il y a aussi tout un phénomène de classement des meilleurs kebabs par ville sur TikTok et Instagram, avec des chaînes comme Berliner ou des kebabs gourmets type Janin à Lyon qui sont devenus des destinations."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le kebab est-il vraiment turc ?",
+        "a": "Oui et non. Le mot kebab et la tradition de viande grillée à la broche viennent bien de Turquie et plus largement du Moyen-Orient (la pratique existe depuis l'Empire ottoman, voire avant). Mais le döner kebab en sandwich — la forme qu'on connaît en France — est une invention turco-allemande de 1972 à Berlin par Kadir Nurman. Donc culturellement, le sandwich kebab tel qu'on le mange aujourd'hui doit autant à l'Allemagne qu'à la Turquie. Une polémique a même éclaté en 2024 quand la Turquie a tenté de faire reconnaître le döner comme produit traditionnel turc protégé."
+      },
+      {
+        "q": "Pourquoi y a-t-il autant de kebabs en France ?",
+        "a": "Plusieurs facteurs. La diaspora turque, kurde et maghrébine en France a apporté son savoir-faire dans les années 1980-1990. Le faible coût d'installation d'un kebab (matériel limité, formation rapide) en a fait un business accessible. La demande étudiante et populaire est forte. La marge sur chaque sandwich est confortable. Et la fiscalité française sur la restauration rapide est relativement favorable. Résultat : on compte environ 12 000 kebabs en France, plus que de McDo (1500) et de Burger King (500) réunis. C'est devenu un secteur d'emploi non négligeable dans certaines villes."
+      },
+      {
+        "q": "Le kebab est-il vraiment mauvais pour la santé ?",
+        "a": "Pas plus qu'un autre fast-food si on le choisit bien. Un kebab moyen sans frites contient environ 700-900 kcal, ce qui est élevé mais comparable à un menu Big Mac. Le vrai problème nutritionnel vient de la qualité de la viande (les broches industrielles sont riches en additifs et matières grasses) et de l'absence de légumes verts (la salade-tomate-oignon classique est faible en quantité). Pour un kebab plus sain : sans frites, avec broche maison, demander supplément salade, choisir sauce yaourt plutôt qu'andalouse. Et le boire avec de l'eau plutôt que du Coca. Modéré (une fois par semaine), c'est ok."
+      },
+      {
+        "q": "Quelle est la meilleure sauce pour un kebab ?",
+        "a": "Question éminemment subjective. Les sondages internes des kebabs français placent la sauce blanche en tête (environ 40 % des commandes), suivie par l'algérienne (20 %), la samouraï (15 %) et l'andalouse (10 %). Mais la vraie réponse dépend de la viande : sauce blanche avec poulet, sauce piquante avec bœuf, sauce yaourt-menthe avec agneau. Sur moomz, c'est un mini-test de personnalité : sauce blanche = safe player, samouraï = aventurier, harissa pure = vrai amateur. Et il y a toujours quelqu'un pour demander sauce mélangée — choix considéré comme amateur par les puristes."
+      }
+    ],
+    "related": ["mcdo", "tacos", "pizza", "smic", "premier-rdv", "school-drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "tacos",
+    "locale": "fr",
+    "keyword": "Tacos",
+    "matchPatterns": ["tacos", "tacos français", "burrito", "mexicain", "tex-mex"],
+    "topic": "food",
+    "title": "Tacos français : invention lyonnaise et phénomène générationnel",
+    "description": "Le tacos français n'a rien à voir avec le taco mexicain. On raconte son origine lyonnaise, sa montée en puissance et pourquoi il a conquis la France.",
+    "emoji": "🌮",
+    "intro": "Le tacos français, ce wrap à la sauce au fromage débordant de viande et de frites, est un cas d'école d'innovation culinaire complètement détachée de ses origines. Le taco mexicain authentique — une petite tortilla de maïs avec un peu de viande, oignon, coriandre et citron vert — n'a rien à voir avec le tacos qu'on commande à Lyon ou Paris. Le tacos français a été inventé à Lyon vers 2007-2010 par des restaurateurs maghrébins (souvent cités : O'Tacos fondé en 2007 par Patrick Pelonero et son associé à Vaulx-en-Velin, mais aussi Tacos Avenue et Tacos King qui ont émergé à peu près à la même époque). L'idée géniale : prendre la tortilla mexicaine (la grande, pas la petite), la garnir massivement avec de la viande, des frites, du fromage fondu, et la fermer comme un burrito-galette. Le résultat est calorique, gras, addictif et radicalement différent du taco original. En 2025, on compte plus de 3000 restaurants tacos en France, dont O'Tacos est de loin le leader avec plus de 350 enseignes. Le mouvement s'est même exporté à l'étranger — il y a maintenant des tacos français à New York, Bruxelles, Genève, Casablanca. Sur moomz, le tacos est devenu un marqueur générationnel fort : les 15-30 ans en mangent beaucoup, les plus âgés ne comprennent pas. C'est aussi un terrain de débat sur la culture food contemporaine et l'appropriation culinaire.",
+    "sections": [
+      {
+        "h": "L'invention lyonnaise des années 2000",
+        "body": "Lyon est officiellement reconnue comme le berceau du tacos français. Plusieurs restaurateurs y revendiquent la paternité, mais le plus cité est Patrick Pelonero, qui ouvre le premier O'Tacos à Vaulx-en-Velin en 2007. La recette d'origine combine plusieurs influences : la tortilla mexicaine, le sandwich grec (pour la viande et les sauces), le panini italien (pour le pliage et le pressage), et le kebab (pour les frites). Le tout passé sous une presse chaude pour fondre le fromage et créer cette texture caractéristique. Au départ, c'est un produit ultra-local lyonnais. Puis l'expansion démarre vers 2012-2014, avec O'Tacos qui développe massivement le franchising. La crise sanitaire de 2020 a paradoxalement accéléré le développement, parce que le tacos est parfait pour la livraison Uber Eats et Deliveroo — il supporte bien le transport. Aujourd'hui, le marché français du tacos est estimé à plus de 500 millions d'euros annuels, avec une croissance toujours à deux chiffres."
+      },
+      {
+        "h": "La composition : sauce fromagère et combos",
+        "body": "Un vrai tacos français contient cinq éléments incontournables. 1) La tortilla, grande galette de blé d'environ 30 cm. 2) La viande au choix : kebab, poulet, nuggets, cordon bleu, merguez, steak haché, et combo à plusieurs viandes pour les estomacs solides. 3) Les frites, directement dans le sandwich (pas en accompagnement) — c'est la signature. 4) La sauce fromagère, mélange de fromage fondu industriel (généralement à base de cheddar et d'emmental) avec de la crème, qui donne cette texture coulante caractéristique. 5) Les sauces additionnelles : algérienne, samouraï, blanche, harissa, ketchup, barbecue, etc. Puis tout est pressé à chaud, ce qui fond le fromage et solidifie l'ensemble. Côté tailles, les chaînes proposent souvent un tacos M (1 viande, environ 8 euros, 900 kcal), L (2 viandes, 10 euros, 1300 kcal), XL (3 viandes, 13 euros, 1700 kcal), et même les défis style 5 viandes XXL qui montent à plus de 2500 kcal. Le tacos est officiellement l'un des sandwichs les plus caloriques du marché français."
+      },
+      {
+        "h": "Phénomène générationnel et culturel",
+        "body": "Le tacos est devenu un véritable marqueur générationnel. Pour les moins de 30 ans, c'est un aliment plaisir évident, partagé entre potes ou consommé seul. Pour les plus âgés, c'est souvent incompréhensible — pourquoi mettre des frites DANS un sandwich ? Le tacos a aussi un côté très street culture : il est lié au rap français (cité dans des morceaux de Niska, Ninho, Hamza), à la culture urbaine, aux suburbs. Il existe une vraie sous-culture tacos sur TikTok et Instagram, avec des comptes spécialisés qui classent les meilleurs tacos par ville, qui font des reviews, qui chronique les défis XXL. Le tacos a aussi connu des controverses : appropriation culinaire pour certains chefs mexicains qui voient ce plat comme une trahison du taco original, débats sanitaires sur les niveaux de matières grasses et de sel. Mais le succès reste indéniable. Sur moomz, le tacos est associé aux soirées entre potes, aux gueules de bois, aux dîners de groupe quand on ne veut pas se prendre la tête. Et il a déclassé le kebab dans certaines tranches d'âge urbaines."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le tacos français est-il vraiment mexicain ?",
+        "a": "Non, absolument pas. Le tacos français est un plat inventé à Lyon vers 2007. Le taco mexicain authentique est une petite tortilla de maïs (10-15 cm) garnie d'un peu de viande, d'oignon, de coriandre et arrosée de jus de citron vert. Aucune sauce fromagère, pas de frites, pas de pressage. Les deux plats n'ont en commun que le nom et l'utilisation d'une tortilla. Au Mexique, le tacos français est même parfois vu comme une caricature ou une appropriation culturelle problématique — beaucoup de Mexicains qui découvrent le tacos français sont stupéfaits."
+      },
+      {
+        "q": "Combien de calories dans un tacos ?",
+        "a": "Beaucoup. Un tacos M (1 viande) contient en moyenne 800-1000 kcal. Un tacos L (2 viandes) monte à 1200-1500 kcal. Un tacos XL (3 viandes) peut dépasser 1800 kcal. Et certains défis XXL (5 viandes) atteignent 2500-3000 kcal, soit l'équivalent d'une journée entière de besoins caloriques en un seul repas. La majorité des calories vient des frites internes, de la sauce fromagère et de la tortilla. Le tacos est probablement l'un des sandwichs les plus caloriques disponibles en France, devant le Big Mac, le kebab et le burger Five Guys."
+      },
+      {
+        "q": "Quelle est la meilleure chaîne de tacos en France ?",
+        "a": "Question divisive. O'Tacos est le leader incontesté avec plus de 350 restaurants en France et à l'international — c'est le plus connu et le plus accessible, mais les puristes lui reprochent une qualité moyenne. Tacos Avenue et Tacos King ont aussi une présence forte. Côté tacos artisanaux non-chaînes, il existe des références comme Tacos Bandit à Paris, Le Tacos d'Hugo à Lyon, ou Chez Steph à Marseille, considérés comme meilleurs en qualité de viande et de pain. Sur TikTok, les comptes spécialisés type Tacos Reviews tiennent des classements régulièrement mis à jour."
+      },
+      {
+        "q": "Pourquoi le tacos est-il à la mode ?",
+        "a": "Plusieurs raisons. Économiques : c'est un excellent rapport quantité-prix (un repas complet pour 8-10 euros). Pratique : ça se mange à la main, ça supporte la livraison, ça se partage. Identitaire : c'est devenu un marqueur de la jeunesse urbaine multiculturelle, présent dans le rap et les réseaux. Marketing : les chaînes ont compris très tôt l'importance des codes street, du visuel léché sur Instagram, des défis viraux. Et puis le côté gras-fromage-frites coche tous les boutons addictifs du cerveau humain. Le tacos est aussi un repas anti-stress reconnu — la quintessence du comfort food."
+      }
+    ],
+    "related": ["kebab", "mcdo", "pizza", "school-drama", "premier-rdv", "tiktok"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ramen",
+    "locale": "fr",
+    "keyword": "Ramen",
+    "matchPatterns": ["ramen", "nouilles japonaises", "shoyu", "tonkotsu", "miso"],
+    "topic": "food",
+    "title": "Ramen : tonkotsu, shoyu, miso — le guide complet du bol japonais",
+    "description": "Le ramen, plat star japonais d'origine chinoise, a conquis le monde. On déroule ses types, ses bouillons et les meilleures adresses en France.",
+    "emoji": "🍜",
+    "intro": "Le ramen est probablement la plus grande success story culinaire du Japon contemporain. Curieusement, ce n'est pas un plat traditionnel japonais millénaire — c'est un plat d'origine chinoise importé au Japon à la fin du XIXe siècle, qui a été progressivement japonisé pour devenir un emblème national. Le mot ramen vient du chinois lamian (拉麵), qui signifie nouilles étirées. Les premiers stands de ramen apparaissent à Yokohama dans le quartier chinois (Chinatown) vers 1859, après l'ouverture du port aux étrangers. Au début, on l'appelle shina soba (nouilles chinoises). Le ramen explose vraiment dans le Japon d'après-guerre — la pauvreté alimentaire des années 1945-1960 fait de ce plat à base de blé (subventionné par les États-Unis dans le cadre du plan Marshall) un repas de subsistance puis un plat de comfort food national. En 1958, Momofuku Ando invente le ramen instantané (Cup Noodles), qui devient l'un des produits les plus vendus de l'histoire alimentaire mondiale — environ 100 milliards de portions consommées par an dans le monde. Aujourd'hui, le Japon compte plus de 35 000 restaurants spécialisés en ramen, avec des centaines de styles régionaux. En France, le ramen est devenu une obsession depuis 2015 — Paris compte une cinquantaine de ramen-ya sérieux, et la queue devant Higuma ou Naritake fait partie du folklore. Sur moomz, le ramen est associé aux dates de l'hiver, à l'envie d'umami, et à l'exigence culinaire japonaise.",
+    "sections": [
+      {
+        "h": "Les quatre grandes familles de ramen",
+        "body": "Un ramen se définit par son bouillon. 1) Shoyu ramen : bouillon à base de sauce soja, originaire de Tokyo. Couleur brune, goût salé-umami, le ramen le plus classique. 2) Miso ramen : bouillon enrichi de pâte miso (fermentée à partir de soja), originaire de Sapporo (Hokkaido) — riche, profond, parfait pour l'hiver. 3) Shio ramen : bouillon clair au sel, originaire de Hakodate (Hokkaido) — le plus léger, le plus subtil, basé sur le sel marin et un fond de volaille ou de poisson. 4) Tonkotsu ramen : bouillon d'os de porc bouillis pendant 12 à 20 heures, originaire de Hakata/Fukuoka — couleur blanc opaque, texture crémeuse, le plus riche. À ces familles s'ajoutent les nouilles (épaisseur variable, du fin Hakata au gros nouille Sapporo), les toppings (chashu de porc, ajitama œuf mariné, menma pousses de bambou, naruto, négi ciboule), et les huiles aromatiques (mayu huile d'ail noir, rayu huile pimentée). Un vrai ramen prend des heures à préparer, avec des fonds qui mijotent toute la nuit."
+      },
+      {
+        "h": "Le ramen en France : la scène parisienne",
+        "body": "Paris est devenue une vraie capitale du ramen hors d'Asie. Le quartier japonais autour de la rue Sainte-Anne (1er et 2e arrondissements) concentre la majorité des bonnes adresses. Higuma, ouvert depuis 1981, est l'un des plus anciens et reste une référence du style tokyoïte. Naritake a longtemps été LA queue parisienne pour son tonkotsu épais. Kodawari Ramen Tsukiji propose une expérience immersive avec décor de marché japonais et bouillons travaillés. Sanukiya, Aki Restaurant et Hokkaido Ramen Santouka sont aussi des références. Côté prix, comptez 14 à 22 euros pour un bol de ramen sérieux à Paris, contre 800-1500 yens (5-9 euros) au Japon. La différence reflète le coût des ingrédients importés et la rareté de la main-d'œuvre formée. Lyon, Marseille, Bordeaux, Strasbourg ont aussi vu émerger leurs ramen-ya — souvent ouverts par des chefs ayant fait leur apprentissage au Japon. Ne pas confondre avec les soi-disant ramen vendus dans certains restos asiatiques génériques : un ramen mal fait est immédiatement repérable au bouillon insipide."
+      },
+      {
+        "h": "Étiquette et façon de manger le ramen",
+        "body": "Le ramen au Japon est codifié. D'abord, on slurpe les nouilles — aspirer bruyamment est non seulement accepté, mais valorisé : ça refroidit les nouilles, ça aère le bouillon et ça intensifie la perception aromatique. C'est l'inverse exact des règles de table européennes. Ensuite, on mange vite : un ramen doit être consommé en 10-15 minutes maximum, parce que les nouilles continuent de cuire dans le bouillon chaud et perdent leur texture. C'est pourquoi beaucoup de ramen-ya au Japon ne sont pas faits pour s'attarder — on entre, on commande via une machine à tickets, on slurpe, on paye, on sort. Ce n'est pas un dîner romantique de 2 heures. Pour les toppings, on peut ajouter ail râpé, gingembre mariné, sésame, vinaigre selon le ramen et la région. Boire le bouillon directement à la fin (au lieu de le laisser) est considéré comme le meilleur compliment au chef. Sur moomz, le ramen est devenu un date culte de l'hiver — manger un ramen ensemble par -2 °C, c'est un rituel, à condition de ne pas être un mauvais dater qui ne maîtrise pas les baguettes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le ramen est-il vraiment japonais ?",
+        "a": "Le ramen a une origine chinoise (les nouilles lamian) mais a été tellement transformé par la cuisine japonaise depuis 1860 qu'il est aujourd'hui considéré comme un plat japonais à part entière. C'est même devenu l'un des emblèmes culinaires du Japon moderne, au point que le musée du ramen instantané à Yokohama est une attraction touristique majeure. Au Japon, on distingue clairement le ramen japonais des nouilles chinoises classiques. C'est un exemple parfait d'appropriation culinaire réussie et complètement assumée, sur plus d'un siècle d'évolution."
+      },
+      {
+        "q": "Pourquoi le ramen est-il si cher en France ?",
+        "a": "Plusieurs raisons. D'abord, les ingrédients spécifiques sont importés : kansui (sel alcalin pour les nouilles), katsuobushi (flocons de bonite séchée), kombu, miso de qualité, etc. Ensuite, la fabrication maison du bouillon prend 12 à 20 heures pour un tonkotsu, ce qui demande du temps et de la matière première. Les nouilles fraîches faites maison ou importées sont coûteuses. La main-d'œuvre formée au Japon est rare. Enfin, les loyers parisiens dans les zones premium de la rue Sainte-Anne ajoutent au prix. Un bon ramen à 18-22 euros à Paris reflète un vrai coût de production, pas du marketing premium."
+      },
+      {
+        "q": "Quelle est la différence entre ramen, udon et soba ?",
+        "a": "Trois nouilles japonaises totalement différentes. Le ramen est fait de farine de blé + eau alcaline (kansui), ce qui donne une couleur jaune et une texture élastique. L'udon est fait de farine de blé + eau + sel, sans kansui — plus épais (4-5 mm), blanc, mou et glissant. Le soba est fait de farine de sarrasin, généralement mélangée à un peu de blé — couleur brune, goût plus prononcé, souvent servi froid en été. Les bouillons et les toppings sont aussi différents. Confondre ces trois nouilles est un classique des restaurants asiatiques génériques qui ne maîtrisent pas la cuisine japonaise."
+      },
+      {
+        "q": "Le ramen instantané, c'est vraiment du ramen ?",
+        "a": "Techniquement oui, mais c'est une catégorie à part. Le ramen instantané a été inventé en 1958 par Momofuku Ando, fondateur de Nissin, pour répondre à la demande de nourriture rapide et bon marché au Japon d'après-guerre. Les nouilles sont précuites et déshydratées, le bouillon est en poudre. C'est devenu un phénomène mondial — environ 100 milliards de portions consommées par an. Mais aucun amateur de vrai ramen ne considère le ramen instantané comme un équivalent — c'est un produit complètement différent, plus proche de la soupe en sachet que du vrai bol artisanal."
+      }
+    ],
+    "related": ["sushi", "tokyo", "miyazaki", "anime", "vie-de-couple", "premier-rdv"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "glace",
+    "locale": "fr",
+    "keyword": "Glace",
+    "matchPatterns": ["glace", "ice cream", "gelato", "sorbet", "glacier"],
+    "topic": "food",
+    "title": "Glace : du gelato italien aux sorbets — comment reconnaître la vraie",
+    "description": "Glace, gelato, sorbet, frozen yogurt : on démêle les différences et on raconte pourquoi la glace est devenue le dessert d'été incontournable.",
+    "emoji": "🍦",
+    "intro": "La glace est l'un des desserts les plus universels — on en mange sur tous les continents, dans toutes les cultures, et son histoire remonte à l'Antiquité. Les Romains, les Perses et les Chinois consommaient déjà des préparations à base de neige et de glace aromatisée. Mais la glace moderne, telle qu'on la connaît, doit beaucoup à l'Italie : c'est à Florence et à Naples, au XVIe et XVIIe siècles, que la technique du sorbet aromatisé puis du gelato (avec lait, donc plus crémeux) se développe vraiment. Catherine de Médicis aurait apporté ces techniques à la cour de France à son mariage avec Henri II en 1533. Le premier café à servir des glaces commercialement à Paris est le Procope, ouvert en 1686 par le Sicilien Francesco Procopio dei Coltelli — le même Procope qui sert encore aujourd'hui. La grande révolution industrielle de la glace intervient au XIXe siècle avec l'invention des sorbetières mécaniques, puis au XXe siècle avec la chaîne du froid et les freezers domestiques. Aujourd'hui, le marché mondial de la glace pèse environ 80 milliards d'euros. Les Français en consomment environ 6 kg par personne et par an, derrière les Italiens (8 kg) et loin derrière les Néo-Zélandais (29 kg). Sur moomz, la glace est l'aliment des étés, des dates d'après-soirée, des consolations post-rupture et des moments de partage entre potes au parc. C'est aussi un terrain de débat sans fin : Berthillon ou Amorino, vanille ou pistache, cône ou pot.",
+    "sections": [
+      {
+        "h": "Gelato, ice cream, sorbet : enfin les différences",
+        "body": "La glace anglo-saxonne (ice cream) contient beaucoup d'air incorporé (jusqu'à 100 % d'overrun, c'est-à-dire un volume final double du volume initial), beaucoup de matière grasse (au moins 10 %, souvent 14-18 %), et se mange très froide (-15 °C). Texture mousseuse, légère, mais arômes parfois dilués par l'air. Le gelato italien, c'est l'inverse : moins d'air (20-30 % d'overrun), moins de matière grasse (6-10 %, parfois moins), et servi à une température plus élevée (-10 à -12 °C). Texture dense, soyeuse, arômes intenses. C'est pour ça qu'un vrai gelato présenté dans des bacs en métal a souvent une texture plus crémeuse qu'une glace en pot. Le sorbet n'a pas de matière grasse ni de lait — uniquement eau, sucre, fruits (au minimum 25 % de fruits pour un sorbet plein fruit). Texture plus dure, arômes plus francs, parfait pour les fruits acides. Le frozen yogurt utilise du yaourt à la place de la crème, plus léger, plus acidulé. Et il y a la glace au lait, intermédiaire entre la glace et le sorbet, avec lait mais sans crème."
+      },
+      {
+        "h": "Berthillon, Amorino et les vrais glaciers parisiens",
+        "body": "Paris est une vraie capitale de la glace artisanale. Berthillon, fondé en 1954 sur l'île Saint-Louis, est probablement la maison la plus mythique — fabrication artisanale, arômes intenses, et queue mémorable en été. Les saveurs phares : marron glacé, framboise, café, chocolat noir, pamplemousse rose. Comptez 4 euros la boule, ce qui en fait l'une des glaces les plus chères de France au gramme. Amorino, fondé en 2002 par deux Italiens à Paris, a popularisé le gelato en cône en forme de rose — succès énorme et expansion internationale, mais qualité parfois jugée moins fine que d'autres maisons. Pozzetto, glacier vénitien, est apprécié des connaisseurs pour son authenticité italienne. Glaces Glazed, Une Glace à Paris (Emmanuel Ryon, MOF), Bachir libanais sur Saint-Michel pour ses glaces à la fleur d'oranger, et Folderol dans le 10e ont rejoint la scène. Côté glaciers en province : Roger Martin à Nice, Fenocchio (45 parfums), ou la maison Geyer en Alsace sont des références régionales fortes. Vraie règle : si le bac de glace est bombé en pic façon Insta, c'est probablement industriel — un vrai gelato bien fait reste relativement plat."
+      },
+      {
+        "h": "La glace comme rituel émotionnel",
+        "body": "La glace coche tous les boutons du comfort food : c'est sucré, c'est froid (donc immédiatement satisfaisant en bouche), c'est portatif, et c'est socialement codé comme un dessert plaisir sans culpabilité (en quantité raisonnable). Sur moomz, la glace revient sans cesse dans les vibe-checks émotionnels : la glace post-rupture en pot devant une série, la glace en cône au parc avec un date d'été, la glace partagée à deux avec deux cuillères. C'est aussi un marqueur de saison : la première glace de l'année (souvent en avril-mai) est un mini-événement personnel, comme le premier soleil. Côté culturel, la glace est partout dans les films américains (Bridget Jones et son pot de Ben & Jerry's, Friends et leur glace après une rupture) et asiatiques (la glace pilée taiwanaise, les mochis japonais glacés). Il y a aussi tout un sous-genre TikTok de la glace : la glace tornade coréenne, les glaces très instagrammables, les défis aux glaces géantes. Le mochi glacé japonais (boule de mochi avec glace à l'intérieur) est devenu un produit star en France depuis 2020."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quelle est la différence entre glace et gelato ?",
+        "a": "Trois différences principales. 1) Air : la glace classique contient jusqu'à 100 % d'air incorporé (overrun), le gelato seulement 20-30 %. 2) Matière grasse : la glace contient 10-18 % de matière grasse (souvent issue de la crème), le gelato 6-10 % (plus de lait, moins de crème). 3) Température de service : la glace est servie à -15 °C, le gelato à -10/-12 °C. Résultat : le gelato a une texture plus dense, plus soyeuse, et des arômes plus intenses parce que la matière grasse plus basse et la température plus élevée libèrent mieux les saveurs en bouche."
+      },
+      {
+        "q": "Pourquoi la glace artisanale est-elle si chère ?",
+        "a": "Les ingrédients de qualité coûtent : vraie vanille de Madagascar (entre 500 et 1500 euros le kilo), pistache de Bronte (Sicile, jusqu'à 250 euros le kilo), fruits frais en quantité (un sorbet artisanal doit contenir au moins 25 % de fruits, souvent 40-50 % chez les vrais). La fabrication est manuelle, en petits volumes, sans stabilisants ni colorants. La marge sur une glace à 4 euros la boule en boutique semble énorme, mais une fois retiré le coût des locaux centraux à Paris, des machines, du personnel formé et du froid négatif 24h/24, la marge réelle est plus modeste qu'il n'y paraît."
+      },
+      {
+        "q": "Combien de calories dans une glace ?",
+        "a": "Très variable. Un sorbet plein fruit : 80-150 kcal pour 100 g, principalement du sucre. Une glace au lait classique : 150-200 kcal. Une glace à la crème (style Häagen-Dazs vanille) : 250-300 kcal. Une glace industrielle type Magnum amande : environ 270 kcal pour un bâtonnet. Les versions vegan à base de lait de coco peuvent être plus caloriques que les classiques, à cause de la matière grasse de coco. Pour info, un seul cône Berthillon trois boules dépasse facilement 400 kcal. Pas un drame, mais à intégrer dans le compte si on suit son alimentation."
+      },
+      {
+        "q": "Quelle est la meilleure glace pour un date d'été ?",
+        "a": "Stratégiquement, vise une glace partagée plutôt qu'individuelle — ça crée plus d'intimité. Côté lieu, un glacier artisanal en centre-ville est mieux qu'une glace industrielle de boulangerie. Si tu es à Paris, Berthillon sur l'île Saint-Louis est un classique qui implique une promenade. À éviter : les saveurs trop bizarres pour un premier rendez-vous (pas le moment d'expérimenter la glace au fromage bleu). Vanille, pistache, chocolat, fraise, framboise, citron sont des valeurs sûres. Et règle d'or : ne juge pas l'autre s'il prend chocolat et vanille — c'est une combinaison parfaitement valable, pas un manque d'aventure."
+      }
+    ],
+    "related": ["chocolat", "cafe", "ete", "plage", "rupture", "premier-rdv"],
+    "updatedAt": "2026-05-19"
+  }
+]

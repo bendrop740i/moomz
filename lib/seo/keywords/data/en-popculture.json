@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "netflix",
+    "locale": "en",
+    "keyword": "Netflix",
+    "matchPatterns": ["netflix", "stranger things", "squid game", "wednesday", "bridgerton", "binge", "series"],
+    "topic": "pop-culture",
+    "title": "Netflix Polls: What to Binge, Who to Cancel, Best Series Ever",
+    "description": "Vote on the best Netflix shows, the most overrated series, and what your binge habits say about you. Pop culture polls live on moomz.",
+    "emoji": "🎬",
+    "intro": "Netflix started in 1997 as a humble DVD-by-mail service founded by Reed Hastings and Marc Randolph in Scotts Valley, California. Nearly three decades later it has become the default Saturday-night verb: nobody says 'let's watch a movie' anymore, they say 'what's on Netflix?'. With more than 280 million paid subscribers and a content slate covering Korean thrillers, German sci-fi, Spanish heists, and prestige American drama, the red N has rewired how an entire generation thinks about television. Stranger Things turned synth-pop and BMX bikes into a global aesthetic. Squid Game gave Halloween its biggest costume of the decade in a single weekend. Wednesday made the Jenna Ortega dance a TikTok ritual. Bridgerton normalised the period romance for people who would have sworn they hated corsets. And yet, for every cult hit, Netflix quietly cancels three shows after one season, raises its price, cracks down on password sharing, and ships an algorithm that swears you'll love a true-crime documentary about a man who marries his lawn. The platform is messy, dominant, infuriating, and absolutely unavoidable, which is exactly why it remains one of the most argued-about topics on social media. Whether you are team binge-the-entire-season-in-one-night or team one-episode-a-week-like-a-grown-up, your Netflix takes say something about you. On moomz we collect those takes the proper way: a quick poll, a clean split, a winner, a roast. No 800-word essays in the comments. Just vote, see where you land, and find out whether your friends secretly think your top show is mid.",
+    "sections": [
+      {
+        "h": "Why every friend group argues about Netflix",
+        "body": "Netflix is the only streamer that everybody you know actually has, which makes it the lowest-common-denominator battleground of taste. When you fight about HBO you fight with cinephiles. When you fight about Netflix you fight with your mum, your boss, your group chat, and that one cousin who thinks Outer Banks is cinema. The platform's recommendation engine is also famously slippery: two people in the same household get two completely different homepages, which means you and your partner can argue for ten minutes before realising you literally cannot see the same thumbnails. Add to that the chaos of regional libraries (the UK gets shows Spain does not, Japan gets anime nobody else gets), the constant cancellations, and the fact that Netflix labels everything as a 'Netflix Original' even when it licensed the series from someone else, and you have a perfect engine for low-stakes drama. That is poll fuel. Is The Crown actually good or just British? Was Squid Game a one-season miracle that should never have been renewed? Did Wednesday peak at the dance? These are the kind of two-tap questions our community settles every day on moomz."
+      },
+      {
+        "h": "The shows that broke the algorithm",
+        "body": "A handful of titles have become genuine cultural events on Netflix, not just hits. Stranger Things, debuting in 2016, sent Kate Bush's Running Up That Hill back to number one in 2022, thirty-seven years after release. Squid Game in 2021 became the platform's biggest launch ever, watched in 94 million households in its first 28 days. Money Heist made a red jumpsuit and a Dali mask instantly readable around the world. Wednesday in 2022 hit 1.7 billion hours viewed and made Jenna Ortega a generational it-girl. Dahmer, despite being widely criticised, sat at the top of the global charts for weeks and reopened the entire debate about true-crime ethics. Each of these shows generated more memes, takes, and arguments than most national elections. Underneath them sits a long tail of cult favourites - Beef, Baby Reindeer, Black Mirror, The Queen's Gambit, Dark, Lupin - that quietly outlast the big launches. The fun part is that nobody agrees on the ranking. Ask ten friends for their top five Netflix shows and you get ten different lists. Ask a poll and you get an actual answer."
+      },
+      {
+        "h": "Binge culture, password sharing, and the price hikes",
+        "body": "Netflix did not invent binge-watching, but releasing entire seasons at once in 2013 made it the default. Two thirds of subscribers admit to finishing a season in under a week. That habit comes with side effects: spoilers move at the speed of group chats, water-cooler conversation has fractured, and the streamer's own data shows engagement drops sharply if you do not finish a season within four weeks of release. Then there is the password crackdown of 2023, which Netflix internally described as a roaring success and externally as a 'gentle reminder' but which most of your friends remember as the week they had to start paying for their own account. Add a basic-with-ads tier, two price increases in eighteen months, and the slow disappearance of the cheap plan, and the relationship with subscribers has cooled from love to long-term marriage. People still pay. They just complain more. The healthiest way to channel that complaining? A quick poll on moomz. Are you cancelling at the next price hike, or are you locked in for life because of one specific show?"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the most-watched Netflix show of all time?",
+        "a": "Squid Game season one held the all-time crown for years with around 1.65 billion hours viewed in its first 28 days. Wednesday season one came close at 1.7 billion hours. Stranger Things 4 is the most-watched English-language original. The ranking shifts as Netflix recalculates its metrics, so the 'biggest ever' label changes every few months, which is exactly why people love arguing about it."
+      },
+      {
+        "q": "Is Netflix worth the price in 2026?",
+        "a": "Depends on whether you actually finish things. Heavy bingers who clear two or three series a month easily out-earn the subscription compared to renting movies. Casual users who open the app, scroll for forty minutes, and watch nothing are quietly paying a tax. The new ad-supported tier is the sweet spot if you only watch a couple of shows. Run a poll in your group chat - it tends to settle the question fast."
+      },
+      {
+        "q": "Why does Netflix cancel so many shows after one season?",
+        "a": "The platform's internal rule of thumb is brutal: a show needs to retain a high percentage of its first-episode viewers through the finale, then convert that into measurable second-season demand. Anything that fades is dropped. It saves money but breaks hearts, and it is the single most common Netflix complaint we see on moomz polls."
+      },
+      {
+        "q": "What should I watch on Netflix tonight?",
+        "a": "Pick a mood, not a title. If you want something easy, romcom limited series like Nobody Wants This. If you want a brain workout, Dark or Black Mirror. If you want a guaranteed group chat conversation, whatever the current Korean breakout is. Or just open moomz, find a Netflix poll, and let the crowd decide for you - that is half the reason people use the app."
+      }
+    ],
+    "related": ["anime", "disney", "marvel", "harry-potter", "gaming", "tiktok", "instagram", "drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "anime",
+    "locale": "en",
+    "keyword": "Anime",
+    "matchPatterns": ["anime", "otaku", "shonen", "shojo", "isekai", "studio", "japanese animation"],
+    "topic": "pop-culture",
+    "title": "Anime Polls: Best Series, Top Studios, Hottest Takes",
+    "description": "Vote on the greatest anime of all time, the most overrated openings, and the show that wrecked you. Anime polls live on moomz.",
+    "emoji": "🍙",
+    "intro": "Anime as we know it started in 1963 with Osamu Tezuka's Astro Boy, the first Japanese animated TV series to be broadcast weekly and the blueprint that turned a niche art form into a global industry. Sixty years later anime is no longer the weird thing your nerdy friend watched in their parents' basement - it is a 30-billion-dollar machine, a Netflix front-page staple, a Spotify playlist genre, and a wardrobe of merch sold by every major streetwear brand. One out of every two members of Gen Z says they watch anime regularly, and in some countries that number is closer to two thirds. The catalogue is overwhelming: classic shonen like Dragon Ball, Naruto and One Piece raised entire generations on tournament arcs and power-ups. Modern megahits like Attack on Titan, Jujutsu Kaisen, Demon Slayer and Chainsaw Man weaponised animation budgets in a way that left western television studios in panic mode. Romance series like Your Lie in April and Toradora have made grown adults cry in public. Studio Ghibli films treat children with more respect than most adult cinema. And then there is the long tail - sports anime, slice-of-life, isekai about getting reincarnated as a vending machine - that keeps the medium endlessly arguable. Pick any two anime fans and they will not agree on anything except that subs beat dubs (which is itself a debate). That is why anime polls work so well on moomz: a quick vote settles what a six-hour Reddit thread cannot.",
+    "sections": [
+      {
+        "h": "The anime debates that never end",
+        "body": "Every anime fan has the same three or four arguments on rotation. Subs versus dubs is the eternal one - purists insist on Japanese audio with subtitles, while casual viewers point out that you cannot watch animation while reading text without missing half the frames. Goku versus Saitama versus Luffy versus Gojo is the power-scaling debate that has filled YouTube essays for a decade. Whether One Piece is worth starting in 2026 with over 1100 episodes is a question nobody answers the same way twice. Naruto versus Sasuke. Eren villain or hero. Did Attack on Titan stick the landing. Is the new MAPPA animation actually better or are people just nostalgic for the old days. Each of these binary fights is poll-shaped: two options, strong opinions, fast result. The anime community is also unusually online, which means a single airing of a key episode can spike Twitter, TikTok, and Reddit simultaneously within twenty minutes. Capture that energy in a moomz poll the same evening and you get one of the highest engagement vote streams the app has ever seen."
+      },
+      {
+        "h": "Studios that defined the medium",
+        "body": "Studios matter more in anime than in any other visual medium. Studio Ghibli, founded in 1985 by Hayao Miyazaki, Isao Takahata and Toshio Suzuki, set a standard for hand-drawn beauty and emotional restraint that nothing has matched. Madhouse gave us Death Note, One Punch Man, and Hunter x Hunter. Bones built My Hero Academia and Mob Psycho 100. Wit Studio launched Attack on Titan before MAPPA inherited the final seasons and changed the look entirely. Ufotable redefined what a TV anime could look like with Demon Slayer's water-effect work, animation so fluid that one fight scene caused a real spike in domestic box-office sales the week after airing. CloverWorks delivered Spy x Family. Trigger keeps the cult flame alive with Cyberpunk Edgerunners and Kill la Kill. Knowing the studio is half the conversation: anime fans will quote production crew members by name and follow individual key animators across projects. That depth is what makes anime polls more interesting than your average 'pick a movie' question - the votes carry actual taste."
+      },
+      {
+        "h": "Why anime hits harder than scripted TV right now",
+        "body": "There are structural reasons anime keeps eating western television's lunch. Episodes are short, 22 to 24 minutes, which fits modern attention spans. Seasons are tight, usually 12 episodes, so the pacing rarely sags. Plot ambition is enormous - anime will routinely dedicate twenty episodes to a single battle and make it work. Themes go to places live action will not, from existential despair in Evangelion to capitalism critique in Chainsaw Man to trauma processing in Bocchi the Rock. And the fan economy is wildly active: figures, manga tie-ins, soundtracks that chart on Spotify, cosplay communities that fill convention centres. All of that energy produces non-stop discussion, which produces non-stop polls. On moomz the most viral anime polls usually start with 'unpopular opinion' or 'one show to give a beginner' - low-stakes, high-engagement questions that work whether you are an obsessive or someone who just watched their first Ghibli film last weekend."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best anime of all time?",
+        "a": "Depends entirely on whether you weight cultural impact, animation quality, story payoff, or pure rewatchability. Fullmetal Alchemist Brotherhood, Cowboy Bebop, Hunter x Hunter (2011), Steins Gate, and Attack on Titan tend to dominate every 'best of all time' poll, with Death Note and Code Geass close behind. The fun is in the debate, which is why we run this exact question every few months on moomz."
+      },
+      {
+        "q": "Where can I start watching anime as a beginner?",
+        "a": "Avoid the 1000-episode behemoths first. Pick a tight, complete series: Death Note for thriller fans, Demon Slayer for spectacle, Spy x Family for comedy, A Silent Voice for emotion, or any Studio Ghibli film for pure cinema. Twelve to twenty-six episodes is the sweet spot for figuring out which subgenre actually clicks for you before committing to a longer story."
+      },
+      {
+        "q": "Subs or dubs - which is better?",
+        "a": "Subs preserve the original performance and most cultural nuance, which matters in dialogue-heavy series. Modern dubs (especially from studios like Bang Zoom and Funimation) have improved dramatically and let you watch the animation without splitting attention. The honest answer is: subs for first watch of anything dramatic, dubs are fine for casual rewatches or background viewing."
+      },
+      {
+        "q": "Is anime mainstream now?",
+        "a": "Completely. Crunchyroll has over 13 million paid subscribers worldwide, Demon Slayer Mugen Train was the highest-grossing film globally in its release year, Spotify reports anime soundtracks streaming in the billions, and major fashion brands routinely drop anime collaborations. The 'weird thing my cousin watches' stigma is gone for anyone under 35."
+      }
+    ],
+    "related": ["manga", "naruto", "one-piece", "demon-slayer", "miyazaki", "netflix", "gaming", "kpop"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "manga",
+    "locale": "en",
+    "keyword": "Manga",
+    "matchPatterns": ["manga", "shonen jump", "weekly", "chapter", "scanlation", "tankobon"],
+    "topic": "pop-culture",
+    "title": "Manga Polls: Best Series, Top Mangaka, Anime Adaptations",
+    "description": "Vote on the greatest manga ever drawn, the best chapter cliffhangers, and which adaptation actually beat the source. Manga polls on moomz.",
+    "emoji": "📚",
+    "intro": "Manga is the largest comic book industry in the world. Japan publishes roughly 12,000 new manga volumes a year, the US barely cracks a tenth of that, and yet manga has quietly become the dominant format of comics globally - bookstore shelves in Paris, London, Sao Paulo and Los Angeles now devote more space to it than to Marvel and DC combined. The form crystallised in its modern shape after World War II under Osamu Tezuka, the same man who launched Astro Boy, and was industrialised by weekly anthology magazines like Shueisha's Weekly Shonen Jump, founded in 1968. Jump alone has produced Dragon Ball, Naruto, One Piece, Bleach, Demon Slayer, Jujutsu Kaisen, Chainsaw Man, Spy x Family and My Hero Academia - the closest thing comics has to a hit factory. Beyond the shonen powerhouses, you have shojo (Sailor Moon, Fruits Basket, Nana), seinen (Berserk, Vagabond, Vinland Saga, 20th Century Boys), josei (Princess Jellyfish, Honey and Clover), horror (Junji Ito's entire catalogue), and slice-of-life series that have nothing happen for 200 pages and somehow make you cry. The reading culture is also unique: weekly chapters drop on Sundays, fans translate them within hours, MangaPlus and Shonen Jump apps deliver official simulpubs in English the same day, and the global community of millions argues over each new release in real time. That weekly drumbeat is exactly the kind of fuel polls thrive on, which is why manga is one of the most active topics on moomz.",
+    "sections": [
+      {
+        "h": "Shonen Jump and the magazine hit factory",
+        "body": "Understanding manga means understanding Weekly Shonen Jump. The magazine ranks every running series each week based on a reader survey postcard system (now also digital), and consistently low-ranked series get cancelled - sometimes brutally fast, with mangaka given as little as ten chapters to wrap up entire storylines. That ruthlessness explains why the survivors are so good: any series that has survived 50 chapters has already beaten the odds. The current Jump lineup is one of the strongest in decades, with One Piece still serialising after 27 years and Oda nearing the final arc, alongside breakout hits like Sakamoto Days, Kaiju No 8, and Mashle. Other magazines matter too - Young Jump for seinen, Bessatsu Shonen Magazine which famously hosted Attack on Titan, Afternoon for prestige series like Vinland Saga, and Margaret for landmark shojo. Asking manga fans 'best Jump series ever' will start a fight that lasts longer than the war arc in Naruto, and it makes a perfect moomz poll."
+      },
+      {
+        "h": "Why manga adaptations now outshine western blockbusters",
+        "body": "Hollywood has spent the last decade trying to compete with manga IP and largely losing. Live-action adaptations are still cursed (Death Note 2017 will never be forgiven), but the anime adaptations have entered a golden age. Demon Slayer's Mugen Train arc cleared $500 million globally, Jujutsu Kaisen Season 2's Shibuya arc trended worldwide for weeks, Chainsaw Man's first season turned MAPPA into a household name, and Spy x Family broke streaming records on its debut. The reason is simple: the source material is already storyboarded by genius cartoonists who have spent five to twenty years developing the story. The animators are not inventing, they are translating. That is also why manga readers are insufferable when an anime cuts a panel - they have seen the original frame. The 'anime only vs manga reader' divide is a permanent feature of every fandom and a guaranteed engagement engine for polls. moomz routinely sees its highest weekly vote counts on questions like 'which arc was butchered the worst by the anime'."
+      },
+      {
+        "h": "How to actually start reading manga in 2026",
+        "body": "The barrier to entry has collapsed. Shonen Jump's app gives you the first three and most recent three chapters of every running series free, with a $2.99/month subscription unlocking the entire library. MangaPlus by Shueisha does the same internationally. K Manga, the official Kodansha app, covers Attack on Titan and many seinen titles. For older or completed runs, your local library or bookstore probably stocks the tankobon volumes, the bound editions collecting about ten chapters each. A reasonable beginner path: start with a complete classic (Death Note, 12 volumes) to test the form, then sample a current running hit (Chainsaw Man, Jujutsu Kaisen), then commit to a long-runner if you fall in love. Reading order is right-to-left, top-to-bottom, panel-by-panel. After about ten chapters your brain stops noticing. The community is huge and welcoming - drop into r/manga or any of the active Discord servers and you will find recommendations tuned to whatever you just finished. Or, faster, ask a question on moomz and let three hundred readers vote on what to pick up next."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best-selling manga of all time?",
+        "a": "One Piece. Eiichiro Oda's pirate epic has sold over 520 million copies worldwide since 1997, making it the bestselling comic series in history by any medium. Dragon Ball follows at around 300 million, then Naruto at 250 million, Detective Conan at 270 million, and Slam Dunk at 170 million. The numbers are still climbing for active series."
+      },
+      {
+        "q": "Is reading manga illegally still a problem?",
+        "a": "Yes and no. Scanlation sites used to be the only way to read most series in English, but official simulpubs through Shonen Jump, MangaPlus, K Manga, and ComiXology now cover the majority of major series day-and-date with Japan, usually for free or a few dollars a month. The reading experience is better, the translation is better, and the mangaka actually gets paid. The hold-outs are usually older or niche series."
+      },
+      {
+        "q": "How long does it take to read One Piece?",
+        "a": "At a comfortable pace of ten chapters per session, the full 1100+ chapter run takes most people three to six months. Bingeing hard it can be done in six weeks. The story is heavily front-loaded with world-building and pays off massively in the later arcs, so do not give up at chapter 200 - that is just the warm-up."
+      },
+      {
+        "q": "Should I read the manga before watching the anime?",
+        "a": "If the anime is ongoing and good (Jujutsu Kaisen, Chainsaw Man, Spy x Family), watch the anime first - the production is glorious and you avoid spoiling yourself with the manga's faster pace. If the anime is finished or filler-heavy (Naruto, Bleach pre-2022), read the manga. The Shippuden filler arcs alone are about 200 episodes."
+      }
+    ],
+    "related": ["anime", "one-piece", "naruto", "demon-slayer", "miyazaki", "netflix", "gaming", "harry-potter"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "kpop",
+    "locale": "en",
+    "keyword": "K-pop",
+    "matchPatterns": ["kpop", "k-pop", "bts", "blackpink", "newjeans", "stray kids", "twice", "idol", "korean pop"],
+    "topic": "pop-culture",
+    "title": "K-pop Polls: Best Groups, Hottest Comebacks, Bias Wars",
+    "description": "Vote on the best K-pop groups, the wildest comebacks, and your ultimate bias. Stan polls that actually mean something, live on moomz.",
+    "emoji": "💖",
+    "intro": "K-pop is no longer a curiosity. It is a music industry vertical the size of a mid-sized country's economy, with BTS alone contributing an estimated $5 billion a year to the South Korean GDP at its peak and the four major agencies (HYBE, SM, YG, JYP) collectively worth tens of billions on the Korean stock exchange. The modern K-pop era starts with Seo Taiji and Boys in 1992, accelerates in the 2000s with TVXQ, BIGBANG and Girls Generation, then explodes globally in 2012 when Psy's Gangnam Style became the first YouTube video to hit one billion views. The current third and fourth generations - BTS, BLACKPINK, TWICE, NCT, Stray Kids, ITZY, aespa, NewJeans, IVE, LE SSERAFIM, ENHYPEN, TXT, Seventeen - have turned K-pop into a permanent fixture of the Billboard Hot 100, the Grammys conversation, and Spotify's global charts. The fandoms are something else entirely. ARMY (BTS) has 50 million-plus active members. BLINKs (BLACKPINK) crash streaming sites on comeback day. STAYs (Stray Kids) routinely drive their albums to first-day sales of over a million copies. Each fandom has its own light stick colour, official name, fan chant, and elaborate social media operations. That intensity makes K-pop the most poll-friendly genre in modern music: who is your bias, who is your bias-wrecker, best comeback of the year, best B-side, best choreography, best vocal line. moomz hosts these debates daily and they tend to be the most-voted polls in the app.",
+    "sections": [
+      {
+        "h": "The fourth generation takeover",
+        "body": "The torch has visibly passed. BTS members are now mostly in their mandatory military service, BLACKPINK split their renewals (group contract with YG, solo activities elsewhere), TWICE is in its mature era, and a new wave has stepped into the spotlight. NewJeans, debuted in 2022 by ADOR (a HYBE subsidiary), redefined the visual and sonic codes with a low-saturation Y2K aesthetic and Jersey-club-tinged production. IVE, LE SSERAFIM and aespa are dominating the girl group scene with sharper, more confident concepts. Stray Kids became the first 4th-gen group to consistently sell over a million copies on first day. ENHYPEN, TXT and ZEROBASEONE lead the boy group race. The internal politics are also part of the show - the Min Hee-jin vs HYBE saga of 2024 was followed by K-pop fans the way other people follow football transfer windows. Every announcement, every concept teaser, every comeback trailer is a poll opportunity. Asking 'best 4th gen group' or 'best comeback of the month' on moomz routinely generates triple the usual engagement."
+      },
+      {
+        "h": "Why K-pop fandoms vote harder than anyone",
+        "body": "K-pop fans were raised inside voting culture. From Mnet's M Countdown to Mubeat, from streaming wars on Spotify to mass voting on the Melon Music Awards, fandoms have spent years coordinating multi-platform campaigns to push their group to number one. They organise on Twitter (now X), Weverse and Discord with a precision that politicians could only dream of. When NewJeans came back, ARMY-style coordinated streaming pushed the album into the top of Spotify global charts within hours. When Seventeen drops a new album, CARATs trend a hashtag for 48 straight hours. That instinct to mobilise makes K-pop polls extremely active on moomz - fans do not just vote, they push the link, screenshot the result, and bring their group chat to the booth. Bias polls in particular hit different. Asking 'who is your ultimate bias' across a fandom and watching the result settle live is honestly more entertaining than half the talk shows."
+      },
+      {
+        "h": "Concepts, choreography and the visual machine",
+        "body": "What sets K-pop apart musically and visually is the relentless concept-driven release strategy. Each comeback (the industry term for a new release) comes with a colour palette, a wardrobe, a music video aesthetic, a dance routine, photocards, a 'concept film' teaser, behind-the-scenes B-roll, and dance practice videos. A single comeback can generate fifty distinct pieces of content. Choreography in particular has become an art form: the Seventeen dance practice videos, the Stray Kids hard-hitting routines, NewJeans' looser less-is-more style, and BLACKPINK's iconic point-moves. Dance challenges trend on TikTok the day a song drops. Choreographers like Lia Kim, Bada Lee and the Black Mamba team have become recognisable names in their own right. Polling K-pop is thus rarely just 'best song' - the interesting questions are 'best choreography', 'best concept of the year', 'comeback that aged the worst'. That depth is why the genre feeds moomz so well."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are BTS coming back?",
+        "a": "Yes. All seven members are completing or have completed their mandatory South Korean military service, and HYBE has publicly committed to a full group return. Jin and J-Hope have already discharged; the others are following in sequence through 2025-2026. A full reunion comeback is widely expected in 2026, and the rumour mill on every K-pop community has been running hot."
+      },
+      {
+        "q": "What is the biggest K-pop group right now?",
+        "a": "Depends on metric. Album sales: Seventeen and Stray Kids dominate. Streaming: BTS solo activities and BLACKPINK members still rule global Spotify. Cultural footprint among Gen Z: NewJeans, despite the agency drama. Touring revenue: BLACKPINK's Born Pink tour grossed over $330 million. The honest answer is K-pop now has multiple co-leaders rather than a single king."
+      },
+      {
+        "q": "What does 'bias' actually mean?",
+        "a": "Your bias is your favourite member of a group. Your bias-wrecker is the member who keeps making you reconsider your bias. Your ultimate bias is your favourite member across all of K-pop. The terms come from forum culture in the early 2010s and have stuck. Asking 'who is your bias' is the K-pop equivalent of 'what is your sign' - it tells you a lot fast."
+      },
+      {
+        "q": "Where do I start with K-pop in 2026?",
+        "a": "Pick one current group whose visual concept catches your eye, watch one music video, then their latest comeback teaser, then one dance practice. If you are still curious twenty minutes later, you are in. Common entry points right now: NewJeans for Y2K pop, Stray Kids for hard hip-hop, Seventeen for performance, LE SSERAFIM for confident pop, ENHYPEN for boy-group polish."
+      }
+    ],
+    "related": ["taylor-swift", "anime", "netflix", "tiktok", "instagram", "drama", "gossip", "manga"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "taylor-swift",
+    "locale": "en",
+    "keyword": "Taylor Swift",
+    "matchPatterns": ["taylor swift", "swiftie", "eras tour", "midnights", "ttpd", "folklore", "tortured poets"],
+    "topic": "pop-culture",
+    "title": "Taylor Swift Polls: Best Album, Eras Tour Takes, Swiftie Wars",
+    "description": "Vote on Taylor Swift's best album, the Eras Tour highlight, and your ultimate Swiftie hot take. The polls every fan has been waiting for, on moomz.",
+    "emoji": "✨",
+    "intro": "Taylor Swift is, by almost any measurable standard, the most commercially dominant solo artist of the 2020s. Eleven studio albums, every one of them platinum or higher, four album-of-the-year Grammys (the only artist ever to win that category four times), an Eras Tour that grossed over $2 billion in ticket sales across 152 shows from 2023 to 2024 - the highest-grossing concert tour in history by a margin so large the previous record looks like a typo. She started in 2006 as a teenage country singer-songwriter from Pennsylvania with a self-titled debut, pivoted to pop with 1989 in 2014, reinvented herself again with the folklore-evermore double in 2020, then collapsed every previous era into one stadium show. Along the way she rerecorded her first six albums (the 'Taylor's Versions') to reclaim her masters from Scooter Braun, a feat no major artist had successfully pulled off before. She has dated very publicly, been written about endlessly, and turned her own dating history into platinum-selling discography. She has also built one of the most fiercely organised fandoms in music: Swifties run codes, decode Easter eggs, scrape every Instagram caption, hunt for hidden track-list patterns, and coordinate streaming campaigns that have repeatedly bent the Billboard charts to her favour. The cultural footprint is enormous: a single TIME Person of the Year cover, a 50% jump in stadium-city tourism wherever the Eras Tour landed, a measurable spike in NFL viewership the moment she started dating Travis Kelce. All of that produces a non-stop conveyor belt of arguments - best album, best era, best bridge, best surprise song, worst album cover - that polls were designed for. moomz runs Swiftie polls all year round and they consistently land in the top engagement tier of the app.",
+    "sections": [
+      {
+        "h": "Eleven albums, infinite ranking debates",
+        "body": "The studio discography stands at eleven: Taylor Swift (2006), Fearless (2008), Speak Now (2010), Red (2012), 1989 (2014), Reputation (2017), Lover (2019), folklore (2020), evermore (2020), Midnights (2022), and The Tortured Poets Department (2024). Add the Taylor's Version rerecords with their vault tracks and the catalogue effectively doubles. Every Swiftie has a ranking. folklore-evermore is universally beloved by music critics. 1989 is the commercial peak. Red has the strongest emotional resonance. Reputation has the loudest production and the meanest bridges. Midnights ran the longest at number one. The Tortured Poets Department broke streaming records on day one with over 300 million Spotify streams and became the first album to ever pass 1 billion Spotify streams in its opening week, even while critics were split. Asking a Swiftie to rank these is asking them to rank their childhood memories, which is exactly why a moomz poll on 'best Taylor album ever' goes off like fireworks every single time."
+      },
+      {
+        "h": "Eras Tour: the cultural event",
+        "body": "Some tours sell tickets. The Eras Tour rewrote the economics of live music. Across 152 shows, Swift averaged over $13 million per night, sold out every venue, and pulled an average crowd of 70,000 per stadium. The setlist ran three and a half hours and covered all ten albums available at launch, with two rotating 'surprise songs' per night that Swifties tracked obsessively on shared spreadsheets. The film of the tour grossed another $260 million in cinemas, the highest-grossing concert film ever. Cities that hosted shows saw measurable economic spikes - the Federal Reserve Bank of Philadelphia literally cited the tour in its summary of regional growth. The Era Tour also became a moomz poll machine: which night had the best surprise songs (Paris N1, London N4, and Toronto N5 are the most-cited candidates), which era costume was the best, which crowd was the loudest, was the August 2024 'gold dress era' actually superior to the original Lover era costume. Each show produced a fresh wave of takes that funnelled straight into vote-shaped questions."
+      },
+      {
+        "h": "The fandom, the bridges, the bridges",
+        "body": "Swifties are the perfect example of a high-trust, high-organisation modern fandom. They run friendship-bracelet exchanges, decode song meanings collectively, track lyrical Easter eggs across album cycles (the 'all too well 10-minute version' bridge has its own academic essay), and lobby other fandoms in coordinated streaming pushes. The discourse inside the fandom is just as alive as outside - is The Tortured Poets Department actually her best lyrically, or just her longest? Is Karma a top-five song or just a bridge in search of a song? Did Reputation deserve a Grammy nomination? Is Lover the most underrated album? These are the questions Swifties bring to moomz daily, and the answers shift week by week. Swift also intentionally feeds the discourse - she changes setlists, drops surprise releases, references past lyrics in current ones, and treats every album rollout like a multi-month puzzle. That creates an endless stream of pollable moments, which is why the topic anchors so much of pop-culture content here."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many albums does Taylor Swift have?",
+        "a": "Eleven studio albums as of 2024, from her self-titled 2006 debut to The Tortured Poets Department in 2024. Add the four Taylor's Version rerecords (Fearless, Red, Speak Now, 1989) with their vault tracks, and the official discography count effectively reaches fifteen full-length releases. Two more rerecords (Reputation and the debut) are widely expected next."
+      },
+      {
+        "q": "How much did the Eras Tour actually make?",
+        "a": "Around $2.077 billion in ticket revenue alone across 152 shows, plus an estimated $200 million in merchandise and another $260 million from the concert film. Total tour-related revenue across all streams crosses $2.5 billion comfortably, the highest-grossing concert tour in recorded history by roughly double the previous record."
+      },
+      {
+        "q": "What is the best Taylor Swift album?",
+        "a": "Critically: folklore (Grammy AOTY, near-universal acclaim). Commercially: 1989 or Midnights depending on metric. Fan-favourite on moomz polls: it rotates between Red (Taylor's Version), 1989, and folklore, with The Tortured Poets Department holding a strong but divisive vote share. The bridge people argue most about is still 'All Too Well (10 Minute Version)'."
+      },
+      {
+        "q": "Why do Swifties decode everything?",
+        "a": "Because Swift literally encodes her releases with intentional patterns - capital letters in liner notes spelling song titles, Easter eggs in music videos, colour palettes signaling future eras, lyrics referencing past songs. She rewards the decoding behaviour, and the fandom built a culture around it. The result is one of the most actively analytical fan bases in modern pop."
+      }
+    ],
+    "related": ["kpop", "netflix", "instagram", "tiktok", "drama", "gossip", "harry-potter", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "harry-potter",
+    "locale": "en",
+    "keyword": "Harry Potter",
+    "matchPatterns": ["harry potter", "hogwarts", "hermione", "voldemort", "slytherin", "gryffindor", "wizarding"],
+    "topic": "pop-culture",
+    "title": "Harry Potter Polls: Best Book, Hogwarts House, Hot Takes",
+    "description": "Vote on the best Harry Potter book, your true Hogwarts house, and the most overrated character. Wizarding polls live on moomz.",
+    "emoji": "⚡",
+    "intro": "Harry Potter started its public life on 26 June 1997 when Bloomsbury published 500 hardback copies of Harry Potter and the Philosopher's Stone, written by a then unknown single mother named Joanne Rowling who had drafted the manuscript on napkins and laptops in Edinburgh cafes between jobs. Almost three decades later the franchise sits at over 600 million books sold in 80 languages, eight Warner Bros films that grossed nearly $8 billion combined, three Fantastic Beasts spin-offs, a Broadway play (The Cursed Child) that won six Olivier Awards and six Tonys, theme park lands at Universal Orlando, Hollywood and Beijing, and an upcoming HBO series that intends to remake the entire seven-book story arc with a new cast. Whatever your stance on the author's politics in the 2020s - and the discourse around J.K. Rowling has gone from defining a generation's childhood to defining a generation's most uncomfortable Twitter argument - the books themselves are still among the most-read of all time, and the cultural footprint is impossible to overstate. Millennials grew up waiting for midnight releases at Waterstones and Barnes & Noble. Gen Z inherited the films on streaming and BookTok rediscoveries. The Sorting Hat is a permanent fixture of online personality quizzes, the platform 9 3/4 photo opp at King's Cross has lines daily, and Quidditch is now a real college sport played on broomsticks in over 25 countries. That breadth makes Harry Potter one of the most pollable fandoms on the internet: house rankings, book rankings, film rankings, character rankings, ship wars, magical creature debates, Hogwarts subject preferences. moomz routinely hosts Potter polls that draw votes from every age bracket on the app at once.",
+    "sections": [
+      {
+        "h": "The seven books and why people still argue about them",
+        "body": "The original series ran from 1997 to 2007: Philosopher's Stone, Chamber of Secrets, Prisoner of Azkaban, Goblet of Fire, Order of the Phoenix, Half-Blood Prince, and Deathly Hallows. Prisoner of Azkaban is the consensus critical favourite for tone and pacing, Goblet of Fire is the popular favourite for sheer scope and the start of the darker turn, Order of the Phoenix is the longest and the most polarising. Half-Blood Prince has some of the best chapters in the series (the Horcrux cave, the Astronomy Tower) but suffers from being middle-book filler in plot terms. Deathly Hallows is split into two films famously because of the camping arc, which readers either consider beautiful slow-burn character work or 200 pages of nothing happening. Asking 'best Potter book' is a perfect moomz poll: every option has serious defenders, no clear winner, and everyone has a take they have been waiting to share since 2007."
+      },
+      {
+        "h": "Hogwarts houses, the world's biggest personality test",
+        "body": "The Sorting Hat divides Hogwarts students into Gryffindor (brave), Slytherin (ambitious), Ravenclaw (clever) and Hufflepuff (loyal). What started as a fictional sorting mechanism became one of the most-taken online personality tests of the 2000s and 2010s, with the official Pottermore quiz logging over 50 million sortings before it relaunched as Wizarding World. The houses correlate loosely with MBTI types, signal serious culture-war information (Slytherins reclaim their reputation aggressively, Hufflepuffs have become unironically beloved by Gen Z, Ravenclaws keep insisting they exist), and double as a shorthand for friend groups, dating apps, and Twitter bios. Hogwarts house polls are a permanent fixture on moomz because they always work - the result is immediately personal, the debate is immediate, and the comments write themselves."
+      },
+      {
+        "h": "Films, theme parks, and the HBO reboot",
+        "body": "The Warner Bros film series (2001-2011) cast Daniel Radcliffe, Emma Watson and Rupert Grint as the leads and grew up with their audience, deliberately darkening tone and visual style with each instalment. Prisoner of Azkaban under Alfonso Cuaron is the critical favourite, Deathly Hallows Part 2 is the commercial peak. Universal opened the Wizarding World of Harry Potter in Orlando in 2010, then Hollywood in 2016, then Beijing in 2023 - the original Orlando park transformed Universal Studios' overall attendance and is widely considered the most successful theme park launch in recent decades. The HBO series, announced for 2026-2027, will reportedly run for seven to ten seasons, one season per book, with the goal of including everything the films had to cut. Casting alone has generated months of internet debate. Polls about who should play Snape, McGonagall, or the new Trio drive massive engagement, and we have run several rounds on moomz already. The franchise refuses to slow down even as the conversation around its author keeps changing."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which Harry Potter book is the best?",
+        "a": "Critics tend to vote Prisoner of Azkaban for pacing and craft. Popular polls usually crown Goblet of Fire or Deathly Hallows. moomz polls regularly bounce between those three with Half-Blood Prince picking up a strong minority. There is no universal answer, which is exactly why the poll works."
+      },
+      {
+        "q": "What Hogwarts house am I?",
+        "a": "The fastest legitimate answer is the official Wizarding World sorting quiz (formerly Pottermore), which takes about ten minutes. The fastest informal answer is a quick moomz poll showing common house traits and letting friends vote on which one fits you. Outside opinions almost always disagree with self-sorting, which is half the fun."
+      },
+      {
+        "q": "Is the HBO Harry Potter reboot worth getting excited about?",
+        "a": "Cautiously yes. Reports suggest one season per book, more faithful adaptation, expanded character arcs (Marauders, Tonks, the Weasleys), and major production budget. Risks: a younger cast inviting comparison to the iconic film trio, plus the ongoing controversy around the author's public statements. Either way, it will dominate cultural discourse the year it lands."
+      },
+      {
+        "q": "What is the best Harry Potter film?",
+        "a": "Prisoner of Azkaban (Alfonso Cuaron) is the critical favourite for tone and visual style. Deathly Hallows Part 2 is the emotional payoff. Goblet of Fire and Half-Blood Prince split the popular vote. Order of the Phoenix and Chamber of Secrets are the most consistently divisive. Run the poll yourself and watch the comments riot."
+      }
+    ],
+    "related": ["disney", "marvel", "netflix", "anime", "manga", "miyazaki", "gaming", "drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "marvel",
+    "locale": "en",
+    "keyword": "Marvel",
+    "matchPatterns": ["marvel", "mcu", "avengers", "spider-man", "iron man", "thor", "x-men", "deadpool"],
+    "topic": "pop-culture",
+    "title": "Marvel Polls: Best MCU Film, Worst Phase, Avengers Ranked",
+    "description": "Vote on the best Marvel film, the worst MCU phase, and the most underrated Avenger. Superhero polls live on moomz.",
+    "emoji": "🦸",
+    "intro": "The Marvel Cinematic Universe started in 2008 with Iron Man, directed by Jon Favreau, starring a recently-rehabilitated Robert Downey Jr. as Tony Stark, made for a relatively modest $140 million budget that grossed $585 million worldwide and accidentally launched the most successful film franchise in cinema history. Sixteen years and 35 films and a dozen TV series later, the MCU has grossed over $32 billion worldwide, set the post-credits scene as a permanent fixture of mainstream cinema, retrained an entire generation of viewers on serialised storytelling, and arguably forced every other studio in Hollywood to attempt (mostly badly) to copy the shared-universe formula. Avengers: Endgame in 2019 became the highest-grossing film of all time briefly at $2.79 billion before being narrowly retaken by Avatar. The Infinity Saga - the Phase 1 to Phase 3 arc that ends with Endgame - is now genuinely studied in film school as a feat of long-form planning and corporate IP management. The Multiverse Saga that followed, covering Phases 4 through 6, is more polarising. Some entries are widely loved (Loki, Spider-Man: No Way Home, Guardians of the Galaxy Vol 3, Deadpool & Wolverine which broke R-rated box-office records in 2024). Others have been openly disappointing (Eternals, Quantumania, The Marvels). The cultural conversation around Marvel has shifted from 'when is the next one' to 'is Marvel actually back?' - and that anxiety is itself the engine of endless polls. moomz has hosted Marvel polls continuously since the app launched, and the engagement spikes every time a new film or Disney+ series drops.",
+    "sections": [
+      {
+        "h": "Infinity Saga: the impossible decade",
+        "body": "From Iron Man (2008) to Avengers: Endgame (2019), Marvel Studios under Kevin Feige executed what is probably the most ambitious serialised storytelling project ever attempted in film. 23 films, dozens of interconnected characters, a single planned villain arc culminating in Thanos and the Infinity Stones. Highlights include The Avengers (2012, the first big team-up), Guardians of the Galaxy (2014, the cosmic pivot), Captain America: Civil War (2016, the team split), Black Panther (2018, the cultural watershed), Avengers: Infinity War (2018, the snap), and Endgame (2019, the payoff). Polls in this universe are bottomless: best phase, best villain (Thanos vs Killmonger vs Loki vs Vulture vs Hela), best post-credits scene, best fight, best one-liner, most underrated character. moomz audiences default to ranking Civil War, Infinity War and Endgame in the top three but the order changes weekly depending on what people have just rewatched."
+      },
+      {
+        "h": "Phase 4 and the multiverse confusion",
+        "body": "After Endgame, Marvel attempted to scale up dramatically: more films, more Disney+ series, more multiverse storylines, more setup for the next big villain (Kang, then dropped, then replaced after the Jonathan Majors situation). The result has been uneven. WandaVision opened Phase 4 strongly. Loki Season 1 is widely considered some of the best Marvel ever made for TV. Spider-Man: No Way Home pulled off the multiversal nostalgia move better than most thought possible. Shang-Chi worked. But Eternals, Thor: Love and Thunder, Quantumania and The Marvels each underperformed creatively and commercially, and the audience patience with 'homework required' storytelling started to crack. Deadpool & Wolverine in 2024 was the course-correction the franchise needed - leaning into self-aware humour and bringing in Hugh Jackman's Wolverine permanently. The conversation now is whether Marvel can recover its old form for the upcoming Avengers films, and that anxiety produces some of the most engaged debate polls in pop culture."
+      },
+      {
+        "h": "The Disney+ shows and the casting carousel",
+        "body": "Marvel's TV strategy after Disney+ launch shifted from 'occasional event series' to 'a series every two months', which oversaturated the audience and diluted the talent pool. WandaVision, Loki S1, Hawkeye, and Moon Knight are widely considered the standouts. Falcon and the Winter Soldier, Ms. Marvel, She-Hulk, Secret Invasion, and Echo got mixed-to-poor reactions. The decision in 2024 to scale back the TV slate and tighten quality control was widely welcomed. On the casting side, the franchise faces a clear identity question: how to refresh the core Avengers lineup. Robert Downey Jr. has been controversially announced as Doctor Doom in upcoming films, which is either a brilliant stunt or a sign the franchise is out of ideas, depending on who you ask. moomz polls on Marvel casting decisions (best replacement Iron Man, biggest casting miss, who should play the next Fantastic Four) are among the most heated in the pop-culture category and tend to generate three-way splits."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best MCU film?",
+        "a": "By critical consensus: Avengers: Endgame, Avengers: Infinity War, Captain America: The Winter Soldier, and Black Panther. By audience polling on moomz, Endgame and Infinity War usually split the top, with Spider-Man: No Way Home and Civil War close behind. Guardians Vol 1 and Vol 3 hold a passionate minority for best standalone experience."
+      },
+      {
+        "q": "Is Marvel actually dying?",
+        "a": "It is bruised, not dead. Deadpool & Wolverine in 2024 grossed over $1.3 billion as an R-rated entry, the highest ever in that bracket. The slowed slate, tighter TV focus, and Robert Downey Jr.'s return signal a serious reset. The next two Avengers films will likely determine whether the franchise is genuinely back or whether superhero fatigue is structural."
+      },
+      {
+        "q": "Do I need to watch everything to follow new Marvel films?",
+        "a": "No. Most new Marvel films are designed to work as standalone, with deeper rewards for fans who have watched the connected series. A reasonable shortcut is: watch the Infinity Saga, then pick TV series selectively (Loki, WandaVision), then follow the post-Endgame films in release order. Skipping is officially fine."
+      },
+      {
+        "q": "What is the worst MCU film?",
+        "a": "Polls usually surface The Marvels, Thor: Love and Thunder, Eternals, and Ant-Man and the Wasp: Quantumania for this title, with Inhumans (a 2017 ABC series, not film) getting honourable mention. Few people defend any of these strongly. moomz polls on this question often produce the cleanest result of the whole pop-culture category."
+      }
+    ],
+    "related": ["disney", "harry-potter", "netflix", "anime", "manga", "gaming", "ps5", "drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "disney",
+    "locale": "en",
+    "keyword": "Disney",
+    "matchPatterns": ["disney", "pixar", "frozen", "mickey", "disneyland", "disney plus", "walt"],
+    "topic": "pop-culture",
+    "title": "Disney Polls: Best Film, Top Princess, Pixar vs Classic",
+    "description": "Vote on the best Disney film, your top princess, and Pixar vs classic Disney. Magic kingdom polls live on moomz.",
+    "emoji": "🏰",
+    "intro": "Disney was founded on 16 October 1923 as the Disney Brothers Cartoon Studio by Walt Disney and his older brother Roy O. Disney in a small office on Kingswell Avenue in Los Angeles. Just over a century later, Disney is the largest entertainment company in the world by revenue, with a market capitalisation in the hundreds of billions, ownership of Marvel, Lucasfilm, Pixar, 20th Century Studios, ABC, ESPN, National Geographic, Hulu, and a portfolio of theme parks visited by more than 150 million people a year combined. The animation studio that started with Steamboat Willie in 1928 produced the first feature-length animated film (Snow White, 1937), the foundational Golden Age (Pinocchio, Bambi, Cinderella, Peter Pan), the Renaissance of the late 80s and 90s (The Little Mermaid, Beauty and the Beast, Aladdin, The Lion King), and the modern computer-animated era (Frozen, Moana, Zootopia, Encanto). Pixar, acquired in 2006, contributed an entire second universe of generational films - Toy Story, Finding Nemo, The Incredibles, Up, Inside Out, Coco. Disney+ launched in 2019 and now has over 150 million paid subscribers globally. The theme parks - Disneyland Anaheim 1955, Walt Disney World 1971, Tokyo Disneyland 1983, Disneyland Paris 1992, Hong Kong 2005, Shanghai 2016 - have become bucket-list destinations and defining childhood memories for generations. All of that produces a fandom so broad it includes essentially everyone: nobody has zero opinions about Disney. Asking 'best Disney film ever' on moomz cuts cleanly across age groups and demographics, which is why these polls reliably hit the top of the trending feed.",
+    "sections": [
+      {
+        "h": "The Disney canon, era by era",
+        "body": "Disney animated features are usually grouped into Golden Age (1937 to early 1940s), Wartime/Package Era (1940s), Silver Age (Cinderella, Sleeping Beauty, 101 Dalmatians), Bronze Age (Aristocats to Fox and the Hound), Disney Renaissance (1989 to 1999, considered the all-time peak by most fans), Post-Renaissance (early 2000s slump), and Revival Era (Tangled 2010 onwards). The Renaissance lineup - The Little Mermaid, Beauty and the Beast, Aladdin, The Lion King, Pocahontas, The Hunchback of Notre Dame, Hercules, Mulan, Tarzan - contains arguably the highest concentration of beloved animated films ever produced by a single studio in a single decade. Frozen (2013) and Frozen II (2019) collectively grossed over $2.7 billion. Encanto (2021) produced 'We Don't Talk About Bruno', the first Disney song to hit number one on the Billboard Hot 100 since 1995. Ranking these films is a national sport on TikTok and a permanent moomz favourite."
+      },
+      {
+        "h": "Pixar versus classic Disney",
+        "body": "The Pixar vs Disney debate is a permanent feature of any animation discussion. Disney animation is built on stylised storytelling, songs, and timeless visual design. Pixar is built on emotional realism, computer-generated craft, and adult-pitched themes that still work for kids. Pixar's Toy Story (1995) was the first fully computer-animated feature film and changed animation forever. Up's opening montage made grown adults cry within ten minutes. Inside Out turned childhood emotions into a literal character cast. Coco brought Day of the Dead to a global audience with reverence. WALL-E ran a 40-minute silent first act and pulled it off. The question of whether Pixar's best (Toy Story 3, Inside Out, Up, Coco, WALL-E) beats Disney's best (Lion King, Beauty and the Beast, Aladdin) usually splits 50-50 on moomz polls. Inside Out 2 in 2024 became Pixar's highest-grossing film ever at $1.69 billion, suggesting the studio is firmly back after a rocky stretch."
+      },
+      {
+        "h": "Princesses, sequels and the live-action remake question",
+        "body": "The Disney Princess line is a multi-billion-dollar merchandising arm that started in the early 2000s when Disney consolidated its female animated leads into a single branded franchise. The official roster now includes Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, and Moana, with Frozen's Anna and Elsa kept in their own separate Frozen brand for strategic reasons. The character ranking debates are intense - Mulan as warrior princess, Belle as bookish princess, Moana as the modern leader princess each have passionate defenders. The live-action remake strategy of the 2010s and 2020s has been commercially huge (The Lion King 2019 grossed $1.66 billion) but creatively divisive. Snow White 2025 and The Little Mermaid 2023 both attracted heavy controversy. Polls on 'do we actually need this remake' tend to crash the moomz vote count - the answer is usually a hard no, but the films still sell out."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best Disney animated film?",
+        "a": "The most-cited candidates are The Lion King (1994), Beauty and the Beast (1991), Aladdin (1992), The Little Mermaid (1989), Mulan (1998), Moana (2016), and Frozen (2013). Pixar fans add Toy Story, Up, Inside Out and Coco to the same conversation. moomz polls usually surface The Lion King or Beauty and the Beast at the top, but Moana keeps climbing."
+      },
+      {
+        "q": "Is Disney+ worth subscribing to?",
+        "a": "If you have kids or you watch Marvel and Star Wars, yes - the catalogue is unmatched in those categories. For everything else it can feel thin. The Hulu integration in the US helps. The price has risen but is still in the middle of the streaming pack. Honest assessment: subscribe for a few months when a series you actually want drops, then pause."
+      },
+      {
+        "q": "Disney parks - which one is the best?",
+        "a": "Walt Disney World Orlando is the biggest (four parks, two water parks). Disneyland Anaheim has the original charm and unique attractions. Tokyo DisneySea is widely considered the most beautifully designed park in the world by Disney fans. Disneyland Paris is the most photogenic. Shanghai has the most modern attractions. Run a moomz poll and you will get a serious fight."
+      },
+      {
+        "q": "Are the live-action remakes worth watching?",
+        "a": "Mixed bag. The Jungle Book (2016) and Cinderella (2015) are well-reviewed and add something new. The Lion King (2019) is technically impressive but emotionally flat. Mulan (2020) is widely considered a misfire. The Little Mermaid (2023) is solid but divisive. Snow White (2025) launched into outright controversy. Pick on a case-by-case basis, not by default."
+      }
+    ],
+    "related": ["marvel", "harry-potter", "miyazaki", "netflix", "anime", "manga", "kpop", "ps5"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "miyazaki",
+    "locale": "en",
+    "keyword": "Miyazaki",
+    "matchPatterns": ["miyazaki", "ghibli", "totoro", "spirited away", "howl", "mononoke", "ponyo"],
+    "topic": "pop-culture",
+    "title": "Miyazaki Polls: Best Ghibli Film, Top Character, Hot Takes",
+    "description": "Vote on the best Studio Ghibli film, your favourite Miyazaki character, and the ultimate comfort watch. Ghibli polls live on moomz.",
+    "emoji": "🐉",
+    "intro": "Studio Ghibli was founded in June 1985 by Hayao Miyazaki, Isao Takahata and Toshio Suzuki in Koganei, a quiet suburb of Tokyo. They had already made one feature together (Nausicaa of the Valley of the Wind, 1984) and decided they needed their own studio to keep working their way. Four decades later Ghibli is regarded by critics, filmmakers and audiences as the greatest animation studio in the world - a claim that is sometimes contested by Pixar fans but never seriously by anyone who has actually watched the catalogue back to back. Hayao Miyazaki, now in his eighties, has directed eleven feature films himself: Nausicaa (1984), Castle in the Sky (1986), My Neighbour Totoro (1988), Kiki's Delivery Service (1989), Porco Rosso (1992), Princess Mononoke (1997), Spirited Away (2001), Howl's Moving Castle (2004), Ponyo (2008), The Wind Rises (2013), and The Boy and the Heron (2023). Spirited Away won the Oscar for Best Animated Feature in 2003, beating Pixar at its peak. The Boy and the Heron repeated the feat twenty years later in 2024, making Miyazaki the only filmmaker to win the category twice in that bracket. Isao Takahata directed the studio's other towering works - Grave of the Fireflies (1988), Only Yesterday (1991), Pom Poko (1994), The Tale of Princess Kaguya (2013, also Oscar-nominated). Each Ghibli film is hand-drawn down to small details that audiences notice on the tenth rewatch - the food sequences in Howl's Moving Castle, the bath house steam in Spirited Away, the wind across the field in Totoro. The studio's aesthetic, ethics and storytelling are so distinctive that 'Ghibli-core' is now a recognised style category online. moomz hosts non-stop Miyazaki polls because the catalogue is small, finite, and absolutely worth ranking in detail.",
+    "sections": [
+      {
+        "h": "The Ghibli filmography ranked",
+        "body": "Studio Ghibli has produced 24 feature films, and most fans have a strong opinion on the order. Critical consensus puts Spirited Away (2001) at the top - it is the highest-grossing Japanese film ever in domestic release at the time, it won the Oscar, and it is widely taught in film classes. Princess Mononoke (1997) and My Neighbour Totoro (1988) are the other two films most often called masterpieces. Howl's Moving Castle (2004) has the most passionate fan defenders. Castle in the Sky (1986) is the most underrated. Kiki's Delivery Service (1989) is the universal comfort watch. Grave of the Fireflies (1988) is the one Ghibli film everyone agrees they cannot watch a second time without crying. Only Yesterday (1991) is the studio's most adult work and the one most often rediscovered later. The Boy and the Heron (2023) is the most divisive recent release - some call it Miyazaki's most autobiographical, others find it inscrutable. Asking 'best Ghibli' on moomz reliably produces a four-way race between Spirited Away, Totoro, Mononoke and Howl, with the rest of the catalogue picking up serious minorities."
+      },
+      {
+        "h": "Miyazaki's worldview and why his films age so well",
+        "body": "Miyazaki's work shares a few consistent obsessions: respect for nature versus industrial cruelty, the moral seriousness of children, flight as freedom, pacifism even in war stories, and women as protagonists treated with depth no Hollywood studio has matched. Princess Mononoke is the clearest articulation of his environmentalism - the film refuses to give the audience an easy villain, treating the iron forge town's workers and the forest gods as both worth defending. Spirited Away examines greed and identity through Chihiro's slow refusal to be consumed by the bath house economy. The Wind Rises is the most personal, a film about an aircraft engineer whose designs are used for war, asking whether beautiful work is morally redeemable. These are heavy themes carried on a soft hand-drawn surface, which is the trick of Miyazaki's filmmaking. The films age so well because the themes are timeless - climate anxiety, growing up, the cost of work, the dignity of small kindnesses. moomz polls on Ghibli films tend to attract older voters and younger voters in equal numbers, which almost never happens in pop culture."
+      },
+      {
+        "h": "The Ghibli aesthetic and the global influence",
+        "body": "Ghibli's visual style - watercolour skies, lush foliage, soft round character designs, food drawn in obsessive detail - has become a recognisable global aesthetic. The 'Ghiblified' AI image trend of 2025 (where people fed photos to image generators trained on the studio's look) became a viral moment and a Miyazaki-himself-rejected one - he has been blunt about not wanting AI to imitate his work. The studio's influence on other animation is enormous: Pixar director John Lasseter has openly cited Miyazaki as a key influence, Wes Anderson has cited Totoro as a reference point, K-drama animators draw from the Ghibli playbook, and almost every modern animated children's film owes something to the Miyazaki rule that you can let a scene breathe without action. Ghibli Park opened in Aichi, Japan, in 2022, drawing pilgrims from around the world. The studio also resisted streaming until 2020 when HBO Max in the US and Netflix internationally finally licensed the catalogue, which produced a Gen Z rediscovery wave overnight. Ranking Ghibli films, choosing your favourite character, debating whether the Catbus is the best Ghibli vehicle - these polls live forever on moomz."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the best Studio Ghibli film?",
+        "a": "Spirited Away is the consensus critical pick - it won the Oscar in 2003 and is regularly named among the greatest animated films ever. My Neighbour Totoro and Princess Mononoke are the other two films most often crowned. Howl's Moving Castle has the largest cult following. moomz polls usually land in a four-way split between those titles."
+      },
+      {
+        "q": "In what order should I watch Studio Ghibli?",
+        "a": "Start with My Neighbour Totoro (easiest entry), then Kiki's Delivery Service or Castle in the Sky, then Spirited Away, then Princess Mononoke when you want the weight. Save Grave of the Fireflies for when you are emotionally ready - it is devastating. The Boy and the Heron is best appreciated after you have seen Miyazaki's earlier work."
+      },
+      {
+        "q": "Is Miyazaki retiring?",
+        "a": "He has announced retirement multiple times since the late 1990s and unretired each time. The Boy and the Heron in 2023 was widely treated as his final film, but Studio Ghibli confirmed in 2024 he is already working on something else. The honest answer is: he will retire when he stops drawing, and not before."
+      },
+      {
+        "q": "Where can I stream Ghibli films?",
+        "a": "Netflix has the catalogue in most countries outside the US, Canada and Japan. HBO Max (now Max) has it in the US. Australia uses Netflix. Streaming licensing shifts every few years, so check before you commit. Physical Blu-ray collectors editions from GKIDS and Universal are the long-term safe option."
+      }
+    ],
+    "related": ["anime", "manga", "disney", "naruto", "one-piece", "demon-slayer", "netflix", "harry-potter"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "naruto",
+    "locale": "en",
+    "keyword": "Naruto",
+    "matchPatterns": ["naruto", "sasuke", "sakura", "kakashi", "akatsuki", "shippuden", "konoha", "hokage", "boruto"],
+    "topic": "pop-culture",
+    "title": "Naruto Polls: Best Arc, Top Jutsu, Sasuke vs Naruto",
+    "description": "Vote on the best Naruto arc, the strongest jutsu, and the eternal Naruto vs Sasuke debate. Hidden Leaf polls live on moomz.",
+    "emoji": "🍥",
+    "intro": "Naruto began on 21 September 1999 as a one-shot in Weekly Shonen Jump by Masashi Kishimoto, a young mangaka from Okayama prefecture whose first serialised attempt had failed. The one-shot became a regular serialisation in 1999, ran for 700 chapters over fifteen years, sold over 250 million copies worldwide, spawned a 720-episode anime adaptation that ran on TV from 2002 to 2017, eleven theatrical films, dozens of video games including the still-beloved Ultimate Ninja Storm series, and an entire sequel franchise (Boruto: Naruto Next Generations, then Boruto: Two Blue Vortex) that continues today. Naruto Uzumaki, the loud orange-clad outsider who carries a nine-tailed demon fox sealed inside him and wants to become Hokage of his village, became one of the most recognisable anime protagonists in history. His rivalry with Sasuke Uchiha, the prodigy whose entire clan was murdered by his own brother, is the emotional engine of the entire story. Kakashi Hatake, the silver-haired masked sensei who reads suspicious novels in public, is one of the most beloved supporting characters in shonen. The Akatsuki, the criminal organisation of S-rank rogue ninjas in black cloaks with red clouds, are the most iconic villain ensemble in anime. The Pain Invasion arc is widely considered one of the greatest single arcs in shonen history. The Naruto vs Sasuke fight at the Valley of the End in the Shippuden finale ran for the best part of four episodes and is still the standard by which shonen finales are measured. For two decades Naruto has been the gateway drug for new anime fans, and asking 'best Naruto arc' on moomz delivers one of the most reliably engaged polls in the app.",
+    "sections": [
+      {
+        "h": "Naruto Part 1, Shippuden, and the arc debates",
+        "body": "The anime is structurally split into the original Naruto run (220 episodes, ages 12 academy to start of timeskip) and Shippuden (500 episodes, ages 15 to 17, the great ninja war). Part 1 contains the most beloved early arcs: Land of Waves (Haku and Zabuza), Chunin Exams (still a top-three arc in any ranking), Sasuke Retrieval (the first Naruto vs Sasuke fight). Shippuden contains the heavyweights: Hidan and Kakuzu, Itachi Pursuit, Pain Invasion (the consensus best Shippuden arc), Five Kage Summit, and the long Fourth Great Ninja War which contains some of the highest highs (Madara, Obito's redemption, the Itachi reveal) and some of the most criticised filler ever produced. Naruto Shippuden's filler ratio is famously brutal - about 40% of all Shippuden episodes are filler, and most fans recommend a 'filler skip' guide. Ranking the arcs is a permanent moomz favourite and the result is never the same twice."
+      },
+      {
+        "h": "Naruto vs Sasuke and the rivalry that defined a generation",
+        "body": "Kishimoto has said in interviews that the central relationship of Naruto is not Naruto and Sakura but Naruto and Sasuke. The two characters are mirror images: an outsider who wants connection (Naruto) and an insider who has lost it all (Sasuke). The entire 700-chapter story is essentially the long arc of Naruto refusing to give up on his lost friend. The Valley of the End fights bookend the series. The Sasuke Retrieval arc in Part 1 ends with Naruto failing to bring Sasuke back. The final Naruto vs Sasuke fight at the same location in Chapter 698-699 ends with both characters losing an arm and finally, exhausted, reconciling. The relationship is the emotional spine of shonen storytelling and the template for almost every protagonist-rival pair that followed (Deku and Bakugo, Asta and Yuno, Itadori and Yuji's various rivals, etc). moomz polls about 'who is the better character, Naruto or Sasuke' usually run 60-40 toward Sasuke, which never fails to start an argument."
+      },
+      {
+        "h": "Boruto, the sequel problem, and Naruto's living legacy",
+        "body": "Boruto: Naruto Next Generations launched in 2017 and ran 293 episodes, following Naruto's son Boruto and a new generation of Hidden Leaf ninja. It is one of the most divisive sequels in anime history - critics and many old-school Naruto fans dislike the pacing, the over-reliance on cameos, and the early arcs' filler-heaviness. Younger viewers who grew up on it are more positive. The manga sequel Boruto: Two Blue Vortex, which started in 2023, has been widely praised as a major creative recovery. Separately, the original Naruto is in the middle of a high-budget anniversary re-animation project that started in 2023 - Studio Pierrot has been re-airing key episodes with film-quality animation, which has produced major nostalgia waves on social media. Naruto-themed merchandise, cosplay, and Akatsuki cloak Halloween costumes continue to sell at scale every year. The franchise refuses to fade, and that is partly because the moomz-style debates around it never end - best arc, strongest jutsu, most overrated character, best opening (Blue Bird is the answer, but the poll keeps running)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Naruto worth watching in 2026?",
+        "a": "Yes, if you can commit to a long-form story. The original Naruto plus Shippuden is around 500 episodes of actual story (skipping filler). Use one of the established filler-skip guides on r/Naruto. The pay-off is enormous - the Pain Arc, Itachi's reveal, and the final Naruto vs Sasuke fight remain among the best moments in any shonen ever."
+      },
+      {
+        "q": "What is the best Naruto arc?",
+        "a": "Pain Invasion is the most-cited answer, often followed by Chunin Exams, Itachi Pursuit, and Sasuke Retrieval. Land of Waves has the best early-series tone. The Five Kage Summit is a top-tier political arc. moomz polls consistently land Pain Invasion at the top with Chunin Exams a strong second."
+      },
+      {
+        "q": "Should I watch Boruto?",
+        "a": "Watch the original Naruto and Shippuden first - Boruto assumes you know everyone. The Boruto anime has a slow start but improves significantly after the Vessel arc. Many fans prefer the manga, especially the Two Blue Vortex sequel which has been a major creative recovery. Sample one arc and decide."
+      },
+      {
+        "q": "Who is stronger, Naruto or Sasuke?",
+        "a": "At the very end of the series, both are roughly equal - Naruto with Six Paths Sage Mode and Kurama, Sasuke with the Rinnegan and Indra's chakra. The Valley of the End final fight is intentionally written as a draw. moomz polls usually split 55-45 in Naruto's favour after Boruto-era developments, but the gap is small and the argument is forever."
+      }
+    ],
+    "related": ["anime", "manga", "one-piece", "demon-slayer", "miyazaki", "netflix", "gaming", "marvel"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "one-piece",
+    "locale": "en",
+    "keyword": "One Piece",
+    "matchPatterns": ["one piece", "luffy", "zoro", "sanji", "nami", "straw hat", "oda", "wano", "marineford"],
+    "topic": "pop-culture",
+    "title": "One Piece Polls: Best Arc, Strongest Crew, Worth Starting?",
+    "description": "Vote on the best One Piece arc, the strongest Straw Hat, and whether 1100+ chapters is worth it. Pirate polls live on moomz.",
+    "emoji": "🏴‍☠️",
+    "intro": "One Piece began in Weekly Shonen Jump on 22 July 1997, written and drawn by Eiichiro Oda, a then twenty-two-year-old mangaka from Kumamoto. Twenty-seven years later it is the single bestselling comic series in history, with over 520 million copies sold worldwide across more than 100 published volumes (tankobon). The anime has run continuously since 1999 and is approaching 1100 episodes. The manga is in its final saga, which Oda has said will take several more years to complete. Eiichiro Oda is one of the highest-paid manga authors in Japan and arguably the single most influential figure in modern shonen storytelling. The series follows Monkey D. Luffy, a teenage pirate with a rubber body, and his Straw Hat crew - Zoro the three-sword swordsman, Nami the navigator, Usopp the sniper, Sanji the cook, Chopper the reindeer doctor, Robin the archaeologist, Franky the shipwright cyborg, Brook the skeleton musician, and Jinbe the helmsman fishman - as they sail the Grand Line and the New World in search of the legendary treasure One Piece. The world-building is the densest in any shonen ever - hundreds of named characters, dozens of fictional sea regions, an entire economic and political system around the Marines, Yonko, Shichibukai, and Celestial Dragons. The story has produced some of the most discussed arcs in anime history: Arlong Park, Alabasta, Enies Lobby, Thriller Bark, Marineford, Dressrosa, Whole Cake Island, Wano, and the current Final Saga arcs (Egghead, Elbaf). One Piece fans are among the most committed readers in any medium and the entry barrier ('1100 episodes' or '100 volumes') is the most common source of debate. moomz polls about One Piece reliably top the engagement charts in the anime category.",
+    "sections": [
+      {
+        "h": "The arc rankings and the war for the top spot",
+        "body": "One Piece arc rankings are one of the most heated debates in any anime community. Marineford is the most-cited 'best arc ever' candidate - the Summit War that culminates with Ace's death is one of the most devastating moments in shonen history. Enies Lobby (the Robin rescue arc with the 'I want to live' moment and the Buster Call) is often considered the emotional and structural peak of the East Blue-to-Skypiea era. Whole Cake Island and Wano are the consensus best of the modern era, with Wano specifically containing the Onigashima raid that the anime adapted with film-tier animation across more than 100 episodes. Alabasta is the early-series fan favourite. Water 7 is the most underrated. Skypiea is the most divisive - either a misunderstood masterpiece or a 30-episode slog depending on who you ask. moomz polls regularly run 'rank these arcs' and produce wildly different rankings depending on who is voting that day. The newest Egghead arc has reset the debate again with massive lore reveals that fans have spent two decades waiting for."
+      },
+      {
+        "h": "Why One Piece keeps working after 1100 chapters",
+        "body": "Most long-running manga get worse over time. One Piece has the rare distinction of arguably being better now than it was twenty years ago. Oda's reason is structural: he plotted the entire ending in his head before chapter 1 ever ran. Every arc plants seeds that pay off ten years later. The Five Elders, Joy Boy, the Ancient Weapons, the Will of D, Im, the Void Century - lore questions that the fandom has theorised about since 2003 are now finally being answered in the Final Saga. The world-building is dense in a way no other shonen has attempted: each island has its own culture, government, and economic logic. Character work is remarkable too - the Straw Hats each have a 'backstory chapter' that consistently reduces readers to tears. The Robin backstory at Ohara, the Chopper backstory with Dr. Hiluluk, the Franky backstory with Tom, the Brook backstory with the Rumbar Pirates: each one is a self-contained masterpiece. That depth is why One Piece polls work so well - there is always something specific to argue about, not just generic best-of questions."
+      },
+      {
+        "h": "The 'is it worth starting in 2026' question",
+        "body": "The single most asked One Piece question on the internet is whether a beginner should actually start the series. The honest answer is yes, with caveats. The anime's pacing is uneven - the East Blue Saga is paced reasonably, the Skypiea filler is bloated, the Dressrosa arc has serious pacing issues, but the post-2019 anime production (especially Wano onwards) has been visually outstanding. Most fans recommend either reading the manga (faster, no filler) or watching the Netflix-recut One Pace edition that cuts the anime to manga pace. Either path requires committing 200 to 300 hours to fully catch up. The pay-off, though, is genuinely one of the best long-form storytelling experiences in any medium. The Final Saga in particular is being written and animated for an audience that has waited a quarter of a century, and the lore drops are unprecedented. moomz polls on 'is One Piece worth starting' usually run about 80% yes, with the 20% no being mostly people who already gave up at Skypiea."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is One Piece worth starting in 2026?",
+        "a": "Yes if you can commit. The Final Saga is now actively unfolding and the long-running lore questions are finally being answered. Use One Pace to cut the anime to manga pacing, or read the manga directly - it is faster and cleaner. The investment is large, the pay-off is one of the best long-form stories ever told in any medium."
+      },
+      {
+        "q": "What is the best One Piece arc?",
+        "a": "Marineford, Enies Lobby, Whole Cake Island, and Wano are the four most-cited candidates. Marineford has the most emotional impact. Enies Lobby is the cleanest structurally. Wano is the visual peak. Whole Cake Island is the most psychologically intense. moomz polls usually rotate these four at the top with Egghead now climbing fast."
+      },
+      {
+        "q": "Who is the strongest Straw Hat?",
+        "a": "Luffy obviously - he is the captain and the protagonist. After Luffy, Zoro is universally considered the second strongest, with his Conqueror's Haki awakening cementing it. Sanji is third, with his Germa Raid Suit pushing him to a clear elite tier. Jinbe is the fourth physically strongest. The rest of the crew specialise in other areas - Nami in navigation, Robin in intelligence, Franky in engineering, Chopper in medicine."
+      },
+      {
+        "q": "When will One Piece actually end?",
+        "a": "Oda has said the manga will end 'in a few more years' for nearly a decade. As of 2025-2026 the manga is in the Final Saga (Egghead, Elbaf, and the final showdown to come). Realistic estimates suggest 2027 to 2029 for the manga ending, with the anime trailing by several years. The wait has become part of the experience."
+      }
+    ],
+    "related": ["anime", "manga", "naruto", "demon-slayer", "miyazaki", "netflix", "gaming", "marvel"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "demon-slayer",
+    "locale": "en",
+    "keyword": "Demon Slayer",
+    "matchPatterns": ["demon slayer", "kimetsu", "tanjiro", "nezuko", "zenitsu", "rengoku", "hashira", "muzan", "ufotable"],
+    "topic": "pop-culture",
+    "title": "Demon Slayer Polls: Best Hashira, Top Fight, Hot Takes",
+    "description": "Vote on the best Hashira, the top Demon Slayer fight, and whether the anime really is the prettiest ever. Slayer polls on moomz.",
+    "emoji": "🗡️",
+    "intro": "Demon Slayer (Kimetsu no Yaiba) began in Weekly Shonen Jump on 15 February 2016, written and drawn by Koyoharu Gotouge, a previously unknown mangaka who had submitted several rejected one-shots before this one took off. Initially a quiet performer in Jump, the series exploded into a global phenomenon after the Ufotable anime adaptation aired in 2019 - specifically once the Mount Natagumo arc finished and the animation quality on Tanjiro's Hinokami Kagura sequence went viral. By 2020 Demon Slayer was outselling every other manga in Japan combined for the year (a feat that had never happened before), the Mugen Train film became the highest-grossing Japanese film ever made and briefly the highest-grossing film globally in its release year (over $500 million worldwide), and the anime had become the entry point for an entirely new generation of viewers who had never watched anime before. The manga concluded in May 2020 at 205 chapters across 23 volumes, with combined manga sales of over 220 million copies as of 2024. The anime is still going - the Hashira Training Arc aired in 2024, and the Infinity Castle trilogy of films will begin in 2025, adapting the final Demon Slayer arcs at theatrical-tier production values. The story follows Tanjiro Kamado, a kind-hearted teenage charcoal seller whose entire family is murdered by demons except for his sister Nezuko, who is turned into a demon herself. Tanjiro joins the Demon Slayer Corps to find a cure for Nezuko and to kill Muzan Kibutsuji, the demon king. Along the way he meets the panicked Zenitsu, the boar-headed Inosuke, and the nine Hashira - the elite top swordsmen of the Corps, each specialising in a Breathing Style. Polls about Demon Slayer light up moomz consistently because the cast is dense, the fights are clean, and everyone has a favourite Hashira.",
+    "sections": [
+      {
+        "h": "Ufotable and the animation standard",
+        "body": "Demon Slayer changed what audiences expect from TV anime. Studio Ufotable - the studio behind the Fate franchise and Tales of - applied a fusion of digital and traditional techniques that produces fight sequences with motion fluidity, water effects, and lighting that rival theatrical animation. The Hinokami Kagura sequence in episode 19 of Season 1 went viral overnight in 2019 and is still referenced as the moment TV anime broke a ceiling. The Rui spider boss fight, the Akaza vs Rengoku fight in Mugen Train, the Daki and Gyutaro fight in the Entertainment District arc, and the Hashira training animation all set new high water marks. Critics have argued that Ufotable's style favours spectacle over storytelling clarity, but the audience reaction has been overwhelmingly positive. The Mugen Train film alone was the single highest-grossing film globally in 2020. Asking 'best animated Demon Slayer fight' on moomz is a perfect poll - the answers are all visually unforgettable and the rankings genuinely differ from viewer to viewer."
+      },
+      {
+        "h": "The Hashira and the character ranking wars",
+        "body": "The nine Hashira are the elite of the Demon Slayer Corps, each with a distinctive Breathing Style and signature look: Tomioka Giyu (Water), Rengoku Kyojuro (Flame), Uzui Tengen (Sound), Tokito Muichiro (Mist), Kanroji Mitsuri (Love), Iguro Obanai (Serpent), Himejima Gyomei (Stone), Shinazugawa Sanemi (Wind), and Kocho Shinobu (Insect). Rengoku is the most beloved by audiences thanks to his Mugen Train sacrifice. Giyu has the most active 'mysterious quiet guy' fanbase. Mitsuri is the runaway favourite among Japanese fans. Tokito has the strongest Infinity Castle arc. Himejima is the strongest physically. Shinobu has the most tragic arc. Asking 'best Hashira' on moomz is one of the most active and unpredictable polls we run - the result genuinely changes based on which arc was most recently animated. The Hashira Training Arc in 2024 and the upcoming Infinity Castle films will reshuffle the rankings yet again, especially for Tokito, Mitsuri, and Himejima."
+      },
+      {
+        "h": "Why Demon Slayer worked when other shonen did not",
+        "body": "Demon Slayer launched in 2016 with no special hype. The manga's early chapters are workmanlike but unremarkable. What turned it into a phenomenon was a specific combination: an extremely sympathetic protagonist (Tanjiro is one of the kindest leads in any shonen), a clear and unambiguous antagonist (Muzan), a finite story (Gotouge intentionally kept the arc tight - 23 volumes, no filler in the manga), an anime adaptation that hit at exactly the right moment for streaming-era discovery, and viral animation that made each cour event television. The story does not have the lore depth of One Piece, the philosophical sweep of Attack on Titan, or the narrative cleverness of Death Note - but it does have unbroken pacing, clean character work, and fights that pop visually. That made it the perfect entry point for casual viewers, the perfect family-friendly anime for parents to watch with their kids, and the perfect TikTok-clip generator. The cultural footprint - Tanjiro's checkered haori is a recognisable streetwear print now - has lasted years beyond the manga's ending. moomz polls on Demon Slayer hit a uniquely wide demographic that other anime polls do not match."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is Demon Slayer finished?",
+        "a": "The manga finished in May 2020 at 205 chapters. The anime adaptation is still ongoing - Seasons 1-4 plus the Mugen Train film are complete, and the final Infinity Castle arc will be released as a film trilogy starting in 2025. The first Infinity Castle film hits cinemas before continuing in subsequent instalments through 2026 and likely 2027."
+      },
+      {
+        "q": "Who is the best Hashira?",
+        "a": "Rengoku is the audience favourite globally because of his Mugen Train sacrifice. Mitsuri leads in Japanese popularity polls. Tokito has a major surge after the Swordsmith Village arc. Giyu has the strongest 'mystery character' fanbase. moomz polls usually surface Rengoku at the top with Mitsuri and Giyu close behind, but rankings shift with each new arc."
+      },
+      {
+        "q": "Is Demon Slayer the prettiest anime ever?",
+        "a": "By technical animation standard, it is one of the strongest currently in production. Ufotable's water effects, lighting, and fight choreography genuinely raised the TV anime bar. Critics counter that other studios (MAPPA for Chainsaw Man and Jujutsu Kaisen Season 2, Bones for Mob Psycho 100, Trigger for various) match it in specific moments. The honest answer: Demon Slayer set the new floor, others occasionally exceed it."
+      },
+      {
+        "q": "What order should I watch Demon Slayer in?",
+        "a": "Season 1 (26 episodes), then the Mugen Train film (or the Mugen Train arc TV recut), then Season 2 (Entertainment District Arc), then Season 3 (Swordsmith Village Arc), then Season 4 (Hashira Training Arc), then the Infinity Castle films when they release. Skipping the film or its TV recut breaks the story - do not skip."
+      }
+    ],
+    "related": ["anime", "manga", "naruto", "one-piece", "miyazaki", "netflix", "gaming", "marvel"],
+    "updatedAt": "2026-05-19"
+  }
+]

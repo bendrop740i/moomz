@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "soleil",
+    "locale": "fr",
+    "keyword": "Soleil",
+    "matchPatterns": ["soleil", "sun", "sunset", "ete", "etoile"],
+    "topic": "sciences",
+    "title": "Le Soleil — distance, fusion nucléaire & vibes cosmiques",
+    "description": "Tout sur le Soleil : 150 millions de km, fusion d'hydrogène, taches solaires, mythologie et pourquoi il fait kiffer toute la galaxie.",
+    "emoji": "☀️",
+    "intro": "Le Soleil c'est littéralement la star principale du système solaire, et sans lui on serait juste un caillou gelé qui flotte dans le vide. Située à environ 149,6 millions de kilomètres de la Terre (ce qu'on appelle 1 unité astronomique), notre étoile a un diamètre de 1,39 million de km — soit 109 fois celui de la Terre. Sa lumière met environ 8 minutes et 20 secondes à nous atteindre, ce qui veut dire que quand tu regardes le coucher de soleil, tu vois en fait le passé. Le Soleil est une étoile naine jaune de type G2V, âgée d'environ 4,6 milliards d'années, et il lui reste encore à peu près 5 milliards d'années à vivre avant de devenir une géante rouge. Son cœur atteint 15 millions de degrés Celsius et fusionne chaque seconde environ 600 millions de tonnes d'hydrogène en hélium, libérant l'énergie qui fait pousser tes plantes, alimente la photosynthèse et te donne ce teint hâlé en juillet. Sur moomz les sondages 'team soleil vs team pluie' explosent dès les premiers rayons d'avril, et clairement la team soleil rafle tout. Au-delà de la science pure, le Soleil c'est aussi de la mythologie : Râ chez les Égyptiens, Hélios chez les Grecs, Amaterasu au Japon — toutes les civilisations l'ont divinisé. Aujourd'hui il reste central dans la culture pop, l'énergie solaire représente déjà plus de 5% de l'électricité mondiale, et les éclipses solaires totales rassemblent des millions de spectateurs comme celle d'avril 2024 visible aux États-Unis.",
+    "sections": [
+      {
+        "h": "La science du Soleil expliquée simplement",
+        "body": "Le Soleil est une boule de plasma maintenue par sa propre gravité. Sa structure se découpe en plusieurs couches : le noyau où se passe la fusion nucléaire, la zone radiative, la zone convective, puis la photosphère (la surface visible) à environ 5 500 °C, la chromosphère et enfin la couronne qui peut grimper à plus d'un million de degrés. Chaque seconde, le Soleil convertit 4 millions de tonnes de matière en énergie pure selon la fameuse formule E=mc² d'Einstein. Cette énergie traverse les couches pendant des dizaines de milliers d'années avant de s'échapper sous forme de lumière. Le vent solaire, un flux de particules chargées, voyage à 400 km/s et provoque les aurores boréales quand il rencontre le champ magnétique terrestre. Les taches solaires, plus sombres et plus froides, suivent un cycle d'environ 11 ans qui influence la météo spatiale et parfois nos satellites GPS."
+      },
+      {
+        "h": "Mythologie et culture autour du Soleil",
+        "body": "Depuis la nuit des temps, le Soleil est l'objet de tous les cultes. Les Égyptiens vénéraient Râ, qui traversait le ciel en barque chaque jour. Les Grecs avaient Hélios puis Apollon, les Aztèques pratiquaient des rituels pour Tonatiuh, et les Incas adoraient Inti. Louis XIV s'est même autoproclamé Roi-Soleil au XVIIe siècle pour asseoir son pouvoir absolu. Dans la culture pop moderne, le Soleil reste partout : 'Here Comes the Sun' des Beatles, 'Walking on Sunshine' de Katrina, le manga Demon Slayer où Tanjiro maîtrise la respiration du soleil, ou encore le tarot où la carte du Soleil symbolise la joie pure. Sans oublier les festivals d'été, les playlists 'sunset vibes' sur Spotify qui cumulent des milliards de streams, et l'obsession TikTok pour le 'golden hour' juste avant le coucher du soleil."
+      },
+      {
+        "h": "Coucher de soleil : pourquoi c'est si beau",
+        "body": "Le coucher de soleil n'est pas qu'esthétique, c'est de la physique pure. Quand le Soleil est bas à l'horizon, sa lumière traverse une couche d'atmosphère beaucoup plus épaisse. Les longueurs d'onde courtes (bleu, violet) sont diffusées par les molécules d'air — c'est la diffusion de Rayleigh — et seules les longueurs d'onde longues (rouge, orange, rose) parviennent jusqu'à tes yeux. Les particules de poussière, la pollution et les nuages d'altitude amplifient cet effet en créant des dégradés spectaculaires. Les couchers les plus dingues se voient souvent après un orage ou en automne. À Santorin, à Bali, à Marrakech ou sur la plage de Biarritz, le coucher de soleil est devenu un rituel social, immortalisé sur Instagram avec le filtre 'aesthetic'. Sur moomz, les vibes coucher de soleil sont les plus partagées de l'été, particulièrement entre juin et septembre où la lumière dorée frappe à son apogée."
+      }
+    ],
+    "faq": [
+      {
+        "q": "À quelle distance est le Soleil de la Terre ?",
+        "a": "Le Soleil se trouve à environ 149,6 millions de kilomètres de la Terre en moyenne, distance qu'on appelle une unité astronomique (UA). Cette distance varie légèrement au cours de l'année : on est plus proche en janvier (147 millions de km, le périhélie) et plus loin en juillet (152 millions de km, l'aphélie). Sa lumière met précisément 8 minutes 20 secondes pour nous atteindre, ce qui veut dire qu'on voit toujours le Soleil tel qu'il était il y a un peu plus de 8 minutes."
+      },
+      {
+        "q": "Pourquoi le Soleil brille-t-il ?",
+        "a": "Le Soleil brille grâce à la fusion nucléaire qui a lieu dans son noyau. Sous des températures de 15 millions de degrés et des pressions colossales, des noyaux d'hydrogène fusionnent pour former de l'hélium, libérant une énorme quantité d'énergie sous forme de photons. Cette énergie traverse les couches du Soleil pendant des milliers d'années avant de s'échapper sous forme de lumière visible. Sans cette fusion, le Soleil serait éteint et la Terre serait un monde glacé et sans vie."
+      },
+      {
+        "q": "Combien de temps reste-t-il au Soleil ?",
+        "a": "Le Soleil a environ 4,6 milliards d'années et il en est à la moitié de sa vie. Dans environ 5 milliards d'années, il va commencer à manquer d'hydrogène dans son cœur, gonfler en géante rouge et engloutir probablement Mercure, Vénus et peut-être la Terre. Ensuite il se transformera en naine blanche, un objet ultra-dense de la taille de la Terre qui refroidira lentement pendant des milliards d'années. Pas besoin de stress, t'as encore le temps."
+      },
+      {
+        "q": "Peut-on regarder le Soleil directement ?",
+        "a": "Non, surtout pas. Regarder le Soleil directement, même quelques secondes, peut causer des lésions irréversibles à la rétine appelées rétinopathie solaire. Pendant une éclipse partielle c'est encore plus dangereux car la pupille se dilate. Il faut utiliser des lunettes spéciales certifiées ISO 12312-2 ou un télescope équipé d'un filtre solaire homologué. Le coucher et le lever du Soleil sont moins dangereux car l'atmosphère filtre beaucoup, mais la prudence reste de mise."
+      }
+    ],
+    "related": ["lune", "etoile", "espace", "ete", "plage", "arc-en-ciel"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "lune",
+    "locale": "fr",
+    "keyword": "Lune",
+    "matchPatterns": ["lune", "moon", "pleine-lune", "nuit", "satellite"],
+    "topic": "sciences",
+    "title": "La Lune — phases, marées, mythologie & influence cosmique",
+    "description": "Tout sur la Lune : 384 400 km de distance, phases, marées, Apollo 11, mythologie et son impact sur la vie sur Terre.",
+    "emoji": "🌙",
+    "intro": "La Lune c'est notre satellite naturel préféré, et clairement le pote le plus fidèle de la Terre depuis 4,5 milliards d'années. Située en moyenne à 384 400 km de chez nous, elle a un diamètre de 3 474 km — soit environ un quart de celui de la Terre. La Lune tourne autour de notre planète en 27,3 jours (révolution sidérale), mais à cause du mouvement de la Terre autour du Soleil, le cycle des phases (mois synodique) dure 29,5 jours. Elle s'éloigne de nous de 3,8 cm par an environ, ce qui veut dire que les éclipses totales de Soleil disparaîtront dans environ 600 millions d'années. La théorie la plus solide sur sa formation, c'est l'impact géant : il y a 4,5 milliards d'années, un corps de la taille de Mars baptisé Théia aurait percuté la Terre primitive, et les débris auraient formé la Lune. Sur moomz les sondages 'team pleine lune vs team nouvelle lune' divisent grave, surtout chez les fans d'astrologie. Au-delà de la science, la Lune c'est Apollo 11 en juillet 1969 avec Neil Armstrong et Buzz Aldrin, c'est Séléné chez les Grecs, c'est les marées qui rythment les océans, c'est l'inspiration des poètes de Baudelaire à Pierre Perret, et c'est le futur de l'exploration spatiale avec le programme Artemis qui prévoit le retour des humains sur la Lune avant 2030.",
+    "sections": [
+      {
+        "h": "Les phases de la Lune et leur cycle",
+        "body": "La Lune ne produit pas sa propre lumière, elle reflète celle du Soleil. Au cours du cycle de 29,5 jours, on observe huit phases principales : nouvelle Lune (invisible), premier croissant, premier quartier, gibbeuse croissante, pleine Lune, gibbeuse décroissante, dernier quartier et dernier croissant. La face visible de la Lune dépend de sa position relative entre le Soleil et la Terre. Petit truc mnémotechnique français : si tu peux tracer mentalement la lettre 'p' avec le croissant, c'est qu'elle est en phase croissante (premier quartier), et si c'est la lettre 'd' c'est qu'elle décroît (dernier quartier). La pleine Lune influence aussi les comportements humains selon certaines croyances, même si la science n'a pas trouvé de corrélation solide. Les marées sont en revanche bien réelles : la gravité lunaire crée deux bourrelets d'eau opposés, et c'est pour ça qu'il y a deux marées hautes et deux marées basses par jour."
+      },
+      {
+        "h": "Apollo 11 et la conquête lunaire",
+        "body": "Le 20 juillet 1969, Neil Armstrong devient le premier humain à poser le pied sur la Lune en prononçant la phrase devenue culte : 'That's one small step for man, one giant leap for mankind'. Avec Buzz Aldrin, ils restent environ 21 heures à la surface tandis que Michael Collins reste en orbite. La mission Apollo 11 fait suite à la promesse de John F. Kennedy en 1961 dans le contexte de la guerre froide et de la course à l'espace contre l'URSS. Au total, six missions Apollo ont posé douze astronautes sur la Lune entre 1969 et 1972. Ils ont ramené environ 382 kg de roches lunaires qui sont toujours étudiées aujourd'hui. Le programme Artemis de la NASA, en collaboration avec SpaceX, ESA et JAXA, prévoit de renvoyer des astronautes — dont la première femme et la première personne de couleur — sur la Lune dans les années 2020. La Chine et l'Inde mènent aussi leurs propres missions, comme Chang'e 6 qui a ramené des échantillons de la face cachée en 2024."
+      },
+      {
+        "h": "La Lune dans la mythologie et la culture",
+        "body": "La Lune fascine les humains depuis toujours. Chez les Grecs c'est Séléné puis Artémis, chez les Romains Diane, chez les Égyptiens Thot et Khonsou. Au Japon, la déesse Tsukuyomi règne sur la nuit. En Chine, la fête de la mi-automne célèbre la légende de Chang'e qui s'est envolée vers la Lune. Dans la littérature française, Cyrano de Bergerac écrit son 'Voyage dans la Lune' dès 1657, bien avant Jules Verne et son 'De la Terre à la Lune' en 1865. Côté musique, la 'Sonate au clair de lune' de Beethoven, 'Clair de lune' de Debussy ou plus récemment 'Bad Moon Rising' de Creedence ont marqué les esprits. Le cinéma adore la Lune aussi : '2001 l'Odyssée de l'espace' de Kubrick, 'First Man' avec Ryan Gosling, ou les loups-garous qui hurlent à la pleine Lune dans tous les films d'horreur. Sur moomz, les nuits de pleine Lune génèrent un pic de votes sur les sondages 'tu crois aux signes ?', preuve que le mystique lunaire kiffe toujours en 2026."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi voit-on toujours la même face de la Lune ?",
+        "a": "C'est dû à un phénomène appelé rotation synchrone ou verrouillage gravitationnel. La Lune tourne sur elle-même exactement à la même vitesse qu'elle tourne autour de la Terre, soit environ 27,3 jours. Cette synchronisation est due à l'effet de marée gravitationnelle terrestre qui a progressivement ralenti la rotation lunaire au fil des milliards d'années. Résultat : on ne voit que 50% de sa surface (en réalité 59% grâce aux librations). La face cachée n'a été photographiée qu'en 1959 par la sonde soviétique Luna 3."
+      },
+      {
+        "q": "La pleine Lune influence-t-elle vraiment les humains ?",
+        "a": "Scientifiquement, aucune étude solide n'a démontré d'effet direct de la pleine Lune sur le comportement humain, le sommeil ou les naissances. Les croyances populaires parlent de plus d'agressivité, d'accouchements ou d'insomnies, mais les méta-analyses contredisent ces idées. Cela dit, la lumière vive d'une pleine Lune dans une chambre peut effectivement perturber le sommeil. L'effet psychologique de croire à son influence (effet placebo ou nocebo) peut aussi jouer. Côté astrologie c'est une autre histoire, mais sors du domaine scientifique."
+      },
+      {
+        "q": "Pourquoi la Lune s'éloigne-t-elle de la Terre ?",
+        "a": "La Lune s'éloigne d'environ 3,8 cm par an à cause d'un transfert de moment angulaire entre la Terre et son satellite via les marées. Concrètement, les bourrelets de marée que la Lune crée sur Terre exercent en retour une légère force qui accélère la Lune sur son orbite, ce qui la pousse vers une orbite plus large. Sur des centaines de millions d'années, cela signifie que les éclipses solaires totales deviendront impossibles car la Lune apparaîtra trop petite pour couvrir entièrement le Soleil."
+      },
+      {
+        "q": "Combien de temps faut-il pour aller sur la Lune ?",
+        "a": "Avec les technologies actuelles, il faut environ 3 jours pour atteindre la Lune. Apollo 11 a mis 75 heures pour arriver en orbite lunaire. Les missions chinoises Chang'e ont mis environ 4 à 5 jours. La sonde New Horizons en route vers Pluton a passé l'orbite lunaire en seulement 8h36 mais elle ne s'arrêtait pas. Pour une mission habitée, il faut prévoir une trajectoire plus douce qui permet de freiner et d'entrer en orbite, donc 3 jours reste la norme. Avec une propulsion plus avancée à l'avenir, on pourrait descendre à quelques heures."
+      }
+    ],
+    "related": ["soleil", "etoile", "espace", "mars", "nouvel-an", "halloween"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "neige",
+    "locale": "fr",
+    "keyword": "Neige",
+    "matchPatterns": ["neige", "snow", "ski", "flocon", "hiver"],
+    "topic": "sciences",
+    "title": "La neige — flocons, formation & vibes hivernales",
+    "description": "Tout sur la neige : formation des flocons, cristaux uniques, neige éternelle, records et pourquoi l'hiver hit different.",
+    "emoji": "❄️",
+    "intro": "La neige c'est littéralement le moment où l'eau décide de devenir art. Chaque flocon est unique, formé dans les nuages quand la vapeur d'eau se cristallise directement autour d'un noyau de condensation (poussière, pollen ou particule), à des températures inférieures à 0 °C. Les cristaux prennent toujours une structure hexagonale à cause de la géométrie de la molécule d'eau, ce qui explique pourquoi tous les flocons ont 6 branches. La probabilité que deux flocons soient identiques est quasiment nulle, car un flocon traverse différentes températures et taux d'humidité durant sa chute, créant une combinaison unique de dendrites, plaques et colonnes. Sur Terre, environ 12% des terres émergées sont recouvertes de neige éternelle ou de glaciers. Le record du plus gros flocon enregistré date de 1887 dans le Montana avec un flocon de 38 cm de diamètre selon le Guinness — chiffre contesté mais légendaire. Les Alpes françaises voient en moyenne 5 à 10 mètres de neige par saison à 2000 m d'altitude. Sur moomz, dès la première chute de neige les sondages 'team raclette vs team fondue' explosent, et team neige rafle la mise contre team plage à chaque mois de janvier. Côté culture, la neige c'est Noël, c'est 'La Reine des Neiges', c'est les sports d'hiver, les batailles de boules de neige et les sapins givrés. Sans oublier le rôle écologique crucial : la fonte des neiges alimente les rivières et les nappes phréatiques au printemps, et le manteau neigeux réfléchit jusqu'à 90% du rayonnement solaire.",
+    "sections": [
+      {
+        "h": "Comment se forme un flocon de neige",
+        "body": "Tout commence dans les nuages froids, à des altitudes où la température descend sous -5 °C et où l'humidité est suffisante. Une molécule de vapeur d'eau se dépose sur un minuscule noyau (poussière, pollen, sel marin) et passe directement de l'état gazeux à l'état solide, c'est ce qu'on appelle la déposition. Le cristal grandit en six branches hexagonales car les molécules d'eau s'assemblent à 120° les unes des autres. Sa forme finale dépend des conditions traversées pendant la chute : à -2 °C les flocons sont plutôt en aiguilles, à -5 °C en colonnes creuses, à -15 °C en dendrites ramifiées (les plus 'classiques' des dessins de Noël). Si la température remonte près de 0 °C, les flocons fondent partiellement et s'agglomèrent en gros amas — c'est la neige collante parfaite pour faire des bonhommes de neige. Sous -20 °C, on a une neige fine et poudreuse adorée des skieurs."
+      },
+      {
+        "h": "Records de neige et phénomènes extrêmes",
+        "body": "Le record absolu de chute de neige en 24 heures est de 1,93 mètre, enregistré à Silver Lake dans le Colorado en avril 1921. Le mont Baker dans l'État de Washington détient le record de neige cumulée sur une saison avec 28,96 mètres en 1998-1999. Au Japon, la ville d'Aomori peut accumuler plus de 8 mètres de neige par hiver, ce qui en fait l'une des grandes villes les plus enneigées au monde. En France, La Plagne et les stations savoyardes peuvent dépasser 10 mètres cumulés. Il existe aussi des phénomènes bizarres : la 'neige rose' en haute montagne due aux algues Chlamydomonas nivalis, les 'pénitents de neige' qui se forment en lames pointues dans les Andes, ou la 'thundersnow' où le tonnerre gronde pendant une tempête de neige. Sans oublier les avalanches qui peuvent atteindre 300 km/h et qui tuent en moyenne 100 personnes par an en Europe."
+      },
+      {
+        "h": "La neige dans la culture et le ski",
+        "body": "La neige est au cœur de l'identité hivernale partout dans l'hémisphère nord. En France, le ski est un sport national avec plus de 8 millions de pratiquants par an, et les Alpes accueillent les plus grandes stations du monde : Val Thorens, Tignes, Chamonix, Les Trois Vallées. Les Jeux Olympiques d'hiver sont l'événement neige par excellence depuis Chamonix 1924. Côté pop culture, 'La Reine des Neiges' de Disney a généré plus de 1,4 milliard de dollars au box-office, transformant Elsa en icône. Les films comme 'Shining' de Kubrick utilisent la neige comme décor d'horreur, tandis que 'Le Père Noël est une ordure' nous a fait kiffer une neige plus comique. Au Japon, le hanami inversé existe avec le 'yukimi' (contemplation de la neige). Et les pulls moches de Noël, les chocolats chauds après le ski et les après-ski enneigés sont devenus des rituels Instagram à part entière sur moomz et ailleurs."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi la neige est-elle blanche ?",
+        "a": "La neige paraît blanche parce qu'elle est composée d'une multitude de cristaux de glace qui réfléchissent et diffusent la lumière dans toutes les directions. Comme le spectre lumineux complet est renvoyé sans absorption préférentielle, on perçoit du blanc. À l'inverse, la glace pure et compacte est translucide voire bleutée. Sous certaines conditions (algues, poussière, pollution), la neige peut prendre une teinte rose, jaune ou même verdâtre. Sa couleur blanche éblouissante explique aussi pourquoi il faut des lunettes de ski en montagne pour éviter l'ophtalmie des neiges."
+      },
+      {
+        "q": "Deux flocons peuvent-ils être identiques ?",
+        "a": "En théorie c'est possible mais en pratique quasiment impossible. Un flocon traverse une trajectoire unique dans le nuage, avec des variations de température et d'humidité différentes à chaque seconde. Sachant qu'un flocon contient environ 10^18 molécules d'eau et que ces molécules s'arrangent différemment selon les conditions traversées, le nombre de configurations possibles dépasse l'imagination. Le physicien Kenneth Libbrecht a démontré en 1988 qu'il était possible de créer deux flocons quasiment identiques en laboratoire, mais dans la nature jamais deux flocons réels n'ont été observés strictement identiques."
+      },
+      {
+        "q": "À quelle température neige-t-il ?",
+        "a": "Il faut généralement une température au sol inférieure ou égale à 0 °C pour que la neige tienne, mais en altitude dans les nuages, la formation commence dès -5 °C. La neige peut aussi tomber quand il fait jusqu'à +2 °C au sol si l'air est sec, car les flocons fondent moins vite en traversant un air peu humide. Sous -10 °C, la neige est très sèche et poudreuse, parfaite pour le ski. Sous -30 °C la neige devient si peu collante qu'elle ressemble à du sable. Une humidité élevée combinée à -2 °C donne les flocons les plus 'classiques'."
+      },
+      {
+        "q": "Pourquoi neige-t-il de moins en moins ?",
+        "a": "Le réchauffement climatique réduit la durée et l'intensité des chutes de neige dans de nombreuses régions. En France, l'enneigement à moyenne altitude (1500-2000 m) a diminué de 30 à 40% depuis 1970. Les stations doivent compenser avec de la neige artificielle, mais cela demande énormément d'eau et d'énergie. Les Alpes pourraient perdre la moitié de leur enneigement d'ici 2050 selon le GIEC. Paradoxalement, certaines régions reçoivent des chutes plus intenses ponctuelles car un air plus chaud contient plus d'humidité, ce qui peut générer des tempêtes neigeuses extrêmes."
+      }
+    ],
+    "related": ["pluie", "vent", "climat", "montagne", "noel", "ski"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ocean",
+    "locale": "fr",
+    "keyword": "Océan",
+    "matchPatterns": ["ocean", "mer", "vague", "plage", "sea"],
+    "topic": "sciences",
+    "title": "L'océan — profondeur, biodiversité & secrets des abysses",
+    "description": "Tout sur les océans : 71% de la Terre, 11 km de profondeur, Fosse des Mariannes, biodiversité marine et vibes ondes salées.",
+    "emoji": "🌊",
+    "intro": "L'océan recouvre 71% de la surface de la Terre et contient 97% de toute l'eau de la planète, soit environ 1,3 milliard de kilomètres cubes d'eau salée. On parle de cinq océans : Pacifique (le plus grand), Atlantique, Indien, Arctique et Austral. Le Pacifique à lui seul couvre plus de surface que toutes les terres émergées réunies. La profondeur moyenne est de 3 700 mètres, mais le point le plus profond connu — le Challenger Deep dans la fosse des Mariannes — atteint 10 935 mètres sous le niveau de la mer, plus profond que l'Everest n'est haut. À cette profondeur la pression est de plus de 1 000 atmosphères, c'est-à-dire qu'un humain non protégé serait écrasé instantanément. On estime que 80% des océans restent inexplorés, et il y aurait plus de cartes détaillées de Mars que des fonds marins. Les océans abritent une biodiversité folle : on connaît 250 000 espèces marines mais on estime qu'il en reste 1 à 2 millions à découvrir. Sur moomz les sondages 'team mer vs team montagne' divisent grave l'été, mais team océan dégage souvent en tête. Au-delà de la science, l'océan c'est le berceau de la vie il y a 3,5 milliards d'années, c'est la source d'inspiration de Moby Dick, Le Vieil Homme et la Mer, Vingt mille lieues sous les mers, c'est le surf, le yachting, les voyages aux Maldives, et c'est aussi la régulation climatique majeure de la planète puisqu'il absorbe environ 25% du CO2 émis par l'humanité.",
+    "sections": [
+      {
+        "h": "Les abysses : un monde extraterrestre sur Terre",
+        "body": "À partir de 1 000 mètres de profondeur commence la zone aphotique, où plus aucune lumière du Soleil ne pénètre. C'est un univers de pression colossale, de froid (1 à 4 °C) et d'obscurité totale. Pourtant la vie y est étonnamment abondante. On y trouve des poissons bioluminescents comme le poisson-lanterne, des calmars géants pouvant atteindre 13 mètres, des poulpes Dumbo qui battent des nageoires comme des ailes, et des créatures translucides aux formes alien. Près des sources hydrothermales, par 2 000 à 3 000 m de fond, des écosystèmes entiers vivent sans lumière grâce à la chimiosynthèse : des bactéries transforment le soufre en énergie, nourrissant des vers tubicoles géants et des crabes blancs. James Cameron est descendu dans le Challenger Deep en solo en 2012, et plus récemment Victor Vescovo a multiplié les plongées dans les 5 fosses océaniques les plus profondes."
+      },
+      {
+        "h": "Pourquoi les océans sont salés et essentiels",
+        "body": "Les océans contiennent en moyenne 35 grammes de sel par litre d'eau, soit 50 millions de milliards de tonnes de sel au total. D'où vient ce sel ? Des pluies érodent les roches sur les continents, libérant des minéraux qui sont transportés par les rivières jusqu'à la mer. Comme l'évaporation ne retire que l'eau pure, le sel s'accumule depuis des milliards d'années. Les océans jouent un rôle climatique fondamental : ils absorbent environ 90% de la chaleur excédentaire piégée par les gaz à effet de serre et 25% du CO2 émis, ce qui ralentit le réchauffement global mais provoque l'acidification de l'eau. Les courants océaniques comme le Gulf Stream redistribuent la chaleur de l'équateur vers les pôles et rendent l'Europe occidentale habitable. Sans le Gulf Stream, Paris aurait un climat similaire à celui de Montréal."
+      },
+      {
+        "h": "L'océan dans la culture et le surf",
+        "body": "L'océan a inspiré l'humanité depuis toujours. Mythologiquement, Poséidon chez les Grecs, Neptune chez les Romains, Ryūjin au Japon. Homère écrivait déjà l'Odyssée d'Ulysse il y a 2 800 ans. Plus récemment, 'Le Vieil Homme et la Mer' d'Hemingway a remporté le Pulitzer, 'Vingt mille lieues sous les mers' de Jules Verne a inspiré toute la SF marine, et 'Pirates des Caraïbes' a généré plus de 4,5 milliards de dollars. Côté sport, le surf est passé d'art ancien hawaïen à discipline olympique depuis Tokyo 2020. La Côte basque française, Hossegor en tête, accueille chaque année les meilleurs surfeurs au monde. Sans oublier la pop culture : la série 'Stranger Things' avec sa célèbre piscine, 'Aquaman' de DC, 'Vaiana' de Disney inspiré de la Polynésie. Sur moomz, les vibes plage et 'sunset surf' explosent dès juin et restent dans le top des photos partagées."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quelle est la profondeur maximale de l'océan ?",
+        "a": "Le point le plus profond connu est le Challenger Deep dans la fosse des Mariannes, à environ 10 935 mètres sous le niveau de la mer. C'est plus profond que la hauteur de l'Everest (8 849 m). La pression à cette profondeur dépasse 1 086 atmosphères, soit l'équivalent du poids de 50 avions de ligne sur un humain. Seules quelques expéditions ont atteint ce point, dont celle de Jacques Piccard et Don Walsh en 1960 avec le bathyscaphe Trieste, puis celle de James Cameron en solo en 2012."
+      },
+      {
+        "q": "Combien d'espèces vivent dans l'océan ?",
+        "a": "Environ 250 000 espèces marines ont été identifiées et décrites par la science, mais on estime que ce nombre pourrait représenter seulement 10 à 20% de la biodiversité réelle. Il resterait entre 1 et 2 millions d'espèces à découvrir, principalement dans les abysses et autour des récifs coralliens. Chaque année, environ 2 000 nouvelles espèces sont décrites. L'expédition Tara Océans a même découvert plus de 100 000 espèces de microorganismes en quelques années d'expédition autour du globe. L'océan est clairement le plus grand mystère biologique de la planète."
+      },
+      {
+        "q": "Pourquoi l'océan est-il bleu ?",
+        "a": "L'océan apparaît bleu pour deux raisons combinées. D'abord, l'eau absorbe préférentiellement les longueurs d'onde rouges et jaunes de la lumière solaire, ne laissant passer que le bleu en profondeur. Ensuite, l'océan reflète la couleur du ciel, qui est lui-même bleu à cause de la diffusion de Rayleigh. Les eaux tropicales paraissent souvent turquoise grâce au fond de sable blanc qui renvoie la lumière. Les eaux nordiques sont plus sombres car elles contiennent plus de plancton et de matière organique. Et près des estuaires, la couleur peut virer au vert ou au marron."
+      },
+      {
+        "q": "Le niveau de la mer monte-t-il vraiment ?",
+        "a": "Oui, et la tendance s'accélère. Le niveau moyen des mers monte d'environ 3,7 mm par an depuis les années 2000, contre 1,4 mm/an au XXe siècle. Cette hausse est due à deux facteurs : la dilatation thermique de l'eau qui se réchauffe, et la fonte des glaciers et calottes polaires. Le GIEC estime que le niveau pourrait monter entre 30 cm et 1 mètre d'ici 2100 selon les scénarios d'émissions. Des villes comme Venise, Miami, Jakarta ou Bangkok sont déjà directement menacées, et certaines îles du Pacifique pourraient disparaître."
+      }
+    ],
+    "related": ["plage", "soleil", "climat", "ete", "bali", "vent"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "etoile",
+    "locale": "fr",
+    "keyword": "Étoile",
+    "matchPatterns": ["etoile", "star", "etoiles", "constellation", "nuit"],
+    "topic": "sciences",
+    "title": "Les étoiles — distances, naissance & mort cosmique",
+    "description": "Tout sur les étoiles : naines rouges, supergéantes, années-lumière, supernovas, constellations et vibes nuit étoilée.",
+    "emoji": "⭐",
+    "intro": "Les étoiles sont des boules de gaz incandescent, principalement de l'hydrogène et de l'hélium, qui produisent leur énergie par fusion nucléaire. Notre galaxie, la Voie lactée, en contient entre 200 et 400 milliards, et l'univers observable en contient environ 200 milliards de milliards (2 x 10^23). L'étoile la plus proche de la Terre après le Soleil est Proxima Centauri, située à 4,24 années-lumière, ce qui veut dire que sa lumière met plus de 4 ans à nous parvenir. Une année-lumière équivaut à environ 9 461 milliards de kilomètres. Les étoiles se classent par leur température et leur taille : naines rouges (les plus nombreuses, environ 75% des étoiles), naines jaunes comme notre Soleil, géantes rouges, supergéantes bleues. UY Scuti, une supergéante rouge, est l'une des plus grandes étoiles connues avec un diamètre 1 700 fois supérieur à celui du Soleil. Sur moomz les sondages 'fais un vœu sur une étoile filante : tu y crois ?' divisent grave entre les rationnels et les rêveurs. Les étoiles sont aussi à la base de toute la culture humaine : navigation antique grâce aux constellations, mythologie grecque (Orion, Cassiopée, Andromède), astrologie, religions, et culture pop avec Star Wars, Star Trek et bien sûr 'Star is born'. Les étoiles filantes sont en réalité des météores, des petits cailloux qui brûlent en entrant dans l'atmosphère à 70 km/s.",
+    "sections": [
+      {
+        "h": "Naissance et mort des étoiles",
+        "body": "Une étoile naît dans un nuage de gaz et de poussière appelé nébuleuse. Sous l'effet de la gravité, le nuage s'effondre sur lui-même, la matière s'échauffe, et quand le cœur atteint 10 millions de degrés, la fusion de l'hydrogène s'amorce : une étoile est née. Cette phase, dite de séquence principale, dure des milliards d'années pour les étoiles moyennes comme notre Soleil. La mort dépend de la masse initiale. Une étoile comme le Soleil devient une géante rouge puis une naine blanche. Les étoiles plus massives (au-delà de 8 masses solaires) explosent en supernova, événement parmi les plus violents de l'univers qui peut briller plus que toute une galaxie pendant quelques semaines. Le résidu peut former soit une étoile à neutrons (une cuillerée pèserait des milliards de tonnes), soit un trou noir si la masse est suffisante. C'est lors des supernovas que se forment la plupart des éléments lourds comme l'or, l'uranium et le carbone — tu es littéralement fait de poussière d'étoiles."
+      },
+      {
+        "h": "Constellations et navigation millénaire",
+        "body": "Les constellations sont des regroupements apparents d'étoiles, totalement subjectifs car les étoiles ne sont pas à la même distance. L'Union astronomique internationale en a officialisé 88 en 1930. Les plus connues incluent la Grande Ourse, Orion avec ses trois étoiles alignées, Cassiopée en W, le Cygne, le Lion, le Sagittaire. Le zodiaque comprend 13 constellations astronomiques (en incluant Ophiuchus), mais l'astrologie n'en utilise que 12. Avant les GPS, les marins se repéraient grâce à l'étoile Polaire qui indique le nord céleste avec une précision incroyable. Christophe Colomb, Vasco de Gama, Magellan ont tous traversé les océans grâce aux astres. Les Polynésiens étaient des maîtres absolus de la navigation stellaire, capables de traverser des milliers de kilomètres de Pacifique sans instrument. Aujourd'hui encore, l'astronomie amateur passionne des millions de personnes, et les observatoires d'altitude comme le VLT au Chili ou l'observatoire du Pic du Midi en France offrent des cieux purs."
+      },
+      {
+        "h": "Étoiles filantes, vœux et culture pop",
+        "body": "Une étoile filante n'est pas une étoile mais un météore : un petit caillou interstellaire qui pénètre dans l'atmosphère terrestre à des vitesses pouvant atteindre 72 km/s. La friction le porte à incandescence et il brûle dans une traînée lumineuse spectaculaire. Les Perséides en août, les Géminides en décembre et les Léonides en novembre offrent des pluies d'étoiles filantes avec jusqu'à 100 météores par heure. La tradition de faire un vœu remonte à l'Antiquité gréco-romaine où l'on pensait que les dieux ouvraient brièvement le ciel. Côté culture pop, 'Star Wars' a transformé Luke Skywalker en mythe galactique avec une saga à plus de 10 milliards de dollars. 'Interstellar' de Nolan a vulgarisé les trous noirs et la relativité auprès du grand public. 'Stranger Things' réfère sans cesse aux étoiles et au cosmos. La chanson 'Twinkle Twinkle Little Star' reste la berceuse la plus universelle. Sur moomz les sondages 'tu as déjà vu une étoile filante en vrai ?' déclenchent souvent les meilleures discussions."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien d'étoiles peut-on voir à l'œil nu ?",
+        "a": "Depuis un endroit très sombre loin de toute pollution lumineuse, l'œil humain peut voir environ 4 500 étoiles à l'œil nu sous une seule moitié du ciel à un moment donné, soit environ 9 000 sur l'ensemble du ciel au cours d'une nuit. En ville, à cause de la pollution lumineuse, on n'en voit souvent qu'une centaine voire moins. Avec une paire de jumelles tu peux multiplier ce nombre par 50, et un télescope amateur permet de voir des millions d'étoiles. Le télescope James Webb a permis d'observer des étoiles à plus de 13 milliards d'années-lumière."
+      },
+      {
+        "q": "C'est quoi une année-lumière exactement ?",
+        "a": "Une année-lumière est une unité de distance — pas de temps — qui correspond à la distance parcourue par la lumière dans le vide en une année terrestre, soit environ 9 461 milliards de kilomètres (9,461 x 10^12 km). La vitesse de la lumière étant de 299 792 km/s, c'est juste un calcul de multiplication. Cette unité est nécessaire car les distances cosmiques sont tellement énormes que les kilomètres deviennent ingérables. Proxima Centauri à 4,24 années-lumière est notre voisine, et la galaxie d'Andromède est à 2,5 millions d'années-lumière de la Terre."
+      },
+      {
+        "q": "Pourquoi les étoiles scintillent-elles ?",
+        "a": "Le scintillement des étoiles est dû à la turbulence atmosphérique. Quand la lumière d'une étoile traverse l'atmosphère terrestre, elle traverse des couches d'air de températures et densités différentes qui la dévient légèrement et de façon aléatoire, créant cette impression de tremblement. Les planètes ne scintillent quasiment pas car elles apparaissent comme de petits disques plutôt que des points lumineux, ce qui moyenne les distorsions atmosphériques. C'est aussi pour ça que les télescopes sont placés en altitude (Hawaï, Chili, La Palma) ou même en orbite (Hubble, James Webb) pour éviter cette turbulence."
+      },
+      {
+        "q": "Une étoile peut-elle vraiment exploser ?",
+        "a": "Oui, c'est ce qu'on appelle une supernova. Quand une étoile massive (plus de 8 masses solaires) a consommé tout son combustible nucléaire, son cœur s'effondre brutalement en quelques secondes et déclenche une explosion cataclysmique qui peut briller plus que toute une galaxie pendant des semaines. La dernière supernova visible à l'œil nu depuis la Terre date de 1604 (Supernova de Kepler). Bételgeuse, la supergéante rouge d'Orion, pourrait exploser dans les prochains 100 000 ans — ou demain. Elle deviendrait alors aussi brillante que la pleine Lune en plein jour."
+      }
+    ],
+    "related": ["soleil", "lune", "espace", "mars", "noel", "halloween"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mars",
+    "locale": "fr",
+    "keyword": "Mars",
+    "matchPatterns": ["mars", "planete-rouge", "espace", "rover", "elon"],
+    "topic": "sciences",
+    "title": "Mars — la planète rouge, rovers & rêve de colonisation",
+    "description": "Tout sur Mars : 225 millions de km, Olympus Mons, Curiosity, Perseverance, traces d'eau et le rêve d'y vivre un jour.",
+    "emoji": "🔴",
+    "intro": "Mars c'est la quatrième planète du système solaire et clairement la voisine la plus instagrammée de la Terre. Située à environ 225 millions de km du Soleil en moyenne (entre 206 et 249 millions selon son orbite elliptique), Mars met 687 jours terrestres pour faire le tour du Soleil. Une journée martienne, le 'sol', dure 24h 39min — presque comme chez nous. La planète tient son nom du dieu romain de la guerre à cause de sa couleur rouge sang due à l'oxyde de fer (rouille) qui recouvre sa surface. Mars est environ deux fois plus petite que la Terre, son diamètre est de 6 779 km contre 12 742 km. Sa gravité ne représente que 38% de celle de la Terre, ce qui veut dire que tu pèserais environ 30 kg si tu en pèses 80 sur Terre. La température moyenne est de -63 °C avec des minimums à -140 °C aux pôles et des maximums à 20 °C à l'équateur en été. L'atmosphère est très ténue, composée à 95% de CO2, et la pression au sol n'est que de 0,6% de celle de la Terre. Sur moomz les sondages 'tu irais sur Mars si on te le proposait gratuit ?' divisent grave : team rester sur Terre vs team aventure Elon Musk. Côté exploration, des dizaines de sondes ont visité Mars : Mariner, Viking, Sojourner, Spirit, Opportunity, Curiosity (depuis 2012), Perseverance et son hélicoptère Ingenuity (depuis 2021), Tianwen-1 chinoise, et la sonde émiratie Hope.",
+    "sections": [
+      {
+        "h": "Géographie martienne : montagnes, canyons et calottes",
+        "body": "Mars abrite des records géographiques absolus du système solaire. Olympus Mons est le plus grand volcan connu : 22 km de haut (presque trois fois l'Everest) et 600 km de large. Valles Marineris est un canyon long de 4 000 km, large de 200 km et profond de 7 km — il rendrait le Grand Canyon ridicule. Aux pôles, des calottes glaciaires composées d'eau et de CO2 gelé varient avec les saisons. Mars a deux petites lunes : Phobos et Deimos, probablement des astéroïdes capturés, qui finiront par s'écraser sur Mars dans environ 50 millions d'années pour Phobos. La surface est marquée de cratères d'impact, de canaux sinueux qui ressemblent à d'anciens lits de rivières, et de dunes de sable rouge à perte de vue. On sait aujourd'hui avec quasi-certitude que Mars a eu de l'eau liquide en abondance il y a 3 à 4 milliards d'années, et qu'il existe encore de la glace d'eau souterraine et peut-être des lacs liquides salés sous la surface."
+      },
+      {
+        "h": "Les rovers : Curiosity, Perseverance et Ingenuity",
+        "body": "L'exploration robotique de Mars est l'une des plus grandes aventures scientifiques de notre époque. Curiosity, posé sur Mars en août 2012, a parcouru plus de 32 km et continue ses analyses dans le cratère Gale. Perseverance, arrivé en février 2021, explore le cratère Jezero, un ancien delta de rivière, à la recherche de biosignatures d'une vie microbienne passée. Il collecte aussi des échantillons qu'une future mission devra rapporter sur Terre — la mission Mars Sample Return prévue dans les années 2030. Ingenuity, le mini-hélicoptère embarqué avec Perseverance, a fait le premier vol motorisé sur une autre planète en avril 2021. Il a réalisé 72 vols avant son retrait en 2024, prouvant que le vol aérien est possible dans une atmosphère 100 fois plus ténue que la nôtre. Ces missions ont confirmé qu'il y avait des lacs et des rivières sur Mars il y a des milliards d'années, et qu'il existait peut-être les conditions pour une vie microbienne primitive."
+      },
+      {
+        "h": "Colonisation de Mars : rêve, réalité et SpaceX",
+        "body": "L'idée d'envoyer des humains sur Mars passionne depuis Jules Verne et continue avec Elon Musk qui veut y établir une colonie d'un million de personnes d'ici 2050 avec SpaceX et son Starship. La NASA prévoit une mission habitée vers 2040, et la Chine vise aussi 2033. Mais les obstacles sont énormes : 6 à 9 mois de voyage, exposition aux radiations cosmiques, faible gravité qui dégrade les os et muscles, atmosphère irrespirable, températures extrêmes, et impossibilité d'un retour rapide en cas de problème. Sur Mars il faudrait vivre sous des dômes pressurisés ou dans des grottes lavées, produire son oxygène (l'expérience MOXIE de Perseverance a déjà prouvé qu'on peut extraire de l'O2 du CO2 martien), et cultiver des plantes en hydroponie. Côté culture pop, le film 'Seul sur Mars' avec Matt Damon a popularisé la débrouille martienne, 'The Expanse', 'For All Mankind' et le livre 'La Trilogie de Mars' de Kim Stanley Robinson explorent la colonisation. Sur moomz les sondages 'partirais-tu en aller simple pour Mars ?' obtiennent toujours des résultats serrés."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de temps pour aller sur Mars ?",
+        "a": "Avec les technologies actuelles, un voyage Terre-Mars prend entre 6 et 9 mois selon la position des planètes et la trajectoire choisie. Les opportunités de lancement reviennent tous les 26 mois quand Mars et la Terre sont bien alignées (fenêtre de Hohmann). Curiosity a mis 8 mois, Perseverance 7 mois. SpaceX vise à réduire ce délai grâce au Starship et à une propulsion plus efficace, peut-être jusqu'à 3-4 mois. Avec une propulsion nucléaire futuriste type Project Prometheus, on pourrait descendre à quelques semaines. Le voyage retour est tout aussi long, et il faut attendre la bonne fenêtre, ce qui rend les missions très complexes."
+      },
+      {
+        "q": "Y a-t-il de l'eau sur Mars ?",
+        "a": "Oui, mais surtout sous forme de glace. Les calottes polaires martiennes contiennent des quantités énormes d'eau gelée mélangée à du CO2 solide. On a aussi détecté des poches de glace souterraine partout sur la planète, et même peut-être des lacs d'eau liquide salée sous la calotte sud par radar (découverte de 2018, encore débattue). Il y a 3 à 4 milliards d'années, Mars avait probablement des océans et des rivières en surface, comme le prouvent les traces géologiques. Aujourd'hui l'eau liquide ne peut exister qu'épisodiquement à cause de la pression atmosphérique trop faible qui la fait directement s'évaporer."
+      },
+      {
+        "q": "Pourquoi Mars est-elle rouge ?",
+        "a": "La couleur rouge de Mars vient de l'oxyde de fer (Fe2O3) qui recouvre sa surface — littéralement de la rouille. Mars contient beaucoup de fer dans ses roches, et sur des milliards d'années cette poussière de fer s'est oxydée au contact d'un peu d'oxygène atmosphérique présent à l'époque où Mars avait une atmosphère plus dense. Les tempêtes de poussière, parfois globales, soulèvent cette poussière rouge et lui donnent sa teinte caractéristique vue depuis la Terre. C'est cette couleur sanguinolente qui a inspiré les civilisations antiques à associer Mars au dieu de la guerre."
+      },
+      {
+        "q": "Pourrait-il y avoir eu de la vie sur Mars ?",
+        "a": "C'est l'une des plus grandes questions de la science actuelle. Il y a 3 à 4 milliards d'années, Mars avait de l'eau liquide en surface, une atmosphère plus dense et un climat plus tempéré, soit les conditions potentielles pour une vie microbienne. Le rover Perseverance cherche actuellement des biosignatures — des traces chimiques ou fossiles de cette vie passée — dans le cratère Jezero, un ancien delta de rivière. À ce jour aucune preuve définitive n'a été trouvée, mais des molécules organiques ont été détectées. La mission Mars Sample Return devrait apporter une réponse dans les années 2030-2040."
+      }
+    ],
+    "related": ["espace", "soleil", "lune", "etoile", "ia", "gaming"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "espace",
+    "locale": "fr",
+    "keyword": "Espace",
+    "matchPatterns": ["espace", "space", "cosmos", "univers", "nasa"],
+    "topic": "sciences",
+    "title": "L'espace — univers infini, Big Bang & exploration cosmique",
+    "description": "Tout sur l'espace : 13,8 milliards d'années depuis le Big Bang, James Webb, ISS, SpaceX et les mystères du cosmos.",
+    "emoji": "🚀",
+    "intro": "L'espace c'est le plus grand mystère et la plus grande aventure humaine. Notre univers observable s'étend sur 93 milliards d'années-lumière de diamètre, contient environ 200 milliards de galaxies et 200 milliards de milliards d'étoiles. Tout aurait commencé il y a 13,8 milliards d'années avec le Big Bang, un événement où tout l'espace, le temps et la matière auraient émergé d'une singularité infiniment dense et chaude. Depuis, l'univers est en expansion accélérée, comme l'a découvert Edwin Hubble en 1929. La frontière conventionnelle de l'espace est fixée à 100 km d'altitude, c'est la ligne de Kármán. Depuis Spoutnik en 1957, l'humanité a envoyé des milliers de satellites, sondes et missions habitées. Youri Gagarine est devenu le premier humain dans l'espace le 12 avril 1961, et Neil Armstrong le premier sur la Lune en 1969. La Station Spatiale Internationale (ISS) tourne autour de la Terre à 400 km d'altitude depuis 1998, et accueille en permanence un équipage international. Sur moomz les sondages 'irais-tu en touriste dans l'espace ?' explosent à chaque lancement SpaceX. Aujourd'hui des sociétés privées comme SpaceX, Blue Origin et Virgin Galactic ouvrent l'espace au tourisme. Le télescope James Webb, lancé en décembre 2021, observe les premières galaxies formées 200 millions d'années après le Big Bang. La sonde Voyager 1, lancée en 1977, est l'objet le plus lointain jamais envoyé par l'humanité — elle est entrée dans l'espace interstellaire en 2012.",
+    "sections": [
+      {
+        "h": "Le Big Bang et l'expansion de l'univers",
+        "body": "Le Big Bang n'est pas une explosion dans l'espace, c'est l'expansion de l'espace lui-même. Il y a 13,8 milliards d'années, tout l'univers tenait dans un point infiniment chaud et dense, et il a commencé à s'étendre rapidement. Pendant les premières fractions de seconde se sont passées l'inflation cosmique et la formation des particules élémentaires. Après 380 000 ans, l'univers est devenu transparent et la lumière a pu voyager librement — c'est le 'fond diffus cosmologique' qu'on détecte encore aujourd'hui comme un faible rayonnement micro-ondes uniforme dans tout le ciel. Les premières étoiles se sont formées environ 200 millions d'années plus tard, suivies des premières galaxies. Notre Soleil est né il y a 4,6 milliards d'années dans une nébuleuse, et la Terre il y a 4,5 milliards d'années. L'expansion de l'univers s'accélère depuis 6 milliards d'années à cause d'une mystérieuse 'énergie sombre' qui représente 68% du contenu énergétique total."
+      },
+      {
+        "h": "L'ISS et la vie d'un astronaute",
+        "body": "La Station Spatiale Internationale (ISS) est l'un des plus grands exploits d'ingénierie de l'humanité. Construite par les États-Unis, la Russie, l'Europe, le Japon et le Canada à partir de 1998, elle pèse 420 tonnes et fait environ la taille d'un terrain de football. Elle orbite à 400 km d'altitude à 28 000 km/h, faisant le tour de la Terre en 92 minutes — soit 16 levers et couchers de soleil par jour pour les astronautes. Un équipage permanent de 6 à 7 personnes y vit en moyenne 6 mois. Au quotidien, les astronautes flottent en apesanteur, doivent faire 2h de sport par jour pour éviter la perte musculaire et osseuse, mangent des aliments sous vide ou réhydratés, dorment dans des sacs de couchage accrochés au mur, et passent leurs journées à mener des expériences scientifiques. Thomas Pesquet, l'astronaute français le plus connu, y a séjourné en 2016-2017 puis 2021. L'ISS doit être désorbitée vers 2031 et remplacée par des stations privées."
+      },
+      {
+        "h": "Tourisme spatial et SpaceX révolution",
+        "body": "L'ère du tourisme spatial a vraiment commencé en 2021 avec les premiers vols suborbitaux de Blue Origin (Jeff Bezos) et Virgin Galactic (Richard Branson), suivis par SpaceX qui a envoyé en septembre 2021 le premier équipage 100% civil en orbite avec Inspiration4. Aujourd'hui un vol suborbital coûte environ 450 000 dollars chez Virgin, un vol orbital plusieurs millions, et même un séjour dans l'ISS est possible chez Axiom Space pour environ 55 millions de dollars. SpaceX, fondée par Elon Musk en 2002, a révolutionné l'accès à l'espace en rendant les fusées Falcon 9 réutilisables — divisant les coûts par 10. Le Starship, plus gros lanceur jamais conçu (120 mètres, 5 000 tonnes au décollage), vise Mars et la Lune. La Chine a aussi sa station Tiangong opérationnelle depuis 2022. L'Inde a posé une sonde sur le pôle sud lunaire en 2023. Sur moomz les sondages 'tu paierais 250k euros pour 10 minutes dans l'espace ?' montrent que team réaliste écrase team milliardaire."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Où commence exactement l'espace ?",
+        "a": "La limite officielle reconnue internationalement est la ligne de Kármán, fixée à 100 km d'altitude par la Fédération aéronautique internationale. À cette altitude, l'atmosphère devient si ténue qu'un avion devrait voler plus vite que la vitesse orbitale pour générer de la portance, ce qui n'a plus de sens aéronautique. La NASA américaine fixe sa propre limite à 80 km (50 miles). En réalité, il y a encore quelques molécules d'air jusqu'à 1 000 km, mais la transition est progressive et la limite est conventionnelle. Au-delà de cette ligne, on parle officiellement d'astronaute."
+      },
+      {
+        "q": "Pourquoi l'espace est-il noir ?",
+        "a": "L'espace paraît noir parce qu'il n'y a pas d'atmosphère pour diffuser la lumière. Sur Terre, le ciel est bleu en journée parce que les molécules d'air diffusent la lumière du Soleil. Dans l'espace, la lumière voyage en ligne droite et ne devient visible que si elle frappe quelque chose. Bien qu'il y ait des milliards d'étoiles dans le ciel, leur lumière combinée reste extrêmement faible par rapport à la distance qui nous en sépare. Ce paradoxe, appelé 'paradoxe d'Olbers', s'explique aussi par l'expansion de l'univers qui fait que la lumière des galaxies lointaines est étirée vers l'infrarouge et le rouge."
+      },
+      {
+        "q": "Combien y a-t-il de galaxies dans l'univers ?",
+        "a": "Les estimations actuelles placent le nombre de galaxies dans l'univers observable entre 200 milliards et 2 000 milliards. Le télescope Hubble a longtemps suggéré 100-200 milliards, mais une analyse de 2016 utilisant la 3D cosmologique a revu à la hausse jusqu'à 2 000 milliards. Le télescope James Webb affine encore ces chiffres en révélant des galaxies primordiales jamais vues. La nôtre, la Voie lactée, contient 200 à 400 milliards d'étoiles. La galaxie la plus proche est Andromède à 2,5 millions d'années-lumière, et elle entrera en collision avec la Voie lactée dans environ 4,5 milliards d'années."
+      },
+      {
+        "q": "Un trou noir, c'est quoi exactement ?",
+        "a": "Un trou noir est une région de l'espace où la gravité est si intense que rien, pas même la lumière, ne peut s'en échapper. Il se forme généralement quand une étoile très massive (plus de 25 masses solaires) s'effondre en supernova. La limite à partir de laquelle rien ne peut revenir s'appelle l'horizon des événements. Au centre se trouve la singularité, point de densité infinie où les lois physiques actuelles cessent de fonctionner. La première image directe d'un trou noir a été obtenue en 2019 (M87) puis en 2022 pour Sagittaire A* au centre de notre galaxie. Notre Voie lactée abrite un trou noir supermassif de 4 millions de masses solaires."
+      }
+    ],
+    "related": ["mars", "lune", "soleil", "etoile", "ia", "ps5"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "climat",
+    "locale": "fr",
+    "keyword": "Climat",
+    "matchPatterns": ["climat", "rechauffement", "co2", "ecologie", "climate"],
+    "topic": "sciences",
+    "title": "Climat — réchauffement, CO2 & enjeux planétaires",
+    "description": "Tout sur le climat : +1,5 °C, GIEC, gaz à effet de serre, accord de Paris, impacts et solutions pour la planète.",
+    "emoji": "🌍",
+    "intro": "Le climat c'est LE sujet du XXIe siècle, et clairement la question qui définit notre génération. La Terre a connu de nombreuses variations climatiques au cours de ses 4,5 milliards d'années d'existence, alternant entre périodes glaciaires (la dernière s'est terminée il y a 11 700 ans) et périodes interglaciaires. Mais ce qui se passe depuis l'ère industrielle est unique : une hausse extrêmement rapide de la température moyenne mondiale, à un rythme jamais observé dans l'histoire géologique. Selon le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat), créé en 1988, la température mondiale a déjà augmenté d'environ 1,3 °C par rapport à l'ère préindustrielle (1850-1900). L'Accord de Paris signé en 2015 fixe l'objectif de limiter ce réchauffement à 1,5 °C, idéalement, et bien en dessous de 2 °C. Le principal coupable c'est le CO2, dont la concentration atmosphérique est passée de 280 ppm à plus de 420 ppm aujourd'hui — un record sur les 800 000 dernières années. Sur moomz les sondages 'as-tu réduit ta conso de viande pour le climat ?' montrent une vraie prise de conscience chez la Gen Z. Le méthane (28 fois plus puissant que le CO2 sur 100 ans), le protoxyde d'azote et les gaz fluorés contribuent aussi. Les conséquences sont déjà visibles partout : canicules, méga-feux, sécheresses, ouragans plus intenses, fonte des glaciers et calottes polaires, montée des eaux de 3,7 mm par an, acidification des océans, perte de biodiversité massive (un million d'espèces menacées d'extinction).",
+    "sections": [
+      {
+        "h": "L'effet de serre et les gaz responsables",
+        "body": "L'effet de serre est un phénomène naturel indispensable à la vie : sans lui, la température moyenne terrestre serait de -18 °C au lieu de +15 °C. Certains gaz dans l'atmosphère (vapeur d'eau, CO2, méthane, protoxyde d'azote) piègent une partie du rayonnement infrarouge émis par la Terre, réchauffant ainsi la surface. Le problème, c'est que l'activité humaine a massivement augmenté la concentration de ces gaz depuis la révolution industrielle de 1750. La combustion des énergies fossiles (charbon, pétrole, gaz) émet environ 37 milliards de tonnes de CO2 par an. La déforestation, l'élevage industriel (rots de vaches qui produisent du méthane), l'agriculture intensive et certains procédés industriels contribuent aussi. Les 100 plus grandes entreprises mondiales sont responsables de 70% des émissions de gaz à effet de serre depuis 1988. Réduire ces émissions à zéro net d'ici 2050 est l'objectif global pour limiter le réchauffement, ce qui demande une transformation profonde de l'économie mondiale."
+      },
+      {
+        "h": "Les impacts déjà visibles du dérèglement",
+        "body": "Les conséquences du réchauffement ne sont plus du futur, elles sont déjà là. En France, l'été 2003 a tué 15 000 personnes lors d'une canicule, et les étés 2022, 2023 et 2024 ont battu des records de chaleur. Les méga-feux en Australie (2019-2020), au Canada (2023), en Californie ou en Grèce détruisent des millions d'hectares. La fonte des glaciers s'accélère : les Alpes ont perdu 50% de leur volume glaciaire depuis 1900, l'Arctique pourrait être libre de glace en été dès 2050. Les ouragans deviennent plus intenses car ils puisent leur énergie dans les eaux chaudes. Les coraux blanchissent massivement, la Grande Barrière de corail a perdu 50% de son corail depuis 1995. Le permafrost qui dégèle libère du méthane piégé depuis des millénaires, accélérant le cycle. Les zones désertiques s'étendent, certaines régions deviennent inhabitables, provoquant les premières migrations climatiques de masse. Un million d'espèces sont menacées d'extinction selon l'IPBES."
+      },
+      {
+        "h": "Solutions individuelles et collectives",
+        "body": "Lutter contre le changement climatique demande une action à toutes les échelles. Au niveau individuel, les principaux leviers sont la réduction de la consommation de viande (l'élevage représente 14,5% des émissions mondiales), les transports (préférer le vélo, les transports en commun, éviter l'avion), l'efficacité énergétique du logement, et la consommation responsable (acheter moins, durable, local, d'occasion). Au niveau collectif, il faut décarboner la production d'électricité avec le nucléaire et les renouvelables (solaire, éolien, hydraulique), électrifier les transports, isoler les bâtiments, transformer l'agriculture vers des modèles régénératifs, planter des forêts, protéger les écosystèmes. La sobriété énergétique et la décroissance sont des concepts débattus mais qui gagnent du terrain. Les jeunes générations sont massivement mobilisées : grèves scolaires lancées par Greta Thunberg en 2018, marches climat, ZAD, recours juridiques contre les États (Affaire du Siècle en France). Sur moomz, les sondages 'as-tu déjà manifesté pour le climat ?' montrent que la Gen Z est nettement plus engagée que les générations précédentes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "C'est quoi exactement le réchauffement climatique ?",
+        "a": "Le réchauffement climatique désigne l'augmentation à long terme de la température moyenne du système climatique de la Terre, principalement causée par les émissions humaines de gaz à effet de serre depuis l'ère industrielle. Depuis 1850, la température moyenne a augmenté d'environ 1,3 °C. À ne pas confondre avec la météo, qui décrit les conditions atmosphériques sur quelques jours. Le climat se mesure sur des décennies. Le GIEC, qui rassemble des milliers de scientifiques, conclut sans ambiguïté que cette tendance est due à l'activité humaine avec plus de 99% de certitude."
+      },
+      {
+        "q": "Le réchauffement, c'est juste +1,5 °C, c'est pas grave ?",
+        "a": "Si, c'est énorme. Une moyenne globale de +1,5 °C signifie des hausses bien plus importantes dans certaines régions (jusqu'à +4 °C aux pôles), des extrêmes climatiques multipliés, des canicules plus longues, des sécheresses plus sévères, et des ouragans plus puissants. À +2 °C, on perd quasiment tous les coraux du monde et on déclenche des points de bascule irréversibles. À +3 °C ou +4 °C, des centaines de millions de personnes deviendraient des réfugiés climatiques et certaines régions tropicales deviendraient invivables en été. Les écosystèmes ne peuvent pas s'adapter aussi vite, d'où l'extinction massive d'espèces."
+      },
+      {
+        "q": "Que puis-je faire individuellement ?",
+        "a": "Les gestes les plus impactants au niveau individuel sont, selon l'ADEME : réduire la consommation de viande rouge et produits laitiers, éviter l'avion (un Paris-New York émet environ 1 tonne de CO2 par personne), isoler son logement, changer pour une voiture électrique ou la voiture du tout, manger local et de saison, acheter moins de vêtements neufs (la fast fashion représente 10% des émissions mondiales), éviter le numérique excessif (data centers). Voter pour des politiques climatiques ambitieuses et exiger l'action des entreprises est tout aussi crucial, voire plus, que les gestes individuels."
+      },
+      {
+        "q": "Peut-on encore inverser la tendance ?",
+        "a": "Inverser totalement la tendance est devenu impossible : les émissions cumulées depuis 1850 garantissent un réchauffement continu pendant des décennies. Mais on peut encore limiter les dégâts en respectant l'Accord de Paris. Pour atteindre +1,5 °C, il faudrait réduire les émissions mondiales de 45% d'ici 2030 et atteindre la neutralité carbone vers 2050. Techniquement c'est faisable, mais cela demande une transformation économique radicale. Si on ne change rien, le réchauffement dépassera +3 °C d'ici 2100. Chaque dixième de degré évité fait une énorme différence en termes d'impacts."
+      }
+    ],
+    "related": ["ocean", "pluie", "vent", "foudre", "neige", "ete"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "pluie",
+    "locale": "fr",
+    "keyword": "Pluie",
+    "matchPatterns": ["pluie", "rain", "averse", "orage", "parapluie"],
+    "topic": "sciences",
+    "title": "La pluie — cycle de l'eau, records & vibes mélancoliques",
+    "description": "Tout sur la pluie : cycle de l'eau, formation des gouttes, records de précipitations et la mélancolie poétique des jours pluvieux.",
+    "emoji": "🌧️",
+    "intro": "La pluie c'est le grand pilote du cycle de l'eau et clairement la météo la plus instagrammable pour vos stories aesthetic. Chaque jour, environ 505 000 milliards de litres d'eau s'évaporent des océans et des terres, remontent dans l'atmosphère sous forme de vapeur, se condensent en nuages, puis retombent sous forme de pluie, neige, grêle ou rosée. Une goutte de pluie standard mesure entre 0,5 et 5 mm de diamètre et tombe à une vitesse terminale d'environ 9 m/s (32 km/h). En dessous de 0,5 mm on parle de bruine, au-delà de 4 mm la goutte se fragmente sous l'effet de la résistance de l'air. La pluie naît dans les nuages quand de minuscules gouttelettes d'eau s'agrègent autour de noyaux de condensation (poussières, pollens, sels marins) jusqu'à devenir assez lourdes pour tomber. Le record mondial de pluie en 24h appartient à Foc-Foc à La Réunion avec 1 825 mm tombés en janvier 1966 lors du cyclone Denise — soit presque 2 mètres d'eau en une journée. Cherrapunji en Inde détient le record annuel avec 26 461 mm en 1860-1861. À l'inverse, le désert d'Atacama au Chili peut rester sans pluie pendant des années. Sur moomz les sondages 'tu kiffes ou tu détestes la pluie ?' montrent une vraie team pluie-cocooning-Netflix qui assume. La pluie c'est aussi des chansons cultes ('Singin' in the Rain', 'November Rain'), des vibes poétiques chez Baudelaire et Verlaine, et des odeurs uniques.",
+    "sections": [
+      {
+        "h": "Le cycle de l'eau expliqué",
+        "body": "Le cycle de l'eau, ou cycle hydrologique, est un échange continu d'eau entre l'atmosphère, les océans, les continents et les êtres vivants. Tout commence par l'évaporation : le Soleil réchauffe les surfaces d'eau (océans, lacs, rivières) et transforme l'eau liquide en vapeur. Les plantes participent aussi via la transpiration. Cette vapeur monte dans l'atmosphère, se refroidit, et se condense autour de particules pour former des nuages. Quand les gouttelettes deviennent trop lourdes, elles tombent : c'est la précipitation. Une partie ruisselle vers les rivières et les océans, une autre s'infiltre dans le sol pour alimenter les nappes phréatiques. L'eau peut rester dans les océans en moyenne 3 200 ans, dans les glaciers des dizaines de milliers d'années, mais dans l'atmosphère seulement 9 jours en moyenne. C'est ce cycle qui permet la vie sur Terre depuis 3,5 milliards d'années, et qui distribue l'eau douce essentielle aux humains, à l'agriculture et aux écosystèmes."
+      },
+      {
+        "h": "L'odeur de la pluie et autres phénomènes",
+        "body": "L'odeur caractéristique qui suit une pluie d'été a un nom : la pétrichor. Le terme a été inventé en 1964 par deux chercheurs australiens. Elle vient de la combinaison de plusieurs composés. D'abord la géosmine, une molécule produite par des bactéries du sol (Streptomyces) que la pluie libère dans l'air, et que nos narines détectent à des concentrations infimes — on est plus sensible à la géosmine qu'à beaucoup d'odeurs animales. Ensuite des huiles essentielles libérées par les plantes pendant la sécheresse, qui sont relâchées au contact de l'eau. Enfin, l'ozone produit par la foudre dans les orages ajoute une note métallique. Côté phénomènes bizarres : la pluie verglaçante quand l'eau gèle au contact du sol, les pluies de grenouilles ou de poissons (rares mais documentées, causées par des tornades aspirantes), la 'pluie de sang' due aux poussières du Sahara qui colorent les gouttes en rouge orangé, et les ondées tropicales monstrueuses qui peuvent inonder une ville en une heure."
+      },
+      {
+        "h": "La pluie dans la culture et la mélancolie",
+        "body": "La pluie a toujours inspiré les artistes. En littérature française, Verlaine écrit 'Il pleure dans mon cœur comme il pleut sur la ville', et Baudelaire ses 'Spleen' obsédants. La chanson 'Les feuilles mortes' évoque le rythme mélancolique des automnes pluvieux. Au cinéma, 'Singin' in the Rain' avec Gene Kelly est devenu un classique absolu, 'Blade Runner' utilise la pluie permanente pour créer son ambiance dystopique, et la scène finale de 'Breakfast at Tiffany's' sous la pluie new-yorkaise reste iconique. Côté musique, 'November Rain' de Guns N' Roses, 'Purple Rain' de Prince, ou 'Set Fire to the Rain' d'Adele, sans oublier 'Quand il pleut sur Paris' de divers chanteurs. Au Japon, le concept de 'tsuyu' (la mousson de juin) inspire haïkus et films d'animation, et Makoto Shinkai en a fait l'âme de 'The Garden of Words' et 'Weathering With You'. Sur moomz, les playlists 'rainy day' et les sondages 'team café-pluie-livre vs team plage-soleil' divisent les vibes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi la pluie a-t-elle cette odeur particulière ?",
+        "a": "L'odeur que vous sentez après une pluie s'appelle la pétrichor. Elle provient d'un cocktail de molécules : la géosmine produite par des bactéries du sol et libérée par les gouttes au contact de la terre, des huiles végétales relâchées par les plantes pendant les périodes sèches, et l'ozone créé par la foudre lors des orages. Notre nez détecte la géosmine à des concentrations extrêmement faibles, environ 5 parties par billion, ce qui en fait l'une des molécules dont on est le plus sensible olfactivement. Cette odeur est universellement appréciée et évoque la fraîcheur, la nature et la nostalgie."
+      },
+      {
+        "q": "À quelle vitesse tombe une goutte de pluie ?",
+        "a": "Une goutte de pluie atteint sa vitesse terminale (quand la résistance de l'air équilibre la gravité) à environ 9 m/s, soit 32 km/h, pour une goutte de 2 mm de diamètre. Les petites gouttes tombent plus lentement (4-5 m/s pour 0,5 mm) et les grosses gouttes plus vite, mais elles se fragmentent au-delà de 4-5 mm de diamètre. C'est pour ça qu'on ne se fait pas tuer par la pluie. Une goutte tombe d'environ 1 à 3 km d'altitude en quelques minutes. Heureusement, sinon la pluie nous percerait littéralement la peau."
+      },
+      {
+        "q": "C'est quoi le record de pluie tombée en 24h ?",
+        "a": "Le record mondial officiel est détenu par la station Foc-Foc à La Réunion avec 1 825 mm tombés en 24 heures lors du passage du cyclone tropical Denise en janvier 1966. C'est plus de 1,80 mètre d'eau ! Pour comparaison, Paris reçoit environ 640 mm de pluie sur une année entière. La Réunion détient d'ailleurs plusieurs records de pluie sur d'autres durées grâce à sa topographie montagneuse et son exposition aux cyclones tropicaux. Cherrapunji en Inde a établi le record annuel avec plus de 26 mètres en 1860-1861. À l'opposé, le désert d'Atacama peut rester sans pluie 20 ans."
+      },
+      {
+        "q": "Pourquoi pleut-il plus en automne et en hiver en France ?",
+        "a": "En France métropolitaine, les pluies sont plus fréquentes d'octobre à mars car les dépressions atlantiques sont plus actives à cette saison. L'air chaud océanique rencontre l'air froid continental, créant des fronts pluvieux qui balayent l'Europe d'ouest en est. En été, l'anticyclone des Açores bloque souvent ces perturbations et apporte un temps plus stable et sec, surtout dans la moitié sud. Les orages d'été peuvent en revanche déverser beaucoup d'eau en peu de temps, mais ils sont localisés. Le changement climatique modifie ces régimes en intensifiant les épisodes extrêmes."
+      }
+    ],
+    "related": ["ocean", "climat", "vent", "foudre", "arc-en-ciel", "neige"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "vent",
+    "locale": "fr",
+    "keyword": "Vent",
+    "matchPatterns": ["vent", "wind", "tempete", "ouragan", "brise"],
+    "topic": "sciences",
+    "title": "Le vent — formation, ouragans & échelle de Beaufort",
+    "description": "Tout sur le vent : différences de pression, alizés, ouragans, échelle de Beaufort et records de tempêtes mondiales.",
+    "emoji": "💨",
+    "intro": "Le vent c'est tout simplement de l'air en mouvement, mais c'est aussi l'un des phénomènes les plus puissants de la planète. Il naît des différences de pression atmosphérique : l'air se déplace toujours des zones de haute pression (anticyclones) vers les zones de basse pression (dépressions) pour rééquilibrer. La rotation de la Terre dévie ces mouvements via la force de Coriolis : dans l'hémisphère nord, les vents tournent autour des dépressions dans le sens inverse des aiguilles d'une montre. Les grandes circulations atmosphériques globales — alizés, vents d'ouest, jet streams — structurent le climat planétaire et ont permis aux navigateurs comme Christophe Colomb de traverser les océans. Le jet stream est un courant aérien rapide situé à 9-12 km d'altitude qui peut atteindre 400 km/h et qui détermine la météo de nos latitudes. L'échelle de Beaufort, créée en 1805 par l'amiral britannique Francis Beaufort, classe les vents de 0 (calme) à 12 (ouragan). Le record absolu de vent au sol est de 408 km/h, mesuré sur l'île de Barrow Island en Australie en 1996 lors du cyclone Olivia. Sur moomz les sondages 'vent en cheveux : galère ou kiff ?' divisent grave selon que t'aies les cheveux courts ou longs. Le vent c'est aussi l'énergie éolienne qui représente déjà 7% de l'électricité mondiale, c'est la voile, le kitesurf, le windsurf et le parapente, c'est l'inspiration des moulins de Don Quichotte, et c'est la mélancolie d'Éole le dieu grec des vents.",
+    "sections": [
+      {
+        "h": "Comment naît le vent",
+        "body": "Le vent naît du chauffage inégal de la surface terrestre par le Soleil. L'équateur reçoit beaucoup plus de rayonnement solaire que les pôles, ce qui crée des différences de température et donc de pression. L'air chaud monte (basse pression), l'air froid descend (haute pression), et l'air se déplace pour rééquilibrer. À l'équateur, l'air monte et redescend vers 30° de latitude, créant les cellules de Hadley, et générant les fameux alizés qui ont permis le commerce triangulaire des navires à voile. Aux latitudes moyennes (30° à 60°), les vents d'ouest dominent, ce qui explique pourquoi les perturbations atlantiques arrivent toujours par l'ouest en France. Les vents locaux sont influencés par le relief : la tramontane et le mistral s'engouffrent dans la vallée du Rhône, le foehn dévale les versants alpins en se réchauffant, et la brise de mer/terre alterne selon le cycle jour/nuit sur les côtes. Au niveau microscopique, le vent c'est le mouvement collectif des molécules d'air qui peuvent transporter chaleur, humidité, particules et même des graines à des milliers de kilomètres."
+      },
+      {
+        "h": "Ouragans, typhons et cyclones",
+        "body": "Les ouragans (Atlantique), typhons (Pacifique nord-ouest) et cyclones (Indien et Pacifique sud) sont le même phénomène avec des noms différents selon la région. Ce sont des tempêtes tropicales géantes qui se forment au-dessus d'eaux à plus de 26 °C, alimentées par l'évaporation massive. Elles sont classées sur l'échelle Saffir-Simpson de 1 à 5. Catégorie 5 = vents soutenus de plus de 252 km/h. L'ouragan Patricia en 2015 a atteint des vents soutenus de 345 km/h, un record absolu dans le Pacifique. Katrina en 2005 a causé 1 800 morts et 125 milliards de dollars de dégâts à La Nouvelle-Orléans. Le typhon Haiyan aux Philippines en 2013 a tué plus de 6 300 personnes. Avec le réchauffement climatique, les ouragans deviennent plus intenses et plus rapides (intensification rapide), même si leur fréquence totale ne change pas forcément. Les noms d'ouragans suivent une liste alphabétique, et les noms les plus meurtriers sont retirés à jamais."
+      },
+      {
+        "h": "Énergie éolienne et culture du vent",
+        "body": "L'énergie éolienne est l'une des sources d'électricité renouvelable qui croît le plus vite. Une éolienne moderne mesure 150 à 200 mètres de haut, avec des pales de 60 à 80 mètres, et peut produire 5 à 15 mégawatts. La Chine, les États-Unis et l'Allemagne sont les leaders mondiaux. La France a installé environ 22 GW d'éolien terrestre et développe rapidement l'éolien en mer, qui peut tourner plus longtemps grâce à des vents plus stables. Côté loisirs, la voile, le windsurf, le kitesurf, le snowkite, le speedriding ou le parapente utilisent tous le vent. Hossegor, Pyla, Quiberon en France attirent les passionnés. Côté culture, le vent inspire depuis l'Antiquité : Éole dieu grec des vents emprisonnait les tempêtes dans des outres, Don Quichotte se bat contre des moulins, Bob Dylan chante 'Blowin' in the Wind', Joni Mitchell 'Both Sides Now', et Studio Ghibli en fait le héros du 'Vent se lève' de Miyazaki. Sur moomz les vibes 'vent dans les cheveux road-trip' cartonnent toujours en été."
+      }
+    ],
+    "faq": [
+      {
+        "q": "À quelle vitesse souffle le vent le plus rapide jamais mesuré ?",
+        "a": "Le record absolu au niveau du sol a longtemps appartenu au Mont Washington (372 km/h en 1934). Mais il a été battu en 1996 sur l'île de Barrow Island en Australie lors du cyclone Olivia avec une rafale mesurée à 408 km/h. Dans les tornades, on a mesuré des vents potentiellement supérieurs à 480 km/h lors de la tornade d'Oklahoma City en 1999 (estimé via radar Doppler). Dans la haute atmosphère, les jet streams peuvent atteindre 400-500 km/h, et sur d'autres planètes comme Neptune, on observe des vents à 2 000 km/h, les plus rapides du système solaire."
+      },
+      {
+        "q": "C'est quoi l'échelle de Beaufort ?",
+        "a": "L'échelle de Beaufort est un système de classification des vents inventé en 1805 par l'amiral britannique Francis Beaufort. Elle va de 0 (calme, vent < 1 km/h) à 12 (ouragan, vent > 117 km/h) et permet d'estimer la force du vent en observant ses effets sur la mer et le paysage : à 4 (vent modéré, 20-28 km/h) les feuilles s'agitent, à 7 (grand frais, 50-61 km/h) les arbres entiers oscillent, à 10 (tempête, 89-102 km/h) les arbres sont arrachés. Bien qu'il existe aujourd'hui des anémomètres précis, l'échelle de Beaufort reste utilisée par les marins et la météorologie populaire car elle est intuitive."
+      },
+      {
+        "q": "Pourquoi le vent souffle-t-il toujours d'ouest en France ?",
+        "a": "La France se situe dans la zone des vents d'ouest, une circulation atmosphérique globale due à la cellule de Ferrel et à la force de Coriolis créée par la rotation de la Terre. Aux latitudes moyennes (entre 30° et 60° nord), l'air en altitude se déplace d'ouest en est, entraînant les dépressions atlantiques vers l'Europe. C'est pour ça que les perturbations météo arrivent toujours par la Bretagne ou la Manche avant de traverser le pays. Les vents locaux comme le mistral (vallée du Rhône) ou la tramontane (Languedoc) sont des exceptions liées au relief, mais à grande échelle, l'ouest domine clairement."
+      },
+      {
+        "q": "L'éolien est-il vraiment une bonne solution climatique ?",
+        "a": "Oui, l'éolien est l'une des sources d'électricité les moins émettrices de CO2 sur tout son cycle de vie : environ 11 g CO2/kWh contre 820 g pour le charbon et 6 g pour le nucléaire selon le GIEC. Une éolienne rembourse son empreinte carbone (fabrication, transport, installation) en 6 à 12 mois et fonctionne ensuite 20 à 25 ans. Critiques fréquentes : l'intermittence (il faut du stockage ou du nucléaire en complément), l'impact paysager, les nuisances sonores et le risque pour certains oiseaux. Mais comparé au charbon ou au gaz, c'est une solution climatique majeure et indispensable à la transition énergétique mondiale."
+      }
+    ],
+    "related": ["pluie", "climat", "foudre", "ocean", "neige", "montagne"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "foudre",
+    "locale": "fr",
+    "keyword": "Foudre",
+    "matchPatterns": ["foudre", "lightning", "eclair", "tonnerre", "orage"],
+    "topic": "sciences",
+    "title": "La foudre — éclairs, tonnerre & 30 000 °C de puissance",
+    "description": "Tout sur la foudre : décharges électriques, 30 000 °C, tonnerre, paratonnerres, records mondiaux et orages spectaculaires.",
+    "emoji": "⚡",
+    "intro": "La foudre c'est littéralement l'événement le plus violent et électrique de la nature. Un éclair de foudre, c'est une décharge électrique gigantesque qui s'établit entre deux zones de charges opposées, généralement entre la base d'un nuage d'orage (chargée négativement) et le sol (chargé positivement). La tension peut atteindre 100 millions à 1 milliard de volts, et l'intensité du courant 30 000 ampères en moyenne (jusqu'à 200 000 A pour les éclairs les plus puissants). La température dans le canal de l'éclair grimpe à environ 30 000 °C, soit 5 fois la température de la surface du Soleil. Cette chaleur dilate brutalement l'air, créant l'onde de choc qu'on entend comme un coup de tonnerre. La foudre se propage à environ 100 000 km/s pour le 'leader' descendant, puis à 100 millions de km/s pour le 'return stroke' qui remonte. Sur Terre il y a en moyenne 100 éclairs par seconde, soit 8 millions par jour. Sur moomz les sondages 'tu kiffes regarder les orages ou tu te planques sous la couette ?' divisent grave entre team meteo-aesthetic et team peur ancestrale. Le Lac Maracaibo au Venezuela est le hotspot mondial avec en moyenne 250 jours d'orage par an et le record de 28 éclairs par minute. La foudre tue environ 24 000 personnes par an dans le monde, surtout en Afrique et en Asie. En France, environ 10 à 20 décès annuels y sont attribués.",
+    "sections": [
+      {
+        "h": "La physique d'un éclair",
+        "body": "Tout commence dans un cumulonimbus, le nuage d'orage géant qui peut s'étendre sur 15 km de haut. À l'intérieur, des courants ascendants et descendants brassent des cristaux de glace et des gouttelettes d'eau qui s'entrechoquent, créant un transfert d'électrons. La partie supérieure du nuage se charge positivement, la base négativement. Quand la différence de potentiel devient trop grande, l'air s'ionise et un canal conducteur se forme : c'est le 'leader' pas-à-pas qui descend en branches successives à environ 100 000 km/s. Quand il s'approche du sol, des 'streamers' positifs partent vers le haut depuis les points élevés (arbres, poteaux, gratte-ciels). Le contact déclenche le 'return stroke' : un flux massif de courant remonte le canal à plus du tiers de la vitesse de la lumière, créant le flash éblouissant et le tonnerre. Un éclair complet ne dure que quelques millisecondes, mais l'œil humain le perçoit plus longtemps à cause de la rémanence rétinienne. Il existe différents types : éclairs nuage-sol, nuage-nuage (les plus fréquents), et même les rares éclairs en boule encore mal compris."
+      },
+      {
+        "h": "Tonnerre et calcul de la distance",
+        "body": "Le tonnerre est le son produit par la dilatation brutale de l'air chauffé à 30 000 °C par l'éclair. Cette dilatation crée une onde de choc qui se propage à la vitesse du son, soit environ 340 m/s à 20 °C, soit 1 km en 3 secondes. C'est pour ça qu'on calcule la distance d'un orage en comptant le nombre de secondes entre l'éclair (visible quasi instantanément à 300 000 km/s) et le coup de tonnerre, puis en divisant par 3 pour obtenir la distance en kilomètres. Si tu vois l'éclair et entends le tonnerre 6 secondes plus tard, l'orage est à 2 km de toi. Au-delà de 15-20 km, le son est trop atténué pour être entendu. Le tonnerre peut être un claquement sec (proche) ou un grondement long et roulant (loin et étalé). Le record sonore d'un coup de tonnerre est estimé à 165-180 décibels, plus fort qu'un avion à réaction au décollage."
+      },
+      {
+        "h": "Paratonnerres, records et mythologie",
+        "body": "Le paratonnerre a été inventé en 1752 par Benjamin Franklin grâce à sa célèbre expérience du cerf-volant pendant un orage (dangereuse à ne pas reproduire). Il fonctionne en captant la foudre et en la canalisant vers le sol via un câble conducteur, protégeant ainsi les bâtiments. Aujourd'hui tous les immeubles modernes en sont équipés. Côté records, le Roy Sullivan, un garde forestier américain, a été frappé par la foudre 7 fois entre 1942 et 1977 et a survécu à chaque fois — il est entré au Guinness. Le record du plus long éclair appartient à un méga-flash de 768 km traversant trois États américains en avril 2020. Mythologiquement, la foudre est l'arme de Zeus chez les Grecs, Jupiter chez les Romains, Thor chez les Vikings, Indra dans l'hindouisme. Toutes les cultures voient la foudre comme la manifestation des dieux. Côté pop culture, Thor de Marvel, Pikachu et son éclair, Harry Potter et sa cicatrice en forme d'éclair, ou encore Zeus dans Hercule de Disney. Sur moomz, les photos d'orages aesthetic en story Instagram cartonnent grave."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Que faire si je suis pris dans un orage ?",
+        "a": "Si tu es à l'extérieur pendant un orage, mets-toi rapidement à l'abri dans un bâtiment fermé ou une voiture (la carrosserie métallique fait cage de Faraday). Évite absolument les arbres isolés, les sommets, les points hauts, les pylônes, les terrains de sport découverts et l'eau. Ne t'allonge pas au sol mais accroupis-toi en boule, pieds joints, sur une surface isolante (sac à dos). Évite les objets métalliques (parapluie, club de golf). Si tu es dans l'eau, sors immédiatement. À l'intérieur, débranche les appareils électroniques sensibles, évite la douche et le téléphone filaire. Attends 30 minutes après le dernier coup de tonnerre pour ressortir."
+      },
+      {
+        "q": "Combien de fois la foudre frappe-t-elle par jour ?",
+        "a": "Environ 8 millions d'éclairs frappent la Terre chaque jour, soit en moyenne 100 par seconde. Les zones les plus touchées sont les tropiques, particulièrement le lac Maracaibo au Venezuela (le 'beacon of Maracaibo' avec 28 éclairs par minute lors des nuits orageuses), le bassin du Congo, et l'Indonésie. La France enregistre environ 1 à 2 millions d'éclairs par an, surtout entre mai et septembre, et particulièrement dans le Sud-Est et les zones montagneuses. La Tour Eiffel est frappée en moyenne 8 fois par an. Avec le changement climatique, on s'attend à une augmentation de la foudre de 10 à 50% dans certaines régions."
+      },
+      {
+        "q": "Peut-on survivre à un coup de foudre ?",
+        "a": "Oui, environ 90% des personnes frappées par la foudre survivent, contrairement à l'idée reçue. La majorité du courant passe par la surface du corps (effet de peau) plutôt qu'à travers les organes. Les blessures les plus fréquentes sont des brûlures cutanées en forme de fougère (figures de Lichtenberg), des problèmes neurologiques temporaires ou permanents, des troubles cardiaques pouvant nécessiter une réanimation, et des troubles auditifs. Le record absolu est détenu par Roy Sullivan, frappé 7 fois et qui a survécu à chaque fois. Cela dit, mieux vaut éviter : 10% des victimes meurent et beaucoup gardent des séquelles à vie."
+      },
+      {
+        "q": "Pourquoi l'éclair zigzague ?",
+        "a": "L'éclair zigzague parce qu'il suit le chemin de moindre résistance électrique à travers l'air, et que cet air est composé de poches d'humidité, de différences de densité et d'ionisation hétérogènes. Le 'leader' avance pas à pas, par bonds d'environ 50 mètres, en se ramifiant à chaque fois qu'il trouve un nouveau chemin conducteur. C'est pour ça que les éclairs sont bifurqués et fractals. La forme exacte d'un éclair est unique, comme un flocon de neige, jamais deux fois la même. Les éclairs nuage-sol sont les plus visibles, mais 80% des éclairs sont en réalité internes au nuage et invisibles depuis le sol."
+      }
+    ],
+    "related": ["pluie", "vent", "climat", "ocean", "ete", "halloween"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "arc-en-ciel",
+    "locale": "fr",
+    "keyword": "Arc-en-ciel",
+    "matchPatterns": ["arc-en-ciel", "rainbow", "couleurs", "lumiere", "prisme"],
+    "topic": "sciences",
+    "title": "L'arc-en-ciel — couleurs, optique & mythologie",
+    "description": "Tout sur l'arc-en-ciel : 7 couleurs, réfraction de la lumière, double arc, mythologie et pourquoi c'est si symbolique.",
+    "emoji": "🌈",
+    "intro": "L'arc-en-ciel c'est l'optique pure transformée en magie pour les yeux, et clairement le phénomène météo le plus aesthetic pour vos stories. Un arc-en-ciel se forme quand la lumière du Soleil traverse des gouttelettes d'eau en suspension dans l'atmosphère (pluie, brume, embruns, cascade). À l'intérieur de chaque goutte, la lumière subit trois phénomènes : la réfraction à l'entrée, la réflexion sur la face interne arrière, puis une nouvelle réfraction à la sortie. Comme chaque longueur d'onde (chaque couleur) est déviée d'un angle légèrement différent, le rayon blanc se décompose en un spectre continu de couleurs. Isaac Newton a démontré ça dès 1672 avec ses expériences sur le prisme, et a popularisé l'idée des 7 couleurs (rouge, orange, jaune, vert, bleu, indigo, violet) bien que ce soit en réalité un continuum infini. L'angle d'observation de l'arc-en-ciel primaire est de 42° par rapport au point antisolaire (l'ombre de ta tête). C'est pour ça qu'un arc-en-ciel apparaît toujours du côté opposé au Soleil, et qu'il est plus haut quand le Soleil est bas. Sur moomz les sondages 'photo d'arc-en-ciel = post insta obligé ?' montrent une vraie team aesthetic-spam. Les arcs-en-ciel doubles sont fréquents : le second arc, plus pâle et inversé en couleurs, se forme à 51° avec deux réflexions internes. La zone sombre entre les deux s'appelle la bande d'Alexandre.",
+    "sections": [
+      {
+        "h": "La science derrière les couleurs",
+        "body": "La décomposition de la lumière blanche en couleurs est due à un phénomène appelé dispersion. Chaque longueur d'onde du spectre visible (entre 380 et 700 nanomètres) est réfractée d'un angle légèrement différent quand elle traverse l'eau, qui a un indice de réfraction d'environ 1,33. Le rouge (700 nm) est dévié de 42°, le violet (400 nm) de 40°. Cette différence d'angle sépare les couleurs en arcs concentriques. L'œil humain perçoit principalement 7 catégories de couleurs (le fameux ROYGBIV en anglais), mais en réalité c'est un dégradé continu de millions de nuances. Newton a choisi 7 couleurs pour des raisons symboliques (lien avec les 7 notes de musique et les 7 jours de la semaine). Les arcs-en-ciel n'ont pas de fin : ils sont en réalité des cercles complets, mais on n'en voit que la moitié supérieure car la moitié inférieure est sous l'horizon. En avion, tu peux parfois voir l'arc-en-ciel complet à 360°. Au-dessus du violet et en-dessous du rouge se trouvent les UV et infrarouges, invisibles à l'œil mais bien présents."
+      },
+      {
+        "h": "Types d'arcs-en-ciel et phénomènes optiques",
+        "body": "Il existe plusieurs types d'arcs-en-ciel et de phénomènes liés. L'arc-en-ciel primaire est le plus brillant, formé par une seule réflexion interne dans la goutte. L'arc-en-ciel secondaire (plus pâle, couleurs inversées) provient de deux réflexions internes. Les arcs-en-ciel tertiaires et quaternaires existent mais sont extrêmement rares à observer. L'arc-en-ciel lunaire (moonbow) se forme la nuit avec la lumière de la pleine Lune, beaucoup plus pâle et souvent perçu en noir et blanc par l'œil humain peu sensible aux couleurs en faible luminosité. Le brouillard donne des arcs-en-ciel blancs (fogbow) car les gouttelettes sont si petites que les couleurs se mélangent. La gloire est un anneau coloré qu'on voit autour de l'ombre d'un avion ou de soi-même sur un nuage. Les halos solaires et lunaires sont causés par des cristaux de glace dans des cirrus en altitude. Sans oublier les sundogs (parhélies), faux soleils latéraux, et les arcs circumzénithaux les 'sourires du ciel'. Sur Vénus ou Titan, des arcs-en-ciel exotiques pourraient théoriquement exister avec d'autres liquides."
+      },
+      {
+        "h": "Symbolique et culture de l'arc-en-ciel",
+        "body": "L'arc-en-ciel est universellement associé à l'espoir, la paix et la diversité. Dans la Bible, il symbolise l'alliance entre Dieu et Noé après le Déluge. La mythologie grecque en fait le chemin d'Iris, messagère des dieux. Les Vikings y voient le Bifröst, le pont arc-en-ciel qui relie Midgard à Asgard, repris dans Thor de Marvel. La mythologie irlandaise place un pot d'or au pied de chaque arc-en-ciel, gardé par un lutin leprechaun. Depuis 1978, le drapeau arc-en-ciel créé par Gilbert Baker est devenu le symbole mondial de la communauté LGBTQ+ et de la diversité, avec ses 6 couleurs (Baker en avait dessiné 8 à l'origine). En 2020, l'arc-en-ciel est devenu le symbole de solidarité pendant la pandémie de Covid-19, accroché aux fenêtres avec le message 'Tout ira bien'. Côté musique, 'Over the Rainbow' de Judy Garland dans le Magicien d'Oz reste un classique intemporel, sans oublier 'Rainbow Connection' de Kermit la grenouille. Sur moomz, voir un arc-en-ciel après la pluie est le shot Instagram ultime avec un taux de like 3x supérieur à la moyenne."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi y a-t-il toujours 7 couleurs dans un arc-en-ciel ?",
+        "a": "En réalité, un arc-en-ciel contient un spectre continu de couleurs avec des millions de nuances entre le rouge et le violet. Isaac Newton a choisi 7 couleurs en 1672 pour des raisons symboliques et numériques : il voulait faire le parallèle avec les 7 notes de musique de la gamme diatonique et les 7 jours de la semaine. Les 7 couleurs officielles sont : rouge, orange, jaune, vert, bleu, indigo, violet (acronyme ROYGBIV en anglais). De nombreuses cultures voient un nombre différent : 6 dans certaines traditions américaines, 4 ou 5 au Japon traditionnellement, 3 chez certains peuples bantous."
+      },
+      {
+        "q": "Peut-on toucher un arc-en-ciel ou marcher dessous ?",
+        "a": "Non, c'est impossible. Un arc-en-ciel n'est pas un objet physique mais une illusion optique. Sa position dépend entièrement de l'angle entre le Soleil, les gouttelettes d'eau et l'observateur. Si tu te déplaces, l'arc-en-ciel se déplace aussi pour maintenir cet angle de 42°. Tu ne peux donc jamais l'atteindre. Deux personnes côte à côte voient en réalité chacune un arc-en-ciel légèrement différent, formé par des gouttes d'eau différentes. C'est pour ça que les légendes irlandaises parlent d'un pot d'or au pied de l'arc-en-ciel : impossible à trouver, parce qu'il n'existe pas vraiment à un endroit précis du sol."
+      },
+      {
+        "q": "Quand peut-on voir un arc-en-ciel ?",
+        "a": "Les conditions idéales : il faut du Soleil et de la pluie en même temps, avec le Soleil derrière toi (face à la pluie). Le Soleil doit être bas dans le ciel, à moins de 42° au-dessus de l'horizon, sinon l'arc serait sous le sol. Les meilleurs moments sont donc en début ou fin de journée. En été ils sont moins fréquents car le Soleil est haut. Les régions tropicales et les zones côtières voient le plus d'arcs-en-ciel. On peut aussi en créer artificiellement avec un jet d'eau au jardin face au Soleil, ou les observer dans la brume d'une cascade, ce qui en fait des spots photo recherchés (Niagara, Iguazu, Skogafoss en Islande)."
+      },
+      {
+        "q": "Pourquoi y a-t-il parfois deux arcs-en-ciel ?",
+        "a": "Le double arc-en-ciel se forme quand la lumière subit deux réflexions internes dans les gouttes d'eau au lieu d'une seule. Le second arc, situé à environ 51° d'angle (contre 42° pour le primaire), est toujours plus pâle car la lumière est partiellement perdue à chaque réflexion. Ses couleurs sont inversées : le rouge est à l'intérieur et le violet à l'extérieur (l'inverse du primaire). Entre les deux arcs se trouve une zone plus sombre appelée 'bande d'Alexandre' du nom du philosophe grec qui l'a décrite vers 200 apr. J.-C. Théoriquement, des arcs tertiaires et quaternaires existent mais sont extrêmement rares et très pâles."
+      }
+    ],
+    "related": ["pluie", "soleil", "foudre", "vent", "ocean", "noel"],
+    "updatedAt": "2026-05-19"
+  }
+]

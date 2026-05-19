@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "pizza",
+    "locale": "en",
+    "keyword": "pizza",
+    "matchPatterns": ["pizza", "pizzas", "pizzeria", "margherita", "pepperoni"],
+    "topic": "food",
+    "title": "Pizza Vibe Check: Rate Your Slice, Crust and Topping Energy",
+    "description": "Drop your favorite pizza style, crust and toppings and let moomz rate the vibe. Margherita, pepperoni, Hawaiian, Detroit, sourdough or frozen.",
+    "emoji": "🍕",
+    "intro": "Pizza is one of those foods that turns into a personality test the second you start arguing about toppings. Some people will defend pineapple to the death, others believe anything beyond mozzarella and basil is a war crime, and a surprisingly loud minority will tell you that the frozen pepperoni they eat at 2 a.m. is actually better than anything in Naples. The truth is, pizza has been a vibe since 1889, when pizzaiolo Raffaele Esposito reportedly created the Pizza Margherita in Naples to honor Queen Margherita of Savoy, using tomato, mozzarella and basil to mirror the red, white and green of the Italian flag. Since then, pizza has mutated into a thousand subcultures: thin Roman pizza al taglio, thick Sicilian sfincione, New York foldable slices, Chicago deep-dish, Detroit square pan, Neapolitan wood-fired, Japanese mayo-corn, Brazilian catupiry, and the divisive American chain experience built on phone-app deals and stuffed crust. Your pizza order says something about you, whether you like it or not. Margherita people want elegance and control. Pepperoni lovers are loyal and a little chaotic. Hawaiian fans either have a great sense of humor or terrible judgment, and frankly we are not here to decide. What we are here to do is rate the vibe. Drop your pizza style on moomz, pick your crust, your toppings, your sauce situation and your eating context, and let the community tell you if your slice is a 10 or a red flag. No gatekeeping, no Italian grandma in your DMs, just an honest vibe check on the most universally beloved food on the planet.",
+    "sections": [
+      {
+        "h": "Pizza styles, ranked by vibe",
+        "body": "Neapolitan pizza is the original prestige tier: soft, blistered, slightly soupy in the middle, and meant to be eaten with a knife and fork unless you really know what you are doing. New York style is the everyday icon, a foldable slice with a thin crust and a slightly sweet tomato sauce, perfect for eating while walking and pretending you have somewhere to be. Detroit style, with its caramelized cheese edges and rectangular pan, is the introvert's flex, a pizza that looks engineered rather than tossed. Chicago deep-dish is more of a casserole than a pizza, and you either accept that or fight about it forever. Roman pizza al taglio is the underrated overachiever, sold by weight, crispy on the bottom, light on top. Sicilian sfincione brings breadcrumbs, onions and anchovies, which is a whole personality. Then you have the chains: Domino's, Pizza Hut, Papa John's, Little Caesars, all optimized for speed, dopamine and 11 p.m. decisions. Frozen pizza deserves its own category, somewhere between comfort food and survival mode. On moomz, the question is never which one is objectively best. The question is, given your mood, your budget and the people you are eating with, did you pick the right vibe."
+      },
+      {
+        "h": "Toppings as red flags or green flags",
+        "body": "Toppings are where pizza becomes psychological warfare. Plain cheese is safe, almost suspiciously safe, like someone who never picks the restaurant. Pepperoni is the most ordered topping in the United States and signals a person who knows what they like and is not interested in your seasonal mushroom situation. Mushrooms, olives and peppers are the classic veggie trio for people who want to feel responsible. Pineapple, originating from the 1962 Hawaiian pizza invented by Sam Panopoulos in Canada, is either a sign of joy or a relationship dealbreaker, depending on who you ask. Anchovies are the topping equivalent of reading literary fiction in public, they say a lot. Honey on pepperoni is the new sweet-and-spicy power move. Truffle oil on a Friday night is fine. Truffle oil on a Tuesday is a cry for help. Pesto, ricotta, hot honey, soppressata, n'duja, and burrata are all upgrades that scream you have a Pinterest board for your kitchen. On moomz, drop your topping combo and watch the community decide if you are a tastemaker or simply unhinged. Bonus points for explaining your dipping sauce, because that is a whole second personality."
+      },
+      {
+        "h": "Pizza moments that actually matter",
+        "body": "Pizza is rarely just about food. It is about the moment around it. First date pizza is a test of how you handle cheese pulls and small talk at the same time. Office pizza is a corporate love language, the cardboard taste of being valued just enough. Birthday pizza, especially when you are tired of fancy restaurants, is a flex of self-knowledge. Breakup pizza is sacred. So is post-gym pizza, post-exam pizza, and the legendary 3 a.m. pizza after a night out that somehow always tastes better than anything you ordered sober. Family pizza night is a softcore traditional value most people quietly love. Solo pizza, eaten in bed with a series you have already seen, is therapy. Pizza parties at work meetings are mostly hostage situations. Each of these moments has a vibe, and the pizza you choose either matches or ruins it. On moomz, you can rate not just the pizza but the entire scene: who you ate it with, what you watched, whether it healed something. Pizza is a context food, and context is exactly what a vibe check is built to measure."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who actually invented pizza?",
+        "a": "Flatbreads with toppings existed in many ancient cultures, but modern pizza was born in Naples, Italy, in the 18th and 19th centuries. The Pizza Margherita is traditionally credited to pizzaiolo Raffaele Esposito in 1889, who is said to have made it for Queen Margherita of Savoy using tomato, mozzarella and basil to represent the Italian flag. UNESCO added the art of Neapolitan pizzaiuolo to its intangible cultural heritage list in 2017."
+      },
+      {
+        "q": "Is pineapple on pizza really that bad?",
+        "a": "Objectively, no. Hawaiian pizza was created in 1962 by Sam Panopoulos at the Satellite restaurant in Ontario, Canada, and it remains one of the most ordered pizzas worldwide. The sweet, salty and tangy combination of pineapple and ham works the same way many other sweet-savory dishes work. It is divisive mostly because pizza has strong cultural identity. On moomz, your taste is your taste, but expect some spicy comments."
+      },
+      {
+        "q": "What is the most popular pizza topping?",
+        "a": "In the United States, pepperoni is by far the most ordered topping, appearing on roughly one in three pizzas. In Italy, plain Margherita and marinara dominate, while in Brazil, catupiry cheese and chicken are common. In Japan, corn and mayonnaise toppings are popular. So the most popular topping really depends on which country you live in, but globally cheese-based and pepperoni-style pizzas lead the rankings."
+      },
+      {
+        "q": "Is frozen pizza actually good?",
+        "a": "Frozen pizza has come a long way. Brands like DiGiorno, Talia di Napoli, Roberta's and various wood-fired frozen lines now use real Neapolitan dough and proper ingredients. It will not replicate a fresh oven pie, but for a Tuesday night, it can be honest comfort food. The key is high oven heat, often hotter than the box suggests, and finishing it with fresh basil, chili oil or arugula to make it feel less industrial."
+      }
+    ],
+    "related": ["sushi", "mcdonalds", "ramen", "cheese", "netflix", "first-date"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "sushi",
+    "locale": "en",
+    "keyword": "sushi",
+    "matchPatterns": ["sushi", "sashimi", "maki", "nigiri", "omakase"],
+    "topic": "food",
+    "title": "Sushi Vibe Check: Rate Your Order, From Spicy Tuna to Omakase",
+    "description": "Drop your sushi order on moomz and let the vibe check it. California rolls, sashimi, omakase, grocery store trays or a serious Edomae night.",
+    "emoji": "🍣",
+    "intro": "Sushi is one of the most over-analyzed foods in the world, and somehow people still order spicy tuna rolls and call it a night. That is fine. There is no shame in your favorite chain spot, your grocery store tray, or the $300 omakase you posted on Instagram pretending the chef remembered you. What matters is the vibe. Modern sushi traces back to the Edo period in early 19th century Japan, where Hanaya Yohei in Edo, today's Tokyo, is widely credited with popularizing Edomae nigiri around 1824. Before that, sushi referred to fish preserved in fermented rice, a method called narezushi, which is closer to funky cheese than the clean bites you know now. Fast forward 200 years and sushi is a global identity, ranging from delicate hand-rolled temaki at a tiny counter to giant rainbow rolls drowned in spicy mayo, eel sauce and crunchy tempura flakes. Your sushi order says a lot. People who only order rolls are loud and fun. People who only order sashimi are either rich or pretending. Nigiri-only orders signal someone who reads menus carefully and probably has opinions about rice temperature. Omakase regulars are either chefs, finance kids or in their healing era. The point of moomz is not to gatekeep. Drop your order, your spot, your soy sauce technique and whether you mix wasabi into your soy sauce, which is technically a crime, and the community will tell you if your sushi vibe is elite, mid or chaotic. No purity tests, just an honest vibe check on a food that has gone fully global.",
+    "sections": [
+      {
+        "h": "Sushi styles you should actually know",
+        "body": "Nigiri is the OG: a small mound of vinegared rice topped with a slice of fish, often with a touch of wasabi between them. Sashimi is not sushi at all, technically, because it has no rice. It is just sliced raw fish, served with soy and wasabi, and respected by people who think rolls are for tourists. Maki rolls are seaweed-wrapped cylinders cut into bite-sized pieces, ranging from simple tekka maki, tuna and rice, to elaborate American inventions like the California roll, created in Los Angeles in the 1960s, often credited to chef Ichiro Mashita. Uramaki is the inside-out roll with rice on the outside, the home of the dragon roll, spicy salmon roll and rainbow roll. Temaki is the cone-shaped hand roll, eaten immediately while the seaweed is still crisp. Chirashi is sashimi scattered over a bowl of sushi rice, a great solo lunch. Omakase translates roughly to I will leave it up to you, and refers to an experience where the chef decides the course. Done right, it is theater. Done poorly, it is a tasting menu with an attitude."
+      },
+      {
+        "h": "Reading someone by their sushi order",
+        "body": "The sushi order is one of the cleanest personality tests we have. Salmon nigiri only is the I do not want to overthink it order. Spicy tuna roll is comfort food, the chicken nugget of sushi. Eel, or unagi, is for people who are quietly fancy. Uni, sea urchin, is for people who want you to know they are advanced, even if they secretly find it weird. A boat of rolls covered in sauces, crunch and torched cheese is for groups, birthdays and Instagram. Sashimi platters with cucumber slices and no rice are usually ordered by people who say things like I am being good this week. Omakase regulars often refuse to take photos and want the lights low. Vegetarian sushi, including avocado rolls, kappa maki and pickled gobo, used to be a sad afterthought but is now a real category, especially in Japan and at modern plant-forward spots. None of these orders are wrong. They just give very different signals. On moomz, the vibe check is about whether your order matches your energy, your spot and the moment."
+      },
+      {
+        "h": "Sushi etiquette without the lecture",
+        "body": "Sushi has rules, but most of them are softer than the internet pretends. You can eat nigiri with your hands. In fact, in many traditional places, that is preferred. When dipping nigiri, flip it so the fish touches the soy sauce, not the rice, otherwise the rice falls apart and absorbs too much salt. Do not mix wasabi into your soy sauce in a serious sushi-ya; the chef has already balanced the wasabi in your nigiri. Ginger is a palate cleanser between pieces, not a topping. Eat each piece in one bite when possible. Say thank you to the chef directly if you are at a counter. That said, at a casual conveyor belt spot or a grocery store tray on your lunch break, none of this matters. Sushi etiquette is context dependent. Knowing when to be strict and when to be chill is part of the vibe. On moomz, share whether your sushi night was full omakase ceremony or a tray on the couch with a series, and let the community rate the energy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does sushi actually come from?",
+        "a": "Sushi originated as a fish preservation method in Southeast Asia and reached Japan over a thousand years ago. The modern hand-pressed style, Edomae nigiri, emerged in the early 1800s in Edo, today's Tokyo. Chef Hanaya Yohei is often credited with popularizing it around 1824 as fast food sold from stalls near the bay. So the sushi you know today is roughly 200 years old, not ancient."
+      },
+      {
+        "q": "Is the California roll real sushi?",
+        "a": "Yes, in the sense that it is sushi, just not Japanese in origin. It was created in Los Angeles in the 1960s, often credited to chef Ichiro Mashita at the Tokyo Kaikan, using avocado as a substitute for fatty tuna and inverting the roll to hide the seaweed from American diners. It is now eaten worldwide, including in Japan, and is considered a classic of fusion sushi."
+      },
+      {
+        "q": "Is grocery store sushi safe to eat?",
+        "a": "Generally yes, if the store has high turnover and proper refrigeration. The main risk is not parasites, which are usually killed by required freezing for raw fish, but bacterial growth in rice held too long at room temperature. Eat it the day you buy it, keep it cold, and avoid anything that smells off. Vegetable, cooked shrimp and smoked salmon rolls are safer choices than raw fish trays for travel or long commutes."
+      },
+      {
+        "q": "What does omakase actually mean?",
+        "a": "Omakase loosely translates to I will leave it up to you. At a sushi counter, it means the chef chooses your pieces based on what is best that day, usually serving them one at a time in a specific order, from lighter to richer fish. Prices range from affordable neighborhood omakase under fifty dollars to high-end Edomae experiences over five hundred. It is as much about trust and pace as it is about food."
+      }
+    ],
+    "related": ["pizza", "ramen", "coffee", "tokyo", "first-date", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "coffee",
+    "locale": "en",
+    "keyword": "coffee",
+    "matchPatterns": ["coffee", "espresso", "latte", "cappuccino", "cold brew"],
+    "topic": "food",
+    "title": "Coffee Vibe Check: Rate Your Order, From Espresso to Iced Latte",
+    "description": "Drop your coffee order on moomz. Espresso, oat milk latte, cold brew, drip, V60 or a syrupy chain drink. Honest vibes only, no coffee snobbery.",
+    "emoji": "☕",
+    "intro": "Coffee is the only legal drug most adults schedule their entire morning around, and somehow we still pretend it is just a drink. It is not. Your coffee order is a personality, a class signal, a coping mechanism and a routine all at once. Coffee originally comes from Ethiopia, specifically the Kaffa region, where legend says a goat herder named Kaldi noticed his goats getting hyper after eating the red berries of a certain shrub. The plant traveled through Yemen, where Sufi monks used it to stay awake during long prayers, then into the Ottoman Empire, Europe and eventually the world. Today, around 2 billion cups of coffee are consumed every day, with Finland leading per-capita consumption and Brazil dominating global production. There are roughly two main commercial species, Arabica and Robusta, and an entire third wave of independent roasters who will tell you about altitude, varietal, fermentation method and the farmer's first name. On moomz, the goal is not to make you feel bad about your caramel cold foam syrup drink. Both an Ethiopian Yirgacheffe pour-over and a fully customized iced chain order can be valid. What matters is whether your coffee actually fits your morning. Drop your order, your brewing method, your milk choice and the time you usually drink it, and let the community vibe check it. Some orders heal, some orders are just sugar in a cup. Both are honest. Let's rate the truth.",
+    "sections": [
+      {
+        "h": "The main coffee orders, decoded",
+        "body": "Espresso is the base of most cafe drinks, a small, concentrated shot pulled under pressure, traditionally about 25 to 30 milliliters in 25 to 30 seconds. Black, no sugar, it is the order of people who either love coffee or want you to think they do. Americano is espresso lengthened with hot water, popular in the US and the spiritual cousin of filter coffee. Cappuccino is one third espresso, one third steamed milk, one third foam, ideally drunk in the morning if you ever want an Italian to respect you. Latte is more milk, less foam, the comfort blanket of coffee. Flat white, with its silky microfoam, has become the global default for people who want espresso flavor with just enough milk. Cortado, macchiato and piccolo are all variations on the espresso-to-milk ratio theme. Then you have filter coffee, drip, French press, V60, AeroPress, Chemex, all designed to extract different notes from the same beans. Cold brew, steeped for 12 to 24 hours in cold water, is smoother and less acidic. Iced lattes, frappes and sweetened seasonal drinks are their own emotional support category."
+      },
+      {
+        "h": "Reading someone by their coffee",
+        "body": "Black espresso person: probably grumpy, probably efficient, probably has at least one strong opinion about your phone. Oat milk latte person: emotionally aware, owns plants, has a therapist or wants one. Cold brew with no sugar: someone who used to drink sweet drinks and is now performing growth. Iced caramel macchiato with extra syrup: chaotic gremlin energy, would absolutely buy concert tickets at 11 p.m. Frappuccino with whipped cream and drizzle: not even pretending it is coffee, this is dessert with caffeine and it is fine. Filter coffee black, in a thermos: practical, mid-career, has hobbies. Pour-over geek with a kitchen scale and a kettle they imported: deep in the third wave, dangerous to small talk with. Decaf espresso: secret hero. Bulletproof coffee with butter: 2017 bro energy, somehow still going. None of these is wrong. They tell you about people's relationship with mornings, routine and indulgence. On moomz, the vibe check is whether your coffee order matches your actual life, or whether you are roleplaying."
+      },
+      {
+        "h": "Coffee places that actually matter",
+        "body": "The chain era is real. Starbucks alone has more than 35,000 stores worldwide, and chains like Tim Hortons, Costa, Dunkin', Luckin' and % Arabica have shaped how most people drink coffee. They are predictable, fast and emotionally consistent. Independent cafes are where the third wave lives: single-origin pour-overs, slow bars, latte art that costs five dollars, and baristas who quietly judge your sugar intake. Italian bars, where a standing espresso costs around 1.20 euros and is drunk in 90 seconds, are still the most efficient coffee experience on earth. Australian-style cafes have exported the flat white and brunch culture globally. Specialty roasters like Tim Wendelboe in Oslo, La Cabra in Copenhagen, Onyx in Arkansas, Verve in California, and many others, are temples for nerds. Working from a cafe is a lifestyle choice. Getting coffee with someone is a first-date strategy, a breakup buffer and a friendship maintenance ritual all at once. On moomz, you can rate not just the cup but the place and the moment around it."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does coffee originally come from?",
+        "a": "Coffee originates from the Kaffa region of Ethiopia, where the coffee plant grew wild. Legend says a goat herder named Kaldi discovered its effects after his goats ate the cherries. Cultivation and brewing as a drink developed in Yemen by the 15th century, especially among Sufi communities. From there, coffee spread to the Ottoman Empire, then to Europe in the 17th century, and eventually to plantations across Latin America, Africa and Asia."
+      },
+      {
+        "q": "Arabica or Robusta, what is the difference?",
+        "a": "Arabica accounts for about 60 percent of global production, grows at higher altitudes and has more complex, often fruity or floral flavors with lower caffeine. Robusta grows at lower altitudes, is hardier, more bitter, has nearly twice the caffeine and is common in espresso blends, especially in Italy and Vietnam. Specialty coffee is almost entirely Arabica, but a small percentage of high-quality Robusta is now appearing in the third-wave scene."
+      },
+      {
+        "q": "Is coffee actually good or bad for you?",
+        "a": "Most current research suggests that moderate coffee consumption, about three to four cups per day, is associated with lower risks of several conditions, including type 2 diabetes, Parkinson's and certain liver diseases. The main downsides are sleep disruption, anxiety in sensitive people, and dental staining. Pregnant people are usually advised to limit caffeine. Adding large amounts of sugar and syrup changes the health profile significantly, regardless of the coffee itself."
+      },
+      {
+        "q": "What is the best way to brew coffee at home?",
+        "a": "There is no single best way, only the one that matches your taste and effort. French press is forgiving and full-bodied. AeroPress is fast and clean. V60 and Chemex pour-overs reward attention and good beans with bright, clear cups. Espresso machines are the most expensive and finicky. Drip machines are easy and consistent. The biggest upgrade for most people is fresh beans from a local roaster, a burr grinder, and using a kitchen scale."
+      }
+    ],
+    "related": ["wine", "chocolate", "croissant", "first-date", "paris", "instagram"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "wine",
+    "locale": "en",
+    "keyword": "wine",
+    "matchPatterns": ["wine", "red wine", "white wine", "rose", "natural wine"],
+    "topic": "food",
+    "title": "Wine Vibe Check: Rate Your Bottle, From Natural Orange to Cheap Red",
+    "description": "Drop your wine choice on moomz. Natural, biodynamic, supermarket red, fancy Burgundy or a tropical white. Honest vibes, no sommelier energy.",
+    "emoji": "🍷",
+    "intro": "Wine is the world's most pretentious comfort drink. It has been around for about 8,000 years, with the earliest evidence of winemaking found in modern Georgia, dating to around 6,000 BC in clay vessels called qvevri. Since then, wine has been religion, status, agriculture, science and at least 60 percent of restaurant markup. Today, wine is having an identity crisis. On one side, you have natural and orange wines, low intervention, often cloudy, sometimes funky, championed by tattooed sommeliers in small bistros. On the other, classic Bordeaux, Burgundy, Barolo and Napa, sold for prices that no longer match reality. And then there is the actual majority of wine consumption, which is just bottles between five and fifteen dollars that people drink on Tuesdays with pasta. All of that is fine. On moomz, you can drop your bottle, your grape, your region, your context, whether it was a date, a dinner party, a solo bath night or a slightly aggressive Sunday lunch, and let the community vibe check it. The goal is not to teach you the difference between Pinot Noir and Pinot Gris, although we will sneak that in. The goal is to honestly rate whether your wine moment was elite, comforting, regrettable or trying too hard. Because the truth is most wine snobbery is performance, and most great wine moments are about the people, the food and the mood as much as the bottle itself.",
+    "sections": [
+      {
+        "h": "Wine styles you should know",
+        "body": "Red wine, made from dark-skinned grapes with the skins, ranges from light and juicy Beaujolais, to silky Pinot Noir, to medium-bodied Chianti, to bold Malbec, Syrah, Cabernet Sauvignon and Barolo. White wine, made without skins, includes crisp Sauvignon Blanc, fruity Riesling, buttery Chardonnay, mineral Chablis and aromatic Gewurztraminer. Rose is made from red grapes with very short skin contact and ranges from pale Provence rose to deeper, fruitier styles. Sparkling wine includes Champagne from France, Prosecco from Italy, Cava from Spain and a growing world of traditional method sparkling from England, Germany, the US and Australia. Orange wine is white grapes fermented with skins on, often funky and tannic. Natural wine is made with minimal intervention, native yeasts, no or low added sulfites, and can be cloudy, lightly fizzy or surprisingly clean. Fortified wines like Port, Sherry and Madeira have spirits added and higher alcohol. Each style fits different foods and moods, which is half the fun of vibe-checking a bottle."
+      },
+      {
+        "h": "Reading someone by their wine",
+        "body": "Natural wine person: lives in a city with bike lanes, owns a vintage tee, knows three small importers by name. Bordeaux loyalist: has opinions about vintages, often a man over 45 who calls Burgundy 'overpriced' while drinking Bordeaux that costs more. Rose all summer crowd: vacation energy, group chats, beach houses, brunch. Champagne for everything: either rich, on a date, or recently promoted, sometimes all three. Supermarket Malbec at home: stable, unbothered, has favorite snacks. Sweet white or moscato fan: usually honest about liking sweet things and not pretending to be a sommelier. Box wine: low-key icon move, especially for picnics and parties. Orange wine: usually paired with a strong opinion about pickled vegetables. None of these is bad. Wine is one of those drinks where pretending you like the right thing is worse than just owning your actual taste. On moomz, the vibe check is about whether your wine choice fits the moment, the food and the people around you, not whether some app gave it 92 points."
+      },
+      {
+        "h": "Wine and food, made simple",
+        "body": "Forget rigid rules. The most useful pairing principle is matching intensity: light wines with light food, bold wines with bold food. Acidic wines like Sauvignon Blanc, Chablis or Champagne cut through fatty foods, which is why they work with fried chicken, oysters and creamy pasta. Tannic reds like Cabernet, Malbec and Barolo love red meat and aged cheese, because tannins bind to protein and fat. Pinot Noir is the universal team player, working with salmon, mushrooms, roast chicken and charcuterie. Sweet wines pair surprisingly well with spicy food, including Thai, Indian and Sichuan. Rose handles charcuterie, salads, grilled vegetables and most summer food. Sparkling wine is one of the best food wines on earth, partly because the bubbles and acidity reset your palate. For pizza, an Italian red like Chianti or Aglianico is almost always right. For sushi, dry sparkling, Riesling or a clean white works better than red. On moomz, you can rate not just the bottle but the pairing, the night and the people you shared it with."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where was wine actually invented?",
+        "a": "The oldest known evidence of winemaking comes from modern Georgia, where archaeologists found residue in clay vessels called qvevri dating to about 6,000 BC. Iran and Armenia also have very early evidence, including a 6,100-year-old winery in Armenia. From the Caucasus, wine spread through the Mediterranean via the Phoenicians, Greeks and Romans, and eventually to the rest of the world through European colonization and modern global trade."
+      },
+      {
+        "q": "Is natural wine actually better?",
+        "a": "Natural wine is not automatically better, just made differently. It uses organic or biodynamic grapes, native yeasts, minimal sulfites and little to no filtering. The results can be exciting and original, but also inconsistent, with some bottles tasting funky or unstable. Conventional wine is more predictable and often cleaner. The honest answer is taste, vibe and price matter more than the label. On moomz, your preference is your preference."
+      },
+      {
+        "q": "How much should I spend on a good bottle?",
+        "a": "For everyday drinking, the sweet spot in most countries is roughly 12 to 25 dollars or euros. Below that, quality is variable but you can still find solid bottles, especially from Portugal, Spain, southern Italy, Chile and Argentina. Above 50, you are paying for region, prestige, scarcity and ageing potential more than quality jumps. The biggest upgrade is usually buying from a real wine shop rather than a supermarket and asking the staff for help."
+      },
+      {
+        "q": "Does red wine really need to breathe?",
+        "a": "Some red wines benefit from air, especially young tannic reds and big Bordeaux, Barolo or Napa Cabernets. Decanting them for 30 to 60 minutes softens tannins and opens up aromas. Light reds like Beaujolais or basic Pinot Noir do not need it. Whites and roses rarely need decanting, although serving them slightly less cold than refrigerator temperature, around 10 to 12 Celsius, usually improves flavor significantly."
+      }
+    ],
+    "related": ["cheese", "coffee", "chocolate", "paris", "first-date", "wedding"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "chocolate",
+    "locale": "en",
+    "keyword": "chocolate",
+    "matchPatterns": ["chocolate", "dark chocolate", "milk chocolate", "cacao", "cocoa"],
+    "topic": "food",
+    "title": "Chocolate Vibe Check: Rate Your Bar, From Dark 90% to Milk and Snickers",
+    "description": "Drop your chocolate of choice on moomz. Dark, milk, white, single-origin, supermarket bar or candy aisle classic. Honest vibes only.",
+    "emoji": "🍫",
+    "intro": "Chocolate is one of those foods that pretends to be simple but is actually 3,500 years of history, agriculture and politics in one bar. It started in Mesoamerica with the Olmecs, around 1500 BC, who were among the first to use cacao. The Mayans turned it into a sacred bitter drink, and the Aztecs called it xocolatl, often mixed with chili, vanilla and water. After Spanish colonization in the 16th century, cacao traveled to Europe, where sugar was added and it became the sweet treat we now obsess over. Industrial chocolate as we know it was shaped by Swiss innovators like Daniel Peter, who created milk chocolate in 1875, and Rodolphe Lindt, whose conching machine in 1879 made smooth chocolate possible. Today, chocolate is a 100-billion-dollar industry, with West Africa, especially Ivory Coast and Ghana, producing more than half the world's cocoa, often under deeply problematic labor conditions. Meanwhile, craft chocolate makers obsess over single-origin beans, bean-to-bar processes and percentage cacao. Then there is the candy aisle: Snickers, Twix, KitKat, Reese's, Cadbury, Milka, Kinder, Toblerone, Hershey's, all of which are technically chocolate, all of which are emotionally important. On moomz, you can drop your favorite chocolate, your eating moment and your honest opinion on dark versus milk, and let the community vibe check it. We are not here to shame your chocolate fountain phase. We are here to rate it.",
+    "sections": [
+      {
+        "h": "Types of chocolate, explained without snobbery",
+        "body": "Dark chocolate contains cocoa solids, cocoa butter and sugar. Anything labeled 70 percent or above is considered dark, and the higher the number, the more bitter and less sweet. Milk chocolate adds milk powder or condensed milk and usually has between 25 and 40 percent cocoa, making it sweeter, creamier and the global favorite. White chocolate has no cocoa solids at all, only cocoa butter, sugar and milk, which is why purists complain it is not real chocolate. It still is, technically. Ruby chocolate, launched in 2017 by Barry Callebaut, is made from specific ruby cocoa beans and has a naturally pink color and fruity flavor. Single-origin chocolate uses beans from one country or even one estate, highlighting flavor differences in the way wine highlights terroir. Bean-to-bar makers handle every step, from roasting to molding, often producing more transparent and ethical chocolate. Industrial chocolate from big brands tends to use blends, vegetable fats, and additives optimized for shelf life and consistency. None is automatically wrong, but the gap in flavor between a craft 70 percent bar and a vending machine version is real."
+      },
+      {
+        "h": "Reading someone by their chocolate",
+        "body": "Dark chocolate 85 percent and up: serious, sometimes pretending, often says they are not really into sweets. Milk chocolate loyalist: emotionally honest, comfort-oriented, probably nice to babies and dogs. White chocolate fan: small but loyal group, often loves caramel and vanilla, sometimes secretly the most fun. Single-origin bar with a tasting note card: deep in the food nerd world, may also drink natural wine and pour-over coffee. KitKat in the office drawer: stress eater with a system. Snickers regular: hungry man energy, no apologies. Reese's peanut butter cup fan: chaotic comfort, would absolutely choose dessert before dinner. Kinder Bueno crowd: nostalgia driven, very romantic, often European. Lindor balls in a fancy bowl: hosting energy, slightly suburban, very welcoming. Toblerone at the airport: travel ritual, somewhere between gift and personal reward. None of these is shameful. Chocolate is one of the most emotional foods in the world, and on moomz, your vibe is just as important as the cacao percentage."
+      },
+      {
+        "h": "Chocolate moments worth rating",
+        "body": "Chocolate is rarely just a snack. It is a moment. Period chocolate, the bar that lives in the kitchen drawer for exactly the right day. Breakup chocolate, often a full family-size bar, eaten standing up. First-date chocolate, usually a small assortment box that says I think you are worth more than five dollars but not too much pressure. Valentine's chocolate, an entire industry by itself, where heart-shaped boxes do more emotional labor than most relationships. Travel chocolate, like Swiss bars from a duty-free shop, Belgian pralines or a fancy supermarket find from Tokyo. Children's chocolate, the small individually wrapped pieces in advent calendars and birthday party goodie bags. Late-night kitchen chocolate, eaten in pajamas with the fridge light as your only friend. On moomz, you can rate not just the chocolate but the entire context. A 90 percent single-origin bar eaten alone is one vibe, a Snickers grabbed at a gas station on a road trip is another. Both can be a 10 if the moment is right."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does chocolate come from originally?",
+        "a": "Chocolate comes from cacao, native to Central and South America. The Olmec civilization in Mesoamerica, around 1500 BC, was among the first to use cacao. The Maya and later the Aztecs developed it into a bitter ceremonial drink called xocolatl. Spanish colonizers brought cacao to Europe in the 16th century, where sugar transformed it into the sweet form we know today. Most cacao is now grown in West Africa, especially Ivory Coast and Ghana."
+      },
+      {
+        "q": "Is dark chocolate actually good for you?",
+        "a": "Dark chocolate with high cocoa content contains flavonoids and antioxidants, and studies link moderate consumption to small improvements in cardiovascular markers, blood pressure and mood. The benefits are modest and easily cancelled by added sugar and large portions. Most experts suggest about 20 to 30 grams of 70 percent or higher dark chocolate per day. Milk and white chocolate have far less cocoa, so the health framing mostly disappears."
+      },
+      {
+        "q": "What does the percentage on a chocolate bar mean?",
+        "a": "The percentage refers to the total cocoa content, including cocoa solids and cocoa butter, by weight. A 70 percent bar is 70 percent cocoa and roughly 30 percent sugar plus other ingredients. Higher percentages are more bitter and intense. It does not always mean better quality, since two 70 percent bars from different makers can taste completely different depending on bean origin, roasting and conching. Quality is about beans and process, not just percentage."
+      },
+      {
+        "q": "Is white chocolate really chocolate?",
+        "a": "Legally, in most countries, yes. White chocolate must contain a minimum amount of cocoa butter, milk solids and sugar, but no cocoa solids. Because it lacks the brown cocoa solids, it is much milder and creamier. Purists argue it does not taste like chocolate because it has no chocolate flavor in the classic sense. Good white chocolate, made with real cocoa butter and vanilla, can still be excellent, especially in desserts and pastries."
+      }
+    ],
+    "related": ["coffee", "wine", "ice-cream", "donut", "valentines", "first-date"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "cheese",
+    "locale": "en",
+    "keyword": "cheese",
+    "matchPatterns": ["cheese", "cheddar", "brie", "camembert", "parmesan"],
+    "topic": "food",
+    "title": "Cheese Vibe Check: Rate Your Plate, From Brie to Blue and Cheddar",
+    "description": "Drop your cheese choice on moomz. Brie, camembert, cheddar, blue, parmesan, halloumi or supermarket slices. Honest vibes only.",
+    "emoji": "🧀",
+    "intro": "Cheese is one of the few foods where the entire personality of a country can fit on a wooden board. France alone has hundreds of cheeses, Italy and Spain have entire traditions, the UK basically runs on cheddar, the Netherlands invented the wax wheel aesthetic, and the United States made the most divisive cheese product in modern history, processed cheese slices. Cheese has been around for at least 7,000 years, with early evidence of dairy fermentation in Poland and the Middle East. Most cheeses come from cow, goat, sheep or buffalo milk, with each animal giving distinct flavor and texture. From soft and bloomy like Brie, Camembert and Saint-Marcellin, to hard and aged like Parmigiano Reggiano, Comte and aged Gouda, to washed-rind funky like Epoisses, Munster and Taleggio, to blue veined like Roquefort, Stilton and Gorgonzola, the spectrum is huge. Then there are the everyday workhorses: cheddar, mozzarella, feta, halloumi, paneer, ricotta and the cottage cheese revival that took over social media in the 2020s. Cheese is also an emotional food. A wheel of Brie at a party, a plate of cheese after dinner instead of dessert, a grilled cheese on a sad Sunday, a melted raclette on a cold night. On moomz, the vibe check is not about whether you know the difference between affine and frais. It is about whether your cheese choice and your moment match. Drop your favorite, your eating context, and let the community decide.",
+    "sections": [
+      {
+        "h": "Cheese families, from soft to funky",
+        "body": "Fresh cheeses, like mozzarella, ricotta, burrata, feta and cottage cheese, are young, often mild, and great in salads, on toast or with fruit. Bloomy rind cheeses, like Brie, Camembert and Saint-Marcellin, have a soft white edible rind from Penicillium mold and a creamy interior. Washed rind cheeses, like Epoisses, Munster, Taleggio and Reblochon, are washed in brine, beer or wine, and develop strong, sometimes funky aromas. Semi-hard cheeses, like Gouda, Edam, Manchego, Cantal and Tomme, age longer and develop deeper flavors. Hard cheeses, like Parmigiano Reggiano, Pecorino Romano, Comte, Beaufort, Gruyere and aged cheddar, are pressed and aged for months or years, with crystalline crunch and complex flavors. Blue cheeses, like Roquefort, Stilton, Gorgonzola and Fourme d'Ambert, are inoculated with Penicillium roqueforti to develop blue or green veins and an intense salty, tangy taste. Goat cheeses range from fresh and lemony chevre to aged crottin. Sheep cheeses, like Manchego, Pecorino and Roquefort, tend to be richer and grassier."
+      },
+      {
+        "h": "Cheese and people, decoded",
+        "body": "Brie at every dinner: classic, romantic, slightly safe, but always works. Aged comte fanatic: nerdy, often into wine, owns a real cheese knife. Cheddar block in the fridge: practical, often British or American, makes great toasties. Goat cheese on salads: brunch person, healthy in theory, fun in practice. Blue cheese lover: divisive personality, strong drinks, strong opinions. Mozzarella and tomato simple meal person: knows how to cook even when not trying. Burrata Instagram crowd: brunch in cities, white plates, olive oil shot. Raclette and fondue in winter: group energy, comfort, snow vibes. Halloumi grill fan: gym brunch, Mediterranean trips, fresh tomato salads. Processed slice on white bread: nostalgic, no shame, sometimes the best comfort food. Cottage cheese on toast with everything: fitness era, but also a return to grandma's kitchen. None of these is wrong. Cheese, like wine, is about matching the moment. On moomz, you can rate your last cheese plate, your last grilled cheese, your last cheese-related decision."
+      },
+      {
+        "h": "How to actually build a cheese plate",
+        "body": "A great cheese plate has variety in milk, texture and intensity, not just brand names. Aim for three to five cheeses: one soft (Brie, Camembert), one semi-hard (Comte, Manchego, aged Gouda), one blue (Roquefort, Stilton, Gorgonzola), and optionally one fresh (goat, burrata) and one funky (Epoisses, Taleggio). Take cheese out of the fridge at least 30 minutes before serving so it can wake up. Pair with neutral bread or crackers, something sweet like fig jam, honey or quince paste, something acidic like cornichons or pickled onions, fresh fruit like grapes, figs, apples or pears, and nuts. For drinks, sparkling wine works with almost everything, white wines pair with creamy and goat cheeses, red wines suit aged hard cheeses, and dessert wines like Sauternes or Port pair beautifully with blue. Slice hard cheeses thin, leave soft cheeses whole with a knife, and label each cheese for guests who want to know what they are eating. On moomz, you can vibe check your cheese plate, your hosting energy, and whether you brought the right wine."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which country has the most cheeses?",
+        "a": "France is generally considered to have the most distinct cheeses, with over 1,200 varieties depending on how you count regional differences. Italy, Switzerland, the UK, Spain, Greece and the Netherlands also have rich cheese traditions. Charles de Gaulle famously joked that no one can govern a country with 246 cheeses, although the real count is much higher. Globally, dairy traditions vary widely, from Indian paneer and Mexican queso fresco to Caucasian sulguni."
+      },
+      {
+        "q": "Why does some cheese smell so strong?",
+        "a": "Strong-smelling cheeses, like Epoisses, Munster, Limburger and Roquefort, develop their aromas from specific bacteria and molds during aging. Washed-rind cheeses often share bacteria, Brevibacterium linens, with human skin, which is why some smell similar to feet. Blue cheeses use Penicillium roqueforti, the same family as the mold that makes penicillin. Despite the smell, the flavor is often much milder and more complex than expected. Smell intensity is not the same as taste intensity."
+      },
+      {
+        "q": "Is processed cheese real cheese?",
+        "a": "Legally, in most countries, processed cheese must contain real cheese as a base, but it is mixed with emulsifiers, milk solids, salt and sometimes additional fats. The result is smoother melting, longer shelf life and a uniform flavor, but a less complex taste than traditional cheese. Brands like Kraft, Velveeta and many supermarket slices fall into this category. Real cheese lovers often dismiss it, but for grilled cheese, burgers and certain comfort food, processed cheese is unmatched."
+      },
+      {
+        "q": "Can you eat cheese rind?",
+        "a": "Most natural rinds are edible, including bloomy rinds like Brie and Camembert, washed rinds like Taleggio, and natural rinds on aged cheeses like Comte. Wax rinds, like the red coating on Edam or Gouda, and cloth bandages on traditional cheddar, should be removed. Some rinds are safe but have intense flavors you may prefer to skip. When in doubt, taste a small piece. There is no health risk with proper traditional rinds, only personal preference."
+      }
+    ],
+    "related": ["wine", "pizza", "croissant", "paris", "first-date", "wedding"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "croissant",
+    "locale": "en",
+    "keyword": "croissant",
+    "matchPatterns": ["croissant", "croissants", "pain au chocolat", "viennoiserie", "boulangerie"],
+    "topic": "food",
+    "title": "Croissant Vibe Check: Rate Your Bakery Run, From Butter to Almond",
+    "description": "Drop your croissant on moomz. Classic butter, almond, pain au chocolat, supermarket pack or Parisian boulangerie. Honest vibes only.",
+    "emoji": "🥐",
+    "intro": "The croissant is one of the most overachieving breakfast objects on earth. It looks simple, but it is layered dough, butter, fermentation, folding and time, all engineered to produce that signature flaky, airy, golden result that ruins your shirt in the best way. Despite being treated as the symbol of France, the croissant has Austrian roots. Its ancestor, the kipferl, was a crescent-shaped pastry eaten in Austria as early as the 13th century. The modern flaky butter croissant emerged in 19th century France, after Austrian officer August Zang opened a Viennese bakery in Paris in the 1830s, introducing kipferl-style pastries that French bakers later transformed using laminated yeast dough. By the early 1900s, the croissant as we know it, with dozens of buttery layers, had become a Parisian staple. Today, it is global. You can buy a croissant in Tokyo bakeries that rival Paris, in New York spots where people line up at 8 a.m., in Mexico City, Sydney and Seoul, where the cronut, a croissant-donut hybrid created by Dominique Ansel in 2013, became a global craze. On moomz, the croissant vibe check is about more than the pastry. It is about the bakery, the time of day, the coffee that came with it, the city, and whether you ate it inside or while pretending to be busy on a bench. Drop your croissant story and we will rate the whole scene.",
+    "sections": [
+      {
+        "h": "Croissants and their cousins",
+        "body": "The plain butter croissant, croissant au beurre, is the gold standard: pure butter laminated into yeasted dough, baked until shatteringly crisp on the outside, soft and stretchy inside. Croissant ordinaire uses margarine or vegetable fat and is cheaper, found in many supermarkets and chains. Pain au chocolat, also called chocolatine in southwest France, is a rectangular laminated pastry with one or two batons of dark chocolate inside. Almond croissant is usually a day-old croissant filled with almond cream and topped with sliced almonds and powdered sugar, originally a way to use up unsold pastries. Pain aux raisins is a snail-shaped pastry with raisins and creme patissiere. Pain suisse adds creme patissiere and chocolate chips, while a Kouign-amann is a Breton laminated pastry caramelized with sugar. The cronut, invented in 2013 by Dominique Ansel in New York, is a fried laminated dough hybrid that broke the internet. Each variation is its own world. On moomz, you can rate your favorite and let the community argue about whether almond croissant counts as a real croissant."
+      },
+      {
+        "h": "Reading a croissant in three bites",
+        "body": "A great croissant has a specific anatomy. The exterior should be deeply golden, almost mahogany, with visible spirals or layers and a crackly surface that shatters when you tear it. The interior should be honeycomb-like with large irregular holes and a stretchy, glossy structure, not dense and bready. The aroma should hit you immediately, butter, caramelized sugars and a hint of yeast. The taste should be rich but balanced, with a slight salty edge, never greasy. A flat, pale, doughy croissant is usually under-laminated and under-baked. A heavy, dense one is often made with margarine. A perfect bite leaves you with crumbs on your shirt, sometimes on your face, and a small flake or two on your phone screen. That is part of the experience. On moomz, you can rate the bakery, the country, the time of day and whether your croissant was eaten hot from the oven or three hours later with reheated coffee, because the timing matters almost as much as the dough."
+      },
+      {
+        "h": "Croissant moments around the world",
+        "body": "Paris croissants are obviously the benchmark, with bakeries like Du Pain et des Idees, Mamiche, Cyril Lignac, Maison Pichard, Tout Autour du Pain and many more competing for the city's best. London has Pophams, Jolene, and a strong sourdough croissant scene. New York runs on Lafayette, Maman, Arcade and Dominique Ansel. Tokyo's level is genuinely elite, with bakeries like Gontran Cherrier and Maison Kayser delivering Parisian-level pastry, plus uniquely Japanese twists like matcha croissants and curry-filled versions. Sydney and Melbourne have a strong specialty cafe culture where croissants are paired with flat whites. In Spain, especially Barcelona, croissants are often slightly sweeter and the city even hosts a 'best croissant in Spain' competition. Beyond cities, supermarket croissants, gas station croissants and frozen-bake croissants are their own honest category. Some are surprisingly good, especially from frozen brands made in France. On moomz, the vibe check is not just the pastry, it is the city, the cafe, the company and the morning you built around it."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is the croissant actually French?",
+        "a": "Not originally. Its ancestor is the Austrian kipferl, a crescent-shaped pastry eaten since at least the 13th century. The modern croissant, with laminated yeast dough and butter, was developed in France during the 19th century, after Austrian baker August Zang introduced Viennese-style pastries to Paris in the 1830s. French bakers refined it into the layered butter croissant by the early 20th century, which is why it is considered emblematic of French viennoiserie today."
+      },
+      {
+        "q": "Pain au chocolat or chocolatine?",
+        "a": "It depends on where you are. In Paris and most of France, the standard term is pain au chocolat. In southwest France, especially around Bordeaux and Toulouse, the same pastry is called chocolatine. Both refer to the same rectangular laminated dough with chocolate batons inside. The debate has become a regional identity marker, and arguing about it is basically a French sport. In Quebec, chocolatine is also the most common term."
+      },
+      {
+        "q": "How do you spot a great croissant?",
+        "a": "Look for a deeply golden, slightly mahogany exterior with visible layers and a crackly surface. The shape should be uniform and slightly curved or straight depending on the bakery's style. When you tear it, the inside should look honeycombed, glossy and stretchy, not bready. It should smell strongly of butter. A great croissant is light for its size, leaves crumbs everywhere, and tastes balanced, never greasy or overly sweet. Eat it fresh, ideally within hours of baking."
+      },
+      {
+        "q": "Are supermarket croissants any good?",
+        "a": "Some are surprisingly decent, especially in France, where premium frozen brands use real butter and traditional lamination. Reheating them in an oven, not a microwave, for about 5 to 8 minutes at 180 Celsius brings back the flakiness. They will never match a top boulangerie, but they can be honest comfort food. Outside France, quality varies more, so look for ingredient lists with butter, not margarine, and avoid anything with too many additives or palm oil."
+      }
+    ],
+    "related": ["coffee", "cheese", "paris", "chocolate", "first-date", "instagram"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mcdonalds",
+    "locale": "en",
+    "keyword": "mcdonalds",
+    "matchPatterns": ["mcdonalds", "mcdo", "big mac", "mcnuggets", "happy meal"],
+    "topic": "food",
+    "title": "McDonald's Vibe Check: Rate Your Order, From Big Mac to Nuggets",
+    "description": "Drop your McDonald's order on moomz. Big Mac, nuggets, McFlurry, breakfast menu or late-night drive-thru. Honest vibes, zero shame.",
+    "emoji": "🍟",
+    "intro": "McDonald's is the most globally recognized food brand on earth and somehow still a comfort blanket for billions of people. Founded in 1940 by brothers Richard and Maurice McDonald in San Bernardino, California, as a barbecue drive-in, it was reinvented in 1948 with their Speedee Service System, an assembly-line approach to burgers, fries and shakes that essentially created modern fast food. In 1955, Ray Kroc opened a franchise in Des Plaines, Illinois, and eventually bought out the brothers, turning McDonald's into the global machine it is today, with over 40,000 restaurants in more than 100 countries. The menu has become a kind of cultural Rorschach test. The Big Mac, launched in 1967, is its own economic index. The McNuggets, introduced in 1983, are a religion for some. The McFlurry, the Filet-O-Fish, the McChicken, the Quarter Pounder, the breakfast McMuffin, the McSpicy in Asia, the McBaguette in France, and the variety of local specialties from Japan to India show how McDonald's adapts. On moomz, the vibe check is not about whether McDonald's is fine dining. It is about whether your order, your time of day, your context and your honesty match. Late-night drive-thru fries after a breakup are a different vibe from a Sunday Happy Meal with kids. Both are valid. Drop your order and let us rate it without judgment.",
+    "sections": [
+      {
+        "h": "McDonald's menu, decoded",
+        "body": "The Big Mac is the headline act: two beef patties, special sauce, lettuce, cheese, pickles, onions, on a sesame seed bun. It debuted in 1967 in Uniontown, Pennsylvania, invented by franchisee Jim Delligatti. The Quarter Pounder, launched in 1971, leans bigger and beefier. The McChicken and McSpicy cover the chicken sandwich category. McNuggets, with four sauces ranging from BBQ to sweet curry depending on country, are arguably the most universally loved item. Fries, salted and skinny, are the silent main character. McFlurry, with Oreo, M&M, Twix or local flavors, is the dessert flex. Breakfast is its own subculture, anchored by the Egg McMuffin, hash browns, hotcakes and sausage muffins. Coffee, particularly McCafe in many markets, has quietly become competitive. Then come the regional menus: McBaguette in France, McSpicy Paneer in India, Teriyaki Burger in Japan, McArabia in the Middle East, McKroket in the Netherlands, Maharaja Mac in India. McDonald's is essentially 100 different chains pretending to be one."
+      },
+      {
+        "h": "Reading a person by their McDonald's order",
+        "body": "Big Mac classic: traditionalist, knows what they want, maybe ordered it as a kid. Quarter Pounder with cheese only: simple, focused, slightly skeptical of sauces. McSpicy or spicy McChicken: lives a little, enjoys discomfort. Plain cheeseburger and fries: kid energy, sometimes adult comfort, never wrong. 20-piece McNuggets sharing box, eaten alone: chaotic icon, drove there in pajamas. McFlurry only, no meal: dessert person, often emotionally raw. Breakfast McMuffin person: morning routine, possibly traveling, often pre-flight. McBaguette in France: trying to be French while at McDonald's, which is on-brand. Drive-thru order eaten in the parking lot in 12 minutes: relatable, no notes. Late-night fries with a milkshake to dip: peak American teenager energy. Picking off pickles after ordering with pickles: chaotic neutral. On moomz, none of this is shame. The vibe check is whether your McDonald's order matched your day, your mood and whether you really needed it or just wanted it, which is also valid."
+      },
+      {
+        "h": "Why McDonald's still wins",
+        "body": "Beyond food, McDonald's wins on consistency and access. A Big Mac in Tokyo, Paris, Lagos, Buenos Aires and Chicago is recognizably the same product, even with local variations. Restaurants are usually open early, late and in places where almost nothing else is. The bathrooms are reliable, which is its own cultural service. Prices are still relatively low compared to most sit-down restaurants, although inflation has made the value debate more interesting. The brand has weathered controversies over health, labor and environmental impact, while also adapting menus with salads, plant-based options like the McPlant in some markets, and cleaner ingredient claims. The Happy Meal, launched in 1979, basically invented the kid-meal-with-toy category. McDonald's is also a major real estate company that happens to sell burgers. Love it or judge it, it is part of the global food landscape and probably the food you have eaten in more countries than any other. On moomz, you can rate not just your meal but the entire moment, because a McDonald's stop is rarely just about the food."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who actually founded McDonald's?",
+        "a": "McDonald's was founded by brothers Richard and Maurice McDonald in 1940 in San Bernardino, California, as a barbecue drive-in. In 1948, they reinvented it as a fast-food restaurant with their Speedee Service System. In 1955, businessman Ray Kroc joined as a franchise agent, opened his own location in Des Plaines, Illinois, and eventually bought the company from the brothers in 1961. Kroc scaled it globally, but the original concept was the McDonald brothers' idea."
+      },
+      {
+        "q": "What is the most popular item at McDonald's?",
+        "a": "Globally, fries are by far the most ordered item. McDonald's sells more than 9 million pounds of fries every day across its restaurants. Among sandwiches, the Big Mac, Quarter Pounder and McChicken are the global heavyweights, while McNuggets dominate the chicken category. The Egg McMuffin leads breakfast. Specific local items, like the Filet-O-Fish in many Asian markets and the McSpicy in India and Southeast Asia, also rank very high regionally."
+      },
+      {
+        "q": "Is McDonald's actually unhealthy?",
+        "a": "Most McDonald's meals are calorie-dense, high in sodium and saturated fat, and not designed for daily consumption. However, eaten occasionally and balanced with other meals, it is not the dietary villain it is sometimes painted as. The chain now offers salads, fruit, grilled chicken, smaller portions and plant-based options in many markets. The bigger health story is portion creep and frequency. One Big Mac meal per month is very different from three a week."
+      },
+      {
+        "q": "Why does the menu change in different countries?",
+        "a": "McDonald's localizes menus to fit cultural taste, religion and regulations. In India, beef and pork are excluded, replaced by lamb, chicken and paneer items. In France, beer and macarons are sold. In Japan, you can find teriyaki burgers and shrimp filet. In the Middle East, McArabia uses flatbread. In Italy, espresso and ciabatta sandwiches exist. This local adaptation, combined with consistent core items, is one of the main reasons McDonald's stays globally relevant."
+      }
+    ],
+    "related": ["pizza", "kebab", "ice-cream", "donut", "school-drama", "first-salary"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ramen",
+    "locale": "en",
+    "keyword": "ramen",
+    "matchPatterns": ["ramen", "tonkotsu", "shoyu", "miso ramen", "instant ramen"],
+    "topic": "food",
+    "title": "Ramen Vibe Check: Rate Your Bowl, From Tonkotsu to Instant Noodles",
+    "description": "Drop your ramen order on moomz. Tonkotsu, miso, shoyu, shio, spicy tantanmen or instant cup noodles. Honest vibes only.",
+    "emoji": "🍜",
+    "intro": "Ramen is one of those foods that quietly became a global obsession while still feeling like comfort food. Modern ramen developed in Japan in the 19th century, especially after the opening of Yokohama port in 1859, when Chinese immigrants introduced wheat noodle dishes that Japanese cooks adapted with local broths and toppings. The word ramen likely comes from the Chinese lamian, hand-pulled noodles. By the early 20th century, ramen shops were spreading through cities like Tokyo, Sapporo, Fukuoka and Kitakata, each developing its own regional style. After World War II, cheap wheat from American food aid and the invention of instant ramen by Momofuku Ando in 1958, with the launch of Chikin Ramen, turned ramen into a daily food across Japan, and eventually a global student survival staple. Today, ramen is both grandma food and culinary art. You can pay 1 dollar for a packet of instant noodles, or 30 dollars for a tasting menu at a Michelin-starred ramen-ya in Tokyo or New York. You can slurp tonkotsu pork broth in Fukuoka, miso ramen in Sapporo, shio in Hakodate, shoyu in Tokyo, or spicy tantanmen in Tokyo's Chinese-influenced shops. On moomz, the vibe check is not about whether you cook your noodles for exactly 3 minutes 12 seconds. It is about whether your ramen moment, late-night, hangover, date or sick-day, lived up to the bowl.",
+    "sections": [
+      {
+        "h": "Ramen styles, region by region",
+        "body": "Tonkotsu ramen, from Kyushu and especially Fukuoka, uses pork bones simmered for many hours until the broth becomes creamy, milky and intense. Shoyu ramen, the Tokyo style, uses a clear soy-sauce-based broth, often with chicken and pork notes, and is considered the classic. Shio, salt-based, is the lightest and oldest style, originally from Hakodate. Miso ramen, born in Sapporo in the mid-20th century, uses fermented soybean paste for a rich, hearty broth, often topped with corn and butter. Tantanmen is the Japanese take on Chinese dan dan noodles, with sesame, chili oil and minced pork. Tsukemen serves the broth and noodles separately, with thicker noodles dipped into a concentrated sauce. Iekei ramen, from Yokohama, mixes tonkotsu and shoyu and tops it with spinach and nori. Hakata-style noodles are thin and firm, Sapporo noodles are thicker and curly. Toppings vary widely: chashu pork, ajitama soft-boiled egg, menma fermented bamboo, scallions, nori, corn, butter, garlic, chili. Each style has fans who treat the others like impostors."
+      },
+      {
+        "h": "Instant vs. shop ramen, no shame",
+        "body": "Instant ramen is its own genre. Brands like Nissin, Maruchan, Ottogi, Nongshim, Samyang and Sapporo Ichiban have built entire ecosystems. The original Chikin Ramen launched in 1958, and Cup Noodles followed in 1971, both invented by Momofuku Ando. In 2005, instant ramen was even taken to space. Korean spicy noodles, like Buldak fire noodles, became global TikTok trends. Tweaks are infinite: adding eggs, kimchi, leftover meat, cheese, butter, sesame oil, miso paste, scallions or sriracha can turn a 2-minute packet into a serious meal. Shop ramen is a different beast. The broth is often simmered for 10 to 20 hours, the noodles are fresh, the toppings are seasoned and torched, and the chef expects you to eat quickly so the noodles do not soften. In Japan, slurping is encouraged, not rude. It cools the noodles and enhances aroma. On moomz, both instant ramen at 1 a.m. and a serious tonkotsu run after work can be 10/10 vibes. The honest question is whether the bowl matched the moment."
+      },
+      {
+        "h": "Ramen culture beyond the bowl",
+        "body": "Ramen is deeply tied to specific scenes. Solo ramen at a counter, with your jacket on the hook and your phone face down, is one of Japan's most meditative everyday rituals. Late-night ramen after drinking, especially in alleys in Shinjuku, Osaka or Sapporo, is a culture of its own. Ramen on rainy days has become a global cliche for a reason. Ramen during exam season, in the form of instant cups in a dorm, is part of millions of student memories. Ramen on a first date can be risky because slurping, broth splash and full attention to the bowl are part of the experience. Ramen as a chef-driven food has exploded outside Japan: David Chang's Momofuku in New York, Ippudo's global expansion, Ichiran's solo booth experience, and many local independent ramen-ya now in Paris, London, Berlin, Mexico City and beyond. Anime has also fueled the global obsession, with Naruto fans treating ichiraku ramen like a real place. On moomz, you can rate the bowl, the shop, the company and whether the broth healed something deeper than hunger."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does ramen originally come from?",
+        "a": "Ramen has Chinese roots. Chinese wheat noodle dishes were introduced to Japan in the late 19th century, especially after the opening of Yokohama port in 1859. Japanese cooks adapted them with local broths, toppings and noodle styles over the early 20th century. After World War II, cheap American wheat and Momofuku Ando's invention of instant ramen in 1958 turned ramen into a daily food across Japan, and then a global phenomenon."
+      },
+      {
+        "q": "What is the difference between ramen and udon?",
+        "a": "Both are Japanese noodle soups, but the noodles and broths are different. Ramen noodles are thin, yellow, and made from wheat with alkaline water, which gives them their springy texture and color. Udon noodles are thick, white and chewy, made from wheat and water without alkaline salts. Ramen broths are typically richer and more complex, while udon broths are often lighter dashi-based broths. They are different traditions that happen to share noodles in soup as a concept."
+      },
+      {
+        "q": "Is it rude to slurp ramen?",
+        "a": "No, in Japan slurping noodles is generally accepted and even encouraged. It cools the noodles, enhances the aroma, and signals that you are enjoying the food. In ramen shops, you will often hear loud slurping from all around. Outside Japan, slurping is more situational. In a casual ramen-ya, it is welcome. In a fine-dining restaurant or quiet cafe, you may want to be more discreet, but eating ramen quietly in Japan is what is considered unusual."
+      },
+      {
+        "q": "Is instant ramen really that bad for you?",
+        "a": "Instant ramen is high in sodium, refined carbs and saturated fat, and often low in protein and fiber. Eaten daily as a main meal, it is associated with poorer diet quality. As an occasional comfort food, it is fine, especially if you add protein like eggs or tofu, vegetables, and use less of the seasoning packet. Some brands now offer cleaner, less processed versions, and using fresh broth or homemade additions is an easy upgrade."
+      }
+    ],
+    "related": ["sushi", "pizza", "tokyo", "anime", "naruto", "coffee"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "kebab",
+    "locale": "en",
+    "keyword": "kebab",
+    "matchPatterns": ["kebab", "kebabs", "doner", "shawarma", "gyros"],
+    "topic": "food",
+    "title": "Kebab Vibe Check: Rate Your Wrap, From Doner to Shawarma and Gyros",
+    "description": "Drop your kebab on moomz. Doner, shawarma, gyros, chicken, lamb or late-night staple. Honest vibes only, sauces and all.",
+    "emoji": "🥙",
+    "intro": "Kebab is one of the most globally beloved street foods on earth, and also one of the most confusing, because the word kebab covers dozens of dishes across many countries. In Turkey, kebab usually refers to grilled meat in many forms, including doner, shish, adana, urfa, iskender, kofte and beyti. In Greece, gyros is the cousin of doner. In the Levant, shawarma is the equivalent. In South Asia, seekh kebab, shami kebab and chapli kebab are completely different things. In Europe, especially Germany, the doner kebab as we know it, served in flatbread with salad and sauces, was popularized in Berlin in the early 1970s, often credited to Kadir Nurman or Mehmet Aygun depending on the source. That sandwich version then spread across the world, becoming the late-night staple of cities like London, Paris, Brussels, Amsterdam and Stockholm. Today, kebab is the great equalizer. Students eat it after exams, clubbers eat it at 4 a.m., families eat it on Sundays, foodies queue for the best spots, and chefs are now elevating it with grass-fed lamb, hand-rolled flatbreads and house-made garlic sauce. On moomz, the kebab vibe check is not about purity. It is about whether your kebab matched the moment: the city, the hour, the company, the sauces and your decision-making capacity at the time of ordering.",
+    "sections": [
+      {
+        "h": "Kebab styles around the world",
+        "body": "Turkish doner kebab is meat, usually lamb, beef or chicken, stacked on a vertical rotisserie and shaved off as it cooks. In Turkey, it is often served as durum (wrapped in lavash), pide (in a sliced bread) or iskender (over bread with tomato sauce and yogurt). Shish kebab is skewered marinated meat grilled over coals. Adana kebab is spicy minced lamb shaped on a wide skewer. Urfa kebab is similar but milder. Greek gyros, served in pita with tzatziki, tomato and onion, is the Greek take. Lebanese, Syrian and other Levantine shawarma uses similar vertical rotisserie cooking, often chicken or beef, served in flatbread with garlic toum or tahini sauce, pickles and salad. Indian and Pakistani kebabs are usually small grilled patties or skewers: seekh kebab is spiced ground meat, shami kebab is a soft patty with lentils, chapli kebab is a flat spiced patty from Peshawar. North African brochettes, Iranian kebab koobideh and Afghan chapli kebab are their own deep traditions. The doner kebab sandwich that conquered Europe is essentially a German-Turkish street food invention from 1970s Berlin."
+      },
+      {
+        "h": "Reading a person by their kebab order",
+        "body": "Classic doner wrap with everything: practical, hungry, no time for choices. Chicken shawarma with extra garlic sauce: comfort eater, often emotionally aware, no shame. Iskender at a real Turkish restaurant: knows what they are doing, probably ordered ayran with it. Falafel wrap in a kebab shop: surprisingly common, vegetarian-friendly, sometimes the gateway to better life decisions. Adana kebab on a plate with salad and bulgur rice: sit-down energy, probably a date or family meal. Late-night kebab at 3 a.m. with extra spicy sauce: chaotic icon, will regret nothing tomorrow. Greek gyros in pita with fries inside the wrap: vacation mode, beach holiday, no apologies. Indian seekh kebab as a starter: foodie, often pairs it with chutneys and naan. Kebab plate ordered at lunch on a Tuesday: stable, routine, knows the shop owner by name. None of these is wrong. Kebab is one of the most context-driven foods on earth. On moomz, you can rate not just the kebab but the entire scene: the shop, the city, the time, the sauces."
+      },
+      {
+        "h": "How to actually judge a kebab",
+        "body": "A great kebab starts with the meat. The vertical rotisserie should be busy and active, not sitting half empty for hours. The outside layer should be crispy and caramelized, the inside juicy. Sliced meat that is dry, gray and reheated is a red flag. The bread or wrap matters almost as much: fresh pide, flatbread, lavash or pita should be warm, soft and not greasy. Salad should be crisp, often with cabbage, tomato, onion and sometimes red cabbage. Sauces vary by tradition, garlic toum and tahini for shawarma, tzatziki for gyros, yogurt and chili sauces for doner. Avoid shops where the sauces look industrial and watery. The price-to-quality ratio is part of the vibe. A 5 to 8 euro doner in Berlin can outclass a 15 euro version somewhere else, and a 25 dollar grass-fed lamb kebab from a chef can be a different category altogether. On moomz, the question is not just whether your kebab was great, but whether it was the right kebab at the right time, in the right company."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where was the doner kebab sandwich invented?",
+        "a": "The vertical rotisserie meat itself has Ottoman roots and is part of Turkish cuisine, with doner kebab developing in the 19th century, often credited to Iskender Efendi in Bursa around 1867. The modern sandwich version, with meat in flatbread plus salad and sauces, was popularized in Berlin in the early 1970s, often credited to Turkish immigrants Kadir Nurman in 1972 or Mehmet Aygun. That format then spread across Europe and the world."
+      },
+      {
+        "q": "What is the difference between doner, shawarma and gyros?",
+        "a": "All three use vertical rotisserie meat, but with different traditions. Doner is Turkish, usually lamb, beef or chicken with Turkish spices, served in lavash, pide or with rice. Shawarma is Levantine, typically Arabic spices and pickles, often with garlic toum or tahini. Gyros is Greek, frequently pork or chicken, served in pita with tzatziki, tomato and onion. They are cousins, with overlapping technique but distinct flavors, sauces and breads."
+      },
+      {
+        "q": "Is kebab actually healthy?",
+        "a": "It depends heavily on the shop and what you order. A grilled chicken shish kebab with salad and bulgur is a fairly balanced meal, with lean protein, vegetables and whole grains. A late-night doner wrap with fatty meat, white bread, fries inside and creamy sauces is much heavier in calories, saturated fat and sodium. Choosing chicken or lean lamb, asking for less sauce, and adding salad makes a meaningful difference."
+      },
+      {
+        "q": "Which city has the best kebabs?",
+        "a": "It depends what you mean by kebab. For traditional Turkish kebabs, Gaziantep, Adana and Istanbul in Turkey are unmatched. For the doner sandwich, Berlin is the global capital, with countless legendary spots. For shawarma, Beirut, Damascus and Amman in the Levant are top tier. For Iranian kebabs, Tehran. London, Paris and Brussels also have strong scenes. On moomz, you can rate not just the city but the specific shop where you had your best kebab moment."
+      }
+    ],
+    "related": ["pizza", "mcdonalds", "ramen", "school-drama", "first-salary", "summer"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ice-cream",
+    "locale": "en",
+    "keyword": "ice cream",
+    "matchPatterns": ["ice cream", "ice-cream", "gelato", "soft serve", "sorbet"],
+    "topic": "food",
+    "title": "Ice Cream Vibe Check: Rate Your Scoop, From Gelato to Soft Serve",
+    "description": "Drop your ice cream pick on moomz. Gelato, soft serve, sorbet, supermarket pint or fancy artisanal scoop. Honest vibes only.",
+    "emoji": "🍦",
+    "intro": "Ice cream is the most universally beloved dessert on the planet, and somehow we still treat it like a small detail. It is not. Ice cream has been around in some form for over a thousand years, with early frozen desserts traced to ancient China, Persia and the Mediterranean. Modern ice cream developed in 17th and 18th century Europe, with Italian gelato culture, French frozen creams and English custard-based versions. The American ice cream cone is generally credited to the 1904 St. Louis World's Fair, where vendors rolled waffles into cones to serve scoops. Soft serve appeared in the 1930s, with Tom Carvel and the future founders of Dairy Queen among the pioneers. Today, ice cream is a global ritual: gelaterias in Italy, soft serve in Japan with matcha and black sesame, sorbet in France, kulfi in India, halo-halo and bingsu in Asia, Mexican paletas, American pints in freezers, and artisanal scoop shops in basically every fashionable city. On moomz, the ice cream vibe check is not about whether you eat dairy or skip it. It is about whether your scoop, your spot, your weather, your company and your topping decisions all matched up. Did you really need that triple scoop after dinner? Probably. Did the soft serve in the rain count as healing? Absolutely. Drop your favorite and let the community rate the entire scene.",
+    "sections": [
+      {
+        "h": "Ice cream styles, simply",
+        "body": "American-style ice cream is rich, with high butterfat (often 14 to 18 percent) and more air whipped in, giving a softer, creamier texture. Italian gelato has lower fat (around 4 to 9 percent), less air, and is churned slower, producing a denser, more intense scoop served slightly warmer than ice cream. Sorbet is dairy-free, made from fruit puree, water and sugar, and is often more refreshing than rich. Sherbet contains a small amount of dairy and sits between sorbet and ice cream. Frozen yogurt uses cultured yogurt instead of cream and is often tangier. Soft serve is freshly extruded from a machine at a higher temperature, creating its signature silky texture and swirl, popular at chains like Mr. Whippy, Dairy Queen and Mister Softee. Japanese soft serve is its own art form, with matcha, hojicha, black sesame and seasonal flavors. Indian kulfi is denser, made by simmering and reducing milk, with cardamom, pistachio or saffron. Mexican paletas are fruit-based popsicles, often with chunks of real fruit."
+      },
+      {
+        "h": "Reading a person by their scoop",
+        "body": "Vanilla loyalist: classic, slightly underrated, often the strongest taste actually. Chocolate everything: emotional eater in a good way, knows what they want. Strawberry only: nostalgic, often picky, surprisingly loyal. Pistachio fan: usually has refined taste, also likes coffee and dark chocolate. Mint chocolate chip: divisive, but loyal once converted. Coffee or stracciatella: gelato regular, probably traveled to Italy at least once. Cookies and cream: comfort eater, no shame, often a kid at heart. Salted caramel: dessert maximalist, owns multiple cookbooks. Sorbet only at dinner: someone who 'just wants something light' but actually wants three scoops. Multiple toppings, sprinkles, sauces, candy bits: living their best life, often in a group, often laughing. Plain soft serve with a flake: classic European seaside energy. None of these is wrong. Ice cream is one of the foods where childhood taste, location and weather create the strongest emotional anchors. On moomz, you can rate not just your scoop but your whole ice cream moment."
+      },
+      {
+        "h": "Ice cream moments that matter",
+        "body": "Ice cream is a context food. Beach ice cream, eaten quickly before the cone melts in 35 degree heat, is one of the most universal summer experiences. Ice cream on a first date is a safe, walkable, casual move that lets you talk. Breakup ice cream straight from the pint, with a single spoon and a series open on the laptop, is its own healing ritual. Ice cream truck music in the distance during childhood is a real Pavlovian response. Gelato in Italy after a long dinner, sitting on the steps of a piazza, is somehow always more romantic than it should be. Soft serve at a theme park, half melted by the time you find a bench, is an honest joy. Birthday ice cream cake from the freezer aisle, with the candles slowly creating tiny puddles, is comfort. Ice cream in winter, in pajamas, with the heating cranked up, is its own form of rebellion. On moomz, you can rate the scoop, the place, the people and whether the ice cream lived up to the moment, because the moment is half the story."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between ice cream and gelato?",
+        "a": "Ice cream typically has higher butterfat (14 to 18 percent), more air whipped in, and is served very cold. Gelato has lower fat (about 4 to 9 percent), less air, and is served slightly warmer, around minus 12 Celsius, which makes it softer and more flavor-intense on the tongue. Gelato also tends to use more milk than cream. Both are valid, but they are not the same food, and a good gelato hits differently."
+      },
+      {
+        "q": "Is sorbet really dairy-free?",
+        "a": "True sorbet is dairy-free, made from fruit puree, water and sugar, sometimes with a touch of egg white or stabilizer. It is suitable for many lactose-intolerant or vegan people, although you should always check labels in case a specific brand adds milk derivatives. Sherbet, despite the similar name, contains a small amount of dairy. Granita, the icy Sicilian cousin, is similar to sorbet but coarser in texture."
+      },
+      {
+        "q": "Who invented the ice cream cone?",
+        "a": "The waffle cone as we know it is widely credited to the 1904 St. Louis World's Fair, where vendors rolled hot waffles into cones to serve scoops, possibly because nearby vendors ran out of bowls. Italian and French street vendors had served ice cream in edible containers earlier, so the cone has multiple parents. The 1904 Fair, however, popularized the modern shape and made it a global standard."
+      },
+      {
+        "q": "What is the most popular ice cream flavor in the world?",
+        "a": "Globally, vanilla is consistently ranked the most popular flavor, partly because it is also used as a base for sundaes, milkshakes and other desserts. Chocolate is a close second. Strawberry, cookies and cream, mint chocolate chip, and pistachio rotate in the top ten in different countries. In Italy, stracciatella, hazelnut and coffee gelato lead. In Asia, matcha, taro, black sesame and red bean are major players."
+      }
+    ],
+    "related": ["chocolate", "donut", "coffee", "summer", "beach", "valentines"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "donut",
+    "locale": "en",
+    "keyword": "donut",
+    "matchPatterns": ["donut", "doughnut", "donuts", "krispy kreme", "dunkin"],
+    "topic": "food",
+    "title": "Donut Vibe Check: Rate Your Pick, From Glazed to Filled and Cronut",
+    "description": "Drop your donut on moomz. Glazed, chocolate, filled, old-fashioned, mochi donut or cronut. Honest vibes only, sprinkles welcome.",
+    "emoji": "🍩",
+    "intro": "The donut is one of the simplest pleasures in modern life, and somehow we made it complicated. At its core, a donut is fried dough, usually round, sometimes filled, sometimes glazed, sometimes both. Its ancestors include the Dutch olykoek (oily cake) brought to America in the 17th century, the Persian zoolbia, the Indian gulab jamun, the Portuguese malasada, the German Berliner and many other fried sweet doughs found in every cuisine that ever discovered hot oil. The American ring donut shape is often credited to 19th century sailor Hanson Gregory, who, the story goes, punched a hole in the middle of his mother's fried dough so it would cook evenly. Whether or not that story is exactly true, the ring stuck. By the 20th century, donuts had become an American symbol, with Dunkin' opening in 1950 in Quincy, Massachusetts, Krispy Kreme in 1937 in Winston-Salem, North Carolina, and Tim Hortons in 1964 in Hamilton, Canada. Today, the global donut scene is wild. Mochi donuts, with their chewy tapioca-based dough, exploded out of Japan and Hawaii. The cronut, a croissant-donut hybrid invented by Dominique Ansel in New York in 2013, became a global phenomenon. On moomz, the donut vibe check is honest. There is no shame in a glazed at 9 a.m. or three at midnight. Just drop your pick and let us rate the whole scene.",
+    "sections": [
+      {
+        "h": "Donut types, decoded",
+        "body": "Yeast donuts are made from a leavened dough, fried until light and airy, then often glazed or filled. The classic glazed ring donut, the filled jelly donut, the Berliner and the malasada are all yeast donuts. Cake donuts use chemical leavening (baking powder or soda) and are denser, often with a crispier exterior and crumbly interior. Old-fashioned donuts, with their cracked surface and slightly tangy taste, are a cake-style classic. Filled donuts include jelly, custard, Bavarian cream, lemon curd and dulce de leche. Donut holes, like Munchkins or Timbits, are made from the centers of ring donuts or shaped from the same dough. Mochi donuts, popularized by chains like Mister Donut in Japan with their pon de ring, have a chewy texture due to tapioca and rice flour. The cronut, from Dominique Ansel Bakery in 2013, uses laminated croissant dough deep-fried and filled. There are also crullers (twisted donuts), zeppole, churros, oliebollen, and dozens of regional variants. Every culture seems to have a version, which is a sign that fried sweet dough is basically universal."
+      },
+      {
+        "h": "Reading a person by their donut",
+        "body": "Plain glazed only: simple, focused, often the actual donut connoisseur. Chocolate frosted with sprinkles: kid-at-heart energy, refuses to grow up, in a good way. Boston cream or Bavarian cream filled: dessert lover, also probably likes tiramisu. Jelly filled donut: traditionalist, often Eastern European or American, no apologies. Old-fashioned cake donut with coffee: morning person, practical, often blue-collar coded in a great way. Maple bar: West Coast, sometimes Canadian, slightly underrated. Apple fritter: huge donut energy, breakfast and dessert in one. Cruller: refined, slightly nostalgic, often picks the less-popular item on purpose. Mochi donut crowd: trend-aware, photo-first, usually Asian-influenced food scene. Cronut or fancy hybrid: lined up for an hour at some point, has photos to prove it. Donut holes by the bag: snacks all day, no commitments. Mini donuts at a fair: vacation energy, will absolutely buy more. On moomz, your donut order is a small but honest character moment. We rate the whole scene, not just the calories."
+      },
+      {
+        "h": "Donut culture around the world",
+        "body": "In the United States, donuts are tied to morning routines, police culture cliches, road trips and chains like Dunkin', Krispy Kreme, Tim Hortons (also huge in Canada) and Shipley Do-Nuts. The hot Krispy Kreme original glazed, eaten warm off the conveyor, is a specific religious experience for some people. In Japan, Mister Donut leads the market with mochi-style pon de ring donuts and seasonal flavors. In Korea, Krispy Kreme and homegrown chains like Old Ferry Donut have brought donuts into trendy cafe culture. In Germany, Berliner is a New Year's tradition, sometimes with mustard hidden inside as a prank. In Israel, sufganiyot, fried jam-filled donuts, are essential to Hanukkah. In Portugal and Hawaii, malasadas dominate, often eaten hot with sugar. In Italy, zeppole appear at festivals. In Mexico and across Latin America, churros, the long fried sticks coated in sugar and cinnamon, are basically the same family. On moomz, you can rate not just your donut but the city, the chain, the morning and whether it really fixed your mood, because sometimes it does."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who actually invented the donut?",
+        "a": "The fried sweet dough concept exists in many cultures, including Dutch olykoek, Persian zoolbia, Indian gulab jamun, Portuguese malasada and German Berliner. The modern American ring donut is often credited to 19th century sailor Hanson Gregory, who reportedly punched a hole in his mother's fried dough so it would cook evenly. The exact origin is debated, but the ring shape became standard in the US and spread globally during the 20th century."
+      },
+      {
+        "q": "What is the difference between a donut and a doughnut?",
+        "a": "There is no difference in the food. 'Doughnut' is the original spelling, used widely in British English and historically in American English. 'Donut' is the shorter American spelling that became popular in the 20th century, partly thanks to chains like Dunkin'. Both refer to the same fried dough treat. Most American style guides accept either spelling, while British and Commonwealth publications usually prefer 'doughnut'."
+      },
+      {
+        "q": "Krispy Kreme or Dunkin', which is better?",
+        "a": "It depends what you want. Krispy Kreme, founded in 1937 in North Carolina, is known for its hot original glazed yeast donuts, served fresh off the conveyor when the 'Hot Now' sign is on. Dunkin', founded in 1950 in Massachusetts, leans into a wider menu including coffee, breakfast sandwiches and a range of donut styles. Krispy Kreme is more of a sweet experience, Dunkin' is more of a daily routine. Most regulars have strong opinions, which is half the fun."
+      },
+      {
+        "q": "What is a mochi donut?",
+        "a": "A mochi donut is a donut made with a dough containing rice flour or tapioca starch, giving it a chewy, slightly bouncy texture similar to mochi. Popularized in Japan by Mister Donut with the pon de ring, it spread to Hawaii and the US mainland, where chains and small bakeries have adapted it with bright flavors like matcha, ube, strawberry, black sesame and pandan. It is now one of the trendiest donut formats globally."
+      }
+    ],
+    "related": ["ice-cream", "chocolate", "coffee", "mcdonalds", "instagram", "birthday"],
+    "updatedAt": "2026-05-19"
+  }
+]

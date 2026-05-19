@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "foot",
+    "locale": "fr",
+    "keyword": "Foot",
+    "matchPatterns": ["foot", "football", "psg", "om", "ballon"],
+    "topic": "sport",
+    "title": "Foot : sondages, débats et vibe check entre fans | moomz",
+    "description": "Tout le foot en sondages : PSG-OM, Ligue 1, Ballon d'Or, Mbappé vs Haaland. Vote, partage et compare ton avis avec la commu moomz en 10 secondes.",
+    "emoji": "⚽",
+    "intro": "Le foot, c'est la passion universelle : un milliard de spectateurs pour une finale de Coupe du monde, des stades qui tremblent, des débats sans fin dans les vestiaires de salle de pause et les groupes WhatsApp. Sur moomz, on transforme cette énergie en sondages ultra rapides. PSG ou OM ? Mbappé ou Haaland ? Pep ou Klopp ? Tout ce qui divise les fans devient une question à deux options, partagée en un clic. Le foot moderne a explosé : la Premier League pèse plus de 6 milliards d'euros par saison, la Ligue 1 attire enfin un public mondial depuis l'arrivée des stars saoudiennes et américaines, et les compétitions de clubs comme la Champions League battent record après record. Mais au fond, ce qui fait vibrer les fans, c'est toujours la même chose : qui est le meilleur, quelle équipe va gagner ce week-end, quel coach est surcoté ? Les sondages foot sont la meilleure façon de prendre la température d'un groupe d'amis ou d'un fan-club entier. Pas besoin de discours, pas besoin de débats interminables : une question, deux réponses, et le score parle. Tu peux lancer un sondage avant un match pour faire monter la pression, un autre à la mi-temps pour réagir à un penalty contesté, et un dernier après le coup de sifflet final pour voter homme du match. C'est addictif, c'est instantané, et ça crée des souvenirs partagés. Que tu sois supporter PSG, OM, Real, Barça, Liverpool ou City, ta voix compte. Les sondages les plus populaires sur moomz mélangent éternels débats (GOAT Messi vs Ronaldo, qui a la meilleure Coupe du monde) et actualité brûlante (qui sera le meilleur buteur de la saison, quel transfert est le plus surcoté). Lance ton vibe check foot maintenant et compare-toi à des milliers de fans.",
+    "sections": [
+      {
+        "h": "Pourquoi le foot domine tous les autres sports",
+        "body": "Le football est de loin le sport le plus populaire au monde, et ce n'est pas un hasard. La Coupe du monde 2022 au Qatar a rassemblé près de 1,5 milliard de téléspectateurs uniques rien que pour la finale Argentine-France, le match le plus regardé de l'histoire de la télévision. La FIFA compte plus de 211 fédérations affiliées, soit plus que l'ONU. La règle est simple : 22 joueurs, un ballon, deux cages, et tout se joue à l'instinct, au collectif et au coup de génie. Cette simplicité explique pourquoi le foot domine partout : il suffit d'un terrain, d'un ballon, et tu joues. En Europe, les cinq grands championnats (Premier League, Liga, Serie A, Bundesliga, Ligue 1) génèrent des milliards et façonnent les stars planétaires. Les transferts comme Neymar à 222 millions ou Mbappé au Real ont redéfini l'économie du sport. Côté audience, le derby PSG-OM rassemble systématiquement plus de 2 millions de Français devant leur écran, et les classiques Real-Barça dépassent les 600 millions de spectateurs mondiaux. Le foot reste imbattable en termes d'émotion partagée."
+      },
+      {
+        "h": "Les débats foot qui ne mourront jamais",
+        "body": "Demande à dix fans de foot qui est le GOAT et tu auras dix réponses différentes. Messi ou Ronaldo ? Pelé ou Maradona ? Zidane ou Platini ? Ces débats sont éternels parce qu'aucune statistique ne tranche définitivement. Messi a remporté la Coupe du monde 2022 et 8 Ballons d'Or, Ronaldo a marqué plus de 850 buts en carrière et gagné 5 Champions League. Chaque camp a ses arguments. Même logique pour les coachs : Guardiola révolutionne avec le positionnel, Klopp gagne avec le pressing, Mourinho construit des forteresses défensives. Et puis il y a les débats régionaux : qui est le vrai roi de la Ligue 1 historique entre Marseille (seul club français vainqueur de la C1 en 1993) et le PSG (champion en série depuis l'arrivée du Qatar) ? Les sondages moomz sont parfaits pour ces guerres saintes : pose la question, laisse le score parler, et regarde les réactions exploser dans les commentaires de ton groupe WhatsApp."
+      },
+      {
+        "h": "Comment lancer un sondage foot qui cartonne",
+        "body": "Pour qu'un sondage foot devienne viral dans ton cercle, il faut trois ingrédients : un timing parfait, une question polarisante, et des options claires. Le timing : poste avant un grand match (Clasico, derby, finale) ou juste après une polémique chaude (penalty contesté, carton rouge controversé). La question polarisante : évite les évidences (« qui va gagner Real-Mallorca ? »), privilégie les vrais dilemmes (« tu prendrais Mbappé ou Haaland dans ton équipe ? »). Les options claires : maximum 4 choix, des noms précis, pas d'ambiguïté. Sur moomz, les sondages foot qui cartonnent le plus mélangent souvent du débat éternel (GOAT) et de l'actualité brûlante (joueur du moment). Pense aussi aux pronostics : avant un Euro ou une Coupe du monde, lance un bracket en plusieurs sondages successifs et fais durer le suspense jusqu'à la finale."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qui est le meilleur joueur de foot de tous les temps ?",
+        "a": "Le débat oppose principalement Lionel Messi et Cristiano Ronaldo dans l'ère moderne, avec Pelé et Diego Maradona pour les anciennes générations. Messi a 8 Ballons d'Or et une Coupe du monde, Ronaldo plus de 850 buts et 5 Champions League. Sur moomz, lance un sondage et vois ce que pensent les vrais fans autour de toi."
+      },
+      {
+        "q": "Quelle est la meilleure équipe française de tous les temps ?",
+        "a": "Trois ères se disputent le titre : l'OM de 1993 (seul club français vainqueur de la Ligue des Champions), l'équipe de France 1998-2000 (Coupe du monde puis Euro), et l'équipe de France 2018 championne du monde au Qatar. Le PSG QSI domine la Ligue 1 mais reste sans C1. Le débat reste ouvert."
+      },
+      {
+        "q": "Le foot féminin est-il en train de rattraper le foot masculin ?",
+        "a": "Énorme accélération : la Coupe du monde féminine 2023 a battu des records d'audience, le Ballon d'Or féminin gagne en visibilité, et des stars comme Aitana Bonmati, Alexia Putellas ou Wendie Renard sont devenues mondiales. L'écart économique reste massif, mais l'écart de popularité se réduit chaque année."
+      },
+      {
+        "q": "Comment savoir ce que pensent les autres fans d'un sujet foot ?",
+        "a": "La meilleure méthode : lance un sondage moomz, partage le lien dans ton groupe WhatsApp de fans, sur Twitter ou Discord, et tu auras une vraie photo de l'opinion en quelques minutes. C'est plus fiable que les réseaux sociaux où seules les voix les plus fortes s'expriment."
+      }
+    ],
+    "related": ["ligue1", "champions-league", "ronaldo", "messi", "mbappe", "jo", "tennis"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "tennis",
+    "locale": "fr",
+    "keyword": "Tennis",
+    "matchPatterns": ["tennis", "roland garros", "wimbledon", "djokovic", "nadal", "federer", "alcaraz"],
+    "topic": "sport",
+    "title": "Tennis : sondages Grand Chelem, GOAT et débats fans | moomz",
+    "description": "Roland-Garros, Wimbledon, US Open : vote pour ton joueur préféré, le GOAT du tennis et tes pronostics. Sondages express sur moomz, résultats en live.",
+    "emoji": "🎾",
+    "intro": "Le tennis est le sport individuel le plus tendu de la planète. Pas d'équipier pour rattraper une erreur, pas de remplaçant pour souffler : tu es seul face à ton adversaire pendant parfois cinq heures, sur cinq sets, avec des millions de spectateurs qui regardent chaque balle. Ce huis clos extrême crée des moments de pression cardiaque inouïs et des rivalités légendaires. La grande ère Federer-Nadal-Djokovic a redéfini ce que veut dire dominer un sport : à eux trois, ils ont gagné 66 titres du Grand Chelem entre 2003 et 2024, soit presque deux décennies de monopole. Aujourd'hui la relève est arrivée : Carlos Alcaraz, Jannik Sinner, Holger Rune, et chez les femmes Iga Swiatek, Aryna Sabalenka, Coco Gauff. Le tennis vit une époque charnière, et les fans n'ont jamais eu autant de débats à trancher. Sur moomz, les sondages tennis cartonnent particulièrement pendant les quatre Grands Chelems (Open d'Australie en janvier, Roland-Garros en mai-juin, Wimbledon en juillet, US Open en août-septembre). Tu peux pronostiquer le vainqueur, voter pour ton match le plus attendu, ou trancher l'éternel débat : qui est le vrai GOAT entre Djokovic (24 Grand Chelem), Nadal (22) et Federer (20) ? Le tennis attire aussi par son aspect technique : terre battue, gazon, dur, indoor, chaque surface change tout. Un joueur qui domine à Roland-Garros peut être complètement neutralisé à Wimbledon. Lance un sondage tennis sur moomz et compare ton avis à celui de milliers de fans.",
+    "sections": [
+      {
+        "h": "Le Big 3 et le débat GOAT",
+        "body": "Roger Federer, Rafael Nadal et Novak Djokovic ont écrit la plus grande page de l'histoire du tennis. Federer a marqué par sa grâce, son revers à une main, ses 20 Grand Chelem et son aura mondiale. Nadal, le roi de la terre battue, a remporté Roland-Garros 14 fois (record absolu inégalable) et 22 Grand Chelem au total, avec un mental d'acier et une intensité physique incroyable. Djokovic a fini par les dépasser tous : 24 Grand Chelem en 2024, le plus grand total de l'histoire, plus de 400 semaines au rang de numéro un mondial. Le débat GOAT est tranché statistiquement par Djokovic, mais l'amour des fans reste partagé. Federer reste l'icône esthétique, Nadal le guerrier émotionnel, Djokovic le robot ultra-perfectionné. Sur moomz, ce débat reste l'un des plus populaires de la catégorie sport : pose la question à tes potes et regarde l'explosion."
+      },
+      {
+        "h": "Roland-Garros, Wimbledon, les Grands Chelems",
+        "body": "Quatre tournois définissent une saison de tennis. L'Open d'Australie (janvier, dur, Melbourne), Roland-Garros (mai-juin, terre battue, Paris), Wimbledon (juillet, gazon, Londres), US Open (août-septembre, dur, New York). Gagner les quatre dans une même année calendaire est appelé le Grand Chelem calendaire, exploit réalisé seulement par Don Budge en 1938, Rod Laver en 1962 et 1969 chez les hommes, et Maureen Connolly, Margaret Court, Steffi Graf chez les femmes. Roland-Garros est le rendez-vous français du tennis : le terre battue parisien est unique au monde, les rallyes durent plus longtemps, les conditions physiques sont brutales. Wimbledon reste le tournoi le plus prestigieux historiquement, avec son tout-blanc obligatoire et sa tradition de fraises à la crème. Chaque Grand Chelem a son ambiance, ses surprises, ses rois. Les sondages pronostics moomz cartonnent à chaque édition."
+      },
+      {
+        "h": "La relève Alcaraz, Sinner et la nouvelle génération",
+        "body": "L'ère Big 3 cède la place à une nouvelle génération explosive. Carlos Alcaraz, l'Espagnol né en 2003, a déjà remporté plusieurs Grand Chelem avant ses 22 ans : Roland-Garros, Wimbledon, US Open. Son style mêle puissance et touché de balle, et beaucoup voient en lui le futur GOAT. Jannik Sinner, l'Italien né en 2001, est devenu numéro un mondial et a remporté son premier Grand Chelem à Melbourne. La rivalité Alcaraz-Sinner pourrait définir les dix prochaines années. Côté féminin, Iga Swiatek (Polonaise, multiple vainqueure de Roland-Garros) domine, talonnée par Sabalenka et la jeune Coco Gauff (championne US Open). Cette nouvelle ère est passionnante : les fans découvrent de nouveaux héros, et chaque tournoi peut accoucher d'une surprise. Les sondages sur la relève cartonnent particulièrement chez les jeunes spectateurs."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qui est le GOAT du tennis en 2026 ?",
+        "a": "Statistiquement, Novak Djokovic mène avec 24 titres du Grand Chelem, devant Rafael Nadal (22) et Roger Federer (20). Mais le débat GOAT inclut le palmarès, la longévité, l'impact culturel et le style. Federer reste l'icône émotionnelle, Nadal le guerrier de la terre battue, Djokovic le métronome statistique. Le débat est ouvert."
+      },
+      {
+        "q": "Quel Grand Chelem est le plus prestigieux ?",
+        "a": "Historiquement Wimbledon, le plus ancien (fondé en 1877), avec son aura traditionnelle et son gazon unique. Roland-Garros est le plus dur physiquement, l'US Open le plus spectaculaire, l'Open d'Australie le plus joyeux. Chaque tournoi a son ADN. Les fans français privilégient souvent Roland-Garros pour des raisons évidentes."
+      },
+      {
+        "q": "Le tennis féminin attire-t-il autant que le masculin ?",
+        "a": "Oui, c'est l'un des rares sports où l'équité de visibilité est quasi totale. Les Grands Chelems offrent les mêmes prize money, les finales féminines attirent des millions de spectateurs, et les stars comme Serena Williams, Iga Swiatek ou Coco Gauff ont une notoriété mondiale. Le tennis féminin est une référence en termes d'égalité dans le sport."
+      },
+      {
+        "q": "Comment pronostiquer un Grand Chelem entre amis ?",
+        "a": "Lance un sondage moomz par tour : qui gagne tel huitième, telle demi-finale, telle finale ? Partage le lien dans ton groupe WhatsApp et compare les pronos. À la fin du tournoi, celui qui a le meilleur score a gagné le bragging rights pour l'année. C'est ultra simple à mettre en place et ça crée énormément d'engagement."
+      }
+    ],
+    "related": ["foot", "jo", "basket", "nba", "ligue1", "ufc", "formule1"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "basket",
+    "locale": "fr",
+    "keyword": "Basket",
+    "matchPatterns": ["basket", "basketball", "nba", "lebron", "jordan", "wembanyama"],
+    "topic": "sport",
+    "title": "Basket : NBA, Wembanyama, GOAT et sondages fans | moomz",
+    "description": "Le basket en sondages : LeBron vs Jordan, Wembanyama l'avenir français, NBA, EuroLeague. Vote, débats et résultats en live avec la commu moomz.",
+    "emoji": "🏀",
+    "intro": "Le basket est sans doute le sport qui a le plus changé de visage ces dix dernières années. Né en 1891 à Springfield (Massachusetts) par James Naismith comme jeu d'intérieur pour étudiants, le basketball est devenu le sport le plus américain et l'un des plus mondialisés. La NBA, fondée en 1946, génère plus de 10 milliards de dollars par saison et compte des fans dans tous les pays. Mais le basket n'est plus seulement américain : la France est devenue une superpuissance avec l'émergence de Victor Wembanyama, sélectionné numéro 1 de la draft NBA 2023, considéré comme le talent générationnel le plus excitant depuis LeBron James. Tony Parker, Boris Diaw, Nicolas Batum avaient ouvert la voie ; Wemby la transforme en autoroute. Sur moomz, les sondages basket cartonnent autour de plusieurs axes : le débat GOAT (Michael Jordan vs LeBron James reste l'un des sujets les plus passionnés), les pronostics NBA Finals chaque juin, les hot takes sur la draft, et bien sûr l'émergence des joueurs français. Les fans français suivent à la fois la NBA (matchs nocturnes via League Pass) et l'EuroLeague + Betclic Élite. Le basket attire aussi par son côté culturel : sneakers, hip-hop, mode streetwear, films comme Space Jam ou The Last Dance. Lance un sondage basket sur moomz pour trancher tes débats préférés en quelques minutes.",
+    "sections": [
+      {
+        "h": "Jordan ou LeBron : le débat GOAT",
+        "body": "C'est le débat le plus chaud du basket. Michael Jordan a remporté 6 titres NBA en 6 finales (jamais battu en finale), 5 MVP, 6 MVP des Finals, et a inventé la culture moderne du basket avec ses Bulls des années 90. Il reste l'icône absolue, présent dans la pop culture mondiale via Air Jordan, Space Jam, The Last Dance (2020, record d'audience Netflix pendant le confinement). LeBron James de son côté est le meilleur scoreur de l'histoire de la NBA (plus de 40 000 points), 4 titres NBA, 4 MVP, 4 MVP des Finals, et a maintenu un niveau d'élite pendant plus de 20 saisons, un record absolu. Le débat oppose deux philosophies : pure dominance et killer instinct (Jordan) contre longévité, polyvalence et stats brutes (LeBron). Sur moomz, ce sondage divise toujours 50/50 et déchaîne les commentaires. Aucun camp ne convaincra l'autre."
+      },
+      {
+        "h": "Victor Wembanyama et l'invasion française en NBA",
+        "body": "Né en 2004 à Le Chesnay, Victor Wembanyama mesure 2m24 et combine la taille d'un pivot avec les skills d'un meneur : dribbles, tirs à trois points, défense aérienne. Sélectionné numéro 1 par les San Antonio Spurs en juin 2023, il a été élu Rookie de l'Année 2024 et place déjà la France sur la carte du basket mondial. Avant lui, Tony Parker (4 titres NBA avec les Spurs entre 2003 et 2014, MVP des Finals 2007), Boris Diaw, Nicolas Batum, Rudy Gobert (4 fois meilleur défenseur de l'année) avaient pavé la route. Aujourd'hui, plus de 15 Français évoluent en NBA chaque saison. Wemby pourrait devenir le premier Français MVP de l'histoire NBA, et porter l'équipe de France à une médaille d'or olympique. Le basket français vit son âge d'or."
+      },
+      {
+        "h": "NBA, EuroLeague, Betclic Élite : les compétitions à suivre",
+        "body": "Trois compétitions majeures structurent l'année basket. La NBA (saison régulière d'octobre à avril, playoffs en mai-juin, Finals en juin) reste le sommet absolu : 30 franchises, niveau de jeu inégalé, salaires astronomiques. L'EuroLeague (octobre à mai, Final Four en mai) regroupe les meilleurs clubs européens : Real Madrid, FC Barcelone, Olympiakos, Panathinaïkos, ASVEL Lyon-Villeurbanne, AS Monaco. Le niveau y est très différent : plus tactique, plus défensif, parfois plus excitant qu'une NBA en saison régulière. La Betclic Élite (championnat français) est en pleine expansion grâce à Wemby effect et à l'arrivée de clubs ambitieux comme Monaco et ASVEL. Les sondages basket moomz cartonnent particulièrement pendant les playoffs NBA et la Final Four EuroLeague."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qui est le meilleur basketteur de tous les temps ?",
+        "a": "Le débat oppose Michael Jordan (6 titres, 6 MVP Finals, jamais battu en finale) et LeBron James (meilleur scoreur de l'histoire, plus de 40 000 points). Jordan reste l'icône culturelle, LeBron le roi des stats brutes. D'autres mentionnent Kareem Abdul-Jabbar, Kobe Bryant, Magic Johnson, Bill Russell. Aucun consensus définitif."
+      },
+      {
+        "q": "Victor Wembanyama peut-il devenir MVP NBA ?",
+        "a": "Absolument. Élu Rookie de l'Année 2024 dès sa première saison aux Spurs, Wemby a déjà montré qu'il pouvait dominer offensivement et défensivement. Avec sa progression rapide, il pourrait viser un MVP autour de ses 23-25 ans. Aucun Français n'a jamais remporté ce titre, il a toutes les cartes pour être le premier."
+      },
+      {
+        "q": "L'EuroLeague vaut-elle le coup d'être suivie quand on a la NBA ?",
+        "a": "Oui, c'est un basket très différent : plus tactique, plus défensif, moins de hauts vols mais des matchs ultra tendus. Les clubs comme Real Madrid, Olympiakos, Monaco ou ASVEL offrent un spectacle excellent. La Final Four en mai est l'un des événements basket les plus intenses de l'année. Beaucoup de fans préfèrent même son intensité."
+      },
+      {
+        "q": "Comment suivre la NBA depuis la France ?",
+        "a": "Via NBA League Pass (officiel, tous les matchs en direct ou replay), beIN Sports (matchs sélectionnés), ou les highlights gratuits sur YouTube/X le lendemain. Pense au décalage horaire : la plupart des matchs commencent entre 1h et 4h du matin heure française. Les sondages NBA moomz cartonnent le lendemain matin quand tout le monde commente."
+      }
+    ],
+    "related": ["nba", "foot", "jo", "tennis", "ufc", "formule1", "ligue1"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "jo",
+    "locale": "fr",
+    "keyword": "JO",
+    "matchPatterns": ["jo", "jeux olympiques", "olympiques", "olympics", "paris 2024", "tokyo"],
+    "topic": "sport",
+    "title": "JO : Paris 2024, médailles et sondages Jeux Olympiques | moomz",
+    "description": "Tous les JO en sondages : moments cultes Paris 2024, athlètes français, médailles, débats. Vote et compare ton avis à des milliers de fans sur moomz.",
+    "emoji": "🥇",
+    "intro": "Les Jeux Olympiques, c'est l'événement sportif le plus grandiose de la planète. Tous les quatre ans pour les Jeux d'été, plus de 10 000 athlètes venus de plus de 200 pays se retrouvent pour deux semaines de compétition pure, dans plus de 30 sports différents. Paris 2024 a marqué l'histoire : pour la troisième fois après 1900 et 1924, la capitale française a accueilli les Jeux d'été, avec une cérémonie d'ouverture inédite sur la Seine, un concept jamais vu (parade fluviale plutôt que stade), et des sites iconiques (Grand Palais pour l'escrime, Versailles pour l'équitation, Tour Eiffel pour le beach-volley). Les Français ont vibré pour Léon Marchand (quadruple champion olympique de natation, nouveau Phelps français), Teddy Riner (légende du judo), l'équipe de basket masculin (finale épique contre les USA avec LeBron, Curry et Wemby), et bien sûr les ouvertures et fermetures de cérémonie spectaculaires. Tokyo 2020, organisés en juillet-août 2021 à cause du Covid, restent aussi dans les mémoires : huis clos étrange, performance historique du Japon hôte, débuts du skateboard et de l'escalade aux JO. Sur moomz, les sondages JO cartonnent pendant les Jeux et continuent à vivre après : meilleur moment Paris 2024, athlète français préféré, sport olympique le plus sous-coté, débat sur le retour de tel sport. Lance un sondage JO et compare ton avis aux fans de toute la France.",
+    "sections": [
+      {
+        "h": "Paris 2024 : une réussite historique",
+        "body": "Les JO de Paris 2024 ont été acclamés comme l'une des éditions les plus réussies de l'ère moderne. La cérémonie d'ouverture du 26 juillet 2024 sur la Seine a marqué les esprits : plus de 6 000 athlètes embarqués sur 90 bateaux, parcours de 6 kilomètres entre le pont d'Austerlitz et la Tour Eiffel, performances artistiques d'Aya Nakamura, Céline Dion, Lady Gaga. Côté sportif, la France a battu son record historique avec 64 médailles dont 16 d'or. Léon Marchand est devenu le héros de la quinzaine en remportant 4 médailles d'or en natation, dont le 400m 4 nages (record olympique). Teddy Riner a remporté son cinquième titre olympique. L'équipe de France de basket a perdu la finale d'un cheveu contre les États-Unis, dans l'un des matchs les plus regardés de l'histoire. Le judo, l'escrime, le rugby à 7, le cyclisme, l'équitation : la France a brillé partout."
+      },
+      {
+        "h": "Tokyo 2020 et l'ère post-Covid",
+        "body": "Reportés d'un an à cause de la pandémie, les JO de Tokyo se sont finalement tenus en juillet-août 2021, dans des conditions inédites : pas de public dans les stades, restrictions sanitaires drastiques, bulle olympique. Malgré l'ambiance étrange, ces Jeux ont produit des moments cultes : la double or de Caeleb Dressel en natation, le retour de Simone Biles qui s'est retirée pour préserver sa santé mentale (débat mondial sur la pression des athlètes), les débuts olympiques du skateboard avec Sky Brown à 13 ans, l'escalade comme nouveau sport olympique avec Janja Garnbret championne. Pour la France, médaille d'or de Romain Cannone en escrime, Clarisse Agbégnénou en judo, l'équipe de handball masculine et féminine. Tokyo a aussi vu l'or de Karsten Warholm sur 400m haies en battant le record du monde, l'un des plus grands chronos de l'histoire de l'athlétisme."
+      },
+      {
+        "h": "Quels sont les sports olympiques les plus suivis ?",
+        "body": "Tous les sports ne se valent pas en termes d'audience. Les disciplines reines des JO d'été restent l'athlétisme, la natation et la gymnastique. Le 100 mètres masculin reste l'épreuve la plus suivie au monde : finale en 9,8 secondes mais 4 ans d'attente. Usain Bolt a régné dessus de 2008 à 2016. Le marathon, le 1500m, les relais 4x100m attirent aussi des centaines de millions de spectateurs. La natation, dominée par les États-Unis historiquement, a vu monter la France avec Léon Marchand. La gymnastique avec Simone Biles est un phénomène culturel. À côté, les sports collectifs (basket, foot, volley, handball) attirent les fans nationaux. Le skateboard, le surf, l'escalade, le breakdance (premier des JO 2024) attirent une nouvelle audience plus jeune. Sur moomz, les sondages JO les plus partagés concernent les médailles françaises et les moments mythiques."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de médailles la France a-t-elle gagné à Paris 2024 ?",
+        "a": "La France a remporté 64 médailles à Paris 2024 (16 or, 26 argent, 22 bronze), son meilleur total historique aux Jeux d'été, dépassant le record de 43 médailles d'Atlanta 1996. C'est notamment grâce à Léon Marchand (4 or en natation), Teddy Riner, l'équipe de judo, l'escrime et les sports collectifs."
+      },
+      {
+        "q": "Qui est le plus grand athlète olympique français ?",
+        "a": "Plusieurs prétendants : Teddy Riner (5 titres olympiques en judo, dont 3 en or), Marie-José Pérec (3 titres en athlétisme), Florence Schelling, Tony Estanguet (3 titres en canoë). Depuis Paris 2024, Léon Marchand entre dans la course avec 4 titres olympiques à 22 ans, et est promis à un avenir potentiellement historique."
+      },
+      {
+        "q": "Quand sont les prochains JO ?",
+        "a": "Les JO d'hiver 2026 ont lieu à Milan-Cortina d'Ampezzo (Italie) en février. Les prochains JO d'été 2028 seront à Los Angeles (États-Unis), troisième fois pour la ville après 1932 et 1984. Puis Brisbane (Australie) en 2032. Les JO se tiennent toujours selon un cycle de 4 ans, été et hiver alternés tous les 2 ans."
+      },
+      {
+        "q": "Quel a été le meilleur moment des JO Paris 2024 ?",
+        "a": "Selon les sondages, plusieurs candidats : la cérémonie d'ouverture sur la Seine (audacieuse et spectaculaire), la quadruple or de Léon Marchand, la finale basket France-USA avec Wembanyama vs LeBron, le sacre de Teddy Riner. Lance un sondage moomz pour trancher : tu seras surpris du résultat selon le profil des votants."
+      }
+    ],
+    "related": ["foot", "basket", "tennis", "nba", "mbappe", "ronaldo", "messi", "ufc"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ronaldo",
+    "locale": "fr",
+    "keyword": "Ronaldo",
+    "matchPatterns": ["ronaldo", "cristiano", "cr7", "portugal"],
+    "topic": "sport",
+    "title": "Cristiano Ronaldo : GOAT, stats et débats fans | moomz",
+    "description": "CR7 en sondages : Ronaldo vs Messi, 850+ buts, Ballons d'Or, carrière Manchester-Madrid-Juventus-Al Nassr. Vote et débat avec les fans moomz.",
+    "emoji": "👑",
+    "intro": "Cristiano Ronaldo dos Santos Aveiro est l'un des deux athlètes les plus connus au monde, à égalité avec son éternel rival Lionel Messi. Né le 5 février 1985 à Funchal sur l'île de Madère au Portugal, dans une famille modeste, il est aujourd'hui multi-milliardaire et l'icône footballistique du XXIe siècle. Avec plus de 850 buts en carrière professionnelle (record absolu tous joueurs confondus selon les comptages officiels), 5 Ballons d'Or, 5 Ligues des Champions (4 avec le Real Madrid, 1 avec Manchester United), un Euro 2016 avec le Portugal et une Ligue des Nations 2019, Ronaldo a tout gagné. Sa carrière est un monument : Sporting Lisbonne (révélation), Manchester United (premier sacre 2008), Real Madrid (apogée 2009-2018, 450 buts en 438 matchs, record absolu du club), Juventus (2018-2021), retour à Manchester United (2021-2022), puis transfert historique à Al Nassr en Arabie saoudite fin 2022 qui a ouvert l'ère des transferts millionnaires vers la Saudi Pro League. Sa rivalité avec Messi est l'une des plus grandes rivalités sportives de l'histoire, comparable à Federer-Nadal ou Jordan-LeBron. Sur moomz, les sondages sur Ronaldo cartonnent : qui est le vrai GOAT, son meilleur club, son meilleur but, son record le plus impressionnant. Lance ton sondage CR7 et vois ce que pensent les fans.",
+    "sections": [
+      {
+        "h": "850+ buts : un record qui ne sera jamais battu",
+        "body": "Cristiano Ronaldo a marqué plus de 850 buts en carrière professionnelle, en comptant clubs et sélection. C'est un total absolument vertigineux, dépassant Pelé, Romario, Bican selon les méthodes de comptage. À 40 ans passés, il continue de marquer à un rythme défiant l'âge à Al Nassr, dépassant régulièrement les 30 buts par saison en Saudi Pro League. Son record de 144 buts en Ligue des Champions reste hors de portée pour la plupart des joueurs actuels. Sa moyenne d'un but tous les 1,1 match en sélection portugaise (130+ buts, record mondial) reste également exceptionnelle. Cette longévité au sommet est sans précédent : il a marqué dans 4 décennies différentes (90s en jeunes, 2000s, 2010s, 2020s), gagné des trophées sous 4 nationalités d'entraîneurs (Mourinho, Ancelotti, Zidane, Allegri), et n'a jamais connu de saison vraiment ratée. Aucun joueur de l'histoire n'a tenu un niveau aussi élevé aussi longtemps."
+      },
+      {
+        "h": "Le débat Ronaldo vs Messi",
+        "body": "C'est le débat le plus passionné du sport moderne. Ronaldo et Messi ont dominé le football mondial pendant près de 20 ans (2008-2024), se partageant 13 des 16 Ballons d'Or sur cette période. Ronaldo a 5 Ballons d'Or, Messi en a 8. Ronaldo a marqué plus de buts en carrière (850+ vs 850, débat de comptage), Messi a plus de passes décisives. Ronaldo a gagné dans 3 championnats (Premier League, Liga, Serie A), Messi est resté principalement au Barça avant le PSG et l'Inter Miami. Ronaldo a un Euro avec le Portugal, Messi une Copa America et surtout une Coupe du monde 2022, le seul trophée qui lui manquait. La rivalité oppose deux philosophies : Ronaldo le travailleur acharné, ultra physique, leader vocal ; Messi le génie naturel, gaucher magique, plus introverti. Aucun camp ne convaincra l'autre. Sur moomz ce sondage divise toujours 50/50."
+      },
+      {
+        "h": "Al Nassr et l'effet Ronaldo en Arabie saoudite",
+        "body": "En janvier 2023, Cristiano Ronaldo signe à Al Nassr Riyad pour un contrat estimé à plus de 200 millions d'euros annuels (salaire + sponsoring + tourisme), faisant de lui de loin le sportif le mieux payé au monde. Ce transfert a déclenché un effet domino : Karim Benzema à Al-Ittihad, Sadio Mané à Al Nassr, Neymar à Al-Hilal, N'Golo Kanté, Riyad Mahrez et bien d'autres ont suivi. La Saudi Pro League est passée d'un championnat exotique à une véritable puissance, attirant des stars de haut niveau et investissant massivement dans les infrastructures. Le gouvernement saoudien a investi dans le sportwashing pour préparer la Coupe du monde 2034 attribuée au royaume. Ronaldo continue de marquer à un rythme effréné en Arabie saoudite, parfois plus de 50 buts par saison. Son influence dépasse le foot : il a popularisé le pays auprès d'une nouvelle audience mondiale."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de buts Cristiano Ronaldo a-t-il marqué en carrière ?",
+        "a": "Plus de 850 buts en carrière professionnelle selon les comptages officiels (FIFA, RSSSF), incluant matchs de clubs et sélection. Ce total continue d'augmenter à Al Nassr. Il est le meilleur buteur de l'histoire de la sélection portugaise (130+ buts) et de la Ligue des Champions (144 buts). Un record qui restera probablement inégalé."
+      },
+      {
+        "q": "Cristiano Ronaldo est-il meilleur que Messi ?",
+        "a": "Ça dépend des critères. Ronaldo a marqué plus de buts (850+ vs 850), gagné dans 3 championnats différents, plus de Champions League (5 vs 4) et un Euro. Messi a plus de Ballons d'Or (8 vs 5), une Coupe du monde (2022), et plus de passes décisives. Le débat est éternel. Sur moomz, le sondage divise toujours 50/50."
+      },
+      {
+        "q": "Où Cristiano Ronaldo joue-t-il actuellement ?",
+        "a": "Cristiano Ronaldo évolue à Al Nassr en Saudi Pro League depuis janvier 2023. Il y est capitaine et continue de marquer à un rythme exceptionnel pour un joueur de plus de 40 ans, dépassant souvent les 30 buts par saison. Son contrat l'engage jusqu'en 2025 avec possibilité d'extension."
+      },
+      {
+        "q": "Quelle est la fortune de Cristiano Ronaldo ?",
+        "a": "Selon Forbes, Cristiano Ronaldo est multimilliardaire (premier footballeur à atteindre ce statut), avec une fortune estimée à plus de 1,5 milliard d'euros en 2024-2026. Cette fortune vient de ses salaires (200M+ par an à Al Nassr), des sponsorings (Nike contrat à vie), de sa marque CR7, et de ses investissements immobiliers et business."
+      }
+    ],
+    "related": ["messi", "mbappe", "foot", "ligue1", "champions-league", "jo", "nba"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "messi",
+    "locale": "fr",
+    "keyword": "Messi",
+    "matchPatterns": ["messi", "lionel messi", "leo messi", "argentine", "barcelone"],
+    "topic": "sport",
+    "title": "Lionel Messi : GOAT, Coupe du monde et 8 Ballons d'Or | moomz",
+    "description": "Messi en sondages : Coupe du monde 2022, 8 Ballons d'Or, débats Messi vs Ronaldo, Inter Miami. Vote et compare ton avis avec les fans moomz.",
+    "emoji": "🐐",
+    "intro": "Lionel Andrés Messi Cuccittini est largement considéré comme le plus grand footballeur de tous les temps. Né le 24 juin 1987 à Rosario en Argentine, diagnostiqué très jeune avec un trouble de la croissance qui nécessitait des injections coûteuses, il a été repéré par le FC Barcelone à 13 ans et a déménagé en Espagne pour intégrer La Masia. Le reste est légende : il devient pro à 17 ans, marque son premier but Liga à 17 ans contre l'Albacete sur passe de Ronaldinho, et reste 21 ans au Barça (2004-2021) avant un passage au PSG (2021-2023) puis l'Inter Miami à partir de 2023. Son palmarès est sans précédent : 8 Ballons d'Or (record absolu), 4 Ligues des Champions, 10 Liga, et surtout la Coupe du monde 2022 au Qatar avec l'Argentine, le trophée qui le faisait courir depuis 16 ans. La finale Argentine-France au Qatar (3-3 après prolongation, 4-2 aux tirs au but) est considérée comme la plus belle finale de l'histoire de la Coupe du monde, et la consécration ultime pour Messi. Avec 850+ buts en carrière et plus de 350 passes décisives, c'est aussi le meilleur passeur de l'histoire moderne. Sur moomz, les sondages Messi cartonnent : meilleur but, meilleur dribble, ses moments les plus emblématiques en Argentine. Lance ton sondage Messi et débat avec la commu.",
+    "sections": [
+      {
+        "h": "8 Ballons d'Or : le record absolu",
+        "body": "Lionel Messi a remporté 8 Ballons d'Or : 2009, 2010, 2011, 2012, 2015, 2019, 2021 et 2023. C'est un record absolu de loin : Cristiano Ronaldo, son éternel rival, en a 5. Aucun autre joueur n'en a plus de 3 (Michel Platini, Marco van Basten, Johan Cruyff). Le Ballon d'Or 2023 a particulièrement marqué car il récompensait sa victoire en Coupe du monde 2022 au Qatar. Il l'a reçu lors de sa première saison à l'Inter Miami, signe que son aura dépasse les frontières du sport classique. Les Ballons d'Or de Messi reflètent sa constance : entre 2009 et 2012, il enchaîne 4 trophées consécutifs avec le FC Barcelone (90 buts en 2012, record absolu sur une année calendaire). Sa moyenne de buts annuelle dépasse régulièrement les 50 sur 17 saisons consécutives, performance inégalée. Le Ballon d'Or est devenu presque indissociable de son nom."
+      },
+      {
+        "h": "La Coupe du monde 2022 au Qatar",
+        "body": "La Coupe du monde 2022 au Qatar fut la consécration ultime de Messi. À 35 ans, après 4 finales perdues en sélection (Copa America 2007, 2015, 2016, Coupe du monde 2014), beaucoup pensaient qu'il ne soulèverait jamais le trophée le plus prestigieux. L'Argentine a démarré le tournoi par une défaite choc contre l'Arabie saoudite, avant de se reprendre face au Mexique, à la Pologne, à l'Australie, aux Pays-Bas (séance de tirs au but), à la Croatie en demi-finale. Et puis la finale, le 18 décembre 2022, contre la France de Kylian Mbappé. Match insensé : 2-0 Argentine à l'heure de jeu, doublé éclair de Mbappé en deux minutes pour égaliser à 2-2, prolongations, 3-2 Messi, 3-3 Mbappé sur penalty (premier hat-trick en finale depuis Geoff Hurst en 1966), et finalement 4-2 aux tirs au but pour l'Argentine. Messi soulève la Coupe du monde, son dernier rêve devient réalité. Plus de 1,5 milliard de spectateurs ont regardé la finale, faisant d'elle le match le plus regardé de l'histoire de la télévision."
+      },
+      {
+        "h": "Barcelone, PSG, Inter Miami : les chapitres",
+        "body": "La carrière de Messi se divise en trois chapitres clairs. Barcelone (2004-2021) : 17 saisons, 672 buts, 305 passes décisives, 35 trophées dont 4 Champions League et 10 Liga. C'est l'apogée absolue, sous Pep Guardiola notamment (2008-2012, période durant laquelle le Barça est considéré comme la meilleure équipe de l'histoire). PSG (2021-2023) : transfert traumatique forcé par la situation financière du Barça, deux titres de Ligue 1 mais aucune Champions League, relation compliquée avec le public parisien. Inter Miami (2023-) : aventure américaine, partenariat avec Apple pour la diffusion, MLS Cup en vue, immense impact culturel aux États-Unis. Le passage à l'Inter Miami a fait exploser la popularité de la MLS et préparé la Coupe du monde 2026 USA-Canada-Mexique. Messi reste un phénomène marketing autant que sportif."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de Ballons d'Or a Lionel Messi ?",
+        "a": "Lionel Messi a remporté 8 Ballons d'Or (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023), un record absolu. Cristiano Ronaldo, son éternel rival, en a 5. Aucun autre joueur n'a plus de 3 Ballons d'Or dans l'histoire, ce qui rend ce record probablement inégalable pendant longtemps."
+      },
+      {
+        "q": "Messi est-il meilleur que Ronaldo ?",
+        "a": "C'est le débat éternel. Messi a plus de Ballons d'Or (8 vs 5), une Coupe du monde (2022), plus de passes décisives et un toucher de balle gauche unique. Ronaldo a plus de Champions League (5 vs 4), des buts dans 3 championnats différents, un Euro, et un physique exceptionnel. Aucune réponse définitive."
+      },
+      {
+        "q": "Où joue Messi en 2026 ?",
+        "a": "Lionel Messi évolue à l'Inter Miami CF en Major League Soccer aux États-Unis depuis l'été 2023. Il a signé un contrat incluant un partenariat avec Apple TV et Adidas. L'Inter Miami vise le titre MLS et la Coupe du monde des clubs 2025. Son contrat court jusqu'à fin 2025 avec possible extension."
+      },
+      {
+        "q": "Quel est le plus beau but de Messi ?",
+        "a": "Plusieurs candidats : le but solo contre Getafe en Copa del Rey 2007 (réplique de la main de Dieu de Maradona), le but en finale Coupe du monde 2022 contre la France, le coup franc magistral en Copa America, le slalom contre le Real Madrid. Lance un sondage moomz pour trancher entre tes potes fans de Messi, le résultat est toujours intéressant."
+      }
+    ],
+    "related": ["ronaldo", "mbappe", "foot", "champions-league", "ligue1", "jo", "tennis"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mbappe",
+    "locale": "fr",
+    "keyword": "Mbappé",
+    "matchPatterns": ["mbappe", "mbappé", "kylian", "kylian mbappe", "bondy", "real madrid"],
+    "topic": "sport",
+    "title": "Kylian Mbappé : Real Madrid, France et débats fans | moomz",
+    "description": "Mbappé en sondages : Real Madrid, équipe de France, hat-trick Qatar 2022, futur GOAT ? Vote et débats foot avec la commu moomz, résultats en live.",
+    "emoji": "⚡",
+    "intro": "Kylian Mbappé Lottin est l'icône du football français du XXIe siècle. Né le 20 décembre 1998 à Bondy en Seine-Saint-Denis, il est devenu pro à 17 ans à l'AS Monaco, où il a explosé en 2016-2017 (15 buts en Ligue 1 dont 6 en Champions League pour battre Monaco-Manchester City en huitièmes). Le PSG le recrute à l'été 2017 pour 180 millions d'euros, faisant de lui le deuxième transfert le plus cher de l'histoire à l'époque. À 19 ans, en juillet 2018, il devient champion du monde avec l'équipe de France au Qatar Russie, marquant en finale contre la Croatie (4-2) et étant élu meilleur jeune joueur du tournoi. À 23 ans, en décembre 2022, il dispute la finale de la Coupe du monde au Qatar contre l'Argentine de Messi : il marque trois buts en finale (premier hat-trick en finale depuis 1966), mais perd aux tirs au but. À l'été 2024, il quitte enfin le PSG pour le Real Madrid, son rêve d'enfance, après des années de feuilleton. Sur moomz, les sondages Mbappé cartonnent : sera-t-il le futur GOAT ? Va-t-il gagner un Ballon d'Or au Real ? L'équipe de France peut-elle gagner l'Euro 2028 ou la Coupe du monde 2026 avec lui ? Lance ton sondage Mbappé et trouve ta vérité.",
+    "sections": [
+      {
+        "h": "Champion du monde à 19 ans",
+        "body": "En 2018, Kylian Mbappé est devenu le deuxième joueur de l'histoire à marquer en finale de Coupe du monde avant 20 ans, après Pelé en 1958. À 19 ans, lors de la Coupe du monde 2018 en Russie, il a marqué 4 buts dont un doublé contre l'Argentine en huitièmes (3-4) et un but en finale contre la Croatie (4-2). Élu meilleur jeune joueur du tournoi, il a propulsé sa génération vers la légende. L'équipe de France, emmenée par Didier Deschamps, Antoine Griezmann, Hugo Lloris, Paul Pogba et N'Golo Kanté, a remporté son deuxième titre mondial 20 ans après 1998. À ce moment-là, Mbappé est devenu le visage du foot français, et la légende a commencé. Sur les réseaux sociaux, il dépasse les 100 millions de followers Instagram, et devient l'un des athlètes les plus influents au monde. Son aura dépasse le simple cadre sportif : il est régulièrement consulté par le président français, intervient sur des questions sociales et représente la jeunesse française."
+      },
+      {
+        "h": "La finale Coupe du monde 2022 et le hat-trick légendaire",
+        "body": "Le 18 décembre 2022 à Doha restera l'une des plus grandes performances individuelles de l'histoire du football, même dans la défaite. Mené 2-0 à l'heure de jeu par l'Argentine, Mbappé inscrit deux buts en 97 secondes (penalty et superbe coup de pied) pour égaliser à 2-2. En prolongations, Messi marque à 109 minutes (3-2), Mbappé répond à 118 minutes sur penalty pour le 3-3, premier hat-trick en finale de Coupe du monde depuis Geoff Hurst en 1966 (Angleterre-Allemagne). En tirs au but, malheureusement, Coman et Tchouameni manquent leurs tirs, et l'Argentine remporte la Coupe 4-2 aux tirs au but. Mbappé termine meilleur buteur du tournoi avec 8 buts, devant Messi. Beaucoup considèrent ce match comme la plus belle finale de Coupe du monde jamais jouée. Mbappé en sort grandi malgré la défaite : il a montré qu'il pouvait porter une équipe entière sur ses épaules dans le match le plus important du sport."
+      },
+      {
+        "h": "Real Madrid : le rêve devenu réalité",
+        "body": "À l'été 2024, après 7 saisons au PSG (256 buts en 308 matchs, 6 titres de Ligue 1, jamais de Champions League), Kylian Mbappé signe enfin au Real Madrid Club de Fútbol, son rêve d'enfance. Il porte le numéro 9 et rejoint une équipe stellaire avec Vinicius Jr, Jude Bellingham, Rodrygo. La saison 2024-2025 a été marquée par une adaptation difficile mais quelques performances majestueuses. Au Real, Mbappé vise enfin la Champions League qui lui a échappé toute sa carrière, et le Ballon d'Or que son palmarès international réclame. Il jouera également la Coupe du monde 2026 aux États-Unis (USA-Canada-Mexique) avec l'équipe de France, à 27 ans, dans la peau du favori. Si la France gagne, et si Mbappé est décisif, il pourrait devenir Ballon d'Or 2026 et entrer définitivement dans la conversation GOAT avec Messi et Ronaldo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "À quel âge Kylian Mbappé est-il devenu champion du monde ?",
+        "a": "Kylian Mbappé est devenu champion du monde à 19 ans en juillet 2018 en Russie, marquant 4 buts au cours du tournoi dont un en finale contre la Croatie (4-2). Il a été élu meilleur jeune joueur du tournoi. C'est le plus jeune buteur français en finale de Coupe du monde et un record qui devrait tenir longtemps."
+      },
+      {
+        "q": "Où joue Mbappé en 2026 ?",
+        "a": "Kylian Mbappé évolue au Real Madrid depuis l'été 2024. Il a signé un contrat de 5 ans après être parti libre du PSG. Au Real, il porte le numéro 9 et joue aux côtés de Vinicius Jr, Jude Bellingham et Rodrygo. Il vise sa première Ligue des Champions et le Ballon d'Or."
+      },
+      {
+        "q": "Mbappé peut-il devenir le GOAT ?",
+        "a": "Possible, mais le chemin reste long. À 27 ans en 2026, il a une Coupe du monde 2018, une finale 2022, plusieurs Ligues 1, mais aucune Champions League ni Ballon d'Or. Pour entrer dans la conversation GOAT avec Messi et Ronaldo, il faudrait au moins 2-3 Champions League et 2-3 Ballons d'Or, plus une nouvelle Coupe du monde 2026."
+      },
+      {
+        "q": "Combien gagne Kylian Mbappé au Real Madrid ?",
+        "a": "Selon les estimations publiques (le Real Madrid garde les chiffres secrets), Kylian Mbappé gagnerait environ 30 millions d'euros nets par an au Real Madrid (salaire et primes), avec une prime à la signature significative. C'est bien moins que ce que lui proposait l'Arabie saoudite (700M+/an), mais le rêve sportif a primé."
+      }
+    ],
+    "related": ["messi", "ronaldo", "foot", "ligue1", "champions-league", "jo", "nba"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "nba",
+    "locale": "fr",
+    "keyword": "NBA",
+    "matchPatterns": ["nba", "basketball usa", "lebron", "curry", "wembanyama", "lakers"],
+    "topic": "sport",
+    "title": "NBA : finales, MVP et débats basket | moomz",
+    "description": "Toute la NBA en sondages : MVP, NBA Finals, Wembanyama, LeBron vs Jordan. Vote pour ton équipe préférée et compare ton avis avec les fans moomz.",
+    "emoji": "🏀",
+    "intro": "La NBA, National Basketball Association, est la meilleure ligue de basketball du monde et l'une des compétitions sportives les plus suivies de la planète. Fondée le 6 juin 1946 à New York sous le nom de Basketball Association of America (rebaptisée NBA en 1949 après fusion avec la NBL), elle regroupe aujourd'hui 30 franchises (29 aux États-Unis, 1 au Canada avec Toronto) et génère plus de 10 milliards de dollars de revenus annuels. La saison régulière démarre en octobre et se termine en avril (82 matchs par équipe), suivie des playoffs en mai-juin (best-of-7 par tour) et des NBA Finals en juin. Les fans français suivent la NBA via NBA League Pass (officiel) ou beIN Sports, avec le décalage horaire qui rend la plupart des matchs accessibles entre 1h et 4h du matin. L'arrivée de Victor Wembanyama aux San Antonio Spurs en 2023 a relancé un intérêt massif chez les jeunes fans français : le Wemby effect a fait exploser les audiences NBA League Pass en France et a popularisé le basket auprès d'une nouvelle génération. Sur moomz, les sondages NBA cartonnent : MVP de la saison, finalistes prédits, équipe préférée, le débat GOAT Jordan vs LeBron qui ne mourra jamais. La culture NBA dépasse aussi le terrain : sneakers (Air Jordan, Nike, Adidas), hip-hop (Drake fan des Raptors), Hollywood (Space Jam, The Last Dance). Lance ton sondage NBA et confronte ton avis aux fans.",
+    "sections": [
+      {
+        "h": "Les NBA Finals : sommet du basket mondial",
+        "body": "Les NBA Finals (en juin chaque année) sont le sommet absolu du basketball. Format best-of-7, équipe Est contre équipe Ouest. L'histoire est dominée par les Boston Celtics (18 titres), les Los Angeles Lakers (17 titres), les Chicago Bulls (6 titres entre 1991-1998 avec Jordan), les Golden State Warriors (7 titres dont 4 entre 2015-2022 avec Curry-Klay-Green), les Miami Heat (3 titres). Les Finals 2024 ont vu les Boston Celtics dominer les Dallas Mavericks 4-1 pour leur 18e titre, dépassant les Lakers en haut du classement historique. Le MVP des NBA Finals est un titre individuel mythique : Michael Jordan l'a remporté 6 fois en 6 finales (record), LeBron James 4 fois, Magic Johnson 3 fois, Tim Duncan et Shaquille O'Neal aussi. C'est l'honneur ultime du basket. Les NBA Finals sont regardées dans plus de 200 pays, avec une audience moyenne de 12-15 millions de spectateurs aux États-Unis et autant à l'international."
+      },
+      {
+        "h": "Wembanyama, Curry, LeBron : les stars du moment",
+        "body": "La NBA actuelle est portée par plusieurs stars. Stephen Curry (Warriors) a révolutionné le basket en imposant le tir à 3 points : recordman absolu des paniers à 3 points (3500+ et plus), 4 titres NBA (2015, 2017, 2018, 2022), MVP en 2015 et 2016. LeBron James continue à 40 ans à dominer les Lakers, meilleur scoreur de l'histoire (40 000+ points). Nikola Jokic (Nuggets), pivot serbe, est devenu un phénomène : 3 MVP en 4 ans, titre NBA 2023, jeu de passe inégalé. Giannis Antetokounmpo (Bucks), grec, titre NBA 2021, MVP 2019 et 2020. Joel Embiid (76ers), MVP 2023. Et puis Victor Wembanyama, sélectionné numéro 1 par les San Antonio Spurs en 2023, Rookie de l'Année 2024, considéré comme le talent générationnel du basket. À 2m24 avec les skills d'un meneur, il pourrait dominer la décennie. Tous ces joueurs s'affrontent chaque soir : la NBA n'a jamais été aussi excitante."
+      },
+      {
+        "h": "MVP et records statistiques",
+        "body": "Le titre de MVP NBA (Most Valuable Player) récompense le meilleur joueur de la saison régulière. Six joueurs ont remporté 4 MVP ou plus dans l'histoire : Kareem Abdul-Jabbar (6, record), Bill Russell (5), Michael Jordan (5), Wilt Chamberlain (4), LeBron James (4), Nikola Jokic (3 et compte). Cette dernière décennie a été dominée par Curry, Durant, LeBron, Giannis et Jokic. Les records statistiques de la NBA sont vertigineux : 100 points en un match de Wilt Chamberlain en 1962 (record absolu), 81 points de Kobe Bryant en 2006 (deuxième meilleur), 73 victoires en saison régulière des Warriors 2015-2016 (record), 33 victoires consécutives des Lakers 1971-1972. Aujourd'hui, des records continuent de tomber : LeBron dépasse Kareem au scoring, Curry réécrit l'histoire du tir à 3 points, Russell Westbrook accumule les triples-doubles. Chaque saison NBA produit ses records et ses moments cultes que les sondages moomz capturent en direct."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand a été créée la NBA ?",
+        "a": "La NBA a été fondée le 6 juin 1946 à New York sous le nom de Basketball Association of America (BAA). Elle a fusionné en 1949 avec la National Basketball League (NBL) pour devenir la National Basketball Association (NBA). Elle compte aujourd'hui 30 franchises et est la principale ligue de basketball professionnel au monde."
+      },
+      {
+        "q": "Qui est le meilleur joueur NBA de tous les temps ?",
+        "a": "Le débat oppose principalement Michael Jordan (6 titres, 6 MVP Finals, jamais battu en finale, icône culturelle) et LeBron James (meilleur scoreur de l'histoire avec 40 000+ points, 4 titres, longévité record). D'autres mentionnent Kareem Abdul-Jabbar, Kobe Bryant, Magic Johnson, Bill Russell ou Wilt Chamberlain selon les critères."
+      },
+      {
+        "q": "Combien de Français jouent en NBA en 2026 ?",
+        "a": "Plus de 15 Français évoluent en NBA, faisant de la France la nation la plus représentée en dehors des États-Unis. Parmi les stars : Victor Wembanyama (Spurs), Rudy Gobert (Wolves), Nicolas Batum, Evan Fournier, Killian Hayes. Tony Parker reste la plus grande légende française de la NBA (4 titres, MVP Finals 2007 avec les Spurs)."
+      },
+      {
+        "q": "Comment regarder la NBA depuis la France ?",
+        "a": "Via NBA League Pass (officiel, accès à tous les matchs en direct ou replay, environ 200€/an), beIN Sports (matchs sélectionnés), ou les highlights gratuits sur YouTube et X le lendemain. Le décalage horaire fait que la plupart des matchs commencent entre 1h et 4h du matin heure française. Beaucoup regardent les highlights le matin."
+      }
+    ],
+    "related": ["basket", "foot", "tennis", "ufc", "formule1", "jo", "ronaldo"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ligue1",
+    "locale": "fr",
+    "keyword": "Ligue 1",
+    "matchPatterns": ["ligue 1", "ligue1", "psg", "om", "ol", "monaco", "marseille", "championnat de france"],
+    "topic": "sport",
+    "title": "Ligue 1 : sondages PSG, OM, OL et clubs français | moomz",
+    "description": "Toute la Ligue 1 en sondages : titre, derbys PSG-OM, joueur du mois, transferts. Vote pour ton club préféré et compare ton avis avec les fans moomz.",
+    "emoji": "🇫🇷",
+    "intro": "La Ligue 1 est le championnat de football de première division en France, fondée en 1932 sous le nom de Division 1. Renommée Ligue 1 en 2002, elle compte aujourd'hui 18 clubs (réduite de 20 à 18 depuis 2023). Considérée historiquement comme le cinquième grand championnat européen derrière la Premier League anglaise, la Liga espagnole, la Bundesliga allemande et la Serie A italienne, elle a vu son prestige fluctuer au fil des décennies. L'arrivée du Qatar comme propriétaire du PSG en 2011 a tout changé : transferts records (Neymar 222M€ en 2017, Mbappé 180M€ en 2018), domination quasi totale du PSG sur la dernière décennie (10 titres entre 2013 et 2024), mais aussi déséquilibre du championnat. À côté du PSG, les autres clubs historiques sont l'Olympique de Marseille (10 titres, dernier 2010, seul club français vainqueur de la Ligue des Champions en 1993), l'Olympique Lyonnais (7 titres consécutifs entre 2002 et 2008), l'AS Saint-Étienne (10 titres historiques mais en difficulté récemment), l'AS Monaco (8 titres), Bordeaux, Lille (champion surprise 2021). Sur moomz, les sondages Ligue 1 cartonnent autour des classiques (PSG-OM, Lyon-Saint-Étienne), des transferts, des pronostics titre et coupe. Le derby PSG-OM est traditionnellement le match le plus regardé de la saison. Lance un sondage Ligue 1 et confronte ton avis aux fans français.",
+    "sections": [
+      {
+        "h": "PSG-OM : le Classique français",
+        "body": "PSG-OM, surnommé Le Classique, est le match le plus regardé de la Ligue 1 chaque saison, avec plus de 2 millions de Français devant leur écran. La rivalité entre Paris Saint-Germain et l'Olympique de Marseille remonte aux années 90, quand l'OM dominait sous Bernard Tapie et que le PSG montait en puissance avec Canal+ aux commandes. L'OM reste le seul club français vainqueur de la Ligue des Champions (1993 contre l'AC Milan, but de Basile Boli sur corner), un palmarès que le PSG cherche désespérément à égaler malgré ses investissements faramineux. Le derby est traditionnellement tendu, parfois violent (matchs interrompus, supporters interdits de déplacement), avec un palmarès face-à-face équilibré historiquement. Les figures emblématiques sont nombreuses : côté OM Didier Drogba, Eric Cantona, Marcel Desailly, Mathieu Valbuena ; côté PSG Ronaldinho, Zlatan Ibrahimovic, Neymar, Mbappé, Marquinhos. Chaque PSG-OM est un événement, et les sondages d'avant-match cartonnent sur moomz."
+      },
+      {
+        "h": "Le PSG et l'ère Qatar",
+        "body": "Depuis le rachat par Qatar Sports Investments en 2011, le Paris Saint-Germain a remporté 10 titres de Ligue 1 entre 2013 et 2024, dépassant largement Saint-Étienne (10) et Marseille (10) en nombre total de titres (actuellement 12). Le club a battu des records de transfert : Neymar 222 millions en 2017, Mbappé 180 millions en 2018 (depuis Marseille avait dépensé 180 sur Cavani), et a attiré Messi en 2021 puis Sergio Ramos, Donnarumma, Achraf Hakimi. Pourtant, la Ligue des Champions, obsession ultime du club, reste insaisissable : une seule finale (2020 contre le Bayern Munich, perdue 0-1) malgré des centaines de millions investis. Les coachs se sont succédé sans succès (Pochettino, Galtier, Luis Enrique). En 2024-2025, après le départ de Mbappé pour le Real, le PSG entame un nouveau cycle avec une équipe plus jeune et plus française."
+      },
+      {
+        "h": "Les autres clubs historiques",
+        "body": "La Ligue 1 ne se résume pas au PSG. L'AS Saint-Étienne reste le club le plus titré historiquement (10 championnats, dont 9 entre 1957 et 1981, ère mythique des Verts). L'Olympique Lyonnais a marqué les années 2000 avec 7 titres consécutifs entre 2002 et 2008, un exploit unique en Europe sur cette période, avec des stars comme Juninho, Karim Benzema, Hatem Ben Arfa. L'AS Monaco compte 8 titres et reste un club producteur de talents (Mbappé, Henry, Trezeguet, Aurélien Tchouameni). Bordeaux et Lille ont chacun connu leur heure de gloire : Bordeaux 6 titres, dernier en 2009 avec Laurent Blanc et Yoann Gourcuff ; Lille 4 titres, dernier en 2021 dans une saison surprise sous Christophe Galtier. Nice, Lens, Rennes, Reims, Strasbourg sont des clubs mid-tier qui produisent parfois des saisons exceptionnelles. La diversité géographique et culturelle des clubs français fait le charme de la Ligue 1."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand a été créée la Ligue 1 ?",
+        "a": "Le championnat de France de première division a été créé en 1932 sous le nom de Division 1, avec 20 clubs fondateurs. Il a été renommé Ligue 1 en 2002. C'est l'un des cinq grands championnats européens (avec la Premier League, la Liga, la Bundesliga et la Serie A), même si son prestige fluctue au fil des décennies."
+      },
+      {
+        "q": "Quel club a remporté le plus de titres de Ligue 1 ?",
+        "a": "Au total, le PSG (12 titres, dont 10 depuis 2013), Saint-Étienne (10 titres, principalement entre 1957 et 1981), Marseille (10 titres dont le dernier en 2010), Nantes (8), Monaco (8), Lyon (7 consécutifs 2002-2008), Bordeaux (6) sont les clubs les plus titrés. Le PSG a pris la tête sur la dernière décennie."
+      },
+      {
+        "q": "L'OM peut-il battre le PSG en Ligue 1 ?",
+        "a": "C'est difficile depuis l'ère Qatar du PSG, mais possible avec un effectif compétitif. L'OM a terminé deuxième plusieurs fois sous Igor Tudor (2022) puis sous d'autres entraîneurs. La domination économique du PSG (300M€+ de masse salariale contre 150M€ pour l'OM) rend le titre difficile mais pas impossible si Paris connaît une saison ratée."
+      },
+      {
+        "q": "Comment regarder la Ligue 1 ?",
+        "a": "Les droits TV de la Ligue 1 sont partagés entre DAZN (8 matchs sur 9 par journée) et beIN Sports (1 match), avec des changements récents. Tous les matchs sont diffusés en direct, et les abonnements coûtent entre 15 et 30 euros par mois. Les highlights gratuits sont disponibles sur YouTube le lendemain matin."
+      }
+    ],
+    "related": ["foot", "champions-league", "mbappe", "messi", "ronaldo", "jo", "ufc"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "champions-league",
+    "locale": "fr",
+    "keyword": "Champions League",
+    "matchPatterns": ["champions league", "ligue des champions", "c1", "uefa", "real madrid", "uefacl"],
+    "topic": "sport",
+    "title": "Champions League : finale, débats et sondages UEFA | moomz",
+    "description": "Toute la Ligue des Champions en sondages : finale, favoris, Real Madrid record, débats fans. Vote pour ton club préféré et compare avec moomz.",
+    "emoji": "🏆",
+    "intro": "La Ligue des Champions de l'UEFA, ou UEFA Champions League en anglais, est la compétition de clubs la plus prestigieuse au monde. Créée en 1955 sous le nom de Coupe des clubs champions européens, à l'initiative du journaliste français Gabriel Hanot (L'Équipe), elle a été rebaptisée UEFA Champions League en 1992 avec un nouveau format intégrant une phase de groupes. Aujourd'hui, après la réforme de 2024, elle se joue en phase unique de 36 équipes avec un classement général puis des éliminations directes, et atteint son apogée en mai-juin avec la finale dans un stade neutre. La Champions League est diffusée dans plus de 200 pays et la finale rassemble régulièrement plus de 400 millions de spectateurs uniques, ce qui en fait l'un des événements sportifs les plus regardés au monde après la Coupe du monde. Le Real Madrid CF est le club le plus titré de l'histoire avec 15 trophées (dont les 5 premiers consécutifs entre 1956 et 1960 sous Di Stefano, puis l'ère Zidane 2016-2018 avec 3 titres consécutifs), suivi par l'AC Milan (7), le Bayern Munich (6), le Liverpool FC (6), le FC Barcelone (5), l'Ajax (4), Manchester United (3). Pour la France, l'Olympique de Marseille reste le seul vainqueur (1993 contre l'AC Milan, 1-0, but de Basile Boli). Sur moomz, les sondages Champions League cartonnent autour des favoris, des pronostics finale et des moments cultes. Lance ton sondage CL et confronte tes pronos.",
+    "sections": [
+      {
+        "h": "Real Madrid : le club roi de la Champions League",
+        "body": "Le Real Madrid Club de Fútbol détient le record absolu de la Ligue des Champions avec 15 victoires, presque le double du deuxième (AC Milan, 7). Les Madrilènes ont dominé la première édition de la compétition en 1956 et remporté les 5 premières éditions consécutivement (1956-1960), avec Alfredo Di Stefano, Ferenc Puskas et la dream team blanche. Après une longue période de disette (32 ans entre 1966 et 1998), le club a retrouvé le sommet avec Zinédine Zidane en finale 2002 contre le Bayer Leverkusen (volée mythique de Zizou). Puis l'ère moderne sous Carlo Ancelotti et Zidane comme entraîneur : 3 finales consécutives gagnées en 2016, 2017 et 2018 (exploit unique dans l'ère Champions League), avec Cristiano Ronaldo en magnétiseur. Plus récemment, 2022 (Ancelotti, Vinicius), 2024 (Ancelotti, Bellingham). Le Real est devenu synonyme de Champions League, et chaque saison commence avec un nouveau record en vue. La mystique Real en C1 défie les statistiques."
+      },
+      {
+        "h": "Les grands favoris actuels et la lutte européenne",
+        "body": "La Champions League actuelle est dominée par un cercle restreint de favoris : Real Madrid (toujours), Manchester City (premier titre 2023 sous Guardiola), Bayern Munich (6 titres dont 2020 sous Hansi Flick), Paris Saint-Germain (toujours en quête de son premier sacre malgré les investissements), Liverpool (6 titres, dernier 2019), Inter Milan, Arsenal, Atlético Madrid. Pep Guardiola, le coach catalan, a redéfini ce que veut dire le jeu de possession et a finalement gagné sa première Champions League avec Manchester City en 2023, après plusieurs échecs cuisants (2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022). La Ligue des Champions est devenue un duel entre les superpuissances financières : Premier League dominante économiquement mais sans monopole sportif, La Liga toujours présente grâce au Real, Bundesliga avec le Bayern, Serie A avec l'Inter et le Milan en retour. La Ligue 1 reste à la traîne malgré le PSG."
+      },
+      {
+        "h": "Les moments cultes et les chocs historiques",
+        "body": "La Ligue des Champions a produit certaines des plus belles soirées du football mondial. Citons la remontada Barça-PSG 6-1 en 2017 (alors que le PSG menait 4-0 à l'aller), la finale Istanbul 2005 (Liverpool revient de 3-0 contre l'AC Milan à la mi-temps, gagne aux tirs au but), la volée de Zidane en 2002 (Real-Leverkusen 2-1, but mythique de la lucarne gauche), la finale Manchester United-Bayern 1999 (deux buts en deux minutes dans le temps additionnel pour renverser le score 2-1), le doublé d'Iniesta en demi-finale Chelsea-Barça 2009. Plus récemment, la remontada Real Madrid-Manchester City en 2022 (3-1 dans le temps additionnel pour aller en finale), le but de Bellingham en finale 2024. Chaque saison apporte son lot de moments inoubliables que les fans moomz adorent débattre. Lance un sondage sur le plus beau but de Champions League, le débat sera animé."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand a été créée la Champions League ?",
+        "a": "La Ligue des Champions a été créée en 1955 sous le nom de Coupe des clubs champions européens, à l'initiative du journaliste français Gabriel Hanot de L'Équipe. Elle a été rebaptisée UEFA Champions League en 1992 avec un nouveau format intégrant une phase de groupes. C'est la compétition de clubs la plus prestigieuse au monde."
+      },
+      {
+        "q": "Quel club a remporté le plus de Ligues des Champions ?",
+        "a": "Le Real Madrid détient le record absolu avec 15 titres en Ligue des Champions, presque le double du deuxième (AC Milan, 7 titres). Suivent le Bayern Munich (6), le Liverpool FC (6), le FC Barcelone (5), l'Ajax Amsterdam (4), Manchester United (3). La domination du Real est sans précédent dans le football européen."
+      },
+      {
+        "q": "Le PSG a-t-il déjà gagné la Champions League ?",
+        "a": "Non, le Paris Saint-Germain n'a jamais remporté la Ligue des Champions malgré l'arrivée massive d'investissements depuis 2011. Le club a atteint une finale en 2020 contre le Bayern Munich (défaite 0-1) et plusieurs demi-finales. La C1 reste l'obsession ultime du PSG. Le seul club français vainqueur est l'OM en 1993."
+      },
+      {
+        "q": "Comment regarder la Champions League en France ?",
+        "a": "Les droits TV de la Champions League en France appartiennent à RMC Sport et Canal+ Sport (depuis la réforme 2024), avec des matchs sélectionnés sur d'autres plateformes. Les abonnements coûtent entre 15 et 30 euros par mois. La finale est généralement diffusée gratuitement sur TF1 ou M6 si un club français est qualifié."
+      }
+    ],
+    "related": ["foot", "ligue1", "messi", "ronaldo", "mbappe", "jo", "tennis"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ufc",
+    "locale": "fr",
+    "keyword": "UFC",
+    "matchPatterns": ["ufc", "mma", "conor mcgregor", "khabib", "jon jones", "octogone"],
+    "topic": "sport",
+    "title": "UFC : combats, champions et débats MMA | moomz",
+    "description": "L'UFC en sondages : pronostics combats, meilleur fighter de tous les temps, débats MMA. Vote et confronte ton avis aux fans moomz, résultats en live.",
+    "emoji": "🥊",
+    "intro": "L'UFC, Ultimate Fighting Championship, est la plus grande organisation de MMA (mixed martial arts, arts martiaux mixtes) au monde. Fondée le 12 novembre 1993 à Denver (Colorado) sous l'impulsion de Rorion Gracie (famille brésilienne du jiu-jitsu) et Art Davie, elle a démarré comme un tournoi expérimental pour déterminer quel art martial était le plus efficace : boxe, karaté, sumo, jiu-jitsu, lutte. Royce Gracie a dominé les premières éditions en montrant la supériorité du jiu-jitsu brésilien (BJJ) en combat libre. Au fil des années, l'UFC a évolué d'un sport underground (banni en plusieurs États dans les années 90 pour brutalité) à un mastodonte mondial valorisé à plus de 12 milliards de dollars depuis le rachat par Endeavor en 2016 puis la fusion avec WWE pour créer TKO Group. Les fighters sont devenus des stars mondiales : Conor McGregor (Irlandais, double champion poids plumes et poids légers, le plus grand showman du sport), Khabib Nurmagomedov (Russe-Daghestanais, 29-0 à la retraite, considéré comme le meilleur poids léger de tous les temps), Jon Jones (Américain, considéré comme le GOAT toutes catégories), Israel Adesanya, Alex Pereira, Islam Makhachev. Sur moomz, les sondages UFC cartonnent avant chaque card numbered : pronostics, classements pound-for-pound, débats GOAT, meilleur KO. Lance ton sondage MMA et confronte ton avis aux fans.",
+    "sections": [
+      {
+        "h": "L'histoire de l'UFC et son explosion mondiale",
+        "body": "Fondée en 1993, l'UFC a démarré comme un tournoi expérimental sans catégories de poids et avec très peu de règles : tout était permis sauf mordre et arracher les yeux. Royce Gracie a dominé en montrant que le jiu-jitsu brésilien battait toutes les autres disciplines. Dans les années 90, l'UFC a été presque interdite aux États-Unis, qualifiée de combat de coqs humains par certains sénateurs. La survie est venue avec le rachat par les frères Fertitta en 2001 pour 2 millions de dollars (vendu 4 milliards en 2016 à Endeavor), l'introduction de catégories de poids, de rounds, de juges, et l'embauche de Dana White comme président. La popularité a explosé avec The Ultimate Fighter (reality show, 2005), l'arrivée de stars comme Chuck Liddell, GSP (Georges St-Pierre), Anderson Silva, BJ Penn, puis Conor McGregor en 2013-2017 qui a fait passer l'UFC au stade mondial. Aujourd'hui, l'UFC organise plus de 40 événements par an dans le monde entier."
+      },
+      {
+        "h": "Les légendes : McGregor, Khabib, Jon Jones",
+        "body": "Conor McGregor reste l'icône absolue de l'UFC en termes de marketing et d'impact culturel. Premier double champion simultané (poids plumes 2015, poids légers 2016), il a transformé l'UFC en sport mainstream avec son trash-talk légendaire, son combat avec Floyd Mayweather (boxe, 2017, le 2e combat le plus vendu en PPV de l'histoire), et son style flamboyant. Côté sportif, son record est moins impressionnant (24-7), surtout depuis sa rivalité avec Khabib Nurmagomedov. Khabib, le grappler daghestanais, a terminé sa carrière invaincu (29-0), ayant dominé Conor par soumission en octobre 2018 dans le combat le plus vendu PPV de l'histoire de l'UFC à cette époque. Beaucoup considèrent Khabib comme le meilleur poids léger de tous les temps. Et puis Jon Jones, le GOAT toutes catégories selon de nombreux experts : 27-1-0 (seule défaite par disqualification), double champion mi-lourds et lourds, considéré comme le meilleur striker-lutteur de la discipline. Le débat GOAT MMA reste ouvert entre lui, Khabib, GSP, Anderson Silva."
+      },
+      {
+        "h": "Les fighters français et la nouvelle génération",
+        "body": "L'UFC est de plus en plus internationale. La France compte plusieurs représentants : Cyril Gane (poids lourds, ancien challenger pour le titre face à Francis Ngannou puis Jon Jones), Ciryl Gane qui a marqué les fans avec son style technique de Muay Thai, Benoît Saint Denis (poids légers, étoile montante), Manon Fiorot (poids mouches femmes, top 5 mondial), Morgan Charrière (poids plumes). Francis Ngannou (Camerounais), ancien champion poids lourds UFC qui a quitté pour la boxe (combat contre Tyson Fury en 2023), reste l'une des plus grandes histoires françaises-africaines du sport. La nouvelle génération mondiale est explosive : Alex Pereira (Brésilien, double champion mi-lourds et poids moyens, ancien kickboxeur), Islam Makhachev (successeur de Khabib, champion poids légers), Leon Edwards, Ilia Topuria (Géorgien-Espagnol, KO violent sur Volkanovski en 2024), Sean O'Malley. L'UFC continue de surprendre."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand a été créée l'UFC ?",
+        "a": "L'UFC a été créée le 12 novembre 1993 à Denver (Colorado) sous l'impulsion de Rorion Gracie (famille brésilienne du jiu-jitsu) et Art Davie. À ses débuts, c'était un tournoi expérimental sans catégories de poids ni rounds. L'organisation est devenue le leader mondial du MMA après le rachat par les frères Fertitta en 2001."
+      },
+      {
+        "q": "Qui est le meilleur combattant UFC de tous les temps ?",
+        "a": "Le débat oppose principalement Jon Jones (27-1, double champion mi-lourds et lourds, considéré GOAT par beaucoup), Khabib Nurmagomedov (29-0 à la retraite, meilleur poids léger), Georges St-Pierre (GSP, 26-2, double champion poids welters et poids moyens), Anderson Silva (champion poids moyens record). Aucune réponse définitive."
+      },
+      {
+        "q": "Combien gagne un champion UFC ?",
+        "a": "Les revenus varient énormément. Un combattant débutant peut gagner 12 000 $ par combat. Les champions touchent généralement entre 500 000 et 2 millions de dollars par combat (purse + sponsors + bonus). Les superstars comme Conor McGregor gagnent des millions grâce aux PPV (pourcentage des ventes). Le top 5 mondial peut dépasser 5-10M $ par an."
+      },
+      {
+        "q": "Comment regarder l'UFC en France ?",
+        "a": "L'UFC est diffusée en France sur RMC Sport (cards numbered et événements majeurs) avec abonnement requis. Certains événements gratuits sont sur le site officiel UFC.com. Le décalage horaire fait que la plupart des cards principales commencent après 3h du matin heure française. Les sondages avant les gros combats cartonnent sur moomz."
+      }
+    ],
+    "related": ["foot", "basket", "nba", "tennis", "formule1", "jo", "ronaldo"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "formule1",
+    "locale": "fr",
+    "keyword": "Formule 1",
+    "matchPatterns": ["f1", "formule 1", "formule1", "verstappen", "hamilton", "leclerc", "ferrari"],
+    "topic": "sport",
+    "title": "Formule 1 : Verstappen, Hamilton et débats GP | moomz",
+    "description": "La F1 en sondages : Grand Prix, GOAT entre Verstappen et Hamilton, Ferrari vs Red Bull, Leclerc. Vote et compare ton avis avec les fans moomz.",
+    "emoji": "🏎️",
+    "intro": "La Formule 1 est le sommet absolu de la course automobile, le championnat le plus prestigieux et le plus technologiquement avancé au monde. Le premier Grand Prix de l'histoire de la F1 moderne a eu lieu le 13 mai 1950 à Silverstone (Grande-Bretagne), avec la victoire de Giuseppe Farina sur Alfa Romeo. Depuis, la F1 a connu plusieurs ères dominées par des pilotes légendaires : Juan Manuel Fangio (5 titres dans les années 50), Jim Clark, Jackie Stewart, Niki Lauda, Alain Prost (4 titres, dernier Français champion en 1993), Ayrton Senna (3 titres, mort tragique à Imola en 1994), Michael Schumacher (7 titres avec Ferrari, record), Lewis Hamilton (7 titres avec Mercedes, dont 6 entre 2014 et 2020), et aujourd'hui Max Verstappen (4 titres consécutifs entre 2021 et 2024 avec Red Bull). Le championnat comporte aujourd'hui 24 Grands Prix par saison répartis sur tous les continents : Bahreïn, Arabie saoudite, Australie, Japon, Chine, Miami, Monaco, Espagne, Canada, Autriche, Royaume-Uni, Hongrie, Belgique, Pays-Bas, Italie (Monza), Azerbaïdjan, Singapour, États-Unis (Austin), Mexique, Brésil (Interlagos), Las Vegas, Qatar, Abou Dhabi. La popularité a explosé grâce à Drive to Survive (Netflix depuis 2019), et la F1 attire désormais une audience plus jeune et plus américaine. Sur moomz, les sondages F1 cartonnent autour des pronos pole position, champion 2026, débats GOAT. Lance ton sondage F1 et confronte ton avis aux fans.",
+    "sections": [
+      {
+        "h": "Verstappen, Hamilton et la nouvelle ère",
+        "body": "Max Verstappen, Néerlandais né en 1997, est devenu le visage de la F1 moderne. Champion du monde 2021 (titre arraché à Hamilton lors du dernier tour du Grand Prix d'Abou Dhabi dans des circonstances polémiques), il a ensuite enchaîné trois titres en 2022, 2023 et 2024, dominant la grille avec Red Bull et le moteur Honda. Sa saison 2023 fut historique : 19 victoires en 22 courses, total record. Lewis Hamilton, Anglais, reste son rival historique : 7 titres mondiaux (à égalité avec Schumacher), 105 victoires en Grand Prix (record absolu), première star noire et figure militante de la diversité dans le sport. Hamilton a quitté Mercedes pour Ferrari en 2025, créant l'un des transferts les plus spectaculaires de l'histoire du sport automobile. La rivalité Verstappen-Hamilton restera l'une des plus marquantes des années 2020. Le débat sur le GOAT divise : Schumacher pour ses 7 titres tous avec Ferrari, Hamilton pour ses 7 titres et son impact sociétal, Verstappen pour sa domination écrasante et son jeune âge."
+      },
+      {
+        "h": "Ferrari, Red Bull, Mercedes : la guerre des écuries",
+        "body": "La F1 est aussi un sport d'écuries. Ferrari est la plus titrée et la plus emblématique : 16 titres constructeurs, 240+ victoires en Grand Prix depuis 1950. Tifosi italiens, monoplaces rouges, écurie présente à toutes les saisons depuis le début. Pourtant, Ferrari traverse une longue disette : pas de titre constructeurs depuis 2008, pas de titre pilotes depuis Kimi Raikkonen en 2007. L'arrivée de Hamilton en 2025 ravive l'espoir des tifosi. Red Bull Racing, écurie autrichienne fondée en 2005, domine depuis 2021 : 6 titres constructeurs avec Sebastian Vettel (4 titres pilotes 2010-2013) puis Max Verstappen. Mercedes a dominé l'ère hybride 2014-2020 avec 7 titres constructeurs consécutifs (record), portée par Hamilton et Nico Rosberg. McLaren (Royaume-Uni) revient en force depuis 2023-2024 avec Lando Norris et Oscar Piastri. Aston Martin, Williams, Alpine (équipe française avec Pierre Gasly), Sauber-Audi à venir. La grille est de plus en plus compétitive."
+      },
+      {
+        "h": "Charles Leclerc et la nouvelle génération",
+        "body": "Charles Leclerc, pilote monégasque né en 1997, est l'espoir d'une nouvelle ère pour Ferrari. Champion de Formule 2 en 2017, il a rejoint Ferrari en 2019 et a vécu des saisons difficiles malgré des éclairs de génie (pole position à Monza 2019 sous une ovation totale). Sa saison 2022 fut prometteuse avec 3 victoires et plusieurs pole positions, avant que la Ferrari ne décline en seconde partie de saison. Avec l'arrivée de Lewis Hamilton chez Ferrari en 2025, Leclerc devra confirmer son statut. À côté, la nouvelle génération est explosive : Lando Norris (McLaren, premier titre potentiel à venir), Oscar Piastri (jeune Australien), George Russell (Mercedes), Pierre Gasly (Alpine, espoir français), Esteban Ocon. Côté français, la F1 manque de titres : Alain Prost reste le dernier champion français en 1993. Gasly, Ocon et le retour récent de plusieurs écuries en France relancent l'espoir."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand a été créée la Formule 1 ?",
+        "a": "Le premier championnat du monde de Formule 1 a démarré le 13 mai 1950 avec le Grand Prix de Silverstone (Grande-Bretagne), remporté par Giuseppe Farina sur Alfa Romeo. Depuis, la F1 est devenue le sport automobile le plus prestigieux au monde, avec 24 Grands Prix par saison répartis sur tous les continents."
+      },
+      {
+        "q": "Qui est le meilleur pilote de F1 de tous les temps ?",
+        "a": "Le débat oppose Michael Schumacher (7 titres, tous avec Ferrari ou presque), Lewis Hamilton (7 titres, record de victoires en GP avec 105), Ayrton Senna (3 titres, charisme et talent pur), Juan Manuel Fangio (5 titres dans les années 50), Max Verstappen (4 titres consécutifs depuis 2021). Aucun consensus définitif n'existe."
+      },
+      {
+        "q": "Combien gagne un pilote de F1 ?",
+        "a": "Les salaires varient énormément. Un pilote junior gagne entre 1 et 5 millions d'euros par saison. Les pilotes top comme Verstappen ou Hamilton dépassent les 50 millions d'euros par an (salaire + primes + sponsorings). Hamilton chez Ferrari serait à environ 60 millions de dollars par saison, faisant de lui l'un des athlètes les mieux payés du monde."
+      },
+      {
+        "q": "Comment regarder la F1 en France ?",
+        "a": "La F1 est diffusée en France principalement sur Canal+ (tous les Grands Prix en direct, qualifications, essais) avec abonnement requis. Quelques courses gratuites sont parfois diffusées sur d'autres plateformes. L'horaire varie selon les Grands Prix (Asie tôt le matin, Europe l'après-midi, Amériques en soirée). Les sondages F1 moomz cartonnent avant chaque GP."
+      }
+    ],
+    "related": ["foot", "tennis", "basket", "ufc", "jo", "nba", "ligue1"],
+    "updatedAt": "2026-05-19"
+  }
+]

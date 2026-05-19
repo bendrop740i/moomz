@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "iphone",
+    "locale": "en",
+    "keyword": "iPhone",
+    "matchPatterns": ["iphone", "apple phone", "ios"],
+    "topic": "tech",
+    "title": "iPhone Polls: Vote on Apple's Most Iconic Phone",
+    "description": "Cast your vote on iPhone debates: best model, iOS vs Android, charger drama, dynamic island. Quick anonymous polls about Apple's iconic phone.",
+    "emoji": "📱",
+    "intro": "The iPhone is the most debated phone on the planet. Steve Jobs walked onto the Macworld stage on January 9, 2007 and pulled a slab of glass from his pocket that would quietly delete the BlackBerry, the iPod, the point-and-shoot camera, and the alarm clock in a single keynote. Almost twenty years later, every September feels like a global referendum: do we line up for the new Pro Max, do we keep the SE, do we finally jump ship to Pixel or Samsung. Nobody is neutral about Apple. The iPhone is a fashion accessory, a status symbol, a creative tool, a wallet, a remote control for the rest of life. It is also a polarizer: the lightning-to-USB-C switch in 2023 broke a decade of accessories, the Dynamic Island divided the internet, the price tag breaks budgets every year. On moomz we let the entire group chat decide which model is actually worth it, whether your iPhone is too old to keep, and which feature you secretly never use. Voting takes ten seconds, your friends can see results live, and nobody has to defend their hot take in the comments — the percentages speak for themselves. Whether you bleed Apple silver or you have been a stubborn Android holdout since the Galaxy S2, an iPhone poll is the fastest way to settle the family group chat, the work Slack, or the lunch table argument about which camera is actually better. Pull up a quick vote, share the link, and watch the room split right down the middle the way only an Apple debate can.",
+    "sections": [
+      {
+        "h": "Which iPhone do people actually love?",
+        "body": "Every model has a cult. The iPhone 4 is remembered for its squared-off glass sandwich, the iPhone X for killing the home button, the iPhone SE for being the last great small phone, the 11 for being the best value Apple ever shipped by accident, the 13 mini for being the phone power users still defend in 2026. Ask any group what their favorite iPhone of all time is and you will get violently different answers. The current Pro Max generation has the best camera Apple has ever built, but it weighs almost half a pound and costs more than a used car. The standard iPhone is in many ways more honest: lighter, cheaper, the same chip a year delayed, the same screen quality your eyes cannot actually tell apart. A poll about favorite iPhone is also a poll about taste, age, and budget. People in their twenties tend to pick whichever model came out the year they got their first job. People over forty often pick the 5s or the SE because they remember when phones fit in jeans. A quick moomz vote surfaces these splits instantly."
+      },
+      {
+        "h": "iPhone vs Android, the war that never ends",
+        "body": "The iPhone versus Android debate is older than Instagram. It started as a real technical argument in 2009 and slowly mutated into a tribal identity marker, complete with green-bubble shaming, charger jokes, and Tim Cook side-eyes. The truth is that in 2026 both platforms are excellent and most people pick based on what their friends and family use. iMessage lock-in is real in the US, irrelevant in most of Europe, and a joke in Asia where everyone uses LINE, WhatsApp, or WeChat. Android wins on customization, file management, and price ceiling. iOS wins on app polish, hardware-software integration, and longevity — a six-year-old iPhone still gets updates. A poll is the cleanest way to ask your circle what side they are on without starting a fight. Phrase it neutrally, drop in a green-bubble emoji as bait, and watch your group chat erupt with civil-war energy in the most entertaining way possible."
+      },
+      {
+        "h": "The features people use, ignore, and fight about",
+        "body": "Apple ships dozens of new features every year and most people use maybe four of them. Dynamic Island, Action Button, satellite SOS, AirDrop, Focus Modes, StandBy, Live Activities — half of those are beloved by a small group and ignored by everyone else. The Action Button is the perfect example: power users assign it to Shortcuts and feel like wizards, regular users leave it on Silent Mode forever. A poll about which iPhone feature you actually rely on every day cuts through Apple's marketing and shows what really matters: the camera, the flashlight, Face ID, Apple Pay, and the alarm. Everything else is bonus. Running a moomz poll on your friends about their most-used feature is also a great way to discover hidden iPhone tricks — someone in every group will reveal they have been using Back Tap for two years and you had no idea it existed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the first iPhone come out?",
+        "a": "Steve Jobs unveiled the original iPhone at the Macworld conference in San Francisco on January 9, 2007. It went on sale on June 29 of the same year, started at 499 dollars for the 4 GB model, only worked on AT&T in the US, and could not even record video. It still changed phones forever — every smartphone shipped since has been a remix of that announcement."
+      },
+      {
+        "q": "Which iPhone is the best value right now?",
+        "a": "It depends on your budget and how long you keep phones. The base iPhone is usually the smartest buy because you get the same chip family, same screen quality, and same camera sensor logic as the Pro for hundreds less. The Pro is worth it if you take a lot of low-light video or want the longest possible support window. The SE line is the pick for tiny-phone fans on a budget."
+      },
+      {
+        "q": "Why do iPhone users have blue bubbles in messages?",
+        "a": "Blue bubbles mean both people are on iMessage, Apple's encrypted texting layer that runs over the internet between Apple devices. Green bubbles are old-school SMS or RCS, which look uglier and lose features like read receipts and high-res photos. The color difference fueled years of social drama in US high schools and was the entire reason Apple finally added RCS support in 2024."
+      },
+      {
+        "q": "Is it worth upgrading every year?",
+        "a": "Honestly, no, for almost everyone. The year-to-year jump is small and Apple supports iPhones with software updates for six years or more. A two or three year upgrade cycle saves hundreds of dollars and you still get a noticeable jump. Yearly upgrades only make sense if you depend on the camera professionally, you sell the old one immediately, or you are on a carrier trade-in plan that hides the real cost."
+      }
+    ],
+    "related": ["android", "mac", "ai", "chatgpt", "instagram", "tiktok", "snapchat", "discord"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "android",
+    "locale": "en",
+    "keyword": "Android",
+    "matchPatterns": ["android", "samsung", "pixel", "galaxy"],
+    "topic": "tech",
+    "title": "Android Polls: Pixel, Galaxy, OnePlus & The iPhone Rivalry",
+    "description": "Vote on Android debates with friends: Pixel vs Galaxy, Samsung vs OnePlus, which skin is best, and whether you would ever switch to iPhone.",
+    "emoji": "🤖",
+    "intro": "Android is the operating system that runs three out of every four phones on Earth, but you would never guess it from American Twitter. Android Inc. was founded in 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White as a project to build a smarter operating system for digital cameras. When the camera market shrank, the team pivoted to phones, and in 2005 Google quietly acquired the startup for around 50 million dollars in what later turned out to be one of the best technology acquisitions in history. The first Android phone, the HTC Dream, shipped in 2008 with a slide-out keyboard and a trackball. Today Android powers Samsung's foldables, Google's Pixels, OnePlus's flagships, Xiaomi's budget kings, the Nothing Phone's transparent meme machine, and roughly three billion devices in active use across every continent. Android polls hit different because the ecosystem is enormous: there is no single Android experience the way there is one iPhone experience. Pixel users get clean stock Android and the best computational photography. Samsung users get One UI, Bixby they will never use, and the only foldables anyone actually buys. OnePlus users still pretend it is 2017 and the brand stands for value. On moomz you can settle the eternal which-skin-is-best argument, ask whether anyone misses headphone jacks, or run a vote on whether foldables will ever go mainstream. The flexibility of Android means every poll has nuance — and your friends are about to discover they have very strong opinions about launchers.",
+    "sections": [
+      {
+        "h": "Pixel, Samsung, OnePlus, Xiaomi — which side are you on?",
+        "body": "Inside the Android world, brand tribalism is just as fierce as the Apple-vs-Google war from the outside. Pixel fans are the purists: stock Android, fastest updates, AI features Google ships first because it owns the OS. Samsung loyalists value the hardware — best displays in the industry, S Pen on the Ultra, foldables nobody else can match. OnePlus people are nostalgic, still chasing the never-settle days of the OnePlus 3T. Xiaomi and Honor users care about specs-per-dollar and will tell you about it for an hour. Nothing fans are aesthetes. A poll about which Android brand you trust most exposes deep loyalties forged over years of upgrades, returns, and reviews. It also surfaces a generational split: people who bought Android phones in 2012 stayed for the customization, people who came in 2020 stayed for the Pixel camera. Drop the poll in the group chat and you will instantly see who reads Marques Brownlee reviews and who just buys whatever the carrier suggests."
+      },
+      {
+        "h": "Customization is the Android superpower",
+        "body": "The single biggest reason long-time Android users refuse to switch to iPhone is customization. Custom launchers like Nova let you redesign the home screen from scratch. Icon packs change every app icon to match a theme. Material You on Pixel auto-recolors the entire UI to match your wallpaper, in a way iOS still cannot replicate. Widgets can be any size, anywhere. You can set default apps for browser, SMS, dialer, and email without jumping through hoops. For some people none of this matters — they want a phone that works out of the box. For others it is everything. A poll about whether you have ever installed a custom launcher is one of the cleanest ways to split phone enthusiasts from regular users. It also reveals how many people have a folder called Junk full of apps they downloaded once."
+      },
+      {
+        "h": "Foldables, AI, and the next decade of Android",
+        "body": "Android is also where most of the wild experiments happen. Samsung shipped the first mainstream foldable in 2019 and is now on the Galaxy Z Fold 7 and Flip 7. Honor, Oppo, Vivo, and Xiaomi have all shipped book-style and clamshell folds that are genuinely good. Google's Pixel Fold answered with a wider, more tablet-like form factor. On the AI side, Gemini is baked directly into recent Pixels and Samsung devices, doing live translation, photo magic eraser, on-device summarization, and circle-to-search. None of that exists on iPhone in the same integrated way. A poll about whether you would ever buy a foldable, or whether AI features are gimmicks, is a great way to test how nerdy your friend group really is. Most non-tech people will say foldables are too expensive and break too easily. Tech people will defend them like prized children."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who created Android?",
+        "a": "Android was founded in 2003 by Andy Rubin, Rich Miner, Nick Sears, and Chris White as a startup originally aiming at digital cameras. Google acquired the company in 2005 for around 50 million dollars, then turned it into a free open-source mobile operating system. The first Android phone, the HTC Dream (also called the T-Mobile G1), shipped in 2008 and famously had a slide-out physical keyboard."
+      },
+      {
+        "q": "Pixel or Samsung — which is better?",
+        "a": "Pixel is the choice if you want clean stock Android, the fastest updates straight from Google, the best AI features, and the most natural-looking photos. Samsung Galaxy is the choice if you want top-tier hardware, the best display in the industry, foldable form factors, and an S Pen on the Ultra. Many people pick by camera taste: Pixel goes for realistic, Samsung leans saturated and contrasty."
+      },
+      {
+        "q": "Can Android phones be as good as iPhones?",
+        "a": "In 2026 the top-tier Android phones beat iPhones on several metrics: display refresh rate consistency, charging speed, foldable form factors, on-device AI, customization, and price-to-spec ratio. iPhone still wins on long-term software support, video recording polish, and ecosystem lock-in. For most users either platform is genuinely excellent and the choice comes down to what your friends and family use."
+      },
+      {
+        "q": "How long do Android phones get updates?",
+        "a": "It used to be a sore spot for Android — two years of updates was standard. That changed dramatically. Google Pixel now promises seven years of OS and security updates. Samsung matches that on flagship Galaxy S and Z phones. OnePlus, Honor, and Xiaomi are catching up with four to six years on premium tiers. Budget Android phones still lag, often capped at two to three years."
+      }
+    ],
+    "related": ["iphone", "ai", "chatgpt", "mac", "gaming", "instagram", "tiktok", "discord"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ai",
+    "locale": "en",
+    "keyword": "AI",
+    "matchPatterns": ["ai", "artificial intelligence", "gpt", "llm"],
+    "topic": "tech",
+    "title": "AI Polls: ChatGPT, Gemini, Claude, and The AI Hype Debate",
+    "description": "Vote on AI: ChatGPT vs Gemini vs Claude, are AI jobs at risk, do you trust it, and will it actually replace your work. Quick polls, real splits.",
+    "emoji": "🤖",
+    "intro": "AI is the biggest cultural shift since the smartphone. Whether you think it is the most important invention since electricity or the most overhyped bubble since dotcom, you cannot scroll Instagram or TikTok without seeing it. ChatGPT launched on November 30, 2022, gathered a million users in five days, a hundred million in two months, and rewrote how schools think about homework, how programmers write code, and how marketers draft emails. Three years later we have Claude, Gemini, Llama, Mistral, Grok, Perplexity, and a hundred more — every big tech company shipping its own model, every startup wrapping one into a product. The debates are loud. Will AI take your job, or just the boring parts of it. Is it actually intelligent or just predicting the next word with statistics. Is creative work safe. Are we automating the wrong things. Should there be a six-month pause. Should there not. The fastest way to find out where your friends, your coworkers, or your group chat actually stand is to put up an AI poll on moomz and watch the splits emerge in real time. You will discover that some of your friends already use AI ten times a day and have not told anyone, and some have never even tried ChatGPT. Both reactions are common. Both make for excellent vote-counts. AI is a topic where almost nobody is on the fence — the line just keeps moving every six months as the models get better.",
+    "sections": [
+      {
+        "h": "ChatGPT vs Gemini vs Claude — which one do you trust?",
+        "body": "There are now four serious general-purpose chatbots used by hundreds of millions of people: ChatGPT from OpenAI, Gemini from Google, Claude from Anthropic, and Copilot from Microsoft, which is partly built on ChatGPT under the hood. Each has a personality. ChatGPT is the all-rounder, the one your parents have heard of, with the biggest ecosystem of custom GPTs and plugins. Gemini is tightly integrated into Google Docs, Gmail, Android, and search. Claude is the writer's favorite, known for longer context windows and a more careful, less hallucinatory tone. Grok is the contrarian. Perplexity has won the search-replacement crowd. Polls about which chatbot people actually use daily reveal generational and professional splits: developers cluster around Claude and Cursor, students lean ChatGPT, marketers use Gemini inside Workspace, casual users pick whichever one is built into the phone they already own. A moomz vote in your group chat will show you exactly who in your circle is power-using these tools and who is still googling everything."
+      },
+      {
+        "h": "Will AI take your job, or just the boring parts?",
+        "body": "The biggest cultural question of this decade. Some jobs are already disrupted: junior copywriters, customer service first-line, simple translation, basic graphic design, transcription. Others are turbocharged: senior developers ship five times as much code, doctors triage faster, lawyers do contract review in minutes instead of days. The honest answer most economists give is that AI will not take most jobs but will dramatically change every job, and people who use AI tools well will outcompete people who refuse. A poll about whether you feel safe in your job is the kind of vote that sparks real conversation in a work Slack or family group. You will learn who is anxious, who is in denial, who is excited, and who already pivoted careers. The split is rarely 50-50 — usually one side dominates in any given profession, and the surprise is which side."
+      },
+      {
+        "h": "AI hype, AI ethics, and where this all goes",
+        "body": "Beyond chatbots, AI is reshaping image generation (Midjourney, Stable Diffusion, DALL-E, Flux), video generation (Sora, Veo, Runway), voice cloning, music generation (Suno, Udio), and coding (Cursor, Copilot, Claude Code). Each comes with ethical questions: training data, copyright, deepfakes, election interference, energy use, and the unanswered question of what happens to the open internet when half of it is generated by machines. Poll your friends about whether they would want their face turned into a deepfake, whether AI art counts as art, whether students should be allowed to use ChatGPT on essays, and you will hit deep cultural fault lines. There is no consensus on any of these yet — every demographic is still figuring out where the lines are. moomz polls capture that uncertainty better than any think piece."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did AI go mainstream?",
+        "a": "AI research has been around since the 1950s, but the moment it went truly mainstream was November 30, 2022, when OpenAI released ChatGPT. It hit one million users in five days and one hundred million in two months — the fastest-adopted consumer product in history at the time. Within a year, every major tech company shipped its own competitor, and AI had moved from research labs into homework, work emails, and Instagram captions."
+      },
+      {
+        "q": "Is AI actually intelligent?",
+        "a": "Depends on your definition. Large language models like GPT, Claude, and Gemini are extremely good at predicting the next token of text based on patterns in massive training data. They pass the bar exam, code, write, summarize, translate. But they also confidently invent facts (hallucinate), struggle with truly novel reasoning, and have no persistent memory by default. Most researchers call it general capability without general intelligence — narrow but powerful."
+      },
+      {
+        "q": "Will AI replace human jobs?",
+        "a": "Some jobs, yes. Many jobs will be transformed but not eliminated. History shows that new technology destroys some categories and creates others — calculators did not eliminate accountants, they just changed the work. The serious risk in 2026 is the transition period: people whose jobs are reshaped need time and resources to upskill, and that transition is uneven and often painful. The clear winners so far are people who learned to use AI tools early."
+      },
+      {
+        "q": "Is it safe to share personal info with ChatGPT?",
+        "a": "Be careful. By default, free-tier ChatGPT conversations can be used to train future models, and the same is true for Gemini. Most providers offer opt-outs in settings, or a paid plan where data is not used for training. Never paste passwords, banking details, personal medical records, or other people's private information into any chatbot. For sensitive work, prefer paid plans with explicit no-training guarantees, or run smaller models locally."
+      }
+    ],
+    "related": ["chatgpt", "iphone", "android", "mac", "gaming", "instagram", "tiktok", "discord"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "chatgpt",
+    "locale": "en",
+    "keyword": "ChatGPT",
+    "matchPatterns": ["chatgpt", "gpt", "openai", "chat gpt"],
+    "topic": "tech",
+    "title": "ChatGPT Polls: How You Really Use OpenAI's Famous Chatbot",
+    "description": "Vote on ChatGPT debates: do you pay for Plus, which use case is best, is it cheating to use it at school or work. Quick polls for real opinions.",
+    "emoji": "💬",
+    "intro": "ChatGPT is the most famous AI product ever launched and the fastest-adopted consumer technology in history. OpenAI shipped it on November 30, 2022 as what Sam Altman called a low-key research preview. Within five days it had a million users. Within two months it had a hundred million. Within a year it had reshaped how schools think about essays, how startups think about hiring, and how millions of people draft emails, plan meals, write code, and explain concepts they were too afraid to ask their colleagues about. By 2026 ChatGPT has gone from a single chat box to an entire platform: GPT-5 and beyond, Voice Mode, custom GPTs, Sora video generation, DALL-E image generation, code execution, web browsing, file uploads, and a phone-call-style talking assistant that feels like Her. Almost everyone has tried it at least once. The split is in how, why, and how often. Some people use ChatGPT once a week to write a tricky email. Some power users have it open in another tab all day, every day, and have stopped using Google for almost everything. Some refuse on principle, citing energy use, hallucinations, or training data ethics. On moomz a quick ChatGPT poll cuts through the abstract debate and reveals exactly how your friends and coworkers actually use the thing — or whether they secretly do not use it at all and just pretend they do at work meetings. The polls are short, anonymous, and very revealing.",
+    "sections": [
+      {
+        "h": "What people actually use ChatGPT for",
+        "body": "The real ChatGPT user base is not building Skynet. It is writing professional emails, summarizing long articles, drafting cover letters, planning trips, getting recipe ideas from a list of ingredients in the fridge, debugging code, fixing grammar, translating phrases, explaining medical jargon, learning piano theory, and getting therapy when nobody is around at 2 am. The thing is shockingly useful for everyday small tasks and merely okay for big creative projects. A poll about your most common ChatGPT use case will surface this honestly. Workers will say emails. Students will say homework, even if they pretend it is only outlines. Parents will say recipe planning and explaining math to their kids. Programmers will say debugging. Almost nobody will say anything truly creative — and that gap is itself the interesting story."
+      },
+      {
+        "h": "Free, Plus, Pro, or Team — does anyone pay?",
+        "body": "OpenAI's pricing tiers are now a small economy. Free gives you access to a recent model with usage limits. Plus at 20 dollars a month gives you priority access, faster models, more usage, and the latest features. Pro at 200 dollars a month unlocks frontier models, unlimited Voice Mode, and Sora video credits. Team and Enterprise plans target work. The interesting cultural question is who pays. In 2022 nobody paid for chatbots. In 2024 a small minority did. In 2026 surveys suggest somewhere between 10 and 20 percent of regular ChatGPT users pay, which is enormous for a consumer software product. A poll about whether you pay for ChatGPT Plus reveals how committed your circle is to AI tools — and reveals price sensitivity that ad agencies and investors are dying to know."
+      },
+      {
+        "h": "Is using ChatGPT cheating?",
+        "body": "Schools and universities have spent three years tying themselves in knots over this. The answer is messy. Using ChatGPT to write an essay you submit unedited as your own work is academic dishonesty everywhere. Using it to brainstorm, summarize a reading, or check grammar is broadly accepted. Using it to do your homework while you watch TV is a grey area that most teachers cannot detect. The same question applies at work: is it cheating to draft your manager's report with ChatGPT, or just smart? The honest cultural consensus emerging in 2026 is that AI use is now a normal part of office work, like spell-check or Google, and pretending otherwise is silly. But education is still finding its line. A moomz poll about whether AI use counts as cheating splits friend groups instantly and is one of the most viral question types in the SEO-keyword library."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was ChatGPT released?",
+        "a": "ChatGPT was launched by OpenAI on November 30, 2022. It was originally a low-key research preview of a fine-tuned GPT-3.5 model, but it went viral almost overnight. It reached one million users in five days and a hundred million users in just two months, making it the fastest-adopted consumer product in technology history at the time."
+      },
+      {
+        "q": "Is ChatGPT free?",
+        "a": "Yes, the base version of ChatGPT remains free with usage limits on the latest models. Paid plans unlock more: ChatGPT Plus (around 20 dollars a month) gives priority access and faster models, Pro (around 200 dollars a month) unlocks frontier models, Sora video credits, and unlimited Voice Mode. Teams and Enterprise tiers exist for businesses. The free tier is still extremely capable for everyday tasks."
+      },
+      {
+        "q": "Is ChatGPT better than Google?",
+        "a": "It depends on the question. For factual quick lookups (the weather, sports scores, opening hours), Google is faster and more accurate. For anything requiring synthesis (summarizing five articles, comparing options, drafting a letter, explaining a complex topic in plain English), ChatGPT is dramatically better. Many users now do both: Google for facts, ChatGPT for thinking. Perplexity and Gemini blur the two together."
+      },
+      {
+        "q": "Can ChatGPT make mistakes?",
+        "a": "Yes, often. ChatGPT confidently invents facts — this is called hallucinating. It can get dates wrong, fabricate citations, miscount, give outdated information, and present false history with a totally calm tone. Always verify anything important against a real source: a medical question with a doctor, a legal question with a lawyer, a recipe with your own taste, a homework answer with your textbook. Treat it as a smart but unreliable intern."
+      }
+    ],
+    "related": ["ai", "iphone", "android", "mac", "instagram", "tiktok", "discord", "gaming"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "gaming",
+    "locale": "en",
+    "keyword": "Gaming",
+    "matchPatterns": ["gaming", "video games", "gamer", "console"],
+    "topic": "tech",
+    "title": "Gaming Polls: PS5 vs Xbox vs Switch vs PC — Settle The Debate",
+    "description": "Quick gaming polls: best console, favorite game ever, GTA 6 hype, FIFA vs eFootball, and which platform actually wins the generation.",
+    "emoji": "🎮",
+    "intro": "Gaming is no longer a niche — it is the biggest entertainment industry on Earth, bigger than music and the global box office combined. Three billion people play video games in some form, from casual mobile puzzlers on the bus to hardcore esports pros pulling six-figure salaries on Twitch. Every demographic plays now. Your grandmother plays Candy Crush. Your colleague stays up until 3 am on Fortnite. Your cousin is grinding ranked Valorant. The console wars are alive and louder than ever, with PlayStation, Xbox, Nintendo, Steam, and now even Apple seriously courting gamers with high-end M-chip Macs and iPhones strong enough to run Resident Evil natively. The most fun part of gaming culture is the tribalism. PS5 owners think they bought the only console that matters. Xbox Series X fans defend Game Pass like a religion. PC players consider both groups peasants. Nintendo Switch owners do not care because they are playing Zelda on the train and you are not. A gaming poll on moomz is one of the most reliable ways to start a friendly war in any group chat. Ask which console people would buy with their own money, which exclusive justified a purchase, or which game changed their life. You will discover that nobody is neutral about FIFA, that everyone has a strong take on souls games, and that a surprising number of grown adults still cry talking about Red Dead Redemption 2. Pull up a vote and let the percentages do the trash talk for you.",
+    "sections": [
+      {
+        "h": "The console war: PS5, Xbox, Switch, PC",
+        "body": "The current generation is fascinating because there is no clear winner. Sony PlayStation sells the most consoles globally and has the strongest exclusive lineup — God of War, Spider-Man, The Last of Us, Final Fantasy timed exclusives. Microsoft has the strongest service in Game Pass, has bought Activision Blizzard, and is openly going multi-platform. Nintendo Switch crossed 150 million units, the best-selling console ever for Nintendo, with the Switch 2 in 2024 extending the dynasty. PC gaming has never been bigger thanks to Steam, the Steam Deck, and the rise of cheap powerful GPUs. Cloud gaming via Xbox Cloud and GeForce Now is finally becoming usable. A poll about which platform you would pick if you could only have one reveals deep loyalties — and a surprising amount of platform-switching since 2020."
+      },
+      {
+        "h": "The games that defined a decade",
+        "body": "Some games are not just hits, they are cultural events. Minecraft, with over 300 million copies sold, is the best-selling video game ever. GTA V is the most profitable entertainment product in history. Fortnite redefined the live-service model and the battle royale genre. The Last of Us, Red Dead Redemption 2, and Elden Ring all hit the level of cultural shorthand where you can name-drop them in non-gaming circles. Tears of the Kingdom and Breath of the Wild rebooted what open-world means. Baldur's Gate 3 brought CRPGs mainstream. Helldivers 2 made co-op cool again. Asking your friends about their game of the decade or all-time favorite reveals not just taste but era — what console they had as a kid, what they played in college, what their kids made them play. A moomz poll captures these little autobiographical details in a single vote."
+      },
+      {
+        "h": "Esports, streaming, and the new pop stars",
+        "body": "The biggest game personalities are no longer studio executives, they are streamers. Ninja, Pokimane, xQc, Kai Cenat, IShowSpeed, Tarik, Shroud, Caedrel — these names mean more to gamers under 25 than most actual celebrities. Twitch and YouTube Gaming pull viewership numbers that rival cable TV. The League of Legends World Championship sells out arenas in seconds. Valorant Champions, the Fortnite World Cup, EVO for fighting games, and IEM for Counter-Strike are now mainstream sporting events covered by ESPN. A poll about your favorite streamer or your most-watched esport will instantly reveal age and subculture — Twitch chat regulars, FIFA pros, CS:GO veterans, mobile Brawl Stars fans. The gaming-streaming overlap is where most of the next generation of culture is being made."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which console sells the most worldwide?",
+        "a": "Sony PlayStation has been the global sales leader for most of the current generation, with PS5 outselling Xbox Series X|S by a significant margin worldwide. Nintendo Switch was the best-selling console of the previous generation overall, crossing 150 million units. Xbox is strongest in the US and UK but trails in Europe, Asia, and Latin America. PC gaming on Steam keeps growing in parallel."
+      },
+      {
+        "q": "Is PC gaming better than console?",
+        "a": "It depends. PC wins on graphics, framerate, mods, sales, backwards compatibility, multitasking, and long-term value if you reuse parts. Console wins on simplicity, plug-and-play, dedicated couch experiences, and exclusive games like God of War or Mario. The Steam Deck blurs the line by offering PC gaming in handheld form. Many people end up owning both eventually, which is why platform debates never end."
+      },
+      {
+        "q": "How much do top streamers earn?",
+        "a": "The very top tier (Ninja, xQc, Kai Cenat) earns millions of dollars a year through a mix of subs, donations, sponsorships, ads, and exclusivity deals. The next tier with hundreds of thousands of viewers earns six to seven figures. Most streamers earn very little — Twitch's middle class is small. The income mirrors social media: top 1 percent captures the majority of revenue, long tail captures very little."
+      },
+      {
+        "q": "What is the best-selling video game ever?",
+        "a": "Minecraft is the best-selling video game of all time, with over 300 million copies sold across every platform. GTA V sits in second place at over 200 million copies, and is the most profitable entertainment product ever made. Tetris is harder to count because of countless re-releases, but it has shipped over 500 million units total across all versions. Modern hits like Fortnite are free-to-play and do not show up in copy counts."
+      }
+    ],
+    "related": ["ps5", "switch", "iphone", "android", "discord", "ai", "chatgpt", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ps5",
+    "locale": "en",
+    "keyword": "PS5",
+    "matchPatterns": ["ps5", "playstation 5", "playstation", "sony"],
+    "topic": "tech",
+    "title": "PS5 Polls: Sony's Console, Exclusives, And The PS5 Pro Debate",
+    "description": "Quick polls about the PlayStation 5: best exclusive, PS5 Pro worth it, Astro Bot, GTA 6, DualSense haptics, and the next generation console wars.",
+    "emoji": "🕹️",
+    "intro": "The PlayStation 5 dropped in November 2020 in the middle of a pandemic, an absolute hardware drought, and a global semiconductor shortage. For almost two years getting one at retail price felt like winning the lottery, with scalpers running the same secondary market they had with concert tickets. By 2026 the console has shipped over 70 million units worldwide and the PS5 Pro has joined the lineup as the high-end option for 4K-120fps enthusiasts. PS5 cemented Sony's dominance over Xbox for this generation and gave gamers a long string of true blockbuster exclusives: Demon's Souls, Returnal, Ratchet and Clank, Horizon Forbidden West, God of War Ragnarok, Spider-Man 2, Final Fantasy XVI, Stellar Blade, Astro Bot, and the upcoming Wolverine. The DualSense controller alone is one of the most innovative pieces of consumer hardware of the decade, with adaptive triggers and haptic feedback so good that almost every other platform has tried to copy them. PS5 polls are the bread and butter of moomz gaming content. Which exclusive deserves a sequel. Is the PS5 Pro worth its eye-watering price. Did Concord's failure mean anything for live service. Are Sony first-party games getting too long and too cinematic, or is that exactly the point. Every gamer has an opinion. Pull up a vote, drop it in your Discord, and watch the room split.",
+    "sections": [
+      {
+        "h": "PS5 exclusives that justified the purchase",
+        "body": "Sony's first-party lineup is the strongest reason most people buy a PlayStation. The current generation alone has delivered Demon's Souls in stunning From Software fashion, Returnal as a perfect showcase of DualSense and SSD tech, God of War Ragnarok as the conclusion to one of the best trilogies in gaming, Spider-Man 2 as the most fluid open-world traversal ever made, Final Fantasy XVI as a real return to form, Stellar Blade as a stylish breakout, and Astro Bot as a love letter to PlayStation history that swept Game of the Year 2024. Each one has a fierce defender base. A poll asking which PS5 exclusive deserves a sequel reveals serious splits — Spider-Man fans want a third, Returnal fans are still waiting, Demon's Souls 2 has whispered support, and Astro Bot is the new fan favorite. Drop the vote and let the percentages do the talking."
+      },
+      {
+        "h": "PS5 Pro — necessary upgrade or wasted money?",
+        "body": "The PS5 Pro launched in late 2024 at 700 dollars, sparking immediate debate. It offers significantly better ray tracing, AI-driven upscaling via PSSR, and smoother performance at 4K in dozens of patched games. For enthusiasts with 120Hz HDR TVs it is a genuine generational leap. For casual players the base PS5 still plays everything the Pro plays. The price discourse was loud — 700 dollars, no disc drive included, only sold with the digital edition. Sony's defense was that the Pro is for the upper tier of gamers who buy a TV worthy of it. A poll about whether you upgraded to the Pro or stuck with the base PS5 splits hardcore from casual cleanly. It also surfaces price sensitivity in a way reviews never do."
+      },
+      {
+        "h": "GTA 6, Wolverine, and what is next",
+        "body": "The biggest game in the world, GTA 6, finally drops in 2026 after years of leaks and trailers. Rockstar's first new GTA in over a decade. Every PS5 owner has thoughts on whether Vice City was the right setting, whether the dual protagonists work, whether the price will be 80 or 100 dollars. Alongside it, Insomniac's Wolverine is the next Sony exclusive bet, ND's next Naughty Dog project remains a mystery, and Death Stranding 2 is reshaping what Kojima can pull off. A poll about which upcoming PS5 game you are most hyped for is a great way to find out which subgenres your friends are into, and a great way to remember the wildly different opinions people have about Hideo Kojima. It also reveals the divide between people who pre-order and people who wait six months for the inevitable patches."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the PS5 come out?",
+        "a": "The PlayStation 5 launched on November 12, 2020 in the US, Japan, Canada, Mexico, Australia, New Zealand, and South Korea, and on November 19, 2020 in the rest of the world. Two versions launched together: the standard model with a 4K Blu-ray disc drive and the Digital Edition with no drive. The PS5 Slim followed in late 2023 and the PS5 Pro in late 2024."
+      },
+      {
+        "q": "What is the best PS5 exclusive?",
+        "a": "Critically, the answer in 2026 is split between Astro Bot (Game of the Year 2024), God of War Ragnarok (record-breaking metacritic), and Spider-Man 2. Sales-wise, Spider-Man 2 leads. Fan favorites include Demon's Souls, Returnal, and Final Fantasy XVI. The honest answer is it depends on your genre — Sony's strength is that almost every taste has a top-tier exclusive."
+      },
+      {
+        "q": "Is the PS5 Pro worth it?",
+        "a": "Only if you already have a high-end 4K HDR display with 120Hz support and you care about ray tracing and the highest visual settings. For everyone else the base PS5 still plays the exact same games. The Pro is aimed at enthusiasts the way the iPhone Pro Max is aimed at photographers — incredible if you push it, overkill for casual use. At 700 dollars it is a luxury upgrade, not a necessary one."
+      },
+      {
+        "q": "How does PS5 compare to Xbox Series X?",
+        "a": "Sales: PS5 leads worldwide by roughly two to one. Exclusives: PS5 dominates with first-party hits, Xbox responds with Game Pass and going multi-platform. Hardware: similar specs, Xbox has a slight edge on raw teraflops, PS5 has a faster SSD and the DualSense controller. Service: Xbox Game Pass is the best deal in gaming, PS Plus Premium catches up on retro. Many serious gamers end up owning both eventually."
+      }
+    ],
+    "related": ["switch", "gaming", "ai", "chatgpt", "iphone", "android", "discord", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "switch",
+    "locale": "en",
+    "keyword": "Nintendo Switch",
+    "matchPatterns": ["switch", "nintendo", "mario", "zelda"],
+    "topic": "tech",
+    "title": "Nintendo Switch Polls: Mario, Zelda, And The Hybrid Console Win",
+    "description": "Vote on Switch debates: best Zelda, Switch 2 hype, Mario Kart vs Smash, handheld vs docked, and the games that defined the hybrid era.",
+    "emoji": "🎮",
+    "intro": "The Nintendo Switch is the comeback story of the decade in gaming. After the Wii U flopped, almost nobody outside of Kyoto believed Nintendo would survive another console cycle. Then in March 2017 they shipped the Switch — a hybrid console that docked to your TV and detached into a portable with two controllers that slid off the sides. The first big game, The Legend of Zelda: Breath of the Wild, became one of the highest-rated games ever made. The second, Mario Odyssey, followed in October. Animal Crossing: New Horizons turned the entire pandemic into a Nintendo party. By 2026 the original Switch has sold over 150 million units, making it Nintendo's best-selling home console ever (technically tying the DS family). The Switch 2 launched in 2024 with a bigger screen, real backward compatibility, and a meaningful spec bump while staying true to the hybrid concept. The cultural impact of the Switch is impossible to overstate. It brought millions of new and casual players into gaming. It saved Nintendo. It built a library of essentially perfect first-party games. And it proved that you do not need to win the spec war to win the generation. Switch polls on moomz are some of the most universally popular because almost everyone owns one, even people who do not consider themselves gamers. Ask which Zelda is best, which Mario Kart track is iconic, whether you actually use docked mode, and you will get votes from your aunt, your coworker, and your cousin's seven-year-old.",
+    "sections": [
+      {
+        "h": "The Zelda question — Breath of the Wild or Tears of the Kingdom?",
+        "body": "Breath of the Wild rebooted what open-world games could be in 2017. Tears of the Kingdom in 2023 doubled down with Ultrahand, the underground, and the sky islands. Both games scored perfect or near-perfect across critics. Both are considered all-time classics. But fans are deeply split on which is better. BOTW purists say the original is more atmospheric, more lonely, more iconic. TOTK fans argue the second game is more inventive, more dense, and more replayable. A poll on this is genuinely interesting because Nintendo fans tend to be passionate but not toxic — the BOTW vs TOTK debate is one of the few console-game debates online that is genuinely civil. Drop a moomz vote in the group chat and you will discover that everyone you know has played at least one of these, even people who do not own a Switch and just borrowed it."
+      },
+      {
+        "h": "Mario Kart, Smash, and the party game throne",
+        "body": "Nintendo has the best party game lineup in the industry, hands down. Mario Kart 8 Deluxe is the best-selling racing game in history. Super Smash Bros Ultimate has the entire roster of every fighter in series history. Mario Party Superstars, Mario Tennis, Mario Strikers, ARMS, Splatoon — there is a Switch party game for every group. The big debate is whether Mario Kart or Smash is the GOAT for friend gatherings. Mario Kart wins on accessibility (anyone can pick it up in thirty seconds), Smash wins on depth (the competitive scene is bottomless). A poll about which game gets pulled out at your friends' apartment is a great litmus test for the kind of group you are in. Casual groups always say Mario Kart. Competitive groups always say Smash. Some groups vote 50-50 and then argue."
+      },
+      {
+        "h": "Handheld or docked — how do people really play?",
+        "body": "Nintendo marketed the Switch as a hybrid, and the marketing was honest, but the reality is that most players have a strong preference. Surveys consistently show roughly 60 to 70 percent of Switch time is in handheld or tabletop mode, despite the device being capable of TV output. The OLED model released in 2021 leaned into this, with a beautiful 7-inch OLED screen that made docked feel like a downgrade. The Switch 2 with an even larger 8-inch screen continues the trend. A poll about how you actually play your Switch reveals real usage patterns — most people who said they would mostly dock it admit they never really did, and most kids only play handheld."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When did the Nintendo Switch launch?",
+        "a": "The Nintendo Switch launched globally on March 3, 2017. The launch lineup included The Legend of Zelda: Breath of the Wild, which became one of the highest-rated games ever made. The console concept was a hybrid: docked to a TV, or detached and held like a portable, with two Joy-Con controllers that slid off the sides. The Switch OLED arrived in 2021 and the Switch 2 in 2024."
+      },
+      {
+        "q": "How many Switch units have been sold?",
+        "a": "The original Nintendo Switch family has sold over 150 million units worldwide, making it Nintendo's best-selling home console ever and putting it roughly in line with the DS family. It is one of the best-selling video game consoles in history, behind only the PS2. The Switch 2 added tens of millions more after its 2024 launch and has been outpacing original Switch sales at the same point."
+      },
+      {
+        "q": "Should I buy a Switch or a PS5?",
+        "a": "Different consoles for different tastes. Switch is for first-party Nintendo magic (Mario, Zelda, Smash, Pokemon, Animal Crossing), portability, party games, and a kid-friendly library. PS5 is for cinematic exclusives, third-party AAA games, online multiplayer, and high-end visuals. Many gamers own both — the Switch fills the gaps in any other console library, especially for couch co-op with friends and family."
+      },
+      {
+        "q": "Is the Switch 2 worth the upgrade?",
+        "a": "If you have an original Switch from 2017, yes — the Switch 2 has a bigger screen, real performance improvements, magnetic Joy-Cons, better online, and backward compatibility with most original games. If you have a Switch OLED from 2021, the upgrade is more incremental and depends on whether you care about the new exclusive games. As always, Nintendo's killer-app exclusives drive most upgrade decisions."
+      }
+    ],
+    "related": ["ps5", "gaming", "anime", "iphone", "android", "discord", "ai", "manga"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mac",
+    "locale": "en",
+    "keyword": "Mac",
+    "matchPatterns": ["mac", "macbook", "macintosh", "imac", "apple silicon"],
+    "topic": "tech",
+    "title": "Mac Polls: MacBook Pro, M-Series Chips, And The Apple Faithful",
+    "description": "Vote on Mac debates: MacBook Pro vs Air, M4 vs Windows, iMac return, Apple Silicon revolution, and which Mac you actually want to own.",
+    "emoji": "💻",
+    "intro": "The Macintosh launched on January 24, 1984, with one of the most famous television commercials ever made. Apple aired it once during Super Bowl XVIII, directed by Ridley Scott fresh off Blade Runner, with a hammer-throwing athlete smashing a giant Big Brother screen. The commercial set the tone for the entire brand — the Mac was the rebel computer, the one for creators, for the rest of us. Four decades later the Mac has gone through everything: the original beige boxes, the iMac translucent G3 in 1998 that saved the company, the PowerBook era, the white plastic MacBook, the unibody aluminum era, the dark days of butterfly keyboards, and finally the Apple Silicon revolution in 2020 with the M1 chip. The M-series chips have given Mac its strongest position in twenty years. MacBooks now have ridiculous battery life, run completely silent under load, and outperform Windows ultrabooks while being cheaper at the high end. The M4 generation in 2024 cemented this. By 2026 Mac is no longer the niche choice — it is the default for creative professionals, developers, journalists, students, and anyone who can afford the entry price. Mac polls on moomz are the perfect way to dig into the Apple loyalist mindset. MacBook Pro versus Air. Are you team black or team silver. Do you actually need the Pro chip. Did you buy an iMac for the studio look or for the work. Will you ever switch back to Windows. The answers reveal both budget and identity.",
+    "sections": [
+      {
+        "h": "MacBook Air, Pro, or something else?",
+        "body": "Apple's lineup is the cleanest in the laptop industry. MacBook Air is for students, writers, light professionals, anyone who values portability and silence over peak performance. MacBook Pro is for video editors, developers, photographers, and pros who push the chip. The 14-inch Pro is the sweet spot for travel. The 16-inch Pro is the desktop replacement. The iMac stays alive for home offices and family computers, especially in M4 form. Mac Studio and Mac Pro are for the small slice of users who run Final Cut or Logic Pro on heavy projects. A poll about which Mac you actually own (versus the one you wanted) reveals deep budget honesty — most people own an Air and dream of a Pro. The 13-inch Pro is the unloved middle child. The 16-inch Pro buyers are the most committed."
+      },
+      {
+        "h": "Apple Silicon changed everything",
+        "body": "Before 2020, Macs ran on Intel chips just like Windows laptops, and the difference was mostly software and price. After the M1 launched in November 2020, Mac became a genuinely different category. Battery life doubled overnight. Heat and fan noise disappeared on most everyday tasks. Native Apple Silicon apps ran two to three times faster than the Intel equivalents. The performance per watt was so far ahead of Intel and AMD that Apple has held the lead ever since, through M2, M3, and now M4. For developers, video editors, and music producers, Apple Silicon felt like cheating. A poll about whether the M-series chip pushed you to buy a Mac is a perfect way to surface the converts — and they are everywhere. Even old Windows die-hards have quietly switched in the last four years."
+      },
+      {
+        "h": "Mac versus Windows — does it still matter?",
+        "body": "The PC versus Mac argument used to be tribal. In 2026 it is more practical. Both platforms run all the same web apps, almost all the same creative apps, and most of the same games (with caveats for native gaming). The differences come down to: hardware design (Mac wins on build, screens, trackpad, speakers), software polish (Mac wins on stability and update fatigue), price ceiling (Windows wins, you can build something monstrous for less), customization (Windows wins, Mac is what Apple gives you), gaming (Windows still wins, though Mac is catching up), and ecosystem (Mac wins if you also have iPhone). A poll about whether you would ever switch back to Windows splits Mac users into two clear groups — the converts who would never go back, and the dual-platform users who keep a gaming PC under the desk."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was the first Macintosh released?",
+        "a": "The original Macintosh launched on January 24, 1984. Apple introduced it with one of the most famous TV commercials ever made, directed by Ridley Scott and aired during Super Bowl XVIII. The original Mac had a 9-inch monochrome display, a 3.5-inch floppy drive, 128KB of RAM, and a then-revolutionary graphical user interface with mouse, windows, and icons that defined the next four decades of personal computing."
+      },
+      {
+        "q": "Is the MacBook Air enough for most people?",
+        "a": "Yes, for most users in 2026 the MacBook Air is more than enough. The M-series Air handles web browsing, office work, light photo editing, all-day Zoom calls, programming, and most creative apps without breaking a sweat. You only need the Pro if you do regular heavy video editing, 3D rendering, music production with hundreds of plug-ins, or you need the bigger screen and more ports. Most students and office workers should buy the Air."
+      },
+      {
+        "q": "Why did Apple switch from Intel to Apple Silicon?",
+        "a": "Intel chips were behind on performance per watt for years, getting hotter and slower relative to ARM-based competitors. Apple had been designing its own A-series chips for iPhone and iPad since 2010 and proved with the iPad Pro that ARM could match laptop-class performance. By moving Mac to its own silicon in 2020 (M1), Apple gained control over the full hardware-software stack, dramatically improved battery life, and broke away from Intel's roadmap."
+      },
+      {
+        "q": "Can Macs play games well now?",
+        "a": "Better than ever but still behind PC. Apple Silicon Macs run native versions of Resident Evil, Death Stranding, Lies of P, Baldur's Gate 3, and others through the Mac App Store and Steam. The Game Porting Toolkit lets developers ship Windows games to Mac in months instead of years. The M-series GPUs are strong. But the catalog is still smaller than PC and many esports titles are not native. For serious gaming, PC still wins; for casual gaming, Mac is now genuinely viable."
+      }
+    ],
+    "related": ["iphone", "ai", "chatgpt", "android", "gaming", "ps5", "discord", "instagram"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "instagram",
+    "locale": "en",
+    "keyword": "Instagram",
+    "matchPatterns": ["instagram", "insta", "ig", "reels"],
+    "topic": "tech",
+    "title": "Instagram Polls: Reels, Stories, Close Friends, And The Algorithm",
+    "description": "Vote on Instagram debates: close friends ranking, reels vs TikTok, posting frequency, who actually sees your story, and algorithm chaos.",
+    "emoji": "📸",
+    "intro": "Instagram is the social network that became a verb. Kevin Systrom and Mike Krieger launched it in October 2010 as a simple photo-filter app with no captions and no DMs. Within two months it had a million users. In 2012 Facebook bought it for one billion dollars, which felt insane at the time and is now considered the deal of the decade. Today Instagram has over two billion monthly active users, has cloned every feature Snapchat ever invented, has out-cloned TikTok with Reels, and has become the default way most humans under forty share their lives. Stories, posts, Reels, DMs, close friends, broadcast channels, Threads — Instagram is no longer one product. It is six products stacked on top of each other. The cultural impact is enormous. Influencer marketing was born on Instagram. The aesthetic-everything wave came from Instagram grids. Brand identity for small businesses is built on Instagram. The mental health discourse about social media largely centers on Instagram. The platform is loved, resented, deleted, redownloaded, deleted again, and somehow still on everyone's phone. moomz polls about Instagram absolutely fly because everyone uses it and everyone has takes. Do you actually post anymore. Do you have a finsta or a private account. Did you make the Close Friends list. Are Reels good or just TikTok crumbs. Is the algorithm shadowbanning you or are you just posting bad content. Every one of these questions splits a friend group cleanly. Pull up a vote and watch the engagement.",
+    "sections": [
+      {
+        "h": "Stories, Reels, posts — what people actually use",
+        "body": "Instagram has slowly become a Stories-and-Reels app with a feed bolted on. Surveys consistently show that the vast majority of daily Instagram use is in Stories and Reels, while posting to the main feed has dropped dramatically since the 2018 peak. Younger users post almost nothing publicly anymore — their main feed is empty or curated to under ten posts, their finsta is where the actual content lives, and their close friends story is where they show up daily. A poll about how often you post to the main grid is one of the most revealing votes you can run on moomz. People in their thirties still post on feed monthly. People under 25 mostly do not. People in their forties post vacation carousels. Every cohort has a different rhythm and the splits in a single group chat are wild."
+      },
+      {
+        "h": "Close Friends — Instagram's most political feature",
+        "body": "The Close Friends green-circle story was introduced in 2018 and immediately became the most socially loaded feature on the platform. Being added to someone's Close Friends is now a relationship status — friend, real friend, close friend. Being removed is silent drama. Being noticed for missing from someone's circle when others appear is high school energy at any age. The list is private but everyone tries to figure out who is on someone else's. Polls about close friends drama are some of the highest-engagement formats on moomz. How many people are on your close friends. Have you ever cut someone. Do you have a secondary close friends for stuff your best friend should not see. Do you treat it as an inner circle or a content tier. There is no right answer and every group splits hilariously."
+      },
+      {
+        "h": "The algorithm, reach, and influencer fatigue",
+        "body": "Instagram's algorithm in 2026 is more aggressive than ever, prioritizing Reels and original content over reposts, pushing accounts that post frequently, and quietly suppressing accounts that go quiet for a few weeks. Reach has dropped year after year for non-Reel posts. Many creators have stopped posting to feed entirely because views are higher on Reels and Stories. Influencer fatigue is real — audiences are increasingly skeptical of sponcon, brand deals are scrutinized, and de-influencing trends regularly. A moomz poll about whether you would follow influencers in 2026 is a great way to surface generational gaps. Younger Gen Z follows niche creators only. Millennials still follow celebrities. Older users follow brands. Almost nobody admits to following kardashians, but the metrics suggest they still do."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was Instagram created?",
+        "a": "Instagram was launched on October 6, 2010 by Kevin Systrom and Mike Krieger as an iPhone-only photo-sharing app with filters. It hit one million users in two months and ten million in less than a year. Facebook acquired Instagram in April 2012 for approximately one billion dollars in cash and stock, which at the time was considered shockingly expensive. The deal is now seen as one of the best acquisitions in tech history."
+      },
+      {
+        "q": "Why did Facebook buy Instagram?",
+        "a": "Mark Zuckerberg saw Instagram as both a threat to Facebook's growth and a perfect mobile photo-sharing experience that Facebook itself had failed to build. By 2012 mobile was clearly the future and Facebook was struggling with the transition. Buying Instagram for a billion dollars neutralized a fast-growing competitor and gave Facebook a polished mobile-first product, with the original founders staying on to lead Instagram for several years."
+      },
+      {
+        "q": "Are Reels really competing with TikTok?",
+        "a": "Reels have closed the gap a lot since 2020 but TikTok is still ahead in pure short-video time spent, creator earnings, and culture. Reels has the advantage of Instagram's existing two billion users and integration with Stories and the feed. Many creators now post the same video to both platforms. For Meta, Reels saved Instagram from losing all its short-video market share, which was the original existential fear when TikTok first started taking off."
+      },
+      {
+        "q": "Should I make my Instagram private?",
+        "a": "Most under-25 users now run a private main account and a separate, smaller close-friends story for very personal content. Privacy gives you more control over who sees your life, fewer creepy DMs, and less anxiety about strangers analyzing your posts. The downside is fewer follows, which only matters if you are building an audience. For personal use, private is the default smart move in 2026 unless you actively want a public presence."
+      }
+    ],
+    "related": ["tiktok", "snapchat", "discord", "iphone", "android", "ai", "chatgpt", "insta-drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "tiktok",
+    "locale": "en",
+    "keyword": "TikTok",
+    "matchPatterns": ["tiktok", "tik tok", "douyin"],
+    "topic": "tech",
+    "title": "TikTok Polls: For You Page, Bans, Trends, And The Algorithm Of Doom",
+    "description": "Vote on TikTok debates: FYP accuracy, screen time, ban or not, best creators, trends that aged badly, and what TikTok did to your brain.",
+    "emoji": "🎵",
+    "intro": "TikTok is the single most influential app of the decade. ByteDance launched the original Chinese version, Douyin, in September 2016, then released TikTok internationally in 2017. In 2018 they acquired and merged Musical.ly, instantly inheriting a US teen base. From there it exploded: a billion monthly active users by 2021, dominant cultural force by 2022, and by 2026 the app where most viral trends, songs, recipes, dance moves, political moments, and Gen Z vocabulary actually originate. Twitter and Instagram now mostly just repost what TikTok did first. The TikTok For You Page is the most powerful recommendation engine ever built for consumer content. It serves you exactly what you want to watch within ten swipes, locks you in for hours, and somehow always knows when you have just been thinking about a topic you never typed. The phrase the algorithm reads minds was born here. The result is the highest screen time of any social app in human history, and a massive ongoing fight over whether TikTok is harming attention spans, mental health, election discourse, and the entire information ecosystem. Polls about TikTok on moomz absolutely print. Everyone has a take. Do you watch but never post. Do you have a secret account. Are you on cleantok, booktok, finance tok, or the cursed political tok. Did the ban scare you or did you just keep scrolling. Drop a poll and watch your friends confess things about their FYP they would never admit out loud.",
+    "sections": [
+      {
+        "h": "The For You Page — how accurate is yours?",
+        "body": "The TikTok For You Page is famous for being eerily precise. You watch one cat video and within twenty minutes you are deep into a niche about marine biology, vintage Hi-Fi speakers, or someone restoring antique typewriters. The algorithm picks up tiny signals: how long you linger, how often you replay, whether you pause to read captions, whether your finger hovers. The result is that no two FYPs look alike, and revealing yours feels strangely intimate — like showing someone your browser history. A poll about what dominates your FYP exposes the strangest sub-cultures in any friend group. Some people are deep on finance toks. Some are on horse girl tok. Some are on POV history reenactment. Some refuse to admit they are on healing-from-narcissist tok. moomz polls about FYP content are some of the funniest and most revealing votes you can run."
+      },
+      {
+        "h": "Screen time, anxiety, and the doomscroll",
+        "body": "TikTok regularly clocks the highest daily session times of any consumer app, often two to three hours per active user per day, with heavy users at four hours or more. Mental health researchers have spent years studying what this does to attention spans, sleep, anxiety, and self-esteem. The honest cultural consensus is that TikTok in moderation is fine, but the binge mode it encourages is corrosive. Many users now use the screen time controls aggressively, set break reminders, delete the app on weekends, or keep it off their phones entirely. A poll about how many hours of TikTok you watch per day is the kind of vote that triggers immediate self-reflection. Most votes underreport. The honest answer for most users is more than they want to admit."
+      },
+      {
+        "h": "Bans, ByteDance, and the future of TikTok",
+        "body": "TikTok has spent the last three years fighting bans and forced sales in the US, India (already banned since 2020), and parts of Europe. The fight is partly about data, partly about ByteDance's Chinese ownership, partly about the algorithm's political influence, and partly about how dominant it has become culturally. By 2026 the US has gone through multiple rounds of legislation and the platform is still up, but the threat is constant. Many creators have hedged by pushing followers to Instagram Reels, YouTube Shorts, and direct newsletters. A poll about whether TikTok should be banned, sold, or left alone splits politically and generationally in real time. Young users are mostly anti-ban. Older users are more comfortable with restrictions. The discourse is exhausting and the votes are wildly informative."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns TikTok?",
+        "a": "TikTok is owned by ByteDance, a Beijing-based tech company founded by Zhang Yiming in 2012. ByteDance launched the original Chinese version of TikTok, called Douyin, in September 2016. The international version launched in 2017 and merged with Musical.ly in 2018 to inherit its US teen audience. Despite ongoing pressure in the US and Europe to force a sale, ByteDance has retained ownership through multiple rounds of legislation."
+      },
+      {
+        "q": "Why is TikTok so addictive?",
+        "a": "Three reasons. First, the For You Page algorithm is the most precise content recommender ever built, learning your taste in minutes. Second, video length and pacing are optimized for endless flow — you never reach the end of a feed. Third, the dopamine loop of swipe-to-new-content is shorter than any other app, closer to a slot machine than to Instagram or YouTube. Heavy users routinely lose track of time."
+      },
+      {
+        "q": "Will TikTok get banned?",
+        "a": "Possibly, in some countries. India banned TikTok in June 2020 and never reversed it. The US has passed legislation requiring ByteDance to divest, but enforcement has been complicated and delayed multiple times. The EU has tightened data rules. In 2026 the most likely outcome is restricted operations and stricter data sovereignty rules, not a global ban. Creators are increasingly diversifying to Reels and YouTube Shorts as a hedge."
+      },
+      {
+        "q": "Can you make money on TikTok?",
+        "a": "Yes, but unevenly. Top creators earn millions through brand deals, the TikTok Creator Fund (which pays poorly), TikTok Shop affiliate sales (now huge), live gifts, and external sponsorships. Mid-tier creators with 100k to 500k followers can earn full-time income through sponsorships and selling their own products. Small creators usually earn very little directly — the platform's economic value is more about audience-building than direct monetization."
+      }
+    ],
+    "related": ["instagram", "snapchat", "discord", "iphone", "android", "ai", "kpop", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "snapchat",
+    "locale": "en",
+    "keyword": "Snapchat",
+    "matchPatterns": ["snapchat", "snap", "snap chat"],
+    "topic": "tech",
+    "title": "Snapchat Polls: Streaks, Best Friends, Filters, And The Map Drama",
+    "description": "Quick polls on Snapchat: best friends emoji, broken streak revenge, Snap Map exposing everyone, filters then vs now, and AI chatbot weirdness.",
+    "emoji": "👻",
+    "intro": "Snapchat is the social app that quietly refuses to die. Evan Spiegel, Bobby Murphy, and Reggie Brown launched it in September 2011 as a Stanford project called Picaboo, then renamed it Snapchat. The original idea was photos that disappeared after viewing, which sounded silly to most adults and instantly made sense to every teenager on Earth. By 2013 it was the fastest-growing app on iOS. Facebook tried to buy it for three billion dollars in 2013 and Spiegel famously turned it down. Today Snapchat has over 850 million monthly active users, has built a giant business around AR filters, owns Snap Map, has its own AI chatbot, sells Spectacles AR glasses, and remains the dominant photo messenger for people under 25 in most Western countries. Streaks, best friends emojis, Snap Map locations, Memories, Spotlight — Snapchat has built a complete parallel social world to Instagram and TikTok, but quieter, more intimate, and more about people you actually know. Older users abandoned it years ago for WhatsApp and Instagram DMs. Younger users never left. Polls about Snapchat on moomz absolutely thrive in younger group chats. Everyone has a story about a broken streak, a best friends emoji shift that meant something, a Snap Map check that exposed a friend, a screenshot war, or an AR filter glitch. The drama is endless and very specific to the platform.",
+    "sections": [
+      {
+        "h": "Streaks, best friends, and the friendship hierarchy",
+        "body": "Snapchat invented the concept of measurable friendship intensity. Streaks count the number of consecutive days you have exchanged snaps with someone, with little fire emojis and number counters that some users have running for over a thousand days. Best friends emojis silently rank who you talk to most. Gold heart, smiling face, sunglasses, smirk — each one means something very specific, and the moment one changes (gold heart turns to smile, smile to sunglasses) friend groups notice instantly. A poll about your longest streak ever, or whether you would dump someone over a broken streak, is the kind of vote that gets shared and re-shared in friend group chats for days. Even the seemingly silly questions about emoji order reveal who is paying attention and who is just clicking through the app on autopilot."
+      },
+      {
+        "h": "Snap Map — the most awkward feature in social media",
+        "body": "Snap Map shows your real-time location to everyone on your friends list (unless you go ghost mode), and it has caused more drama than any other social media feature ever shipped. People discover their friends are at parties they were not invited to. Couples catch each other lying about their location. Parents check their kids. Roommates realize their flatmate has been at the same person's apartment for three weeks straight. The polls about Snap Map are some of the most universally relatable on moomz. Do you keep your map on. Have you ever been caught somewhere you should not have been. Do you check it obsessively. The answers split sharply by age, gender, and relationship status. Nobody is neutral about Snap Map — you either love it or you went ghost mode in 2019 and never looked back."
+      },
+      {
+        "h": "Filters, My AI, and Snapchat's experimental side",
+        "body": "Snapchat has always been the social app that swings hardest at new tech. Lenses (the AR filters that warp your face) launched in 2015 and reshaped photography forever. Dog filter, flower crown, gender-swap, cartoon eyes — every viral selfie effect of the last decade started on Snapchat before Instagram cloned it. My AI, the Snapchat chatbot, launched in 2023 and immediately got into hot water for being weird with younger users. Spectacles AR glasses have iterated quietly through five generations. Spotlight tried and mostly failed to take TikTok share. The point is that Snapchat keeps shipping weird, ambitious features that often inspire the next big trend. Polls about which filter you actually use, whether you talk to My AI, or whether you would wear AR glasses in public, reveal how willing your friend group is to play with experimental tech."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was Snapchat created?",
+        "a": "Snapchat was founded in September 2011 by Evan Spiegel, Bobby Murphy, and Reggie Brown as a Stanford University project originally called Picaboo. The defining idea was photos that disappeared after viewing. The name was changed to Snapchat shortly after launch. By 2013 it was the fastest-growing app on iOS, and Mark Zuckerberg famously offered to buy it for three billion dollars, which Spiegel turned down."
+      },
+      {
+        "q": "Why do streaks matter so much?",
+        "a": "Streaks gamify friendship. The fire emoji and the consecutive-day counter create a real psychological commitment to messaging someone every single day, which is exactly the daily-active-user engagement loop Snapchat wants. For teens, losing a long streak feels genuinely upsetting because it is treated as social proof of how close you are with someone. Many users send dedicated streak snaps (often blank images) just to maintain the count."
+      },
+      {
+        "q": "Is Snapchat still popular?",
+        "a": "Yes, very much so, despite years of obituaries from older media. Snapchat has over 850 million monthly active users in 2026 and remains dominant among teens and people in their early twenties in the US, UK, France, and most Western countries. Older users mostly migrated to Instagram DMs and WhatsApp, but the youngest cohorts have never abandoned Snap as their default close-friend messaging app."
+      },
+      {
+        "q": "Can deleted snaps be recovered?",
+        "a": "Not by regular users. Snapchat does not store opened snaps long-term, and law enforcement requests can only retrieve unopened snaps for a limited window. But screenshotting is always possible (and notifies the sender by default), and Snap Memories saves anything you explicitly choose to keep. Treat anything you send on Snapchat as potentially permanent — disappearing messages are a defense against casual replay, not against motivated screenshotting."
+      }
+    ],
+    "related": ["instagram", "tiktok", "discord", "iphone", "android", "snapchat-streak", "insta-drama", "drama"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "discord",
+    "locale": "en",
+    "keyword": "Discord",
+    "matchPatterns": ["discord", "server", "voice chat"],
+    "topic": "tech",
+    "title": "Discord Polls: Servers, Nitro, Mods, And The Group Chat Of Choice",
+    "description": "Quick Discord polls: best server type, Nitro worth it, mod power trips, voice chat ettiquette, and how Discord replaced Slack for friends.",
+    "emoji": "💬",
+    "intro": "Discord is the group chat app that became a verb, a social network, and the default hangout for a generation. Jason Citron and Stanislav Vishnevskiy founded Discord in 2015, originally aimed at gamers who needed better voice chat than what Skype and TeamSpeak offered at the time. Within two years it had pivoted to be the default communication platform for anyone in a gaming community, then for anyone in a fandom community, then for crypto communities during the 2021 boom, then for AI communities, and now for any group of friends who want their own space to hang out. By 2026 Discord has over 200 million monthly active users, 19 million active servers per week, and a quietly profitable Nitro subscription business. The interface has barely changed in five years and that consistency is part of the appeal — Discord users know exactly where everything is. The cultural impact of Discord is hard to overstate. Group chats moved from iMessage to Discord. Fandoms moved from forums to Discord. Indie game developers ship through Discord. Twitch streamers run their entire community through Discord. AI tools launch with a Discord first and a website second. Many teenagers in 2026 spend more time on Discord than on any other app, including TikTok. moomz polls about Discord absolutely fly because there is so much specific culture: roles, mods, custom emojis, voice channels, the everyone ping debate, Nitro perks, and the moment your friend group needs its own server. Drop a vote and find out who in your group is a power user.",
+    "sections": [
+      {
+        "h": "What people actually use Discord for",
+        "body": "The official use case is gaming voice chat, but in 2026 the actual use spans everything. Friend group chats with three to ten people. Fandom servers with tens of thousands of members for anime, K-pop, Marvel, fantasy book series. Study servers for college courses. Build-in-public servers for indie developers. AI tool launches. Crypto trading rooms. Mental health support communities. Side-hustle masterminds. The fastest-growing categories in the last two years are creator-fan communities (where YouTubers and streamers host their core audience) and AI-tool launch servers. A poll about how many Discord servers you are actually in reveals serious gaps in any group. Most casual users sit at five to ten. Power users are in hundreds, with notifications muted on all but a few. Nobody is in the middle."
+      },
+      {
+        "h": "Nitro — is it worth paying for?",
+        "body": "Discord's premium subscription, Nitro, costs around 10 dollars a month and gives custom emojis across servers, larger file upload size, HD video, server boosts, longer messages, profile customization, and a small handful of other perks. The big debate in any Discord community is whether Nitro is actually worth paying for, or just a vanity tier. Power users argue yes — being able to use any custom emoji across servers is invaluable if you are active in fandoms. Casual users argue no — they barely send images, never voice chat, and have no need for any of the perks. A poll about Nitro splits clean: power users and admins are usually Nitro, casual chatters never bothered. The discount on yearly plans usually tips a few more people over but not many."
+      },
+      {
+        "h": "Mods, roles, and the politics of every server",
+        "body": "Every active Discord server is its own micro-society with a hierarchy. Owner at the top, admins below, moderators below them, sometimes a custom rank for boosters or veterans, then regular members at the bottom. Role color is identity. Custom permissions decide who can post in which channel. Mod power trips are the source of endless drama — bans for tiny rule violations, mods who ghost their own server, mod cliques that gatekeep new members. A poll about whether you have ever been muted or banned from a Discord server gets immediate engagement. Asking whether you have ever been a mod, or whether you would want to be one, reveals a deep divide. Power users love the responsibility. Most regular users would rather chew glass than moderate strangers."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When was Discord created?",
+        "a": "Discord was founded in 2015 by Jason Citron and Stanislav Vishnevskiy. It was originally targeted at gamers who needed cleaner, lower-latency voice chat than Skype, TeamSpeak, or in-game chat could provide at the time. The first public version launched in May 2015. By 2017 it had pivoted to support all kinds of communities, and by 2020 the pandemic supercharged its growth as group hangouts moved online."
+      },
+      {
+        "q": "Is Discord just for gamers?",
+        "a": "Not anymore. While gaming is still a huge use case, in 2026 Discord is used by fandoms, study groups, indie devs, crypto traders, AI tool launches, creator communities, friend group chats, mental health support, and countless small businesses. Discord rebranded in 2020 with the tagline place to talk to drop the gaming-only positioning. The product still leans gamer in design language but the user base is diverse."
+      },
+      {
+        "q": "Is Discord safe for teens?",
+        "a": "It depends heavily on the server. Discord itself has improved safety features (age verification, automated content filters, easier reporting), but the platform is only as safe as the servers a teen joins. Public servers can have predatory behavior, scams, NSFW content, and griefing. Private friend-group servers are generally safe. Parents should know which servers their teens are on, and Discord's family center features let parents see activity summaries."
+      },
+      {
+        "q": "How does Discord make money?",
+        "a": "Discord makes money primarily through Nitro subscriptions (around 10 dollars a month for individual users, with cheaper Nitro Basic and family-plan tiers) and server boost sales. They have explicitly resisted running ads, though they have introduced sponsored quests and partnerships. Revenue in 2024 was reported at around 600 million dollars, with profitability achieved a few years earlier. The company has raised significant venture capital and remains private."
+      }
+    ],
+    "related": ["instagram", "tiktok", "snapchat", "gaming", "ps5", "switch", "ai", "chatgpt"],
+    "updatedAt": "2026-05-19"
+  }
+]

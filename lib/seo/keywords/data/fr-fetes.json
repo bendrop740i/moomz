@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "noel",
+    "locale": "fr",
+    "keyword": "Noël",
+    "matchPatterns": ["noel", "noël", "christmas", "sapin", "pere noel", "père noël", "cadeau"],
+    "topic": "fetes",
+    "title": "Noël : sondages, traditions et vibes des fêtes de fin d'année",
+    "description": "Vote sur les meilleurs sondages de Noël : sapin, cadeaux, repas, traditions. Découvre les rituels de fin d'année et lance ton propre poll sur moomz.",
+    "emoji": "🎄",
+    "intro": "Noël, c'est probablement la fête la plus chargée d'émotions de toute l'année. Derrière le sapin scintillant et les guirlandes lumineuses se cache une histoire millénaire fascinante. Bien avant Jésus, les Romains célébraient déjà le 25 décembre la fête de Sol Invictus, le Soleil invaincu, marquant le solstice d'hiver et le retour progressif de la lumière. L'Église chrétienne a récupéré cette date au IVe siècle pour la christianiser et fixer la naissance du Christ, par-dessus des rites païens encore bien vivants. Les Germains, eux, fêtaient Yule autour d'un tronc d'arbre brûlant. C'est cette superposition de traditions qui explique pourquoi Noël est à la fois sacré et complètement décalé : on chante des chants religieux mais on regarde Maman j'ai raté l'avion, on prie peut-être mais on engloutit surtout du foie gras et de la bûche. Sur moomz, les Français débattent depuis des semaines des grandes questions qui divisent : Noël en famille ou entre potes ? Cadeau utile ou cadeau wow ? Père Noël jusqu'à quel âge on y croit vraiment ? On vote, on rigole, on s'engueule gentiment. Parce que Noël c'est aussi ça : ce moment où chaque famille révèle ses dynamiques cachées, ses guerres de chaises, ses traditions absurdes que personne ne remet jamais en question. Que tu sois team chocolats avant le repas ou team patience jusqu'au dessert, team Mariah Carey en boucle ou team silence radio jusqu'au 26, lance ton poll et voyons qui rallie ta tribu.",
+    "sections": [
+      {
+        "h": "L'origine païenne et chrétienne de Noël",
+        "body": "Le 25 décembre n'a rien d'un hasard. Sous l'Empire romain, l'empereur Aurélien institue en 274 la fête de Sol Invictus, célébrant le soleil qui reprend sa course après le solstice d'hiver. Les Saturnales, autres festivités romaines de décembre, comportaient déjà l'échange de cadeaux, les banquets et l'inversion des rôles maîtres-esclaves. Quand le christianisme devient religion d'État sous Théodose, l'Église fixe pragmatiquement la naissance du Christ sur cette date pré-existante pour absorber les fêtes païennes. Aucun évangile ne mentionne le jour de naissance de Jésus. Le sapin lui-même est un héritage germanique : les peuples du Nord décoraient des conifères pour symboliser la vie qui persiste en plein hiver. Saint Boniface aurait, au VIIIe siècle, remplacé un chêne sacré par un sapin pour évangéliser les Germains. Le Père Noël moderne ? Mélange entre saint Nicolas (évêque turc du IVe siècle généreux envers les enfants), la mythologie nordique d'Odin chevauchant son cheval à huit pattes, et le marketing de Coca-Cola qui a fixé son costume rouge dans les années 1930. Noël est donc un patchwork culturel total."
+      },
+      {
+        "h": "Les traditions françaises qui divisent vraiment",
+        "body": "En France, Noël se joue le 24 au soir : c'est le réveillon. Foie gras, huîtres, chapon ou dinde aux marrons, bûche glacée ou pâtissière, treize desserts en Provence. Mais derrière l'image carte postale, chaque foyer a ses propres règles non-écrites. Ouvre-t-on les cadeaux le 24 à minuit ou le 25 au matin ? Met-on des petits cadeaux dans des chaussettes ou pas du tout ? Mange-t-on la bûche en fin de repas ou comme goûter le 25 ? Place-t-on encore une crèche ou plus du tout ? Les statistiques de moomz montrent que ces micro-traditions varient énormément par région : en Alsace on garde le marché de Noël et les bredeles, dans le Sud on insiste sur les treize desserts, dans le Nord c'est saint Nicolas le 6 décembre qui prime. Et puis il y a les débats qui reviennent chaque année : sapin naturel ou artificiel (le naturel gagne sur le bilan carbone si tu vis près d'une exploitation locale), repas en grande famille ou en mode cocooning à deux, et surtout : à partir de quel âge on dit aux enfants que le Père Noël n'existe pas ? La moyenne française tourne autour de 7-8 ans, mais certains parents repoussent jusqu'à 10."
+      },
+      {
+        "h": "Cadeaux, budget et culpabilité moderne",
+        "body": "Le budget moyen des Français pour Noël tourne autour de 600 euros par foyer, dont une bonne moitié en cadeaux. C'est énorme, et c'est aussi la source numéro un de stress du mois de décembre. La culture du cadeau a évolué : aujourd'hui beaucoup militent pour le cadeau d'occasion, le cadeau-expérience (un weekend, un cours, un abonnement), ou carrément le Secret Santa familial avec plafond fixé pour limiter la consommation. La génération Z préfère souvent l'argent direct via Lydia ou Revolut, ce qui horrifie les boomers qui considèrent ça impersonnel. Sur moomz, les polls les plus partagés à Noël concernent ces tensions : faut-il offrir aux enfants des frères et sœurs ? Combien dépenser pour le ou la partenaire d'un an ? Cadeau commun ou cadeau individuel ? Le timing de l'achat lui aussi divise : team organisée qui boucle en novembre via Vinted ou Black Friday, team retardataire qui court à la Fnac le 24 décembre à 17h. Aucune des deux écoles ne va changer. Le vrai luxe, finalement, c'est de ne stresser ni l'argent ni le timing."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi Noël tombe-t-il le 25 décembre ?",
+        "a": "Le 25 décembre est une date choisie par l'Église au IVe siècle pour remplacer la fête romaine de Sol Invictus, célébrée à la même date pour marquer le solstice d'hiver et le retour de la lumière. Aucun texte biblique ne fixe la naissance du Christ à ce jour précis. C'est donc une superposition pragmatique du christianisme sur des fêtes païennes pré-existantes pour faciliter la conversion des populations."
+      },
+      {
+        "q": "Le sapin de Noël, ça vient d'où ?",
+        "a": "Le sapin trouve son origine dans les traditions germaniques pré-chrétiennes, où les peuples du Nord vénéraient les arbres à feuillage persistant comme symboles de vie en plein hiver. Au VIIIe siècle, saint Boniface aurait fait abattre un chêne sacré et planté un sapin à la place pour évangéliser les Germains. La décoration moderne avec boules et lumières s'est généralisée au XIXe siècle, notamment grâce à la reine Victoria au Royaume-Uni."
+      },
+      {
+        "q": "À quel âge dire aux enfants que le Père Noël n'existe pas ?",
+        "a": "La moyenne se situe entre 7 et 8 ans en France, mais ça dépend beaucoup de l'enfant et du contexte familial. La plupart des spécialistes recommandent de ne pas mentir activement quand l'enfant pose la question directement, mais de laisser la magie vivre tant qu'il y croit. La transition idéale est progressive : on devient soi-même un Père Noël pour les plus petits. Pas de règle stricte, juste de la délicatesse."
+      },
+      {
+        "q": "Quel budget moyen prévoir pour Noël ?",
+        "a": "Le budget moyen d'un foyer français pour Noël tourne autour de 600 euros, dont environ 350 euros en cadeaux et 200 euros en repas et boissons. Mais ça varie énormément selon le nombre de personnes à offrir et le style de fêtes. Pour limiter la pression financière, beaucoup de familles adoptent le Secret Santa avec plafond fixé, ou se tournent vers les cadeaux d'occasion via Vinted, Le Bon Coin ou Back Market."
+      }
+    ],
+    "related": ["nouvel-an", "anniversaire", "st-valentin", "halloween", "paques", "chocolat", "vin"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ete",
+    "locale": "fr",
+    "keyword": "L'été",
+    "matchPatterns": ["ete", "été", "summer", "vacances", "plage", "soleil"],
+    "topic": "fetes",
+    "title": "L'été : sondages vacances, plage, soleil et bonnes vibes saison chaude",
+    "description": "Tous les sondages sur l'été : vacances, plage, festivals, road-trip, glaces et soleil. Compare tes plans avec ceux des Français sur moomz.",
+    "emoji": "☀️",
+    "intro": "L'été, c'est bien plus qu'une saison sur le calendrier, c'est un état d'esprit. Officiellement, l'été astronomique commence au solstice du 21 juin et se termine à l'équinoxe du 22 septembre, mais pour les Français il démarre vraiment le jour où les écoles ferment et où les premiers crop-tops sortent du placard. C'est la saison la plus attendue de l'année, celle qui concentre les fantasmes accumulés pendant les onze autres mois : la plage, les terrasses jusqu'à minuit, les festivals où on perd ses potes à 3h du matin, les soirées qui s'éternisent parce qu'il fait encore 22°C à 1h. Sur moomz, l'été c'est aussi la saison des polls les plus joyeux : mer ou montagne ? Mojito ou Aperol ? Vacances en famille ou entre potes ? Et ces vraies questions qui révèlent ta personnalité estivale : team levée à 7h pour le marché du village ou team grasse mat' jusqu'à midi ? Team protection 50 obligatoire ou team huile au monoï assumée (à vos risques) ? Team plage publique avec serviettes superposées ou team crique secrète à 45 minutes de marche ? Chaque été, les Français partent en moyenne deux semaines, mais 40% ne partent pas du tout : c'est ce qu'on appelle le summer staycation, et c'est devenu une vraie tendance. Que tu rentres tard de boulot avec un Spritz sur la terrasse parisienne ou que tu bronzes les pieds dans le sable à Biarritz, l'été te concerne. Lance ton poll, partage tes plans, compare ton été avec ceux des autres.",
+    "sections": [
+      {
+        "h": "L'été astronomique vs l'été ressenti",
+        "body": "Le solstice d'été tombe entre le 20 et le 22 juin selon les années. C'est le jour le plus long de l'hémisphère nord, avec presque 16 heures de jour à Paris. Astronomiquement, l'été dure jusqu'à l'équinoxe du 22 ou 23 septembre. Mais en pratique, les Français considèrent que l'été commence dès le mois de mai quand les terrasses se remplissent, et qu'il s'arrête le 31 août quand sonne la rentrée. La météorologie moderne tend même à allonger cette saison : avec le réchauffement climatique, les vagues de chaleur démarrent désormais dès juin et durent jusqu'en septembre. Les nuits tropicales (température nocturne supérieure à 20°C) sont passées de 5 à 15 jours par an en moyenne dans le Sud de la France en 30 ans. L'été devient à la fois plus long, plus chaud, et plus tendu : canicules, sécheresse, restrictions d'eau. Ce qui n'empêche pas les Français de l'idolâtrer comme la saison reine, celle où la vie sort enfin dans la rue."
+      },
+      {
+        "h": "Vacances : où partent vraiment les Français",
+        "body": "Contrairement aux clichés, plus de 40% des Français ne partent pas en vacances l'été, principalement pour des raisons financières. Parmi ceux qui partent, plus de 80% restent en France métropolitaine. Les destinations stars depuis dix ans : la côte atlantique (Landes, Bretagne, Vendée), la Méditerranée (Var, Hérault, Pyrénées-Orientales, Corse), et de plus en plus la montagne en été pour fuir la chaleur (Alpes, Pyrénées, Massif Central). À l'étranger, l'Espagne reste numéro un, suivie de l'Italie, du Portugal et de la Grèce. Le Maroc remonte en force. Le profil change selon les générations : les Z et Y privilégient les city-trips et les voyages itinérants en sac à dos, les boomers gardent la villa au même endroit chaque année. Côté budget, la moyenne d'un séjour d'été tourne autour de 1500 euros par personne, mais l'écart est colossal entre les vacances en camping municipal et les locations Airbnb en Provence. Le camping connaît d'ailleurs un retour massif, porté par le glamping et le mode roadtrip en van."
+      },
+      {
+        "h": "Les rituels d'été qui font l'âme des Français",
+        "body": "Au-delà des vacances officielles, l'été français se compose de mille petits rituels : le pastis ou la bière en terrasse à 18h, le marché du dimanche matin avec tomates anciennes et melon charentais, la pétanque sur la place du village, le concert gratuit du 14 juillet et le feu d'artifice, la Fête de la Musique le 21 juin où chaque rue se transforme en scène. Côté festivals, les Vieilles Charrues, les Eurockéennes, We Love Green, Solidays et Tomorrowland aspirent des centaines de milliers de jeunes chaque année. Sur le plan culinaire, l'été c'est la saison de la salade de tomates au basilic, du melon-jambon, des barbecues interminables, des glaces (Berthillon ou Amorino ?), et de la pastèque. Mention spéciale aux festivals de cinéma en plein air, à La Nuit des Étoiles en août pour observer les Perséides, et aux feux d'artifice du 15 août dans toutes les communes côtières. L'été n'est pas qu'un climat, c'est une chorégraphie sociale qui se rejoue chaque année avec la même joie un peu mélancolique : on sait que ça finira."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand commence officiellement l'été ?",
+        "a": "L'été astronomique commence au solstice d'été, entre le 20 et le 22 juin selon les années (le 21 juin en 2026). Il se termine à l'équinoxe d'automne, vers le 22 ou 23 septembre. L'été météorologique, lui, est fixé du 1er juin au 31 août. Et pour la plupart des Français, l'été commence vraiment avec les vacances scolaires début juillet et se termine fin août avec la rentrée. Trois définitions, un même soleil."
+      },
+      {
+        "q": "Combien coûtent en moyenne les vacances d'été ?",
+        "a": "Un séjour d'été d'une à deux semaines coûte en moyenne 1500 euros par personne pour les Français qui partent. Mais l'écart est immense : 400 euros pour une semaine en camping familial, 3500 euros pour une location en bord de mer en août, plus de 5000 euros pour un voyage long-courrier. Le poste hébergement représente environ 40% du budget, le transport 25%, la nourriture et les sorties le reste."
+      },
+      {
+        "q": "Pourquoi 40% des Français ne partent pas en vacances ?",
+        "a": "Selon les enquêtes annuelles de l'INSEE, près de 40% des Français ne partent pas en vacances d'été, principalement pour des raisons financières (premier facteur), mais aussi de santé, de famille ou de choix personnel. Les ouvriers et employés sont moins nombreux à partir que les cadres. Cette réalité a donné naissance à la tendance staycation : profiter de sa ville comme si on était touriste, explorer les alentours, et redécouvrir son quartier."
+      },
+      {
+        "q": "Quelle est la meilleure période pour partir en juillet ou en août ?",
+        "a": "Juillet est statistiquement moins saturé qu'août dans les destinations touristiques, et les prix sont en moyenne 15 à 20% moins chers en première quinzaine de juillet et dernière semaine d'août. Le 15 août est le pic absolu de fréquentation et de tarifs. Mai-juin et septembre offrent souvent le meilleur compromis météo-prix-affluence, surtout dans le Sud où il fait encore 25°C en septembre. Septembre est devenu la saison préférée des trentenaires sans enfants."
+      }
+    ],
+    "related": ["plage", "soleil", "ocean", "glace", "camping", "road-trip", "noel", "anniversaire"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "halloween",
+    "locale": "fr",
+    "keyword": "Halloween",
+    "matchPatterns": ["halloween", "deguisement", "déguisement", "citrouille", "samhain", "fantome"],
+    "topic": "fetes",
+    "title": "Halloween : sondages déguisements, films d'horreur et nuit du 31 octobre",
+    "description": "Vote sur tes déguisements préférés, les meilleurs films d'horreur et tes plans de la nuit Halloween. Sondages frissons et candy sur moomz.",
+    "emoji": "🎃",
+    "intro": "Halloween, c'est cette fête bizarre qui a mis quarante ans à s'imposer en France et qui est désormais incontournable chez les ados. Mais derrière les déguisements de Joker, les citrouilles taillées et les bonbons distribués porte à porte, se cache une histoire vieille de plus de deux mille ans. Halloween descend directement de Samhain, une fête celte qui marquait la fin de l'été et le début de la saison sombre, autour du 31 octobre - 1er novembre. Pour les Celtes d'Irlande, d'Écosse et de Gaule, cette nuit-là était considérée comme un moment où la frontière entre le monde des vivants et celui des morts devenait perméable. On allumait de grands feux, on portait des masques pour effrayer les esprits, on laissait à manger devant les portes pour apaiser les défunts. Quand le christianisme s'est imposé, l'Église a déplacé la Toussaint au 1er novembre pour récupérer cette tradition, et la veille (All Hallows' Eve) est devenue Halloween. Les émigrés irlandais l'ont apportée aux États-Unis au XIXe siècle, où elle a explosé sous sa forme bonbons-déguisements-citrouilles. La France l'a importée dans les années 90 via Disney et la pub. Sur moomz, c'est devenu une vibe à part entière : poll sur le meilleur film d'horreur de tous les temps, sondage sur le déguisement le plus surfait (le sexy chat infirmière, sans surprise), débats sur le candy corn qui divise tout le monde. Lance ton poll, fais frissonner tes potes, et compare ton Halloween avec celui des autres.",
+    "sections": [
+      {
+        "h": "Samhain : 2000 ans d'origine celte",
+        "body": "Samhain (prononcé sah-win) est une fête celtique attestée depuis au moins le IIIe siècle avant Jésus-Christ. Elle marquait la fin des récoltes, le début de la moitié sombre de l'année, et la transition vers l'hiver pour les peuples celtes d'Irlande, d'Écosse, du Pays de Galles et de Gaule. Les Celtes croyaient qu'à cette date la frontière entre les mondes s'amincissait : les morts pouvaient revenir visiter les vivants, et les esprits malfaisants pouvaient en profiter pour faire le mal. Pour se protéger, on portait des masques en peaux d'animaux afin de tromper ou repousser ces esprits, on allumait d'immenses bûchers communautaires, et on laissait des offrandes de nourriture sur le seuil des maisons. Quand l'Église catholique a évangélisé les peuples celtes à partir du Ve siècle, elle a fixé en 835 la fête de la Toussaint au 1er novembre pour absorber Samhain. La veille, le 31 octobre, est devenue All Hallows' Eve (la veille de tous les saints), contractée en Halloween. La citrouille remplace en Amérique le navet irlandais traditionnel parce qu'elle est plus grosse et plus facile à sculpter."
+      },
+      {
+        "h": "Comment Halloween a conquis la France",
+        "body": "Halloween est arrivé tardivement en France, dans les années 1990. Les premières tentatives commerciales (campagne France Télécom en 1997 avec un mascot orange nommé Cassey) étaient un échec relatif. Mais la fête s'est progressivement imposée auprès des enfants et des ados via les écoles d'anglais qui en faisaient un événement pédagogique, les films américains (Hocus Pocus, Halloween, Scream, plus récemment Stranger Things), et surtout les ventes massives en grandes surfaces. Aujourd'hui, environ 40% des foyers français participent à Halloween d'une façon ou d'une autre, principalement pour les enfants. La pratique du trick-or-treat (des bonbons ou un sort) reste moins ancrée qu'aux États-Unis : on sonne surtout chez les voisins qu'on connaît, ou on organise des fêtes privées chez soi. Les soirées déguisées étudiantes ont massivement adopté Halloween, qui est devenu le top 2 des nuits de l'année avec le 31 décembre. Côté commerce, Halloween génère environ 100 millions d'euros de chiffre d'affaires en France, dix fois moins qu'aux États-Unis mais en croissance constante."
+      },
+      {
+        "h": "Films d'horreur, déguisements et bonbons : la pop culture Halloween",
+        "body": "Pas d'Halloween sans marathon de films d'horreur. Les classiques absolus à programmer : Halloween de John Carpenter (1978) qui a popularisé le slasher, L'Exorciste (1973), Scream (1996), Le Projet Blair Witch (1999), Saw (2004), Hérédité (2018), Get Out (2017), Midsommar (2019), et plus récemment Pearl, Smile, ou The Substance. Côté séries, Stranger Things, The Haunting of Hill House, Wednesday et American Horror Story sont devenues incontournables. Pour les déguisements, les tendances annuelles suivent les sorties cinéma et série : Wednesday Addams, le Joker, les Sanderson Sisters de Hocus Pocus, les personnages de Squid Game ou de Stranger Things. Les classiques intemporels restent vampire, sorcière, zombie, fantôme, chat noir. Les déguisements les plus critiqués sur moomz : le sexy plombier, l'infirmière sanguinolente cliché, et les costumes culturellement insensibles. Côté bonbons : Carambar, Haribo Schtroumpfs, Dragibus, Crocodiles et Têtes Brûlées dominent en France ; le Candy Corn américain reste un mystère que personne ne défend vraiment."
+      }
+    ],
+    "faq": [
+      {
+        "q": "D'où vient vraiment Halloween ?",
+        "a": "Halloween descend directement de Samhain, une fête celte vieille de plus de 2000 ans qui marquait la fin de l'été et le début de la saison sombre. Les Celtes croyaient que la frontière entre les vivants et les morts devenait perméable cette nuit-là. Le christianisme a absorbé la fête en plaçant la Toussaint au 1er novembre, et la veille (All Hallows' Eve) est devenue Halloween. Les Irlandais ont exporté la tradition aux États-Unis au XIXe siècle."
+      },
+      {
+        "q": "Pourquoi sculpter une citrouille à Halloween ?",
+        "a": "La tradition vient de la légende irlandaise de Jack-o'-Lantern : un ivrogne qui aurait piégé le diable et fut condamné à errer entre les mondes avec un charbon dans un navet creusé. Les Irlandais creusaient donc des navets ou des betteraves pour repousser les mauvais esprits. En arrivant en Amérique, les émigrés ont découvert la citrouille, plus grosse et plus facile à sculpter, qui est devenue la version moderne et iconique de Jack-o'-Lantern."
+      },
+      {
+        "q": "Halloween est-il une fête vraiment française ?",
+        "a": "Pas vraiment, Halloween est une fête importée d'Amérique du Nord dans les années 1990 en France, même si ses racines celtes incluent la Gaule. Environ 40% des foyers français y participent aujourd'hui, principalement pour les enfants et les soirées étudiantes. La Toussaint catholique reste la fête officielle du 1er novembre, plus solennelle et liée au recueillement sur les tombes. Les deux coexistent désormais dans la culture française."
+      },
+      {
+        "q": "Quel est le déguisement le plus populaire en France ?",
+        "a": "Selon les ventes des grandes enseignes, les déguisements les plus achetés en France pour Halloween sont la sorcière, le vampire, le zombie, le squelette, et depuis quelques années les personnages de séries comme Wednesday Addams, Squid Game ou Stranger Things. Pour les adultes, le costume sexy reste très demandé. Le déguisement le plus critiqué reste celui de tueur en série réel ou de figure historique controversée, généralement mal reçu."
+      }
+    ],
+    "related": ["noel", "anniversaire", "deguisement-soiree", "manga", "anime", "harry-potter", "marvel", "netflix"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "anniversaire",
+    "locale": "fr",
+    "keyword": "Anniversaire",
+    "matchPatterns": ["anniversaire", "birthday", "bougie", "gateau", "fete"],
+    "topic": "fetes",
+    "title": "Anniversaire : sondages cadeaux, déco, gâteau et idées de fête",
+    "description": "Tous les sondages pour préparer un anniversaire de folie : cadeaux, gâteaux, déco, thèmes et invités. Lance ton poll sur moomz et impressionne tes proches.",
+    "emoji": "🎂",
+    "intro": "L'anniversaire, c'est probablement la fête la plus personnelle de toute l'année. Pas de tradition millénaire collective comme Noël ou Pâques, pas de cadre culturel imposé : juste ton jour à toi, ou celui d'un proche. C'est aussi pour ça que c'est aussi compliqué à organiser. Faut-il faire une grosse soirée ou un dîner intime ? Inviter trente personnes ou cinq ? Cadeau commun ou cadeau individuel ? Annoncer ton âge ou éviter le sujet ? La pression sociale autour des anniversaires a explosé avec Instagram et TikTok : chaque génération voit défiler des Sweet Sixteen américaines, des dîners au Buddha Bar, des soirées en yacht à Saint-Tropez, et finit par se demander si son propre anniversaire suffit. Et pourtant, ce sont souvent les anniversaires les plus simples qui marquent le plus : un gâteau au chocolat fait par ta mère, une terrasse avec tes meilleurs amis, une chanson dégueulassement chantée à 3h du matin. Sur moomz, les polls anniversaire sont parmi les plus partagés : sondage sur le meilleur thème de soirée (rooftop, bowling, dîner chic, jeux de société, kareoké), sur le cadeau idéal pour les 30 ans, sur la déco qui fait kitsch vs cool. Que tu fêtes tes 18, tes 25, tes 40 ou tes 60 ans, tu trouveras ici l'inspiration et les votes pour ne pas rater ton jour. Et surtout : ne sous-estime jamais l'importance de bien choisir ta playlist, c'est elle qui décide si la soirée prend ou pas.",
+    "sections": [
+      {
+        "h": "L'histoire universelle du gâteau d'anniversaire",
+        "body": "La tradition du gâteau d'anniversaire avec bougies remonte à l'Antiquité. Les Grecs offraient des gâteaux ronds en l'honneur d'Artémis, déesse de la Lune, et y plantaient des bougies pour symboliser le clair de lune. Les Romains célébraient les anniversaires individuels avec gâteaux et amis, contrairement à la culture chrétienne qui a longtemps préféré célébrer la fête patronale (le saint du jour). C'est en Allemagne au XVIIIe siècle, lors de la Kinderfest, qu'apparaît le rituel moderne : autant de bougies que d'années, plus une pour la chance, soufflées en un seul souffle pour exaucer un vœu. Le Happy Birthday To You que tout le monde chante a été composé en 1893 par deux sœurs américaines, Patty et Mildred Hill, initialement comme chanson pour saluer le matin en classe (Good Morning to All). Elle est devenue propriété intellectuelle pendant près d'un siècle avant de tomber dans le domaine public en 2016. Aujourd'hui, le gâteau d'anniversaire est universel : tiramisu en Italie, tres leches au Mexique, mochi au Japon, mais toujours la même mécanique des bougies à souffler."
+      },
+      {
+        "h": "Les âges qui comptent vraiment",
+        "body": "Tous les anniversaires ne se valent pas. Statistiquement, certains âges sont sur-célébrés : les 18 ans (majorité légale), les 21 ans (héritage anglo-saxon, mais peu marqué en France), les 25 ans (premier quart de siècle), les 30 ans (sortie officielle de la jeunesse), les 40 ans (la grande angoisse), les 50 ans (le demi-siècle), les 60 ans (souvent fêté en grand, retraite proche). Le passage des 30 ans est probablement le plus chargé émotionnellement : moitié fête, moitié bilan, moitié déni. Beaucoup organisent des week-ends ou des voyages pour marquer le coup : EVJF/EVG pour les fiancés, road-trip entre amis, escapade en Italie. Les 16 ans, popularisés par les Sweet Sixteen américaines, prennent de l'ampleur en France via TikTok. À l'opposé, les anniversaires entre 24 et 29 ans sont souvent plus discrets, considérés comme des années de transition. Et les anniversaires-décennie après 50 ans deviennent souvent des retrouvailles familiales massives avec photos professionnelles, location de salle, et discours larmoyants. Lance un poll sur moomz pour savoir quel âge a marqué les tiens."
+      },
+      {
+        "h": "Cadeau, déco, thème : la trinité du bon anniversaire",
+        "body": "Trois variables font ou défont un anniversaire réussi : le cadeau, la déco et le thème. Côté cadeau, la tendance 2026 est aux expériences plutôt qu'aux objets : un cours de cuisine, un week-end en Airbnb, un abonnement à un service, un dîner étoilé, plutôt que la énième paire d'écouteurs. La cagnotte en ligne (Leetchi, Tricount, Lydia) est devenue le standard pour les cadeaux entre amis. Côté déco, le minimalisme chic gagne du terrain : ballons unicolores en arche, fleurs séchées, photobooth avec accessoires drôles, néons LED personnalisés avec le prénom. Le kitsch années 90-2000 fait aussi son grand retour avec ballons rétro, vaisselle dépareillée et goûter d'enfance assumé. Côté thème, les options qui cartonnent : disco/Y2K, casino night, white party, années 70, Squid Game, Barbie, dinner club, karaoké. Évite les thèmes culturellement appropriés (mexicain, japonais sans contexte) qui ne passent plus. Et surtout : envoie les invitations trois semaines à l'avance, pas trois jours."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi met-on des bougies sur le gâteau d'anniversaire ?",
+        "a": "La tradition vient de la Grèce antique où l'on offrait des gâteaux ronds à la déesse Artémis avec des bougies symbolisant le clair de lune. Elle a été codifiée en Allemagne au XVIIIe siècle lors de la Kinderfest : autant de bougies que d'années plus une pour la chance, soufflées en un seul souffle pour exaucer un vœu secret. Souffler toutes les bougies d'un coup symbolise la réalisation du souhait. C'est devenu universel au XXe siècle."
+      },
+      {
+        "q": "Qui a écrit Happy Birthday to You ?",
+        "a": "La chanson a été composée en 1893 par deux sœurs américaines, Patty et Mildred Hill, originellement sous le titre Good Morning to All, pour saluer les enfants en classe le matin. Les paroles d'anniversaire ont été ajoutées vers 1912. La chanson est restée sous copyright Warner pendant près d'un siècle (ce qui explique son absence dans beaucoup de films) avant de tomber dans le domaine public en 2016. C'est aujourd'hui la chanson la plus chantée au monde."
+      },
+      {
+        "q": "Quel âge est le plus dur à fêter selon les Français ?",
+        "a": "Selon les enquêtes, les 30 ans et les 40 ans sont les anniversaires les plus chargés émotionnellement pour les Français. Les 30 ans symbolisent la fin officielle de la jeunesse et le début des comparaisons sociales (carrière, couple, enfants). Les 40 ans déclenchent souvent ce qu'on appelle la mid-life crisis, le bilan de mi-vie. À l'inverse, les 18 et les 50 ans sont vécus plus positivement comme des passages assumés et célébrés."
+      },
+      {
+        "q": "Quel budget prévoir pour organiser un anniversaire ?",
+        "a": "Tout dépend de l'âge et du format. Un goûter d'enfants à la maison coûte 50 à 150 euros, un anniversaire ado avec activité (bowling, escape game, laser game) tourne autour de 200 à 400 euros pour 10 personnes. Un anniversaire adulte en restaurant pour 15 personnes oscille entre 600 et 1500 euros. Une grosse soirée trentenaire avec location de salle, DJ, traiteur peut monter à 3000-5000 euros. La cagnotte en ligne permet de partager les frais entre invités."
+      }
+    ],
+    "related": ["noel", "ete", "evjf", "evg", "mariage-fete", "chocolat", "baby-shower", "nouvel-an"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "st-valentin",
+    "locale": "fr",
+    "keyword": "Saint-Valentin",
+    "matchPatterns": ["saint valentin", "st valentin", "saint-valentin", "valentine", "amour", "couple"],
+    "topic": "fetes",
+    "title": "Saint-Valentin : sondages couple, cadeaux, rdv et débats sur l'amour",
+    "description": "Vote sur la Saint-Valentin : cadeau idéal, dîner romantique, déclarations d'amour et débat ringard ou pas. Sondages couple et amour sur moomz.",
+    "emoji": "💘",
+    "intro": "La Saint-Valentin, c'est sans doute la fête qui divise le plus les Français. Pour les uns, c'est le 14 février sacré où on prouve son amour avec un dîner aux chandelles, un bouquet de roses rouges et un cadeau choisi avec soin. Pour les autres, c'est juste une opération commerciale honteusement orchestrée par les fleuristes, les chocolatiers et les bijoutiers pour vendre 30% de plus en une journée. La vérité historique est plus intéressante : la Saint-Valentin a été instaurée en 496 par le pape Gélase Ier pour remplacer les Lupercales, une fête romaine païenne célébrée mi-février où des jeunes hommes nus couraient dans les rues en fouettant les femmes avec des lanières de peau de chèvre (oui, vraiment) pour favoriser la fertilité. Saint Valentin lui-même est un personnage flou : plusieurs martyrs chrétiens portent ce nom, et celui qui a inspiré la fête aurait été un prêtre romain exécuté pour avoir continué à marier des couples en secret, malgré l'interdiction de l'empereur Claude II. La tradition des cartes d'amour ne date que du XIVe siècle, popularisée par Chaucer en Angleterre. Sur moomz, la Saint-Valentin déclenche les polls les plus passionnés : team romantique convaincue ou team anti-Saint-Valentin assumée ? Cadeau classique (roses, chocolats, bijoux) ou cadeau original (escape game, weekend, lettre manuscrite) ? Restaurant gastronomique ou dîner fait maison ? Et la question qui tue : combien dépenser raisonnablement ? Lance ton poll, fais voter ton ou ta partenaire en cachette, ou règle les débats avec tes amis célibataires.",
+    "sections": [
+      {
+        "h": "Saint Valentin : qui était-il vraiment ?",
+        "body": "L'identité du vrai saint Valentin reste floue : trois martyrs chrétiens portent ce nom dans le calendrier romain, tous exécutés vers le IIIe siècle. Le plus connu serait un prêtre romain ou un évêque de Terni qui aurait continué à célébrer des mariages chrétiens en secret malgré l'interdiction de l'empereur Claude II Le Gothique, qui pensait que les soldats célibataires se battaient mieux que les hommes mariés. Valentin fut arrêté, jugé, et exécuté le 14 février, probablement vers l'an 269 ou 270. Une légende raconte qu'avant sa mort, il aurait envoyé un dernier message à la fille de son geôlier dont il était tombé amoureux, signé from your Valentine, donnant naissance à la tradition des cartes. En 496, le pape Gélase Ier instaure officiellement la fête de saint Valentin le 14 février pour remplacer les Lupercales païennes. La fête est ensuite tombée dans l'oubli en plein Moyen Âge avant d'être réinventée par Chaucer et la cour d'Angleterre au XIVe siècle, qui en font une fête de l'amour courtois. Saint Valentin a été retiré du calendrier liturgique catholique en 1969 pour manque d'éléments historiques fiables."
+      },
+      {
+        "h": "Pourquoi la Saint-Valentin divise autant les Français",
+        "body": "Selon les sondages annuels, environ 55% des Français en couple fêtent la Saint-Valentin, mais avec une grande hétérogénéité. Les jeunes couples (moins de 30 ans, moins de 3 ans ensemble) sont les plus actifs : ils achètent des cadeaux, sortent au restaurant, postent des photos sur Instagram. Les couples installés depuis plus de dix ans la marquent plus discrètement ou pas du tout. Les célibataires se divisent en trois groupes : ceux qui détestent et boycottent activement, ceux qui s'offrent un anti-Valentine's avec leurs amis célibataires (concept américain en pleine importation), et ceux qui s'en moquent royalement. Côté coût, les Français dépensent en moyenne 130 euros pour la Saint-Valentin (restaurant + cadeau + fleurs), ce qui est nettement moins qu'aux États-Unis où la moyenne dépasse 175 dollars. Le secteur fleuriste réalise jusqu'à 8% de son chiffre d'affaires annuel sur ces deux jours. Le sentiment anti-commercial est cependant croissant, surtout chez les Millennials et Gen Z, qui privilégient les gestes du quotidien à une grande performance annuelle."
+      },
+      {
+        "h": "Cadeaux, sorties, idées : que faire vraiment le 14 février",
+        "body": "Les classiques absolus restent les roses rouges (en moyenne 50 millions vendues en France pour la Saint-Valentin), les chocolats, les bijoux et le restaurant gastronomique. Mais ces dernières années, les idées ont énormément évolué. Tendances 2026 : les expériences plutôt que les objets (massage en duo, escape game, week-end en cabane dans les arbres, atelier cuisine en couple, montgolfière), les cadeaux personnalisés (livre photo des moments à deux, playlist Spotify dédiée, lettre manuscrite scellée), et les soirées DIY (cocktails à la maison, dîner fait à quatre mains, film sous plaid). Pour les couples qui détestent la Saint-Valentin officielle, le compromis 13 février au soir (dîner sans la foule) ou 15 février au matin (petit-déjeuner au lit) gagne en popularité. Les célibataires inventent leurs propres rituels : Galentine's Day le 13 février (entre copines), brunch entre célibataires, soirées Tinder dédiées, ou simplement abstention totale du sujet. Sur moomz, le poll qui revient chaque année : si on devait choisir UN seul cadeau pour la Saint-Valentin, lequel ? Réponse statistique : un weekend en amoureux écrase tout le reste, suivi des fleurs et des bijoux."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi fête-t-on la Saint-Valentin le 14 février ?",
+        "a": "La date du 14 février a été fixée en 496 par le pape Gélase Ier pour remplacer la fête romaine païenne des Lupercales, célébrée mi-février. Elle commémore le martyre de saint Valentin, prêtre romain exécuté vers 269 pour avoir continué à célébrer des mariages chrétiens malgré l'interdiction de l'empereur Claude II. La fête est devenue une célébration de l'amour grâce à Chaucer au XIVe siècle, qui associa Valentin à l'accouplement des oiseaux au printemps."
+      },
+      {
+        "q": "Combien dépensent les Français en moyenne pour la Saint-Valentin ?",
+        "a": "Les Français dépensent en moyenne 130 euros pour la Saint-Valentin selon les enquêtes annuelles, en comptant le restaurant, le cadeau et les fleurs. Les hommes dépensent en moyenne 20 euros de plus que les femmes. Le poste fleurs représente 25%, le restaurant 35%, et le cadeau 40%. Environ 45% des Français en couple ne fêtent rien du tout, et le sentiment anti-commercial gagne du terrain chez les Millennials et Gen Z."
+      },
+      {
+        "q": "Que faire si mon ou ma partenaire déteste la Saint-Valentin ?",
+        "a": "Le mieux est d'en parler ouvertement avant le 14 février pour éviter les attentes silencieuses. Beaucoup de couples installés trouvent un compromis : soit un dîner décalé au 13 ou au 15 février, soit un geste minimaliste (un petit mot, une fleur seule, une attention non commerciale), soit l'abstention totale en mode on n'a pas besoin de ça pour s'aimer. L'important est l'alignement : un partenaire qui boude un autre qui s'investit crée plus de problèmes que la fête elle-même."
+      },
+      {
+        "q": "Que faire pour la Saint-Valentin quand on est célibataire ?",
+        "a": "Trois écoles. Premièrement, le Galentine's Day importé de la série Parks and Rec : un dîner ou un brunch entre amies célibataires le 13 février, devenu très populaire en France. Deuxièmement, l'auto-Valentine's : se faire un cadeau à soi-même, restaurant en solo, soirée spa, achat coup de cœur. Troisièmement, l'abstention totale : ignorer la date complètement et faire un jeudi normal. Les trois sont valables et beaucoup plus saines que la déprime forcée."
+      }
+    ],
+    "related": ["mariage-fete", "anniversaire", "noel", "evjf", "evg", "amour", "couple", "chocolat"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "nouvel-an",
+    "locale": "fr",
+    "keyword": "Nouvel An",
+    "matchPatterns": ["nouvel an", "reveillon", "réveillon", "new year", "31 decembre", "31 décembre", "saint sylvestre"],
+    "topic": "fetes",
+    "title": "Nouvel An : sondages réveillon, résolutions et meilleurs plans 31 décembre",
+    "description": "Sondages Nouvel An : grosse soirée ou cocooning, résolutions tenues ou abandonnées, plans à minuit. Vote et compare ton réveillon sur moomz.",
+    "emoji": "🥂",
+    "intro": "Le Nouvel An, c'est la fête la plus paradoxale du calendrier : on l'attend tous, et beaucoup la vivent comme une déception programmée. Trop d'attentes, trop de pression sociale, trop de gens qui demandent tu fais quoi pour le 31. Pourtant, c'est aussi un des moments les plus universels : à l'échelle de la planète entière, des milliards d'êtres humains comptent à rebours en même temps (chacun dans son fuseau horaire) et marquent le passage symbolique d'une année à une autre. La tradition du Nouvel An au 1er janvier remonte aux Romains : Jules César instaure le calendrier julien en 45 avant Jésus-Christ et fixe le début de l'année au 1er janvier, jour du dieu Janus, divinité aux deux visages qui regarde simultanément le passé et le futur. Au Moyen Âge, la France a longtemps célébré le Nouvel An à Pâques avant que le roi Charles IX fixe officiellement le 1er janvier en 1564 par l'édit de Roussillon. Aujourd'hui, le réveillon de la Saint-Sylvestre se joue selon des codes très précis : tenue impeccable, champagne, dîner à rallonge, décompte des dernières secondes, bise à minuit, feu d'artifice ou montée sur les Champs, et puis on se traîne jusqu'au matin. Sur moomz, le Nouvel An déclenche des polls passionnés : grosse soirée ou cocooning ? Résolutions ou pas ? Quel pays pour fêter ? Et surtout : combien d'années consécutives as-tu vraiment passé une bonne Saint-Sylvestre ? La réponse statistique fait peur. Lance ton poll et compare tes plans avec ceux des autres avant le grand soir.",
+    "sections": [
+      {
+        "h": "Pourquoi le 1er janvier ? Origine romaine et chrétienne",
+        "body": "Le choix du 1er janvier comme premier jour de l'année est une décision politique romaine. Avant Jules César, les Romains commençaient l'année en mars, mois consacré au dieu de la guerre Mars (d'où viennent septembre, octobre, novembre, décembre, originellement les septième, huitième, neuvième et dixième mois). En 153 avant Jésus-Christ, les consuls romains commencent leur mandat le 1er janvier pour des raisons administratives, et en 45 av. J.-C., Jules César instaure le calendrier julien qui fixe officiellement le début de l'année à cette date. Janvier vient de Janus, dieu romain à deux visages qui regarde à la fois vers le passé et vers le futur : symbole parfait du Nouvel An. Au Moyen Âge, la France et d'autres pays chrétiens ont longtemps commencé l'année à Pâques (fête mobile entre mars et avril), au 25 mars (Annonciation), ou à Noël. C'est le roi Charles IX qui, en 1564 par l'édit de Roussillon, fixe officiellement le 1er janvier comme début d'année administrative en France. Le pape Grégoire XIII confirme cette date pour tout le monde catholique en 1582 avec le calendrier grégorien, encore utilisé aujourd'hui."
+      },
+      {
+        "h": "Le réveillon français : les codes incontournables",
+        "body": "Le réveillon du 31 décembre, dit Saint-Sylvestre (du nom du pape Sylvestre Ier dont c'est la fête liturgique), suit des codes très ritualisés en France. Tenue habillée obligatoire : robe, costume, paillettes, smoking pour les soirées chic. Dîner à rallonge avec foie gras, saumon fumé, fruits de mer, plat festif (chapon, gibier, ou poisson noble), fromage et bûche. Champagne à toutes les étapes. Décompte synchronisé via télé ou téléphone à minuit, bise et bonne année à tout le monde, embrassade prolongée si tu es en couple. Puis : digestif, danse, ou montée sur les toits pour voir les feux d'artifice. Les feux d'artifice du 31 sont massivement spontanés en France (contrairement aux États-Unis avec Times Square) : les particuliers tirent leurs propres pétards et fusées partout, particulièrement dans les banlieues. À Paris, la grande montée sur les Champs-Élysées attire 500 000 personnes en moyenne. Le 1er janvier au matin, c'est traditionnellement la galette des rois qui démarre (jusqu'au 6 janvier, Épiphanie), même si la galette se mange surtout en première semaine de janvier. Le bisou de minuit, c'est sacré : avec qui, à quelle heure, et qui prend l'initiative."
+      },
+      {
+        "h": "Résolutions : pourquoi 80% sont abandonnées avant février",
+        "body": "Les résolutions du Nouvel An sont une tradition millénaire qui remonte aux Babyloniens, lesquels promettaient aux dieux de rembourser leurs dettes et de rendre les objets empruntés en début d'année pour s'attirer leurs faveurs. Aujourd'hui, environ 60% des Français prennent au moins une résolution chaque année. Le top 5 statistique : faire plus de sport, manger plus sainement, économiser de l'argent, arrêter de fumer, passer plus de temps avec ses proches. Mais selon une étude de l'Université de Scranton, environ 80% de ces résolutions sont abandonnées avant le 15 février, et seulement 8% sont tenues jusqu'à la fin de l'année. La raison principale : les résolutions sont souvent trop vagues, trop ambitieuses ou trop nombreuses. Les méthodes qui marchent mieux : SMART goals (spécifiques, mesurables, atteignables, réalistes, temporels), partage public de l'objectif pour créer une pression sociale positive, mini-objectifs hebdomadaires plutôt qu'annuels, et tracking quotidien via une app ou un carnet. Les ex-fumeurs qui ont arrêté pour le Nouvel An ont un taux de réussite de 12% à un an, légèrement supérieur à un arrêt aléatoire en cours d'année."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi fête-t-on le Nouvel An le 1er janvier ?",
+        "a": "Le choix du 1er janvier remonte à Jules César qui instaure le calendrier julien en 45 avant Jésus-Christ et fixe le début de l'année à cette date. Janvier vient du dieu romain Janus à deux visages, regardant à la fois le passé et le futur. La France a longtemps commencé l'année à Pâques au Moyen Âge avant que Charles IX fixe officiellement le 1er janvier en 1564 par l'édit de Roussillon. Le pape Grégoire XIII a généralisé cette date en 1582."
+      },
+      {
+        "q": "Pourquoi s'embrasse-t-on à minuit le 31 décembre ?",
+        "a": "La tradition du baiser à minuit vient de plusieurs sources. Les Romains, lors des Saturnales, échangeaient des baisers pour se porter chance pour l'année à venir. En Allemagne et Angleterre médiévales, embrasser la première personne à minuit était censé fixer la qualité de tes relations pour les douze mois suivants. Aujourd'hui, c'est devenu un geste culturel quasi obligatoire dans les pays occidentaux, souvent stressant pour les célibataires présents à la soirée."
+      },
+      {
+        "q": "Pourquoi prend-on des résolutions au Nouvel An ?",
+        "a": "La tradition remonte aux Babyloniens, il y a 4000 ans, qui promettaient aux dieux de rembourser leurs dettes et de rendre les objets empruntés en début d'année. Les Romains reprenaient cette pratique en l'honneur de Janus, dieu des commencements. Aujourd'hui, environ 60% des Français prennent au moins une résolution, mais 80% les abandonnent avant le 15 février. La période symbolique du Nouvel An crée une illusion psychologique de fresh start qui motive temporairement."
+      },
+      {
+        "q": "Quels pays ne fêtent pas le Nouvel An le 1er janvier ?",
+        "a": "Plusieurs cultures fêtent un Nouvel An différent : le Nouvel An chinois (entre fin janvier et fin février selon le calendrier lunaire), le Nouvel An iranien Nowruz (équinoxe de printemps, 20-21 mars), le Nouvel An juif Rosh Hashanah (septembre-octobre), le Nouvel An musulman Hégire (variable selon le calendrier lunaire), le Nouvel An tibétain Losar (février-mars), et le Nouvel An hindou Diwali (octobre-novembre). Beaucoup de ces communautés fêtent les deux en pratique."
+      }
+    ],
+    "related": ["noel", "anniversaire", "st-valentin", "halloween", "paques", "vin", "chocolat", "ete"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ramadan",
+    "locale": "fr",
+    "keyword": "Ramadan",
+    "matchPatterns": ["ramadan", "ramadhan", "iftar", "suhour", "jeune", "jeûne"],
+    "topic": "fetes",
+    "title": "Ramadan : sondages jeûne, iftar, traditions et expérience du mois sacré",
+    "description": "Tous les sondages sur le Ramadan : iftar, suhour, traditions familiales, recettes et organisation. Compare ton expérience du mois sacré sur moomz.",
+    "emoji": "🌙",
+    "intro": "Le Ramadan, c'est le neuvième mois du calendrier lunaire islamique, et probablement le moment le plus fort de l'année pour près de deux milliards de musulmans dans le monde. En France, environ 5 millions de personnes le pratiquent chaque année, avec une intensité variable selon les profils. Pendant un mois entier, du lever au coucher du soleil, ceux qui jeûnent s'abstiennent de manger, de boire, de fumer et d'avoir des rapports sexuels. Mais réduire le Ramadan à un jeûne serait passer à côté de l'essentiel : c'est avant tout un mois de spiritualité, de discipline, de famille, de partage et de solidarité. Le mois commémore la révélation du Coran au prophète Mohammed dans la grotte de Hira, événement appelé Laylat al-Qadr (la Nuit du Destin), célébré pendant les dix dernières nuits du mois. La date varie chaque année dans le calendrier grégorien parce que l'islam utilise un calendrier lunaire de 354 jours environ : le Ramadan recule donc d'environ 11 jours par an. Sur moomz, le Ramadan génère des polls très partagés au sein de la communauté musulmane française : comment tu prépares ton suhour, recettes d'iftar de ta région d'origine (couscous algérien, harira marocaine, samsa tunisien, plats subsahariens, du Levant ou d'Asie), comment tu gères le travail ou les études pendant ce mois, et surtout : tu fêtes l'Aïd al-Fitr en grand ou en intime ? Le mois est aussi une opportunité incroyable de découverte mutuelle : non-musulmans curieux, collègues qui veulent comprendre, voisins qui partagent un iftar. Lance ton poll et fais découvrir ton Ramadan.",
+    "sections": [
+      {
+        "h": "Le 9ème mois lunaire et la Nuit du Destin",
+        "body": "Le Ramadan est le neuvième mois du calendrier islamique, qui est strictement lunaire et compte 354 ou 355 jours par an, contre 365 ou 366 dans le calendrier grégorien. C'est pour ça que le Ramadan se décale d'environ 11 jours chaque année dans notre calendrier : en 2026 il commence vers le 17 février, en 2027 vers le 6 février, et ainsi de suite. Sur 33 ans, le Ramadan parcourt toutes les saisons, ce qui change radicalement l'expérience du jeûne : en hiver les jours sont courts (8 heures de jeûne en France), en été ils peuvent atteindre 17-18 heures, ce qui rend le jeûne physiquement très difficile. Le mois commémore la révélation des premiers versets du Coran au prophète Mohammed par l'ange Gabriel dans la grotte de Hira, près de La Mecque, événement appelé Laylat al-Qadr (la Nuit du Destin) et célébré pendant les dix dernières nuits du mois, particulièrement les nuits impaires (21, 23, 25, 27, 29). Le jeûne lui-même fait partie des cinq piliers de l'islam, aux côtés de la profession de foi (shahada), de la prière (salat), de l'aumône (zakat) et du pèlerinage (hajj). Il est obligatoire pour tout musulman adulte en bonne santé, sauf exceptions (maladie, voyage, grossesse, menstruations, vieillesse) qui permettent un rattrapage ultérieur ou une compensation."
+      },
+      {
+        "h": "Suhour, iftar : la mécanique quotidienne du jeûne",
+        "body": "Pendant le Ramadan, deux repas structurent la journée. Le suhour (ou sahor) est le repas pris avant l'aube, juste avant le début du jeûne. Il doit être nourrissant et hydratant pour tenir toute la journée : céréales complètes, œufs, dattes, fruits, eau abondante, parfois soupe. L'iftar est le repas du soir, pris au coucher du soleil pour rompre le jeûne. Traditionnellement, on commence par manger une datte et boire de l'eau (sunnah du prophète), avant de procéder au repas complet. Les plats d'iftar varient énormément selon les cultures : harira marocaine (soupe à base de tomates, lentilles et pois chiches), chorba algérienne, ftour tunisien avec bricks et chorba, ramazan pidesi turc, biryani pakistanais, tagliatelles aux fruits de mer libanaises, ou encore tajine et briouates. La table est généralement abondante, et l'iftar est un moment social majeur où familles élargies, amis et voisins se retrouvent. Les mosquées proposent souvent des iftars communautaires gratuits. En France, des restaurants comme La Mosquée de Paris ouvrent leurs portes à tous (musulmans et non-musulmans) pendant le mois, et de nombreuses associations distribuent des repas aux personnes isolées ou démunies. Le jeûne renforce paradoxalement les liens sociaux."
+      },
+      {
+        "h": "Vivre le Ramadan en France et terminer par l'Aïd",
+        "body": "Pratiquer le Ramadan en France pose des défis spécifiques. Les horaires varient selon la latitude : en juin à Paris, le jeûne peut durer plus de 17 heures. Les institutions adaptent rarement les horaires, ce qui complique études et travail. Les écoles et entreprises restent peu sensibilisées, mais une jurisprudence permet d'aménager les pauses repas et de poser des congés pour l'Aïd al-Fitr. Sur le plan culturel, le Ramadan en France est devenu un moment de visibilité culturelle : marchés ramadan dans les quartiers populaires (Barbès à Paris, Belsunce à Marseille, Vénissieux près de Lyon), promotions spéciales en grande surface, programmes TV dédiés (la chaîne Beur TV), influenceurs cuisine qui partagent des recettes d'iftar quotidiennes sur Instagram et TikTok. Le mois se termine par l'Aïd al-Fitr, la fête de la rupture du jeûne, célébrée le 1er du mois de Shawwal. C'est un jour férié dans la plupart des pays à majorité musulmane. On se lève tôt pour la prière de l'Aïd à la mosquée, on porte des vêtements neufs, on offre des cadeaux aux enfants (l'eidiya, argent en billets neufs), on rend visite à toute la famille et on mange des pâtisseries spécifiques : makrout, baklava, kahk, samsa, msemen au miel. L'Aïd est un jour de joie pure après un mois d'effort spirituel."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi le Ramadan change de date chaque année ?",
+        "a": "Parce que l'islam utilise un calendrier strictement lunaire de 354 ou 355 jours par an, contre 365 dans le calendrier grégorien solaire. Le Ramadan recule donc d'environ 11 jours chaque année dans notre calendrier. Sur 33 ans, il parcourt toutes les saisons, ce qui change l'expérience du jeûne : court en hiver (8h à Paris), long en été (jusqu'à 17h). Le début du mois est officiellement annoncé par l'observation visuelle du croissant de lune, ce qui peut générer une journée d'écart entre pays."
+      },
+      {
+        "q": "Qui est dispensé du jeûne du Ramadan ?",
+        "a": "Plusieurs catégories sont dispensées : les enfants n'ayant pas atteint la puberté, les personnes malades chroniques, les femmes enceintes ou allaitantes, les femmes en période de menstruations, les voyageurs sur de longues distances, les personnes âgées trop fragiles, et les personnes souffrant de maladies aiguës. Selon le cas, le jeûne peut être rattrapé plus tard dans l'année, ou compensé par la fidya (nourrir un nécessiteux pour chaque jour manqué). La santé prime sur le jeûne dans la tradition islamique."
+      },
+      {
+        "q": "Qu'est-ce que la Nuit du Destin ?",
+        "a": "Laylat al-Qadr (la Nuit du Destin) commémore la première révélation du Coran au prophète Mohammed par l'ange Gabriel dans la grotte de Hira, près de La Mecque. Selon le Coran, cette nuit est meilleure que mille mois. Elle est célébrée pendant les dix dernières nuits du Ramadan, plus particulièrement les nuits impaires (21, 23, 25, 27, 29). De nombreux musulmans passent ces nuits à prier, lire le Coran et faire des invocations. C'est considéré comme la nuit la plus spirituelle de l'année."
+      },
+      {
+        "q": "Comment se passe l'Aïd al-Fitr après le Ramadan ?",
+        "a": "L'Aïd al-Fitr est la fête qui clôt le Ramadan, célébrée le 1er du mois de Shawwal. La journée commence tôt par une prière collective à la mosquée. On porte des vêtements neufs, on offre des cadeaux aux enfants (l'eidiya en argent), on rend visite à toute la famille en commençant par les aînés, et on partage des pâtisseries spécifiques selon les pays : makrout, baklava, kahk, samsa, msemen au miel. C'est un jour férié dans la plupart des pays à majorité musulmane et un moment de joie collective."
+      }
+    ],
+    "related": ["paques", "noel", "nouvel-an", "mariage-fete", "chocolat", "cafe", "marrakech", "anniversaire"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "paques",
+    "locale": "fr",
+    "keyword": "Pâques",
+    "matchPatterns": ["paques", "pâques", "easter", "lapin", "oeuf", "chocolat"],
+    "topic": "fetes",
+    "title": "Pâques : sondages chocolat, traditions, lapin et oeufs de Pâques",
+    "description": "Sondages Pâques : œufs en chocolat, cloches ou lapin, brunch familial et traditions. Vote tes meilleurs souvenirs du week-end pascal sur moomz.",
+    "emoji": "🐰",
+    "intro": "Pâques, c'est la fête qui réunit deux dimensions complètement différentes : la plus importante célébration chrétienne de l'année, et la grande chasse aux œufs en chocolat qui fait briller les yeux des enfants. Côté religieux, Pâques commémore la résurrection du Christ trois jours après sa crucifixion, événement central de la foi chrétienne. C'est la fin du Carême, ces quarante jours de jeûne et d'abstinence commencés le mercredi des Cendres. Côté laïc, c'est devenu en France l'occasion d'un long week-end de printemps, d'un brunch en famille, d'une chasse aux œufs dans le jardin (ou dans le salon si tu vis en appart), et d'une consommation industrielle de chocolat. Pâques a une particularité qui la rend unique parmi les grandes fêtes occidentales : c'est une fête mobile. Sa date change chaque année selon un calcul astronomique précis hérité du concile de Nicée en 325 : Pâques tombe le premier dimanche qui suit la première pleine lune après l'équinoxe de printemps, soit entre le 22 mars et le 25 avril. Cette règle complexe explique pourquoi on ne sait jamais à l'avance quand tombe Pâques sans regarder un calendrier. Sur moomz, Pâques génère des polls amusants : team cloche (tradition française) ou team lapin (tradition anglo-saxonne) ? Œufs Lindt, Milka, ou maison ? Chasse aux œufs chez les grands-parents ou en mode adulte sans honte ? Lance ton poll, fais débattre ta famille avant le brunch, et compare ton week-end pascal avec ceux des autres.",
+    "sections": [
+      {
+        "h": "Le calendrier lunaire de Pâques : pourquoi cette date change",
+        "body": "La date de Pâques est probablement la plus compliquée de tout le calendrier chrétien. Elle est fixée selon un calcul appelé computus, hérité du concile de Nicée en 325, qui stipule que Pâques tombe le premier dimanche qui suit la première pleine lune ecclésiastique survenant après ou pendant l'équinoxe de printemps (fixé conventionnellement au 21 mars). Concrètement, Pâques peut tomber entre le 22 mars et le 25 avril, soit une fenêtre de 35 jours. En 2026, Pâques est le 5 avril, en 2027 le 28 mars, en 2028 le 16 avril. Le calcul vient du fait que la Pâque juive (Pessah, dont vient le nom français Pâques) tombe à la pleine lune du mois de Nissan, et que le Christ a été crucifié pendant Pessah selon les évangiles. Les chrétiens ont voulu préserver le lien avec la Pâque juive tout en la fixant un dimanche (jour de la résurrection). Les Églises orthodoxes utilisent encore le calendrier julien pour ce calcul, ce qui explique pourquoi Pâques orthodoxe tombe souvent une à cinq semaines plus tard que la Pâques catholique. La date de Pâques détermine ensuite toutes les autres fêtes mobiles : Mardi gras, Carême, Ascension, Pentecôte, Trinité, Fête-Dieu."
+      },
+      {
+        "h": "Cloches en France, lapin ailleurs : qui apporte les œufs",
+        "body": "La tradition des œufs de Pâques remonte à l'Antiquité : les œufs symbolisent la fertilité, le renouveau et la résurrection. Les premiers chrétiens teintaient les œufs en rouge pour symboliser le sang du Christ. Au Moyen Âge, l'Église interdisait de manger des œufs pendant le Carême, ce qui faisait s'accumuler les œufs frais des poules pendant 40 jours. Le matin de Pâques, on les distribuait massivement, peints et décorés. La tradition s'est ensuite codifiée selon les pays. En France et dans les pays catholiques romans (Italie, Espagne, Belgique francophone), ce sont les cloches qui apportent les œufs. La légende veut que les cloches des églises se taisent du Jeudi saint au dimanche de Pâques (en signe de deuil pour la mort du Christ) et partent à Rome se faire bénir par le pape, avant de revenir en larguant des œufs en chocolat depuis le ciel. En Allemagne, en Autriche et dans les pays anglo-saxons, c'est le lapin de Pâques (Osterhase) qui apporte les œufs et les cache. Le lapin vient d'une tradition germanique pré-chrétienne, animal symbole de fertilité associé à la déesse Eostre. Aux États-Unis, l'Easter Bunny a complètement absorbé la tradition germanique."
+      },
+      {
+        "h": "Brunch, chocolat et chasse aux œufs : Pâques en 2026",
+        "body": "Aujourd'hui en France, Pâques est principalement vécu comme un long week-end de printemps. Le vendredi saint n'est férié qu'en Alsace-Moselle (héritage allemand) et le lundi de Pâques est férié dans toute la France. C'est l'occasion de courts séjours, de retours dans la famille, de brunchs entre amis. Le menu pascal traditionnel français comprend l'agneau pascal rôti (en référence à l'agneau sacrifié dans la tradition juive et chrétienne), accompagné de haricots verts, flageolets ou pommes de terre, suivi d'un dessert au chocolat. Côté chocolatiers, Pâques représente le deuxième pic commercial de l'année après Noël : les Français dépensent en moyenne 13 euros par habitant en chocolats de Pâques, soit environ 850 millions d'euros au total. Les maîtres chocolatiers comme Patrick Roger, Pierre Hermé, Jean-Paul Hévin ou Cyril Lignac créent chaque année des œufs sculptés à plusieurs centaines d'euros pour leurs vitrines. Pour les enfants, la chasse aux œufs reste le moment fort : on cache des œufs partout dans le jardin ou l'appartement, et les enfants partent avec leurs paniers les chercher. La tendance 2026 : la chasse aux œufs adulte sans honte, avec œufs alcoolisés ou pralines fines, devenue un format de brunch chic entre amis."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi la date de Pâques change-t-elle chaque année ?",
+        "a": "La date de Pâques est calculée selon un algorithme astronomique fixé par le concile de Nicée en 325 : c'est le premier dimanche qui suit la première pleine lune survenant après l'équinoxe de printemps (conventionnellement le 21 mars). Pâques tombe donc entre le 22 mars et le 25 avril selon les années. Ce calcul vient du fait que la Pâque juive Pessah tombe à la pleine lune du mois de Nissan, et que les chrétiens ont voulu préserver le lien tout en fixant la fête un dimanche."
+      },
+      {
+        "q": "Qui apporte les œufs de Pâques : les cloches ou le lapin ?",
+        "a": "Ça dépend du pays. En France, Belgique francophone et Italie, ce sont traditionnellement les cloches des églises qui apportent les œufs : elles se taisent du Jeudi saint au dimanche de Pâques en signe de deuil, partent à Rome se faire bénir, et reviennent en larguant des chocolats. En Allemagne, Autriche, et dans les pays anglo-saxons, c'est le lapin de Pâques (Osterhase) qui cache les œufs. Le lapin vient d'une tradition germanique pré-chrétienne associée à la fertilité."
+      },
+      {
+        "q": "Pourquoi mange-t-on de l'agneau à Pâques ?",
+        "a": "L'agneau pascal vient directement de la tradition juive de Pessah, où l'on sacrifiait un agneau le 14 du mois de Nissan en mémoire de la sortie d'Égypte (le sang de l'agneau peint sur les portes pour protéger les Hébreux). Dans la tradition chrétienne, Jésus est appelé Agneau de Dieu et est crucifié pendant Pessah, ce qui a renforcé le symbole. L'agneau pascal rôti reste le plat traditionnel du dimanche de Pâques en France et dans la plupart des pays méditerranéens."
+      },
+      {
+        "q": "Combien dépensent les Français en chocolat pour Pâques ?",
+        "a": "Les Français dépensent en moyenne 13 euros par habitant en chocolats de Pâques, soit environ 850 millions d'euros au total chaque année. C'est le deuxième pic commercial du chocolat après Noël. Les maîtres chocolatiers comme Patrick Roger, Pierre Hermé ou Jean-Paul Hévin créent des œufs sculptés à plusieurs centaines d'euros pour leurs vitrines. La grande distribution (Lindt, Milka, Ferrero) capte cependant la majorité du volume avec des œufs et lapins entre 5 et 20 euros."
+      }
+    ],
+    "related": ["noel", "ramadan", "anniversaire", "nouvel-an", "chocolat", "st-valentin", "halloween", "vin"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mariage-fete",
+    "locale": "fr",
+    "keyword": "Mariage",
+    "matchPatterns": ["mariage", "wedding", "marie", "mariée", "marié", "noces"],
+    "topic": "fetes",
+    "title": "Mariage : sondages cérémonie, robe, lieu, dress code et menu",
+    "description": "Sondages mariage : robe, lieu, traiteur, dress code, musique et invités. Lance ton poll mariage et règle les débats avec ta famille sur moomz.",
+    "emoji": "💍",
+    "intro": "Le mariage, c'est le marathon de l'organisation événementielle : 18 mois de préparation en moyenne, 12 000 euros de budget moyen en France, et environ 100 décisions critiques à prendre, du lieu de la cérémonie au choix du DJ en passant par la couleur des serviettes. C'est aussi le moment de la vie où la moindre micro-décision devient un débat familial intergénérationnel : ta mère veut absolument inviter ses cousines de second degré, ta belle-mère veut un menu végétarien que personne n'a demandé, ton meilleur ami veut faire un discours qu'il va t'envoyer à relire trois fois. Le mariage tel qu'on le connaît aujourd'hui est un mélange de traditions très anciennes et de codes modernes très médiatisés. La cérémonie civile en mairie est obligatoire en France depuis la Révolution (loi du 20 septembre 1792 qui sécularise l'état civil). La cérémonie religieuse, longtemps majoritaire, devient minoritaire : moins de 30% des couples mariés en France passent par l'Église en 2026. La cérémonie laïque, importée du monde anglo-saxon, explose depuis dix ans : officiant choisi parmi les proches, vœux personnalisés, déroulé sur-mesure. Sur moomz, les polls mariage sont les plus partagés au sein des EVJF et EVG : robe princesse ou robe sirène ? Cérémonie en château, en domaine viticole, en bord de mer ou en grange chic ? Plan de table dramatique (séparer les ex, gérer les divorces) ? DJ ou groupe live ? Et le débat éternel : dress code blanc strict ou tenue libre ? Lance ton poll, fais voter tes témoins, et compare ton mariage avec ceux des autres avant le grand jour.",
+    "sections": [
+      {
+        "h": "Le mariage moderne : entre tradition et réinvention",
+        "body": "Le mariage civil est obligatoire en France depuis 1792, lorsque la Révolution a sécularisé l'état civil et retiré ce pouvoir aux curés. Aujourd'hui, le mariage civil en mairie est la seule cérémonie ayant valeur légale : la cérémonie religieuse ou laïque qui suit n'a aucune portée juridique. La cérémonie civile dure entre 15 et 30 minutes, est gratuite, et peut être personnalisée par le maire (musique, lectures, témoins jusqu'à 4). Le mariage religieux catholique reste pratiqué par environ 25% des couples mariés en France, contre plus de 80% dans les années 1960. Le mariage civil a augmenté en parallèle de l'explosion du PACS depuis 1999 : aujourd'hui, plus de PACS sont signés chaque année que de mariages. Le mariage homosexuel est légal en France depuis la loi Taubira de mai 2013. La grande tendance des années 2020 : la cérémonie laïque, importée du monde anglo-saxon, qui permet de personnaliser totalement le déroulé. Un proche (frère, sœur, ami) est désigné officiant, les mariés écrivent leurs vœux, on intègre lectures, musiques live, rituels symboliques (plantation d'arbre, union des mains, sable coloré). Cette formule séduit particulièrement les couples qui veulent du sens sans cadre religieux."
+      },
+      {
+        "h": "Budget, lieu, traiteur : le triptyque du mariage français",
+        "body": "Le budget moyen d'un mariage en France tourne autour de 12 000 à 15 000 euros pour 80 invités, avec d'énormes écarts selon les régions et les ambitions. À Paris et en Île-de-France, comptez 20 000 euros minimum. Pour un mariage avec 150 invités dans un château avec un traiteur étoilé, le budget peut atteindre 50 000 à 80 000 euros. Les trois plus gros postes : le lieu (25-30% du budget), le traiteur et boissons (35-40%), et la robe + costume + tenues invités proches (5-10%). Le reste se répartit entre photo/vidéo, fleurs, papeterie, DJ ou groupe, décoration, et coiffure/maquillage. Le choix du lieu structure tout. Les options en 2026 : châteaux et domaines (Île-de-France, Bourgogne, Bordelais), domaines viticoles (Provence, Sancerre, Bordeaux), granges chic (Normandie, Périgord), bords de mer (Bretagne, Côte d'Azur, Côte basque), lieux atypiques (gare désaffectée, péniche, friche industrielle réhabilitée). Les domaines stars sont réservés 18 à 24 mois à l'avance pour les samedis de juin à septembre. Le traiteur fait ou défait la réputation du mariage : les invités jugent le mariage à la qualité du dîner et à la durée du cocktail. Choix critique : un seul prestataire (lieu-traiteur intégré, plus simple) ou prestataires séparés (plus flexible mais plus de coordination)."
+      },
+      {
+        "h": "Robe, dress code, plan de table : les détails qui comptent",
+        "body": "La robe de mariée reste l'objet le plus chargé symboliquement du mariage. Budget moyen : 1500 à 3000 euros pour une robe sur-mesure ou semi-mesure chez un créateur français, 500 à 1000 euros pour une robe en boutique style Pronovias ou Cymbeline, 100 à 500 euros pour une robe d'occasion sur Once Wed ou Vinted (tendance énorme depuis 2023). Les coupes 2026 : princesse intemporelle (robe ample), sirène glamour (moulante), bohème (dentelle + manches longues + bohème vintage), minimaliste sleek (satin droit sans froufrou), deux-pièces (top + jupe pour pouvoir séparer pour la soirée). Le costume du marié évolue aussi : du noir classique au costume couleur (bleu pétrole, beige, vert sapin), souvent sur mesure chez Cifonelli, Atelier NA ou Suit Supply. Côté dress code, les classiques se brisent : le blanc strict pour les invitées est aboli (sauf demande explicite de la mariée), le noir intégral n'est plus tabou, les invités osent des couleurs vives. Le plan de table reste un casse-tête politique : séparer les ex, gérer les divorces de famille, placer la table 13 sans drame, équilibrer les tablées (pas que des vieux d'un côté), prévoir une table jeunes/témoins forcément la plus bruyante. Astuce : externaliser le plan de table à un proche neutre."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien coûte un mariage en France en moyenne ?",
+        "a": "Le budget moyen d'un mariage en France tourne autour de 12 000 à 15 000 euros pour 80 invités, avec d'énormes écarts selon la région et les ambitions. À Paris ou en Côte d'Azur, le budget moyen monte à 20 000-25 000 euros. Un mariage haut de gamme avec château, traiteur étoilé et 150 invités peut atteindre 50 000 à 80 000 euros. Les trois plus gros postes sont le lieu (30%), le traiteur (35-40%), et les tenues. Le reste : photo, fleurs, DJ, décoration."
+      },
+      {
+        "q": "Combien de temps faut-il pour organiser un mariage ?",
+        "a": "La durée moyenne d'organisation d'un mariage est de 14 à 18 mois en France. Les lieux les plus demandés (châteaux, domaines viticoles, granges chic) se réservent 18 à 24 mois à l'avance pour les samedis de juin à septembre. Les délais critiques : lieu et traiteur 12-18 mois avant, robe 8-12 mois avant, photographe 12 mois avant, faire-part 4-6 mois avant. Les mariages organisés en moins de 6 mois sont possibles mais ferment beaucoup de portes."
+      },
+      {
+        "q": "Faut-il faire une cérémonie religieuse ou laïque ?",
+        "a": "Tout dépend du sens que tu cherches à donner. Seul le mariage civil en mairie a une valeur légale en France. La cérémonie religieuse reste pratiquée par environ 25% des couples mariés, principalement catholique. La cérémonie laïque, importée du monde anglo-saxon, explose depuis 10 ans : un proche officiant, vœux personnalisés, déroulé sur-mesure, lectures et musiques choisies. Elle séduit les couples qui veulent du sens et de l'émotion sans cadre religieux."
+      },
+      {
+        "q": "Comment réussir le plan de table d'un mariage ?",
+        "a": "Quelques règles clés : séparer les couples divorcés et leurs ex, équilibrer les tablées (pas que des vieux d'un côté, pas que les jeunes de l'autre), placer la table des témoins près de celle des mariés, créer une table enfants si nécessaire, gérer les régimes alimentaires (végétariens, allergies). Externaliser le plan de table à un témoin neutre évite beaucoup de tensions. Et accepter que quelqu'un trouvera toujours à redire, c'est inévitable."
+      }
+    ],
+    "related": ["evjf", "evg", "st-valentin", "anniversaire", "noel", "amour", "vin", "chocolat"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "evjf",
+    "locale": "fr",
+    "keyword": "EVJF",
+    "matchPatterns": ["evjf", "enterrement vie jeune fille", "bachelorette", "hen party"],
+    "topic": "fetes",
+    "title": "EVJF : sondages activités, week-end, déco et idées d'enterrement de jeune fille",
+    "description": "Sondages EVJF : week-end Lisbonne, Marrakech ou chalet, activités cool ou ringardes, déco rose ou pas. Idées et votes sur moomz.",
+    "emoji": "👰",
+    "intro": "L'EVJF, c'est cette mission sacrée confiée à la meilleure amie ou aux témoins de la mariée : organiser le dernier moment de folie avant le grand jour. Le concept tel qu'on le connaît aujourd'hui (week-end entre filles, déguisements, activités délurées, photos compromettantes) vient directement de la bachelorette party américaine des années 60, qui s'est généralisée dans les années 80-90 et a déferlé sur l'Europe dans les années 2000. En France, l'enterrement de vie de jeune fille, abrégé EVJF, est devenu un rituel social majeur, particulièrement chez les 25-35 ans. Aujourd'hui, organiser un EVJF mobilise en moyenne 6 à 12 invitées, un budget de 200 à 600 euros par participante, et au moins trois mois de préparation. Les formats varient énormément : weekend à l'étranger (Lisbonne, Marrakech, Barcelone, Berlin restent les destinations phares), week-end en France (Bordeaux, Provence, Côte basque), journée locale avec brunch chic + spa + dîner, ou format atypique (chalet en hiver, glamping, croisière sur la Seine, retraite yoga). Sur moomz, les polls EVJF cartonnent dans la phase de préparation : la mariée déteste ou kiffe les déguisements ringards ? Activité phare : cours de pole dance ou cours de poterie ? Sash + couronne + tee-shirts personnalisés ou ambiance minimaliste chic ? Lance ton poll dans le groupe WhatsApp des copines, fais voter sans réveiller la mariée, et compare ton EVJF avec ceux des autres. Le bon EVJF, c'est celui qui ressemble à la mariée, pas à un Pinterest générique.",
+    "sections": [
+      {
+        "h": "L'origine américaine de la bachelorette party",
+        "body": "Le concept moderne de l'EVJF vient des États-Unis, où la bachelorette party apparaît dans les années 1960. Avant cela, il n'existait pas vraiment de pendant féminin à l'enterrement de vie de garçon, ancien rituel masculin remontant à l'Antiquité (les Spartiates célébraient leurs derniers moments de célibat). La bachelorette party tire son nom du mot anglais bachelorette (jeune femme célibataire), construit comme un féminin de bachelor. Le terme date officiellement de 1922 mais le rituel ne se généralise qu'à partir des années 1960, dans le contexte de l'émancipation féminine américaine. Les premières bachelorette parties étaient des dîners chics entre filles avec un thème mariage. Dans les années 80, sous l'influence d'Hollywood et de la pop culture, la fête évolue vers des formats plus délurés : strip-tease masculins, déguisements thématiques, sashs avec marquage Bride-to-Be. Dans les années 90-2000, le format week-end à l'étranger s'impose : Las Vegas est devenue la capitale mondiale des bachelorettes, suivie de Nashville pour les pays anglo-saxons. La France importe le concept dans les années 2000 sous le nom d'enterrement de vie de jeune fille (EVJF), avec une touche française moins kitsch et plus chic."
+      },
+      {
+        "h": "Les formats EVJF qui marchent en 2026",
+        "body": "Les formats d'EVJF se sont énormément diversifiés. Le week-end à l'étranger reste numéro un : Lisbonne (rooftops + fado + plages d'Estoril) domine depuis 2018, suivi de Marrakech (riad + hammam + désert), Barcelone (tapas + plage + nuit), Berlin (clubs + culture). Tarif moyen weekend de 3 jours : 350-600 euros par personne avec vol low-cost et Airbnb partagé. Le week-end en France grimpe en flèche depuis le COVID : Bordeaux (vignobles + dégustation), Provence (Aix, Avignon, le Luberon), Côte basque (Biarritz + Saint-Jean-de-Luz), Normandie (Deauville chic + cabine sur la plage). Les formats journées locales explosent pour les budgets serrés : brunch chic + spa + dîner + soirée club, le tout en une seule journée à Paris ou Lyon, autour de 150-200 euros par personne. Les formats atypiques : chalet en hiver (cuisine partagée + ski + jacuzzi), glamping en yourte ou bulle, croisière péniche sur la Seine, retraite yoga + cuisine en Provence, atelier oenologie + dîner gastronomique. La tendance lourde 2026 : moins de déguisements ringards, plus d'expériences sur-mesure adaptées à la personnalité de la mariée. Toujours : photographe pro ou ami doué pour ramener un album souvenir."
+      },
+      {
+        "h": "Activités, déco, surprises : la check-list complète",
+        "body": "Le meilleur EVJF est ultra-personnalisé. La règle d'or : lister 5 choses que la mariée adore et 5 choses qu'elle déteste, puis construire le week-end autour. Activités classiques qui marchent encore : atelier cocktail (en groupe à Paris ou Lyon, autour de 50 euros/personne), cours de cuisine ou pâtisserie (avec chef pro, environ 80-120 euros), cours de danse (salsa, pole, burlesque, twerk selon la personnalité), spa et hammam (Marrakech reste la référence absolue), escape game thématique (mariage). Activités plus originales : photoshoot pro avec stylisme, retraite yoga + méditation, atelier parfum à Grasse, dégustation accords mets-vins avec sommelier, soirée meurtre et mystère. Côté déco, la tendance évolue : moins de rose flashy et de pénis en plastique, plus d'or, de pampas, de fleurs séchées, de bougies, de néons LED personnalisés Bride Tribe ou avec le prénom. Les tee-shirts personnalisés restent populaires si bien faits (création Etsy ou Vista). Côté surprises : carnet souvenirs avec messages des invitées et photos d'enfance, vidéo montage des proches qui n'ont pas pu venir, playlist Spotify dédiée co-créée. À éviter : strip-tease imposé si elle n'en veut pas, déguisements gênants (épouse de Bigard, robe de princesse Disney enfantine), jeux à boire dégradants. Lance le poll moomz dans le groupe WhatsApp pour valider en avance."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien coûte un EVJF en moyenne ?",
+        "a": "Tout dépend du format. Un EVJF d'une journée à Paris ou Lyon (brunch + spa + dîner + soirée) coûte 150 à 250 euros par participante. Un week-end en France (Bordeaux, Provence, Côte basque) tourne autour de 250-400 euros. Un week-end à l'étranger (Lisbonne, Marrakech, Barcelone) coûte 350-600 euros par personne avec vol low-cost et hébergement partagé. Un EVJF haut de gamme (croisière privée, retraite luxe) peut atteindre 800-1500 euros par invitée."
+      },
+      {
+        "q": "Combien de personnes inviter à un EVJF ?",
+        "a": "La moyenne française se situe entre 6 et 12 invitées. Moins de 6, l'ambiance manque souvent de groupe. Plus de 12, la coordination devient un casse-tête (transports, hébergement, restos, divergences de budget). Le mieux est de demander à la mariée ses préférences, ou de respecter sa liste sans en rajouter. Souvent les témoins forment le noyau dur, élargi aux amies proches et belles-sœurs. Les EVJF mixtes mariée + bichette s'imposent timidement mais restent minoritaires."
+      },
+      {
+        "q": "À quel moment faut-il organiser l'EVJF avant le mariage ?",
+        "a": "Le timing idéal est 4 à 8 semaines avant le mariage. Trop proche (moins de 3 semaines), la mariée risque d'être épuisée pour le jour J et d'avoir des restes physiques visibles sur les photos (cernes, fatigue). Trop loin (plus de 3 mois), la fête perd son sens et l'effet anti-stress est dissipé. La fenêtre optimale : 6 à 8 semaines avant, weekend de récupération suffisant avant le mariage. Bloquer le weekend dans les agendas dès l'annonce des fiançailles."
+      },
+      {
+        "q": "Comment éviter de gêner la mariée pendant son EVJF ?",
+        "a": "La règle d'or : poser la question à la mariée en amont sur ses limites. Certaines détestent les strip-teases, d'autres adorent. Certaines refusent les sashs et tee-shirts ringards, d'autres veulent à fond le délire. Certaines veulent du calme spa-yoga, d'autres veulent danser jusqu'à 5h du matin. Lui faire remplir un questionnaire secret avec les témoins quelques semaines avant évite les surprises gênantes. Et toujours respecter ses sensibilités politiques, féministes ou religieuses dans le choix des activités."
+      }
+    ],
+    "related": ["evg", "mariage-fete", "baby-shower", "anniversaire", "st-valentin", "lisbonne", "marrakech", "barcelone"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "evg",
+    "locale": "fr",
+    "keyword": "EVG",
+    "matchPatterns": ["evg", "enterrement vie garcon", "enterrement vie de garçon", "bachelor party", "stag"],
+    "topic": "fetes",
+    "title": "EVG : sondages activités, week-end et idées d'enterrement de vie de garçon",
+    "description": "Sondages EVG : week-end Berlin, Prague ou Bordeaux, activités cool ou hardcore, surprises et défis. Vote tes meilleurs souvenirs sur moomz.",
+    "emoji": "🤵",
+    "intro": "L'EVG, c'est le rituel masculin qui précède le mariage et qui doit absolument être organisé par le témoin (ou les témoins). L'enterrement de vie de garçon est l'une des traditions les plus anciennes du monde : déjà chez les Spartiates dans l'Antiquité, les jeunes hommes célébraient leurs derniers moments de célibat avec un grand banquet entre guerriers. Aujourd'hui, le format s'est codifié mondialement, avec la bachelor party américaine des années 60 comme matrice principale, qui a déteint sur l'Europe via les films comme Very Bad Trip (2009) - source mondiale d'inspiration pour les EVG modernes, et aussi de pas mal de fiascos. En France, l'EVG mobilise en moyenne 6 à 15 participants, un budget de 200 à 700 euros par personne, et un format qui penche soit vers le sportif (paintball, karting, accrobranche), soit vers le festif (week-end à Berlin ou Amsterdam), soit vers l'atypique (escape game, simulation pilotage F1, jet ski). La tendance lourde 2026 : moins de strip-teases et d'humiliations dégradantes, plus d'activités fun-mémorables. Les EVG les plus réussis sont ceux qui ressemblent au marié, pas une caricature de masculinité toxique. Sur moomz, les polls EVG explosent dans les groupes WhatsApp des potes : week-end à Prague vs Bordeaux, paintball ou karting, défis ringards ou activités chic, surprises à faire ou pas. Lance ton poll, fais voter le groupe d'amis sans alerter le marié, et compare ton EVG avec ceux des autres avant le grand jour. Et surtout : pas de photos compromettantes ou de tatouage ridicule, même bourrés.",
+    "sections": [
+      {
+        "h": "Bachelor party : de Sparte à Las Vegas",
+        "body": "L'enterrement de vie de garçon est une tradition extrêmement ancienne. Les Spartiates organisaient déjà au Ve siècle avant Jésus-Christ des banquets entre soldats pour fêter le passage du célibat au mariage. Au Moyen Âge, en France, les jeunes hommes célébraient eux aussi leur dernière nuit de liberté dans des cabarets ou tavernes. Le terme moderne bachelor party apparaît aux États-Unis au début du XXe siècle, et le format se codifie dans les années 1960 avec des dîners entre amis. Les années 70-80 voient apparaître les strip-teaseuses et l'ambiance Vegas devient iconique. Mais c'est Very Bad Trip (The Hangover) sorti en 2009 qui a véritablement explosé la culture EVG mondialement : le film a déclenché une vague mondiale de week-ends EVG à Las Vegas, devenu la mecque absolue du genre. En Europe, les destinations équivalentes ont émergé : Berlin pour la techno, Prague pour le rapport qualité-prix bière + activités sportives, Amsterdam pour le tourisme alternatif, Budapest pour les bains thermaux et la vie nocturne abordable. La France a importé le concept dans les années 2000, en gardant souvent un style un peu plus chic et moins extrême que la version anglo-saxonne. La tendance 2026 : le retour à des EVG plus mature, moins binge-drinking, plus expérientiels et personnalisés."
+      },
+      {
+        "h": "Destinations stars et formats 2026",
+        "body": "Le week-end EVG à l'étranger reste le format favori des trentenaires français. Top destinations 2026 : Berlin (clubs techno mythiques comme Berghain ou Watergate, paintball urbain, escape rooms, bières pas chères) reste numéro un. Prague gagne du terrain (excellent rapport qualité-prix, paintball, karting, bières à 2 euros, vie nocturne dense). Amsterdam attire toujours mais a perdu son côté tabou. Budapest monte fort avec ses Sparty (bains thermaux qui se transforment en boîte de nuit la nuit). Barcelone et Lisbonne attirent les EVG qui veulent plage + soleil + sortie chic. Pour les budgets serrés ou les EVG en France : Bordeaux (vins + bouchons + ambiance), Lille (carbonnade + tarifs bas + ambiance), Marseille (cabanon + bateau + bouillabaisse), la Côte basque (surf + Biarritz + chipirons). Format journée locale en croissance : 150-250 euros par personne avec activité matin (karting, escape game), déjeuner copieux, après-midi spa ou massage, soirée club. Format chalet en hiver : très populaire chez les 30+ qui veulent du calme avec activités outdoor. Format croisière sur péniche à Paris : original mais cher. Tarif moyen weekend international : 400-700 euros par personne avec vol low-cost. Tarif moyen weekend en France : 250-450 euros."
+      },
+      {
+        "h": "Activités, défis, surprises : faire et ne pas faire",
+        "body": "Les classiques qui marchent toujours : paintball ou laser game (sport de groupe ultime, 40-80 euros par personne pour 2 heures), karting (60-120 euros), accrobranche, escape game thématique mariage, simulation pilotage F1 ou aviation, jet-ski en mer, dîner-spectacle. Activités plus originales : cours de boxe avec coach, atelier whisky ou rhum avec expert, cours de cuisine entre potes avec chef, escape game complexe à 8 personnes. Côté défis traditionnels : faire porter un déguisement ridicule au marié toute la journée (Spiderman, mariée parodie, banane géante), missions à accomplir auprès d'inconnus (faire chanter, danser, draguer maladroitement), photos compromettantes mais inoffensives. À éviter absolument en 2026 : strip-teaseuse imposée si le marié n'en veut pas, défis dégradants vis-à-vis de tiers (drague forcée), achats absurdes (tatouage ridicule), excès alcool dangereux. Côté surprises : carnet souvenirs avec messages des proches absents, vidéo montage, playlist Spotify EVG dédiée. Les EVG les plus réussis selon les statistiques moomz : ceux qui combinent une grosse activité physique le matin (paintball, karting), un repas copieux, une activité fun l'après-midi (spa, brasserie, jeu), et une soirée festive mesurée. Et surtout : photographe désigné, parce qu'on ne se souvient de rien le lendemain."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien coûte un EVG en moyenne ?",
+        "a": "Tout dépend du format. Un EVG d'une journée à Paris ou Lyon (karting + déjeuner + bar) coûte 100 à 200 euros par participant. Un weekend en France (Bordeaux, Lille, Marseille) tourne autour de 250-450 euros par personne. Un week-end à l'étranger (Berlin, Prague, Budapest, Amsterdam) coûte 400-700 euros avec vol low-cost et hébergement partagé. Un EVG très haut de gamme (Vegas, croisière privée, supercars sur circuit) peut atteindre 1500-3000 euros par invité."
+      },
+      {
+        "q": "Combien de personnes inviter à un EVG ?",
+        "a": "La moyenne française se situe entre 6 et 15 participants. Moins de 6, l'ambiance peine à décoller pour un weekend. Plus de 15, la coordination devient infernale (transports, restos, divergences de budget, niveau d'alcool). Le mieux est de demander au marié sa liste, ou de respecter le noyau dur des copains proches + témoins. Souvent les frères et beaux-frères sont inclus. Les EVG mixtes garçons + filles s'imposent timidement chez les couples très mélangés."
+      },
+      {
+        "q": "Quel timing pour organiser un EVG ?",
+        "a": "Le timing idéal est 4 à 8 semaines avant le mariage. Trop proche (moins de 3 semaines), le marié risque d'être épuisé ou avoir des séquelles physiques visibles sur les photos. Trop loin (plus de 3 mois), l'effet anti-stress et célébration du célibat se dilue. La fenêtre optimale : 6 à 8 semaines avant le grand jour, avec assez de récupération. Bloquer le weekend dans les agendas dès l'annonce des fiançailles, surtout pour les amis qui viennent de loin."
+      },
+      {
+        "q": "Comment éviter les EVG qui finissent mal ?",
+        "a": "Plusieurs règles d'or : poser les limites du marié en amont (alcool, strip-teases, défis), désigner un sober buddy qui reste relativement clean toute la nuit pour gérer les urgences, garder les téléphones et papiers d'identité dans un endroit sûr, éviter les activités illégales ou dangereuses (surtout à l'étranger où les amendes sont sévères), prévoir un budget commun via Lydia ou Tricount pour éviter les disputes financières, et bannir les tatouages ou modifications corporelles bourré."
+      }
+    ],
+    "related": ["evjf", "mariage-fete", "baby-shower", "anniversaire", "st-valentin", "berlin", "bordeaux", "amsterdam"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "baby-shower",
+    "locale": "fr",
+    "keyword": "Baby shower",
+    "matchPatterns": ["baby shower", "babyshower", "bebe", "bébé", "naissance", "grossesse"],
+    "topic": "fetes",
+    "title": "Baby shower : sondages déco, cadeaux, activités et idées originales",
+    "description": "Sondages baby shower : déco rose ou bleue ou neutre, cadeaux pratiques ou cocooning, activités fun et gender reveal. Vote sur moomz.",
+    "emoji": "🍼",
+    "intro": "La baby shower, c'est cette fête qui célèbre la future maman (et parfois le futur papa) dans les semaines précédant l'accouchement. Le concept vient directement de la culture américaine du XXe siècle, où la baby shower s'est codifiée dans les années 1940-1950 dans la bourgeoisie blanche, et est devenue mainstream à partir des années 60. Le nom shower vient du fait qu'on douche littéralement la future maman de cadeaux pratiques pour préparer l'arrivée du bébé : couches, vêtements, biberons, jouets, layette. En France, le concept a explosé dans les années 2010, porté par les séries TV américaines (Friends, Sex and the City, Modern Family) et les influenceuses Instagram. Aujourd'hui, environ 35% des futures mamans françaises ont une baby shower, contre quasiment 0 il y a quinze ans. Le format français est plus chic et discret que la version américaine : brunch entre filles à la maison avec décoration soignée, jeux légers, cadeaux groupés via cagnotte en ligne (Leetchi, KissKissBankBank), et atmosphère cocooning. La grande question qui divise : faire une baby shower mixte (future maman + futur papa + amis des deux) ou réservée aux femmes ? Faire un gender reveal en parallèle ou pas ? Décor rose, bleu, neutre vert sauge ou couleurs vives ? Cadeaux pratiques (couches, lingettes) ou cocooning (massage prénatal, vêtements designer) ? Sur moomz, les polls baby shower cartonnent dans les groupes WhatsApp dédiés : timing du 7e ou 8e mois, activités fun ou ringardes, déco minimaliste ou complète Pinterest. Lance ton poll, fais voter les copines, et organise une baby shower qui ressemble à la future maman, pas à un cliché américain importé.",
+    "sections": [
+      {
+        "h": "L'origine américaine de la baby shower",
+        "body": "La baby shower telle qu'on la connaît aujourd'hui est une invention américaine du XXe siècle. Le rituel s'est codifié dans les années 1940-1950 dans la classe moyenne et bourgeoise blanche américaine, après la Seconde Guerre mondiale et le baby boom. Avant cette époque, dans la culture victorienne, célébrer une grossesse avant la naissance était considéré comme tabou (peur des fausses couches, pudeur autour du corps de la femme enceinte). La baby shower a libéré ce tabou en proposant un moment de fête centrée sur la future maman et l'arrivée du bébé. Le nom shower (douche) symbolise le fait que la future maman est noyée sous une avalanche de cadeaux pratiques : couches, vêtements 0-3 mois, biberons, layette, jouets pour les premiers mois. Initialement, c'était exclusivement entre femmes : amies, sœurs, mère, belle-mère, voisines. Les hommes étaient explicitement exclus. Dans les années 80-90, les baby showers ont commencé à devenir mixtes ou diaper parties parallèles pour les hommes. La culture américaine a aussi inventé le gender reveal dans les années 2000, une cérémonie séparée où l'on annonce le sexe du bébé via un gâteau coloré à l'intérieur, des ballons, ou des feux d'artifice rose/bleu. Cette tradition est aujourd'hui critiquée pour réduire le bébé à son genre, et certaines familles s'en éloignent."
+      },
+      {
+        "h": "La baby shower à la française : entre chic et tradition",
+        "body": "Importée en France dans les années 2010, la baby shower a été progressivement francisée. Le format hexagonal est généralement plus discret, plus chic, et moins kitsch que la version américaine. Le cadre type : un brunch ou un goûter dans le salon de la future maman ou chez une amie, autour de 12-25 invitées, samedi ou dimanche après-midi entre le 7e et le 8e mois de grossesse (jamais trop près du terme pour éviter les surprises). Décoration soignée : palette pastel ou tonalité neutre vert sauge / blanc / beige (la tendance 2026 s'éloigne du rose-bleu binaire), pampas séchées, ballons unicolores en arche, photobooth avec accessoires bébé, gâteau diaper cake (gâteau fait de couches roulées). Catering : brunch léger avec viennoiseries, salades, smoothies, mocktails (puisque la future maman ne boit pas, on respecte par solidarité), gâteau ou layer cake centré. Jeux légers et non humiliants : devinettes sur le bébé (date, taille, poids), guess the baby food (deviner les saveurs de petits pots), création de pronostics, écriture de messages dans un carnet souvenir. Cadeaux : cagnotte en ligne (Leetchi, KissKissBankBank, Trousseau ou la liste de naissance de marques comme Petit Bateau, Bonpoint, Aubert) pour éviter les doublons et permettre à la future maman de choisir ce qu'elle veut vraiment."
+      },
+      {
+        "h": "Cadeaux, activités, déco : la check-list complète",
+        "body": "Les cadeaux baby shower se répartissent en deux écoles. L'école pratique : couches en différentes tailles (8 paquets minimum pour les premiers mois), lingettes, layette en taille 0-3 mois, biberons, tétines, langes, table à langer, baby phone, transat, écharpe de portage. L'école cocooning : produits cosmétiques bio pour bébé (Mustela, Weleda, Bioderma), doudou de qualité (Doudou et Compagnie, Moulin Roty, Liewood), livres illustrés (Petit Ours Brun, Les Trois Brigands), vêtements designer (Petit Bateau, Bonpoint, Tartine et Chocolat). Le must : la cagnotte en ligne qui permet à la future maman d'acheter ensuite ce qu'elle veut vraiment, particulièrement utile pour des achats plus chers (poussette Bugaboo ou Cybex, lit cododo, siège auto Doona). Activités qui marchent : devinettes sur le bébé, fresque collective avec messages et empreintes, atelier création de carte de naissance, photoshoot pro avec la future maman, vidéo souvenir avec messages des proches. À éviter : jeux trop kitsch avec couches (deviner le contenu de la couche en goûtant du chocolat fondu - non), pression sur la pesée, blagues sur la prise de poids ou les hormones, conseils non sollicités sur l'éducation. Concernant le gender reveal en parallèle : si la future maman le veut, faire simple (boîte de ballons à ouvrir, gâteau coloré). Surtout pas de feux d'artifice (régulièrement responsable d'incendies aux États-Unis)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quand organiser une baby shower ?",
+        "a": "Le timing idéal est entre la 28e et la 34e semaine de grossesse, soit entre le 7e et le 8e mois. Trop tôt, la future maman ne se sent pas encore en mode bébé et le ventre est petit. Trop tard (après 35 semaines), risque d'accouchement prématuré pendant la fête, fatigue importante, et impossibilité de profiter sereinement. La fenêtre optimale : 7-8 mois de grossesse, weekend après-midi, durée 3-4 heures maximum pour ménager la future maman."
+      },
+      {
+        "q": "Faut-il faire une baby shower mixte ?",
+        "a": "Le format traditionnel reste entre femmes uniquement, mais les baby showers mixtes gagnent du terrain depuis 2015 environ. Le choix dépend du couple : si le futur papa veut être impliqué dans le rituel, version mixte. Si la future maman veut un moment uniquement entre filles, format classique. Une alternative populaire : baby shower entre filles + diaper party séparée entre hommes pour le futur papa (apéro chez lui avec cadeaux couches). Les deux peuvent coexister."
+      },
+      {
+        "q": "Quel budget prévoir pour une baby shower ?",
+        "a": "Pour l'organisatrice : 200 à 500 euros pour une baby shower de 15-20 invitées avec brunch maison, décoration et cake. Si lieu loué ou traiteur, ça peut monter à 800-1500 euros. Pour les invitées : cadeau individuel entre 30 et 80 euros, ou contribution à la cagnotte commune autour de 40-60 euros. La cagnotte en ligne (Leetchi, KissKissBankBank) est la solution préférée des futures mamans car elle permet ensuite d'acheter ce dont elles ont vraiment besoin sans recevoir 5 doudous identiques."
+      },
+      {
+        "q": "Faut-il faire un gender reveal en plus de la baby shower ?",
+        "a": "Tout dépend du couple. Le gender reveal est une tradition récente (années 2000 aux États-Unis) où l'on annonce le sexe du bébé via un gâteau coloré, des ballons ou des confettis. Beaucoup de futurs parents le combinent à la baby shower pour des raisons pratiques (une seule fête). Mais le concept est critiqué pour réduire le bébé à son genre, et certaines familles préfèrent garder la surprise jusqu'à la naissance ou attendre le grand jour. Aucune obligation, c'est une affaire personnelle."
+      }
+    ],
+    "related": ["mariage-fete", "evjf", "anniversaire", "st-valentin", "noel", "evg", "chocolat", "ete"],
+    "updatedAt": "2026-05-19"
+  }
+]

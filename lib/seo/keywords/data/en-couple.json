@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "first-date",
+    "locale": "en",
+    "keyword": "First date",
+    "matchPatterns": ["first date", "first-date", "1st date", "premier", "date 1"],
+    "topic": "couple",
+    "title": "First Date Polls: Vibe Check Before You Even Order Drinks",
+    "description": "First date polls and questions that actually break the ice. Vote on dinner vs drinks, who pays, kiss on date one, and find your match energy.",
+    "emoji": "💘",
+    "intro": "The first date is the most over-analyzed thirty minutes of modern romance. You spend three hours picking the outfit, two hours rereading the texts, and then the whole vibe is decided by the first sip of whatever you order. The data is brutal: relationship scientists like Arthur Aron have shown that whether two people click is mostly set in the first four to seven minutes, long before the appetizer arrives. Yet we still treat it like an exam with a dress code. On moomz, the first-date category is one of the busiest because nobody actually agrees on the rules. Is coffee a real date or a soft interview. Is dinner overkill or the only honest move. Should you split the bill, do the dance with the card, or let one person fully cover. The truth is that the rules changed somewhere around 2017 and never got rewritten, so every couple is improvising. This page collects the polls people actually run on themselves before going out, the ones they screenshot to a group chat at 6pm asking what to wear, what to text back, and whether saying you are nervous is cute or game over. Vote on the ones that match your situation, then watch the live percentages and realize you are way less alone than the panic in your head suggests. Use the prompts as a low-stakes script to send to a friend, a crush, or the actual date if you are the kind of person who likes to make a chaotic first impression on purpose. First dates are not supposed to feel like job interviews and they are not supposed to feel like nothing. They are supposed to feel like a tiny gamble with a good story attached.",
+    "sections": [
+      {
+        "h": "What the first 30 minutes actually decide",
+        "body": "There is a reason therapists keep telling you not to overthink the opener. The classic Aron study from 1997 (the famous 36 questions paper) showed that intimacy ramps up through escalating self-disclosure, not through a perfect pickup line. What kills a first date is rarely the wrong question, it is the safe one. Asking what someone does for work three times in a row gets you a CV, not a connection. The polls in this category lean into the opposite move: would you rather know their ick or their love language, do you trust someone who texts back instantly, would you ghost a great date because they were rude to the waiter. These are the receipts. They tell you in two clicks what twenty small-talk minutes would not. Use them on the way home, or, more chaotic, mid-date when the bathroom break is too long. The point is not to skip the awkward part of a first date. The point is to make the awkward part land on something interesting instead of the weather."
+      },
+      {
+        "h": "Dinner, drinks, walk, or chaotic third option",
+        "body": "The dinner-versus-drinks debate is mostly a budget conversation pretending to be a values conversation. Drinks have lower stakes, an easier exit, and a built-in excuse to keep going if it is working. Dinner forces commitment for ninety minutes minimum, which is either romantic or a hostage situation depending on how it goes. Then there is the third category that Gen Z basically invented: the walk date, the matcha date, the bookshop browse, the museum loop. These do well because they remove the table, which is the most awkward piece of furniture ever invented for two strangers. The polls here split almost evenly, which is the real headline. There is no correct first date format. There is only the format that matches the energy of the people involved. Run the poll, look at the split, then pick the one that does not make you anxious to confirm. If you are torn between two ideas, that is the entire reason moomz exists."
+      },
+      {
+        "h": "The bill, the kiss, and the text after",
+        "body": "Three micro-decisions, each one worth more anxiety than they deserve. On the bill, the modern consensus shifted: the person who invited tends to offer first, the other person reaches anyway, and splitting is normal but no longer the default flex. Polls on moomz show roughly a third of voters expect the inviter to pay, a third want a true split, and a third want whoever wants to be impressive to be impressive. On the kiss, a meta-analysis of dating surveys from the last decade puts the first-date kiss rate around 35-40 percent in Western countries, depending on whether drinks were involved. So a kiss on date one is normal, not requested. On the post-date text, the rule is simpler than the internet wants it to be: text within twenty-four hours if you liked them, do not play the three-day game, that game is dead. The polls in this section let you split-test the version of yourself you want to be on the next first date. Pick the polls that scare you a little and see what the crowd says."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who is supposed to pay on a first date in 2026",
+        "a": "There is no rule anymore, only patterns. The person who picked the spot or did the inviting usually offers first, the other person reaches for the wallet to show they were not waiting for a free meal, and the offer either gets accepted or refused. Splitting is fine, paying fully is also fine, expecting the other person to pay without offering is the only move that consistently reads as a red flag in polls."
+      },
+      {
+        "q": "Is it weird to kiss on the first date",
+        "a": "Not at all. Roughly a third to half of first dates that go well end in some kind of kiss, and that number climbs when both people had a drink. The actually weird move is forcing it when the vibe is not there, or expecting it because the date went long. Read the moment. If you are unsure, ask. Asking is no longer cringe, it is the upgrade."
+      },
+      {
+        "q": "How long should a first date last",
+        "a": "Sweet spot is ninety minutes to two hours. Short enough that nobody gets bored or runs out of stories, long enough to get past the surface layer of small talk. If you are still going after three hours, that is a great sign. If you are checking your phone after forty minutes, that is also a sign, just a different one. Trust the watch."
+      },
+      {
+        "q": "Should I text first after the date",
+        "a": "Yes, and within a day. The three-day rule from 2003 movies is over, partly because read receipts made waiting look performative instead of cool. If you liked them, a short text the next morning saying you had a good time is enough. You are not playing chess. You are letting an actual human know you do not regret the night."
+      }
+    ],
+    "related": ["crush", "kiss", "ex", "ghosting", "situationship", "long-distance", "marriage", "jealous"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ex",
+    "locale": "en",
+    "keyword": "Ex",
+    "matchPatterns": ["ex", "my ex", "ex-boyfriend", "ex-girlfriend", "ex bf", "ex gf"],
+    "topic": "couple",
+    "title": "Ex Polls: Should You Text Them Back, Block Them, Or Move On",
+    "description": "Polls about exes that hit too hard. Vote on texting your ex, going back, the post-breakup glow up, and what people actually do after a breakup.",
+    "emoji": "👋",
+    "intro": "Everyone says they are over their ex and everyone is lying a little. Not always a lot, but a little. There is solid evidence for this: Pew Research and various OkCupid data dumps from the last ten years suggest that more than half of adults under 35 have at some point gone back to a previous relationship, and roughly a third have texted an ex within thirty days of a breakup. The hold an ex has is not a moral failure, it is just how attachment works. John Bowlby kicked off attachment theory in 1958 with the simple idea that humans form deep bonds for survival reasons, and breaking those bonds activates the same brain regions as physical pain. Naomi Eisenberger confirmed this in fMRI work in 2003. So when you stare at the message you almost sent your ex at 1am, you are not weak. You are running on a circuit older than language. That said, you also know which decisions you will regret in the morning. The polls in this section are the ones people quietly run on themselves at 11:47pm to check whether the urge to text back is universal or just them. Spoiler: it is universal. The polls cover the full ex arc: should you stay friends, should you unfollow, what counts as cheating with an ex, is the glow-up petty or healthy, and would you take them back if they actually changed. Vote, see the split, then make a slightly better decision than the one you were about to.",
+    "sections": [
+      {
+        "h": "Why you still think about them",
+        "body": "Brains are bad at letting go because they were never built to. The attachment system that made human infants survive by clinging to their caregivers is the same system that runs your reaction to a breakup, and it does not care that the relationship was bad for you. Helen Fisher, the anthropologist who has scanned hundreds of heartbroken brains, found that romantic rejection lights up the nucleus accumbens, the same area involved in addiction cravings. That is why two months out you can still spiral over a meme that reminded you of them. It is also why no-contact is the cheat code therapists keep recommending. Every contact, even a small one, gives the brain another dose. The polls here let you check your relapse risk without judging yourself. If 62 percent of voters admit to lurking their ex on a private Instagram, you can stop pretending you are the only one. The first step is naming it, the second step is voting on it, the third step is closing the app and going outside."
+      },
+      {
+        "h": "Texting your ex: the universal trap",
+        "body": "The classic ex text comes in five flavors. The drunk one. The fake-casual happy birthday. The I-found-your-hoodie pretext. The vague how are you. And the dangerous one, the actual emotional download. Each one has its own moomz poll, and the results are weirdly consistent across countries: most people say they regret the drunk text within 48 hours, most defend the birthday text as polite, and the I-found-your-hoodie text is universally read as a soft booty call. The pretext is so obvious it has become a meme. If you must reach out, the cleaner move is direct. Therapists who specialize in relationships often suggest writing the message, saving it as a draft, sleeping, and then deciding in the morning whether the version of you who is hungover and ate something agrees with last-night you. Most of the time, sober you votes no. The polls here are the version of that mechanism that takes ten seconds instead of a journal."
+      },
+      {
+        "h": "Glow up, block, or stay friends",
+        "body": "The three classic post-breakup strategies, and none of them are wrong. The glow up is the most public, the most exhausting, and the most overrated. There is some real psychology behind it (post-breakup self-improvement is associated with better long-term wellbeing per a 2015 University of Arizona study), but the version that lives on TikTok is mostly a flex performed for the ex who is not even watching. The block is underrated. It is the only one of the three that consistently lowers cortisol, because you remove the trigger entirely. Staying friends is the hardest mode on the highest difficulty. It works for about 30 percent of post-breakup pairs, mostly couples without unresolved feelings, and only after at least three to six months of no-contact first. The moomz polls split fairly evenly between these three options, which tells you that there is no objectively right move, only the move that fits your timeline. Whichever you pick, the goal is the same: stop performing the breakup and actually do it."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is it normal to still think about my ex months later",
+        "a": "Completely normal. Studies on heartbreak recovery suggest the most intense phase lasts about three months, with full emotional recalibration taking around eleven weeks for a brief relationship and significantly longer for serious ones. Random intrusive thoughts can persist for a year or more without meaning you are not over them. The body forgets slower than the mind."
+      },
+      {
+        "q": "Should I unfollow my ex on Instagram",
+        "a": "If you check their profile more than twice a week, yes. Lurking keeps the wound open and prevents the brain from filing the relationship under closed. Unfollow or mute, do not block unless they crossed a line. A mute is the polite middle ground that lets you stop seeing them without sending a public signal."
+      },
+      {
+        "q": "Can you ever really be friends with an ex",
+        "a": "Sometimes. Roughly one in three couples manages it long-term, usually when the breakup was mutual, there were no major betrayals, and both people waited at least three to six months before trying. The friendships that work are the ones where both people moved on cleanly. The ones that fail almost always involve one person who never let go and is using friendship as a backdoor."
+      },
+      {
+        "q": "Why do I miss my ex more when I see them with someone new",
+        "a": "Jealousy is partly possessiveness, partly identity threat. Seeing them happy with someone else makes you confront that the relationship was replaceable, which is brutal even if you wanted the breakup. The reaction usually fades within a few weeks once the novelty wears off. If it does not, it is worth talking to someone, because that signal points to unfinished grief."
+      }
+    ],
+    "related": ["breakup", "ghosting", "cheating", "jealous", "situationship", "crush", "first-date", "kiss"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "marriage",
+    "locale": "en",
+    "keyword": "Marriage",
+    "matchPatterns": ["marriage", "married", "wedding", "fiance", "engaged", "spouse"],
+    "topic": "couple",
+    "title": "Marriage Polls: Would You, When, And What Even Counts As Real Now",
+    "description": "Marriage polls for the generation that is not sure about it. Vote on ideal age, prenups, big weddings, and what marriage means in 2026.",
+    "emoji": "💍",
+    "intro": "Marriage is going through its weirdest decade in a century. The numbers tell the story without subtlety. In the United States, the average age at first marriage hit 30 for men and 28 for women in 2023, the highest ever recorded since the Census Bureau started tracking it in 1890. In the United Kingdom, fewer than half of adults under 50 are married for the first time in modern history. In Italy, marriages dropped 47 percent between 2008 and 2022. The institution is not dying, it is moving. People still want partnership, they just want it on different terms and on a different timeline than their grandparents. The polls in this section are the ones that actually run hot, the ones friends argue about at brunch and couples avoid discussing on purpose. Would you sign a prenup. Would you take their last name. Big wedding or city hall. Ring price as a percentage of salary. Kids before or after the vows. Move in first, propose later, or skip the whole thing. There is no consensus, which is exactly why these polls get thousands of votes. You are not weird for being undecided. You are just paying attention to a moving target. moomz collects the splits so you can see how your view stacks up against everyone in your age bracket, instead of taking your one friend group's opinion as the whole world.",
+    "sections": [
+      {
+        "h": "Why we keep delaying it",
+        "body": "Marriage age is climbing for legitimate structural reasons, not because the youth is broken. Higher education enrollment, longer career launch ramps, urban rent loads, and the simple fact that birth control disconnected commitment from biology have all moved the calculus. Sociologist Andrew Cherlin calls this the deinstitutionalization of marriage: it is no longer a precondition for adulthood, sex, cohabitation, or even kids in most Western countries. That does not make it less wanted, just less mandatory. Cohabitation before marriage is now the modal path in most of Europe and the US, with about 70 percent of US couples living together before any wedding. The data also says these couples are not at higher divorce risk, which contradicts older 1990s research that has since been corrected for selection effects. Translation: living together first is fine, it does not curse the marriage. The polls here ask the awkward versions of that question. What is the minimum dating time before moving in. Does proposing under one year make you reckless. Are city hall weddings undervalued. The answers will surprise you, because the loudest opinions online are not the median opinion."
+      },
+      {
+        "h": "Prenups, last names, and the modern bill",
+        "body": "Three flashpoints that quietly say more about your values than the dress. Prenups used to carry a stigma of cynicism. That flipped over the last ten years. A 2022 Harris poll found that 42 percent of unmarried Americans say they want a prenup, up from 15 percent in 2010. Among millennials and Gen Z women specifically, the number is higher than for men, which is the headline most articles miss. The last name debate is just as live. In the US, around 80 percent of women still take their husband's surname, in the UK closer to 90 percent, but in Spain and many Latin American countries the default is keeping both names already, so the question barely registers there. Hyphenation, blended names, and the husband-takes-her-name option are all rising slowly. As for the bill, modern weddings average around 30,000 USD in the US, with the bride's family paying the majority in roughly 40 percent of cases and the couple covering the rest in mostly equal shares. The polls let you compare your numbers against actual peers, which is the only honest reality check available outside of asking a wedding planner directly."
+      },
+      {
+        "h": "Big day, city hall, or skip the wedding entirely",
+        "body": "The three-way split that gets the loudest. Big traditional weddings are still the majority in most countries by ceremony count, but they are no longer the cultural default among under-30s. Micro-weddings of under twenty people have climbed to about 25 percent of US ceremonies post-2020, partly a pandemic legacy that stuck. Elopements are up too. And then there is the growing camp that skips the wedding entirely and treats civil registration as the whole event. In Scandinavia, this has been normal for decades. In France, the PACS (civil union) created in 1999 now outnumbers actual marriages annually since 2017. The polls in this section ask which version you would actually pick if money were not the issue, if your family were not in the room, and if Instagram did not exist. The answers shift dramatically when you remove the audience. Most people, when honest, do not want the spreadsheet wedding. They want the one that feels like them. Vote and see how many strangers are quietly with you."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is marriage dying out",
+        "a": "No, it is changing. Marriage rates are lower than the 1960s peak, but stable in most Western countries since 2010, with the bigger shift being later age and smaller weddings. About 80 percent of people in the US still expect to marry at some point in their life. The institution is moving from default to chosen, which is not the same as disappearing."
+      },
+      {
+        "q": "What is the average age people get married now",
+        "a": "In the US the median first marriage age is around 30 for men and 28 for women, up from 23 and 21 in 1970. The UK, France, and Germany sit slightly higher, around 32-34 for first marriages. Southern Europe trends a bit younger but still above their parents' generation. The trend is later across every developed country."
+      },
+      {
+        "q": "Are prenups actually a red flag",
+        "a": "Not by themselves. Lawyers and therapists who specialize in couples increasingly recommend them as a clarity exercise, not a cynical move. Around 40 percent of unmarried adults in the US now say they want one, and high-asset, second-marriage, and business-owner couples make them standard. The red flag is refusing to discuss money at all, not asking for a prenup."
+      },
+      {
+        "q": "What is the current divorce rate",
+        "a": "In the United States the lifetime divorce rate for first marriages sits around 39 percent based on the latest CDC numbers, down from a 1980s peak above 50 percent. The UK is similar, around 40 percent of first marriages end in divorce. Rates are highest in the first eight years and again around year twenty. Couples who marry after 25 divorce less often."
+      }
+    ],
+    "related": ["divorce", "long-distance", "cheating", "first-date", "ex", "situationship", "jealous", "kiss"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ghosting",
+    "locale": "en",
+    "keyword": "Ghosting",
+    "matchPatterns": ["ghost", "ghosting", "ghosted", "left on read", "no reply"],
+    "topic": "couple",
+    "title": "Ghosting Polls: When Disappearing Counts And When It's Just Cowardly",
+    "description": "Ghosting polls for everyone who's been left on read. Vote on what counts as ghosting, how to react, and the modern rules of disappearing on someone.",
+    "emoji": "👻",
+    "intro": "Ghosting is the relationship move of the smartphone era, and the data backs that up. The term itself went mainstream in 2015 when the New York Times and basically every magazine ran a piece on Charlize Theron allegedly ghosting Sean Penn. Within a year it was in the Oxford English Dictionary. A 2019 Journal of Social and Personal Relationships study found that around 25 percent of people had been ghosted in a romantic context, with the number climbing past 60 percent for adults under 25. By 2023 a Pew survey put the lifetime ghosting experience for under-30s at over 70 percent on at least one side, often both. So if it has happened to you, you are not in a niche. You are in the majority. The polls here cover the full ghosting taxonomy, because that is the second thing nobody agrees on: what counts. Three days of silence after the first date. A week. A read receipt and no reply. Slow fade. Soft ghost (replies eventually but never plans). Hard ghost (vanishes mid-conversation). Each one has a different ethical weight, and the moomz community has opinions. Vote on the scenarios, see where the line is, and figure out whether what just happened to you was ghosting or just a Wednesday.",
+    "sections": [
+      {
+        "h": "What ghosting actually is and isn't",
+        "body": "Strict definition: ending all communication with someone you were romantically or socially engaged with, without warning or explanation. That excludes a lot of stuff people call ghosting. Not replying to a Hinge opener is not ghosting, it is filtering. Going quiet after one bad date and not following up is not really ghosting either, it is a mutual fade. Real ghosting kicks in once there is established interaction, mutual investment, and an unspoken expectation that the conversation will continue. Psychologist Jennice Vilhauer has argued that ghosting is best understood as a form of avoidant coping, more about the ghoster's discomfort with confrontation than active malice. Brain studies on social rejection (Eisenberger 2003) show that being ignored lights up the same pain regions as physical injury, which is why being ghosted by someone you barely knew can hurt disproportionately. The hurt is real, the malice usually is not. The polls in this section sort out the gray zones: at what point does silence officially become ghosting, and at what point does it just become a normal end of a casual chat."
+      },
+      {
+        "h": "Why people do it (it is rarely about you)",
+        "body": "The dominant reason is conflict avoidance, period. Surveys consistently find that the most common explanation ghosters give is that they did not know how to let the other person down. Second most common is loss of interest combined with the belief that the relationship was too early to deserve an explicit ending. Third is feeling overwhelmed, often after some red flag they did not feel like negotiating. Almost nobody ghosts because they hate the other person. Most ghosters in retrospective surveys report that they felt guilty for at least a week after, and a non-trivial share end up reaching out again later, the so-called zombie effect. That reappearance is its own genre of moomz poll, and the votes are split: about half say block on sight, the rest say hear them out once. The polls help you predict your own response in cold blood before it happens, because the warm version is always softer than you think it will be."
+      },
+      {
+        "h": "How to actually respond when it happens",
+        "body": "Therapists who deal with the post-ghost spiral give surprisingly consistent advice. Step one, do not chase. Two unanswered messages in a row is the absolute maximum, and even that is generous. The chase reads desperate and rarely produces honesty. Step two, write the closure message you wanted to send but do not send it. Save it. The brain processes ghosting partly through narrative, so writing it down does most of the work that a real conversation would have done. Step three, do not stalk. Lurking their stories is the slow-release poison of post-ghost recovery. Step four, the most controversial: do not vague-post about it. Subtweeting an ex never reaches them and only sticks the experience to your timeline. The polls in this section break down which of these moves you would actually do, and the votes show a clear pattern. Most people overestimate how cold they will be and underestimate how much they will lurk. Knowing that in advance makes you slightly less surprised when you do it anyway."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long is ghosting officially",
+        "a": "There is no fixed clock, but most people in surveys define it as roughly seven days of complete silence after established back-and-forth, with no prior indication that the relationship was ending. Three days of slow replies is not ghosting, that is being busy. A week of nothing after meeting in person twice usually qualifies."
+      },
+      {
+        "q": "Should I send a closure message to someone who ghosted me",
+        "a": "One short message is fine. Something honest and contained, like saying you noticed the silence and would have appreciated a heads-up. Do not expect a reply. The point is not to get an answer, it is to close the loop on your side so you stop drafting it in your head every night."
+      },
+      {
+        "q": "Is being left on read the same as ghosting",
+        "a": "Not always. Being left on read once is normal life. Being left on read repeatedly after consistent contact, with no other communication, is a soft form of ghosting often called orbiting if they also keep viewing your stories. Treat it as a signal that interest has dropped, even if the door is technically still cracked open."
+      },
+      {
+        "q": "Why do ghosters come back",
+        "a": "Boredom, guilt, or running out of new options. The zombie comeback usually happens between three weeks and six months after the initial ghost, peaking around the two to three month mark. Most ghosters who return are not offering a real conversation, they are testing if you are still available. The decision to engage is yours, but go in with no expectations."
+      }
+    ],
+    "related": ["ex", "situationship", "breakup", "crush", "first-date", "cheating", "jealous", "long-distance"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "situationship",
+    "locale": "en",
+    "keyword": "Situationship",
+    "matchPatterns": ["situationship", "situation ship", "almost dating", "talking stage"],
+    "topic": "couple",
+    "title": "Situationship Polls: Define The Relationship Or Stay In The Fog",
+    "description": "Situationship polls for everyone in the talking stage forever. Vote on red flags, the DTR talk, and when an almost-relationship becomes a problem.",
+    "emoji": "🌫️",
+    "intro": "Situationship is the most Gen Z word for the most ancient feeling. Urban Dictionary picked it up in 2017, the New York Times wrote about it in 2019, and by 2022 it was in Merriam-Webster. The textbook definition: a romantic or sexual relationship that is not formally defined and lacks the markers of a traditional couple, while still being more than a casual hookup. The honest definition: you do everything couples do but you cannot post each other and you do not know what to call them at parties. The polls in this section are the ones that come up at every brunch where someone has been in something for six months and still cannot answer the basic question. There is real research catching up to the term now. A 2022 Hinge report found that 30 percent of Gen Z daters were in or had recently been in a situationship, with the median duration around four to six months before either becoming official or ending. The most cited reasons for staying in one were fear of commitment, unclear personal goals, and the simple fact that the talking stage feels lower-stakes than declaring an actual relationship. The moomz polls cover every flavor of the fog: when to have the talk, what counts as exclusive, whether sleeping over makes it real, and the brutal one, would you wait six more months for someone who likes the vibe but not the label.",
+    "sections": [
+      {
+        "h": "Why this is happening to your whole generation",
+        "body": "There are structural reasons situationships exploded after 2015 and they are not all bad. Dating apps lowered the cost of meeting people, which raised the perceived option pool, which made commitment feel more like closing a door than opening one. Sociologist Eric Klinenberg has documented how delayed adulthood, longer education, and urban mobility all push the average dating timeline later, leaving more years of in-between. Therapist commentary on situationships tends to land on attachment style: people with anxious attachment often stay in them too long because the ambiguity itself triggers the chase response, while avoidant attachment partners maintain them because the lack of definition keeps the exit close. Securely attached people generally exit situationships fastest, either by asking for a label or walking. None of this is moral failure, it is just patterning. The polls in this section let you check which side of the dynamic you are running. If 70 percent of voters say they have stayed in a situationship past the point they wanted clarity, you can stop blaming yourself for being the only one."
+      },
+      {
+        "h": "The DTR talk and how to actually do it",
+        "body": "DTR stands for Define The Relationship and it is the unavoidable boss fight of every situationship. The data on how to do it well is fairly consistent. Bring it up in person when possible, never over text on a Sunday night, and never after sex. Open with a soft frame about yourself rather than a demand, something close to wanting to share where your head is at rather than asking them where they stand. The conversation should take about fifteen minutes, not two hours. If they cannot give you an answer within a reasonable window after the talk (the moomz polls split between one week and one month as the right delay), the answer is the no you were afraid of. The most common mistake, well documented in relationship literature, is restarting the conversation every two weeks hoping for a different outcome. That is not a DTR talk, that is a renegotiation, and renegotiation drains both people. One real talk, one clear answer, and a decision on your side based on the answer. The polls in this section give you the script options before you have the actual conversation."
+      },
+      {
+        "h": "Knowing when to walk",
+        "body": "There are three clean signals that a situationship is past its sell-by date and is not going to convert. First, the dates have plateaued. You see them at the same frequency and in the same contexts as month one, with no escalation into meeting friends, family, or weekday plans. Second, future tense is missing. Healthy connections sprinkle plans more than two weeks out without anyone forcing it. Situationships that are going nowhere stay strictly in this-week timeframes for months. Third, exclusivity is unspoken. If you cannot ask whether they are seeing anyone else without the room going cold, the answer is they are. Surveys of people who eventually exited long situationships overwhelmingly say they wished they had walked one to three months earlier than they did. The cost of staying is rarely the breakup itself, it is the months you could not spend meeting someone else. The polls here let you stress-test your specific situation against the crowd. If most voters would have left already, that is not a verdict, it is a useful data point."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What officially counts as a situationship",
+        "a": "Anything between casual dating and a defined relationship that lasts long enough to feel real. Common markers: seeing each other multiple times a week, sleeping together repeatedly, sharing life updates, and yet no labels, no public posts, and no introduction to close friends or family. If you cannot describe your status in one word, you are probably in one."
+      },
+      {
+        "q": "How long should a situationship last",
+        "a": "Most healthy connections crystallize into either a relationship or an ending within three to four months. Past six months without progression, the odds that it converts drop sharply. The data from Hinge and others suggests situationships that last over a year almost never become long-term relationships, they just delay an inevitable breakup."
+      },
+      {
+        "q": "Is a situationship the same as friends with benefits",
+        "a": "Not exactly. Friends with benefits implies friendship first and sex layered on, with no romantic component. Situationships usually involve romantic feelings, dates, and emotional intimacy, but no defined commitment. The line is blurry but the emotional stakes are typically higher in a situationship than in pure FWB."
+      },
+      {
+        "q": "How do I bring up the DTR talk without scaring them off",
+        "a": "Pick a relaxed in-person moment, not a high-stakes setting. Frame it about yourself, not them: say you've been thinking about what you want and you want to share where your head is. Keep it under twenty minutes. If they panic, you got your answer. If they engage, you finally have a real conversation instead of months more of guessing."
+      }
+    ],
+    "related": ["ghosting", "ex", "crush", "first-date", "breakup", "long-distance", "cheating", "kiss"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "jealous",
+    "locale": "en",
+    "keyword": "Jealous",
+    "matchPatterns": ["jealous", "jealousy", "jelly", "envious", "possessive"],
+    "topic": "couple",
+    "title": "Jealous Polls: Healthy Limit Or Red Flag You Need To Address",
+    "description": "Jealousy polls that draw the line. Vote on what crosses it, when checking the phone is normal, and how much jealousy is a green or red flag.",
+    "emoji": "😤",
+    "intro": "Jealousy is one of the most universal and most misunderstood emotions in relationships. Cross-cultural studies from the 90s onward show that some form of jealousy appears in essentially every documented culture, with men and women reacting slightly differently on average (men more often to sexual cues, women more often to emotional ones, per David Buss's evolutionary research). It is built into the attachment system. The problem is that being jealous and acting jealous are two very different things, and modern dating culture often conflates them. A small spark of jealousy is normal and even associated with relationship investment. Constant, controlling, or surveillance-based jealousy is a different animal entirely and one of the most reliable predictors of relationship dissatisfaction and abuse. The polls in this section walk that line. Is liking your ex's photo a problem. Is checking your partner's phone okay if both phones are open. Is being jealous of a close opposite-sex friend a red flag or a fair concern. moomz has run thousands of votes on each of these and the splits are way more even than people expect, which is the actual insight. There is no clean consensus on most jealousy questions, which means a lot of couples are operating with mismatched rulebooks they never wrote down.",
+    "sections": [
+      {
+        "h": "The kind of jealousy that is actually healthy",
+        "body": "Researchers distinguish between reactive jealousy and suspicious jealousy. Reactive jealousy is the response to an actual event, like seeing your partner flirt with someone. It is short-lived, often resolves with a conversation, and is associated with caring about the relationship rather than dysfunction. Suspicious jealousy is the chronic background hum of worry without specific evidence. It is the one that erodes trust, drives surveillance behavior, and predicts relationship breakdown. The split between the two is well established in psychology since the 80s (Bringle and Buunk did the foundational work). When people on moomz vote on jealousy scenarios, the ones that get green-flag votes are almost always reactive, and the ones that get red-flag votes are almost always suspicious. If your jealousy is responsive to specific situations and goes away after a real conversation, it is a normal part of investment. If it lives in your chest at 2am without an event to attach to, that is the version that needs work, often individually, sometimes with a therapist."
+      },
+      {
+        "h": "Phones, social media, and the trust dashboard",
+        "body": "The post-2010 jealousy battleground is digital. Should partners know each other's phone passwords. Should you have access to each other's locations. Is following the same Instagram accounts a problem. A 2021 study in Cyberpsychology, Behavior, and Social Networking found that couples who use joint location sharing report higher trust on average, but couples who started location sharing because one partner demanded it report lower trust. The mechanism matters more than the action. Same goes for phone access. Couples who have full open access by mutual choice are not unhealthy, but couples where one partner reads the other's phone without permission are. The moomz polls split these scenarios apart with clean categories: do you share locations, do you read DMs, do you check who liked their last post. The results consistently show that the more covert the action, the more voters call it a red flag, and the more mutual and transparent, the more it lands in the green zone. Translation: it is not what you do, it is whether both people knowingly opted in."
+      },
+      {
+        "h": "When jealousy becomes the actual problem",
+        "body": "The clinical threshold for problematic jealousy crosses when the behavior outweighs the trigger and starts to control the partner's life. Sociologist Michael Johnson's research on intimate partner dynamics identifies coercive control, often rooted in pathological jealousy, as one of the strongest predictors of relationship abuse. The patterns are well documented: isolation from friends, dictating what to wear, scrolling through messages without permission, accusations without evidence, monitoring location without consent, and explosive reactions to normal social interactions. None of those are quirks of an intense personality, they are warnings. The polls in this section escalate from mild to severe so voters can map where their own line sits. The data from these polls is consistent across age groups: anything that crosses into controlling behavior gets called a red flag by 80 percent or more of voters. The remaining 20 percent often realize after voting that they have been justifying things they would not justify if a friend described the exact same situation. That is the most useful thing a poll can do, and that is exactly why this section exists."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is being jealous a sign that I love them",
+        "a": "Mild jealousy in specific situations is normal and often reflects investment. But love and jealousy are different systems. Love is steady, jealousy spikes. If your love is mostly measured by how often you feel jealous, that is anxious attachment showing up, not romance. Healthy love coexists with trust, which is the opposite of chronic jealousy."
+      },
+      {
+        "q": "Should couples share phone passwords",
+        "a": "There is no universal answer. Couples who share passwords by mutual choice tend to report high trust. Couples where one partner demands access without offering theirs in return tend to report low trust. The deciding factor is whether the sharing is symmetric and consensual, not the sharing itself."
+      },
+      {
+        "q": "When does jealousy become controlling",
+        "a": "When it starts dictating your partner's behavior. If your jealousy makes them change what they wear, who they see, or whether they post a normal photo with a friend, you crossed from feeling jealous to controlling them. The feeling is yours to manage, the behavior is the line. Therapy helps, especially for jealousy rooted in past betrayals."
+      },
+      {
+        "q": "How do you talk to a partner about feeling jealous",
+        "a": "Lead with the feeling, not the accusation. Something like saying you noticed yourself feeling insecure when X happened works better than saying they did something wrong. Ask once, listen, and decide afterward whether the response calmed you. If you have to ask repeatedly about the same thing, the problem is either trust or pattern, and that is bigger than one conversation."
+      }
+    ],
+    "related": ["cheating", "ex", "breakup", "ghosting", "situationship", "long-distance", "marriage", "crush"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "breakup",
+    "locale": "en",
+    "keyword": "Breakup",
+    "matchPatterns": ["breakup", "break up", "broke up", "broken up", "splitting up"],
+    "topic": "couple",
+    "title": "Breakup Polls: How To End It, Survive It, And What Comes After",
+    "description": "Breakup polls that get real. Vote on how to break up, the rules of no contact, getting back together, and what actually heals the heart.",
+    "emoji": "💔",
+    "intro": "Breakups are basically the only universal life event between birth and death that everyone is supposed to figure out without instructions. The numbers are staggering and weirdly comforting. A US Census follow-up study suggested that the average person experiences three to four significant romantic breakups by age 30. UK ONS data points to one in three first relationships ending within three years. A British Heart Foundation study even found measurable cardiac symptoms (the real Takotsubo or broken-heart syndrome) in people post-breakup, which is the medical version of saying yes, the chest pain is real, you are not crazy. And yet there is no actual class on how to break up well, how to survive being broken up with, or how to know which one to do. The polls in this section are crowd-sourced wisdom on every breakup decision people actually face. Should you do it over text. Should you stay friends. How long should the no-contact period be. Is the rebound real or just denial. Is getting back together usually a bad idea (data: yes, mostly). On moomz, breakup polls run thousands of votes deep because everybody has a version of these stories and almost nobody talks about them out loud. Vote, read the splits, and use the comments as a quiet way to feel less alone in the chaos.",
+    "sections": [
+      {
+        "h": "How to actually end it well",
+        "body": "The cleanest breakups follow a few rules backed by therapists who deal with hundreds of them. In person, when feasible. Short, kind, and clear. No long explanations of every flaw, no list, no negotiating. Ideally not on a weekend night or right before a holiday. The big mistake most people make is over-explaining, which feels like respect but actually reads as a sales pitch that keeps the door cracked. The other big mistake is the soft breakup, the slow fade, the pretend-busy stretch where you hope they break up with you first. That just adds three months of confusion to a decision that needed twenty minutes. Long distance breakups are the exception, where video is fine and a phone call is acceptable. Text is reserved for very short situationships, never for relationships past three or four months. The moomz polls in this section let you split-test your own ethics: would you really tell them in person if you had the chance, or would you rather take the cowardly route. The split is brutal and it is rarely 80-20."
+      },
+      {
+        "h": "The no contact rule and why it works",
+        "body": "No contact is one of the few breakup rules with actual evidence behind it. The mechanism is straightforward: continued contact, even brief, restimulates the attachment system, which keeps cortisol elevated and prevents the brain from filing the relationship under closed. Helen Fisher's fMRI work on heartbreak suggests that the craving response fades fastest when triggers are removed entirely, which means no texting, no story watching, no driving past their place. The hardest part is the first three weeks. After roughly week four to six the emotional intensity drops by about half in most subjects in clinical breakup studies. Eleven weeks is the often-cited mark where most people report feeling significantly better. None of this is exact, every breakup is its own timeline, but no contact reliably accelerates the trajectory. The polls in this section run the realistic version: how long is your no-contact window, did you make it, did you cheat on it, would you do it stricter next time. The data shows that most people break no-contact at least once and most also wish they had not. Useful to know before you do it again."
+      },
+      {
+        "h": "Getting back together: the actual odds",
+        "body": "The hopeful question, and the answer is more nuanced than the internet suggests. A 2013 Kansas State study found that around 50 percent of US couples in their early twenties had broken up and gotten back together with the same person at some point. Of those reconciliations, somewhere between 30 and 40 percent stuck long-term, the rest broke up again, sometimes worse. Reconciliation works best when the original breakup was for external reasons (distance, timing, life chaos) rather than internal (incompatibility, betrayal, broken trust). The reconciliations that fail almost always re-fail for the same reason they failed the first time. The polls in this section ask the realistic versions. Would you take them back if they changed for real. Would you take them back after one cheating incident, after two, after gambling, after therapy. The crowd is split in interesting ways. Most voters say they would not, but a significant minority always does, and the comments are usually where the actual conversation happens. Useful for sanity checking your own logic before you hit reply."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to get over a breakup",
+        "a": "There is no exact number, but a commonly cited heuristic from breakup research suggests roughly half the duration of the relationship for full recovery, with the most intense pain phase lasting around three months regardless of length. Eleven weeks is the often-quoted mark where most people feel notably better. Major relationships of five years or more often take significantly longer."
+      },
+      {
+        "q": "Is it bad to break up over text",
+        "a": "For a relationship under three or four weeks, text is acceptable. For anything longer, it reads as cowardly and most voters across moomz polls flag it as disrespectful. The bigger the emotional investment, the more the breakup should match. Phone or in-person is the floor for serious relationships, with text reserved for safety reasons or long distance with no other option."
+      },
+      {
+        "q": "Should I stay friends with my ex after a breakup",
+        "a": "Wait at least three to six months before even considering it. Trying to be friends immediately almost always backfires, either because feelings are not resolved or because one person is using friendship as a bridge back. The friendships that work long-term usually start once both people have already moved on emotionally, not as a coping tool for the breakup."
+      },
+      {
+        "q": "What is the no contact rule and does it work",
+        "a": "No contact means no communication with your ex for a set period, usually 30 to 90 days. The evidence is strong that it accelerates emotional recovery by removing triggers that keep the attachment system active. It works best when total: no texts, no story views, no driving past their place. Most people who succeed at it report feeling dramatically better by the four to six week mark."
+      }
+    ],
+    "related": ["ex", "ghosting", "cheating", "divorce", "long-distance", "situationship", "jealous", "first-date"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "divorce",
+    "locale": "en",
+    "keyword": "Divorce",
+    "matchPatterns": ["divorce", "divorced", "divorcing", "split up", "separation"],
+    "topic": "couple",
+    "title": "Divorce Polls: Stay, Leave, Or Try Again. The Modern Numbers",
+    "description": "Divorce polls for adults navigating reality. Vote on dealbreakers, alimony, kids, and what divorce actually looks like in 2026, not in movies.",
+    "emoji": "📑",
+    "intro": "Divorce is the topic where everyone has an opinion until they are in one, and then they have no idea. The current numbers in most Western countries quietly contradict the panic narrative. In the United States, the divorce rate per 1000 marriages has been declining since the 1980s peak and now sits at the lowest level in fifty years, around 14-15 per 1000 marriages. Roughly 39 percent of first marriages still end in divorce based on CDC lifetime projections. In the UK the latest ONS data puts the divorce rate around 9 per 1000 marriages, with about 42 percent of marriages ending in divorce eventually. France is around 45 percent. In Italy and Spain rates roughly doubled since 2010 due to legal reforms, while in Scandinavia rates have been high and stable for decades. The takeaway is not that marriage is broken, it is that divorce stopped being a scandal and started being a normal life event for a significant share of adults. The polls in this section deal with the questions people actually face, not the ones the discourse pretends matter. Would you divorce over cheating once. Over chronic financial irresponsibility. Over not wanting kids when your partner does. Would you stay for the kids. Would you do a clean prenup-based split or a court battle. moomz collects the votes of thousands of people who are either thinking about it, recovering from it, or trying to avoid it.",
+    "sections": [
+      {
+        "h": "What actually predicts divorce",
+        "body": "John Gottman's longitudinal research on couples is the most-cited body of work here, and it is genuinely useful. After decades tracking thousands of couples in his Seattle lab, Gottman identified what he calls the Four Horsemen of relationship apocalypse: contempt, criticism, defensiveness, and stonewalling. Contempt is the single strongest predictor of divorce, more than infidelity. Couples who showed contempt patterns in early conflicts had divorce prediction accuracy above 90 percent in his follow-ups over 14 years. Outside the lab, demographers consistently find that the strongest external predictors of divorce are: marrying young (under 25), big age gaps, financial stress, severe mismatch in education levels, and a history of divorce in either partner's family of origin. None of these are individual fault lines, they are statistical patterns. Couples with all the green flags still divorce, and couples with all the red flags sometimes last fifty years. The polls in this section ask the personal versions. Which of these predictors do you have. Which would make you walk before a wedding. Which would you ignore. The honest answers are usually different from the public ones."
+      },
+      {
+        "h": "Kids, money, and the actual cost",
+        "body": "The two heavy levers in any divorce conversation. Kids first: divorces involving children under 18 take on average two to three times longer to finalize and are more contested, but the long-running research on outcomes for children (Wallerstein, Hetherington, and more recent meta-analyses) is more nuanced than the 90s narrative. Children of high-conflict marriages where divorce removes the conflict tend to do better than children whose parents stay in active fighting. Children of low-conflict divorces (parents who split civilly) do mostly fine on the same measures as kids in stable two-parent homes, with some delays in social and academic markers that close by adulthood. Staying for the kids is not the universal good move it used to be sold as. Money second: average US divorce costs roughly 15,000 to 20,000 dollars with attorneys, far less if uncontested. Divorces with significant assets, businesses, or custody disputes can run six figures fast. Around half of women report a meaningful drop in income post-divorce, men less so but not zero. The polls here split the realistic scenarios so you can stress-test your own boundaries before you need them."
+      },
+      {
+        "h": "Second marriages and starting over",
+        "body": "The data on second marriages is less rosy than the cliche suggests. The divorce rate for second marriages in the US sits around 60 percent, higher than first marriages, partly because second marriages frequently inherit unresolved issues from the first (blended families, custody schedules, financial baggage) and partly because the people getting second-married are not always more emotionally prepared, just more willing to try again. Third marriages hit around 73 percent. Therapists who specialize in remarriages point to two factors that improve the odds significantly: a deliberate gap of at least two years between the divorce and the next serious relationship, and active work on the patterns from the first marriage during that gap. The polls in this section ask the awkward versions. Would you marry someone with kids from a previous marriage. Would you remarry the same person you divorced. Would you sign a tighter prenup the second time. The results are split, often along generational lines, and worth voting on before you find yourself in any of these scenarios live."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the current divorce rate",
+        "a": "In the US about 39 percent of first marriages eventually end in divorce based on CDC lifetime projections. UK and France sit around 42-45 percent. Scandinavia is consistently higher, Southern Europe lower but rising. Annual divorce rates per marriage have been declining since the 1980s peak in most Western countries, even though the lifetime rate is still substantial."
+      },
+      {
+        "q": "What is the most common reason for divorce",
+        "a": "Surveys consistently cite communication breakdown and growing apart as the leading cited reasons, ahead of infidelity, money, or addiction. In research-based work like Gottman's, the strongest predictor is chronic contempt during conflict, not a single dramatic event. Divorce is usually the result of accumulated patterns, not one moment."
+      },
+      {
+        "q": "Should I stay in a marriage for the kids",
+        "a": "It depends on the conflict level at home. Modern research suggests that children of high-conflict marriages often do worse than children whose parents divorce civilly, while children of low-conflict marriages benefit from staying together. The kids are mostly affected by the chronic emotional climate, not the legal status of the marriage."
+      },
+      {
+        "q": "How long does a divorce usually take",
+        "a": "An uncontested divorce in most Western countries can finalize in three to six months. A contested divorce with assets or custody disputes typically runs one to two years, sometimes much longer. Average legal cost in the US for an uncontested divorce is under 1500 dollars, while contested cases regularly cross 20,000 and can reach six figures."
+      }
+    ],
+    "related": ["marriage", "breakup", "cheating", "ex", "jealous", "long-distance", "first-date", "situationship"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "cheating",
+    "locale": "en",
+    "keyword": "Cheating",
+    "matchPatterns": ["cheat", "cheating", "cheated", "infidelity", "affair", "unfaithful"],
+    "topic": "couple",
+    "title": "Cheating Polls: Where Is The Line And What Counts As Crossing It",
+    "description": "Cheating polls that draw the line. Vote on emotional cheating, micro-cheating, sliding into DMs, and whether you'd ever forgive infidelity.",
+    "emoji": "🚩",
+    "intro": "Cheating is the topic where everyone agrees it is wrong and nobody agrees on what it is. The numbers are large and consistent across decades. The General Social Survey, which has tracked US infidelity since the 70s, puts lifetime cheating rates in marriages around 20 percent for women and 25 percent for men, with smaller gender gaps in younger cohorts. The Kinsey Institute and IFS data put non-marital cheating in dating relationships much higher, around 60 percent at some point during a serious relationship, depending on how you define it. And that is the catch: the definition is the entire battle. Liking an ex's photo. Sliding into DMs with no reply yet. Sexting without meeting. Watching porn featuring an ex. Kissing at a party while drunk. The moomz polls on these scenarios are some of the most contested on the platform because the splits are almost never one-sided. Esther Perel, the most-cited therapist on this topic since her 2017 book on affairs, frames cheating as less about sex and more about transgression of an unspoken agreement, which means every couple has a slightly different rulebook. The polls in this section give you the chance to compare your private definition with thousands of strangers, which is the only way to actually know if your line is mainstream, conservative, or wildly liberal compared to the average.",
+    "sections": [
+      {
+        "h": "What counts: the modern taxonomy",
+        "body": "Therapists tend to break cheating into three broad categories. Physical infidelity, the original, includes anything sexual outside the relationship. Emotional infidelity, defined as deep emotional connection with someone outside the relationship that takes intimacy away from the primary partner, is increasingly considered as damaging by therapists and often more painful for the cheated-on partner because the betrayal is about choice, not impulse. Digital or micro-cheating is the gray zone where most current arguments happen: secret messaging, intimate emojis, deleted message threads, lingering with an ex online without telling your partner. A 2017 study by Abbasi found that the perception of what counts as cheating online varies dramatically by age and gender, with under-30s consistently rating digital behaviors more strictly than over-40s. The moomz polls in this category run hot because they hit the digital boundary right where it is being drawn in real time. The honest answer is that there is no universal rule, only the agreement you and your partner actually made out loud. If you have not had that conversation, the polls are a useful way to start figuring out which side of each line you sit on."
+      },
+      {
+        "h": "Why people cheat (it is rarely what you think)",
+        "body": "The cheating research from the last twenty years consistently surprises people because it does not match the movie version. The most common reasons cited in interviews with people who cheated are not lust or revenge. They are: feeling neglected emotionally, wanting to feel desired again, escaping a sense of personal stagnation, and curiosity. Esther Perel's interviews with hundreds of people who cheated found that a substantial fraction had been in objectively good relationships at the time, and the cheating was less about leaving their partner and more about wanting a version of themselves that the relationship no longer offered. That is uncomfortable because it removes the easy narrative. Cheating is sometimes the result of a bad relationship, but it is just as often the result of an internal restlessness that the cheater would have brought into any relationship. None of this excuses anything. It just clarifies why post-cheating couples therapy works for some couples and not others. If the cheating was symptom of relational drift, repair is possible. If it was symptom of personal pattern, the same thing tends to happen again."
+      },
+      {
+        "h": "Can a relationship survive cheating",
+        "body": "Surprising data here. About 50 percent of couples who experience an affair stay together according to most large surveys, but the rate of long-term relationship satisfaction post-cheating is lower than for couples who never faced one. That said, a meaningful subset of couples who go through proper repair, usually with a therapist, report stronger relationships afterward, sometimes called post-traumatic growth. The conditions for repair are well documented. Full disclosure from the cheating partner, no slow drip of new revelations. Genuine remorse, not defensiveness. Cutting full contact with the affair partner immediately. Sustained transparency, often including phone openness, for an extended period. And, crucially, the cheated-on partner must actually want to repair, not just stay because of inertia, kids, or finances. The polls in this section run the brutal version. Would you forgive one kiss. One night stand. A six-month affair with feelings. Would you stay for kids. Would you take your partner back if they cheated with your best friend. The splits in these polls are some of the most balanced on the entire site, which is its own quiet truth: there is no universal answer, only the one that fits your own line."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is emotional cheating real cheating",
+        "a": "For most therapists, yes. Emotional cheating involves channeling intimacy, vulnerability, or attraction toward someone outside the relationship in a way that takes those resources away from the primary partner. It often hurts more than physical cheating because it represents a deeper choice. Most moomz polls show majority agreement that ongoing emotional affairs count as cheating."
+      },
+      {
+        "q": "What percentage of people cheat in relationships",
+        "a": "Roughly 20-25 percent of married people in the US cheat at some point per the General Social Survey, with rates higher in dating relationships. Younger cohorts show smaller gender gaps than previous generations. The numbers vary by country and how cheating is defined, but in essentially no developed country is the rate below 15 percent of long-term partners at some point."
+      },
+      {
+        "q": "Should you forgive cheating",
+        "a": "There is no universal answer, but the research is clear that repair requires full disclosure, genuine remorse, no contact with the affair partner, and usually professional support. About half of couples who experience an affair stay together. Of those, a subset rebuild a stronger relationship, the rest stay but report lower satisfaction. The decision should be based on whether real repair is happening, not on hope alone."
+      },
+      {
+        "q": "Why do people cheat in happy relationships",
+        "a": "More common than expected. Research suggests cheating is often driven by personal restlessness, identity-seeking, or curiosity, not necessarily by a bad relationship. People in objectively good partnerships sometimes cheat because they want a version of themselves they cannot access in their current life. That is why cheating sometimes repeats with the same patterns even after a new relationship."
+      }
+    ],
+    "related": ["ex", "breakup", "divorce", "jealous", "ghosting", "marriage", "long-distance", "situationship"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "long-distance",
+    "locale": "en",
+    "keyword": "Long distance",
+    "matchPatterns": ["long distance", "long-distance", "ldr", "distance relationship"],
+    "topic": "couple",
+    "title": "Long Distance Polls: Does It Actually Work, And How To Survive It",
+    "description": "Long distance relationship polls that get real. Vote on the rules, the visits, the trust calls, and whether LDRs actually last the move.",
+    "emoji": "✈️",
+    "intro": "Long distance relationships are the relationship genre most affected by the internet, and the data has been catching up steadily. Estimates put the number of people currently in an LDR in the US at around 3-4 million couples, plus military and college couples separately tracked. A 2013 meta-study by Crystal Jiang and Jeffrey Hancock found that long distance couples actually report higher intimacy and disclosure in their daily conversations than geographically close couples, because the lack of routine physical presence forces more intentional communication. That is the counterintuitive headline: LDRs are not worse, they are different. They fail differently and they succeed differently. Where they fail is almost never during the distance phase itself. They fail during the closing of the distance, when one person finally moves and the relationship has to survive the transition from idealized to ordinary. Roughly a third of LDRs end within three months of finally living in the same city, often because the relationship was sustained by anticipation rather than compatibility. The moomz polls in this section cover the full LDR arc: time zone differences, visit frequency, the call-versus-text balance, FaceTime dinners, the closing-the-distance question, and the brutal one, would you move countries for someone you have only met three times. Vote and see how your tolerance compares to thousands of others actually living it.",
+    "sections": [
+      {
+        "h": "How LDRs actually work (and when they do)",
+        "body": "The successful LDRs in long-running survey data share a few clean traits. First, an end date. Relationships with a defined finish line (a graduation date, a job relocation timeline, a visa milestone) consistently outperform open-ended LDRs in stability and satisfaction. Without a horizon, the relationship slowly turns into permanent waiting, which most people cannot sustain past two years. Second, frequent voice and video contact, not just text. Studies show that voice and face contact maintain emotional bonding far better than messaging alone, partly because tone carries about 38 percent of emotional content in conversation according to classic Mehrabian work. Third, visits in person at a roughly known cadence, usually at least every two to three months, depending on cost and feasibility. Below that, attachment starts to weaken. And fourth, structured shared activities. Couples who watch a show together over video call, play a game together, or run small daily rituals report stronger relational satisfaction than couples who only check in by message. The polls in this section let you split-test your own LDR setup against the patterns that actually correlate with making it through."
+      },
+      {
+        "h": "Trust, jealousy, and the long-distance mind",
+        "body": "Jealousy is the dominant emotion that LDRs amplify, partly because the lack of physical access creates an information vacuum. Studies on long distance and trust show that LDR satisfaction is more correlated with felt trust than with actual fidelity, meaning couples who feel trusting do well even when fidelity is impossible to verify, while couples who feel suspicious deteriorate regardless of what is actually happening. The therapy advice converges on a few practical moves. Establish ground rules early, ideally in the first month: are you exclusive, what counts as cheating, how do you handle nights out, do you call before bed. The rules themselves matter less than agreeing on them out loud. Avoid the surveillance trap of checking each other's locations and posts as a substitute for trust. Surveillance feels like security but consistently lowers relationship satisfaction in research. And remember that paranoia is a worse companion than honest worry. The moomz polls in this section sort through the realistic scenarios: would you ban going to clubs without you, would you read their texts when visiting, would you trust the friend group at the other end. The splits are illuminating and often more lenient than your anxious 2am brain expects."
+      },
+      {
+        "h": "Closing the distance: the make-or-break moment",
+        "body": "The transition from long-distance to close is the highest-risk moment in any LDR, with around a third ending within three months of finally living in the same city. The reasons are well documented and not subtle. The idealized version of your partner that you built in your head during distance has to meet the actual ordinary daily person, who has bad habits, weird sleep patterns, and is annoying about the dishwasher. Most successful close-the-distance couples do a few things differently. They visit each other multiple times in each environment before moving, ideally for stretches of at least two weeks, to break the holiday-mode illusion. They move to a neutral third city when possible, or are explicit about the asymmetry when one person moves to the other. They keep individual space and routines intentionally rather than spending the first month in constant proximity, which can be overwhelming after years of distance. And they give themselves about six months of grace before judging whether the relationship works in person. The polls in this section run the realistic versions. Would you move countries for them. Would you ask them to move for you. Would you split rent 50-50 if you moved into their existing place. These are the conversations most LDR couples have right before the move, and almost nobody has the data to compare their plan to anyone else's. moomz is good for exactly that."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do long distance relationships actually work",
+        "a": "Yes, but with caveats. LDRs are not less successful than close-proximity relationships during the distance phase itself. Research shows comparable satisfaction and sometimes deeper emotional intimacy. The high-risk moment is the transition to living in the same city, where about a third end within three months. Couples with a defined end date and frequent voice contact do best."
+      },
+      {
+        "q": "How often should long distance couples see each other",
+        "a": "Most successful LDRs maintain at least one in-person visit every two to three months, with daily voice or video contact in between. Below that, attachment tends to weaken. Longer gaps work for couples with established trust and a clear end date but are much harder for new relationships still building their foundation."
+      },
+      {
+        "q": "What is the biggest reason long distance relationships fail",
+        "a": "The most common failure point is not during the distance itself but at the close-the-distance transition, when the idealized partner meets the real daily person. Open-ended LDRs without a defined end date also fail more often, because the relationship runs on anticipation that eventually fades. Genuine incompatibility is the third common reason and often gets masked by distance."
+      },
+      {
+        "q": "Should you move for someone you are in a long distance relationship with",
+        "a": "Only after multiple long visits in each environment, ideally including at least two weeks of normal life together rather than vacation mode. Moving early often fails because the relationship has not been tested in ordinary conditions. If you do move, give the new setup at least six months before judging whether it works, and try to preserve individual routines in the first weeks."
+      }
+    ],
+    "related": ["situationship", "marriage", "ex", "ghosting", "jealous", "first-date", "crush", "kiss"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "crush",
+    "locale": "en",
+    "keyword": "Crush",
+    "matchPatterns": ["crush", "have a crush", "crushing", "infatuation"],
+    "topic": "couple",
+    "title": "Crush Polls: Should You Tell Them, Wait, Or Just Suffer In Silence",
+    "description": "Crush polls that hit close to home. Vote on whether to confess, the signs they like you back, sliding into DMs, and crush survival rules.",
+    "emoji": "🫣",
+    "intro": "A crush is the most low-stakes high-stakes emotion a human can have. From the outside it is nothing, you barely know the person. From the inside it is a full nervous system event that controls what you wear, who you follow, and how often you refresh their Instagram story. The neuroscience is kind of hilarious. Helen Fisher's brain imaging work on infatuation shows that being in the early crush phase activates the same reward circuits as cocaine use, releasing dopamine, norepinephrine, and lowering serotonin in a pattern that mimics mild obsessive-compulsive behavior. That is why you cannot stop thinking about them. It is not a personality flaw, it is a brain on a specific drug cocktail. The phase usually peaks within the first six months and then either crystallizes into something real or fades, depending on whether anything actually happens. The moomz polls in this section deal with the universal crush dilemmas. Should you tell them. Should you wait. How long before it becomes weird. Is liking three of their posts in a row a signal or a self-sabotage. Do they like you back, and how can you tell. The good news is that other people are running the exact same calculations in their head right now, and the polls let you see how the rest of the world is voting before you make a move you cannot unmake.",
+    "sections": [
+      {
+        "h": "What a crush actually is in your brain",
+        "body": "The crush phase is technically called limerence in psychology, a term coined by Dorothy Tennov in 1979. The state is characterized by intrusive thinking about a person, intense desire for reciprocation, sensitivity to any cue that might indicate interest, and a strong fear of rejection that paradoxically makes confession harder than it should be. Fisher's neurochemistry maps it cleanly: high dopamine drives motivation toward the person, high norepinephrine causes the racing heart, low serotonin produces the obsessive thinking. The same low-serotonin profile shows up in people with OCD, which is why mild crush behavior shares features with intrusive thoughts. The state is naturally self-limiting. Without reciprocation it usually fades within 18 months to two years at most, often much faster. With reciprocation it transitions over roughly the same period into companionate love, the steadier longer-term state. The moomz polls in this section ask the realistic versions. How long has your current crush lasted, does it still hit when you see their name, would you describe it as a low hum or a full headache. The answers are usually higher on the intensity scale than people admit out loud."
+      },
+      {
+        "h": "Should you tell them",
+        "body": "The biggest crush dilemma, and the research is actually clearer than the agony of it suggests. People consistently overestimate the social cost of confessing a crush. A 2019 study published in Psychological Science found that the imagined humiliation of rejection is significantly worse than the actual experience, partly because the rejected person assumes the rejecter will think about it longer and more harshly than they actually do. Real rejection is usually polite, brief, and quickly forgotten by the person doing it. The actual cost of confessing is usually low, and the upside (mutual feelings, often hidden on both sides) is much higher than the worry suggests. That said, timing and context matter. Confessing in a private moment is better than in front of friends. Direct is better than coded. Confessing in the first week is too early in almost every poll. Confessing after six months of friendship is the median crowd answer for when it is fair. The polls in this section let you stress-test your own move before you make it: would you confess in person, over text, voice note, never. The crowd is probably braver than you think."
+      },
+      {
+        "h": "Reading the signs without going insane",
+        "body": "The hardest part of having a crush is interpreting the data, because the brain on limerence reads every small action as a signal. There are a few actual indicators that have research support, separate from the wishful thinking ones. Sustained eye contact (longer than two seconds at a time) repeatedly across an interaction is one of the more reliable cues. Mirroring of body posture and small gestures is another, well documented in social psychology going back to Tanya Chartrand's chameleon effect work. Increased availability when you reach out, even when you didn't plan it, is a behavioral cue. And the underrated one, asking follow-up questions about things you mentioned previously, indicating they actually remembered and care. The unreliable signs include likes on posts, watching stories first, polite friendly behavior in groups, and any single message read at any speed. None of those mean anything individually. The polls in this section run the scenarios. Are they into you if they remember your coffee order, if they laughed too hard at your joke, if they texted you back at 1am. The crowd is good at calling out wishful thinking and almost as good at recognizing the real green flags."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long do crushes usually last",
+        "a": "Without reciprocation, most crushes fade within 18 months to two years at the longest, often much faster, sometimes weeks. With reciprocation, the limerence phase typically transitions into longer-term attachment over a similar timeline. Intense crushes that linger beyond two years often indicate unresolved feelings or limited availability of the person, which keeps the brain in chase mode."
+      },
+      {
+        "q": "Should I tell my crush how I feel",
+        "a": "Usually yes, after waiting long enough to read the situation, typically at least a few weeks of consistent interaction. Research shows people overestimate the social cost of confessing and underestimate how often the feelings are mutual but hidden. Pick a private moment, be direct, and accept whichever answer you get. The relief of knowing usually outweighs the agony of not knowing."
+      },
+      {
+        "q": "What are the signs my crush likes me back",
+        "a": "Sustained eye contact, mirroring your body language, making themselves available when you reach out, asking follow-up questions about your life, and finding excuses to text first. Single behaviors mean little, but a consistent pattern of several together is a strong signal. Polite friendliness in groups alone is not a sign of mutual interest."
+      },
+      {
+        "q": "How do I get over a crush who does not like me back",
+        "a": "Reduce exposure first, including social media. Most crushes fade naturally once the brain stops getting fresh inputs, usually within a few weeks of reduced contact. Avoid stalking their profile, which restarts the cycle. Replace the imagination space with actual new experiences and meeting new people. The brain prefers novelty, give it some."
+      }
+    ],
+    "related": ["first-date", "kiss", "ghosting", "situationship", "ex", "long-distance", "jealous", "breakup"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "kiss",
+    "locale": "en",
+    "keyword": "Kiss",
+    "matchPatterns": ["kiss", "kissing", "first kiss", "make out", "smooch"],
+    "topic": "couple",
+    "title": "Kiss Polls: When, How, Who Leans In, And What Counts As The Real First",
+    "description": "Kiss polls for every kind of first. Vote on when to kiss, who should lean in, the technique debates, and what the perfect first kiss actually feels like.",
+    "emoji": "💋",
+    "intro": "The kiss is one of the most studied tiny behaviors in human relationships, partly because almost every culture has some version of it and partly because almost everyone is bad at it the first time. Roughly 90 percent of human cultures practice romantic kissing in some form, per a 2015 study by Justin Garcia and colleagues. The chemistry is also weirdly specific. A study by anthropologist Helen Fisher found that the first kiss activates major reward systems and acts as a kind of biological compatibility test, with people often deciding within seconds whether they want to continue the relationship based on it. Around 60 percent of people in a Butler University survey reported that a bad first kiss made them lose interest in someone they were otherwise attracted to. That is brutal data. So the kiss matters, but not the way movies suggest. The moomz polls in this section cover the full kiss universe: when to do it on a first date, who leans in first, the consent question, the technique debates (tongue or not, too much, too little, eyes open or closed), and the cultural ones (kissing on the lips with a friend, the cheek kiss negotiation, the New Year's Eve etiquette). Vote on the ones that match your life and see how the rest of the world is calibrating, because the kiss rules are weirdly under-discussed for how central they are.",
+    "sections": [
+      {
+        "h": "The science of a good kiss",
+        "body": "The neurobiology of kissing is surprisingly rich. Kissing triggers release of oxytocin (the bonding hormone), dopamine (reward), and serotonin (calm), while reducing cortisol (stress). Sheril Kirshenbaum's book The Science of Kissing pulled together a lot of this work and it lines up with what people report. A first kiss that goes well genuinely lowers stress and increases attachment to the partner over hours. A bad first kiss does not have neutral effects, it actively reduces interest. The reasons a kiss fails are mostly mechanical and learnable: too much teeth, too much tongue too early, too dry, too wet, mismatch in rhythm, lack of pause for breath. None of these are personality flaws, they are calibration issues that almost always improve after a real conversation with the partner about what works. The polls in this section let you check what others actually consider the deal-breakers. The splits are useful. Tongue on the first kiss is roughly a 50-50 vote. Eyes open is universally considered weird. Aggressive kissing on the first try is universally panned. Soft and short with a small smile is the dominant median answer for what a good first kiss looks like."
+      },
+      {
+        "h": "When to kiss, who leans in, and how to ask",
+        "body": "First-date kiss timing is one of the most-asked questions on every dating forum and the data converges. Roughly 35-40 percent of first dates that went well include some kiss according to dating surveys. The kiss usually happens at the end of the date rather than during, and almost always with eye contact for a beat before, which functions as a soft consent signal. On who leans in, the modern data is much less gendered than older norms suggested. About 40 percent of first kisses are initiated by the person who is not traditionally expected to, especially in younger cohorts. The bigger lesson from couples therapists is that the lean-in does not need to be a guess. Asking is no longer awkward, it is increasingly seen as confident. Something simple like asking if it would be okay to kiss them works extremely well in real life and significantly better than any pickup line. The polls in this section run the realistic versions. Would you ever ask before kissing. Would you find it cute or cringe. Would you wait for them to lean in or do it yourself. The crowd is more pro-asking than the internet suggests, especially in the under-25 segment."
+      },
+      {
+        "h": "Cultural and social rules nobody writes down",
+        "body": "Kissing in 2026 has more contextual rules than ever, partly because the social cost of getting it wrong went up and partly because cultural norms collided through travel and the internet. The cheek kiss greeting is the loudest example. In France it is two cheeks (sometimes three or four depending on region), in Spain two, in Belgium one, in Argentina one with everyone of any gender, and in most of the US and UK essentially never except in specific contexts. Visitors get it wrong constantly. Then there is the question of platonic kissing among friends, which is normal among many groups (especially female friend groups across Europe and Latin America) and very much not in others. The New Year's Eve kiss is a Western micro-tradition that has gotten more optional, with about half of younger respondents in surveys saying they no longer feel obligated to kiss anyone at midnight. The polls in this section gather these scenarios so you can see exactly how the rules vary by country and age group. Useful before you travel, useful before a holiday party, and weirdly useful for understanding why your friend from a different country thinks your norms are bizarre."
+      }
+    ],
+    "faq": [
+      {
+        "q": "When is the right time to kiss on a first date",
+        "a": "There is no fixed moment, but the most common timing is at the end of the date if both people feel comfortable. About 35-40 percent of first dates that went well include a kiss. The strongest predictor is sustained eye contact and a small pause near the end of the night. If the vibe is not there, do not force it, the lack of kiss is rarely the reason a second date does not happen."
+      },
+      {
+        "q": "Is it weird to ask before kissing someone",
+        "a": "Not at all anymore. Surveys of under-30 daters consistently show asking before kissing is seen as confident and respectful rather than awkward. The phrasing matters more than the asking itself. Something casual like asking if it would be okay tends to land much better than a formal request and is increasingly the modern default."
+      },
+      {
+        "q": "What makes a kiss bad",
+        "a": "Mostly mechanical issues, all fixable: too much teeth, too much tongue too quickly, too dry, too wet, mismatch in pace. None of these reflect personality, they are calibration. Studies suggest about 60 percent of people lost interest in someone after a bad first kiss, which makes it a surprisingly high-stakes moment. The good news is that a five-second course correction with feedback fixes almost all of them."
+      },
+      {
+        "q": "How do you know if a kiss is going well",
+        "a": "Soft pace, matched breathing, hands stay where they were before the kiss until both people relax into it, and natural pauses that feel comfortable rather than awkward. A small smile mid-kiss or right after is the most reliable green flag. If your partner pulls back too quickly or stiffens, slow down, the kiss is not in trouble yet but it is asking for less, not more."
+      }
+    ],
+    "related": ["first-date", "crush", "ex", "situationship", "ghosting", "long-distance", "jealous", "breakup"],
+    "updatedAt": "2026-05-19"
+  }
+]

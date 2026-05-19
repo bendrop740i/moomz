@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "sun",
+    "locale": "en",
+    "keyword": "Sun",
+    "matchPatterns": ["sun", "solar", "sunset", "sunrise", "sunny"],
+    "topic": "sciences",
+    "title": "Sun Polls on moomz: Vote on Sunrises, Sunsets and Solar Vibes",
+    "description": "Vote on sun-themed polls: sunrise vs sunset, beach days, solar power and tan lines. Real-time results, anonymous voting, free on moomz.com.",
+    "emoji": "☀️",
+    "intro": "The Sun is the star at the center of our solar system, a colossal ball of hydrogen and helium roughly 93 million miles away from Earth. Its surface burns at about 5500 degrees Celsius while its core reaches a staggering 15 million degrees, where nuclear fusion converts hydrogen into helium and releases the energy that lights our days. The Sun is also a cultural icon: it shapes our moods, our holidays, our skin and our Instagram feeds. From golden-hour selfies to scorching summer afternoons, almost every conversation eventually circles back to the weather and the light. On moomz, the Sun is one of our most-voted themes. People love debating whether sunrise hits harder than sunset, whether a sunburn is worth the perfect beach day, or whether a cloudy summer is actually underrated. Polls on this page are pulled live from the moomz feed so the results refresh as more people vote. Whether you are a self-declared sun worshipper or a vampire who only comes out at night, you will find a question here that demands an opinion. Drop your vote, share with friends and watch the bars shift in real time. The Sun has powered civilizations, calendars and countless heartbreaks, so it absolutely deserves a few honest moomz takes.",
+    "sections": [
+      {
+        "h": "How the Sun actually works",
+        "body": "The Sun is a G-type main sequence star that has been shining for about 4.6 billion years and has roughly the same amount of fuel left ahead of it. Every second, it fuses around 600 million tons of hydrogen into helium, releasing a flood of photons that take eight minutes and twenty seconds to reach Earth. Its atmosphere is layered: the photosphere we see, the chromosphere above it and the corona, a million-degree halo that becomes visible during total eclipses. Sunspots, solar flares and coronal mass ejections shape space weather and can disrupt satellites, power grids and the auroras dancing near the poles. We orbit the Sun at an average distance of 1 astronomical unit, and the small tilt of our axis is what gives us seasons. None of this changes how good a golden hour selfie looks, but it explains why the light at sunset is warmer than at noon, why your shadow is longer in winter and why you should never look directly at it without proper protection."
+      },
+      {
+        "h": "Sunrise, sunset and pop culture",
+        "body": "Almost every culture has worshipped or romanticized the Sun. Ra in Egypt, Helios in Greece, Amaterasu in Japan, Inti for the Incas. The summer solstice still draws crowds to Stonehenge, and beach holidays remain the most-Googled vacation type in the world. Pop music is overflowing with sun references, from Here Comes the Sun by the Beatles to Walking on Sunshine, and golden-hour reels dominate Instagram for a reason. On moomz, sun-themed polls usually explode in summer: people argue about SPF, tan lines, festival fits, ice cream flavors and whether the south of France actually beats Bali. The Sun is also tied to mental health, with seasonal affective disorder reminding us how much our brains depend on bright mornings. So when you vote on a sunrise vs sunset poll, you are really voting on which version of yourself you prefer: the disciplined early bird or the unhinged golden-hour romantic."
+      },
+      {
+        "h": "Why sun polls go viral on moomz",
+        "body": "Sun questions sit in the sweet spot of universal and personal. Everyone has an opinion about heat waves, sunscreen, tans and beach behavior. They are low stakes, instantly shareable and they trigger immediate flashbacks: that one summer in Greece, a sunburn from hell, a perfect rooftop sunset with friends. That mix of nostalgia and pettiness is exactly what makes them spread. On moomz, the most engaging sun polls are usually binary and slightly judgmental: SPF 50 every day or live and let crisp, sunrise hike or sunset cocktail, towel or beach blanket, beach umbrella or full shade tree. People come for the question and stay for the comments. If you create your own sun poll, keep it short, a little provocative and visual: an emoji or two helps, a clear pair of options is enough. The algorithm rewards questions that make people stop scrolling and tap, and there is nothing more tap-friendly than a sunny opinion war."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How far is the Sun from Earth?",
+        "a": "On average, the Sun sits about 93 million miles or 150 million kilometers from Earth, a distance astronomers call one astronomical unit. Sunlight covers that gap in roughly eight minutes and twenty seconds. The distance varies slightly across the year because Earth's orbit is elliptical, but it is not what causes the seasons. Our 23.5 degree axial tilt is the real reason summers are hot and winters are cold, even though we are actually closest to the Sun in early January."
+      },
+      {
+        "q": "What is the Sun made of?",
+        "a": "The Sun is mostly hydrogen, about 73 percent by mass, and helium, about 25 percent, with trace amounts of oxygen, carbon, iron and other heavier elements. In its core, extreme pressure and temperatures around 15 million degrees Celsius fuse hydrogen nuclei into helium, releasing the energy that powers life on Earth. Its visible surface, the photosphere, sits at about 5500 degrees Celsius, while the outer corona is paradoxically hotter, reaching over a million degrees, a mystery solar physicists are still working on."
+      },
+      {
+        "q": "Why are sunsets so colorful?",
+        "a": "Sunsets and sunrises look orange, pink and red because sunlight has to travel through a much thicker slice of atmosphere at low angles. Shorter blue wavelengths get scattered away by air molecules, leaving the longer red and orange wavelengths to reach your eyes. Dust, humidity and pollution can intensify the effect, which is why dramatic skies often follow storms or wildfires. The colors are real physics, but the emotional punch is all you. That is why sunset polls always do numbers on moomz."
+      },
+      {
+        "q": "Is sunrise or sunset more popular on moomz?",
+        "a": "Across our polls, sunset wins more often than sunrise, but not by a huge margin. Sunset taps into rooftop drinks, golden-hour selfies and end-of-day relief, while sunrise leans into discipline, hikes and gym routines. The split usually flips around exam season or new year, when sunrise gains a boost from clean-girl energy. Run your own sunrise vs sunset poll on moomz and you will probably see the same pattern: a clear winner with a loud, devoted minority defending the other camp."
+      }
+    ],
+    "related": ["moon", "star", "space", "summer", "beach", "rainbow"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "moon",
+    "locale": "en",
+    "keyword": "Moon",
+    "matchPatterns": ["moon", "lunar", "moonlight", "fullmoon"],
+    "topic": "sciences",
+    "title": "Moon Polls on moomz: Full Moons, Lunar Vibes and Night Owls",
+    "description": "Vote on moon-themed polls: full moon chaos, lunar signs, night walks, eclipses. Anonymous, real-time results, free on moomz.com.",
+    "emoji": "🌙",
+    "intro": "The Moon is Earth's only natural satellite, sitting about 238,855 miles from us and shaping our planet in ways we barely notice on a daily basis. It is widely thought to have formed about 4.5 billion years ago, when a Mars-sized body called Theia slammed into the young Earth and the resulting debris coalesced into the gray world we see at night. This giant impact theory is still the leading explanation, and it is why the Moon is so chemically similar to Earth's mantle. Beyond its scientific story, the Moon owns a huge slice of human culture. It controls the tides, defines the lunar calendar used by billions of people for religious holidays, and starred in the most famous space mission of all time when Apollo 11 landed in 1969. On moomz, the Moon is a magnet for polls. Night-owl identity, full-moon chaos energy, sleep habits and zodiac talk all orbit around it. Whether you are convinced your worst breakups happen on full moons or you just want to argue about whether the dark side of the Moon is actually dark, this page is your launchpad. Vote, share, watch the bars move, and remember the Moon was watching long before any of us had Wi-Fi.",
+    "sections": [
+      {
+        "h": "How the Moon formed and what it does",
+        "body": "The dominant scientific story is the giant impact hypothesis: about 4.5 billion years ago, a body roughly the size of Mars collided with the young Earth, ejecting molten rock that condensed into the Moon over a few thousand years. The Moon is about a quarter the diameter of Earth, has roughly one sixth of our gravity and no real atmosphere, which is why footprints from the Apollo missions are still essentially undisturbed. Its gravitational pull is the main driver of ocean tides, and it also stabilizes Earth's axial tilt, keeping our climate relatively steady on long timescales. The Moon orbits us every 27.3 days and goes through its full phase cycle, from new moon to full and back, every 29.5 days. The slight difference between these numbers is because Earth itself is moving around the Sun. Total lunar eclipses, when Earth's shadow turns the Moon red, happen a few times per decade and are visible from anywhere on the night side of Earth, no telescope required."
+      },
+      {
+        "h": "Full moons, sleep and superstition",
+        "body": "Does the full moon really make people act unhinged? Scientifically, large studies show small effects on sleep, with people falling asleep a few minutes later and sleeping a bit less around full moons. ER and police data, on the other hand, do not consistently show more crime or accidents, despite what the night shift will swear to you. Cultures everywhere have built rituals around lunar phases: Ramadan, Chinese New Year, Diwali, Easter and Passover all key off the Moon, not the Sun. Astrology fans tie new moons to fresh starts and full moons to release. None of this needs to be literally true for the Moon to feel powerful. The truth is that for most of human history, the Moon was our primary night light, and our brains still associate its presence with quiet, mystery and a bit of mild drama. Which is exactly why full-moon polls on moomz reliably spike."
+      },
+      {
+        "h": "Lunar polls that always pop on moomz",
+        "body": "The most viral moon polls share a vibe: night versus day, chaos versus calm, supernatural versus rational. Are you a 6 am sunrise person or a 2 am moonlight person? Do you believe in full-moon energy or is that copium for bad weeks? Would you live on the Moon for a year for a million dollars? Eclipse over meteor shower? Polls that frame a question as identity-defining tend to spread fastest, because people vote and then immediately want to argue. On moomz, moon polls also pair beautifully with sleep, dating and zodiac themes, all of which already drive massive engagement. If you create a moon poll, keep the options sharp and slightly opinionated. The bars look extra cute with a 🌙 emoji and a glow effect, and night-themed share cards tend to outperform on Instagram stories. Try it after a full moon and watch the comments roll in."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How far away is the Moon?",
+        "a": "The Moon orbits Earth at an average distance of about 238,855 miles or 384,400 kilometers. That distance changes a bit because the orbit is elliptical: at perigee the Moon is around 226,000 miles away, and at apogee it can be over 252,000 miles. When a full moon coincides with perigee, you get a so-called supermoon, which looks about 7 percent larger and 15 percent brighter than average. It is impressive in photos, but mostly hard to notice with the naked eye."
+      },
+      {
+        "q": "How did the Moon form?",
+        "a": "The leading theory is the giant impact hypothesis. About 4.5 billion years ago, a Mars-sized body sometimes called Theia struck the young Earth at high speed. The collision vaporized huge amounts of rock from both bodies, and the debris settled into a disk around Earth that quickly coalesced into the Moon. That is why the Moon has a similar chemical signature to Earth's mantle but lacks the iron-rich core that planets formed by themselves usually have. Other ideas, like capture or co-formation, do not fit the chemistry nearly as well."
+      },
+      {
+        "q": "Why does the Moon look bigger near the horizon?",
+        "a": "The Moon illusion is a trick of the brain, not optics. When the Moon is near the horizon, your visual system compares it to trees, buildings and mountains, which makes it look huge. High in the sky with nothing for reference, the same disk looks small. If you measure it with a coin held at arm's length, the size is essentially identical. Photos taken with a long lens exaggerate the effect because of compression, which is why every viral supermoon shot uses a telephoto setting."
+      },
+      {
+        "q": "Has anyone walked on the Moon recently?",
+        "a": "The last humans to walk on the Moon were the Apollo 17 astronauts in December 1972. Since then, only robotic missions have landed there, including recent successes from China, India and private companies. NASA's Artemis program aims to send astronauts back, including the first woman and the first person of color, with Artemis III currently targeted for the late 2020s. Plenty of moomz polls debate whether we should focus on the Moon, Mars or just fixing Earth first."
+      }
+    ],
+    "related": ["sun", "star", "space", "mars", "rainbow", "ocean"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "snow",
+    "locale": "en",
+    "keyword": "Snow",
+    "matchPatterns": ["snow", "snowy", "blizzard", "winter", "snowflake"],
+    "topic": "sciences",
+    "title": "Snow Polls on moomz: Winter Vibes, Ski Trips and Snow Day Debates",
+    "description": "Vote on snow polls: ski vs snowboard, snow day chaos, white Christmas dreams. Real-time results, anonymous, free on moomz.com.",
+    "emoji": "❄️",
+    "intro": "Snow is essentially frozen vapor, ice crystals that form when water in clouds condenses directly into solid form at temperatures below freezing. Each snowflake starts as a tiny hexagonal ice crystal because of the way water molecules bond, and from there it can grow into the dendritic six-armed shapes you have seen in photos. Famously, no two snowflakes are identical, mostly because the number of possible crystal arrangements as a flake travels through different layers of humidity and temperature is astronomical. Beyond the chemistry, snow runs a massive cultural empire: it powers the ski industry, defines half the worlds Christmas imagery and is the secret ingredient in every cozy movie ever made. On moomz, snow polls hit especially hard in December and January, when the feed fills with white Christmas debates, ski versus snowboard wars and snow-day chaos energy. People love arguing whether real snow beats Instagram filters, whether a snowed-in weekend is romantic or a nightmare, and whether mountain ski resorts beat city snow walks. Whether you are a snow gremlin or you literally hate being cold, this page is your dedicated lane. Vote your truth, share with your group chat and let the bars decide which winter personality wins.",
+    "sections": [
+      {
+        "h": "The physics of a snowflake",
+        "body": "Snow forms when water vapor in a cloud meets a tiny particle of dust or pollen and freezes directly into a crystal, skipping the liquid phase entirely. Because water molecules naturally bond at 120 degree angles, every snow crystal has six-fold symmetry. As the flake falls, it passes through layers of slightly different temperature and humidity, and at each step it grows a tiny new branch shaped by those conditions. That is why two flakes are almost never identical. Snow is also surprisingly fluffy: freshly fallen powder can be 90 to 95 percent air by volume, which is why it insulates so well. Animals like the ptarmigan and lemming literally burrow into it for warmth. Snow density matters for skiing too: powder is light and forgiving, while wet spring snow is heavy and slow. The biggest documented snowflakes were palm-sized, but most are just a few millimeters. The reason snow looks white is that the many internal facets scatter light in every direction, so all wavelengths come back to your eye at once."
+      },
+      {
+        "h": "Snow days, ski culture and travel",
+        "body": "For kids, a snow day is a small lottery win: school cancelled, sledding open, hot chocolate mandatory. For adults, it is often a logistics disaster. The split between those two reactions is a great moomz question. Globally, the ski and snowboard industry pulls in tens of billions a year, with the Alps, the Rockies, Hokkaido and the Pyrenees as headliners. Japan in particular has built a cult around its powder snow, which falls in absurd amounts thanks to cold winds picking up moisture over the Sea of Japan. Snow also drives a whole holiday aesthetic, from white Christmases to ski-chalet TikToks to Aspen winter fashion. Climate change is shifting the equation: many low-altitude resorts are getting less natural snow each decade, which is why snow guns and indoor slopes are growing fast. None of this kills the romance. The first real snow of the year still shuts down group chats and Instagram stories everywhere."
+      },
+      {
+        "h": "Snow polls that always work on moomz",
+        "body": "The strongest snow polls tap into identity and travel fantasies. Ski or snowboard. Mountain chalet or city snow stroll. Real snow or fake snow on a movie set. White Christmas or sunny beach Christmas. Snowboarding accidents or sunburn, which would you rather. Polls about cozy versus chaotic winter routines do incredibly well in January when people are reflecting on their lives. You can also lean into nostalgia: the last time someone built a snowman, the best snowball fight memory, or which Disney movie did winter best. On moomz, snow polls love a soft palette and a clear binary. The most clicked formats use one slightly cozy option and one slightly extreme option, so people can pick a vibe rather than just an answer. Try one this winter and tag friends who you know will disagree."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is snow white if water is clear?",
+        "a": "Snow looks white because each ice crystal has many tiny facets that scatter incoming light in all directions instead of letting it pass through. When all visible wavelengths bounce back to your eye together, your brain reads that as white. Up close, a single snow crystal is actually translucent, and very deep snow can look blue because thicker layers absorb red light slightly more than blue. The same scattering trick is why ocean foam and clouds also appear white even though water itself is essentially colorless."
+      },
+      {
+        "q": "Where does it snow the most on Earth?",
+        "a": "Some of the snowiest places on Earth sit along mountain ranges that catch moisture-laden winds. Mount Baker in Washington state holds the official seasonal snowfall record at over 1,140 inches, or 29 meters, in one winter. Aomori in northern Japan is the snowiest big city, regularly buried under several meters per year. Resorts like Niseko in Hokkaido and Alta in Utah are world-famous for deep, light powder. By contrast, the South Pole gets very little new snow per year because the air is too cold and dry to hold much moisture."
+      },
+      {
+        "q": "Is climate change ruining snow?",
+        "a": "Climate change is shrinking snow seasons in many regions, especially at lower altitudes. Studies show alpine ski resorts under about 1500 meters are seeing fewer reliable snow days each decade, which is forcing them to invest in snow guns or close down. Some areas, like parts of Japan and the northern US, can still see record snowfalls in individual years because warmer air also holds more moisture. The trend overall, though, is more rain in winter and less reliable powder. On moomz, climate change polls regularly trend in January and February."
+      },
+      {
+        "q": "What is the difference between a blizzard and a snowstorm?",
+        "a": "A snowstorm is any storm that drops significant amounts of snow. A blizzard is the higher-octane version: in the US, the National Weather Service defines it as sustained winds or gusts of at least 35 mph, visibility under a quarter mile due to blowing snow, and conditions lasting at least three hours. Blizzards are dangerous because the wind makes navigation almost impossible and the wind chill can drop body temperature dramatically. Heavy snowstorms without that wind component are intense but not technically blizzards."
+      }
+    ],
+    "related": ["sun", "moon", "rain", "wind", "christmas", "mountains"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "ocean",
+    "locale": "en",
+    "keyword": "Ocean",
+    "matchPatterns": ["ocean", "sea", "marine", "beach", "wave"],
+    "topic": "sciences",
+    "title": "Ocean Polls on moomz: Beaches, Sea Monsters and Wave Lovers",
+    "description": "Vote on ocean polls: best beaches, surfing, scary sea creatures, ocean vs pool. Free, anonymous, real-time results on moomz.com.",
+    "emoji": "🌊",
+    "intro": "The ocean covers about 71 percent of Earth's surface and holds roughly 97 percent of the planet's water, yet we have mapped more of the Moon than its seafloor. The five named basins, Pacific, Atlantic, Indian, Southern and Arctic, are technically one connected world ocean, and that single body of water regulates almost every climate signal on the planet. It absorbs around 90 percent of the excess heat trapped by greenhouse gases and stores massive amounts of carbon dioxide, which is partly why ocean acidification is one of the slow-moving crises of our century. Average ocean depth is about 12,100 feet or 3,700 meters, but the Mariana Trench plunges to nearly 36,000 feet, deep enough to swallow Mount Everest. On moomz, the ocean is a constant theme: people are obsessed with beaches, surfing, cruise drama, sea creatures, deep-sea horror, and whether they would rather drown or be eaten by a shark. The aesthetic alone makes ocean polls shareable. Whether you are a coastal kid with sand permanently in your shoes or an inland romantic who only sees the sea once a year, this page collects the moomz community's strongest ocean opinions. Vote your vibe and let the waves decide.",
+    "sections": [
+      {
+        "h": "Why the ocean matters more than people think",
+        "body": "The ocean is the planet's life support system. It produces over half of the oxygen we breathe, mostly through microscopic phytoplankton, and it stores around a thousand times more heat than the atmosphere. Currents like the Gulf Stream move warm water from the equator toward the poles, which is why Western Europe is much milder than its latitude alone would suggest. The ocean also feeds billions of people, supports millions of jobs through fishing and shipping, and is the backbone of global trade since roughly 80 percent of goods travel by sea. At the same time it is in trouble: warming, acidifying, losing coral reefs, drowning in plastic and being overfished in many regions. Despite all that, less than 25 percent of the seafloor has been mapped in detail, and scientists estimate that two out of three marine species are still undiscovered. The ocean is essentially the largest, most important habitat on Earth, and most of it is unknown territory."
+      },
+      {
+        "h": "Beaches, surf and ocean culture",
+        "body": "For most people, the ocean is felt at the beach, on a boat or through a screen. The global beach tourism industry is worth hundreds of billions a year, and beach holidays dominate every must-visit list. Surf culture, born in Polynesia and exported by California and Australia, is now a global aesthetic that sells everything from clothing to skincare. Coastal cities like Barcelona, Rio, Sydney and Bali shape pop culture in ways landlocked places can only envy. The ocean also feeds horror: every shark attack story goes mega-viral, every cruise ship norovirus outbreak becomes a meme, and the deep sea, with its anglerfish and giant squid, remains one of the most reliably terrifying corners of the internet. On moomz, ocean polls slot perfectly between travel, fear and lifestyle themes. They are visual, emotional and instantly relatable, even if your only beach experience is a public pool in the suburbs."
+      },
+      {
+        "h": "Ocean polls that crush it on moomz",
+        "body": "Strong ocean polls are usually either dream-vacation polls or terror polls. Best beach city on Earth, with options like Bali, Rio, Mykonos and Tulum. Ocean swim or pool swim. Cruise ship or backpacking the coast. Would you survive a week alone on a deserted island. Shark or jellyfish, which scares you more. Polls about identity also work: are you a sandy-feet beach person or a careful-towel beach person, do you actually swim or just float. The aesthetic component matters: a blue palette, a wave emoji and a clear question outperform walls of text. On moomz, ocean polls peak in late spring and summer but maintain a strong baseline year-round because of travel daydreams. Create one when you are planning a trip and watch your friends sell themselves as the perfect travel buddy in the comments."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How deep is the ocean on average?",
+        "a": "The average depth of the ocean is about 12,100 feet, or roughly 3,700 meters. That number hides a huge variation. Continental shelves are shallow, often less than 200 meters, while the abyssal plains stretch out at around 4,000 meters. The deepest known point is Challenger Deep in the Mariana Trench, at about 36,000 feet or 10,935 meters below sea level. If you placed Mount Everest at the bottom of that trench, its summit would still be more than a mile underwater. That is one of moomz's favorite trivia drops."
+      },
+      {
+        "q": "How many oceans are there?",
+        "a": "Traditionally, scientists name five oceans: the Pacific, Atlantic, Indian, Southern and Arctic. They are really one connected body of saltwater called the world ocean, but the divisions are useful for navigation, climatology and political purposes. The Southern Ocean, ringing Antarctica, was the most recent to gain widespread official recognition, around 2021. The Pacific is by far the largest, holding more than half of all ocean water, and the Arctic is the smallest and shallowest. Each basin has its own unique currents, ecosystems and weather patterns."
+      },
+      {
+        "q": "Why is the ocean salty?",
+        "a": "The ocean is salty because rivers and rain slowly dissolve minerals from rocks on land and carry them to the sea. Over hundreds of millions of years, those minerals, especially sodium and chloride, have built up in seawater that constantly evaporates but only releases the water itself back as freshwater. Underwater hydrothermal vents add even more dissolved minerals. The average salinity is around 35 grams of salt per kilogram of water, but it varies: the Mediterranean and Red Sea are saltier, while the Baltic is much less so."
+      },
+      {
+        "q": "Is the ocean really in danger?",
+        "a": "Yes, in several ways. Warmer waters bleach coral reefs, which support a huge share of marine biodiversity. Higher CO2 levels acidify the ocean, weakening shells and skeletons of many species. Overfishing has collapsed key fisheries, and plastic pollution, including microplastics, has reached the deepest trenches. None of this is hopeless: marine protected areas, sustainable fishing rules and plastic bans are already showing local wins. On moomz, environmental polls often trend, which is partly why people feel they should care, and partly because nothing rallies opinion like saving turtles."
+      }
+    ],
+    "related": ["sun", "moon", "rain", "beach", "bali", "summer"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "star",
+    "locale": "en",
+    "keyword": "Star",
+    "matchPatterns": ["star", "stars", "stellar", "starry", "constellation"],
+    "topic": "sciences",
+    "title": "Star Polls on moomz: Stargazing, Zodiac and Cosmic Vibes",
+    "description": "Vote on star polls: best zodiac sign, shooting stars, stargazing spots, sci-fi favorites. Free, anonymous, live results on moomz.com.",
+    "emoji": "⭐",
+    "intro": "Stars are gigantic spheres of plasma held together by their own gravity, fusing lighter elements into heavier ones in their cores. Our own Sun is a fairly average star, and the night sky is full of about 4,000 to 9,000 stars visible to the naked eye depending on where you stand. The closest one beyond the Sun, Proxima Centauri, sits roughly 4.24 light-years away, which means the light reaching your eye tonight left it before some of your favorite TikToks were posted. Stars come in a huge range, from cool red dwarfs that can live for trillions of years to massive blue giants that burn out in just a few million. They end in different ways too: smaller stars puff into white dwarfs, bigger ones explode as supernovae and the most massive collapse into black holes or neutron stars. Beyond astronomy, stars are everywhere in culture. Zodiac signs, celebrity worship, Christmas trees, the Hollywood Walk of Fame and every flag with a star on it all trace back to the same source: the way the night sky stops us in our tracks. On moomz, star polls cover stargazing dreams, zodiac drama, sci-fi favorites and main-character moments. Vote your cosmos and watch the bars glow.",
+    "sections": [
+      {
+        "h": "What stars actually are",
+        "body": "A star forms when a clump of gas, mostly hydrogen, in a giant molecular cloud collapses under its own gravity. As the core heats up to around 10 million degrees Kelvin, nuclear fusion ignites, hydrogen begins fusing into helium and a stable star is born. That balance between gravity pulling in and radiation pushing out is what holds a star together. Stars are classified by spectral type and color, with cool red dwarfs at one end and hot blue giants at the other. Their lifespans vary wildly: red dwarfs can shine for trillions of years, while massive blue stars burn through their fuel in just a few million. When a high-mass star dies in a supernova, it forges and scatters heavy elements like iron, gold and uranium across space. Every atom in your body heavier than hydrogen literally came from a long-dead star, which is why the line we are all made of stardust is more than a vibe, it is chemistry."
+      },
+      {
+        "h": "Stargazing, zodiacs and celebrity culture",
+        "body": "Humans have organized stars into constellations for at least 4,000 years. The Babylonians drew the zodiac, the Egyptians used Sirius to predict the flooding of the Nile, and Polynesian navigators sailed thousands of kilometers using star paths. Today, zodiac culture is everywhere, especially on TikTok, where Scorpio versus Gemini drama is its own genre. Modern astronomers do not take astrology seriously, but the cultural pull is undeniable. Stargazing tourism is exploding too, with dark-sky reserves in Chile, Namibia and New Zealand becoming bucket-list destinations. We also use the word star for celebrities, and that is no accident: the brightness, the distance and the sense that we are watching a private show from far away all map onto the way we treat famous people. On moomz, star polls combine science nerd energy with main-character drama, which is exactly the algorithm sweet spot."
+      },
+      {
+        "h": "Star polls that pop on moomz",
+        "body": "The most engaging star polls usually blend astronomy with personality. Best zodiac sign, ranked. Are you a Sirius main character or a quiet constellation. Would you rather live forever as a red dwarf or burn out fast as a supernova. Best stargazing spot on Earth, with options like Atacama Desert in Chile, Mauna Kea in Hawaii or the French Alps. Sci-fi polls also fit naturally here: Star Wars or Star Trek, Interstellar or 2001 A Space Odyssey, which fictional planet would you actually move to. The visual potential is huge, with dark backgrounds, gradient star emojis and clean typography. On moomz, star-themed polls peak around major astronomical events: meteor showers, eclipses or a SpaceX launch. Create one the next time the Perseids hit and watch your story replies fill up with corny astrology takes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many stars can you see at night?",
+        "a": "On a perfectly dark night, far from city lights, the human eye can see between 4,000 and 9,000 stars, depending on age, eyesight and how much you let your eyes adapt. From a typical suburban backyard, that number drops to a few hundred. From a brightly lit city center, you might only spot the brightest dozen stars plus a couple of planets. That is why dark-sky reserves are exploding in popularity: in places like Atacama, Namibia or rural France, the Milky Way is genuinely overwhelming."
+      },
+      {
+        "q": "What is the closest star to Earth?",
+        "a": "After the Sun, the closest star is Proxima Centauri, a small red dwarf about 4.24 light-years away. It is part of the Alpha Centauri system, a trio of stars visible mainly from the Southern Hemisphere. Proxima Centauri also has at least one confirmed planet, Proxima b, sitting in its habitable zone. Even at the speed of light, sending a message there and getting a reply would take more than eight years, and with current technology, a probe like Voyager would need about 75,000 years to arrive."
+      },
+      {
+        "q": "What is a shooting star, really?",
+        "a": "A shooting star is not a star at all. It is a meteor, a tiny piece of rock or ice from a comet or asteroid, burning up in Earth's atmosphere at speeds up to 70 kilometers per second. The bright streak is caused by air molecules heating up and ionizing in the meteor's path. Most are smaller than a pea. Showers like the Perseids in August or the Geminids in December happen when Earth crosses a debris trail, producing dozens of meteors per hour from a single point in the sky."
+      },
+      {
+        "q": "Are astrology and astronomy the same thing?",
+        "a": "Definitely not. Astronomy is the science of stars, planets and the universe, based on observation, physics and math. Astrology is a belief system that links star positions to personality and events. They share a history, since ancient astronomers and astrologers were often the same people, but modern science has not found evidence that birth charts predict behavior. That said, astrology is huge online, drives massive engagement on moomz polls and apps, and continues to be a fun lens for community drama, even if it is not literally true."
+      }
+    ],
+    "related": ["sun", "moon", "space", "mars", "harry-potter", "anime"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "mars",
+    "locale": "en",
+    "keyword": "Mars",
+    "matchPatterns": ["mars", "martian", "redplanet"],
+    "topic": "sciences",
+    "title": "Mars Polls on moomz: Red Planet, Elon Dreams and Space Colonies",
+    "description": "Vote on Mars polls: would you live on Mars, Elon vs NASA, terraforming dreams. Free, anonymous, real-time results on moomz.com.",
+    "emoji": "🔴",
+    "intro": "Mars is the fourth planet from the Sun and our long-standing favorite candidate for a backup Earth. Its day, called a sol, lasts 24 hours and 37 minutes, eerily close to ours, while a Martian year stretches to about 687 Earth days. The planet is about half the diameter of Earth, with around 38 percent of our gravity, which means a 70 kilogram human would weigh roughly 27 kilograms there. Its iconic rust color comes from iron oxide, basically rust dust, blowing across the surface. Mars hosts Olympus Mons, the tallest known volcano in the solar system at 22 kilometers high, and Valles Marineris, a canyon system that would stretch from Los Angeles to New York. Beyond the geology, Mars carries a huge cultural weight. From War of the Worlds to The Martian and from NASA's rovers to Elon Musk's SpaceX colonization pitch, no other planet has been promised to humanity quite so often. Generations have grown up debating whether Mars is a noble goal or a billionaire vanity project. On moomz, Mars polls always crush, especially when SpaceX launches or new rover findings hit the news. This page collects the best questions: would you go, who should pay, and what would you actually do once you arrived.",
+    "sections": [
+      {
+        "h": "What we know about Mars right now",
+        "body": "Decades of probes, orbiters and rovers have transformed Mars from a mystery into one of the most-studied worlds in the solar system. Mars has polar ice caps made of frozen water and CO2, evidence of ancient riverbeds and lakes, and ongoing seasonal flows of briny water just under the surface. Its atmosphere is thin, about one percent of Earth's, and mostly CO2, which is why the average surface temperature is about minus 60 degrees Celsius and why you would need a pressure suit, not just a cold suit, to walk outside. The Perseverance rover, which landed in 2021, is collecting samples for a future return mission, and the Curiosity rover has been roaming Gale Crater since 2012. China's Zhurong rover and the UAE's Hope orbiter have joined the party too. As of the mid-2020s, no human has stepped foot on Mars, but Olympus Mons, the Valles Marineris canyon and Jezero Crater are basically household names among space nerds, and every new discovery breaks containment on social media."
+      },
+      {
+        "h": "The colonization debate",
+        "body": "Elon Musk's stated goal of making humanity a multi-planet species has put Mars colonization at the center of the cultural conversation. SpaceX's Starship is designed in part to send humans to Mars, with optimistic timelines of the late 2020s and early 2030s, though most experts expect later. NASA's Artemis program is more focused on the Moon first, then Mars in the mid-2030s. The debate is intense: supporters argue that a Mars colony is a vital insurance policy against extinction events and a driver of new technology. Critics argue we should fix Earth first, that Mars is uninhabitable and that the carbon cost of building a Mars program is huge. Practical questions remain wild: radiation exposure, low gravity health effects, food supply, mental health on a 9-month journey, and who actually gets to go. None of these are settled. That is precisely why Mars polls are so engaging on moomz, the question splits friends instantly."
+      },
+      {
+        "h": "Mars polls that always trigger debate",
+        "body": "Strong Mars polls force a clear personal choice and usually drop a tiny ethical bomb. Would you go to Mars one-way for free. Would you go round-trip if it took five years total. Who should lead Mars colonization: NASA, SpaceX, China or a UN coalition. Should we terraform Mars or leave it alone. Better backup planet: Mars, the Moon, an O'Neill cylinder or just fix Earth. Polls about identity also slap: Mars or Venus as a personality, are you a Martian explorer or an Earth romantic. On moomz, Mars polls peak around big launches, rover anniversaries and major movies like The Martian or Dune. Combine a Mars poll with a money or tech theme and you basically guarantee comments. Bonus points for using a red gradient and a Saturn or rocket emoji to keep the visual brief on theme."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How long does it take to get to Mars?",
+        "a": "With current chemical rockets, a one-way trip to Mars takes about 6 to 9 months, depending on the orbital alignment between Earth and Mars. Missions launch during a roughly two-month window every 26 months, when the two planets are best positioned. Future propulsion technologies, like nuclear thermal or ion drives, could in theory cut travel time to around 3 or 4 months, but no such system has yet flown humans. Astronauts also need to wait on Mars for several months until the planets line up for a safe return."
+      },
+      {
+        "q": "How long is a day and year on Mars?",
+        "a": "A day on Mars, called a sol, is 24 hours and 37 minutes long, almost identical to an Earth day. That is a coincidence that makes day-night cycles relatively easy for human visitors. A Martian year, however, lasts 687 Earth days, or about 1.88 Earth years, because Mars is further from the Sun. The year is divided into Martian seasons that are nearly twice as long as ours, which means polar caps grow and shrink dramatically and dust storms can sometimes engulf the entire planet for weeks."
+      },
+      {
+        "q": "Is there water on Mars?",
+        "a": "Yes, but mostly frozen. Mars has substantial water ice at its polar caps, mixed with frozen CO2, and large amounts of ice under the surface at mid-latitudes. Radar data has even suggested possible subsurface lakes of briny liquid water beneath the south pole. NASA and ESA missions have also seen seasonal dark streaks that may be caused by briny water flowing in the warmer months. Without that water, any serious human mission would be a non-starter, since carrying enough from Earth is essentially impossible."
+      },
+      {
+        "q": "Could humans actually live on Mars?",
+        "a": "Living on Mars is technically possible but extremely difficult. The atmosphere is too thin and CO2-rich to breathe, surface temperatures are far below freezing, and there is no global magnetic field, which means more radiation exposure. A real settlement would need pressurized habitats, in-situ resource use to extract water and oxygen, and serious psychological support for crews. Some scientists believe early outposts could exist by the late 2030s or 2040s, but a self-sustaining city is decades further out, if it happens at all. Plenty of moomz polls argue about that timeline."
+      }
+    ],
+    "related": ["sun", "moon", "star", "space", "ai", "crypto"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "space",
+    "locale": "en",
+    "keyword": "Space",
+    "matchPatterns": ["space", "cosmos", "universe", "galaxy", "astronaut"],
+    "topic": "sciences",
+    "title": "Space Polls on moomz: Astronauts, Aliens and Cosmic Debates",
+    "description": "Vote on space polls: aliens or not, Mars vs Moon, would you go to space. Free, anonymous, real-time results on moomz.com.",
+    "emoji": "🚀",
+    "intro": "Space is essentially everything outside Earth's atmosphere, and it is mostly empty, dark and ridiculously vast. The observable universe stretches about 93 billion light-years across and contains an estimated two trillion galaxies, each holding hundreds of billions of stars. The boundary of space, called the Karman line, sits at 100 kilometers above sea level, though NASA uses 80 kilometers. Astronauts crossing that line officially become space travelers, but the deeper definition of space is anywhere gravity is dominated by something other than Earth. Humans have been launching things into space since Sputnik 1 in 1957, walked on the Moon in 1969 and have kept the International Space Station continuously inhabited since November 2000. Today space is no longer the playground of two governments. SpaceX, Blue Origin, Rocket Lab and a dozen national programs are racing to put satellites, telescopes and humans further out than ever. On moomz, space polls live at the intersection of curiosity, fear and pure main-character energy. People love arguing about aliens, Mars colonies, billionaires in rockets and whether the James Webb Space Telescope images are actually edited. This page is your cosmic debate launchpad: vote, share and let the universe judge.",
+    "sections": [
+      {
+        "h": "What space actually is",
+        "body": "Space starts where Earth's atmosphere becomes too thin to support flight with traditional wings. By international convention, that line is 100 kilometers high. Above it, the air is so sparse that satellites and spacecraft can orbit Earth without significant drag, at least for a while. Beyond low Earth orbit, where the ISS lives at about 400 kilometers, you reach geostationary orbit at about 36,000 kilometers, where weather and TV satellites stay parked over the same spot. Further out, the Moon orbits at 384,000 kilometers. The solar system extends to the Kuiper Belt and beyond, ending in the Oort Cloud roughly a light-year from the Sun. Outside our system, the nearest star, Proxima Centauri, is 4.24 light-years away. The Milky Way galaxy is roughly 100,000 light-years across, and the closest big neighbor, Andromeda, is 2.5 million light-years away. The observable universe is around 93 billion light-years across, full of black holes, neutron stars and structures we are still trying to model."
+      },
+      {
+        "h": "Space exploration, billionaires and big telescopes",
+        "body": "Space exploration today is a strange mix of national programs and private spaceflight billionaires. NASA, ESA, JAXA, ISRO, Roscosmos and CNSA still run major science missions, while SpaceX, Blue Origin and Virgin Galactic have made space tourism almost casual for the ultra-rich. Reusable rockets, mostly thanks to SpaceX, have cut launch costs by roughly a factor of ten in the last decade, opening the door for tens of thousands of small satellites, including the Starlink constellation. On the science side, the James Webb Space Telescope, launched in late 2021, has rewritten textbooks on early galaxies, exoplanet atmospheres and star formation. Robotic probes have visited every planet in the solar system and several moons, including Saturn's Titan, where Cassini-Huygens landed in 2005. On moomz, polls about space exploration usually split along generational lines: younger users get hyped, older users wonder why the same money is not spent on poverty or climate."
+      },
+      {
+        "h": "Why space polls always trend on moomz",
+        "body": "Space is the rare topic that combines awe, fear and politics. Awe because the images and scale are objectively wild. Fear because deep space is genuinely terrifying and most sci-fi reminds us of that. Politics because every space program is also a national flex, and billionaire space tourism cuts straight into wealth-inequality debates. Strong space polls usually push a clear personal stake. Would you spend a year on the ISS, would you trust a private rocket company more than NASA, do you actually believe aliens have visited Earth, are UFO videos compelling or boring. Identity polls work too: rocket scientist or stargazer, Mars enthusiast or deep-space romantic. Visuals matter, so use a black background, a galaxy emoji and a sharp binary. On moomz, space polls reliably spike around launches, eclipses and any time a new James Webb image trends on Twitter."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where does space officially begin?",
+        "a": "Most international agreements use the Karman line at 100 kilometers above sea level as the boundary between Earth's atmosphere and space. NASA, on the other hand, awards astronaut wings to people who cross 80 kilometers. The physical reality is gradual: the air just gets thinner and thinner until it barely exists. The ISS orbits at around 400 kilometers, which is comfortably above either definition, but it still experiences enough drag from residual atmosphere that it needs occasional boosts to maintain altitude."
+      },
+      {
+        "q": "How long have humans been in space?",
+        "a": "The first human in space was Yuri Gagarin in April 1961, on a single orbit lasting 108 minutes. The first humans on the Moon were Neil Armstrong and Buzz Aldrin in July 1969. Continuous human presence in space began in November 2000 with the first long-duration crew aboard the International Space Station, a streak that has now lasted over two decades. The longest single mission to date was nearly 14 months, held by Russian cosmonaut Valeri Polyakov, who logged 437 days aboard the Mir space station in 1994 and 1995."
+      },
+      {
+        "q": "Are there really billions of galaxies?",
+        "a": "Yes, the observable universe is estimated to contain about two trillion galaxies, ranging from tiny dwarf galaxies with a few million stars to giant ellipticals with trillions. Our own Milky Way is a barred spiral galaxy with somewhere between 100 and 400 billion stars and a supermassive black hole called Sagittarius A* at its center. Most galaxies are bound together in clusters and superclusters, woven into a cosmic web of filaments separated by enormous voids. Outside the observable universe, there is presumably even more, but we cannot see it directly."
+      },
+      {
+        "q": "Do aliens exist?",
+        "a": "Honestly, we do not know yet. The famous Fermi paradox asks why we have not detected aliens given how many potentially habitable worlds exist. Some scientists believe simple microbial life is probably common in the universe, while complex civilizations may be rare. The Drake equation tries to estimate the number of communicating civilizations, but most of its variables are still guesses. Astronomers are scanning exoplanet atmospheres with telescopes like JWST for biosignatures, and SETI programs listen for radio signals. So far, no confirmed signs, but moomz polls keep that debate red-hot."
+      }
+    ],
+    "related": ["sun", "moon", "mars", "star", "ai", "chatgpt"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "climate",
+    "locale": "en",
+    "keyword": "Climate",
+    "matchPatterns": ["climate", "global", "warming", "ecology", "carbon"],
+    "topic": "sciences",
+    "title": "Climate Polls on moomz: Global Warming, Eco Habits and Honest Takes",
+    "description": "Vote on climate polls: meat or no meat, EVs vs trains, eco anxiety, who's responsible. Free, anonymous, live results on moomz.com.",
+    "emoji": "🌍",
+    "intro": "Climate refers to the long-term patterns of temperature, precipitation, wind and humidity in a given region, averaged over decades. Climate change, the defining issue of our generation, refers to the way those patterns are shifting due to human activity, mainly the burning of fossil fuels. According to the Intergovernmental Panel on Climate Change, the global average surface temperature has already risen by about 1.1 to 1.3 degrees Celsius since pre-industrial times. The Paris Agreement, signed in 2015, set a goal of keeping warming well below 2 degrees and ideally to 1.5. Hitting either target is now widely seen as extremely difficult. Climate is not just polar bears and ice caps. It is heat waves in Europe, wildfires in California and Australia, floods in Pakistan, hurricanes in the Caribbean and rising sea levels in Jakarta and Miami. It shapes food, migration, insurance and politics. On moomz, climate polls are surprisingly polarizing: people agree something is happening, disagree about what to do about it. This page collects honest, sometimes uncomfortable climate questions, from individual habits to system-level blame. Vote, share and let your generation's data show up in the bars.",
+    "sections": [
+      {
+        "h": "What climate science actually says",
+        "body": "Climate science is one of the most thoroughly studied fields on Earth, and the consensus among researchers is overwhelming. Human-caused greenhouse gases, especially CO2 from fossil fuels and methane from agriculture and gas leaks, are trapping more heat in Earth's atmosphere. The result is the warming we have measured directly since the late 1800s, with the last decade being the hottest on record. The Intergovernmental Panel on Climate Change, or IPCC, summarizes thousands of peer-reviewed studies, and its reports are basically the global reference. Beyond temperature, climate change is also shifting rainfall patterns, increasing the intensity of storms, accelerating sea-level rise and acidifying the ocean. Tipping points like the loss of the Amazon rainforest, the melting of Greenland or the destabilization of permafrost are active areas of research. Limiting warming below 2 degrees Celsius requires fast decarbonization: switching to renewables, electrifying cars, redesigning food systems and protecting forests. None of this is news, but it bears repeating because climate misinformation is also extremely loud."
+      },
+      {
+        "h": "Individual habits vs system change",
+        "body": "One of the most controversial climate debates is also one of the most personal: how much can individual habits actually change. The honest answer is that personal choices matter a bit, especially for high emitters, but they cannot replace structural change. Flying less, eating less meat, driving electric and insulating your home all reduce emissions, but the big wins come from policy: shutting down coal plants, building grids on renewables, taxing carbon and changing how cities and farms work. The classic counter-argument is that fossil fuel companies invented the personal carbon footprint to shift blame off corporations. That is partly true, but it does not mean your choices are meaningless, especially when scaled across communities. On moomz, climate polls about lifestyle (meat or no meat, plane or train, EV or used petrol) get massive traction precisely because they collide with daily comfort. They also expose generational and political fault lines in seconds."
+      },
+      {
+        "h": "Climate polls that always work on moomz",
+        "body": "The most engaging climate polls combine moral weight with a quick, clear choice. Would you give up flying for a year. Meat once a week or never. Trust governments, companies or individuals to lead the transition. Optimist or doomer. Are you eco-anxious. Polls that mix climate with money also pop: would you pay more taxes for a faster green transition, would you accept slower growth to cut emissions. On moomz, climate polls trend during heatwaves, COP conferences, big IPCC report drops and viral disaster events. They also pair well with travel, food and money topics, which already drive huge engagement. If you create one, lean into honesty over guilt-tripping. People disengage from finger-wagging, but they will absolutely vote on a question that respects the trade-offs they actually feel. A green palette and a planet emoji do not hurt either."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is climate change really caused by humans?",
+        "a": "Yes, and that is one of the strongest consensus positions in modern science. Multiple independent lines of evidence, including ice cores, ocean temperatures, satellite measurements and computer models, all point to greenhouse gas emissions from human activity as the main driver of the warming observed since the late 1800s. Natural factors like solar cycles and volcanoes cannot explain the rate or pattern of the change. Over 97 percent of actively publishing climate scientists agree, a level of consensus rare in any field. On moomz, climate denial polls usually attract small but loud minorities."
+      },
+      {
+        "q": "What does 1.5 degrees Celsius warming actually mean?",
+        "a": "The 1.5 degree target from the Paris Agreement refers to the global average surface temperature rise compared to pre-industrial levels. It sounds small, but every fraction of a degree matters: more frequent heat waves, longer droughts, stronger storms, higher sea levels and more risk of crossing tipping points. We have already warmed about 1.1 to 1.3 degrees, and current policies put us on track for roughly 2.5 to 3 degrees by 2100 unless emissions fall faster. The 1.5 target is now widely seen as very difficult, but still useful as a guardrail."
+      },
+      {
+        "q": "Do my personal habits actually matter?",
+        "a": "Yes and no. Individual emissions are a small slice of total emissions, but lifestyle shifts in wealthy countries, where per-capita footprints are highest, do add up. The bigger impact of individual action is political: how you vote, what you support, what you normalize. Buying an EV alone will not save the climate, but a culture where EVs and renewables are normal accelerates investment and policy change. On moomz, polls about plane travel, meat consumption and fast fashion always trend, partly because they expose the tension between caring and convenience."
+      },
+      {
+        "q": "Is climate doom realistic?",
+        "a": "Climate doomism, the belief that nothing can be done, is not supported by the science. Yes, some impacts are now baked in: ice will keep melting, seas will keep rising and certain ecosystems will be lost. But every additional ton of CO2 prevented still matters, because future damage scales with cumulative emissions. Renewables are now the cheapest electricity in most regions, EV adoption is accelerating and many countries have already peaked their emissions. The realistic position is somewhere between panic and complacency: serious damage is happening, but a worst-case scenario is not locked in."
+      }
+    ],
+    "related": ["ocean", "rain", "wind", "snow", "money", "ai"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "rain",
+    "locale": "en",
+    "keyword": "Rain",
+    "matchPatterns": ["rain", "rainy", "storm", "drizzle", "downpour"],
+    "topic": "sciences",
+    "title": "Rain Polls on moomz: Cozy Days, Storms and Rainy Mood Debates",
+    "description": "Vote on rain polls: cozy rainy day vs sunny chaos, storms, umbrellas, ruined plans. Free, anonymous, live results on moomz.com.",
+    "emoji": "🌧️",
+    "intro": "Rain is the basic plumbing of the climate system: water evaporates from oceans, lakes and forests, condenses into clouds and eventually falls back as drops once those drops grow heavy enough to overcome upward air currents. A single raindrop is typically between 0.5 and 5 millimeters across, and a storm can drop billions of them per square kilometer per hour. Rain has fed civilizations, ended droughts, sunk empires and ruined plenty of perfect outfits. It also runs an enormous cultural empire of its own: cozy Sunday playlists, hyper-Instagrammable umbrellas in Tokyo, melancholy songs about lost love and that one TikTok aesthetic where rain hits a coffee shop window. Some places are basically defined by it. The Atacama Desert in Chile may go years without measurable rain, while Mawsynram in India routinely tops 11,000 millimeters of annual rainfall. On moomz, rain polls bring out strong opinions because everyone has an emotional relationship with it. Some people love the sound, some hate the chaos, almost all of us have an opinion about umbrellas. This page collects the best rain debates: cozy versus annoying, picnic-ruiner versus mood-setter, romantic kiss in the rain or hot chocolate by the window.",
+    "sections": [
+      {
+        "h": "How rain actually forms",
+        "body": "Rain is one stage of the water cycle. The Sun heats oceans, lakes, rivers and even plants, causing water to evaporate. The vapor rises into the atmosphere, cools and condenses around tiny particles like dust, salt or pollen to form cloud droplets. Inside a cloud, those droplets collide, merge and grow. Once a droplet is too heavy for the updraft to hold it up, gravity wins and it falls. Depending on the temperature profile below, it lands as rain, freezing rain, sleet or snow. The size of a raindrop is limited by physics: above about 5 millimeters, drops break apart due to air resistance. Heavy rain is not just bigger drops, it is more drops falling at once. Tropical climates get most of their rain from convection, where warm humid air rises rapidly into thunderstorms. Mid-latitudes also get rain from frontal systems where warm and cold air masses meet. Climate change is intensifying both: warmer air holds more moisture, which means downpours are getting heavier even as some regions get drier overall."
+      },
+      {
+        "h": "Rainy days, mood and culture",
+        "body": "For some people, rain triggers an instant cozy reflex: candles, blanket, hot drink, a movie on the laptop. For others, it ruins commutes, weddings and beach plans, and floods bedrooms in cities with bad drainage. Pop culture leans into the cozy interpretation: Japanese rain compilations, Korean coffee shop ASMR, K-dramas where every confession happens in a downpour, the entire Studio Ghibli rain aesthetic. Climate-wise, rain is a serious deal. Monsoon rains in South Asia feed roughly two billion people through agriculture. The lack of rain in California, Australia and southern Europe fuels record-breaking wildfires. Rainforests like the Amazon literally generate their own rain through transpiration, which is one reason deforestation cascades fast. Cities are still relearning to handle rain: green roofs, permeable pavements and sponge city designs are appearing in places like Shanghai, Berlin and Rotterdam. None of this changes the universal moomz question: cozy rainy day in or boring rainy day stuck inside."
+      },
+      {
+        "h": "Rain polls that always slap on moomz",
+        "body": "The most engaging rain polls hinge on identity. Are you a rainy-day cozy gremlin or a sunshine maximalist. Best rainy-day activity: nap, movie, bake, write or rage at the weather. Romantic walk in the rain or watch from a window with hot chocolate. Best city for atmospheric rain: Tokyo, Paris, London or Vancouver. Polls about ruined plans also pop: outdoor wedding gets rained on, free meal or full refund. On moomz, rain polls do extremely well in autumn and during monsoon seasons, but they have a strong year-round baseline because rain is universally relatable. Pair with a coffee or Netflix question and you basically have a chain reaction in the group chat. A blue palette, a rain emoji and a clean binary is the optimal recipe."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is the smell after rain so good?",
+        "a": "That smell has a name: petrichor. It is mostly caused by a compound called geosmin, produced by soil bacteria, that gets released when raindrops hit dry ground. Human noses are extremely sensitive to geosmin, able to detect it at concentrations of just parts per trillion. Add in plant oils released during rain and ozone produced by lightning, and you get the unmistakable smell of fresh rain on dry earth. It is also strongly tied to memory, which is why so many people on moomz vote rainy-day vibes over sunny-day vibes."
+      },
+      {
+        "q": "Which place gets the most rain on Earth?",
+        "a": "Mawsynram in northeastern India often holds the title with average annual rainfall around 11,800 millimeters, or roughly 39 feet. Nearby Cherrapunji is also famous for extreme rainfall. Other contenders include parts of Hawaii, Colombia and the Indian state of Meghalaya. By contrast, the Atacama Desert in Chile has weather stations that have recorded essentially zero rainfall for decades at a time. The contrast is wild: some places are drenched, others are bone dry, and climate change is making both extremes more pronounced."
+      },
+      {
+        "q": "Is acid rain still a problem?",
+        "a": "Acid rain was a huge problem in the late 20th century, mainly caused by sulfur dioxide and nitrogen oxides from coal power plants and cars. Strict regulations in North America and Europe, like the US Clean Air Act amendments and EU sulfur rules, dramatically cut emissions and brought acid rain under control in much of the rich world. It is still a concern in parts of Asia, especially areas with heavy coal use. The story is one of the rare environmental success cases, since clear targets and enforceable rules actually worked."
+      },
+      {
+        "q": "Why does it feel cozier when it rains?",
+        "a": "There is real psychology behind cozy rainy days. The dim natural light boosts melatonin slightly, the steady white-noise sound of rain helps brains relax, and the contrast between bad weather outside and warmth inside taps into a deep sense of safety. Studies on so-called hygge or jeong vibes show people are more likely to bond with others in bad weather. That is why so many K-dramas, anime and Studio Ghibli movies use rain for emotional scenes. On moomz, cozy rain polls often outpace adventurous rain polls."
+      }
+    ],
+    "related": ["sun", "ocean", "snow", "wind", "lightning", "netflix"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "wind",
+    "locale": "en",
+    "keyword": "Wind",
+    "matchPatterns": ["wind", "windy", "breeze", "gust", "tornado"],
+    "topic": "sciences",
+    "title": "Wind Polls on moomz: Storms, Hair Chaos and Windy Day Debates",
+    "description": "Vote on wind polls: cozy breeze vs hurricane chaos, hair wars, wind turbines. Free, anonymous, live results on moomz.com.",
+    "emoji": "💨",
+    "intro": "Wind is air on the move, driven by pressure differences that the Sun creates when it heats Earth's surface unevenly. Warm air rises, cool air rushes in to fill the gap, and on a planet that is spinning, the result is the global system of winds you see on every weather map: trade winds near the equator, westerlies in the mid-latitudes and polar easterlies. Locally, wind shapes everything from your bad hair day to whether a wildfire becomes a megafire. Tornadoes can spin at over 300 mph, hurricanes can be 1,000 kilometers wide, and a calm summer breeze is just the same physics with the volume turned down. Wind is also the oldest free energy on Earth: it has moved ships, ground grain and powered legends from the Mediterranean mistral to the Saharan harmattan. Today, it is at the heart of the renewable energy transition, with offshore turbines generating gigawatts off the coasts of Denmark, the UK and China. On moomz, wind polls hit cozy nostalgia and chaos energy at the same time. Hair ruined by wind, dramatic windy beach walks, terror at airport take-offs in storms, and serious debates about wind farms in your backyard. Vote your gust.",
+    "sections": [
+      {
+        "h": "Why the wind blows",
+        "body": "All wind comes from differences in air pressure. The Sun heats the equator much more than the poles, which sets up huge convection cells in the atmosphere. Earth's rotation deflects moving air through the Coriolis effect, which is why hurricanes spin counterclockwise in the Northern Hemisphere and clockwise in the Southern. At the local level, things like mountains, valleys, coastlines and city blocks bend, accelerate or block wind. Sea breezes form because land heats and cools faster than water, so air flows from cool sea to warm land during the day and reverses at night. Storms ramp up the same dynamics: in a tornado, a strong updraft inside a thunderstorm stretches and tilts air into a fast-spinning funnel, and in a hurricane, warm tropical ocean water fuels a massive low-pressure system. The Beaufort scale rates wind strength from 0 (calm) to 12 (hurricane). Anything above 75 mph is considered hurricane force, and even moderate gusts above 30 mph can already snap branches and make walking miserable."
+      },
+      {
+        "h": "Wind, hair drama and wind power",
+        "body": "Wind shapes everyday life in tiny but emotional ways. Big-hair people know that a breezy day is high-stakes, photographers chase windswept beach shoots, and skiers and surfers obsessively track wind reports. Cities like Chicago, Wellington and Tarifa are nicknamed for their wind. Globally, wind energy has exploded over the last two decades. Modern turbines can stand over 250 meters tall and a single offshore turbine can power thousands of homes. Wind energy now accounts for over 7 percent of global electricity, with countries like Denmark producing more than 50 percent of their power from wind in some years. Critics raise concerns about bird strikes, visual impact and noise, but new designs and offshore placements have reduced many issues. Wind is also a low-key player in extreme weather: faster jet streams, more powerful hurricanes and intensified storms are all linked to climate change. On moomz, wind polls cluster around aesthetics, safety and politics in equal measure."
+      },
+      {
+        "h": "Wind polls that always pop on moomz",
+        "body": "Strong wind polls capture either a vibe or a fear. Cozy autumn breeze through your window or never again, I miss summer. Beach walk in heavy wind: romantic or nightmare. Most terrifying weather: tornado, hurricane, blizzard or earthquake. Are wind farms beautiful or eyesores. Worst hair day weather: rain, wind or humidity. Polls about plane fear hit hard: turbulence makes you grip the armrest or you sleep right through it. On moomz, wind polls trend during storm seasons in autumn and spring, and during summer heatwaves when people fantasize about even the smallest breeze. Pair with a travel, sport or fashion question and the engagement multiplies. The visual recipe: a soft blue palette, a wind emoji and a clean either-or. Always remember, almost everyone has had a hair-related wind trauma to share."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the strongest wind ever recorded?",
+        "a": "The strongest surface wind ever directly measured was during Tropical Cyclone Olivia in 1996, hitting Barrow Island in Australia with a gust of 408 km/h, about 253 mph. Tornadoes can reach even higher speeds inside their cores, with the 1999 Bridge Creek-Moore tornado in Oklahoma measured at around 484 km/h by Doppler radar. Hurricane Patricia in 2015 had sustained winds of 345 km/h, the strongest in the Eastern Pacific. Most everyday strong storms top out around 100 to 150 km/h, which is already enough to do serious damage."
+      },
+      {
+        "q": "Why do we have global wind patterns?",
+        "a": "Global wind patterns come from a mix of solar heating and Earth's rotation. Warm air rises near the equator and moves toward the poles, while cooler air sinks and flows back, forming three convection cells per hemisphere. Earth's rotation deflects these winds via the Coriolis effect, creating trade winds in the tropics, westerlies in mid-latitudes and polar easterlies. These patterns have shaped centuries of sailing, trade routes and even the spread of civilizations. They also drive ocean currents, which means global wind is partly responsible for climate as far away as Europe and northern Africa."
+      },
+      {
+        "q": "Is wind energy really clean?",
+        "a": "Wind energy is one of the cleanest sources of electricity available, with extremely low lifecycle emissions compared to coal or gas. It does have impacts: turbines need land or sea space, some birds and bats are killed by blades, and manufacturing uses concrete, steel and rare earth elements. Still, on a per kWh basis, wind beats almost every other source for both emissions and water use. Combined with solar and grid storage, it forms the backbone of most realistic decarbonization plans. On moomz, polls about renewables versus nuclear regularly trend, especially during energy crises."
+      },
+      {
+        "q": "Why is the wind louder at night?",
+        "a": "Wind often feels louder at night for a few reasons. The atmosphere stabilizes after sunset: less mixing during the day means surface winds calm down, while higher-altitude winds can stay strong. Background noises like traffic and people drop, which makes any remaining wind more obvious. In bedrooms, wind hitting windows and rooftops is also closer to your ears than during the day. Acoustically, cooler air can also bend sound differently, sometimes amplifying distant wind. Combine all of that and a still-windy night feels louder than the daytime version of the same gusts."
+      }
+    ],
+    "related": ["rain", "snow", "ocean", "lightning", "climate", "summer"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "lightning",
+    "locale": "en",
+    "keyword": "Lightning",
+    "matchPatterns": ["lightning", "thunder", "storm", "thunderstorm", "bolt"],
+    "topic": "sciences",
+    "title": "Lightning Polls on moomz: Thunderstorms, Scary Skies and Bolts",
+    "description": "Vote on lightning polls: terror or beauty, storm chaser energy, fear of thunder. Free, anonymous, live results on moomz.com.",
+    "emoji": "⚡",
+    "intro": "Lightning is one of the most extreme natural phenomena on Earth. A typical bolt carries about 30,000 amperes of current, heats the surrounding air to nearly 30,000 degrees Celsius, roughly five times hotter than the Sun's surface, and releases enough energy in a fraction of a second to power a small town for an hour. Earth sees about 100 lightning strikes per second, or roughly 8 million per day, and they are concentrated in tropical land regions, with central Africa, the Amazon basin and parts of Southeast Asia leading the charts. Lake Maracaibo in Venezuela holds the title of lightning capital of the world, with a near-permanent thunderstorm above it. Lightning kills around 24,000 people per year worldwide, but it also fertilizes soils by producing nitrogen oxides that wash down in rain. Beyond the physics, lightning is pure spectacle. It powers myths from Zeus to Thor, lifts Harry Potter's scar into pop culture and turns the sky into a moving Renaissance painting. On moomz, lightning polls combine terror and awe in a way few topics can match. Storm chaser energy, fear of thunder, indoor versus outdoor people, this page collects the moomz community's most electric opinions.",
+    "sections": [
+      {
+        "h": "What lightning really is",
+        "body": "Lightning is essentially a giant electrical discharge in the atmosphere. Inside a thunderstorm cloud, ice crystals and droplets crash into each other in strong updrafts, transferring electric charge so that the top of the cloud becomes positively charged and the bottom negative. Once the voltage difference between cloud and ground, or between two parts of a cloud, gets large enough to overcome air's resistance, an invisible channel called a stepped leader zigzags down. When it meets a return stroke rising from the ground, the visible bolt flashes upward at about a third of the speed of light. The current heats the air to nearly 30,000 degrees Celsius in microseconds, creating the shockwave we hear as thunder. Cloud-to-ground lightning is the most dangerous, but cloud-to-cloud lightning is more common. Strange variations also exist: sprites and elves above storms, ball lightning that floats and disappears mysteriously, and positive bolts that strike from cloud tops and can travel tens of kilometers from the storm itself."
+      },
+      {
+        "h": "Storm fear, beauty and chaser culture",
+        "body": "For some people, thunderstorms are pure terror: pets hide, kids cry, sleep is over. For others, lightning is the most beautiful phenomenon on Earth, free fireworks visible from a porch. Storm chasers in the US Midwest drive thousands of miles per season to film supercells and tornadoes, and their content drives huge social media engagement. Lightning photography has become its own art form thanks to long-exposure cameras and smartphone trigger apps. Cultural respect for lightning runs deep: Zeus, Thor, Indra and Shango are all storm gods. Modern science has done a lot to demystify the bolts, starting with Ben Franklin's famous kite experiment in 1752 and culminating in today's satellite-based lightning detection systems. None of that calms most people during a midnight thunderstorm. Lightning is still genuinely dangerous: stay indoors, avoid open fields, water and tall trees, and unplug electronics during severe storms."
+      },
+      {
+        "h": "Lightning polls that always trend on moomz",
+        "body": "Strong lightning polls split people fast. Storm cozy or storm scared. Indoor by the window or storm chaser on the highway. Most beautiful natural light show: lightning, auroras, fireflies or sunsets. Would you rather meet a tornado, a lightning storm or a flash flood. Polls about myths also pop: do you believe lightning never strikes twice (it does, all the time), is rubber really safe (not really, it is your car's metal frame that protects you). On moomz, lightning polls peak during summer thunderstorm seasons, hurricane season and after big viral storm videos. The visual recipe is easy: a purple-blue palette, a lightning emoji and a sharp binary. Bonus points if you pair with a weather, fear or travel topic. Lightning is also a fantastic conversational hook for asking people about their wildest weather stories, which tend to break engagement records in the comments."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How hot is a lightning bolt?",
+        "a": "A lightning bolt heats the surrounding air to about 30,000 degrees Celsius, or roughly 54,000 degrees Fahrenheit. That is about five times hotter than the surface of the Sun, even though the bolt only lasts a fraction of a second. The intense heating expands the air explosively, creating the shockwave we hear as thunder. Despite the temperature, the bolt itself is narrow, only a few centimeters wide, which is why people very close to a strike but not in its direct path can sometimes survive with serious but non-fatal injuries."
+      },
+      {
+        "q": "Can lightning strike the same place twice?",
+        "a": "Yes, absolutely. The Empire State Building in New York is struck about 25 times per year on average. Lightning prefers tall, pointed objects with a good connection to the ground, which is why skyscrapers, radio masts and isolated trees are repeatedly hit. The Lake Maracaibo region in Venezuela sees more than 250 lightning flashes per square kilometer per year, every year. The old saying that lightning never strikes twice is essentially weather superstition, the opposite of how the physics actually works."
+      },
+      {
+        "q": "How dangerous is lightning, really?",
+        "a": "Lightning kills around 24,000 people per year globally and injures another 240,000, according to WHO and meteorological estimates. Risk is highest in tropical regions and among people working outdoors. Direct strikes are rare but often fatal. More commonly, people are injured by side flashes, ground current or contact with electrified objects. Indoor safety is high if you stay away from windows, plumbing and corded electronics. Cars with metal roofs protect you because the body acts like a Faraday cage. Convertible cars and golf carts offer no real protection at all."
+      },
+      {
+        "q": "Why does lightning come before thunder?",
+        "a": "Light travels almost a million times faster than sound, which is why you see the flash first and hear the thunder later. To estimate how far away a storm is, count the seconds between the flash and the thunder, then divide by three for kilometers or by five for miles. A 10-second gap means the lightning is about 3 km or 2 miles away. Once you start counting under 30 seconds, the storm is close enough to be dangerous. Move indoors and wait at least 30 minutes after the last thunder before heading back out."
+      }
+    ],
+    "related": ["rain", "wind", "snow", "rainbow", "climate", "ocean"],
+    "updatedAt": "2026-05-19"
+  },
+  {
+    "slug": "rainbow",
+    "locale": "en",
+    "keyword": "Rainbow",
+    "matchPatterns": ["rainbow", "spectrum", "prism", "colors", "pride"],
+    "topic": "sciences",
+    "title": "Rainbow Polls on moomz: Colors, Pride and Magical Sky Moments",
+    "description": "Vote on rainbow polls: favorite color, double rainbows, pride vibes, fairy-tale sky moments. Free, anonymous, live results on moomz.com.",
+    "emoji": "🌈",
+    "intro": "A rainbow is sunlight bent and split inside countless water droplets, painting an arc of color across the sky. The basic physics was first nailed down by Isaac Newton around 1666, when he used a prism in his Cambridge room to show that white light is actually a mix of colors, traditionally counted as seven: red, orange, yellow, green, blue, indigo and violet. In a real rainbow, light enters a raindrop, refracts, reflects off the back of the drop and refracts again on the way out, leaving the drop at an angle of about 42 degrees from the original beam. Multiply that across millions of drops and the result is the arc you see opposite the Sun. Beyond the optics, rainbows are one of the most universal good-vibe symbols on Earth. They appear in the Bible, in Greek myth with the goddess Iris, in Japanese folklore as a bridge, on the LGBTQ+ pride flag and on every kids' show ever made. On moomz, rainbow polls do extremely well because they slot into nature, identity, aesthetic and pride conversations all at once. This page collects the most popular questions: favorite color, best rainbow memory, real rainbow or filter, and which emoji rainbow hits hardest.",
+    "sections": [
+      {
+        "h": "The physics behind a rainbow",
+        "body": "Rainbows are essentially nature's free prism. White sunlight is a mix of all visible wavelengths. When it enters a raindrop, each wavelength refracts at a slightly different angle because the speed of light changes more for shorter (blue) wavelengths than longer (red) ones. Inside the drop, the light reflects off the back surface, then refracts again on the way out. The result is a fan of colors, with red on the outer edge of the arc and violet on the inner edge, at angles around 40 to 42 degrees from the antisolar point. To see a rainbow, the Sun has to be behind you and rain or mist in front of you. Double rainbows appear when light reflects twice inside drops; the secondary arc is dimmer and reversed in color order. Supernumerary bows, faint pink and green fringes inside the main arc, show up when drops are very uniform in size. Moonbows, lit by full-moon light, are real but very faint. Rainbows are actually full circles when viewed from a plane, with the horizon usually clipping the bottom half from the ground."
+      },
+      {
+        "h": "Rainbows in myth, pride and pop culture",
+        "body": "Almost every culture has a rainbow story. In Norse myth, Bifrost is a rainbow bridge between Asgard and the mortal world. The Greek goddess Iris travels along rainbows as a messenger. In the Bible, the rainbow is the sign of God's promise after the flood. Many indigenous traditions associate rainbows with spirits or transitions between worlds. In modern culture, the rainbow has become a powerful symbol of LGBTQ+ pride since Gilbert Baker designed the original eight-stripe flag in 1978. Companies love to slap rainbows on logos every June, which has its own internet drama. The Wizard of Oz Over the Rainbow song, the Mario rainbow road, the Apple logo of the 70s and 80s, all part of the rainbow visual canon. On moomz, rainbow polls work across age groups and ideologies, partly because the symbol is positive in nearly every culture but also because it can be a stand-in for pride, weather magic or just a vibe."
+      },
+      {
+        "h": "Rainbow polls that always crush on moomz",
+        "body": "The most engaging rainbow polls combine aesthetics with identity. Favorite color in the rainbow, especially when forced to pick one. Real rainbow IRL or sunset more magical. Have you ever seen a double rainbow. Best use of rainbow as a symbol: pride flag, fairy tales, kid show or weather magic. Polls about photography work too: rainbow over a city, beach or mountains. Pride-themed polls always trend in June, and they can pair beautifully with travel or identity topics, like best pride city in the world (Madrid, NYC, Sao Paulo, Berlin, Sydney). On moomz, rainbow polls also peak after storms, when actual rainbows are most likely. Visual tip: a multicolor gradient header, a rainbow emoji and a clean either-or do the trick. Avoid making the poll heavy or political unless that is intentionally the point."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why are there seven colors in a rainbow?",
+        "a": "Seven is a cultural choice, not a physical limit. Newton originally divided the visible spectrum into five colors, then added orange and indigo to bring the count up to seven, partly to match musical notes and other classical sevens. In reality, the spectrum is continuous: red blends into orange, orange into yellow and so on, with no hard boundaries. Some cultures count five or six colors instead. The seven-color count just stuck in English-speaking education and is now baked into kids' songs and storybooks everywhere."
+      },
+      {
+        "q": "Who discovered how rainbows work?",
+        "a": "The first solid scientific explanation came from Isaac Newton, who showed in 1666 that a prism could split white light into a spectrum of colors and then recombine that spectrum into white light. He extended this idea to rainbows. Earlier thinkers like Theodoric of Freiberg in the 14th century had already worked out parts of the geometry inside a raindrop. Descartes refined the math in the 1600s. Modern optics fully describes rainbows using wave theory, including phenomena like supernumerary bows that simple ray tracing cannot explain."
+      },
+      {
+        "q": "What is a double rainbow?",
+        "a": "A double rainbow happens when sunlight reflects twice inside each raindrop before leaving. The primary bow shows red on the outside and violet on the inside. The secondary bow, dimmer and a bit higher in the sky, has its colors reversed: red on the inside and violet on the outside. The gap between them, called Alexander's band, often looks darker than the surrounding sky because no light is reflected at those angles. Triple and quadruple rainbows exist too but are extremely rare and usually too faint to see without special equipment."
+      },
+      {
+        "q": "Why are rainbows linked to pride?",
+        "a": "The rainbow became the symbol of LGBTQ+ pride thanks to artist Gilbert Baker, who designed the original rainbow flag for San Francisco's Gay Freedom Day in 1978. He chose the rainbow to represent diversity within the community: different colors, one flag. The original had eight stripes, later reduced to six for production reasons. Variations like the Progress flag now add more stripes to represent transgender people and people of color. On moomz, pride polls trend strongly in June but also year-round around big LGBTQ+ moments and debates."
+      }
+    ],
+    "related": ["sun", "rain", "ocean", "summer", "halloween", "valentines"],
+    "updatedAt": "2026-05-19"
+  }
+]
