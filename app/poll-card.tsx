@@ -188,7 +188,7 @@ export default function PollCard({
   return (
     <article
       ref={rootRef as React.RefObject<HTMLElement>}
-      className="glass rounded-2xl p-4 sm:p-5 space-y-3 relative overflow-hidden"
+      className="glass rounded-2xl p-4 sm:p-5 space-y-3.5 relative overflow-hidden"
     >
       <Confetti trigger={confettiKey} />
       {pointsToast && (
@@ -204,38 +204,40 @@ export default function PollCard({
       )}
 
 
-      <div className="flex items-start justify-between gap-2">
+      <div className="space-y-2">
+        {(isNew || isHot || isRising || isLive) && (
+          <div className="flex flex-wrap items-center gap-1.5">
+            {isNew && (
+              <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-cyan-500/30 to-blue-500/30 border border-cyan-400/50 text-cyan-100 whitespace-nowrap">
+                ✨ new
+              </span>
+            )}
+            {isHot && !isNew && (
+              <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-orange-500/30 to-pink-500/30 border border-orange-400/50 text-orange-100 whitespace-nowrap">
+                {t("card.hot")}
+              </span>
+            )}
+            {isRising && (
+              <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/50 text-purple-100 whitespace-nowrap">
+                📈 rising
+              </span>
+            )}
+            {isLive && (
+              <span className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/25 border border-emerald-400/50 text-emerald-100 whitespace-nowrap">
+                <span className="live-dot w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
+                {t("card.live")}
+              </span>
+            )}
+          </div>
+        )}
         <h3
-          className="text-lg sm:text-xl font-bold leading-tight text-balance flex-1 bg-clip-text text-transparent drop-shadow-[0_1px_8px_rgba(0,0,0,0.4)]"
+          className="text-xl sm:text-2xl font-bold leading-tight text-balance break-words bg-clip-text text-transparent drop-shadow-[0_1px_8px_rgba(0,0,0,0.4)]"
           style={{
             backgroundImage: `linear-gradient(135deg, ${pal.c1}, #ffffff 55%, ${pal.c2})`,
           }}
         >
           {question}
         </h3>
-        <div className="flex flex-col items-end gap-1 shrink-0">
-          {isNew && (
-            <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-cyan-500/30 to-blue-500/30 border border-cyan-400/50 text-cyan-200">
-              ✨ new
-            </span>
-          )}
-          {isHot && !isNew && (
-            <span className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-gradient-to-r from-orange-500/30 to-pink-500/30 border border-orange-400/40 text-orange-200">
-              {t("card.hot")}
-            </span>
-          )}
-          {isRising && (
-            <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gradient-to-r from-purple-500/30 to-pink-500/30 border border-purple-400/50 text-purple-200">
-              📈 rising
-            </span>
-          )}
-          {isLive && (
-            <span className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200">
-              <span className="live-dot w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
-              {t("card.live")}
-            </span>
-          )}
-        </div>
       </div>
 
       <div className="space-y-2">
@@ -250,10 +252,10 @@ export default function PollCard({
                 key={i}
                 onClick={() => vote(i)}
                 disabled={pending}
-                className="w-full text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 py-2.5 flex items-center gap-2 disabled:opacity-50"
+                className="w-full min-h-[44px] text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 py-3 flex items-center gap-2.5 disabled:opacity-50"
               >
-                <span className="text-lg">{EMOJIS[i]}</span>
-                <span className="font-medium text-sm sm:text-base">{opt}</span>
+                <span className="text-lg shrink-0" aria-hidden>{EMOJIS[i]}</span>
+                <span className="font-medium text-sm sm:text-base break-words min-w-0">{opt}</span>
               </button>
             );
           }
@@ -262,9 +264,9 @@ export default function PollCard({
           return (
             <div
               key={i}
-              className={`relative overflow-hidden rounded-xl border ${
+              className={`relative overflow-hidden rounded-xl border min-h-[44px] ${
                 isMine ? "border-pink-400/60" : "border-white/10"
-              } bg-white/5 px-3 py-2.5`}
+              } bg-white/5 px-3 py-3`}
             >
               <div
                 className={`absolute inset-y-0 left-0 ${
@@ -275,9 +277,9 @@ export default function PollCard({
                 style={{ width: `${pct}%` }}
               />
               <div className="relative flex justify-between items-center gap-2">
-                <div className="flex items-center gap-2 min-w-0">
-                  <span className="text-lg shrink-0">{EMOJIS[i]}</span>
-                  <span className="font-semibold truncate text-sm sm:text-base">{opt}</span>
+                <div className="flex items-center gap-2 min-w-0 flex-1">
+                  <span className="text-lg shrink-0" aria-hidden>{EMOJIS[i]}</span>
+                  <span className="font-semibold truncate text-sm sm:text-base min-w-0">{opt}</span>
                   {isMine && (
                     <span className="text-pink-300 text-[10px] uppercase tracking-wide shrink-0">
                       {t("card.you")}
@@ -328,11 +330,11 @@ export default function PollCard({
         </div>
       )}
 
-      <div className="flex items-center justify-between text-xs text-white/40">
-        <span>
+      <div className="flex items-center justify-between text-xs text-white/40 pt-0.5">
+        <span className="tabular-nums">
           <AnimatedNumber value={total} /> {total > 1 ? t("card.votes") : t("card.vote")}
         </span>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center -mr-2">
           {!showResults && (
             <button
               onClick={() => {
@@ -340,21 +342,21 @@ export default function PollCard({
                 skipPoll(slug).catch(() => {});
                 if (onSkip) setTimeout(onSkip, 200);
               }}
-              className="hover:text-white transition"
+              className="min-h-[44px] px-3 inline-flex items-center hover:text-white transition"
             >
               {t("card.skip")}
             </button>
           )}
           <Link
             href={`/${slug}`}
-            className="hover:text-white transition flex items-center gap-1"
+            className="min-h-[44px] px-3 inline-flex items-center gap-1 hover:text-white transition"
           >
             {t("card.detail")}
           </Link>
         </div>
       </div>
       {skipped && (
-        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center text-white/60 rounded-3xl">
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center text-white/60 rounded-2xl">
           {t("card.passed")}
         </div>
       )}

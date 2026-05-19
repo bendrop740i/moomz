@@ -73,7 +73,7 @@ export default async function FeaturedAsks() {
         {tx("ask.featured.title")}
       </h2>
       <div className="-mx-5 px-5 overflow-x-auto scrollbar-hide">
-        <ul className="flex gap-2.5 snap-x snap-mandatory pb-1">
+        <ul className="flex gap-3 snap-x snap-mandatory pb-1">
           {rows.map((r) => {
             const label = r.pending_count === 1
               ? tx("ask.featured.cta").replace("{n}", String(r.pending_count))
@@ -81,15 +81,15 @@ export default async function FeaturedAsks() {
             return (
               <li
                 key={r.id}
-                className="shrink-0 w-[230px] snap-start"
+                className="shrink-0 w-[220px] sm:w-[230px] snap-start"
               >
                 <Link
                   href={`/${r.username}`}
-                  className="glass rounded-2xl p-3.5 h-full flex flex-col gap-2 hover:border-pink-400/40 transition relative overflow-hidden"
+                  className="glass rounded-2xl p-4 h-full min-h-[140px] flex flex-col gap-2 hover:border-pink-400/40 transition relative overflow-hidden"
                 >
-                  <div className="flex items-center gap-2">
-                    <div className="text-2xl shrink-0">{r.avatar_emoji}</div>
-                    <div className="min-w-0">
+                  <div className="flex items-center gap-2.5">
+                    <div className="text-2xl shrink-0" aria-hidden>{r.avatar_emoji}</div>
+                    <div className="min-w-0 flex-1">
                       <div className="font-bold text-sm truncate">
                         {r.display_name ?? `@${r.username}`}
                       </div>
@@ -99,12 +99,12 @@ export default async function FeaturedAsks() {
                     </div>
                   </div>
                   {r.sample_question && (
-                    <div className="text-xs text-white/70 leading-snug line-clamp-2 italic">
+                    <div className="text-xs text-white/70 leading-snug line-clamp-2 italic break-words">
                       &ldquo;{r.sample_question}&rdquo;
                     </div>
                   )}
                   <div className="mt-auto flex items-center justify-between gap-2 pt-1">
-                    <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-pink-500/20 border border-pink-400/40 text-pink-200">
+                    <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-pink-500/25 border border-pink-400/50 text-pink-100 whitespace-nowrap max-w-full truncate">
                       📬 {label}
                     </span>
                   </div>

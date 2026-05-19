@@ -51,12 +51,12 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
 
   return (
     <footer className="mt-12 pt-8 border-t border-white/10 space-y-6">
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-3 gap-y-1 text-sm">
         {links.map((l) => (
           <Link
             key={l.href}
             href={l.href}
-            className="text-white/60 hover:text-white transition"
+            className="min-h-[44px] inline-flex items-center text-white/60 hover:text-white transition"
           >
             {l.label}
           </Link>
@@ -69,12 +69,14 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
           </div>
           <ul className="flex flex-wrap gap-1.5">
             {featured.map((p) => (
-              <li key={p.slug + p.category}>
+              <li key={p.slug + p.category} className="max-w-full">
                 <Link
                   href={`/${p.category}/${p.slug}`}
-                  className="inline-block rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1 text-xs text-white/70 hover:text-white transition"
+                  className="inline-flex items-center max-w-full rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:text-white transition whitespace-nowrap overflow-hidden text-ellipsis"
                 >
-                  {p.emoji} {p.h1.split(":")[0].replace(/^Sondages? /i, "").trim()}
+                  <span className="truncate">
+                    {p.emoji} {p.h1.split(":")[0].replace(/^Sondages? /i, "").trim()}
+                  </span>
                 </Link>
               </li>
             ))}

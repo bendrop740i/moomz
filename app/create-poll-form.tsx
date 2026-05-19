@@ -95,7 +95,7 @@ export default function CreatePollForm() {
         </label>
         {options.map((opt, i) => (
           <div key={i} className="flex gap-2 items-center group">
-            <span className="text-xl select-none" aria-hidden>
+            <span className="text-xl select-none w-6 text-center shrink-0" aria-hidden>
               {EMOJIS[i]}
             </span>
             <input
@@ -105,13 +105,13 @@ export default function CreatePollForm() {
               value={opt}
               onChange={(e) => updateOption(i, e.target.value)}
               placeholder={i < 2 ? optionExample[i] : `Option ${i + 1}`}
-              className="flex-1 rounded-xl bg-white/5 border border-white/10 px-3.5 py-2.5 text-sm sm:text-base outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
+              className="flex-1 min-w-0 rounded-xl bg-white/5 border border-white/10 px-3.5 py-3 text-sm sm:text-base outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
             />
             {options.length > 2 && (
               <button
                 type="button"
                 onClick={() => removeOption(i)}
-                className="rounded-lg w-8 h-8 flex items-center justify-center text-white/40 hover:text-red-400 hover:bg-red-500/10 transition"
+                className="rounded-lg w-11 h-11 shrink-0 flex items-center justify-center text-xl leading-none text-white/40 hover:text-red-400 hover:bg-red-500/10 transition"
                 aria-label="Supprimer"
               >
                 ×
@@ -120,13 +120,18 @@ export default function CreatePollForm() {
           </div>
         ))}
         {options.length < 6 && (
-          <button
-            type="button"
-            onClick={addOption}
-            className="text-xs text-white/50 hover:text-white transition ml-8"
-          >
-            {t("form.add")}
-          </button>
+          <div className="flex gap-2 items-center">
+            <span className="w-6 shrink-0" aria-hidden />
+            <button
+              type="button"
+              onClick={addOption}
+              aria-label={t("form.add")}
+              className="flex-1 min-h-[44px] rounded-xl border border-dashed border-white/15 bg-white/[0.02] text-white/40 hover:text-white hover:border-pink-400/40 hover:bg-white/5 transition text-sm font-medium flex items-center justify-center gap-1.5"
+            >
+              <span className="text-lg leading-none">+</span>
+              <span className="hidden sm:inline">{t("form.add").replace(/^[+\s]+/, "")}</span>
+            </button>
+          </div>
         )}
       </div>
 

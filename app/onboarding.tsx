@@ -41,9 +41,9 @@ export default function Onboarding() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
-      <div className="glass rounded-3xl p-5 sm:p-6 w-full max-w-md space-y-5 shadow-2xl shadow-pink-500/30 border-pink-400/40 fade-up">
-        <div className="space-y-1 text-center">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center sm:p-4 bg-black/60 backdrop-blur-sm">
+      <div className="glass rounded-t-3xl sm:rounded-3xl w-full max-w-md max-h-[92vh] sm:max-h-[88vh] flex flex-col shadow-2xl shadow-pink-500/30 border-pink-400/40 fade-up">
+        <div className="px-5 sm:px-6 pt-5 sm:pt-6 pb-3 space-y-1 text-center shrink-0">
           <h2 className="font-display text-3xl bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
             Bienvenue
           </h2>
@@ -52,38 +52,40 @@ export default function Onboarding() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-2">
-          {TOPICS.map((t) => {
-            const active = picked.has(t.id);
-            return (
-              <button
-                key={t.id}
-                onClick={() => toggle(t.id)}
-                className={`flex items-center gap-2 rounded-xl px-3 py-2.5 transition border ${
-                  active
-                    ? "bg-gradient-to-r from-pink-500/30 to-purple-500/30 border-pink-400/60 scale-[1.02]"
-                    : "bg-white/5 border-white/10 hover:bg-white/10"
-                }`}
-              >
-                <span className="text-xl">{t.emoji}</span>
-                <span className="text-sm font-medium">{t.label}</span>
-              </button>
-            );
-          })}
+        <div className="overflow-y-auto px-5 sm:px-6 py-2 flex-1">
+          <div className="grid grid-cols-2 gap-2">
+            {TOPICS.map((t) => {
+              const active = picked.has(t.id);
+              return (
+                <button
+                  key={t.id}
+                  onClick={() => toggle(t.id)}
+                  className={`min-h-[44px] flex items-center gap-2 rounded-xl px-3 py-2.5 transition border text-left ${
+                    active
+                      ? "bg-gradient-to-r from-pink-500/30 to-purple-500/30 border-pink-400/60 scale-[1.02]"
+                      : "bg-white/5 border-white/10 hover:bg-white/10"
+                  }`}
+                >
+                  <span className="text-xl shrink-0" aria-hidden>{t.emoji}</span>
+                  <span className="text-sm font-medium break-words min-w-0">{t.label}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 px-5 sm:px-6 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] border-t border-white/5 shrink-0 bg-white/[0.02] backdrop-blur-sm rounded-b-3xl">
           <button
             onClick={skip}
             disabled={saving}
-            className="rounded-xl bg-white/5 border border-white/10 text-white/60 font-medium py-2.5 px-4 text-sm hover:bg-white/10 transition"
+            className="min-h-[44px] rounded-xl bg-white/5 border border-white/10 text-white/60 font-medium px-4 text-sm hover:bg-white/10 transition shrink-0"
           >
             Plus tard
           </button>
           <button
             onClick={submit}
             disabled={saving || picked.size === 0}
-            className="flex-1 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-2.5 hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
+            className="flex-1 min-h-[44px] rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
           >
             {picked.size === 0 ? "Choisis-en au moins 1" : "C'est parti →"}
           </button>
