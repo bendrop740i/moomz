@@ -1,13 +1,21 @@
 import Link from "next/link";
-import type { SeoPage } from "@/lib/seo/types";
+import type { SeoPage, Locale } from "@/lib/seo/types";
 import { pageUrl, pollLaunchUrl } from "@/lib/seo/types";
 import { relatedPages } from "@/lib/seo";
+import { BreadcrumbJsonLd, buildBreadcrumbs } from "./json-ld";
+import {
+  Breadcrumb,
+  CrossLinkGrid,
+  ExploreThemes,
+  SameCategoryPills,
+  getFooterLabels,
+} from "./related-grid";
 
 type Props = {
   page: SeoPage;
 };
 
-const CTA_LABELS: Record<string, { create: string; ideas: string; back: string; faq: string; tryNow: string; related: string }> = {
+const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; faq: string; tryNow: string; related: string }> = {
   fr: {
     create: "Crée ton sondage moomz",
     ideas: "Idées de sondage prêtes à lancer",
@@ -76,10 +84,19 @@ const CTA_LABELS: Record<string, { create: string; ideas: string; back: string; 
 
 export default function SeoPageView({ page }: Props) {
   const labels = CTA_LABELS[page.locale] ?? CTA_LABELS.en;
+  const footerLabels = getFooterLabels(page.locale);
   const related = relatedPages(page);
+  // Pick the first 1-2 polls for the prominent "similar poll" CTA at the very
+  // bottom — they double-duty as a final conversion handle.
+  const ctaPolls = page.polls.slice(0, 2);
+
+  const breadcrumbItems = buildBreadcrumbs(page);
 
   return (
     <article className="space-y-8 fade-up">
+      <BreadcrumbJsonLd items={breadcrumbItems} />
+      <Breadcrumb page={page} />
+
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
           <Link
@@ -159,6 +176,12 @@ export default function SeoPageView({ page }: Props) {
         </section>
       )}
 
+      {/*
+        Legacy "related" grid (from page.related). Kept for backward compat —
+        the new rich CrossLinkGrid below replaces it semantically but we
+        preserve this section to avoid breaking pages that hand-curated their
+        related list.
+      */}
       {related.length > 0 && (
         <section className="space-y-3">
           <h2 className="font-semibold text-xl text-white">{labels.related}</h2>
@@ -176,6 +199,49 @@ export default function SeoPageView({ page }: Props) {
                 </div>
               </Link>
             ))}
+          </div>
+        </section>
+      )}
+
+      {/* New rich cross-link grid */}
+      <CrossLinkGrid page={page} max={8} />
+
+      {/* Same-category pill row */}
+      <SameCategoryPills page={page} max={12} />
+
+      {/* Top-level hubs in this locale */}
+      <ExploreThemes locale={page.locale} />
+
+      {/* Similar-poll prominent CTA — visually loud, non-sticky */}
+      {ctaPolls.length > 0 && (
+        <section className="space-y-3">
+          <div className="rounded-2xl bg-gradient-to-br from-pink-500/15 via-purple-600/10 to-pink-500/15 border border-pink-400/30 p-5 sm:p-6 space-y-4">
+            <div className="space-y-1">
+              <div className="font-display text-2xl text-white">
+                {footerLabels.similarPoll}
+              </div>
+              <p className="text-sm text-white/60">{footerLabels.similarPollSub}</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {ctaPolls.map((p, i) => (
+                <Link
+                  key={i}
+                  href={pollLaunchUrl(p)}
+                  className="block rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition p-3 group"
+                >
+                  <div className="text-sm font-medium text-white line-clamp-2">
+                    {p.q}
+                  </div>
+                  <div className="text-xs text-white/40 mt-1 line-clamp-1">
+                    {p.options.join(" · ")}
+                  </div>
+                  <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-pink-500/20 border border-pink-400/30 px-3 py-1 text-xs font-medium text-pink-200 group-hover:bg-pink-500/30 transition">
+                    {footerLabels.launchPoll}
+                    <span aria-hidden="true">→</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}

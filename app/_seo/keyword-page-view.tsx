@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
 import type { KeywordPage } from "@/lib/seo/keywords/types";
 import { keywordUrl } from "@/lib/seo/keywords/types";
-import { findKeyword } from "@/lib/seo/keywords/loader";
+import { findKeyword, keywordsByLocale } from "@/lib/seo/keywords/loader";
 
 type MatchedPoll = {
   slug: string;
@@ -11,7 +11,7 @@ type MatchedPoll = {
   vote_count: number | null;
 };
 
-async function fetchMatchingPolls(page: KeywordPage, limit = 24): Promise<MatchedPoll[]> {
+async function fetchMatchingPolls(page: KeywordPage, limit = 8): Promise<MatchedPoll[]> {
   const supabase = getSupabase();
   const patterns = page.matchPatterns
     .filter((p) => p && p.length >= 3 && !/[,()]/.test(p))
@@ -28,40 +28,127 @@ async function fetchMatchingPolls(page: KeywordPage, limit = 24): Promise<Matche
   return (data as MatchedPoll[]) ?? [];
 }
 
-const LABELS = {
+type KeywordLabels = {
+  crumb: string;
+  polls: string;
+  pollsEmpty: string;
+  related: string;
+  similar: string;
+  create: string;
+  faq: string;
+};
+
+const LABELS: Record<string, KeywordLabels> = {
   fr: {
     crumb: "mots-clés",
-    polls: "Sondages moomz qui en parlent",
+    polls: "Sondages avec ce mot",
     pollsEmpty: "Aucun moomz n'utilise encore ce mot — sois le premier.",
     related: "À explorer aussi",
+    similar: "Mots similaires",
     create: "Crée ton sondage moomz",
     faq: "Questions fréquentes",
   },
   en: {
     crumb: "keywords",
-    polls: "moomz polls about this",
+    polls: "Polls with this word",
     pollsEmpty: "No moomz uses this word yet — be the first.",
     related: "Explore more",
+    similar: "Similar words",
     create: "Create your moomz poll",
     faq: "Frequently asked",
   },
+  es: {
+    crumb: "palabras clave",
+    polls: "Encuestas con esta palabra",
+    pollsEmpty: "Aún ningún moomz usa esta palabra — sé el primero.",
+    related: "Explora también",
+    similar: "Palabras similares",
+    create: "Crea tu encuesta moomz",
+    faq: "Preguntas frecuentes",
+  },
+  it: {
+    crumb: "parole chiave",
+    polls: "Sondaggi con questa parola",
+    pollsEmpty: "Nessun moomz usa ancora questa parola — sii il primo.",
+    related: "Esplora anche",
+    similar: "Parole simili",
+    create: "Crea il tuo sondaggio moomz",
+    faq: "Domande frequenti",
+  },
+  pt: {
+    crumb: "palavras-chave",
+    polls: "Enquetes com esta palavra",
+    pollsEmpty: "Nenhum moomz usa essa palavra ainda — seja o primeiro.",
+    related: "Explorar mais",
+    similar: "Palavras similares",
+    create: "Crie sua enquete moomz",
+    faq: "Perguntas frequentes",
+  },
+  de: {
+    crumb: "stichwörter",
+    polls: "Umfragen mit diesem Wort",
+    pollsEmpty: "Noch kein moomz mit diesem Wort — sei der Erste.",
+    related: "Weitere Themen",
+    similar: "Ähnliche Wörter",
+    create: "Erstelle deine moomz-Umfrage",
+    faq: "Häufige Fragen",
+  },
+  ja: {
+    crumb: "キーワード",
+    polls: "このワードの投票",
+    pollsEmpty: "このワードを使ったmoomzはまだなし — 最初の一人になろう。",
+    related: "もっと見る",
+    similar: "似た単語",
+    create: "moomz投票を作成",
+    faq: "よくある質問",
+  },
+  zh: {
+    crumb: "关键词",
+    polls: "含此词的投票",
+    pollsEmpty: "还没有moomz用这个词 — 来当第一个吧。",
+    related: "更多探索",
+    similar: "相关词",
+    create: "创建你的moomz投票",
+    faq: "常见问题",
+  },
 };
 
+function pickSimilarKeywords(page: KeywordPage, limit = 12): KeywordPage[] {
+  const all = keywordsByLocale(page.locale).filter(
+    (k) => !(k.slug === page.slug),
+  );
+  if (page.topic) {
+    const sameTopic = all.filter((k) => k.topic === page.topic);
+    // De-prioritize ones already in the explicit `related` list so we surface
+    // fresh links instead of repeating them.
+    const explicitSet = new Set(page.related);
+    const fresh = sameTopic.filter((k) => !explicitSet.has(k.slug));
+    const dupes = sameTopic.filter((k) => explicitSet.has(k.slug));
+    const combined = [...fresh, ...dupes];
+    if (combined.length >= limit) return combined.slice(0, limit);
+    // Pad with other-topic keywords if we still need more.
+    const seen = new Set(combined.map((c) => c.slug));
+    const others = all.filter((k) => !seen.has(k.slug)).slice(0, limit - combined.length);
+    return [...combined, ...others];
+  }
+  return all.slice(0, limit);
+}
+
 export default async function KeywordPageView({ page }: { page: KeywordPage }) {
-  const labels = LABELS[page.locale];
+  const labels = LABELS[page.locale] ?? LABELS.en;
   const polls = await fetchMatchingPolls(page);
   const related = page.related
     .map((s) => findKeyword(page.locale, s))
     .filter((p): p is KeywordPage => Boolean(p));
+  const similar = pickSimilarKeywords(page, 12);
+  const hubHref =
+    page.locale === "fr" ? "/mot" : page.locale === "en" ? "/word" : `/topic/${page.locale}`;
 
   return (
     <article className="space-y-8 fade-up">
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link
-            href={page.locale === "fr" ? "/mot" : "/word"}
-            className="hover:text-white transition"
-          >
+          <Link href={hubHref} className="hover:text-white transition">
             {labels.crumb}
           </Link>
           <span>·</span>
@@ -147,6 +234,24 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
               >
                 {r.emoji ? <span className="mr-1">{r.emoji}</span> : null}
                 {r.keyword}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {similar.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="font-semibold text-xl text-white">{labels.similar}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+            {similar.map((r) => (
+              <Link
+                key={r.slug}
+                href={keywordUrl(r)}
+                className="glass rounded-xl px-3 py-2 hover:bg-white/10 transition flex items-center gap-2"
+              >
+                {r.emoji ? <span className="text-xl">{r.emoji}</span> : null}
+                <span className="text-sm text-white/80 truncate">{r.keyword}</span>
               </Link>
             ))}
           </div>
