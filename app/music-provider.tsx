@@ -91,7 +91,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       pushRecent(track.id);
       const el = audioRef.current;
       if (!el) return;
-      el.src = track.blob_url;
+      // /api/track/[id] redirects to a freshly-signed Vercel Blob URL each play.
+      el.src = `/api/track/${track.id}`;
       el.volume = volume;
       try {
         el.load();

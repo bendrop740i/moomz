@@ -84,14 +84,15 @@ async function uploadOne(filepath) {
   const slug = slugifyForKey(title);
   const pathname = `tracks/${slug}.mp3`;
   const stream = createReadStream(filepath);
-  const blob = await put(pathname, stream, {
-    access: "public",
+  await put(pathname, stream, {
+    access: "private",
     token: BLOB_TOKEN,
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "audio/mpeg",
   });
-  return { title, blob_url: blob.url };
+  // Store the stable pathname; the /api/track/[id] route re-signs a fresh URL on each play.
+  return { title, blob_url: pathname };
 }
 
 async function main() {
@@ -115,8 +116,9 @@ async function main() {
 
   const todo = [...byTitle.entries()].filter(([title]) => {
     const slug = slugifyForKey(title);
-    const expectedUrl = `https://${slug}`; // can't predict exact host, so check more loosely below
-    return ![...existing].some((u) => u.includes(`/tracks/${slug}.mp3`));
+    const pathname = `tracks/${slug}.mp3`;
+    // blob_url stores either a full URL (legacy) or the pathname (new private-blob flow).
+    return ![...existing].some((u) => u === pathname || u.includes(`/tracks/${slug}.mp3`));
   });
   console.log(`To upload: ${todo.length}`);
 
