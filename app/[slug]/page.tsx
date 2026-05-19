@@ -8,6 +8,8 @@ import MarkSeenIfOwner from "../mark-seen-if-owner";
 import ProfileView from "./profile-view";
 import PollExplainer from "./poll-explainer";
 import KeywordChips from "./keyword-chips";
+import BelowPollSeo from "./below-poll-seo";
+import BelowProfileSeo from "./below-profile-seo";
 import type { AskItem } from "./ask-section";
 
 export const dynamic = "force-dynamic";
@@ -175,17 +177,19 @@ export default async function Page({ params }: { params: { slug: string } }) {
               pending,
             }}
           />
+          <BelowProfileSeo profileId={profile.id} locale={null} />
         </>
       );
     }
   }
 
-  // Project only the columns this view needs (was select("*")).
+  // Project only the columns this view needs (was select("*")). `topics` is
+  // pulled to drive the BelowPollSeo similar-polls query + topic pills.
   const { data: poll } = await supabase
     .from("polls")
-    .select("id,slug,question,options,created_at,explainer,lang")
+    .select("id,slug,question,options,created_at,explainer,lang,topics")
     .eq("slug", handle)
-    .maybeSingle<Poll>();
+    .maybeSingle<Poll & { topics: string[] | null }>();
 
   if (!poll) notFound();
 
@@ -298,6 +302,13 @@ export default async function Page({ params }: { params: { slug: string } }) {
       />
       <PollExplainer slug={poll.slug} options={poll.options} explainer={poll.explainer} />
       <KeywordChips question={poll.question} options={poll.options} lang={poll.lang} />
+      <BelowPollSeo
+        pollId={poll.id}
+        question={poll.question}
+        options={poll.options}
+        topics={(poll as { topics?: string[] | null }).topics ?? null}
+        lang={poll.lang}
+      />
     </>
   );
 }
