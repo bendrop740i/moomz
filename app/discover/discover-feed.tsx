@@ -49,19 +49,28 @@ export default function DiscoverFeed({
   const scrollToNext = () => {
     const el = containerRef.current;
     if (!el) return;
-    const slideHeight = el.clientHeight;
-    el.scrollTo({ top: el.scrollTop + slideHeight, behavior: "smooth" });
+    const nextIdx = activeIdx + 1;
+    const target = el.children[nextIdx] as HTMLElement | undefined;
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      el.scrollTo({ top: el.scrollTop + el.clientHeight, behavior: "smooth" });
+    }
   };
 
   if (polls.length === 0) {
     return (
-      <div className="h-[calc(100vh-6rem)] flex flex-col items-center justify-center gap-4 text-center px-6">
-        <div className="text-6xl">🌶️</div>
-        <p className="text-white/70 text-lg">{t("discover.empty")}</p>
-        <p className="text-white/40 text-sm">{t("discover.emptyHint")}</p>
+      <div className="min-h-[70dvh] flex flex-col items-center justify-center gap-5 text-center px-6 py-10">
+        <div className="text-7xl sm:text-8xl animate-bounce drop-shadow-[0_8px_24px_rgba(236,72,153,0.35)]">
+          🎉
+        </div>
+        <p className="font-display text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+          {t("discover.empty")}
+        </p>
+        <p className="text-white/50 text-sm max-w-xs">{t("discover.emptyHint")}</p>
         <Link
           href="/"
-          className="rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 px-6 mt-2 hover:scale-[1.02] transition"
+          className="inline-flex items-center justify-center min-h-[44px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 px-7 mt-2 shadow-lg shadow-pink-500/30 hover:scale-[1.03] active:scale-[0.98] transition"
         >
           {t("discover.create")}
         </Link>
@@ -75,8 +84,8 @@ export default function DiscoverFeed({
     <div className="relative">
       <div
         ref={containerRef}
-        className="snap-y snap-mandatory overflow-y-scroll h-[calc(100vh-6rem)] scrollbar-hide"
-        style={{ scrollSnapStop: "always" }}
+        className="snap-y snap-mandatory overflow-y-scroll overscroll-y-contain h-[100dvh] scrollbar-hide"
+        style={{ scrollSnapStop: "always", WebkitOverflowScrolling: "touch" }}
       >
         {polls.map((p, i) => {
           const isHot = topScore > 0 && p.trending_score >= topScore * 0.6 && p.vote_count >= 3;
@@ -88,9 +97,9 @@ export default function DiscoverFeed({
           return (
             <section
               key={p.id}
-              className="snap-start h-[calc(100vh-6rem)] flex items-center justify-center px-1 py-3"
+              className="snap-start h-[100dvh] flex items-center justify-center px-2 pt-[calc(env(safe-area-inset-top)+3.5rem)] pb-[calc(env(safe-area-inset-bottom)+5rem)]"
             >
-              <div className="w-full">
+              <div className="w-full max-w-md mx-auto">
                 <PollCard
                   pollId={p.id}
                   slug={p.slug}
@@ -114,7 +123,10 @@ export default function DiscoverFeed({
         })}
       </div>
 
-      <div className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-1.5">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute right-1.5 sm:right-2 top-1/2 -translate-y-1/2 hidden min-[360px]:flex flex-col gap-1.5"
+      >
         {polls.map((_, i) => (
           <span
             key={i}

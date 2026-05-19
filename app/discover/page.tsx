@@ -47,12 +47,12 @@ export default async function DiscoverPage() {
   const topScore = rows[0]?.trending_score ?? 0;
 
   return (
-    <div className="fade-up -mx-5 -mt-8 sm:-mt-12">
-      <header className="px-5 pb-3 pt-1 flex items-center justify-between">
-        <h1 className="font-display text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+    <div className="fade-up -mx-5 -mt-8 sm:-mt-12 -mb-28">
+      <header className="absolute left-0 right-0 top-0 z-20 px-5 pt-[calc(env(safe-area-inset-top)+0.5rem)] pb-3 flex items-center justify-between bg-gradient-to-b from-[#0b0613]/80 via-[#0b0613]/40 to-transparent backdrop-blur-sm pointer-events-none">
+        <h1 className="font-display text-2xl sm:text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent pointer-events-auto">
           {tx("discover.title")}
         </h1>
-        <span className="text-[10px] uppercase tracking-widest text-white/40">
+        <span className="text-[10px] uppercase tracking-widest text-white/50 pointer-events-auto">
           {polls.length} {tx("discover.count")}
           {polls.length > 1 ? "s" : ""}
         </span>
