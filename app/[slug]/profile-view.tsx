@@ -1,7 +1,8 @@
-import Link from "next/link";
 import type { Profile } from "@/lib/profile";
-import { emojisFor } from "@/lib/emojis";
 import { ACHIEVEMENT_ORDER, ACHIEVEMENTS, type AchievementId } from "@/lib/achievements";
+import ShareLinker from "./share-linker";
+import MadeWithMoomz from "./made-with-moomz";
+import LinkerPollsGrid from "./linker-polls-grid";
 
 type PollRow = {
   slug: string;
@@ -54,7 +55,8 @@ export default function ProfileView({
 
   return (
     <div className="space-y-6 fade-up">
-      <header className="glass rounded-3xl p-5 sm:p-6 space-y-4 text-center">
+      <header className="glass relative rounded-3xl p-5 sm:p-6 space-y-4 text-center">
+        <ShareLinker username={profile.username} displayName={profile.display_name} />
         <div className="text-6xl">{profile.avatar_emoji}</div>
         <div className="space-y-1">
           <h1 className="text-2xl font-bold tracking-tight">
@@ -135,48 +137,11 @@ export default function ProfileView({
           <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
             Ses sondages
           </h2>
-          <div className="space-y-2">
-            {polls.map((p, idx) => {
-              const E = emojisFor(p.slug, p.options.length);
-              return (
-                <Link
-                  key={p.slug}
-                  href={`/${p.slug}`}
-                  className="glass block rounded-xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
-                  style={{ ["--i" as string]: idx }}
-                >
-                  <div className="flex items-start justify-between gap-2.5">
-                    <div className="min-w-0 flex-1 space-y-1">
-                      <p className="font-semibold text-sm sm:text-base leading-snug line-clamp-2 group-hover:text-white">
-                        {p.question}
-                      </p>
-                      <div className="flex items-center gap-1 text-[10px] sm:text-xs text-white/40 flex-wrap">
-                        {p.options.slice(0, 4).map((opt, i) => (
-                          <span
-                            key={i}
-                            className="inline-flex items-center gap-0.5 bg-white/5 rounded-full px-1.5 py-0.5"
-                          >
-                            <span>{E[i]}</span>
-                            <span className="truncate max-w-[60px] sm:max-w-[80px]">{opt}</span>
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="text-right shrink-0">
-                      <div className="text-pink-300 font-semibold tabular-nums text-sm">
-                        {p.vote_count}
-                      </div>
-                      <div className="text-[9px] uppercase tracking-wide text-white/30">
-                        votes
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          <LinkerPollsGrid polls={polls} />
         </section>
       )}
+
+      <MadeWithMoomz />
     </div>
   );
 }

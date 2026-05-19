@@ -102,6 +102,21 @@ const fr: Dict = {
   "install.ios.title": "Installer sur iPhone",
   "install.ios.body": "Tape l'icône Partage en bas de Safari (⎙), puis « Sur l'écran d'accueil ».",
   "install.dismiss": "Fermer",
+
+  "linker.share.aria": "Partager mon linker",
+  "linker.share.label": "Partager",
+  "linker.share.copied": "Copié",
+  "linker.share.text": "{name} sur moomz — pose-moi une question anonyme ou check mes vibes 👀",
+  "linker.polls.heading": "Ses sondages",
+  "linker.polls.empty": "Pas encore de sondages publiés.",
+  "linker.achievements": "🏆 Achievements",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "votes",
+  "linker.stats.points": "pts",
+  "linker.stats.streak": "streak",
+  "linker.cta.badge": "✨ Propulsé par moomz",
+  "linker.cta.title": "Crée ton linker gratuit",
+  "linker.cta.body": "Profil + vibe checks + questions anonymes. En 10 secondes.",
 };
 
 const en: Dict = {
@@ -192,6 +207,21 @@ const en: Dict = {
   "install.ios.title": "Install on iPhone",
   "install.ios.body": "Tap the Share icon at the bottom of Safari (⎙), then choose 'Add to Home Screen'.",
   "install.dismiss": "Close",
+
+  "linker.share.aria": "Share my linker",
+  "linker.share.label": "Share",
+  "linker.share.copied": "Copied",
+  "linker.share.text": "{name} on moomz — drop me an anonymous question or check my vibes 👀",
+  "linker.polls.heading": "Their moomz",
+  "linker.polls.empty": "No polls published yet.",
+  "linker.achievements": "🏆 Achievements",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "votes",
+  "linker.stats.points": "pts",
+  "linker.stats.streak": "streak",
+  "linker.cta.badge": "✨ Powered by moomz",
+  "linker.cta.title": "Make your free linker",
+  "linker.cta.body": "Profile + vibe checks + anonymous Q&A. In 10 seconds.",
 };
 
 const es: Dict = {
@@ -281,6 +311,21 @@ const es: Dict = {
   "install.ios.title": "Instalar en iPhone",
   "install.ios.body": "Toca el icono Compartir (⎙) en Safari, luego elige 'Añadir a la pantalla de inicio'.",
   "install.dismiss": "Cerrar",
+
+  "linker.share.aria": "Compartir mi linker",
+  "linker.share.label": "Compartir",
+  "linker.share.copied": "Copiado",
+  "linker.share.text": "{name} en moomz — mándame una pregunta anónima o mira mis vibes 👀",
+  "linker.polls.heading": "Sus moomz",
+  "linker.polls.empty": "Aún no hay encuestas publicadas.",
+  "linker.achievements": "🏆 Logros",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "votos",
+  "linker.stats.points": "pts",
+  "linker.stats.streak": "racha",
+  "linker.cta.badge": "✨ Hecho con moomz",
+  "linker.cta.title": "Crea tu linker gratis",
+  "linker.cta.body": "Perfil + vibe checks + preguntas anónimas. En 10 segundos.",
 };
 
 const it: Dict = {
@@ -370,6 +415,21 @@ const it: Dict = {
   "install.ios.title": "Installa su iPhone",
   "install.ios.body": "Tocca l'icona Condividi (⎙) in basso su Safari, poi 'Aggiungi alla schermata Home'.",
   "install.dismiss": "Chiudi",
+
+  "linker.share.aria": "Condividi il mio linker",
+  "linker.share.label": "Condividi",
+  "linker.share.copied": "Copiato",
+  "linker.share.text": "{name} su moomz — mandami una domanda anonima o guarda i miei vibe 👀",
+  "linker.polls.heading": "I suoi moomz",
+  "linker.polls.empty": "Nessun sondaggio pubblicato.",
+  "linker.achievements": "🏆 Achievement",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "voti",
+  "linker.stats.points": "pt",
+  "linker.stats.streak": "streak",
+  "linker.cta.badge": "✨ Creato con moomz",
+  "linker.cta.title": "Crea il tuo linker gratis",
+  "linker.cta.body": "Profilo + vibe check + domande anonime. In 10 secondi.",
 };
 
 const pt: Dict = {
@@ -431,6 +491,21 @@ const pt: Dict = {
   "install.ios.title": "Instalar no iPhone",
   "install.ios.body": "Toque no ícone Compartilhar (⎙) na parte inferior do Safari e escolha 'Adicionar à Tela de Início'.",
   "install.dismiss": "Fechar",
+
+  "linker.share.aria": "Partilhar o meu linker",
+  "linker.share.label": "Partilhar",
+  "linker.share.copied": "Copiado",
+  "linker.share.text": "{name} no moomz — manda uma pergunta anônima ou vê as minhas vibes 👀",
+  "linker.polls.heading": "Os seus moomz",
+  "linker.polls.empty": "Ainda sem sondagens publicadas.",
+  "linker.achievements": "🏆 Conquistas",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "votos",
+  "linker.stats.points": "pts",
+  "linker.stats.streak": "streak",
+  "linker.cta.badge": "✨ Feito com moomz",
+  "linker.cta.title": "Cria o teu linker grátis",
+  "linker.cta.body": "Perfil + vibe checks + perguntas anônimas. Em 10 segundos.",
 };
 
 const de: Dict = {
@@ -492,6 +567,21 @@ const de: Dict = {
   "install.ios.title": "Auf dem iPhone installieren",
   "install.ios.body": "Tippe in Safari unten auf das Teilen-Symbol (⎙), dann auf 'Zum Home-Bildschirm'.",
   "install.dismiss": "Schließen",
+
+  "linker.share.aria": "Meinen Linker teilen",
+  "linker.share.label": "Teilen",
+  "linker.share.copied": "Kopiert",
+  "linker.share.text": "{name} auf moomz — stell mir eine anonyme Frage oder check meine Vibes 👀",
+  "linker.polls.heading": "Seine moomz",
+  "linker.polls.empty": "Noch keine Umfragen veröffentlicht.",
+  "linker.achievements": "🏆 Erfolge",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "Votes",
+  "linker.stats.points": "Pkt",
+  "linker.stats.streak": "Streak",
+  "linker.cta.badge": "✨ Powered by moomz",
+  "linker.cta.title": "Mach deinen Linker — gratis",
+  "linker.cta.body": "Profil + Vibe-Checks + anonyme Fragen. In 10 Sekunden.",
 };
 
 const ja: Dict = {
@@ -553,6 +643,21 @@ const ja: Dict = {
   "install.ios.title": "iPhone にインストール",
   "install.ios.body": "Safari 下部の共有アイコン（⎙）→『ホーム画面に追加』をタップ。",
   "install.dismiss": "閉じる",
+
+  "linker.share.aria": "リンカーをシェア",
+  "linker.share.label": "シェア",
+  "linker.share.copied": "コピーしました",
+  "linker.share.text": "{name} の moomz — 匿名で質問送って、バイブスもチェック 👀",
+  "linker.polls.heading": "投稿された moomz",
+  "linker.polls.empty": "まだ投稿された投票はありません。",
+  "linker.achievements": "🏆 アチーブメント",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "票",
+  "linker.stats.points": "pt",
+  "linker.stats.streak": "ストリーク",
+  "linker.cta.badge": "✨ moomz で作成",
+  "linker.cta.title": "無料でリンカーを作ろう",
+  "linker.cta.body": "プロフィール + バイブチェック + 匿名質問。10秒で完成。",
 };
 
 const zh: Dict = {
@@ -614,6 +719,21 @@ const zh: Dict = {
   "install.ios.title": "在 iPhone 上安装",
   "install.ios.body": "在 Safari 底部点击分享图标（⎙），选择「添加到主屏幕」。",
   "install.dismiss": "关闭",
+
+  "linker.share.aria": "分享我的 linker",
+  "linker.share.label": "分享",
+  "linker.share.copied": "已复制",
+  "linker.share.text": "{name} 在 moomz — 给我发匿名提问，看看我的 vibes 👀",
+  "linker.polls.heading": "TA 的 moomz",
+  "linker.polls.empty": "还没有发布投票。",
+  "linker.achievements": "🏆 成就",
+  "linker.stats.moomz": "moomz",
+  "linker.stats.votes": "票",
+  "linker.stats.points": "分",
+  "linker.stats.streak": "连击",
+  "linker.cta.badge": "✨ moomz 出品",
+  "linker.cta.title": "免费创建你的 linker",
+  "linker.cta.body": "个人主页 + vibe 投票 + 匿名提问。10 秒搞定。",
 };
 
 const DICTS: Record<Locale, Dict> = { fr, en, es, it, pt, de, ja, zh };
