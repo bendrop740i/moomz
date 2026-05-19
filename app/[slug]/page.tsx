@@ -6,6 +6,7 @@ import { getProfileByUsername } from "@/lib/profile";
 import VoteClient from "./vote-client";
 import MarkSeenIfOwner from "../mark-seen-if-owner";
 import ProfileView from "./profile-view";
+import PollExplainer from "./poll-explainer";
 
 export const dynamic = "force-dynamic";
 
@@ -33,19 +34,37 @@ export async function generateMetadata({
 
   const { data: poll } = await supabase
     .from("polls")
-    .select("question")
+    .select("question,explainer,lang,options")
     .eq("slug", handle)
-    .maybeSingle<{ question: string }>();
+    .maybeSingle<{ question: string; explainer: Record<string, string> | null; lang: string | null; options: string[] }>();
 
   const title = poll ? `${poll.question} — moomz` : "moomz";
-  const description = poll
-    ? "Vote en 1 clic. Vois les résultats en live."
-    : "Crée ton sondage en 10 secondes.";
+
+  // Use the first explainer paragraph as the description when available — much
+  // richer + keyword-dense vs the generic "Vote en 1 clic" fallback. Google /
+  // social previews love unique meta descriptions.
+  let description: string;
+  if (poll) {
+    const firstExplainer =
+      poll.explainer && typeof poll.explainer === "object"
+        ? Object.values(poll.explainer).filter(Boolean)[0]
+        : null;
+    if (firstExplainer) {
+      description = String(firstExplainer).slice(0, 200);
+    } else {
+      description = `Vote sur "${poll.question}" — découvre ce que les gens pensent vraiment, et compare ton choix.`.slice(0, 200);
+    }
+  } else {
+    description = "Crée ton sondage en 10 secondes.";
+  }
+
+  const canonical = `https://moomz.com/${handle}`;
 
   return {
     title,
     description,
-    openGraph: { title, description, type: "website" },
+    alternates: { canonical },
+    openGraph: { title, description, type: "website", url: canonical },
     twitter: { card: "summary_large_image", title, description },
   };
 }
@@ -102,8 +121,36 @@ export default async function Page({ params }: { params: { slug: string } }) {
   const votedRaw = cookies().get(`moomz_voted_${poll.slug}`)?.value;
   const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
 
+  // Schema.org JSON-LD — helps Google parse poll as a Q&A page.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "QAPage",
+    mainEntity: {
+      "@type": "Question",
+      name: poll.question,
+      text: poll.question,
+      dateCreated: poll.created_at,
+      answerCount: poll.options.length,
+      suggestedAnswer: poll.options.map((opt, i) => ({
+        "@type": "Answer",
+        text: opt,
+        ...(poll.explainer && typeof poll.explainer === "object" && poll.explainer[String(i)]
+          ? { description: poll.explainer[String(i)] }
+          : {}),
+        upvoteCount: counts[i] ?? 0,
+      })),
+    },
+    inLanguage: poll.lang ?? "fr",
+    url: `https://moomz.com/${poll.slug}`,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <MarkSeenIfOwner slug={poll.slug} voteCount={total} />
       <VoteClient
         pollId={poll.id}
@@ -114,6 +161,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
         total={total}
         alreadyVoted={alreadyVoted}
       />
+      <PollExplainer slug={poll.slug} options={poll.options} explainer={poll.explainer} />
     </>
   );
 }

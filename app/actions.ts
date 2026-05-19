@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
 import { getServerSupabase } from "@/lib/supabase-server";
 import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
+import { buildPollSlug, randomSuffix } from "@/lib/slug";
 
 type ProfileLookup =
   | { kind: "user"; userId: string }
@@ -26,13 +27,6 @@ function applyLookup(q: any, lookup: ProfileLookup): any {
     : q.eq("claim_token", lookup.token);
 }
 
-const ALPHABET = "abcdefghijkmnopqrstuvwxyz23456789";
-
-function randomSlug(len = 5) {
-  let s = "";
-  for (let i = 0; i < len; i++) s += ALPHABET[Math.floor(Math.random() * ALPHABET.length)];
-  return s;
-}
 
 function voterId() {
   const jar = cookies();
@@ -110,11 +104,12 @@ export async function createPoll(formData: FormData) {
   }
 
   const supabase = getSupabase();
-  let slug = randomSlug();
+  let slug = buildPollSlug(question);
   for (let i = 0; i < 5; i++) {
     const { data } = await supabase.from("polls").select("id").eq("slug", slug).maybeSingle();
     if (!data) break;
-    slug = randomSlug();
+    // Append a number on collision: "...-3xkr-2", "...-3xkr-3" → SEO + uniqueness
+    slug = `${buildPollSlug(question).replace(/-[a-z0-9]{4}$/, "")}-${randomSuffix(4)}-${i + 2}`;
   }
 
   let profileId: string | null = null;
@@ -141,6 +136,10 @@ export async function createPoll(formData: FormData) {
   }
 
   const topics = tagQuestion(question, optionsRaw);
+  const langCookie = cookies().get("moomz_locale")?.value;
+  const lang = ["fr","en","es","it","pt","de","ja","zh"].includes(langCookie ?? "")
+    ? langCookie!
+    : "fr";
 
   const { error } = await supabase.from("polls").insert({
     slug,
@@ -148,6 +147,7 @@ export async function createPoll(formData: FormData) {
     options: optionsRaw,
     profile_id: profileId,
     topics,
+    lang,
   });
   if (error) throw new Error(error.message);
 

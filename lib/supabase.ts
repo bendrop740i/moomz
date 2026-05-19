@@ -21,4 +21,6 @@ export type Poll = {
   question: string;
   options: string[];
   created_at: string;
+  explainer?: Record<string, string> | null;
+  lang?: string | null;
 };
