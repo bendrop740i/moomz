@@ -1,0 +1,7 @@
+[
+{"q":"Tu réponds 'lol' à un meme ?","o":["Toujours 😂","'mdr' 🤣","Emoji rire 😄","Rien, je like 👍"],"e":{"0":"Génération millennial.","1":"Lol c'est dépassé.","2":"Emoji-only.","3":"Engagement silencieux."},"t":["ado","tech"]},
+{"q":"Tu utilises encore 'sah quel grec' ?","o":["Sah, le quotidien 🤝","Vieille blague 🤷","Quoi ? 🚫"],"e":{"0":"Référence vivante.","1":"Dépassé.","2":"Pas dans la vibe."},"t":["ado","drama"]},
+{"q":"Tu suis l'actu Twitter/X drama ?","o":["Tous les jours 🌪️","Quand un truc explose 🤷","Plus du tout 🚫"],"e":{"0":"Toujours connecté.","1":"Pic d'attention.","2":"Tu te protèges."},"t":["drama","tech"]},
+{"q":"Tu prends position sur les buzz internet ?","o":["Oui je tweete 📢","Je lis, je tais 🤐","M'en fous 🚫"],"e":{"0":"Engagé.","1":"Observateur.","2":"Détaché."},"t":["drama","tech"]},
+{"q":"Tu signales un compte sur les réseaux ?","o":["Souvent (toxic) 🚨","Que les gros pbs 🤷","Jamais 🚫"],"e":{"0":"Modérateur citoyen.","1":"Réactif.","2":"Tu laisses couler."},"t":["drama","tech"]}
+]
