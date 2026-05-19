@@ -164,6 +164,7 @@ export default function VoteClient({
       <header className="text-center">
         <a
           href="/"
+          aria-label="moomz, retour à l'accueil"
           className="inline-block text-3xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent"
         >
           moomz
@@ -178,7 +179,13 @@ export default function VoteClient({
           {question}
         </h1>
 
-        <div className="space-y-2.5">
+        <div
+          className="space-y-2.5"
+          role={showResults ? "status" : undefined}
+          aria-live={showResults ? "polite" : undefined}
+          aria-atomic="false"
+          aria-label={showResults ? `Résultats du sondage, ${total} vote${total > 1 ? "s" : ""} au total` : undefined}
+        >
           {options.map((opt, i) => {
             const c = counts[i] ?? 0;
             const pct = total > 0 ? Math.round((c / total) * 100) : 0;
@@ -190,9 +197,10 @@ export default function VoteClient({
                   key={i}
                   onClick={() => vote(i)}
                   disabled={pending}
+                  aria-label={`Voter pour: ${opt}, actuellement ${pct}%`}
                   className="w-full text-left rounded-2xl border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 sm:px-4 py-3.5 sm:py-4 flex items-center gap-3 disabled:opacity-50 min-h-[56px]"
                 >
-                  <span className="text-2xl shrink-0">{EMOJIS[i]}</span>
+                  <span className="text-2xl shrink-0" aria-hidden>{EMOJIS[i]}</span>
                   <span className="font-medium text-base sm:text-lg break-words min-w-0">{opt}</span>
                 </button>
               );
@@ -201,11 +209,14 @@ export default function VoteClient({
             return (
               <div
                 key={`${i}-${animKey}`}
+                role="group"
+                aria-label={`${opt}${isMine ? " (ton vote)" : ""}: ${pct}%, ${c} vote${c > 1 ? "s" : ""}`}
                 className={`relative overflow-hidden rounded-2xl border-2 ${
                   isMine ? "border-pink-400/60" : "border-white/10"
                 } bg-white/5 px-3 sm:px-4 py-3.5 sm:py-4 ${isMine ? "pop" : ""}`}
               >
                 <div
+                  aria-hidden
                   className={`absolute inset-y-0 left-0 ${
                     isMine
                       ? "bg-gradient-to-r from-pink-500/40 to-purple-500/40"
@@ -215,7 +226,7 @@ export default function VoteClient({
                 />
                 <div className="relative flex justify-between items-center gap-3">
                   <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-                    <span className="text-2xl shrink-0">{EMOJIS[i]}</span>
+                    <span className="text-2xl shrink-0" aria-hidden>{EMOJIS[i]}</span>
                     <span className="font-semibold text-base sm:text-lg truncate">
                       {opt}
                       {isMine && (
@@ -238,6 +249,8 @@ export default function VoteClient({
 
         {reveal && (
           <div
+            role="status"
+            aria-live="polite"
             className={`rounded-xl px-3 py-2.5 text-sm font-semibold text-center border ${
               reveal.isRebel
                 ? "bg-gradient-to-r from-orange-500/20 to-pink-500/20 border-orange-400/40 text-orange-200"
@@ -274,6 +287,7 @@ export default function VoteClient({
                 <button
                   onClick={refresh}
                   disabled={pending}
+                  aria-label="Rafraîchir les résultats du sondage"
                   className="hover:text-white transition disabled:opacity-50"
                 >
                   ⟳ rafraîchir
@@ -356,12 +370,14 @@ export default function VoteClient({
         <div className="flex gap-2 pt-1">
           <button
             onClick={nativeShare}
+            aria-label="Partager via une autre application"
             className="flex-1 min-h-[44px] rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 font-medium py-3 text-sm text-white/70 hover:text-white transition sm:hidden"
           >
             📤 Autre app…
           </button>
           <a
             href="/"
+            aria-label="Créer un nouveau sondage"
             className="flex-1 min-h-[44px] rounded-2xl border-2 border-white/15 bg-white/5 hover:bg-white/10 font-semibold py-3 text-center transition flex items-center justify-center"
           >
             + nouveau sondage

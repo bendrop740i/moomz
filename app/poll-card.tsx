@@ -54,6 +54,7 @@ export default function PollCard({
   const myVoterIdRef = useRef<string | null>(null);
   const flameIdRef = useRef(0);
   const rootRef = useRef<HTMLElement | null>(null);
+  const preloadInFlightRef = useRef(false);
 
   useEffect(() => {
     const el = rootRef.current;
@@ -63,7 +64,12 @@ export default function PollCard({
     }
     const obs = new IntersectionObserver(
       (entries) => {
-        for (const e of entries) setIsVisible(e.isIntersecting);
+        for (const e of entries) {
+          // Only call setState when the value actually flips — IntersectionObserver
+          // can fire multiple events with the same isIntersecting during fast scroll,
+          // and unnecessary re-renders would re-evaluate the realtime/preload effects.
+          setIsVisible((prev) => (prev === e.isIntersecting ? prev : e.isIntersecting));
+        }
       },
       { rootMargin: "200px" },
     );
@@ -85,14 +91,22 @@ export default function PollCard({
 
   // Preload counts only when the card scrolls into view — avoids hammering
   // the DB with 50 simultaneous queries on long feeds like /discover.
+  // The in-flight ref ensures we don't fire duplicate fetches if isVisible
+  // toggles rapidly (e.g. during fast snap-scrolling) before the first request
+  // resolves and populates `counts`.
   useEffect(() => {
-    if (counts || !isVisible) return;
+    if (counts || !isVisible || preloadInFlightRef.current) return;
     let cancelled = false;
-    refreshCounts(pollId, options.length).then((res) => {
-      if (cancelled) return;
-      setCounts(res.counts);
-      setTotal(res.total);
-    });
+    preloadInFlightRef.current = true;
+    refreshCounts(pollId, options.length)
+      .then((res) => {
+        if (cancelled) return;
+        setCounts(res.counts);
+        setTotal(res.total);
+      })
+      .finally(() => {
+        preloadInFlightRef.current = false;
+      });
     return () => {
       cancelled = true;
     };
@@ -188,6 +202,7 @@ export default function PollCard({
   return (
     <article
       ref={rootRef as React.RefObject<HTMLElement>}
+      aria-labelledby={`poll-${slug}`}
       className="glass rounded-2xl p-4 sm:p-5 space-y-3.5 relative overflow-hidden"
     >
       <Confetti trigger={confettiKey} />
@@ -231,6 +246,7 @@ export default function PollCard({
           </div>
         )}
         <h3
+          id={`poll-${slug}`}
           className="text-xl sm:text-2xl font-bold leading-tight text-balance break-words bg-clip-text text-transparent drop-shadow-[0_1px_8px_rgba(0,0,0,0.4)]"
           style={{
             backgroundImage: `linear-gradient(135deg, ${pal.c1}, #ffffff 55%, ${pal.c2})`,
@@ -252,6 +268,7 @@ export default function PollCard({
                 key={i}
                 onClick={() => vote(i)}
                 disabled={pending}
+                aria-label={`Voter pour: ${opt}`}
                 className="w-full min-h-[44px] text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.99] transition px-3 py-3 flex items-center gap-2.5 disabled:opacity-50"
               >
                 <span className="text-lg shrink-0" aria-hidden>{EMOJIS[i]}</span>
@@ -349,6 +366,8 @@ export default function PollCard({
           )}
           <Link
             href={`/${slug}`}
+            prefetch={true}
+            aria-label={`Voir le détail et partager → ${question}`}
             className="min-h-[44px] px-3 inline-flex items-center gap-1 hover:text-white transition"
           >
             {t("card.detail")}

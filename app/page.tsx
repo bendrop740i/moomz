@@ -1,115 +1,120 @@
-import { cookies } from "next/headers";
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import CreatePollForm from "./create-poll-form";
-import PollCard from "./poll-card";
-import DailyCard from "./daily-card";
 import Onboarding from "./onboarding";
 import FeaturedAsks from "./featured-asks";
 import SeoFooter from "./seo-footer";
-import WorldVibes from "./world-vibes";
-import { getSupabase } from "@/lib/supabase";
-import { readSlugHistory } from "@/lib/history";
-import { parseTopicsCookie } from "@/lib/topics";
-
-export const dynamic = "force-dynamic";
-
-type TrendingPoll = {
-  id: string;
-  slug: string;
-  question: string;
-  options: string[];
-  created_at: string;
-  vote_count: number;
-  recent_votes: number;
-  trending_score: number;
-  last_vote_at: string | null;
-  topics?: string[];
-};
-
-async function getTrending(limit = 40): Promise<TrendingPoll[]> {
-  try {
-    const supabase = getSupabase();
-    const { data } = await supabase
-      .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics")
-      .order("trending_score", { ascending: false })
-      .limit(limit);
-    return (data as TrendingPoll[]) ?? [];
-  } catch {
-    return [];
-  }
-}
-
-async function getWorldVibes(): Promise<Array<{ cc: string; votes: number }>> {
-  try {
-    const supabase = getSupabase();
-    const { data } = await supabase
-      .from("votes_world_24h")
-      .select("country,votes")
-      .limit(120);
-    if (!data) return [];
-    return data
-      .filter((r): r is { country: string; votes: number } => !!r.country)
-      .map((r) => ({ cc: r.country, votes: r.votes }));
-  } catch {
-    return [];
-  }
-}
-
-async function getDailyMoomz() {
-  try {
-    const supabase = getSupabase();
-    const today = new Date().toISOString().slice(0, 10);
-    const { data: daily } = await supabase
-      .from("daily_moomz")
-      .select("poll_id")
-      .eq("date", today)
-      .maybeSingle();
-    if (!daily) return null;
-    const { data: poll } = await supabase
-      .from("polls_with_stats")
-      .select("slug,question,vote_count")
-      .eq("id", daily.poll_id)
-      .maybeSingle();
-    return poll as { slug: string; question: string; vote_count: number } | null;
-  } catch {
-    return null;
-  }
-}
-
+import DailyCardSection from "./_home/daily-card-section";
+import TrendingFeed from "./_home/trending-feed";
+import WorldVibesSection from "./_home/world-vibes-section";
+import {
+  DailyCardSkeleton,
+  FeaturedAsksSkeleton,
+  TrendingFeedSkeleton,
+  WorldVibesSkeleton,
+} from "./_home/skeletons";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 
-export default async function HomePage() {
+export const dynamic = "force-dynamic";
+
+const HOME_META: Record<string, { title: string; description: string }> = {
+  fr: {
+    title: "moomz — sondages express & vibe check en live",
+    description:
+      "Crée un sondage en 10 secondes, partage le lien, vois les votes tomber en direct. Gratuit, sans compte, anonyme. Vibe check Gen Z, this-or-that, débats.",
+  },
+  en: {
+    title: "moomz — quick polls & live vibe check",
+    description:
+      "Make a poll in 10 seconds, share the link, watch the votes roll in live. Free, no account, anonymous. Gen Z vibe check, this-or-that, hot takes.",
+  },
+  es: {
+    title: "moomz — encuestas rápidas y vibe check en vivo",
+    description:
+      "Crea una encuesta en 10 segundos, comparte el enlace y mira los votos en vivo. Gratis, sin cuenta, anónimo. Vibe check Gen Z, this-or-that, debates.",
+  },
+  it: {
+    title: "moomz — sondaggi lampo e vibe check in diretta",
+    description:
+      "Crea un sondaggio in 10 secondi, condividi il link, guarda i voti in diretta. Gratis, senza account, anonimo. Vibe check Gen Z, this-or-that, dibattiti.",
+  },
+  pt: {
+    title: "moomz — sondagens rápidas e vibe check ao vivo",
+    description:
+      "Cria uma sondagem em 10 segundos, partilha o link e vê os votos ao vivo. Grátis, sem conta, anónimo. Vibe check Gen Z, this-or-that, debates.",
+  },
+  de: {
+    title: "moomz — schnelle Umfragen & Live Vibe Check",
+    description:
+      "Erstelle eine Umfrage in 10 Sekunden, teile den Link und sieh die Stimmen live. Kostenlos, ohne Konto, anonym. Gen Z Vibe Check, this-or-that, Debatten.",
+  },
+  ja: {
+    title: "moomz — 10秒で作る投票・ライブ vibe check",
+    description:
+      "10秒で投票を作成、リンクを共有、リアルタイムで結果を確認。無料・登録不要・匿名。Z世代の vibe check、this-or-that、議論にどうぞ。",
+  },
+  zh: {
+    title: "moomz — 极速投票 · 实时氛围测试",
+    description:
+      "10 秒创建投票,分享链接,实时查看投票结果。免费、无需注册、匿名。Z 世代 vibe check、二选一、热议话题。",
+  },
+};
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const meta = HOME_META[locale] ?? HOME_META.en;
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: { canonical: "https://moomz.com/" },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: "https://moomz.com/",
+      type: "website",
+      siteName: "moomz",
+      locale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
+  };
+}
+
+export default function HomePage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
-  const [allPolls, daily, worldVibes] = await Promise.all([
-    getTrending(40),
-    getDailyMoomz(),
-    getWorldVibes(),
-  ]);
-  const jar = cookies();
 
-  const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));
-  const skippedSet = new Set(readSlugHistory("moomz_skipped_slugs"));
-  const myTopics = parseTopicsCookie(jar.get("moomz_topics")?.value);
-  const myTopicsSet = new Set(myTopics);
-
-  const matchesTopics = (p: TrendingPoll) =>
-    myTopicsSet.size === 0 || (p.topics ?? []).some((t) => myTopicsSet.has(t as any));
-
-  const fresh = allPolls.filter((p) => !votedSet.has(p.slug) && !skippedSet.has(p.slug));
-  const onTopic = fresh.filter(matchesTopics);
-  const offTopic = fresh.filter((p) => !matchesTopics(p));
-  const alreadyVoted = allPolls.filter((p) => votedSet.has(p.slug) && !skippedSet.has(p.slug));
-  const polls = [...onTopic, ...offTopic, ...alreadyVoted].slice(0, 15);
-
-  const dailyVoted = daily ? votedSet.has(daily.slug) : false;
-
-  const top1Score = polls[0]?.trending_score ?? 0;
+  const meta = HOME_META[locale] ?? HOME_META.en;
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "moomz",
+      url: "https://moomz.com/",
+      inLanguage: locale,
+      description: meta.description,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "moomz",
+      url: "https://moomz.com/",
+      logo: "https://moomz.com/apple-icon",
+      sameAs: ["https://github.com/bendrop740i/moomz"],
+    },
+  ];
 
   return (
     <div className="space-y-7 fade-up">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="text-center space-y-1.5">
         <h1 className="font-display text-6xl sm:text-7xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(255,61,139,0.4)]">
           moomz
@@ -119,79 +124,25 @@ export default async function HomePage() {
         </p>
       </header>
 
-      {daily && (
-        <DailyCard
-          slug={daily.slug}
-          question={daily.question}
-          voteCount={daily.vote_count}
-          alreadyVoted={dailyVoted}
-        />
-      )}
-
-      <Suspense fallback={null}>
-        <CreatePollForm />
+      <Suspense fallback={<DailyCardSkeleton />}>
+        <DailyCardSection />
       </Suspense>
 
-      <FeaturedAsks />
+      <CreatePollForm />
+
+      <Suspense fallback={<FeaturedAsksSkeleton />}>
+        <FeaturedAsks />
+      </Suspense>
 
       <Onboarding />
 
-      {polls.length > 0 ? (
-        <section className="space-y-3">
-          <div className="flex items-center justify-between gap-3">
-            <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2 min-w-0 truncate">
-              <span>{tx("home.trending")}</span>
-            </h2>
-            <span className="text-xs text-white/30 tabular-nums shrink-0">
-              {polls.length} {tx("home.active")}
-            </span>
-          </div>
-          <div className="space-y-3">
-            {polls.map((p, i) => {
-              const votedRaw = jar.get(`moomz_voted_${p.slug}`)?.value;
-              const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
-              const isHot = p.trending_score >= top1Score * 0.6 && p.vote_count >= 3;
-              const isLive = p.last_vote_at
-                ? Date.now() - new Date(p.last_vote_at).getTime() < 90_000
-                : false;
-              const isNew = Date.now() - new Date(p.created_at).getTime() < 30 * 60_000;
-              const isRising = (p.recent_votes ?? 0) >= 4 && !isNew;
-              return (
-                <div
-                  key={p.id}
-                  className="card-in"
-                  style={{ ["--i" as string]: i }}
-                >
-                  <PollCard
-                    pollId={p.id}
-                    slug={p.slug}
-                    question={p.question}
-                    options={p.options}
-                    initialVoteCount={p.vote_count}
-                    alreadyVoted={alreadyVoted}
-                    isHot={isHot}
-                    isLive={isLive}
-                    isNew={isNew}
-                    isRising={isRising}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      ) : (
-        <section className="text-center text-white/40 text-sm">
-          {tx("home.empty")}
-        </section>
-      )}
+      <Suspense fallback={<TrendingFeedSkeleton />}>
+        <TrendingFeed />
+      </Suspense>
 
-      <WorldVibes
-        data={worldVibes}
-        title={tx("world.title")}
-        votesLabel={tx("world.votes")}
-        countriesLabel={tx("world.countries")}
-        emptyLabel={tx("world.empty")}
-      />
+      <Suspense fallback={<WorldVibesSkeleton />}>
+        <WorldVibesSection />
+      </Suspense>
 
       <p className="text-center text-xs text-white/30">{tx("home.footer")}</p>
 

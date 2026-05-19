@@ -34,23 +34,31 @@ export default function ShareLinker({
   };
 
   return (
-    <button
-      type="button"
-      onClick={handleShare}
-      aria-label="Partager mon linker"
-      className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 backdrop-blur px-3 py-1.5 text-xs font-semibold flex items-center gap-1.5 transition active:scale-95 shadow-lg"
-    >
-      {copied ? (
-        <>
-          <span>✓</span>
-          <span>Copié</span>
-        </>
-      ) : (
-        <>
-          <span aria-hidden>↗</span>
-          <span>Partager</span>
-        </>
-      )}
-    </button>
+    <>
+      <button
+        type="button"
+        onClick={handleShare}
+        aria-label={`Partager le linker de @${username}`}
+        data-action="share-linker"
+        data-username={username}
+        data-state={copied ? "copied" : "idle"}
+        className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 backdrop-blur px-3 py-1.5 text-xs font-semibold flex items-center gap-1.5 transition active:scale-95 shadow-lg"
+      >
+        {copied ? (
+          <>
+            <span aria-hidden>✓</span>
+            <span>Copié</span>
+          </>
+        ) : (
+          <>
+            <span aria-hidden>↗</span>
+            <span>Partager</span>
+          </>
+        )}
+      </button>
+      <span role="status" aria-live="polite" className="sr-only">
+        {copied ? `Lien du linker de @${username} copié dans le presse-papiers` : ""}
+      </span>
+    </>
   );
 }

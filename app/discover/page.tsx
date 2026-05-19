@@ -1,4 +1,5 @@
 import { cookies } from "next/headers";
+import type { Metadata } from "next";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { getLocale } from "@/lib/i18n-server";
@@ -6,6 +7,27 @@ import { t } from "@/lib/i18n";
 import DiscoverFeed from "./discover-feed";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Discover — vibe check & sondages tendance | moomz",
+  description:
+    "Swipe le feed Discover de moomz : vibe check Gen Z, sondages tendance et débats viraux en live. Vote, partage, découvre les opinions du moment.",
+  alternates: { canonical: "https://moomz.com/discover" },
+  openGraph: {
+    title: "Discover — vibe check & sondages tendance | moomz",
+    description:
+      "Swipe le feed Discover de moomz : vibe check Gen Z, sondages tendance et débats viraux en live. Vote, partage, découvre les opinions du moment.",
+    url: "https://moomz.com/discover",
+    siteName: "moomz",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Discover — vibe check & sondages tendance | moomz",
+    description:
+      "Swipe le feed Discover de moomz : vibe check Gen Z, sondages tendance et débats viraux en live.",
+  },
+};
 
 type TrendingRow = {
   id: string;
@@ -46,8 +68,33 @@ export default async function DiscoverPage() {
 
   const topScore = rows[0]?.trending_score ?? 0;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Discover — vibe check & sondages tendance",
+    url: "https://moomz.com/discover",
+    description:
+      "Feed Discover de moomz : sondages tendance et vibe checks Gen Z en live.",
+    isPartOf: { "@type": "WebSite", name: "moomz", url: "https://moomz.com" },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListOrder: "https://schema.org/ItemListOrderDescending",
+      numberOfItems: polls.length,
+      itemListElement: polls.slice(0, 40).map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: p.question,
+        url: `https://moomz.com/${p.slug}`,
+      })),
+    },
+  };
+
   return (
     <div className="fade-up -mx-5 -mt-8 sm:-mt-12 -mb-28">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="absolute left-0 right-0 top-0 z-20 px-5 pt-[calc(env(safe-area-inset-top)+0.5rem)] pb-3 flex items-center justify-between bg-gradient-to-b from-[#0b0613]/80 via-[#0b0613]/40 to-transparent backdrop-blur-sm pointer-events-none">
         <h1 className="font-display text-2xl sm:text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent pointer-events-auto">
           {tx("discover.title")}

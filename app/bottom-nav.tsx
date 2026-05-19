@@ -100,6 +100,7 @@ export default function BottomNav() {
 
   return (
     <nav
+      aria-label="Navigation principale"
       className={`fixed bottom-0 inset-x-0 z-40 pb-[env(safe-area-inset-bottom)] transition-transform duration-300 will-change-transform ${
         hidden ? "translate-y-[120%]" : "translate-y-0"
       }`}
@@ -124,6 +125,7 @@ export default function BottomNav() {
                 key={item.href}
                 href={item.href}
                 aria-label={label}
+                aria-current={active ? "page" : undefined}
                 className={`relative flex flex-col items-center justify-center gap-0.5 px-3 py-1.5 rounded-xl transition ${
                   active ? "text-white" : "text-white/40 hover:text-white/70"
                 }`}

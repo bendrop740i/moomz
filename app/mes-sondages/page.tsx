@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
@@ -8,6 +9,11 @@ import { t } from "@/lib/i18n";
 import { getMyProfile } from "@/lib/profile";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Mes sondages — moomz",
+  robots: { index: false, follow: false },
+};
 
 type Row = {
   slug: string;
@@ -31,17 +37,24 @@ export default async function MesSondagesPage() {
   const tx = (k: string) => t(k, locale);
   const slugs = readSlugHistory("moomz_created_slugs");
   const jar = cookies();
-  const myProfile = await getMyProfile();
+
+  // Parallelize profile fetch with the slug-bounded polls list. The polls query
+  // only depends on `slugs` (read sync from cookies), not on profile.
+  const pollsPromise =
+    slugs.length > 0
+      ? getSupabase()
+          .from("polls_with_stats")
+          .select("slug,question,options,vote_count,created_at,last_vote_at")
+          .in("slug", slugs)
+          .limit(50)
+      : Promise.resolve({ data: [] as Row[] | null });
+
+  const [myProfile, pollsRes] = await Promise.all([getMyProfile(), pollsPromise]);
 
   let polls: Row[] = [];
   if (slugs.length > 0) {
-    const supabase = getSupabase();
-    const { data } = await supabase
-      .from("polls_with_stats")
-      .select("slug,question,options,vote_count,created_at,last_vote_at")
-      .in("slug", slugs);
     const ordered = slugs
-      .map((s) => (data ?? []).find((p) => p.slug === s))
+      .map((s) => (pollsRes.data ?? []).find((p) => p.slug === s))
       .filter(Boolean) as Row[];
     polls = ordered;
   }
@@ -113,7 +126,7 @@ export default async function MesSondagesPage() {
             href="/"
             className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            {tx("polls.emptyCta")} →
+            Créer mon premier moomz →
           </Link>
         </div>
       ) : (

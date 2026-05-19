@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cookies } from "next/headers";
+import type { Metadata } from "next";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { emojisFor } from "@/lib/emojis";
@@ -9,6 +10,12 @@ import { getMyProfile } from "@/lib/profile";
 import { getServerSupabase } from "@/lib/supabase-server";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Mes votes — moomz",
+  description: "Historique privé de tes votes sur moomz.",
+  robots: { index: false, follow: false },
+};
 
 type StreakCookie = { pts: number; cur: number; top: number; ts: number };
 
@@ -32,23 +39,35 @@ type Row = {
 export default async function MesVotesPage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
-  const myProfile = await getMyProfile();
-  const { data: auth } = await getServerSupabase().auth.getUser();
+  const slugs = readSlugHistory("moomz_voted_slugs");
   const streak = readStreakCookie();
+
+  // Parallelize independent fetches: profile, auth user, and the slug-bounded
+  // polls list. `slugs` is derived from cookies (sync) so the polls query has
+  // no dependency on profile/auth.
+  const pollsPromise =
+    slugs.length > 0
+      ? getSupabase()
+          .from("polls_with_stats")
+          .select("slug,question,options,vote_count")
+          .in("slug", slugs)
+          .limit(50)
+      : Promise.resolve({ data: [] as Row[] | null });
+
+  const [myProfile, authRes, pollsRes] = await Promise.all([
+    getMyProfile(),
+    getServerSupabase().auth.getUser(),
+    pollsPromise,
+  ]);
+  const auth = authRes.data;
+
   const totalPts = myProfile?.total_points ?? streak?.pts ?? 0;
   const topStreak = Math.max(myProfile?.top_streak ?? 0, streak?.top ?? 0);
 
-  const slugs = readSlugHistory("moomz_voted_slugs");
-
   let polls: Row[] = [];
   if (slugs.length > 0) {
-    const supabase = getSupabase();
-    const { data } = await supabase
-      .from("polls_with_stats")
-      .select("slug,question,options,vote_count")
-      .in("slug", slugs);
     const ordered = slugs
-      .map((s) => (data ?? []).find((p) => p.slug === s))
+      .map((s) => (pollsRes.data ?? []).find((p) => p.slug === s))
       .filter(Boolean) as Row[];
     polls = ordered;
   }
@@ -128,9 +147,10 @@ export default async function MesVotesPage() {
           </p>
           <Link
             href="/discover"
+            aria-label="Découvrir des sondages tendance et voter sur moomz"
             className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            {tx("votes.emptyCta")} →
+            {tx("votes.emptyCta")} — découvrir les sondages tendance →
           </Link>
         </div>
       ) : (
@@ -141,6 +161,8 @@ export default async function MesVotesPage() {
               <Link
                 key={p.slug}
                 href={`/${p.slug}`}
+                aria-label={`Revoir le sondage : ${p.question}`}
+                title={p.question}
                 className="glass block rounded-xl px-3 py-2.5 min-h-[60px] hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
                 style={{ ["--i" as string]: idx }}
               >

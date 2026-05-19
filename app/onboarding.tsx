@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { setTopics } from "./actions";
 import { TOPICS, type Topic } from "@/lib/topics";
@@ -13,6 +13,8 @@ export default function Onboarding() {
   const [picked, setPicked] = useState<Set<Topic>>(new Set());
   const [saving, setSaving] = useState(false);
   const [enter, setEnter] = useState(false);
+  const dialogRef = useRef<HTMLDivElement | null>(null);
+  const previouslyFocusedRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     const has = document.cookie.match(/(?:^|;\s*)moomz_topics=/);
@@ -28,6 +30,73 @@ export default function Onboarding() {
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  // Focus trap: remember last focused element, move focus into the dialog,
+  // keep Tab cycling inside, and restore focus on close.
+  useEffect(() => {
+    if (!open) return;
+
+    previouslyFocusedRef.current =
+      (document.activeElement as HTMLElement | null) ?? null;
+
+    const getFocusable = (): HTMLElement[] => {
+      const root = dialogRef.current;
+      if (!root) return [];
+      const selector =
+        'a[href], area[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+      return Array.from(root.querySelectorAll<HTMLElement>(selector)).filter(
+        (el) => !el.hasAttribute("disabled") && el.offsetParent !== null,
+      );
+    };
+
+    // Move initial focus inside the dialog.
+    requestAnimationFrame(() => {
+      const focusables = getFocusable();
+      (focusables[0] ?? dialogRef.current)?.focus();
+    });
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        // Same behavior as the "Plus tard" button: persist empty picks + close.
+        void (async () => {
+          setSaving(true);
+          await setTopics([]);
+          setEnter(false);
+          setTimeout(() => setOpen(false), 220);
+        })();
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const focusables = getFocusable();
+      if (focusables.length === 0) {
+        e.preventDefault();
+        dialogRef.current?.focus();
+        return;
+      }
+      const first = focusables[0];
+      const last = focusables[focusables.length - 1];
+      const active = document.activeElement as HTMLElement | null;
+      if (e.shiftKey) {
+        if (active === first || !dialogRef.current?.contains(active)) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (active === last || !dialogRef.current?.contains(active)) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      // Restore focus to the previously focused element.
+      previouslyFocusedRef.current?.focus?.();
     };
   }, [open]);
 
@@ -62,9 +131,12 @@ export default function Onboarding() {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center bg-black/70 backdrop-blur-md"
-      aria-modal="true"
+      ref={dialogRef}
+      className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center bg-black/70 backdrop-blur-md outline-none"
       role="dialog"
+      aria-modal="true"
+      aria-labelledby="onboarding-title"
+      tabIndex={-1}
     >
       {/* soft animated glow behind the sheet */}
       <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -89,7 +161,10 @@ export default function Onboarding() {
         {/* header */}
         <div className="px-5 sm:px-7 pt-3 sm:pt-7 pb-4 text-center shrink-0">
           <div className="text-3xl mb-1.5" aria-hidden>👋✨</div>
-          <h2 className="font-display text-3xl sm:text-4xl leading-tight bg-gradient-to-br from-white via-pink-200 to-purple-300 bg-clip-text text-transparent">
+          <h2
+            id="onboarding-title"
+            className="font-display text-3xl sm:text-4xl leading-tight bg-gradient-to-br from-white via-pink-200 to-purple-300 bg-clip-text text-transparent"
+          >
             C&apos;est ta vibe
           </h2>
           <p className="text-white/65 text-sm sm:text-base mt-2 max-w-xs mx-auto leading-snug">
@@ -120,9 +195,11 @@ export default function Onboarding() {
               return (
                 <button
                   key={t.id}
+                  type="button"
                   onClick={() => toggle(t.id)}
                   disabled={disabled}
                   aria-pressed={active}
+                  aria-label={t.label}
                   className={`group relative flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-3.5 min-h-[88px] transition-all duration-200 border-2 ${
                     active
                       ? "bg-gradient-to-br from-pink-500/40 via-purple-500/30 to-amber-500/20 border-pink-400/80 shadow-lg shadow-pink-500/30 scale-[1.04]"

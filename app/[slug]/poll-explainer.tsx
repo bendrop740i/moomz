@@ -24,28 +24,55 @@ export default function PollExplainer({
 
   const E = emojisFor(slug, options.length);
 
+  const headingSuffix =
+    filled.length >= 2
+      ? ` — pourquoi les gens votent pour ${filled[0].label} ou ${filled[1].label}`
+      : filled.length === 1
+        ? ` — pourquoi les gens votent pour ${filled[0].label}`
+        : "";
+
   return (
-    <section className="space-y-3 mt-2" aria-label="Décryptage des options">
+    <section
+      className="space-y-3 mt-2"
+      aria-label="Décryptage des options du sondage"
+      itemScope
+      itemType="https://schema.org/FAQPage"
+    >
       <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-        Décrypte chaque choix
+        Décrypte chaque choix{headingSuffix}
       </h2>
       <div className="space-y-2">
         {filled.map((x) => (
           <article
             key={x.i}
             className="glass rounded-2xl p-4 sm:p-5 space-y-2"
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
           >
             <header className="flex items-center gap-2">
               <span className="text-2xl shrink-0" aria-hidden>
                 {E[x.i]}
               </span>
-              <h3 className="font-bold text-base sm:text-lg leading-tight">
+              <h3
+                className="font-bold text-base sm:text-lg leading-tight"
+                itemProp="name"
+              >
                 {x.label}
               </h3>
             </header>
-            <p className="text-white/70 text-sm sm:text-[15px] leading-relaxed text-pretty">
-              {x.text}
-            </p>
+            <div
+              itemScope
+              itemProp="acceptedAnswer"
+              itemType="https://schema.org/Answer"
+            >
+              <p
+                className="text-white/70 text-sm sm:text-[15px] leading-relaxed text-pretty"
+                itemProp="text"
+              >
+                {x.text}
+              </p>
+            </div>
           </article>
         ))}
       </div>
