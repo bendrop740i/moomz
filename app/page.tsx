@@ -1,9 +1,11 @@
 import { cookies } from "next/headers";
+import { Suspense } from "react";
 import CreatePollForm from "./create-poll-form";
 import PollCard from "./poll-card";
 import DailyCard from "./daily-card";
 import Onboarding from "./onboarding";
 import FeaturedAsks from "./featured-asks";
+import SeoFooter from "./seo-footer";
 import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
@@ -105,7 +107,9 @@ export default async function HomePage() {
         />
       )}
 
-      <CreatePollForm />
+      <Suspense fallback={null}>
+        <CreatePollForm />
+      </Suspense>
 
       <FeaturedAsks />
 
@@ -161,6 +165,8 @@ export default async function HomePage() {
       )}
 
       <p className="text-center text-xs text-white/30">{tx("home.footer")}</p>
+
+      <SeoFooter locale={locale === "en" ? "en" : "fr"} />
     </div>
   );
 }

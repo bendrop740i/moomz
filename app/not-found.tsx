@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SeoFooter from "./seo-footer";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 
@@ -31,6 +32,8 @@ export default function NotFound() {
       >
         {tx("notFound.cta")}
       </Link>
+
+      <SeoFooter locale={locale === "en" ? "en" : "fr"} />
     </div>
   );
 }

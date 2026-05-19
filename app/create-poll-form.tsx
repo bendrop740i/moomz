@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { createPoll } from "./actions";
 import { useT } from "./locale-context";
 
@@ -25,16 +26,26 @@ const OPTION_EXAMPLES: [string, string][] = [
 
 export default function CreatePollForm() {
   const t = useT();
-  const [options, setOptions] = useState(["", ""]);
+  const searchParams = useSearchParams();
+  const prefillQ = searchParams.get("q") ?? "";
+  const prefillOpts = (() => {
+    const raw = searchParams.get("o");
+    if (!raw) return null;
+    const list = raw.split("|").map((s) => s.trim()).filter(Boolean).slice(0, 6);
+    return list.length >= 2 ? list : null;
+  })();
+  const [question, setQuestion] = useState(prefillQ);
+  const [options, setOptions] = useState<string[]>(prefillOpts ?? ["", ""]);
   const [pending, setPending] = useState(false);
   const [pIdx, setPIdx] = useState(0);
 
   useEffect(() => {
+    if (prefillQ || prefillOpts) return;
     const id = setInterval(() => {
       setPIdx((i) => (i + 1) % QUESTION_PLACEHOLDERS.length);
     }, 2800);
     return () => clearInterval(id);
-  }, []);
+  }, [prefillQ, prefillOpts]);
 
   const optionExample = useMemo(
     () => OPTION_EXAMPLES[Math.floor(Math.random() * OPTION_EXAMPLES.length)],
@@ -71,6 +82,8 @@ export default function CreatePollForm() {
           name="question"
           required
           maxLength={200}
+          value={question}
+          onChange={(e) => setQuestion(e.target.value)}
           placeholder={QUESTION_PLACEHOLDERS[pIdx]}
           className="w-full rounded-xl bg-white/5 border border-white/10 px-3.5 py-3 text-base sm:text-lg font-medium outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
         />
