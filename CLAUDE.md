@@ -3,15 +3,42 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-18, late session.** After shipping the SSX cartoon look + streaks + username profiles + colored questions + auto-advance in discover + relaxed anti-noise filter, the user said the core mechanic "ne donne pas envie d'utiliser l'app". I proposed 5 stickiness angles (Daily Moomz, Majority/Rebel reveal, Cosmetics, Cercles, Spice). User said "fait ce que tu veux que ce soit cool" + asked for an achievement (haut faits) system. **Just shipped: Achievements + Majority/Rebel reveal** (see "Done so far" list).
+**2026-05-19, this session.** User reported the auth gap ("dans /mes-votes y'a 'réserve ton nom' mais pas 'se connecter'"). Migrated from cookie-only pseudo-auth to **Supabase Auth magic-link** while preserving legacy claim_token users. Also shipped:
+- **SSH auth for git** (key at `~/.ssh/id_ed25519`, fingerprint `SHA256:9PwEfDFVEUzIuipwR1rSWrzcZsO3JK2Ozz+Aan850vw`)
+- **`@supabase/ssr`** package with cookie-aware server/browser clients (`lib/supabase-server.ts`, updated `lib/supabase-browser.ts`)
+- **`/login`** page with magic-link form (`app/login/page.tsx` + `login-form.tsx`)
+- **`/auth/callback`** route handler that exchanges the code, sets session cookies, and calls `link_profile_to_user(token, user.id)` to attach legacy profiles
+- **`getMyProfile()`** now checks `auth.uid()` → `profiles.user_id` first, falls back to `moomz_profile_token` cookie for legacy
+- **`claimUsername` / `updateProfile` / `createPoll` / `castVote`** refactored to use a unified `getProfileLookup()` (session user_id OR claim_token)
+- **`signOut`** server action
+- **CTAs**: `/mes-votes` and `/me` now point to `/login` when no session
+- **Auto-shutdown for dead polls**: `is_dead` column + `sweep_dead_polls()` function + hourly pg_cron job. Kills noise questions, polls with 0 votes after 48 h, and seed polls with no humans after 14 days. Views `polls_with_stats` / `polls_trending` updated to filter dead polls. SQL in `supabase-migrations/002-polls-cleanup.sql`.
+- **i18n auth keys** translated across all 8 langs (fr/en/es/it/pt/de/ja/zh)
 
-**Still open / next to push** :
-- **Daily Moomz** (BeReal mechanic): one global daily question, 24h fenêtre, push notif at 19h, daily streak. Biggest impact for habit. Not yet built.
-- **Cosmetics unlocked by points/streak**: palettes/avatars locked behind score thresholds.
+**User MUST run on Supabase** (paste in SQL editor in order):
+1. `supabase-migrations/001-auth.sql` — adds `profiles.user_id`, RLS policies, `link_profile_to_user()`
+2. `supabase-migrations/002-polls-cleanup.sql` — adds `is_dead`, `sweep_dead_polls()`, hourly cron, view updates
+
+**User MUST configure in Supabase Auth dashboard**:
+- Site URL: `https://moomz.com`
+- Redirect URLs (Add URL): `https://moomz.com/auth/callback`, `http://localhost:3001/auth/callback`
+- Email auth provider: enabled (it is by default). Free-tier SMTP is 4 emails/hour — fine for testing, not launch. For launch wire up Resend/Postmark/SendGrid in Auth → Email settings.
+
+**Still open / next to push** (carried over):
+- **PWA + push notifs** — user explicitly asked for "vraie app" install + notifs (typingmind-style). Manifest + service worker + VAPID keys + subscription store + push sending. ~4-5h.
+- **Profile picture upload + resize** — Supabase Storage bucket already exists for `poll-images`, just need an `avatars` bucket + client-side canvas resize before upload.
+- **ASK feature** (Q&A on profile, Ask.fm-style anonymous, 3 questions/day max for recipient). Premium gating: streak unlocks cosmetics (not premium), premium = paid Stripe €2.99/mo.
+- **Stripe €2.99/mo Premium** — separate session: webhooks + customer portal + grace period.
+- **DM messaging** — deferred; needs moderation thinking.
+
+**Previous open items kept**:
+- **Cosmetics UI** — `lib/cosmetics.ts` module exists (10 palettes + `isUnlocked` helper), UI to equip/preview not wired yet. Should be the streak/points reward path.
 - **Cercles** (friend groups, 4-digit join code): deferred — solid only after Daily proves engagement.
 - **Spice Mode** (@-tag people in polls): explicitly **don't propose** without user go-ahead. Risky.
+- **Multilingual seed pools** (user asked 2026-05-19): build a large seed-poll set per language so each locale has live content from day 1. Currently 100 FR seed polls only. Plan: ~30 polls/lang × 8 langs, tagged by topic, varied formats.
+- **Internal test harness** (user asked 2026-05-19): end-to-end smoke tests for the new auth + voting + cleanup flow before launch.
 
-If the user opens next session with "vasy" / "fais tout", **default to Daily Moomz**. The combo Achievements + Reveal is already live.
+If the user opens next session with "vasy" / "fais tout", **default to PWA + push notifs** (biggest stickiness unlock now that auth is in).
 
 **Session ritual.** The user wants every meaningful exchange persisted here so a fresh window picks up exactly where we are. **Always update this file at the end of any feature/decision/discussion** — not just code changes. See "Conversation themes" near the bottom for accumulated context.
 
@@ -20,7 +47,7 @@ Mini SaaS gratuit : **vibe check / sondages partageables**. L'utilisateur pose u
 
 ## Stack
 - **Next.js 14** (App Router, TypeScript) + Tailwind
-- **Supabase** (Postgres, free tier) — auth disabled, tables protected by RLS policies that allow public read/insert via anon key
+- **Supabase** (Postgres, free tier) — **Auth enabled** (magic-link email, 2026-05-19) with cookie-aware `@supabase/ssr` client. Public tables (polls/votes) still RLS-permissive for anon. Profiles RLS scoped to `auth.uid()` for writes, anon claim_token flow preserved.
 - **Vercel** (free tier, déploiement auto sur push `main`)
 - **Domaine** : `moomz.com` (registrar GoDaddy)
 - Font : Space Grotesk (via next/font)
@@ -74,7 +101,7 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - ✅ **moomz.com is LIVE** as of 2026-05-18. Verified via curl HTTP 200.
 
 ## Known issues / decisions
-- **GitHub PAT was leaked in chat earlier** (already revoked / should be revoked at https://github.com/settings/tokens). For future push from Claude Code, set up Git Credential Manager interactively from a real PowerShell once, OR use SSH keys, OR generate a fresh PAT (NEVER paste it in chat — drop it into a local file `.git-token` that's gitignored and never committed).
+- **Git auth = SSH** as of 2026-05-19. Key at `~/.ssh/id_ed25519` (ed25519, no passphrase), public key registered on the `bendrop740i` GitHub account (fingerprint `SHA256:9PwEfDFVEUzIuipwR1rSWrzcZsO3JK2Ozz+Aan850vw`). Remote URL is `git@github.com:bendrop740i/moomz.git`. No PAT needed — push/pull works out of the box. Old GitHub PATs leaked earlier in chat should still be revoked at https://github.com/settings/tokens.
 - **Supabase API key format** : we use the new `sb_publishable_xxx` format. Requires `@supabase/supabase-js@^2.50` or later. Don't downgrade.
 - **Port 3000 occupied** locally → dev server runs on `3001`. Not a code issue, just the user's machine.
 
@@ -146,7 +173,7 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - **Monetization vision**: Pro tier later (custom URL — already free now; cosmetics; advanced stats). Sponsored polls / Daily Moomz could be ad slots. Not pressing.
 - **Anti-spam philosophy**: Reject pure keysmash + low-effort, but accept Gen Z slang, short answers like "X" / "OK", and emojis. Filter intentionally loose.
 - **Bot policy**: Bot fake-votes are part of the launch — user understands they're seeding the lake. Bot privileges real polls 3:1 and uses time curve to avoid implausible explosions.
-- **Username system**: cookie-token pseudo-auth (NOT email magic-link auth). User said "fait le que si c facile". Migrating to Supabase Auth is future work, only if Pro tier needs it.
+- **Username system**: Now **Supabase Auth magic-link** (as of 2026-05-19) WITH legacy `claim_token` cookie fallback so anonymous users created before don't lose access. `getProfileLookup()` in `app/actions.ts` picks session user_id first, claim_token second. After login the callback calls `link_profile_to_user()` to attach the legacy profile to the new auth user.
 - **Locales**: Auto-detect via `Accept-Language`, persist via cookie. 8 langs: fr en es it pt de ja zh. Switcher is a tiny `🌐 <code>` button in the page footer — DON'T expand it into a big control.
 - **Content language**: poll questions stay in their author's language. We do NOT auto-translate poll content (would need a paid API). Only the UI is i18n'd.
 - **Routing**: User asked for `moomz.com/[username]` and `/[locale]/...`. Username is implemented via fallback chain in `/[slug]` (try profile → try poll). **Locale URL prefixes were declined** — too disruptive, auto-detect covers it.

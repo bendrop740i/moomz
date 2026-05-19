@@ -3,7 +3,28 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { getSupabase } from "@/lib/supabase";
+import { getServerSupabase } from "@/lib/supabase-server";
 import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
+
+type ProfileLookup =
+  | { kind: "user"; userId: string }
+  | { kind: "token"; token: string };
+
+async function getProfileLookup(): Promise<ProfileLookup | null> {
+  const supabase = getServerSupabase();
+  const { data } = await supabase.auth.getUser();
+  if (data.user) return { kind: "user", userId: data.user.id };
+  const token = cookies().get("moomz_profile_token")?.value;
+  if (token) return { kind: "token", token };
+  return null;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function applyLookup(q: any, lookup: ProfileLookup): any {
+  return lookup.kind === "user"
+    ? q.eq("user_id", lookup.userId)
+    : q.eq("claim_token", lookup.token);
+}
 
 const ALPHABET = "abcdefghijkmnopqrstuvwxyz23456789";
 
@@ -97,13 +118,12 @@ export async function createPoll(formData: FormData) {
   }
 
   let profileId: string | null = null;
-  const token = cookies().get("moomz_profile_token")?.value;
-  if (token) {
-    const { data: prof } = await supabase
-      .from("profiles")
-      .select("id, achievements, polls_created")
-      .eq("claim_token", token)
-      .maybeSingle();
+  const lookup = await getProfileLookup();
+  if (lookup) {
+    const { data: prof } = await applyLookup(
+      supabase.from("profiles").select("id, achievements, polls_created"),
+      lookup,
+    ).maybeSingle();
     if (prof) {
       profileId = prof.id;
       const owned = new Set<string>((prof.achievements ?? []) as string[]);
@@ -191,14 +211,13 @@ export async function claimUsername(formData: FormData) {
   }
 
   const supabase = getSupabase();
-  const existingToken = cookies().get("moomz_profile_token")?.value;
+  const lookup = await getProfileLookup();
 
-  if (existingToken) {
-    const { data: existing } = await supabase
-      .from("profiles")
-      .select("id, username")
-      .eq("claim_token", existingToken)
-      .maybeSingle();
+  if (lookup) {
+    const { data: existing } = await applyLookup(
+      supabase.from("profiles").select("id, username"),
+      lookup,
+    ).maybeSingle();
     if (existing) {
       if (existing.username !== username) {
         const { error } = await supabase
@@ -218,13 +237,18 @@ export async function claimUsername(formData: FormData) {
     }
   }
 
-  const token = randomToken();
+  // New profile. If session, link to user_id (no claim_token). Otherwise anonymous flow.
+  const ssr = getServerSupabase();
+  const { data: auth } = await ssr.auth.getUser();
+  const newToken = auth.user ? null : randomToken();
+
   const { data: inserted, error } = await supabase
     .from("profiles")
     .insert({
       username,
       display_name: displayName,
-      claim_token: token,
+      claim_token: newToken,
+      user_id: auth.user?.id ?? null,
       achievements: ["claimed"],
     })
     .select("id")
@@ -236,12 +260,14 @@ export async function claimUsername(formData: FormData) {
     throw new Error(error.message);
   }
 
-  cookies().set("moomz_profile_token", token, {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365 * 5,
-    path: "/",
-    httpOnly: true,
-  });
+  if (newToken) {
+    cookies().set("moomz_profile_token", newToken, {
+      sameSite: "lax",
+      maxAge: 60 * 60 * 24 * 365 * 5,
+      path: "/",
+      httpOnly: true,
+    });
+  }
 
   const created = readSlugList("moomz_created_slugs");
   if (created.length > 0 && inserted) {
@@ -262,15 +288,14 @@ function readSlugList(cookieName: string): string[] {
 }
 
 export async function updateProfile(formData: FormData) {
-  const token = cookies().get("moomz_profile_token")?.value;
-  if (!token) throw new Error("Pas de profil à éditer.");
+  const lookup = await getProfileLookup();
+  if (!lookup) throw new Error("Pas de profil à éditer.");
 
   const supabase = getSupabase();
-  const { data: existing } = await supabase
-    .from("profiles")
-    .select("id")
-    .eq("claim_token", token)
-    .maybeSingle();
+  const { data: existing } = await applyLookup(
+    supabase.from("profiles").select("id"),
+    lookup,
+  ).maybeSingle();
   if (!existing) throw new Error("Profil introuvable.");
 
   const displayName = String(formData.get("display_name") ?? "").trim() || null;
@@ -386,13 +411,14 @@ export async function castVote(
   const isDaily = today?.poll_id === pollId;
 
   const newAchievements: string[] = [];
-  const profileToken = cookies().get("moomz_profile_token")?.value;
-  if (profileToken) {
-    const { data: prof } = await supabase
-      .from("profiles")
-      .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created,daily_streak,last_daily_date")
-      .eq("claim_token", profileToken)
-      .maybeSingle();
+  const profileLookup = await getProfileLookup();
+  if (profileLookup) {
+    const { data: prof } = await applyLookup(
+      supabase
+        .from("profiles")
+        .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created,daily_streak,last_daily_date"),
+      profileLookup,
+    ).maybeSingle();
     if (prof) {
       const owned = new Set<string>((prof.achievements ?? []) as string[]);
       const unlock = (id: string) => {
@@ -476,4 +502,10 @@ export async function refreshCounts(
   );
   const total = counts.reduce((a, b) => a + b, 0);
   return { counts, total };
+}
+
+export async function signOut() {
+  const supabase = getServerSupabase();
+  await supabase.auth.signOut();
+  redirect("/");
 }

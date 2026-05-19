@@ -6,6 +6,7 @@ import { emojisFor } from "@/lib/emojis";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 import { getMyProfile } from "@/lib/profile";
+import { getServerSupabase } from "@/lib/supabase-server";
 
 export const dynamic = "force-dynamic";
 
@@ -32,6 +33,7 @@ export default async function MesVotesPage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
   const myProfile = await getMyProfile();
+  const { data: auth } = await getServerSupabase().auth.getUser();
   const streak = readStreakCookie();
   const totalPts = myProfile?.total_points ?? streak?.pts ?? 0;
   const topStreak = Math.max(myProfile?.top_streak ?? 0, streak?.top ?? 0);
@@ -84,7 +86,7 @@ export default async function MesVotesPage() {
       </div>
 
       <Link
-        href="/me"
+        href={myProfile ? "/me" : "/login"}
         className="glass block rounded-2xl p-3 hover:bg-white/[0.08] hover:border-pink-400/30 transition"
       >
         <div className="flex items-center gap-3 text-sm">
@@ -93,12 +95,18 @@ export default async function MesVotesPage() {
             {myProfile ? (
               <>
                 <div className="font-semibold text-white">@{myProfile.username}</div>
-                <div className="text-white/40 text-xs">Tes points & top streak sont sauvegardés</div>
+                <div className="text-white/40 text-xs">
+                  {auth.user
+                    ? "Compte sauvegardé via email"
+                    : "Sécurise ton compte avec ton email →"}
+                </div>
               </>
             ) : (
               <>
-                <div className="font-semibold text-white">Sauvegarde tes points</div>
-                <div className="text-white/40 text-xs">Réserve ton username pour garder ton score</div>
+                <div className="font-semibold text-white">{tx("auth.cta.connect")}</div>
+                <div className="text-white/40 text-xs">
+                  Garde tes points, ton pseudo et tes sondages.
+                </div>
               </>
             )}
           </div>

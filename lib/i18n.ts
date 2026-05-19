@@ -82,6 +82,18 @@ const fr: Dict = {
   "polls.newBadge": "new",
 
   "locale.label": "Langue",
+
+  "auth.login.title": "Se connecter",
+  "auth.login.body": "Entre ton email — on t'envoie un lien magique. Pas de mot de passe à retenir.",
+  "auth.login.placeholder": "ton@email.com",
+  "auth.login.cta": "M'envoyer le lien",
+  "auth.login.sending": "Envoi…",
+  "auth.login.sent.title": "Check tes mails 📬",
+  "auth.login.sent.body": "On t'a envoyé un lien à {email}. Clique dessus pour entrer.",
+  "auth.login.error": "Oups, erreur d'envoi. Réessaie.",
+  "auth.logout": "Se déconnecter",
+  "auth.cta.connect": "Se connecter / Créer un compte",
+  "auth.cta.secure": "Sécuriser ton compte avec un email →",
 };
 
 const en: Dict = {
@@ -152,6 +164,18 @@ const en: Dict = {
   "polls.newBadge": "new",
 
   "locale.label": "Language",
+
+  "auth.login.title": "Sign in",
+  "auth.login.body": "Drop your email — we'll send a magic link. No password to remember.",
+  "auth.login.placeholder": "you@email.com",
+  "auth.login.cta": "Send my link",
+  "auth.login.sending": "Sending…",
+  "auth.login.sent.title": "Check your inbox 📬",
+  "auth.login.sent.body": "We sent a link to {email}. Click it to log in.",
+  "auth.login.error": "Oops, couldn't send. Try again.",
+  "auth.logout": "Sign out",
+  "auth.cta.connect": "Sign in / Create account",
+  "auth.cta.secure": "Save your account with an email →",
 };
 
 const es: Dict = {
@@ -222,6 +246,18 @@ const es: Dict = {
   "polls.newBadge": "new",
 
   "locale.label": "Idioma",
+
+  "auth.login.title": "Iniciar sesión",
+  "auth.login.body": "Pon tu email — te enviamos un enlace mágico. Sin contraseñas que recordar.",
+  "auth.login.placeholder": "tu@email.com",
+  "auth.login.cta": "Enviarme el enlace",
+  "auth.login.sending": "Enviando…",
+  "auth.login.sent.title": "Revisa tu correo 📬",
+  "auth.login.sent.body": "Te enviamos un enlace a {email}. Haz clic para entrar.",
+  "auth.login.error": "Vaya, no se pudo enviar. Inténtalo de nuevo.",
+  "auth.logout": "Cerrar sesión",
+  "auth.cta.connect": "Iniciar sesión / Crear cuenta",
+  "auth.cta.secure": "Asegura tu cuenta con un email →",
 };
 
 const it: Dict = {
@@ -292,6 +328,18 @@ const it: Dict = {
   "polls.newBadge": "new",
 
   "locale.label": "Lingua",
+
+  "auth.login.title": "Accedi",
+  "auth.login.body": "Inserisci la tua email — ti mandiamo un link magico. Niente password da ricordare.",
+  "auth.login.placeholder": "tua@email.com",
+  "auth.login.cta": "Inviami il link",
+  "auth.login.sending": "Invio…",
+  "auth.login.sent.title": "Controlla la posta 📬",
+  "auth.login.sent.body": "Ti abbiamo inviato un link a {email}. Cliccaci sopra per entrare.",
+  "auth.login.error": "Ops, invio non riuscito. Riprova.",
+  "auth.logout": "Esci",
+  "auth.cta.connect": "Accedi / Crea account",
+  "auth.cta.secure": "Salva il tuo account con un'email →",
 };
 
 const pt: Dict = {
@@ -334,6 +382,18 @@ const pt: Dict = {
   "polls.title": "As minhas sondagens",
   "polls.empty": "Sem sondagens criadas.",
   "locale.label": "Idioma",
+
+  "auth.login.title": "Entrar",
+  "auth.login.body": "Digite seu email — enviamos um link mágico. Sem senha pra lembrar.",
+  "auth.login.placeholder": "voce@email.com",
+  "auth.login.cta": "Enviar meu link",
+  "auth.login.sending": "Enviando…",
+  "auth.login.sent.title": "Confira seu email 📬",
+  "auth.login.sent.body": "Mandamos um link pra {email}. Clique nele pra entrar.",
+  "auth.login.error": "Ops, falha no envio. Tente de novo.",
+  "auth.logout": "Sair",
+  "auth.cta.connect": "Entrar / Criar conta",
+  "auth.cta.secure": "Salve sua conta com um email →",
 };
 
 const de: Dict = {
@@ -376,6 +436,18 @@ const de: Dict = {
   "polls.title": "Meine Umfragen",
   "polls.empty": "Noch keine Umfragen erstellt.",
   "locale.label": "Sprache",
+
+  "auth.login.title": "Anmelden",
+  "auth.login.body": "Gib deine E-Mail ein — wir schicken dir einen Magic Link. Kein Passwort nötig.",
+  "auth.login.placeholder": "du@email.com",
+  "auth.login.cta": "Link senden",
+  "auth.login.sending": "Wird gesendet…",
+  "auth.login.sent.title": "Check deine Mails 📬",
+  "auth.login.sent.body": "Wir haben einen Link an {email} geschickt. Klick drauf, um dich anzumelden.",
+  "auth.login.error": "Ups, Versand fehlgeschlagen. Versuch's nochmal.",
+  "auth.logout": "Abmelden",
+  "auth.cta.connect": "Anmelden / Konto erstellen",
+  "auth.cta.secure": "Sichere dein Konto mit einer E-Mail →",
 };
 
 const ja: Dict = {
@@ -418,6 +490,18 @@ const ja: Dict = {
   "polls.title": "作成した投票",
   "polls.empty": "まだ作成していません。",
   "locale.label": "言語",
+
+  "auth.login.title": "ログイン",
+  "auth.login.body": "メールアドレスを入力 — マジックリンクを送ります。パスワード不要。",
+  "auth.login.placeholder": "you@email.com",
+  "auth.login.cta": "リンクを送る",
+  "auth.login.sending": "送信中…",
+  "auth.login.sent.title": "メールを確認 📬",
+  "auth.login.sent.body": "{email} にリンクを送りました。クリックしてログイン。",
+  "auth.login.error": "送信に失敗しました。もう一度お試しください。",
+  "auth.logout": "ログアウト",
+  "auth.cta.connect": "ログイン / アカウント作成",
+  "auth.cta.secure": "メールでアカウントを保存 →",
 };
 
 const zh: Dict = {
@@ -460,6 +544,18 @@ const zh: Dict = {
   "polls.title": "我的发起",
   "polls.empty": "还没创建投票。",
   "locale.label": "语言",
+
+  "auth.login.title": "登录",
+  "auth.login.body": "输入邮箱 — 我们会发送一个魔法链接。无需记住密码。",
+  "auth.login.placeholder": "you@email.com",
+  "auth.login.cta": "发送链接",
+  "auth.login.sending": "发送中…",
+  "auth.login.sent.title": "查收邮件 📬",
+  "auth.login.sent.body": "链接已发到 {email}，点击即可登录。",
+  "auth.login.error": "发送失败，请重试。",
+  "auth.logout": "退出登录",
+  "auth.cta.connect": "登录 / 注册",
+  "auth.cta.secure": "用邮箱保存你的账号 →",
 };
 
 const DICTS: Record<Locale, Dict> = { fr, en, es, it, pt, de, ja, zh };
