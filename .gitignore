@@ -2,8 +2,14 @@ node_modules
 .next
 .env*.local
 .vercel
+.secrets
+.secrets.*
+.git-token
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
 
 .vercel
+.secrets
+.secrets.*
+.git-token

@@ -26,7 +26,7 @@ begin
   -- 6+ repeats
   if t ~ '(.)\1{5,}' then return true; end if;
   -- has at least one letter (any unicode letter)
-  if not t ~ '\p{L}' then return true; end if;
+  if not t ~ '[[:alpha:]]' then return true; end if;
   stripped := lower(regexp_replace(t, '[\s\W_]+', '', 'g'));
   if length(stripped) = 0 then return true; end if;
   if length(stripped) >= 5 then
@@ -34,7 +34,7 @@ begin
     if unique_chars < 3 then return true; end if;
   end if;
   if length(t) >= 8 then
-    letters := length(regexp_replace(t, '[^\p{L}]', '', 'g'));
+    letters := length(regexp_replace(t, '[^[:alpha:]]', '', 'g'));
     if letters::float / length(t) < 0.3 then return true; end if;
   end if;
   return false;
@@ -100,7 +100,10 @@ do $$ begin
 end $$;
 
 -- 5. Update public views to hide dead polls from every feed.
-create or replace view polls_with_stats as
+--    Drop first (column order/set may differ from existing definition,
+--    which is illegal for CREATE OR REPLACE VIEW).
+drop view if exists polls_with_stats cascade;
+create view polls_with_stats as
 select
   p.id,
   p.slug,
@@ -117,7 +120,8 @@ grant select on polls_with_stats to anon, authenticated;
 -- Re-create polls_trending preserving its current decay + boost logic but
 -- with is_dead filter. (Keep your own seed/age multipliers if you've tweaked
 -- them in the DB beyond what's here.)
-create or replace view polls_trending as
+drop view if exists polls_trending cascade;
+create view polls_trending as
 with vote_counts as (
   select poll_id, count(*)::int as total_votes
   from votes
