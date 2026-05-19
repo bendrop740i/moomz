@@ -57,6 +57,17 @@ Mini SaaS gratuit : **vibe check / sondages partageables**. L'utilisateur pose u
 - Font : Space Grotesk (via next/font)
 - Design : dark + glassmorphism + 3 blobs animés (pink/purple/orange)
 
+## Supabase admin access (PAT)
+The user has authorized me to run SQL / Management API calls on the moomz Supabase project. The Personal Access Token lives at `C:\Users\ben76\moomz\.secrets.txt` (gitignored). Reuse it across sessions — do NOT prompt the user to regenerate.
+
+**Usage rules**:
+- Read silently: `PAT=$(tr -d '\r\n ' < .secrets.txt)` — never `cat`, `xxd`, or echo the value
+- Endpoint: `POST https://api.supabase.com/v1/projects/tpncpfatthgssttzrchu/database/query` with `Authorization: Bearer $PAT` and JSON body `{"query": "<sql>"}`
+- Build the JSON via Node (no jq on this machine): `node -e "const fs=require('fs');process.stdout.write(JSON.stringify({query:fs.readFileSync('migration.sql','utf8')}))"`
+- Success = HTTP 201, errors come back with `message` field
+
+**If the PAT stops working** (HTTP 401), the user revoked it — ask before regenerating.
+
 ## Important IDs & URLs
 - **Repo GitHub** : https://github.com/bendrop740i/moomz (owner `bendrop740i`)
 - **Vercel project** : `prj_3bZ7saBeA8bj1W3qbmtuMBOSYYyz` dans la team `team_l4uInQlamA1ObyV0J274QebL` (`bendrop740is-projects`)
