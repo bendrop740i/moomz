@@ -7,7 +7,9 @@ export const dynamic = "force-dynamic";
 export async function GET(request: NextRequest) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
-  const next = searchParams.get("next") ?? "/me";
+  const rawNext = searchParams.get("next");
+  // Only allow same-origin relative paths. Blocks `?next=//evil.com` and full URLs.
+  const next = rawNext && rawNext.startsWith("/") && !rawNext.startsWith("//") ? rawNext : "/me";
 
   if (!code) {
     return NextResponse.redirect(`${origin}/login?err=missing_code`);

@@ -3,7 +3,29 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, site-wide fluidity / perf pass (latest).** User asked for music to start without waiting + general site fluidity ("la musique arrive pas tout de suite parcontre fait en sorte que ca vienne fluidement et pas attendre trop optimise le site, les chargement, la fluidite met 10 agent la dessus"). Shipped via **10 parallel agents** + a follow-up bundle-audit application — **commit `2f26325`**.
+**2026-05-20, security hardening pass (latest).** Ran a 25-agent audit on the whole app (auth/RLS/realtime/i18n/perf/...). Critical block shipped in migration **`012-security-hardening.sql`** + 2 code patches:
+
+- **Open redirect fixed** in `app/auth/callback/route.ts` — `next` param is now only honored if it starts with `/` and not `//`. Previous code accepted `?next=https://evil.com`.
+- **Reserved usernames expanded** in `app/actions.ts` from 23 to 50+ — covered the SEO routes (`idees`, `ideas`, `guides`, `mot`, `word`, `read`, `music`, `creators`, `pricing`, `alternatives`) and reserved future surfaces (`ask`, `daily`, `world`, `register`, `logout`, etc.). Without this, a user could claim `ideas` and shadow the whole `/ideas/[slug]` SEO surface.
+- **5 public views recreated as `SECURITY INVOKER`** (`polls_with_stats`, `polls_trending`, `profiles_public`, `ask_questions_public`, `votes_world_24h`) — they previously ran as DEFINER and bypassed RLS. Supabase advisor flagged all 5 as ERROR-severity.
+- **REVOKE EXECUTE** on `fake_vote_burst()`, `pick_daily_moomz()`, `rls_auto_enable()`, `sweep_dead_polls()` from anon + authenticated. Cron jobs continue to run as `postgres` so they're unaffected. Previously any anon REST caller could trigger bot bursts or rotate the daily.
+- **`profiles.is_bot` write blocked** for anon/authenticated via `block_is_bot_user_set()` trigger (BEFORE INSERT/UPDATE). Service role bypasses. Before this, anyone could create a bot-flagged profile and inject into the FeaturedAsks home carousel.
+- **`ask_questions_public` filtered to status IN ('pending','answered')** — `skipped` is no longer publicly readable. Pending stays public because FeaturedAsks intentionally surfaces bot-pending questions.
+- **`pick_daily_moomz()` materialized** in 012 — the function ran live (via PAT push) but had no local migration; a fresh env recreate would have broken the daily cron.
+- **Verified live**: all 5 views show `security_invoker=true` in `pg_class.reloptions`, the 4 functions show `has_function_privilege(anon, 'EXECUTE') = false`, trigger `profiles_block_is_bot` exists.
+
+**Still open from the audit** (not blocking but flagged for follow-up):
+- Cookies missing `secure: true` (auth + voter + history). Set when shipping over HTTPS only.
+- `moomz_voter` is `httpOnly: false` — bypassable rate-limit. ASK 3/day cap defeated by cookie rotation. Need server-side IP fingerprint or proper auth-gated rate-limit.
+- ASK "anonymous" UI toggle in `ask-section.tsx` is currently fake — `asker_id` is always written. Either honor the toggle (skip `asker_id` insert) or remove the UX promise.
+- Race condition on `castVote`: two parallel votes in <3s can double-credit the streak (no atomic locking).
+- BottomNav polls `/api/ask-pending` + `/api/polls-stats` every 30s without visibility check → battery drain.
+- 19 i18n keys missing in pt/de/ja/zh (card.passed, card.vote, share.*, votes.*, results.refresh, nav.music, polls.emptyBody, …).
+- Onboarding is hardcoded FR (no `onboarding.*` namespace, topic labels in FR).
+- **Image upload claim in this file was inaccurate**: the `image_url` column exists on `polls` and in the views but `CreatePollForm` has no file input and `createPoll` doesn't accept an upload. Either delete the claim or actually wire the upload.
+- Migration 002 ALTERs columns on `profiles` table without ever CREATEing it. The live DB is fine (Supabase Auth created `profiles` once and the column adds are idempotent), but a true fresh-from-scratch apply would error. Schema is split across `supabase-schema.sql` + 001 — fragile.
+
+**2026-05-20, site-wide fluidity / perf pass.** User asked for music to start without waiting + general site fluidity ("la musique arrive pas tout de suite parcontre fait en sorte que ca vienne fluidement et pas attendre trop optimise le site, les chargement, la fluidite met 10 agent la dessus"). Shipped via **10 parallel agents** + a follow-up bundle-audit application — **commit `2f26325`**.
 
 - **Music instant playback**: `/api/track/[id]/route.ts` now keeps a per-instance `TRACK_CACHE` (pathname + signed blob URL, 10-min TTL) so `play()` skips the Supabase row lookup + Vercel Blob `head()` round-trip on every press. `music-provider.tsx` sets `el.src` synchronously inside the click handler (no `await`, preserves Safari user-gesture chain), switched `preload` to `auto`, removed the `el.load()` call that was interrupting `play()` on some browsers. Speculative idle prefetch warms the first click. `/music/page.tsx` now uses ISR (`revalidate=300`) instead of `force-dynamic`. **Expected: first-click latency 500ms-2s → 50-200ms**.
 - **Supabase-browser lazy import** in `music-provider.tsx` — the module-level `import { getBrowserSupabase } from "@/lib/supabase-browser"` was removed; both call sites (idle prefetch + `fetchNextTrack`) now `await import("@/lib/supabase-browser")` on demand. **Saves ~187 kB of @supabase/supabase-js from every SEO route** (~500+ pages: idees/ideas/guides/blog/mot/word/read).
