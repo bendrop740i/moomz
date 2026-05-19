@@ -47,6 +47,9 @@ export const metadata: Metadata = {
     title: "moomz — quick vibe check",
     description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
   },
+  verification: {
+    google: "KGnDbYDNmHH_vLW6L8W4iwd9rxdxSNOvtRVsBygD2ts",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
