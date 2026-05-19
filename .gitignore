@@ -5,6 +5,7 @@ node_modules
 .secrets
 .secrets.*
 .git-token
+.tmp-audit
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
