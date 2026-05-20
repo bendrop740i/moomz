@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { allPages } from "@/lib/seo";
 import type { Locale } from "@/lib/seo/types";
+import { getT } from "@/lib/i18n-server";
+import { getTopicLabel, type Topic } from "@/lib/topics";
+import type { Locale as UiLocale } from "@/lib/i18n";
 
 // Maps a poll topic (from `lib/topics.ts` Topic IDs, persisted on
 // `polls.topics`) to the best-matching SEO landing slug per locale.
@@ -55,6 +58,24 @@ function topicHref(topic: string, lang: "fr" | "en"): string {
   return `/discover?topic=${encodeURIComponent(topic)}`;
 }
 
+// Map page locales (incl. EN/FR-only routes) to a UI locale that exists in
+// `lib/i18n.ts`. Falls back to FR to match the rest of the app.
+function uiLocaleFor(lang: string | null | undefined): UiLocale {
+  switch (lang) {
+    case "en":
+    case "es":
+    case "it":
+    case "pt":
+    case "de":
+    case "ja":
+    case "zh":
+    case "fr":
+      return lang;
+    default:
+      return "fr";
+  }
+}
+
 export default function TopicPills({
   topics,
   lang,
@@ -66,35 +87,48 @@ export default function TopicPills({
 }) {
   if (!topics || topics.length === 0) return null;
   const target: "fr" | "en" = lang === "en" ? "en" : "fr";
+  const t = getT(uiLocaleFor(lang));
   const seen = new Set<string>();
   const items = topics
-    .filter((t) => {
-      if (seen.has(t)) return false;
-      seen.add(t);
+    .filter((topicId) => {
+      if (seen.has(topicId)) return false;
+      seen.add(topicId);
       return true;
     })
-    .map((t) => ({
-      topic: t,
-      cfg: TOPIC_TO_SEO[t],
-      href: topicHref(t, target),
+    .map((topicId) => ({
+      topic: topicId,
+      cfg: TOPIC_TO_SEO[topicId],
+      href: topicHref(topicId, target),
+      // Resolve via the locale-aware label helper; falls back to the
+      // hardcoded FR `cfg.label` (or the raw id) when the topic isn't part
+      // of `lib/topics.ts` Topic IDs.
+      label: (TOPIC_TO_SEO[topicId]
+        ? getTopicLabel(topicId as Topic, t)
+        : topicId),
     }));
   if (items.length === 0) return null;
 
-  const displayLabel = label ?? (target === "en" ? "Topics" : "Thèmes");
+  const displayLabel = label ?? t("topics.heading");
+  // If the i18n key for the section heading is missing, fall back to the
+  // previous hardcoded FR/EN copy.
+  const safeHeading = displayLabel === "topics.heading"
+    ? (target === "en" ? "Topics" : "Thèmes")
+    : displayLabel;
+
   return (
-    <section className="space-y-2" aria-label={displayLabel}>
+    <section className="space-y-2" aria-label={safeHeading}>
       <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-        {displayLabel}
+        {safeHeading}
       </h2>
       <div className="flex flex-wrap gap-2">
-        {items.map(({ topic, cfg, href }) => (
+        {items.map(({ topic, cfg, href, label: chipLabel }) => (
           <Link
             key={topic}
             href={href}
             className="glass rounded-full px-3 py-1.5 text-sm hover:bg-white/10 transition inline-flex items-center gap-1.5"
           >
             <span aria-hidden>{cfg?.emoji ?? "✨"}</span>
-            <span>{cfg?.label ?? topic}</span>
+            <span>{chipLabel}</span>
           </Link>
         ))}
       </div>

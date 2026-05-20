@@ -10,18 +10,20 @@ export const dynamic = "force-dynamic";
 // Login pages have no SEO value (just a form, no content for crawlers),
 // and indexing magic-link auth flows can leak the URL into search results.
 // We keep the URL crawlable (robots.txt allows it) but mark it noindex.
-export const metadata: Metadata = {
-  title: "Se connecter — moomz",
-  description:
-    "Connecte-toi à moomz avec un lien magique envoyé par email — pas de mot de passe, juste ton adresse et un clic pour accéder à tes sondages et tes votes.",
-  alternates: {
-    canonical: "https://moomz.com/login",
-  },
-  robots: {
-    index: false,
-    follow: true,
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = getLocale();
+  return {
+    title: "Se connecter — moomz",
+    description: t("misc.loginMetaDescription", locale),
+    alternates: {
+      canonical: "https://moomz.com/login",
+    },
+    robots: {
+      index: false,
+      follow: true,
+    },
+  };
+}
 
 export default async function LoginPage() {
   const userId = await getSessionUserId();

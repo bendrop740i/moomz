@@ -40,7 +40,7 @@ export default async function MePage() {
     <div className="space-y-6 fade-up">
       <header className="space-y-1">
         <h1 className="text-3xl font-bold tracking-tight">
-          {profile ? "Mon profil" : "Réserve ton nom"}
+          {profile ? tx("misc.meTitleOwn") : tx("misc.meTitleClaim")}
         </h1>
         <p className="text-white/50 text-xs sm:text-sm">
           {profile

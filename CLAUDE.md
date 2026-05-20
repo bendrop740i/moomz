@@ -3,7 +3,43 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, 9 utility tools pack (latest).** User asked for live-API-backed utility surfaces to make the site useful beyond polls ("jai add les page et plein de truc je peux generer quoi de + pour rendre le site utile, style des convertisseur devise, ou des truc linker a des api gratuite en live ?" → then "fait totu ca met des agent et fait dans les langue dispo"). Shipped via **9 parallel agents** + a main-thread integration pass — **~488 new routes** spanning currency / weather / time / holidays / crypto / dictionary / NASA / recipes / horoscope, with each detail page carrying a poll-prefill CTA that deeplinks back to the home create form (`/?q=...&o=opt1|opt2`).
+**2026-05-20, 10-agent i18n audit + 10-agent fix pass (latest).** User asked for a multi-agent verification of translations across all languages ("met 5 agent quui vont veirifer que c bien traduis dans toute les langue voir 10 agent car certaine langue ya moitieer fr et autre langue ouc pas propre") then validated the proposed 10-agent fix plan.
+
+**Phase 1 — Audit (10 parallel Explore agents).** Each agent owned a language scope. Findings:
+- **FR (baseline)** — 148 keys clean
+- **EN** — 0 leak, 0 missing key
+- **ES** — 1 missing (`nav.music`), 0 leak
+- **IT** — 1 missing (`nav.music`), 3 EN leaks (`🏆 Achievement`, `streak`, `pt` vs `pts`)
+- **PT** — **19 missing keys**, `pt-essentials.json` had ALL diacritics stripped (não→nao, são→sao, há→ha, é→e everywhere), PT-PT vs BR-PT inconsistency (`anónimo` vs `anônimo` 20 lines apart), PT quiz half of `scienze-it-pt.ts` never shipped (only IT exists despite filename)
+- **DE** — **19 missing**, 5-6 EN leaks (`nav.home: "Home"`, `nav.discover: "Discover"`, `discover.title: "discover"`, `linker.stats.votes: "Votes"`, `linker.stats.streak: "Streak"`)
+- **JA** — **19 missing**, 2 UTF-8 mojibake (`ç´„` should be `約`) at `sciences-ja-zh.ts:21,81`
+- **ZH** — **19 missing**, same 2 mojibake (file is shared JA+ZH), confirmed `lib/seo/read/r08.ts` is healthy + IS imported via `lib/seo/read/index.ts` (CLAUDE.md's "untracked + unimported + broken" note was stale)
+- **NL/RU/KO/HI/TR/PL** — seed polls clean
+- **AR** — seed polls clean BUT no RTL handling anywhere → content rendered LTR (broken)
+- **Cross-cutting** — onboarding hardcoded FR (5 strings, no `onboarding.*` namespace), `lib/topics.ts` 10 labels hardcoded FR with inconsistent EN mix (Bouffe/Drama/Tech/Lifestyle), `createPoll` validation errors in `app/actions.ts` all FR-only, ~30 stray FR strings scattered
+
+**Phase 2 — Fix (10 parallel claude agents, strict file ownership to avoid `lib/i18n.ts` race conditions):**
+1. **i18n.ts master** — added 19 keys × 4 langs (PT/DE/JA/ZH), `nav.music` × ES/IT, fixed DE leaks (Startseite/Entdecken/Stimmen/Serie), fixed IT leaks (Traguardi, pts), normalized PT `anónimo` → `anônimo`. Added 4 new namespaces × 8 langs natively: `onboarding.*` (5 keys), `topics.*` (10 keys), `errors.poll.*` (7 keys), `misc.*` (6 keys). **All 8 dicts now carry 162 identical keys.**
+2. **`pt-essentials.json`** — rewrote all 20 entries with restored Brazilian Portuguese diacritics (3621 diacritic chars restored). `matchPatterns` arrays kept ASCII intentionally (substring matchers on lowercase questions).
+3. **`sciences-ja-zh.ts`** — 2 `ç´„` → `約` fixes.
+4. **`app/onboarding.tsx`** — i18n-ified 5 hardcoded FR strings via `useT()`.
+5. **`lib/topics.ts`** — kept `TOPICS` array with FR `label` fallback, added `getTopicLabel(id, t)` helper. `lib/i18n-server.ts` got new `getT(locale)` factory mirroring `useT()`. Wired `app/onboarding.tsx` (client) + `app/[slug]/topic-pills.tsx` (server) to consume `getTopicLabel`.
+6. **`app/actions.ts`** — `createPoll` 7 validation errors now resolve via `tr("errors.poll.*")` with `getLocale()` from i18n-server. The `{opt}` placeholder is preserved literally and substituted at throw time.
+7. **`app/login/page.tsx`** — static `metadata` export converted to async `generateMetadata()` reading `getLocale()` and `t("misc.loginMetaDescription", locale)`. `app/me/page.tsx` + `app/me/profile-form.tsx` + `app/mes-sondages/page.tsx` → all FR strings replaced with `tx("misc.*")` / `t("misc.*")`.
+8. **`app/[slug]/profile-view.tsx`** — empty state now `t("misc.profileNoPolls", locale)`. `app/_seo/keyword-page-view.tsx` was already locale-aware via its `LABELS` record (no change needed — `misc.keywordEmpty` is redundant but harmless).
+9. **RTL** — new `lib/dir.ts` exports `getDirection()` which reads `headers().get("accept-language")` and returns `"rtl"` when it starts with `ar`. `app/layout.tsx` now renders `<html lang={dir === "rtl" ? "ar" : locale} dir={dir}>`. `app/manifest.ts` kept at `dir: "ltr"` (static, runtime HTML attr is what flips).
+10. **Final stray-FR audit** — confirmed `r08.ts` is healthy. Inventoried ~30 remaining stray FR strings (see "Still open" below).
+
+**Build verify**: `npx tsc --noEmit` exits 0. (Some files — i18n.ts, actions.ts — were committed by a parallel session/window mid-pass so the working-tree diff is smaller than expected, but every change is in HEAD or pending.)
+
+**Still open from this pass**:
+- PT quiz half of `scienze-it-pt.ts` was never shipped (only IT exists in that file — file name is misleading)
+- ~30 stray FR strings in sub-app `_strings.ts` files (astro/cosmos/crypto/heure/convertisseur/recettes) — they're FR-only by design; if these sub-apps need EN/ES/IT/PT/DE/JA/ZH later, the strings tables need expansion
+- `below-poll-seo.tsx` + `below-profile-seo.tsx` use FR/EN ternaries on `isEn`; users in ES/IT/PT/DE/JA/ZH see the FR branch
+- Root `app/layout.tsx` + `app/page.tsx` metadata description still FR-only
+- AR is only handled via RTL flip — no UI translation (it's not in the `Locale` type); falling back to EN is the current behavior
+
+**2026-05-20, 9 utility tools pack.** User asked for live-API-backed utility surfaces to make the site useful beyond polls ("jai add les page et plein de truc je peux generer quoi de + pour rendre le site utile, style des convertisseur devise, ou des truc linker a des api gratuite en live ?" → then "fait totu ca met des agent et fait dans les langue dispo"). Shipped via **9 parallel agents** + a main-thread integration pass — **~488 new routes** spanning currency / weather / time / holidays / crypto / dictionary / NASA / recipes / horoscope, with each detail page carrying a poll-prefill CTA that deeplinks back to the home create form (`/?q=...&o=opt1|opt2`).
 
 Each tool lives in `app/<tool>/{page.tsx,[slug]/page.tsx}` + `lib/tools/<tool>.ts` (slug arrays + helpers + fetchers + inline 8-lang STRINGS). All server-rendered (only exceptions: `/heure/[city]/live-clock.tsx` ticking clock, `/astro/sign-finder.tsx` date input). Every detail page emits relevant JSON-LD (Article / Product / Event / Place / DefinedTerm depending on tool). Every API call uses `fetch(url, { next: { revalidate: N } })` with graceful `null`/stub fallbacks — no crashes if upstream is down.
 

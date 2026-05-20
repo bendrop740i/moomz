@@ -3,12 +3,14 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { setTopics } from "./actions";
-import { TOPICS, type Topic } from "@/lib/topics";
+import { TOPICS, getTopicLabel, type Topic } from "@/lib/topics";
+import { useT } from "./locale-context";
 
 const MAX_PICK = 5;
 
 export default function Onboarding() {
   const router = useRouter();
+  const t = useT();
   const [open, setOpen] = useState(false);
   const [picked, setPicked] = useState<Set<Topic>>(new Set());
   const [saving, setSaving] = useState(false);
@@ -165,10 +167,10 @@ export default function Onboarding() {
             id="onboarding-title"
             className="font-display text-3xl sm:text-4xl leading-tight bg-gradient-to-br from-white via-pink-200 to-purple-300 bg-clip-text text-transparent"
           >
-            C&apos;est ta vibe
+            {t("onboarding.title")}
           </h2>
           <p className="text-white/65 text-sm sm:text-base mt-2 max-w-xs mx-auto leading-snug">
-            Choisis 1 à 5 thèmes. On te montre les polls qui te parlent vraiment.
+            {t("onboarding.subtitle")}
           </p>
 
           {/* picked counter dots */}
@@ -189,17 +191,18 @@ export default function Onboarding() {
         {/* topic grid */}
         <div className="overflow-y-auto overscroll-contain px-4 sm:px-6 pb-3 flex-1 min-h-0">
           <div className="grid grid-cols-3 sm:grid-cols-3 gap-2">
-            {TOPICS.map((t) => {
-              const active = picked.has(t.id);
+            {TOPICS.map((topic) => {
+              const active = picked.has(topic.id);
               const disabled = !active && picked.size >= MAX_PICK;
+              const label = getTopicLabel(topic.id, t);
               return (
                 <button
-                  key={t.id}
+                  key={topic.id}
                   type="button"
-                  onClick={() => toggle(t.id)}
+                  onClick={() => toggle(topic.id)}
                   disabled={disabled}
                   aria-pressed={active}
-                  aria-label={t.label}
+                  aria-label={label}
                   className={`group relative flex flex-col items-center justify-center gap-1 rounded-2xl px-2 py-3.5 min-h-[88px] transition-all duration-200 border-2 ${
                     active
                       ? "bg-gradient-to-br from-pink-500/40 via-purple-500/30 to-amber-500/20 border-pink-400/80 shadow-lg shadow-pink-500/30 scale-[1.04]"
@@ -214,10 +217,10 @@ export default function Onboarding() {
                     }`}
                     aria-hidden
                   >
-                    {t.emoji}
+                    {topic.emoji}
                   </span>
                   <span className="text-xs sm:text-sm font-semibold text-center leading-tight">
-                    {t.label}
+                    {label}
                   </span>
                   {active && (
                     <span className="absolute top-1.5 right-1.5 w-4 h-4 rounded-full bg-gradient-to-br from-pink-400 to-purple-500 flex items-center justify-center shadow-md shadow-pink-500/50">
@@ -239,7 +242,7 @@ export default function Onboarding() {
             disabled={saving}
             className="min-h-[48px] rounded-xl px-4 text-sm font-medium text-white/60 hover:text-white hover:bg-white/5 transition disabled:opacity-50 shrink-0"
           >
-            Plus tard
+            {t("onboarding.skipButton")}
           </button>
           <button
             onClick={submit}
@@ -249,8 +252,8 @@ export default function Onboarding() {
             {saving
               ? "…"
               : picked.size === 0
-                ? "Choisis au moins 1 vibe"
-                : `C'est parti → (${picked.size})`}
+                ? t("onboarding.errorNoTopics")
+                : `${t("onboarding.submitButton")} (${picked.size})`}
           </button>
         </div>
       </div>

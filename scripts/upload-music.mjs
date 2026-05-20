@@ -156,12 +156,18 @@ async function main() {
   const existing = await existingKeys();
   console.log(`Already in DB: ${existing.size} tracks`);
 
-  const todo = [...byTitle.entries()].filter(([title]) => {
-    const slug = slugifyForKey(title);
-    const key = `tracks/${slug}.mp3`;
-    return ![...existing].some((u) => u === key || u.includes(`/tracks/${slug}.mp3`));
-  });
-  console.log(`To upload (new to DB): ${todo.length}`);
+  // With `--all`, attempt every local file (uploadOne() still skips when R2
+  // already has the object). Without it, only files whose key isn't in the DB
+  // yet — same behaviour as the legacy Vercel-Blob script.
+  const allMode = process.argv.includes("--all");
+  const todo = allMode
+    ? [...byTitle.entries()]
+    : [...byTitle.entries()].filter(([title]) => {
+        const slug = slugifyForKey(title);
+        const key = `tracks/${slug}.mp3`;
+        return ![...existing].some((u) => u === key || u.includes(`/tracks/${slug}.mp3`));
+      });
+  console.log(`To upload (${allMode ? "all local" : "new to DB"}): ${todo.length}`);
 
   if (todo.length === 0) {
     console.log("Nothing to do — bye.");

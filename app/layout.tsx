@@ -12,6 +12,7 @@ import PushPrompt from "./push-prompt";
 import { MusicProvider } from "./music-provider";
 import MusicMiniPlayer from "./music-mini-player";
 import { getLocale } from "@/lib/i18n-server";
+import { getDirection } from "@/lib/dir";
 import { t } from "@/lib/i18n";
 import "./globals.css";
 
@@ -61,6 +62,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = getLocale();
+  const dir = getDirection();
   const installStrings = {
     cta: t("install.cta", locale),
     iosTitle: t("install.ios.title", locale),
@@ -74,7 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     dismiss: t("push.dismiss", locale),
   };
   return (
-    <html lang={locale} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
+    <html lang={dir === "rtl" ? "ar" : locale} dir={dir} className={`${font.variable} ${fontDisplay.variable} font-sans`}>
       <body className="min-h-screen text-white antialiased overflow-x-hidden">
         <LocaleProvider value={locale}>
           <MusicProvider>

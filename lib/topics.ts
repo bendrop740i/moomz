@@ -10,6 +10,10 @@ export type Topic =
   | "money"
   | "ado";
 
+// `label` stays as a hardcoded FR fallback so legacy non-i18n callers keep
+// working. Locale-aware UI should call `getTopicLabel(id, t)` instead, where
+// `t` comes from `useT()` (client) or `getT(locale)` (server) and resolves
+// the `topics.<id>` key in `lib/i18n.ts`.
 export const TOPICS: { id: Topic; emoji: string; label: string }[] = [
   { id: "food", emoji: "🍕", label: "Bouffe" },
   { id: "couple", emoji: "💖", label: "Couple" },
@@ -24,6 +28,18 @@ export const TOPICS: { id: Topic; emoji: string; label: string }[] = [
 ];
 
 export const TOPIC_IDS = TOPICS.map((t) => t.id);
+
+// Locale-aware label resolver. Pass either the `useT()` client hook return
+// value or a `getT(locale)`-style server translator. Falls back to the
+// hardcoded FR `label` from TOPICS if the `topics.<id>` key is missing in
+// the active dictionary (the i18n `t()` helper returns the key as-is on miss,
+// so we detect that and substitute the fallback).
+export function getTopicLabel(id: Topic, t: (key: string) => string): string {
+  const key = `topics.${id}`;
+  const translated = t(key);
+  if (translated && translated !== key) return translated;
+  return TOPICS.find((x) => x.id === id)?.label ?? id;
+}
 
 // Heuristic tagging for user-created polls (no LLM).
 const RULES: { topic: Topic; re: RegExp }[] = [

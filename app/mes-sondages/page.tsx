@@ -104,7 +104,7 @@ export default async function MesSondagesPage() {
             ) : (
               <>
                 <div className="font-semibold text-white truncate">
-                  Réserve ton @username
+                  {tx("misc.reserveUsernameCta")}
                 </div>
                 <div className="text-xs text-white/40 truncate">
                   Mini Linktree + tes polls sous moomz.com/toi

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { claimUsername, updateProfile } from "../actions";
+import { useT } from "../locale-context";
 import type { PrivateProfile } from "@/lib/profile";
 
 const AVATAR_EMOJIS = ["🌶️", "🔥", "💖", "✨", "👀", "🎉", "🤡", "💀", "🥶", "😎", "🦄", "🚀", "💎", "🍑", "🍕"];
@@ -15,6 +16,7 @@ export default function ProfileForm({
   initialProfile: PrivateProfile | null;
 }) {
   const router = useRouter();
+  const t = useT();
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [emoji, setEmoji] = useState(initialProfile?.avatar_emoji ?? "🌶️");
@@ -203,7 +205,7 @@ export default function ProfileForm({
         disabled={pending || (isNew && usernameHint.kind === "err")}
         className="w-full rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 min-h-[48px] hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
       >
-        {pending ? "…" : isNew ? "Réserver →" : "Enregistrer"}
+        {pending ? "…" : isNew ? t("misc.reserveClaim") : t("misc.reserveSave")}
       </button>
     </form>
   );
