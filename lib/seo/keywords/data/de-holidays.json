@@ -1,0 +1,554 @@
+[
+  {
+    "slug": "weihnachten",
+    "locale": "de",
+    "keyword": "Weihnachten",
+    "matchPatterns": ["weihnachten", "weihnachtsbaum", "geschenk", "heiligabend", "advent"],
+    "topic": "holidays",
+    "title": "Weihnachten — Das Fest der Familie, Geschenke und Gemütlichkeit",
+    "description": "Alles über Weihnachten: Heiligabend am 24. Dezember, Christbaum, Geschenke, deutsche Bräuche und warum das Fest so viele Emotionen weckt.",
+    "emoji": "🎄",
+    "intro": "Weihnachten ist für viele Menschen in Deutschland das wichtigste Fest des Jahres. Es ist die Zeit, in der die Familie zusammenkommt, in der gekocht, gebacken, geschenkt und gesungen wird, und in der eine ganz besondere Stimmung über dem Land liegt. Gefeiert wird das Weihnachtsfest rund um den 24. Dezember, den Heiligabend. Anders als in vielen anderen Ländern, wo der 25. Dezember im Mittelpunkt steht, ist in Deutschland der Abend des 24. der emotionale Höhepunkt: Hier werden traditionell die Geschenke ausgetauscht. Religiös gesehen feiert Weihnachten die Geburt von Jesus Christus, doch das Fest ist längst weit über seine kirchlichen Wurzeln hinausgewachsen und für viele vor allem ein Fest der Familie, der Wärme und der Besinnung. Die Adventszeit, die vier Wochen vor Weihnachten, ist eine Vorbereitungszeit voller eigener Bräuche: der Adventskranz mit seinen vier Kerzen, der Adventskalender mit seinen Türchen, die Weihnachtsmärkte mit Glühwein, gebrannten Mandeln und Lichterketten. Der geschmückte Weihnachtsbaum gehört für die meisten unverzichtbar dazu. Weihnachten ist allerdings auch ein Fest, das Erwartungen, Stress und manchmal Familienkonflikte mit sich bringt. Genau diese Mischung aus Wärme und Realität macht Weihnachten zu einem perfekten moomz-Thema: Geschenke früh oder spät kaufen, echter oder künstlicher Baum, Weihnachten lieben oder überbewertet finden?"
+    ,
+    "sections": [
+      {
+        "h": "Heiligabend, der 25. und der 26. Dezember",
+        "body": "In Deutschland erstreckt sich das Weihnachtsfest über mehrere Tage. Der emotionale Höhepunkt ist der Abend des 24. Dezember, der Heiligabend. An diesem Abend kommt die Familie zusammen, oft gibt es ein besonderes Essen, und traditionell werden am Abend die Geschenke ausgepackt, die der Überlieferung nach das Christkind oder der Weihnachtsmann gebracht hat. Viele Familien besuchen außerdem einen Gottesdienst, etwa die Christmette. Der 25. und der 26. Dezember sind als erster und zweiter Weihnachtsfeiertag gesetzliche Feiertage. Sie werden meist ruhiger begangen, oft mit ausgedehnten Mahlzeiten und Besuchen bei Verwandten. Diese Aufteilung über drei Tage gibt dem deutschen Weihnachtsfest einen besonderen Rhythmus: erst der intensive, festliche Abend, dann zwei Tage der Gemütlichkeit und des Zusammenseins. Die genauen Abläufe unterscheiden sich von Familie zu Familie, doch der Heiligabend bleibt fast überall der zentrale Moment."
+      },
+      {
+        "h": "Deutsche Weihnachtsbräuche und die Adventszeit",
+        "body": "Weihnachten in Deutschland beginnt nicht erst am 24. Dezember, sondern mit der Adventszeit, den vier Wochen davor. Der Adventskranz mit seinen vier Kerzen, von denen an jedem Adventssonntag eine weitere angezündet wird, markiert das Näherrücken des Festes. Der Adventskalender mit seinen 24 Türchen verkürzt vor allem für Kinder die Wartezeit. Ein besonderes Merkmal sind die Weihnachtsmärkte, die in fast jeder Stadt ihre Stände aufbauen: Hier gibt es Glühwein, gebrannte Mandeln, Lebkuchen und handgemachten Schmuck, dazu Lichterketten und festliche Musik. Auch der Nikolaustag am 6. Dezember gehört dazu, an dem traditionell kleine Geschenke in geputzten Stiefeln landen. Das Backen von Plätzchen und Stollen, das Schmücken der Wohnung und das Singen von Weihnachtsliedern runden die Bräuche ab. Diese vielen kleinen Rituale machen die deutsche Weihnachtszeit so stimmungsvoll und sorgen dafür, dass das Fest sich über viele Wochen ankündigt."
+      },
+      {
+        "h": "Weihnachten zwischen Wärme und Erwartungsdruck",
+        "body": "So schön Weihnachten ist, das Fest bringt auch Erwartungen und Stress mit sich. Geschenke müssen besorgt werden, oft unter Zeitdruck und mit der Sorge, das Richtige zu treffen. Das Festessen muss gelingen, das Haus soll geschmückt sein, und die ganze Familie kommt auf engem Raum zusammen, was nicht immer ohne Spannungen abläuft. Viele Menschen kennen das Gefühl, dass Weihnachten gleichzeitig schön und anstrengend ist. Genau deshalb gibt es auch eine Gegenbewegung: Manche feiern bewusst ruhiger, verzichten auf übertriebenen Geschenkeaufwand oder verbringen die Tage ganz anders. Diese ehrliche, vielschichtige Seite von Weihnachten macht das Fest zu einem dankbaren moomz-Thema. Fragen wie 'Liebst du Weihnachten oder findest du es überbewertet?', 'Geschenke früh kaufen oder erst am 23.?' oder 'Familie groß feiern oder lieber im kleinen Kreis?' treffen einen Nerv, weil fast jeder eine persönliche Haltung zu diesem emotional aufgeladenen Fest hat."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Warum feiert man Weihnachten am 24. Dezember?",
+        "a": "In Deutschland ist der Abend des 24. Dezember, der Heiligabend, der emotionale Höhepunkt des Weihnachtsfestes. An diesem Abend kommt die Familie zusammen und traditionell werden die Geschenke ausgetauscht. Religiös gesehen leitet der Heiligabend das Weihnachtsfest ein, das die Geburt von Jesus Christus feiert. Während in vielen anderen Ländern der 25. Dezember im Mittelpunkt steht, hat sich in Deutschland und einigen Nachbarländern die Bescherung am Abend des 24. eingebürgert. Der 25. und der 26. Dezember sind als erster und zweiter Weihnachtsfeiertag dann ruhigere Tage, die meist mit Festessen und Verwandtenbesuchen verbracht werden."
+      },
+      {
+        "q": "Was ist die Adventszeit?",
+        "a": "Die Adventszeit umfasst die vier Wochen vor Weihnachten und ist eine Zeit der Vorbereitung und Vorfreude auf das Fest. Sie beginnt mit dem ersten Adventssonntag. Typisch ist der Adventskranz mit vier Kerzen, von denen an jedem Adventssonntag eine weitere angezündet wird, sodass am vierten Advent alle vier brennen. Auch der Adventskalender mit 24 Türchen gehört dazu und verkürzt vor allem Kindern die Wartezeit. In der Adventszeit öffnen die Weihnachtsmärkte, es wird gebacken und die Wohnungen werden geschmückt. Diese vielen kleinen Bräuche machen die Adventszeit zu einer besonders stimmungsvollen Phase des Jahres."
+      },
+      {
+        "q": "Welche Rolle spielt der Weihnachtsbaum?",
+        "a": "Der geschmückte Weihnachtsbaum, auch Christbaum genannt, gehört für die meisten Menschen in Deutschland unverzichtbar zum Fest. Traditionell handelt es sich um einen Nadelbaum, der mit Kugeln, Lichtern, Lametta und anderem Schmuck verziert wird. Häufig wird der Baum erst kurz vor oder an Heiligabend aufgestellt und geschmückt, und unter ihm werden die Geschenke abgelegt. Der Weihnachtsbaum ist zum zentralen Symbol des Festes geworden. Heute gibt es eine kleine Grundsatzfrage: echter Baum mit seinem typischen Duft oder künstlicher Baum, der jedes Jahr wiederverwendet werden kann. Auf moomz ist genau diese Frage ein beliebtes Poll-Thema."
+      },
+      {
+        "q": "Warum ist Weihnachten für viele auch stressig?",
+        "a": "Weihnachten ist ein schönes, aber auch anspruchsvolles Fest. Geschenke müssen besorgt werden, oft unter Zeitdruck und mit der Sorge, das Richtige zu treffen. Das Festessen soll gelingen, die Wohnung geschmückt sein, und die ganze Familie kommt auf engem Raum zusammen, was nicht immer ohne Spannungen abläuft. Viele Menschen empfinden Weihnachten deshalb gleichzeitig als warm und anstrengend. Daraus ist eine Gegenbewegung entstanden: Manche feiern bewusst ruhiger, verzichten auf übertriebenen Aufwand oder verbringen die Tage anders. Diese ehrliche, vielschichtige Seite des Festes macht es zu einem dankbaren Thema für Polls über Erwartungen und persönliche Vorlieben."
+      }
+    ],
+    "related": ["silvester", "neujahr", "dreikoenigsfest", "liebe", "muttertag"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "silvester",
+    "locale": "de",
+    "keyword": "Silvester",
+    "matchPatterns": ["silvester", "feuerwerk", "neujahr", "böller", "party"],
+    "topic": "holidays",
+    "title": "Silvester — Feuerwerk, Vorsätze und der laute Start ins neue Jahr",
+    "description": "Alles über Silvester: der 31. Dezember, Feuerwerk um Mitternacht, gute Vorsätze, Bleigießen und wie Deutschland ins neue Jahr feiert.",
+    "emoji": "🎆",
+    "intro": "Silvester ist der letzte Tag des Jahres, der 31. Dezember, und in Deutschland einer der lautesten und ausgelassensten Abende überhaupt. Der Name geht auf den Heiligen Silvester zurück, dessen Gedenktag auf diesen Tag fällt. Während Weihnachten ein stilles, familiäres Fest ist, steht Silvester für genau das Gegenteil: Feiern, Partys, Geselligkeit, und um Punkt Mitternacht das große Feuerwerk, das den Himmel über Städten und Dörfern erleuchtet. Silvester ist die Schwelle zwischen altem und neuem Jahr, und genau diese Schwelle macht den besonderen Reiz des Abends aus. Man blickt zurück auf zwölf Monate und nach vorn auf alles, was kommen mag. Viele Menschen verbinden mit Silvester gute Vorsätze für das neue Jahr: mehr Sport, weniger Stress, ein neues Hobby, ein anderer Lebensstil. Der Abend selbst hat seine eigenen Bräuche, von Glücksbringern wie Schornsteinfeger und Glücksklee über das Anstoßen mit Sekt bis zum lauten Countdown vor Mitternacht. Gleichzeitig ist Silvester ein Abend, der polarisiert: Die einen lieben das große Feiern und das Feuerwerk, die anderen ziehen einen ruhigen Jahreswechsel vor und sehen Lärm und Knallerei kritisch. Auf moomz ist Silvester ein dankbares Poll-Thema: große Party oder ruhiger Abend, Feuerwerk lieben oder ablehnen, an Vorsätze glauben oder nicht?"
+    ,
+    "sections": [
+      {
+        "h": "Der Jahreswechsel und das Feuerwerk um Mitternacht",
+        "body": "Der Höhepunkt von Silvester ist der Moment des Jahreswechsels um Mitternacht. In den letzten Sekunden des alten Jahres zählen Menschen gemeinsam den Countdown herunter, und mit dem Schlag zwölf bricht der Jubel los. In Deutschland gehört zum Jahreswechsel traditionell das Feuerwerk: Raketen steigen in den Himmel, Böller knallen, und über Städten und Dörfern entsteht ein farbiges Lichtspektakel. Familien und Freunde stoßen mit Sekt an, wünschen sich ein gutes neues Jahr, umarmen sich. Das Feuerwerk ist für viele ein fester, emotionaler Bestandteil dieses Moments und symbolisiert den Übergang vom Alten zum Neuen. Gleichzeitig wird das private Feuerwerk in den letzten Jahren zunehmend diskutiert, wegen Lärm, Verletzungsgefahr, Müll und der Belastung für Tiere und Umwelt. Diese Debatte gehört inzwischen ebenso zu Silvester wie das Feuerwerk selbst und ist ein häufiges, kontroverses Thema."
+      },
+      {
+        "h": "Bräuche und Glücksbringer rund um Silvester",
+        "body": "Silvester hat in Deutschland zahlreiche eigene Bräuche. Sehr verbreitet sind Glücksbringer, die man sich gegenseitig schenkt: kleine Figuren von Schornsteinfegern, Glücksschweinen, vierblättrigem Klee, Marienkäfern oder Hufeisen. Sie sollen Glück für das kommende Jahr bringen. Lange Zeit war auch das Bleigießen ein typischer Silvesterbrauch, bei dem man aus geschmolzenem Metall geformte Figuren deutete, um die Zukunft vorherzusagen; aus Gesundheitsgründen wird heute oft Wachs statt Blei verwendet. Viele Menschen verfolgen am Abend bestimmte Fernsehrituale, und um Mitternacht stößt man mit Sekt oder Champagner an. Auch das Verschicken von Neujahrswünschen gehört dazu. Diese Bräuche geben dem Abend Struktur und verbinden Generationen, denn viele von ihnen werden seit Langem weitergegeben. Sie machen Silvester zu mehr als nur einer Party und unterstreichen den symbolischen Charakter des Jahreswechsels."
+      },
+      {
+        "h": "Gute Vorsätze und der Blick nach vorn",
+        "body": "Silvester ist eng mit dem Thema der guten Vorsätze verbunden. Der Jahreswechsel wirkt wie ein natürlicher Neuanfang, ein sauberer Schnitt, der dazu einlädt, etwas im eigenen Leben zu verändern. Viele Menschen nehmen sich zum neuen Jahr etwas vor: mehr Bewegung, gesündere Ernährung, weniger Bildschirmzeit, mehr Zeit für Freunde, ein neues Hobby oder mehr Gelassenheit. Diese Vorsätze sind Ausdruck der Hoffnung, dass das kommende Jahr besser wird als das vergangene. Bekannt ist allerdings auch, dass viele gute Vorsätze nach wenigen Wochen wieder verblassen. Genau diese Spannung zwischen guter Absicht und Alltag macht das Thema interessant. Manche schwören auf konkrete, kleine Ziele, andere halten gar nichts von Vorsätzen. Auf moomz ist das ein perfektes Poll-Thema, weil es Selbstreflexion mit Humor verbindet: Glaubst du an gute Vorsätze, hast du dieses Jahr welche, und welcher hält am längsten?"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Warum heißt der 31. Dezember Silvester?",
+        "a": "Der Name Silvester geht auf den Heiligen Silvester zurück, dessen Gedenktag im kirchlichen Kalender auf den 31. Dezember fällt. Da der letzte Tag des Jahres mit diesem Gedenktag zusammenfällt, hat sich im deutschsprachigen Raum der Name Silvester für den Jahreswechsel eingebürgert. In vielen anderen Sprachen wird der Tag schlicht als Jahresende oder Vorabend des neuen Jahres bezeichnet. Der Begriff Silvester ist also ein gutes Beispiel dafür, wie ein religiöser Gedenktag einem weltlichen Anlass seinen Namen gegeben hat. Heute verbinden die meisten Menschen mit dem Wort vor allem Feuerwerk, Partys und den Übergang ins neue Jahr."
+      },
+      {
+        "q": "Warum gibt es an Silvester Feuerwerk?",
+        "a": "Das Feuerwerk gehört in Deutschland traditionell zum Jahreswechsel. Um Mitternacht steigen Raketen in den Himmel, Böller knallen, und über Städten und Dörfern entsteht ein farbiges Lichtspektakel. Das Feuerwerk symbolisiert den Übergang vom alten zum neuen Jahr und ist für viele ein emotionaler, festlicher Moment. Historisch wurde Lärm an der Jahreswende auch mit der Vorstellung verbunden, böse Geister zu vertreiben. In den letzten Jahren wird das private Feuerwerk allerdings zunehmend kritisch diskutiert, wegen Lärm, Verletzungsgefahr, Müll und der Belastung für Tiere und Umwelt. Diese Debatte gehört heute ebenso zu Silvester wie die Knallerei selbst."
+      },
+      {
+        "q": "Was sind typische Glücksbringer zu Silvester?",
+        "a": "Zu Silvester schenkt man sich in Deutschland traditionell kleine Glücksbringer, die Glück für das kommende Jahr bringen sollen. Sehr verbreitet sind Figuren von Schornsteinfegern, Glücksschweinen, vierblättrigem Klee, Marienkäfern und Hufeisen. Sie werden oft aus Marzipan, Schokolade oder als kleine Anhänger verschenkt. Jeder dieser Glücksbringer hat eine eigene symbolische Bedeutung, die auf alten Vorstellungen von Glück und Schutz beruht. Das Schenken solcher Glücksbringer ist ein freundlicher Brauch, der Wohlwollen für das neue Jahr ausdrückt. Neben den Glücksbringern gibt es weitere Silvesterbräuche wie das Anstoßen mit Sekt um Mitternacht und das Verschicken von Neujahrswünschen."
+      },
+      {
+        "q": "Warum nimmt man sich zu Silvester gute Vorsätze?",
+        "a": "Der Jahreswechsel wirkt wie ein natürlicher Neuanfang, ein sauberer Schnitt zwischen dem alten und dem neuen Jahr. Diese symbolische Schwelle lädt viele Menschen dazu ein, über das eigene Leben nachzudenken und sich etwas vorzunehmen: mehr Bewegung, gesündere Ernährung, weniger Stress, ein neues Hobby. Gute Vorsätze sind Ausdruck der Hoffnung, dass das kommende Jahr besser wird. Bekannt ist allerdings auch, dass viele Vorsätze nach wenigen Wochen wieder verblassen, weil der Alltag dazwischenkommt. Genau diese Spannung zwischen guter Absicht und Wirklichkeit macht das Thema spannend und zu einem beliebten, ehrlichen Poll-Thema."
+      }
+    ],
+    "related": ["neujahr", "weihnachten", "dreikoenigsfest", "fasching", "sommerferien"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "valentinstag",
+    "locale": "de",
+    "keyword": "Valentinstag",
+    "matchPatterns": ["valentinstag", "valentin", "liebe", "rosen", "date"],
+    "topic": "holidays",
+    "title": "Valentinstag — Der Tag der Liebe und der ewige Streit darum",
+    "description": "Alles über den Valentinstag: der 14. Februar, Rosen, Schokolade, romantische Gesten und warum der Tag der Liebe so polarisiert.",
+    "emoji": "💝",
+    "intro": "Der Valentinstag am 14. Februar gilt als der Tag der Liebe und der Verliebten. Es ist der Tag, an dem viele Paare einander mit kleinen Gesten zeigen, dass sie sich wichtig sind: ein Strauß Rosen, eine Schachtel Pralinen, eine handgeschriebene Karte, ein gemeinsames Abendessen. Der Valentinstag hat eine lange Geschichte und geht auf den Heiligen Valentin zurück, eine kirchliche Gestalt, deren Gedenktag auf den 14. Februar fällt. Über die Jahrhunderte wurde der Tag immer stärker mit romantischer Liebe verbunden, und im 20. Jahrhundert entwickelte er sich zu dem populären Anlass, den wir heute kennen. In Deutschland ist der Valentinstag heute fest etabliert, auch wenn er kein Feiertag ist und der Alltag normal weiterläuft. Blumengeschäfte, Konditoreien und Restaurants erleben an diesem Tag traditionell einen Ansturm. Gleichzeitig ist der Valentinstag wie kaum ein anderer Anlass umstritten. Die einen lieben ihn als willkommene Gelegenheit, Zuneigung zu zeigen. Die anderen kritisieren ihn als kommerziell, als künstlich erzeugten Druck, ausgerechnet an einem bestimmten Datum romantisch sein zu müssen. Genau diese Polarisierung macht den Valentinstag zu einem perfekten moomz-Thema. Polls wie 'Valentinstag feiern oder ignorieren?', 'Romantisch oder kommerzieller Quatsch?' oder 'Welche Geste zählt wirklich?' treffen sofort einen Nerv."
+    ,
+    "sections": [
+      {
+        "h": "Die Geschichte des Valentinstags",
+        "body": "Der Valentinstag geht auf den Heiligen Valentin zurück, eine kirchliche Gestalt, deren Gedenktag im christlichen Kalender auf den 14. Februar fällt. Um die historische Figur ranken sich verschiedene Legenden, viele davon verbinden ihn mit der Liebe und mit Paaren. Über die Jahrhunderte wurde der 14. Februar immer stärker zu einem Tag der romantischen Liebe. Schon in früheren Epochen tauchte die Vorstellung auf, dass an diesem Tag Verliebte einander Botschaften und kleine Zeichen der Zuneigung zukommen lassen. Im 19. und vor allem im 20. Jahrhundert entwickelte sich der Valentinstag dann zu dem populären Anlass, den wir heute kennen, getragen auch von Blumenhandel, Süßwarenindustrie und Grußkartenkultur. In Deutschland setzte sich der Valentinstag in seiner modernen Form vor allem nach der Mitte des 20. Jahrhunderts durch. Heute ist er ein fester Bestandteil des Kalenders, auch wenn er kein gesetzlicher Feiertag ist."
+      },
+      {
+        "h": "Rosen, Schokolade und romantische Gesten",
+        "body": "Der Valentinstag hat seine ganz eigenen Symbole und Bräuche. Am bekanntesten ist die rote Rose, die als Zeichen der Liebe gilt und an diesem Tag massenhaft verschenkt wird. Blumengeschäfte gehören zu den Orten, die am 14. Februar am meisten zu tun haben. Auch Schokolade und Pralinen sind klassische Valentinsgeschenke, ebenso wie Grußkarten mit liebevollen Worten. Viele Paare nutzen den Tag für ein gemeinsames Abendessen, weshalb Restaurants oft ausgebucht sind. Wichtig ist dabei, dass es weniger auf den materiellen Wert ankommt als auf die Geste selbst. Eine handgeschriebene Karte, ein kleiner Brief, eine bewusst geplante gemeinsame Zeit können mehr bedeuten als ein teures Geschenk. Genau darin liegt der eigentliche Kern des Tages: einen Moment bewusst der Beziehung zu widmen. Auf moomz ist die Frage, welche Geste am Valentinstag wirklich zählt, ein dankbares Thema, weil es viel über persönliche Vorstellungen von Romantik verrät."
+      },
+      {
+        "h": "Romantik oder Kommerz: der ewige Streit",
+        "body": "Kaum ein Anlass spaltet die Meinungen so klar wie der Valentinstag. Auf der einen Seite stehen die, die ihn schätzen: Sie sehen im 14. Februar eine willkommene Gelegenheit, im hektischen Alltag bewusst innezuhalten und der Partnerin oder dem Partner Zuneigung zu zeigen. Für sie ist es schön, einen festen Tag zu haben, der an die Liebe erinnert. Auf der anderen Seite stehen die Kritiker. Sie empfinden den Valentinstag als kommerziell und künstlich, als von Blumen- und Süßwarenindustrie aufgeladenen Anlass, der Druck erzeugt: Wer nichts schenkt, wirkt schnell lieblos, obwohl Zuneigung sich nicht an ein Datum binden lässt. Manche finden, dass echte Liebe das ganze Jahr über gezeigt werden sollte und keinen festgelegten Termin braucht. Diese Debatte hat keine eindeutige Lösung, denn beide Seiten haben nachvollziehbare Argumente. Genau deshalb ist der Valentinstag ein ideales moomz-Poll-Thema, das zuverlässig zwei klare Lager mobilisiert und für lebhafte Diskussionen sorgt."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann ist Valentinstag und warum?",
+        "a": "Der Valentinstag wird jedes Jahr am 14. Februar gefeiert. Das Datum geht auf den Heiligen Valentin zurück, eine kirchliche Gestalt, deren Gedenktag im christlichen Kalender auf diesen Tag fällt. Um die historische Figur ranken sich verschiedene Legenden, von denen viele ihn mit der Liebe und mit Paaren in Verbindung bringen. Über die Jahrhunderte wurde der 14. Februar immer stärker zum Tag der romantischen Liebe. Heute ist der Valentinstag in Deutschland fest etabliert, auch wenn er kein gesetzlicher Feiertag ist. Der Alltag läuft an diesem Tag normal weiter, doch viele Paare nutzen ihn für kleine romantische Gesten."
+      },
+      {
+        "q": "Welche Geschenke sind am Valentinstag typisch?",
+        "a": "Zu den typischen Valentinsgeschenken gehören vor allem rote Rosen, die als Symbol der Liebe gelten und an diesem Tag massenhaft verschenkt werden. Auch Schokolade und Pralinen sind klassische Geschenke, ebenso wie Grußkarten mit liebevollen Worten. Viele Paare verbringen den Abend bei einem gemeinsamen Essen, weshalb Restaurants am 14. Februar oft ausgebucht sind. Wichtig ist dabei, dass es weniger auf den Geldwert als auf die Geste ankommt. Eine handgeschriebene Karte oder bewusst geplante gemeinsame Zeit kann mehr bedeuten als ein teures Geschenk. Der Kern des Tages liegt darin, der Beziehung einen Moment bewusst zu widmen."
+      },
+      {
+        "q": "Warum ist der Valentinstag so umstritten?",
+        "a": "Der Valentinstag spaltet die Meinungen wie kaum ein anderer Anlass. Befürworter sehen in ihm eine schöne Gelegenheit, im Alltag bewusst innezuhalten und der Partnerin oder dem Partner Zuneigung zu zeigen. Kritiker dagegen empfinden den Tag als kommerziell und künstlich. Sie bemängeln, dass die Blumen- und Süßwarenindustrie Druck erzeugt: Wer nichts schenkt, wirkt schnell lieblos, obwohl Zuneigung sich nicht an ein Datum binden lässt. Manche finden, echte Liebe sollte das ganze Jahr über gezeigt werden. Beide Seiten haben nachvollziehbare Argumente, weshalb der Streit kein klares Ergebnis hat und das Thema sich gut für Polls eignet."
+      },
+      {
+        "q": "Ist der Valentinstag nur etwas für Paare?",
+        "a": "Traditionell gilt der Valentinstag als Tag der Verliebten und steht damit besonders für Paare im Mittelpunkt. Allerdings hat sich der Tag im Lauf der Zeit weiterentwickelt. Viele Menschen nutzen den 14. Februar inzwischen auch, um Zuneigung gegenüber Freunden oder der Familie zu zeigen. In manchen Ländern ist es üblich, an diesem Tag auch enge Freundschaften zu würdigen. Auch Singles können den Tag bewusst gestalten, etwa indem sie sich selbst etwas Gutes tun oder Zeit mit Freunden verbringen. Der Valentinstag ist also nicht zwingend nur ein Paar-Anlass, sondern kann breiter als ein Tag der Zuneigung verstanden werden."
+      }
+    ],
+    "related": ["weihnachten", "muttertag", "vatertag", "liebe", "kuss"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ostern",
+    "locale": "de",
+    "keyword": "Ostern",
+    "matchPatterns": ["ostern", "osterhase", "ostereier", "frühling", "schokolade"],
+    "topic": "holidays",
+    "title": "Ostern — Eiersuche, Osterhase und das Fest des Frühlings",
+    "description": "Alles über Ostern: das wichtigste christliche Fest, der Osterhase, bunte Eier, Eiersuche und warum Ostern jedes Jahr ein anderes Datum hat.",
+    "emoji": "🐰",
+    "intro": "Ostern ist eines der bedeutendsten Feste im Jahreskreis und für viele Familien in Deutschland ein fester Höhepunkt im Frühling. Religiös gesehen ist Ostern sogar das wichtigste christliche Fest, denn es feiert die Auferstehung von Jesus Christus. Für viele Menschen ist Ostern jedoch zugleich ein Fest des Frühlings, des Neubeginns und der Familie. Nach den dunklen Wintermonaten fällt Ostern in eine Zeit, in der die Natur erwacht, die Tage länger werden und die ersten Blumen blühen. Diese Verbindung mit dem Frühling prägt viele Osterbräuche. Im Mittelpunkt stehen die bunt bemalten Ostereier, der Osterhase, der sie der Überlieferung nach versteckt, und die fröhliche Eiersuche, die besonders für Kinder ein Highlight ist. Ostern erstreckt sich über mehrere Tage: Karfreitag und Ostermontag sind gesetzliche Feiertage, dazu kommt der Ostersonntag als zentraler Tag. Ein besonderes Merkmal von Ostern ist, dass das Fest jedes Jahr auf ein anderes Datum fällt, irgendwann im Frühling. Auf moomz ist Ostern ein dankbares Poll-Thema: Eiersuche im Garten oder gemütlich drinnen, Schokohase zuerst die Ohren oder den Schwanz, Ostern als Familienfest oder einfach ein langes Wochenende? Das Fest verbindet Tradition, Frühling und kleine, alltägliche Streitfragen."
+    ,
+    "sections": [
+      {
+        "h": "Die Bedeutung von Ostern und das wechselnde Datum",
+        "body": "Religiös ist Ostern das wichtigste Fest des Christentums, denn es feiert die Auferstehung von Jesus Christus. Das Fest bildet den Höhepunkt der sogenannten Karwoche, in der mit Karfreitag der Tag der Kreuzigung begangen wird, gefolgt vom Ostersonntag als Tag der Auferstehung. Eine Besonderheit von Ostern ist, dass es kein festes Datum hat. Anders als Weihnachten, das immer am 25. Dezember liegt, fällt Ostern jedes Jahr auf einen anderen Tag, irgendwo im Frühling. Der genaue Termin wird nach einem alten Berechnungsverfahren bestimmt, das sich am Mond und am Frühlingsbeginn orientiert. Deshalb kann Ostern früher oder später im Frühling liegen. Mit Karfreitag und Ostermontag sind zwei Ostertage gesetzliche Feiertage in Deutschland, was Ostern für viele Menschen auch zu einem willkommenen langen Wochenende macht. Diese Mischung aus religiöser Bedeutung und freier Zeit prägt das Fest."
+      },
+      {
+        "h": "Osterhase, bunte Eier und die Eiersuche",
+        "body": "Zu Ostern gehören einige der beliebtesten Bräuche überhaupt. Im Mittelpunkt stehen die Ostereier: Eier, die kunstvoll bemalt oder gefärbt werden, in leuchtenden Farben und mit Mustern. Das Ei gilt seit Langem als Symbol für neues Leben, was gut zum Frühlingscharakter von Ostern passt. Der Überlieferung nach ist es der Osterhase, der die Eier sowie kleine Geschenke und Süßigkeiten im Garten oder in der Wohnung versteckt. Am Ostersonntagmorgen folgt dann die Eiersuche, ein freudiges Ritual, das besonders Kindern große Begeisterung bereitet. Neben echten Eiern werden auch Schokoladeneier und Schokohasen versteckt. Viele Familien schmücken zudem die Wohnung mit Frühlingsblumen und Osterzweigen. Diese Bräuche machen Ostern zu einem fröhlichen, bunten Fest. Sie verbinden mehrere Generationen, denn die Eiersuche und das gemeinsame Eierfärben werden oft seit der eigenen Kindheit weitergegeben."
+      },
+      {
+        "h": "Ostern als Frühlings- und Familienfest",
+        "body": "Über die religiöse Bedeutung hinaus ist Ostern für viele Menschen vor allem ein Frühlings- und Familienfest. Das Fest fällt in eine Zeit des Aufbruchs: Die Natur erwacht, die Tage werden länger und heller, die ersten Blumen blühen. Diese Stimmung des Neubeginns spiegelt sich in den Osterbräuchen wider, von den Eiern als Symbol neuen Lebens bis zur frühlingshaften Dekoration. Durch die Feiertage rund um Ostern entsteht außerdem ein längeres freies Wochenende, das viele Familien nutzen, um zusammenzukommen. Man trifft sich zum gemeinsamen Essen, zur Eiersuche, zu Spaziergängen in der erwachenden Natur. Für manche ist Ostern auch eine Gelegenheit für einen Kurzurlaub. Diese Verbindung aus Frühlingsstimmung, Familienzeit und vertrauten Bräuchen macht Ostern zu einem Fest mit besonderer Atmosphäre. Auf moomz lässt sich daraus viel machen: Wie feierst du Ostern, ist es dir wichtig, und welcher Osterbrauch gefällt dir am besten?"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Warum fällt Ostern jedes Jahr auf ein anderes Datum?",
+        "a": "Ostern hat im Gegensatz zu Weihnachten kein festes Datum. Während Weihnachten immer am 25. Dezember liegt, fällt Ostern jedes Jahr auf einen anderen Tag, irgendwo im Frühling. Der genaue Termin wird nach einem alten Berechnungsverfahren bestimmt, das sich am Mond und am Frühlingsbeginn orientiert. Dadurch kann Ostern früher oder später im Frühling liegen, mit einer Spanne von mehreren Wochen. Auch andere Feiertage, die sich nach Ostern richten, verschieben sich entsprechend mit. Dieses bewegliche Datum ist eine der Besonderheiten des Osterfestes und der Grund, warum man jedes Jahr neu nachschauen muss, wann genau Ostern stattfindet."
+      },
+      {
+        "q": "Was bedeutet Ostern religiös?",
+        "a": "Religiös gesehen ist Ostern das wichtigste Fest des Christentums. Es feiert die Auferstehung von Jesus Christus. Ostern bildet den Höhepunkt der Karwoche, in der mit dem Karfreitag der Tag der Kreuzigung begangen wird. Der Ostersonntag ist dann der zentrale Festtag, der Tag der Auferstehung. Für gläubige Christen hat Ostern damit eine größere religiöse Bedeutung als Weihnachten. Über die kirchliche Dimension hinaus ist Ostern für viele Menschen heute jedoch vor allem ein Fest des Frühlings, des Neubeginns und der Familie, mit Bräuchen wie der Eiersuche und dem Osterhasen, die einen fröhlichen, weltlichen Charakter haben."
+      },
+      {
+        "q": "Warum versteckt der Osterhase Eier?",
+        "a": "Der Osterhase, der zu Ostern Eier und kleine Geschenke versteckt, ist einer der bekanntesten Osterbräuche. Das Ei gilt seit Langem als Symbol für neues Leben und passt damit gut zum Frühlingscharakter des Festes. Warum ausgerechnet ein Hase die Eier bringt, lässt sich nicht eindeutig erklären, denn dahinter stehen verschiedene überlieferte Vorstellungen und Volksbräuche. Der Hase ist als Frühlingstier ebenfalls ein Sinnbild für Fruchtbarkeit und neues Leben. Über die Zeit hat sich der Brauch fest etabliert: Am Ostersonntag suchen vor allem Kinder begeistert nach den versteckten Eiern und Süßigkeiten. Der Osterhase ist damit zu einer festen, fröhlichen Figur des Osterfestes geworden."
+      },
+      {
+        "q": "Welche Ostertage sind Feiertage?",
+        "a": "Rund um Ostern gibt es mehrere wichtige Tage. Der Karfreitag, der dem Ostersonntag vorausgeht, ist in Deutschland ein gesetzlicher Feiertag und erinnert an die Kreuzigung von Jesus Christus. Der Ostersonntag selbst ist der zentrale Festtag, der die Auferstehung feiert, und der Ostermontag ist ebenfalls ein gesetzlicher Feiertag. Durch diese Feiertage entsteht für viele Menschen ein verlängertes Wochenende. Das macht Ostern nicht nur zu einem religiösen und familiären Fest, sondern auch zu einer willkommenen freien Zeit im Frühling. Viele Familien nutzen die Ostertage für gemeinsame Treffen, Ausflüge oder einen kurzen Urlaub."
+      }
+    ],
+    "related": ["weihnachten", "muttertag", "fasching", "sommerferien", "pizza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "halloween",
+    "locale": "de",
+    "keyword": "Halloween",
+    "matchPatterns": ["halloween", "kürbis", "gruseln", "kostüm", "verkleiden"],
+    "topic": "holidays",
+    "title": "Halloween — Kürbisse, Kostüme und die Nacht des Gruselns",
+    "description": "Alles über Halloween: der 31. Oktober, Kürbislaternen, gruselige Kostüme, Süßes oder Saures und wie sich das Fest in Deutschland etabliert hat.",
+    "emoji": "🎃",
+    "intro": "Halloween wird jedes Jahr am 31. Oktober gefeiert und ist die Nacht des fröhlichen Gruselns. Es ist ein Fest der Verkleidung, der ausgehöhlten Kürbisse, der Süßigkeiten und der schaurig-schönen Dekoration. Die Wurzeln von Halloween reichen weit zurück: Der Ursprung liegt in alten keltischen Bräuchen rund um das Ende des Sommers und den Beginn der dunklen Jahreszeit. Über Irland und andere Regionen gelangte das Fest nach Nordamerika, wo es zu der populären Veranstaltung wurde, die heute weltweit bekannt ist. In Deutschland ist Halloween vergleichsweise jung. Erst seit den 1990er Jahren hat es sich hierzulande nach und nach verbreitet und ist inzwischen ein fester Bestandteil des Herbstes geworden, besonders bei jungen Menschen. Typisch für Halloween sind die geschnitzten Kürbislaternen mit ihren leuchtenden Fratzen, gruselige Kostüme von Geistern bis Skeletten, Halloween-Partys und der Brauch des Süßes oder Saures, bei dem verkleidete Kinder von Tür zu Tür ziehen und um Süßigkeiten bitten. Halloween wird in Deutschland nicht von allen gleich geschätzt: Manche lieben den Spaß am Verkleiden und Gruseln, andere sehen es als importiertes, kommerzielles Fest. Genau das macht Halloween zu einem dankbaren moomz-Thema: feiern oder ignorieren, gruseliges oder lustiges Kostüm, Halloween-Fan oder nicht?"
+    ,
+    "sections": [
+      {
+        "h": "Die Ursprünge von Halloween",
+        "body": "Die Geschichte von Halloween reicht weit zurück. Der Ursprung liegt in alten Bräuchen, die mit dem Ende des Sommers und dem Beginn der dunklen, kalten Jahreszeit verbunden waren. In diesen Traditionen spielte die Vorstellung eine Rolle, dass die Grenze zwischen der Welt der Lebenden und einer jenseitigen Welt in dieser Zeit besonders durchlässig sei. Über die Jahrhunderte vermischten sich diese alten Bräuche mit christlichen Festen rund um Anfang November. Über Irland und andere Regionen gelangten Halloween-Traditionen nach Nordamerika, wo das Fest im Lauf der Zeit zu der populären, bunten Veranstaltung wurde, die heute weltweit bekannt ist. Von dort aus verbreitete sich Halloween in viele andere Länder. Die heutige Form von Halloween, mit Kürbislaternen, Kostümen und Süßigkeiten, ist also das Ergebnis einer langen Entwicklung, in der sehr alte Bräuche und moderne Popkultur zusammengekommen sind."
+      },
+      {
+        "h": "Kürbisse, Kostüme und Süßes oder Saures",
+        "body": "Halloween hat einige unverwechselbare Bräuche. Am bekanntesten ist die Kürbislaterne: Ein großer Kürbis wird ausgehöhlt, ein gruseliges oder lustiges Gesicht hineingeschnitzt und mit einem Licht darin zum Leuchten gebracht. Diese Laternen schmücken Fenster, Eingänge und Vorgärten. Ebenso typisch sind die Kostüme. Anders als beim Fasching geht es an Halloween vor allem um das Gruselige: Geister, Skelette, Hexen, Vampire und andere schaurige Figuren. Viele Menschen besuchen Halloween-Partys oder schmücken ihre Wohnung mit Spinnweben, Fledermäusen und düsterer Deko. Ein besonderer Brauch ist das Süßes oder Saures: Verkleidete Kinder ziehen am Abend von Tür zu Tür und bitten mit diesem Spruch um Süßigkeiten. Wer nichts gibt, dem droht scherzhaft ein kleiner Streich. Dieser Brauch ist vor allem aus Nordamerika bekannt und hat sich auch in deutschen Nachbarschaften zunehmend verbreitet."
+      },
+      {
+        "h": "Halloween in Deutschland: jung und umstritten",
+        "body": "Im Vergleich zu traditionellen deutschen Festen ist Halloween hierzulande noch sehr jung. Erst seit den 1990er Jahren hat sich das Fest in Deutschland nach und nach verbreitet. Inzwischen ist es ein fester Bestandteil des Herbstes geworden: Geschäfte bieten Kostüme und Deko an, es gibt Halloween-Partys, und in vielen Wohngegenden ziehen Kinder verkleidet durch die Straßen. Besonders bei jungen Menschen ist Halloween beliebt. Trotzdem ist das Fest in Deutschland nicht unumstritten. Manche Menschen schätzen den Spaß am Verkleiden, am Gruseln und am geselligen Feiern. Andere stehen Halloween skeptisch gegenüber und sehen es als ein importiertes, stark kommerzielles Fest, das nicht zur eigenen Tradition gehört. Diese geteilte Haltung macht Halloween zu einem idealen moomz-Thema. Polls über Halloween mobilisieren zuverlässig zwei Lager und liefern reichlich Stoff für Diskussionen über Kostüme, Bräuche und die Frage, ob man mitfeiert."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann ist Halloween und woher kommt das Fest?",
+        "a": "Halloween wird jedes Jahr am 31. Oktober gefeiert. Die Ursprünge des Festes reichen weit zurück und liegen in alten Bräuchen rund um das Ende des Sommers und den Beginn der dunklen Jahreszeit. Diese Traditionen vermischten sich über die Jahrhunderte mit christlichen Festen Anfang November. Über Irland und andere Regionen gelangten Halloween-Bräuche nach Nordamerika, wo das Fest zu der populären, bunten Veranstaltung wurde, die heute weltweit bekannt ist. Von dort aus verbreitete sich Halloween in viele weitere Länder. Die heutige Form ist also das Ergebnis einer langen Entwicklung aus sehr alten Bräuchen und moderner Popkultur."
+      },
+      {
+        "q": "Was bedeutet Süßes oder Saures?",
+        "a": "Süßes oder Saures ist einer der bekanntesten Halloween-Bräuche. Dabei ziehen verkleidete Kinder am Abend des 31. Oktober von Tür zu Tür, klingeln und rufen diesen Spruch. Wenn die Bewohner Süßigkeiten herausgeben, ist alles gut, wer nichts gibt, dem droht scherzhaft ein kleiner Streich. Der Brauch ist vor allem aus Nordamerika bekannt und hat sich mit der Verbreitung von Halloween auch in deutschen Nachbarschaften zunehmend etabliert. Für Kinder ist es ein freudiges Ritual, das mit dem Sammeln von Süßigkeiten und dem Spaß am Verkleiden verbunden ist. Der Brauch gehört heute fest zum Bild eines typischen Halloween-Abends."
+      },
+      {
+        "q": "Warum gehören Kürbisse zu Halloween?",
+        "a": "Die ausgehöhlte Kürbislaterne ist eines der bekanntesten Symbole von Halloween. Ein großer Kürbis wird dabei ausgehöhlt, mit einem gruseligen oder lustigen Gesicht versehen und durch ein Licht im Inneren zum Leuchten gebracht. Diese Laternen schmücken zu Halloween Fenster, Eingänge und Vorgärten und sorgen für die typische schaurige Stimmung. Der Brauch, leuchtende Laternen zu schnitzen, geht auf ältere Überlieferungen zurück, in denen ursprünglich andere Gemüsesorten verwendet wurden. In Nordamerika setzte sich der Kürbis durch, weil er groß, leicht zu bearbeiten und im Herbst reichlich verfügbar ist. So wurde die Kürbislaterne zum festen Bestandteil des Festes."
+      },
+      {
+        "q": "Warum ist Halloween in Deutschland umstritten?",
+        "a": "Halloween ist in Deutschland ein vergleichsweise junges Fest, das sich erst seit den 1990er Jahren verbreitet hat. Inzwischen ist es ein fester Bestandteil des Herbstes, besonders bei jungen Menschen. Trotzdem ist es nicht unumstritten. Befürworter schätzen den Spaß am Verkleiden, am Gruseln und am geselligen Feiern. Kritiker dagegen sehen Halloween als ein importiertes, stark kommerzielles Fest, das nicht zur eigenen Tradition gehört, und ziehen heimische Bräuche vor. Diese geteilte Haltung macht Halloween zu einem dankbaren Thema für Polls auf moomz, weil es zuverlässig zwei klare Lager gibt und viel Gesprächsstoff über das Mitfeiern liefert."
+      }
+    ],
+    "related": ["fasching", "weihnachten", "silvester", "oktoberfest", "neujahr"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "oktoberfest",
+    "locale": "de",
+    "keyword": "Oktoberfest",
+    "matchPatterns": ["oktoberfest", "wiesn", "bier", "tracht", "münchen"],
+    "topic": "holidays",
+    "title": "Oktoberfest — Die Wiesn, Tracht und das größte Volksfest der Welt",
+    "description": "Alles über das Oktoberfest: seit 1810 in München, die Wiesn, Bierzelte, Tracht und warum das größte Volksfest der Welt Millionen anzieht.",
+    "emoji": "🍺",
+    "intro": "Das Oktoberfest in München ist das größte und bekannteste Volksfest der Welt. Jedes Jahr verwandelt sich ein großer Platz in der bayerischen Landeshauptstadt für mehrere Wochen in ein gewaltiges Festgelände, das Millionen Menschen aus aller Welt anzieht. Die Münchnerinnen und Münchner nennen das Fest liebevoll die Wiesn, nach dem Festgelände, der Theresienwiese. Die Geschichte des Oktoberfests beginnt im Jahr 1810: Anlass war damals die Hochzeit des bayerischen Kronprinzen, und zur Feier wurde ein großes Fest mit einem Pferderennen veranstaltet. Aus diesem ersten Fest entwickelte sich über die Jahrzehnte eine feste Tradition, die immer weiter wuchs. Heute ist das Oktoberfest ein riesiges Ereignis mit großen Bierzelten, Fahrgeschäften, Schaustellern, traditioneller Musik und kulinarischen Spezialitäten. Trotz seines Namens beginnt das Oktoberfest meist schon im September und reicht in den Oktober hinein. Ein prägendes Bild ist die Tracht: Viele Besucher tragen Dirndl und Lederhose, was längst nicht mehr nur in Bayern üblich ist. Das Oktoberfest steht für bayerische Gemütlichkeit, Geselligkeit und Lebensfreude, wird aber auch für Kommerzialisierung und Alkoholexzesse kritisiert. Auf moomz ist die Wiesn ein dankbares Poll-Thema rund um Tradition, Tracht und Feierkultur."
+    ,
+    "sections": [
+      {
+        "h": "Die Geschichte seit 1810",
+        "body": "Das Oktoberfest hat eine lange und gut belegte Geschichte. Es geht zurück auf das Jahr 1810, als anlässlich der Hochzeit des bayerischen Kronprinzen ein großes Fest veranstaltet wurde. Höhepunkt war damals ein Pferderennen, das auf einer Wiese vor den Toren Münchens stattfand, die später nach der gefeierten Prinzessin benannt wurde, der Theresienwiese. Das Fest fand so großen Anklang, dass es im folgenden Jahr wiederholt wurde und sich von da an als feste Tradition etablierte. Über die Jahrzehnte wuchs das Oktoberfest immer weiter: Es kamen Bierausschank, Fahrgeschäfte, Schausteller und Musik hinzu, und das Fest entwickelte sich von einem regionalen Ereignis zu einer Veranstaltung von weltweiter Bekanntheit. Aus dem einfachen Pferderennen von 1810 ist im Lauf von mehr als zwei Jahrhunderten das größte Volksfest der Welt geworden, das jedes Jahr Millionen Besucher anzieht."
+      },
+      {
+        "h": "Bierzelte, Tracht und die Atmosphäre der Wiesn",
+        "body": "Was das Oktoberfest auszeichnet, ist seine ganz eigene Atmosphäre. Im Mittelpunkt stehen die großen Bierzelte, riesige Festhallen, in denen Tausende Menschen gleichzeitig Platz finden. Hier wird das eigens für das Fest gebraute Bier in den typischen großen Krügen ausgeschenkt, dazu gibt es bayerische Spezialitäten wie Brezn, Hendl und Würste. Blaskapellen sorgen für Musik, und an den Tischen wird gesungen, geschunkelt und gefeiert. Ein prägendes Bild ist die Tracht: Viele Besucher kommen im Dirndl oder in der Lederhose, was inzwischen längst nicht mehr nur in Bayern üblich ist, sondern zum festen Bestandteil des Wiesn-Besuchs geworden ist. Neben den Bierzelten gibt es ein großes Vergnügungsgelände mit Fahrgeschäften, Karussells und Achterbahnen. Diese Mischung aus Tradition, Geselligkeit, Musik und Jahrmarktstimmung macht die einzigartige Atmosphäre der Wiesn aus."
+      },
+      {
+        "h": "Tradition, Lebensfreude und Kritik",
+        "body": "Das Oktoberfest steht für vieles, das mit bayerischer Lebensart verbunden wird: Gemütlichkeit, Geselligkeit, Tradition und Lebensfreude. Für viele Besucher ist die Wiesn ein Ort, an dem Menschen unterschiedlichster Herkunft zusammenkommen, miteinander feiern und gemeinsam eine ausgelassene Zeit verbringen. Das Fest ist außerdem ein bedeutender Wirtschaftsfaktor für München und ein wichtiges Aushängeschild bayerischer Kultur in der ganzen Welt. Gleichzeitig wird das Oktoberfest auch kritisch gesehen. Manche bemängeln die starke Kommerzialisierung und die hohen Preise, andere weisen auf die Probleme hin, die mit dem großen Alkoholkonsum verbunden sind. Auch die Frage, ob die Tracht heute noch echte Tradition ist oder eher ein modisches Kostüm geworden ist, wird diskutiert. Diese verschiedenen Sichtweisen machen das Oktoberfest zu einem spannenden moomz-Thema. Polls über die Wiesn berühren Fragen von Tradition, Feierkultur und persönlichem Geschmack."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Seit wann gibt es das Oktoberfest?",
+        "a": "Das Oktoberfest geht auf das Jahr 1810 zurück. Anlass war damals die Hochzeit des bayerischen Kronprinzen, zu deren Feier ein großes Fest mit einem Pferderennen veranstaltet wurde. Das Fest fand auf einer Wiese vor den Toren Münchens statt, die später nach der gefeierten Prinzessin den Namen Theresienwiese erhielt. Weil das erste Fest so gut ankam, wurde es wiederholt und etablierte sich als feste Tradition. Über mehr als zwei Jahrhunderte wuchs es stetig und entwickelte sich vom einfachen Pferderennen zum größten Volksfest der Welt. Damit gehört das Oktoberfest zu den traditionsreichsten Festen, die bis heute regelmäßig gefeiert werden."
+      },
+      {
+        "q": "Warum heißt es Oktoberfest, obwohl es im September beginnt?",
+        "a": "Der Name Oktoberfest stammt aus der Frühzeit des Festes, als es im Oktober stattfand. Im Laufe der Zeit wurde der Beginn des Festes jedoch nach vorne verlegt, vor allem weil das Wetter im September meist wärmer und angenehmer ist. Heute beginnt das Oktoberfest in der Regel schon im September und reicht dann in die ersten Oktobertage hinein. Der ursprüngliche Name blieb dabei erhalten, obwohl der größte Teil des Festes inzwischen im September liegt. Diese kleine Besonderheit überrascht viele Besucher und ist ein bekanntes Detail rund um das größte Volksfest der Welt."
+      },
+      {
+        "q": "Was ist die Wiesn?",
+        "a": "Wiesn ist der Name, mit dem die Münchnerinnen und Münchner ihr Oktoberfest liebevoll bezeichnen. Der Begriff leitet sich vom Festgelände ab, der Theresienwiese, auf der das Fest seit seinen Anfängen stattfindet. Wenn man in Bayern von der Wiesn spricht, ist also das Oktoberfest gemeint. Auf dem Festgelände stehen während der Festzeit die großen Bierzelte, dazu kommen Fahrgeschäfte, Karussells und Stände. Der Begriff Wiesn ist über München hinaus bekannt geworden und gehört fest zur Sprache rund um das Fest. Er steht für die typische Mischung aus bayerischer Gemütlichkeit, Bierzelten, Tracht und Jahrmarktstimmung."
+      },
+      {
+        "q": "Was zieht man zum Oktoberfest an?",
+        "a": "Zum Oktoberfest tragen viele Besucher Tracht. Für Frauen ist das traditionell das Dirndl, ein Kleid mit Schürze, für Männer die Lederhose, oft kombiniert mit einem karierten Hemd. Diese traditionelle Kleidung gehört für viele inzwischen fest zum Wiesn-Besuch und ist längst nicht mehr nur in Bayern üblich. Es gibt allerdings auch eine Debatte darüber, ob die Tracht heute noch echte Tradition ist oder eher ein modisches Kostüm geworden ist. Eine Pflicht, Tracht zu tragen, gibt es nicht, doch das Bild der Dirndl und Lederhosen prägt das Oktoberfest stark und ist Teil seiner unverwechselbaren Atmosphäre."
+      }
+    ],
+    "related": ["fasching", "halloween", "silvester", "weihnachten", "neujahr"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fasching",
+    "locale": "de",
+    "keyword": "Fasching",
+    "matchPatterns": ["fasching", "karneval", "fastnacht", "kostüm", "umzug"],
+    "topic": "holidays",
+    "title": "Fasching — Karneval, Kostüme und die fünfte Jahreszeit",
+    "description": "Alles über Fasching: die fünfte Jahreszeit, Karneval, Fastnacht, Umzüge und warum die närrische Zeit Deutschland regional ganz unterschiedlich feiert.",
+    "emoji": "🎭",
+    "intro": "Fasching ist die Zeit des ausgelassenen Feierns, der bunten Kostüme und der fröhlichen Verkleidung, die in Deutschland kurz vor Beginn der christlichen Fastenzeit ihren Höhepunkt erreicht. Je nach Region trägt das Fest unterschiedliche Namen: In manchen Gegenden spricht man von Fasching, in anderen von Karneval, in wieder anderen von Fastnacht. Gemeint ist im Kern dasselbe Fest, doch die Bräuche und die Art zu feiern unterscheiden sich von Region zu Region erheblich. Oft wird die närrische Zeit auch die fünfte Jahreszeit genannt, weil sie einen eigenen, festen Platz im Jahreskreis einnimmt. Historisch hängt Fasching eng mit der Fastenzeit zusammen: Bevor die Wochen des Verzichts vor Ostern beginnen, wird noch einmal ausgiebig gefeiert. Typisch für Fasching sind das Verkleiden in fantasievollen Kostümen, große Umzüge mit geschmückten Wagen, Musik, Tanz und in einigen Hochburgen ein ganz eigenes Brauchtum mit Reden, Sitzungen und Ritualen. Während die närrische Zeit in den Karnevalshochburgen geradezu Volksfestcharakter hat, wird sie in anderen Teilen Deutschlands deutlich zurückhaltender begangen. Genau diese regionale Vielfalt macht Fasching zu einem dankbaren moomz-Thema: Karneval lieben oder meiden, lustiges oder kreatives Kostüm, mitfeiern oder lieber zuschauen?"
+    ,
+    "sections": [
+      {
+        "h": "Fasching, Karneval, Fastnacht: ein Fest, viele Namen",
+        "body": "Eine Besonderheit der närrischen Zeit ist, dass sie in Deutschland je nach Region unterschiedliche Namen trägt. In manchen Gegenden spricht man von Fasching, in anderen von Karneval und in wieder anderen von Fastnacht. Gemeint ist im Kern dasselbe Fest, doch die Begriffe verweisen auf regional unterschiedliche Traditionen. Auch die Art zu feiern unterscheidet sich deutlich. In den großen Karnevalshochburgen, vor allem im Rheinland, hat das Fest einen riesigen Stellenwert mit eigenen Vereinen, Sitzungen, Reden und festen Ritualen. In anderen Regionen, etwa im süddeutschen Raum, prägen wieder andere Bräuche das Bild, teils mit traditionellen Masken und Figuren. In manchen Teilen Deutschlands wird die närrische Zeit dagegen nur wenig beachtet. Diese Vielfalt zeigt, dass es nicht den einen deutschen Fasching gibt, sondern viele regionale Ausprägungen eines gemeinsamen Grundgedankens: dem ausgelassenen Feiern vor der Fastenzeit."
+      },
+      {
+        "h": "Kostüme, Umzüge und die fünfte Jahreszeit",
+        "body": "Im Mittelpunkt des Faschings steht das Verkleiden. Menschen jeden Alters schlüpfen in fantasievolle Kostüme, von lustig über fantasievoll bis hin zu traditionellen Figuren. Das Verkleiden erlaubt es, für eine Weile in eine andere Rolle zu schlüpfen, und gehört zum Kern der närrischen Zeit. Ein weiteres prägendes Element sind die großen Umzüge: Lange Züge mit aufwendig geschmückten Wagen, Musikkapellen, Tanzgruppen und kostümierten Teilnehmern ziehen durch die Straßen, gesäumt von vielen Zuschauern. Diese Umzüge sind oft der gesellige Höhepunkt der Faschingszeit. Begleitet wird das Fest von Musik, Tanz und ausgelassener Stimmung. Weil die närrische Zeit einen eigenen, festen Platz im Jahreskreis einnimmt und mit ihrem ganz eigenen Charakter klar von anderen Jahreszeiten abgegrenzt ist, wird sie oft scherzhaft als fünfte Jahreszeit bezeichnet. Dieser Begriff drückt aus, wie wichtig das Fest besonders in den Hochburgen genommen wird."
+      },
+      {
+        "h": "Fasching zwischen Tradition und Begeisterung",
+        "body": "Fasching ist ein Fest, das die Menschen unterschiedlich stark berührt. In den Karnevalshochburgen ist die närrische Zeit ein gesellschaftliches Großereignis, das ganze Städte mitreißt. Hier wird das Brauchtum mit großer Hingabe gepflegt, von den Vereinen über die Sitzungen bis zu den Umzügen, und für viele Menschen ist es der emotionale Höhepunkt des Jahres. Außerhalb dieser Hochburgen wird Fasching dagegen oft viel ruhiger oder gar nicht begangen. Auch innerhalb einer Region gibt es unterschiedliche Haltungen: Die einen lieben das ausgelassene Feiern, das Verkleiden und die gelöste Stimmung. Die anderen können mit dem Trubel wenig anfangen und ziehen sich in der Faschingszeit eher zurück. Genau diese geteilte Haltung macht Fasching zu einem ergiebigen moomz-Thema. Polls über die närrische Zeit verbinden regionale Identität, persönlichen Geschmack und die Frage nach der eigenen Feierlust und sorgen so für lebhafte Diskussionen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist der Unterschied zwischen Fasching, Karneval und Fastnacht?",
+        "a": "Fasching, Karneval und Fastnacht bezeichnen im Kern dasselbe Fest, nämlich die ausgelassene närrische Zeit vor Beginn der christlichen Fastenzeit. Der Unterschied liegt vor allem in der Region: In manchen Gegenden Deutschlands spricht man von Fasching, in anderen von Karneval und in wieder anderen von Fastnacht. Diese verschiedenen Namen sind mit jeweils eigenen regionalen Traditionen und Bräuchen verbunden. So feiert etwa das Rheinland Karneval anders als süddeutsche Regionen ihre Fasnacht. Trotz der unterschiedlichen Namen und Bräuche steht hinter allen der gleiche Grundgedanke: das fröhliche, kostümierte Feiern, bevor die Wochen des Verzichts vor Ostern beginnen."
+      },
+      {
+        "q": "Warum nennt man Fasching die fünfte Jahreszeit?",
+        "a": "Die närrische Zeit wird oft scherzhaft als fünfte Jahreszeit bezeichnet. Der Begriff drückt aus, dass Fasching einen eigenen, festen Platz im Jahreskreis einnimmt und mit seinem ganz besonderen Charakter klar von den vier echten Jahreszeiten abgegrenzt ist. Besonders in den Karnevalshochburgen wird die närrische Zeit so wichtig genommen, dass sie sich wie ein eigener Abschnitt des Jahres anfühlt, mit eigenen Bräuchen, eigener Stimmung und einem festen Beginn und Höhepunkt. Der Ausdruck fünfte Jahreszeit unterstreicht damit die große Bedeutung, die das Fest für viele Menschen hat, und gehört fest zum Sprachgebrauch rund um Fasching und Karneval."
+      },
+      {
+        "q": "Was passiert bei einem Faschingsumzug?",
+        "a": "Ein Faschingsumzug, auch Karnevalsumzug genannt, ist einer der geselligen Höhepunkte der närrischen Zeit. Dabei zieht ein langer Zug durch die Straßen einer Stadt oder eines Ortes. Zu sehen sind aufwendig geschmückte Wagen, Musikkapellen, Tanzgruppen und viele kostümierte Teilnehmer. Die Straßen sind oft von zahlreichen Zuschauern gesäumt, die ebenfalls verkleidet sind und die Stimmung mittragen. Häufig werden vom Zug aus kleine Süßigkeiten oder Andenken verteilt. Der Umzug verbindet Musik, Verkleidung, Kreativität und ausgelassene Geselligkeit und ist für viele das eindrucksvollste Erlebnis der Faschingszeit. Besonders in den Hochburgen sind diese Umzüge große, sorgfältig vorbereitete Ereignisse."
+      },
+      {
+        "q": "Warum feiert man Fasching vor der Fastenzeit?",
+        "a": "Fasching hängt historisch eng mit der christlichen Fastenzeit zusammen, einer mehrwöchigen Zeit des Verzichts vor Ostern. Bevor diese Zeit beginnt, wird traditionell noch einmal ausgiebig und ausgelassen gefeiert. Der Gedanke dahinter ist, vor den ruhigeren Wochen des Verzichts noch einmal das Leben in vollen Zügen zu genießen. Daraus hat sich die närrische Zeit mit ihren Kostümen, Umzügen und Festen entwickelt. Auch wenn viele Menschen Fasching heute unabhängig von religiösen Hintergründen feiern, erklärt dieser Zusammenhang, warum das Fest jedes Jahr zu einer bestimmten Zeit kurz vor der Fastenzeit seinen Höhepunkt erreicht."
+      }
+    ],
+    "related": ["halloween", "ostern", "oktoberfest", "silvester", "weihnachten"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sommerferien",
+    "locale": "de",
+    "keyword": "Sommerferien",
+    "matchPatterns": ["sommerferien", "ferien", "urlaub", "sommer", "reise"],
+    "topic": "holidays",
+    "title": "Sommerferien — Die schönste Zeit des Jahres für Schüler",
+    "description": "Alles über die Sommerferien: die längsten Schulferien des Jahres, Urlaub, freie Zeit und warum die Sommerferien für viele die beste Zeit überhaupt sind.",
+    "emoji": "☀️",
+    "intro": "Die Sommerferien sind für Schülerinnen und Schüler in Deutschland die längste und für viele die schönste Ferienzeit des ganzen Jahres. Mehrere Wochen am Stück ohne Schule, ohne Hausaufgaben, ohne Stundenplan: Das fühlt sich nach grenzenloser Freiheit an. Die Sommerferien fallen in die wärmste Zeit des Jahres und sind eng mit Sonne, langen Tagen, Schwimmbad, Eis, Urlaub und der Möglichkeit verbunden, einfach einmal nichts zu müssen. Eine Besonderheit in Deutschland ist, dass die Sommerferien nicht überall gleichzeitig stattfinden. Die einzelnen Bundesländer haben unterschiedliche Ferientermine, die sich von Jahr zu Jahr verschieben. Dieses gestaffelte System soll verhindern, dass das ganze Land gleichzeitig in den Urlaub aufbricht und Straßen sowie Reiseziele restlos überlastet werden. Für viele Familien sind die Sommerferien die wichtigste Reisezeit des Jahres, ob ans Meer, in die Berge oder ins Ausland. Andere bleiben zu Hause und genießen die freie Zeit in der vertrauten Umgebung. Die Sommerferien sind aber nicht nur Urlaub, sondern auch eine Zeit der Erholung vom Schulstress, des Wiedersehens mit Freunden und der kleinen Abenteuer. Auf moomz sind die Sommerferien ein dankbares Thema: verreisen oder zu Hause bleiben, Strand oder Berge, faulenzen oder etwas erleben?"
+    ,
+    "sections": [
+      {
+        "h": "Die längsten Ferien des Schuljahres",
+        "body": "Die Sommerferien sind die mit Abstand längsten Ferien im deutschen Schuljahr. Während die anderen Ferienabschnitte, etwa rund um Weihnachten oder Ostern, vergleichsweise kurz sind, erstrecken sich die Sommerferien über mehrere Wochen am Stück. Diese lange Pause markiert auch das Ende eines Schuljahres: Vor den Sommerferien gibt es die Zeugnisse, und nach den Ferien beginnt für viele ein neues Schuljahr, oft mit einer neuen Klassenstufe. Für Schülerinnen und Schüler bedeutet diese lange Auszeit eine echte Erholung vom Schulalltag mit seinem festen Stundenplan, den Prüfungen und den Hausaufgaben. Sechs Wochen oder mehr ohne diese Verpflichtungen fühlen sich nach echter Freiheit an. Gerade weil die Sommerferien so lang sind, bieten sie Raum für ganz unterschiedliche Dinge: für ausgedehnte Reisen, für lange Tage mit Freunden, für Hobbys, aber auch einfach für das Genießen des Nichtstuns."
+      },
+      {
+        "h": "Warum die Ferientermine in Deutschland gestaffelt sind",
+        "body": "Eine Besonderheit der deutschen Sommerferien ist, dass sie nicht überall im Land gleichzeitig stattfinden. Die einzelnen Bundesländer haben jeweils eigene Ferientermine, und diese verschieben sich von Jahr zu Jahr. So beginnen die Sommerferien in einigen Bundesländern früher, in anderen später. Der Grund für diese gestaffelte Regelung ist praktisch: Würden alle Schülerinnen und Schüler in ganz Deutschland gleichzeitig in die Ferien starten, würden Autobahnen, Flughäfen und beliebte Reiseziele zur selben Zeit völlig überlastet. Durch die zeitliche Staffelung verteilt sich der Reiseverkehr über mehrere Wochen, was die Belastung deutlich verringert. Dieses System hat allerdings auch Folgen: Freunde oder Verwandte aus verschiedenen Bundesländern haben nicht zwangsläufig gleichzeitig frei, und die Reisepreise unterscheiden sich je nach Ferienzeitraum. Die gestaffelten Termine sind damit ein typisches Merkmal der deutschen Sommerferien."
+      },
+      {
+        "h": "Urlaub, Freiheit und die schönste Zeit des Jahres",
+        "body": "Für viele Menschen sind die Sommerferien mit den schönsten Erinnerungen verbunden. Sie fallen in die wärmste Zeit des Jahres, mit langen, hellen Tagen und sommerlichem Wetter. Für zahlreiche Familien sind die Sommerferien die wichtigste Reisezeit, ob ans Meer, in die Berge oder ins Ausland. Andere bleiben zu Hause und genießen die freie Zeit in der vertrauten Umgebung, mit Schwimmbadbesuchen, Ausflügen und entspannten Tagen. Wieder andere verbinden die Sommerferien mit Ferienlagern, Besuchen bei Verwandten oder ersten kleinen Abenteuern. Was die Sommerferien für so viele zur schönsten Zeit des Jahres macht, ist das Gefühl von Freiheit: die Abwesenheit von festem Zeitplan und Pflichten, das Wiedersehen mit Freunden und die Möglichkeit, den Tag selbst zu gestalten. Auf moomz ist genau diese Vielfalt ein dankbares Poll-Thema, denn jeder verbringt die Sommerferien anders und hat klare Vorstellungen davon, was den perfekten Sommer ausmacht."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie lange dauern die Sommerferien?",
+        "a": "Die Sommerferien sind die längsten Ferien im deutschen Schuljahr. Während die anderen Ferienabschnitte, etwa rund um Weihnachten oder Ostern, eher kurz sind, erstrecken sich die Sommerferien über mehrere Wochen am Stück. Damit markieren sie zugleich das Ende eines Schuljahres. Vor den Sommerferien gibt es die Zeugnisse, und nach den Ferien beginnt meist ein neues Schuljahr. Für Schülerinnen und Schüler bedeutet diese lange Pause eine echte Erholung vom Schulalltag mit seinem festen Stundenplan, den Prüfungen und Hausaufgaben. Die genaue Dauer kann je nach Bundesland leicht variieren, doch in jedem Fall sind die Sommerferien deutlich länger als alle anderen Ferien."
+      },
+      {
+        "q": "Warum haben nicht alle Bundesländer gleichzeitig Sommerferien?",
+        "a": "In Deutschland fallen die Sommerferien nicht überall in dieselbe Zeit. Die einzelnen Bundesländer haben jeweils eigene Ferientermine, die sich von Jahr zu Jahr verschieben. Der Grund für diese gestaffelte Regelung ist praktisch: Würden alle Schülerinnen und Schüler im ganzen Land gleichzeitig in die Ferien starten, wären Autobahnen, Flughäfen und beliebte Reiseziele zur selben Zeit völlig überlastet. Durch die zeitliche Staffelung verteilt sich der Reiseverkehr über mehrere Wochen. Das verringert die Belastung deutlich. Eine Folge ist allerdings, dass Freunde aus verschiedenen Bundesländern nicht zwangsläufig gleichzeitig frei haben und die Reisepreise je nach Zeitraum unterschiedlich ausfallen."
+      },
+      {
+        "q": "Was machen Familien in den Sommerferien?",
+        "a": "Die Sommerferien werden sehr unterschiedlich verbracht. Für viele Familien sind sie die wichtigste Reisezeit des Jahres. Beliebte Ziele sind das Meer, die Berge oder das Ausland. Andere Familien bleiben bewusst zu Hause und genießen die freie Zeit in der vertrauten Umgebung, mit Schwimmbadbesuchen, Ausflügen in die Umgebung und entspannten Tagen. Viele Kinder und Jugendliche verbinden die Sommerferien außerdem mit Ferienlagern, Besuchen bei Verwandten oder Zeit mit Freunden. Es gibt also nicht die eine richtige Art, die Sommerferien zu verbringen. Genau diese Vielfalt macht die Frage, wie man den Sommer am liebsten gestaltet, zu einem dankbaren Thema für Polls."
+      },
+      {
+        "q": "Warum sind die Sommerferien für viele die schönste Zeit des Jahres?",
+        "a": "Die Sommerferien gelten für viele Menschen als die schönste Zeit des Jahres, weil hier mehrere Dinge zusammenkommen. Sie fallen in die wärmste Jahreszeit mit langen, hellen Tagen und sommerlichem Wetter. Sie sind die längsten Ferien des Schuljahres und bieten damit mehrere Wochen am Stück frei. Und sie bringen ein starkes Gefühl von Freiheit mit sich: keine Schule, kein fester Stundenplan, keine Hausaufgaben. Dazu kommen Urlaubsreisen, Zeit mit Freunden und die Möglichkeit, den Tag selbst zu gestalten. Diese Kombination aus Wärme, Freiheit und freier Zeit macht die Sommerferien zu einer Zeit, mit der viele besonders schöne Erinnerungen verbinden."
+      }
+    ],
+    "related": ["weihnachten", "ostern", "neujahr", "silvester", "muttertag"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "neujahr",
+    "locale": "de",
+    "keyword": "Neujahr",
+    "matchPatterns": ["neujahr", "neues jahr", "jahresanfang", "vorsätze", "januar"],
+    "topic": "holidays",
+    "title": "Neujahr — Der 1. Januar und der Beginn eines frischen Jahres",
+    "description": "Alles über Neujahr: der 1. Januar als Feiertag, der Jahresanfang, gute Vorsätze und warum der Neujahrstag für einen echten Neuanfang steht.",
+    "emoji": "🥳",
+    "intro": "Neujahr bezeichnet den Beginn eines neuen Kalenderjahres und fällt auf den 1. Januar. Der Neujahrstag ist in Deutschland ein gesetzlicher Feiertag und damit ein ruhiger, freier Tag direkt nach der lauten Silvesternacht. Während Silvester am 31. Dezember für Feuerwerk, Partys und ausgelassenes Feiern steht, hat Neujahr einen ganz anderen Charakter: Es ist ein Tag des Ankommens im neuen Jahr, oft etwas verschlafen, gemütlich und nachdenklich zugleich. Der Jahreswechsel ist ein besonderer Moment. Mit dem ersten Tag des neuen Jahres beginnt symbolisch ein neuer Abschnitt. Viele Menschen empfinden Neujahr deshalb als eine Art Neuanfang, einen sauberen Schnitt, der dazu einlädt, das vergangene Jahr abzuschließen und nach vorn zu blicken. Genau deshalb ist Neujahr eng mit dem Thema der guten Vorsätze verbunden: dem Wunsch, im neuen Jahr etwas zu verändern oder besser zu machen. Der 1. Januar wird traditionell ruhig begangen, oft im Kreis der Familie, mit einem ausgiebigen Frühstück oder Mittagessen und einem entspannten Tag. Auch das Verschicken von Neujahrswünschen gehört dazu. Auf moomz ist Neujahr ein dankbares Poll-Thema, das Selbstreflexion und Vorfreude verbindet: Welche Vorsätze hast du, glaubst du an Neuanfänge, wie startest du am liebsten ins neue Jahr?"
+    ,
+    "sections": [
+      {
+        "h": "Der 1. Januar als Feiertag und Jahresanfang",
+        "body": "Neujahr fällt auf den 1. Januar, den ersten Tag des neuen Kalenderjahres. In Deutschland ist der Neujahrstag ein gesetzlicher Feiertag, was bedeutet, dass die meisten Menschen frei haben und der öffentliche Alltag weitgehend ruht. Dieser freie Tag direkt nach der Silvesternacht hat eine wichtige Funktion: Er gibt Raum, um nach dem ausgelassenen Feiern zur Ruhe zu kommen und im neuen Jahr anzukommen. Der Jahresanfang ist ein symbolisch aufgeladener Moment. Mit dem ersten Tag des neuen Jahres beginnt ein neuer Abschnitt im Kalender, und viele Menschen verbinden damit das Gefühl eines Neubeginns. Anders als Silvester, das von Lautstärke und Geselligkeit geprägt ist, steht Neujahr für Ruhe und Besinnung. Der Tag wird oft genutzt, um innezuhalten, kurz auf das vergangene Jahr zurückzublicken und sich auf das einzustellen, was kommt. Diese Verbindung von freiem Tag und symbolischem Neuanfang macht den besonderen Charakter von Neujahr aus."
+      },
+      {
+        "h": "Neujahr und die guten Vorsätze",
+        "body": "Kaum etwas ist so eng mit Neujahr verbunden wie die guten Vorsätze. Der Beginn eines neuen Jahres wirkt wie ein natürlicher Neuanfang, ein sauberer Schnitt, der dazu einlädt, über das eigene Leben nachzudenken und sich etwas vorzunehmen. Viele Menschen fassen zum neuen Jahr Vorsätze: mehr Bewegung, gesündere Ernährung, weniger Stress, weniger Bildschirmzeit, mehr Zeit für Freunde und Familie oder ein neues Hobby. Diese Vorsätze sind Ausdruck der Hoffnung, dass das kommende Jahr besser wird als das vergangene, und des Wunsches, etwas an sich selbst zu verändern. Bekannt ist allerdings auch, dass viele gute Vorsätze nach einigen Wochen wieder im Alltag untergehen. Genau diese Spannung zwischen guter Absicht und Wirklichkeit macht das Thema interessant. Manche schwören auf kleine, konkrete Ziele, die leichter umzusetzen sind, andere halten gar nichts von Vorsätzen. Auf moomz ist das ein perfektes Poll-Thema, weil es Selbstreflexion und Humor verbindet."
+      },
+      {
+        "h": "Wie Neujahr gefeiert wird",
+        "body": "Der Neujahrstag wird in Deutschland traditionell ruhig und gemütlich begangen. Nach der oft langen Silvesternacht beginnt der 1. Januar für viele eher spät und entspannt. Ein verbreiteter Brauch ist ein ausgiebiges gemeinsames Frühstück oder ein ausgedehntes Mittagessen im Kreis der Familie. Der Tag dient der Erholung und dem entspannten Ankommen im neuen Jahr. Viele Menschen nutzen Neujahr auch, um Neujahrswünsche zu verschicken oder sich bei Freunden und Verwandten zu melden, denen man ein gesundes und glückliches neues Jahr wünscht. Manche unternehmen einen ruhigen Spaziergang, andere genießen einfach den freien Tag zu Hause. Insgesamt ist Neujahr ein Tag der Gelassenheit und des Übergangs. Er bildet zusammen mit Silvester ein Paar gegensätzlicher Tage: Auf den lauten, ausgelassenen Jahreswechsel folgt der stille, besinnliche Jahresbeginn. Diese beiden Seiten des Übergangs ins neue Jahr gehören untrennbar zusammen."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ist Neujahr ein Feiertag?",
+        "a": "Ja, der Neujahrstag am 1. Januar ist in Deutschland ein gesetzlicher Feiertag. Das bedeutet, dass die meisten Menschen an diesem Tag frei haben und der öffentliche Alltag weitgehend ruht. Dieser freie Tag direkt nach der Silvesternacht hat eine wichtige Funktion: Er gibt Raum, um nach dem ausgelassenen Feiern zur Ruhe zu kommen und im neuen Jahr anzukommen. Während Silvester am 31. Dezember von Feuerwerk und Partys geprägt ist, hat Neujahr einen ruhigen, besinnlichen Charakter. Der Feiertagsstatus unterstreicht die besondere Bedeutung des Jahresanfangs und macht den 1. Januar zu einem Tag der Erholung und des entspannten Übergangs."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Silvester und Neujahr?",
+        "a": "Silvester und Neujahr bezeichnen zwei aufeinanderfolgende Tage des Jahreswechsels, haben aber einen ganz unterschiedlichen Charakter. Silvester ist der 31. Dezember, der letzte Tag des alten Jahres. Dieser Tag und vor allem der Abend stehen für Feiern, Partys und um Mitternacht das große Feuerwerk. Neujahr dagegen ist der 1. Januar, der erste Tag des neuen Jahres. Es ist ein gesetzlicher Feiertag und wird ruhig und gemütlich begangen, oft mit einem ausgiebigen Familienessen. Kurz gesagt: Silvester ist der laute, ausgelassene Abschied vom alten Jahr, Neujahr der stille, besinnliche Beginn des neuen. Beide Tage gehören als Paar zum Jahreswechsel."
+      },
+      {
+        "q": "Warum nimmt man sich zum neuen Jahr Vorsätze?",
+        "a": "Der Beginn eines neuen Jahres wirkt wie ein natürlicher Neuanfang, ein sauberer Schnitt zwischen dem alten und dem neuen Jahr. Diese symbolische Schwelle lädt viele Menschen dazu ein, über das eigene Leben nachzudenken und sich etwas vorzunehmen: mehr Bewegung, gesündere Ernährung, weniger Stress oder ein neues Hobby. Gute Vorsätze sind Ausdruck der Hoffnung, dass das kommende Jahr besser wird, und des Wunsches, sich selbst zu verändern. Bekannt ist allerdings auch, dass viele Vorsätze nach einigen Wochen wieder im Alltag verblassen. Genau diese Spannung zwischen guter Absicht und Wirklichkeit macht das Thema spannend und zu einem beliebten, ehrlichen Poll-Thema."
+      },
+      {
+        "q": "Wie wird der Neujahrstag traditionell verbracht?",
+        "a": "Der Neujahrstag wird in Deutschland traditionell ruhig und gemütlich begangen. Nach der oft langen Silvesternacht beginnt der 1. Januar für viele Menschen eher spät und entspannt. Ein verbreiteter Brauch ist ein ausgiebiges gemeinsames Frühstück oder ein ausgedehntes Mittagessen im Kreis der Familie. Viele nutzen den Tag außerdem, um Neujahrswünsche zu verschicken oder sich bei Freunden und Verwandten zu melden. Manche unternehmen einen ruhigen Spaziergang, andere genießen einfach den freien Tag zu Hause. Insgesamt ist Neujahr ein Tag der Gelassenheit, der Erholung und des entspannten Ankommens im neuen Jahr."
+      }
+    ],
+    "related": ["silvester", "weihnachten", "dreikoenigsfest", "valentinstag", "sommerferien"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "muttertag",
+    "locale": "de",
+    "keyword": "Muttertag",
+    "matchPatterns": ["muttertag", "mama", "mutter", "blumen", "geschenk"],
+    "topic": "holidays",
+    "title": "Muttertag — Der Tag, an dem Mütter im Mittelpunkt stehen",
+    "description": "Alles über den Muttertag: jedes Jahr an einem Sonntag im Mai, Blumen und Geschenke und warum dieser Tag den Müttern gewidmet ist.",
+    "emoji": "💐",
+    "intro": "Der Muttertag ist ein besonderer Tag, der ganz den Müttern gewidmet ist. Es ist ein Tag, an dem Kinder jeden Alters ihrer Mutter zeigen, wie wichtig sie ihnen ist und wie dankbar sie für alles sind, was sie tut. In Deutschland wird der Muttertag jedes Jahr an einem Sonntag im Mai gefeiert. Das genaue Datum wechselt, weil sich der Tag nach einem bestimmten Sonntag richtet und nicht an ein festes Kalenderdatum gebunden ist. Dass der Muttertag auf einen Sonntag fällt, hat einen praktischen Vorteil: Die meisten Menschen haben frei und können den Tag bewusst mit der Familie verbringen. Der Muttertag hat eine vergleichsweise junge Geschichte und entstand im 20. Jahrhundert. Über die Zeit hat er sich in vielen Ländern etabliert, wobei das Datum von Land zu Land unterschiedlich ausfallen kann. Typisch für den Muttertag sind kleine Aufmerksamkeiten und liebevolle Gesten: ein Blumenstrauß, eine selbst gebastelte Karte, ein gemeinsames Frühstück, ein Ausflug oder einfach gemeinsam verbrachte Zeit. Wie der Valentinstag wird allerdings auch der Muttertag manchmal als zu kommerziell kritisiert. Auf moomz ist der Muttertag ein dankbares Poll-Thema rund um Familie, Dankbarkeit und die Frage, welche Geste wirklich von Herzen kommt."
+    ,
+    "sections": [
+      {
+        "h": "Wann der Muttertag stattfindet",
+        "body": "In Deutschland wird der Muttertag jedes Jahr an einem Sonntag im Mai gefeiert. Anders als Feste mit festem Datum, etwa Weihnachten am 25. Dezember, ist der Muttertag an einen bestimmten Sonntag gebunden. Dadurch fällt er von Jahr zu Jahr auf ein anderes Kalenderdatum, liegt aber stets im Mai. Dass der Muttertag immer auf einen Sonntag fällt, ist kein Zufall, sondern hat einen praktischen Hintergrund: An einem Sonntag haben die meisten Menschen frei, sodass Kinder und Familien den Tag bewusst gemeinsam gestalten können. Es ist also leichter möglich, sich Zeit für die Mutter zu nehmen, ein gemeinsames Frühstück zu organisieren oder einen Ausflug zu unternehmen. International kann der Muttertag zu unterschiedlichen Zeitpunkten begangen werden, denn nicht alle Länder feiern ihn am selben Tag. In Deutschland ist der Sonntag im Mai jedoch fest etabliert und gehört zum festen Bestandteil des Frühlingskalenders."
+      },
+      {
+        "h": "Bräuche und Gesten zum Muttertag",
+        "body": "Der Muttertag lebt von kleinen, liebevollen Aufmerksamkeiten. Ein klassisches Geschenk ist der Blumenstrauß, weshalb Blumengeschäfte an diesem Tag traditionell viel zu tun haben. Ebenso verbreitet sind selbst gebastelte Karten, kleine Geschenke oder gemeinsam verbrachte Zeit. Besonders bei Kindern hat das Selbstgemachte einen großen Stellenwert: eine gemalte Karte, ein gebasteltes Geschenk oder ein selbst gedecktes Frühstück bedeuten oft mehr als ein teurer Einkauf. Viele Familien gestalten den Muttertag als gemeinsamen Tag, etwa mit einem ausgiebigen Frühstück, einem Ausflug oder einem gemeinsamen Essen. Im Mittelpunkt steht dabei nicht der materielle Wert eines Geschenks, sondern die Geste und die Aufmerksamkeit. Der Muttertag ist eine Gelegenheit, im manchmal hektischen Alltag bewusst innezuhalten und der eigenen Mutter Dankbarkeit und Wertschätzung zu zeigen. Genau diese Idee, einen Tag bewusst der Mutter zu widmen, bildet den Kern des Festes."
+      },
+      {
+        "h": "Dankbarkeit, Familie und die Kritik am Kommerz",
+        "body": "Im Kern geht es beim Muttertag um Dankbarkeit. Der Tag bietet Anlass, sich daran zu erinnern, wie viel Mütter für ihre Kinder und Familien leisten, und ihnen dafür bewusst Wertschätzung entgegenzubringen. Für viele Menschen ist es ein schöner, herzlicher Tag, der die Familie zusammenbringt. Wie beim Valentinstag gibt es allerdings auch beim Muttertag eine kritische Sichtweise. Manche empfinden den Tag als zu kommerziell und sehen darin einen vor allem von Blumenhandel und Geschenkindustrie geförderten Anlass. Sie argumentieren, dass man die eigene Mutter das ganze Jahr über wertschätzen sollte und keinen festgelegten Termin dafür braucht. Befürworter halten dagegen, dass im Alltag vieles untergeht und ein fester Tag eine willkommene Erinnerung sein kann, bewusst Danke zu sagen. Beide Sichtweisen haben nachvollziehbare Argumente. Genau deshalb ist der Muttertag ein dankbares moomz-Thema, das Fragen von Familie, Dankbarkeit und Echtheit der Gesten verbindet."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann ist Muttertag?",
+        "a": "In Deutschland wird der Muttertag jedes Jahr an einem Sonntag im Mai gefeiert. Anders als Feste mit festem Datum ist der Muttertag an einen bestimmten Sonntag gebunden, weshalb er von Jahr zu Jahr auf ein anderes Kalenderdatum fällt, aber immer im Mai liegt. Dass der Muttertag auf einen Sonntag fällt, hat einen praktischen Grund: An einem Sonntag haben die meisten Menschen frei und können den Tag bewusst mit der Familie verbringen. International kann der Muttertag zu unterschiedlichen Zeitpunkten begangen werden, denn nicht alle Länder feiern ihn am selben Tag. In Deutschland ist der Sonntag im Mai jedoch fest etabliert."
+      },
+      {
+        "q": "Welche Geschenke sind zum Muttertag typisch?",
+        "a": "Zu den typischen Geschenken zum Muttertag gehört vor allem der Blumenstrauß, weshalb Blumengeschäfte an diesem Tag traditionell viel zu tun haben. Ebenso verbreitet sind selbst gebastelte Karten, kleine Geschenke und gemeinsam verbrachte Zeit. Besonders bei Kindern hat das Selbstgemachte einen großen Stellenwert: eine gemalte Karte oder ein selbst gedecktes Frühstück bedeuten oft mehr als ein teurer Einkauf. Viele Familien gestalten den Muttertag als gemeinsamen Tag mit einem ausgiebigen Frühstück, einem Ausflug oder einem gemeinsamen Essen. Im Mittelpunkt steht dabei nicht der materielle Wert, sondern die Geste und die Aufmerksamkeit für die Mutter."
+      },
+      {
+        "q": "Worum geht es beim Muttertag?",
+        "a": "Im Kern geht es beim Muttertag um Dankbarkeit. Der Tag ist ganz den Müttern gewidmet und bietet Anlass, sich bewusst daran zu erinnern, wie viel Mütter für ihre Kinder und Familien leisten. Kinder jeden Alters nutzen den Tag, um ihrer Mutter Wertschätzung zu zeigen, sei es mit einem Blumenstrauß, einer selbst gebastelten Karte oder gemeinsam verbrachter Zeit. Der Muttertag ist eine Gelegenheit, im oft hektischen Alltag innezuhalten und der eigenen Mutter bewusst Danke zu sagen. Für viele Familien ist es ein herzlicher Tag, der Nähe und Zusammengehörigkeit ausdrückt und die Familie zusammenbringt."
+      },
+      {
+        "q": "Warum wird der Muttertag manchmal kritisiert?",
+        "a": "Wie der Valentinstag wird auch der Muttertag manchmal als zu kommerziell kritisiert. Manche Menschen sehen darin vor allem einen von Blumenhandel und Geschenkindustrie geförderten Anlass. Sie argumentieren, dass man die eigene Mutter das ganze Jahr über wertschätzen sollte und keinen festgelegten Termin dafür braucht. Befürworter halten dagegen, dass im Alltag vieles untergeht und ein fester Tag eine willkommene Erinnerung sein kann, bewusst Danke zu sagen. Beide Sichtweisen haben nachvollziehbare Argumente. Genau diese geteilte Haltung macht den Muttertag zu einem dankbaren Thema für Polls, die Fragen von Familie, Dankbarkeit und der Echtheit von Gesten berühren."
+      }
+    ],
+    "related": ["vatertag", "valentinstag", "weihnachten", "ostern", "liebe"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vatertag",
+    "locale": "de",
+    "keyword": "Vatertag",
+    "matchPatterns": ["vatertag", "papa", "vater", "herrentag", "ausflug"],
+    "topic": "holidays",
+    "title": "Vatertag — Der Tag der Väter und der Männerausflüge",
+    "description": "Alles über den Vatertag: gefeiert an Christi Himmelfahrt, der Tag der Väter, Herrentag, traditionelle Ausflüge und wie Deutschland ihn begeht.",
+    "emoji": "👨‍👧‍👦",
+    "intro": "Der Vatertag ist ein Tag, der den Vätern gewidmet ist, das männliche Gegenstück zum Muttertag. In Deutschland hat der Vatertag allerdings eine ganz eigene Besonderheit: Er fällt auf den gleichen Tag wie der christliche Feiertag Christi Himmelfahrt. Christi Himmelfahrt ist ein gesetzlicher Feiertag und fällt immer auf einen Donnerstag im Frühling, genau 40 Tage nach Ostern. Weil der Vatertag mit diesem Feiertag zusammenfällt, ist er anders als der Muttertag ein arbeitsfreier Tag. In Deutschland trägt der Vatertag auch den Namen Herrentag oder Männertag, und mit ihm ist ein ganz spezieller Brauch verbunden: traditionelle Ausflüge in Männergruppen. Vielerorts ziehen Männer an diesem Tag gemeinsam los, oft zu Fuß oder mit dem Fahrrad, häufig mit einem kleinen Handwagen mit Getränken und Verpflegung. Diese Vatertagsausflüge sind ein verbreitetes, geselliges Ritual. Gleichzeitig hat der Vatertag, wie der Muttertag, auch eine herzliche Seite: Viele Familien nutzen den freien Tag bewusst, um Zeit mit dem Vater zu verbringen, ihn zu würdigen und ihm Wertschätzung zu zeigen. Auf moomz ist der Vatertag ein dankbares Poll-Thema rund um Familie, Bräuche und die Frage, wie man diesen Tag am liebsten verbringt."
+    ,
+    "sections": [
+      {
+        "h": "Vatertag und Christi Himmelfahrt",
+        "body": "Eine wichtige Besonderheit des Vatertags in Deutschland ist, dass er nicht auf ein eigenes, separates Datum fällt, sondern mit dem christlichen Feiertag Christi Himmelfahrt zusammenfällt. Christi Himmelfahrt ist ein gesetzlicher Feiertag, der immer auf einen Donnerstag im Frühling fällt, und zwar 40 Tage nach Ostern. Da Ostern selbst kein festes Datum hat, verschiebt sich auch dieser Tag von Jahr zu Jahr, liegt aber stets im Frühling. Weil der Vatertag mit Christi Himmelfahrt zusammenfällt, ist er anders als der Muttertag ein arbeitsfreier Tag. Das hat praktische Folgen: Da auf den Donnerstag der Freitag folgt, nehmen viele Menschen diesen Freitag frei und genießen ein langes Wochenende. Die Verbindung von Vatertag und Christi Himmelfahrt ist eine deutsche Besonderheit und erklärt, warum der Vatertag hier immer an einem Donnerstag im Frühling begangen wird und nicht, wie der Muttertag, an einem Sonntag."
+      },
+      {
+        "h": "Herrentag und die traditionellen Ausflüge",
+        "body": "In Deutschland wird der Vatertag auch als Herrentag oder Männertag bezeichnet, und mit ihm ist ein ganz eigener Brauch verbunden: der gemeinsame Ausflug in Männergruppen. Vielerorts ziehen Männer und Männergruppen an diesem Tag gemeinsam los, oft zu Fuß oder mit dem Fahrrad. Ein typisches Bild ist dabei der kleine Handwagen, der mit Getränken und Verpflegung beladen ist und mitgeführt wird. Diese Vatertagsausflüge sind ein geselliges Ritual, bei dem Geselligkeit, gemeinsame Zeit und das Genießen des freien Tages im Vordergrund stehen. Die Ausflüge führen häufig hinaus in die Natur, in Wälder oder zu beliebten Ausflugszielen. Dieser Brauch hat dem Vatertag in Deutschland einen eigenen, unverwechselbaren Charakter gegeben. Allerdings ist auch er nicht unumstritten, denn die mit den Ausflügen teils verbundene ausgelassene Feierkultur wird unterschiedlich bewertet. Trotzdem gehören die traditionellen Ausflüge für viele fest zum Bild des deutschen Vatertags."
+      },
+      {
+        "h": "Der Vatertag als Tag der Wertschätzung",
+        "body": "Neben dem Brauch der geselligen Ausflüge hat der Vatertag, wie der Muttertag, auch eine herzliche, familiäre Seite. Im Kern ist der Tag den Vätern gewidmet und bietet Anlass, ihnen Wertschätzung und Dankbarkeit zu zeigen. Viele Familien nutzen den freien Tag bewusst, um gemeinsam Zeit mit dem Vater zu verbringen. Das kann ein gemeinsamer Ausflug sein, ein Essen oder einfach ein entspannter Tag zusammen. Kinder schenken ihrem Vater kleine Aufmerksamkeiten, basteln Karten oder bereiten ihm eine Freude. Wie beim Muttertag steht dabei nicht der materielle Wert im Vordergrund, sondern die Geste und die gemeinsam verbrachte Zeit. Der Vatertag erinnert daran, im Alltag innezuhalten und die Rolle des Vaters bewusst zu würdigen. So vereint der deutsche Vatertag zwei Seiten: den geselligen Brauch der Männerausflüge und die familiäre Idee eines Tages der Dankbarkeit. Auf moomz lässt sich daraus viel machen, etwa Fragen dazu, wie man den Vatertag am liebsten verbringt."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann ist Vatertag in Deutschland?",
+        "a": "In Deutschland fällt der Vatertag auf den gleichen Tag wie der christliche Feiertag Christi Himmelfahrt. Christi Himmelfahrt ist ein gesetzlicher Feiertag, der immer auf einen Donnerstag im Frühling fällt, und zwar 40 Tage nach Ostern. Da Ostern selbst kein festes Datum hat, verschiebt sich auch dieser Tag von Jahr zu Jahr, liegt aber stets im Frühling. Der Vatertag wird in Deutschland also immer an einem Donnerstag im Frühling begangen. Anders als der Muttertag, der auf einen Sonntag fällt, ist der Vatertag durch die Verbindung mit Christi Himmelfahrt zugleich ein arbeitsfreier Tag."
+      },
+      {
+        "q": "Warum heißt der Vatertag auch Herrentag?",
+        "a": "In Deutschland wird der Vatertag auch als Herrentag oder Männertag bezeichnet. Diese Namen hängen mit einem typischen Brauch des Tages zusammen: dem gemeinsamen Ausflug in Männergruppen. Vielerorts ziehen Männer an diesem Tag gemeinsam los, oft zu Fuß oder mit dem Fahrrad, häufig mit einem kleinen Handwagen voller Getränke und Verpflegung. Weil der Tag traditionell stark mit diesen geselligen Männerausflügen verbunden ist, haben sich neben dem Begriff Vatertag auch die Bezeichnungen Herrentag und Männertag eingebürgert. Die verschiedenen Namen beschreiben damit denselben Tag, betonen aber unterschiedliche Aspekte: einmal die Väter, einmal den geselligen Männerausflug."
+      },
+      {
+        "q": "Was macht man am Vatertag?",
+        "a": "Der Vatertag wird in Deutschland auf zwei recht unterschiedliche Arten begangen. Auf der einen Seite steht der traditionelle Brauch der geselligen Ausflüge in Männergruppen, oft zu Fuß oder mit dem Fahrrad und mit einem kleinen Handwagen voller Getränke und Verpflegung. Auf der anderen Seite nutzen viele Familien den freien Tag bewusst, um gemeinsam Zeit mit dem Vater zu verbringen, etwa bei einem Ausflug oder einem gemeinsamen Essen. Kinder schenken ihrem Vater kleine Aufmerksamkeiten oder basteln Karten. Wie man den Vatertag verbringt, ist also sehr unterschiedlich, was die Frage danach zu einem dankbaren Thema für Polls macht."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen Vatertag und Muttertag?",
+        "a": "Vatertag und Muttertag sind die beiden Tage, die den Eltern gewidmet sind, unterscheiden sich aber in einigen Punkten. Der Muttertag fällt auf einen Sonntag im Mai, der Vatertag dagegen auf einen Donnerstag im Frühling, weil er mit dem Feiertag Christi Himmelfahrt zusammenfällt. Dadurch ist der Vatertag ein gesetzlich arbeitsfreier Tag, der Muttertag dagegen nicht. Auch die Bräuche unterscheiden sich: Mit dem Vatertag sind in Deutschland traditionelle Ausflüge in Männergruppen verbunden, während der Muttertag eher mit Blumen und familiären Gesten begangen wird. Beide Tage teilen jedoch denselben Grundgedanken: einem Elternteil bewusst Wertschätzung und Dankbarkeit zu zeigen."
+      }
+    ],
+    "related": ["muttertag", "valentinstag", "ostern", "weihnachten", "liebe"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dreikoenigsfest",
+    "locale": "de",
+    "keyword": "Dreikönigsfest",
+    "matchPatterns": ["dreikönigsfest", "heilige drei könige", "sternsinger", "6. januar", "epiphanie"],
+    "topic": "holidays",
+    "title": "Dreikönigsfest — Die Heiligen Drei Könige und der Abschluss von Weihnachten",
+    "description": "Alles über das Dreikönigsfest: der 6. Januar, die Heiligen Drei Könige, Sternsinger und wie dieser Tag die Weihnachtszeit abschließt.",
+    "emoji": "👑",
+    "intro": "Das Dreikönigsfest ist ein christlicher Festtag, der jedes Jahr am 6. Januar begangen wird. Der Tag erinnert an die Heiligen Drei Könige, die der Überlieferung nach dem Stern von Betlehem folgten, um das neugeborene Jesuskind zu besuchen, und ihm Geschenke brachten. Aus dieser Erzählung ist das Fest entstanden, das auch als Epiphanie oder Erscheinung des Herrn bekannt ist. Für viele Menschen markiert der 6. Januar zugleich den Abschluss der Weihnachtszeit. Während Weihnachten am 24. Dezember beginnt, gilt traditionell das Dreikönigsfest als der Tag, an dem die festliche Zeit endet. In vielen Familien ist es üblich, an diesem Tag oder kurz danach den Weihnachtsbaum und die weihnachtliche Dekoration abzuräumen. Das Dreikönigsfest ist allerdings nicht in ganz Deutschland ein gesetzlicher Feiertag, sondern nur in einigen Bundesländern. Ein besonders bekannter Brauch rund um den 6. Januar ist das Sternsingen: Kinder und Jugendliche ziehen als die Heiligen Drei Könige verkleidet von Haus zu Haus, singen, sammeln Spenden für wohltätige Zwecke und schreiben einen Segensspruch an die Türen. Auf moomz ist das Dreikönigsfest ein interessantes Thema, weil es Tradition, regionale Unterschiede und das Ende der Weihnachtszeit verbindet."
+    ,
+    "sections": [
+      {
+        "h": "Die Heiligen Drei Könige und die Bedeutung des Festes",
+        "body": "Das Dreikönigsfest erinnert an die Heiligen Drei Könige, eine der bekanntesten Figurengruppen der Weihnachtsgeschichte. Der Überlieferung nach folgten sie einem besonderen Stern, dem Stern von Betlehem, um das neugeborene Jesuskind zu finden. Sie brachten dem Kind kostbare Geschenke mit. Aus dieser Erzählung ist das Fest entstanden, das am 6. Januar begangen wird. In der kirchlichen Tradition wird der Tag auch als Epiphanie oder als Erscheinung des Herrn bezeichnet. Die Heiligen Drei Könige sind über die Weihnachtsgeschichte hinaus zu festen Figuren der weihnachtlichen Kultur geworden: Man findet sie in vielen Krippendarstellungen, die zur Weihnachtszeit aufgestellt werden. Das Dreikönigsfest rundet damit die Erzählung rund um die Geburt Jesu ab. Es bildet den letzten der großen Festtage des weihnachtlichen Zyklus und gibt der Weihnachtszeit einen klaren, traditionellen Abschluss."
+      },
+      {
+        "h": "Der Abschluss der Weihnachtszeit",
+        "body": "Für viele Menschen hat das Dreikönigsfest eine wichtige Funktion: Es markiert das Ende der Weihnachtszeit. Während Weihnachten mit dem Heiligabend am 24. Dezember beginnt, gilt traditionell der 6. Januar als der Tag, an dem die festliche Zeit ausklingt. Diese Vorstellung prägt einen verbreiteten Brauch: In vielen Familien ist es üblich, rund um das Dreikönigsfest den Weihnachtsbaum sowie die weihnachtliche Dekoration abzuräumen. Das Abschmücken des Baumes am 6. Januar oder kurz danach ist für viele ein vertrautes Ritual, das das Ende der besinnlichen Wochen bewusst sichtbar macht. Mit dem Dreikönigsfest endet damit der lange weihnachtliche Zeitraum, der von der Adventszeit über Weihnachten und Silvester bis in die ersten Januartage reicht. Der Tag setzt einen klaren Schlusspunkt und leitet zugleich in den normalen Alltag des neuen Jahres über. Diese Funktion als Abschluss der Festzeit ist eine der Bedeutungen, die das Dreikönigsfest für viele Menschen hat."
+      },
+      {
+        "h": "Sternsinger und ein Feiertag nur in einigen Bundesländern",
+        "body": "Rund um das Dreikönigsfest gibt es einen besonders bekannten Brauch: das Sternsingen. Dabei ziehen Kinder und Jugendliche, verkleidet als die Heiligen Drei Könige und oft begleitet von einem großen Stern, von Haus zu Haus. Sie singen Lieder, sammeln Spenden für wohltätige Zwecke und schreiben mit Kreide einen Segensspruch über die Türen der Häuser. Die Sternsinger-Aktion ist ein verbreiteter und geschätzter Brauch, der soziales Engagement mit der Tradition des Festes verbindet. Eine weitere Besonderheit des Dreikönigsfestes betrifft seinen Status als Feiertag: Anders als Weihnachten oder Neujahr ist der 6. Januar nicht in ganz Deutschland ein gesetzlicher Feiertag, sondern nur in einigen Bundesländern. In diesen Regionen haben die Menschen am Dreikönigstag frei, in den übrigen Bundesländern handelt es sich um einen normalen Werktag. Diese regionale Unterschiedlichkeit macht das Dreikönigsfest zu einem interessanten Thema, das auf moomz Tradition und föderale Vielfalt verbindet."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wann ist das Dreikönigsfest?",
+        "a": "Das Dreikönigsfest wird jedes Jahr am 6. Januar begangen. Es ist ein christlicher Festtag, der an die Heiligen Drei Könige erinnert, die der Überlieferung nach dem Stern von Betlehem folgten, um das neugeborene Jesuskind zu besuchen. In der kirchlichen Tradition wird der Tag auch als Epiphanie oder als Erscheinung des Herrn bezeichnet. Der 6. Januar hat zudem eine wichtige Funktion im Jahreskreis: Er markiert für viele Menschen den Abschluss der Weihnachtszeit. Damit bildet das Dreikönigsfest den letzten der großen Festtage des weihnachtlichen Zyklus, der von der Adventszeit über Weihnachten und Silvester bis in die ersten Januartage reicht."
+      },
+      {
+        "q": "Wer waren die Heiligen Drei Könige?",
+        "a": "Die Heiligen Drei Könige sind eine der bekanntesten Figurengruppen der Weihnachtsgeschichte. Der Überlieferung nach folgten sie einem besonderen Stern, dem Stern von Betlehem, um das neugeborene Jesuskind zu finden, und brachten ihm kostbare Geschenke mit. Aus dieser Erzählung ist das Dreikönigsfest am 6. Januar entstanden. Die Heiligen Drei Könige sind über die Weihnachtsgeschichte hinaus zu festen Figuren der weihnachtlichen Kultur geworden. Man findet sie in vielen Krippendarstellungen, die zur Weihnachtszeit aufgestellt werden. Ihre Geschichte rundet die Erzählung rund um die Geburt Jesu ab und gibt dem Dreikönigsfest seine besondere Bedeutung."
+      },
+      {
+        "q": "Was machen die Sternsinger?",
+        "a": "Das Sternsingen ist ein bekannter Brauch rund um das Dreikönigsfest. Dabei ziehen Kinder und Jugendliche, verkleidet als die Heiligen Drei Könige und oft begleitet von einem großen Stern, von Haus zu Haus. Sie singen Lieder und sammeln Spenden für wohltätige Zwecke. Außerdem schreiben sie mit Kreide einen Segensspruch über die Türen der Häuser. Die Sternsinger-Aktion verbindet die Tradition des Festes mit sozialem Engagement, denn die gesammelten Spenden kommen Hilfsprojekten zugute. Der Brauch ist verbreitet und geschätzt und gehört für viele Menschen fest zum Bild des Dreikönigsfestes und zum Ausklang der Weihnachtszeit."
+      },
+      {
+        "q": "Ist das Dreikönigsfest ein Feiertag?",
+        "a": "Das Dreikönigsfest am 6. Januar ist nicht in ganz Deutschland ein gesetzlicher Feiertag. Anders als Weihnachten oder Neujahr, die bundesweit Feiertage sind, gilt der Dreikönigstag nur in einigen Bundesländern als gesetzlicher Feiertag. In diesen Regionen haben die Menschen an diesem Tag frei. In den übrigen Bundesländern ist der 6. Januar dagegen ein normaler Werktag. Diese regionale Unterschiedlichkeit ist eine Besonderheit des Festes und ein Beispiel für die föderale Vielfalt in Deutschland, in der die Feiertagsregelungen von Bundesland zu Bundesland verschieden sein können."
+      }
+    ],
+    "related": ["weihnachten", "neujahr", "silvester", "ostern", "sommerferien"],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,144 +1,14 @@
 [
   {
-    "slug": "amore",
-    "locale": "it",
-    "keyword": "Amore",
-    "matchPatterns": ["amore", "innamorat", "relazione", "coppia", "fidanzat"],
-    "topic": "couple",
-    "title": "Amore: psicologia, fasi e vibe-check di coppia su moomz",
-    "description": "Cos'è davvero l'amore: ossitocina, triangolo di Sternberg, fasi della relazione. E i sondaggi moomz che mettono la coppia alla prova.",
-    "emoji": "💖",
-    "intro": "L'amore è il tema più votato di sempre, e non è un caso. Dietro quella sensazione di vertigine c'è una chimica precisa: dopamina che crea l'euforia dei primi mesi, ossitocina e vasopressina che costruiscono il legame a lungo termine, serotonina che cala e spiega perché all'inizio pensi all'altra persona in modo quasi ossessivo. Lo psicologo Robert Sternberg ha proposto nel 1986 il celebre 'triangolo dell'amore', tre componenti — intimità, passione e impegno — la cui combinazione definisce sette tipi diversi di amore, dall'infatuazione all'amore compiuto. Capire questa struttura aiuta a leggere la propria relazione senza illusioni. Su moomz l'amore è una miniera di sondaggi: dichiararsi per primi o aspettare, convivere subito o piano, perdonare un tradimento o chiudere. Sono domande in cui ognuno proietta la propria storia, e vedere come vota la community è sorprendentemente rivelatore.",
-    "sections": [
-      {
-        "h": "La chimica di una storia d'amore",
-        "body": "Le neuroscienze hanno mappato l'amore in tre sistemi che si sovrappongono: il desiderio (guidato da testosterone ed estrogeni), l'attrazione romantica (dopamina, noradrenalina, calo di serotonina) e l'attaccamento (ossitocina e vasopressina). L'antropologa Helen Fisher ha mostrato con la risonanza magnetica che essere innamorati attiva le stesse aree cerebrali della ricompensa coinvolte nelle dipendenze. Ecco perché la fase iniziale sembra una droga: il cervello è letteralmente in stato alterato. Dopo dodici-diciotto mesi la chimica si stabilizza e subentra l'amore-attaccamento, meno elettrico ma più solido. Molte coppie scambiano questo cambiamento per 'fine dell'amore', quando in realtà è la sua maturazione."
-      },
-      {
-        "h": "Le fasi di una relazione",
-        "body": "Quasi tutte le storie attraversano fasi riconoscibili: la luna di miele, in cui l'altro sembra perfetto; la disillusione, quando emergono i difetti reali; la negoziazione, in cui si impara a litigare bene; e infine la stabilità, fatta di fiducia e progetti condivisi. Nessuna fase è un fallimento: persino i conflitti, se gestiti con rispetto, rinforzano il legame. Lo psicologo John Gottman ha individuato i 'quattro cavalieri' che predicono la rottura — critica, disprezzo, atteggiamento difensivo e ostruzionismo — e ha dimostrato che le coppie durature mantengono almeno cinque interazioni positive per ogni negativa."
-      },
-      {
-        "h": "Perché votare sull'amore",
-        "body": "Le domande d'amore funzionano benissimo come vibe-check perché non hanno una risposta giusta: dipendono dai valori. È meglio un amore passionale e instabile o uno tranquillo e sicuro? Si dovrebbe dire 'ti amo' per primi? Gli ex possono restare amici? Lanciare un sondaggio del genere su moomz trasforma una serata fra amici o una storia su Instagram in un piccolo dibattito. E confrontare il proprio voto con quello di migliaia di persone offre una prospettiva che la propria bolla sociale non dà: a volte scopri di essere in minoranza, a volte che il tuo istinto è condiviso da tutti."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Quanto dura la fase dell'innamoramento?",
-        "a": "In media tra i dodici e i diciotto mesi. È il periodo in cui dopamina e noradrenalina dominano e l'altra persona sembra perfetta. Dopo, la chimica si sposta verso ossitocina e vasopressina: l'amore diventa attaccamento, meno euforico ma più stabile. Non è la fine dell'amore, è la sua trasformazione."
-      },
-      {
-        "q": "Cos'è il triangolo dell'amore di Sternberg?",
-        "a": "Un modello del 1986 che descrive l'amore con tre componenti: intimità (vicinanza emotiva), passione (attrazione e desiderio) e impegno (la decisione di restare). Le loro combinazioni danno sette tipi di amore. L'amore compiuto, raro e prezioso, le contiene tutte e tre."
-      },
-      {
-        "q": "Si dovrebbe dire 'ti amo' per primi?",
-        "a": "Non c'è una regola. Studi mostrano che spesso sono gli uomini a dirlo prima, ma conta soprattutto la sincerità del momento. Dirlo per primi è un gesto di coraggio e vulnerabilità. È una domanda perfetta da lanciare come sondaggio moomz: le risposte variano moltissimo."
-      },
-      {
-        "q": "Gli ex possono davvero restare amici?",
-        "a": "Dipende dal motivo della rottura e dal tempo passato. Funziona meglio se la separazione è stata serena, se entrambi hanno chiuso emotivamente e se non ci sono sentimenti irrisolti. È uno dei sondaggi più divisivi su moomz: la community si spacca quasi a metà."
-      }
-    ],
-    "related": ["bacio", "rottura", "netflix", "estate", "natale"],
-    "updatedAt": "2026-05-20"
-  },
-  {
-    "slug": "bacio",
-    "locale": "it",
-    "keyword": "Bacio",
-    "matchPatterns": ["bacio", "baciare", "primo bacio", "limonare"],
-    "topic": "couple",
-    "title": "Il bacio: storia, scienza e sondaggi moomz sul primo bacio",
-    "description": "Perché ci baciamo, da dove viene il bacio, cosa succede al cervello. E i vibe-check moomz sul primo bacio e dintorni.",
-    "emoji": "💋",
-    "intro": "Il bacio sembra il gesto più naturale del mondo, eppure non lo è affatto: circa il 10% delle culture umane non pratica il bacio romantico, segno che è in parte un comportamento appreso. La disciplina che lo studia ha persino un nome, la filematologia. Quando ci baciamo, il cervello riceve una scarica di informazioni: le labbra sono fra le zone più innervate del corpo, e un bacio scambia ormoni, feromoni e — secondo una celebre ricerca — fino a ottanta milioni di batteri in dieci secondi. Funziona come un test di compatibilità inconscio. Su moomz il primo bacio è uno dei temi che genera più voti: al primo appuntamento o aspettare, con la lingua o no, contano gli occhi aperti o chiusi. Domande leggere in apparenza, ma su cui tutti hanno un'opinione fortissima.",
-    "sections": [
-      {
-        "h": "Da dove viene il bacio",
-        "body": "Le origini del bacio romantico sono dibattute. Una teoria lo fa risalire al 'kiss feeding', la pratica con cui le madri pre-masticavano il cibo per i neonati. I primi riferimenti scritti compaiono nei testi vedici indiani attorno al 1500 a.C. I Romani distinguevano addirittura tre tipi di bacio: l'osculum sulla guancia, il basium sulle labbra e il suavium, il bacio appassionato. Furono in gran parte le conquiste e i commerci a diffondere il bacio romantico nel mondo, anche se molte società dell'Asia e dell'Africa lo hanno adottato solo di recente o non lo praticano in pubblico."
-      },
-      {
-        "h": "Cosa succede nel cervello",
-        "body": "Un bacio appassionato attiva una cascata neurochimica: dopamina per il piacere e la motivazione, ossitocina per il senso di legame, e un calo del cortisolo, l'ormone dello stress. Il battito accelera, le pupille si dilatano, la pelle diventa più sensibile. Le labbra hanno una rappresentazione enorme nella corteccia somatosensoriale — molto più grande della loro superficie reale. Per questo un bacio comunica un'enormità di informazioni in pochi secondi, e perché ricordiamo così bene il primo: il cervello lo registra come un evento ad alta intensità emotiva."
-      },
-      {
-        "h": "Il primo bacio come vibe-check",
-        "body": "Pochi argomenti scatenano dibattiti come il primo bacio. Al primo appuntamento è troppo presto o è il momento giusto? Va bene baciarsi davanti agli amici? Il bacio della buonanotte è ancora una cosa? Sono domande perfette per moomz perché ognuno risponde dalla propria esperienza, e i risultati raccontano molto di una generazione. Lanciare un sondaggio sul primo bacio in una storia o in un gruppo crea subito conversazione, e confrontarsi con migliaia di voti aiuta a capire cosa è davvero 'normale' — spoiler: la normalità è molto più ampia di quanto si creda."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Perché gli esseri umani si baciano?",
-        "a": "Per più ragioni che si intrecciano: valutare in modo inconscio la compatibilità genetica tramite feromoni e batteri, rafforzare il legame con il rilascio di ossitocina, e provare piacere grazie alla densità di terminazioni nervose sulle labbra. Non è universale: circa il 10% delle culture non pratica il bacio romantico."
-      },
-      {
-        "q": "È normale ricordare così bene il primo bacio?",
-        "a": "Sì. Il primo bacio è un evento ad alta carica emotiva, e il cervello consolida con particolare forza i ricordi accompagnati da emozioni intense. Adrenalina e dopamina rendono quel momento vivido per anni. È uno dei ricordi autobiografici più stabili in assoluto."
-      },
-      {
-        "q": "Baciarsi al primo appuntamento: sì o no?",
-        "a": "Non c'è una regola, dipende dal feeling e dal rispetto reciproco dei tempi. Alcuni lo vivono come naturale, altri preferiscono aspettare. È esattamente il tipo di domanda divisiva che funziona benissimo come sondaggio moomz: la community si divide spesso a metà."
-      },
-      {
-        "q": "Quanti batteri si scambiano con un bacio?",
-        "a": "Una ricerca olandese del 2014 ha stimato fino a ottanta milioni di batteri scambiati in un bacio intenso di dieci secondi. Lungi dall'essere un problema, questo scambio contribuisce ad allineare il microbioma orale dei partner e, secondo gli autori, a rinforzare il sistema immunitario."
-      }
-    ],
-    "related": ["amore", "rottura", "estate", "netflix", "kpop"],
-    "updatedAt": "2026-05-20"
-  },
-  {
-    "slug": "rottura",
-    "locale": "it",
-    "keyword": "Rottura",
-    "matchPatterns": ["rottura", "lasciarsi", "ex ", "mollare", "fine relazione"],
-    "topic": "couple",
-    "title": "Rottura di coppia: le fasi, come superarla, sondaggi moomz",
-    "description": "Cosa succede al cervello dopo una rottura, le fasi del lutto sentimentale e come rialzarsi. Più i vibe-check moomz sugli ex.",
-    "emoji": "💔",
-    "intro": "Una rottura fa male sul serio, e non è una metafora: gli studi di neuroimaging mostrano che il dolore del rifiuto amoroso attiva le stesse aree cerebrali del dolore fisico, in particolare la corteccia cingolata anteriore. Per questo dopo una separazione si dice di avere 'il cuore spezzato' — il corpo lo vive quasi letteralmente. Esiste persino una condizione clinica, la sindrome di takotsubo o 'cuore infranto', in cui uno shock emotivo intenso indebolisce temporaneamente il muscolo cardiaco. La buona notizia è che il cervello è progettato per guarire: la maggior parte delle persone supera l'impatto peggiore di una rottura nel giro di tre mesi. Su moomz gli ex sono un tema caldissimo: ricontattarli o bloccarli, restare amici o sparire, dare una seconda possibilità o no. Domande su cui nessuno è neutrale.",
-    "sections": [
-      {
-        "h": "Cosa succede dopo una rottura",
-        "body": "Subito dopo una separazione il cervello entra in una sorta di astinenza. I circuiti della dopamina, abituati alla 'ricompensa' della relazione, restano attivi e generano desiderio struggente: questo spiega l'impulso di controllare i social dell'ex o di ricontattarlo. Il cortisolo sale, sonno e appetito si alterano. La psicologa Helen Fisher ha mostrato che pensare a un ex appena lasciati attiva le stesse aree associate alle dipendenze. Capire che è una reazione neurochimica, e non una debolezza, aiuta a non colpevolizzarsi e a darsi il tempo necessario."
-      },
-      {
-        "h": "Le fasi del lutto sentimentale",
-        "body": "Una rottura assomiglia a un lutto e attraversa fasi simili: negazione, rabbia, contrattazione ('forse se avessi fatto diversamente...'), tristezza profonda e infine accettazione. Non sono lineari: si può tornare indietro, e va bene così. Strategie che la ricerca conferma utili: il 'no contact' per interrompere il ciclo della dipendenza, riempire il tempo con attività e relazioni, evitare di idealizzare l'ex ricordando anche i lati difficili della storia. Scrivere ciò che si è imparato trasforma l'esperienza in crescita anziché in semplice perdita."
-      },
-      {
-        "h": "Gli ex come tema di sondaggio",
-        "body": "Pochi argomenti dividono come gli ex. Si può essere amici dopo una storia? È giusto rimanere a seguirsi su Instagram? Una seconda possibilità funziona davvero o si ripetono gli stessi errori? Su moomz queste domande generano valanghe di voti perché ognuno risponde dalla propria ferita o dalla propria guarigione. Lanciare un sondaggio sugli ex è anche un modo leggero per elaborare: vedere che migliaia di persone hanno fatto la tua stessa scelta — o l'opposta — relativizza e fa sentire meno soli."
-      }
-    ],
-    "faq": [
-      {
-        "q": "Quanto tempo serve per superare una rottura?",
-        "a": "Varia molto, ma diversi studi indicano che l'impatto più acuto si attenua entro circa tre mesi, mentre una storia lunga può richiedere di più. Una ricerca spesso citata suggerisce che bastano undici settimane per iniziare a vedere il lato positivo. Conta la qualità dell'elaborazione, non solo il tempo."
-      },
-      {
-        "q": "Perché una rottura fa male fisicamente?",
-        "a": "Perché il dolore del rifiuto sociale attiva le stesse regioni cerebrali del dolore fisico, come la corteccia cingolata anteriore. In casi estremi uno shock emotivo può provocare la sindrome di takotsubo, un indebolimento temporaneo del cuore. 'Cuore spezzato' è più letterale di quanto sembri."
-      },
-      {
-        "q": "Il 'no contact' funziona davvero?",
-        "a": "Per la maggior parte delle persone sì. Interrompere il contatto spezza il ciclo della ricompensa dopaminergica che alimenta il desiderio struggente. Continuare a sentirsi o a guardarsi i social riattiva di continuo quel circuito e allunga i tempi di guarigione."
-      },
-      {
-        "q": "Dare una seconda possibilità è una buona idea?",
-        "a": "Dipende dal motivo della rottura. Funziona se entrambi hanno capito e cambiato qualcosa di concreto; raramente se si torna insieme solo per paura della solitudine. È uno dei sondaggi moomz più discussi: la community si divide quasi perfettamente."
-      }
-    ],
-    "related": ["amore", "bacio", "netflix", "kpop", "estate"],
-    "updatedAt": "2026-05-20"
-  },
-  {
     "slug": "netflix",
     "locale": "it",
     "keyword": "Netflix",
-    "matchPatterns": ["netflix", "serie tv", "streaming", "binge"],
+    "matchPatterns": [
+      "netflix",
+      "serie tv",
+      "streaming",
+      "binge"
+    ],
     "topic": "pop-culture",
     "title": "Netflix: storia, binge-watching e sondaggi moomz sulle serie",
     "description": "Da noleggio DVD a colosso dello streaming: la storia di Netflix, la cultura del binge e i vibe-check moomz su film e serie.",
@@ -176,14 +46,26 @@
         "a": "Per il design stesso delle serie: i cliffhanger di fine episodio creano tensione irrisolta e l'autoplay parte prima che tu decida di fermarti. Ogni nuovo episodio promette una ricompensa, e il cervello rilascia dopopamina in anticipo. È un meccanismo studiato per trattenerti."
       }
     ],
-    "related": ["anime", "kpop", "amore", "estate", "iphone"],
+    "related": [
+      "anime",
+      "kpop",
+      "amore",
+      "estate",
+      "iphone"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "anime",
     "locale": "it",
     "keyword": "Anime",
-    "matchPatterns": ["anime", "manga", "giappone", "otaku", "shonen"],
+    "matchPatterns": [
+      "anime",
+      "manga",
+      "giappone",
+      "otaku",
+      "shonen"
+    ],
     "topic": "pop-culture",
     "title": "Anime: storia, generi e sondaggi moomz sull'animazione giapponese",
     "description": "Dalle origini con Astro Boy al boom globale: storia degli anime, i generi principali e i vibe-check moomz da otaku.",
@@ -221,14 +103,26 @@
         "a": "Shonen è il genere di anime e manga rivolto principalmente a un pubblico di ragazzi adolescenti. Si basa su azione, avventura, amicizia e superamento dei propri limiti. Naruto, One Piece e Dragon Ball sono shonen iconici. È il genere più popolare e commercialmente forte."
       }
     ],
-    "related": ["netflix", "kpop", "iphone", "calcio", "estate"],
+    "related": [
+      "netflix",
+      "kpop",
+      "iphone",
+      "calcio",
+      "estate"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "kpop",
     "locale": "it",
     "keyword": "K-pop",
-    "matchPatterns": ["kpop", "k-pop", "bts", "blackpink", "corea"],
+    "matchPatterns": [
+      "kpop",
+      "k-pop",
+      "bts",
+      "blackpink",
+      "corea"
+    ],
     "topic": "pop-culture",
     "title": "K-pop: storia, fandom e sondaggi moomz sulla musica coreana",
     "description": "Cos'è il K-pop, da dove viene la hallyu, come funziona il fandom. E i vibe-check moomz sui gruppi e i bias.",
@@ -266,14 +160,28 @@
         "a": "La hallyu, o 'onda coreana', è la diffusione internazionale della cultura sudcoreana: musica, serie TV, cinema, beauty e cucina. Il K-pop ne è la componente più visibile. Il termine è nato in Cina negli anni Novanta per descrivere il crescente interesse per i prodotti culturali coreani."
       }
     ],
-    "related": ["anime", "netflix", "iphone", "amore", "estate"],
+    "related": [
+      "anime",
+      "netflix",
+      "iphone",
+      "amore",
+      "estate"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "calcio",
     "locale": "it",
     "keyword": "Calcio",
-    "matchPatterns": ["calcio", "serie a", "pallone", "juventus", "inter", "milan", "nazionale"],
+    "matchPatterns": [
+      "calcio",
+      "serie a",
+      "pallone",
+      "juventus",
+      "inter",
+      "milan",
+      "nazionale"
+    ],
     "topic": "sport",
     "title": "Calcio: storia, Serie A e sondaggi moomz sul pallone",
     "description": "La storia del calcio in Italia, la Serie A, la Nazionale e i grandi derby. Più i vibe-check moomz da veri tifosi.",
@@ -311,14 +219,25 @@
         "a": "Perché è radicato nel territorio: ogni città ha la sua squadra e la sua identità. Le vittorie della Nazionale sono diventate momenti di unità collettiva, e la Serie A è stata a lungo il miglior campionato del mondo. Il calcio è parte del tessuto culturale italiano."
       }
     ],
-    "related": ["olimpiadi", "anime", "estate", "iphone", "netflix"],
+    "related": [
+      "olimpiadi",
+      "anime",
+      "estate",
+      "iphone",
+      "netflix"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "olimpiadi",
     "locale": "it",
     "keyword": "Olimpiadi",
-    "matchPatterns": ["olimpiadi", "olimpico", "giochi olimpici", "milano cortina"],
+    "matchPatterns": [
+      "olimpiadi",
+      "olimpico",
+      "giochi olimpici",
+      "milano cortina"
+    ],
     "topic": "sport",
     "title": "Olimpiadi: storia dei Giochi e sondaggi moomz sullo sport",
     "description": "Dai Giochi dell'antica Grecia a Milano-Cortina 2026: la storia delle Olimpiadi e i vibe-check moomz sullo sport.",
@@ -356,14 +275,26 @@
         "a": "Il motto olimpico è 'Citius, Altius, Fortius', latino per 'più veloce, più alto, più forte'. Dal 2021 è stato ufficialmente esteso con la parola 'Communiter', 'insieme', per sottolineare il valore della solidarietà oltre alla competizione individuale."
       }
     ],
-    "related": ["calcio", "estate", "netflix", "iphone", "anime"],
+    "related": [
+      "calcio",
+      "estate",
+      "netflix",
+      "iphone",
+      "anime"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "natale",
     "locale": "it",
     "keyword": "Natale",
-    "matchPatterns": ["natale", "babbo natale", "presepe", "vigilia", "regali natale"],
+    "matchPatterns": [
+      "natale",
+      "babbo natale",
+      "presepe",
+      "vigilia",
+      "regali natale"
+    ],
     "topic": "holidays",
     "title": "Natale: origini, tradizioni italiane e sondaggi moomz",
     "description": "Da dove viene il Natale, le tradizioni italiane dal presepe al panettone e i vibe-check moomz sulla festa più amata.",
@@ -401,14 +332,27 @@
         "a": "L'albero sempreverde decorato ha origini nei riti del Nord Europa legati al solstizio d'inverno, come simbolo di vita che resiste al freddo. La tradizione moderna si è diffusa dalla Germania nell'Ottocento e oggi è uno dei simboli natalizi più amati al mondo."
       }
     ],
-    "related": ["estate", "amore", "netflix", "calcio", "iphone"],
+    "related": [
+      "estate",
+      "amore",
+      "netflix",
+      "calcio",
+      "iphone"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "estate",
     "locale": "it",
     "keyword": "Estate",
-    "matchPatterns": ["estate", "estiv", "vacanze", "mare", "spiaggia", "ferragosto"],
+    "matchPatterns": [
+      "estate",
+      "estiv",
+      "vacanze",
+      "mare",
+      "spiaggia",
+      "ferragosto"
+    ],
     "topic": "holidays",
     "title": "Estate: solstizio, vacanze e sondaggi moomz sulla bella stagione",
     "description": "Cosa rende speciale l'estate: solstizio, ferragosto, vacanze e cultura balneare. E i vibe-check moomz sulla stagione preferita.",
@@ -446,14 +390,26 @@
         "a": "È uno dei sondaggi estivi più classici di moomz, e i risultati sono spesso più equilibrati di quanto ci si aspetti. Il mare vince in popolarità, ma la montagna ha una base di appassionati molto fedele. Dipende molto dall'età e dalla regione di provenienza."
       }
     ],
-    "related": ["natale", "calcio", "amore", "netflix", "olimpiadi"],
+    "related": [
+      "natale",
+      "calcio",
+      "amore",
+      "netflix",
+      "olimpiadi"
+    ],
     "updatedAt": "2026-05-20"
   },
   {
     "slug": "ia",
     "locale": "it",
     "keyword": "Intelligenza Artificiale",
-    "matchPatterns": ["ia", "intelligenza artificiale", "ai", "chatgpt", "robot"],
+    "matchPatterns": [
+      "ia",
+      "intelligenza artificiale",
+      "ai",
+      "chatgpt",
+      "robot"
+    ],
     "topic": "tech",
     "title": "Intelligenza Artificiale: cos'è, storia e sondaggi moomz sull'IA",
     "description": "Cos'è davvero l'intelligenza artificiale, da Turing a ChatGPT, e i vibe-check moomz su un tema che divide tutti.",
@@ -491,52 +447,13 @@
         "a": "È il dibattito del momento. L'IA automatizza alcune mansioni ma ne crea anche di nuove e cambia il modo di lavorare in molti settori. Più che 'rubare' lavoro, lo trasforma. È uno dei sondaggi moomz più discussi: le opinioni sono molto polarizzate."
       }
     ],
-    "related": ["iphone", "netflix", "anime", "calcio", "kpop"],
-    "updatedAt": "2026-05-20"
-  },
-  {
-    "slug": "iphone",
-    "locale": "it",
-    "keyword": "iPhone",
-    "matchPatterns": ["iphone", "apple", "ios", "smartphone"],
-    "topic": "tech",
-    "title": "iPhone: storia, impatto e sondaggi moomz su Apple",
-    "description": "Come l'iPhone ha cambiato il mondo dal 2007, la rivalità con Android e i vibe-check moomz su tecnologia e abitudini.",
-    "emoji": "📱",
-    "intro": "Pochi oggetti hanno cambiato la vita quotidiana quanto l'iPhone. Il 9 gennaio 2007, sul palco del Macworld di San Francisco, Steve Jobs presentò il primo modello con una frase rimasta celebre: Apple stava lanciando 'tre prodotti rivoluzionari' — un iPod, un telefono e un dispositivo internet — che erano in realtà un solo oggetto. L'iPhone arrivò nei negozi il 29 giugno 2007. Eliminava la tastiera fisica in favore di un grande schermo multi-touch e, con l'App Store lanciato nel 2008, creò un ecosistema di applicazioni che ha generato un'intera economia. Da allora lo smartphone è diventato il centro della vita digitale di miliardi di persone. Su moomz l'iPhone alimenta sondaggi continui: iPhone o Android, vale la pena cambiarlo ogni anno, troppo tempo sullo schermo.",
-    "sections": [
-      {
-        "h": "Il giorno che ha cambiato la tecnologia",
-        "body": "Prima dell'iPhone gli smartphone esistevano, ma erano strumenti per professionisti, con tastiere fisiche e schermi piccoli. La presentazione del 2007 ribaltò tutto: un'interfaccia interamente touch, gesti naturali come lo scorrimento e il pizzico per zoomare, un browser web che mostrava i siti veri e non versioni ridotte. Molti concorrenti la sottovalutarono. Nel giro di pochi anni l'intero settore dovette inseguire il modello iPhone. Lo smartphone moderno, qualunque marca, deve la sua forma a quella mattina di gennaio."
-      },
-      {
-        "h": "L'App Store e un nuovo ecosistema",
-        "body": "Se l'iPhone è l'hardware che ha definito un'epoca, l'App Store, lanciato nel 2008, è ciò che ne ha moltiplicato l'impatto. Permettendo a sviluppatori di tutto il mondo di creare e vendere applicazioni, Apple ha dato vita a un'economia gigantesca e a categorie di prodotti che prima non esistevano: dai social ai giochi mobile, dalla navigazione alla messaggistica. Anche moomz vive in questo mondo: un sondaggio si crea e si condivide in dieci secondi dallo smartphone. L'App Store ha reso il telefono una piattaforma, non solo un dispositivo."
-      },
-      {
-        "h": "iPhone e Android come vibe-check",
-        "body": "La rivalità tra iPhone e Android è uno dei dibattiti tecnologici più longevi, e funziona benissimo come sondaggio. iOS o Android? Vale la pena aggiornare il telefono ogni anno? Quanto tempo passi davvero sullo schermo? La 'bolla blu' contro la 'bolla verde' dei messaggi conta ancora? Lanciare un vibe-check sull'iPhone su moomz è un modo sicuro per dividere amici e follower. E confrontare il proprio voto con la community internazionale mostra come le preferenze cambino enormemente da Paese a Paese e da fascia d'età."
-      }
+    "related": [
+      "iphone",
+      "netflix",
+      "anime",
+      "calcio",
+      "kpop"
     ],
-    "faq": [
-      {
-        "q": "Quando è uscito il primo iPhone?",
-        "a": "Il primo iPhone fu presentato da Steve Jobs il 9 gennaio 2007 al Macworld di San Francisco e arrivò nei negozi statunitensi il 29 giugno 2007. Introdusse lo schermo multi-touch al posto della tastiera fisica, ridefinendo per sempre il concetto di smartphone."
-      },
-      {
-        "q": "Cosa ha reso l'iPhone così rivoluzionario?",
-        "a": "L'interfaccia interamente touch con gesti naturali, un vero browser web e, dal 2008, l'App Store. Insieme hanno trasformato il telefono da semplice strumento di comunicazione a piattaforma per applicazioni, foto, social e molto altro, cambiando la vita quotidiana di miliardi di persone."
-      },
-      {
-        "q": "Meglio iPhone o Android?",
-        "a": "Dipende dalle priorità: iOS offre un ecosistema integrato e aggiornamenti lunghi, Android più scelta, personalizzazione e fasce di prezzo. Non c'è una risposta universale. È uno dei sondaggi moomz più eterni e divisivi, con risultati che cambiano da Paese a Paese."
-      },
-      {
-        "q": "Conviene cambiare iPhone ogni anno?",
-        "a": "Per la maggior parte delle persone no: i miglioramenti tra un modello e il successivo sono spesso piccoli, e gli iPhone ricevono aggiornamenti software per molti anni. Cambiarlo ogni due o tre anni è una scelta più equilibrata. È una bella domanda da vibe-check su moomz."
-      }
-    ],
-    "related": ["ia", "netflix", "anime", "kpop", "calcio"],
     "updatedAt": "2026-05-20"
   }
 ]

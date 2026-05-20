@@ -401,11 +401,11 @@
         "a": "O Bitcoin, a primeira e mais famosa criptomoeda, foi criado em 2009 por uma figura ou grupo de identidade até hoje desconhecida, que usava o pseudônimo Satoshi Nakamoto. Nunca foi confirmado quem realmente está por trás desse nome, se é uma única pessoa ou um grupo, e isso é um dos grandes mistérios do mundo da tecnologia. O Bitcoin foi lançado pouco depois de uma grande crise financeira mundial, com a proposta de criar um dinheiro digital descentralizado, que pudesse ser transferido diretamente entre pessoas sem precisar de bancos. A identidade oculta de Satoshi Nakamoto faz parte da mística que envolve a história do Bitcoin desde o início."
       }
     ],
-    "related": ["bitcoin", "pix", "chatgpt", "gaming", "pc"],
+    "related": ["bitcoin-tech", "pix", "chatgpt", "gaming", "pc"],
     "updatedAt": "2026-05-20"
   },
   {
-    "slug": "bitcoin",
+    "slug": "bitcoin-tech",
     "locale": "pt",
     "keyword": "Bitcoin",
     "matchPatterns": ["bitcoin", "btc", "criptomoeda", "satoshi", "minerar bitcoin"],
@@ -536,7 +536,7 @@
         "a": "O Pix fez enorme sucesso porque resolveu problemas reais e antigos dos pagamentos no Brasil. Antes dele, transferir dinheiro entre bancos podia ser lento, caro e limitado a horários comerciais e dias úteis. O Pix tornou as transferências instantâneas, gratuitas na maioria dos casos para pessoas físicas, e disponíveis a qualquer hora, todos os dias. Além disso, é simples de usar, com as chaves facilitando tudo, e é acessível, permitindo que até o pequeno vendedor ambulante aceite pagamentos eletrônicos sem custo. Essa combinação de rapidez, gratuidade, disponibilidade total e praticidade fez o Pix se espalhar por todas as camadas da sociedade em tempo recorde."
       }
     ],
-    "related": ["cripto", "bitcoin", "whatsapp", "chatgpt", "android"],
+    "related": ["cripto", "bitcoin-tech", "whatsapp", "chatgpt", "android"],
     "updatedAt": "2026-05-20"
   }
 ]

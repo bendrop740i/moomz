@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "dinero",
+    "locale": "es",
+    "keyword": "Dinero",
+    "matchPatterns": ["dinero", "plata", "pasta", "pagar", "rico", "millonario"],
+    "topic": "money",
+    "title": "Dinero — qué es realmente y por qué nos pone tan nerviosos",
+    "description": "El dinero explicado sin rollos: de dónde viene, cuánta felicidad compra de verdad, por qué hablar de plata es tabú y cómo tener una relación sana con él.",
+    "emoji": "💸",
+    "intro": "El dinero es probablemente el tema sobre el que más pensamos y del que menos hablamos en serio. Pasamos buena parte de la vida ganándolo, gastándolo, debiéndolo o preocupándonos por él, pero en muchas familias hispanohablantes preguntar cuánto cobra alguien sigue siendo casi tan incómodo como preguntar por su vida sexual. Y eso es raro, porque el dinero ni siquiera es una cosa: es un acuerdo. Un billete no vale nada por sí mismo, vale porque todos creemos colectivamente que sirve para intercambiar. Antes del dinero existía el trueque, lento e incómodo — tenías que encontrar a alguien que quisiera justo lo que tú ofrecías y ofreciera justo lo que tú querías. El dinero resolvió ese problema convirtiéndose en una medida común: una manera de guardar valor y de comparar cosas tan distintas como una hora de trabajo y un kilo de pan. Las primeras monedas acuñadas aparecieron en Lidia, en la actual Turquía, hacia el siglo VII antes de Cristo, y desde entonces el dinero ha pasado de metales preciosos a billetes de papel y de ahí a números en una pantalla — la mayoría del dinero que existe hoy no es físico, es solo un registro digital. En moomz, las encuestas '¿el dinero da la felicidad?', '¿hablarías de tu sueldo con tus amigos?' o '¿prefieres tiempo libre o más dinero?' explotan al instante, porque todos tenemos una relación intensa con la plata, aunque casi nadie la confiese del todo. Entender el dinero — sin idealizarlo ni demonizarlo — es una de las habilidades más útiles y peor enseñadas que existen.",
+    "sections": [
+      {
+        "h": "¿El dinero da la felicidad? Lo que dice la ciencia",
+        "body": "La frase 'el dinero no da la felicidad' es medio verdad y medio mito, y la ciencia ha afinado mucho la respuesta. Un estudio muy citado de 2010, dirigido por los premios Nobel Daniel Kahneman y Angus Deaton, encontró que el bienestar emocional del día a día aumentaba con los ingresos hasta cierto punto y luego se estancaba. Pero investigaciones posteriores del economista Matthew Killingsworth, con datos de teléfonos en tiempo real, matizaron eso: para la mayoría de la gente, más dinero sí sigue asociándose con algo más de bienestar incluso en niveles altos, aunque el efecto se va aplanando. La conclusión razonable es esta: salir de la escasez — poder pagar lo básico sin angustia — produce un salto de felicidad enorme; a partir de ahí, cada euro extra suma cada vez menos. El dinero compra sobre todo la ausencia de un tipo concreto de sufrimiento: el estrés de no llegar a fin de mes. Lo que no compra es sentido, vínculos ni propósito. Y cómo se gasta importa: gastar en experiencias y en otras personas suele dar más felicidad duradera que acumular objetos."
+      },
+      {
+        "h": "Por qué hablar de dinero sigue siendo tabú",
+        "body": "En la cultura hispanohablante, hablar abiertamente de cuánto ganas o cuánto tienes está cargado de incomodidad, y eso tiene consecuencias muy concretas. El silencio sobre el dinero protege a quien más tiene y perjudica a quien menos sabe. Si nadie en una empresa habla de su sueldo, es imposible detectar si te están pagando menos de lo justo; la opacidad salarial es una de las razones por las que persisten brechas de pago. El tabú también nos deja sin educación: muchas personas llegan a la vida adulta sabiendo derivadas pero sin saber qué es el interés compuesto, cómo funciona una hipoteca o por qué una tarjeta de crédito puede ser una trampa. Hay razones culturales detrás del tabú — la idea de que hablar de plata es de mala educación, el miedo a parecer envidioso o presumido, la vergüenza de quien gana poco y la culpa de quien gana mucho. Pero las generaciones más jóvenes están rompiendo parte de ese silencio: en redes y entre amigos cada vez se habla más de sueldos, alquileres y deudas. Compartir información financiera con gente de confianza no es de mala educación, es una forma de protegerse mutuamente."
+      },
+      {
+        "h": "Tener una relación sana con el dinero",
+        "body": "Más allá de cuánto ganes, lo que de verdad marca tu tranquilidad es la relación que tienes con el dinero, y esa relación se puede mejorar. El primer paso es la conciencia: saber cuánto entra y cuánto sale. Mucha gente vive con una sensación difusa de que 'el dinero se evapora', y casi siempre que apuntan sus gastos durante un mes descubren fugas que no veían. El segundo es separar deseos de necesidades sin culpa: gastar en cosas que disfrutas está bien, el problema es gastar en piloto automático en cosas que ni siquiera notas. El tercero es el colchón: tener ahorrado el equivalente a tres o seis meses de gastos cambia por completo el nivel de estrés, porque convierte una emergencia en un inconveniente. El cuarto es entender que el dinero es una herramienta, no una puntuación: ni te hace mejor persona tenerlo ni peor no tenerlo. Hay dos extremos poco sanos — la obsesión, que sacrifica la vida presente por acumular, y la negación, que evita mirar las cuentas hasta que estalla un problema. El punto medio es mirar el dinero de frente, con calma y sin drama, como se mira cualquier otra parte importante de la vida."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿El dinero da la felicidad o no?",
+        "a": "La respuesta honesta es: en parte. Los estudios de Kahneman, Deaton y Killingsworth coinciden en algo clave: salir de la escasez produce un salto enorme de bienestar, porque elimina el estrés constante de no llegar a fin de mes. A partir de ahí, más dinero sigue sumando algo de bienestar, pero cada vez menos. Lo que el dinero no compra es sentido, vínculos ni propósito, que son los grandes motores de la felicidad duradera. Además, cómo se gasta importa: gastar en experiencias y en otras personas da más felicidad que acumular objetos. El dinero compra tranquilidad, no plenitud."
+      },
+      {
+        "q": "¿Cuánto dinero hace falta para vivir tranquilo?",
+        "a": "No hay una cifra universal, porque depende del país, la ciudad y el estilo de vida. Pero hay un concepto más útil que una cantidad: la tranquilidad financiera no llega con un sueldo concreto, llega cuando tus ingresos cubren con holgura tus gastos básicos y además tienes un colchón de ahorro. Ese colchón — el equivalente a entre tres y seis meses de gastos — es lo que de verdad baja el estrés, porque convierte una emergencia en un simple inconveniente. Mucha gente con ingresos altos vive angustiada porque gasta todo, y mucha gente con ingresos modestos vive tranquila porque controla sus cuentas."
+      },
+      {
+        "q": "¿Por qué nos cuesta tanto hablar de dinero?",
+        "a": "Por una mezcla de razones culturales. En la cultura hispanohablante existe la idea heredada de que hablar de plata es de mala educación, sumada al miedo a parecer presumido si ganas mucho o a dar pena si ganas poco. Pero ese silencio tiene un coste: la opacidad salarial protege a quien paga y perjudica a quien no sabe si le pagan justo, y la falta de educación financiera deja a mucha gente sin herramientas básicas. La buena noticia es que las generaciones jóvenes están rompiendo el tabú: hablar de sueldos y gastos con gente de confianza es una forma de protegerse, no de mala educación."
+      },
+      {
+        "q": "¿De dónde viene el dinero como invento?",
+        "a": "El dinero nació para resolver el problema del trueque, que era lento e incómodo: tenías que encontrar a alguien que quisiera exactamente lo que tú ofrecías. El dinero se convirtió en una medida común que permite guardar valor y comparar cosas distintas. Las primeras monedas acuñadas aparecieron en el reino de Lidia, en la actual Turquía, hacia el siglo VII antes de Cristo. Desde entonces el dinero ha evolucionado de metales preciosos a billetes de papel y de ahí a registros digitales: hoy la mayor parte del dinero que existe no es físico, es solo un número en una pantalla."
+      }
+    ],
+    "related": ["salario", "ahorro", "lujo", "pobreza", "loteria"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "salario",
+    "locale": "es",
+    "keyword": "Salario",
+    "matchPatterns": ["salario", "sueldo", "cobrar", "nomina", "nómina", "trabajo"],
+    "topic": "money",
+    "title": "Salario — cuánto vale tu tiempo y cómo negociarlo",
+    "description": "Todo sobre el salario: qué es un sueldo justo, bruto y neto, por qué nadie habla de su nómina y cómo negociar un aumento sin morir de vergüenza.",
+    "emoji": "💼",
+    "intro": "El salario es la forma en la que la mayoría de la gente convierte su tiempo en dinero, y por eso es uno de los temas más cargados de emoción que existen. Tu sueldo no es solo una cifra: para mucha gente funciona, de forma poco sana, como una puntuación de cuánto valen como persona. Y sin embargo casi nadie habla de él en voz alta. El salario nació con la economía industrial: antes, mucha gente vivía de lo que producía directamente — la cosecha, el ganado, el oficio propio. La revolución industrial generalizó la figura del trabajador que vende su tiempo a cambio de un pago fijo, y con ella aparecieron las luchas por la jornada de ocho horas, el descanso semanal y el salario mínimo. El concepto de salario mínimo legal se extendió por buena parte del mundo a lo largo del siglo XX como un suelo por debajo del cual no se puede pagar a nadie. Hoy el salario sigue siendo el centro de la vida económica de casi todo el mundo, y a la vez una caja negra: la mayoría de la gente no sabe si cobra más o menos que sus compañeros por el mismo trabajo, porque el tabú de hablar de sueldos mantiene esa información oculta. En moomz, las encuestas '¿revelarías tu sueldo a tus amigos?', '¿pedirías un aumento este año?' o '¿prefieres un trabajo aburrido bien pagado o uno apasionante mal pagado?' generan respuestas instantáneas, porque el salario toca a la vez el dinero, el estatus, la justicia y la autoestima. Entender cómo funciona un sueldo — y cómo se negocia — es una de las habilidades más rentables que se pueden aprender.",
+    "sections": [
+      {
+        "h": "Salario bruto, neto y lo que de verdad cobras",
+        "body": "Una de las confusiones más comunes con el salario es la diferencia entre bruto y neto, y entenderla evita disgustos. El salario bruto es la cifra total que figura en el contrato antes de descuentos. El salario neto es lo que realmente llega a tu cuenta, después de restar los impuestos sobre la renta y las cotizaciones sociales — las aportaciones que financian la pensión futura, la sanidad o el desempleo. Esa diferencia puede ser considerable, así que cuando alguien te diga su sueldo conviene saber si habla en bruto o en neto. Hay además otros conceptos que importan: el número de pagas al año (en algunos países se reparte en doce, en otros en catorce o más), los complementos variables como bonus o comisiones, y los beneficios no monetarios — seguro médico, vales de comida, teletrabajo, días extra de vacaciones — que también forman parte de la compensación real. Comparar dos ofertas solo por la cifra bruta puede llevar a engaño: lo que cuenta es el paquete completo, lo que de verdad acaba mejorando tu vida. Saber leer una nómina, identificar cada descuento y entender el coste-empresa total te da una imagen mucho más clara de cuánto vales en el mercado."
+      },
+      {
+        "h": "¿Qué es un salario justo?",
+        "body": "Definir un salario 'justo' es más complicado de lo que parece, porque intervienen varios criterios que no siempre coinciden. Está el criterio de la subsistencia: un salario justo debería, como mínimo, permitir vivir con dignidad en el lugar donde se trabaja — de ahí el concepto de 'salario vital', a veces superior al mínimo legal. Está el criterio del mercado: un sueldo es 'justo' si está en línea con lo que se paga por ese mismo trabajo, con esa experiencia, en esa zona. Está el criterio de la equidad interna: dos personas que hacen el mismo trabajo con el mismo rendimiento deberían cobrar parecido, y cuando no es así suele haber una injusticia. Y está el criterio del valor aportado: cuánto genera tu trabajo para quien te paga. El problema es que el tabú de hablar de sueldos hace casi imposible saber si tu salario es justo según el criterio del mercado o de la equidad. Por eso compartir rangos salariales con gente de confianza, consultar estudios de remuneración del sector y preguntar abiertamente es tan útil: la información es lo que te permite saber si te están pagando lo que corresponde o por debajo."
+      },
+      {
+        "h": "Negociar el sueldo sin morir de vergüenza",
+        "body": "Negociar el salario es una de las habilidades peor enseñadas y más rentables que existen, porque un aumento se acumula durante toda la carrera. Mucha gente no negocia por miedo o por vergüenza, y eso tiene un coste enorme a largo plazo. Algunas ideas que funcionan. Primero, prepárate con datos: llega a la conversación sabiendo cuánto se paga por tu puesto en el mercado, no con una cifra inventada. Segundo, habla de valor, no de necesidad: el argumento ganador no es 'necesito más porque me ha subido el alquiler', sino 'esto es lo que aporto y este es el rango justo para ese aporte'. Tercero, elige el momento: tras un buen resultado, al renovar contrato o al asumir más responsabilidades. Cuarto, da una cifra concreta y ligeramente alta dentro de lo razonable, porque la primera cifra ancla toda la negociación. Quinto, recuerda que el salario no es lo único negociable: días libres, teletrabajo, formación o un bonus también cuentan. Y sexto, normaliza la incomodidad: pedir un aumento se siente raro, pero es una conversación profesional normal, no un atrevimiento. Lo peor que puede pasar casi siempre es un 'no' — y un 'no' te deja exactamente donde estabas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál es la diferencia entre salario bruto y neto?",
+        "a": "El salario bruto es la cifra total que aparece en el contrato antes de descuentos. El salario neto es lo que realmente llega a tu cuenta después de restar los impuestos sobre la renta y las cotizaciones sociales, que financian cosas como la pensión, la sanidad o el desempleo. La diferencia entre ambos puede ser considerable, así que cuando alguien menciona su sueldo es importante saber si habla en bruto o en neto. Además, al comparar ofertas conviene mirar el paquete completo — número de pagas, bonus, seguro médico, teletrabajo —, no solo la cifra bruta, porque esos extras también forman parte de la compensación real."
+      },
+      {
+        "q": "¿Debería decir mi sueldo a mis amigos?",
+        "a": "No hay obligación, pero compartir información salarial con gente de confianza tiene ventajas reales. El tabú de hablar de sueldos mantiene a la mayoría de la gente sin saber si cobra más o menos que otros por el mismo trabajo, y esa opacidad protege a quien paga, no a quien trabaja. Conocer rangos salariales reales te ayuda a saber si te están pagando justo y a negociar mejor. No tienes que publicar tu nómina en redes, pero hablarlo con amigos cercanos o colegas de confianza es una forma de protegerse mutuamente. La transparencia salarial entre iguales reduce las injusticias de pago."
+      },
+      {
+        "q": "¿Cómo pido un aumento de sueldo?",
+        "a": "Con preparación y sin disculpas. Llega a la conversación con datos sobre cuánto se paga por tu puesto en el mercado, no con una cifra inventada. Habla de valor, no de necesidad: el argumento que funciona es 'esto es lo que aporto', no 'necesito más porque me ha subido el alquiler'. Elige un buen momento, como tras un resultado positivo o al asumir más responsabilidades. Da una cifra concreta y ligeramente alta dentro de lo razonable, porque la primera cifra ancla la negociación. Y recuerda que también se pueden negociar días libres, teletrabajo o formación. Pedir un aumento es una conversación profesional normal, no un atrevimiento."
+      },
+      {
+        "q": "¿Qué es un salario justo?",
+        "a": "Un salario justo combina varios criterios. Debe, como mínimo, permitir vivir con dignidad en el lugar donde trabajas — el llamado salario vital. Debe estar en línea con lo que paga el mercado por ese mismo trabajo y esa experiencia. Debe respetar la equidad interna: dos personas con el mismo puesto y rendimiento deberían cobrar parecido. Y debe guardar relación con el valor que aporta tu trabajo. El problema es que el tabú de hablar de sueldos hace difícil saber si el tuyo es justo según el mercado. Por eso consultar estudios de remuneración del sector y compartir rangos con gente de confianza es tan útil."
+      }
+    ],
+    "related": ["dinero", "ahorro", "alquiler", "pobreza", "herencia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "alquiler",
+    "locale": "es",
+    "keyword": "Alquiler",
+    "matchPatterns": ["alquiler", "alquilar", "renta", "piso", "inquilino", "casero"],
+    "topic": "money",
+    "title": "Alquiler — por qué se lleva medio sueldo y cómo no perder la cabeza",
+    "description": "El alquiler explicado: por qué los precios se han disparado, el debate de alquilar o comprar y cómo sobrevivir y proteger tus derechos como inquilino.",
+    "emoji": "🏠",
+    "intro": "El alquiler se ha convertido, para buena parte de una generación entera, en la mayor angustia económica de su vida. Si hay un tema que une a jóvenes de Madrid, Barcelona, Ciudad de México, Buenos Aires o Lima es la sensación de que el alquiler se lleva una parte cada vez más grande del sueldo y deja cada vez menos margen para todo lo demás. Y no es solo una percepción: en muchas grandes ciudades los precios de los alquileres han crecido mucho más rápido que los salarios durante la última década. La recomendación financiera clásica — que la vivienda no debería superar alrededor del 30 por ciento de tus ingresos — es hoy, en muchas zonas, casi una broma cruel: hay personas que destinan al alquiler la mitad o más de lo que ganan. El alquiler es, en el fondo, pagar por usar algo que no es tuyo, y eso genera un debate eterno con la compra de vivienda. Detrás de la subida de precios hay varios factores que se acumulan: poca oferta de vivienda nueva, el peso de los pisos turísticos en los centros de las ciudades, la concentración de la población en pocas zonas, los salarios estancados y, en algunos sitios, la entrada de grandes fondos que compran edificios enteros. En moomz, las encuestas '¿alquilar o comprar?', '¿cuánto de tu sueldo se va en vivienda?' o '¿te irías a vivir más lejos por pagar menos?' generan reacciones inmediatas, porque la vivienda es donde se concentra hoy buena parte del estrés económico de la gente joven. Entender cómo funciona el alquiler — y conocer tus derechos como inquilino — no resuelve la crisis, pero sí ayuda a tomar mejores decisiones dentro de ella.",
+    "sections": [
+      {
+        "h": "Por qué el alquiler se ha vuelto tan caro",
+        "body": "La subida de los alquileres en las grandes ciudades no tiene una sola causa, sino varias que se refuerzan entre sí. La primera es el desequilibrio entre oferta y demanda: cada vez más gente quiere vivir en unas pocas ciudades concretas, mientras la construcción de vivienda nueva no ha seguido ese ritmo. La segunda es el turismo: en los centros urbanos, una parte del parque de pisos se ha desviado al alquiler turístico de corta duración, que suele ser más rentable para el propietario y reduce la oferta de pisos para vivir todo el año. La tercera es la financiarización de la vivienda: en algunos mercados, grandes fondos de inversión han comprado edificios enteros tratando la vivienda como un activo financiero, lo que presiona los precios al alza. La cuarta es el estancamiento de los salarios: aunque el alquiler subiera 'solo' algo cada año, si los sueldos no suben, el porcentaje del ingreso que se va en vivienda crece de todas formas. Y la quinta es la concentración geográfica del empleo: como el trabajo bien pagado se acumula en unas pocas zonas, la gente compite por vivir cerca. El resultado combinado es un mercado tensionado donde, en muchas ciudades, encontrar piso se ha vuelto una carrera de obstáculos."
+      },
+      {
+        "h": "Alquilar o comprar: el debate eterno",
+        "body": "Alquilar o comprar es una de las grandes decisiones financieras de la vida, y no tiene una respuesta única — depende de muchos factores. A favor de comprar: cada cuota de la hipoteca construye patrimonio propio en lugar de 'pagar a otro', te protege de las subidas de alquiler y te da estabilidad y libertad para reformar. En contra: exige un ahorro inicial grande para la entrada, te ata a un lugar concreto, los gastos de mantenimiento corren de tu cuenta y una hipoteca es un compromiso de décadas. A favor de alquilar: flexibilidad total para cambiar de ciudad o de barrio, sin entrada inicial enorme, sin gastos de mantenimiento estructural y sin asumir el riesgo de que la vivienda pierda valor. En contra: el dinero del alquiler no construye patrimonio y estás expuesto a las subidas de precio y a la inseguridad de que no te renueven. La regla práctica es esta: comprar tiende a compensar si vas a quedarte muchos años en el mismo sitio y tienes estabilidad de ingresos; alquilar tiene sentido si valoras la movilidad, tu situación es incierta o los precios de compra en tu ciudad están desorbitados respecto a los alquileres. No hay una opción 'inteligente' universal: hay la que encaja con tu vida."
+      },
+      {
+        "h": "Sobrevivir al alquiler: derechos y trucos",
+        "body": "Mientras vivas de alquiler, conviene moverte con información en lugar de a ciegas. Primero, conoce tus derechos: en la mayoría de países el contrato de alquiler tiene una duración mínima legal y reglas sobre cuánto y cuándo puede subir el precio el propietario; saber eso evita abusos. Segundo, lee el contrato entero antes de firmar — fíjate en la duración, las condiciones de renovación, la fianza, quién paga qué gastos y las penalizaciones por irse antes. Tercero, documenta el estado del piso al entrar con fotos y vídeos: es la mejor protección para recuperar la fianza al irse. Cuarto, sobre el presupuesto: si el alquiler se come demasiado de tu sueldo, las palancas reales son compartir piso, alejarte un poco del centro o de las zonas más caras, o negociar — sí, el precio del alquiler a veces se negocia, sobre todo en contratos largos o si el piso lleva tiempo vacío. Quinto, evita la trampa de gastar la fianza mentalmente: ese dinero no es tuyo hasta que te lo devuelven. Y sexto, guarda todos los justificantes de pago: ante cualquier conflicto, demostrar que has pagado siempre te coloca en una posición fuerte. El mercado puede ser duro, pero un inquilino informado siempre está más protegido que uno que firma sin leer."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué porcentaje del sueldo es razonable gastar en alquiler?",
+        "a": "La recomendación financiera clásica dice que la vivienda no debería superar alrededor del 30 por ciento de tus ingresos netos, para dejar margen suficiente al resto de gastos y al ahorro. El problema es que en muchas grandes ciudades esa regla se ha vuelto casi imposible de cumplir: hay personas que destinan al alquiler la mitad o más de lo que ganan. Si tu alquiler supera ese 30 por ciento, no significa que hagas algo mal — significa que el mercado está tensionado. Las palancas reales para bajarlo son compartir piso, alejarte de las zonas más caras o intentar negociar el precio."
+      },
+      {
+        "q": "¿Es mejor alquilar o comprar una casa?",
+        "a": "Depende de tu situación, no hay respuesta universal. Comprar tiende a compensar si vas a quedarte muchos años en el mismo sitio, tienes ingresos estables y ahorro para la entrada: cada cuota construye patrimonio propio y te protege de subidas de alquiler. Alquilar tiene sentido si valoras la flexibilidad para cambiar de ciudad, tu situación laboral es incierta o los precios de compra en tu zona están desorbitados respecto a los alquileres: ganas movilidad y no asumes el riesgo de mantenimiento ni de pérdida de valor. La pregunta clave no es cuál es 'más inteligente', sino cuál encaja con tu vida y tus planes."
+      },
+      {
+        "q": "¿Por qué se ha disparado tanto el precio del alquiler?",
+        "a": "Por una combinación de factores que se refuerzan. Hay más gente queriendo vivir en unas pocas ciudades concretas que vivienda nueva construida. En los centros urbanos, parte de los pisos se ha desviado al alquiler turístico de corta duración. En algunos mercados, grandes fondos de inversión han comprado edificios tratando la vivienda como activo financiero. Los salarios llevan años estancados, así que aunque el alquiler subiera poco, el porcentaje del sueldo que se lleva crece igual. Y el empleo bien pagado se concentra en pocas zonas, lo que hace competir por vivir cerca. El resultado es un mercado muy tensionado."
+      },
+      {
+        "q": "¿Se puede negociar el precio del alquiler?",
+        "a": "Sí, más de lo que la gente cree. El precio que aparece en un anuncio no siempre es definitivo, sobre todo si el piso lleva tiempo vacío, si ofreces un contrato largo y estable, o si eres un inquilino con buen perfil — ingresos demostrables y referencias. La clave es negociar con educación y con argumentos: comparar con precios similares de la zona, ofrecer estabilidad o un pago puntual a cambio de una rebaja. También puedes negociar otras cosas además del precio, como pequeñas reformas o quién asume ciertos gastos. Lo peor que puede pasar es un 'no', y eso te deja igual que estabas."
+      }
+    ],
+    "related": ["hipoteca", "dinero", "salario", "ahorro", "lujo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "hipoteca",
+    "locale": "es",
+    "keyword": "Hipoteca",
+    "matchPatterns": ["hipoteca", "hipotecar", "prestamo", "préstamo", "banco", "cuota"],
+    "topic": "money",
+    "title": "Hipoteca — el préstamo más grande de tu vida, explicado",
+    "description": "La hipoteca sin letra pequeña: cómo funciona, fija o variable, qué es el interés, el plazo y el capital y cómo no firmar algo que no entiendes.",
+    "emoji": "🔑",
+    "intro": "La hipoteca es, para la inmensa mayoría de la gente, la mayor cantidad de dinero que pedirá prestada en toda su vida, y a la vez uno de los productos financieros peor entendidos. Pedir una hipoteca significa que un banco te presta una gran suma para comprar una vivienda, y a cambio tú te comprometes a devolverla poco a poco durante muchos años — habitualmente entre veinte y treinta — con intereses. Mientras no termines de pagarla, la propia vivienda funciona como garantía: si dejas de pagar de forma continuada, el banco puede llegar a quedarse con ella. Esa es la parte que mucha gente prefiere no mirar, pero es la esencia del contrato. La palabra hipoteca viene del griego antiguo y significaba algo así como 'lo que está debajo' o 'soporte': un bien que sostiene la promesa de pago. El concepto es viejísimo, pero la hipoteca moderna a largo plazo, accesible a familias normales, se generalizó sobre todo en el siglo XX. Hoy una hipoteca define las finanzas de un hogar durante décadas: la cuota mensual es el gasto fijo más grande, y pequeñas diferencias en el tipo de interés se traducen en miles de euros a lo largo de la vida del préstamo. Por eso firmar una hipoteca sin entenderla de verdad es uno de los errores económicos más caros que se pueden cometer. En moomz, las encuestas '¿hipoteca fija o variable?', '¿te endeudarías 30 años por una casa?' o '¿comprar a los 25 o esperar?' dividen a la gente, porque la hipoteca toca a la vez el dinero, la libertad, la seguridad y los planes de toda una vida.",
+    "sections": [
+      {
+        "h": "Cómo funciona una hipoteca: capital, interés y plazo",
+        "body": "Para entender una hipoteca hay que dominar tres conceptos. El primero es el capital: la cantidad que te presta el banco, que normalmente no cubre el cien por cien del precio de la vivienda — lo habitual es que financie en torno al 80 por ciento y tú tengas que aportar el resto de entrada, más los impuestos y gastos. El segundo es el interés: el precio que cobra el banco por prestarte ese dinero, expresado como un porcentaje anual. El tercero es el plazo: durante cuántos años devolverás el préstamo. Cada mes pagas una cuota que se reparte entre devolver una parte del capital y pagar los intereses. En los sistemas de amortización más comunes, al principio la mayor parte de la cuota se va en intereses y muy poco en capital; con los años, la proporción se invierte. Eso explica algo que sorprende a mucha gente: tras varios años pagando, puedes deber aún casi todo el capital. Dos detalles clave: un plazo más largo baja la cuota mensual pero aumenta mucho el total de intereses pagados; y el tipo de interés es la variable más importante de todas, porque una diferencia de apenas un punto porcentual puede suponer decenas de miles de euros a lo largo de la vida del préstamo."
+      },
+      {
+        "h": "Hipoteca fija o variable: el gran dilema",
+        "body": "Una de las decisiones centrales al pedir una hipoteca es elegir entre tipo fijo y tipo variable, y cada una tiene su lógica. En una hipoteca a tipo fijo, el interés se acuerda al principio y no cambia: pagas la misma cuota durante toda la vida del préstamo. Su gran ventaja es la previsibilidad — sabes exactamente cuánto pagarás dentro de quince años, lo que da tranquilidad y facilita planificar. Su desventaja es que el tipo fijo de partida suele ser algo más alto, y si los tipos generales bajan, tú sigues pagando lo pactado. En una hipoteca a tipo variable, el interés se revisa periódicamente según un índice de referencia que sube y baja con la economía: la cuota puede bajar si los tipos caen, pero también subir, a veces de forma notable, si los tipos suben. Su ventaja es que el tipo de partida suele ser más bajo; su desventaja es la incertidumbre. Existen también las hipotecas mixtas, fijas durante los primeros años y variables después. No hay una opción universalmente mejor: el tipo fijo encaja con quien valora la seguridad y no quiere sustos en la cuota; el variable, con quien puede asumir oscilaciones y apuesta por escenarios de tipos bajos. La clave es elegir según tu tolerancia al riesgo, no según lo que esté de moda."
+      },
+      {
+        "h": "Antes de firmar: lo que tienes que mirar",
+        "body": "Firmar una hipoteca es comprometerse durante décadas, así que conviene hacerlo con los ojos muy abiertos. Primero, calcula el esfuerzo real: una recomendación prudente es que la cuota mensual no supere alrededor de un tercio de tus ingresos netos, dejando margen para imprevistos. Segundo, no olvides los gastos de compra: además de la entrada, comprar vivienda implica impuestos, notaría, registro y tasación, que pueden sumar un porcentaje nada despreciable del precio. Tercero, compara ofertas de varios bancos: no solo el tipo de interés, sino las comisiones de apertura, los productos vinculados que te piden contratar — seguros, tarjetas — y las condiciones de amortización anticipada. Cuarto, fíjate en el TAE, un indicador que incluye el interés más los costes asociados y permite comparar hipotecas de forma más realista que el tipo a secas. Quinto, hazte la pregunta incómoda: '¿podría seguir pagando esta cuota si subiera el tipo de interés, si perdiera parte de mis ingresos o si llegara un gasto grande imprevisto?'. Una hipoteca cómoda hoy puede volverse asfixiante si las circunstancias cambian. Y sexto, no firmes nada que no entiendas: si una cláusula no te queda clara, pregunta hasta entenderla o busca asesoramiento independiente. La letra pequeña de una hipoteca es donde se esconden los problemas más caros."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es mejor, una hipoteca fija o variable?",
+        "a": "Depende de tu tolerancia al riesgo, no hay una opción universalmente mejor. La hipoteca a tipo fijo mantiene la misma cuota durante toda la vida del préstamo: da total previsibilidad y tranquilidad, aunque suele partir de un interés algo más alto. La variable tiene un interés que se revisa periódicamente según un índice: la cuota puede bajar pero también subir, a veces de forma notable. El fijo encaja con quien valora la seguridad y no quiere sustos; el variable, con quien puede asumir oscilaciones en la cuota. También existen las mixtas, fijas los primeros años y variables después. Elige según tu situación, no según lo que esté de moda."
+      },
+      {
+        "q": "¿Cuánto dinero hace falta ahorrado para pedir una hipoteca?",
+        "a": "Bastante más de lo que mucha gente piensa. Los bancos no suelen financiar el cien por cien del precio de la vivienda; lo habitual es que cubran en torno al 80 por ciento, así que necesitas tener ahorrado al menos el 20 por ciento restante como entrada. Y a eso hay que sumar los gastos de compra — impuestos, notaría, registro y tasación —, que añaden un porcentaje nada despreciable. En la práctica, conviene llegar con un ahorro cercano al 30 por ciento del precio de la vivienda. Por eso reunir la entrada es, para mucha gente, el mayor obstáculo para comprar."
+      },
+      {
+        "q": "¿Por qué al principio de la hipoteca casi no baja la deuda?",
+        "a": "Por cómo funciona la amortización. Cada cuota mensual se reparte entre devolver una parte del capital prestado y pagar intereses. En los sistemas de amortización más comunes, al principio la mayor parte de la cuota se va en intereses y muy poca en capital; con los años, esa proporción se invierte. Por eso sorprende ver que, tras varios años pagando, todavía debes casi todo el capital. También explica por qué un plazo más largo reduce la cuota mensual pero dispara el total de intereses que acabas pagando: cuanto más tiempo, más intereses se acumulan."
+      },
+      {
+        "q": "¿Es buena idea endeudarse 30 años por una casa?",
+        "a": "No hay una respuesta única. Una hipoteca larga tiene una lógica: convierte un gasto imposible de afrontar de golpe en cuotas asumibles, y al terminar te quedas con un bien propio en lugar de haber pagado alquiler 'a fondo perdido'. Pero también es un compromiso enorme que te ata a una situación durante décadas. La pregunta clave antes de firmar es si podrías seguir pagando la cuota si subiera el tipo de interés, si perdieras parte de tus ingresos o si llegara un gasto grande imprevisto. Si la respuesta es sí con margen, la hipoteca es razonable; si te deja al límite, conviene replantearla."
+      }
+    ],
+    "related": ["alquiler", "dinero", "ahorro", "salario", "herencia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ahorro",
+    "locale": "es",
+    "keyword": "Ahorro",
+    "matchPatterns": ["ahorro", "ahorrar", "guardar dinero", "presupuesto", "gastar"],
+    "topic": "money",
+    "title": "Ahorro — por qué cuesta tanto y cómo conseguirlo de verdad",
+    "description": "El ahorro explicado sin culpa: por qué nos cuesta tanto guardar dinero, qué es el interés compuesto y los trucos de ahorro que de verdad funcionan.",
+    "emoji": "🐷",
+    "intro": "Ahorrar es una de esas cosas que todo el mundo sabe que debería hacer y casi nadie consigue hacer tan bien como quisiera. La razón no es que la gente sea perezosa o irresponsable: es que el cerebro humano está diseñado para priorizar el presente sobre el futuro. Durante casi toda la historia de nuestra especie, garantizar la comida y la seguridad de hoy era mucho más urgente que preparar un 'mañana' lejano e incierto. Los psicólogos llaman a esto sesgo del presente: valoramos mucho más una recompensa inmediata que una mayor pero futura. Por eso gastar se siente fácil y placentero, mientras que ahorrar se siente como una renuncia. Ahorrar es, en el fondo, mandarle dinero a tu yo del futuro, y el problema es que tu yo del futuro te parece casi un desconocido. A esto se suman obstáculos reales y materiales: en muchos casos, sobre todo entre la gente joven, no se ahorra simplemente porque después de pagar el alquiler y lo básico no queda margen — y ahí el problema no es de disciplina, es de ingresos o de coste de la vida. Pero también es cierto que mucha gente con margen suficiente no consigue ahorrar por falta de método, por gastos en piloto automático o por no haberse planteado nunca cómo hacerlo. En moomz, las encuestas '¿eres team ahorrar o team gastar?', '¿tienes un colchón de emergencia?' o '¿guardarías un dinero extra o te darías un capricho?' enganchan al instante, porque el ahorro toca la tensión más universal con el dinero: la batalla entre el placer de ahora y la seguridad de después. La buena noticia es que ahorrar es, en gran parte, una habilidad que se entrena.",
+    "sections": [
+      {
+        "h": "Por qué nos cuesta tanto ahorrar",
+        "body": "Ahorrar va contra varios cables del cerebro a la vez. El primero es el ya mencionado sesgo del presente: una recompensa inmediata pesa más que una mayor pero futura, así que gastar hoy siempre tiene ventaja sobre guardar para mañana. El segundo es que el dinero ahorrado es invisible y abstracto, mientras que la compra es concreta y tangible — un capricho lo disfrutas ya, el ahorro es solo un número que no notas. El tercero es la inflación lifestyle: cuando suben los ingresos, suben también los gastos casi en automático, así que mucha gente que gana más sigue sin ahorrar más. El cuarto es el entorno: vivimos rodeados de estímulos diseñados para que compres — publicidad personalizada, compras a un clic, pagos sin fricción que hacen que gastar ni se sienta. Y el quinto, muy real, es estructural: para una parte de la población, sobre todo joven, simplemente no queda margen tras cubrir lo básico. Conviene separar estos dos casos. Si no ahorras porque no llegas, el problema es de ingresos o de coste de la vida y la solución pasa por ahí, no por culparte. Si no ahorras teniendo margen, entonces sí hay método y hábitos que pueden cambiar las cosas — y reconocer en cuál de los dos casos estás es el primer paso honesto."
+      },
+      {
+        "h": "El interés compuesto: la octava maravilla",
+        "body": "Si hay un solo concepto financiero que merece la pena entender, es el interés compuesto. La idea es simple: cuando ahorras o inviertes dinero y genera un rendimiento, ese rendimiento se suma a tu capital, y al periodo siguiente generas rendimiento también sobre lo ganado antes. Es decir, los intereses generan intereses. A corto plazo el efecto parece pequeño y poco emocionante. A largo plazo es espectacular, porque el crecimiento no es una línea recta, es una curva que se acelera. Esto tiene una consecuencia práctica enorme: el factor más poderoso del ahorro a largo plazo no es la cantidad que guardas, es el tiempo durante el que lo dejas crecer. Empezar a ahorrar pequeñas cantidades pronto puede superar con creces a empezar tarde con cantidades grandes, precisamente porque el dinero ha tenido más años para componerse. El reverso oscuro del interés compuesto es la deuda: las deudas de consumo con intereses altos, como las de algunas tarjetas de crédito, también se componen, pero en tu contra — lo que debes crece solo si no lo pagas. La regla práctica que se deriva de todo esto es doble: empieza a ahorrar lo antes posible, aunque sean cantidades modestas, y evita o liquida cuanto antes las deudas caras, porque el interés compuesto es un aliado formidable o un enemigo implacable según de qué lado lo tengas."
+      },
+      {
+        "h": "Trucos de ahorro que sí funcionan",
+        "body": "El ahorro funciona mucho mejor con sistemas que con fuerza de voluntad, porque la fuerza de voluntad se agota. Algunas estrategias respaldadas por la psicología y la experiencia. Primero, págate a ti mismo primero: en cuanto cobras, aparta una cantidad para el ahorro antes de gastar nada, en lugar de intentar ahorrar lo que sobre a fin de mes — porque casi nunca sobra. Segundo, automatízalo: programa una transferencia automática a una cuenta de ahorro el mismo día que cobras, para que el ahorro ocurra sin que tengas que decidirlo cada vez. Tercero, ponle nombre y meta a tu ahorro: ahorrar 'para un viaje' o 'para el colchón de emergencia' funciona mucho mejor que ahorrar 'porque sí', porque una meta concreta motiva. Cuarto, prioriza el colchón de emergencia: tener guardado el equivalente a entre tres y seis meses de gastos es la base de toda tranquilidad financiera, porque convierte una crisis en un susto. Quinto, registra tus gastos durante un mes: casi siempre aparecen fugas invisibles — suscripciones olvidadas, micro-gastos diarios — que sumadas son mucho dinero. Sexto, aplica una pausa a las compras grandes: esperar 24 o 48 horas antes de comprar algo no esencial filtra muchos impulsos. Y séptimo, no busques la perfección: un ahorro pequeño y constante vale más que un plan ambicioso que abandonas en dos semanas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dinero debería tener ahorrado?",
+        "a": "La referencia más útil es el llamado colchón o fondo de emergencia: tener guardado el equivalente a entre tres y seis meses de tus gastos habituales. Ese colchón es la base de la tranquilidad financiera, porque convierte una emergencia — quedarte sin trabajo, una avería grande, un imprevisto de salud — en un susto manejable en lugar de en una crisis. Una vez tienes ese colchón, lo razonable es seguir ahorrando para metas concretas a medio y largo plazo. La cifra exacta depende de tus gastos y de la estabilidad de tus ingresos: cuanto más inestables, más colchón conviene tener."
+      },
+      {
+        "q": "¿Por qué me cuesta tanto ahorrar?",
+        "a": "Por una mezcla de biología y entorno. El cerebro humano tiene un 'sesgo del presente': valora más una recompensa inmediata que una mayor pero futura, así que gastar hoy siempre tiene ventaja sobre ahorrar para mañana. Además vivimos rodeados de estímulos diseñados para que compres y de pagos sin fricción que hacen que gastar ni se note. Pero conviene distinguir: si no ahorras porque después del alquiler y lo básico no te queda margen, el problema es de ingresos o de coste de la vida, no de disciplina. Si tienes margen y aun así no ahorras, ahí sí ayudan los métodos y los hábitos."
+      },
+      {
+        "q": "¿Qué es el interés compuesto y por qué importa tanto?",
+        "a": "El interés compuesto es el efecto de que los rendimientos de tu dinero generen a su vez más rendimientos: los intereses producen intereses. A corto plazo apenas se nota, pero a largo plazo el crecimiento se acelera de forma espectacular. La consecuencia práctica clave es que el tiempo importa más que la cantidad: empezar a ahorrar pronto, aunque sean cantidades pequeñas, puede superar a empezar tarde con cantidades grandes. El reverso es que la deuda cara también se compone, pero en tu contra. Por eso conviene empezar a ahorrar lo antes posible y liquidar pronto las deudas con intereses altos."
+      },
+      {
+        "q": "¿Cuál es el mejor truco para ahorrar de verdad?",
+        "a": "El más eficaz es 'pagarte a ti mismo primero': en cuanto cobras, aparta una cantidad para el ahorro antes de gastar nada, en lugar de intentar ahorrar lo que sobre a fin de mes — porque casi nunca sobra. Y para que funcione de verdad, automatízalo: programa una transferencia automática a una cuenta de ahorro el mismo día que cobras, para que el ahorro ocurra sin que tengas que decidirlo. El ahorro funciona mejor con sistemas que con fuerza de voluntad. Añade una meta concreta para motivarte y registra tus gastos un mes para detectar fugas invisibles."
+      }
+    ],
+    "related": ["dinero", "salario", "bolsa", "bitcoin", "pobreza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bolsa",
+    "locale": "es",
+    "keyword": "Bolsa",
+    "matchPatterns": ["bolsa", "invertir", "accion", "acción", "acciones", "inversion"],
+    "topic": "money",
+    "title": "Bolsa — invertir sin que parezca un casino",
+    "description": "La bolsa explicada para principiantes: qué es una acción, por qué sube y baja, invertir contra especular y cómo invertir sin perder la cabeza.",
+    "emoji": "📈",
+    "intro": "La bolsa tiene mala fama, y en parte es culpa de cómo se la suele contar. Para mucha gente, 'la bolsa' es una mezcla confusa de gráficos rojos y verdes, hombres gritando en una sala, gente que se hace rica de la noche a la mañana y otra que lo pierde todo. Esa imagen es más cine que realidad. La bolsa, en su esencia, es algo bastante razonable: un mercado donde se compran y venden participaciones de empresas. Cuando compras una acción, estás comprando una pequeñísima parte de una empresa real — te conviertes, literalmente, en copropietario de un trocito de ella. Si la empresa va bien y vale más con el tiempo, tu parte vale más; si va mal, vale menos. Las empresas usan la bolsa para conseguir dinero con el que crecer, y los ahorradores la usan para que su dinero participe de ese crecimiento. La primera bolsa moderna se considera que fue la de Ámsterdam, a comienzos del siglo XVII, ligada a la Compañía Holandesa de las Indias Orientales. La gran confusión moderna es mezclar dos cosas muy distintas: invertir y especular. Invertir es poner dinero en empresas o índices con un horizonte de años, apostando a que la economía y las empresas crecen con el tiempo. Especular es intentar adivinar movimientos de corto plazo para comprar barato y vender caro rápido — eso sí se parece más a un casino, y la mayoría de quienes lo intentan pierden. En moomz, las encuestas '¿invertirías en bolsa o lo dejarías en el banco?', '¿la bolsa es ahorro o casino?' o '¿meterías dinero en algo que puede bajar?' generan debate, porque la bolsa toca el miedo a perder y la ilusión de hacer crecer el dinero a la vez.",
+    "sections": [
+      {
+        "h": "Qué es una acción y por qué sube y baja",
+        "body": "Una acción es una participación en la propiedad de una empresa. Si una empresa se divide en, digamos, un millón de acciones y tú tienes una, posees una millonésima parte de esa empresa: de sus fábricas, su marca, sus beneficios futuros. El precio de una acción sube y baja por una razón fundamental: refleja, en cada momento, lo que el conjunto del mercado cree que vale esa empresa. Y esa creencia colectiva cambia constantemente con las noticias — resultados de la empresa, expectativas de crecimiento, la situación de la economía, los tipos de interés, el estado de ánimo general de los inversores. Por eso los precios oscilan todos los días: no es que la empresa cambie de valor real cada hora, es que cambia la opinión sobre ella. A corto plazo, esos movimientos son en gran parte ruido impredecible — ni los profesionales aciertan de forma fiable qué hará una acción mañana. A largo plazo, en cambio, el precio tiende a seguir el destino real del negocio: si una empresa gana cada vez más dinero durante años, su acción suele subir; si entra en declive, baja. Entender esa diferencia entre el ruido del corto plazo y la tendencia del largo plazo es el primer paso para no vivir la bolsa como una montaña rusa emocional."
+      },
+      {
+        "h": "Invertir contra especular: la diferencia que lo cambia todo",
+        "body": "Confundir invertir con especular es el error que arruina la experiencia bursátil de mucha gente. Especular es intentar ganar dinero adivinando movimientos de corto plazo: comprar hoy para vender en unos días o semanas con beneficio. El problema es que el corto plazo es básicamente impredecible, así que especular se parece mucho a apostar — y, como en el casino, la mayoría de quienes lo intentan, sobre todo los aficionados, pierden dinero o rinden peor que si no hicieran nada. Invertir es otra cosa: es poner dinero en empresas o en el mercado en su conjunto con un horizonte de muchos años, asumiendo que habrá subidas y bajadas por el camino, pero apostando a que la economía y las empresas crecen a largo plazo. Históricamente, los grandes mercados bursátiles han tendido a subir a lo largo de décadas, a pesar de crisis, caídas y pánicos puntuales. Una de las ideas más respaldadas por la evidencia es que, para la mayoría de la gente, invertir de forma sencilla, diversificada y a largo plazo — en lugar de comprar y vender constantemente intentando ser más listo que el mercado — tiende a dar mejores resultados. Lo aburrido, en bolsa, suele funcionar mejor que lo emocionante."
+      },
+      {
+        "h": "Reglas básicas para no perder la cabeza",
+        "body": "Si decides acercarte a la bolsa, hay principios sencillos que reducen mucho el riesgo de cometer errores caros. Primero, antes de invertir nada, ten cubierto lo básico: deudas caras pagadas y un colchón de emergencia hecho. La bolsa es para dinero que no vas a necesitar a corto plazo. Segundo, no inviertas dinero que necesites pronto: el mercado puede caer justo cuando necesites sacarlo, así que la bolsa tiene sentido con horizontes de varios años como mínimo. Tercero, diversifica: no concentres todo en una sola empresa, por muy buena que parezca; repartir el dinero entre muchas empresas reduce el daño si una se hunde. Cuarto, desconfía de las promesas de ganancias rápidas y seguras: en finanzas, más rentabilidad casi siempre significa más riesgo, y quien te promete mucho sin riesgo te está engañando. Quinto, cuidado con la euforia y el pánico: la gente tiende a comprar cuando todo sube por miedo a perderse la fiesta y a vender cuando todo baja por miedo — y eso es comprar caro y vender barato, justo lo contrario de lo sensato. Sexto, entiende lo que compras: no inviertas en algo solo porque está de moda o porque lo recomienda alguien en redes. Y séptimo, ten paciencia: la bolsa premia el tiempo y castiga la impaciencia. Invertir bien es, en gran parte, aburrirse a propósito."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es exactamente una acción de bolsa?",
+        "a": "Una acción es una participación en la propiedad de una empresa. Cuando compras una acción te conviertes, literalmente, en copropietario de un trocito de esa empresa: de sus activos, su marca y sus beneficios futuros. Las empresas emiten acciones para conseguir dinero con el que crecer, y los ahorradores las compran para que su dinero participe de ese crecimiento. El precio de una acción sube y baja porque refleja, en cada momento, lo que el conjunto del mercado cree que vale esa empresa, y esa opinión colectiva cambia constantemente con las noticias y las expectativas."
+      },
+      {
+        "q": "¿Invertir en bolsa es como apostar en un casino?",
+        "a": "Depende de cómo lo hagas. Especular — intentar adivinar movimientos de corto plazo para comprar barato y vender caro rápido — sí se parece a apostar, porque el corto plazo es impredecible y la mayoría de los aficionados que lo intentan pierden. Invertir es distinto: es poner dinero en empresas o en el mercado en su conjunto con un horizonte de muchos años, asumiendo subidas y bajadas pero apostando a que la economía crece a largo plazo. Históricamente, los grandes mercados han tendido a subir a lo largo de décadas. Invertir de forma diversificada y paciente no es un casino; especular a corto plazo, casi sí."
+      },
+      {
+        "q": "¿Cuánto dinero hace falta para empezar a invertir?",
+        "a": "Hoy se puede empezar con cantidades pequeñas, pero antes de invertir un solo euro conviene tener resuelto lo básico: las deudas caras pagadas y un colchón de emergencia equivalente a varios meses de gastos. La bolsa es para dinero que no vas a necesitar a corto plazo, porque el mercado puede caer justo cuando lo necesites. Más importante que la cantidad inicial es la regularidad y el horizonte temporal: invertir cantidades modestas de forma constante durante muchos años aprovecha el efecto del tiempo. No inviertas dinero destinado a gastos cercanos ni dinero que no puedas permitirte ver caer temporalmente."
+      },
+      {
+        "q": "¿Por qué la gente pierde dinero en bolsa?",
+        "a": "Por varios errores muy repetidos. El más común es dejarse llevar por la emoción: comprar cuando todo sube, por miedo a perderse la fiesta, y vender cuando todo baja, por pánico — es decir, comprar caro y vender barato, lo contrario de lo sensato. Otro error es especular a corto plazo, algo casi impredecible donde la mayoría de aficionados pierde. También perjudica concentrar todo el dinero en una sola empresa, invertir en cosas de moda sin entenderlas y creer promesas de ganancias rápidas y seguras. Invertir bien suele ser aburrido: diversificar, tener paciencia y no intentar ser más listo que el mercado."
+      }
+    ],
+    "related": ["bitcoin", "ahorro", "dinero", "lujo", "loteria"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bitcoin",
+    "locale": "es",
+    "keyword": "Bitcoin",
+    "matchPatterns": ["bitcoin", "cripto", "criptomoneda", "blockchain", "satoshi"],
+    "topic": "money",
+    "title": "Bitcoin — qué es de verdad y por qué divide tanto",
+    "description": "Bitcoin explicado claro: de dónde salió en 2009, cómo funciona la blockchain, por qué su precio sube tanto y por qué genera tanto debate.",
+    "emoji": "₿",
+    "intro": "Bitcoin es uno de los inventos más comentados, peor entendidos y más polarizantes de las últimas dos décadas. Para unos es el futuro del dinero y una revolución de la libertad financiera; para otros, una burbuja especulativa, un derroche energético o directamente una estafa. La verdad, como casi siempre, es más matizada y vale la pena conocerla. Bitcoin nació en 2009, en plena resaca de la crisis financiera global de 2008, creado por una persona o grupo bajo el seudónimo de Satoshi Nakamoto, cuya identidad real sigue siendo un misterio hasta hoy. La idea era radical: crear una forma de dinero digital que funcionara sin bancos ni gobiernos, mantenida por una red de ordenadores repartidos por todo el mundo. Para entenderlo hay que separar tres cosas que la gente suele mezclar. La primera es la tecnología que hay debajo, la blockchain o cadena de bloques: un registro de transacciones compartido por miles de ordenadores, que nadie controla en solitario y que es muy difícil de falsificar. La segunda es bitcoin como activo: una cosa que se compra, se guarda y cuyo precio sube y baja, a veces de forma brutal. La tercera es la promesa ideológica: la idea de un dinero descentralizado, con una cantidad máxima fija de unidades, fuera del control de cualquier Estado. En moomz, las encuestas '¿bitcoin es el futuro o una burbuja?', '¿meterías dinero en cripto?' o '¿confías más en un banco o en bitcoin?' encienden los debates, porque bitcoin junta dos cosas muy emocionales: el dinero y la fe en quién debe controlarlo.",
+    "sections": [
+      {
+        "h": "Cómo funciona bitcoin sin que te explote la cabeza",
+        "body": "Lo más útil para entender bitcoin es la idea de un libro de cuentas público compartido. Imagina un cuaderno gigante donde se anota cada transacción que se hace con bitcoin, y que en lugar de estar guardado en un banco está copiado en miles de ordenadores repartidos por el mundo. Cuando alguien envía bitcoin a otra persona, esa operación se anota en ese cuaderno, y la red entera verifica que es legítima. Como no hay una sola copia que falsificar sino miles que tienen que coincidir, manipular el registro es enormemente difícil. Ese cuaderno compartido es la blockchain. La emisión de nuevos bitcoins se hace mediante un proceso llamado minería: ordenadores compiten resolviendo problemas matemáticos y, a cambio, reciben bitcoins nuevos — este proceso es el que consume mucha energía y genera críticas medioambientales. Un rasgo central del diseño es la escasez programada: el código de bitcoin establece que solo existirán 21 millones de unidades como máximo, nunca más. Esa limitación es deliberada: a diferencia del dinero tradicional, que los bancos centrales pueden emitir en mayor cantidad, bitcoin no se puede 'imprimir'. Sus defensores ven en esa escasez una virtud, una protección frente a la pérdida de valor; sus críticos responden que la escasez por sí sola no garantiza que algo tenga valor estable."
+      },
+      {
+        "h": "Por qué el precio sube y baja tanto",
+        "body": "Si algo caracteriza a bitcoin es la volatilidad: su precio puede multiplicarse o desplomarse en cuestión de meses, e incluso de días. Esto contrasta con una moneda tradicional, cuyo valor se mantiene relativamente estable de un día para otro. Hay varias razones para esa montaña rusa. La primera es que el precio de bitcoin depende casi enteramente de lo que la gente esté dispuesta a pagar por él: no genera beneficios como una empresa, así que su valor es, en gran medida, una cuestión de expectativas, confianza y emoción colectiva. La segunda es que el mercado de cripto está fuertemente influido por la euforia y el pánico: cuando el precio sube, mucha gente compra por miedo a quedarse fuera, lo que empuja el precio más arriba; cuando cae, el pánico provoca ventas que aceleran el desplome. La tercera es la sensibilidad a las noticias: regulaciones de los gobiernos, declaraciones de personajes influyentes o problemas en grandes plataformas pueden mover el precio con violencia. La cuarta es que sigue siendo un mercado relativamente joven y especulativo. Esta volatilidad extrema tiene una consecuencia práctica que conviene tener muy clara: bitcoin puede dar grandes ganancias, pero también grandes pérdidas, y nadie — por mucho que lo afirme — puede predecir de forma fiable hacia dónde irá su precio."
+      },
+      {
+        "h": "El gran debate: ¿revolución o burbuja?",
+        "body": "Bitcoin divide a gente inteligente y bien informada, y conviene conocer los dos lados sin caer en el fanatismo de ninguno. Quienes lo defienden destacan varias cosas: es un sistema que funciona sin necesidad de confiar en bancos ni gobiernos, ofrece una forma de mover dinero a través de fronteras sin intermediarios, tiene una emisión limitada que lo protege de la creación ilimitada de dinero, y puede ser útil en países con monedas inestables o con sistemas financieros poco accesibles. Quienes lo critican señalan otras: su precio es tan volátil que funciona mal como 'dinero' para el día a día, la minería consume cantidades enormes de energía, el sector está plagado de estafas y plataformas que han quebrado llevándose el dinero de los usuarios, y su valor depende por completo de que otros sigan creyendo en él, lo que para los escépticos lo acerca a una burbuja. La postura más sensata para la mayoría de la gente no es ni el entusiasmo ciego ni el rechazo total, sino la prudencia informada: entender qué es antes de tocarlo, no invertir más de lo que se pueda permitir perder por completo, desconfiar de cualquiera que prometa ganancias seguras y rápidas, y recordar que detrás del ruido hay tanto tecnología real como mucho marketing y especulación."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es bitcoin en palabras simples?",
+        "a": "Bitcoin es una forma de dinero digital que funciona sin bancos ni gobiernos, mantenida por una red de ordenadores repartidos por el mundo. Nació en 2009, creado por una persona o grupo bajo el seudónimo de Satoshi Nakamoto, cuya identidad real sigue siendo desconocida. Funciona gracias a la blockchain, una especie de libro de cuentas público copiado en miles de ordenadores, lo que hace muy difícil falsificarlo. Una característica clave es que solo existirán 21 millones de bitcoins como máximo: a diferencia del dinero tradicional, no se puede 'imprimir' más."
+      },
+      {
+        "q": "¿Por qué el precio de bitcoin sube y baja tanto?",
+        "a": "Porque su precio depende casi enteramente de lo que la gente esté dispuesta a pagar por él. Bitcoin no genera beneficios como una empresa, así que su valor es sobre todo una cuestión de expectativas, confianza y emoción colectiva. Cuando sube, mucha gente compra por miedo a quedarse fuera, lo que lo empuja más arriba; cuando baja, el pánico provoca ventas que aceleran la caída. Además es muy sensible a las noticias — regulaciones, declaraciones de personajes influyentes, problemas en plataformas — y sigue siendo un mercado joven y especulativo. Nadie puede predecir de forma fiable hacia dónde irá."
+      },
+      {
+        "q": "¿Es seguro invertir en bitcoin?",
+        "a": "Bitcoin conlleva un riesgo alto y conviene saberlo antes de tocarlo. Su precio es extremadamente volátil: puede multiplicarse o desplomarse en pocos meses, así que puede dar grandes ganancias pero también grandes pérdidas. Además, el sector cripto está plagado de estafas y de plataformas que han quebrado llevándose el dinero de los usuarios. La regla prudente, si decides acercarte, es no invertir más de lo que puedas permitirte perder por completo, tener antes cubierto lo básico — deudas pagadas y colchón de emergencia — y desconfiar de cualquiera que prometa ganancias seguras y rápidas. No es un sitio para meter dinero que necesitas."
+      },
+      {
+        "q": "¿Bitcoin es el futuro del dinero o una burbuja?",
+        "a": "Es un debate genuino que divide a gente inteligente, y la respuesta honesta es que no se sabe. Sus defensores destacan que funciona sin bancos ni gobiernos, permite mover dinero entre fronteras y tiene emisión limitada. Sus críticos señalan que su precio es demasiado volátil para funcionar como dinero cotidiano, que la minería gasta mucha energía, que el sector está lleno de estafas y que su valor depende por completo de que otros sigan creyendo en él. La postura más sensata no es el entusiasmo ciego ni el rechazo total, sino la prudencia: entenderlo bien y no arriesgar dinero que no puedas perder."
+      }
+    ],
+    "related": ["bolsa", "ahorro", "dinero", "lujo", "loteria"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "lujo",
+    "locale": "es",
+    "keyword": "Lujo",
+    "matchPatterns": ["lujo", "lujoso", "marca", "caro", "exclusivo", "ostentar"],
+    "topic": "money",
+    "title": "Lujo — por qué pagamos de más y qué compramos de verdad",
+    "description": "El lujo explicado: por qué una marca cuesta diez veces más, qué es comprar estatus, la mirada de los demás y cuándo lo caro vale la pena de verdad.",
+    "emoji": "💎",
+    "intro": "El lujo es un fenómeno fascinante porque desafía la lógica económica más básica: a veces, cuanto más caro es algo, más gente lo quiere. En la mayoría de los productos, subir el precio reduce las ventas. En el lujo ocurre lo contrario con frecuencia — el precio alto no es un obstáculo, es parte del atractivo. Eso solo tiene sentido si entendemos que cuando compramos lujo no estamos pagando solo por un objeto, sino por lo que ese objeto significa y comunica. Un bolso de marca, un coche de gama alta, un reloj caro o una botella de champán de prestigio cumplen una función material, pero su precio no se explica por el coste de fabricarlos: se explica por la marca, la historia, la exclusividad y el estatus que transmiten. El lujo, en el fondo, es comunicación: una forma de enviar señales sobre quién somos o quién queremos parecer. Esto no es nuevo. En casi todas las sociedades de la historia, ciertos objetos, materiales o vestimentas han servido para marcar posición social — hubo épocas en que las leyes incluso prohibían a la gente común usar ciertos colores o telas reservados a la élite. Lo que ha cambiado es la escala: hoy existe una enorme industria global del lujo, y a la vez una cultura de marcas accesibles, imitaciones y 'lujo democrático' que vuelve el tema más confuso. En moomz, las encuestas '¿pagarías el triple por una marca?', '¿el lujo es inteligencia o postureo?' o '¿prefieres calidad sin logo o logo sin calidad?' generan debate, porque el lujo toca algo incómodo y universal: cuánto de lo que compramos es para nosotros y cuánto es para la mirada de los demás.",
+    "sections": [
+      {
+        "h": "Por qué lo caro a veces se desea más",
+        "body": "Que un precio alto aumente el deseo en lugar de reducirlo es uno de los fenómenos más curiosos del consumo, y tiene varias explicaciones. La primera es la señalización: un objeto caro funciona como una prueba visible de capacidad económica — comprarlo es una forma de comunicar estatus, y para que esa señal funcione tiene que ser difícil de imitar, es decir, cara. La segunda es la exclusividad: el lujo se basa en parte en que no todo el mundo puede tenerlo; si algo fuera barato y universal, dejaría de cumplir su función distintiva. La escasez, real o fabricada — ediciones limitadas, listas de espera —, alimenta el deseo. La tercera es la heurística precio-calidad: el cerebro tiende a asumir, como atajo, que lo más caro es mejor, y esa creencia puede llegar a alterar la experiencia real — estudios han mostrado que la gente disfruta más de un vino si cree que es caro, aunque sea el mismo vino. La cuarta es la identidad: las marcas de lujo venden relatos, y comprar una marca es, en parte, comprar pertenencia a la idea que representa. Entender estos mecanismos no significa que el lujo sea 'malo': significa que cuando pagamos un precio alto conviene saber qué parte estamos pagando por el objeto en sí y qué parte por el significado."
+      },
+      {
+        "h": "Lujo, estatus y la mirada de los demás",
+        "body": "Buena parte del lujo se entiende mejor a través del concepto de consumo ostensible, una idea que el economista Thorstein Veblen describió ya a finales del siglo XIX: la práctica de gastar de forma visible precisamente para mostrar a los demás la propia posición social. Bajo esta lógica, el valor de ciertos productos no está tanto en su utilidad como en su capacidad de ser exhibidos. Esto explica por qué muchos artículos de lujo llevan logos grandes y reconocibles: el logo es el mensaje. Pero aquí aparece una tensión cultural interesante. Existe también un lujo opuesto, a veces llamado 'discreto' o 'silencioso': prendas y objetos de altísima calidad y precio, pero sin logos visibles, reconocibles solo por quien sabe. Ese lujo discreto comunica un estatus distinto — el de quien no necesita demostrar nada al ojo no entrenado. La psicología detrás del estatus es delicada: comprar para impresionar a los demás suele dar una satisfacción intensa pero corta, porque el efecto se desgasta y siempre aparece algo más nuevo o más caro. Es lo que se conoce como la cinta de correr hedónica: la novedad emociona, luego se normaliza, y vuelve la necesidad de más. Por eso el consumo de estatus rara vez sacia de verdad: persigue una meta que se mueve."
+      },
+      {
+        "h": "¿Cuándo merece la pena pagar más?",
+        "body": "Criticar el lujo en bloque sería injusto, porque no todo precio alto es humo. La clave está en distinguir entre pagar por valor real y pagar por señal. Pagar más merece la pena cuando obtienes una mejora tangible que vas a disfrutar: mayor durabilidad — un objeto bien hecho que dura años puede salir más barato que reponer varios baratos —, mejores materiales, una experiencia sensorial superior, un servicio o garantía mejores, o algo que usas a diario y donde la calidad se nota de verdad. Pagar más NO merece tanto la pena cuando lo único que añade el precio es el logo, el envoltorio o la fantasía de marca, sin diferencia real en lo que el producto hace por ti. Una pregunta práctica y honesta antes de una compra cara: '¿pagaría este precio si nadie más fuera a verlo nunca?'. Si la respuesta es sí, probablemente compras por valor; si la respuesta es no, estás pagando sobre todo por la mirada ajena, y eso es legítimo pero conviene saberlo. Otra idea útil: invertir en calidad tiene más sentido en lo que usas mucho y a largo plazo, y menos en lo que es pasajero o de moda fugaz. El lujo bien entendido no es gastar mucho ni gastar poco — es saber exactamente qué estás comprando."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué las marcas de lujo son tan caras?",
+        "a": "Porque su precio no se explica por el coste de fabricación, sino por lo que la marca representa. Cuando compras lujo pagas sobre todo por la marca, la historia, la exclusividad y el estatus que transmite el objeto. El precio alto es, de hecho, parte del producto: funciona como una señal visible de capacidad económica, y para que esa señal sirva tiene que ser difícil de imitar, es decir, cara. La exclusividad también alimenta el precio: si algo fuera barato y universal, dejaría de cumplir su función distintiva. Pagas el objeto, pero sobre todo pagas su significado."
+      },
+      {
+        "q": "¿Comprar lujo es una tontería o tiene sentido?",
+        "a": "Ni una cosa ni la otra de forma absoluta: depende de qué estés comprando. Pagar más tiene sentido cuando obtienes una mejora real que vas a disfrutar — mayor durabilidad, mejores materiales, una experiencia superior, algo que usas a diario donde la calidad se nota. Tiene menos sentido cuando lo único que añade el precio es el logo y la fantasía de marca, sin diferencia real en lo que el producto hace. Una buena pregunta antes de comprar algo caro es: '¿pagaría este precio si nadie más fuera a verlo?'. Si la respuesta es sí, compras por valor; si es no, pagas por la mirada ajena."
+      },
+      {
+        "q": "¿Por qué algo caro a veces se desea más que algo barato?",
+        "a": "Por varias razones. Un objeto caro funciona como prueba visible de estatus, y para que esa señal sirva debe ser difícil de imitar. La exclusividad alimenta el deseo: si algo fuera barato y universal dejaría de distinguir. Además, el cerebro usa un atajo mental que asume que lo más caro es mejor, hasta el punto de que la gente disfruta más de un producto si cree que es caro, aunque sea idéntico a uno barato. Y las marcas venden relatos e identidad. Por todo esto, en el lujo el precio alto no siempre frena el deseo: a veces lo enciende."
+      },
+      {
+        "q": "¿Comprar cosas caras hace más feliz?",
+        "a": "Da una satisfacción real, pero suele ser intensa y corta. La psicología describe la 'cinta de correr hedónica': la novedad de una compra emociona, luego se normaliza, y vuelve la necesidad de algo más nuevo o más caro. Por eso el consumo de estatus rara vez sacia de verdad — persigue una meta que se mueve. Comprar para impresionar a los demás suele defraudar a medio plazo. Lo que más felicidad duradera da, según la investigación, es gastar en experiencias y en otras personas más que en objetos para exhibir. El lujo puede dar placer, pero no compra plenitud."
+      }
+    ],
+    "related": ["dinero", "pobreza", "bolsa", "salario", "herencia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pobreza",
+    "locale": "es",
+    "keyword": "Pobreza",
+    "matchPatterns": ["pobreza", "pobre", "ser pobre", "desigualdad", "precariedad"],
+    "topic": "money",
+    "title": "Pobreza — qué es de verdad y por qué no es culpa de quien la sufre",
+    "description": "La pobreza explicada sin prejuicios: qué significa ser pobre, por qué cuesta tanto salir de ella, qué dice la ciencia y los mitos que hay que romper.",
+    "emoji": "📉",
+    "intro": "La pobreza es uno de los temas más malentendidos que existen, en buena parte porque está rodeado de mitos cómodos. El más extendido es la idea de que ser pobre es, sobre todo, una cuestión de esfuerzo o de carácter: que quien es pobre lo es por no esforzarse lo suficiente. La evidencia desmonta esa idea con bastante claridad. La pobreza es, ante todo, una situación estructural — depende mucho más del lugar y la familia en la que naces, de la economía que te rodea y de las oportunidades a las que tienes acceso que de tu mérito individual. Conviene primero distinguir conceptos. Existe la pobreza extrema o absoluta: no tener acceso a lo mínimo para sobrevivir con dignidad — comida suficiente, agua, techo, atención básica. Y existe la pobreza relativa: vivir muy por debajo del nivel de vida típico de la sociedad en la que estás, sin poder participar de lo que en ese contexto se considera una vida normal. Una persona puede no estar en pobreza extrema y aun así vivir en pobreza relativa, excluida de cosas que su entorno da por sentadas. A escala global, las últimas décadas han visto una reducción importante de la pobreza extrema, lo cual es una buena noticia real; pero la desigualdad y la pobreza relativa siguen siendo enormes, incluso en países ricos. En moomz, las encuestas '¿la pobreza es culpa del sistema o del esfuerzo?', '¿se puede ser feliz sin dinero?' o '¿qué harías si te quedaras sin nada?' generan debates intensos, porque la pobreza toca la justicia, la suerte, el miedo y la idea misma de mérito.",
+    "sections": [
+      {
+        "h": "La pobreza no es solo falta de dinero",
+        "body": "Reducir la pobreza a 'tener poco dinero' deja fuera buena parte del problema. La pobreza es, más bien, una falta de opciones y de seguridad que se manifiesta en muchas dimensiones a la vez. Implica, claro, ingresos insuficientes, pero también: vivienda precaria o inestable, peor acceso a una buena educación y a la sanidad, alimentación de menor calidad, entornos más contaminados o peligrosos, menos red de contactos útiles, y una exposición constante a la incertidumbre. Esa última parte es clave: vivir en la pobreza significa vivir sin colchón, donde cualquier imprevisto — una avería, una enfermedad, un mes sin trabajo — puede convertirse en una catástrofe, porque no hay margen para absorberlo. Hay además una dimensión psicológica importante. La pobreza genera lo que algunos investigadores llaman una 'carga mental' constante: la preocupación permanente por llegar a fin de mes ocupa recursos cognitivos, agota y dificulta pensar a largo plazo. No es que la pobreza la sufra gente menos capaz; es que la propia situación de escasez consume una parte de la atención y la energía mental de cualquiera. Entender la pobreza como multidimensional — y no como un simple número en una cuenta — es esencial para no juzgarla de forma simplista."
+      },
+      {
+        "h": "Por qué es tan difícil salir de la pobreza",
+        "body": "Una de las cosas peor comprendidas sobre la pobreza es que cuesta más cara y es más difícil de abandonar de lo que parece desde fuera. Existe lo que a veces se llama 'la trampa de la pobreza': una serie de mecanismos por los que ser pobre encarece la propia vida y dificulta salir. Algunos ejemplos. Sin ahorros, no puedes comprar en cantidad o aprovechar ofertas, así que acabas pagando más por lo mismo. Sin acceso a crédito barato, si necesitas dinero urgente recurres a préstamos caros que te endeudan aún más. Una vivienda mala puede salir cara en energía, salud o transporte. La falta de margen obliga a tomar decisiones de corto plazo aunque sean peores a largo plazo, simplemente porque el largo plazo no es una opción cuando hay que sobrevivir hoy. A esto se suma el peso del origen: nacer en una familia con pocos recursos reduce, de media, el acceso a buena educación, a contactos y a oportunidades, lo que hace que la pobreza tienda a transmitirse de una generación a otra. Esto no significa que sea imposible salir — mucha gente lo consigue —, pero sí que hacerlo exige superar obstáculos que quien nace con recursos ni siquiera ve. Por eso atribuir la pobreza solo al esfuerzo individual ignora la mitad de la ecuación."
+      },
+      {
+        "h": "Romper los mitos sobre la pobreza",
+        "body": "Alrededor de la pobreza circulan mitos que conviene desmontar, porque no solo son falsos sino que hacen daño. Mito uno: 'los pobres lo son por vagos'. La realidad es que muchísima gente en situación de pobreza trabaja, a veces en varios empleos, y aun así no consigue salir — existe el concepto de 'trabajador pobre', alguien con empleo cuyos ingresos no alcanzan. Mito dos: 'si gestionaran mejor su dinero, no serían pobres'. La gestión importa, pero es muy difícil 'gestionar bien' cuando lo que entra no cubre lo necesario; no es un problema de hoja de cálculo, es de cantidad. Mito tres: 'la pobreza es siempre culpa de decisiones personales'. La investigación muestra que el factor más determinante es dónde y en qué familia naces, algo que nadie elige. Mito cuatro: 'salir de la pobreza es solo cuestión de querer'. La voluntad ayuda, pero no derriba por sí sola barreras estructurales. Desmontar estos mitos no es negar que el esfuerzo individual cuente — cuenta —, sino reconocer que opera dentro de un contexto que reparte las oportunidades de forma muy desigual. Hablar de pobreza con honestidad significa cambiar la pregunta '¿qué hizo mal esa persona?' por una mejor: '¿qué hace que sea tan difícil salir, y qué se puede cambiar de eso?'."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿La pobreza es culpa de quien la sufre?",
+        "a": "La evidencia dice que no, o al menos no principalmente. La pobreza es ante todo una situación estructural: depende mucho más del lugar y la familia en la que naces, de la economía que te rodea y de las oportunidades disponibles que de tu esfuerzo individual. Muchísima gente en situación de pobreza trabaja, a veces en varios empleos, sin lograr salir — existe el concepto de 'trabajador pobre'. El esfuerzo personal cuenta, pero opera dentro de un contexto que reparte las oportunidades de forma muy desigual. Atribuir la pobreza solo al carácter o a la pereza ignora la mitad de la explicación."
+      },
+      {
+        "q": "¿Qué diferencia hay entre pobreza absoluta y relativa?",
+        "a": "La pobreza extrema o absoluta es no tener acceso a lo mínimo para sobrevivir con dignidad: comida suficiente, agua, techo, atención básica. La pobreza relativa es vivir muy por debajo del nivel de vida típico de tu sociedad, sin poder participar de lo que en ese contexto se considera una vida normal. Una persona puede no estar en pobreza extrema y aun así vivir en pobreza relativa, excluida de cosas que su entorno da por sentadas. A escala global la pobreza extrema se ha reducido bastante en las últimas décadas, pero la pobreza relativa y la desigualdad siguen siendo enormes, incluso en países ricos."
+      },
+      {
+        "q": "¿Por qué es tan difícil salir de la pobreza?",
+        "a": "Porque ser pobre encarece la propia vida, en lo que se llama 'trampa de la pobreza'. Sin ahorros no puedes aprovechar ofertas y pagas más por lo mismo; sin crédito barato, una urgencia te lleva a préstamos caros; la falta de margen obliga a decisiones de corto plazo aunque sean peores a la larga, porque el largo plazo no es una opción cuando hay que sobrevivir hoy. Además, nacer en una familia con pocos recursos reduce el acceso a buena educación, contactos y oportunidades, lo que hace que la pobreza tienda a transmitirse entre generaciones. No es imposible salir, pero exige superar barreras que quien nace con recursos ni siquiera ve."
+      },
+      {
+        "q": "¿Se puede ser feliz sin dinero?",
+        "a": "Hay que separar dos cosas. Salir de la escasez — poder cubrir lo básico sin angustia — produce un salto de bienestar enorme, porque elimina el estrés constante de no llegar. La pobreza, especialmente la extrema, hace muy difícil la felicidad, no por falta de carácter sino porque la incertidumbre permanente agota. Ahora bien, una vez cubierto lo esencial, más dinero aporta cada vez menos felicidad: lo que de verdad sostiene el bienestar son los vínculos, el sentido y el propósito. Así que la respuesta honesta es que no hace falta ser rico para ser feliz, pero la pobreza sí es un obstáculo real para serlo."
+      }
+    ],
+    "related": ["dinero", "salario", "lujo", "ahorro", "herencia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "loteria",
+    "locale": "es",
+    "keyword": "Lotería",
+    "matchPatterns": ["loteria", "lotería", "premio gordo", "sorteo", "jugar", "boleto"],
+    "topic": "money",
+    "title": "Lotería — por qué jugamos sabiendo que casi nunca toca",
+    "description": "La lotería explicada: las probabilidades reales, la historia del Gordo desde 1812 y por qué soñar con ganar nos engancha aunque casi nunca toque.",
+    "emoji": "🎰",
+    "intro": "La lotería es uno de los inventos más curiosos en la frontera entre las matemáticas, la psicología y la cultura. Casi todo el mundo sabe, en algún rincón de la cabeza, que las probabilidades de ganar un gran premio son ínfimas — y aun así millones de personas juegan, año tras año, con entusiasmo. Eso no significa que la gente sea tonta: significa que la lotería no se compra solo por la esperanza matemática de ganar, sino por algo más sutil que merece la pena entender. La lotería es una forma de juego de azar muy antigua. Se han usado sorteos para repartir cosas o recaudar fondos desde la Antigüedad, y muchas loterías nacionales modernas tienen siglos de historia. En el mundo hispano, el ejemplo más célebre es la Lotería de Navidad española y su famoso 'Gordo': el sorteo se celebra cada 22 de diciembre y su origen se remonta a 1812, lo que lo convierte en uno de los sorteos más antiguos del mundo que se siguen celebrando, con su característico canto de los números por niños de un colegio madrileño. La lotería tiene una doble cara. Por un lado es un fenómeno cultural y social entrañable — el décimo compartido con la familia, con los compañeros de trabajo, con el bar del barrio. Por otro, es un producto que genera enormes ingresos precisamente porque, en conjunto, devuelve a los jugadores menos de lo que recauda. En moomz, las encuestas '¿juegas a la lotería?', '¿qué harías con el Gordo?' o '¿la lotería es ilusión o tontería?' enganchan al instante, porque la lotería vende algo irresistible: el permiso para soñar en grande durante unos días.",
+    "sections": [
+      {
+        "h": "Las probabilidades reales: por qué casi nunca toca",
+        "body": "Conviene mirar de frente lo que dicen las matemáticas, sin dramatismo pero con claridad. En los grandes premios de lotería, las probabilidades de acertar el primer premio son extraordinariamente pequeñas — del orden de una entre cientos de miles o incluso entre varios millones, según el sorteo. Para hacerse una idea intuitiva: hay sucesos que solemos considerar 'imposibles' en la práctica cuya probabilidad es, en realidad, mayor que la de llevarse un gran premio de lotería. Una consecuencia importante es que no existe ninguna estrategia que mejore de forma significativa tus opciones: cada combinación tiene exactamente la misma probabilidad, los números 'calientes' o 'fríos' son un mito, y elegir fechas, secuencias o números 'con suerte' no cambia nada matemáticamente. Otra consecuencia es la llamada esperanza matemática negativa: en promedio, por cada unidad de dinero que se juega en lotería, se recupera menos de una unidad, porque parte de lo recaudado va a impuestos, gastos y, en muchos casos, fines públicos. Esto no convierte a la lotería en una estafa — las reglas son transparentes y conocidas —, pero sí significa que, vista puramente como inversión, jugar a la lotería es una mala inversión por diseño. Quien juega esperando 'recuperar' dinero a largo plazo está, estadísticamente, equivocado."
+      },
+      {
+        "h": "Por qué jugamos aunque sepamos que no toca",
+        "body": "Si las matemáticas son tan claras, ¿por qué juega tanta gente? Porque la lotería no se compra como una inversión, se compra como otra cosa, y la psicología lo explica bien. Primero, lo que de verdad vende un boleto no es el premio, es el derecho a fantasear: entre que compras el décimo y que se celebra el sorteo, tienes permiso para imaginar con detalle qué harías con el dinero. Esa fantasía tiene un valor emocional real, y para mucha gente unos euros por unos días de ilusión es un intercambio que les compensa. Segundo, el cerebro humano es muy malo procesando probabilidades minúsculas: una entre varios millones y una entre cien mil se sienten parecidas — 'pequeñas pero posibles' —, así que la mente sobrevalora una opción que es, en la práctica, casi nula. Tercero, los premios son tan grandes que su magnitud impresiona más que lo ínfimo de la probabilidad: pensamos en el 'cuánto' y no en el 'qué difícil'. Cuarto, hay un fuerte componente social y ritual, sobre todo en sorteos como el de Navidad: jugar es algo que se hace en grupo, con la familia o los compañeros, y el décimo compartido es casi un gesto de pertenencia. La lotería, bien entendida, no se paga por ganar: se paga por soñar y por participar de un ritual colectivo."
+      },
+      {
+        "h": "Jugar con cabeza: la lotería como entretenimiento, no como plan",
+        "body": "La lotería no tiene por qué ser un problema; el problema aparece cuando se confunde lo que es. La forma sana de relacionarse con ella es entenderla como lo que es: una forma de entretenimiento con un coste, igual que ir al cine o tomar algo, y no como una estrategia financiera ni como un plan de futuro. Algunas ideas prácticas. Primero, ponle un presupuesto pequeño y fijo, dinero que puedas perder sin que afecte a nada importante, y no lo superes: lo que gastas en lotería no debería competir nunca con el alquiler, la comida o el ahorro. Segundo, no caigas en la falacia de 'recuperar lo invertido': cada sorteo es independiente, jugar más no compensa lo perdido, y perseguir las pérdidas es justo el patrón que lleva al juego problemático. Tercero, desconfía de cualquier 'método', 'sistema' o número garantizado: no existen, y quien los vende te está engañando. Cuarto, recuerda que el verdadero plan para mejorar tu situación económica no es el premio improbable, sino lo aburrido y fiable: ahorrar, controlar gastos, formarte, mejorar tus ingresos. Y quinto, si notas que el juego deja de ser un pasatiempo ocasional y se vuelve una necesidad, una vía de escape o una fuente de problemas, eso es una señal de alarma — el juego puede generar adicción, y pedir ayuda a tiempo es lo más sensato. Soñar con el Gordo está bien; construir tu vida sobre ese sueño, no."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué probabilidades reales hay de ganar la lotería?",
+        "a": "Extraordinariamente pequeñas. En los grandes premios, las probabilidades de acertar el primer premio son del orden de una entre cientos de miles o incluso entre varios millones, según el sorteo. Para hacerse una idea, hay sucesos que consideramos 'imposibles' en la práctica cuya probabilidad es mayor que la de llevarse un gran premio. Además, ninguna estrategia mejora de forma significativa tus opciones: cada combinación tiene la misma probabilidad, los números 'calientes' o 'fríos' son un mito y elegir fechas con suerte no cambia nada. Vista como inversión, la lotería es una mala inversión por diseño."
+      },
+      {
+        "q": "¿Hay algún truco para ganar la lotería?",
+        "a": "No. Cualquiera que venda un 'método', un 'sistema' o números garantizados te está engañando. En un sorteo de lotería, cada combinación tiene exactamente la misma probabilidad de salir, los números no tienen memoria y no existen patrones que predigan el resultado. Elegir fechas señaladas, secuencias o números 'de la suerte' no mejora tus opciones en absoluto; como mucho, jugar números poco populares hace que, si toca, compartas el premio con menos gente, pero no aumenta la probabilidad de que toque. La única certeza matemática es que no hay truco."
+      },
+      {
+        "q": "¿De cuándo es la Lotería de Navidad y el Gordo?",
+        "a": "La Lotería de Navidad española es uno de los sorteos más antiguos del mundo que se siguen celebrando. Su origen se remonta a 1812, en plena Guerra de la Independencia, y desde entonces se celebra cada año. El sorteo tiene lugar el 22 de diciembre, y su primer premio es el famoso 'Gordo'. Una de sus señas de identidad es el canto de los números y los premios por parte de niños de un colegio de Madrid, una tradición que forma parte del ritual navideño. Más que por las probabilidades, el sorteo de Navidad se vive como un acontecimiento cultural y social compartido."
+      },
+      {
+        "q": "¿Está mal jugar a la lotería?",
+        "a": "No, siempre que se entienda como lo que es: entretenimiento con un coste, como ir al cine, y no como una estrategia financiera. La forma sana de jugar es ponerle un presupuesto pequeño y fijo, dinero que puedas perder sin que afecte a nada importante, y no caer en la idea de 'recuperar lo invertido', porque cada sorteo es independiente. El problema aparece cuando el juego deja de ser ocasional y se vuelve una necesidad o una vía de escape: el juego puede generar adicción. Soñar con el premio está bien; basar tu plan de vida en ese sueño, no — para eso sirve ahorrar."
+      }
+    ],
+    "related": ["dinero", "herencia", "ahorro", "bolsa", "lujo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "herencia",
+    "locale": "es",
+    "keyword": "Herencia",
+    "matchPatterns": ["herencia", "heredar", "heredero", "testamento", "legado"],
+    "topic": "money",
+    "title": "Herencia — dinero, familia y por qué genera tantos conflictos",
+    "description": "La herencia explicada: cómo funciona heredar, el testamento y las deudas, por qué desata peleas familiares y qué papel juega en la desigualdad.",
+    "emoji": "📜",
+    "intro": "La herencia es uno de los temas donde el dinero y la familia se cruzan de la forma más explosiva. Es, a la vez, un asunto técnico — qué se transmite, a quién y cómo cuando alguien muere — y un asunto profundamente emocional, porque mezcla el duelo, los vínculos familiares, los agravios del pasado y la sensación de justicia o injusticia. Pocos asuntos tienen tanta capacidad de unir o de romper a una familia. En el plano técnico, la herencia es el conjunto de bienes, derechos y también deudas que una persona deja al morir y que pasan a otras personas. Casi todos los sistemas legales regulan cómo se reparte ese patrimonio: existe la figura del testamento, el documento en el que alguien expresa su voluntad sobre cómo repartir lo suyo, y existen reglas para cuando no hay testamento o que limitan lo que se puede decidir libremente — en muchos países, una parte de la herencia está reservada por ley a ciertos familiares cercanos, lo que se conoce como legítima. Un detalle importante y poco conocido: heredar no es solo recibir bienes, también puede implicar recibir deudas. Más allá de lo legal, la herencia tiene una dimensión social enorme: es uno de los grandes mecanismos por los que la riqueza — y también la falta de ella — se transmite de una generación a la siguiente, lo que la convierte en una pieza central de cualquier debate sobre desigualdad. En moomz, las encuestas '¿la herencia debería repartirse igual entre hermanos?', '¿hablarías de herencias en vida?' o '¿es justo heredar grandes fortunas?' generan reacciones intensas, porque la herencia toca el dinero, la familia, la muerte y la idea de mérito todo a la vez.",
+    "sections": [
+      {
+        "h": "Cómo funciona heredar: testamento, legítima y deudas",
+        "body": "Aunque las reglas concretas varían mucho de un país a otro, hay conceptos comunes que conviene conocer. El testamento es el documento en el que una persona, en vida, deja por escrito cómo quiere que se reparta su patrimonio cuando muera; tener testamento facilita enormemente las cosas a quienes quedan y reduce los conflictos. Cuando no hay testamento, la ley establece un orden de reparto por defecto, normalmente priorizando a los familiares más cercanos. En muchos sistemas legales no se puede decidir libremente el cien por cien del reparto: existe la legítima, una porción de la herencia que la ley reserva obligatoriamente a determinados herederos, habitualmente hijos y, en algunos casos, cónyuge o padres. Eso significa que, según el país, hay un margen de libertad para repartir y una parte que está protegida por ley. Otro punto crucial es que la herencia incluye lo bueno y lo malo: se heredan bienes y derechos, pero también deudas. Por eso muchos ordenamientos permiten al heredero aceptar la herencia, rechazarla, o aceptarla de una forma limitada que evita responder con el patrimonio propio de las deudas del fallecido. Además, en bastantes países heredar puede conllevar el pago de un impuesto. La conclusión práctica es clara: ante una herencia conviene informarse bien antes de tomar decisiones, porque aceptar a ciegas puede salir caro."
+      },
+      {
+        "h": "Por qué la herencia rompe tantas familias",
+        "body": "Que las herencias generen conflictos no es una excepción, es casi la norma, y entender por qué ayuda a prevenirlo. La primera razón es que la herencia llega en un momento emocionalmente devastador: el reparto coincide con el duelo, así que las decisiones se toman con todos a flor de piel. La segunda es que el dinero y los bienes funcionan, en una familia, como un lenguaje simbólico: para muchas personas, lo que se hereda y en qué proporción se interpreta como una medida del cariño recibido — 'me dejó menos que a mi hermano' se vive no como un asunto económico sino como un mensaje afectivo. La tercera es que la herencia saca a la superficie agravios antiguos: rivalidades entre hermanos, comparaciones de toda la vida, la sensación de que alguien 'hizo más' o 'recibió más' a lo largo de los años. La cuarta es lo concreto: hay bienes difíciles de repartir de forma equitativa — una casa familiar, un negocio, objetos con valor sentimental — y no todos los herederos quieren lo mismo. La quinta es la falta de comunicación previa: cuando nunca se ha hablado del tema en vida, el reparto llega lleno de suposiciones y sorpresas. Por todo esto, los expertos en mediación familiar coinciden en una recomendación: hablar de la herencia en vida, con claridad y sin tabúes, y dejar las cosas bien atadas por escrito, es una de las mejores formas de proteger a la familia de un conflicto futuro."
+      },
+      {
+        "h": "Herencia y desigualdad: el debate de fondo",
+        "body": "Más allá de la familia, la herencia tiene una dimensión social que genera uno de los debates económicos más vivos. La herencia es uno de los principales mecanismos por los que la posición económica se transmite de una generación a otra: quien nace en una familia con patrimonio recibirá, con probabilidad, una ventaja que no se ha ganado, y quien nace sin él parte desde más atrás. Esto choca de frente con la idea del mérito, la creencia de que cada uno llega adonde llega por su esfuerzo. El economista Thomas Piketty popularizó con datos la idea de que, cuando la riqueza heredada crece más deprisa que los ingresos del trabajo, la sociedad tiende a volverse más desigual y menos meritocrática. Esto alimenta un debate genuino y de doble cara. Quienes defienden la libertad de heredar argumentan que es natural querer dejar a los hijos el fruto del propio trabajo y que la familia tiene derecho a transmitir lo suyo. Quienes piden gravar más las grandes herencias responden que recibir una fortuna sin haber hecho nada para merecerla contradice la idea de igualdad de oportunidades, y que un cierto impuesto sobre las herencias más grandes ayuda a que la cuna pese un poco menos en el destino de cada persona. No hay una respuesta sencilla — es una de esas cuestiones donde valores legítimos entran en tensión —, pero conviene tener claro el dato de fondo: la herencia influye, y mucho, en quién tiene oportunidades en la vida."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Se puede repartir una herencia como uno quiera?",
+        "a": "Depende del país, pero en muchos sistemas legales no del todo. Existe el testamento, donde una persona expresa cómo quiere repartir su patrimonio, pero en bastantes ordenamientos hay una parte llamada legítima que la ley reserva obligatoriamente a determinados herederos, normalmente los hijos y a veces el cónyuge o los padres. Eso significa que suele haber un margen de libertad para decidir y una parte protegida por ley. Cuando no hay testamento, la ley establece un orden de reparto por defecto, priorizando a los familiares más cercanos. Por eso, para repartir según la propia voluntad, conviene informarse y dejar las cosas por escrito."
+      },
+      {
+        "q": "¿Heredar puede salir caro o traer deudas?",
+        "a": "Sí, y es algo que mucha gente desconoce. Una herencia no incluye solo bienes y derechos: también incluye las deudas que dejó la persona fallecida. Por eso muchos sistemas legales permiten al heredero aceptar la herencia, rechazarla por completo o aceptarla de una forma limitada que evita tener que responder de esas deudas con el patrimonio propio. Además, en bastantes países heredar conlleva el pago de un impuesto de sucesiones. La recomendación práctica es clara: ante una herencia, informarse bien antes de aceptar nada, porque aceptarla a ciegas puede acabar costando dinero en lugar de aportarlo."
+      },
+      {
+        "q": "¿Por qué las herencias provocan tantas peleas familiares?",
+        "a": "Por una combinación de factores. La herencia llega en pleno duelo, así que las decisiones se toman con las emociones a flor de piel. Además, para muchas personas lo que se hereda y en qué proporción se interpreta como una medida del cariño recibido, no como un simple asunto económico. La herencia también saca a la superficie agravios y rivalidades antiguas entre hermanos, y hay bienes difíciles de repartir de forma justa, como una casa o un negocio. La falta de comunicación previa lo empeora todo. Por eso los mediadores recomiendan hablar del tema en vida, con claridad, y dejarlo bien atado por escrito."
+      },
+      {
+        "q": "¿Es justo heredar grandes fortunas?",
+        "a": "Es un debate genuino sin respuesta única. Quienes defienden la libertad de heredar argumentan que es natural querer dejar a los hijos el fruto del propio trabajo y que la familia tiene derecho a transmitir lo suyo. Quienes piden gravar más las grandes herencias responden que recibir una fortuna sin haber hecho nada para merecerla contradice la idea de igualdad de oportunidades. El economista Thomas Piketty mostró con datos que cuando la riqueza heredada crece más deprisa que los ingresos del trabajo, la sociedad se vuelve más desigual. El dato de fondo es claro: la herencia influye mucho en quién tiene oportunidades."
+      }
+    ],
+    "related": ["dinero", "pobreza", "lujo", "salario", "loteria"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "propina",
+    "locale": "es",
+    "keyword": "Propina",
+    "matchPatterns": ["propina", "propinas", "dejar propina", "camarero", "servicio"],
+    "topic": "money",
+    "title": "Propina — por qué unos países la exigen y otros la ignoran",
+    "description": "La propina explicada: de dónde viene, la psicología de dejarla, por qué cambia tanto según el país y cuánto dejar sin quedar mal al viajar.",
+    "emoji": "🪙",
+    "intro": "La propina es uno de esos pequeños gestos cotidianos que esconden un mundo de psicología, economía y cultura. A primera vista parece simple — dejas un poco de dinero extra para agradecer un servicio —, pero en cuanto cruzas una frontera te das cuenta de que la propina es un campo minado de normas no escritas que cambian radicalmente de un país a otro. En algunos lugares es prácticamente obligatoria y forma parte esencial del sueldo de quien te atiende; en otros es un detalle simpático pero opcional; y en otros más, dejar propina puede incluso resultar incómodo o innecesario. Esa diferencia tan grande no es casualidad: refleja maneras distintas de organizar quién paga el salario de los trabajadores del servicio. El origen de la palabra y de la costumbre se ha rastreado en Europa, donde durante siglos fue habitual dar una pequeña suma a criados o trabajadores por un servicio. Curiosamente, la propina llegó a tener mala fama en algunos sitios, vista como un gesto que reforzaba la desigualdad entre clases. El gran contraste moderno está entre culturas donde la propina se ha vuelto un complemento estructural del salario y culturas donde el precio que pagas ya incluye, en teoría, una retribución digna del personal. En moomz, las encuestas '¿dejas propina siempre?', '¿cuánto es lo correcto?' o '¿la propina debería desaparecer?' generan opiniones encontradas, porque la propina mezcla generosidad, presión social, justicia laboral y la incomodidad de no saber muy bien cuál es la norma. Entender de dónde viene y cómo varía ayuda a moverse por el mundo sin meter la pata.",
+    "sections": [
+      {
+        "h": "Por qué la propina cambia tanto de un país a otro",
+        "body": "La enorme variación de las costumbres sobre propinas tiene una explicación de fondo bastante lógica: cada cultura ha resuelto de forma distinta la pregunta de quién paga el salario del personal de servicio. En el modelo más extremo de propina obligatoria, característico sobre todo de Estados Unidos, el salario base de muchos camareros y trabajadores del servicio es deliberadamente bajo, bajo el supuesto de que las propinas completarán sus ingresos. Ahí la propina deja de ser un agradecimiento opcional para convertirse, en la práctica, en una parte esperada e imprescindible del sueldo: no dejarla se percibe casi como no pagar parte de la cuenta. En el modelo opuesto, común en buena parte de Europa y en otros lugares, los trabajadores del servicio cobran un salario que se considera completo por sí mismo, y a veces el precio o la cuenta ya incluyen un cargo por servicio; ahí la propina es un extra genuinamente voluntario, un detalle por un trato especialmente bueno, no una obligación. Y existen culturas donde la propina apenas se practica o incluso puede generar extrañeza, porque se entiende que hacer bien el trabajo es lo normal y no requiere un pago aparte. Ninguno de estos modelos es 'el correcto' en abstracto: son soluciones culturales distintas. Lo importante para el viajero es entender que la propina no significa lo mismo en todas partes."
+      },
+      {
+        "h": "La psicología de dejar propina",
+        "body": "Dejar propina es un comportamiento más complejo de lo que parece, porque a menudo va en contra del puro interés económico — pagas algo que, técnicamente, no estás obligado a pagar. ¿Por qué lo hacemos? Intervienen varios motores psicológicos. El primero es la reciprocidad: cuando alguien nos ha tratado bien, sentimos un impulso natural de devolver el gesto, y la propina canaliza ese impulso. El segundo es la presión social y el deseo de aprobación: dejar propina, sobre todo cuando hay testigos o cuando la norma cultural lo espera, evita la incomodidad de ser visto como tacaño. El tercero es la empatía: muchas personas dejan propina conscientes de que ayuda a alguien que puede tener un sueldo modesto. El cuarto es la culpa o el alivio: a veces se deja propina más para sentirse bien con uno mismo que por el servicio en sí. Estudios sobre el comportamiento de los clientes han encontrado, además, datos curiosos: factores que poco tienen que ver con la calidad real del servicio — el clima, el humor del cliente, pequeños gestos del camarero como dibujar algo en la cuenta o presentarse por su nombre — pueden influir en cuánto se deja. Esto sugiere algo incómodo: la propina mide bastante peor de lo que creemos la calidad objetiva del servicio, y bastante más nuestro estado de ánimo y la presión del momento."
+      },
+      {
+        "h": "Cuánto dejar y cómo no meter la pata",
+        "body": "Como no existe una norma universal, la regla de oro al viajar es informarse antes sobre la costumbre del lugar al que vas: lo que es generoso en un país puede ser insuficiente o incluso inapropiado en otro. Algunas orientaciones generales. En culturas de propina obligatoria, conviene saber de antemano cuál es el porcentaje esperado, porque no dejarlo se considera una falta seria; ahí la propina es parte del coste real de salir a comer. En culturas donde es voluntaria, suele bastar con redondear la cuenta hacia arriba o dejar una cantidad modesta cuando el trato ha sido bueno, sin que haya un porcentaje estricto; y no dejar nada por un servicio normal no se considera ofensivo. Conviene también comprobar si la cuenta ya incluye un cargo por servicio, para no pagar dos veces sin querer. Otra recomendación práctica: la propina es un agradecimiento, no una obligación de rescatar un mal servicio — en culturas voluntarias, es perfectamente legítimo ajustar o no dejar propina si el trato ha sido malo. Y en sentido contrario, en países donde la propina sostiene salarios bajos, penalizar al camarero por algo que quizá no depende de él, como un error de cocina, recae sobre la persona equivocada. La actitud más sensata es combinar respeto por la norma local con sentido común: ni dejar de lado la costumbre del país, ni sentirse obligado a gestos que esa cultura ni siquiera espera."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué en unos países hay que dejar propina y en otros no?",
+        "a": "Porque cada cultura ha resuelto de forma distinta quién paga el salario del personal de servicio. En el modelo de propina obligatoria, característico sobre todo de Estados Unidos, el salario base de muchos camareros es deliberadamente bajo y se asume que las propinas lo completarán: ahí la propina es una parte esperada e imprescindible del sueldo. En buena parte de Europa y otros lugares, los trabajadores cobran un salario considerado completo en sí mismo, así que la propina es un extra voluntario. Y hay culturas donde apenas se practica. No hay un modelo 'correcto': son soluciones culturales distintas."
+      },
+      {
+        "q": "¿Cuánta propina hay que dejar?",
+        "a": "No existe una cifra universal, así que lo mejor al viajar es informarse de la costumbre del lugar. En culturas de propina obligatoria conviene conocer de antemano el porcentaje esperado, porque no dejarlo se considera una falta seria. En culturas donde la propina es voluntaria, suele bastar con redondear la cuenta hacia arriba o dejar una cantidad modesta cuando el trato ha sido bueno, sin porcentaje estricto. Conviene también comprobar si la cuenta ya incluye un cargo por servicio, para no pagar dos veces. La regla práctica: respetar la norma local y usar el sentido común."
+      },
+      {
+        "q": "¿Está mal no dejar propina?",
+        "a": "Depende totalmente del país. En culturas donde la propina es obligatoria de hecho y completa el salario del personal, no dejarla se percibe casi como no pagar parte de la cuenta, y sí se considera mal. En culturas donde la propina es genuinamente voluntaria, no dejar nada por un servicio normal no es ofensivo, y la propina se reserva para cuando el trato ha sido especialmente bueno. Y hay lugares donde la propina apenas se practica. Por eso, antes de viajar, conviene saber en qué tipo de cultura de propina te mueves para no quedar mal ni sentirte presionado sin motivo."
+      },
+      {
+        "q": "¿La propina mide la calidad del servicio?",
+        "a": "Menos de lo que creemos. Estudios sobre el comportamiento de los clientes han encontrado que factores que poco tienen que ver con la calidad real — el clima, el humor del cliente, pequeños gestos del camarero como presentarse por su nombre — influyen de forma notable en cuánto se deja. Esto sugiere que la propina mide bastante peor de lo que pensamos la calidad objetiva del servicio, y bastante más el estado de ánimo del cliente y la presión social del momento. Dejamos propina sobre todo por reciprocidad, por empatía y por evitar parecer tacaños, no como una nota fría al servicio recibido."
+      }
+    ],
+    "related": ["dinero", "salario", "lujo", "pobreza", "ahorro"],
+    "updatedAt": "2026-05-20"
+  }
+]

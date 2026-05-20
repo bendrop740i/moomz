@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "lisboa",
+    "locale": "pt",
+    "keyword": "Lisboa",
+    "matchPatterns": ["lisboa", "lisbon", "alfama", "bairro alto", "fado", "tejo"],
+    "topic": "travel",
+    "title": "Lisboa — a cidade da luz, das colinas e da saudade",
+    "description": "O que torna Lisboa única, seus bairros, sua história e por que ela vira tema de vibe-check no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🇵🇹",
+    "intro": "Lisboa é uma cidade que conquista devagar e fica para sempre. Capital de Portugal, encravada em sete colinas à beira do rio Tejo, ela tem aquela combinação rara de luz, melancolia e vivacidade que poucos lugares conseguem. Os visitantes falam muito da luz de Lisboa, uma claridade dourada e suave que banha as fachadas de azulejo e os telhados alaranjados, especialmente ao entardecer. É uma cidade muito antiga, uma das mais antigas da Europa Ocidental, mais velha que Roma, e essa idade se sente em cada esquina, em cada calçada portuguesa desenhada em pedrinhas pretas e brancas. Lisboa carrega também a marca de uma tragédia que a redefiniu: o grande terremoto de 1755, seguido de incêndio e tsunami, destruiu boa parte da cidade e levou à reconstrução planejada da Baixa pombalina, com suas ruas em grelha. A Lisboa de hoje é um cruzamento fascinante de épocas: o casario medieval de Alfama, que sobreviveu ao terremoto, contrasta com a Baixa do século dezoito e com os bairros modernos. A cidade vive um momento intenso, atraindo turistas, profissionais remotos e brasileiros que escolheram morar lá, o que trouxe energia nova e também tensões, como o encarecimento da moradia. Para os brasileiros, Lisboa tem um charme especial: a língua compartilhada com sotaque diferente, a sensação de algo familiar e estrangeiro ao mesmo tempo. No moomz, Lisboa é tema que rende debate de viagem, de sonho de morar fora, de comparação entre cidades. Pergunta se você moraria em Lisboa, se prefere Lisboa ou Porto, qual o melhor bairro, e a galera se anima. Este guia abre a cidade.",
+    "sections": [
+      {
+        "h": "Os bairros que fazem a alma de Lisboa",
+        "body": "Lisboa não se entende sem entender os seus bairros, cada um com personalidade própria. Alfama é o coração antigo, o labirinto medieval que sobreviveu ao terremoto de 1755: ruelas estreitas em ladeira, varais de roupa nas janelas, o som do fado escapando das tascas à noite, e o Castelo de São Jorge coroando a colina. É o bairro da Lisboa mais profunda e melancólica. O Bairro Alto, durante o dia, é silencioso e quase adormecido; à noite, vira o epicentro da boemia, com gente lotando as ruas estreitas entre bares minúsculos. A Baixa pombalina é a Lisboa reconstruída de forma planejada depois do terremoto, com ruas retas, praças grandes como o Rossio e o Terreiro do Paço, e o comércio tradicional. O Chiado é o bairro elegante e literário, dos cafés históricos como o A Brasileira, onde a estátua do poeta Fernando Pessoa recebe turistas. Belém, mais a oeste, guarda os monumentos da era dos Descobrimentos, o Mosteiro dos Jerónimos, a Torre de Belém, e a famosa pastelaria dos pastéis de nata. E há os bairros que mudam rápido, como o LX Factory, antiga zona industrial virada polo criativo. Conhecer Lisboa é caminhar de bairro em bairro, subindo e descendo colinas, descobrindo que cada um conta um capítulo diferente da cidade."
+      },
+      {
+        "h": "Fado, saudade e a melancolia bonita",
+        "body": "É impossível falar de Lisboa sem falar de fado, o gênero musical que é quase a trilha sonora da cidade e que a UNESCO reconheceu como patrimônio cultural imaterial da humanidade. O fado nasceu em Lisboa no século dezenove, nos bairros populares como Alfama e Mouraria, e está intimamente ligado a uma palavra que é considerada quase intraduzível: saudade. Saudade é aquela sensação agridoce de falta, de presença ausente, a lembrança carinhosa e dolorida de algo ou alguém que não está. O fado canta exatamente isso: amores perdidos, o mar que levava os marinheiros, a vida dura, o destino, que aliás é o que a palavra fado significa. A figura mais lendária do fado é Amália Rodrigues, a fadista que levou o gênero ao mundo no século vinte e virou um símbolo nacional. Hoje, o fado continua vivo nas casas de fado de Alfama e do Bairro Alto, onde, num jantar, a luz baixa, todos se calam e uma fadista canta acompanhada da guitarra portuguesa, aquele instrumento de som cristalino e melancólico. Para um visitante, ouvir fado ao vivo é uma experiência que captura algo essencial da cidade: Lisboa é alegre e luminosa, mas tem, no fundo, uma melancolia bonita, uma consciência da passagem do tempo e da perda. Entender a saudade é entender meio Portugal."
+      },
+      {
+        "h": "Lisboa hoje: turismo, novos moradores e tensões",
+        "body": "A Lisboa contemporânea vive um momento de transformação intensa, cheio de luzes e de sombras. Por um lado, a cidade nunca foi tão visitada e admirada: virou um dos destinos mais cobiçados da Europa, atraindo turistas pelo clima ameno, pela segurança, pela gastronomia, pela beleza e pelo custo que, comparado a outras capitais europeias, ainda parecia acessível. Tornou-se também um ímã para profissionais que trabalham de forma remota e para estrangeiros em busca de qualidade de vida, incluindo uma comunidade brasileira muito grande e crescente, que encontrou em Lisboa a combinação de língua compartilhada, vida europeia e proximidade cultural. Essa onda trouxe energia, cosmopolitismo e novos negócios. Por outro lado, criou tensões reais. O encarecimento da moradia é o mais sentido: o preço de comprar e arrendar casa em Lisboa disparou, empurrado pela procura internacional e pela expansão do alojamento local para turistas, e muitos lisboetas, especialmente os mais jovens, deixaram de conseguir morar nos bairros onde cresceram. Surge um debate sobre a chamada gentrificação, sobre o centro histórico se transformar num cenário para visitantes em vez de um lugar de vida real. Para quem visita ou pensa em morar em Lisboa, conhecer essas duas faces é importante: é uma cidade encantadora vivendo as dores de uma popularidade que cresceu rápido demais."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Lisboa?",
+        "a": "A primavera e o início do outono costumam ser as melhores épocas. Entre março e maio e entre setembro e outubro, o clima é ameno e agradável, com bastante sol, e a cidade está menos lotada do que no auge do verão. O verão lisboeta, de junho a agosto, é quente, ensolarado e cheio de vida, mas também é o pico turístico, com mais filas e preços mais altos. O inverno é suave para os padrões europeus, raramente muito frio, embora mais chuvoso. Para caminhar pelas colinas com conforto, evite o calor extremo do meio do verão."
+      },
+      {
+        "q": "Lisboa ou Porto: qual escolher?",
+        "a": "Depende do que você procura, e muita gente acaba amando as duas. Lisboa é maior, mais cosmopolita e movimentada, capital com mais oferta cultural, vida noturna intensa e a luz do Tejo. O Porto é menor, mais compacto e, para muitos, mais autêntico e aconchegante, com o charme do rio Douro, o vinho do Porto e um certo orgulho local marcante. Lisboa impressiona pela grandiosidade e variedade; o Porto conquista pela intimidade e pelo caráter. Se der, vale conhecer as duas, são experiências de Portugal diferentes e complementares."
+      },
+      {
+        "q": "Vale a pena morar em Lisboa?",
+        "a": "Lisboa tem atrativos reais: clima ameno, segurança, boa gastronomia, vida europeia e, para brasileiros, a vantagem da língua compartilhada. Por isso atrai tanta gente. Mas é importante ir com os olhos abertos para o lado difícil: o custo da moradia subiu muito nos últimos anos, e arrendar ou comprar casa em zonas centrais ficou caro, inclusive para os próprios lisboetas. Os salários locais nem sempre acompanham esse custo. Morar em Lisboa pode valer muito a pena, mas exige planejamento financeiro realista, especialmente em relação à habitação."
+      },
+      {
+        "q": "O que é a saudade que tanto se associa a Lisboa?",
+        "a": "Saudade é uma palavra portuguesa famosa por ser difícil de traduzir. Ela descreve uma sensação agridoce de falta: a lembrança carinhosa e ao mesmo tempo dolorida de algo ou alguém que não está presente, um amor, um lugar, um tempo. É melancolia, mas uma melancolia que carrega afeto. A saudade está no coração do fado, o gênero musical de Lisboa, que canta perdas, amores e o destino. Entender a saudade ajuda a entender a alma da cidade: Lisboa é luminosa e alegre, mas tem, no fundo, uma bela consciência da passagem do tempo."
+      }
+    ],
+    "related": ["porto", "rio", "paris", "londres", "natal"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "porto",
+    "locale": "pt",
+    "keyword": "Porto",
+    "matchPatterns": ["porto", "douro", "ribeira", "vinho do porto", "francesinha", "invicta"],
+    "topic": "travel",
+    "title": "Porto — a cidade do Douro, do vinho e do orgulho",
+    "description": "O que torna o Porto especial, sua história, sua gastronomia e por que vira debate de viagem no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🍷",
+    "intro": "O Porto é uma cidade que se entrega de uma vez, na primeira vez que você vê a Ribeira descendo até o rio Douro. Segunda maior cidade de Portugal, ela tem uma personalidade forte, quase teimosa, e um orgulho local que é parte da sua identidade. Os portuenses gostam de dizer que Lisboa se exibe e o Porto trabalha, e a cidade ganhou o apelido de Invicta por nunca ter se rendido em momentos históricos importantes. O Porto é compacto, denso, construído em ladeiras que descem até o rio, com o casario antigo da Ribeira amontoado de forma pitoresca, um conjunto tão especial que o centro histórico é reconhecido pela UNESCO como patrimônio da humanidade. A cidade dá nome a um dos produtos portugueses mais famosos do mundo, o vinho do Porto, aquele vinho doce e encorpado que envelhece nas caves da margem oposta do rio, em Vila Nova de Gaia. O Porto também é a porta de entrada para o vale do Douro, uma das paisagens vinícolas mais antigas e bonitas do planeta, com encostas esculpidas em socalcos. Para os brasileiros, o Porto exerce um fascínio crescente: uma cidade europeia com escala humana, custo mais acessível que muitas capitais, gente acolhedora e a mesma língua. No moomz, o Porto rende debate de viagem, de comparação com Lisboa, de sonho de Europa. Pergunta se você prefere o Porto ou Lisboa, se moraria no norte de Portugal, qual cidade europeia tem mais charme, e a galera se anima. Este guia abre a Invicta.",
+    "sections": [
+      {
+        "h": "A Ribeira, o Douro e a alma do Porto",
+        "body": "O coração visual do Porto é a Ribeira, o bairro histórico que desce em camadas coloridas até a beira do rio Douro. As casas antigas, estreitas e altas, amontoadas umas sobre as outras em tons de ocre, amarelo e azulejo, formam um cenário que parece pintado, e é por isso que o centro histórico do Porto é patrimônio mundial da UNESCO. Ligando as duas margens do Douro está a Ponte Dom Luís I, uma imponente estrutura de ferro em dois níveis, uma imagem cartão-postal da cidade, construída no fim do século dezenove na época em que o ferro era o material do progresso. Atravessando a ponte, chega-se a Vila Nova de Gaia, tecnicamente outra cidade, onde ficam as caves históricas em que o vinho do Porto envelhece. O rio Douro é a espinha dorsal de toda essa região: ele nasce na Espanha, atravessa o norte de Portugal e desemboca no Atlântico ali, na cidade. Subir o Douro, de barco ou de comboio, leva ao vale vinícola, uma paisagem de encostas íngremes recortadas em socalcos, terraços construídos por gerações para plantar a vinha, uma das regiões vinícolas demarcadas mais antigas do mundo. Caminhar pela Ribeira ao entardecer, ver o sol bater nas casas e na ponte, é uma das experiências que definem o Porto e ficam na memória de quem visita."
+      },
+      {
+        "h": "Vinho do Porto, francesinha e a mesa portuense",
+        "body": "O Porto tem uma das gastronomias mais marcantes de Portugal, e ela começa, claro, pelo vinho que leva o nome da cidade. O vinho do Porto é um vinho fortificado, ou seja, tem álcool adicionado durante a produção, o que interrompe a fermentação e deixa um vinho doce, encorpado e potente. Ele é produzido com uvas do vale do Douro e envelhece nas caves de Vila Nova de Gaia. Existem vários estilos, do Ruby mais jovem e frutado ao Tawny envelhecido em madeira, com notas de fruta seca, até os Vintage, dos melhores anos. Tradicionalmente, o Porto é uma bebida para acompanhar sobremesas ou para se beber sozinho, devagar, no fim de uma refeição. Mas a mesa portuense vai muito além do vinho. O prato mais icônico e contundente da cidade é a francesinha, uma criação local generosa: camadas de pão, carnes variadas e linguiça, tudo coberto de queijo derretido e regado por um molho quente à base de tomate e cerveja, muitas vezes servido com um ovo por cima e batatas fritas. É um prato pesado, intenso e querido, quase um símbolo gastronômico do Porto. O norte de Portugal também é terra do bacalhau preparado de mil formas, das tripas à moda do Porto, prato que está na origem do apelido tripeiros dado aos portuenses, e de uma cultura de cafés e pastelarias muito presente no dia a dia."
+      },
+      {
+        "h": "O caráter do Porto: orgulho, trabalho e acolhimento",
+        "body": "Mais do que monumentos, o que muita gente leva do Porto é uma sensação ligada ao caráter da cidade e da sua gente. Existe no Porto um orgulho local profundo, que não é arrogância, mas uma identidade afirmada com convicção. Os portuenses têm uma relação quase passional com a cidade, e a velha rivalidade bem-humorada com Lisboa faz parte disso: a ideia, repetida com humor, de que o Porto é a cidade que trabalha enquanto a capital aparece. O apelido Invicta, de cidade que nunca se rendeu, e o apelido tripeiros, ligado a uma história de generosidade em que os habitantes teriam dado as melhores carnes para abastecer expedições e ficado com as tripas, alimentam essa identidade de cidade trabalhadora, resistente e solidária. Para o visitante, o Porto costuma surpreender pelo acolhimento: é uma cidade de escala humana, onde se anda a pé com facilidade, onde as pessoas tendem a ser diretas, calorosas e prestativas. Para os brasileiros em particular, o norte de Portugal tem atraído cada vez mais gente justamente por essa combinação de cidade europeia bonita, custo de vida mais moderado que outras capitais, ritmo menos frenético e a língua compartilhada. O Porto não tem a grandiosidade de uma capital, e não quer ter: o seu charme está exatamente na densidade, na autenticidade e nessa mistura de orgulho e hospitalidade que o torna inesquecível."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar o Porto?",
+        "a": "A primavera e o início do outono, aproximadamente de abril a junho e de setembro a outubro, costumam ser as melhores épocas. O clima fica ameno e agradável, com bastante sol, e a cidade está menos cheia do que no pico do verão. O verão é animado e quente, mas mais lotado. É bom lembrar que o Porto, no norte de Portugal, é geralmente mais chuvoso e um pouco mais fresco que Lisboa, então levar um agasalho leve e algo para a chuva é sempre prudente, mesmo fora do inverno."
+      },
+      {
+        "q": "O que é o vinho do Porto?",
+        "a": "O vinho do Porto é um vinho fortificado produzido com uvas do vale do Douro, no norte de Portugal. Durante a produção, adiciona-se álcool, o que interrompe a fermentação e resulta num vinho doce, encorpado e potente. Ele envelhece nas caves históricas de Vila Nova de Gaia, do outro lado do rio em frente ao Porto. Há vários estilos, do Ruby jovem e frutado ao Tawny envelhecido em madeira, até os Vintage. Tradicionalmente é uma bebida para acompanhar sobremesas ou para se apreciar sozinho, devagar, no fim da refeição."
+      },
+      {
+        "q": "Porto ou Lisboa: qual é melhor?",
+        "a": "Não há resposta única, são experiências diferentes de Portugal. Lisboa é maior, mais cosmopolita e movimentada, a capital com mais oferta e vida noturna intensa. O Porto é menor, mais compacto e, para muitos, mais autêntico e aconchegante, com o charme do Douro e um orgulho local marcante. Lisboa impressiona pela grandiosidade e variedade; o Porto conquista pela intimidade e pelo caráter. Quem pode, visita as duas. Quem precisa escolher deve pensar se prefere a energia de uma grande capital ou o charme denso de uma cidade de escala humana."
+      },
+      {
+        "q": "O que é a francesinha?",
+        "a": "A francesinha é o prato mais icônico do Porto, uma criação local famosa pela contundência. É feita de camadas de pão recheadas com carnes variadas e linguiça, tudo coberto de queijo derretido e regado por um molho quente à base de tomate e cerveja. Costuma ser servida com um ovo por cima e batatas fritas. É um prato pesado, intenso e muito querido, quase um símbolo gastronômico da cidade. Cada casa do Porto tem a sua versão de molho, e a discussão sobre qual francesinha é a melhor é assunto sério entre os portuenses."
+      }
+    ],
+    "related": ["lisboa", "paris", "londres", "rio", "natal"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "rio",
+    "locale": "pt",
+    "keyword": "Rio de Janeiro",
+    "matchPatterns": ["rio de janeiro", "carioca", "copacabana", "cristo redentor", "ipanema", "cidade maravilhosa"],
+    "topic": "travel",
+    "title": "Rio de Janeiro — a cidade maravilhosa entre o mar e a montanha",
+    "description": "O que faz do Rio uma cidade única, suas praias, seus contrastes e por que vira debate no moomz. Olhar de quem é BR e de quem é PT.",
+    "emoji": "🏖️",
+    "intro": "O Rio de Janeiro é uma cidade que parece ter sido desenhada para impressionar. Poucos lugares no mundo têm uma geografia tão dramática: montanhas de pedra cobertas de mata atlântica caindo direto no mar, praias enormes encaixadas entre morros, lagoas, ilhas, tudo numa mesma paisagem. É por isso que o Rio ganhou o apelido de Cidade Maravilhosa, e a paisagem carioca, esse encontro entre a cidade, a montanha e o oceano, é tão singular que foi reconhecida pela UNESCO como patrimônio mundial. O Rio foi por muito tempo a capital do Brasil, antes de Brasília, e guarda uma carga histórica e simbólica enorme. Mas o que define o Rio não é só a paisagem, é o jeito carioca de ser: uma cultura de praia, de informalidade, de bom humor, de viver muito ao ar livre. O carioca tem fama de ser caloroso, descontraído e bem-humorado, e a cidade respira samba, futebol e a celebração da vida. O Rio também é, é justo dizer, uma cidade de contrastes intensos e de desafios reais, com desigualdade marcante e questões de segurança que fazem parte da conversa honesta sobre o lugar. Para os portugueses, o Rio tem um fascínio especial, a imagem do Brasil ensolarado, da praia, do Carnaval, da alegria. No moomz, o Rio rende debate de viagem e de identidade. Pergunta se você visitaria o Rio, se prefere praia ou cidade, qual a praia mais famosa do mundo, e a galera se anima. Este guia abre a Cidade Maravilhosa.",
+    "sections": [
+      {
+        "h": "O Cristo, o Pão de Açúcar e os cartões-postais",
+        "body": "O Rio tem alguns dos cartões-postais mais reconhecíveis do planeta, e eles não decepcionam ao vivo. O mais icônico de todos é o Cristo Redentor, a imensa estátua de braços abertos no topo do morro do Corcovado, a quase setecentos metros de altura, com vista para a cidade inteira. O Cristo foi inaugurado em 1931, depois de anos de construção, e em 2007 foi eleito uma das chamadas novas sete maravilhas do mundo. Subir até ele, de trem pela floresta da Tijuca ou de van, e ver a estátua surgir contra o céu, com o Rio espalhado lá embaixo, é uma das experiências mais marcantes da cidade. O outro símbolo máximo é o Pão de Açúcar, o morro de granito em forma arredondada que se ergue na entrada da Baía de Guanabara. Sobe-se até o topo em dois bondinhos suspensos, e a vista lá de cima, especialmente no fim da tarde, abrange a baía, as praias e as montanhas numa só moldura. Além desses dois gigantes, o Rio tem a Floresta da Tijuca, uma das maiores florestas urbanas do mundo, dentro da própria cidade, o estádio histórico do Maracanã, templo do futebol brasileiro, e a paisagem da Lagoa Rodrigo de Freitas cercada de morros. O Rio é uma cidade onde a natureza não é um detalhe, é a protagonista, e os cartões-postais são apenas os pontos mais altos de uma cidade inteira espetacular."
+      },
+      {
+        "h": "A praia, o samba e o jeito carioca de viver",
+        "body": "Para entender o Rio, é preciso entender que a praia não é só lazer, é um modo de vida e um espaço social central. Copacabana e Ipanema são as praias mais famosas, e elas funcionam como uma extensão da cidade: as pessoas vão à praia para se exercitar, para encontrar amigos, para namorar, para trabalhar de forma informal, para simplesmente estar. Ipanema, em especial, virou um símbolo cultural mundial graças à canção Garota de Ipanema, dos anos sessenta, uma das músicas brasileiras mais conhecidas de todos os tempos. O calçadão de Copacabana, com o seu desenho de ondas em pedra portuguesa, é um dos lugares mais movimentados e democráticos da cidade. Junto da praia vem o samba, o gênero musical que nasceu no Rio no início do século vinte e se tornou um dos maiores símbolos do Brasil. E vem o Carnaval, a maior festa da cidade e uma das maiores do mundo, quando as escolas de samba desfilam no Sambódromo com fantasias deslumbrantes, e o Rio inteiro se transforma em blocos de rua que tomam a cidade. O jeito carioca de viver mistura tudo isso: a informalidade, a vida ao ar livre, o bom humor diante das dificuldades, a habilidade de transformar qualquer momento em celebração. É uma cultura que valoriza o presente, o encontro e a alegria, e é justamente isso que tantos visitantes acham contagiante."
+      },
+      {
+        "h": "A cidade dos contrastes: beleza e desafios",
+        "body": "Uma conversa honesta sobre o Rio precisa incluir os seus contrastes, porque eles fazem parte da cidade tanto quanto a paisagem. O Rio é, ao mesmo tempo, deslumbrante e desigual. Em poucos lugares a riqueza e a pobreza convivem de forma tão visível e tão próxima: bairros sofisticados ficam ao lado de favelas que sobem os morros, comunidades populares com vista privilegiada para o mar e ao mesmo tempo carentes de serviços básicos. Essa desigualdade é uma marca histórica do Brasil, e no Rio ela ganha uma geografia especialmente dramática. A questão da segurança também é parte da conversa real: o Rio tem áreas e situações que exigem cuidado, e tanto moradores quanto visitantes precisam de bom senso, informação e atenção, sem que isso, por outro lado, deva virar uma caricatura de medo que ignora que milhões de pessoas vivem e visitam a cidade normalmente. Há ainda o lado positivo das favelas como cultura: muitas comunidades cariocas são berços de samba, de funk, de arte e de uma criatividade enorme, e reduzi-las apenas a um problema é injusto. O Rio é uma cidade complexa, que não cabe nem na imagem de paraíso turístico nem na imagem de cidade perigosa. Ele é as duas coisas e muito mais: uma metrópole de beleza extraordinária, cultura potente e desafios sociais profundos, e visitá-lo ou conhecê-lo de verdade significa abraçar essa complexidade inteira."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar o Rio de Janeiro?",
+        "a": "O Rio é quente o ano todo, mas há diferenças. O período de abril a junho e o de setembro a novembro costumam ser ótimos: temperaturas agradáveis, menos chuva e menos lotação. O verão, de dezembro a março, é intenso, muito quente e úmido, e inclui o Carnaval e o Réveillon, festas espetaculares, mas com preços altos e cidade cheia. Como o Rio fica no hemisfério sul, as estações são invertidas em relação à Europa. Para quem foge do calor extremo, os meses mais amenos do outono e da primavera são a melhor aposta."
+      },
+      {
+        "q": "Quando o Cristo Redentor foi inaugurado?",
+        "a": "O Cristo Redentor foi inaugurado em 1931, no topo do morro do Corcovado, depois de anos de construção. A estátua, de braços abertos sobre a cidade, tornou-se o símbolo máximo do Rio de Janeiro e um dos monumentos mais reconhecíveis do mundo. Em 2007, o Cristo Redentor foi eleito uma das chamadas novas sete maravilhas do mundo, numa votação internacional. Subir até ele, de trem pela floresta da Tijuca ou de van, e ver a estátua surgir contra o céu com o Rio lá embaixo, é uma das experiências que mais marcam quem visita a cidade."
+      },
+      {
+        "q": "O Rio de Janeiro é uma cidade perigosa?",
+        "a": "O Rio tem questões reais de segurança e desigualdade, e é honesto reconhecer isso. Existem áreas e situações que exigem cuidado, e tanto moradores quanto visitantes precisam de bom senso, informação e atenção. Por outro lado, milhões de pessoas vivem na cidade e a visitam normalmente todos os anos. O recomendável é se informar sobre os lugares, evitar exibir objetos de valor, usar transporte confiável e seguir orientações locais. O Rio não é nem o paraíso sem problemas dos cartões-postais nem a caricatura de cidade impossível: é uma metrópole complexa que pede preparo."
+      },
+      {
+        "q": "Por que o Rio é chamado de Cidade Maravilhosa?",
+        "a": "O apelido Cidade Maravilhosa nasceu da combinação rara da geografia do Rio: montanhas de pedra cobertas de mata atlântica caindo direto no mar, praias enormes encaixadas entre morros, lagoas e a baía, tudo numa mesma paisagem espetacular. Poucos lugares no mundo têm uma natureza tão dramática dentro de uma grande cidade. Essa paisagem carioca, o encontro entre a cidade, a montanha e o oceano, é tão singular que foi reconhecida pela UNESCO como patrimônio mundial. O apelido virou também título de uma canção famosa, hino não oficial da cidade."
+      }
+    ],
+    "related": ["sao-paulo", "salvador", "fortaleza", "lisboa", "futebol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sao-paulo",
+    "locale": "pt",
+    "keyword": "São Paulo",
+    "matchPatterns": ["são paulo", "sao paulo", "paulista", "paulistano", "sampa", "garoa"],
+    "topic": "travel",
+    "title": "São Paulo — a metrópole que nunca para",
+    "description": "O que torna São Paulo única, sua energia, sua diversidade e por que vira debate de cidade no moomz. Olhar de quem é BR e de quem é PT.",
+    "emoji": "🏙️",
+    "intro": "São Paulo é a cidade do excesso, e isso é, ao mesmo tempo, o seu defeito e a sua grandeza. É a maior cidade do Brasil e uma das maiores do mundo, uma metrópole gigantesca, vertical, densa, que se estende por todos os lados em prédios até onde a vista alcança. Sampa, como os moradores chamam, não tem cartões-postais naturais como o Rio: não tem praia, não tem montanha de pedra famosa, e o clima é instável, com a famosa garoa paulistana, aquela chuvinha fina e cinzenta que faz parte da identidade da cidade. À primeira vista, São Paulo pode parecer apenas um mar de concreto, e muita gente que passa rápido não se apaixona. Mas quem mergulha descobre que a grandeza de São Paulo não está na paisagem, está na energia, na variedade e na vida. É a capital econômica do Brasil, o motor financeiro do país, mas é muito mais do que negócios. São Paulo é, provavelmente, a cidade mais diversa do Brasil: foi construída por ondas de imigrantes de todo o mundo, italianos, japoneses, portugueses, libaneses, e migrantes de todos os cantos do Brasil, e essa mistura está em tudo, especialmente na comida. É a cidade da cultura, da gastronomia, da vida noturna, do trabalho intenso. É uma cidade que não para, vinte e quatro horas por dia. Para os portugueses, São Paulo é a face do Brasil moderno e urbano, diferente da imagem de praia e sol. No moomz, Sampa rende debate de cidade. Pergunta se você prefere São Paulo ou Rio, se moraria numa metrópole gigante, qual cidade tem a melhor comida, e a galera se divide. Este guia abre a selva de pedra.",
+    "sections": [
+      {
+        "h": "A maior cidade do Brasil e a sua energia",
+        "body": "Para entender São Paulo, é preciso entender a sua escala. É uma metrópole imensa, com milhões e milhões de habitantes, que cresceu de forma vertiginosa ao longo do século vinte, transformando-se de uma cidade média num gigante urbano em poucas décadas. Essa escala produz uma cidade que é, antes de tudo, intensa. São Paulo é o centro econômico e financeiro do Brasil, onde estão as sedes de empresas, os negócios, o dinheiro, e isso lhe dá um ritmo acelerado, uma cultura de trabalho que define a identidade do paulistano, conhecido pela fama de ser muito dedicado e ocupado. A Avenida Paulista é o coração simbólico dessa São Paulo: uma avenida larga, ladeada de arranha-céus, centros culturais, museus, que pulsa de dia com gente trabalhando e nos fins de semana com gente passeando, já que ela costuma ser fechada para os carros. Mas a energia de São Paulo não é só corporativa. É uma cidade que oferece de tudo o tempo todo: shows, exposições, peças de teatro, restaurantes, baladas. É uma cidade onde sempre há algo acontecendo, em qualquer dia, a qualquer hora. Essa abundância pode ser cansativa, e São Paulo tem desafios reais de trânsito, de distâncias enormes, de desigualdade. Mas para quem busca movimento, oportunidade e variedade, poucos lugares no mundo entregam tanto quanto a cidade que se orgulha de nunca parar."
+      },
+      {
+        "h": "A capital da comida e da diversidade",
+        "body": "Se há um campo em que São Paulo é indiscutivelmente uma das melhores cidades do mundo, é a gastronomia, e isso é consequência direta da sua história de imigração. São Paulo foi construída por ondas de imigrantes que chegaram de todos os continentes, e cada grupo trouxe a sua cozinha. A cidade tem a maior comunidade japonesa fora do Japão, concentrada historicamente no bairro da Liberdade, e por isso a comida japonesa em São Paulo é abundante e excelente. Tem uma herança italiana enorme, que fez da pizza um item quase sagrado para o paulistano, a ponto de a cidade ter um dia dedicado à pizza e uma cultura de pizzarias que é assunto de orgulho e de discussão acalorada. Tem comida árabe, com a influência libanesa, comida portuguesa, e a comida de todas as regiões do Brasil, trazida pelos migrantes nordestinos, mineiros, baianos. O resultado é uma cidade onde se pode comer praticamente qualquer coisa do mundo, em qualquer faixa de preço, da comida de rua simples aos restaurantes mais sofisticados da América Latina. Essa diversidade não está só no prato, está em toda a cidade: São Paulo é um caldeirão de culturas, sotaques, religiões e origens, e essa mistura, ainda que nem sempre fácil, é a sua característica mais marcante e mais rica. É uma cidade que prova que a grandeza não precisa vir de uma paisagem, pode vir das pessoas."
+      },
+      {
+        "h": "Viver em São Paulo: o desafio e a recompensa",
+        "body": "Morar em São Paulo é uma experiência intensa, com um lado duro e um lado recompensador, e quem conhece a cidade costuma ter uma relação de amor e ódio com ela. O lado duro é real e conhecido. O trânsito é um dos piores do mundo, e as distâncias enormes fazem com que muita gente gaste horas todos os dias se deslocando. O custo de vida é alto para os padrões brasileiros, especialmente a moradia. A desigualdade é gritante, com regiões riquíssimas e periferias carentes muito distantes do centro. O clima cinzento e a poluição não ajudam na primeira impressão. E o próprio ritmo acelerado, que é a energia da cidade, pode virar estresse e exaustão. Por tudo isso, São Paulo é uma cidade que muita gente acha difícil de amar de imediato. Mas há o outro lado, e ele explica por que tantos escolhem ficar. São Paulo é, no Brasil, a cidade das oportunidades: é onde estão os melhores empregos em muitas áreas, as melhores escolas e universidades, a maior oferta cultural. É uma cidade onde se pode reinventar a vida, onde a diversidade permite que cada um encontre a sua tribo, onde o anonimato da grande metrópole dá liberdade. Quem se adapta a São Paulo costuma descobrir uma cidade vibrante, surpreendente e cheia de possibilidades. A recompensa de São Paulo não é a beleza, é a vida, na sua forma mais densa e completa."
+      }
+    ],
+    "faq": [
+      {
+        "q": "São Paulo ou Rio de Janeiro: qual é melhor?",
+        "a": "São cidades muito diferentes, e a escolha depende do que você procura. O Rio tem a paisagem deslumbrante, a praia, o clima de celebração e a informalidade. São Paulo não tem cartões-postais naturais, mas oferece muito mais em termos de oportunidades de trabalho, gastronomia, oferta cultural e diversidade. O carioca valoriza o lazer e a vida ao ar livre; o paulistano, o trabalho e o movimento. Para visitar como turista, o Rio costuma encantar mais rápido. Para construir uma carreira ou buscar variedade, São Paulo costuma oferecer mais."
+      },
+      {
+        "q": "Vale a pena visitar São Paulo como turista?",
+        "a": "Sim, mas com expectativas certas. São Paulo não é uma cidade de cartões-postais naturais, então quem busca praia e paisagem pode se decepcionar. Mas para quem gosta de gastronomia, vida cultural, museus, vida noturna e da energia das grandes metrópoles, São Paulo é riquíssima. É possível comer comida de qualquer lugar do mundo, ver grandes exposições e mergulhar numa cidade vibrante e diversa. O melhor jeito de aproveitar São Paulo é encará-la como uma experiência urbana intensa, não como um destino de cartão-postal."
+      },
+      {
+        "q": "O que é a garoa paulistana?",
+        "a": "A garoa é uma chuvinha fina, leve e persistente, de gotas miúdas, típica do clima de São Paulo. Ela faz parte da identidade da cidade a ponto de São Paulo já ter sido chamada de terra da garoa. O clima paulistano é conhecido por ser instável, podendo mudar várias vezes no mesmo dia, e a garoa é um dos seus traços mais característicos, junto com o céu cinzento. Para quem visita, vale sempre levar um agasalho leve e algo para a chuva, independentemente da estação, porque São Paulo gosta de surpreender no tempo."
+      },
+      {
+        "q": "Por que São Paulo é considerada a capital da comida?",
+        "a": "Por causa da sua história de imigração. São Paulo foi construída por ondas de imigrantes de todo o mundo, italianos, japoneses, portugueses, libaneses, além de migrantes de todas as regiões do Brasil. Cada grupo trouxe a sua cozinha. A cidade tem a maior comunidade japonesa fora do Japão, uma forte herança italiana que fez da pizza um item quase sagrado, comida árabe, portuguesa e de todo o Brasil. O resultado é uma cidade onde se pode comer praticamente qualquer coisa do mundo, em todas as faixas de preço, da rua aos melhores restaurantes."
+      }
+    ],
+    "related": ["rio", "salvador", "fortaleza", "lisboa", "pizza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "salvador",
+    "locale": "pt",
+    "keyword": "Salvador",
+    "matchPatterns": ["salvador", "bahia", "baiano", "pelourinho", "axé", "acaraje"],
+    "topic": "travel",
+    "title": "Salvador — a capital da alegria, do axé e da história",
+    "description": "O que faz de Salvador uma cidade única, sua poderosa cultura afro-brasileira e por que ela vira debate de viagem e identidade no moomz. Olhar BR e PT.",
+    "emoji": "🥁",
+    "intro": "Salvador é uma das cidades mais especiais do Brasil, um lugar onde a história, a religião, a música e a alegria se misturam de um jeito que existe em poucos lugares do mundo. Capital do estado da Bahia, no nordeste brasileiro, Salvador foi a primeira capital do Brasil colonial, fundada no século dezesseis, e por muito tempo o principal porto e centro do país. Essa importância histórica deixou marcas profundas, especialmente uma marca trágica e fundadora: Salvador foi um dos maiores portos de chegada de africanos escravizados nas Américas. Dessa história dolorosa nasceu, ao longo de séculos de resistência e criação, uma cultura afro-brasileira riquíssima, e é exatamente essa cultura que faz de Salvador o que ela é hoje. A cidade é considerada o coração da identidade negra brasileira, o lugar onde as tradições, as religiões, os sabores e os ritmos de matriz africana sobreviveram e floresceram com mais força. Salvador respira música: é o berço de gêneros como o axé, e tem uma das relações mais intensas do Brasil com o ritmo, com a percussão, com a festa. É uma cidade de fé, com o catolicismo e o candomblé, religião afro-brasileira, convivendo e se misturando. É uma cidade de uma gastronomia inconfundível, perfumada pelo azeite de dendê. E é uma cidade de uma beleza marcante, com o casario colorido do Pelourinho, as igrejas douradas, o mar. Para os portugueses, Salvador guarda também ecos da própria história colonial. No moomz, Salvador rende debate de viagem e de cultura. Pergunta se você visitaria a Bahia, qual a cidade mais alegre do Brasil, e a galera se anima. Este guia abre Salvador.",
+    "sections": [
+      {
+        "h": "O Pelourinho e a primeira capital do Brasil",
+        "body": "O coração histórico de Salvador é o Pelourinho, e caminhar por ele é caminhar por séculos de história brasileira. O Pelourinho é o centro histórico da cidade, um conjunto de ruas de paralelepípedo, ladeiras e casarios coloniais pintados em cores vivas, com igrejas barrocas espetaculares. Esse conjunto é tão importante que foi reconhecido pela UNESCO como patrimônio cultural da humanidade, considerado um dos mais notáveis acervos de arquitetura colonial das Américas. Salvador foi fundada em 1549 e tornou-se a primeira capital do Brasil colonial, mantendo esse papel por mais de dois séculos, antes de a capital passar para o Rio de Janeiro. Essa era de poder deixou na cidade as igrejas suntuosas, como a Igreja de São Francisco, célebre pelos seus interiores cobertos de talha dourada, uma das mais impressionantes do barroco brasileiro. Mas o nome Pelourinho carrega também uma memória sombria: o pelourinho era o lugar onde, no período colonial, pessoas escravizadas eram castigadas em público. O centro histórico de Salvador, portanto, não é só um cenário bonito, é um lugar carregado, onde a beleza da arquitetura e a dor da história colonial coexistem. Hoje, o Pelourinho é também um centro vivo de cultura, com música nas ruas, grupos de percussão ensaiando, capoeira, e uma energia que mistura o peso do passado com a vitalidade do presente."
+      },
+      {
+        "h": "Axé, candomblé e a alma afro-brasileira",
+        "body": "Salvador é, acima de tudo, a capital da cultura afro-brasileira, e isso se sente em cada aspecto da cidade. Tudo começa na música. Salvador tem uma relação visceral com o ritmo e a percussão, e é o berço de manifestações musicais poderosas. O axé, gênero musical animado e dançante surgido na Bahia, leva esse nome de uma palavra que vem das religiões afro-brasileiras e significa energia vital, força positiva. Grupos de percussão como os blocos afro, nascidos da afirmação da identidade negra, transformaram o som dos tambores numa marca da cidade. A capoeira, aquela mistura única de luta, dança e jogo criada por africanos escravizados no Brasil, tem em Salvador um dos seus lares mais importantes. E há a dimensão religiosa: o candomblé, religião de matriz africana trazida e recriada no Brasil, é uma presença central na cultura de Salvador, com os seus terreiros, os seus orixás, as suas festas, as suas roupas brancas. A cidade vive um sincretismo intenso, em que o catolicismo e o candomblé se misturam, e festas religiosas reúnem multidões. Tudo isso desemboca no Carnaval de Salvador, um dos maiores do mundo, diferente do Carnaval do Rio: é um Carnaval de rua, de trios elétricos, caminhões de som que arrastam multidões pelas avenidas ao som do axé. Salvador é uma cidade onde a herança africana, longe de ser um detalhe folclórico, é a própria espinha dorsal da identidade."
+      },
+      {
+        "h": "A comida, o sol e o jeito baiano de ser",
+        "body": "Salvador conquista também pela mesa e pelo modo de vida. A gastronomia baiana é uma das mais marcantes e reconhecíveis do Brasil, e o seu segredo é o azeite de dendê, um óleo de cor alaranjada intensa e sabor próprio, extraído de uma palmeira de origem africana. O prato mais emblemático é o acarajé, um bolinho de feijão frito no dendê, recheado de vatapá, camarão e outros acompanhamentos, vendido nas ruas por baianas vestidas com as roupas brancas tradicionais, uma cena que é um símbolo da cidade. Há também a moqueca baiana, um ensopado de peixe ou frutos do mar com dendê, leite de coco, pimentão e coentro, e muitos outros pratos perfumados e intensos. A comida de Salvador é, mais uma vez, herança africana misturada com ingredientes do Brasil. Além da mesa, Salvador é uma cidade de clima quente e ensolarado quase o ano todo, banhada pelo mar, com praias dentro e perto da cidade. E há o jeito baiano de ser, uma fama que os baianos carregam com orgulho: a fama de um povo caloroso, alegre, acolhedor, com uma relação especial com o tempo, sem a pressa frenética das grandes metrópoles do sudeste. O baiano é conhecido por valorizar o prazer de viver, a conversa, a música, a celebração. Esse jeito de levar a vida, somado à beleza e à riqueza cultural, faz de Salvador uma cidade que muitos visitantes descrevem como tendo uma alma, uma energia particular que fica na memória."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Salvador?",
+        "a": "Salvador tem clima quente e ensolarado quase o ano todo, o que é uma vantagem. O período de setembro a março costuma ser mais seco e ensolarado, ótimo para praia. Os meses entre abril e julho tendem a ser mais chuvosos. Vale considerar também o calendário de festas: o Carnaval de Salvador, geralmente em fevereiro ou março, é um dos maiores do mundo e uma experiência única, mas a cidade fica cheíssima e os preços sobem muito. Para quem prefere tranquilidade, vale fugir do período de Carnaval e de festas grandes."
+      },
+      {
+        "q": "Por que Salvador é chamada de capital da cultura afro-brasileira?",
+        "a": "Porque Salvador foi um dos maiores portos de chegada de africanos escravizados nas Américas, e dessa história, ao longo de séculos de resistência e criação, nasceu uma cultura afro-brasileira riquíssima. A cidade é considerada o coração da identidade negra brasileira, o lugar onde tradições, religiões como o candomblé, sabores como a comida do dendê, ritmos como o axé e práticas como a capoeira sobreviveram e floresceram com mais força. Essa herança africana não é um detalhe folclórico em Salvador, é a própria espinha dorsal da identidade da cidade."
+      },
+      {
+        "q": "O que é o acarajé?",
+        "a": "O acarajé é o prato de rua mais emblemático de Salvador. É um bolinho feito de massa de feijão, frito no azeite de dendê, aquele óleo alaranjado de origem africana, e recheado com vatapá, camarão, salada e pimenta. É tradicionalmente vendido nas ruas pelas baianas, mulheres vestidas com as roupas brancas tradicionais, numa cena que virou símbolo da cidade. O acarajé é, ao mesmo tempo, uma comida deliciosa e um patrimônio cultural, ligado à herança africana e às tradições religiosas afro-brasileiras da Bahia."
+      },
+      {
+        "q": "Como é o Carnaval de Salvador?",
+        "a": "O Carnaval de Salvador é um dos maiores do mundo e bem diferente do Carnaval do Rio. Enquanto no Rio o foco são os desfiles das escolas de samba no Sambódromo, em Salvador o Carnaval é de rua: grandes caminhões de som, os trios elétricos, percorrem as avenidas tocando axé e outros ritmos, arrastando multidões que dançam atrás. É uma festa imensa, intensa e democrática, que toma a cidade inteira por dias. É uma experiência marcante, mas é importante saber que a cidade fica extremamente cheia e os preços sobem muito nesse período."
+      }
+    ],
+    "related": ["rio", "fortaleza", "sao-paulo", "lisboa", "futebol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fortaleza",
+    "locale": "pt",
+    "keyword": "Fortaleza",
+    "matchPatterns": ["fortaleza", "ceará", "ceara", "cearense", "praia do futuro", "jericoacoara"],
+    "topic": "travel",
+    "title": "Fortaleza — sol o ano todo, praia e bom humor cearense",
+    "description": "O que faz de Fortaleza um destino de praia tão querido, sua cultura solar e por que ela vira debate de viagem de verão no moomz. Olhar BR e PT.",
+    "emoji": "☀️",
+    "intro": "Fortaleza é a cidade do sol, do mar quente e do bom humor. Capital do estado do Ceará, no nordeste do Brasil, Fortaleza é uma grande metrópole litorânea conhecida principalmente por uma combinação irresistível: praias urbanas, sol praticamente garantido o ano inteiro, água do mar morna e uma cultura local marcada pela alegria e pelo humor. Para muita gente no Brasil, Fortaleza é sinônimo de férias, de viagem de descanso, de praia. A cidade tem um litoral extenso, e a sua orla, a famosa Beira-Mar, é um dos cartões-postais, com calçadão, quiosques, feira de artesanato e movimento o tempo todo. Mas a verdadeira riqueza turística do Ceará está também fora da capital: o estado guarda algumas das praias mais espetaculares do Brasil, e Fortaleza funciona como porta de entrada para destinos paradisíacos. O Ceará e a sua gente, os cearenses, são famosos no Brasil inteiro por uma característica cultural específica: o humor. O Ceará tem uma tradição forte de comédia e de pessoas engraçadas, e o cearense carrega com orgulho a fama de ser brincalhão, espirituoso e bem-humorado, capaz de fazer piada de quase tudo. Some-se a isso o clima quente e o jeito acolhedor, e fica fácil entender por que Fortaleza é um destino tão querido. Para os portugueses, o nordeste brasileiro tem um apelo crescente, com sol e praia garantidos. No moomz, Fortaleza rende debate de viagem de praia. Pergunta se você prefere praia ou cidade grande, qual o melhor destino de verão, e a galera se anima. Este guia abre a terra do sol.",
+    "sections": [
+      {
+        "h": "Praias urbanas e o paraíso ao redor",
+        "body": "O grande trunfo de Fortaleza e do Ceará são as praias, e elas vêm em camadas. Na própria cidade, a orla da Beira-Mar é o centro da vida litorânea, com o seu calçadão movimentado, ideal para caminhar, andar de bicicleta e visitar a feira de artesanato à noite. A Praia do Futuro, mais extensa, é famosa pelas barracas de praia, grandes estruturas que servem comida e bebida com música, onde os fortalezenses passam o dia. Mas o que faz do Ceará um destino realmente extraordinário está fora da capital, ao longo do litoral. Jericoacoara, conhecida carinhosamente como Jeri, é talvez a praia mais famosa do estado: uma vila encravada entre dunas de areia, lagoas de água cristalina e um mar perfeito para esportes como o kitesurf, um lugar de beleza quase irreal, que já apareceu em listas das praias mais bonitas do mundo. O litoral cearense tem ainda inúmeras outras praias deslumbrantes, com dunas, falésias coloridas, lagoas, e aquele cenário de Nordeste de cartão-postal. Fortaleza funciona como base e porta de entrada para explorar tudo isso. A combinação é poderosa: uma capital com infraestrutura, vida noturna e movimento, e, a poucas horas dela, alguns dos cenários de praia mais bonitos do Brasil. Para quem busca sol e mar, o Ceará entrega de forma generosa."
+      },
+      {
+        "h": "O sol que não falta e o clima de férias",
+        "body": "Um dos maiores atrativos de Fortaleza é algo que parece simples, mas faz toda a diferença: o sol. Fortaleza tem um clima quente e ensolarado durante praticamente o ano inteiro. Diferente de cidades onde o tempo é imprevisível, em Fortaleza a chance de pegar dias de sol é altíssima na maior parte do ano, e mesmo o período de chuvas, concentrado em alguns meses do primeiro semestre, costuma ter pancadas rápidas seguidas de sol. A água do mar é morna, convidativa, sem aquele choque frio de outros litorais. Esse clima constante tem um efeito sobre toda a cidade: Fortaleza vive com um clima de férias permanente, uma cidade voltada para o lazer ao ar livre, para a praia, para a vida solar. As pessoas usam roupas leves, frequentam a praia o ano todo, e a vida acontece muito fora de casa. Essa previsibilidade do bom tempo é um dos motivos pelos quais Fortaleza se consolidou como um destino turístico tão forte: quem viaja para lá tem quase a garantia de encontrar sol. Para visitantes vindos de lugares de inverno rigoroso, como muitas regiões da Europa, esse sol constante e esse calor são parte enorme do encanto. Fortaleza é, nesse sentido, uma cidade que vende um produto difícil de bater: o verão o ano inteiro, com o mar sempre quente esperando."
+      },
+      {
+        "h": "O humor cearense e o jeito de ser do Ceará",
+        "body": "Existe uma característica cultural pela qual o Ceará é famoso no Brasil inteiro, e que faz parte do charme de visitar Fortaleza: o humor. O cearense tem a fama, amplamente reconhecida, de ser um povo especialmente engraçado, brincalhão e espirituoso. O Ceará é considerado uma espécie de celeiro de comédia do Brasil, um lugar que produz muitos humoristas e tem uma cultura forte de fazer rir. Essa característica não está só nos palcos, está no dia a dia: o cearense costuma ter uma facilidade natural para a piada, para o trocadilho, para encontrar graça nas situações, para usar o bom humor como ferramenta de convívio. Essa leveza se combina com outros traços do jeito de ser do Ceará e do Nordeste em geral: a hospitalidade, o calor humano, a receptividade ao visitante, a relação descontraída com o tempo. O cearense é conhecido por ser acolhedor e por receber bem quem chega de fora. Para o turista, isso transforma a experiência: além do sol e das praias, encontra-se uma cidade onde as pessoas tendem a ser simpáticas, brincalhonas e prestativas. Essa combinação de elementos, o clima ensolarado, as praias extraordinárias, a comida do Nordeste e o bom humor da gente, é o que faz de Fortaleza muito mais do que um destino de praia: é um destino com uma personalidade calorosa, onde se vai pelo mar e se volta também pela energia leve e alegre do povo cearense."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Fortaleza?",
+        "a": "Fortaleza tem sol quase o ano todo, o que facilita. O segundo semestre, aproximadamente de julho a dezembro, costuma ser o período mais seco e ensolarado, ideal para praia. O primeiro semestre concentra a estação chuvosa, mas mesmo assim costuma ter sol entre as pancadas de chuva, que tendem a ser rápidas. Como Fortaleza fica perto do equador, não há grandes variações de temperatura: faz calor o ano inteiro. Para garantir o máximo de sol, o segundo semestre é a aposta mais segura."
+      },
+      {
+        "q": "O que é Jericoacoara?",
+        "a": "Jericoacoara, conhecida como Jeri, é uma das praias mais famosas do Ceará e do Brasil. É uma vila encravada entre dunas de areia, com lagoas de água cristalina e um mar excelente para esportes como o kitesurf. A beleza do lugar é quase irreal, e Jeri já apareceu em listas das praias mais bonitas do mundo. Fica a algumas horas de Fortaleza, que funciona como porta de entrada. Jeri tem um clima rústico e ao mesmo tempo charmoso, e é um dos destinos mais procurados por quem visita o litoral cearense."
+      },
+      {
+        "q": "Por que os cearenses têm fama de engraçados?",
+        "a": "O Ceará é conhecido no Brasil inteiro como uma espécie de celeiro de comédia, um lugar que produz muitos humoristas e tem uma cultura forte de fazer rir. O cearense carrega com orgulho a fama de ser brincalhão, espirituoso e bem-humorado, com uma facilidade natural para a piada e o trocadilho. Esse humor não está só nos palcos, está no dia a dia, no jeito de conversar e de encontrar graça nas situações. É um traço cultural marcante que, somado à hospitalidade, torna a experiência de visitar Fortaleza ainda mais leve e agradável."
+      },
+      {
+        "q": "Fortaleza é um bom destino de praia?",
+        "a": "Sim, e por vários motivos. A própria cidade tem praias urbanas movimentadas e uma orla animada. Mas o grande trunfo é a localização: Fortaleza é a porta de entrada para um litoral cearense espetacular, com praias paradisíacas como Jericoacoara, dunas, falésias coloridas e lagoas. Some-se a isso o sol quase garantido o ano todo, o mar morno, a boa comida do Nordeste e o bom humor da gente, e fica claro por que Fortaleza se consolidou como um dos destinos de praia mais queridos do Brasil."
+      }
+    ],
+    "related": ["salvador", "rio", "sao-paulo", "cancun", "miami"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "paris",
+    "locale": "pt",
+    "keyword": "Paris",
+    "matchPatterns": ["paris", "torre eiffel", "frança", "franca", "louvre", "champs-elysées"],
+    "topic": "travel",
+    "title": "Paris — a cidade-luz entre o sonho e a realidade",
+    "description": "O que torna Paris mágica, seus monumentos, seu charme e por que vira debate de viagem no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🗼",
+    "intro": "Paris é, provavelmente, a cidade mais sonhada do mundo. Capital da França, ela carrega uma reputação tão forte de romance, beleza e elegância que, antes mesmo de pisar nela, a maioria das pessoas já tem uma Paris imaginária na cabeça, construída por filmes, livros, fotos e canções. Paris é a cidade-luz, apelido que vem tanto do papel histórico da cidade como centro de ideias do Iluminismo quanto, mais tarde, da iluminação pública que a tornou famosa à noite. É uma cidade de uma beleza arquitetônica notável, com a sua uniformidade elegante de prédios cor de pedra clara, os bulevares largos, as pontes sobre o rio Sena, que corta a cidade e cuja paisagem nas margens é reconhecida pela UNESCO como patrimônio mundial. Paris é uma capital cultural de primeira grandeza: tem alguns dos museus mais importantes do planeta, uma história artística, literária e intelectual densíssima, e uma relação famosa com a moda, a gastronomia e a arte de viver. Mas Paris também é uma cidade real, com defeitos, e os visitantes às vezes se surpreendem ao descobrir que a Paris de verdade não é só o cartão-postal: é uma metrópole grande, movimentada, às vezes caótica, com os problemas de qualquer cidade enorme. Tanto para portugueses quanto para brasileiros, Paris ocupa um lugar especial no imaginário, símbolo da Europa, do romance, da cultura. No moomz, Paris rende debate de viagem dos sonhos. Pergunta se você visitaria Paris, qual a cidade mais romântica do mundo, se Paris é só hype, e a galera se divide. Este guia abre a cidade-luz.",
+    "sections": [
+      {
+        "h": "A Torre Eiffel, o Louvre e os monumentos lendários",
+        "body": "Paris tem uma concentração impressionante de monumentos famosos, e vê-los ao vivo, depois de tê-los visto mil vezes em imagens, costuma ser emocionante. O símbolo máximo é a Torre Eiffel, a imensa estrutura de ferro construída no fim do século dezenove para uma exposição mundial. Curiosamente, na época, muitos parisienses a acharam feia e protestaram contra ela, e a torre era para ser temporária; hoje, é a imagem que define a cidade no mundo inteiro, especialmente iluminada à noite. O Museu do Louvre é o maior e um dos mais visitados museus do planeta, instalado num antigo palácio real, lar de obras lendárias como a Mona Lisa, de Leonardo da Vinci. A Catedral de Notre-Dame, obra-prima da arquitetura gótica medieval na ilha no meio do Sena, sofreu um grave incêndio em 2019 que comoveu o mundo e passou por uma longa restauração. Há ainda o Arco do Triunfo, no topo da avenida dos Champs-Élysées, a Basílica do Sacré-Coeur no alto da colina de Montmartre, o antigo bairro dos artistas, e tantos outros. Paris é uma cidade onde se anda e se esbarra em história e beleza a cada esquina. A recomendação de quem conhece é não tentar ver tudo de forma corrida, mas escolher, alternar os grandes monumentos com o simples prazer de caminhar pelos bairros e ao longo do Sena."
+      },
+      {
+        "h": "O charme parisiense: cafés, bairros e arte de viver",
+        "body": "Paris não se resume aos grandes monumentos. Boa parte do seu charme está nas coisas pequenas e no modo de vida. A cidade é famosa pelos seus cafés, aqueles estabelecimentos com mesinhas na calçada onde a tradição não é só beber um café, é sentar, observar a cidade passar, conversar, ler, demorar. Esse hábito de ocupar a rua, de transformar o café num pequeno teatro da vida urbana, é parte essencial da experiência parisiense. Paris é também uma cidade de bairros muito distintos, cada um com a sua personalidade: o charme literário de Saint-Germain-des-Prés, a boemia artística de Montmartre, o ar histórico do Marais, a elegância de certos bairros, a vida jovem de outros. Caminhar sem pressa de bairro em bairro, descobrir uma padaria, uma pequena praça, uma livraria, é uma forma de conhecer Paris muitas vezes mais rica do que correr atrás de monumentos. A cidade tem ainda uma relação célebre com a gastronomia, dos restaurantes sofisticados às padarias de bairro com os seus pães e croissants, com a moda, e com uma certa arte de viver francesa que valoriza o prazer, a estética, o tempo bem gasto. É esse conjunto de coisas, mais do que qualquer monumento isolado, que faz tanta gente se apaixonar por Paris e querer voltar."
+      },
+      {
+        "h": "Paris dos sonhos e Paris real: equilibrando expectativas",
+        "body": "Existe um fenômeno curioso e bem documentado ligado a Paris: a distância entre a cidade imaginada e a cidade real. Como Paris é tão idealizada, tão presente em filmes e fantasias, alguns visitantes chegam com uma expectativa tão alta que a realidade, qualquer realidade, decepciona. Esse choque entre o sonho e o concreto é tão conhecido que chegou a receber nomes na psicologia do turismo. A Paris real é uma metrópole grande e movimentada, com tudo o que isso implica: trânsito, multidões nos pontos turísticos, transporte lotado em horário de pico, e os problemas comuns de qualquer cidade enorme. Não é a cidade-cenário perfeita e vazia dos filmes. Mas a boa notícia é que essa não é uma razão para não amar Paris, é apenas uma razão para visitá-la com expectativas calibradas. Quem chega entendendo que Paris é uma cidade viva e real, e não um parque temático, costuma se encantar de verdade, porque passa a apreciar o que a cidade genuinamente oferece, a beleza arquitetônica, a riqueza cultural, o charme dos bairros, o prazer dos cafés e das caminhadas, em vez de buscar uma perfeição que não existe em lugar nenhum. A Paris real, com os seus defeitos, ainda é uma cidade extraordinária. O segredo, como em tantas viagens, é trocar a expectativa do conto de fadas pela curiosidade aberta de quem quer conhecer um lugar como ele de fato é."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Paris?",
+        "a": "A primavera, de abril a junho, e o início do outono, em setembro e outubro, são geralmente apontados como as melhores épocas. O clima fica ameno e agradável, e a cidade, embora sempre movimentada, está um pouco menos lotada que no auge do verão. O verão é animado mas pode ser quente e muito cheio. O inverno é frio e cinzento, mas tem o seu charme, especialmente no período de Natal. A primavera parisiense, com a cidade florida e o clima suave, costuma ser a estação preferida de muitos visitantes."
+      },
+      {
+        "q": "Vale a pena visitar Paris ou é só hype?",
+        "a": "Paris é muito idealizada, mas, para a maioria dos visitantes, ela vale a pena de verdade, desde que se vá com expectativas realistas. A cidade tem uma beleza arquitetônica notável, museus entre os mais importantes do mundo, bairros cheios de charme e uma arte de viver particular. O que decepciona alguns não é Paris em si, é a diferença entre a cidade-cenário perfeita dos filmes e a metrópole real, movimentada e cheia. Quem visita Paris entendendo que é uma cidade viva, e não um parque temático, costuma se encantar."
+      },
+      {
+        "q": "A Torre Eiffel sempre foi amada pelos parisienses?",
+        "a": "Não. Quando a Torre Eiffel foi construída, no fim do século dezenove, para uma exposição mundial, muitos parisienses, incluindo artistas e intelectuais, a acharam feia e protestaram contra ela, considerando-a uma agressão à beleza da cidade. A torre era inclusive para ser uma estrutura temporária. Com o tempo, porém, ela se tornou amada e virou o símbolo absoluto de Paris no mundo inteiro. É um bom lembrete de que o gosto muda: o que foi rejeitado virou o cartão-postal mais famoso da cidade."
+      },
+      {
+        "q": "Paris é uma cidade cara?",
+        "a": "Paris é, sim, uma das capitais europeias mais caras, especialmente em hospedagem e em restaurantes nas áreas turísticas. Mas é possível visitá-la sem gastar uma fortuna com algum planejamento: muitos dos maiores prazeres de Paris são acessíveis ou gratuitos, como caminhar pelos bairros, passear ao longo do Sena, ver a arquitetura, frequentar parques e aproveitar a cidade a pé. Comer em padarias de bairro e fugir das armadilhas turísticas das zonas mais famosas também ajuda muito a controlar o orçamento."
+      }
+    ],
+    "related": ["londres", "nova-york", "lisboa", "toquio", "porto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "londres",
+    "locale": "pt",
+    "keyword": "Londres",
+    "matchPatterns": ["londres", "london", "inglaterra", "big ben", "reino unido", "tâmisa"],
+    "topic": "travel",
+    "title": "Londres — a metrópole global onde tudo coexiste",
+    "description": "O que torna Londres fascinante, sua história, sua diversidade e por que vira debate de viagem no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🇬🇧",
+    "intro": "Londres é uma das cidades mais importantes e fascinantes do planeta, uma metrópole que combina, como poucas, peso histórico e modernidade vibrante. Capital do Reino Unido, situada às margens do rio Tâmisa, Londres é uma cidade imensa, antiga e em constante reinvenção. Ela tem quase dois mil anos de história, fundada pelos romanos, e desde então foi se transformando, sobrevivendo a incêndios, pestes, guerras e bombardeios, sempre se reconstruindo. Londres foi, durante muito tempo, o centro de um vasto império, e essa história, com toda a sua complexidade e os seus capítulos sombrios, deixou a cidade marcada de monumentos, instituições e, sobretudo, de uma diversidade enorme. Hoje, Londres é uma das cidades mais cosmopolitas do mundo: uma metrópole onde se falam centenas de idiomas, onde convivem pessoas de praticamente todas as origens, religiões e culturas, uma verdadeira capital global. É uma cidade de contrastes que coexistem: palácios e arranha-céus de vidro, tradição da realeza e cultura jovem de vanguarda, mercados antigos e bairros de tecnologia. Londres é também um centro mundial de cultura, com museus de classe mundial, muitos deles gratuitos, teatro, música. O clima tem fama, nem sempre justa, de cinzento e chuvoso, e a cidade é cara, mas a sua energia e a sua variedade são incomparáveis. Para portugueses e brasileiros, Londres é um destino e também um destino de quem busca trabalho e estudo. No moomz, Londres rende debate de viagem e de cidade. Pergunta se você moraria em Londres, se prefere Londres ou Paris, qual a cidade mais cosmopolita do mundo, e a galera se divide. Este guia abre Londres.",
+    "sections": [
+      {
+        "h": "Da Torre de Londres aos arranha-céus: história e modernidade",
+        "body": "Caminhar por Londres é caminhar por todas as épocas ao mesmo tempo. A cidade guarda monumentos de quase dois mil anos de história. A Torre de Londres é uma fortaleza medieval às margens do Tâmisa, que ao longo dos séculos foi palácio, prisão e local de execuções, e que hoje guarda as joias da coroa britânica. O Palácio de Westminster, sede do Parlamento, com a sua famosa torre do relógio popularmente chamada de Big Ben, é uma imagem icônica da cidade. A Abadia de Westminster, onde acontecem coroações e casamentos reais, e o Palácio de Buckingham, residência oficial da monarquia, ligam Londres à instituição da realeza, que ainda é parte central da identidade britânica. Mas, ao lado de tudo isso, Londres é também uma cidade de modernidade ousada. O horizonte da cidade ganhou nas últimas décadas arranha-céus de vidro com formas marcantes e apelidos populares, a London Eye, uma enorme roda-gigante à beira do rio, e zonas inteiras reinventadas, como antigas áreas portuárias e industriais transformadas em centros de negócios e cultura. Essa convivência entre o muito antigo e o muito novo, sem que um anule o outro, é uma das características mais marcantes de Londres. É uma cidade que respeita a sua história sem ficar congelada nela, sempre se transformando."
+      },
+      {
+        "h": "A cidade mais cosmopolita: diversidade e cultura",
+        "body": "Talvez a característica mais definidora da Londres de hoje seja a diversidade. Londres é uma das cidades mais multiculturais do mundo, uma metrópole onde convivem pessoas de praticamente todos os países, culturas, religiões e origens, e onde se falam centenas de idiomas diferentes. Essa diversidade é resultado de séculos de história, incluindo o passado imperial e décadas de imigração, e ela molda a cidade inteira. Está nos bairros, cada um com a sua identidade e as suas comunidades. Está, de forma deliciosa, na comida: Londres deixou para trás a velha fama de cidade de gastronomia ruim e hoje é um dos melhores lugares do mundo para comer comida de qualquer canto do planeta, justamente por causa das suas comunidades. Está na vida cultural, riquíssima e variada. Londres tem alguns dos maiores museus do mundo, e um detalhe notável é que muitos dos seus grandes museus têm entrada gratuita, o que torna a cultura acessível. A cidade é um centro mundial de teatro, com o famoso West End, de música, com uma cena que já revelou bandas e artistas lendários, e de arte contemporânea. Essa combinação de diversidade humana e abundância cultural faz de Londres uma cidade onde, literalmente, há sempre algo para descobrir, e onde cada pessoa, venha de onde vier, tem alguma chance de encontrar um pedaço de casa e, ao mesmo tempo, o mundo inteiro."
+      },
+      {
+        "h": "Viver e visitar Londres: o custo e a recompensa",
+        "body": "Londres é uma cidade que oferece muito, mas também cobra caro, e uma visão honesta precisa incluir os dois lados. O lado difícil é, sobretudo, financeiro. Londres é uma das cidades mais caras do mundo, especialmente no que diz respeito à moradia: alugar ou comprar casa na capital britânica custa muito, e esse é o maior desafio de quem pensa em morar lá. Outros custos, como transporte e lazer, também pesam. O clima é outro ponto da fama da cidade: Londres tem, de fato, muitos dias cinzentos e chuvas frequentes, ainda que a reputação seja um pouco exagerada e a cidade também tenha os seus dias bonitos. E, como toda metrópole gigante, Londres tem o seu ritmo intenso e as suas distâncias. Mas há o outro lado, e ele é poderoso. Londres é uma cidade de oportunidades enormes, um centro mundial de finanças, negócios, cultura, educação e criatividade, e é por isso que atrai gente do mundo todo, incluindo muitos portugueses e brasileiros em busca de trabalho e de estudo. É uma cidade onde a diversidade significa liberdade, onde é mais fácil ser quem se é. É uma cidade com uma oferta cultural quase infinita, muita dela acessível. Para o visitante, Londres recompensa quem se prepara: planejar, aproveitar os museus gratuitos, os parques, as caminhadas, e encarar a cidade como uma das experiências urbanas mais ricas que existem. A recompensa de Londres não é barata, mas é grande."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Londres?",
+        "a": "Os meses de maio a setembro são geralmente os melhores: os dias são mais longos, o clima é mais ameno e há mais chance de sol, embora a chuva possa aparecer em qualquer época. O verão é a alta temporada, com a cidade mais animada e mais cheia. O período de Natal tem um charme especial, com luzes e decoração, apesar do frio e dos dias curtos. Londres pode ser visitada o ano todo, mas para aproveitar melhor os parques e as caminhadas, os meses mais quentes levam vantagem."
+      },
+      {
+        "q": "Os museus de Londres são realmente gratuitos?",
+        "a": "Muitos dos maiores museus de Londres têm, sim, entrada gratuita para a coleção permanente, o que é uma característica notável da cidade e torna a cultura muito acessível. Vale lembrar que exposições temporárias especiais costumam ser pagas, e que outros tipos de atrações, como certos monumentos e a London Eye, cobram ingresso. Mas o fato de alguns dos museus mais importantes do mundo poderem ser visitados gratuitamente é uma grande vantagem para quem viaja a Londres com orçamento controlado."
+      },
+      {
+        "q": "Londres ou Paris: qual escolher?",
+        "a": "São duas grandes capitais europeias com personalidades diferentes. Paris é mais compacta, com uma beleza arquitetônica uniforme e uma fama de romance e arte de viver. Londres é maior, mais cosmopolita e diversa, com uma mistura intensa de tradição e modernidade e uma vida cultural enorme. Paris encanta pela elegância e pelo charme dos bairros; Londres impressiona pela energia, pela variedade e pela diversidade humana. Quem pode, visita as duas, já que ficam relativamente perto. Quem precisa escolher deve pensar se prefere charme e romance ou cosmopolitismo e movimento."
+      },
+      {
+        "q": "Londres é uma cidade cara?",
+        "a": "Sim, Londres é uma das cidades mais caras do mundo, especialmente no custo da moradia, que é o maior desafio para quem pensa em morar lá. Transporte e lazer também pesam. Mas é possível visitar Londres sem gastar uma fortuna: muitos dos grandes museus têm entrada gratuita, os parques são lindos e abertos, e caminhar pela cidade é uma das melhores formas de conhecê-la. Com planejamento, escolha cuidadosa de hospedagem e aproveitando as muitas opções gratuitas, dá para viver Londres mesmo com um orçamento mais apertado."
+      }
+    ],
+    "related": ["paris", "nova-york", "toquio", "lisboa", "miami"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nova-york",
+    "locale": "pt",
+    "keyword": "Nova York",
+    "matchPatterns": ["nova york", "nova iorque", "new york", "manhattan", "times square", "estátua da liberdade"],
+    "topic": "travel",
+    "title": "Nova York — a cidade que nunca dorme",
+    "description": "O que torna Nova York eletrizante, seus bairros, sua energia e por que vira debate de viagem no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🗽",
+    "intro": "Nova York é, talvez, a cidade mais cinematográfica do mundo. Antes de qualquer pessoa visitá-la, ela já a conhece, porque Nova York foi cenário de incontáveis filmes, séries, músicas e fotos. É a cidade dos arranha-céus, dos táxis amarelos, das luzes da Times Square, dos sonhos grandes. Conhecida pelo apelido de a cidade que nunca dorme, Nova York vive num ritmo de intensidade quase incomparável, vinte e quatro horas por dia. Não é a capital dos Estados Unidos, mas é, em muitos sentidos, a capital cultural, financeira e simbólica do país, e um dos centros do mundo. A cidade se espalha por cinco grandes regiões, os boroughs, sendo Manhattan a mais icônica, aquela ilha densa e vertical onde se concentram muitos dos cartões-postais. Nova York foi construída por imigrantes: durante mais de um século, milhões de pessoas de todo o mundo chegaram aos Estados Unidos passando pela cidade, e a Estátua da Liberdade, presente da França inaugurado no fim do século dezenove, tornou-se o símbolo dessa chegada, da promessa de uma vida nova. Por isso Nova York é, até hoje, uma das cidades mais diversas do planeta, um caldeirão de culturas, línguas e origens. É uma cidade de excessos, de contrastes, de energia, de ambição, intensa de um jeito que cansa alguns e fascina outros. Para portugueses e brasileiros, Nova York é o símbolo máximo do sonho americano, da grande metrópole. No moomz, Nova York rende debate de viagem dos sonhos. Pergunta se você visitaria Nova York, qual a cidade com mais energia do mundo, se moraria nos Estados Unidos, e a galera se anima. Este guia abre a Big Apple.",
+    "sections": [
+      {
+        "h": "Manhattan, os arranha-céus e os cartões-postais",
+        "body": "O coração mais reconhecível de Nova York é Manhattan, a ilha densa e vertical onde se concentram boa parte dos cartões-postais. Manhattan é a Nova York dos arranha-céus, e a cidade tem uma relação tão profunda com os edifícios altos que praticamente inventou a estética da metrópole vertical moderna. O Empire State Building, concluído nos anos trinta, foi por décadas o prédio mais alto do mundo e continua sendo um ícone. A Times Square, com os seus painéis luminosos gigantes que transformam a noite em dia, é um dos lugares mais movimentados e fotografados do planeta. O Central Park, um imenso parque retangular no meio de Manhattan, é o pulmão verde da cidade, um contraste deliberado de natureza no meio do concreto, onde os nova-iorquinos correm, descansam e fogem da intensidade urbana. A Estátua da Liberdade, na sua ilha na baía, recebe quem chega de barco e simboliza a história da cidade como porta de entrada de imigrantes. Há ainda a Brooklyn Bridge, uma ponte histórica e bela ligando Manhattan ao Brooklyn, museus de classe mundial, e bairros inteiros que são atrações em si. Mas Nova York não é só a lista de pontos turísticos: a cidade se revela de verdade ao se caminhar pelas suas ruas, ao se sentir a sua densidade, a sua verticalidade, a sua energia, ao se erguer a cabeça e ver os prédios subindo sem fim."
+      },
+      {
+        "h": "Os bairros, a diversidade e a energia da cidade",
+        "body": "Nova York é uma cidade de bairros, e a sua alma está tanto neles quanto nos monumentos. A cidade se organiza em cinco grandes regiões, e cada uma, e cada bairro dentro delas, tem uma identidade própria. Manhattan tem desde a sofisticação de certas áreas até a história de bairros como o Harlem, com a sua herança cultural afro-americana, ou Greenwich Village, ligado à boemia e à arte. O Brooklyn, que já foi visto como periférico, transformou-se num polo de criatividade, cultura jovem e gastronomia. O Queens é um dos lugares mais diversos do mundo, onde vivem comunidades de incontáveis nacionalidades. Essa diversidade é a marca de Nova York. A cidade foi construída por imigrantes e continua a ser, e isso significa que se pode encontrar, ali, comida, cultura e gente de praticamente todos os cantos do planeta. Há bairros historicamente ligados a comunidades específicas, como a Chinatown ou a Little Italy, e o tecido inteiro da cidade é multicultural. Junto da diversidade vem a energia: Nova York tem um ritmo acelerado, uma cultura de ambição e de movimento, uma sensação de que tudo é possível e tudo acontece rápido. As pessoas costumam ser diretas, a cidade não para, e há sempre algo acontecendo. Essa energia é cansativa para alguns e viciante para outros, mas é, sem dúvida, parte essencial do que faz Nova York ser Nova York."
+      },
+      {
+        "h": "O sonho de Nova York e a realidade da cidade",
+        "body": "Nova York carrega um peso simbólico imenso: ela é, no imaginário do mundo, a cidade do sonho, do lugar onde se pode chegar com nada e construir tudo, a expressão máxima do chamado sonho americano. Essa imagem tem uma base real na história, a cidade de fato recebeu milhões de imigrantes que reconstruíram a vida ali, e tem uma base na cultura, Nova York é palco de inúmeras histórias de ascensão. Mas, como toda cidade muito idealizada, Nova York real tem também as suas durezas, e conhecê-las faz parte de uma visão honesta. É uma cidade extremamente cara, com um custo de vida, especialmente de moradia, entre os mais altos do mundo, o que torna a vida ali um desafio constante para muita gente. É uma cidade de contrastes sociais gritantes, onde a riqueza enorme convive com a pobreza visível. É uma cidade intensa a ponto de ser estressante, e o seu ritmo não combina com todo mundo. Para o visitante, Nova York é uma experiência poderosa, mas que pede preparo: é uma cidade grande, agitada e cara. A leitura mais saudável é aproveitar Nova York pelo que ela genuinamente é, uma das cidades mais vibrantes, diversas e cheias de vida do planeta, um lugar de energia única, de cultura abundante, de cenários inesquecíveis, sem esperar a perfeição idealizada dos filmes. A Nova York real, com a sua intensidade e os seus contrastes, é fascinante exatamente por ser tão viva."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Nova York?",
+        "a": "Cada estação tem o seu charme. A primavera, de abril a junho, e o outono, de setembro a novembro, costumam ser as melhores épocas, com clima ameno e agradável. O outono nova-iorquino, com as folhas do Central Park mudando de cor, é especialmente bonito. O verão é quente e úmido, e o inverno é frio e pode ter neve, mas o período de Natal tem uma atmosfera mágica na cidade. Nova York funciona o ano todo, então a escolha depende de você preferir clima ameno, calor de verão ou o clima festivo do inverno."
+      },
+      {
+        "q": "Quando a Estátua da Liberdade foi inaugurada?",
+        "a": "A Estátua da Liberdade foi inaugurada em 1886, no fim do século dezenove. Ela foi um presente da França aos Estados Unidos, símbolo da amizade entre os dois países e dos ideais de liberdade. Instalada numa ilha na baía de Nova York, a estátua tornou-se um marco para os milhões de imigrantes que chegavam de barco aos Estados Unidos, vendo nela a promessa de uma vida nova. Até hoje, a Estátua da Liberdade é um dos símbolos mais reconhecíveis de Nova York e dos Estados Unidos."
+      },
+      {
+        "q": "Nova York é uma cidade cara?",
+        "a": "Sim, Nova York é uma das cidades mais caras do mundo, especialmente em hospedagem e em moradia, o que torna a vida ali um desafio para muita gente. Restaurantes e lazer também pesam no orçamento. Mas é possível visitar Nova York controlando os gastos: caminhar pela cidade é gratuito e revelador, o Central Park e muitas atrações ao ar livre não custam nada, e há museus com dias ou horários de entrada gratuita ou de valor sugerido. Planejar bem a hospedagem é o ponto mais importante para um orçamento equilibrado."
+      },
+      {
+        "q": "Por que Nova York é chamada de cidade que nunca dorme?",
+        "a": "O apelido vem do ritmo intenso e contínuo da cidade. Nova York tem uma vida que praticamente não para: transporte funcionando, lugares abertos, atividade nas ruas a qualquer hora do dia ou da noite. É uma cidade de energia acelerada, de movimento constante, com uma cultura de ambição e de fazer as coisas acontecerem rápido. Essa sensação de que sempre há algo acontecendo, de que a cidade está sempre acordada e em movimento, é uma das características mais marcantes de Nova York e a origem do famoso apelido."
+      }
+    ],
+    "related": ["miami", "londres", "paris", "toquio", "cancun"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "toquio",
+    "locale": "pt",
+    "keyword": "Tóquio",
+    "matchPatterns": ["tóquio", "toquio", "tokyo", "japão", "japao", "shibuya"],
+    "topic": "travel",
+    "title": "Tóquio — o futuro e a tradição na mesma cidade",
+    "description": "O que torna Tóquio fascinante, seus contrastes, sua cultura e por que vira debate de viagem no moomz. Olhar de quem é PT e de quem é BR.",
+    "emoji": "🏯",
+    "intro": "Tóquio é uma cidade que parece desafiar a imaginação. Capital do Japão e uma das maiores aglomerações urbanas do mundo, Tóquio é gigantesca, densa, organizada e fascinante de um jeito que costuma deixar os visitantes sem palavras. O que mais impressiona em Tóquio talvez seja a forma como ela combina, sem conflito aparente, dois extremos: a tecnologia mais avançada e futurista, com os seus bairros de luzes de neon, telas gigantes, trens-bala e máquinas para tudo, e a tradição mais delicada e antiga, com os seus templos silenciosos, jardins, cerimônias, rituais. Em Tóquio, é possível atravessar, em poucos minutos, do caos luminoso de um cruzamento famoso para a paz de um santuário cercado de árvores. A cidade é também um modelo de organização e eficiência: o seu sistema de transporte público, embora complexo, é extremamente pontual e funciona como um relógio, e há uma cultura geral de ordem, limpeza e respeito que impressiona quem chega. Tóquio é uma cidade muito segura, com índices de criminalidade baixíssimos para uma metrópole desse tamanho. É uma cidade de uma gastronomia extraordinária, de uma cultura pop influente que se espalhou pelo mundo, dos animes e dos mangás, e de uma estética e um modo de vida que fascinam. Para os ocidentais, portugueses e brasileiros incluídos, Tóquio é frequentemente descrita como a viagem mais diferente, o choque cultural mais marcante, no melhor sentido. No moomz, Tóquio rende debate de viagem dos sonhos. Pergunta se você visitaria o Japão, qual a cidade mais futurista do mundo, se prefere tradição ou modernidade, e a galera se anima. Este guia abre Tóquio.",
+    "sections": [
+      {
+        "h": "Neon e templos: a cidade dos contrastes",
+        "body": "A imagem mais marcante de Tóquio é a da convivência entre o ultramoderno e o ancestral. De um lado, há a Tóquio futurista, e bairros como Shibuya e Shinjuku são o seu cartão-postal. Shibuya tem o famoso cruzamento onde, a cada mudança de sinal, multidões enormes atravessam a rua de todas as direções ao mesmo tempo, num balé urbano cercado de telas gigantes e luzes, uma das imagens mais reconhecíveis da cidade. Shinjuku tem os seus arranha-céus, os seus letreiros de neon, a sua vida noturna intensa. Akihabara é o reino da eletrônica e da cultura pop, dos animes e dos videogames. É a Tóquio do futuro, vibrante e luminosa. Mas, do outro lado, e muitas vezes a poucos passos, há a Tóquio tradicional. A cidade guarda santuários e templos, alguns em meio a bosques que criam ilhas de silêncio no coração da metrópole. Há jardins cuidados com uma estética secular, casas de chá, ruas que preservam um ar antigo, festivais ligados às estações do ano. A época da floração das cerejeiras, na primavera, transforma a cidade e mobiliza um ritual coletivo de contemplação. Essa capacidade de Tóquio de ser, ao mesmo tempo, uma das cidades mais modernas e mais tradicionais do mundo, sem que uma coisa anule a outra, é uma das experiências mais marcantes que a cidade oferece a quem a visita."
+      },
+      {
+        "h": "Ordem, segurança e a cultura do respeito",
+        "body": "Uma das coisas que mais surpreendem os visitantes em Tóquio é a forma como a cidade, apesar de gigantesca e densíssima, funciona com uma ordem e uma tranquilidade notáveis. Tóquio é conhecida por ser extraordinariamente limpa, organizada e segura. Os índices de criminalidade são muito baixos para uma metrópole desse porte, e há uma sensação geral de segurança que impressiona quem vem de cidades mais tensas. O sistema de transporte público, ainda que complexo pela quantidade de linhas, é um exemplo mundial de eficiência e pontualidade: os trens chegam no horário com uma precisão quase irreal. Por trás dessa organização há uma cultura, e ela é parte fundamental da experiência do Japão. A sociedade japonesa valoriza profundamente o respeito ao próximo, a consideração pelo espaço coletivo, a etiqueta e a harmonia social. Isso se manifesta em comportamentos cotidianos que o visitante nota: as filas organizadas, o silêncio nos transportes, o cuidado em não incomodar os outros, a cortesia no atendimento. Existem também muitos códigos de etiqueta, alguns sutis, ligados a gestos, à forma de se comportar em certos lugares, ao respeito por regras. Para o visitante, vale a pena conhecer um pouco desses costumes antes de viajar, não por obrigação rígida, mas porque entender a cultura do respeito ajuda a apreciar de verdade o que torna Tóquio uma cidade tão singularmente harmoniosa apesar do seu tamanho colossal."
+      },
+      {
+        "h": "Comida, cultura pop e a experiência Tóquio",
+        "body": "Visitar Tóquio é mergulhar numa cidade de prazeres intensos, e dois deles merecem destaque: a comida e a cultura pop. A gastronomia de Tóquio é frequentemente apontada como uma das melhores do mundo, e não só pelos restaurantes sofisticados, dos quais a cidade tem muitos. O que encanta é a profundidade e a variedade em todos os níveis. O sushi, o ramen, o tempura, o yakitori e tantos outros pratos são levados muito a sério, e mesmo refeições simples, num pequeno restaurante de bairro ou numa loja de conveniência, costumam ter uma qualidade surpreendente. Há uma cultura japonesa de fazer cada coisa com dedicação e capricho, e isso se sente na mesa. Quem visita Tóquio costuma voltar transformado na relação com a comida. O outro grande prazer é a cultura pop. O Japão exportou para o mundo inteiro a sua cultura de animes, os desenhos animados, e mangás, as histórias em quadrinhos, e também videogames, personagens e uma estética que conquistaram gerações, no Brasil e em Portugal inclusive. Em Tóquio, essa cultura está em casa, em bairros, lojas e espaços dedicados a ela. Mas a experiência Tóquio vai além de comida e cultura pop: é a sensação geral de estar numa cidade que funciona de um jeito diferente, mais ordeira, mais cortês, mais surpreendente. É uma cidade que combina o conforto da eficiência com o encanto da diferença cultural, e é por isso que tantos visitantes a descrevem como uma das viagens mais inesquecíveis das suas vidas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Tóquio?",
+        "a": "A primavera e o outono são as épocas mais procuradas. A primavera, em torno de março e abril, traz a famosa floração das cerejeiras, um espetáculo que transforma a cidade, embora seja um período concorrido. O outono, por volta de outubro e novembro, tem clima ameno e folhagens bonitas. O verão japonês é quente e bastante úmido, e o inverno é frio mas costuma ser seco e ensolarado. Para a maioria dos visitantes, a primavera e o outono oferecem o melhor equilíbrio entre clima agradável e beleza da cidade."
+      },
+      {
+        "q": "Tóquio é uma cidade segura?",
+        "a": "Sim, Tóquio é considerada uma das grandes metrópoles mais seguras do mundo. Os índices de criminalidade são muito baixos para uma cidade desse tamanho, e há uma sensação geral de segurança que impressiona os visitantes, inclusive ao caminhar à noite ou usar o transporte público. Isso está ligado à cultura japonesa de respeito ao próximo e ao espaço coletivo. Como em qualquer lugar, o bom senso continua válido, mas a fama de cidade segura é merecida e é um dos fatores que tornam Tóquio um destino tão tranquilo de explorar."
+      },
+      {
+        "q": "É difícil visitar Tóquio sem falar japonês?",
+        "a": "É mais fácil do que muita gente imagina, embora exija um pouco de preparo. Nas áreas turísticas, em estações e em muitos restaurantes, há sinalização e cardápios com tradução, e ferramentas de tradução no celular ajudam bastante. O sistema de transporte, ainda que complexo, é navegável. Os japoneses costumam ser muito prestativos com visitantes, mesmo quando não há um idioma em comum. Aprender algumas palavras básicas de cortesia é apreciado e útil. No geral, a barreira do idioma não impede uma viagem bem-sucedida a Tóquio."
+      },
+      {
+        "q": "Por que Tóquio é vista como uma cidade futurista?",
+        "a": "Por causa de bairros como Shibuya, Shinjuku e Akihabara, com as suas telas gigantes, letreiros de neon, tecnologia presente em todo lugar e uma estética urbana que parece saída de um filme de ficção científica. A cidade tem trens de alta velocidade, máquinas e automação por todos os lados, e uma cultura de inovação. Mas o curioso é que essa Tóquio futurista convive, muitas vezes a poucos passos, com templos antigos, jardins tradicionais e rituais seculares. É justamente essa combinação de futuro e tradição que torna Tóquio tão fascinante."
+      }
+    ],
+    "related": ["paris", "londres", "nova-york", "lisboa", "miami"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "miami",
+    "locale": "pt",
+    "keyword": "Miami",
+    "matchPatterns": ["miami", "flórida", "florida", "south beach", "ocean drive", "compras"],
+    "topic": "travel",
+    "title": "Miami — sol, praia e a porta latina dos Estados Unidos",
+    "description": "O que torna Miami um destino querido, sua cultura latina e por que vira debate de viagem no moomz. Olhar de quem é BR e de quem é PT.",
+    "emoji": "🌴",
+    "intro": "Miami é um destino que mistura, de um jeito muito particular, o glamour, a praia e a cultura latina. Localizada no estado da Flórida, no sul dos Estados Unidos, Miami é conhecida pelo seu clima quente e ensolarado, pelas suas praias de areia clara e mar quente, e por uma atmosfera de lazer, festa e estilo de vida ligado ao sol. Mas o que diferencia Miami de outros destinos de praia americanos é o seu caráter fortemente latino. Por causa da sua localização e da sua história, Miami se tornou uma cidade onde a cultura latino-americana é parte central da identidade. O espanhol é amplamente falado, há uma enorme comunidade de origem latina, e a cidade funciona, em muitos aspectos, como uma ponte entre os Estados Unidos e a América Latina. Para os brasileiros, em particular, Miami ocupa um lugar muito especial: é um dos destinos americanos mais populares, procurado para férias, para compras, para lazer, e há uma presença brasileira marcante na cidade. Miami é famosa pela sua orla, pela vida noturna, pelo glamour de certos bairros, e também por ser um grande destino de compras, com shoppings e lojas que atraem visitantes de toda a América Latina. É uma cidade ligada à imagem de sol, praia, estilo e celebração. Para os portugueses, Miami representa o lado quente e festivo dos Estados Unidos, um contraponto às grandes cidades do norte. No moomz, Miami rende debate de viagem de praia e de compras. Pergunta se você prefere Miami ou uma cidade da Europa, qual o melhor destino de férias, e a galera se anima. Este guia abre Miami.",
+    "sections": [
+      {
+        "h": "Praias, sol e o estilo de vida de Miami",
+        "body": "O coração da identidade de Miami é a relação com o sol e com a praia. A cidade tem um clima quente e ensolarado durante boa parte do ano, e a sua orla é um dos principais atrativos. A área mais famosa é South Beach, em Miami Beach, com a sua extensa faixa de areia, o mar quente, e uma atmosfera que mistura praia, lazer e badalação. Ao longo da orla, a região é conhecida pela sua arquitetura art déco, um estilo de prédios em cores claras e pastel, com formas características das primeiras décadas do século vinte, especialmente concentrado em torno de Ocean Drive, uma avenida famosa pelo movimento. Essa combinação de praia e arquitetura particular dá a Miami Beach uma estética muito reconhecível. Mas Miami é mais do que uma praia: é uma cidade voltada para um certo estilo de vida ligado ao sol, ao lazer ao ar livre, à vida noturna animada e a uma imagem de glamour. A cidade tem uma vida noturna intensa, bairros associados ao luxo e à festa, e uma cultura de aproveitar o clima quente o ano todo. Para visitantes vindos de lugares de inverno rigoroso, esse sol constante e essa atmosfera de férias permanentes são parte enorme do apelo. Miami vende, com sucesso, a experiência de um destino quente, animado e com estilo, onde a praia e o clima são o pano de fundo de tudo."
+      },
+      {
+        "h": "A cidade mais latina dos Estados Unidos",
+        "body": "Se há algo que distingue Miami de outras cidades americanas, é o seu caráter profundamente latino. Por causa da sua localização no extremo sul dos Estados Unidos, próxima do Caribe e da América Latina, e por causa de décadas de história de imigração, Miami se tornou uma cidade onde a cultura latino-americana não é uma minoria, é uma parte central e definidora da identidade. O espanhol é falado por uma parcela enorme da população, ao ponto de, em muitas situações, ser tão presente quanto o inglês. A cidade tem comunidades grandes de origem latina de vários países, e bairros associados a essas culturas, como áreas ligadas à comunidade cubana, com a sua história, a sua comida, a sua música. Essa presença latina molda Miami inteira: a comida, a música, o ritmo, o jeito de socializar, a energia da cidade têm um sabor latino que a torna diferente de cidades como Nova York ou Chicago. Para os visitantes da América Latina, e os brasileiros em particular são uma presença muito forte em Miami, isso cria uma sensação curiosa e confortável: estar nos Estados Unidos e, ao mesmo tempo, num ambiente culturalmente familiar, onde a língua, a comida e o jeito de ser não são totalmente estrangeiros. Miami funciona, nesse sentido, como uma verdadeira porta de entrada, uma ponte cultural e econômica entre os Estados Unidos e a América Latina, e essa identidade híbrida é uma das suas características mais marcantes."
+      },
+      {
+        "h": "Compras, lazer e o que esperar de Miami",
+        "body": "Além do sol e da cultura latina, Miami é fortemente associada a uma atividade muito concreta: as compras. A cidade é um grande destino de compras, com shoppings amplos, lojas de departamento, outlets e uma variedade enorme de produtos, e isso a tornou especialmente popular entre visitantes da América Latina, que veem em Miami uma oportunidade de comprar de tudo, de eletrônicos a roupas. Para muitos brasileiros, a viagem a Miami combina, justamente, férias na praia com uma agenda de compras. A cidade oferece, além disso, uma série de outras atividades de lazer: parques, passeios, vida noturna, restaurantes, e fica relativamente perto de outros destinos da Flórida, incluindo a região dos grandes parques temáticos em Orlando, o que faz com que muitas viagens combinem mais de um destino. Para quem planeja conhecer Miami, vale ter algumas expectativas calibradas. Miami é, antes de tudo, um destino de sol, praia, lazer, estilo de vida e compras, mais do que um destino de grandes monumentos históricos ou de densidade cultural no sentido de museus e patrimônio antigo, embora tenha a sua cena cultural e artística. É uma cidade para quem busca clima quente, praia, uma atmosfera animada e descontraída, e a conveniência de um ambiente onde a cultura latina torna tudo mais familiar para o visitante latino-americano. Entendendo isso, Miami entrega bem o que promete: um destino ensolarado, festivo e voltado para o prazer."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Miami?",
+        "a": "Miami tem clima quente quase o ano todo, mas há diferenças. O período de novembro a abril costuma ser o mais agradável, com temperaturas mais amenas, menos umidade e menos chuva, sendo considerado a melhor época para visitar. Os meses de verão, de maio a outubro, são muito quentes e úmidos, e essa também é a temporada de furacões na região, embora isso não impeça as viagens. Para o melhor clima e mais conforto, o período do final do ano até a primavera é geralmente a aposta mais segura."
+      },
+      {
+        "q": "Por que Miami é considerada uma cidade latina?",
+        "a": "Por causa da sua localização no extremo sul dos Estados Unidos, perto do Caribe e da América Latina, e de décadas de história de imigração. Miami tem uma enorme população de origem latino-americana, e o espanhol é amplamente falado, em muitas situações tanto quanto o inglês. A cultura latina molda a comida, a música, o ritmo e o jeito de ser da cidade, e há bairros ligados a comunidades específicas. Miami funciona como uma ponte cultural e econômica entre os Estados Unidos e a América Latina, e essa identidade é uma das suas marcas."
+      },
+      {
+        "q": "Miami é um bom destino para fazer compras?",
+        "a": "Sim, Miami é um dos grandes destinos de compras dos Estados Unidos, especialmente popular entre visitantes da América Latina. A cidade tem shoppings amplos, lojas de departamento, outlets e uma variedade enorme de produtos, de eletrônicos a roupas. Para muitos brasileiros, a viagem a Miami combina férias de praia com uma agenda de compras. Vale lembrar de pesquisar preços, considerar os limites e regras de importação do país de origem e planejar o orçamento, mas, como destino de compras, Miami é de fato muito procurada e bem servida."
+      },
+      {
+        "q": "O que esperar de uma viagem a Miami?",
+        "a": "Miami é, antes de tudo, um destino de sol, praia, lazer, estilo de vida animado e compras. É ideal para quem busca clima quente, praias como South Beach, vida noturna, uma atmosfera descontraída e a conveniência de um ambiente onde a cultura latina torna tudo familiar para o visitante latino-americano. Não é um destino focado em grandes monumentos históricos ou patrimônio antigo, embora tenha sua cena cultural. Quem viaja a Miami com a expectativa certa, de férias ensolaradas e festivas, costuma achar que a cidade entrega bem o que promete."
+      }
+    ],
+    "related": ["nova-york", "cancun", "fortaleza", "rio", "londres"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cancun",
+    "locale": "pt",
+    "keyword": "Cancún",
+    "matchPatterns": ["cancún", "cancun", "méxico", "mexico", "caribe", "maia"],
+    "topic": "travel",
+    "title": "Cancún — o Caribe mexicano de água azul-turquesa",
+    "description": "O que torna Cancún um paraíso de praia, sua história maia e por que vira debate de viagem no moomz. Olhar de quem é BR e de quem é PT.",
+    "emoji": "🐠",
+    "intro": "Cancún é, para muita gente, a imagem perfeita do paraíso de praia. Localizada no México, na península de Yucatán, à beira do mar do Caribe, Cancún é famosa por uma paisagem que parece um cartão-postal vivo: areia branca e fina, e um mar de uma cor azul-turquesa intensa, quase irreal, transparente e morno. É um dos destinos de praia mais conhecidos das Américas, e atrai visitantes do mundo inteiro em busca de sol, mar e descanso. Curiosamente, Cancún como destino turístico é relativamente jovem: até algumas décadas atrás, era uma área pouco povoada, e a cidade turística que existe hoje foi planejada e desenvolvida especificamente para o turismo a partir dos anos setenta. Por isso, Cancún tem uma estrutura muito voltada para o visitante, com a sua famosa zona hoteleira, uma longa faixa de terra entre o mar e uma lagoa, repleta de grandes hotéis, muitos deles no formato de resorts com tudo incluído. Mas Cancún é também a porta de entrada para algo muito mais antigo e profundo: a região da península de Yucatán foi o coração da civilização maia, uma das grandes culturas da história da humanidade, e a área guarda sítios arqueológicos extraordinários, cidades antigas de pedra. Cancún combina, assim, o lazer moderno de um destino de praia planejado com a proximidade de uma das heranças históricas mais ricas das Américas. Para brasileiros e portugueses, Cancún é um destino de sonho de férias, de lua de mel, de descanso ensolarado. No moomz, Cancún rende debate de viagem dos sonhos. Pergunta se você prefere praia paradisíaca ou cidade histórica, qual o melhor destino de férias, e a galera se anima. Este guia abre Cancún.",
+    "sections": [
+      {
+        "h": "O mar azul-turquesa e as praias de Cancún",
+        "body": "O grande tesouro de Cancún é, sem dúvida, o seu mar. A água do Caribe na região de Cancún tem uma cor azul-turquesa intensa e luminosa, que costuma surpreender mesmo quem já viu fotos, porque ao vivo a cor parece ainda mais viva. Combinada com a areia branca e fina, que tem a propriedade de se manter fresca mesmo sob o sol forte, essa paisagem cria praias de uma beleza espetacular. A zona hoteleira de Cancún se estende ao longo dessa orla, e os grandes hotéis e resorts têm acesso direto às praias, muitos deles funcionando no sistema de tudo incluído, em que hospedagem, alimentação e bebidas estão num pacote único, um formato muito popular entre quem busca férias de puro descanso. Além das praias da própria Cancún, a região oferece passeios para outros cenários deslumbrantes. Há ilhas próximas com águas igualmente cristalinas, e a região é um destino importante para quem gosta de mergulho e de snorkeling, porque o Caribe mexicano tem recifes de coral e uma vida marinha rica, com peixes coloridos. Existem ainda os cenotes, formações naturais típicas da península de Yucatán: poços e cavernas de água doce, muito cristalina, criados pela geologia particular da região, lugares de uma beleza única onde se pode nadar. A natureza de Cancún e dos seus arredores é, portanto, um dos seus maiores atrativos: um paraíso de água azul para quem busca praia e mar."
+      },
+      {
+        "h": "A herança maia: civilização milenar ao lado da praia",
+        "body": "Um dos aspectos mais ricos de uma viagem a Cancún é que, ao lado do lazer de praia, está a proximidade de uma das grandes civilizações da história da humanidade: a civilização maia. A península de Yucatán, onde fica Cancún, foi um dos centros do mundo maia, uma cultura que floresceu por séculos na América Central e no sul do México, muito antes da chegada dos europeus. Os maias foram uma civilização notável: desenvolveram conhecimentos avançados de astronomia e matemática, criaram um sistema de escrita, construíram cidades de pedra com templos em forma de pirâmide, e tinham um calendário sofisticado. A região guarda sítios arqueológicos extraordinários, ruínas dessas cidades antigas. O mais famoso deles é Chichén Itzá, uma antiga cidade maia que abriga uma grande pirâmide e que foi reconhecida como uma das chamadas novas sete maravilhas do mundo. Há outros sítios importantes na região, incluindo cidades antigas em cenários igualmente impressionantes. Visitar essas ruínas a partir de Cancún permite ao viajante combinar o descanso da praia com uma experiência cultural e histórica profunda, caminhando entre construções de pedra erguidas por uma civilização milenar. Essa combinação é um dos grandes diferenciais de Cancún: não é apenas um destino de praia, é um destino onde a herança de uma cultura antiga e fascinante está a poucas horas da areia branca."
+      },
+      {
+        "h": "Cancún hoje: o que esperar do destino",
+        "body": "Para quem planeja conhecer Cancún, vale ter algumas expectativas claras sobre o tipo de destino que ela é. Cancún é, em essência, um destino de turismo de praia muito desenvolvido e estruturado. A zona hoteleira foi planejada para o turismo, e isso tem vantagens e características próprias. A vantagem é a conveniência e o conforto: a infraestrutura é boa, os resorts oferecem comodidade, e é um destino que funciona muito bem para quem quer férias tranquilas, de descanso, de praia, sem grandes complicações, ideal para casais, para lua de mel, para famílias. A característica a entender é que a zona hoteleira de Cancún é, em grande parte, um ambiente turístico, com hotéis, restaurantes e lazer voltados para o visitante, distinto da vida local cotidiana do México. Quem busca uma imersão mais profunda na cultura mexicana autêntica costuma combinar Cancún com viagens pela região, visitando cidades coloniais, vilas, sítios arqueológicos e outros lugares da península de Yucatán, onde a cultura local, a comida mexicana de verdade e a história estão mais presentes. A região oferece, portanto, dois lados que se complementam: o conforto e a beleza paradisíaca de Cancún como base de praia, e a riqueza cultural e histórica do México ao redor. Entendendo isso, Cancún entrega muito bem o que promete: um dos cenários de praia mais bonitos das Américas, com sol, mar azul-turquesa e a possibilidade de tocar a história maia. É um destino de sonho para quem busca o paraíso caribenho."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual a melhor época para visitar Cancún?",
+        "a": "O período de novembro a abril costuma ser o melhor para visitar Cancún: o clima fica mais ameno e seco, com menos chuva e menos umidade. Os meses de maio a outubro são mais quentes e úmidos, e essa também é a temporada de furacões no Caribe, embora isso não impeça as viagens. Outro fator a considerar é a possível chegada de algas marinhas a algumas praias em certos períodos do ano. No geral, para clima agradável e mais conforto, os meses do final do ano até a primavera são a aposta mais segura."
+      },
+      {
+        "q": "O que é a civilização maia?",
+        "a": "A civilização maia foi uma das grandes culturas da história da humanidade, que floresceu por séculos na América Central e no sul do México, incluindo a península de Yucatán onde fica Cancún, muito antes da chegada dos europeus. Os maias desenvolveram conhecimentos avançados de astronomia e matemática, criaram um sistema de escrita e um calendário sofisticado, e construíram cidades de pedra com templos em forma de pirâmide. A região guarda sítios arqueológicos extraordinários dessas cidades antigas, sendo Chichén Itzá o mais famoso, reconhecido como uma das novas sete maravilhas do mundo."
+      },
+      {
+        "q": "Cancún é só praia ou tem mais coisas para fazer?",
+        "a": "Cancún é principalmente um destino de praia, com o seu mar azul-turquesa espetacular e a sua zona hoteleira estruturada. Mas a região oferece muito mais. Há passeios para ilhas próximas, mergulho e snorkeling em recifes de coral, e os cenotes, poços e cavernas de água doce cristalina típicos da península de Yucatán. E há a herança maia: sítios arqueológicos extraordinários, como Chichén Itzá, a poucas horas de Cancún. Quem visita pode combinar o descanso da praia com experiências de natureza e de história, tornando a viagem muito mais rica."
+      },
+      {
+        "q": "O que é o sistema de tudo incluído dos resorts de Cancún?",
+        "a": "O tudo incluído é um formato muito popular nos resorts de Cancún em que, num único pacote, estão a hospedagem, as refeições e as bebidas, e às vezes outras comodidades. A grande vantagem é a praticidade e a previsibilidade do gasto: o visitante sabe de antemão quanto vai custar e pode aproveitar sem se preocupar com cada conta. É um formato ideal para quem busca férias de puro descanso, sem complicações. A contrapartida é que ele tende a manter o hóspede mais dentro do resort; quem quer explorar a cultura local costuma reservar dias para passeios fora."
+      }
+    ],
+    "related": ["miami", "rio", "fortaleza", "nova-york", "salvador"],
+    "updatedAt": "2026-05-20"
+  }
+]
