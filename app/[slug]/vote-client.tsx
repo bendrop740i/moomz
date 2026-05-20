@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useTransition } from "react";
+import Link from "next/link";
 import { castVote, refreshCounts } from "../actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
@@ -90,6 +91,9 @@ export default function VoteClient({
   // Triggers a CSS pulse on the chosen option's emoji on click.
   const [emojiPulse, setEmojiPulse] = useState<{ idx: number; k: number } | null>(null);
   const myVoterIdRef = useRef<string | null>(null);
+  // Sticky condensed poll bar — shown once the main card scrolls above the fold.
+  const cardRef = useRef<HTMLDivElement | null>(null);
+  const [showStickyBar, setShowStickyBar] = useState(false);
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
@@ -97,6 +101,22 @@ export default function VoteClient({
 
   useEffect(() => {
     ensureVoteFlowStyle();
+  }, []);
+
+  // Reveal the condensed sticky bar when the main poll card is scrolled past
+  // the top of the viewport — keeps the question + result anchored while the
+  // reader scrolls through explainers and related polls below.
+  useEffect(() => {
+    const card = cardRef.current;
+    if (!card || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        setShowStickyBar(!entry.isIntersecting && entry.boundingClientRect.top < 0);
+      },
+      { threshold: 0 },
+    );
+    io.observe(card);
+    return () => io.disconnect();
   }, []);
 
   useEffect(() => {
@@ -237,17 +257,71 @@ export default function VoteClient({
 
   return (
     <div className="space-y-8 fade-up">
+      {/* Condensed sticky poll bar — anchors the question + result on scroll */}
+      <div
+        aria-hidden={!showStickyBar}
+        className={`fixed top-0 inset-x-0 z-40 transition-transform duration-300 ease-out ${
+          showStickyBar ? "translate-y-0" : "-translate-y-full pointer-events-none"
+        }`}
+      >
+        <div className="backdrop-blur-xl bg-[#0b0613]/90 border-b border-white/10 shadow-lg shadow-black/40">
+          <div className="mx-auto flex max-w-xl items-center gap-3 px-4 py-2">
+            <button
+              type="button"
+              onClick={() => {
+                if (typeof window !== "undefined" && window.history.length > 1) window.history.back();
+                else if (typeof window !== "undefined") window.location.href = "/";
+              }}
+              aria-label={t("share.new")}
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              onClick={() => cardRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              aria-label={question}
+              className="min-w-0 flex-1 text-left"
+            >
+              <div className="truncate text-sm font-semibold text-white">{question}</div>
+              <div className="mt-1 flex h-1.5 w-full overflow-hidden rounded-full bg-white/10">
+                {showResults
+                  ? options.map((_, i) => {
+                      const pct = total > 0 ? Math.round(((counts[i] ?? 0) / total) * 100) : 0;
+                      return (
+                        <div
+                          key={i}
+                          className="h-full"
+                          style={{
+                            width: `${pct}%`,
+                            backgroundColor: voted === i ? "#ff3d8b" : "rgba(255,255,255,0.28)",
+                            borderRight:
+                              i < options.length - 1 ? "1px solid rgba(11,6,19,0.7)" : undefined,
+                          }}
+                        />
+                      );
+                    })
+                  : null}
+              </div>
+            </button>
+            <span className="shrink-0 tabular-nums text-xs text-white/45">{total}</span>
+          </div>
+        </div>
+      </div>
+
       <header className="text-center">
-        <a
+        <Link
           href="/"
           aria-label="moomz, retour à l'accueil"
           className="inline-block text-3xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent"
         >
           moomz
-        </a>
+        </Link>
       </header>
 
-      <div className="glass rounded-3xl p-4 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10">
+      <div ref={cardRef} className="glass rounded-3xl p-4 sm:p-7 space-y-5 shadow-2xl shadow-pink-500/10">
         <h1
           className="text-2xl sm:text-4xl font-bold leading-tight text-balance bg-clip-text text-transparent drop-shadow-[0_1px_10px_rgba(0,0,0,0.45)] break-words"
           style={{ backgroundImage: `linear-gradient(135deg, ${pal.c1}, #ffffff 55%, ${pal.c2})` }}
@@ -469,13 +543,13 @@ export default function VoteClient({
           >
             {t("share.other")}
           </button>
-          <a
+          <Link
             href="/"
             aria-label={t("share.new")}
             className="flex-1 min-h-[44px] rounded-2xl border-2 border-white/15 bg-white/5 hover:bg-white/10 font-semibold py-3 text-center transition flex items-center justify-center"
           >
             {t("share.new")}
-          </a>
+          </Link>
         </div>
       </div>
     </div>

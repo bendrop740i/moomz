@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
 import BottomNav from "./bottom-nav-v2";
 import SiteHeader from "./site-header";
+import SiteFooter from "./site-footer";
 import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
@@ -93,7 +94,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SiteHeader />
           <main className="relative mx-auto w-full max-w-xl px-4 pt-5 sm:px-6 sm:pt-6 pb-[calc(7rem+env(safe-area-inset-bottom))]">
             {children}
-            <div className="mt-10 flex justify-center border-t border-white/10 pt-6">
+            <SiteFooter />
+            <div className="mt-6 flex justify-center border-t border-white/10 pt-6">
               <LocaleSwitcher placement="up" />
             </div>
           </main>

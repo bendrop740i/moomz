@@ -27,14 +27,8 @@ type MusicState = {
   isLoading: boolean;
   isBuffering: boolean;
   isLoadingNext: boolean;
-  // Track id the user just clicked — flipped synchronously inside the click
-  // handler so the UI can show "playing" before the audio element actually
-  // emits `play`. Distinct from `current?.id` because for the very first
-  // gesture we want instant veil feedback even before any state commit lands.
   intentId: string | null;
   volume: number;
-  // Live playback position (seconds) + total duration (seconds, 0 if unknown).
-  // Drives the mini-player scrubber + elapsed/total time labels.
   currentTime: number;
   duration: number;
   play: () => Promise<void>;
@@ -44,9 +38,7 @@ type MusicState = {
   setVolume: (v: number) => void;
   start: () => Promise<void>;
   playTrack: (t: Track) => Promise<void>;
-  // Jump to an absolute position (seconds) within the current track.
   seek: (seconds: number) => void;
-  // Restart the current track from 0 (single tap on the "previous" control).
   restart: () => void;
 };
 
@@ -58,42 +50,71 @@ const CURRENT_KEY = "moomz_music_current";
 const POSITION_KEY = "moomz_music_position";
 const RECENT_MAX = 60;
 
+// ---------------------------------------------------------------------------
+// Module-level singletons. The <audio> element is created ONCE, imperatively,
+// and lives outside React's render tree — so playback never stops even if the
+// MusicProvider subtree re-renders or remounts during navigation. This is the
+// fix for "music cuts when I navigate the site".
+// ---------------------------------------------------------------------------
+let sharedAudio: HTMLAudioElement | null = null;
+function getSharedAudio(): HTMLAudioElement | null {
+  if (typeof window === "undefined") return null;
+  if (!sharedAudio) {
+    const a = new Audio();
+    a.preload = "auto";
+    a.setAttribute("playsinline", "");
+    sharedAudio = a;
+  }
+  return sharedAudio;
+}
+// Restore-from-storage runs once per real page load, never per remount (which
+// would re-set `src` and restart playback).
+let restoredOnce = false;
+// Mirrors `current` so a remounted provider rehydrates the track instantly.
+let lastTrack: Track | null = null;
+
 export function MusicProvider({ children }: { children: React.ReactNode }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [current, setCurrent] = useState<Track | null>(null);
+  if (audioRef.current === null) audioRef.current = getSharedAudio();
+
+  const [current, setCurrent] = useState<Track | null>(() => lastTrack);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isBuffering, setIsBuffering] = useState(false);
   const [isLoadingNext, setIsLoadingNext] = useState(false);
   const [intentId, setIntentId] = useState<string | null>(null);
-  const [volume, setVolumeState] = useState(0.6);
+  const [volume, setVolumeState] = useState<number>(() => {
+    if (typeof window === "undefined") return 0.6;
+    const raw = localStorage.getItem(VOLUME_KEY);
+    if (raw === null) return 0.6;
+    const v = Number(raw);
+    return Number.isNaN(v) ? 0.6 : v;
+  });
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const restoredRef = useRef(false);
   // Speculatively-fetched next track so the first "Lancer la radio" click can
   // skip the Supabase RPC round-trip and go straight to play().
   const prefetchedRef = useRef<Track | null>(null);
 
-  // Restore volume + last track from localStorage on first mount.
+  // Keep the module mirror in sync so a remount rehydrates `current`.
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    if (restoredRef.current) return;
-    restoredRef.current = true;
+    lastTrack = current;
+  }, [current]);
 
-    const storedVol = localStorage.getItem(VOLUME_KEY);
-    if (storedVol !== null) {
-      const v = Number(storedVol);
-      if (!Number.isNaN(v)) setVolumeState(v);
-    }
-
+  // Restore last track from localStorage — ONCE per page load. A remount finds
+  // `restoredOnce` already true and skips, so it never re-sets `src`.
+  useEffect(() => {
+    if (typeof window === "undefined" || restoredOnce) return;
+    restoredOnce = true;
     try {
       const raw = localStorage.getItem(CURRENT_KEY);
       if (raw) {
         const track = JSON.parse(raw) as Track;
         if (track && track.id) {
-          // Load the track in <audio> but do NOT play (browser blocks autoplay without user gesture).
           const el = audioRef.current;
-          if (el) {
+          // Only load into <audio> if nothing is loaded yet. If the singleton
+          // already has a src (it survived from before), leave playback alone.
+          if (el && !el.src) {
             el.src = `/api/track/${track.id}`;
             const storedPos = Number(localStorage.getItem(POSITION_KEY) ?? "0");
             if (!Number.isNaN(storedPos) && storedPos > 0) {
@@ -125,14 +146,12 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   }, [current]);
 
   // Speculatively fetch one candidate track so the first user click on
-  // "Lancer la radio" skips the Supabase RPC round-trip. Runs in the
-  // background after mount, only if there's nothing currently loaded.
+  // "Lancer la radio" skips the Supabase RPC round-trip.
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (current) return; // already have something loaded from storage
+    if (current) return;
     if (prefetchedRef.current) return;
     let cancelled = false;
-    // Defer slightly so we don't compete with critical above-fold rendering.
     const idle = (window as unknown as {
       requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
     }).requestIdleCallback;
@@ -166,7 +185,6 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     };
   }, [current]);
 
-  // Read recently played ids.
   const readRecent = useCallback((): string[] => {
     if (typeof window === "undefined") return [];
     try {
@@ -186,7 +204,6 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   }, [readRecent]);
 
   const fetchNextTrack = useCallback(async (): Promise<Track | null> => {
-    // Use the speculatively-prefetched track if one is waiting.
     if (prefetchedRef.current) {
       const t = prefetchedRef.current;
       prefetchedRef.current = null;
@@ -207,37 +224,19 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   const loadAndMaybePlay = useCallback(
     async (track: Track, shouldPlay: boolean) => {
       const el = audioRef.current;
-      // Flip UI state synchronously FIRST so the clicked card shows the veil
-      // and the mini-player appears with the new title before any network /
-      // codec work happens. `setCurrent` here is committed in the same React
-      // batch as the synchronous `intentId` flag — together they remove the
-      // 100-400ms "did my click register?" gap.
       setCurrent(track);
       setIntentId(track.id);
-      // Optimistically mark as buffering until <audio> fires `canplay` /
-      // `playing`. The mini-player listens to this to show the pulsing dot.
       if (shouldPlay) setIsBuffering(true);
-      // CRITICAL: kick off the audio fetch BEFORE any awaited work so the
-      // network round-trip overlaps with React commit. Calling .play() while
-      // a fresh user gesture is still on the stack also avoids autoplay
-      // blocks in some browsers (mobile Safari especially).
       if (el) {
         el.src = `/api/track/${track.id}`;
         el.volume = volume;
-        // Don't call el.load() — setting `src` already triggers the load and
-        // calling load() afterwards can interrupt the play() promise on some
-        // browsers (Safari especially).
         if (shouldPlay) {
-          // Fire-and-forget: don't await, so React can finish committing the
-          // new state while the browser opens the connection in parallel.
           el.play().catch(() => {
-            // Browser blocked autoplay (no user gesture yet). UI shows paused.
             setIsBuffering(false);
           });
         }
       }
       pushRecent(track.id);
-      // New track → reset stored position.
       try {
         localStorage.setItem(POSITION_KEY, "0");
       } catch {}
@@ -253,8 +252,6 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     if (t) {
       loadAndMaybePlay(t, true);
     }
-    // Clear "Loading next…" once we have the track id wired up. The actual
-    // audio-buffering indicator (`isBuffering`) takes over from here.
     setIsLoadingNext(false);
   }, [fetchNextTrack, loadAndMaybePlay]);
 
@@ -262,15 +259,10 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     if (current) {
       const el = audioRef.current;
       if (el) {
-        // Don't await — keep the click handler synchronous so the browser
-        // treats this as a user gesture and never throws autoplay errors.
         el.play().catch(() => {});
       }
       return;
     }
-    // Fast path: if we already prefetched a candidate, kick off audio loading
-    // synchronously inside this click handler. Critical for mobile Safari
-    // which only allows .play() within the same user-gesture tick.
     const prefetched = prefetchedRef.current;
     if (prefetched) {
       prefetchedRef.current = null;
@@ -319,7 +311,6 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     [loadAndMaybePlay],
   );
 
-  // Jump to an absolute position. Used by the mini-player scrubber.
   const seek = useCallback((seconds: number) => {
     const el = audioRef.current;
     if (!el) return;
@@ -333,7 +324,6 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     } catch {}
   }, []);
 
-  // Restart the current track from the beginning.
   const restart = useCallback(() => {
     const el = audioRef.current;
     if (!el) return;
@@ -344,12 +334,76 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     if (el.paused) el.play().catch(() => {});
   }, []);
 
-  // Persist current playback position every 3s while playing, plus on pause.
+  // Subscribe to the singleton's media events. Re-runs only when `next`
+  // changes (ended/error auto-advance) — the audio element is never recreated,
+  // so playback continues seamlessly across the re-subscribe.
+  useEffect(() => {
+    const el = audioRef.current;
+    if (!el) return;
+    const onPlay = () => {
+      setIsPlaying(true);
+      setIsBuffering(false);
+    };
+    const onPause = () => setIsPlaying(false);
+    const onWaiting = () => setIsBuffering(true);
+    const onStalled = () => setIsBuffering(true);
+    const onCanPlay = () => setIsBuffering(false);
+    const onTime = () => setCurrentTime(el.currentTime || 0);
+    const onDur = () => {
+      const d = el.duration;
+      setDuration(Number.isFinite(d) && d > 0 ? d : 0);
+    };
+    const onEmptied = () => {
+      setCurrentTime(0);
+      setDuration(0);
+    };
+    const onEnded = () => {
+      try {
+        localStorage.setItem(POSITION_KEY, "0");
+      } catch {}
+      next();
+    };
+    const onError = () => {
+      setIsBuffering(false);
+      next();
+    };
+    el.addEventListener("play", onPlay);
+    el.addEventListener("playing", onPlay);
+    el.addEventListener("pause", onPause);
+    el.addEventListener("waiting", onWaiting);
+    el.addEventListener("stalled", onStalled);
+    el.addEventListener("canplay", onCanPlay);
+    el.addEventListener("timeupdate", onTime);
+    el.addEventListener("durationchange", onDur);
+    el.addEventListener("loadedmetadata", onDur);
+    el.addEventListener("emptied", onEmptied);
+    el.addEventListener("ended", onEnded);
+    el.addEventListener("error", onError);
+    // Sync UI state from the singleton on (re)mount — it may already be playing.
+    setIsPlaying(!el.paused);
+    if (el.currentTime) setCurrentTime(el.currentTime);
+    if (Number.isFinite(el.duration) && el.duration > 0) setDuration(el.duration);
+    return () => {
+      el.removeEventListener("play", onPlay);
+      el.removeEventListener("playing", onPlay);
+      el.removeEventListener("pause", onPause);
+      el.removeEventListener("waiting", onWaiting);
+      el.removeEventListener("stalled", onStalled);
+      el.removeEventListener("canplay", onCanPlay);
+      el.removeEventListener("timeupdate", onTime);
+      el.removeEventListener("durationchange", onDur);
+      el.removeEventListener("loadedmetadata", onDur);
+      el.removeEventListener("emptied", onEmptied);
+      el.removeEventListener("ended", onEnded);
+      el.removeEventListener("error", onError);
+    };
+  }, [next]);
+
+  // Persist playback position every 3s while playing, plus on pause.
   useEffect(() => {
     if (typeof window === "undefined") return;
     const el = audioRef.current;
     if (!el) return;
-
     const save = () => {
       try {
         localStorage.setItem(POSITION_KEY, String(Math.floor(el.currentTime || 0)));
@@ -412,56 +466,7 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     ],
   );
 
-  return (
-    <Ctx.Provider value={value}>
-      {children}
-      <audio
-        ref={audioRef}
-        preload="auto"
-        playsInline
-        onPlay={() => {
-          setIsPlaying(true);
-          setIsBuffering(false);
-        }}
-        onPlaying={() => {
-          setIsPlaying(true);
-          setIsBuffering(false);
-        }}
-        onPause={() => setIsPlaying(false)}
-        onWaiting={() => setIsBuffering(true)}
-        onStalled={() => setIsBuffering(true)}
-        onCanPlay={() => setIsBuffering(false)}
-        onTimeUpdate={(e) => {
-          setCurrentTime(e.currentTarget.currentTime || 0);
-        }}
-        onDurationChange={(e) => {
-          const d = e.currentTarget.duration;
-          setDuration(Number.isFinite(d) && d > 0 ? d : 0);
-        }}
-        onLoadedMetadata={(e) => {
-          const d = e.currentTarget.duration;
-          setDuration(Number.isFinite(d) && d > 0 ? d : 0);
-        }}
-        onEmptied={() => {
-          // New src loading — reset the scrubber so it doesn't show stale time.
-          setCurrentTime(0);
-          setDuration(0);
-        }}
-        onEnded={() => {
-          // Auto-advance with smart shuffle.
-          try {
-            localStorage.setItem(POSITION_KEY, "0");
-          } catch {}
-          next();
-        }}
-        onError={() => {
-          // Bad URL / network — skip to next.
-          setIsBuffering(false);
-          next();
-        }}
-      />
-    </Ctx.Provider>
-  );
+  return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 
 export function useMusic() {

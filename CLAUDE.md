@@ -45,7 +45,8 @@ Live and working: core poll/vote/share, home trending feed, Discover (TikTok sna
 - **i18n**: 8 langs (fr en es it pt de ja zh) — `lib/i18n.ts` + `lib/i18n-server.ts`, `useT()`/`getT()`. AR gets RTL flip only (no UI translation). Poll content stays in author's language; only chrome follows the visitor's locale.
 - **PWA**: manifest, versioned service worker (`public/sw.js`), install prompt.
 - **SEO surface** (~2000+ routes): `/idees` `/ideas` `/guides` `/blog` (landing pages), `/mot` `/word` + `/topic/[locale]` (keyword pages, ~990 across all 8 langs, poll interlinking), `/compare` (30) `/template` (132, all 8 langs) `/quiz` (~60) `/citations` `/quotes` `/citation/[locale]`, and 9 utility tools `/convertisseur /meteo /heure /jours-feries /crypto /definition+/define /cosmos /recettes /astro` under the `/outils` hub. Data in `lib/seo/**` + `lib/tools/**` + `lib/quizzes/**`, mostly JSON loaded via `fs.readdirSync`. All wired into `app/sitemap.ts` + `app/seo-footer.tsx`; route names guarded in `RESERVED_USERNAMES`.
-- **Other**: WorldVibes map (`app/world-vibes.tsx`, vote geo), music player, `fake_vote_burst` bot cron.
+- **Other**: WorldVibes map (`app/world-vibes.tsx`, vote geo), music player (`<audio>` is a module-level singleton in `music-provider.tsx` — survives navigation/remounts, never cuts), `fake_vote_burst` bot cron.
+- **Nav**: `SiteHeader` + `BottomNavV2` (all `<Link>` — client nav). `app/site-footer.tsx` — locale-aware footer nav mounted in the root layout (every page): links to create/discover/quotes/quiz/haut-faits/boutique/ideas/keywords/tools/guides/blog, each resolving to the visitor's-locale route (quote + keyword hubs have per-locale URLs).
 
 ## Bots / content seeding
 - `fake_vote_burst` cron (every 3 min) adds capped bot votes — skips noisy questions, caps at `max(30, humans×5+30)` per poll, samples the option weighted by real human distribution. Bots privilege real polls 3:1.
