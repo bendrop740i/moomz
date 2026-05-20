@@ -1,13 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { castVote, refreshCounts } from "../actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "../animated-number";
-import { useT } from "../locale-context";
+import { useT, useLocale } from "../locale-context";
+import { trackEvent } from "@/lib/analytics";
+import { getViralCopy, pickSuggestions, suggestionHref } from "@/lib/viral-copy";
 
 // Same vote-flow stylesheet as PollCard. Inject once into <head>; the dedupe
 // guard means we don't re-add it if PollCard already mounted it elsewhere.
@@ -98,6 +100,9 @@ export default function VoteClient({
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
   const pal = paletteFor(slug);
+  const locale = useLocale();
+  const vc = getViralCopy(locale);
+  const suggestions = useMemo(() => pickSuggestions(locale, 3), [locale]);
 
   useEffect(() => {
     ensureVoteFlowStyle();
@@ -187,6 +192,7 @@ export default function VoteClient({
     startTransition(async () => {
       try {
         const res = await castVote(pollId, slug, i, options.length);
+        trackEvent("vote", { slug, source: "poll-page" });
         setCounts(res.counts);
         setTotal(res.total);
         setReveal({ isMajority: res.reveal.isMajority, isRebel: res.reveal.isRebel, userPct: res.reveal.userPct });
@@ -465,6 +471,39 @@ export default function VoteClient({
           </div>
         )}
       </div>
+
+      {/* Viral hook — create CTA on the dopamine peak (right after the reveal),
+          curiosity-first copy + 1-tap prefilled ideas to kill the blank page. */}
+      {showResults && (
+        <div className="space-y-4 rounded-3xl border border-pink-400/30 bg-gradient-to-br from-pink-500/15 via-purple-500/10 to-transparent p-5 shadow-lg shadow-pink-500/10">
+          <div className="space-y-1">
+            <div className="font-display text-2xl tracking-tight text-white">{vc.ctaTitle}</div>
+            <p className="text-sm text-white/65">{vc.ctaSub}</p>
+          </div>
+          <Link
+            href="/"
+            onClick={() => trackEvent("create_cta_click", { source: "after-vote-page" })}
+            className="block w-full rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 py-3.5 text-center text-base font-bold text-white shadow-lg shadow-pink-500/30 transition hover:scale-[1.02] active:scale-[0.98]"
+          >
+            {vc.ctaButton}
+          </Link>
+          <div className="space-y-2">
+            <div className="text-xs uppercase tracking-widest text-white/40">{vc.suggestTitle}</div>
+            <div className="flex flex-wrap gap-2">
+              {suggestions.map((s) => (
+                <Link
+                  key={s.q}
+                  href={suggestionHref(s)}
+                  onClick={() => trackEvent("create_cta_click", { source: "after-vote-suggestion" })}
+                  className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-sm text-white/80 transition hover:border-pink-400/40 hover:bg-white/10 active:scale-95"
+                >
+                  {s.q}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="space-y-3">
         <div className="text-center text-xs uppercase tracking-widest text-white/40">

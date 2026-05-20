@@ -3,7 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import PollCard from "../poll-card";
-import { useT } from "../locale-context";
+import { useT, useLocale } from "../locale-context";
+import { trackEvent } from "@/lib/analytics";
+import { getViralCopy } from "@/lib/viral-copy";
 
 // Serializable internal-link descriptor matching lib/seo/match-poll.ts's
 // RelatedPage — kept inline so this client module imports no server code.
@@ -47,6 +49,7 @@ export default function DiscoverFeed({
   pollChips?: RelatedPage[][];
 }) {
   const t = useT();
+  const locale = useLocale();
   // Map slug → its related-page chips so lookups stay correct after `skip`
   // mutates the polls array (index-based access would drift).
   const chipsBySlug = useMemo(() => {
@@ -122,6 +125,19 @@ export default function DiscoverFeed({
   }
 
   const now = Date.now();
+  const vc = getViralCopy(locale);
+
+  // Inject a "your turn" create prompt every 6 polls — catch the user mid-flow.
+  type Slide =
+    | { kind: "poll"; poll: Poll; pollIndex: number }
+    | { kind: "cta"; ctaIndex: number };
+  const slides: Slide[] = [];
+  polls.forEach((p, i) => {
+    slides.push({ kind: "poll", poll: p, pollIndex: i });
+    if ((i + 1) % 6 === 0 && i + 1 < polls.length) {
+      slides.push({ kind: "cta", ctaIndex: i });
+    }
+  });
 
   return (
     <div className="relative">
@@ -130,7 +146,36 @@ export default function DiscoverFeed({
         className="snap-y snap-mandatory overflow-y-scroll overscroll-y-contain h-[100dvh] scrollbar-hide"
         style={{ scrollSnapStop: "always", WebkitOverflowScrolling: "touch" }}
       >
-        {polls.map((p, i) => {
+        {slides.map((slide) => {
+          if (slide.kind === "cta") {
+            return (
+              <section
+                key={`cta-${slide.ctaIndex}`}
+                className="snap-start h-[100dvh] flex items-center justify-center px-4 pt-[calc(env(safe-area-inset-top)+3.5rem)] pb-[calc(env(safe-area-inset-bottom)+5rem)]"
+              >
+                <div className="w-full max-w-md mx-auto glass rounded-3xl p-7 text-center space-y-5 shadow-2xl shadow-pink-500/10">
+                  <div className="text-6xl" aria-hidden>
+                    👀
+                  </div>
+                  <div className="font-display text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+                    {vc.ctaTitle}
+                  </div>
+                  <p className="text-sm text-white/65">{vc.ctaSub}</p>
+                  <Link
+                    href="/"
+                    onClick={() =>
+                      trackEvent("create_cta_click", { source: "discover-interstitial" })
+                    }
+                    className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-8 shadow-lg shadow-pink-500/30 hover:scale-[1.03] active:scale-[0.98] transition"
+                  >
+                    {vc.ctaButton}
+                  </Link>
+                </div>
+              </section>
+            );
+          }
+          const p = slide.poll;
+          const i = slide.pollIndex;
           const isHot = topScore > 0 && p.trending_score >= topScore * 0.6 && p.vote_count >= 3;
           const isNew = now - new Date(p.created_at).getTime() < 30 * 60_000;
           const isRising = (p.recent_votes ?? 0) >= 4 && !isNew;
@@ -172,7 +217,7 @@ export default function DiscoverFeed({
         aria-hidden
         className="pointer-events-none absolute right-1.5 sm:right-2 top-1/2 -translate-y-1/2 hidden min-[360px]:flex flex-col gap-1.5"
       >
-        {polls.map((_, i) => (
+        {slides.map((_, i) => (
           <span
             key={i}
             className={`block w-1 rounded-full transition-all duration-300 ease-out ${

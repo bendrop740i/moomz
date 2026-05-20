@@ -9,7 +9,9 @@ import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
 import { palettePreviewFromCosmetic } from "@/lib/cosmetics";
 import AnimatedNumber from "./animated-number";
-import { useT } from "./locale-context";
+import { useT, useLocale } from "./locale-context";
+import { trackEvent } from "@/lib/analytics";
+import { getViralCopy } from "@/lib/viral-copy";
 
 // Confetti is only rendered after a vote — load its 4 kB of keyframe + emoji
 // pool data lazily so the home/discover feed doesn't pay for it up-front.
@@ -180,6 +182,8 @@ export default function PollCard({
   // Prefer the author's equipped cosmetic palette when present; otherwise fall
   // back to the per-slug hashed palette so existing polls keep their look.
   const pal = palettePreviewFromCosmetic(authorCosmeticId) ?? paletteFor(slug);
+  const locale = useLocale();
+  const vc = getViralCopy(locale);
 
   useEffect(() => {
     const match =
@@ -288,6 +292,7 @@ export default function PollCard({
     startTransition(async () => {
       try {
         const res = await castVote(pollId, slug, i, options.length);
+        trackEvent("vote", { slug, source: "feed-card" });
         setCounts(res.counts);
         setTotal(res.total);
         setPointsToast({ k: Date.now(), gained: res.points.gained, mult: res.points.multiplier });
@@ -498,6 +503,19 @@ export default function PollCard({
             <>👀 partagé · {reveal.userPct}%</>
           )}
         </div>
+      )}
+
+      {showResults && (
+        <Link
+          href="/"
+          onClick={() => trackEvent("create_cta_click", { source: "after-vote-card" })}
+          className="flex items-center justify-between gap-2 rounded-xl border border-pink-400/30 bg-gradient-to-r from-pink-500/15 to-purple-500/10 px-3 py-2.5 transition hover:from-pink-500/25 hover:to-purple-500/20 active:scale-[0.98]"
+        >
+          <span className="text-sm font-semibold text-white">{vc.ctaTitle}</span>
+          <span className="whitespace-nowrap text-xs font-bold text-pink-200">
+            {vc.ctaButton} →
+          </span>
+        </Link>
       )}
 
       <div className="flex items-center justify-between text-xs text-white/40 pt-0.5">

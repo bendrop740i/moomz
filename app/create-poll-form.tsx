@@ -3,7 +3,8 @@
 import { useEffect, useId, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { createPoll } from "./actions";
-import { useT } from "./locale-context";
+import { useT, useLocale } from "./locale-context";
+import { trackEvent } from "@/lib/analytics";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -24,8 +25,21 @@ const OPTION_EXAMPLES: [string, string][] = [
   ["chaud", "pas chaud"],
 ];
 
+// Localized yes/no for the 1-tap option presets — kills blank-page friction.
+const YESNO: Record<string, [string, string]> = {
+  fr: ["Oui", "Non"],
+  en: ["Yes", "No"],
+  es: ["Sí", "No"],
+  it: ["Sì", "No"],
+  pt: ["Sim", "Não"],
+  de: ["Ja", "Nein"],
+  ja: ["はい", "いいえ"],
+  zh: ["是", "否"],
+};
+
 export default function CreatePollForm() {
   const t = useT();
+  const locale = useLocale();
   const searchParams = useSearchParams();
   const prefillQ = searchParams.get("q") ?? "";
   const prefillOpts = (() => {
@@ -60,6 +74,11 @@ export default function CreatePollForm() {
     [],
   );
 
+  const presets = useMemo<[string, string][]>(
+    () => [YESNO[locale] ?? YESNO.en, ["🔥", "💀"], ["👍", "👎"], ["Team A", "Team B"]],
+    [locale],
+  );
+
   const updateOption = (i: number, v: string) => {
     const next = [...options];
     next[i] = v;
@@ -73,6 +92,9 @@ export default function CreatePollForm() {
     <form
       action={async (fd) => {
         setPending(true);
+        trackEvent("poll_created", {
+          source: prefillQ || prefillOpts ? "prefill" : "create-form",
+        });
         try {
           await createPoll(fd);
         } catch (e) {
@@ -121,6 +143,20 @@ export default function CreatePollForm() {
         <span id={optionsHintId} className="sr-only">
           Ajoute entre 2 et 6 options de réponse, 80 caractères maximum chacune.
         </span>
+        {options.length === 2 && !options[0] && !options[1] && (
+          <div className="flex flex-wrap gap-1.5">
+            {presets.map((p) => (
+              <button
+                type="button"
+                key={p.join("|")}
+                onClick={() => setOptions([p[0], p[1]])}
+                className="rounded-full border border-white/15 bg-white/5 px-2.5 py-1 text-xs font-medium text-white/65 transition hover:border-pink-400/40 hover:bg-white/10 hover:text-white active:scale-95"
+              >
+                {p[0]} / {p[1]}
+              </button>
+            ))}
+          </div>
+        )}
         {options.map((opt, i) => {
           const optionId = `${formId}-option-${i}`;
           const optionLabel = `${t("form.options.label")} ${i + 1}`;
