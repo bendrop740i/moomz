@@ -1,37 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/lib/i18n-server";
-import { getAllKeywords } from "@/lib/seo/keywords/loader";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Explorer moomz — tout le contenu, toutes les langues",
+  title: "Explorer moomz — tout le contenu au même endroit",
   description:
-    "Le plan complet de moomz : mots-clés dans 8 langues, modèles de sondage, quiz, comparatifs, outils gratuits, idées, guides et blog. Tout au même endroit.",
+    "Le plan complet de moomz : sondages, modèles, quiz, comparatifs, outils gratuits, idées, guides, blog, citations, Read et musique. Tout au même endroit.",
   alternates: { canonical: "https://moomz.com/explore" },
   openGraph: {
     title: "Explorer moomz",
     description:
-      "Tout le contenu moomz au même endroit : mots-clés 8 langues, modèles, quiz, comparatifs, outils, idées, guides, blog.",
+      "Tout le contenu moomz au même endroit : sondages, modèles, quiz, comparatifs, outils, idées, guides, blog, citations, Read.",
     url: "https://moomz.com/explore",
     type: "website",
     siteName: "moomz",
   },
 };
-
-const KEYWORD_LANGS: { code: HubLocale; label: string; href: string }[] = [
-  { code: "fr", label: "Français", href: "/mot" },
-  { code: "en", label: "English", href: "/word" },
-  { code: "es", label: "Español", href: "/topic/es" },
-  { code: "it", label: "Italiano", href: "/topic/it" },
-  { code: "pt", label: "Português", href: "/topic/pt" },
-  { code: "de", label: "Deutsch", href: "/topic/de" },
-  { code: "ja", label: "日本語", href: "/topic/ja" },
-  { code: "zh", label: "中文", href: "/topic/zh" },
-];
 
 const TOOLS: {
   emoji: string;
@@ -166,11 +154,61 @@ const TOOLS: {
   },
 ];
 
+// Core poll product surfaces — home feed, discover, create.
+const POLL_LINKS: {
+  emoji: string;
+  href: string;
+  label: Record<HubLocale, string>;
+}[] = [
+  {
+    emoji: "🏠",
+    href: "/",
+    label: {
+      fr: "Le feed",
+      en: "The feed",
+      es: "El feed",
+      it: "Il feed",
+      pt: "O feed",
+      de: "Der Feed",
+      ja: "フィード",
+      zh: "动态信息流",
+    },
+  },
+  {
+    emoji: "🔮",
+    href: "/discover",
+    label: {
+      fr: "Découvrir",
+      en: "Discover",
+      es: "Descubrir",
+      it: "Scopri",
+      pt: "Descobrir",
+      de: "Entdecken",
+      ja: "ディスカバー",
+      zh: "发现",
+    },
+  },
+  {
+    emoji: "✨",
+    href: "/create",
+    label: {
+      fr: "Créer un sondage",
+      en: "Create a poll",
+      es: "Crear encuesta",
+      it: "Crea un sondaggio",
+      pt: "Criar enquete",
+      de: "Umfrage erstellen",
+      ja: "投票を作成",
+      zh: "创建投票",
+    },
+  },
+];
+
 type ExploreStrings = {
   title: string;
   sub: string;
-  keywords: string;
-  keywordsSub: string;
+  polls: string;
+  pollsSub: string;
   templates: string;
   templatesSub: string;
   quiz: string;
@@ -194,17 +232,17 @@ type ExploreStrings = {
 const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   fr: {
     title: "Explorer moomz",
-    sub: "Tout le contenu moomz, au même endroit. Choisis une langue, un format, un sujet — et plonge.",
-    keywords: "Pages mots-clés",
-    keywordsSub: "Une page par sujet, avec les sondages qui en parlent.",
+    sub: "Tout le contenu moomz, au même endroit. Choisis un format, un sujet — et plonge.",
+    polls: "Sondages moomz",
+    pollsSub: "Le feed, le mode découverte et la création de sondages.",
     templates: "Modèles de sondage",
     templatesSub: "Sondages prêts à lancer — un tap remplit le formulaire.",
     quiz: "Quiz",
     quizSub: "Quiz à choix multiples notés : sciences, culture et plus.",
     compare: "Comparatifs",
     compareSub: "moomz face aux autres outils, et duels thématiques.",
-    content: "Idées, guides & blog",
-    contentSub: "Inspiration, tutos et histoires autour des sondages.",
+    content: "Lire & s'inspirer",
+    contentSub: "Idées, guides, blog, citations, histoires Read et musique.",
     tools: "Outils gratuits",
     toolsSub: "Utilitaires en temps réel — devises, météo, crypto et plus.",
     you: "Ton espace",
@@ -218,17 +256,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   en: {
     title: "Explore moomz",
-    sub: "Every piece of moomz content, in one place. Pick a language, a format, a topic — and dive in.",
-    keywords: "Keyword pages",
-    keywordsSub: "One page per topic, with the polls that talk about it.",
+    sub: "Every piece of moomz content, in one place. Pick a format, a topic — and dive in.",
+    polls: "moomz polls",
+    pollsSub: "The feed, discover mode and creating your own polls.",
     templates: "Poll templates",
     templatesSub: "Ready-to-launch polls — one tap fills the create form.",
     quiz: "Quizzes",
     quizSub: "Scored multiple-choice quizzes across science, culture and more.",
     compare: "Comparisons",
     compareSub: "moomz vs other tools, and head-to-head matchups.",
-    content: "Ideas, guides & blog",
-    contentSub: "Inspiration, how-tos and stories about polls.",
+    content: "Read & get inspired",
+    contentSub: "Ideas, guides, blog, quotes, Read stories and music.",
     tools: "Free tools",
     toolsSub: "Live-data utilities — currency, weather, crypto and more.",
     you: "Your space",
@@ -242,17 +280,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   es: {
     title: "Explorar moomz",
-    sub: "Todo el contenido de moomz, en un solo lugar. Elige un idioma, un formato, un tema — y sumérgete.",
-    keywords: "Páginas de palabras clave",
-    keywordsSub: "Una página por tema, con las encuestas que hablan de él.",
+    sub: "Todo el contenido de moomz, en un solo lugar. Elige un formato, un tema — y sumérgete.",
+    polls: "Encuestas moomz",
+    pollsSub: "El feed, el modo descubrir y crear tus encuestas.",
     templates: "Plantillas de encuestas",
     templatesSub: "Encuestas listas para lanzar — un toque rellena el formulario.",
     quiz: "Quizzes",
     quizSub: "Quizzes de opción múltiple con puntuación: ciencia, cultura y más.",
     compare: "Comparativas",
     compareSub: "moomz frente a otras herramientas y duelos cara a cara.",
-    content: "Ideas, guías y blog",
-    contentSub: "Inspiración, tutoriales e historias sobre encuestas.",
+    content: "Leer e inspirarse",
+    contentSub: "Ideas, guías, blog, citas, historias Read y música.",
     tools: "Herramientas gratuitas",
     toolsSub: "Utilidades en tiempo real — divisas, clima, cripto y más.",
     you: "Tu espacio",
@@ -266,17 +304,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   it: {
     title: "Esplora moomz",
-    sub: "Tutti i contenuti di moomz, in un unico posto. Scegli una lingua, un formato, un tema — e tuffati.",
-    keywords: "Pagine di parole chiave",
-    keywordsSub: "Una pagina per ogni tema, con i sondaggi che ne parlano.",
+    sub: "Tutti i contenuti di moomz, in un unico posto. Scegli un formato, un tema — e tuffati.",
+    polls: "Sondaggi moomz",
+    pollsSub: "Il feed, la modalità scopri e la creazione di sondaggi.",
     templates: "Modelli di sondaggi",
     templatesSub: "Sondaggi pronti da lanciare — un tap riempie il modulo.",
     quiz: "Quiz",
     quizSub: "Quiz a scelta multipla con punteggio: scienza, cultura e altro.",
     compare: "Confronti",
     compareSub: "moomz contro altri strumenti e sfide testa a testa.",
-    content: "Idee, guide e blog",
-    contentSub: "Ispirazione, tutorial e storie sui sondaggi.",
+    content: "Leggi e ispirati",
+    contentSub: "Idee, guide, blog, citazioni, storie Read e musica.",
     tools: "Strumenti gratuiti",
     toolsSub: "Utilità in tempo reale — valute, meteo, cripto e altro.",
     you: "Il tuo spazio",
@@ -290,17 +328,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   pt: {
     title: "Explorar moomz",
-    sub: "Todo o conteúdo do moomz, num só lugar. Escolhe um idioma, um formato, um tema — e mergulha.",
-    keywords: "Páginas de palavras-chave",
-    keywordsSub: "Uma página por tema, com as enquetes que falam sobre ele.",
+    sub: "Todo o conteúdo do moomz, num só lugar. Escolhe um formato, um tema — e mergulha.",
+    polls: "Enquetes moomz",
+    pollsSub: "O feed, o modo descobrir e a criação de enquetes.",
     templates: "Modelos de enquetes",
     templatesSub: "Enquetes prontas para lançar — um toque preenche o formulário.",
     quiz: "Quizzes",
     quizSub: "Quizzes de escolha múltipla com pontuação: ciência, cultura e mais.",
     compare: "Comparações",
     compareSub: "moomz contra outras ferramentas e duelos diretos.",
-    content: "Ideias, guias e blog",
-    contentSub: "Inspiração, tutoriais e histórias sobre enquetes.",
+    content: "Ler e inspirar-se",
+    contentSub: "Ideias, guias, blog, citações, histórias Read e música.",
     tools: "Ferramentas gratuitas",
     toolsSub: "Utilitários em tempo real — moedas, clima, cripto e mais.",
     you: "O teu espaço",
@@ -314,17 +352,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   de: {
     title: "moomz entdecken",
-    sub: "Alle moomz-Inhalte an einem Ort. Wähle eine Sprache, ein Format, ein Thema — und tauch ein.",
-    keywords: "Stichwort-Seiten",
-    keywordsSub: "Eine Seite pro Thema, mit den Umfragen, die darüber sprechen.",
+    sub: "Alle moomz-Inhalte an einem Ort. Wähle ein Format, ein Thema — und tauch ein.",
+    polls: "moomz-Umfragen",
+    pollsSub: "Der Feed, der Entdecken-Modus und das Erstellen von Umfragen.",
     templates: "Umfrage-Vorlagen",
     templatesSub: "Startklare Umfragen — ein Tipp füllt das Formular aus.",
     quiz: "Quizze",
     quizSub: "Bewertete Multiple-Choice-Quizze: Wissenschaft, Kultur und mehr.",
     compare: "Vergleiche",
     compareSub: "moomz gegen andere Tools und direkte Duelle.",
-    content: "Ideen, Guides & Blog",
-    contentSub: "Inspiration, Anleitungen und Geschichten rund um Umfragen.",
+    content: "Lesen & inspirieren",
+    contentSub: "Ideen, Guides, Blog, Zitate, Read-Geschichten und Musik.",
     tools: "Kostenlose Tools",
     toolsSub: "Echtzeit-Tools — Währungen, Wetter, Krypto und mehr.",
     you: "Dein Bereich",
@@ -338,17 +376,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   ja: {
     title: "moomz を見る",
-    sub: "moomz のすべてのコンテンツがここに。言語、形式、トピックを選んで飛び込もう。",
-    keywords: "キーワードページ",
-    keywordsSub: "トピックごとに1ページ、その話題の投票も一緒に。",
+    sub: "moomz のすべてのコンテンツがここに。形式、トピックを選んで飛び込もう。",
+    polls: "moomz の投票",
+    pollsSub: "フィード、ディスカバー、そして投票の作成。",
     templates: "投票テンプレート",
     templatesSub: "すぐ使える投票 — タップ1つで作成フォームに反映。",
     quiz: "クイズ",
     quizSub: "採点付きの多肢選択クイズ — 科学、文化など。",
     compare: "比較",
     compareSub: "moomz と他ツールの比較、そして一騎打ち。",
-    content: "アイデア・ガイド・ブログ",
-    contentSub: "投票にまつわるヒント、ハウツー、ストーリー。",
+    content: "読む・ひらめく",
+    contentSub: "アイデア、ガイド、ブログ、名言、Read のストーリー、音楽。",
     tools: "無料ツール",
     toolsSub: "リアルタイムの便利ツール — 通貨、天気、仮想通貨など。",
     you: "あなたのスペース",
@@ -362,17 +400,17 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
   },
   zh: {
     title: "探索 moomz",
-    sub: "moomz 的所有内容，尽在一处。选择语言、格式、主题 — 然后深入了解。",
-    keywords: "关键词页面",
-    keywordsSub: "每个主题一个页面，附带相关的投票。",
+    sub: "moomz 的所有内容，尽在一处。选择格式、主题 — 然后深入了解。",
+    polls: "moomz 投票",
+    pollsSub: "动态信息流、发现模式以及创建你自己的投票。",
     templates: "投票模板",
     templatesSub: "可直接使用的投票 — 轻点一下即填好创建表单。",
     quiz: "测验",
     quizSub: "带评分的多选测验：科学、文化等等。",
     compare: "对比",
     compareSub: "moomz 与其他工具对比，以及正面对决。",
-    content: "创意、指南和博客",
-    contentSub: "关于投票的灵感、教程和故事。",
+    content: "阅读与灵感",
+    contentSub: "创意、指南、博客、名言、Read 故事和音乐。",
     tools: "免费工具",
     toolsSub: "实时数据工具 — 货币、天气、加密货币等。",
     you: "你的空间",
@@ -516,10 +554,6 @@ export default function ExplorePage() {
     ? (locale as HubLocale)
     : "en";
 
-  const keywords = getAllKeywords();
-  const kwByLocale = new Map<string, number>();
-  for (const k of keywords)
-    kwByLocale.set(k.locale, (kwByLocale.get(k.locale) ?? 0) + 1);
   const templateCount = getAllTemplates().length;
 
   const t = EXPLORE_T[hl] ?? EXPLORE_T.en;
@@ -540,24 +574,24 @@ export default function ExplorePage() {
         <p className="text-white/60 text-balance max-w-2xl mx-auto">{t.sub}</p>
       </header>
 
-      {/* Keyword hubs — the 8-language tree */}
+      {/* moomz polls — the core product surfaces */}
       <section className="space-y-3">
         <div>
-          <h2 className="font-display text-2xl text-white">🔤 {t.keywords}</h2>
-          <p className="text-sm text-white/50">{t.keywordsSub}</p>
+          <h2 className="font-display text-2xl text-white">🗳️ {t.polls}</h2>
+          <p className="text-sm text-white/50">{t.pollsSub}</p>
         </div>
-        <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {KEYWORD_LANGS.map((l) => (
-            <li key={l.code}>
+        <ul className="grid grid-cols-3 gap-3">
+          {POLL_LINKS.map((l) => (
+            <li key={l.href}>
               <Link
                 href={l.href}
-                className="glass rounded-2xl px-4 py-4 hover:bg-white/10 transition flex flex-col gap-1 h-full"
+                className="glass rounded-2xl px-4 py-4 hover:bg-white/10 transition flex flex-col items-center gap-1.5 h-full text-center"
               >
-                <span className="font-display text-lg text-white">
-                  {l.label}
+                <span className="text-2xl" aria-hidden="true">
+                  {l.emoji}
                 </span>
-                <span className="text-xs text-white/45">
-                  {kwByLocale.get(l.code) ?? 0} {t.pages}
+                <span className="font-display text-sm text-white">
+                  {l.label[hl] ?? l.label.en}
                 </span>
               </Link>
             </li>
