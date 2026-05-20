@@ -128,11 +128,13 @@ export async function createPoll(formData: FormData) {
     slug = `${buildPollSlug(question).replace(/-[a-z0-9]{4}$/, "")}-${randomSuffix(4)}-${i + 2}`;
   }
 
+  const topics = tagQuestion(question, optionsRaw);
+
   let profileId: string | null = null;
   const lookup = await getProfileLookup();
   if (lookup) {
     const { data: prof } = await applyLookup(
-      supabase.from("profiles").select("id, achievements, polls_created"),
+      supabase.from("profiles").select("id, achievements, polls_created, topic_polls"),
       lookup,
     ).maybeSingle();
     if (prof) {
@@ -141,17 +143,22 @@ export async function createPoll(formData: FormData) {
       const newPollsCreated = (prof.polls_created ?? 0) + 1;
       owned.add("creator");
       owned.add("claimed");
+      // Per-topic creation counts → tcreate_* achievements.
+      const topicPolls: Record<string, number> = {
+        ...((prof.topic_polls as Record<string, number> | null) ?? {}),
+      };
+      for (const tp of topics) topicPolls[tp] = (topicPolls[tp] ?? 0) + 1;
       await supabase
         .from("profiles")
         .update({
           polls_created: newPollsCreated,
           achievements: Array.from(owned),
+          topic_polls: topicPolls,
         })
         .eq("id", prof.id);
     }
   }
 
-  const topics = tagQuestion(question, optionsRaw);
   const langCookie = cookies().get("moomz_locale")?.value;
   const lang = ["fr","en","es","it","pt","de","ja","zh"].includes(langCookie ?? "")
     ? langCookie!
@@ -175,6 +182,40 @@ export async function createPoll(formData: FormData) {
   if (error) throw new Error(error.message);
 
   pushSlugToHistory("moomz_created_slugs", slug);
+
+  // Parametric achievements + coins for the creator (polls / tcreate families).
+  // Best-effort — never blocks poll creation.
+  if (profileId) {
+    try {
+      const ssrC = getServerSupabase();
+      const { data: authC } = await ssrC.auth.getUser();
+      const claimTokenC = cookies().get("moomz_profile_token")?.value ?? null;
+      const { data: statsC } = await supabase.rpc("get_achievement_stats", {
+        p_user_id: authC.user?.id ?? null,
+        p_claim_token: claimTokenC,
+      });
+      const stC = (statsC ?? {}) as {
+        metrics?: Record<string, number>;
+        owned?: string[];
+        coin_balance?: number;
+      };
+      if (stC.metrics) {
+        let bal = stC.coin_balance ?? 0;
+        const { newlyUnlocked } = evaluateFromMetrics(stC.metrics, new Set(stC.owned ?? []));
+        if (newlyUnlocked.length > 0) {
+          const { data: claimC } = await supabase.rpc("claim_achievements", {
+            p_user_id: authC.user?.id ?? null,
+            p_claim_token: claimTokenC,
+            p_ids: newlyUnlocked.map((a) => a.id),
+          });
+          bal = ((claimC ?? {}) as { balance?: number }).balance ?? bal;
+        }
+        cookies().set("moomz_coins", String(bal), cookieOpts());
+      }
+    } catch {
+      // best-effort — achievements/coins never block poll creation.
+    }
+  }
 
   redirect(`/${slug}`);
 }
@@ -418,6 +459,17 @@ export async function castVote(
     .maybeSingle();
   const isDaily = today?.poll_id === pollId;
 
+  // Poll topics — fed to apply_vote_streak so the topic_votes counter and the
+  // per-topic vote achievements progress.
+  const { data: pollRow } = await supabase
+    .from("polls")
+    .select("topics")
+    .eq("id", pollId)
+    .maybeSingle<{ topics: string[] | null }>();
+  const pollTopics = (pollRow?.topics ?? []).filter(
+    (x): x is string => typeof x === "string" && x.length > 0,
+  );
+
   // -----
   // Race-safe streak / points / achievements credit via SQL function.
   // The RPC takes an advisory lock keyed on hashtext(voter_id) so two parallel
@@ -435,6 +487,7 @@ export async function castVote(
     p_is_majority: isMajority,
     p_is_rebel: isRebel,
     p_is_daily: isDaily,
+    p_topics: pollTopics,
   });
 
   type RpcResult = {
