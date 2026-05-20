@@ -18,6 +18,7 @@ export type Profile = {
   // the migration runs and the view is refreshed to expose them.
   avatar_url?: string | null;
   cosmetic_id?: string | null;
+  cosmetics_owned?: string[] | null;
 };
 
 export type PrivateProfile = Profile & {
@@ -27,7 +28,7 @@ export type PrivateProfile = Profile & {
 
 const PROFILE_COLS_BASE =
   "id,username,display_name,bio,socials,avatar_emoji,claim_token,user_id,created_at,total_points,top_streak";
-const PROFILE_COLS_EXTENDED = `${PROFILE_COLS_BASE},avatar_url,cosmetic_id`;
+const PROFILE_COLS_EXTENDED = `${PROFILE_COLS_BASE},avatar_url,cosmetic_id,cosmetics_owned`;
 
 // Best-effort SELECT that tries to read the new avatar_url / cosmetic_id
 // columns and silently falls back to the legacy list if the columns don't

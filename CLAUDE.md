@@ -25,7 +25,9 @@ Live and working: core poll/vote/share, home trending feed, Discover (TikTok sna
 
 **M3 — poll boost: shipped & live.** Migration 023: `boost_poll` RPC — 150 coins → 24h boost (owner-only, validated, identity-resolved; re-boost extends). The `polls.boost_until` column + the 5× factor in `polls_trending` already existed. `boostPoll` server action + `app/[slug]/boost-button.tsx` (8-lang) shown to the poll owner below the prediction widget. Wires the `booster` achievement family. Verified end-to-end.
 
-**M3 remaining + next:** a coin-shop surface (`/boutique`) — buy cosmetics with coins (needs a cosmetics-ownership model; current palettes are streak/points-gated). Then M4 = Stripe (buy coins). SEO-page ads = parallel passive revenue.
+**M3 — coin shop: shipped & live.** Migration 024: `profiles.cosmetics_owned text[]` + `buy_cosmetic` RPC (server-priced CASE, identity-resolved); `get_achievement_stats` now returns `cosmetics_owned`. Page `/boutique` + `boutique-grid.tsx` (8-lang) — buy any of the 7 paid palettes with coins (200–1500 🪙) as an alternative to the points/streak grind. `lib/cosmetics.ts` got a `price` field; `isUnlocked` now also honours bought palettes; `profile-form` passes `owned` so bought palettes are equippable. Wires the `decorator` family. Linked from `/haut-faits`. Verified end-to-end. **M1+M2+M3 all shipped — the coin economy is complete: earn (418 achievements) → spend (predictions, boost, cosmetics).**
+
+**Next: M4 — Stripe (needs the user: Stripe account + API keys).** Buy coins for real money — the actual revenue. In parallel: SEO-page ads (infra can be built now, gated behind an AdSense env var).
 
 ## Auth
 - **Magic-link email is the sole auth path.** Resend SMTP wired (`smtp.resend.com`, sender `hello@moomz.com`); `moomz.com` sending domain DNS-verified (DKIM+SPF+MX → not spam); branded dark email template live (`supabase-migrations/email-magic-link.html`).

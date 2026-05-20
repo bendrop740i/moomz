@@ -117,6 +117,12 @@ export default async function HautFaitsPage() {
             </div>
             <div className="text-xs uppercase tracking-widest text-white/40">{s.unlocked}</div>
           </div>
+          <Link
+            href="/boutique"
+            className="glass rounded-2xl px-4 py-3 flex items-center font-semibold text-white hover:bg-white/10 transition"
+          >
+            🛍️ Boutique →
+          </Link>
         </div>
       </header>
 

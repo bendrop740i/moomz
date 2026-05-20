@@ -98,8 +98,9 @@ export default function ProfileForm({
     () => ({
       points: initialProfile?.total_points ?? 0,
       topStreak: initialProfile?.top_streak ?? 0,
+      owned: initialProfile?.cosmetics_owned ?? [],
     }),
-    [initialProfile?.total_points, initialProfile?.top_streak],
+    [initialProfile?.total_points, initialProfile?.top_streak, initialProfile?.cosmetics_owned],
   );
 
   const isNew = !initialProfile;

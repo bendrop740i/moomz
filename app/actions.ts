@@ -281,6 +281,32 @@ export async function boostPoll(pollId: string): Promise<BoostResult> {
   return { ok: false, error: r.error ?? "unknown", balance: r.balance };
 }
 
+export type BuyCosmeticResult =
+  | { ok: true; balance: number }
+  | { ok: false; error: string; balance?: number };
+
+// M3 coin shop — buy a cosmetic palette with coins.
+export async function buyCosmetic(cosmeticId: string): Promise<BuyCosmeticResult> {
+  const ssr = getServerSupabase();
+  const { data: auth } = await ssr.auth.getUser();
+  const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
+  const supabase = getSupabase();
+  const { data, error } = await supabase.rpc("buy_cosmetic", {
+    p_user_id: auth.user?.id ?? null,
+    p_claim_token: claimToken,
+    p_cosmetic_id: cosmeticId,
+  });
+  if (error) return { ok: false, error: "server" };
+  const r = (data ?? {}) as { ok?: boolean; error?: string; balance?: number };
+  if (r.ok) {
+    if (typeof r.balance === "number") {
+      cookies().set("moomz_coins", String(r.balance), cookieOpts());
+    }
+    return { ok: true, balance: r.balance ?? 0 };
+  }
+  return { ok: false, error: r.error ?? "unknown", balance: r.balance };
+}
+
 export async function markPollSeen(slug: string, voteCount: number) {
   cookies().set(`moomz_seen_${slug}`, String(voteCount), cookieOpts());
 }
@@ -333,7 +359,7 @@ const RESERVED_USERNAMES = new Set([
   "sitemap", "opengraph", "icon", "favicon", "apple-icon", "push", "notif",
   "search", "explore", "trending", "new", "home", "static", "public", "next",
   "404", "500", "logout", "verify", "quiz", "outils", "tools",
-  "haut-faits", "achievements", "coins", "wallet",
+  "haut-faits", "achievements", "coins", "wallet", "boutique", "shop",
   // Utility tools shipped 2026-05-20
   "convertisseur", "converter", "meteo", "weather", "heure", "time",
   "jours-feries", "holidays", "crypto", "definition", "define", "cosmos",
