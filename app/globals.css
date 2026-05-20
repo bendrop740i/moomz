@@ -20,10 +20,25 @@
 
 html, body {
   height: 100%;
+  /* Robust horizontal-overflow guard: keep the page pinned to the viewport
+     width so a stray wide child can never let the user swipe off-canvas.
+     body already has the `overflow-x-hidden` utility — html needs it too. */
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* iOS Safari auto-zooms the page when a focused form field has a font-size
+   below 16px (many inputs here use `text-sm` = 14px). Forcing 16px on every
+   form control kills that zoom WITHOUT disabling pinch-zoom (the accessible
+   fix — never use maximum-scale / user-scalable=no for this). */
+input,
+textarea,
+select {
+  font-size: 16px;
 }
 
 body {

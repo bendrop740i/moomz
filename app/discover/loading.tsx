@@ -4,7 +4,7 @@
 export default function DiscoverLoading() {
   return (
     <div
-      className="fade-up -mx-5 -mt-8 sm:-mt-12 -mb-28"
+      className="fade-up -mx-4 sm:-mx-6 -mt-8 sm:-mt-12 -mb-28"
       aria-busy="true"
       aria-live="polite"
     >

@@ -74,7 +74,7 @@ export default function HomeTabs({ tabs, children }: HomeTabsProps) {
   }, [activeId]);
 
   return (
-    <div className="sticky top-0 z-20 backdrop-blur-md bg-[#0b0613]/80 border-b border-white/5 py-2 -mx-5 px-5">
+    <div className="sticky top-0 z-20 backdrop-blur-md bg-[#0b0613]/80 border-b border-white/5 py-2 -mx-4 px-4 sm:-mx-6 sm:px-6">
       <div ref={containerRef} className="relative flex items-center gap-2">
         {tabs.map((tab) => {
           const isActive = tab.id === activeId;

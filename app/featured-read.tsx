@@ -92,7 +92,7 @@ export default function FeaturedRead({
         </Link>
       </div>
       <div
-        className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-1 -mx-5 px-5 [&::-webkit-scrollbar]:hidden"
+        className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-1 -mx-4 px-4 sm:-mx-6 sm:px-6 [&::-webkit-scrollbar]:hidden"
         style={{ scrollbarWidth: "none" }}
       >
         {picked.map((page, i) => (

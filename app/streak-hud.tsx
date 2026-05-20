@@ -1,8 +1,15 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 type Streak = { pts: number; cur: number; top: number; ts: number };
+
+// Mirror of SiteHeader's HIDE_EXACT: on these routes the sticky header is not
+// rendered, so the HUD can sit near the very top. Everywhere else the header
+// (~52-60px tall, sticky top-0 z-30) occupies the top-right corner — the HUD
+// must clear it or the two overlap.
+const HEADER_HIDDEN = new Set(["/", "/discover"]);
 
 function multFor(streak: number) {
   return streak >= 18 ? 5 : streak >= 12 ? 4 : streak >= 7 ? 3 : streak >= 3 ? 2 : 1;
@@ -64,13 +71,16 @@ export default function StreakHUD() {
     return () => clearInterval(id);
   }, [streak]);
 
+  const pathname = usePathname();
   const multiplier = streak ? multFor(streak.cur) : 1;
   const hidden = !streak || streak.pts === 0;
+  // Below the header bar when it's visible, near the top when it's not.
+  const offsetClass = HEADER_HIDDEN.has(pathname) ? "top-3" : "top-16";
 
   return (
     <>
       {!hidden && (
-        <div className="pointer-events-none fixed top-3 right-3 z-30">
+        <div className={`pointer-events-none fixed ${offsetClass} right-3 z-30`}>
           <div
             className={`glass rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold transition ${
               flash ? "scale-110" : "scale-100"

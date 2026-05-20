@@ -229,7 +229,7 @@ function AskComposer({
           <div className="text-[10px] uppercase tracking-widest text-white/40 font-semibold">
             {t("ask.compose.suggestions")}
           </div>
-          <div className="-mx-4 sm:-mx-5 px-4 sm:px-5 overflow-x-auto snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="-mx-4 sm:-mx-6 px-4 sm:px-6 overflow-x-auto snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <div className="flex gap-1.5 w-max">
               {prompts.slice(0, 6).map((p, i) => (
                 <button

@@ -72,7 +72,7 @@ export default async function FeaturedAsks() {
       <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2">
         {tx("ask.featured.title")}
       </h2>
-      <div className="-mx-5 px-5 overflow-x-auto scrollbar-hide">
+      <div className="-mx-4 px-4 sm:-mx-6 sm:px-6 overflow-x-auto scrollbar-hide">
         <ul className="flex gap-3 snap-x snap-mandatory pb-1">
           {rows.map((r) => {
             const label = r.pending_count === 1
