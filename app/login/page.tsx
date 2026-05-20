@@ -49,8 +49,6 @@ export default async function LoginPage() {
         sentTitle={tx("auth.login.sent.title")}
         sentBody={tx("auth.login.sent.body")}
         errorText={tx("auth.login.error")}
-        google={tx("auth.login.google")}
-        orSeparator={tx("auth.login.or")}
       />
     </div>
   );
