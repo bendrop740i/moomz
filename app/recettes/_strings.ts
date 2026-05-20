@@ -9,6 +9,9 @@ export type ToolStrings = {
   hubIntro: string;
   hubSubline: string; // "{n} ingredients & categories"
   viewRecipes: string;
+  byIngredient: string;
+  byCategory: string;
+  recipesTitle: string; // "{name} recipes" detail-page heading
 
   // Shared
   poweredBy: string;
@@ -30,6 +33,9 @@ const fr: ToolStrings = {
   hubIntro: "Trouve une idée recette par ingrédient ou par catégorie. Gratuit, sans inscription.",
   hubSubline: "{n} ingrédients & catégories · mis à jour quotidiennement",
   viewRecipes: "Voir les recettes",
+  byIngredient: "Par ingrédient",
+  byCategory: "Par catégorie",
+  recipesTitle: "Recettes — {name}",
   poweredBy: "Propulsé par moomz",
   viewOnMealDb: "Voir sur TheMealDB",
   recipesFound: "{n} recettes trouvées",
@@ -49,6 +55,9 @@ const en: ToolStrings = {
   hubIntro: "Find a recipe idea by ingredient or category. Free, no signup.",
   hubSubline: "{n} ingredients & categories · updated daily",
   viewRecipes: "View recipes",
+  byIngredient: "By ingredient",
+  byCategory: "By category",
+  recipesTitle: "{name} recipes",
   poweredBy: "Powered by moomz",
   viewOnMealDb: "View on TheMealDB",
   recipesFound: "{n} recipes found",
@@ -68,6 +77,9 @@ const es: ToolStrings = {
   hubIntro: "Encuentra una idea de receta por ingrediente o categoría. Gratis, sin registro.",
   hubSubline: "{n} ingredientes y categorías · actualizado a diario",
   viewRecipes: "Ver recetas",
+  byIngredient: "Por ingrediente",
+  byCategory: "Por categoría",
+  recipesTitle: "Recetas — {name}",
   poweredBy: "Impulsado por moomz",
   viewOnMealDb: "Ver en TheMealDB",
   recipesFound: "{n} recetas encontradas",
@@ -87,6 +99,9 @@ const it: ToolStrings = {
   hubIntro: "Trova un'idea di ricetta per ingrediente o categoria. Gratis, senza registrazione.",
   hubSubline: "{n} ingredienti e categorie · aggiornato ogni giorno",
   viewRecipes: "Vedi ricette",
+  byIngredient: "Per ingrediente",
+  byCategory: "Per categoria",
+  recipesTitle: "Ricette — {name}",
   poweredBy: "Powered by moomz",
   viewOnMealDb: "Vedi su TheMealDB",
   recipesFound: "{n} ricette trovate",
@@ -106,6 +121,9 @@ const pt: ToolStrings = {
   hubIntro: "Encontre uma ideia de receita por ingrediente ou categoria. Grátis, sem registro.",
   hubSubline: "{n} ingredientes e categorias · atualizado diariamente",
   viewRecipes: "Ver receitas",
+  byIngredient: "Por ingrediente",
+  byCategory: "Por categoria",
+  recipesTitle: "Receitas — {name}",
   poweredBy: "Powered by moomz",
   viewOnMealDb: "Ver no TheMealDB",
   recipesFound: "{n} receitas encontradas",
@@ -125,6 +143,9 @@ const de: ToolStrings = {
   hubIntro: "Finde eine Rezeptidee nach Zutat oder Kategorie. Kostenlos, ohne Anmeldung.",
   hubSubline: "{n} Zutaten & Kategorien · täglich aktualisiert",
   viewRecipes: "Rezepte ansehen",
+  byIngredient: "Nach Zutat",
+  byCategory: "Nach Kategorie",
+  recipesTitle: "Rezepte — {name}",
   poweredBy: "Powered by moomz",
   viewOnMealDb: "Auf TheMealDB ansehen",
   recipesFound: "{n} Rezepte gefunden",
@@ -144,6 +165,9 @@ const ja: ToolStrings = {
   hubIntro: "食材やカテゴリーからレシピのアイデアを見つけよう。無料・登録不要。",
   hubSubline: "{n}個の食材とカテゴリー · 毎日更新",
   viewRecipes: "レシピを見る",
+  byIngredient: "食材から探す",
+  byCategory: "カテゴリーから探す",
+  recipesTitle: "{name}のレシピ",
   poweredBy: "moomz提供",
   viewOnMealDb: "TheMealDBで見る",
   recipesFound: "{n}件のレシピが見つかりました",
@@ -163,6 +187,9 @@ const zh: ToolStrings = {
   hubIntro: "按食材或类别查找食谱灵感。免费，无需注册。",
   hubSubline: "{n}个食材和类别 · 每日更新",
   viewRecipes: "查看食谱",
+  byIngredient: "按食材",
+  byCategory: "按类别",
+  recipesTitle: "{name}食谱",
   poweredBy: "moomz提供",
   viewOnMealDb: "在TheMealDB查看",
   recipesFound: "找到{n}个食谱",

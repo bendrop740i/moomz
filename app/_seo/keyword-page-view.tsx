@@ -53,7 +53,9 @@ type KeywordLabels = {
   related: string;
   similar: string;
   create: string;
+  createSub: string;
   faq: string;
+  qPrefix: string;
 };
 
 const LABELS: Record<string, KeywordLabels> = {
@@ -64,7 +66,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "À explorer aussi",
     similar: "Mots similaires",
     create: "Crée ton sondage moomz",
+    createSub: "moomz.com — 10 secondes, anonyme, gratuit",
     faq: "Questions fréquentes",
+    qPrefix: "Q.",
   },
   en: {
     crumb: "keywords",
@@ -73,7 +77,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "Explore more",
     similar: "Similar words",
     create: "Create your moomz poll",
+    createSub: "moomz.com — 10 seconds, anonymous, free",
     faq: "Frequently asked",
+    qPrefix: "Q.",
   },
   es: {
     crumb: "palabras clave",
@@ -82,7 +88,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "Explora también",
     similar: "Palabras similares",
     create: "Crea tu encuesta moomz",
+    createSub: "moomz.com — 10 segundos, anónimo, gratis",
     faq: "Preguntas frecuentes",
+    qPrefix: "P.",
   },
   it: {
     crumb: "parole chiave",
@@ -91,7 +99,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "Esplora anche",
     similar: "Parole simili",
     create: "Crea il tuo sondaggio moomz",
+    createSub: "moomz.com — 10 secondi, anonimo, gratis",
     faq: "Domande frequenti",
+    qPrefix: "D.",
   },
   pt: {
     crumb: "palavras-chave",
@@ -100,7 +110,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "Explorar mais",
     similar: "Palavras similares",
     create: "Crie sua enquete moomz",
+    createSub: "moomz.com — 10 segundos, anônimo, grátis",
     faq: "Perguntas frequentes",
+    qPrefix: "P.",
   },
   de: {
     crumb: "stichwörter",
@@ -109,7 +121,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "Weitere Themen",
     similar: "Ähnliche Wörter",
     create: "Erstelle deine moomz-Umfrage",
+    createSub: "moomz.com — 10 Sekunden, anonym, kostenlos",
     faq: "Häufige Fragen",
+    qPrefix: "F.",
   },
   ja: {
     crumb: "キーワード",
@@ -118,7 +132,9 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "もっと見る",
     similar: "似た単語",
     create: "moomz投票を作成",
+    createSub: "moomz.com — 10秒、匿名、無料",
     faq: "よくある質問",
+    qPrefix: "Q.",
   },
   zh: {
     crumb: "关键词",
@@ -127,11 +143,18 @@ const LABELS: Record<string, KeywordLabels> = {
     related: "更多探索",
     similar: "相关词",
     create: "创建你的moomz投票",
+    createSub: "moomz.com — 10秒、匿名、免费",
     faq: "常见问题",
+    qPrefix: "问",
   },
 };
 
-function pickSimilarKeywords(page: KeywordPage, limit = 12): KeywordPage[] {
+// Each locale has ~120-130 keyword pages. A small cap (the old 12) left ~90%
+// of siblings unreachable from any given detail page — Google would only walk
+// to them via the hub. Raise the cap high enough that one detail page links
+// the whole topic cluster plus a generous spillover, so the keyword surface is
+// a dense graph, not a star with the hub at the center.
+function pickSimilarKeywords(page: KeywordPage, limit = 48): KeywordPage[] {
   const all = keywordsByLocale(page.locale).filter(
     (k) => !(k.slug === page.slug),
   );
@@ -158,7 +181,7 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
   const related = page.related
     .map((s) => findKeyword(page.locale, s))
     .filter((p): p is KeywordPage => Boolean(p));
-  const similar = pickSimilarKeywords(page, 12);
+  const similar = pickSimilarKeywords(page, 48);
   const hubHref =
     page.locale === "fr" ? "/mot" : page.locale === "en" ? "/word" : `/topic/${page.locale}`;
 
@@ -205,7 +228,7 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
         <div className="flex items-center justify-between gap-3">
           <div>
             <div className="font-display text-xl text-white">{labels.create}</div>
-            <div className="text-xs text-white/50">moomz.com — 10 secondes, anonyme, gratuit</div>
+            <div className="text-xs text-white/50">{labels.createSub}</div>
           </div>
           <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-xl text-white group-hover:translate-x-1 group-hover:bg-white/20 transition">
             →
@@ -289,7 +312,7 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
               >
                 <summary className="font-semibold text-white cursor-pointer list-none flex items-center justify-between gap-3">
                   <span className="flex items-center gap-2.5">
-                    <span className="text-pink-300/70">Q.</span>
+                    <span className="text-pink-300/70">{labels.qPrefix}</span>
                     {f.q}
                   </span>
                   <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white/10 text-white/50 group-open:rotate-45 group-open:bg-pink-500/30 group-open:text-pink-200 transition">

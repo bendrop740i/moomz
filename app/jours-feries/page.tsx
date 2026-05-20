@@ -50,7 +50,7 @@ export default function JoursFeriesHub() {
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: JOURS_FERIES_SLUGS.length,
-      itemListElement: JOURS_FERIES_SLUGS.slice(0, 60).map((slug, i) => ({
+      itemListElement: JOURS_FERIES_SLUGS.map((slug, i) => ({
         "@type": "ListItem",
         position: i + 1,
         name: slug.replace(/-/g, " ").toUpperCase(),

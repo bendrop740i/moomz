@@ -53,6 +53,9 @@ type Strings = {
   related: string;
   back: string;
   hub: string;
+  poweredBy: string;
+  /** Accessible label for a city link, e.g. "Time in {city}". */
+  clockOf: (city: string) => string;
 };
 
 const T_FR: Strings = {
@@ -83,6 +86,8 @@ const T_FR: Strings = {
   related: "Autres villes dans le même fuseau",
   back: "← Toutes les villes",
   hub: "/heure",
+  poweredBy: "Propulsé par moomz",
+  clockOf: (city) => `Heure à ${city}`,
 };
 
 const T_EN: Strings = {
@@ -113,6 +118,8 @@ const T_EN: Strings = {
   related: "Other cities in the same timezone",
   back: "← All cities",
   hub: "/heure",
+  poweredBy: "Powered by moomz",
+  clockOf: (city) => `Time in ${city}`,
 };
 
 const T_ES: Strings = {
@@ -142,6 +149,8 @@ const T_ES: Strings = {
   related: "Otras ciudades en la misma zona",
   back: "← Todas las ciudades",
   hub: "/heure",
+  poweredBy: "Impulsado por moomz",
+  clockOf: (city) => `Hora en ${city}`,
 };
 
 const T_IT: Strings = {
@@ -171,6 +180,8 @@ const T_IT: Strings = {
   related: "Altre città nello stesso fuso",
   back: "← Tutte le città",
   hub: "/heure",
+  poweredBy: "Powered by moomz",
+  clockOf: (city) => `Ora a ${city}`,
 };
 
 const T_PT: Strings = {
@@ -200,6 +211,8 @@ const T_PT: Strings = {
   related: "Outras cidades no mesmo fuso",
   back: "← Todas as cidades",
   hub: "/heure",
+  poweredBy: "Powered by moomz",
+  clockOf: (city) => `Horário em ${city}`,
 };
 
 const T_DE: Strings = {
@@ -229,6 +242,8 @@ const T_DE: Strings = {
   related: "Andere Städte in derselben Zeitzone",
   back: "← Alle Städte",
   hub: "/heure",
+  poweredBy: "Powered by moomz",
+  clockOf: (city) => `Uhrzeit in ${city}`,
 };
 
 const T_JA: Strings = {
@@ -258,6 +273,8 @@ const T_JA: Strings = {
   related: "同じタイムゾーンの他の都市",
   back: "← すべての都市",
   hub: "/heure",
+  poweredBy: "moomz提供",
+  clockOf: (city) => `${city}の時刻`,
 };
 
 const T_ZH: Strings = {
@@ -287,6 +304,8 @@ const T_ZH: Strings = {
   related: "同时区的其他城市",
   back: "← 所有城市",
   hub: "/heure",
+  poweredBy: "moomz 提供",
+  clockOf: (city) => `${city}时间`,
 };
 
 function getStrings(locale: Locale): Strings {
@@ -350,8 +369,22 @@ function fmtTime(date: Date, tz: string): string {
   }).format(date);
 }
 
+function intlTagFor(locale: Locale): string {
+  switch (locale) {
+    case "zh": return "zh-CN";
+    case "ja": return "ja-JP";
+    case "fr": return "fr-FR";
+    case "en": return "en-US";
+    case "es": return "es-ES";
+    case "it": return "it-IT";
+    case "pt": return "pt-PT";
+    case "de": return "de-DE";
+    default:   return "en-US";
+  }
+}
+
 function fmtDate(date: Date, tz: string, locale: Locale): string {
-  const intlLocale = locale === "zh" ? "zh-CN" : locale === "ja" ? "ja-JP" : locale;
+  const intlLocale = intlTagFor(locale);
   return new Intl.DateTimeFormat(intlLocale, {
     timeZone: tz,
     weekday: "long",
@@ -521,6 +554,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
         {/* Live clock */}
         <LiveClock
           tz={city.tz}
+          dateLocale={intlTagFor(locale)}
           fallbackTime={fallbackTime}
           fallbackDate={fallbackDate}
           labels={{ localTime: S.localTime, today: S.today }}
@@ -634,7 +668,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
         {/* Poll CTA */}
         <aside className="glass rounded-3xl p-5 sm:p-6 text-center space-y-2">
           <div className="text-xs uppercase tracking-[0.2em] text-white/40 font-semibold">
-            ✨ {locale === "fr" ? "Propulsé par moomz" : "Powered by moomz"}
+            ✨ {S.poweredBy}
           </div>
           <h2 className="text-xl sm:text-2xl font-bold">{S.pollCtaTitle}</h2>
           <p className="text-sm text-white/60 max-w-sm mx-auto">{S.pollCtaText}</p>
@@ -658,7 +692,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
                   key={r.slug}
                   href={`/heure/${r.slug}`}
                   className="glass block rounded-xl p-3 hover:scale-[1.01] transition"
-                  aria-label={`Heure à ${r.name}`}
+                  aria-label={S.clockOf(r.name)}
                 >
                   <div className="flex items-center gap-2.5">
                     <span className="text-xl shrink-0" aria-hidden>

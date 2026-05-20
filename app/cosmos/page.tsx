@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/lib/i18n-server";
 import {
+  COSMOS_SLUGS,
   fetchApod,
   previewImageFor,
-  recentCosmosDates,
   todayCosmosDate,
 } from "@/lib/tools/cosmos";
 import { pickString, type ToolLocale } from "./_strings";
@@ -34,10 +34,10 @@ export default async function CosmosHub() {
 
   const todayIso = todayCosmosDate();
   const apod = await fetchApod();
-  const archive = recentCosmosDates(14)
-    // skip today (already the hero) — show the previous 14 days
-    .filter((d) => d !== todayIso)
-    .slice(0, 14);
+  // Link EVERY pre-rendered cosmos date so no generated detail page is orphaned.
+  const archive = COSMOS_SLUGS
+    // skip today (already the hero) — show every other generated day
+    .filter((d) => d !== todayIso);
 
   const heroTitle = apod?.title ?? S.pictureOfTheDay;
   const heroImage = apod ? previewImageFor(apod) ?? undefined : undefined;

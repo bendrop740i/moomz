@@ -38,6 +38,11 @@ type HubStrings = {
   ctaTitle: string;
   ctaBody: string;
   ctaButton: string;
+  poweredBy: string;
+  /** Region section headings keyed by HEURE_REGIONS id. */
+  regions: Record<string, string>;
+  /** Accessible label for a city tile, e.g. "Time in {city} ({country})". */
+  clockOf: (city: string, country: string) => string;
 };
 
 const HUB_STRINGS: Record<Locale, HubStrings> = {
@@ -48,6 +53,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Crée ton vibe check moomz",
     ctaBody: "Sondage instantané, partage en 1 clic, résultats en live.",
     ctaButton: "Lancer un moomz →",
+    poweredBy: "Propulsé par moomz",
+    regions: {
+      "europe-fr": "France",
+      europe: "Europe",
+      "north-america": "Amérique du Nord",
+      asia: "Asie",
+      oceania: "Océanie",
+      "south-america": "Amérique du Sud / Centrale",
+      africa: "Afrique",
+    },
+    clockOf: (city, country) => `Heure à ${city} (${country})`,
   },
   en: {
     title: "Time around the world",
@@ -56,6 +72,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Create your moomz vibe check",
     ctaBody: "Instant poll, one-tap share, live results.",
     ctaButton: "Start a moomz →",
+    poweredBy: "Powered by moomz",
+    regions: {
+      "europe-fr": "France",
+      europe: "Europe",
+      "north-america": "North America",
+      asia: "Asia",
+      oceania: "Oceania",
+      "south-america": "South & Central America",
+      africa: "Africa",
+    },
+    clockOf: (city, country) => `Time in ${city} (${country})`,
   },
   es: {
     title: "Hora en el mundo",
@@ -64,6 +91,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Crea tu encuesta moomz",
     ctaBody: "Encuesta instantánea, compartir con 1 toque, resultados en vivo.",
     ctaButton: "Lanzar moomz →",
+    poweredBy: "Impulsado por moomz",
+    regions: {
+      "europe-fr": "Francia",
+      europe: "Europa",
+      "north-america": "América del Norte",
+      asia: "Asia",
+      oceania: "Oceanía",
+      "south-america": "América del Sur y Central",
+      africa: "África",
+    },
+    clockOf: (city, country) => `Hora en ${city} (${country})`,
   },
   it: {
     title: "Ora nel mondo",
@@ -72,6 +110,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Crea il tuo vibe check moomz",
     ctaBody: "Sondaggio istantaneo, condivisione facile, risultati live.",
     ctaButton: "Lancia moomz →",
+    poweredBy: "Powered by moomz",
+    regions: {
+      "europe-fr": "Francia",
+      europe: "Europa",
+      "north-america": "America del Nord",
+      asia: "Asia",
+      oceania: "Oceania",
+      "south-america": "America del Sud / Centrale",
+      africa: "Africa",
+    },
+    clockOf: (city, country) => `Ora a ${city} (${country})`,
   },
   pt: {
     title: "Hora no mundo",
@@ -80,6 +129,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Crie sua enquete moomz",
     ctaBody: "Enquete instantânea, compartilhamento fácil, resultados ao vivo.",
     ctaButton: "Lançar moomz →",
+    poweredBy: "Powered by moomz",
+    regions: {
+      "europe-fr": "França",
+      europe: "Europa",
+      "north-america": "América do Norte",
+      asia: "Ásia",
+      oceania: "Oceania",
+      "south-america": "América do Sul / Central",
+      africa: "África",
+    },
+    clockOf: (city, country) => `Horário em ${city} (${country})`,
   },
   de: {
     title: "Zeit weltweit",
@@ -88,6 +148,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "Erstelle deinen moomz-Vibe-Check",
     ctaBody: "Sofortige Umfrage, Teilen mit einem Tipp, Live-Ergebnisse.",
     ctaButton: "moomz starten →",
+    poweredBy: "Powered by moomz",
+    regions: {
+      "europe-fr": "Frankreich",
+      europe: "Europa",
+      "north-america": "Nordamerika",
+      asia: "Asien",
+      oceania: "Ozeanien",
+      "south-america": "Süd- & Mittelamerika",
+      africa: "Afrika",
+    },
+    clockOf: (city, country) => `Uhrzeit in ${city} (${country})`,
   },
   ja: {
     title: "世界の時刻",
@@ -96,6 +167,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "moomzで投票を作る",
     ctaBody: "瞬時に投票、ワンタップ共有、ライブ結果。",
     ctaButton: "moomzを始める →",
+    poweredBy: "moomz提供",
+    regions: {
+      "europe-fr": "フランス",
+      europe: "ヨーロッパ",
+      "north-america": "北アメリカ",
+      asia: "アジア",
+      oceania: "オセアニア",
+      "south-america": "南・中央アメリカ",
+      africa: "アフリカ",
+    },
+    clockOf: (city, country) => `${city}（${country}）の時刻`,
   },
   zh: {
     title: "世界时间",
@@ -104,6 +186,17 @@ const HUB_STRINGS: Record<Locale, HubStrings> = {
     ctaTitle: "创建你的moomz投票",
     ctaBody: "即时投票，一键分享，实时结果。",
     ctaButton: "开始moomz →",
+    poweredBy: "moomz 提供",
+    regions: {
+      "europe-fr": "法国",
+      europe: "欧洲",
+      "north-america": "北美洲",
+      asia: "亚洲",
+      oceania: "大洋洲",
+      "south-america": "南美洲 / 中美洲",
+      africa: "非洲",
+    },
+    clockOf: (city, country) => `${city}（${country}）时间`,
   },
 };
 
@@ -171,7 +264,7 @@ export default function HeureHubPage() {
                 className="text-lg font-bold tracking-tight flex items-center gap-2"
               >
                 <span aria-hidden>{region.emoji}</span>
-                <span>{region.label}</span>
+                <span>{S.regions[region.id] ?? region.label}</span>
                 <span className="text-xs text-white/40 font-normal">({cities.length})</span>
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
@@ -182,7 +275,7 @@ export default function HeureHubPage() {
                     <Link
                       key={c.slug}
                       href={`/heure/${c.slug}`}
-                      aria-label={`Heure à ${c.name} (${c.country})`}
+                      aria-label={S.clockOf(c.name, c.country)}
                       className="glass block rounded-2xl p-3 hover:scale-[1.02] active:scale-[0.99] transition group"
                     >
                       <div className="flex items-center gap-2.5">
@@ -211,7 +304,7 @@ export default function HeureHubPage() {
 
         <aside className="glass rounded-3xl p-5 sm:p-6 text-center space-y-2">
           <div className="text-xs uppercase tracking-[0.2em] text-white/40 font-semibold">
-            ✨ {locale === "fr" ? "Propulsé par moomz" : "Powered by moomz"}
+            ✨ {S.poweredBy}
           </div>
           <h2 className="text-xl sm:text-2xl font-bold">{S.ctaTitle}</h2>
           <p className="text-sm text-white/60 max-w-sm mx-auto">{S.ctaBody}</p>

@@ -36,6 +36,8 @@ export type ToolStrings = {
   pollButton: string;
   relatedPairs: string;
   backToHub: string;
+  source: string;          // "source"
+  chartAria: string;       // accessible label for the 30-day sparkline
 };
 
 const fr: ToolStrings = {
@@ -68,6 +70,8 @@ const fr: ToolStrings = {
   pollButton: "Créer le sondage",
   relatedPairs: "Autres paires intéressantes",
   backToHub: "← Toutes les devises",
+  source: "source",
+  chartAria: "Évolution sur 30 jours",
 };
 
 const en: ToolStrings = {
@@ -100,6 +104,8 @@ const en: ToolStrings = {
   pollButton: "Create the poll",
   relatedPairs: "Related pairs",
   backToHub: "← All currencies",
+  source: "source",
+  chartAria: "30-day trend",
 };
 
 const es: ToolStrings = {
@@ -132,6 +138,8 @@ const es: ToolStrings = {
   pollButton: "Crear la encuesta",
   relatedPairs: "Otros pares interesantes",
   backToHub: "← Todas las divisas",
+  source: "fuente",
+  chartAria: "Evolución de 30 días",
 };
 
 const it: ToolStrings = {
@@ -164,6 +172,8 @@ const it: ToolStrings = {
   pollButton: "Crea il sondaggio",
   relatedPairs: "Coppie correlate",
   backToHub: "← Tutte le valute",
+  source: "fonte",
+  chartAria: "Andamento a 30 giorni",
 };
 
 const pt: ToolStrings = {
@@ -196,6 +206,8 @@ const pt: ToolStrings = {
   pollButton: "Criar a enquete",
   relatedPairs: "Pares relacionados",
   backToHub: "← Todas as moedas",
+  source: "fonte",
+  chartAria: "Evolução de 30 dias",
 };
 
 const de: ToolStrings = {
@@ -228,6 +240,8 @@ const de: ToolStrings = {
   pollButton: "Umfrage erstellen",
   relatedPairs: "Verwandte Paare",
   backToHub: "← Alle Währungen",
+  source: "Quelle",
+  chartAria: "30-Tage-Verlauf",
 };
 
 const ja: ToolStrings = {
@@ -260,6 +274,8 @@ const ja: ToolStrings = {
   pollButton: "アンケートを作成",
   relatedPairs: "関連ペア",
   backToHub: "← すべての通貨",
+  source: "出典",
+  chartAria: "過去30日間の推移",
 };
 
 const zh: ToolStrings = {
@@ -292,6 +308,8 @@ const zh: ToolStrings = {
   pollButton: "创建投票",
   relatedPairs: "相关货币对",
   backToHub: "← 所有货币",
+  source: "来源",
+  chartAria: "30 天走势",
 };
 
 export const STRINGS: Record<ToolLocale, ToolStrings> = {

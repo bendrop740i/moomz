@@ -68,7 +68,7 @@ export default async function ConvertisseurHub() {
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: CONVERTISSEUR_SLUGS.length,
-      itemListElement: CONVERTISSEUR_SLUGS.slice(0, 50).map((slug, i) => ({
+      itemListElement: CONVERTISSEUR_SLUGS.map((slug, i) => ({
         "@type": "ListItem",
         position: i + 1,
         name: slug.toUpperCase().replace("-", " → "),

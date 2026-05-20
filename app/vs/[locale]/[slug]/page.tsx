@@ -65,6 +65,85 @@ function toBullets(v: string[] | string): string[] {
     .filter(Boolean);
 }
 
+// Per-locale UI chrome. Keyed off the URL locale (the locale is in the path).
+// Data (title/intro/pros/verdict/faq) is authored-language and never touched.
+const CHROME: Record<
+  VsLocale,
+  {
+    cta: string;
+    ctaSub: string;
+    verdict: string;
+    faq: string;
+    more: string;
+    alsoIn: string;
+  }
+> = {
+  en: {
+    cta: "Run a moomz poll: who wins for you?",
+    ctaSub: "moomz.com — 10s, anonymous, free",
+    verdict: "Verdict",
+    faq: "Frequently asked",
+    more: "More in ",
+    alsoIn: "Also in",
+  },
+  fr: {
+    cta: "Lance un sondage moomz : qui gagne pour toi ?",
+    ctaSub: "moomz.com — 10s, anonyme, gratuit",
+    verdict: "Verdict",
+    faq: "Questions fréquentes",
+    more: "Plus dans ",
+    alsoIn: "Aussi en",
+  },
+  es: {
+    cta: "Lanza una encuesta moomz: ¿quién gana?",
+    ctaSub: "moomz.com — 10s, anónimo, gratis",
+    verdict: "Veredicto",
+    faq: "Preguntas frecuentes",
+    more: "Más en ",
+    alsoIn: "También en",
+  },
+  it: {
+    cta: "Lancia un sondaggio moomz: chi vince?",
+    ctaSub: "moomz.com — 10s, anonimo, gratis",
+    verdict: "Verdetto",
+    faq: "Domande frequenti",
+    more: "Altri in ",
+    alsoIn: "Anche in",
+  },
+  pt: {
+    cta: "Lança uma enquete moomz: quem vence?",
+    ctaSub: "moomz.com — 10s, anônimo, grátis",
+    verdict: "Veredito",
+    faq: "Perguntas frequentes",
+    more: "Mais em ",
+    alsoIn: "Também em",
+  },
+  de: {
+    cta: "Starte eine moomz-Umfrage: wer gewinnt?",
+    ctaSub: "moomz.com — 10s, anonym, kostenlos",
+    verdict: "Urteil",
+    faq: "Häufige Fragen",
+    more: "Mehr in ",
+    alsoIn: "Auch in",
+  },
+  ja: {
+    cta: "moomzで投票:どっちが勝つ?",
+    ctaSub: "moomz.com — 10秒・匿名・無料",
+    verdict: "結論",
+    faq: "よくある質問",
+    more: "他の ",
+    alsoIn: "他の言語",
+  },
+  zh: {
+    cta: "用 moomz 发起投票:谁赢?",
+    ctaSub: "moomz.com — 10秒、匿名、免费",
+    verdict: "结论",
+    faq: "常见问题",
+    more: "更多 ",
+    alsoIn: "其他语言",
+  },
+};
+
 export default function VsPage({ params }: { params: Params }) {
   if (!VS_LOCALES.includes(params.locale as VsLocale)) notFound();
   const pair = pairBySlug(params.slug);
@@ -81,24 +160,14 @@ export default function VsPage({ params }: { params: Params }) {
     (l) => l !== locale && pair.content[l],
   );
 
-  const cta =
-    locale === "fr" ? "Lance un sondage moomz : qui gagne pour toi ?"
-    : locale === "es" ? "Lanza una encuesta moomz: ¿quién gana?"
-    : locale === "it" ? "Lancia un sondaggio moomz: chi vince?"
-    : locale === "pt" ? "Lança uma enquete moomz: quem vence?"
-    : locale === "de" ? "Starte eine moomz-Umfrage: wer gewinnt?"
-    : locale === "ja" ? "moomzで投票:どっちが勝つ?"
-    : locale === "zh" ? "用 moomz 发起投票:谁赢?"
-    : "Run a moomz poll: who wins for you?";
+  const c = CHROME[locale] ?? CHROME.en;
+  const cta = c.cta;
 
   const pollHref = `/?q=${encodeURIComponent(`${pair.a} vs ${pair.b}?`)}&o=${encodeURIComponent(pair.a)}|${encodeURIComponent(pair.b)}`;
 
-  const verdictLabel =
-    locale === "fr" ? "Verdict" : locale === "es" ? "Veredicto" : locale === "it" ? "Verdetto" : locale === "pt" ? "Veredito" : locale === "de" ? "Urteil" : locale === "ja" ? "結論" : locale === "zh" ? "结论" : "Verdict";
-  const faqLabel =
-    locale === "fr" ? "Questions fréquentes" : locale === "es" ? "Preguntas frecuentes" : locale === "it" ? "Domande frequenti" : locale === "pt" ? "Perguntas frequentes" : locale === "de" ? "Häufige Fragen" : locale === "ja" ? "よくある質問" : locale === "zh" ? "常见问题" : "Frequently asked";
-  const moreLabel =
-    locale === "fr" ? "Plus dans " : locale === "es" ? "Más en " : locale === "it" ? "Altri in " : locale === "pt" ? "Mais em " : locale === "de" ? "Mehr in " : locale === "ja" ? "他の " : locale === "zh" ? "更多 " : "More in ";
+  const verdictLabel = c.verdict;
+  const faqLabel = c.faq;
+  const moreLabel = c.more;
 
   return (
     <article className="space-y-8 fade-up">
@@ -125,7 +194,7 @@ export default function VsPage({ params }: { params: Params }) {
         <div className="flex items-center justify-between gap-3">
           <div>
             <div className="font-display text-xl">{cta}</div>
-            <div className="text-xs text-white/50">moomz.com — 10s, anonyme, gratuit</div>
+            <div className="text-xs text-white/50">{c.ctaSub}</div>
           </div>
           <span className="text-2xl">→</span>
         </div>
@@ -186,9 +255,7 @@ export default function VsPage({ params }: { params: Params }) {
 
       {availableLangs.length > 0 && (
         <section className="space-y-2">
-          <div className="text-xs uppercase tracking-widest text-white/40">
-            {locale === "fr" ? "Aussi en" : "Also in"}
-          </div>
+          <div className="text-xs uppercase tracking-widest text-white/40">{c.alsoIn}</div>
           <div className="flex flex-wrap gap-1.5">
             {availableLangs.map((l) => (
               <Link

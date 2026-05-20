@@ -43,6 +43,10 @@ export type CryptoStrings = {
   rangeAvg: string;
   currentPrice: string;
   symbol: string;
+  statsHeading: string;     // "Stats" section heading
+  genesis: string;          // "Genesis" / launch-date label
+  per24h: string;           // "24h" suffix shown next to the 24h change
+  change30d: string;        // "30d" prefix on the 30-day change line
 };
 
 const FR: CryptoStrings = {
@@ -84,6 +88,10 @@ const FR: CryptoStrings = {
   rangeAvg: "Moyenne",
   currentPrice: "Prix actuel",
   symbol: "Symbole",
+  statsHeading: "Statistiques",
+  genesis: "Création",
+  per24h: "24 h",
+  change30d: "30 j",
 };
 
 const EN: CryptoStrings = {
@@ -125,6 +133,10 @@ const EN: CryptoStrings = {
   rangeAvg: "Average",
   currentPrice: "Current price",
   symbol: "Symbol",
+  statsHeading: "Stats",
+  genesis: "Genesis",
+  per24h: "24h",
+  change30d: "30d",
 };
 
 const ES: CryptoStrings = {
@@ -166,6 +178,10 @@ const ES: CryptoStrings = {
   rangeAvg: "Media",
   currentPrice: "Precio actual",
   symbol: "Símbolo",
+  statsHeading: "Estadísticas",
+  genesis: "Creación",
+  per24h: "24 h",
+  change30d: "30 d",
 };
 
 const IT: CryptoStrings = {
@@ -207,6 +223,10 @@ const IT: CryptoStrings = {
   rangeAvg: "Media",
   currentPrice: "Prezzo attuale",
   symbol: "Simbolo",
+  statsHeading: "Statistiche",
+  genesis: "Creazione",
+  per24h: "24 h",
+  change30d: "30 g",
 };
 
 const PT: CryptoStrings = {
@@ -248,6 +268,10 @@ const PT: CryptoStrings = {
   rangeAvg: "Média",
   currentPrice: "Preço atual",
   symbol: "Símbolo",
+  statsHeading: "Estatísticas",
+  genesis: "Criação",
+  per24h: "24 h",
+  change30d: "30 d",
 };
 
 const DE: CryptoStrings = {
@@ -289,6 +313,10 @@ const DE: CryptoStrings = {
   rangeAvg: "Durchschnitt",
   currentPrice: "Aktueller Preis",
   symbol: "Symbol",
+  statsHeading: "Statistiken",
+  genesis: "Start",
+  per24h: "24 h",
+  change30d: "30 T",
 };
 
 const JA: CryptoStrings = {
@@ -330,6 +358,10 @@ const JA: CryptoStrings = {
   rangeAvg: "平均",
   currentPrice: "現在の価格",
   symbol: "シンボル",
+  statsHeading: "統計",
+  genesis: "公開日",
+  per24h: "24時間",
+  change30d: "30日",
 };
 
 const ZH: CryptoStrings = {
@@ -371,6 +403,10 @@ const ZH: CryptoStrings = {
   rangeAvg: "平均",
   currentPrice: "当前价格",
   symbol: "代号",
+  statsHeading: "统计",
+  genesis: "创世日期",
+  per24h: "24小时",
+  change30d: "30 天",
 };
 
 const STRINGS: Record<Locale, CryptoStrings> = {

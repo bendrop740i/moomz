@@ -17,9 +17,10 @@ type Props = {
   page: SeoPage;
 };
 
-const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; faq: string; tryNow: string; related: string }> = {
+const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: string; back: string; faq: string; tryNow: string; related: string }> = {
   fr: {
     create: "Crée ton sondage moomz",
+    createSub: "moomz.com — 10 secondes, anonyme, gratuit",
     ideas: "Idées de sondage prêtes à lancer",
     back: "← Toutes les idées",
     faq: "Questions fréquentes",
@@ -28,6 +29,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   en: {
     create: "Create your moomz poll",
+    createSub: "moomz.com — 10 seconds, anonymous, free",
     ideas: "Ready-to-launch poll prompts",
     back: "← All ideas",
     faq: "Frequently asked",
@@ -36,6 +38,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   es: {
     create: "Crea tu encuesta moomz",
+    createSub: "moomz.com — 10 segundos, anónimo, gratis",
     ideas: "Ideas de encuesta listas para lanzar",
     back: "← Todas las historias",
     faq: "Preguntas frecuentes",
@@ -44,6 +47,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   it: {
     create: "Crea il tuo sondaggio moomz",
+    createSub: "moomz.com — 10 secondi, anonimo, gratis",
     ideas: "Idee di sondaggio pronte da lanciare",
     back: "← Tutte le storie",
     faq: "Domande frequenti",
@@ -52,6 +56,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   pt: {
     create: "Crie sua enquete moomz",
+    createSub: "moomz.com — 10 segundos, anônimo, grátis",
     ideas: "Ideias de enquete prontas",
     back: "← Todas as histórias",
     faq: "Perguntas frequentes",
@@ -60,6 +65,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   de: {
     create: "Erstelle deine moomz-Umfrage",
+    createSub: "moomz.com — 10 Sekunden, anonym, gratis",
     ideas: "Sofort startbare Umfrage-Ideen",
     back: "← Alle Geschichten",
     faq: "Häufige Fragen",
@@ -68,6 +74,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   ja: {
     create: "moomzで投票を作る",
+    createSub: "moomz.com — 10秒、匿名、無料",
     ideas: "すぐ使える投票アイデア",
     back: "← すべてのストーリー",
     faq: "よくある質問",
@@ -76,6 +83,7 @@ const CTA_LABELS: Record<Locale, { create: string; ideas: string; back: string; 
   },
   zh: {
     create: "创建你的 moomz 投票",
+    createSub: "moomz.com — 10 秒，匿名，免费",
     ideas: "现成可用的投票灵感",
     back: "← 所有故事",
     faq: "常见问题",
@@ -147,7 +155,7 @@ export default function SeoPageView({ page }: Props) {
         <div className="flex items-center justify-between gap-3">
           <div>
             <div className="font-display text-xl text-white">{labels.create}</div>
-            <div className="text-xs text-white/50">moomz.com — 10 secondes, anonyme, gratuit</div>
+            <div className="text-xs text-white/50">{labels.createSub}</div>
           </div>
           <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-xl text-white group-hover:translate-x-1 group-hover:bg-white/20 transition">
             →
@@ -281,10 +289,10 @@ export default function SeoPageView({ page }: Props) {
       )}
 
       {/* New rich cross-link grid */}
-      <CrossLinkGrid page={page} max={8} />
+      <CrossLinkGrid page={page} max={18} />
 
       {/* Same-category pill row */}
-      <SameCategoryPills page={page} max={12} />
+      <SameCategoryPills page={page} max={30} />
 
       {/* Top-level hubs in this locale */}
       <ExploreThemes locale={page.locale} />

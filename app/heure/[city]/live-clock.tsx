@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 type Props = {
   /** IANA timezone identifier. */
   tz: string;
+  /** BCP-47 tag used to format the live date in the visitor's language. */
+  dateLocale: string;
   /** SSR fallback strings rendered on the server. */
   fallbackTime: string;
   fallbackDate: string;
@@ -20,7 +22,7 @@ type Props = {
  * fallback so the page never shows blank; once mounted we update every
  * second using Intl.DateTimeFormat in the city's IANA timezone.
  */
-export default function LiveClock({ tz, fallbackTime, fallbackDate, labels }: Props) {
+export default function LiveClock({ tz, dateLocale, fallbackTime, fallbackDate, labels }: Props) {
   const [now, setNow] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -39,7 +41,7 @@ export default function LiveClock({ tz, fallbackTime, fallbackDate, labels }: Pr
     }).format(d);
 
   const dateFmt = (d: Date) =>
-    new Intl.DateTimeFormat("fr-FR", {
+    new Intl.DateTimeFormat(dateLocale, {
       timeZone: tz,
       weekday: "long",
       day: "numeric",

@@ -14,92 +14,119 @@ type Props = {
 
 const HUB_LABELS: Record<Locale, {
   featured: string;
+  ctaSub: string;
   sortBy: string;
   sortRecent: string;
   sortPopular: string;
   topics: string;
   topicMisc: string;
   alsoSee: string;
+  keywordHub: string;
+  keywordHubCount: string;
   inLocale: (label: string) => string;
 }> = {
   fr: {
     featured: "À la une",
+    ctaSub: "Crée ton sondage en 10 secondes",
     sortBy: "Trier par :",
     sortRecent: "Récent",
     sortPopular: "Populaire",
     topics: "Clusters de sujets",
     topicMisc: "Divers",
     alsoSee: "Voir aussi",
+    keywordHub: "Mots-clés",
+    keywordHubCount: "120+ pages",
     inLocale: (l) => `${l}`,
   },
   en: {
     featured: "Featured",
+    ctaSub: "Create your poll in 10 seconds",
     sortBy: "Sort by:",
     sortRecent: "Recent",
     sortPopular: "Popular",
     topics: "Topic clusters",
     topicMisc: "More",
     alsoSee: "See also",
+    keywordHub: "Keywords",
+    keywordHubCount: "120+ pages",
     inLocale: (l) => `${l}`,
   },
   es: {
     featured: "Destacados",
+    ctaSub: "Crea tu encuesta en 10 segundos",
     sortBy: "Ordenar por:",
     sortRecent: "Reciente",
     sortPopular: "Popular",
     topics: "Clústeres de temas",
     topicMisc: "Otros",
     alsoSee: "Ver también",
+    keywordHub: "Palabras clave",
+    keywordHubCount: "120+ páginas",
     inLocale: (l) => l,
   },
   it: {
     featured: "In evidenza",
+    ctaSub: "Crea il tuo sondaggio in 10 secondi",
     sortBy: "Ordina per:",
     sortRecent: "Recenti",
     sortPopular: "Popolari",
     topics: "Cluster di argomenti",
     topicMisc: "Altri",
     alsoSee: "Vedi anche",
+    keywordHub: "Parole chiave",
+    keywordHubCount: "120+ pagine",
     inLocale: (l) => l,
   },
   pt: {
     featured: "Em destaque",
+    ctaSub: "Crie sua enquete em 10 segundos",
     sortBy: "Ordenar por:",
     sortRecent: "Recente",
     sortPopular: "Popular",
     topics: "Clusters de tópicos",
     topicMisc: "Outros",
     alsoSee: "Veja também",
+    keywordHub: "Palavras-chave",
+    keywordHubCount: "120+ páginas",
     inLocale: (l) => l,
   },
   de: {
     featured: "Empfohlen",
+    ctaSub: "Erstelle deine Umfrage in 10 Sekunden",
     sortBy: "Sortieren nach:",
     sortRecent: "Neueste",
     sortPopular: "Beliebt",
     topics: "Themen-Cluster",
     topicMisc: "Weitere",
     alsoSee: "Siehe auch",
+    keywordHub: "Schlüsselwörter",
+    keywordHubCount: "120+ Seiten",
     inLocale: (l) => l,
   },
   ja: {
     featured: "特集",
+    ctaSub: "10秒で投票を作ろう",
     sortBy: "並び替え：",
     sortRecent: "新着",
     sortPopular: "人気",
     topics: "トピッククラスター",
     topicMisc: "その他",
     alsoSee: "関連リンク",
+    keywordHub: "キーワード",
+    keywordHubCount: "120以上のページ",
     inLocale: (l) => l,
   },
   zh: {
     featured: "精选",
+    ctaSub: "10 秒创建你的投票",
     sortBy: "排序：",
     sortRecent: "最新",
     sortPopular: "热门",
     topics: "主题集群",
     topicMisc: "其他",
     alsoSee: "另请参阅",
+    keywordHub: "关键词",
+    keywordHubCount: "120+ 个页面",
     inLocale: (l) => l,
   },
 };
@@ -129,7 +156,7 @@ function pickFeatured(pages: SeoPage[], n: number): SeoPage[] {
 /**
  * Group remaining pages by their first `related` slug (used as a soft cluster
  * key) if available, otherwise into an alphabetical "misc" bucket. Each cluster
- * holds 5 to 8 pages — anything smaller folds into "misc".
+ * holds up to 24 pages — anything smaller than 3 folds into "misc".
  */
 function groupIntoClusters(
   pages: SeoPage[],
@@ -156,17 +183,17 @@ function groupIntoClusters(
     // the same locale; fallback to the slug itself.
     const labelPage = pages.find((p) => p.slug === key);
     const label = labelPage ? truncate(labelPage.h1, 50) : key;
-    clusters.push({ label, pages: items.slice(0, 8) });
+    clusters.push({ label, pages: items.slice(0, 24) });
   }
   // Sort clusters by size desc
   clusters.sort((a, b) => b.pages.length - a.pages.length);
   if (misc.length) {
     misc.sort((a, b) => a.h1.localeCompare(b.h1));
-    // Chunk misc into ~8-page sub-buckets so the UI doesn't dump 60 pills at once
-    for (let i = 0; i < misc.length; i += 8) {
+    // Chunk misc into ~16-page sub-buckets so the UI doesn't dump 60 pills at once
+    for (let i = 0; i < misc.length; i += 16) {
       clusters.push({
-        label: i === 0 ? miscLabel : `${miscLabel} ${Math.floor(i / 8) + 1}`,
-        pages: misc.slice(i, i + 8),
+        label: i === 0 ? miscLabel : `${miscLabel} ${Math.floor(i / 16) + 1}`,
+        pages: misc.slice(i, i + 16),
       });
     }
   }
@@ -236,7 +263,7 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
       >
         <div className="font-display text-xl text-white">moomz.com</div>
         <div className="text-xs text-white/50">
-          Crée ton sondage en 10 secondes
+          {labels.ctaSub}
           <span aria-hidden="true" className="ml-1 inline-block group-hover:translate-x-1 transition">→</span>
         </div>
       </Link>
@@ -384,22 +411,13 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
                 </span>
               </Link>
             ))}
-            {/* Keyword hubs for FR/EN */}
-            {loc === "fr" ? (
+            {/* Keyword hubs — route exists only for FR (/mot) and EN (/word) */}
+            {loc === "fr" || loc === "en" ? (
               <Link
-                href="/mot"
+                href={loc === "fr" ? "/mot" : "/word"}
                 className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
-                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">Mots-clés</span>
-                <span className="rounded-full bg-white/5 border border-white/10 px-2 py-0.5 text-xs text-white/50">120+</span>
-              </Link>
-            ) : null}
-            {loc === "en" ? (
-              <Link
-                href="/word"
-                className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
-              >
-                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">Keywords</span>
+                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">{labels.keywordHub}</span>
                 <span className="rounded-full bg-white/5 border border-white/10 px-2 py-0.5 text-xs text-white/50">120+</span>
               </Link>
             ) : null}

@@ -45,8 +45,56 @@ const HEADER_HOOKS: Record<Locale, string> = {
   zh: "WTF 帖子、神转折、Reddit 狗血、悬疑、爆款故事。投票决定换作是你会怎么做。",
 };
 
+// UI chrome — buttons, headings, count labels. Localized for all 8 locales.
+const CHROME: Record<
+  Locale,
+  { storiesHeading: string; createCta: string; storyCount: (n: number) => string }
+> = {
+  fr: {
+    storiesHeading: "📖 Histoires",
+    createCta: "Crée ton sondage en 10 secondes",
+    storyCount: (n) => `${n} histoires`,
+  },
+  en: {
+    storiesHeading: "📖 Stories",
+    createCta: "Create your poll in 10 seconds",
+    storyCount: (n) => `${n} stories`,
+  },
+  es: {
+    storiesHeading: "📖 Historias",
+    createCta: "Crea tu encuesta en 10 segundos",
+    storyCount: (n) => `${n} historias`,
+  },
+  it: {
+    storiesHeading: "📖 Storie",
+    createCta: "Crea il tuo sondaggio in 10 secondi",
+    storyCount: (n) => `${n} storie`,
+  },
+  pt: {
+    storiesHeading: "📖 Histórias",
+    createCta: "Crie sua enquete em 10 segundos",
+    storyCount: (n) => `${n} histórias`,
+  },
+  de: {
+    storiesHeading: "📖 Geschichten",
+    createCta: "Erstelle deine Umfrage in 10 Sekunden",
+    storyCount: (n) => `${n} Geschichten`,
+  },
+  ja: {
+    storiesHeading: "📖 ストーリー",
+    createCta: "10秒で投票を作成",
+    storyCount: (n) => `${n}件のストーリー`,
+  },
+  zh: {
+    storiesHeading: "📖 故事",
+    createCta: "10 秒创建你的投票",
+    storyCount: (n) => `${n} 个故事`,
+  },
+};
+
 export default function ReadHub() {
   const locale = getLocale();
+  const chrome = CHROME[locale] ?? CHROME.en;
   const all = pagesByCategory("read");
   // Locale-pure: show only the visitor's-language stories. Fall back to the
   // full pool only if this locale genuinely has zero stories.
@@ -58,7 +106,7 @@ export default function ReadHub() {
       <header className="space-y-3 text-center">
         <div className="text-xs uppercase tracking-widest text-white/40">read · moomz</div>
         <h1 className="font-display text-5xl sm:text-6xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-          📖 Stories
+          {chrome.storiesHeading}
         </h1>
         <p className="text-white/60 text-balance max-w-2xl mx-auto">
           {HEADER_HOOKS[locale] ?? HEADER_HOOKS.en}
@@ -70,13 +118,13 @@ export default function ReadHub() {
         className="block rounded-2xl bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 px-5 py-4 hover:from-pink-500/30 hover:to-purple-600/30 transition text-center"
       >
         <div className="font-display text-xl">moomz.com</div>
-        <div className="text-xs text-white/50">Crée ton sondage en 10 secondes</div>
+        <div className="text-xs text-white/50">{chrome.createCta}</div>
       </Link>
 
       <section className="space-y-3">
         <div className="flex items-baseline justify-between gap-3">
           <h2 className="font-display text-2xl text-white">{LANG_NAMES[locale] ?? LANG_NAMES.en}</h2>
-          <span className="text-xs text-white/40">{pages.length} stories</span>
+          <span className="text-xs text-white/40">{chrome.storyCount(pages.length)}</span>
         </div>
         <p className="text-sm text-white/50">{HUB_HOOKS[locale] ?? HUB_HOOKS.en}</p>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">

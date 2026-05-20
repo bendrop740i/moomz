@@ -3,7 +3,19 @@ import AdSlot from "@/app/ad-slot";
 import { getSupabase } from "@/lib/supabase";
 import type { QuotePage, QuoteLocale } from "@/lib/seo/quotes/types";
 import { quoteUrl, quoteHubUrl } from "@/lib/seo/quotes/types";
-import { findQuotePage, quotesByLocale } from "@/lib/seo/quotes/loader";
+import { findQuotePage, quotesByLocale, getAllQuotes } from "@/lib/seo/quotes/loader";
+
+// Native language names for the per-quote language-switcher row.
+const LOCALE_NAMES: Record<QuoteLocale, string> = {
+  fr: "Français",
+  en: "English",
+  es: "Español",
+  it: "Italiano",
+  pt: "Português",
+  de: "Deutsch",
+  ja: "日本語",
+  zh: "中文",
+};
 
 type MatchedPoll = {
   slug: string;
@@ -50,6 +62,8 @@ type QuoteLabels = {
   create: string;
   createSub: string;
   ctaQuestion: (label: string) => string;
+  votes: (n: number) => string;
+  otherLangs: string;
 };
 
 const LABELS: Record<QuoteLocale, QuoteLabels> = {
@@ -64,6 +78,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Crée ton sondage moomz",
     createSub: "10 secondes, anonyme, gratuit",
     ctaQuestion: (l) => `Quelle citation sur ${l.toLowerCase()} te parle le plus ?`,
+    votes: (n) => `${n} votes`,
+    otherLangs: "Dans d'autres langues",
   },
   en: {
     crumb: "Quotes",
@@ -76,6 +92,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Create your moomz poll",
     createSub: "10 seconds, anonymous, free",
     ctaQuestion: (l) => `Which ${l.toLowerCase()} quote speaks to you most?`,
+    votes: (n) => `${n} votes`,
+    otherLangs: "In other languages",
   },
   es: {
     crumb: "Frases",
@@ -88,6 +106,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Crea tu encuesta moomz",
     createSub: "10 segundos, anónimo, gratis",
     ctaQuestion: (l) => `¿Qué frase sobre ${l.toLowerCase()} te llega más?`,
+    votes: (n) => `${n} votos`,
+    otherLangs: "En otros idiomas",
   },
   it: {
     crumb: "Frasi",
@@ -100,6 +120,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Crea il tuo sondaggio moomz",
     createSub: "10 secondi, anonimo, gratis",
     ctaQuestion: (l) => `Quale frase su ${l.toLowerCase()} ti colpisce di più?`,
+    votes: (n) => `${n} voti`,
+    otherLangs: "In altre lingue",
   },
   pt: {
     crumb: "Frases",
@@ -112,6 +134,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Crie sua enquete moomz",
     createSub: "10 segundos, anônimo, grátis",
     ctaQuestion: (l) => `Qual frase sobre ${l.toLowerCase()} mais fala com você?`,
+    votes: (n) => `${n} votos`,
+    otherLangs: "Em outros idiomas",
   },
   de: {
     crumb: "Zitate",
@@ -124,6 +148,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "Erstelle deine moomz-Umfrage",
     createSub: "10 Sekunden, anonym, kostenlos",
     ctaQuestion: (l) => `Welches Zitat über ${l} spricht dich am meisten an?`,
+    votes: (n) => `${n} Stimmen`,
+    otherLangs: "In anderen Sprachen",
   },
   ja: {
     crumb: "名言",
@@ -136,6 +162,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "moomz投票を作成",
     createSub: "10秒・匿名・無料",
     ctaQuestion: (l) => `${l}の名言、どれが一番刺さる？`,
+    votes: (n) => `${n}票`,
+    otherLangs: "他の言語で",
   },
   zh: {
     crumb: "名言",
@@ -148,6 +176,8 @@ const LABELS: Record<QuoteLocale, QuoteLabels> = {
     create: "创建你的moomz投票",
     createSub: "10秒、匿名、免费",
     ctaQuestion: (l) => `关于${l}的名言，哪句最打动你？`,
+    votes: (n) => `${n} 票`,
+    otherLangs: "其他语言",
   },
 };
 
@@ -165,6 +195,12 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
     .map((s) => findQuotePage(page.locale, s))
     .filter((p): p is QuotePage => Boolean(p));
   const more = pickMoreThemes(page, 10);
+
+  // Same theme in other locales — drives the language-switcher row so each
+  // quote page connects to its translations.
+  const otherLangs = getAllQuotes()
+    .filter((q) => q.theme === page.theme && q.locale !== page.locale)
+    .sort((a, b) => a.locale.localeCompare(b.locale));
 
   // JSON-LD: a collection of correctly-attributed Quotation entries.
   const jsonLd = {
@@ -204,6 +240,24 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
           {page.h1}
         </h1>
         <p className="text-white/70 leading-relaxed text-balance">{page.intro}</p>
+
+        {otherLangs.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2 pt-1">
+            <span className="text-xs uppercase tracking-widest text-white/40">
+              {labels.otherLangs}
+            </span>
+            {otherLangs.map((q) => (
+              <Link
+                key={q.locale}
+                href={quoteUrl(q)}
+                hrefLang={q.locale}
+                className="glass rounded-full px-3 py-1 text-xs text-white/70 hover:bg-white/10 hover:text-white transition"
+              >
+                {LOCALE_NAMES[q.locale]}
+              </Link>
+            ))}
+          </div>
+        )}
       </header>
 
       <section className="space-y-3" aria-label={labels.quotesHeading}>
@@ -253,7 +307,7 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
                   <div className="text-sm font-medium text-white line-clamp-2">{p.question}</div>
                   <div className="text-xs text-white/50 mt-1 line-clamp-1">
                     {p.options.slice(0, 3).join(" · ")}
-                    {p.vote_count && p.vote_count > 0 ? ` · ${p.vote_count} votes` : ""}
+                    {p.vote_count && p.vote_count > 0 ? ` · ${labels.votes(p.vote_count)}` : ""}
                   </div>
                 </Link>
               </li>

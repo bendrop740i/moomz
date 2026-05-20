@@ -144,7 +144,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
                 1 {p.from} = {formatRate(latest.rate, p.to)} {p.to}
               </div>
               <p className="text-white/45 text-xs mt-2">
-                {S.updated} {latest.date} · source : Frankfurter (ECB)
+                {S.updated} {latest.date} · {S.source}: Frankfurter (ECB)
               </p>
             </>
           ) : (
@@ -204,7 +204,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
 
           {history.length > 1 ? (
             <>
-              <Sparkline points={history} positive={stats.changePct >= 0} />
+              <Sparkline points={history} positive={stats.changePct >= 0} ariaLabel={S.chartAria} />
               <div className="grid grid-cols-3 gap-2 text-xs mt-3">
                 <div className="rounded-lg bg-white/5 px-2 py-1.5">
                   <div className="text-white/40">{S.minLabel}</div>
@@ -289,7 +289,15 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
 // Server-rendered SVG sparkline.
 // ------------------------------------------------------------------
 
-function Sparkline({ points, positive }: { points: HistoryPoint[]; positive: boolean }) {
+function Sparkline({
+  points,
+  positive,
+  ariaLabel,
+}: {
+  points: HistoryPoint[];
+  positive: boolean;
+  ariaLabel: string;
+}) {
   const W = 600;
   const H = 120;
   const PAD = 6;
@@ -317,7 +325,7 @@ function Sparkline({ points, positive }: { points: HistoryPoint[]; positive: boo
       width="100%"
       height={H}
       role="img"
-      aria-label="Évolution 30 jours"
+      aria-label={ariaLabel}
       className="block"
     >
       <defs>

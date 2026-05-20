@@ -283,6 +283,7 @@ const HUB_STRINGS: Record<Locale, {
   sub: string;
   intro: string;
   pageCount: string;
+  toolsWord: string;
   ctaTitle: string;
   ctaBody: string;
   ctaButton: string;
@@ -292,6 +293,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 utilitaires gratuits · sans pub · sans clé API",
     intro: "Des petits outils pratiques, branchés sur des API publiques et interconnectés aux sondages moomz.",
     pageCount: "pages",
+    toolsWord: "outils",
     ctaTitle: "Et tu peux toujours créer ton sondage",
     ctaBody: "Chaque outil propose un sondage tout fait pour lancer une discussion. Ou crée le tien en 10 secondes.",
     ctaButton: "Créer un sondage",
@@ -301,6 +303,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 free utilities · no ads · no API key",
     intro: "Handy little tools, plugged into public APIs and interlinked with moomz polls.",
     pageCount: "pages",
+    toolsWord: "tools",
     ctaTitle: "And you can always make your own poll",
     ctaBody: "Every tool comes with a ready-made poll to spark a chat. Or craft yours in 10 seconds.",
     ctaButton: "Create a poll",
@@ -310,6 +313,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 utilidades gratis · sin anuncios · sin clave API",
     intro: "Pequeñas herramientas útiles, conectadas a APIs públicas e integradas con las encuestas de moomz.",
     pageCount: "páginas",
+    toolsWord: "herramientas",
     ctaTitle: "Y siempre puedes crear tu propia encuesta",
     ctaBody: "Cada herramienta incluye una encuesta lista para iniciar conversación.",
     ctaButton: "Crear una encuesta",
@@ -319,6 +323,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 utilità gratuite · senza pubblicità · senza chiave API",
     intro: "Piccoli strumenti utili, collegati ad API pubbliche e ai sondaggi di moomz.",
     pageCount: "pagine",
+    toolsWord: "strumenti",
     ctaTitle: "E puoi sempre creare il tuo sondaggio",
     ctaBody: "Ogni strumento include un sondaggio pronto per iniziare la conversazione.",
     ctaButton: "Crea un sondaggio",
@@ -328,6 +333,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 utilitários grátis · sem anúncios · sem chave de API",
     intro: "Pequenas ferramentas úteis, ligadas a APIs públicas e às enquetes da moomz.",
     pageCount: "páginas",
+    toolsWord: "ferramentas",
     ctaTitle: "E você sempre pode criar sua enquete",
     ctaBody: "Cada ferramenta vem com uma enquete pronta para iniciar uma conversa.",
     ctaButton: "Criar uma enquete",
@@ -337,6 +343,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 kostenlose Werkzeuge · ohne Werbung · ohne API-Schlüssel",
     intro: "Kleine nützliche Tools, verbunden mit öffentlichen APIs und moomz-Umfragen.",
     pageCount: "Seiten",
+    toolsWord: "Tools",
     ctaTitle: "Du kannst jederzeit deine eigene Umfrage erstellen",
     ctaBody: "Jedes Tool enthält eine fertige Umfrage für den Gesprächseinstieg.",
     ctaButton: "Umfrage erstellen",
@@ -346,6 +353,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9つの無料ユーティリティ · 広告なし · APIキー不要",
     intro: "公開APIに繋がり、moomz投票と連動した便利な小さなツール群。",
     pageCount: "ページ",
+    toolsWord: "ツール",
     ctaTitle: "もちろん自分で投票も作れます",
     ctaBody: "各ツールに会話のきっかけになる投票テンプレが付いています。",
     ctaButton: "投票を作る",
@@ -355,6 +363,7 @@ const HUB_STRINGS: Record<Locale, {
     sub: "9 个免费工具 · 无广告 · 无需 API 密钥",
     intro: "实用小工具，接入公开 API，并与 moomz 投票深度联动。",
     pageCount: "页",
+    toolsWord: "工具",
     ctaTitle: "你也可以创建自己的投票",
     ctaBody: "每个工具都附带一个现成投票，方便发起讨论。",
     ctaButton: "创建投票",
@@ -392,7 +401,7 @@ export default function OutilsHub() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
-        <HubNav locale="fr" current="tools" />
+        <HubNav locale={locale} current="tools" />
         <header className="text-center space-y-2">
           <h1 className="font-display text-5xl sm:text-6xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
             {t.h1}
@@ -401,7 +410,7 @@ export default function OutilsHub() {
             {t.sub}
           </p>
           <p className="text-white/40 text-sm">
-            {TOOLS.length} {locale === "fr" ? "outils" : locale === "en" ? "tools" : ""} · {totalPages} {t.pageCount}
+            {TOOLS.length} {t.toolsWord} · {totalPages} {t.pageCount}
           </p>
         </header>
 

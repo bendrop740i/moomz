@@ -69,7 +69,7 @@ export default function RecettesHub() {
 
         <section aria-labelledby="ingredients-section" className="space-y-3">
           <h2 id="ingredients-section" className="text-lg font-bold tracking-tight">
-            🥕 {locale === "fr" ? "Par ingrédient" : "By ingredient"}{" "}
+            🥕 {S.byIngredient}{" "}
             <span className="text-xs text-white/40 font-normal">({ingredients.length})</span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
@@ -97,7 +97,7 @@ export default function RecettesHub() {
 
         <section aria-labelledby="categories-section" className="space-y-3">
           <h2 id="categories-section" className="text-lg font-bold tracking-tight">
-            🍽️ {locale === "fr" ? "Par catégorie" : "By category"}{" "}
+            🍽️ {S.byCategory}{" "}
             <span className="text-xs text-white/40 font-normal">({categories.length})</span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">

@@ -16,6 +16,8 @@ export type FooterLabels = {
   similarPoll: string;
   similarPollSub: string;
   launchPoll: string;
+  keywordHub: string;
+  keywordHubCount: string;
 };
 
 const FOOTER_LABELS: Record<Locale, FooterLabels> = {
@@ -27,6 +29,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Sondage similaire à lancer",
     similarPollSub: "Un tap, ça crée le sondage avec ta question — édite si tu veux.",
     launchPoll: "Lancer",
+    keywordHub: "Mots-clés",
+    keywordHubCount: "120+ pages",
   },
   en: {
     alsoRead: "Also read",
@@ -36,6 +40,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Similar poll to launch",
     similarPollSub: "One tap creates the poll with your question — edit if you want.",
     launchPoll: "Launch",
+    keywordHub: "Keywords",
+    keywordHubCount: "120+ pages",
   },
   es: {
     alsoRead: "Lee también",
@@ -45,6 +51,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Encuesta similar para lanzar",
     similarPollSub: "Un toque crea la encuesta con tu pregunta — edita si quieres.",
     launchPoll: "Lanzar",
+    keywordHub: "Palabras clave",
+    keywordHubCount: "120+ páginas",
   },
   it: {
     alsoRead: "Leggi anche",
@@ -54,6 +62,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Sondaggio simile da lanciare",
     similarPollSub: "Un tocco crea il sondaggio con la tua domanda — modifica come vuoi.",
     launchPoll: "Lancia",
+    keywordHub: "Parole chiave",
+    keywordHubCount: "120+ pagine",
   },
   pt: {
     alsoRead: "Leia também",
@@ -63,6 +73,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Enquete similar para lançar",
     similarPollSub: "Um toque cria a enquete com sua pergunta — edite se quiser.",
     launchPoll: "Lançar",
+    keywordHub: "Palavras-chave",
+    keywordHubCount: "120+ páginas",
   },
   de: {
     alsoRead: "Auch lesen",
@@ -72,6 +84,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "Ähnliche Umfrage starten",
     similarPollSub: "Ein Tap erstellt die Umfrage mit deiner Frage — anpassen jederzeit.",
     launchPoll: "Starten",
+    keywordHub: "Schlüsselwörter",
+    keywordHubCount: "120+ Seiten",
   },
   ja: {
     alsoRead: "あわせて読む",
@@ -81,6 +95,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "似た投票を作る",
     similarPollSub: "タップで投票が作成されます — 編集も自由。",
     launchPoll: "作る",
+    keywordHub: "キーワード",
+    keywordHubCount: "120以上のページ",
   },
   zh: {
     alsoRead: "延伸阅读",
@@ -90,6 +106,8 @@ const FOOTER_LABELS: Record<Locale, FooterLabels> = {
     similarPoll: "发起类似投票",
     similarPollSub: "一键创建带有你问题的投票 — 可随意编辑。",
     launchPoll: "发起",
+    keywordHub: "关键词",
+    keywordHubCount: "120+ 个页面",
   },
 };
 
@@ -188,7 +206,7 @@ export function categoryCountsForLocale(
 // Rendered sections
 // ---------------------------------------------------------------------------
 
-export function CrossLinkGrid({ page, max = 8 }: { page: SeoPage; max?: number }) {
+export function CrossLinkGrid({ page, max = 18 }: { page: SeoPage; max?: number }) {
   const cards = pickCrossLinkCards(page, max);
   if (cards.length === 0) return null;
   const labels = getFooterLabels(page.locale);
@@ -221,7 +239,7 @@ export function CrossLinkGrid({ page, max = 8 }: { page: SeoPage; max?: number }
   );
 }
 
-export function SameCategoryPills({ page, max = 12 }: { page: SeoPage; max?: number }) {
+export function SameCategoryPills({ page, max = 30 }: { page: SeoPage; max?: number }) {
   const pills = pickSameCategoryPills(page, max);
   if (pills.length === 0) return null;
   const labels = getFooterLabels(page.locale);
@@ -267,28 +285,16 @@ export function ExploreThemes({ locale }: { locale: Locale }) {
             </div>
           </Link>
         ))}
-        {/* Keyword hubs — present only for FR + EN as routes */}
-        {locale === "fr" ? (
+        {/* Keyword hubs — route exists only for FR (/mot) and EN (/word) */}
+        {locale === "fr" || locale === "en" ? (
           <Link
-            href="/mot"
+            href={locale === "fr" ? "/mot" : "/word"}
             className="glass rounded-2xl px-4 py-3 hover:bg-white/10 transition flex items-center gap-3"
           >
             <span className="text-2xl">🔤</span>
             <div className="min-w-0">
-              <div className="text-sm font-medium text-white">Mots-clés</div>
-              <div className="text-xs text-white/40">120+ pages</div>
-            </div>
-          </Link>
-        ) : null}
-        {locale === "en" ? (
-          <Link
-            href="/word"
-            className="glass rounded-2xl px-4 py-3 hover:bg-white/10 transition flex items-center gap-3"
-          >
-            <span className="text-2xl">🔤</span>
-            <div className="min-w-0">
-              <div className="text-sm font-medium text-white">Keywords</div>
-              <div className="text-xs text-white/40">120+ pages</div>
+              <div className="text-sm font-medium text-white">{labels.keywordHub}</div>
+              <div className="text-xs text-white/40">{labels.keywordHubCount}</div>
             </div>
           </Link>
         ) : null}

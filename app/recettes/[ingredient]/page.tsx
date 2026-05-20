@@ -117,7 +117,7 @@ export default async function RecetteDetailPage({
             {cat.emoji}
           </div>
           <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-            {locale === "fr" ? `Recettes — ${name}` : `${name} recipes`}
+            {S.recipesTitle.replace("{name}", name)}
           </h1>
           {meals.length > 0 ? (
             <p className="text-white/50 text-sm">

@@ -181,7 +181,7 @@ export default async function CryptoDetailPage({
                 {formatPrice(detail.price_eur, "EUR", locale)}
               </div>
               <div className={`text-sm font-semibold ${changeClass(detail.change_24h_pct)}`}>
-                {formatPct(detail.change_24h_pct, locale)} · 24 h
+                {formatPct(detail.change_24h_pct, locale)} · {S.per24h}
               </div>
             </div>
           ) : (
@@ -271,7 +271,7 @@ export default async function CryptoDetailPage({
                 </div>
               </dl>
               <p className={`text-xs text-center font-semibold ${changeClass(stats.changePct)}`}>
-                30 j: {formatPct(stats.changePct, locale)}
+                {S.change30d}: {formatPct(stats.changePct, locale)}
               </p>
             </>
           ) : (
@@ -282,7 +282,7 @@ export default async function CryptoDetailPage({
         {detail ? (
           <section aria-labelledby="stats-card" className="glass rounded-2xl p-5 space-y-3">
             <h2 id="stats-card" className="text-base font-bold tracking-tight">
-              Stats
+              {S.statsHeading}
             </h2>
             <dl className="grid grid-cols-2 gap-x-4 gap-y-3 text-sm">
               <div>
@@ -329,7 +329,7 @@ export default async function CryptoDetailPage({
               ) : null}
               {detail.genesis_date ? (
                 <div>
-                  <dt className="text-white/40 text-[11px] uppercase tracking-wider font-semibold">Genesis</dt>
+                  <dt className="text-white/40 text-[11px] uppercase tracking-wider font-semibold">{S.genesis}</dt>
                   <dd className="font-semibold">{formatDate(detail.genesis_date, locale)}</dd>
                 </div>
               ) : null}
