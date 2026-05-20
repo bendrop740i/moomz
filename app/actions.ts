@@ -224,6 +224,39 @@ export async function skipPoll(slug: string) {
   pushSlugToHistory("moomz_skipped_slugs", slug);
 }
 
+export type PlacePredictionResult =
+  | { ok: true; balance: number }
+  | { ok: false; error: string; balance?: number };
+
+// M2 — stake coins on a poll outcome. All validation is server-side in the
+// place_prediction RPC; this just resolves identity + relays the result.
+export async function placePrediction(
+  pollId: string,
+  optionIndex: number,
+  stake: number,
+): Promise<PlacePredictionResult> {
+  const ssr = getServerSupabase();
+  const { data: auth } = await ssr.auth.getUser();
+  const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
+  const supabase = getSupabase();
+  const { data, error } = await supabase.rpc("place_prediction", {
+    p_user_id: auth.user?.id ?? null,
+    p_claim_token: claimToken,
+    p_poll_id: pollId,
+    p_option_index: optionIndex,
+    p_stake: stake,
+  });
+  if (error) return { ok: false, error: "server" };
+  const r = (data ?? {}) as { ok?: boolean; error?: string; balance?: number };
+  if (r.ok) {
+    if (typeof r.balance === "number") {
+      cookies().set("moomz_coins", String(r.balance), cookieOpts());
+    }
+    return { ok: true, balance: r.balance ?? 0 };
+  }
+  return { ok: false, error: r.error ?? "unknown", balance: r.balance };
+}
+
 export async function markPollSeen(slug: string, voteCount: number) {
   cookies().set(`moomz_seen_${slug}`, String(voteCount), cookieOpts());
 }

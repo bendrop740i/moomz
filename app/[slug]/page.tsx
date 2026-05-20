@@ -9,9 +9,12 @@ import ProfileView from "./profile-view";
 import PollExplainer from "./poll-explainer";
 import KeywordChips from "./keyword-chips";
 import QuoteChips from "./quote-chips";
+import PredictionWidget, { type ExistingPrediction } from "./prediction-widget";
 import BelowPollSeo from "./below-poll-seo";
 import BelowProfileSeo from "./below-profile-seo";
 import type { AskItem } from "./ask-section";
+import { getServerSupabase } from "@/lib/supabase-server";
+import { getLocale } from "@/lib/i18n-server";
 
 export const dynamic = "force-dynamic";
 
@@ -193,9 +196,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
   // pulled to drive the BelowPollSeo similar-polls query + topic pills.
   const { data: poll } = await supabase
     .from("polls")
-    .select("id,slug,question,options,created_at,explainer,lang,topics")
+    .select("id,slug,question,options,created_at,explainer,lang,topics,is_dead")
     .eq("slug", handle)
-    .maybeSingle<Poll & { topics: string[] | null }>();
+    .maybeSingle<Poll & { topics: string[] | null; is_dead: boolean | null }>();
 
   if (!poll) notFound();
 
@@ -212,6 +215,43 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
   const votedRaw = cookies().get(`moomz_voted_${poll.slug}`)?.value;
   const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
+
+  // M2 — prediction widget data: poll still open to bets (< 24h, not dead),
+  // the viewer's coin balance, and their existing bet on this poll if any.
+  const predictOpen =
+    !((poll as { is_dead?: boolean | null }).is_dead) &&
+    Date.now() - new Date(poll.created_at).getTime() < 24 * 60 * 60 * 1000;
+  let predExisting: ExistingPrediction | null = null;
+  let predBalance = 0;
+  try {
+    const ssrP = getServerSupabase();
+    const { data: authP } = await ssrP.auth.getUser();
+    const ctok = cookies().get("moomz_profile_token")?.value ?? null;
+    const { data: statsP } = await supabase.rpc("get_achievement_stats", {
+      p_user_id: authP.user?.id ?? null,
+      p_claim_token: ctok,
+    });
+    const sp = (statsP ?? {}) as { profile_id?: string | null; coin_balance?: number };
+    predBalance = sp.coin_balance ?? 0;
+    if (sp.profile_id) {
+      const { data: pr } = await supabase
+        .from("predictions")
+        .select("option_index,stake,status,payout")
+        .eq("poll_id", poll.id)
+        .eq("profile_id", sp.profile_id)
+        .maybeSingle<{ option_index: number; stake: number; status: string; payout: number }>();
+      if (pr) {
+        predExisting = {
+          optionIndex: pr.option_index,
+          stake: pr.stake,
+          status: pr.status,
+          payout: pr.payout,
+        };
+      }
+    }
+  } catch {
+    // prediction widget is non-critical — render it closed on any failure.
+  }
 
   // Breadcrumb trail: Home > Poll question.
   const breadcrumbLd = {
@@ -305,6 +345,15 @@ export default async function Page({ params }: { params: { slug: string } }) {
         counts={counts}
         total={total}
         alreadyVoted={alreadyVoted}
+      />
+      <PredictionWidget
+        pollId={poll.id}
+        slug={poll.slug}
+        options={poll.options}
+        predictOpen={predictOpen}
+        coinBalance={predBalance}
+        existing={predExisting}
+        lang={getLocale()}
       />
       <PollExplainer slug={poll.slug} options={poll.options} explainer={poll.explainer} />
       <KeywordChips question={poll.question} options={poll.options} lang={poll.lang} />
