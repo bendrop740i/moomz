@@ -5,6 +5,7 @@ import SiteHeader from "./site-header";
 import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
+import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
 import InstallPrompt from "./install-prompt";
 import PushPrompt from "./push-prompt";
@@ -82,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LocaleProvider value={locale}>
           <MusicProvider>
           <div className="fixed inset-0 -z-10 bg-[#0b0613]" />
-          <div className="fixed inset-0 -z-10 opacity-70">
+          <div className="fixed inset-0 -z-10 opacity-70 overflow-hidden">
             <div className="blob blob-1" />
             <div className="blob blob-2" />
             <div className="blob blob-3" />
@@ -91,6 +92,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="relative mx-auto w-full max-w-xl px-4 pt-3 sm:px-6 sm:pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))]">
             <SiteHeader />
             {children}
+            <div className="mt-10 flex justify-center border-t border-white/10 pt-6">
+              <LocaleSwitcher placement="up" />
+            </div>
           </main>
           <StreakHUD />
           <AchievementToast />

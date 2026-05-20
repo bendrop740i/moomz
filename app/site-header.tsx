@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useT } from "./locale-context";
-import LocaleSwitcher from "./locale-switcher";
 
 // `/` and `/discover` render their own full-bleed branded hero — a top bar there
 // would just double up the wordmark. Hiding is a deliberate choice: the bottom
@@ -73,30 +72,25 @@ export default function SiteHeader() {
         </Link>
 
         {/* Nav chips — clear hover + active states, mobile-first (overflow scroll) */}
-        <nav className="flex min-w-0 items-center gap-1.5">
-          <div className="scrollbar-hide flex items-center gap-1.5 overflow-x-auto">
-            {NAV_LINKS.map((link) => {
-              const active = isActive(link.href);
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  aria-current={active ? "page" : undefined}
-                  className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition active:scale-95 ${
-                    active
-                      ? "border-pink-400/40 bg-gradient-to-r from-pink-500/30 to-purple-500/25 text-white shadow-[0_0_12px_-2px_rgba(255,61,139,0.5)]"
-                      : "border-white/10 bg-white/5 text-white/65 hover:border-white/20 hover:bg-white/10 hover:text-white"
-                  }`}
-                >
-                  <span aria-hidden>{link.emoji}</span>
-                  <span>{label(link)}</span>
-                </Link>
-              );
-            })}
-          </div>
-          <div className="ml-0.5 shrink-0">
-            <LocaleSwitcher />
-          </div>
+        <nav className="scrollbar-hide flex min-w-0 items-center gap-1.5 overflow-x-auto">
+          {NAV_LINKS.map((link) => {
+            const active = isActive(link.href);
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={active ? "page" : undefined}
+                className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition active:scale-95 ${
+                  active
+                    ? "border-pink-400/40 bg-gradient-to-r from-pink-500/30 to-purple-500/25 text-white shadow-[0_0_12px_-2px_rgba(255,61,139,0.5)]"
+                    : "border-white/10 bg-white/5 text-white/65 hover:border-white/20 hover:bg-white/10 hover:text-white"
+                }`}
+              >
+                <span aria-hidden>{link.emoji}</span>
+                <span>{label(link)}</span>
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>

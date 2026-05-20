@@ -18,7 +18,11 @@ const LOCALE_FLAGS: Record<Locale, string> = {
   zh: "🇨🇳",
 };
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher({
+  placement = "down",
+}: {
+  placement?: "up" | "down";
+}) {
   const current = useLocale();
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -85,7 +89,9 @@ export default function LocaleSwitcher() {
       {open && (
         <div
           role="menu"
-          className="glass fade-in-content absolute right-0 top-full z-50 mt-2 w-40 overflow-hidden rounded-2xl p-1 shadow-2xl shadow-black/50"
+          className={`glass fade-in-content absolute right-0 z-50 w-40 overflow-hidden rounded-2xl p-1 shadow-2xl shadow-black/50 ${
+            placement === "up" ? "bottom-full mb-2" : "top-full mt-2"
+          }`}
         >
           {LOCALES.map((l) => {
             const active = l === current;
