@@ -6,6 +6,7 @@ import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
 import AnimatedNumber from "../animated-number";
+import { useT } from "../locale-context";
 
 // Same vote-flow stylesheet as PollCard. Inject once into <head>; the dedupe
 // guard means we don't re-add it if PollCard already mounted it elsewhere.
@@ -74,6 +75,7 @@ export default function VoteClient({
   total: initialTotal,
   alreadyVoted,
 }: Props) {
+  const t = useT();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[]>(initialCounts);
@@ -387,14 +389,14 @@ export default function VoteClient({
 
       <div className="space-y-3">
         <div className="text-center text-xs uppercase tracking-widest text-white/40">
-          Partage en 1 clic
+          {t("share.title")}
         </div>
         <div className="grid grid-cols-2 min-[420px]:grid-cols-4 gap-2">
           <a
             href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Partager sur WhatsApp"
+            aria-label={`${t("share.title")} · WhatsApp`}
             className="min-h-[56px] rounded-2xl bg-[#25D366] hover:bg-[#1ebe57] text-white font-semibold py-3 px-2 flex flex-col items-center justify-center gap-1 transition hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-emerald-500/20"
           >
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -406,7 +408,7 @@ export default function VoteClient({
             href={xHref}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Partager sur X"
+            aria-label={`${t("share.title")} · X`}
             className="min-h-[56px] rounded-2xl bg-black hover:bg-neutral-900 text-white font-semibold py-3 px-2 flex flex-col items-center justify-center gap-1 border border-white/10 transition hover:scale-[1.02] active:scale-[0.98]"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -418,7 +420,7 @@ export default function VoteClient({
             href={telegramHref}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Partager sur Telegram"
+            aria-label={`${t("share.title")} · Telegram`}
             className="min-h-[56px] rounded-2xl bg-[#229ED9] hover:bg-[#1d8cc4] text-white font-semibold py-3 px-2 flex flex-col items-center justify-center gap-1 transition hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-sky-500/20"
           >
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -428,7 +430,7 @@ export default function VoteClient({
           </a>
           <button
             onClick={copyLink}
-            aria-label="Copier le lien"
+            aria-label={t("share.copy")}
             className={`min-h-[56px] rounded-2xl ${
               copied
                 ? "bg-emerald-500/90 text-white"
@@ -440,7 +442,7 @@ export default function VoteClient({
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                <span className="text-[11px]">Copié</span>
+                <span className="text-[11px]">{t("share.copied")}</span>
               </>
             ) : (
               <>
@@ -448,7 +450,7 @@ export default function VoteClient({
                   <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
                   <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
                 </svg>
-                <span className="text-[11px]">Copier</span>
+                <span className="text-[11px]">{t("share.copy")}</span>
               </>
             )}
           </button>
@@ -457,17 +459,17 @@ export default function VoteClient({
         <div className="flex gap-2 pt-1">
           <button
             onClick={nativeShare}
-            aria-label="Partager via une autre application"
+            aria-label={t("share.other")}
             className="flex-1 min-h-[44px] rounded-2xl bg-white/5 hover:bg-white/10 border border-white/10 font-medium py-3 text-sm text-white/70 hover:text-white transition sm:hidden"
           >
-            📤 Autre app…
+            {t("share.other")}
           </button>
           <a
             href="/"
-            aria-label="Créer un nouveau sondage"
+            aria-label={t("share.new")}
             className="flex-1 min-h-[44px] rounded-2xl border-2 border-white/15 bg-white/5 hover:bg-white/10 font-semibold py-3 text-center transition flex items-center justify-center"
           >
-            + nouveau sondage
+            {t("share.new")}
           </a>
         </div>
       </div>

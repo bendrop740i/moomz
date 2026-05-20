@@ -2,6 +2,84 @@ import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
 import RelatedPollsGrid, { type RelatedPollRow } from "./related-polls-grid";
 import TopicPills from "./topic-pills";
+import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
+
+type BelowStrings = {
+  similar: string;
+  trending: string;
+  forkTitle: string;
+  forkBody: string;
+  forkAria: string;
+  explore: string;
+};
+
+const BELOW_STRINGS: Record<Locale, BelowStrings> = {
+  fr: {
+    similar: "Sondages similaires",
+    trending: "Sondages tendance",
+    forkTitle: "Crée le tien",
+    forkBody: "Reprends la question, change les options, partage à ta crew.",
+    forkAria: "Crée ta propre version de ce sondage",
+    explore: "Explore",
+  },
+  en: {
+    similar: "Similar polls",
+    trending: "Trending polls",
+    forkTitle: "Make your own version",
+    forkBody: "Fork this poll, tweak the options, share with your crew.",
+    forkAria: "Create your own version of this poll",
+    explore: "Explore",
+  },
+  es: {
+    similar: "Encuestas similares",
+    trending: "Encuestas en tendencia",
+    forkTitle: "Crea la tuya",
+    forkBody: "Copia la pregunta, cambia las opciones, comparte con tu crew.",
+    forkAria: "Crea tu propia versión de esta encuesta",
+    explore: "Explorar",
+  },
+  it: {
+    similar: "Sondaggi simili",
+    trending: "Sondaggi di tendenza",
+    forkTitle: "Crea il tuo",
+    forkBody: "Riprendi la domanda, cambia le opzioni, condividi con la crew.",
+    forkAria: "Crea la tua versione di questo sondaggio",
+    explore: "Esplora",
+  },
+  pt: {
+    similar: "Enquetes parecidas",
+    trending: "Enquetes em alta",
+    forkTitle: "Cria a tua",
+    forkBody: "Copia a pergunta, muda as opções, partilha com a crew.",
+    forkAria: "Cria a tua própria versão desta enquete",
+    explore: "Explorar",
+  },
+  de: {
+    similar: "Ähnliche Umfragen",
+    trending: "Trending-Umfragen",
+    forkTitle: "Mach deine eigene",
+    forkBody: "Übernimm die Frage, ändere die Optionen, teile mit deiner Crew.",
+    forkAria: "Eigene Version dieser Umfrage erstellen",
+    explore: "Entdecken",
+  },
+  ja: {
+    similar: "似ている投票",
+    trending: "トレンドの投票",
+    forkTitle: "自分のを作る",
+    forkBody: "質問をコピーして、選択肢を変えて、仲間とシェア。",
+    forkAria: "この投票の自分版を作る",
+    explore: "探索",
+  },
+  zh: {
+    similar: "相似投票",
+    trending: "热门投票",
+    forkTitle: "做你自己的版本",
+    forkBody: "复制问题、修改选项、分享给朋友。",
+    forkAria: "创建你自己的版本",
+    explore: "探索",
+  },
+};
 
 type SimilarRow = {
   slug: string;
@@ -21,18 +99,25 @@ type TrendingRow = {
   vote_count: number;
 };
 
-// 8 evergreen hub pills shown at the foot of every poll page. Equal weight,
+// Evergreen hub pills shown at the foot of every poll page. Equal weight,
 // glass styling — these are top-of-funnel internal anchors for Googlebot.
-const EXPLORE_PILLS = [
-  { href: "/idees", label: "Idées de sondage", emoji: "💡" },
-  { href: "/ideas", label: "Poll ideas", emoji: "✨" },
-  { href: "/guides", label: "Guides", emoji: "📘" },
-  { href: "/blog", label: "Blog", emoji: "📰" },
-  { href: "/read", label: "Read", emoji: "📖" },
-  { href: "/discover", label: "Discover", emoji: "🔥" },
-  { href: "/music", label: "Music", emoji: "🎧" },
-  { href: "/mot", label: "Mots-clés", emoji: "🏷️" },
-];
+// /idees and /ideas are intentionally both included (Google indexes both
+// landings) and keep their language-native labels regardless of visitor.
+// The other pills' labels follow the visitor's locale.
+function explorePills(locale: Locale): { href: string; label: string; emoji: string }[] {
+  const tr = <T extends Record<Locale, string>>(m: T) => m[locale] ?? m.en;
+  return [
+    { href: "/idees", emoji: "💡", label: "Idées de sondage" },
+    { href: "/ideas", emoji: "✨", label: "Poll ideas" },
+    { href: "/guides", emoji: "📘", label: tr({ fr: "Guides", en: "Guides", es: "Guías", it: "Guide", pt: "Guias", de: "Anleitungen", ja: "ガイド", zh: "指南" }) },
+    { href: "/blog", emoji: "📰", label: "Blog" },
+    { href: "/read", emoji: "📖", label: "Read" },
+    { href: "/discover", emoji: "🔥", label: tr({ fr: "Discover", en: "Discover", es: "Descubrir", it: "Scopri", pt: "Descobrir", de: "Entdecken", ja: "発見", zh: "发现" }) },
+    { href: "/music", emoji: "🎧", label: tr({ fr: "Musique", en: "Music", es: "Música", it: "Musica", pt: "Música", de: "Musik", ja: "音楽", zh: "音乐" }) },
+    { href: "/outils", emoji: "🧰", label: tr({ fr: "Outils", en: "Tools", es: "Herramientas", it: "Strumenti", pt: "Ferramentas", de: "Tools", ja: "ツール", zh: "工具" }) },
+    { href: "/mot", emoji: "🏷️", label: tr({ fr: "Mots-clés", en: "Keywords", es: "Palabras clave", it: "Parole chiave", pt: "Palavras-chave", de: "Schlagworte", ja: "キーワード", zh: "关键词" }) },
+  ];
+}
 
 // Builds /?q=...&o=... so the CTA pre-fills the home create-form with this
 // poll's question + options (the create-form already parses these params).
@@ -135,7 +220,10 @@ export default async function BelowPollSeo({
         )
       : [];
 
-  const isEn = lang === "en";
+  // Use the visitor's locale (cookie/Accept-Language) for chrome labels — not
+  // the poll's authoring language. A French-poll visitor in EN mode sees EN chrome.
+  const locale = getLocale() as Locale;
+  const s = BELOW_STRINGS[locale] ?? BELOW_STRINGS.en;
 
   return (
     <div className="space-y-8 mt-6">
@@ -144,18 +232,18 @@ export default async function BelowPollSeo({
       )}
 
       {similar.length > 0 && (
-        <section className="space-y-3" aria-label={isEn ? "Similar polls" : "Sondages similaires"}>
+        <section className="space-y-3" aria-label={s.similar}>
           <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-            {isEn ? "Similar polls" : "Sondages similaires"}
+            {s.similar}
           </h2>
           <RelatedPollsGrid polls={similar} />
         </section>
       )}
 
       {trending.length > 0 && (
-        <section className="space-y-3" aria-label={isEn ? "Trending polls" : "Sondages tendance"}>
+        <section className="space-y-3" aria-label={s.trending}>
           <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-            {isEn ? "Trending polls" : "Sondages tendance"}
+            {s.trending}
           </h2>
           <RelatedPollsGrid polls={trending} />
         </section>
@@ -166,20 +254,14 @@ export default async function BelowPollSeo({
           href={forkUrl(question, options)}
           prefetch={false}
           className="glass rounded-3xl p-5 sm:p-6 flex items-center gap-4 hover:bg-white/[0.06] hover:scale-[1.01] active:scale-[0.99] transition card-in shadow-xl shadow-pink-500/5"
-          aria-label={isEn ? "Create your own version of this poll" : "Crée ta propre version de ce sondage"}
+          aria-label={s.forkAria}
         >
           <span className="text-4xl shrink-0" aria-hidden>
             ✨
           </span>
           <div className="space-y-0.5 min-w-0">
-            <div className="font-bold text-base sm:text-lg">
-              {isEn ? "Make your own version" : "Crée le tien"}
-            </div>
-            <div className="text-sm text-white/60 line-clamp-2">
-              {isEn
-                ? "Fork this poll, tweak the options, share with your crew."
-                : "Reprends la question, change les options, partage à ta crew."}
-            </div>
+            <div className="font-bold text-base sm:text-lg">{s.forkTitle}</div>
+            <div className="text-sm text-white/60 line-clamp-2">{s.forkBody}</div>
           </div>
           <span className="ml-auto shrink-0 text-pink-300 text-xl" aria-hidden>
             →
@@ -187,12 +269,12 @@ export default async function BelowPollSeo({
         </Link>
       </section>
 
-      <section className="space-y-2" aria-label="Explore">
+      <section className="space-y-2" aria-label={s.explore}>
         <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-          {isEn ? "Explore" : "Explore"}
+          {s.explore}
         </h2>
         <div className="flex flex-wrap gap-2">
-          {EXPLORE_PILLS.map((p) => (
+          {explorePills(locale).map((p) => (
             <Link
               key={p.href}
               href={p.href}

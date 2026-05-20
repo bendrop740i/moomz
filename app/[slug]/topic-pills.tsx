@@ -1,9 +1,20 @@
 import Link from "next/link";
 import { allPages } from "@/lib/seo";
 import type { Locale } from "@/lib/seo/types";
-import { getT } from "@/lib/i18n-server";
+import { getT, getLocale } from "@/lib/i18n-server";
 import { getTopicLabel, type Topic } from "@/lib/topics";
 import type { Locale as UiLocale } from "@/lib/i18n";
+
+const TOPICS_HEADING: Record<UiLocale, string> = {
+  fr: "Thèmes",
+  en: "Topics",
+  es: "Temas",
+  it: "Temi",
+  pt: "Temas",
+  de: "Themen",
+  ja: "テーマ",
+  zh: "主题",
+};
 
 // Maps a poll topic (from `lib/topics.ts` Topic IDs, persisted on
 // `polls.topics`) to the best-matching SEO landing slug per locale.
@@ -86,8 +97,12 @@ export default function TopicPills({
   label?: string;
 }) {
   if (!topics || topics.length === 0) return null;
-  const target: "fr" | "en" = lang === "en" ? "en" : "fr";
-  const t = getT(uiLocaleFor(lang));
+  // Use the visitor's locale (cookie/Accept-Language) for chrome labels +
+  // for which SEO landing to link to (/idees FR vs /ideas EN). The poll's
+  // own authoring `lang` is only used as a last-resort fallback.
+  const userLocale = getLocale() as UiLocale;
+  const target: "fr" | "en" = userLocale === "fr" ? "fr" : "en";
+  const t = getT(userLocale);
   const seen = new Set<string>();
   const items = topics
     .filter((topicId) => {
@@ -108,12 +123,7 @@ export default function TopicPills({
     }));
   if (items.length === 0) return null;
 
-  const displayLabel = label ?? t("topics.heading");
-  // If the i18n key for the section heading is missing, fall back to the
-  // previous hardcoded FR/EN copy.
-  const safeHeading = displayLabel === "topics.heading"
-    ? (target === "en" ? "Topics" : "Thèmes")
-    : displayLabel;
+  const safeHeading = label ?? TOPICS_HEADING[userLocale] ?? TOPICS_HEADING.en;
 
   return (
     <section className="space-y-2" aria-label={safeHeading}>
