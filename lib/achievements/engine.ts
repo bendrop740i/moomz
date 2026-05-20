@@ -160,3 +160,22 @@ export function evaluate(stats: UserStats, owned: Set<string>): EvalResult {
   }
   return { newlyUnlocked, coinsToGrant };
 }
+
+// Same as `evaluate`, but reads a flat metric→value map — the exact shape
+// returned by the `get_achievement_stats` / `profile_metrics` SQL (scalar
+// keys plus `topic:<id>` / `tpoll:<id>` keys). Used on the vote hot path.
+export function evaluateFromMetrics(
+  metrics: Record<string, number>,
+  owned: Set<string>,
+): EvalResult {
+  const newlyUnlocked: Achievement[] = [];
+  let coinsToGrant = 0;
+  for (const a of ALL_ACHIEVEMENTS) {
+    if (owned.has(a.id)) continue;
+    if ((metrics[a.metric] ?? 0) >= a.threshold) {
+      newlyUnlocked.push(a);
+      coinsToGrant += a.coinReward;
+    }
+  }
+  return { newlyUnlocked, coinsToGrant };
+}

@@ -302,6 +302,11 @@ export default function PollCard({
             new CustomEvent("moomz:achievements", { detail: { ids: res.achievements } }),
           );
         }
+        window.dispatchEvent(
+          new CustomEvent("moomz:coins", {
+            detail: { balance: res.coins.balance, gained: res.coins.gained },
+          }),
+        );
         if (onVoted) setTimeout(onVoted, 1800);
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");

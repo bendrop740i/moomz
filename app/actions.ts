@@ -8,6 +8,7 @@ import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
 import { buildPollSlug, randomSuffix } from "@/lib/slug";
 import { t } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
+import { evaluateFromMetrics } from "@/lib/achievements/engine";
 
 // Shared cookie defaults: secure in prod, sameSite=lax everywhere.
 // Pass `httpOnly: true` for anything not read by client JS.
@@ -211,6 +212,7 @@ const RESERVED_USERNAMES = new Set([
   "sitemap", "opengraph", "icon", "favicon", "apple-icon", "push", "notif",
   "search", "explore", "trending", "new", "home", "static", "public", "next",
   "404", "500", "logout", "verify", "quiz", "outils", "tools",
+  "haut-faits", "achievements", "coins", "wallet",
   // Utility tools shipped 2026-05-20
   "convertisseur", "converter", "meteo", "weather", "heure", "time",
   "jours-feries", "holidays", "crypto", "definition", "define", "cosmos",
@@ -361,6 +363,10 @@ type CastVoteResult = {
   points: { gained: number; total: number; current: number; top: number; multiplier: number };
   reveal: { isMajority: boolean; isRebel: boolean; userPct: number; majorityPct: number };
   achievements: string[];
+  // Parametric achievement engine (lib/achievements): ids just unlocked.
+  newAchievements: string[];
+  // Coin wallet after this vote. `gained` = coins from achievements unlocked.
+  coins: { balance: number; gained: number };
 };
 
 export async function castVote(
@@ -455,6 +461,47 @@ export async function castVote(
     cookieOpts(),
   );
 
+  // Parametric achievements + coins. Non-critical: every failure is swallowed
+  // so it can never block or fail the vote. apply_vote_streak already committed
+  // the fresh counters, so the stats read below already reflects this vote.
+  let coinBalance = 0;
+  let coinsGained = 0;
+  let newAchievements: string[] = [];
+  try {
+    const { data: statsData } = await supabase.rpc("get_achievement_stats", {
+      p_user_id: auth.user?.id ?? null,
+      p_claim_token: claimToken,
+    });
+    const st = (statsData ?? {}) as {
+      has_profile?: boolean;
+      metrics?: Record<string, number>;
+      owned?: string[];
+      coin_balance?: number;
+    };
+    if (st.has_profile && st.metrics) {
+      coinBalance = st.coin_balance ?? 0;
+      const owned = new Set(st.owned ?? []);
+      const { newlyUnlocked } = evaluateFromMetrics(st.metrics, owned);
+      if (newlyUnlocked.length > 0) {
+        const { data: claimData } = await supabase.rpc("claim_achievements", {
+          p_user_id: auth.user?.id ?? null,
+          p_claim_token: claimToken,
+          p_ids: newlyUnlocked.map((a) => a.id),
+        });
+        const cd = (claimData ?? {}) as { applied?: string[]; coins?: number; balance?: number };
+        newAchievements = cd.applied ?? [];
+        coinsGained = cd.coins ?? 0;
+        coinBalance = cd.balance ?? coinBalance;
+      }
+    }
+  } catch {
+    // achievements / coins are best-effort — never break the vote.
+  }
+
+  // Sync the coin balance to a (JS-readable) cookie so the HUD shows it on
+  // first paint without a round-trip — mirrors the moomz_streak pattern.
+  cookies().set("moomz_coins", String(coinBalance), cookieOpts());
+
   return {
     counts,
     total,
@@ -467,6 +514,8 @@ export async function castVote(
     },
     reveal: { isMajority, isRebel, userPct, majorityPct },
     achievements: sr.achievements ?? [],
+    newAchievements,
+    coins: { balance: coinBalance, gained: coinsGained },
   };
 }
 

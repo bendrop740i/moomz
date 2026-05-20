@@ -186,6 +186,11 @@ export default function VoteClient({
               },
             }),
           );
+          window.dispatchEvent(
+            new CustomEvent("moomz:coins", {
+              detail: { balance: res.coins.balance, gained: res.coins.gained },
+            }),
+          );
         }
       } catch (e) {
         alert(e instanceof Error ? e.message : "Erreur");

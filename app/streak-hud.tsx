@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -26,10 +27,19 @@ function readStreak(): Streak | null {
   }
 }
 
+function readCoins(): number {
+  if (typeof document === "undefined") return 0;
+  const match = document.cookie.match(/(?:^|;\s*)moomz_coins=([^;]+)/);
+  if (!match) return 0;
+  return Number(decodeURIComponent(match[1])) || 0;
+}
+
 const STREAK_WINDOW = 3 * 60 * 1000;
 
 export default function StreakHUD() {
   const [streak, setStreak] = useState<Streak | null>(null);
+  const [coins, setCoins] = useState(0);
+  const [coinFlash, setCoinFlash] = useState(false);
   const [flash, setFlash] = useState(false);
   const [active, setActive] = useState(false);
   const [milestone, setMilestone] = useState<{ mult: number; k: number } | null>(null);
@@ -60,6 +70,22 @@ export default function StreakHUD() {
     return () => window.removeEventListener("moomz:vote", handler);
   }, []);
 
+  // Coin wallet — initial value from the moomz_coins cookie (set by castVote),
+  // live updates from the moomz:coins event fired after each vote.
+  useEffect(() => {
+    setCoins(readCoins());
+    const handler = (e: Event) => {
+      const ev = e as CustomEvent<{ balance: number; gained: number }>;
+      setCoins(ev.detail.balance);
+      if (ev.detail.gained > 0) {
+        setCoinFlash(true);
+        setTimeout(() => setCoinFlash(false), 900);
+      }
+    };
+    window.addEventListener("moomz:coins", handler);
+    return () => window.removeEventListener("moomz:coins", handler);
+  }, []);
+
   useEffect(() => {
     if (!streak) {
       setActive(false);
@@ -73,7 +99,7 @@ export default function StreakHUD() {
 
   const pathname = usePathname();
   const multiplier = streak ? multFor(streak.cur) : 1;
-  const hidden = !streak || streak.pts === 0;
+  const hidden = (!streak || streak.pts === 0) && coins === 0;
   // Below the header bar when it's visible, near the top when it's not.
   const offsetClass = HEADER_HIDDEN.has(pathname) ? "top-3" : "top-16";
 
@@ -81,19 +107,30 @@ export default function StreakHUD() {
     <>
       {!hidden && (
         <div className={`pointer-events-none fixed ${offsetClass} right-3 z-30`}>
-          <div
-            className={`glass rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold transition ${
-              flash ? "scale-110" : "scale-100"
+          <Link
+            href="/haut-faits"
+            aria-label="Haut faits et coins"
+            className={`pointer-events-auto glass rounded-full px-3 py-1.5 flex items-center gap-2 text-xs font-semibold transition hover:bg-white/10 ${
+              flash || coinFlash ? "scale-110" : "scale-100"
             }`}
           >
             <span className="text-lg leading-none">{active && multiplier > 1 ? "🔥" : "⭐"}</span>
-            <span className="tabular-nums text-white">{streak!.pts.toLocaleString()}</span>
+            <span className="tabular-nums text-white">{(streak?.pts ?? 0).toLocaleString()}</span>
             {active && multiplier > 1 && (
               <span className={`tabular-nums text-pink-300 ${flash ? "count-bump" : ""}`}>
                 ×{multiplier}
               </span>
             )}
-          </div>
+            {coins > 0 && (
+              <>
+                <span className="w-px h-3.5 bg-white/15" aria-hidden />
+                <span className="text-sm leading-none" aria-hidden>🪙</span>
+                <span className={`tabular-nums text-amber-300 ${coinFlash ? "count-bump" : ""}`}>
+                  {coins.toLocaleString()}
+                </span>
+              </>
+            )}
+          </Link>
         </div>
       )}
 
