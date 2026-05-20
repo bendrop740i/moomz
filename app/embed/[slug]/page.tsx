@@ -15,7 +15,6 @@ type PollRow = {
   question: string;
   options: Array<{ text: string; emoji?: string } | string>;
   vote_count: number;
-  lang: string | null;
 };
 
 export default async function EmbedPollPage({
@@ -26,7 +25,7 @@ export default async function EmbedPollPage({
   const supabase = getSupabase();
   const { data, error } = await supabase
     .from("polls_with_stats")
-    .select("id, slug, question, options, vote_count, lang")
+    .select("id, slug, question, options, vote_count")
     .eq("slug", params.slug)
     .maybeSingle();
 
