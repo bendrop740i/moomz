@@ -34,7 +34,7 @@ export default function AchievementToast() {
   return (
     <div
       key={item.key}
-      className="pointer-events-none fixed top-16 left-1/2 -translate-x-1/2 z-40 card-in"
+      className="pointer-events-none fixed top-28 left-1/2 -translate-x-1/2 z-40 card-in w-[calc(100%-1.5rem)] max-w-sm"
       style={{ ["--i" as string]: 0 }}
     >
       <div className="glass rounded-2xl px-4 py-3 flex items-center gap-3 shadow-2xl shadow-pink-500/30 border-pink-400/40">

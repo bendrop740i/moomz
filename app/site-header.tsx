@@ -49,13 +49,13 @@ export default function SiteHeader() {
 
   return (
     <header
-      className={`sticky top-0 z-30 -mx-4 mb-5 px-4 sm:-mx-6 sm:px-6 transition-all duration-300 ${
+      className={`sticky top-0 z-40 w-full transition-all duration-300 ${
         scrolled
           ? "border-b border-white/10 bg-[#0b0613]/85 py-2.5 shadow-lg shadow-black/40 backdrop-blur-xl"
           : "border-b border-white/5 bg-[#0b0613]/55 py-3 backdrop-blur-md"
       }`}
     >
-      <div className="mx-auto flex w-full max-w-xl items-center justify-between gap-3">
+      <div className="mx-auto flex w-full max-w-xl items-center justify-between gap-3 px-4 sm:px-6">
         {/* Wordmark — display font, SSX-cartoon gradient, playful "live" dot */}
         <Link
           href="/"

@@ -89,8 +89,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="blob blob-3" />
           </div>
           <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
-          <main className="relative mx-auto w-full max-w-xl px-4 pt-3 sm:px-6 sm:pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))]">
-            <SiteHeader />
+          <SiteHeader />
+          <main className="relative mx-auto w-full max-w-xl px-4 pt-5 sm:px-6 sm:pt-6 pb-[calc(7rem+env(safe-area-inset-bottom))]">
             {children}
             <div className="mt-10 flex justify-center border-t border-white/10 pt-6">
               <LocaleSwitcher placement="up" />
