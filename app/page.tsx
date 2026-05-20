@@ -12,8 +12,93 @@ import {
   TrendingFeedSkeleton,
   WorldVibesSkeleton,
 } from "./_home/skeletons";
+import PageHero from "./page-hero";
+import QuickChips from "./quick-chips";
+import WhyMoomz from "./why-moomz";
+import FeaturedRead from "./featured-read";
 import { getLocale } from "@/lib/i18n-server";
-import { t } from "@/lib/i18n";
+import { t, type Locale } from "@/lib/i18n";
+
+const TAGLINES: Record<Locale, string[]> = {
+  fr: [
+    "Vote, partage, vois la vibe en live.",
+    "10 secondes pour poser la vraie question.",
+    "Le lien circule, les votes tombent en live.",
+    "Le vibe-check le plus rapide du game.",
+    "Anonyme · 10s · zéro inscription.",
+  ],
+  en: [
+    "Vote, share, see the vibe live.",
+    "10 seconds to ask the real question.",
+    "Drop the link, watch the votes roll in.",
+    "The fastest vibe-check in the game.",
+    "Anonymous · 10s · no signup.",
+  ],
+  es: [
+    "Vota, comparte, ve la vibe en vivo.",
+    "10 segundos para hacer la pregunta real.",
+    "Comparte el link, los votos llegan en vivo.",
+    "El vibe-check más rápido que existe.",
+    "Anónimo · 10s · sin registro.",
+  ],
+  it: [
+    "Vota, condividi, vedi la vibe in diretta.",
+    "10 secondi per fare la domanda vera.",
+    "Condividi il link, i voti arrivano live.",
+    "Il vibe-check più veloce in giro.",
+    "Anonimo · 10s · zero account.",
+  ],
+  pt: [
+    "Vota, compartilha, vê a vibe ao vivo.",
+    "10 segundos pra fazer a pergunta real.",
+    "Manda o link, os votos chegam ao vivo.",
+    "O vibe-check mais rápido que existe.",
+    "Anônimo · 10s · sem cadastro.",
+  ],
+  de: [
+    "Vote, teile, sieh die Vibe live.",
+    "10 Sekunden für die echte Frage.",
+    "Link teilen, Votes laufen live ein.",
+    "Der schnellste Vibe-Check im Game.",
+    "Anonym · 10s · ohne Account.",
+  ],
+  ja: [
+    "投票して共有、ライブで空気感を見よう。",
+    "10秒で本当の質問を投げる。",
+    "リンクを送れば票がリアルタイムで集まる。",
+    "ゲーム史上最速のバイブチェック。",
+    "匿名・10秒・登録なし。",
+  ],
+  zh: [
+    "投票、分享、实时看氛围。",
+    "10秒问出真正想问的。",
+    "丢一个链接，票实时进来。",
+    "最快的氛围测验，就这。",
+    "匿名 · 10秒 · 无需注册。",
+  ],
+};
+
+const CHIP_LABELS: Record<Locale, { vibe: string; drama: string; wtf: string; daily: string; read: string; rdv: string }> = {
+  fr: { vibe: "vibe check", drama: "drama", wtf: "wtf stories", daily: "daily", read: "📖 read", rdv: "premier rdv" },
+  en: { vibe: "vibe check", drama: "drama", wtf: "wtf stories", daily: "daily", read: "📖 read", rdv: "first date" },
+  es: { vibe: "vibe check", drama: "drama", wtf: "historias wtf", daily: "daily", read: "📖 read", rdv: "primera cita" },
+  it: { vibe: "vibe check", drama: "drama", wtf: "storie wtf", daily: "daily", read: "📖 read", rdv: "primo app." },
+  pt: { vibe: "vibe check", drama: "drama", wtf: "histórias wtf", daily: "daily", read: "📖 read", rdv: "primeiro encontro" },
+  de: { vibe: "vibe check", drama: "drama", wtf: "wtf storys", daily: "daily", read: "📖 read", rdv: "erstes Date" },
+  ja: { vibe: "バイブ", drama: "ドラマ", wtf: "WTF話", daily: "デイリー", read: "📖 読む", rdv: "初デート" },
+  zh: { vibe: "氛围", drama: "狗血", wtf: "WTF故事", daily: "每日", read: "📖 故事", rdv: "初次约会" },
+};
+
+const FEATURED_READ_TITLES: Record<Locale, string> = {
+  fr: "📖 À lire — threads WTF du jour",
+  en: "📖 Read — today's WTF threads",
+  es: "📖 Leer — hilos WTF de hoy",
+  it: "📖 Leggi — thread WTF del giorno",
+  pt: "📖 Ler — threads WTF do dia",
+  de: "📖 Lesen — WTF-Threads heute",
+  ja: "📖 読む — 今日のWTFスレ",
+  zh: "📖 故事 — 今日 WTF 帖",
+};
 
 export const dynamic = "force-dynamic";
 
@@ -114,14 +199,11 @@ export default function HomePage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <header className="text-center space-y-1.5">
-        <h1 className="font-display text-6xl sm:text-7xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(255,61,139,0.4)]">
-          moomz
-        </h1>
-        <p className="text-white/50 text-sm sm:text-base text-balance">
-          {tx("home.tagline")}
-        </p>
-      </header>
+      <PageHero taglines={TAGLINES[locale] ?? TAGLINES.en} />
+
+      <QuickChips labels={CHIP_LABELS[locale] ?? CHIP_LABELS.en} />
+
+      <WhyMoomz locale={locale} />
 
       <Suspense fallback={<DailyCardSkeleton />}>
         <DailyCardSection />
@@ -129,13 +211,17 @@ export default function HomePage() {
 
       <CreatePollForm />
 
+      <FeaturedRead locale={locale} title={FEATURED_READ_TITLES[locale] ?? FEATURED_READ_TITLES.en} />
+
       <Suspense fallback={<FeaturedAsksSkeleton />}>
         <FeaturedAsks />
       </Suspense>
 
-      <Suspense fallback={<TrendingFeedSkeleton />}>
-        <TrendingFeed />
-      </Suspense>
+      <section id="trending" className="scroll-mt-4">
+        <Suspense fallback={<TrendingFeedSkeleton />}>
+          <TrendingFeed />
+        </Suspense>
+      </section>
 
       <Suspense fallback={<WorldVibesSkeleton />}>
         <WorldVibesSection />

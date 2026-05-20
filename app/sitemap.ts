@@ -4,6 +4,10 @@ import { getAllKeywords } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
 import { allQuizzes } from "@/lib/quizzes";
 import { quizUrl } from "@/lib/quizzes/types";
+import { getAllCompares } from "@/lib/seo/compare/loader";
+import { compareUrl } from "@/lib/seo/compare/types";
+import { getAllTemplates } from "@/lib/seo/templates/loader";
+import { templateUrl } from "@/lib/seo/templates/types";
 import { getSupabase } from "@/lib/supabase";
 
 const BASE = "https://moomz.com";
@@ -72,6 +76,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/mot`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/word`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/quiz`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/template`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
@@ -85,6 +91,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const quizUrls: MetadataRoute.Sitemap = allQuizzes.map((q) => ({
     url: `${BASE}${quizUrl(q)}`,
     lastModified: new Date(q.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  const compareUrls: MetadataRoute.Sitemap = getAllCompares().map((p) => ({
+    url: `${BASE}${compareUrl(p)}`,
+    lastModified: new Date(p.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  const templateUrls: MetadataRoute.Sitemap = getAllTemplates().map((p) => ({
+    url: `${BASE}${templateUrl(p)}`,
+    lastModified: new Date(p.updatedAt),
     changeFrequency: "monthly" as const,
     priority: 0.75,
   }));
@@ -112,5 +132,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticUrls, ...seoUrls, ...keywordUrls, ...quizUrls, ...pollUrls, ...profileUrls];
+  return [
+    ...staticUrls,
+    ...seoUrls,
+    ...keywordUrls,
+    ...quizUrls,
+    ...compareUrls,
+    ...templateUrls,
+    ...pollUrls,
+    ...profileUrls,
+  ];
 }
