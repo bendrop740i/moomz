@@ -5,12 +5,10 @@ import { pairBySlug, pairsByCategory } from "@/lib/seo/vs/loader";
 import type { VsLocale } from "@/lib/seo/vs/types";
 import { VS_LOCALES } from "@/lib/seo/vs/types";
 
-// On-demand ISR: pairs render on first visit then cache, instead of
-// pre-rendering all ~8000 locale combos at build time.
-export const revalidate = 86400;
-export function generateStaticParams(): { locale: string; slug: string }[] {
-  return [];
-}
+// Dynamic on-demand: the root layout reads cookies() for locale, which
+// rules out static/ISR rendering. Each /vs pair renders per-request and
+// is CDN-cached by Vercel. Avoids build-time render of ~8000 combos.
+export const dynamic = "force-dynamic";
 
 const OG_LOCALE: Record<VsLocale, string> = {
   en: "en_US",

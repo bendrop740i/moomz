@@ -12,12 +12,10 @@ import {
 
 type Params = { locale: string; topic: string; modifier: string };
 
-// On-demand ISR: 1100 programmatic pages render on first visit then cache,
-// instead of pre-rendering all of them at build time (build overload).
-export const revalidate = 86400;
-export function generateStaticParams(): { locale: string; topic: string; modifier: string }[] {
-  return [];
-}
+// Dynamic on-demand: the root layout reads cookies() for locale, which
+// rules out static/ISR rendering. Each page renders per-request and is
+// CDN-cached by Vercel. Avoids build-time render of 1100 pages.
+export const dynamic = "force-dynamic";
 
 function pollLaunchHref(q: string, options: string[]) {
   const qx = encodeURIComponent(q);
