@@ -1,8 +1,8 @@
 import type { VsPair } from "../types";
 
-// Translation files are added by wave-2 agents (es/it/pt/de/ja/zh). Each
-// exports `pairs: VsPair[]` keyed by the same slugs as the content files,
-// carrying only the extra-locale content. Until they land, this list is
-// empty and the loader simply serves EN+FR.
+import { pairs as esTf } from "./es-tf";
+import { pairs as jaTf } from "./ja-tf";
 
-export const translations: VsPair[][] = [];
+// Translation packs — each carries one extra locale keyed by the same slugs
+// as the content files. The loader merges them in by slug.
+export const translations: VsPair[][] = [esTf, jaTf];
