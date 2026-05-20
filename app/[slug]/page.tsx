@@ -8,6 +8,7 @@ import MarkSeenIfOwner from "../mark-seen-if-owner";
 import ProfileView from "./profile-view";
 import PollExplainer from "./poll-explainer";
 import KeywordChips from "./keyword-chips";
+import QuoteChips from "./quote-chips";
 import BelowPollSeo from "./below-poll-seo";
 import BelowProfileSeo from "./below-profile-seo";
 import type { AskItem } from "./ask-section";
@@ -307,6 +308,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
       />
       <PollExplainer slug={poll.slug} options={poll.options} explainer={poll.explainer} />
       <KeywordChips question={poll.question} options={poll.options} lang={poll.lang} />
+      <QuoteChips question={poll.question} options={poll.options} lang={poll.lang} />
       <BelowPollSeo
         pollId={poll.id}
         question={poll.question}

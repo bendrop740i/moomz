@@ -205,6 +205,7 @@ const RESERVED_USERNAMES = new Set([
   // SEO landing routes that would be shadowed by a /[slug] match
   "idees", "ideas", "guides", "mot", "word", "read", "music", "creators",
   "pricing", "alternatives", "compare", "template", "templates",
+  "citations", "citation", "quotes", "quote",
   // Reserved for future / static assets
   "ask", "daily", "world", "register", "password", "sw", "manifest", "robots",
   "sitemap", "opengraph", "icon", "favicon", "apple-icon", "push", "notif",

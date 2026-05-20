@@ -1,0 +1,466 @@
+[
+  {
+    "slug": "love",
+    "locale": "en",
+    "theme": "love",
+    "label": "Love",
+    "emoji": "❤️",
+    "matchPatterns": ["love", "crush", "couple", "relationship", "dating", "kiss", "heart", "romance", "partner", "valentine"],
+    "title": "Love Quotes: 8 Famous Sayings About the Heart",
+    "h1": "Love Quotes That Speak Straight to the Heart",
+    "description": "A handpicked collection of famous, correctly attributed love quotes from Shakespeare, Maya Angelou and more — plus moomz polls to vote on love.",
+    "intro": "Love is the one subject every writer, philosopher and poet keeps circling back to, because no single line ever fully captures it. The quotes gathered here have survived because they say something true: that love is a choice as much as a feeling, that it asks for courage, and that it changes the people it touches. From Shakespeare's sonnets to Maya Angelou's plainspoken wisdom, these voices remind us that love can be tender and fierce in the same breath. Reading a great love quote can put words to something you have felt for years but never managed to phrase. It can also start a conversation — and that is exactly where moomz comes in. Below these quotes you will find moomz polls about love, crushes and relationships, where the community votes on the questions that everyone secretly wants answered. Is the first move always the hardest? Does long-distance love really work? You can cast your vote in seconds or create your own poll and watch friends weigh in. Quotes give you the words; polls give you the verdict. Together they turn a quiet feeling into a shared one. Take a moment with the eight quotes below, then scroll on and see how the moomz community feels about love today.",
+    "quotes": [
+      { "text": "Love all, trust a few, do wrong to none.", "author": "William Shakespeare", "source": "All's Well That Ends Well, 1623" },
+      { "text": "We are most alive when we're in love.", "author": "John Updike" },
+      { "text": "The best thing to hold onto in life is each other.", "author": "Audrey Hepburn" },
+      { "text": "Love is composed of a single soul inhabiting two bodies.", "author": "Aristotle" },
+      { "text": "I have decided to stick with love. Hate is too great a burden to bear.", "author": "Martin Luther King Jr." },
+      { "text": "Love does not consist in gazing at each other, but in looking outward together in the same direction.", "author": "Antoine de Saint-Exupéry" },
+      { "text": "To love and be loved is to feel the sun from both sides.", "author": "David Viscott" },
+      { "text": "Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope.", "author": "Maya Angelou" }
+    ],
+    "faq": [
+      { "q": "What is the most famous love quote?", "a": "One of the most widely cited is Aristotle's idea that love is \"a single soul inhabiting two bodies.\" It has endured for over two thousand years because it captures both intimacy and individuality at once." },
+      { "q": "Why do love quotes resonate so much?", "a": "Love quotes put precise words to feelings most people struggle to express. A short, well-crafted line can validate an emotion, comfort someone in heartbreak, or give a couple language for what they share." },
+      { "q": "Are old love quotes still relevant today?", "a": "Yes. The circumstances of dating change, but the core of love — vulnerability, choice and connection — does not. That is why a line from Shakespeare still lands as hard as a modern one." }
+    ],
+    "related": ["friendship", "happiness", "family", "hope"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "friendship",
+    "locale": "en",
+    "theme": "friendship",
+    "label": "Friendship",
+    "emoji": "🤝",
+    "matchPatterns": ["friend", "friendship", "best friend", "bff", "buddy", "loyalty", "group", "squad", "trust", "company"],
+    "title": "Friendship Quotes: 8 Timeless Sayings About Friends",
+    "h1": "Friendship Quotes for the People Who Stay",
+    "description": "Real, correctly attributed friendship quotes from C.S. Lewis, Emerson and more — plus moomz polls where the community votes on what makes a true friend.",
+    "intro": "Friendship rarely announces itself. It builds quietly, in shared jokes, hard seasons and the small loyalty of someone showing up when they did not have to. The quotes collected here honor exactly that — the unglamorous, dependable kind of love we call friendship. Writers like C.S. Lewis and Ralph Waldo Emerson understood that a real friend is rare and worth naming out loud. A good friendship quote can remind you to thank the people who have carried you, or to be that person for someone else. It can also spark a debate, because everyone defines a true friend a little differently. That is where moomz fits in. Beneath these quotes you will find moomz polls about friendship, group dynamics and loyalty, where the community votes on questions friends actually argue about. Is it okay to cancel plans last minute? Can a friendship survive years of distance? You can vote in a tap or launch your own poll and see where your friends land. Quotes give friendship its language; polls turn it into a conversation. Read the eight quotes below, let one or two of them remind you of someone specific, and then jump into the moomz polls to see how the community thinks about the friends who stay.",
+    "quotes": [
+      { "text": "Friendship is born at that moment when one person says to another: What! You too? I thought I was the only one.", "author": "C.S. Lewis", "source": "The Four Loves, 1960" },
+      { "text": "The only way to have a friend is to be one.", "author": "Ralph Waldo Emerson" },
+      { "text": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.", "author": "William Shakespeare" },
+      { "text": "Walking with a friend in the dark is better than walking alone in the light.", "author": "Helen Keller" },
+      { "text": "A real friend is one who walks in when the rest of the world walks out.", "author": "Walter Winchell" },
+      { "text": "True friendship comes when the silence between two people is comfortable.", "author": "David Tyson" },
+      { "text": "There is nothing on this earth more to be prized than true friendship.", "author": "Thomas Aquinas" },
+      { "text": "Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.", "author": "Muhammad Ali" }
+    ],
+    "faq": [
+      { "q": "What makes a friendship quote meaningful?", "a": "The best friendship quotes name something specific — comfortable silence, showing up in hard times — rather than vague praise. Specificity is what makes a reader think of an actual person." },
+      { "q": "Who said the famous \"What! You too?\" friendship quote?", "a": "C.S. Lewis wrote it in his 1960 book The Four Loves. It describes the spark of recognition that turns acquaintances into real friends." },
+      { "q": "How can I use friendship quotes?", "a": "They work well in birthday messages, captions and toasts, but their best use is private: reading one and deciding to reach out to a friend you have not spoken with lately." }
+    ],
+    "related": ["love", "happiness", "family", "humor"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "motivation",
+    "locale": "en",
+    "theme": "motivation",
+    "label": "Motivation",
+    "emoji": "🔥",
+    "matchPatterns": ["motivation", "goal", "work", "grind", "hustle", "effort", "discipline", "push", "start", "habit"],
+    "title": "Motivation Quotes: 8 Lines to Get You Moving",
+    "h1": "Motivation Quotes to Push You Into Action",
+    "description": "Genuine, well-sourced motivation quotes from Confucius, Roosevelt and more — plus moomz polls where the community votes on what really keeps people going.",
+    "intro": "Motivation is unreliable on its own — it spikes, then fades. What lasts is the decision to start anyway, and the right words at the right moment can tip you from hesitation into action. The quotes gathered here are not empty hype; they come from people who built, fought and finished things, and they say the same thing in different ways: begin, keep going, and let progress do the convincing. A sharp motivation quote works like a small shove. It cuts through the excuses you have rehearsed and reminds you that effort compounds. But staying motivated is also a question people love to discuss, because everyone has a different engine. That is where moomz comes in. Below these quotes you will find moomz polls about goals, discipline and getting things done, where the community votes on what actually keeps them moving. Morning routine or night grind? Big leap or tiny daily steps? You can vote instantly or create your own poll and see how others fight the same battle. Quotes light the spark; polls show you that you are not alone in struggling. Read the eight lines below, pick the one that hits hardest today, and then scroll into the moomz polls to compare notes with everyone else chasing something.",
+    "quotes": [
+      { "text": "It does not matter how slowly you go as long as you do not stop.", "author": "Confucius" },
+      { "text": "Believe you can and you're halfway there.", "author": "Theodore Roosevelt" },
+      { "text": "The future depends on what you do today.", "author": "Mahatma Gandhi" },
+      { "text": "Whether you think you can, or you think you can't — you're right.", "author": "Henry Ford" },
+      { "text": "The way to get started is to quit talking and begin doing.", "author": "Walt Disney" },
+      { "text": "Do what you can, with what you have, where you are.", "author": "Theodore Roosevelt", "source": "Autobiography, 1913" },
+      { "text": "Quality is not an act, it is a habit.", "author": "Aristotle" },
+      { "text": "Start where you are. Use what you have. Do what you can.", "author": "Arthur Ashe" }
+    ],
+    "faq": [
+      { "q": "Do motivation quotes actually work?", "a": "They do not replace discipline, but a well-timed quote can reframe a moment of doubt and lower the friction of starting. The action still has to follow." },
+      { "q": "What is a good short motivation quote?", "a": "Confucius's line \"It does not matter how slowly you go as long as you do not stop\" is short, memorable and accurate — progress beats speed almost every time." },
+      { "q": "How is motivation different from discipline?", "a": "Motivation is the feeling that makes you want to start; discipline is the system that keeps you going when the feeling is gone. Lasting results come mostly from the second." }
+    ],
+    "related": ["success", "strength", "inspiration", "dreams"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "life",
+    "locale": "en",
+    "theme": "life",
+    "label": "Life",
+    "emoji": "🌱",
+    "matchPatterns": ["life", "live", "living", "meaning", "purpose", "experience", "journey", "choice", "moment", "growth"],
+    "title": "Life Quotes: 8 Timeless Reflections on Living",
+    "h1": "Life Quotes to Make You Pause and Think",
+    "description": "Authentic, correctly attributed life quotes from Socrates, Lennon and more — plus moomz polls where the community votes on how to live well.",
+    "intro": "Life is too big to define, so the wisest people have settled for describing it well. The quotes collected here do exactly that — they catch life from one angle, then another, and together they form something close to a map. Some are gentle, some are blunt, but each one earns its place by saying something honest about what it means to be alive and paying attention. A good life quote slows you down. It interrupts the autopilot and asks whether you are living on purpose or just passing time. Those are not easy questions, and they are far more fun to wrestle with alongside other people. That is where moomz comes in. Below these quotes you will find moomz polls about life choices, priorities and what really matters, where the community votes on the everyday dilemmas everyone faces. Big city or quiet town? Plan everything or go with the flow? You can vote in seconds or build your own poll and watch the answers roll in. Quotes give you the reflection; polls give you the company. One makes you think, the other shows you what everyone else thinks. Read the eight quotes below slowly, let one of them stick, and then dive into the moomz polls to compare your view of life with the community's.",
+    "quotes": [
+      { "text": "The unexamined life is not worth living.", "author": "Socrates" },
+      { "text": "Life is what happens to us while we are making other plans.", "author": "John Lennon" },
+      { "text": "In the end, it's not the years in your life that count. It's the life in your years.", "author": "Abraham Lincoln" },
+      { "text": "Life is really simple, but we insist on making it complicated.", "author": "Confucius" },
+      { "text": "Life can only be understood backwards; but it must be lived forwards.", "author": "Søren Kierkegaard" },
+      { "text": "The purpose of our lives is to be happy.", "author": "Dalai Lama" },
+      { "text": "Life isn't about finding yourself. Life is about creating yourself.", "author": "George Bernard Shaw" },
+      { "text": "Not life, but good life, is to be chiefly valued.", "author": "Socrates" }
+    ],
+    "faq": [
+      { "q": "What is the most famous quote about life?", "a": "Socrates's line \"The unexamined life is not worth living\" is among the most quoted of all time. It argues that reflection is what makes a life genuinely worth living." },
+      { "q": "Why do people share life quotes?", "a": "Life quotes condense hard-won perspective into a single sentence. Sharing one is a way of passing on something you have learned without delivering a lecture." },
+      { "q": "Did John Lennon really say life is what happens while you make plans?", "a": "Yes. He wrote it in his 1980 song \"Beautiful Boy (Darling Boy),\" though similar phrasings existed earlier. Lennon's version made it famous." }
+    ],
+    "related": ["wisdom", "happiness", "time", "hope"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "happiness",
+    "locale": "en",
+    "theme": "happiness",
+    "label": "Happiness",
+    "emoji": "😊",
+    "matchPatterns": ["happy", "happiness", "joy", "smile", "content", "well-being", "gratitude", "feel good", "positive", "cheer"],
+    "title": "Happiness Quotes: 8 Sayings on Finding Joy",
+    "h1": "Happiness Quotes to Brighten Your Day",
+    "description": "Real, well-attributed happiness quotes from Aristotle, Helen Keller and more — plus moomz polls where the community votes on what makes people happy.",
+    "intro": "Happiness is chased more than it is caught, and the people who seem to find it usually agree on one thing: it is built, not stumbled upon. The quotes collected here come from thinkers and writers who studied joy closely, and they keep returning to a simple idea — happiness grows out of gratitude, action and the way you choose to see your day. A great happiness quote can reset your mood in a sentence. It reminds you that contentment often hides in plain sight: a small win, a familiar face, a quiet morning. But happiness is also wonderfully personal, which makes it a perfect topic to compare with others. That is where moomz comes in. Below these quotes you will find moomz polls about joy, gratitude and the little things that lift people up, where the community votes on what genuinely makes them happy. Sunday lie-in or productive morning? Big celebration or cozy night in? You can vote in a tap or create your own poll and watch the responses gather. Quotes remind you what happiness is; polls show you the surprising variety of where people find it. Read the eight quotes below, let one of them nudge your mood, and then jump into the moomz polls to see what makes the community smile.",
+    "quotes": [
+      { "text": "Happiness is not something ready made. It comes from your own actions.", "author": "Dalai Lama" },
+      { "text": "Happiness depends upon ourselves.", "author": "Aristotle" },
+      { "text": "Most folks are about as happy as they make up their minds to be.", "author": "Abraham Lincoln" },
+      { "text": "The greater part of our happiness or misery depends on our dispositions, and not on our circumstances.", "author": "Martha Washington" },
+      { "text": "Happiness is when what you think, what you say, and what you do are in harmony.", "author": "Mahatma Gandhi" },
+      { "text": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.", "author": "Helen Keller" },
+      { "text": "The happiness of your life depends upon the quality of your thoughts.", "author": "Marcus Aurelius", "source": "Meditations" },
+      { "text": "For every minute you are angry you lose sixty seconds of happiness.", "author": "Ralph Waldo Emerson" }
+    ],
+    "faq": [
+      { "q": "Can happiness be a choice?", "a": "Quotes from Lincoln and Marcus Aurelius suggest much of it can. Circumstances matter, but disposition and the quality of your thoughts shape day-to-day happiness more than people expect." },
+      { "q": "What is a good short happiness quote?", "a": "Aristotle's \"Happiness depends upon ourselves\" is brief and powerful — it places the responsibility, and the possibility, firmly in your own hands." },
+      { "q": "Why do happiness quotes feel so popular?", "a": "Happiness is something nearly everyone wants and few feel they have mastered. A clear quote offers a small, actionable reminder that joy is partly within reach." }
+    ],
+    "related": ["life", "hope", "love", "friendship"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "success",
+    "locale": "en",
+    "theme": "success",
+    "label": "Success",
+    "emoji": "🏆",
+    "matchPatterns": ["success", "win", "achieve", "career", "money", "ambition", "goal", "rich", "famous", "accomplish"],
+    "title": "Success Quotes: 8 Lessons From People Who Made It",
+    "h1": "Success Quotes From People Who Earned It",
+    "description": "Genuine, correctly attributed success quotes from Churchill, Maya Angelou and more — plus moomz polls where the community votes on what success means.",
+    "intro": "Success is one of the most misunderstood words there is — everyone wants it, but few agree on what it actually looks like. The quotes collected here come from people who reached the top of their fields, and the striking thing is how little they talk about trophies. They talk about persistence, failure, character and showing up again after being knocked down. A sharp success quote can correct your aim. It reminds you that success is rarely a single dramatic moment and almost always a long string of unglamorous days. It also reframes failure as part of the process rather than the opposite of it. But the definition of success is deeply personal, which makes it a great topic to compare with others. That is where moomz comes in. Below these quotes you will find moomz polls about ambition, achievement and what winning really means, where the community votes on the questions that drive people. Money or freedom? Title or impact? You can vote in seconds or launch your own poll and see how others measure a life well spent. Quotes tell you how success was earned; polls reveal how differently people define it. Read the eight quotes below, decide which definition fits you, and then jump into the moomz polls to see where the community stands.",
+    "quotes": [
+      { "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.", "author": "Winston Churchill" },
+      { "text": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.", "author": "Maya Angelou" },
+      { "text": "Success is walking from failure to failure with no loss of enthusiasm.", "author": "Winston Churchill" },
+      { "text": "Always bear in mind that your own resolution to succeed is more important than any other.", "author": "Abraham Lincoln" },
+      { "text": "The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand.", "author": "Vince Lombardi" },
+      { "text": "Success usually comes to those who are too busy to be looking for it.", "author": "Henry David Thoreau" },
+      { "text": "I have not failed. I've just found 10,000 ways that won't work.", "author": "Thomas Edison" },
+      { "text": "Try not to become a man of success, but rather try to become a man of value.", "author": "Albert Einstein" }
+    ],
+    "faq": [
+      { "q": "What is the best quote about success and failure?", "a": "Winston Churchill's \"Success is not final, failure is not fatal\" is widely considered the definitive one. It reframes both outcomes as temporary and centers the courage to keep going." },
+      { "q": "Did Thomas Edison really say he found 10,000 ways that won't work?", "a": "Edison is consistently credited with this idea about his experiments. It captures his view that failed attempts were useful data, not defeats." },
+      { "q": "How do successful people define success?", "a": "As these quotes show, many define it by effort, character and impact rather than fame or money. Einstein explicitly urged people to be of value rather than of success." }
+    ],
+    "related": ["motivation", "strength", "inspiration", "dreams"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "wisdom",
+    "locale": "en",
+    "theme": "wisdom",
+    "label": "Wisdom",
+    "emoji": "🦉",
+    "matchPatterns": ["wisdom", "wise", "knowledge", "learn", "advice", "truth", "smart", "understand", "experience", "lesson"],
+    "title": "Wisdom Quotes: 8 Timeless Pieces of Insight",
+    "h1": "Wisdom Quotes That Have Lasted Centuries",
+    "description": "Authentic, well-sourced wisdom quotes from Socrates, Confucius and more — plus moomz polls where the community votes on life's smartest choices.",
+    "intro": "Wisdom is not the same as intelligence. Intelligence solves the problem in front of you; wisdom knows which problems are worth solving at all. The quotes collected here have lasted for centuries precisely because they carry that deeper kind of knowing — the sort you usually only earn through experience, mistakes and honest reflection. A great wisdom quote works like a shortcut. It hands you a lesson someone else paid for, letting you skip a little of the pain. From Socrates admitting how much he did not know, to Confucius on patience and self-mastery, these lines reward slow reading. But wisdom is also something people love to test against real situations, which is where moomz comes in. Below these quotes you will find moomz polls about advice, judgment and life's trickier decisions, where the community votes on what the smart move actually is. Speak up or stay quiet? Trust your gut or sleep on it? You can vote in a tap or create your own poll and gather the crowd's collective judgment. Quotes give you timeless wisdom; polls give you the wisdom of the crowd right now. Read the eight quotes below carefully, let one of them sharpen your thinking, and then jump into the moomz polls to see how the community would handle the same calls.",
+    "quotes": [
+      { "text": "The only true wisdom is in knowing you know nothing.", "author": "Socrates" },
+      { "text": "By three methods we may learn wisdom: first, by reflection, which is noblest; second, by imitation, which is easiest; and third, by experience, which is the bitterest.", "author": "Confucius" },
+      { "text": "Knowing yourself is the beginning of all wisdom.", "author": "Aristotle" },
+      { "text": "The fool doth think he is wise, but the wise man knows himself to be a fool.", "author": "William Shakespeare", "source": "As You Like It, 1623" },
+      { "text": "It is the mark of an educated mind to be able to entertain a thought without accepting it.", "author": "Aristotle" },
+      { "text": "Patience is the companion of wisdom.", "author": "Augustine of Hippo" },
+      { "text": "He who knows others is wise; he who knows himself is enlightened.", "author": "Lao Tzu" },
+      { "text": "Turn your wounds into wisdom.", "author": "Oprah Winfrey" }
+    ],
+    "faq": [
+      { "q": "What is the difference between wisdom and knowledge?", "a": "Knowledge is information you have collected; wisdom is the judgment to use it well. As Aristotle suggested, wisdom often begins with self-knowledge rather than facts." },
+      { "q": "Why are ancient wisdom quotes still useful?", "a": "Human nature changes slowly. Lessons from Socrates, Confucius and Lao Tzu still apply because they address universal experiences — doubt, patience, self-deception." },
+      { "q": "How can I become wiser?", "a": "Confucius named three paths: reflection, imitation and experience. Reflecting honestly on your own choices is, in his view, the noblest and most reliable route." }
+    ],
+    "related": ["life", "courage", "inspiration", "time"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "courage",
+    "locale": "en",
+    "theme": "courage",
+    "label": "Courage",
+    "emoji": "🦁",
+    "matchPatterns": ["courage", "brave", "fear", "bold", "risk", "dare", "fearless", "face", "challenge", "stand up"],
+    "title": "Courage Quotes: 8 Sayings to Face Your Fears",
+    "h1": "Courage Quotes for the Moment You Need Them",
+    "description": "Real, correctly attributed courage quotes from Eleanor Roosevelt, Mark Twain and more — plus moomz polls where the community votes on bold choices.",
+    "intro": "Courage is not the absence of fear — it is acting well in spite of it. Every quote collected here makes that same point in its own way, and it is worth holding onto, because waiting to feel unafraid usually means waiting forever. The bravest people simply learned to move while still scared. A strong courage quote can be the final push you need before a hard conversation, a big risk or an honest decision. It reminds you that fear is normal and that the people you admire felt it too. From Eleanor Roosevelt urging us to do the thing we think we cannot, to Mark Twain on mastering fear rather than escaping it, these lines are built for the moment right before you act. Courage also makes for great debate, because everyone draws the line between bold and reckless differently. That is where moomz comes in. Below these quotes you will find moomz polls about risk, bravery and standing your ground, where the community votes on bold versus safe. Take the leap or play it safe? Speak the hard truth or keep the peace? You can vote in seconds or build your own poll and see who in the community shares your nerve. Read the eight quotes below, pick the one for your next hard moment, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You must do the thing you think you cannot do.", "author": "Eleanor Roosevelt", "source": "You Learn by Living, 1960" },
+      { "text": "Courage is resistance to fear, mastery of fear — not absence of fear.", "author": "Mark Twain" },
+      { "text": "Courage is grace under pressure.", "author": "Ernest Hemingway" },
+      { "text": "It takes courage to grow up and become who you really are.", "author": "E.E. Cummings" },
+      { "text": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become.", "author": "Steve Jobs", "source": "Stanford Commencement Address, 2005" },
+      { "text": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.", "author": "Maya Angelou" },
+      { "text": "Life shrinks or expands in proportion to one's courage.", "author": "Anaïs Nin" },
+      { "text": "All our dreams can come true, if we have the courage to pursue them.", "author": "Walt Disney" }
+    ],
+    "faq": [
+      { "q": "What does courage really mean?", "a": "As Mark Twain put it, courage is the mastery of fear, not its absence. Brave people feel fear like everyone else but choose to act despite it." },
+      { "q": "What is a good quote about facing fear?", "a": "Eleanor Roosevelt's line \"You must do the thing you think you cannot do\" is one of the most quoted. It frames fear as something to confront head-on, not avoid." },
+      { "q": "Why is courage called the most important virtue?", "a": "Maya Angelou argued that courage enables every other virtue — honesty, kindness, patience — because each of them eventually requires you to act when it is uncomfortable." }
+    ],
+    "related": ["strength", "motivation", "dreams", "freedom"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dreams",
+    "locale": "en",
+    "theme": "dreams",
+    "label": "Dreams",
+    "emoji": "🌙",
+    "matchPatterns": ["dream", "dreams", "future", "goal", "imagine", "aspiration", "vision", "hope", "wish", "ambition"],
+    "title": "Dreams Quotes: 8 Sayings to Chase Your Vision",
+    "h1": "Dreams Quotes to Keep Your Vision Alive",
+    "description": "Authentic, well-attributed quotes about dreams from Eleanor Roosevelt, Thoreau and more — plus moomz polls where the community votes on chasing big goals.",
+    "intro": "Dreams are the part of us that refuses to settle. They are not idle fantasies; they are signals, pointing at the life we would build if fear and doubt got out of the way. The quotes collected here treat dreams seriously — as something to protect, to act on and to chase with real effort rather than wishful thinking. A great dreams quote does two jobs at once. It honors the dream itself, and it nudges you to start building it. From Eleanor Roosevelt on the beauty of dreams to Thoreau on living the life you have imagined, these lines remind you that a dream untouched is just a daydream, while a dream worked on becomes a direction. Dreams are also intensely personal, which makes them a perfect topic to compare with others. That is where moomz comes in. Below these quotes you will find moomz polls about ambitions, goals and the futures people are reaching for, where the community votes on what they would chase if nothing held them back. Stable path or risky passion? Travel the world or build a home? You can vote in a tap or create your own poll and watch where everyone's dreams point. Quotes keep your vision alive; polls show you that everyone is reaching for something. Read the eight quotes below, then jump into the moomz polls.",
+    "quotes": [
+      { "text": "The future belongs to those who believe in the beauty of their dreams.", "author": "Eleanor Roosevelt" },
+      { "text": "Go confidently in the direction of your dreams. Live the life you have imagined.", "author": "Henry David Thoreau", "source": "Walden, 1854" },
+      { "text": "All men dream, but not equally. Those who dream by night in the dusty recesses of their minds wake in the day to find that it was vanity, but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible.", "author": "T.E. Lawrence" },
+      { "text": "A dream you dream alone is only a dream. A dream you dream together is reality.", "author": "Yoko Ono" },
+      { "text": "You are never too old to set another goal or to dream a new dream.", "author": "C.S. Lewis" },
+      { "text": "Dreams are the touchstones of our character.", "author": "Henry David Thoreau" },
+      { "text": "If you can dream it, you can do it.", "author": "Walt Disney" },
+      { "text": "Hold fast to dreams, for if dreams die, life is a broken-winged bird that cannot fly.", "author": "Langston Hughes", "source": "Dreams, 1922" }
+    ],
+    "faq": [
+      { "q": "What is the most famous quote about dreams?", "a": "Eleanor Roosevelt's \"The future belongs to those who believe in the beauty of their dreams\" is among the most quoted. It links believing in a dream to actually shaping the future." },
+      { "q": "Are you ever too old to chase a dream?", "a": "C.S. Lewis directly answered no: \"You are never too old to set another goal or to dream a new dream.\" Dreams are not limited by age, only by willingness to begin." },
+      { "q": "Why do dreams matter so much?", "a": "Thoreau called dreams \"the touchstones of our character.\" What you dream about reveals your values and gives your daily effort a direction worth aiming at." }
+    ],
+    "related": ["hope", "motivation", "courage", "inspiration"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "time",
+    "locale": "en",
+    "theme": "time",
+    "label": "Time",
+    "emoji": "⏳",
+    "matchPatterns": ["time", "moment", "today", "tomorrow", "now", "future", "past", "wait", "later", "clock"],
+    "title": "Time Quotes: 8 Sayings on Making It Count",
+    "h1": "Time Quotes to Make Every Moment Count",
+    "description": "Genuine, correctly attributed time quotes from Marcus Aurelius, Lincoln and more — plus moomz polls where the community votes on how to spend their hours.",
+    "intro": "Time is the one resource you cannot earn back, and yet it is the easiest to waste. The quotes collected here keep returning to that quiet truth — that the hours are limited, that the present is the only moment you actually hold, and that how you spend your days is, in the end, how you spend your life. A good time quote works like an alarm clock for the mind. It interrupts the autopilot and asks whether today is being used or merely passed. From Marcus Aurelius on living in the present to Lincoln on giving the moment your best, these lines reward anyone willing to slow down and listen. Time also sparks great debates, because everyone uses it differently. That is where moomz comes in. Below these quotes you will find moomz polls about routines, priorities and how people choose to spend their hours, where the community votes on the everyday trade-offs we all make. Early riser or night owl? Pack the schedule or leave it open? You can vote in seconds or launch your own poll and see how others manage their time. Quotes remind you that time is precious; polls show you the wildly different ways people invest it. Read the eight quotes below, let one of them reset your sense of the day, and then jump into the moomz polls to compare how you and the community spend the clock.",
+    "quotes": [
+      { "text": "Lost time is never found again.", "author": "Benjamin Franklin" },
+      { "text": "The two most powerful warriors are patience and time.", "author": "Leo Tolstoy", "source": "War and Peace, 1869" },
+      { "text": "Time is the most valuable thing a man can spend.", "author": "Theophrastus" },
+      { "text": "Confine yourself to the present.", "author": "Marcus Aurelius", "source": "Meditations" },
+      { "text": "It's not enough to be busy, so are the ants. The question is: what are we busy about?", "author": "Henry David Thoreau" },
+      { "text": "Better three hours too soon than a minute too late.", "author": "William Shakespeare", "source": "The Merry Wives of Windsor, 1602" },
+      { "text": "Time and tide wait for no man.", "author": "Geoffrey Chaucer" },
+      { "text": "The trouble is, you think you have time.", "author": "Jack Kornfield" }
+    ],
+    "faq": [
+      { "q": "What is the best quote about not wasting time?", "a": "Benjamin Franklin's \"Lost time is never found again\" is the most direct. It states the central fact about time: unlike money, it cannot be recovered once spent." },
+      { "q": "Why do people quote Marcus Aurelius about time?", "a": "His advice to \"confine yourself to the present\" reflects Stoic philosophy. It argues that worrying about the past or future wastes the only time you actually control — now." },
+      { "q": "Does Shakespeare have a famous quote about time?", "a": "Yes. \"Better three hours too soon than a minute too late,\" from The Merry Wives of Windsor, is a much-quoted reminder about the cost of poor timing." }
+    ],
+    "related": ["life", "wisdom", "happiness", "motivation"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "family",
+    "locale": "en",
+    "theme": "family",
+    "label": "Family",
+    "emoji": "👨‍👩‍👧",
+    "matchPatterns": ["family", "parents", "mom", "dad", "kids", "home", "siblings", "brother", "sister", "relatives"],
+    "title": "Family Quotes: 8 Heartfelt Sayings About Home",
+    "h1": "Family Quotes About the People Who Matter Most",
+    "description": "Real, correctly attributed family quotes from Mother Teresa, George Burns and more — plus moomz polls where the community votes on family life.",
+    "intro": "Family is the first community we ever belong to, and often the one that shapes us most. The quotes collected here celebrate that bond in all its forms — the family you are born into and the family you build — and they keep landing on the same idea: home is less a place than a feeling of belonging. A good family quote can warm you up in a sentence. It reminds you to call a parent, forgive a sibling, or notice the everyday people who never make headlines but quietly hold your life together. From Mother Teresa on family beginning at home to George Burns on the safety of being loved, these lines speak to something universal. Family also sparks endless lively debate, because no two households run the same way. That is where moomz comes in. Below these quotes you will find moomz polls about home life, traditions and the funny, tender chaos of relatives, where the community votes on the everyday questions every family argues over. Big noisy gatherings or small quiet ones? Family group chat: blessing or burden? You can vote in a tap or create your own poll and see how other families compare. Quotes honor what family means; polls reveal how differently everyone lives it. Read the eight quotes below, let one of them remind you of someone, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "The family is the first essential cell of human society.", "author": "Pope John XXIII" },
+      { "text": "Happiness is having a large, loving, caring, close-knit family in another city.", "author": "George Burns" },
+      { "text": "Call it a clan, call it a network, call it a tribe, call it a family. Whatever you call it, whoever you are, you need one.", "author": "Jane Howard" },
+      { "text": "Family is not an important thing. It's everything.", "author": "Michael J. Fox" },
+      { "text": "The love of family and the admiration of friends is much more important than wealth and privilege.", "author": "Charles Kuralt" },
+      { "text": "Other things may change us, but we start and end with the family.", "author": "Anthony Brandt" },
+      { "text": "In family life, love is the oil that eases friction, the cement that binds closer together, and the music that brings harmony.", "author": "Friedrich Nietzsche" },
+      { "text": "Rejoice with your family in the beautiful land of life.", "author": "Albert Einstein" }
+    ],
+    "faq": [
+      { "q": "What is a good short quote about family?", "a": "Michael J. Fox's \"Family is not an important thing. It's everything\" is brief and powerful. It places family at the very center of a meaningful life." },
+      { "q": "Why are family quotes so popular?", "a": "Family is universal — everyone has one, even if it is complicated. Family quotes give people language for gratitude, reconciliation and the deep belonging only home provides." },
+      { "q": "Can chosen friends count as family?", "a": "Many writers say yes. Jane Howard's quote about needing a \"clan\" or \"tribe\" makes clear that family is defined by belonging and care, not only by blood." }
+    ],
+    "related": ["love", "friendship", "happiness", "hope"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "freedom",
+    "locale": "en",
+    "theme": "freedom",
+    "label": "Freedom",
+    "emoji": "🕊️",
+    "matchPatterns": ["freedom", "free", "liberty", "independent", "choice", "rights", "escape", "open", "release", "break free"],
+    "title": "Freedom Quotes: 8 Sayings on Living Free",
+    "h1": "Freedom Quotes for People Who Value It",
+    "description": "Authentic, well-attributed freedom quotes from Nelson Mandela, Roosevelt and more — plus moomz polls where the community votes on freedom and choice.",
+    "intro": "Freedom is one of those words everyone uses and few stop to define. It can mean a nation's liberty, a person's right to choose, or simply the inner freedom of not being ruled by fear. The quotes collected here cover all three, and together they make one point clear: freedom is precious, hard-won and easy to take for granted until it is threatened. A strong freedom quote can sharpen your appreciation of choices you make without thinking. It reminds you that liberty was fought for, and that real freedom comes with responsibility for how you use it. From Nelson Mandela on the long walk to freedom to Roosevelt's vision of freedom from fear, these lines carry real weight. Freedom is also a rich subject for discussion, because everyone draws their personal boundaries differently. That is where moomz comes in. Below these quotes you will find moomz polls about choice, independence and living on your own terms, where the community votes on the trade-offs freedom involves. Total independence or close community? Spontaneous freedom or a steady routine? You can vote in seconds or build your own poll and see how others value their liberty. Quotes remind you what freedom costs; polls show you how people choose to spend it. Read the eight quotes below, then jump into the moomz polls.",
+    "quotes": [
+      { "text": "For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.", "author": "Nelson Mandela", "source": "Long Walk to Freedom, 1994" },
+      { "text": "Those who deny freedom to others deserve it not for themselves.", "author": "Abraham Lincoln" },
+      { "text": "Freedom is nothing else but a chance to be better.", "author": "Albert Camus" },
+      { "text": "Freedom lies in being bold.", "author": "Robert Frost" },
+      { "text": "The secret to happiness is freedom. And the secret to freedom is courage.", "author": "Thucydides" },
+      { "text": "I prefer liberty with danger than peace with slavery.", "author": "Jean-Jacques Rousseau" },
+      { "text": "He who has overcome his fears will truly be free.", "author": "Aristotle" },
+      { "text": "Liberty, when it begins to take root, is a plant of rapid growth.", "author": "George Washington" }
+    ],
+    "faq": [
+      { "q": "What does freedom really mean?", "a": "As Nelson Mandela explained, freedom is more than removing your own chains — it includes respecting and protecting the freedom of others. True liberty is shared, not selfish." },
+      { "q": "What is a good short quote about freedom?", "a": "Robert Frost's \"Freedom lies in being bold\" is concise and memorable. It connects liberty directly to courage and the willingness to act." },
+      { "q": "How are freedom and courage connected?", "a": "Thucydides linked them directly: courage is the secret to freedom. Aristotle agreed, noting that overcoming fear is what truly makes a person free." }
+    ],
+    "related": ["courage", "strength", "hope", "wisdom"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "humor",
+    "locale": "en",
+    "theme": "humor",
+    "label": "Humor",
+    "emoji": "😂",
+    "matchPatterns": ["funny", "humor", "laugh", "joke", "comedy", "smile", "wit", "silly", "fun", "hilarious"],
+    "title": "Humor Quotes: 8 Witty Lines to Make You Laugh",
+    "h1": "Humor Quotes From the Wittiest Minds",
+    "description": "Real, correctly attributed funny quotes from Oscar Wilde, Mark Twain and more — plus moomz polls where the community votes on what is genuinely funny.",
+    "intro": "Humor is intelligence with a sense of timing. The best funny quotes are not just silly — they are sharp, surprising and a little bit true, which is exactly what makes them stick. The lines collected here come from some of the wittiest minds in history, writers and comedians who knew that a clever joke can carry more honesty than a serious speech. A great humor quote does something rare: it makes you laugh and think in the same breath. From Oscar Wilde's elegant put-downs to Mark Twain's down-to-earth wit, these lines prove that laughter and insight are old friends. Humor also lightens hard days and breaks tension when nothing else can. And because everyone's sense of humor is different, it is wonderfully fun to compare. That is where moomz comes in. Below these quotes you will find moomz polls about comedy, jokes and the things that crack people up, where the community votes on what is actually funny versus what falls flat. Dry wit or full-on slapstick? Memes or stand-up? You can vote in a tap or create your own poll and see whether the community shares your sense of humor. Quotes deliver the wit; polls deliver the laughs of the crowd. Read the eight quotes below, enjoy a smile, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "I can resist everything except temptation.", "author": "Oscar Wilde", "source": "Lady Windermere's Fan, 1892" },
+      { "text": "The reports of my death are greatly exaggerated.", "author": "Mark Twain" },
+      { "text": "I have not failed my mathematics test. I've just found 10,000 ways that won't get a passing grade.", "author": "Anonymous" },
+      { "text": "A day without sunshine is like, you know, night.", "author": "Steve Martin" },
+      { "text": "I am so clever that sometimes I don't understand a single word of what I am saying.", "author": "Oscar Wilde" },
+      { "text": "Wine is constant proof that God loves us and loves to see us happy.", "author": "Benjamin Franklin" },
+      { "text": "Always forgive your enemies; nothing annoys them so much.", "author": "Oscar Wilde" },
+      { "text": "Get your facts first, then you can distort them as you please.", "author": "Mark Twain" }
+    ],
+    "faq": [
+      { "q": "Who wrote the funniest quotes in history?", "a": "Oscar Wilde and Mark Twain are often cited as the wittiest. Wilde mastered the elegant paradox, while Twain perfected plain-spoken, deadpan American humor." },
+      { "q": "Why are funny quotes so memorable?", "a": "Humor relies on surprise, and surprise makes things stick in memory. A funny quote also carries a kernel of truth, which gives the laugh something to hold onto." },
+      { "q": "Did Mark Twain really say the reports of his death were exaggerated?", "a": "Twain made a quip very close to this after a newspaper mistakenly reported he had died. The famous wording \"greatly exaggerated\" became the version everyone remembers." }
+    ],
+    "related": ["happiness", "friendship", "wisdom", "life"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "hope",
+    "locale": "en",
+    "theme": "hope",
+    "label": "Hope",
+    "emoji": "✨",
+    "matchPatterns": ["hope", "hopeful", "optimism", "faith", "believe", "better", "light", "tomorrow", "future", "trust"],
+    "title": "Hope Quotes: 8 Sayings to Light the Dark",
+    "h1": "Hope Quotes for When You Need a Light",
+    "description": "Authentic, well-attributed hope quotes from Helen Keller, Emily Dickinson and more — plus moomz polls where the community votes on staying hopeful.",
+    "intro": "Hope is the quiet engine that keeps people moving through hard seasons. It is not naïve optimism that ignores reality; it is the deeper belief that things can still get better and that effort is worth making. The quotes collected here capture that belief beautifully, and they tend to glow brightest exactly when life feels darkest. A good hope quote can be a lifeline. It reminds you that night ends, that doors open, and that nearly everyone you admire has faced moments when hope was all they had left. From Helen Keller, who knew real hardship, to Emily Dickinson's image of hope as a bird that never stops singing, these lines were written to be leaned on. Hope is also worth sharing, because optimism spreads. That is where moomz comes in. Below these quotes you will find moomz polls about the future, faith and looking on the bright side, where the community votes on how hopeful they feel about what is coming. Glass half full or half empty? Things getting better or worse? You can vote in seconds or create your own poll and feel the collective mood. Quotes give you a light to hold; polls show you how many people are holding one too. Read the eight quotes below, let one of them brighten things, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "Hope is the thing with feathers that perches in the soul, and sings the tune without the words, and never stops at all.", "author": "Emily Dickinson", "source": "Hope is the thing with feathers, c.1861" },
+      { "text": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.", "author": "Helen Keller" },
+      { "text": "We must accept finite disappointment, but never lose infinite hope.", "author": "Martin Luther King Jr." },
+      { "text": "Once you choose hope, anything's possible.", "author": "Christopher Reeve" },
+      { "text": "Hope is being able to see that there is light despite all of the darkness.", "author": "Desmond Tutu" },
+      { "text": "Where there is no vision, the people perish.", "author": "Proverbs 29:18", "source": "The Bible" },
+      { "text": "Hope is a waking dream.", "author": "Aristotle" },
+      { "text": "Everything that is done in the world is done by hope.", "author": "Martin Luther" }
+    ],
+    "faq": [
+      { "q": "What is the most famous quote about hope?", "a": "Emily Dickinson's image of hope as \"the thing with feathers\" is among the most beloved. It pictures hope as a small bird in the soul that keeps singing through any storm." },
+      { "q": "Why is hope important in hard times?", "a": "Hope sustains action. As Helen Keller noted, nothing gets done without it. Hope is what keeps people trying when results are not yet visible." },
+      { "q": "Is hope the same as optimism?", "a": "They overlap but differ slightly. Optimism expects good outcomes; hope is the deeper conviction that working toward a better future is worthwhile even when the outcome is uncertain." }
+    ],
+    "related": ["happiness", "dreams", "strength", "life"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "strength",
+    "locale": "en",
+    "theme": "strength",
+    "label": "Strength",
+    "emoji": "💪",
+    "matchPatterns": ["strength", "strong", "tough", "resilient", "endure", "power", "overcome", "survive", "hard times", "willpower"],
+    "title": "Strength Quotes: 8 Sayings for Tough Times",
+    "h1": "Strength Quotes to Carry You Through",
+    "description": "Real, correctly attributed strength quotes from Marcus Aurelius, Maya Angelou and more — plus moomz polls where the community votes on resilience.",
+    "intro": "Strength is not always loud. The most powerful kind is often quiet — the resilience to keep going, to absorb a setback and rise the next morning anyway. The quotes collected here understand that. They speak less about muscle and more about endurance, character and the inner steadiness that hard seasons demand. A good strength quote can steady you when everything feels heavy. It reminds you that you have survived difficult things before, and that the obstacle in front of you can become the very thing that builds you. From Marcus Aurelius on turning obstacles into the way forward, to Maya Angelou on rising again and again, these lines were written for hard days. Strength is also deeply personal, and people draw it from very different sources. That is where moomz comes in. Below these quotes you will find moomz polls about resilience, willpower and getting through tough patches, where the community votes on what gives them strength. Push through alone or lean on others? Bend like a reed or stand like a rock? You can vote in a tap or create your own poll and see how others find their footing. Quotes remind you how strong you can be; polls show you that you are far from alone. Read the eight quotes below, hold the one you need, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "The impediment to action advances action. What stands in the way becomes the way.", "author": "Marcus Aurelius", "source": "Meditations" },
+      { "text": "You may not control all the events that happen to you, but you can decide not to be reduced by them.", "author": "Maya Angelou" },
+      { "text": "Strength does not come from physical capacity. It comes from an indomitable will.", "author": "Mahatma Gandhi" },
+      { "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.", "author": "Ralph Waldo Emerson" },
+      { "text": "He who has a why to live can bear almost any how.", "author": "Friedrich Nietzsche" },
+      { "text": "Out of difficulties grow miracles.", "author": "Jean de La Bruyère" },
+      { "text": "The world breaks everyone, and afterward many are strong at the broken places.", "author": "Ernest Hemingway", "source": "A Farewell to Arms, 1929" },
+      { "text": "When you reach the end of your rope, tie a knot in it and hang on.", "author": "Franklin D. Roosevelt" }
+    ],
+    "faq": [
+      { "q": "What is the best quote about inner strength?", "a": "Gandhi's line that strength \"comes from an indomitable will\" is a leading choice. It reframes strength as a quality of character rather than physical power." },
+      { "q": "How can quotes help in tough times?", "a": "A strength quote offers perspective in a single sentence. It reminds you that hardship is survivable and, as Hemingway suggested, can even leave you stronger at the broken places." },
+      { "q": "What did Marcus Aurelius say about obstacles?", "a": "He wrote that \"what stands in the way becomes the way\" — meaning the obstacle itself can be turned into the path forward. It is a cornerstone of Stoic resilience." }
+    ],
+    "related": ["courage", "motivation", "hope", "success"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "inspiration",
+    "locale": "en",
+    "theme": "inspiration",
+    "label": "Inspiration",
+    "emoji": "💡",
+    "matchPatterns": ["inspire", "inspiration", "creative", "idea", "spark", "motivate", "passion", "change", "create", "vision"],
+    "title": "Inspiration Quotes: 8 Sayings to Spark Action",
+    "h1": "Inspiration Quotes to Spark Your Best Ideas",
+    "description": "Genuine, correctly attributed inspiration quotes from Steve Jobs, Maya Angelou and more — plus moomz polls where the community votes on what inspires them.",
+    "intro": "Inspiration is the spark that turns a quiet idea into a decision. It rarely arrives on schedule, but the right words can summon it — a single sentence that suddenly makes you want to create, change or begin. The quotes collected here are built for exactly that moment. They come from people who shaped their fields, and each one carries a little of the energy that drove them. A great inspiration quote does not just sound nice; it moves you. It reframes a challenge as an opportunity and reminds you that the people you admire started as ordinary individuals who simply refused to stay still. From Steve Jobs on doing work you love to Maya Angelou on the inexhaustible nature of creativity, these lines were chosen to light a fire. Inspiration is also contagious, which makes it worth sharing. That is where moomz comes in. Below these quotes you will find moomz polls about creativity, ideas and the things that fire people up, where the community votes on what truly inspires them. Inspired by people or by nature? Driven by passion or by purpose? You can vote in seconds or create your own poll and see what sparks the community. Quotes deliver the spark; polls show you how everyone catches fire differently. Read the eight quotes below, take what energizes you, and then jump into the moomz polls.",
+    "quotes": [
+      { "text": "The only way to do great work is to love what you do.", "author": "Steve Jobs", "source": "Stanford Commencement Address, 2005" },
+      { "text": "You can't use up creativity. The more you use, the more you have.", "author": "Maya Angelou" },
+      { "text": "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.", "author": "Johann Wolfgang von Goethe" },
+      { "text": "Be the change that you wish to see in the world.", "author": "Mahatma Gandhi" },
+      { "text": "If you want to lift yourself up, lift up someone else.", "author": "Booker T. Washington" },
+      { "text": "Nothing is impossible, the word itself says 'I'm possible'!", "author": "Audrey Hepburn" },
+      { "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.", "author": "Zig Ziglar" },
+      { "text": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do.", "author": "H. Jackson Brown Jr.", "source": "P.S. I Love You, 1990" }
+    ],
+    "faq": [
+      { "q": "What is the most inspiring quote ever?", "a": "Steve Jobs's \"The only way to do great work is to love what you do\" is one of the most cited. It connects passion directly to excellence and meaning at work." },
+      { "q": "Can a quote really inspire action?", "a": "A quote alone will not finish the work, but it can lower the resistance to starting. By reframing a challenge in a fresh way, it often supplies the push that gets you moving." },
+      { "q": "Why is creativity called inexhaustible?", "a": "Maya Angelou observed that creativity grows with use rather than running out. The more ideas you act on, the more new ideas tend to appear — it compounds." }
+    ],
+    "related": ["motivation", "dreams", "success", "wisdom"],
+    "updatedAt": "2026-05-20"
+  }
+]

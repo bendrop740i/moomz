@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { allPages } from "@/lib/seo";
 import { getAllKeywords } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
+import { getAllQuotes } from "@/lib/seo/quotes/loader";
+import { quoteUrl } from "@/lib/seo/quotes/types";
 import { allQuizzes } from "@/lib/quizzes";
 import { quizUrl } from "@/lib/quizzes/types";
 import { getAllCompares } from "@/lib/seo/compare/loader";
@@ -84,6 +86,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/read`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/mot`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/word`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citations`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/quotes`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/citation/es`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citation/it`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citation/pt`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citation/de`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citation/ja`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/citation/zh`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/quiz`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE}/template`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
@@ -171,6 +181,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  const quoteUrls: MetadataRoute.Sitemap = getAllQuotes().map((q) => ({
+    url: `${BASE}${quoteUrl(q)}`,
+    lastModified: new Date(q.updatedAt),
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+
   const quizUrls: MetadataRoute.Sitemap = allQuizzes.map((q) => ({
     url: `${BASE}${quizUrl(q)}`,
     lastModified: new Date(q.updatedAt),
@@ -219,6 +236,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...staticUrls,
     ...seoUrls,
     ...keywordUrls,
+    ...quoteUrls,
     ...quizUrls,
     ...compareUrls,
     ...templateUrls,

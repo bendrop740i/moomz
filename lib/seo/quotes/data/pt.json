@@ -1,0 +1,466 @@
+[
+  {
+    "slug": "amor",
+    "locale": "pt",
+    "theme": "love",
+    "label": "Amor",
+    "emoji": "❤️",
+    "matchPatterns": ["amor", "amar", "paixão", "paixao", "coração", "coracao", "namorado", "namorada", "romântico", "romantico", "casal", "beijo"],
+    "title": "Frases de Amor: as Melhores Citações Românticas",
+    "h1": "Frases de Amor que Tocam o Coração",
+    "description": "Reunimos as mais belas frases de amor de Fernando Pessoa, Vinícius de Moraes, Clarice Lispector e outros grandes autores. Inspire-se e compartilhe.",
+    "intro": "O amor é, talvez, o tema mais cantado, escrito e celebrado em toda a história da humanidade — e não é por acaso. Poucas experiências mexem tanto com a gente: a expectativa de um encontro, o medo de perder, a alegria simples de estar perto de quem se ama. Por isso, as frases de amor atravessam séculos sem perder a força. Quando Vinícius de Moraes escreveu sobre o amor que é infinito enquanto dura, ele resumiu em poucas palavras algo que todos já sentimos. As citações reunidas nesta página vêm de poetas, escritores e pensadores que souberam colocar em palavras aquilo que, no dia a dia, fica preso na garganta. Elas servem para declarar um sentimento, para confortar um coração partido ou simplesmente para lembrar como é bom amar e ser amado. No moomz, o amor também vira conversa: criamos enquetes sobre relacionamentos, primeiros encontros e dilemas românticos para você votar e descobrir o que pensam outras pessoas. Leia estas frases com calma, escolha a que mais combina com o seu momento e, depois, participe das enquetes ou crie a sua própria. Afinal, falar de amor é uma forma de senti-lo de novo.",
+    "quotes": [
+      { "text": "O amor é um fogo que arde sem se ver; é ferida que dói e não se sente; é um contentamento descontente; é dor que desatina sem doer.", "author": "Luís de Camões" },
+      { "text": "De tudo, ao meu amor serei atento antes, e com tal zelo, e sempre, e tanto que mesmo em face do maior encanto dele se encante mais meu pensamento.", "author": "Vinícius de Moraes", "source": "Soneto de Fidelidade, 1939" },
+      { "text": "Amar é mudar a alma de casa.", "author": "Mario Quintana" },
+      { "text": "O amor, quando se revela, não se sabe revelar. Sabe bem olhar p'ra ela, mas não lhe sabe falar.", "author": "Fernando Pessoa" },
+      { "text": "Quem ama o feio, bonito lhe parece.", "author": "Provérbio" },
+      { "text": "Amar a perder a razão.", "author": "Carlos Drummond de Andrade" },
+      { "text": "Que o amor não nos faça esquecer de pensar, e que o pensar não nos faça esquecer de amar.", "author": "Clarice Lispector" },
+      { "text": "Há um tempo em que é preciso abandonar as roupas usadas, que já têm a forma do nosso corpo, e esquecer os nossos caminhos, que nos levam sempre aos mesmos lugares.", "author": "Fernando Teixeira de Andrade" }
+    ],
+    "faq": [
+      { "q": "Qual é a frase de amor mais famosa em português?", "a": "Uma das mais célebres é o verso de Vinícius de Moraes que diz que o amor é infinito enquanto dura, presente no 'Soneto de Fidelidade' (1939). É amplamente citada por sua honestidade sobre a natureza do sentimento." },
+      { "q": "Quem foi o maior poeta do amor na língua portuguesa?", "a": "É difícil eleger um só. Camões, no século XVI, definiu o amor em sonetos imortais; Vinícius de Moraes e Florbela Espanca, no século XX, deram ao tema novas vozes. Cada um marcou uma época." },
+      { "q": "Como escolher uma frase de amor para declarar?", "a": "Procure uma citação que reflita o seu momento real, não apenas a mais bonita. Uma frase sincera, mesmo simples, comunica mais do que um verso grandioso que não combina com o que você sente." }
+    ],
+    "related": ["amizade", "felicidade", "sonhos", "esperanca"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "amizade",
+    "locale": "pt",
+    "theme": "friendship",
+    "label": "Amizade",
+    "emoji": "🤝",
+    "matchPatterns": ["amizade", "amigo", "amiga", "amigos", "melhor amigo", "companheiro", "lealdade", "confiança", "confianca", "parceiro", "turma"],
+    "title": "Frases de Amizade: Citações Sobre Amigos Verdadeiros",
+    "h1": "Frases de Amizade para Celebrar os Amigos",
+    "description": "As melhores frases de amizade de grandes autores. Citações sobre amigos verdadeiros, lealdade e companheirismo para compartilhar com quem você ama.",
+    "intro": "A amizade é uma das relações mais livres que existem: não nasce de obrigação nem de sangue, mas de escolha. Escolhemos nossos amigos e somos escolhidos por eles, e talvez seja por isso que uma amizade verdadeira tenha um valor tão raro. Os bons amigos são aqueles que ficam quando tudo fica difícil, que celebram nossas vitórias sem inveja e que dizem a verdade mesmo quando ela incomoda. As frases de amizade reunidas nesta página vêm de escritores e pensadores que entenderam essa relação em toda a sua profundidade — do humor leve à lealdade que resiste ao tempo e à distância. Elas servem para uma mensagem de aniversário, para agradecer alguém especial ou simplesmente para lembrar a um amigo que ele importa. No moomz, a amizade também é tema de enquetes: criamos perguntas sobre lealdade, melhores amigos e situações do dia a dia entre amigos para você votar e comparar suas respostas com as de outras pessoas. Leia estas citações, mande a sua favorita para aquele amigo de sempre e, depois, participe das enquetes ou crie a sua. Amizade boa também se cultiva com palavras.",
+    "quotes": [
+      { "text": "Amigo é coisa para se guardar do lado esquerdo do peito.", "author": "Milton Nascimento", "source": "Canção da América, 1980" },
+      { "text": "Não há mundo, há somente pessoas. Algumas mais próximas, outras mais distantes, mas todas pessoas.", "author": "José Saramago" },
+      { "text": "Quem encontrou um amigo encontrou um tesouro.", "author": "Provérbio" },
+      { "text": "Há pessoas que choram por saber que as rosas têm espinhos. Há outras que sorriem por saber que os espinhos têm rosas.", "author": "Machado de Assis" },
+      { "text": "A amizade é um amor que nunca morre.", "author": "Mário de Sá-Carneiro" },
+      { "text": "Quem caminha sozinho pode até chegar mais rápido, mas aquele que vai acompanhado, com certeza vai mais longe.", "author": "Clarice Lispector" },
+      { "text": "Cada amigo representa um mundo em nós, um mundo possivelmente não nascido até que ele chegue.", "author": "Anaïs Nin" },
+      { "text": "Saber conviver não diminui os caminhos a serem percorridos, mas certamente torna sua paisagem mais agradável.", "author": "Carlos Drummond de Andrade" }
+    ],
+    "faq": [
+      { "q": "O que define uma amizade verdadeira?", "a": "Uma amizade verdadeira se mede na constância: o amigo que permanece nos momentos difíceis, que respeita suas escolhas e que diz a verdade com cuidado. Não depende de frequência, mas de confiança real." },
+      { "q": "Qual a melhor frase de amizade para um aniversário?", "a": "Escolha uma que expresse gratidão e história compartilhada. Frases que falam de cumplicidade e de caminhar juntos, como as de Clarice Lispector, costumam tocar mais do que mensagens genéricas." },
+      { "q": "A distância acaba com a amizade?", "a": "A distância testa a amizade, mas não a destrói por si só. Amizades sólidas se mantêm com pequenos gestos de presença, mesmo à distância, porque se baseiam em vínculo e não em proximidade física." }
+    ],
+    "related": ["amor", "familia", "felicidade", "humor"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "motivacao",
+    "locale": "pt",
+    "theme": "motivation",
+    "label": "Motivação",
+    "emoji": "🔥",
+    "matchPatterns": ["motivação", "motivacao", "motivar", "foco", "disciplina", "esforço", "esforco", "vontade", "atitude", "determinação", "determinacao", "objetivo"],
+    "title": "Frases de Motivação: Citações para Não Desistir",
+    "h1": "Frases de Motivação para Seguir em Frente",
+    "description": "Citações de motivação poderosas para os dias difíceis. Frases sobre foco, disciplina e determinação para você não desistir dos seus objetivos.",
+    "intro": "Todo mundo já passou por aquele dia em que a vontade some e a meta parece distante demais. É nessas horas que uma boa frase de motivação faz diferença: ela não resolve o problema, mas reacende a chama que faltava. Motivação não é um estado permanente — é algo que precisa ser alimentado, e as palavras certas, ditas na hora certa, têm esse poder. As citações reunidas nesta página vêm de pensadores, líderes e escritores que enfrentaram seus próprios obstáculos e souberam transformar dificuldade em força. Elas falam de disciplina, de foco, de coragem para começar de novo e da importância de dar um passo de cada vez. Servem para quem está estudando, treinando, empreendendo ou simplesmente tentando atravessar uma fase pesada. No moomz, a motivação vira conversa: criamos enquetes sobre hábitos, metas e desafios para você votar e descobrir como outras pessoas mantêm a chama acesa. Leia estas frases, escolha a que mais bate forte com o seu momento e use-a como combustível. Depois, participe das enquetes ou crie a sua — porque às vezes saber que outros também lutam já é motivação suficiente.",
+    "quotes": [
+      { "text": "Tudo parece impossível até que seja feito.", "author": "Nelson Mandela" },
+      { "text": "Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças.", "author": "Leon C. Megginson" },
+      { "text": "A persistência é o caminho do êxito.", "author": "Charles Chaplin" },
+      { "text": "Comece fazendo o que é necessário, depois o que é possível, e de repente você estará fazendo o impossível.", "author": "São Francisco de Assis" },
+      { "text": "O segredo de ir em frente é começar.", "author": "Mark Twain" },
+      { "text": "A tarefa não é tanto ver aquilo que ninguém viu, mas pensar o que ninguém ainda pensou sobre aquilo que todo mundo vê.", "author": "Arthur Schopenhauer" },
+      { "text": "Por vezes sentimos que aquilo que fazemos não é senão uma gota de água no mar. Mas o mar seria menor se lhe faltasse uma gota.", "author": "Madre Teresa de Calcutá" },
+      { "text": "Que os vossos esforços desafiem as impossibilidades, lembrai-vos de que as grandes coisas do homem foram conquistadas do que parecia impossível.", "author": "Charles Chaplin" }
+    ],
+    "faq": [
+      { "q": "Frases de motivação realmente funcionam?", "a": "Sim, quando usadas como apoio e não como substituto da ação. Uma boa citação reorienta o foco e lembra o porquê de um esforço, mas a mudança real vem da prática constante." },
+      { "q": "Como manter a motivação no longo prazo?", "a": "A motivação inicial sempre oscila; o que sustenta o caminho é a disciplina e os hábitos. Defina metas pequenas, celebre cada avanço e revisite suas frases inspiradoras nos dias difíceis." },
+      { "q": "Qual a melhor frase para os dias de desânimo?", "a": "Frases que normalizam o passo a passo, como a de Mark Twain sobre o segredo de começar, costumam ajudar mais. Elas tiram o peso da perfeição e devolvem o controle a uma única ação possível." }
+    ],
+    "related": ["sucesso", "forca", "coragem", "inspiracao"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vida",
+    "locale": "pt",
+    "theme": "life",
+    "label": "Vida",
+    "emoji": "🌱",
+    "matchPatterns": ["vida", "viver", "existência", "existencia", "sentido da vida", "rotina", "destino", "caminho", "jornada", "experiência", "experiencia", "mundo"],
+    "title": "Frases sobre a Vida: Reflexões e Citações Profundas",
+    "h1": "Frases sobre a Vida para Refletir",
+    "description": "Reflexões e citações profundas sobre a vida de Fernando Pessoa, Clarice Lispector e outros. Frases para pensar no sentido da existência.",
+    "intro": "A vida é, ao mesmo tempo, a coisa mais comum e a mais misteriosa que existe. Ela acontece todos os dias, na rotina, nos pequenos gestos, e ainda assim nunca paramos de perguntar o que ela significa. As frases sobre a vida têm justamente esse papel: pausar o ritmo acelerado e nos convidar a olhar para o que estamos vivendo. As citações reunidas nesta página vêm de poetas e escritores que dedicaram suas obras a observar a existência humana — suas alegrias, suas perdas, sua beleza e seu absurdo. Fernando Pessoa falou de viver cada instante; Clarice Lispector mergulhou no que há de mais íntimo na experiência de existir. Essas palavras não dão respostas prontas, mas oferecem boa companhia para pensar. Servem para um momento de reflexão, para uma mensagem que faça alguém parar e respirar, ou para registrar uma fase importante. No moomz, a vida também é tema de enquetes: criamos perguntas sobre escolhas, rotina, prioridades e dilemas do dia a dia para você votar e comparar sua visão com a de outras pessoas. Leia estas citações sem pressa, deixe alguma ressoar dentro de você e, depois, participe das enquetes ou crie a sua própria reflexão.",
+    "quotes": [
+      { "text": "Não sou nada. Nunca serei nada. Não posso querer ser nada. À parte isso, tenho em mim todos os sonhos do mundo.", "author": "Fernando Pessoa", "source": "Tabacaria, 1928" },
+      { "text": "A vida é a arte do encontro, embora haja tanto desencontro pela vida.", "author": "Vinícius de Moraes" },
+      { "text": "Que ninguém se engane, só se consegue a simplicidade através de muito trabalho.", "author": "Clarice Lispector" },
+      { "text": "Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.", "author": "Oscar Wilde" },
+      { "text": "A vida é como andar de bicicleta. Para manter o equilíbrio, é preciso continuar em movimento.", "author": "Albert Einstein" },
+      { "text": "O mundo é grande e cabe nesta janela sobre o mar.", "author": "Carlos Drummond de Andrade", "source": "Mundo Grande" },
+      { "text": "Tem dias que a gente se sente como quem partiu ou morreu. A gente estancou de repente ou foi o mundo então que cresceu.", "author": "Carlos Drummond de Andrade", "source": "Os Ombros Suportam o Mundo" },
+      { "text": "A vida só pode ser compreendida olhando-se para trás, mas só pode ser vivida olhando-se para frente.", "author": "Søren Kierkegaard" }
+    ],
+    "faq": [
+      { "q": "Por que ler frases sobre a vida?", "a": "Frases sobre a vida funcionam como pausas de reflexão num cotidiano acelerado. Elas condensam ideias complexas em poucas palavras e ajudam a colocar em perspectiva aquilo que estamos vivendo." },
+      { "q": "Qual autor escreveu mais sobre o sentido da vida?", "a": "Na literatura de língua portuguesa, Fernando Pessoa e Clarice Lispector são referências. Pessoa explorou a existência por múltiplos heterônimos; Lispector buscou o sentido nos detalhes mais íntimos do ser." },
+      { "q": "Frases sobre a vida ajudam em momentos difíceis?", "a": "Sim. Elas não resolvem problemas, mas oferecem companhia e perspectiva. Saber que grandes pensadores também enfrentaram dúvidas e perdas traz conforto e ajuda a relativizar a dor do momento." }
+    ],
+    "related": ["felicidade", "sabedoria", "tempo", "esperanca"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "felicidade",
+    "locale": "pt",
+    "theme": "happiness",
+    "label": "Felicidade",
+    "emoji": "😊",
+    "matchPatterns": ["felicidade", "feliz", "alegria", "contente", "bem-estar", "satisfação", "satisfacao", "sorriso", "prazer", "felizes", "contentamento"],
+    "title": "Frases de Felicidade: Citações para Ser Feliz",
+    "h1": "Frases de Felicidade para Iluminar o Dia",
+    "description": "As melhores frases sobre felicidade e alegria de grandes autores. Citações inspiradoras para encontrar e cultivar a felicidade no dia a dia.",
+    "intro": "A felicidade é provavelmente o objetivo mais perseguido e, ao mesmo tempo, o mais difícil de definir. Cada pessoa a busca à sua maneira, e talvez o segredo esteja justamente em entender que ela não é um destino fixo, mas uma forma de viver os pequenos momentos. As frases sobre felicidade nos ajudam a lembrar disso quando a correria faz a gente esquecer. As citações reunidas nesta página vêm de escritores, filósofos e pensadores que refletiram sobre o que realmente nos torna felizes — e quase sempre a resposta não está nas grandes conquistas, mas nas coisas simples: um afeto, um instante de paz, a gratidão pelo que já se tem. Elas servem para começar bem o dia, para animar alguém querido ou para reorientar o olhar quando tudo parece pesado. No moomz, a felicidade vira conversa: criamos enquetes sobre o que faz as pessoas felizes, escolhas de bem-estar e prazeres do dia a dia para você votar e descobrir o que move os outros. Leia estas frases com leveza, escolha a que mais combina com o seu momento e compartilhe. Depois, participe das enquetes ou crie a sua — a felicidade também cresce quando é dividida.",
+    "quotes": [
+      { "text": "Há dois tipos de felicidade: ser feliz e fazer os outros felizes.", "author": "Mário Quintana" },
+      { "text": "A felicidade às vezes é uma bênção, mas geralmente é uma conquista.", "author": "Paulo Coelho" },
+      { "text": "Não há caminho para a felicidade. A felicidade é o caminho.", "author": "Provérbio" },
+      { "text": "A alegria não chega apenas no encontro do achado, mas faz parte do processo da busca.", "author": "Paulo Freire" },
+      { "text": "A felicidade é um bem que se multiplica ao ser dividido.", "author": "Albert Schweitzer" },
+      { "text": "Quase todas as situações felizes da vida e a maior parte das alegrias humanas têm como base sentimentos delicados e doces.", "author": "Machado de Assis" },
+      { "text": "A felicidade aparece para aqueles que choram. Para aqueles que se machucam. Para aqueles que buscam e tentam sempre.", "author": "Clarice Lispector" },
+      { "text": "Saber viver não é apenas existir; é dar sentido aos momentos que se vive.", "author": "Cora Coralina" }
+    ],
+    "faq": [
+      { "q": "A felicidade é uma escolha ou um acaso?", "a": "Há um pouco dos dois. Circunstâncias influenciam, mas muitos pensadores defendem que a felicidade depende também da atitude diante da vida: gratidão, foco no presente e atenção aos pequenos momentos." },
+      { "q": "Onde encontrar felicidade no dia a dia?", "a": "Quase sempre nas coisas simples: afeto, descanso, uma conversa boa, um propósito. As frases sobre felicidade lembram justamente que ela costuma estar no caminho, e não numa meta distante." },
+      { "q": "Dividir a felicidade aumenta a felicidade?", "a": "Sim, é uma ideia recorrente entre filósofos. Compartilhar boas experiências e alegrias com outras pessoas costuma intensificar a sensação de bem-estar, em vez de diminuí-la." }
+    ],
+    "related": ["amor", "vida", "esperanca", "amizade"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sucesso",
+    "locale": "pt",
+    "theme": "success",
+    "label": "Sucesso",
+    "emoji": "🏆",
+    "matchPatterns": ["sucesso", "conquista", "vitória", "vitoria", "vencer", "carreira", "realização", "realizacao", "triunfo", "objetivo", "resultado", "ambição", "ambicao"],
+    "title": "Frases de Sucesso: Citações para Vencer na Vida",
+    "h1": "Frases de Sucesso para Inspirar Conquistas",
+    "description": "Citações poderosas sobre sucesso, conquistas e realização. Frases inspiradoras de grandes pensadores para você vencer na vida e na carreira.",
+    "intro": "O sucesso é uma palavra que carrega muitos significados — para uns, é dinheiro e reconhecimento; para outros, é equilíbrio, propósito ou simplesmente ter feito o melhor possível. Independentemente da definição, há algo em comum em quase todas as histórias de quem conquistou algo grande: persistência, disciplina e a coragem de continuar mesmo depois de falhar. As frases de sucesso reunidas nesta página vêm de empreendedores, escritores e líderes que entenderam que a vitória raramente é uma linha reta. Elas falam de esforço, de aprendizado com o erro e da diferença entre sonhar e realizar. Servem para quem está construindo uma carreira, estudando para uma prova decisiva, abrindo um negócio ou perseguindo qualquer meta importante. No moomz, o sucesso também é tema de enquetes: criamos perguntas sobre carreira, escolhas profissionais, hábitos de pessoas produtivas e o que significa vencer, para você votar e comparar sua visão com a de outras pessoas. Leia estas citações, escolha a que dialoga com o seu objetivo atual e use-a como bússola. Depois, participe das enquetes ou crie a sua — porque definir o que é sucesso para você é o primeiro passo para alcançá-lo.",
+    "quotes": [
+      { "text": "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.", "author": "Winston Churchill" },
+      { "text": "A persistência é o caminho do êxito.", "author": "Charles Chaplin" },
+      { "text": "Não confunda jamais conhecimento com sabedoria. Um o ajuda a ganhar a vida; o outro o ajuda a construir uma vida.", "author": "Sandra Carey" },
+      { "text": "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve.", "author": "Augusto Branco" },
+      { "text": "O que vale na vida não é o ponto de partida e sim a caminhada. Caminhando e semeando, no fim terás o que colher.", "author": "Cora Coralina" },
+      { "text": "Não meça seu progresso usando uma régua que outra pessoa tenha definido para a vida dela.", "author": "Augusto Cury" },
+      { "text": "Você nunca sabe que resultados virão da sua ação. Mas, se você não fizer nada, não existirão resultados.", "author": "Mahatma Gandhi" },
+      { "text": "A diferença entre o impossível e o possível está na determinação de uma pessoa.", "author": "Tommy Lasorda" }
+    ],
+    "faq": [
+      { "q": "O que é sucesso, afinal?", "a": "Sucesso é um conceito pessoal. Para alguns, significa reconhecimento e estabilidade financeira; para outros, propósito, equilíbrio ou impacto positivo. Definir o seu próprio critério evita medir-se por réguas alheias." },
+      { "q": "O fracasso faz parte do sucesso?", "a": "Sim. Praticamente toda trajetória de sucesso inclui erros e recomeços. Frases como a de Churchill lembram que perder entusiasmo é mais perigoso do que falhar — é o erro que ensina o próximo passo." },
+      { "q": "Como manter o foco em uma meta de longo prazo?", "a": "Divida o objetivo grande em etapas menores e mensuráveis, celebre cada avanço e revisite seu propósito com frequência. A constância vence o talento isolado quando o caminho é longo." }
+    ],
+    "related": ["motivacao", "sonhos", "forca", "inspiracao"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sabedoria",
+    "locale": "pt",
+    "theme": "wisdom",
+    "label": "Sabedoria",
+    "emoji": "🦉",
+    "matchPatterns": ["sabedoria", "sábio", "sabio", "conhecimento", "aprender", "lição", "licao", "experiência", "experiencia", "verdade", "prudência", "prudencia", "ensinar"],
+    "title": "Frases de Sabedoria: Citações que Fazem Pensar",
+    "h1": "Frases de Sabedoria para a Vida",
+    "description": "Citações de sabedoria de grandes filósofos e pensadores. Frases profundas sobre conhecimento, experiência e as lições da vida.",
+    "intro": "A sabedoria não é a mesma coisa que conhecimento. É possível saber muito e, ainda assim, agir com pouca sabedoria — porque ser sábio tem menos a ver com acumular informação e mais com saber usá-la, com escutar, com aceitar o que não se sabe. As frases de sabedoria reunidas nesta página vêm de filósofos, escritores e mestres de diferentes épocas e culturas que dedicaram a vida a entender a condição humana. Elas falam de humildade, de paciência, da diferença entre falar e ouvir, e da importância de aprender com a experiência — a própria e a dos outros. Essas citações funcionam como pequenas lições destiladas, frases que ganham mais sentido cada vez que voltamos a elas em momentos diferentes da vida. Servem para refletir, para orientar uma decisão ou para compartilhar com alguém que precisa de uma boa palavra. No moomz, a sabedoria também vira conversa: criamos enquetes sobre escolhas, dilemas e lições do dia a dia para você votar e comparar seu ponto de vista com o de outras pessoas. Leia estas citações sem pressa, deixe uma delas amadurecer dentro de você e, depois, participe das enquetes ou crie a sua própria reflexão.",
+    "quotes": [
+      { "text": "Só sei que nada sei.", "author": "Sócrates" },
+      { "text": "O saber a gente aprende com os mestres e os livros. A sabedoria, se aprende é com a vida e com os humildes.", "author": "Cora Coralina" },
+      { "text": "Conhece-te a ti mesmo.", "author": "Sócrates" },
+      { "text": "A dúvida é o princípio da sabedoria.", "author": "Aristóteles" },
+      { "text": "Tudo o que é profundo ama a máscara.", "author": "Friedrich Nietzsche" },
+      { "text": "A verdadeira viagem de descobrimento não consiste em procurar novas paisagens, mas em ter novos olhos.", "author": "Marcel Proust" },
+      { "text": "Aprender é a única coisa de que a mente nunca se cansa, nunca tem medo e nunca se arrepende.", "author": "Leonardo da Vinci" },
+      { "text": "Não há fatos eternos, como não há verdades absolutas.", "author": "Friedrich Nietzsche" }
+    ],
+    "faq": [
+      { "q": "Qual a diferença entre sabedoria e conhecimento?", "a": "Conhecimento é acumular informação; sabedoria é saber aplicá-la com bom senso. É possível ter muito conhecimento e pouca sabedoria. A sabedoria envolve experiência, humildade e julgamento." },
+      { "q": "A sabedoria vem só com a idade?", "a": "A idade ajuda, porque traz experiência, mas não garante sabedoria. Ela depende de reflexão, abertura para aprender e disposição para reconhecer os próprios erros — algo possível em qualquer fase da vida." },
+      { "q": "Por que filósofos antigos ainda são citados hoje?", "a": "Porque trataram de questões humanas permanentes: como viver bem, como decidir, como lidar com o desconhecido. Sócrates e Aristóteles continuam atuais porque o ser humano, em essência, ainda enfrenta os mesmos dilemas." }
+    ],
+    "related": ["vida", "tempo", "coragem", "liberdade"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "coragem",
+    "locale": "pt",
+    "theme": "courage",
+    "label": "Coragem",
+    "emoji": "🦁",
+    "matchPatterns": ["coragem", "corajoso", "coragens", "medo", "enfrentar", "bravura", "ousar", "ousadia", "destemido", "atrever", "valentia", "desafio"],
+    "title": "Frases de Coragem: Citações para Enfrentar o Medo",
+    "h1": "Frases de Coragem para Enfrentar Desafios",
+    "description": "Citações inspiradoras sobre coragem e bravura. Frases para enfrentar o medo, vencer desafios e agir mesmo quando dá receio.",
+    "intro": "Coragem não é a ausência de medo — é agir apesar dele. Quem teme e mesmo assim segue em frente está sendo mais corajoso do que quem nada teme. Essa é uma das ideias mais repetidas pelos grandes pensadores, e talvez seja a mais libertadora: você não precisa esperar o medo desaparecer para fazer o que precisa ser feito. As frases de coragem reunidas nesta página vêm de escritores, líderes e filósofos que entenderam o que é enfrentar o desconhecido, defender uma causa ou simplesmente dar um passo difícil. Elas falam de ousadia, de resistência diante da adversidade e da força que existe em recomeçar. Servem para quem está prestes a tomar uma decisão importante, para quem enfrenta uma fase de medo ou para quem precisa de um empurrão para falar uma verdade. No moomz, a coragem também é tema de enquetes: criamos perguntas sobre decisões difíceis, dilemas e situações que exigem ousadia para você votar e descobrir como outras pessoas reagiriam. Leia estas citações, escolha a que mais fortalece o seu momento e leve-a com você. Depois, participe das enquetes ou crie a sua — porque às vezes ver que outros também sentem medo é o que dá coragem para agir.",
+    "quotes": [
+      { "text": "A coragem é a primeira das qualidades humanas, porque é a qualidade que garante todas as outras.", "author": "Aristóteles" },
+      { "text": "Coragem é resistência ao medo, domínio do medo, e não ausência do medo.", "author": "Mark Twain" },
+      { "text": "É preciso ter coragem para crescer e tornar-se quem você realmente é.", "author": "E. E. Cummings" },
+      { "text": "Aprendi que a coragem não é a ausência do medo, mas o triunfo sobre ele. O homem corajoso não é aquele que não sente medo, mas o que conquista esse medo.", "author": "Nelson Mandela" },
+      { "text": "A vida encolhe ou se expande na proporção da nossa coragem.", "author": "Anaïs Nin" },
+      { "text": "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.", "author": "Roberto Shinyashiki" },
+      { "text": "Não é porque as coisas são difíceis que não ousamos; é porque não ousamos que elas são difíceis.", "author": "Sêneca" },
+      { "text": "É melhor tentar e falhar do que se preocupar e ver a vida passar.", "author": "Martin Luther King Jr." }
+    ],
+    "faq": [
+      { "q": "Coragem é não sentir medo?", "a": "Não. Coragem é agir apesar do medo. Como dizia Mark Twain, ela é o domínio do medo, e não a sua ausência. Sentir receio é natural; corajoso é quem segue em frente mesmo assim." },
+      { "q": "Como ter coragem para tomar decisões difíceis?", "a": "Comece reconhecendo o medo em vez de negá-lo. Avalie os riscos com clareza, busque informação e dê passos pequenos. A coragem cresce com a prática: cada decisão enfrentada fortalece a próxima." },
+      { "q": "Qual a relação entre coragem e crescimento pessoal?", "a": "São inseparáveis. Crescer exige sair da zona de conforto, e isso sempre envolve algum grau de medo. Como sugere E. E. Cummings, é preciso coragem para se tornar quem realmente se é." }
+    ],
+    "related": ["forca", "motivacao", "liberdade", "sonhos"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sonhos",
+    "locale": "pt",
+    "theme": "dreams",
+    "label": "Sonhos",
+    "emoji": "🌙",
+    "matchPatterns": ["sonho", "sonhos", "sonhar", "objetivo", "futuro", "ambição", "ambicao", "meta", "desejo", "realizar", "projeto", "imaginar"],
+    "title": "Frases de Sonhos: Citações para Realizar Objetivos",
+    "h1": "Frases de Sonhos para Acreditar e Realizar",
+    "description": "Citações inspiradoras sobre sonhos e objetivos. Frases para acreditar nos seus sonhos, lutar por eles e transformá-los em realidade.",
+    "intro": "Sonhar é uma das coisas mais humanas que existem. Antes de qualquer conquista, houve um sonho — uma imagem na cabeça de alguém que parecia distante demais. Os sonhos nos puxam para frente, dão sentido ao esforço e tornam o futuro algo a ser construído, e não apenas esperado. As frases sobre sonhos reunidas nesta página vêm de poetas, escritores e visionários que acreditaram no poder de imaginar uma vida melhor e tiveram coragem de persegui-la. Elas falam da força de não desistir, da diferença entre sonhar e agir e da importância de não deixar ninguém apagar aquilo que você sonha. Servem para quem tem um projeto guardado, para quem precisa de um lembrete de que vale a pena tentar ou para quem quer inspirar alguém a sonhar mais alto. No moomz, os sonhos também viram conversa: criamos enquetes sobre planos de futuro, metas e desejos para você votar e descobrir o que outras pessoas sonham. Leia estas citações, escolha a que mais ressoa com o seu sonho atual e deixe-a te lembrar de seguir em frente. Depois, participe das enquetes ou crie a sua — porque sonho dividido também é sonho fortalecido.",
+    "quotes": [
+      { "text": "Tudo aquilo que o homem ignora, não existe para ele. Por isso o universo de cada um se resume ao tamanho do seu saber.", "author": "Mario Quintana" },
+      { "text": "Sonho que se sonha só é só um sonho que se sonha só, mas sonho que se sonha junto é realidade.", "author": "Raul Seixas", "source": "Prelúdio, 1974" },
+      { "text": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.", "author": "Eleanor Roosevelt" },
+      { "text": "Quem nunca viu o mar nem por isso deixa de ter saudades dele.", "author": "Mario Quintana" },
+      { "text": "Há um tempo de sonhar e um tempo de agir. Quem só sonha, não realiza; quem só age sem sonhar, perde o sentido.", "author": "Carlos Drummond de Andrade" },
+      { "text": "Para realizar grandes conquistas, devemos não apenas agir, mas também sonhar; não apenas planejar, mas também acreditar.", "author": "Anatole France" },
+      { "text": "Não tenhas pressa, mas não percas tempo.", "author": "José Saramago" },
+      { "text": "O sonho comanda a vida. Sempre que um homem sonha, o mundo pula e avança.", "author": "António Gedeão", "source": "Pedra Filosofal, 1956" }
+    ],
+    "faq": [
+      { "q": "Qual a diferença entre sonhar e realizar?", "a": "Sonhar é imaginar um futuro desejado; realizar é dar passos concretos para alcançá-lo. O sonho dá direção, mas precisa de ação, planejamento e persistência para sair do plano da imaginação." },
+      { "q": "Vale a pena perseguir sonhos difíceis?", "a": "Sim, desde que com os pés no chão. Sonhos ambiciosos motivam e dão propósito; o segredo é dividi-los em metas menores e ajustá-los conforme a realidade, sem abandoná-los ao primeiro obstáculo." },
+      { "q": "Por que dividir um sonho com outras pessoas?", "a": "Como sugeria Raul Seixas, o sonho sonhado em conjunto se torna realidade. Compartilhar planos cria apoio, responsabilidade e parcerias que aumentam muito as chances de concretizá-los." }
+    ],
+    "related": ["esperanca", "motivacao", "sucesso", "inspiracao"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tempo",
+    "locale": "pt",
+    "theme": "time",
+    "label": "Tempo",
+    "emoji": "⏳",
+    "matchPatterns": ["tempo", "tempos", "passado", "futuro", "presente", "hoje", "amanhã", "amanha", "momento", "instante", "passagem", "relógio", "relogio"],
+    "title": "Frases sobre o Tempo: Citações para Refletir",
+    "h1": "Frases sobre o Tempo e a Passagem da Vida",
+    "description": "Citações profundas sobre o tempo, o presente e a passagem da vida. Frases de grandes autores para refletir sobre como vivemos cada momento.",
+    "intro": "O tempo é o nosso recurso mais valioso e, ao mesmo tempo, o mais difícil de compreender. Não podemos guardá-lo, recuperá-lo nem fazê-lo parar — só nos resta decidir como usá-lo. Talvez por isso o tempo seja um tema tão presente na literatura e na filosofia: ele nos lembra da nossa finitude e, com isso, do valor de cada instante. As frases sobre o tempo reunidas nesta página vêm de poetas, escritores e pensadores que refletiram sobre o passado que não volta, o futuro que ainda não chegou e o presente que tantas vezes deixamos escapar. Elas falam da pressa, da paciência, das oportunidades perdidas e da sabedoria de viver o agora. Servem para um momento de reflexão, para repensar prioridades ou para lembrar alguém de que o tempo é curto demais para desperdiçar. No moomz, o tempo também vira conversa: criamos enquetes sobre rotina, prioridades, passado e futuro para você votar e comparar sua visão com a de outras pessoas. Leia estas citações com calma — ironicamente, dedicar um tempo a pensar sobre o tempo costuma ser tempo bem gasto. Depois, participe das enquetes ou crie a sua própria reflexão.",
+    "quotes": [
+      { "text": "O tempo é a substância de que sou feito. O tempo é um rio que me arrasta, mas eu sou o rio.", "author": "Jorge Luis Borges" },
+      { "text": "Pedras no caminho? Guardo todas, um dia vou construir um castelo.", "author": "Fernando Pessoa" },
+      { "text": "O tempo não para.", "author": "Cazuza", "source": "O Tempo Não Para, 1988" },
+      { "text": "Não conte os dias, faça com que os dias contem.", "author": "Muhammad Ali" },
+      { "text": "Há um tempo para cada coisa, e há tempo para tudo o que se faz debaixo do céu.", "author": "Eclesiastes" },
+      { "text": "Quem espera nunca alcança.", "author": "Provérbio" },
+      { "text": "O tempo é o melhor autor: sempre encontra um final perfeito.", "author": "Charles Chaplin" },
+      { "text": "Cada dia a natureza produz o suficiente para nossa carência. Se cada um tomasse o que lhe fosse necessário, não havia pobreza no mundo.", "author": "Mahatma Gandhi" }
+    ],
+    "faq": [
+      { "q": "Por que dizem que o tempo é o nosso bem mais valioso?", "a": "Porque é o único recurso que não pode ser recuperado nem ampliado. Dinheiro pode ser reconquistado; o tempo gasto, não. Por isso a forma como o usamos define, em grande parte, a vida que construímos." },
+      { "q": "Como aproveitar melhor o tempo?", "a": "Defina prioridades claras, reduza distrações e dedique atenção plena ao que importa. Viver o presente, em vez de remoer o passado ou ansiar pelo futuro, é uma das chaves apontadas pelos pensadores." },
+      { "q": "O que as frases sobre o tempo nos ensinam?", "a": "Elas lembram da finitude da vida e, com isso, do valor de cada instante. Não são pessimistas: ao contrário, convidam a viver com mais presença, intenção e gratidão pelo agora." }
+    ],
+    "related": ["vida", "sabedoria", "felicidade", "esperanca"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "familia",
+    "locale": "pt",
+    "theme": "family",
+    "label": "Família",
+    "emoji": "👨‍👩‍👧",
+    "matchPatterns": ["família", "familia", "pais", "filhos", "mãe", "mae", "pai", "irmão", "irmao", "lar", "parentes", "casa"],
+    "title": "Frases de Família: Citações Sobre Laços e Amor",
+    "h1": "Frases de Família para Valorizar os Laços",
+    "description": "As mais belas frases sobre família. Citações sobre laços, amor entre pais e filhos e a importância do lar para compartilhar com quem você ama.",
+    "intro": "A família é o primeiro lugar onde aprendemos a amar, a conviver e a ser quem somos. Pode ter a forma tradicional ou tantas outras — o que define uma família não é o sangue, mas o cuidado, a presença e o sentimento de pertencer. As frases sobre família reunidas nesta página vêm de escritores e pensadores que entenderam o valor desses laços que nos sustentam ao longo da vida. Elas falam do amor entre pais e filhos, da segurança de ter um lar, da saudade de quem está longe e da gratidão por quem sempre esteve perto. Essas citações servem para uma mensagem de aniversário, para homenagear quem amamos ou simplesmente para lembrar como é importante valorizar quem está ao nosso lado todos os dias. No moomz, a família também é tema de enquetes: criamos perguntas sobre tradições, momentos em casa, relações entre gerações e situações do dia a dia familiar para você votar e comparar suas respostas com as de outras pessoas. Leia estas frases com carinho, envie a sua favorita para alguém da sua família e, depois, participe das enquetes ou crie a sua. Afinal, reconhecer em voz alta o valor de quem amamos é uma forma simples e poderosa de cuidar desses laços.",
+    "quotes": [
+      { "text": "O amor de mãe é o combustível que permite a um ser humano comum fazer o impossível.", "author": "Marion C. Garretty" },
+      { "text": "A família é onde a vida começa e o amor nunca termina.", "author": "Provérbio" },
+      { "text": "Não existe nada como um sonho para criar o futuro.", "author": "Victor Hugo" },
+      { "text": "O afeto que se tem na infância acompanha a gente pela vida inteira.", "author": "Carlos Drummond de Andrade" },
+      { "text": "Ser feliz sem motivo é a mais autêntica forma de felicidade.", "author": "Carlos Drummond de Andrade" },
+      { "text": "Tenho em mim todos os sonhos do mundo, mas o melhor deles é a paz de uma casa.", "author": "Cora Coralina" },
+      { "text": "A maior glória em viver não está em nunca cair, mas em nos levantarmos cada vez que caímos.", "author": "Nelson Mandela" },
+      { "text": "Onde quer que estejais, levai sempre convosco o coração da vossa casa.", "author": "Cora Coralina" }
+    ],
+    "faq": [
+      { "q": "O que define uma família?", "a": "Mais do que o vínculo de sangue, o que define uma família é o cuidado, a presença e o sentimento de pertencer. Famílias têm muitos formatos, e todos são válidos quando há amor e apoio mútuo." },
+      { "q": "Por que a família é tão importante?", "a": "A família costuma ser o primeiro espaço de afeto, segurança e aprendizado da vida. É onde formamos valores, recebemos apoio nos momentos difíceis e construímos boa parte da nossa identidade." },
+      { "q": "Como valorizar mais a família no dia a dia?", "a": "Com presença real: tempo de qualidade, escuta verdadeira e pequenos gestos de carinho. Demonstrar gratidão, inclusive com palavras, fortalece os laços mais do que grandes ocasiões esporádicas." }
+    ],
+    "related": ["amor", "amizade", "felicidade", "vida"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "liberdade",
+    "locale": "pt",
+    "theme": "freedom",
+    "label": "Liberdade",
+    "emoji": "🕊️",
+    "matchPatterns": ["liberdade", "livre", "liberdades", "autonomia", "independência", "independencia", "escolha", "libertar", "soltar", "direito", "ser livre"],
+    "title": "Frases de Liberdade: Citações Sobre Ser Livre",
+    "h1": "Frases de Liberdade para Inspirar",
+    "description": "Citações poderosas sobre liberdade, autonomia e o direito de ser quem se é. Frases inspiradoras de grandes pensadores e escritores.",
+    "intro": "A liberdade é um dos valores mais profundos e mais defendidos da humanidade. Pode significar muitas coisas: liberdade política, liberdade de pensamento, liberdade de escolher o próprio caminho ou simplesmente o direito de ser quem se é, sem máscaras. O que todas têm em comum é a ideia de viver sem amarras impostas de fora. As frases sobre liberdade reunidas nesta página vêm de filósofos, escritores e líderes que lutaram, escreveram e pensaram sobre o que significa ser livre. Elas falam de coragem para se libertar, de responsabilidade — porque toda liberdade vem acompanhada de escolhas — e do preço que muitas vezes ela exige. Servem para inspirar uma decisão difícil, para celebrar uma conquista pessoal ou para refletir sobre o que realmente nos prende. No moomz, a liberdade também é tema de enquetes: criamos perguntas sobre escolhas, autonomia, valores e dilemas pessoais para você votar e comparar sua visão com a de outras pessoas. Leia estas citações com atenção, deixe alguma delas tocar o seu sentimento de liberdade e, depois, participe das enquetes ou crie a sua própria reflexão. Pensar sobre a liberdade já é, de certa forma, exercê-la.",
+    "quotes": [
+      { "text": "Ser livre não é apenas se livrar das próprias correntes, mas viver de uma forma que respeite e melhore a liberdade dos outros.", "author": "Nelson Mandela" },
+      { "text": "A liberdade é pouco. O que desejo ainda não tem nome.", "author": "Clarice Lispector" },
+      { "text": "O homem está condenado a ser livre.", "author": "Jean-Paul Sartre" },
+      { "text": "Ai daqueles que pararem com sua capacidade de sonhar, de invejar sua coragem de anunciar e denunciar.", "author": "Paulo Freire" },
+      { "text": "A liberdade de cada um termina onde começa a liberdade do outro.", "author": "Provérbio" },
+      { "text": "Em mim mesmo, embora não saiba o que sou, sinto a liberdade.", "author": "Fernando Pessoa" },
+      { "text": "Não há nada mais difícil de enfrentar do que ter a liberdade de escolher.", "author": "José Saramago" },
+      { "text": "Quero a delícia de poder sentir as coisas mais simples.", "author": "Cecília Meireles" }
+    ],
+    "faq": [
+      { "q": "O que é liberdade, de fato?", "a": "Liberdade é o poder de pensar, escolher e agir sem amarras impostas de fora. Vai além da ausência de prisão: inclui liberdade de pensamento, de expressão e o direito de seguir o próprio caminho." },
+      { "q": "Liberdade tem limites?", "a": "Sim. Como diz o ditado, a liberdade de cada um termina onde começa a do outro. A liberdade plena exige responsabilidade e respeito ao convívio, para não se transformar em prejuízo aos demais." },
+      { "q": "Por que dizem que a liberdade dá medo?", "a": "Porque ser livre significa escolher, e toda escolha traz responsabilidade. Sartre afirmava que estamos condenados a ser livres: a liberdade nos obriga a assumir as consequências de nossas decisões." }
+    ],
+    "related": ["coragem", "sabedoria", "vida", "forca"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "humor",
+    "locale": "pt",
+    "theme": "humor",
+    "label": "Humor",
+    "emoji": "😂",
+    "matchPatterns": ["humor", "engraçado", "engracado", "piada", "rir", "riso", "diversão", "diversao", "comédia", "comedia", "graça", "graca"],
+    "title": "Frases de Humor: Citações Engraçadas e Espirituosas",
+    "h1": "Frases de Humor para Arrancar Sorrisos",
+    "description": "As frases de humor mais engraçadas e espirituosas de grandes autores. Citações divertidas e cheias de sagacidade para alegrar o seu dia.",
+    "intro": "Rir é uma das coisas mais saudáveis e libertadoras que existem. O bom humor não só alegra o dia como ajuda a enfrentar problemas com mais leveza, desarma tensões e aproxima as pessoas. E há uma arte especial nas frases engraçadas: as melhores não são bobas — são inteligentes, observam a vida com sagacidade e dizem verdades enquanto fazem a gente sorrir. As citações reunidas nesta página vêm de escritores e pensadores famosos pelo humor afiado, gente que sabia que uma boa piada pode ser tão profunda quanto uma reflexão séria. Elas servem para descontrair uma conversa, animar alguém que está para baixo ou simplesmente lembrar que a vida não precisa ser levada tão a sério o tempo todo. No moomz, o humor também vira conversa: criamos enquetes engraçadas, perguntas divertidas e dilemas absurdos para você votar e rir junto com outras pessoas. Leia estas frases, escolha a que mais te fez sorrir e compartilhe com quem precisa de uma dose de leveza hoje. Depois, participe das enquetes ou crie a sua — porque, no fim, rir junto é uma das melhores formas de conexão que existem.",
+    "quotes": [
+      { "text": "A vida é uma comédia para os que pensam e uma tragédia para os que sentem.", "author": "Horace Walpole" },
+      { "text": "Um dia sem rir é um dia desperdiçado.", "author": "Charles Chaplin" },
+      { "text": "Posso resistir a tudo, exceto à tentação.", "author": "Oscar Wilde" },
+      { "text": "A pontualidade é a virtude dos que se entediam.", "author": "Évelyn Waugh" },
+      { "text": "O humor é a maneira mais saborosa de dizer a verdade sem ser preso por isso.", "author": "Mark Twain" },
+      { "text": "Eu sou a favor do bom-senso, mas reconheço que é um produto raro.", "author": "Voltaire" },
+      { "text": "Há quem diga que todas as noites são de sonhos. Mas há também quem diga que nem todas, só as de verão.", "author": "Vinícius de Moraes" },
+      { "text": "Seja você mesmo; todos os outros já existem.", "author": "Oscar Wilde" }
+    ],
+    "faq": [
+      { "q": "Por que o humor faz bem à saúde?", "a": "Rir alivia o estresse, relaxa o corpo e melhora o humor. O bom humor ajuda a encarar dificuldades com mais leveza e fortalece os vínculos sociais, já que rir junto aproxima as pessoas." },
+      { "q": "O que torna uma frase engraçada também inteligente?", "a": "As melhores frases de humor combinam graça e observação aguda da vida. Autores como Oscar Wilde e Mark Twain usavam a ironia para dizer verdades de forma leve, fazendo pensar e sorrir ao mesmo tempo." },
+      { "q": "Humor e seriedade se opõem?", "a": "Não necessariamente. Muitas vezes o humor é a forma mais eficaz de tratar temas sérios. Uma piada bem construída pode revelar uma verdade que um discurso solene não conseguiria comunicar." }
+    ],
+    "related": ["felicidade", "amizade", "vida", "esperanca"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "esperanca",
+    "locale": "pt",
+    "theme": "hope",
+    "label": "Esperança",
+    "emoji": "✨",
+    "matchPatterns": ["esperança", "esperanca", "esperar", "fé", "fe", "otimismo", "acreditar", "futuro", "luz", "recomeço", "recomeco", "confiança", "confianca"],
+    "title": "Frases de Esperança: Citações para Não Desistir",
+    "h1": "Frases de Esperança para Acreditar em Dias Melhores",
+    "description": "Citações de esperança e otimismo para os dias difíceis. Frases que renovam a fé, trazem luz e lembram que dias melhores são possíveis.",
+    "intro": "A esperança é aquela força silenciosa que nos faz seguir mesmo quando tudo parece escuro. Não é ingenuidade nem negação da realidade — é a convicção de que o amanhã pode ser diferente, e de que vale a pena continuar tentando. Em momentos difíceis, é a esperança que sustenta, que dá um motivo para levantar de novo. As frases de esperança reunidas nesta página vêm de poetas, escritores e líderes que conheceram a adversidade e, ainda assim, escolheram acreditar em dias melhores. Elas falam de recomeços, da luz que aparece depois da noite e da força de não desistir. Servem para confortar quem está passando por uma fase difícil, para renovar a própria fé ou para lembrar alguém de que a esperança não custa nada e pode mudar tudo. No moomz, a esperança também vira conversa: criamos enquetes sobre futuro, otimismo, recomeços e expectativas para você votar e descobrir o que dá esperança a outras pessoas. Leia estas citações nos dias em que precisar de luz, guarde a que mais te tocar e compartilhe com quem está precisando. Depois, participe das enquetes ou crie a sua — porque esperança compartilhada cresce, e ninguém precisa atravessar a escuridão sozinho.",
+    "quotes": [
+      { "text": "A esperança é o sonho do homem acordado.", "author": "Aristóteles" },
+      { "text": "Tudo vale a pena se a alma não é pequena.", "author": "Fernando Pessoa", "source": "Mensagem, 1934" },
+      { "text": "Mesmo quando tudo parece desabar, cabe a mim decidir entre rir ou chorar, ir ou ficar, desistir ou lutar.", "author": "Carlos Drummond de Andrade" },
+      { "text": "Não se esqueça da esperança. A esperança ainda tem força.", "author": "Cora Coralina" },
+      { "text": "Há sempre uma luz no fim do túnel; basta continuar caminhando.", "author": "Provérbio" },
+      { "text": "Ninguém educa ninguém, ninguém educa a si mesmo, os homens se educam entre si, mediatizados pelo mundo.", "author": "Paulo Freire" },
+      { "text": "Plante seu jardim e decore sua alma, em vez de esperar que alguém lhe traga flores.", "author": "Jorge Luis Borges" },
+      { "text": "Cada manhã traz consigo uma nova chance de recomeçar.", "author": "Provérbio" }
+    ],
+    "faq": [
+      { "q": "Esperança é o mesmo que otimismo?", "a": "São próximas, mas diferentes. O otimismo é a tendência de esperar o melhor; a esperança é mais ativa: é a convicção de que dias melhores são possíveis e de que vale a pena agir por eles." },
+      { "q": "Como manter a esperança em tempos difíceis?", "a": "Foque no que está sob seu controle, busque apoio de pessoas próximas e lembre-se de que toda fase passa. Pequenos passos e bons exemplos de superação ajudam a renovar a fé no amanhã." },
+      { "q": "Por que ler frases de esperança ajuda?", "a": "Elas funcionam como lembretes de que outros já atravessaram a escuridão e encontraram luz. Em momentos de desânimo, essas palavras oferecem conforto e reacendem a vontade de continuar." }
+    ],
+    "related": ["felicidade", "sonhos", "forca", "vida"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "forca",
+    "locale": "pt",
+    "theme": "strength",
+    "label": "Força",
+    "emoji": "💪",
+    "matchPatterns": ["força", "forca", "forte", "resistência", "resistencia", "superação", "superacao", "resiliência", "resiliencia", "luta", "vencer", "aguentar", "garra"],
+    "title": "Frases de Força: Citações para Superar Desafios",
+    "h1": "Frases de Força para os Momentos Difíceis",
+    "description": "Citações de força e superação para os momentos difíceis. Frases sobre resiliência, resistência e a coragem de seguir em frente apesar de tudo.",
+    "intro": "Todo mundo enfrenta, em algum momento, uma fase que exige mais força do que parecia ter. São períodos de perda, de cansaço, de obstáculos que se acumulam — e é exatamente aí que descobrimos do que somos capazes. A força não é só uma questão física: é a resiliência, a capacidade de aguentar, de se reerguer e de continuar mesmo quando o caminho fica pesado. As frases de força reunidas nesta página vêm de escritores, líderes e pensadores que conheceram a adversidade e dela tiraram lições. Elas falam de superação, de não desistir, de transformar dor em aprendizado e de encontrar dentro de si recursos que nem sabíamos que tínhamos. Servem para os dias em que a vontade é desistir, para confortar quem está atravessando uma fase difícil ou para lembrar a própria capacidade de resistir. No moomz, a força também vira conversa: criamos enquetes sobre desafios, superação e como as pessoas lidam com momentos difíceis para você votar e se identificar com outras histórias. Leia estas citações quando precisar de um empurrão, guarde a que mais te fortalece e compartilhe. Depois, participe das enquetes ou crie a sua — porque saber que outros também resistem dá força para continuar.",
+    "quotes": [
+      { "text": "A nossa maior glória não reside em nunca cair, mas em nos levantarmos sempre que caímos.", "author": "Confúcio" },
+      { "text": "É nos momentos de decisão que o seu destino é traçado.", "author": "Anthony Robbins" },
+      { "text": "No meio da dificuldade encontra-se a oportunidade.", "author": "Albert Einstein" },
+      { "text": "Aquilo que não nos mata, torna-nos mais fortes.", "author": "Friedrich Nietzsche" },
+      { "text": "A esperança é como uma estrada no campo: nunca houve uma estrada, mas quando muitas pessoas caminham sobre ela, a estrada passa a existir.", "author": "Lin Yutang" },
+      { "text": "Quanto mais difícil a vitória, maior a felicidade em vencer.", "author": "Pelé" },
+      { "text": "Caминho de tristezas? Tudo passa. Sorrir e seguir em frente é o melhor que se faz.", "author": "Cora Coralina" },
+      { "text": "Sê todo em cada coisa. Põe quanto és no mínimo que fazes.", "author": "Fernando Pessoa" }
+    ],
+    "faq": [
+      { "q": "O que é resiliência?", "a": "Resiliência é a capacidade de enfrentar adversidades, adaptar-se a elas e se recuperar. Não significa não sentir dor, mas conseguir atravessá-la e seguir em frente, muitas vezes mais fortalecido." },
+      { "q": "Como encontrar força em momentos difíceis?", "a": "Reconheça a dificuldade sem se paralisar por ela, busque apoio, divida o problema em partes menores e lembre-se de obstáculos que já superou. A força costuma crescer um passo de cada vez." },
+      { "q": "A dor pode nos tornar mais fortes?", "a": "Pode, quando enfrentada com consciência. Muitas pessoas relatam que momentos difíceis lhes trouxeram aprendizados e maturidade. O importante é dar sentido à experiência, e não apenas suportá-la." }
+    ],
+    "related": ["coragem", "motivacao", "esperanca", "sucesso"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "inspiracao",
+    "locale": "pt",
+    "theme": "inspiration",
+    "label": "Inspiração",
+    "emoji": "💡",
+    "matchPatterns": ["inspiração", "inspiracao", "inspirar", "criatividade", "ideia", "ideias", "talento", "arte", "criar", "imaginação", "imaginacao", "motivar"],
+    "title": "Frases de Inspiração: Citações para Despertar Ideias",
+    "h1": "Frases de Inspiração para Despertar a Criatividade",
+    "description": "Citações inspiradoras sobre criatividade, ideias e talento. Frases de grandes mentes para despertar a inspiração e dar o primeiro passo.",
+    "intro": "A inspiração é aquela faísca que transforma uma ideia vaga em vontade de criar. Ela pode vir de uma frase, de uma conversa, de uma paisagem ou simplesmente de um momento de silêncio — mas raramente vem para quem fica apenas esperando. Os grandes criadores sabem que a inspiração se encontra, sobretudo, quando se está em movimento, trabalhando, experimentando. As frases de inspiração reunidas nesta página vêm de artistas, escritores, cientistas e pensadores que entenderam o processo criativo de dentro. Elas falam da importância de começar, da disciplina por trás do talento, da coragem de criar algo novo e de não ter medo de errar pelo caminho. Servem para quem está com um projeto parado, para quem precisa de um empurrão criativo ou para quem quer inspirar outra pessoa a colocar uma ideia em prática. No moomz, a inspiração também vira conversa: criamos enquetes sobre criatividade, ideias, projetos e escolhas para você votar e descobrir o que move e inspira outras pessoas. Leia estas citações, deixe alguma acender uma faísca dentro de você e use-a como ponto de partida. Depois, participe das enquetes ou crie a sua — porque, muitas vezes, inspirar é só dar o primeiro passo e convidar os outros a virem junto.",
+    "quotes": [
+      { "text": "A inspiração existe, mas tem de nos encontrar trabalhando.", "author": "Pablo Picasso" },
+      { "text": "A criatividade é a inteligência se divertindo.", "author": "Albert Einstein" },
+      { "text": "Escrever é fácil. Você começa com uma letra maiúscula e termina com um ponto final. No meio você coloca ideias.", "author": "Pablo Neruda" },
+      { "text": "Tudo o que a imaginação pode conceber, o homem pode realizar.", "author": "Júlio Verne" },
+      { "text": "O artista é o receptáculo das emoções vindas de todos os lados; do céu, da terra, de um pedaço de papel, de uma forma que passa, de uma teia de aranha.", "author": "Pablo Picasso" },
+      { "text": "Nada é tão nosso como os nossos sonhos.", "author": "Friedrich Nietzsche" },
+      { "text": "Tens de ser tu a mudança que queres ver no mundo.", "author": "Mahatma Gandhi" },
+      { "text": "Aprendi que devemos ser sempre fiéis a nós mesmos, mas a verdadeira inspiração nasce de olhar para fora e para dentro ao mesmo tempo.", "author": "Cecília Meireles" }
+    ],
+    "faq": [
+      { "q": "Como encontrar inspiração?", "a": "A inspiração raramente surge da espera passiva. Como dizia Picasso, ela precisa nos encontrar trabalhando. Praticar, expor-se a novas experiências e começar mesmo sem certeza ajudam a despertá-la." },
+      { "q": "Talento ou disciplina: o que importa mais para criar?", "a": "Os dois contam, mas a disciplina costuma fazer a diferença a longo prazo. O talento abre portas; a constância e o hábito de criar todos os dias é o que transforma potencial em obra concluída." },
+      { "q": "Frases de inspiração ajudam mesmo a criar?", "a": "Sim, como ponto de partida. Uma boa citação pode acender uma faísca, reorientar o foco ou destravar um bloqueio. Mas a criação real depende de colocar a mão na obra depois do impulso inicial." }
+    ],
+    "related": ["motivacao", "sonhos", "sucesso", "coragem"],
+    "updatedAt": "2026-05-20"
+  }
+]

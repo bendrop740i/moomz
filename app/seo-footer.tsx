@@ -5,6 +5,7 @@ import type { SeoPage } from "@/lib/seo/types";
 const FOOTER_LINKS_FR = [
   { label: "Idées de sondage", href: "/idees" },
   { label: "📖 Read", href: "/read" },
+  { label: "💬 Citations", href: "/citations" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
 ];
@@ -12,6 +13,7 @@ const FOOTER_LINKS_FR = [
 const FOOTER_LINKS_EN = [
   { label: "Poll ideas", href: "/ideas" },
   { label: "📖 Read", href: "/read" },
+  { label: "💬 Quotes", href: "/quotes" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
 ];

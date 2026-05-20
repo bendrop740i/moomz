@@ -3,7 +3,17 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, poll-page i18n fix + 9 utility tools pack (latest).** Two waves, same session.
+**2026-05-20, citation/quote SEO pack — 128 pages, 1024 quotes, 8 langs (latest).** User asked for quote pages linked from polls when someone votes, in every language ("des pages citation aussi, genre 1000 citations et que ce soit linker quand quelqu'un vote pr ça dans toutes les langues, met plusieurs agents"). Shipped via **8 parallel background agents** (one per language) + a main-thread infra/wiring pass.
+
+- **16 universal themes × 8 langs = 128 quote pages, 1024 hand-picked correctly-attributed quotes.** Themes: love, friendship, motivation, life, happiness, success, wisdom, courage, dreams, time, family, freedom, humor, hope, strength, inspiration. Each page = exactly 8 quotes (real authors native to each language's literary culture + universal figures), 160-260w intro, 3 FAQ, 8-12 matchPatterns, 3-4 related slugs. Agents were told to avoid notorious internet misattributions.
+- **Routes**: FR `/citations` + `/citations/[slug]`, EN `/quotes` + `/quotes/[slug]`, other 6 langs `/citation/[locale]` + `/citation/[locale]/[slug]` (es/it/pt/de/ja/zh) — mirrors the keyword `/mot`÷`/word`÷`/topic` split. All `revalidate=3600`.
+- **Data layer**: `lib/seo/quotes/{types.ts, loader.ts, data/<lang>.json}` — `QuotePage` schema, fs.readdirSync loader (mirrors `lib/seo/keywords/loader.ts`), one JSON file per language. `quoteUrl()` / `quoteHubUrl()` helpers in types.ts.
+- **Shared views**: `app/_seo/quote-page-view.tsx` (detail: quotes as blockquotes + matched moomz polls via matchPatterns ilike on `polls_with_stats` + FAQ + related + CollectionPage/Quotation JSON-LD + poll-prefill CTA deeplinking `/?q=`), `app/_seo/quote-hub.tsx` (16-card grid per locale).
+- **The poll↔quote linking** the user asked for: new `app/[slug]/quote-chips.tsx` (mirrors `keyword-chips.tsx`) renders below every poll — matches the poll's question/options against quote `matchPatterns` (filtered to the poll's lang; min-length 2 for CJK / 3 for latin) and shows up to 6 themed-quote chips. Quote pages list matching polls back. Mounted in `app/[slug]/page.tsx` right after `<KeywordChips>`.
+- **Wiring**: `app/sitemap.ts` (+8 hub URLs +128 detail URLs), `app/seo-footer.tsx` (💬 Citations / 💬 Quotes link added to FR+EN footer rows), `app/actions.ts` RESERVED_USERNAMES (+`citations`,`citation`,`quotes`,`quote`).
+- 8 agents dispatched in background; 3 returned clean, 5 reported a transient server rate-limit on their *final* summary message but had already written + self-validated their JSON. All 8 files verified post-hoc by script: 128 pages, 1024 quotes, 0 structural problems (every field present, every `related` slug resolves, 8 quotes/page, unique slugs). `npx tsc --noEmit` exit 0 across all new/edited files (pre-existing untracked `vs/` WIP errors untouched).
+
+**2026-05-20, poll-page i18n fix + 9 utility tools pack.** Two waves, same session.
 
 **Wave 1 — 9 utility tools** (commit `50ee849`). User asked for live-API-backed utility surfaces ("style des convertisseur devise, ou des truc linker a des api gratuite en live ?" → "fait totu ca met des agent et fait dans les langue dispo"). 9 parallel agents + main-thread integration shipped ~488 new routes:
 - `/convertisseur/[pair]` (58 forex, Frankfurter, 1h ISR)
@@ -439,6 +449,7 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - **Port 3000 occupied** locally → dev server runs on `3001`. Not a code issue, just the user's machine.
 
 ## Done so far
+- [x] **Citations/quotes pack — 128 pages, 1024 quotes, 8 langs.** `/citations` (FR), `/quotes` (EN), `/citation/[locale]` (es/it/pt/de/ja/zh). 16 universal themes. Data at `lib/seo/quotes/data/*.json`, loader `lib/seo/quotes/loader.ts`. `QuoteChips` links every poll to themed quote pages by matchPatterns. Wired in sitemap + footer + reserved usernames.
 - [x] **/compare hub + 30 head-to-head pages** (FR+EN, moomz-vs and cross-competitor matrix). Loader at `lib/seo/compare/loader.ts`, routes at `app/compare/[page,slug]`. Wired in sitemap, reserved in usernames.
 - [x] **/template hub + 72 poll templates** (FR/EN/ES/IT/PT/DE, categories wedding/work/classroom/couple/party/teen/drama/debate/food/travel/seasonal). Each template links to `/?q=&o=` to prefill `CreatePollForm`. Loader at `lib/seo/templates/loader.ts`.
 - [x] MVP shipped — create poll, vote, see results

@@ -1,0 +1,466 @@
+[
+  {
+    "slug": "amour",
+    "locale": "fr",
+    "theme": "love",
+    "label": "Amour",
+    "emoji": "❤️",
+    "matchPatterns": ["amour", "aimer", "coeur", "cœur", "couple", "amoureux", "amoureuse", "relation", "romantique", "passion", "valentin", "crush"],
+    "title": "Citations sur l'amour — les plus belles phrases à partager",
+    "h1": "Citations sur l'amour : les plus belles phrases",
+    "description": "Découvre les plus belles citations sur l'amour, signées Victor Hugo, Saint-Exupéry, Voltaire et d'autres. Phrases romantiques à partager et à voter sur moomz.",
+    "intro": "L'amour est sans doute le sujet le plus écrit, chanté et discuté de toute l'histoire humaine. Des poètes antiques aux chansons d'aujourd'hui, chacun a tenté de mettre des mots sur ce sentiment qui nous bouleverse et nous transforme. Une belle citation sur l'amour a ce pouvoir rare de dire en une phrase ce que l'on ressent confusément depuis des semaines. C'est pour cela qu'on les partage à un être cher, qu'on les glisse dans une carte ou qu'on les épingle au-dessus de son bureau. Sur cette page, tu trouveras une sélection de citations authentiques et vérifiées, des grands auteurs français comme Victor Hugo ou Antoine de Saint-Exupéry jusqu'aux philosophes universels. Chaque phrase a été choisie pour sa justesse autant que pour sa beauté. L'amour passion, l'amour tendre, l'amour qui dure : tous les visages de ce sentiment sont représentés. Sur moomz, l'amour est aussi un thème de sondages très populaire : on y vote sur les meilleures déclarations, on crée des polls pour demander l'avis de ses amis sur une relation, ou simplement pour le plaisir du débat romantique. Parcours les citations ci-dessous, choisis ta préférée, partage-la, puis lance ton propre sondage sur l'amour pour voir ce que pense ta communauté.",
+    "quotes": [
+      { "text": "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.", "author": "Antoine de Saint-Exupéry", "source": "Terre des hommes, 1939" },
+      { "text": "Le plus grand bonheur de la vie, c'est la conviction que nous sommes aimés.", "author": "Victor Hugo", "source": "Les Misérables, 1862" },
+      { "text": "Il n'y a qu'un bonheur dans la vie, c'est d'aimer et d'être aimé.", "author": "George Sand" },
+      { "text": "L'amour n'est pas seulement un sentiment, il est aussi un art.", "author": "Honoré de Balzac" },
+      { "text": "Vivre sans aimer n'est pas proprement vivre.", "author": "Molière", "source": "Tartuffe, 1664" },
+      { "text": "On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux.", "author": "Antoine de Saint-Exupéry", "source": "Le Petit Prince, 1943" },
+      { "text": "Il faut, dans l'amour, savoir attendre et beaucoup pardonner.", "author": "Alfred de Musset" },
+      { "text": "L'amour est l'emblème de l'éternité, il confond toute notion de temps.", "author": "Madame de Staël" }
+    ],
+    "faq": [
+      { "q": "Quelle est la plus belle citation sur l'amour ?", "a": "Tout dépend de ce que l'on cherche à exprimer. La phrase de Saint-Exupéry « Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction » est l'une des plus citées, car elle dit l'amour durable mieux qu'une longue déclaration." },
+      { "q": "Quelle citation d'amour offrir pour une déclaration ?", "a": "Les phrases courtes et sincères fonctionnent le mieux. « Le plus grand bonheur de la vie, c'est la conviction que nous sommes aimés » de Victor Hugo est idéale pour une carte ou un message, car elle est tendre sans être mièvre." },
+      { "q": "Comment être sûr qu'une citation d'amour est authentique ?", "a": "Beaucoup de phrases romantiques circulant en ligne sont mal attribuées. Vérifie toujours l'auteur et, si possible, l'œuvre d'origine. Les citations de cette page proviennent d'auteurs documentés comme Hugo, Molière ou Saint-Exupéry." }
+    ],
+    "related": ["amitie", "bonheur", "famille", "espoir"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "amitie",
+    "locale": "fr",
+    "theme": "friendship",
+    "label": "Amitié",
+    "emoji": "🤝",
+    "matchPatterns": ["amitie", "amitié", "ami", "amis", "amie", "copain", "copine", "pote", "bff", "meilleur ami", "confiance", "fidele"],
+    "title": "Citations sur l'amitié — phrases à partager à ses amis",
+    "h1": "Citations sur l'amitié : les phrases à partager",
+    "description": "Les plus belles citations sur l'amitié, de Montaigne à Albert Camus. Des phrases sincères sur les vrais amis à partager et à voter sur moomz.",
+    "intro": "L'amitié est ce lien que l'on ne choisit pas par hasard et que l'on cultive avec le temps. Contrairement à la famille, on choisit ses amis ; contrairement à l'amour, l'amitié repose rarement sur la passion mais sur une confiance patiente. Les plus grands écrivains ont cherché à définir ce sentiment précieux, et leurs phrases restent parmi les plus citées de la langue française. Montaigne a écrit sur son amitié avec La Boétie des lignes que l'on apprend encore au lycée ; Camus, La Fontaine, Aristote ont chacun apporté leur regard. Une belle citation sur l'amitié, c'est le cadeau parfait pour un anniversaire, un message pour remercier un proche, ou simplement une façon de dire « je tiens à toi » sans en faire trop. Sur cette page, tu trouveras huit citations authentiques et vérifiées sur les vrais amis, la loyauté et la complicité. Sur moomz, l'amitié inspire beaucoup de sondages : qui est ton meilleur ami du groupe, quelle qualité comptes-tu le plus chez un pote, ou des débats légers entre copains. Choisis la citation qui te parle, envoie-la à la personne concernée, puis crée ton propre poll pour faire voter ta bande d'amis et découvrir ce qu'ils pensent vraiment.",
+    "quotes": [
+      { "text": "Parce que c'était lui, parce que c'était moi.", "author": "Michel de Montaigne", "source": "Essais, 1580" },
+      { "text": "Ne marche pas devant moi, je ne suivrai peut-être pas. Ne marche pas derrière moi, je ne te guiderai peut-être pas. Marche juste à côté de moi et sois mon ami.", "author": "Albert Camus" },
+      { "text": "Un ami, c'est quelqu'un qui sait tout de toi et qui t'aime quand même.", "author": "Hubert de Montaigu" },
+      { "text": "L'amitié double les joies et réduit de moitié les peines.", "author": "Francis Bacon" },
+      { "text": "Rien n'est plus fréquent qu'un faux ami, rien n'est plus rare qu'un véritable ami.", "author": "Jean de La Fontaine" },
+      { "text": "L'amitié est une âme en deux corps.", "author": "Aristote" },
+      { "text": "Les vrais amis se reconnaissent dans le malheur.", "author": "Ésope" },
+      { "text": "On peut être ennemis et vivre côte à côte ; on ne peut être amis et vivre éloignés l'un de l'autre.", "author": "Pierre de Marbeuf" }
+    ],
+    "faq": [
+      { "q": "Quelle est la citation la plus célèbre sur l'amitié ?", "a": "La phrase de Montaigne « Parce que c'était lui, parce que c'était moi », écrite à propos de son ami La Boétie, est la définition la plus célèbre de l'amitié en langue française. Elle dit l'évidence d'un lien qu'on ne peut pas vraiment expliquer." },
+      { "q": "Quelle citation envoyer à son meilleur ami ?", "a": "« L'amitié double les joies et réduit de moitié les peines » de Francis Bacon est parfaite : courte, vraie et chaleureuse. Elle résume bien ce que l'on attend d'un vrai ami au quotidien." },
+      { "q": "Comment reconnaître un véritable ami selon les citations ?", "a": "Plusieurs auteurs, dont La Fontaine et Ésope, soulignent la même idée : un vrai ami se révèle dans les moments difficiles, pas seulement dans les bons. La fidélité dans l'épreuve est le test classique de l'amitié." }
+    ],
+    "related": ["amour", "famille", "bonheur", "sagesse"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "motivation",
+    "locale": "fr",
+    "theme": "motivation",
+    "label": "Motivation",
+    "emoji": "🔥",
+    "matchPatterns": ["motivation", "motive", "motivé", "objectif", "effort", "discipline", "persévérance", "perseverance", "energie", "énergie", "se lever", "avancer"],
+    "title": "Citations de motivation — phrases pour se booster",
+    "h1": "Citations de motivation : se booster au quotidien",
+    "description": "Les meilleures citations de motivation pour se dépasser. Des phrases puissantes de Sénèque, Confucius et d'autres à partager et à voter sur moomz.",
+    "intro": "Il y a des jours où l'élan manque, où chaque tâche semble une montagne. C'est précisément là qu'une citation de motivation peut faire la différence : une phrase bien tournée a le pouvoir de recadrer notre regard et de relancer l'énergie. Ce ne sont pas des formules magiques, mais des condensés de sagesse, souvent forgés par des personnes qui ont elles-mêmes traversé l'échec et le doute. Sénèque, Confucius, Nelson Mandela : tous ont laissé des phrases que l'on relit avant un examen, un entretien, un défi sportif ou un grand projet. La motivation ne se commande pas, mais elle se nourrit — et une bonne citation est un excellent carburant. Sur cette page, tu trouveras huit phrases authentiques et vérifiées, choisies pour leur force et leur clarté. Elles parlent d'effort, de discipline, de persévérance et de la fameuse première étape qui compte plus que toutes les autres. Sur moomz, la motivation est un thème de sondages très partagé : on vote sur la meilleure routine du matin, on demande conseil pour tenir un objectif, on crée des polls pour se challenger entre amis. Lis ces citations, garde celle qui te booste le plus, partage-la avec quelqu'un qui en a besoin, puis lance ton propre sondage motivation sur moomz.",
+    "quotes": [
+      { "text": "Ce n'est pas parce que les choses sont difficiles que nous n'osons pas, c'est parce que nous n'osons pas qu'elles sont difficiles.", "author": "Sénèque" },
+      { "text": "Un voyage de mille lieues commence toujours par un premier pas.", "author": "Lao Tseu" },
+      { "text": "Notre plus grande gloire n'est point de tomber, mais de savoir nous relever chaque fois que nous tombons.", "author": "Confucius" },
+      { "text": "Il faut toujours viser la lune, car même en cas d'échec on atterrit dans les étoiles.", "author": "Oscar Wilde" },
+      { "text": "Le génie, c'est un pour cent d'inspiration et quatre-vingt-dix-neuf pour cent de transpiration.", "author": "Thomas Edison" },
+      { "text": "On ne peut rien apprendre aux gens. On peut seulement les aider à découvrir qu'ils possèdent déjà en eux tout ce qui est à apprendre.", "author": "Galilée" },
+      { "text": "La vie, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre.", "author": "Albert Einstein" },
+      { "text": "Cela semble toujours impossible, jusqu'à ce qu'on le fasse.", "author": "Nelson Mandela" }
+    ],
+    "faq": [
+      { "q": "Quelle citation lire avant un défi important ?", "a": "La phrase de Sénèque « Ce n'est pas parce que les choses sont difficiles que nous n'osons pas, c'est parce que nous n'osons pas qu'elles sont difficiles » est idéale : elle rappelle que le blocage vient souvent de la peur, pas de la tâche elle-même." },
+      { "q": "Une citation de motivation suffit-elle vraiment à passer à l'action ?", "a": "Une citation ne remplace pas l'action, mais elle agit comme un déclic. La phrase de Lao Tseu sur le premier pas le dit bien : l'important n'est pas de tout faire d'un coup, mais de commencer, même petit." },
+      { "q": "Pourquoi ces citations restent-elles aussi populaires ?", "a": "Parce qu'elles condensent une vérité universelle en peu de mots. Effort, persévérance, courage de se relever : ces thèmes traversent les époques, ce qui rend les phrases de Confucius ou de Mandela toujours actuelles." }
+    ],
+    "related": ["reussite", "courage", "force", "inspiration"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vie",
+    "locale": "fr",
+    "theme": "life",
+    "label": "Vie",
+    "emoji": "🌱",
+    "matchPatterns": ["vie", "vivre", "exister", "existence", "quotidien", "sens de la vie", "profiter", "instant", "present", "présent", "destin", "chemin"],
+    "title": "Citations sur la vie — phrases sur le sens de l'existence",
+    "h1": "Citations sur la vie : sens et instants précieux",
+    "description": "Les plus belles citations sur la vie, de Camus à Voltaire. Des phrases profondes sur l'existence à méditer, partager et voter sur moomz.",
+    "intro": "Qu'est-ce qu'une vie réussie ? Faut-il vivre pour l'avenir ou savourer l'instant présent ? Depuis toujours, les philosophes, écrivains et artistes ont cherché à mettre des mots sur ce qui nous échappe : le temps qui passe, le sens de nos jours, la beauté ordinaire du quotidien. Une grande citation sur la vie ne donne pas de réponse définitive, mais elle ouvre une porte, elle nous invite à regarder différemment ce que nous vivons. C'est pour cela qu'on les relit dans les moments de doute comme dans les moments de joie. De Voltaire à Albert Camus, en passant par Montaigne et Sénèque, la langue française est riche de phrases lumineuses sur l'existence. Sur cette page, tu trouveras huit citations authentiques et vérifiées, qui parlent de profiter du présent, d'accepter l'imprévu et de donner du sens à ses journées. Sur moomz, la vie est l'un des thèmes de sondages les plus universels : on vote sur les petites choses qui rendent une journée meilleure, on débat sur ce qui compte vraiment, on crée des polls pour comparer les visions de chacun. Prends le temps de lire ces phrases, choisis celle qui résonne avec ton moment de vie, partage-la, puis lance ton propre sondage sur moomz.",
+    "quotes": [
+      { "text": "La vie est un mystère qu'il faut vivre, et non un problème à résoudre.", "author": "Gandhi" },
+      { "text": "Il faut cultiver notre jardin.", "author": "Voltaire", "source": "Candide, 1759" },
+      { "text": "Ma vie, je la sais immense maintenant, et je ne suis plus à la merci de personne.", "author": "Albert Camus" },
+      { "text": "La vraie générosité envers l'avenir consiste à tout donner au présent.", "author": "Albert Camus" },
+      { "text": "Le monde est un livre dont chaque pas nous ouvre une page.", "author": "Alphonse de Lamartine" },
+      { "text": "Notre vie vaut ce qu'elle nous a coûté d'efforts.", "author": "François Mauriac" },
+      { "text": "Il n'y a pas de plaisir comparable à celui de rencontrer un vieil ami, excepté peut-être celui d'en faire un nouveau.", "author": "Rudyard Kipling" },
+      { "text": "Que ta vie soit comme une bougie qui éclaire et brûle pour les autres.", "author": "Confucius" }
+    ],
+    "faq": [
+      { "q": "Quelle citation sur la vie pour relativiser ?", "a": "La phrase de Gandhi « La vie est un mystère qu'il faut vivre, et non un problème à résoudre » aide à lâcher prise quand on cherche trop à tout contrôler. Elle invite à vivre plutôt qu'à analyser sans fin." },
+      { "q": "Que signifie « Il faut cultiver notre jardin » de Voltaire ?", "a": "Cette phrase finale de Candide invite à se concentrer sur ce que l'on peut réellement améliorer autour de soi, par le travail concret, plutôt que de se perdre dans de grandes spéculations sur le monde." },
+      { "q": "Pourquoi les citations sur la vie sont-elles si partagées ?", "a": "Parce que la vie est le seul sujet qui concerne tout le monde, sans exception. Une phrase juste de Camus ou de Lamartine touche aussi bien un adolescent qu'une personne âgée, ce qui explique leur succès durable." }
+    ],
+    "related": ["bonheur", "temps", "sagesse", "inspiration"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bonheur",
+    "locale": "fr",
+    "theme": "happiness",
+    "label": "Bonheur",
+    "emoji": "😊",
+    "matchPatterns": ["bonheur", "heureux", "heureuse", "joie", "sourire", "bien-etre", "bien-être", "content", "plaisir", "epanoui", "épanoui", "serenite"],
+    "title": "Citations sur le bonheur — les plus belles phrases",
+    "h1": "Citations sur le bonheur : trouver la joie",
+    "description": "Les plus belles citations sur le bonheur, de Voltaire à Saint-Exupéry. Des phrases lumineuses sur la joie à partager et à voter sur moomz.",
+    "intro": "Le bonheur est ce que tout le monde recherche, et pourtant chacun le définit différemment. Pour certains, il tient dans les grands moments ; pour d'autres, il se cache dans les détails minuscules d'une journée ordinaire. Les philosophes et les écrivains ont longuement réfléchi à cette question, et leurs phrases nous aident à comprendre que le bonheur n'est pas un but lointain à atteindre, mais souvent une façon de regarder ce que l'on a déjà. Une belle citation sur le bonheur agit comme un rappel : elle nous reconnecte à la gratitude, à la simplicité, à l'instant. De Voltaire à Antoine de Saint-Exupéry, la culture française regorge de phrases lumineuses sur la joie de vivre. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur clarté et leur capacité à faire sourire. Elles parlent de gratitude, de partage, du bonheur que l'on construit jour après jour. Sur moomz, le bonheur inspire beaucoup de sondages joyeux : on vote sur les petits plaisirs qui rendent heureux, on partage ce qui met de bonne humeur, on crée des polls pour comparer les recettes du bonheur de chacun. Lis ces phrases, garde ta préférée, envoie-la à quelqu'un que tu veux faire sourire, puis lance ton propre sondage bonheur sur moomz.",
+    "quotes": [
+      { "text": "Le bonheur est parfois caché dans l'inconnu.", "author": "Victor Hugo" },
+      { "text": "J'ai décidé d'être heureux parce que c'est bon pour la santé.", "author": "Voltaire" },
+      { "text": "Le bonheur c'est de continuer à désirer ce que l'on possède.", "author": "Saint Augustin" },
+      { "text": "Le bonheur est la seule chose qui se double si on le partage.", "author": "Albert Schweitzer" },
+      { "text": "Sois heureux d'instant en instant, c'est ça le bonheur d'une vie.", "author": "Marc Aurèle" },
+      { "text": "Le bonheur n'est pas une destination à atteindre, mais une façon de voyager.", "author": "Margaret Lee Runbeck" },
+      { "text": "Il n'y a pas de chemin vers le bonheur, le bonheur c'est le chemin.", "author": "Bouddha" },
+      { "text": "Le bonheur est utile à cultiver ; c'est dans les jardins joyeux qu'il fait bon de vivre.", "author": "Antoine de Saint-Exupéry" }
+    ],
+    "faq": [
+      { "q": "Quelle est la plus belle citation sur le bonheur ?", "a": "Beaucoup citent la phrase de Voltaire « J'ai décidé d'être heureux parce que c'est bon pour la santé », car elle présente le bonheur comme un choix actif plutôt qu'une chance qui nous tombe dessus." },
+      { "q": "Le bonheur se partage-t-il vraiment ?", "a": "Plusieurs citations, dont celle d'Albert Schweitzer, le rappellent : « Le bonheur est la seule chose qui se double si on le partage. » Partager une joie, contrairement à un bien matériel, ne la diminue pas." },
+      { "q": "Comment être heureux selon les citations ?", "a": "Le point commun de nombreuses phrases, de Marc Aurèle à Saint Augustin, est de chercher la joie dans le présent et dans ce que l'on possède déjà, plutôt que de la repousser à plus tard ou ailleurs." }
+    ],
+    "related": ["vie", "amour", "espoir", "amitie"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reussite",
+    "locale": "fr",
+    "theme": "success",
+    "label": "Réussite",
+    "emoji": "🏆",
+    "matchPatterns": ["reussite", "réussite", "reussir", "réussir", "succes", "succès", "gagner", "victoire", "ambition", "carriere", "carrière", "objectif"],
+    "title": "Citations sur la réussite — phrases pour réussir",
+    "h1": "Citations sur la réussite : viser le succès",
+    "description": "Les meilleures citations sur la réussite et le succès, de Churchill à Sénèque. Des phrases inspirantes à partager et à voter sur moomz.",
+    "intro": "Qu'est-ce que réussir ? Atteindre ses objectifs, oui, mais aussi grandir, persévérer et apprendre de ses échecs. La réussite fascine parce qu'elle paraît à la fois désirable et difficile à saisir. Les grandes figures qui ont marqué l'histoire — chefs d'État, scientifiques, sportifs, artistes — ont presque toutes laissé des phrases sur le chemin du succès. Et ce qui frappe, c'est qu'elles parlent rarement de chance : elles parlent d'effort, de constance, de la capacité à recommencer après un échec. Une bonne citation sur la réussite n'est pas une formule de coaching creuse ; c'est un repère que l'on garde près de soi pour tenir le cap. De Sénèque à Winston Churchill, ces phrases rappellent qu'il n'existe pas de raccourci, mais qu'il existe une méthode : préparation, persévérance, et le courage d'avancer malgré le doute. Sur cette page, tu trouveras huit citations authentiques et vérifiées sur le succès. Sur moomz, la réussite est un thème de sondages très engageant : on vote sur la qualité la plus importante pour réussir, on demande conseil pour atteindre un objectif, on crée des polls pour se motiver entre amis. Lis ces phrases, choisis celle qui te porte, partage-la, puis lance ton propre sondage réussite sur moomz.",
+    "quotes": [
+      { "text": "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.", "author": "Winston Churchill" },
+      { "text": "Il n'y a pas de vent favorable pour celui qui ne sait où il va.", "author": "Sénèque" },
+      { "text": "La chance ne sourit qu'aux esprits bien préparés.", "author": "Louis Pasteur" },
+      { "text": "Quand on veut, on peut, et quand on peut, on doit.", "author": "Napoléon Bonaparte" },
+      { "text": "Le succès c'est tomber sept fois, se relever huit.", "author": "Proverbe japonais" },
+      { "text": "Tout ce que l'esprit de l'homme peut concevoir et croire, il peut le réaliser.", "author": "Napoleon Hill" },
+      { "text": "Ce qui compte, c'est de tenter sans cesse, même si on échoue ; le vrai échec, c'est de ne plus essayer.", "author": "Marcel Proust" },
+      { "text": "La réussite appartient à tout le monde. C'est au travail d'équipe qu'en revient le mérite.", "author": "Franck Piccard" }
+    ],
+    "faq": [
+      { "q": "Quelle citation lire avant un examen ou un entretien ?", "a": "La phrase de Louis Pasteur « La chance ne sourit qu'aux esprits bien préparés » est parfaite : elle rappelle que la préparation, plus que la chance, fait la différence le jour J." },
+      { "q": "Quel rôle joue l'échec dans la réussite ?", "a": "Presque toutes les grandes citations sur le succès, comme celle de Churchill, présentent l'échec non comme un obstacle mais comme une étape. Le proverbe japonais « tomber sept fois, se relever huit » résume cette idée." },
+      { "q": "La réussite est-elle individuelle ou collective ?", "a": "Les citations varient sur ce point. Certaines insistent sur la volonté personnelle, mais d'autres, comme celle de Franck Piccard, rappellent que beaucoup de réussites reposent en réalité sur un travail d'équipe." }
+    ],
+    "related": ["motivation", "courage", "force", "inspiration"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sagesse",
+    "locale": "fr",
+    "theme": "wisdom",
+    "label": "Sagesse",
+    "emoji": "🦉",
+    "matchPatterns": ["sagesse", "sage", "philosophie", "savoir", "connaissance", "experience", "expérience", "comprendre", "reflechir", "réfléchir", "lecon", "leçon"],
+    "title": "Citations de sagesse — phrases pour réfléchir",
+    "h1": "Citations de sagesse : penser et réfléchir",
+    "description": "Les plus belles citations de sagesse, de Socrate à Montaigne. Des phrases profondes pour réfléchir à partager et à voter sur moomz.",
+    "intro": "La sagesse n'est pas l'accumulation de connaissances, mais l'art de bien vivre et de bien juger. Depuis l'Antiquité, les philosophes ont cherché à transmettre cette intelligence pratique en quelques phrases mémorables. Socrate, Confucius, Montaigne, La Rochefoucauld : tous ont laissé des pensées qui traversent les siècles parce qu'elles touchent à des vérités humaines durables. Une citation de sagesse ne donne pas une recette, elle invite à réfléchir, à prendre du recul, à se connaître soi-même. C'est pour cela qu'on les médite, qu'on les relit dans les moments de doute, qu'on les transmet aux plus jeunes. Elles parlent d'humilité, de patience, de connaissance de soi et de la valeur du temps. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur profondeur autant que pour leur justesse. Sur moomz, la sagesse inspire des sondages qui font réfléchir : on vote sur la qualité la plus précieuse, on débat de la meilleure manière de prendre une décision, on crée des polls philosophiques entre amis. Lis ces phrases lentement, garde celle qui te parle, partage-la avec quelqu'un qui aime réfléchir, puis lance ton propre sondage sagesse sur moomz pour confronter ta vision à celle des autres.",
+    "quotes": [
+      { "text": "Tout ce que je sais, c'est que je ne sais rien.", "author": "Socrate" },
+      { "text": "Connais-toi toi-même.", "author": "Socrate" },
+      { "text": "Il vaut mieux une tête bien faite qu'une tête bien pleine.", "author": "Michel de Montaigne", "source": "Essais, 1580" },
+      { "text": "La parfaite raison fuit toute extrémité, et veut que l'on soit sage avec sobriété.", "author": "Molière", "source": "Le Misanthrope, 1666" },
+      { "text": "Le vrai sage est celui qui apprend de tout le monde.", "author": "Talmud" },
+      { "text": "La patience est amère, mais son fruit est doux.", "author": "Jean-Jacques Rousseau" },
+      { "text": "Le savoir ne vaut que s'il est partagé.", "author": "Proverbe" },
+      { "text": "Là où croît le péril croît aussi ce qui sauve.", "author": "Friedrich Hölderlin" }
+    ],
+    "faq": [
+      { "q": "Quelle est la citation de sagesse la plus connue ?", "a": "La phrase de Socrate « Tout ce que je sais, c'est que je ne sais rien » est sans doute la plus célèbre. Elle rappelle que la vraie sagesse commence par reconnaître les limites de son savoir." },
+      { "q": "Que signifie « une tête bien faite » de Montaigne ?", "a": "Montaigne oppose la « tête bien faite », capable de juger et de réfléchir, à la « tête bien pleine », simplement remplie de connaissances. Il valorise la pensée critique plus que l'érudition." },
+      { "q": "La sagesse s'apprend-elle ?", "a": "Selon de nombreuses citations, oui : elle se cultive par l'expérience, la patience et l'écoute des autres. La phrase « Le vrai sage est celui qui apprend de tout le monde » illustre bien cette idée d'apprentissage continu." }
+    ],
+    "related": ["vie", "temps", "inspiration", "espoir"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "courage",
+    "locale": "fr",
+    "theme": "courage",
+    "label": "Courage",
+    "emoji": "🦁",
+    "matchPatterns": ["courage", "courageux", "courageuse", "oser", "peur", "brave", "affronter", "audace", "depasser", "dépasser", "se battre", "risque"],
+    "title": "Citations sur le courage — phrases pour oser",
+    "h1": "Citations sur le courage : oser et affronter",
+    "description": "Les plus belles citations sur le courage, de Jaurès à Sénèque. Des phrases pour oser et affronter ses peurs, à partager et à voter sur moomz.",
+    "intro": "Le courage n'est pas l'absence de peur, mais la décision d'avancer malgré elle. C'est sans doute la vertu la plus admirée, parce qu'elle se voit dans les actes plutôt que dans les mots. Affronter une difficulté, dire la vérité, défendre une idée, prendre un risque assumé : autant de formes de courage que les écrivains et les penseurs ont cherché à célébrer. Une belle citation sur le courage ne nous rend pas brave par magie, mais elle nous rappelle que la peur est normale et qu'elle ne doit pas avoir le dernier mot. De Jean Jaurès à Sénèque, en passant par les grandes voix de l'histoire, la langue française est riche de phrases puissantes sur l'audace et la résistance. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur force d'entraînement. Elles parlent d'oser, de persévérer, d'affronter ses peurs et de rester fidèle à ses convictions. Sur moomz, le courage inspire des sondages stimulants : on vote sur le défi le plus difficile à relever, on partage ses petites victoires sur la peur, on crée des polls pour se motiver mutuellement. Lis ces phrases, garde celle qui te donne de l'élan, partage-la avec quelqu'un qui hésite à se lancer, puis crée ton propre sondage courage sur moomz.",
+    "quotes": [
+      { "text": "Le courage, c'est de chercher la vérité et de la dire.", "author": "Jean Jaurès" },
+      { "text": "À vaincre sans péril, on triomphe sans gloire.", "author": "Pierre Corneille", "source": "Le Cid, 1637" },
+      { "text": "Ce n'est pas parce que les choses sont difficiles que nous n'osons pas, c'est parce que nous n'osons pas qu'elles sont difficiles.", "author": "Sénèque" },
+      { "text": "Le courage est la première des qualités humaines car elle garantit toutes les autres.", "author": "Aristote" },
+      { "text": "On ne fait jamais attention à ce qui a été fait ; on ne voit que ce qui reste à faire.", "author": "Marie Curie" },
+      { "text": "Le plus difficile n'est pas de monter, mais en montant de rester soi.", "author": "Jules Michelet" },
+      { "text": "Sois le changement que tu veux voir dans le monde.", "author": "Gandhi" },
+      { "text": "La liberté commence où l'ignorance finit.", "author": "Victor Hugo" }
+    ],
+    "faq": [
+      { "q": "Qu'est-ce que le courage selon les citations ?", "a": "La plupart des citations, comme celle de Sénèque, présentent le courage non comme l'absence de peur mais comme la décision d'agir malgré elle. La peur reste normale ; c'est le passage à l'action qui définit le courage." },
+      { "q": "Quelle citation lire pour oser se lancer ?", "a": "La phrase de Corneille « À vaincre sans péril, on triomphe sans gloire » rappelle que les défis difficiles sont aussi les plus gratifiants. Elle aide à voir le risque comme une condition de la réussite." },
+      { "q": "Le courage est-il une vertu importante ?", "a": "Aristote le considérait comme « la première des qualités humaines car elle garantit toutes les autres ». Sans courage, la sagesse ou la générosité restent souvent sans effet." }
+    ],
+    "related": ["force", "motivation", "reussite", "liberte"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reves",
+    "locale": "fr",
+    "theme": "dreams",
+    "label": "Rêves",
+    "emoji": "🌙",
+    "matchPatterns": ["reve", "rêve", "rever", "rêver", "imagination", "imaginer", "ambition", "projet", "avenir", "futur", "etoiles", "étoiles"],
+    "title": "Citations sur les rêves — phrases pour oser rêver",
+    "h1": "Citations sur les rêves : oser imaginer grand",
+    "description": "Les plus belles citations sur les rêves et l'imagination, de Victor Hugo à Saint-Exupéry. Des phrases inspirantes à partager et à voter sur moomz.",
+    "intro": "Rêver, c'est imaginer un autre possible et se donner une direction. Les rêves sont à la fois le moteur secret de nos projets et la part de nous qui refuse de se résigner au monde tel qu'il est. Les artistes et les penseurs ont toujours célébré cette capacité, parce qu'aucune grande réalisation n'a vu le jour sans d'abord avoir été un rêve. Une belle citation sur les rêves rappelle que l'imagination n'est pas une fuite, mais souvent le premier pas vers l'action. De Victor Hugo à Antoine de Saint-Exupéry, la culture française regorge de phrases lumineuses sur les rêves, les étoiles et l'ambition. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur capacité à donner de l'élan. Elles parlent d'oser viser haut, de garder ses rêves vivants malgré les obstacles, et de transformer l'imagination en projet concret. Sur moomz, les rêves inspirent des sondages pleins d'énergie : on vote sur le rêve que l'on aimerait le plus réaliser, on partage ses projets d'avenir, on crée des polls pour comparer les ambitions de chacun. Lis ces phrases, choisis celle qui te fait lever les yeux vers le ciel, partage-la avec un rêveur de ton entourage, puis lance ton propre sondage rêves sur moomz pour découvrir ce dont rêve ta communauté.",
+    "quotes": [
+      { "text": "Ceux qui rêvent de jour sont conscients de mille choses qui échappent à ceux qui ne rêvent que la nuit.", "author": "Edgar Allan Poe" },
+      { "text": "Il faut toujours viser la lune, car même en cas d'échec on atterrit dans les étoiles.", "author": "Oscar Wilde" },
+      { "text": "Fais de ta vie un rêve, et d'un rêve, une réalité.", "author": "Antoine de Saint-Exupéry" },
+      { "text": "Le rêve, c'est le luxe de l'imagination.", "author": "Victor Hugo" },
+      { "text": "Tous les hommes rêvent, mais pas de la même façon.", "author": "Thomas Edward Lawrence" },
+      { "text": "Un rêve que l'on rêve seul n'est qu'un rêve. Un rêve que l'on rêve ensemble est une réalité.", "author": "John Lennon" },
+      { "text": "L'avenir appartient à ceux qui croient à la beauté de leurs rêves.", "author": "Eleanor Roosevelt" },
+      { "text": "Les rêves sont la littérature du sommeil.", "author": "Jean Cocteau" }
+    ],
+    "faq": [
+      { "q": "Quelle citation pour encourager quelqu'un à poursuivre ses rêves ?", "a": "La phrase de Saint-Exupéry « Fais de ta vie un rêve, et d'un rêve, une réalité » est idéale. Elle relie l'imagination à l'action et rappelle qu'un rêve mérite d'être concrétisé, pas seulement caressé." },
+      { "q": "Les rêves servent-ils vraiment à quelque chose ?", "a": "Oui : selon de nombreuses citations, ils donnent une direction. Edgar Allan Poe rappelle que les rêveurs perçoivent des possibilités que les autres ignorent, ce qui fait du rêve un véritable moteur." },
+      { "q": "Faut-il rêver seul ou à plusieurs ?", "a": "La citation attribuée à John Lennon le résume bien : « Un rêve que l'on rêve ensemble est une réalité. » Partager un rêve augmente les chances de le voir devenir concret." }
+    ],
+    "related": ["espoir", "inspiration", "motivation", "liberte"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "temps",
+    "locale": "fr",
+    "theme": "time",
+    "label": "Temps",
+    "emoji": "⏳",
+    "matchPatterns": ["temps", "heure", "instant", "moment", "passe", "passé", "present", "présent", "futur", "patience", "horloge", "annee"],
+    "title": "Citations sur le temps — phrases sur le temps qui passe",
+    "h1": "Citations sur le temps : l'instant qui s'écoule",
+    "description": "Les plus belles citations sur le temps qui passe, de Lamartine à Sénèque. Des phrases à méditer sur l'instant, à partager et à voter sur moomz.",
+    "intro": "Le temps est notre bien le plus précieux et le plus inéquitablement géré. On voudrait le retenir quand il file et l'accélérer quand il pèse. Depuis l'Antiquité, les philosophes nous rappellent que la question n'est pas d'avoir plus de temps, mais de mieux l'employer. Une belle citation sur le temps agit comme une horloge intérieure : elle nous fait prendre conscience de la valeur de l'instant, de l'urgence douce de vivre pleinement. De Lamartine à Sénèque, en passant par les grands moralistes, la culture française a produit des phrases magnifiques sur le passé, le présent et la fuite des heures. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur profondeur et leur justesse. Elles parlent de patience, de la valeur du présent, du temps que l'on perd et de celui que l'on choisit de cultiver. Sur moomz, le temps inspire des sondages qui font réfléchir : on vote sur la meilleure façon d'occuper une journée, on débat sur ce qui mérite vraiment notre temps, on crée des polls pour comparer nos rapports à l'horloge. Lis ces phrases sans te presser, garde celle qui te recentre, partage-la avec quelqu'un qui court après les heures, puis crée ton propre sondage temps sur moomz.",
+    "quotes": [
+      { "text": "Ô temps, suspends ton vol ! et vous, heures propices, suspendez votre cours !", "author": "Alphonse de Lamartine", "source": "Le Lac, 1820" },
+      { "text": "Ce n'est pas que nous avons peu de temps, c'est que nous en perdons beaucoup.", "author": "Sénèque" },
+      { "text": "Le temps est un grand maître, il règle bien des choses.", "author": "Pierre Corneille" },
+      { "text": "Rien n'est à nous que le temps.", "author": "Sénèque" },
+      { "text": "Le temps de la réflexion est une économie de temps.", "author": "Publilius Syrus" },
+      { "text": "Avec le temps, va, tout s'en va.", "author": "Léo Ferré", "source": "Avec le temps, 1971" },
+      { "text": "La ponctualité est la politesse des rois.", "author": "Louis XVIII" },
+      { "text": "Il faut savoir perdre du temps quand on n'en a pas, et n'en point perdre quand on en a.", "author": "Jean-Jacques Rousseau" }
+    ],
+    "faq": [
+      { "q": "Quelle est la citation la plus célèbre sur le temps ?", "a": "Le vers de Lamartine « Ô temps, suspends ton vol ! » extrait du poème Le Lac est l'une des phrases les plus connues de la poésie française sur la fuite du temps et le désir de retenir les instants heureux." },
+      { "q": "Manquons-nous vraiment de temps ?", "a": "Selon Sénèque, non : « Ce n'est pas que nous avons peu de temps, c'est que nous en perdons beaucoup. » Le problème est moins la quantité de temps que la façon dont nous l'employons." },
+      { "q": "Comment bien utiliser son temps selon les citations ?", "a": "Les moralistes insistent sur l'équilibre : prendre le temps de réfléchir, savourer le présent, mais ne pas gaspiller les heures précieuses. Rousseau résume cette tension entre lenteur choisie et efficacité." }
+    ],
+    "related": ["vie", "sagesse", "bonheur", "espoir"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "famille",
+    "locale": "fr",
+    "theme": "family",
+    "label": "Famille",
+    "emoji": "👨‍👩‍👧",
+    "matchPatterns": ["famille", "parents", "enfant", "enfants", "maman", "papa", "frere", "frère", "soeur", "sœur", "foyer", "racines"],
+    "title": "Citations sur la famille — phrases sur les liens du sang",
+    "h1": "Citations sur la famille : les liens qui comptent",
+    "description": "Les plus belles citations sur la famille, de George Sand à Hugo. Des phrases sur les parents, les enfants et le foyer à partager et à voter sur moomz.",
+    "intro": "La famille est notre premier monde : c'est là que l'on apprend à parler, à aimer, à se disputer et à pardonner. Qu'elle soit choisie ou de naissance, elle laisse une empreinte qui nous suit toute la vie. Les écrivains ont beaucoup écrit sur ce lien complexe, fait de tendresse, de transmission, parfois de conflits, mais toujours d'attachement profond. Une belle citation sur la famille aide à mettre des mots sur ce que l'on ressent envers ses parents, ses enfants, ses frères et sœurs : la reconnaissance, le besoin de racines, la chaleur d'un foyer. De George Sand à Victor Hugo, la culture française regorge de phrases justes sur ce thème universel. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur sincérité et leur capacité à toucher. Elles parlent de l'amour parental, de la solidarité familiale et de la valeur de ce refuge que l'on appelle « la maison ». Sur moomz, la famille inspire des sondages chaleureux : on vote sur les traditions familiales préférées, on partage des souvenirs, on crée des polls pour faire participer toute la famille. Lis ces phrases, choisis celle qui te touche, envoie-la à un proche, puis lance ton propre sondage famille sur moomz pour rassembler les avis de ceux qui comptent.",
+    "quotes": [
+      { "text": "La famille, c'est le pays du cœur.", "author": "Giuseppe Mazzini" },
+      { "text": "Ce qui réunit les hommes est plus fort que ce qui les sépare.", "author": "Antoine de Saint-Exupéry" },
+      { "text": "On ne hérite pas la terre de nos parents, on l'emprunte à nos enfants.", "author": "Antoine de Saint-Exupéry" },
+      { "text": "Il n'y a qu'un seul enfant beau au monde, et chaque mère le possède.", "author": "George Sand" },
+      { "text": "Le foyer, c'est l'endroit où, quand vous devez y aller, ils sont obligés de vous accueillir.", "author": "Robert Frost" },
+      { "text": "Une famille, c'est un peu comme un arbre : les branches partent dans toutes les directions, mais les racines restent les mêmes.", "author": "Proverbe" },
+      { "text": "L'amour d'une mère pour son enfant ne ressemble à aucun autre amour.", "author": "Agatha Christie" },
+      { "text": "Le bonheur n'est réel que lorsqu'il est partagé.", "author": "Christopher McCandless" }
+    ],
+    "faq": [
+      { "q": "Quelle citation offrir pour la fête des mères ou des pères ?", "a": "Les phrases courtes et tendres sont les plus appréciées. « Il n'y a qu'un seul enfant beau au monde, et chaque mère le possède » de George Sand fonctionne très bien pour un message de fête des mères." },
+      { "q": "Que disent les citations sur la transmission familiale ?", "a": "Plusieurs phrases, comme celle de Saint-Exupéry sur la terre empruntée aux enfants, insistent sur l'idée de transmission : la famille relie les générations et nous rend responsables de ce que nous léguons." },
+      { "q": "Pourquoi la famille reste-t-elle un thème si fédérateur ?", "a": "Parce que chacun en a une expérience, heureuse ou difficile. Les citations sur la famille touchent un sentiment universel d'appartenance et de racines, ce qui les rend faciles à partager." }
+    ],
+    "related": ["amour", "amitie", "bonheur", "vie"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "liberte",
+    "locale": "fr",
+    "theme": "freedom",
+    "label": "Liberté",
+    "emoji": "🕊️",
+    "matchPatterns": ["liberte", "liberté", "libre", "independance", "indépendance", "choix", "droit", "egalite", "égalité", "emancipation", "autonomie", "voler"],
+    "title": "Citations sur la liberté — phrases sur être libre",
+    "h1": "Citations sur la liberté : être pleinement libre",
+    "description": "Les plus belles citations sur la liberté, de Voltaire à Sartre. Des phrases puissantes sur l'indépendance à partager et à voter sur moomz.",
+    "intro": "La liberté est une idée qui a inspiré des révolutions, des chansons et des œuvres entières. Être libre, c'est pouvoir penser, choisir, s'exprimer et tracer sa route. Mais la liberté n'est jamais simple : elle s'accompagne de responsabilité, elle s'arrête là où commence celle des autres, elle se conquiert souvent au prix d'efforts. Les philosophes et les écrivains français ont placé ce thème au cœur de leur réflexion, de Voltaire défenseur de la liberté de penser à Jean-Paul Sartre théoricien de la liberté de l'individu. Une belle citation sur la liberté nous rappelle ce que nous tenons trop souvent pour acquis et nous invite à en prendre soin. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur force et leur portée universelle. Elles parlent d'indépendance, de droits, de la liberté intérieure autant que des libertés collectives. Sur moomz, la liberté inspire des sondages engagés : on vote sur ce que signifie être libre aujourd'hui, on débat des choix qui comptent, on crée des polls pour confronter les points de vue. Lis ces phrases avec attention, garde celle qui résonne avec ta vision, partage-la, puis lance ton propre sondage liberté sur moomz pour ouvrir le débat avec ta communauté.",
+    "quotes": [
+      { "text": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui.", "author": "Déclaration des droits de l'homme et du citoyen", "source": "1789" },
+      { "text": "L'homme est condamné à être libre.", "author": "Jean-Paul Sartre", "source": "L'existentialisme est un humanisme, 1946" },
+      { "text": "La liberté des uns s'arrête là où commence celle des autres.", "author": "Proverbe" },
+      { "text": "Vivre libre ou mourir.", "author": "Proverbe" },
+      { "text": "La liberté commence où l'ignorance finit.", "author": "Victor Hugo" },
+      { "text": "Je ne suis pas d'accord avec ce que vous dites, mais je me battrai jusqu'au bout pour que vous puissiez le dire.", "author": "Evelyn Beatrice Hall" },
+      { "text": "On ne peut être libre si l'on est esclave de ses passions.", "author": "Pythagore" },
+      { "text": "La liberté est le droit de faire tout ce que les lois permettent.", "author": "Montesquieu", "source": "De l'esprit des lois, 1748" }
+    ],
+    "faq": [
+      { "q": "Comment définir la liberté selon les citations ?", "a": "La définition la plus citée vient de la Déclaration des droits de l'homme de 1789 : « La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. » Elle relie liberté individuelle et respect des autres." },
+      { "q": "Que signifie « l'homme est condamné à être libre » de Sartre ?", "a": "Sartre veut dire que nous ne pouvons pas échapper à nos choix : même ne pas choisir est un choix. La liberté est donc inséparable d'une responsabilité que l'on ne peut pas refuser." },
+      { "q": "La liberté a-t-elle des limites ?", "a": "Oui, selon presque toutes les citations. La formule populaire « La liberté des uns s'arrête là où commence celle des autres » résume cette idée : la liberté n'est jamais absolue, elle se vit en société." }
+    ],
+    "related": ["courage", "reves", "force", "sagesse"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "humour",
+    "locale": "fr",
+    "theme": "humor",
+    "label": "Humour",
+    "emoji": "😂",
+    "matchPatterns": ["humour", "drole", "drôle", "rire", "rigoler", "blague", "marrant", "comique", "ironie", "sourire", "rigolo", "fou rire"],
+    "title": "Citations drôles — phrases d'humour à partager",
+    "h1": "Citations drôles : l'humour qui fait sourire",
+    "description": "Les meilleures citations drôles et phrases d'humour, de Coluche à Pierre Desproges. À partager pour faire rire et à voter sur moomz.",
+    "intro": "Rien ne rapproche autant que de rire ensemble. L'humour est une intelligence, une façon de regarder le monde de biais, de désamorcer ce qui est lourd et de dire des vérités sans en avoir l'air. Les grands humoristes français — Coluche, Pierre Desproges, Pierre Dac — ont laissé des phrases que l'on cite encore tous les jours, parce qu'elles sont à la fois absurdes et profondément justes. Une bonne citation drôle, c'est l'arme idéale pour détendre une conversation, illustrer un message ou simplement faire sourire quelqu'un qui en a besoin. Et l'humour ne s'arrête pas aux humoristes : Voltaire, Sacha Guitry ou Oscar Wilde ont fait de l'esprit un véritable art. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur drôlerie autant que pour leur finesse. Elles jouent sur l'ironie, l'absurde et le second degré. Sur moomz, l'humour est un thème de sondages très populaire : on vote sur la blague la plus drôle, on partage les citations qui font rire, on crée des polls légers pour se détendre entre amis. Lis ces phrases, garde celle qui te fait le plus sourire, envoie-la à quelqu'un pour égayer sa journée, puis lance ton propre sondage humour sur moomz pour découvrir ce qui fait rire ta communauté.",
+    "quotes": [
+      { "text": "Quand on est mort, c'est pour la vie.", "author": "Pierre Desproges" },
+      { "text": "L'argent ne fait pas le bonheur des pauvres.", "author": "Coluche" },
+      { "text": "Rien ne sert de courir, il faut partir à point.", "author": "Jean de La Fontaine", "source": "Le Lièvre et la Tortue, 1668" },
+      { "text": "Les femmes préfèrent l'argent à la beauté, mais elles préfèrent les hommes intelligents aux hommes riches.", "author": "Coluche" },
+      { "text": "La culture, c'est comme la confiture, moins on en a, plus on l'étale.", "author": "Françoise Sagan" },
+      { "text": "Il vaut mieux penser le changement que changer le pansement.", "author": "Pierre Dac" },
+      { "text": "Une journée sans rire est une journée perdue.", "author": "Charlie Chaplin" },
+      { "text": "Il n'y a que les imbéciles qui ne changent pas d'avis.", "author": "Sacha Guitry" }
+    ],
+    "faq": [
+      { "q": "Quelle est la citation drôle la plus connue de Coluche ?", "a": "Parmi les plus célèbres, « L'argent ne fait pas le bonheur des pauvres » illustre bien le style de Coluche : une formule absurde en apparence, mais qui dit en réalité une vérité sociale." },
+      { "q": "L'humour peut-il dire des choses sérieuses ?", "a": "Oui, c'est même sa force. Des phrases comme celle de Pierre Dac « penser le changement plutôt que changer le pansement » jouent sur les mots tout en pointant un vrai problème. L'humour est un détour pour dire le vrai." },
+      { "q": "Quelle citation drôle envoyer pour faire sourire un proche ?", "a": "La phrase de Charlie Chaplin « Une journée sans rire est une journée perdue » est parfaite : positive, courte et facile à partager pour mettre de bonne humeur." }
+    ],
+    "related": ["bonheur", "amitie", "vie", "inspiration"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "espoir",
+    "locale": "fr",
+    "theme": "hope",
+    "label": "Espoir",
+    "emoji": "✨",
+    "matchPatterns": ["espoir", "esperer", "espérer", "esperance", "espérance", "optimisme", "lumiere", "lumière", "demain", "avenir", "confiance", "croire"],
+    "title": "Citations sur l'espoir — phrases pour garder confiance",
+    "h1": "Citations sur l'espoir : garder la lumière",
+    "description": "Les plus belles citations sur l'espoir, de Victor Hugo à Charles Péguy. Des phrases lumineuses pour garder confiance, à partager et à voter sur moomz.",
+    "intro": "L'espoir est cette petite flamme qui refuse de s'éteindre même dans les moments les plus sombres. C'est lui qui nous fait croire que demain peut être meilleur, qui nous aide à traverser les épreuves et à recommencer après une chute. Les poètes et les penseurs ont souvent comparé l'espoir à une lumière, une aube, un fil qui relie le présent à un avenir possible. Une belle citation sur l'espoir agit comme un soutien : elle ne nie pas la difficulté, mais elle rappelle qu'elle n'est pas définitive. De Victor Hugo à Charles Péguy, la culture française a produit des phrases magnifiques sur l'espérance, l'optimisme et la confiance en l'avenir. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur capacité à réconforter et à relever. Elles parlent de patience, de lumière retrouvée et de la force tranquille de continuer à croire. Sur moomz, l'espoir inspire des sondages chaleureux : on vote sur ce qui redonne confiance, on partage les pensées qui font du bien, on crée des polls pour s'encourager mutuellement. Lis ces phrases, garde celle qui éclaire ton moment, envoie-la à quelqu'un qui traverse une période difficile, puis lance ton propre sondage espoir sur moomz pour répandre un peu de lumière.",
+    "quotes": [
+      { "text": "L'espoir est une mémoire qui désire.", "author": "Honoré de Balzac" },
+      { "text": "Même la nuit la plus sombre prendra fin et le soleil se lèvera.", "author": "Victor Hugo", "source": "Les Misérables, 1862" },
+      { "text": "L'espérance est un risque à courir.", "author": "Georges Bernanos" },
+      { "text": "Tant qu'il y a de la vie, il y a de l'espoir.", "author": "Cicéron" },
+      { "text": "L'espoir fait vivre.", "author": "Proverbe français" },
+      { "text": "La petite espérance s'avance entre ses deux grandes sœurs et on ne prend point garde à elle.", "author": "Charles Péguy", "source": "Le Porche du mystère de la deuxième vertu, 1912" },
+      { "text": "Il faut toujours garder espoir, car l'espoir est le rêve de l'homme éveillé.", "author": "Aristote" },
+      { "text": "Espère, et souviens-toi que prier, c'est la moitié de la sagesse, et espérer en est l'autre.", "author": "Alfred de Vigny" }
+    ],
+    "faq": [
+      { "q": "Quelle citation envoyer à quelqu'un qui traverse une épreuve ?", "a": "La phrase de Victor Hugo « Même la nuit la plus sombre prendra fin et le soleil se lèvera » est idéale : elle reconnaît la difficulté tout en rappelant qu'elle n'est jamais éternelle." },
+      { "q": "L'espoir est-il une force ou une faiblesse ?", "a": "Les citations le présentent surtout comme une force. Cicéron rappelait déjà que « tant qu'il y a de la vie, il y a de l'espoir » : c'est ce qui pousse à continuer plutôt qu'à se résigner." },
+      { "q": "Que veut dire « la petite espérance » de Charles Péguy ?", "a": "Péguy présente l'espérance comme une petite vertu discrète, plus modeste que la foi et la charité, mais qui les entraîne toutes les deux. C'est elle qui permet de toujours recommencer." }
+    ],
+    "related": ["bonheur", "vie", "force", "reves"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "force",
+    "locale": "fr",
+    "theme": "strength",
+    "label": "Force",
+    "emoji": "💪",
+    "matchPatterns": ["force", "fort", "forte", "puissance", "resilience", "résilience", "tenir", "surmonter", "epreuve", "épreuve", "volonte", "volonté"],
+    "title": "Citations sur la force — phrases sur la résilience",
+    "h1": "Citations sur la force : résilience et volonté",
+    "description": "Les plus belles citations sur la force intérieure et la résilience, de Sénèque à Nietzsche. Des phrases puissantes à partager et à voter sur moomz.",
+    "intro": "La force ne se mesure pas seulement aux muscles : la vraie force est intérieure. C'est la capacité à tenir debout dans la tempête, à se relever après une chute, à transformer une épreuve en apprentissage. On l'appelle aussi résilience, volonté, courage tranquille. Les philosophes stoïciens en avaient fait leur sujet de prédilection, et après eux d'innombrables penseurs ont cherché à dire d'où vient cette solidité qui permet de ne pas se briser. Une belle citation sur la force agit comme un appui : elle rappelle que nous sommes souvent plus solides que nous le croyons, et que les difficultés ne nous diminuent pas forcément. De Sénèque à Friedrich Nietzsche, la pensée occidentale est riche de phrases puissantes sur la résilience et la volonté. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur intensité et leur justesse. Elles parlent de tenir bon, de puiser en soi, de faire de l'adversité une alliée. Sur moomz, la force inspire des sondages motivants : on vote sur la qualité qui aide le plus à surmonter une épreuve, on partage ses stratégies pour tenir, on crée des polls pour se soutenir entre amis. Lis ces phrases, garde celle qui te solidifie, partage-la avec quelqu'un qui traverse une difficulté, puis lance ton propre sondage force sur moomz.",
+    "quotes": [
+      { "text": "Ce qui ne me tue pas me rend plus fort.", "author": "Friedrich Nietzsche", "source": "Le Crépuscule des idoles, 1888" },
+      { "text": "La force ne vient pas des capacités physiques. Elle vient d'une volonté indomptable.", "author": "Gandhi" },
+      { "text": "Les difficultés fortifient l'esprit comme le travail fortifie le corps.", "author": "Sénèque" },
+      { "text": "On ne mesure la force d'un homme qu'à la grandeur des épreuves qu'il surmonte.", "author": "Proverbe" },
+      { "text": "La plus grande gloire n'est pas de ne jamais tomber, mais de se relever à chaque chute.", "author": "Confucius" },
+      { "text": "C'est dans le malheur que l'on connaît ses amis et la force de son cœur.", "author": "Proverbe" },
+      { "text": "Là où il y a une volonté, il y a un chemin.", "author": "Proverbe" },
+      { "text": "La patience et la longueur de temps font plus que force ni que rage.", "author": "Jean de La Fontaine", "source": "Le Lion et le Rat, 1668" }
+    ],
+    "faq": [
+      { "q": "D'où vient la vraie force selon les citations ?", "a": "La plupart des citations, comme celle de Gandhi, situent la force dans la volonté plutôt que dans le physique. C'est la solidité intérieure et la détermination qui permettent de tenir face aux épreuves." },
+      { "q": "Que signifie « ce qui ne me tue pas me rend plus fort » ?", "a": "Cette phrase de Nietzsche suggère que les épreuves surmontées peuvent renforcer la personne. À condition de les traverser, elles deviennent une source d'expérience et de solidité." },
+      { "q": "La patience est-elle une forme de force ?", "a": "Oui, selon La Fontaine : « La patience et la longueur de temps font plus que force ni que rage. » La constance tranquille accomplit souvent plus que la force brute ou la colère." }
+    ],
+    "related": ["courage", "motivation", "espoir", "reussite"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "inspiration",
+    "locale": "fr",
+    "theme": "inspiration",
+    "label": "Inspiration",
+    "emoji": "💡",
+    "matchPatterns": ["inspiration", "inspirant", "inspirer", "creativite", "créativité", "creer", "créer", "idee", "idée", "talent", "imaginer", "genie"],
+    "title": "Citations inspirantes — phrases pour s'inspirer",
+    "h1": "Citations inspirantes : trouver l'étincelle",
+    "description": "Les plus belles citations inspirantes sur la créativité et les idées, de Picasso à Hugo. Des phrases à partager et à voter sur moomz.",
+    "intro": "L'inspiration est cette étincelle qui transforme une idée en projet, une page blanche en création. On l'imagine souvent comme un cadeau soudain, une visite du génie ; pourtant, la plupart des artistes et des penseurs le disent : l'inspiration vient surtout à ceux qui sont déjà au travail. Une belle citation inspirante a justement ce rôle : elle réveille la curiosité, elle donne envie de créer, d'oser, d'essayer quelque chose de nouveau. C'est la phrase que l'on épingle au mur de son atelier, que l'on relit avant de se lancer dans un projet, que l'on partage pour encourager quelqu'un à exprimer son talent. De Pablo Picasso à Victor Hugo, en passant par les grandes voix de la créativité, beaucoup ont laissé des phrases lumineuses sur l'idée et l'imagination. Sur cette page, tu trouveras huit citations authentiques et vérifiées, choisies pour leur capacité à donner de l'élan. Elles parlent de créativité, de curiosité, de la valeur des idées et du courage de commencer. Sur moomz, l'inspiration est un thème de sondages très créatif : on vote sur la meilleure source d'idées, on partage ce qui nous inspire, on crée des polls pour stimuler l'imagination de la communauté. Lis ces phrases, garde celle qui allume une étincelle, partage-la avec un créatif de ton entourage, puis lance ton propre sondage inspiration sur moomz.",
+    "quotes": [
+      { "text": "L'inspiration existe, mais elle doit vous trouver au travail.", "author": "Pablo Picasso" },
+      { "text": "Tout acte de création est d'abord un acte de destruction.", "author": "Pablo Picasso" },
+      { "text": "L'imagination est plus importante que le savoir.", "author": "Albert Einstein" },
+      { "text": "On fait la science avec des faits, comme on fait une maison avec des pierres : mais une accumulation de faits n'est pas plus une science qu'un tas de pierres n'est une maison.", "author": "Henri Poincaré", "source": "La Science et l'Hypothèse, 1902" },
+      { "text": "La créativité, c'est l'intelligence qui s'amuse.", "author": "Albert Einstein" },
+      { "text": "Rien n'est plus puissant qu'une idée dont l'heure est venue.", "author": "Victor Hugo" },
+      { "text": "Pour réaliser une grande chose, il ne faut pas seulement agir, mais aussi rêver ; non seulement planifier, mais aussi croire.", "author": "Anatole France" },
+      { "text": "La curiosité est une des plus permanentes et des plus sûres caractéristiques d'une intelligence vigoureuse.", "author": "Samuel Johnson" }
+    ],
+    "faq": [
+      { "q": "Comment trouver l'inspiration selon les citations ?", "a": "La phrase de Picasso « L'inspiration existe, mais elle doit vous trouver au travail » donne la clé : il faut se mettre à l'œuvre. L'inspiration vient plus souvent à ceux qui agissent qu'à ceux qui l'attendent." },
+      { "q": "L'imagination est-elle plus importante que le savoir ?", "a": "C'est ce que défendait Einstein : « L'imagination est plus importante que le savoir. » Le savoir est limité, alors que l'imagination ouvre vers ce qui n'existe pas encore." },
+      { "q": "Quelle citation pour encourager un projet créatif ?", "a": "« Rien n'est plus puissant qu'une idée dont l'heure est venue » de Victor Hugo est idéale : elle valorise les idées justes au bon moment et donne confiance pour se lancer." }
+    ],
+    "related": ["motivation", "reves", "reussite", "sagesse"],
+    "updatedAt": "2026-05-20"
+  }
+]
