@@ -1,7 +1,35 @@
 # moomz — Briefs des prochaines sessions
 
-> Deux sessions préparées d'avance. Chacune est auto-suffisante : ouvre une fenêtre Claude Code, colle la section correspondante comme prompt d'ouverture, lance.
+> Sessions préparées d'avance. Chacune est auto-suffisante : ouvre une fenêtre Claude Code, colle la section correspondante comme prompt d'ouverture, lance.
 > Contexte global : voir `CLAUDE.md`. Domaine live depuis le 2026-05-18 (très neuf → sandbox Google ~3-6 mois).
+
+---
+
+# SESSION C — Traduction de la Formation (es / it / pt / de / ja / zh)
+
+## État
+La base FR est COMPLÈTE : 1000 modules dans `lib/formation/data/<theme>.json` (10 thèmes × 100). Routes `/formation` + `/formation/[slug]` live, FR uniquement. Il faut traduire les 1000 modules dans les 6 autres langues = 6000 modules.
+
+## Étape 0 — rendre /formation multilingue (à faire EN PREMIER, à la main, ~30 min)
+Aujourd'hui le loader + les routes ne servent que le FR. Avant de traduire, rendre l'infra locale-aware :
+- **Données** : passer à des fichiers par locale — `lib/formation/data/<theme>.<locale>.json` (le FR existant = `<theme>.json` ou `<theme>.fr.json`). Élargir `lib/formation/loader.ts` : `getAllFormation(locale)` / `getFormationBySlug(slug, locale)` qui lisent le bon fichier, avec fallback FR si la traduction manque.
+- **Routes** : `app/formation/page.tsx` + `app/formation/[slug]/page.tsx` lisent la locale via `getLocale()` (`lib/i18n-server`) et passent au loader. Le chrome FR hardcodé des pages ("À appliquer maintenant", "Questions fréquentes", "Toute la formation", "Créer un moomz", "Des modules courts…") → passer en `t()` 8 langues (ajouter un namespace `formation.*` dans `lib/i18n.ts`).
+- **Slugs** : garder les MÊMES slugs dans toutes les langues (le slug FR est ASCII, réutilisable) — une seule URL `/formation/<slug>` qui sert la locale du visiteur, comme le reste de l'app. Donc `generateStaticParams` reste sur les slugs FR.
+- **Sitemap** : déjà OK (1 URL par slug).
+
+## Étape 1 — traduire (agents, par vagues de ~3 pour éviter le throttle serveur)
+Pour chaque locale (es, it, pt, de, ja, zh) et chaque thème (10), traduire `<theme>.json` (FR) → `<theme>.<locale>.json`. 60 fichiers. Découpage conseillé : **1 agent = 1 locale × ~3-4 thèmes** (≈18 agents en tout, lancés par vagues de 3). Brief par agent :
+- Lire le fichier FR source `lib/formation/data/<theme>.json`.
+- Traduire chaque module en <locale> : `title`, `intro`, `sections[].heading`, `sections[].body`, `steps[]`, `faq[]`. **GARDER identiques** : `slug`, `theme`, `emoji`, `updatedAt`. Garder la structure exacte.
+- Traduction native et naturelle (pas littérale), ton encourageant, adapté à un lecteur de 17 ans. Garder les consignes de sécurité du contenu (santé/argent/mental responsables).
+- JA/ZH : chaînes en guillemets simples si besoin pour éviter les bugs d'échappement.
+- Écrire `lib/formation/data/<theme>.<locale>.json`, valider le JSON, ne rien lancer d'autre.
+
+## Vérif finale
+`npx tsc --noEmit` vert · `/formation` testé en changeant `moomz_locale` · sitemap OK · commit + push.
+
+## Note throttling
+Le serveur throttle quand trop d'agents tournent en parallèle (surtout si une autre fenêtre tourne aussi). Lancer par vagues de 3, pas 10 d'un coup.
 
 ---
 
