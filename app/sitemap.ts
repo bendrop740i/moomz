@@ -21,6 +21,7 @@ import { FR_SLUGS as DEFINITION_FR_SLUGS, EN_SLUGS as DEFINITION_EN_SLUGS } from
 import { COSMOS_SLUGS } from "@/lib/tools/cosmos";
 import { RECETTES_SLUGS } from "@/lib/tools/recettes";
 import { ASTRO_SLUGS } from "@/lib/tools/astro";
+import { getAllFormation } from "@/lib/formation/loader";
 
 const BASE = "https://moomz.com";
 
@@ -110,6 +111,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/cosmos`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
     { url: `${BASE}/recettes`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/astro`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/formation`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 
@@ -211,6 +213,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.75,
   }));
 
+  const formationUrls: MetadataRoute.Sitemap = getAllFormation().map((it) => ({
+    url: `${BASE}/formation/${it.slug}`,
+    lastModified: new Date(it.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   const seoUrls: MetadataRoute.Sitemap = allPages.map((p) => ({
     url: `${BASE}/${p.category}/${p.slug}`,
     lastModified: new Date(p.updatedAt),
@@ -252,6 +261,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...quizUrls,
     ...compareUrls,
     ...templateUrls,
+    ...formationUrls,
     ...toolsUrls,
     ...vsUrls,
     ...pollUrls,

@@ -350,7 +350,7 @@ export async function setLocale(locale: string) {
 
 const RESERVED_USERNAMES = new Set([
   // Existing app surfaces
-  "discover", "login", "signup", "me", "admin", "api", "settings", "auth",
+  "discover", "formation", "login", "signup", "me", "admin", "api", "settings", "auth",
   "mes-votes", "mes-sondages", "moomz", "app", "dashboard", "help", "about",
   "terms", "privacy", "contact", "support", "blog", "docs", "www", "mail",
   // SEO landing routes that would be shadowed by a /[slug] match

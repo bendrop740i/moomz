@@ -1,0 +1,895 @@
+[
+  {
+    "slug": "faire-son-premier-budget",
+    "theme": "money",
+    "title": "Faire son premier budget simple",
+    "emoji": "📊",
+    "intro": "Un budget n'est pas une punition : c'est juste savoir où va ton argent pour reprendre le contrôle. Trente minutes suffisent pour démarrer.",
+    "sections": [
+      {
+        "heading": "Pourquoi un budget change tout",
+        "body": "Sans budget, l'argent disparaît sans qu'on sache où. Avec un budget, chaque euro a une mission : dépenses fixes, plaisirs, épargne. Ça ne te rend pas radin, ça te rend libre, parce que tu dépenses sans culpabilité une fois le plan posé. L'objectif n'est pas de tout calculer au centime mais d'avoir une vision claire et de ne plus finir le mois dans le rouge sans comprendre pourquoi."
+      },
+      {
+        "heading": "Lister ses entrées et ses sorties",
+        "body": "Note d'abord tout ce qui rentre : salaire, job étudiant, aide familiale, bourse. Puis liste tout ce qui sort sur un mois type : loyer, abonnements, transport, courses, sorties. Reprends tes relevés bancaires des deux derniers mois pour ne rien oublier. Beaucoup de gens découvrent à cette étape des abonnements oubliés ou des petites dépenses répétées qui pèsent lourd une fois additionnées."
+      },
+      {
+        "heading": "La règle 50/30/20",
+        "body": "Une répartition simple pour débuter : environ 50 % du revenu pour les besoins (logement, nourriture, transport), 30 % pour les envies (sorties, vêtements, loisirs), 20 % pour l'épargne. Ce ne sont pas des règles rigides : si ton loyer est élevé, ajuste. L'important est d'avoir une cible et de toujours réserver une part pour l'épargne, même petite, avant de dépenser le reste."
+      },
+      {
+        "heading": "Suivre sans se compliquer la vie",
+        "body": "Un budget abandonné ne sert à rien. Choisis l'outil le plus simple pour toi : une appli de banque qui catégorise les dépenses, un tableur, ou même un carnet. Fais un point de cinq minutes une fois par semaine. Tu n'as pas besoin d'être parfait : si tu dépasses dans une catégorie, ajuste le mois suivant. La régularité compte plus que la précision."
+      }
+    ],
+    "steps": [
+      "Note tous tes revenus du mois.",
+      "Liste tes dépenses fixes puis variables à partir de tes relevés.",
+      "Répartis selon 50 % besoins, 30 % envies, 20 % épargne.",
+      "Choisis un outil simple pour suivre (appli, tableur, carnet).",
+      "Fais un bilan rapide chaque semaine et ajuste le mois suivant."
+    ],
+    "faq": [
+      {
+        "q": "Et si mes revenus changent chaque mois ?",
+        "a": "Base ton budget sur ton mois le plus faible des derniers mois. Les mois où tu gagnes plus, mets le surplus en épargne plutôt que de gonfler tes dépenses."
+      },
+      {
+        "q": "Combien de temps avant que ça marche ?",
+        "a": "Donne-toi deux à trois mois. Les premiers mois servent surtout à découvrir tes vraies habitudes. L'ajustement vient ensuite naturellement."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-ses-depenses",
+    "theme": "money",
+    "title": "Comprendre où part vraiment ton argent",
+    "emoji": "🔍",
+    "intro": "Avant de vouloir épargner plus, il faut voir clair. Analyser ses dépenses passées révèle souvent des surprises faciles à corriger.",
+    "sections": [
+      {
+        "heading": "Le relevé bancaire, ton meilleur prof",
+        "body": "Exporte ou imprime tes relevés des trois derniers mois et lis-les ligne par ligne. C'est moins agréable qu'un film, mais c'est l'exercice le plus utile que tu feras avec ton argent. Tu y verras des montants oubliés, des doublons d'abonnements, des sorties plus fréquentes que tu ne pensais. Aucune appli ne remplace ce face-à-face honnête avec tes propres choix."
+      },
+      {
+        "heading": "Classer en grandes catégories",
+        "body": "Range chaque dépense dans une catégorie : logement, alimentation, transport, abonnements, sorties, vêtements, divers. Additionne chaque catégorie. Tu obtiens une photo claire de ta consommation. Souvent une ou deux catégories pèsent bien plus que prévu, par exemple la livraison de repas ou les petits achats en ligne. C'est là que se cachent tes plus grosses marges de manœuvre."
+      },
+      {
+        "heading": "Les dépenses fantômes",
+        "body": "Les petites sommes répétées sont les plus traîtres : un café à 3 euros chaque jour, c'est environ 60 euros par mois. Trois abonnements à 10 euros oubliés, c'est 360 euros par an. On ne les sent pas passer parce qu'elles sont minuscules une à une. Les repérer ne veut pas dire les supprimer toutes, mais choisir consciemment celles qui en valent la peine."
+      },
+      {
+        "heading": "Distinguer besoin et envie",
+        "body": "Pour chaque catégorie, demande-toi ce qui est vraiment nécessaire et ce qui est confort. Manger est un besoin, commander tous les soirs est une envie. Aucune envie n'est interdite : le but est juste de décider en conscience plutôt que par réflexe. Quand tu sais qu'une dépense est une envie, tu peux choisir de la garder, la réduire ou la remplacer."
+      }
+    ],
+    "steps": [
+      "Récupère tes relevés des 3 derniers mois.",
+      "Classe chaque dépense en grandes catégories.",
+      "Additionne chaque catégorie et repère les plus lourdes.",
+      "Liste tes dépenses fantômes (petites sommes répétées).",
+      "Marque chaque ligne comme besoin ou envie."
+    ],
+    "faq": [
+      {
+        "q": "Faut-il tout noter à la main ?",
+        "a": "Non. La plupart des banques catégorisent automatiquement. La lecture manuelle sert surtout à vérifier et à prendre conscience, une fois suffit pour démarrer."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "se-constituer-une-epargne-de-precaution",
+    "theme": "money",
+    "title": "Se constituer une épargne de précaution",
+    "emoji": "🛟",
+    "intro": "L'épargne de précaution est ton coussin de sécurité face aux imprévus. C'est la première chose à construire, avant tout le reste.",
+    "sections": [
+      {
+        "heading": "À quoi sert ce coussin",
+        "body": "Un imprévu arrive toujours : panne, dépôt de garantie, trou entre deux contrats, soin médical. Sans réserve, on est forcé d'emprunter, parfois cher. Avec une épargne de précaution, l'imprévu devient un simple contretemps. Ce n'est pas de l'argent pour les vacances ou un achat plaisir : c'est une assurance que tu te crées toi-même, accessible en quelques jours maximum."
+      },
+      {
+        "heading": "Combien viser",
+        "body": "Une cible réaliste pour commencer : l'équivalent d'un mois de dépenses, puis vise progressivement trois à six mois. Quand on débute avec peu, même 300 ou 500 euros changent déjà la donne face à la plupart des petits imprévus. Ne te décourage pas par le chiffre final : c'est le fait d'avoir une réserve qui compte, pas sa taille parfaite."
+      },
+      {
+        "heading": "Où la placer",
+        "body": "Cet argent doit être disponible vite et ne pas pouvoir perdre de valeur. Un livret d'épargne réglementé (comme le Livret A en France) est l'endroit classique : sans risque, sans frais, retrait à tout moment. Évite de la laisser sur ton compte courant où elle se mélange et se dépense, et évite tout placement risqué : ce n'est pas le but de ce coussin."
+      },
+      {
+        "heading": "La construire sans douleur",
+        "body": "Programme un virement automatique vers ton livret le jour où tu reçois ton revenu, même 20 ou 50 euros. En te payant toi-même en premier, tu n'as pas à compter sur la volonté en fin de mois. Augmente le montant dès que possible. Mets aussi de côté les rentrées exceptionnelles : remboursement, cadeau, prime. Le coussin se remplit plus vite qu'on ne croit."
+      }
+    ],
+    "steps": [
+      "Calcule le montant moyen de tes dépenses d'un mois.",
+      "Fixe une première cible (un mois) puis vise 3 à 6 mois.",
+      "Ouvre un livret d'épargne sans risque et sans frais.",
+      "Programme un virement automatique à chaque revenu.",
+      "Verse aussi les rentrées exceptionnelles dans le coussin."
+    ],
+    "faq": [
+      {
+        "q": "Dois-je épargner avant de rembourser mes dettes ?",
+        "a": "Constitue d'abord un petit coussin minimal, puis priorise les dettes coûteuses. Un mini-matelas évite de réemprunter au moindre imprévu."
+      },
+      {
+        "q": "Et si je dois piocher dedans ?",
+        "a": "C'est exactement son rôle. Utilise-le sans culpabiliser, puis reprends tes virements pour le reconstituer dès que possible."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "payer-toi-toi-meme-en-premier",
+    "theme": "money",
+    "title": "La règle : se payer soi-même en premier",
+    "emoji": "🥇",
+    "intro": "La plupart des gens épargnent ce qu'il reste, et il ne reste rien. Inverse l'ordre : épargne d'abord, dépense ensuite.",
+    "sections": [
+      {
+        "heading": "Pourquoi l'épargne en dernier échoue",
+        "body": "Quand on attend la fin du mois pour mettre de côté, les dépenses ont presque toujours tout absorbé. Ce n'est pas un manque de discipline : nos achats s'étirent naturellement pour remplir le budget disponible. Tant que l'épargne est la variable d'ajustement, elle reste à zéro. Le problème n'est pas toi, c'est l'ordre des opérations."
+      },
+      {
+        "heading": "Le principe de l'automatisation",
+        "body": "Se payer soi-même en premier veut dire : dès que ton revenu arrive, une part file automatiquement vers ton épargne, avant que tu puisses la dépenser. Tu vis ensuite avec ce qui reste, et tu t'y habitues vite. L'automatisation retire la décision et donc la tentation. Tu n'as pas à être motivé chaque mois : le système travaille à ta place."
+      },
+      {
+        "heading": "Commencer petit mais commencer",
+        "body": "Le montant exact importe moins que l'habitude. Même 10 ou 20 euros par mois installent le réflexe et prouvent que c'est possible. Augmente d'un cran à chaque hausse de revenu : quand tu gagnes plus, vire la différence vers l'épargne avant de t'habituer à la dépenser. C'est ainsi qu'on épargne sérieusement sans jamais ressentir de privation."
+      }
+    ],
+    "steps": [
+      "Choisis un pourcentage ou un montant fixe à épargner.",
+      "Ouvre un livret séparé de ton compte courant.",
+      "Programme le virement automatique le jour de ta paie.",
+      "Vis avec le reste sans toucher à l'épargne.",
+      "Augmente le virement à chaque hausse de revenu."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reduire-ses-abonnements",
+    "theme": "money",
+    "title": "Faire le ménage dans ses abonnements",
+    "emoji": "📺",
+    "intro": "Streaming, salle de sport, applis : les abonnements s'accumulent en silence. Un audit annuel peut libérer des centaines d'euros.",
+    "sections": [
+      {
+        "heading": "Le piège des petits montants",
+        "body": "Un abonnement à 8 ou 12 euros par mois paraît anodin. Mais sur un an, c'est 100 à 150 euros, et la plupart des gens en cumulent cinq ou six. Le prélèvement automatique les rend invisibles : on ne décide plus, on subit. Le danger n'est pas l'abonnement utile, c'est celui qu'on garde par inertie alors qu'on ne l'utilise plus."
+      },
+      {
+        "heading": "Faire l'inventaire complet",
+        "body": "Liste tous tes abonnements : streaming vidéo et musique, cloud, applis payantes, presse, jeux, salle de sport, box. Cherche dans tes relevés les prélèvements récurrents, certains se cachent. Note pour chacun le coût mensuel et annuel. Voir le total annuel additionné a souvent un effet électrochoc et motive à trancher tout de suite."
+      },
+      {
+        "heading": "Le test du dernier mois",
+        "body": "Pour chaque abonnement, demande-toi : l'ai-je vraiment utilisé ce dernier mois ? Si non, résilie sans hésiter, tu pourras toujours te réabonner plus tard si ça te manque. Pour les services de streaming, beaucoup tournent un seul abonnement à la fois selon ce qu'ils regardent. Tu n'as pas besoin de tout, en même temps, toute l'année."
+      },
+      {
+        "heading": "Partage et offres groupées",
+        "body": "Certains abonnements proposent des forfaits famille légitimes, partageables avec des proches du même foyer. Vérifie aussi les offres groupées de ton opérateur ou les tarifs étudiants, souvent bien moins chers. Pose-toi un rappel annuel pour refaire cet audit : les prix montent et les habitudes changent, un service indispensable il y a un an peut être inutile aujourd'hui."
+      }
+    ],
+    "steps": [
+      "Liste tous tes prélèvements récurrents depuis tes relevés.",
+      "Note le coût mensuel et annuel de chacun.",
+      "Résilie tout abonnement non utilisé le mois dernier.",
+      "Cherche les tarifs étudiants ou offres groupées légitimes.",
+      "Programme un rappel pour refaire l'audit dans un an."
+    ],
+    "faq": [
+      {
+        "q": "Résilier puis se réabonner, c'est pénalisant ?",
+        "a": "La plupart des services sans engagement permettent de revenir librement. Tu profites parfois même d'offres de retour. Garde seulement ce que tu utilises maintenant."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ouvrir-un-compte-bancaire-adapte",
+    "theme": "money",
+    "title": "Choisir un compte bancaire adapté à son budget",
+    "emoji": "🏦",
+    "intro": "Tous les comptes ne se valent pas : frais, services, conditions. Bien choisir évite de payer pour rien chaque mois.",
+    "sections": [
+      {
+        "heading": "Repérer les frais cachés",
+        "body": "Une banque peut prélever des frais de tenue de compte, de carte, de découvert, ou pour des opérations à l'étranger. Lis la grille tarifaire avant de signer. Beaucoup de banques en ligne proposent des comptes gratuits sans condition de revenu, ce qui est intéressant quand on débute. Quelques euros de frais mensuels paraissent peu mais représentent un budget sur l'année."
+      },
+      {
+        "heading": "Comparer ce dont tu as besoin",
+        "body": "Définis tes besoins réels : retraits, virements, carte, voyages, dépôt d'espèces ou de chèques. Si tu voyages, regarde les frais à l'étranger. Si tu reçois des espèces, vérifie qu'un dépôt est possible. Inutile de payer pour des services premium que tu n'utiliseras jamais. Le meilleur compte est celui qui couvre tes usages sans surcoût superflu."
+      },
+      {
+        "heading": "Comptes jeunes et étudiants",
+        "body": "Beaucoup de banques proposent des offres gratuites ou réduites pour les 18-25 ans ou les étudiants : carte sans frais, autorisation de découvert encadrée, parfois une prime de bienvenue. Ces offres sont légitimes et avantageuses. Vérifie simplement les conditions à la fin de la période jeune, où les tarifs peuvent revenir à la grille standard."
+      }
+    ],
+    "steps": [
+      "Liste les services bancaires que tu utilises vraiment.",
+      "Compare au moins trois banques sur leur grille tarifaire.",
+      "Vérifie les frais de carte, de découvert et à l'étranger.",
+      "Regarde les offres jeunes ou étudiantes disponibles.",
+      "Choisis le compte qui couvre tes besoins au coût le plus bas."
+    ],
+    "faq": [
+      {
+        "q": "Une banque en ligne est-elle sûre ?",
+        "a": "Les banques en ligne établies sont régulées comme les banques classiques et tes dépôts sont garantis dans les mêmes limites légales. Vérifie qu'elle est bien agréée."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eviter-le-decouvert",
+    "theme": "money",
+    "title": "Éviter le découvert et ses frais",
+    "emoji": "⚠️",
+    "intro": "Le découvert coûte cher et installe un stress permanent. Quelques réflexes simples permettent de s'en sortir durablement.",
+    "sections": [
+      {
+        "heading": "Pourquoi le découvert coûte si cher",
+        "body": "Être à découvert, c'est emprunter à ta banque, souvent à un taux élevé, plus parfois des commissions à chaque opération. Un découvert régulier de cent euros peut coûter plusieurs dizaines d'euros par an en intérêts et frais. Pire, il crée un cercle : les frais aggravent le découvert, qui génère encore plus de frais. En sortir libère un vrai budget."
+      },
+      {
+        "heading": "Connaître ses dates clés",
+        "body": "Le découvert vient souvent d'un décalage : les prélèvements tombent avant la rentrée d'argent. Note les dates de tes principaux prélèvements et de ton revenu. Si possible, demande à décaler certaines échéances après ta paie. Garder un calendrier simple de tes flux suffit souvent à anticiper les jours tendus et à éviter de basculer dans le rouge."
+      },
+      {
+        "heading": "Le matelas tampon",
+        "body": "Garde en permanence une petite somme tampon sur ton compte courant, par exemple 50 ou 100 euros que tu considères comme intouchables. Ce coussin absorbe les petits décalages sans te faire passer sous zéro. Ce n'est pas ton épargne de précaution, c'est juste un airbag du quotidien. Une fois en place, il évite la majorité des découverts accidentels."
+      },
+      {
+        "heading": "Que faire si on est déjà dedans",
+        "body": "Si tu es à découvert chronique, contacte ta banque : elle peut parfois ajuster ton autorisation ou réduire des frais, surtout si tu es de bonne foi. Réduis temporairement tes dépenses non essentielles pour repasser au-dessus de zéro, puis reconstruis ton matelas tampon. Le but est de retrouver de la marge, pas de te culpabiliser : beaucoup de gens passent par là."
+      }
+    ],
+    "steps": [
+      "Note les dates de tes prélèvements et de ton revenu.",
+      "Demande à décaler ce qui tombe avant ta paie si possible.",
+      "Garde un matelas tampon intouchable sur ton compte.",
+      "Coupe les dépenses non essentielles pour repasser positif.",
+      "Contacte ta banque pour ajuster ton autorisation."
+    ],
+    "faq": [
+      {
+        "q": "L'autorisation de découvert, c'est utile ou dangereux ?",
+        "a": "C'est une marge de sécurité pratique en cas d'imprévu, mais elle n'est pas gratuite. Utilise-la rarement et ponctuellement, jamais comme un complément de revenu."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "faire-ses-courses-moins-cher",
+    "theme": "money",
+    "title": "Faire ses courses pour moins cher",
+    "emoji": "🛒",
+    "intro": "L'alimentation est un gros poste de dépenses, et c'est aussi l'un des plus faciles à optimiser sans se priver.",
+    "sections": [
+      {
+        "heading": "La liste avant le magasin",
+        "body": "Faire ses courses sans liste, c'est garantir des achats impulsifs. Avant de partir, planifie tes repas de la semaine et écris exactement ce qu'il te faut. En magasin, tiens-toi à la liste. Cette seule habitude réduit fortement le panier moyen, parce qu'elle coupe les achats déclenchés par la faim, les promos visuelles ou l'envie du moment."
+      },
+      {
+        "heading": "Comparer au prix au kilo",
+        "body": "Le prix affiché en gros trompe : c'est le prix au kilo ou au litre, écrit en petit, qui permet de comparer. Les marques distributeurs sont souvent bien moins chères pour une qualité comparable sur les produits de base. Les grands formats sont rentables si tu consommes tout avant péremption, sinon le gaspillage annule l'économie."
+      },
+      {
+        "heading": "Cuisiner brut plutôt que transformé",
+        "body": "Les plats préparés et produits ultra-transformés coûtent cher au kilo et nourrissent moins bien. Acheter des ingrédients bruts (légumes, légumineuses, céréales, œufs) et cuisiner soi-même réduit nettement la facture. Tu n'as pas besoin de recettes compliquées : quelques bases simples suffisent. C'est meilleur pour le portefeuille et souvent pour la santé."
+      },
+      {
+        "heading": "Limiter le gaspillage",
+        "body": "Jeter de la nourriture, c'est jeter de l'argent. Range ton frigo pour voir ce qui est à consommer en premier, cuisine les restes, congèle ce que tu ne mangeras pas à temps. Regarde aussi les rayons anti-gaspillage et les dates courtes en fin de journée. Acheter juste la quantité nécessaire est souvent le meilleur réflexe d'économie."
+      }
+    ],
+    "steps": [
+      "Planifie tes repas et fais une liste avant de partir.",
+      "Compare les produits au prix au kilo ou au litre.",
+      "Privilégie les marques distributeurs sur les basiques.",
+      "Cuisine des ingrédients bruts plutôt que des plats prêts.",
+      "Range ton frigo et cuisine les restes pour zéro gaspillage."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "distinguer-besoin-et-envie",
+    "theme": "money",
+    "title": "Distinguer un besoin d'une envie",
+    "emoji": "⚖️",
+    "intro": "La frontière entre besoin et envie n'est pas toujours nette. Apprendre à la voir clairement est la base de toute gestion d'argent saine.",
+    "sections": [
+      {
+        "heading": "Pourquoi cette distinction compte",
+        "body": "Un besoin est ce qui te permet de vivre et de fonctionner : se loger, manger, te déplacer pour travailler. Une envie est ce qui ajoute du plaisir ou du confort. Aucune n'est mauvaise, mais les confondre fait dériver le budget. Quand tout semble un besoin, on ne peut plus arbitrer. Savoir nommer chaque dépense te redonne le pouvoir de choisir."
+      },
+      {
+        "heading": "Les envies déguisées en besoins",
+        "body": "Le marketing excelle à transformer une envie en besoin urgent : le dernier téléphone, la marque à la mode, la nouveauté à ne pas rater. Manger est un besoin, mais commander un repas livré est une envie. Se vêtir est un besoin, racheter alors que ta penderie est pleine est une envie. Repérer ces glissements évite beaucoup d'achats regrettés."
+      },
+      {
+        "heading": "Le délai de 24 à 48 heures",
+        "body": "Face à une envie d'achat non essentielle, impose-toi un délai : 24 heures pour les petits montants, 48 heures à une semaine pour les gros. Si après ce temps tu y penses encore et que ça rentre dans ton budget, achète sereinement. Très souvent, l'envie retombe : l'impulsion passée, tu réalises que tu n'en avais pas vraiment besoin."
+      }
+    ],
+    "steps": [
+      "Pour chaque dépense, demande-toi : besoin ou envie ?",
+      "Repère les envies que le marketing déguise en besoins.",
+      "Applique un délai de 24 à 48 h avant tout achat plaisir.",
+      "Si l'envie persiste et rentre dans le budget, achète sans culpabilité.",
+      "Note les envies abandonnées : c'est de l'argent économisé."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "resister-aux-achats-impulsifs",
+    "theme": "money",
+    "title": "Résister aux achats impulsifs",
+    "emoji": "🧲",
+    "intro": "Les achats impulsifs vident le portefeuille sans procurer de vraie satisfaction. Comprendre leurs déclencheurs aide à les désamorcer.",
+    "sections": [
+      {
+        "heading": "Comprendre le déclencheur émotionnel",
+        "body": "On achète rarement par besoin pur : on achète pour calmer une émotion, ennui, stress, tristesse, ou pour se récompenser. L'achat procure un pic de plaisir court, puis l'émotion revient. Identifier ce que tu ressens avant de cliquer ou de sortir la carte est la clé. Souvent, ce que tu cherches n'est pas l'objet mais un soulagement que l'achat ne donne pas."
+      },
+      {
+        "heading": "Compliquer le passage à l'acte",
+        "body": "Plus acheter est facile, plus on achète. Supprime les cartes enregistrées sur les sites et applis, désactive l'achat en un clic, désabonne-toi des newsletters promo, masque les applis shopping de ton écran d'accueil. Chaque friction ajoutée laisse le temps à la raison de reprendre la main. Le but n'est pas de t'interdire, mais de remettre une décision entre l'envie et le paiement."
+      },
+      {
+        "heading": "Le panier en attente",
+        "body": "Quand une envie surgit en ligne, mets l'article dans le panier ou les favoris, puis ferme l'onglet sans payer. Reviens deux ou trois jours plus tard. La plupart du temps, l'envie a disparu et tu refermes sans rien acheter. Si elle est toujours là et que c'est budgété, tu achètes en paix. Cette pause transforme l'impulsion en choix réfléchi."
+      },
+      {
+        "heading": "Anticiper les pièges du quotidien",
+        "body": "Certaines situations augmentent les achats impulsifs : faire les courses en ayant faim, scroller le soir fatigué, traîner en boutique pour passer le temps. Repère tes moments à risque et évite-les ou prépare-toi : liste en main, budget plaisir défini à l'avance. Te connaître vaut mieux que compter sur ta seule volonté au mauvais moment."
+      }
+    ],
+    "steps": [
+      "Identifie l'émotion ressentie juste avant d'acheter.",
+      "Supprime les cartes enregistrées et l'achat en un clic.",
+      "Désabonne-toi des newsletters et notifications promo.",
+      "Mets l'article en attente 2 à 3 jours avant de décider.",
+      "Évite les situations à risque (courses en ayant faim, scroll du soir)."
+    ],
+    "faq": [
+      {
+        "q": "Je peux quand même m'offrir des choses ?",
+        "a": "Bien sûr. Prévois une enveloppe plaisir dans ton budget. Dépenser dedans est sain : ce qu'on combat, c'est l'achat non choisi, pas le plaisir planifié."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "la-methode-des-enveloppes",
+    "theme": "money",
+    "title": "La méthode des enveloppes pour cadrer ses dépenses",
+    "emoji": "✉️",
+    "intro": "Répartir son argent dans des enveloppes, physiques ou numériques, rend le budget concret et empêche de dépasser sans s'en rendre compte.",
+    "sections": [
+      {
+        "heading": "Le principe",
+        "body": "Tu divises ton budget en catégories (courses, sorties, transport, vêtements) et tu attribues à chacune une enveloppe avec un montant fixe pour le mois. Quand une enveloppe est vide, tu arrêtes de dépenser dans cette catégorie jusqu'au mois suivant. La limite devient visible et tangible, au lieu d'un chiffre abstrait sur un compte unique où tout se mélange."
+      },
+      {
+        "heading": "Version physique ou numérique",
+        "body": "La version classique utilise de vraies enveloppes avec des espèces : très efficace car voir l'argent diminuer marque le cerveau. La version moderne utilise plusieurs comptes ou des sous-comptes proposés par certaines banques, ou une appli de budget par enveloppes. Choisis ce qui colle à ta vie. L'important est que chaque catégorie ait sa limite séparée et visible."
+      },
+      {
+        "heading": "Gérer les enveloppes vides ou pleines",
+        "body": "Si une enveloppe se vide trop vite plusieurs mois de suite, son budget est mal calibré : ajuste-le. Si une enveloppe finit le mois avec un reste, tu peux le garder pour le mois suivant ou le verser à l'épargne. Évite de piocher dans l'enveloppe d'une autre catégorie : c'est ce transfert permanent qui fait perdre tout le bénéfice de la méthode."
+      }
+    ],
+    "steps": [
+      "Liste tes catégories de dépenses variables.",
+      "Attribue un montant mensuel fixe à chaque enveloppe.",
+      "Choisis le support : espèces, sous-comptes ou appli.",
+      "Dépense uniquement dans la limite de chaque enveloppe.",
+      "Réajuste les montants après deux ou trois mois de test."
+    ],
+    "faq": [
+      {
+        "q": "Ça marche si je paie tout par carte ?",
+        "a": "Oui, avec des sous-comptes ou une appli de budget par enveloppes. Le principe reste le même : une limite séparée et visible par catégorie."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fixer-des-objectifs-d-epargne",
+    "theme": "money",
+    "title": "Fixer des objectifs d'épargne motivants",
+    "emoji": "🎯",
+    "intro": "Épargner sans but s'essouffle vite. Des objectifs clairs et chiffrés transforment l'effort en projet excitant.",
+    "sections": [
+      {
+        "heading": "Pourquoi un objectif change la motivation",
+        "body": "Mettre de l'argent de côté « au cas où » est abstrait et peu stimulant. Un objectif concret, lui, donne un sens à chaque virement : épargner pour le permis, un voyage, un ordinateur pour étudier, un dépôt de garantie. Quand tu sais précisément pourquoi tu te prives un peu aujourd'hui, l'effort devient un choix assumé plutôt qu'une contrainte subie."
+      },
+      {
+        "heading": "Rendre l'objectif précis et daté",
+        "body": "Un bon objectif a un montant et une échéance : « 600 euros pour le permis d'ici dix mois ». Divise ensuite le montant par le nombre de mois pour obtenir l'effort mensuel : ici 60 euros. Tu sais exactement quoi viser. Si l'effort mensuel est trop lourd, allonge l'échéance plutôt que d'abandonner l'objectif entier."
+      },
+      {
+        "heading": "Séparer et visualiser",
+        "body": "Garde l'argent de chaque objectif distinct, idéalement sur un livret ou sous-compte dédié et nommé. Voir « voyage : 240/600 » est bien plus motivant qu'un chiffre global. Suis ta progression avec une barre, un tableau ou une appli. Chaque palier franchi entretient l'élan. Quelques petites victoires intermédiaires valent mieux qu'un sommet lointain et flou."
+      }
+    ],
+    "steps": [
+      "Choisis un objectif concret avec un montant précis.",
+      "Fixe une échéance réaliste.",
+      "Divise le montant par le nombre de mois pour l'effort mensuel.",
+      "Ouvre un sous-compte ou livret dédié et nomme-le.",
+      "Suis ta progression visuellement et célèbre chaque palier."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-le-credit-et-les-interets",
+    "theme": "money",
+    "title": "Comprendre le crédit et les intérêts",
+    "emoji": "📉",
+    "intro": "Le crédit n'est ni bon ni mauvais en soi : c'est un outil. Mais mal compris, il coûte cher. Voici les bases pour décider en connaissance.",
+    "sections": [
+      {
+        "heading": "Ce qu'est vraiment un crédit",
+        "body": "Un crédit, c'est emprunter de l'argent maintenant et le rembourser plus tard, avec un coût : les intérêts. Ce coût est exprimé par un taux. Plus le taux est élevé et plus la durée est longue, plus tu paieras au total. Emprunter pour un besoin réel et réfléchi peut être justifié ; emprunter pour une envie l'est rarement. La question clé est toujours : combien ça coûte au final ?"
+      },
+      {
+        "heading": "Lire le TAEG",
+        "body": "Le TAEG (taux annuel effectif global) est le chiffre à regarder : il inclut le taux d'intérêt plus les frais obligatoires, et permet de comparer deux offres honnêtement. Un crédit affiché « 0 % » peut cacher des frais ailleurs. Méfie-toi des crédits renouvelables et des paiements en plusieurs fois : leurs taux sont souvent parmi les plus élevés du marché."
+      },
+      {
+        "heading": "Le piège du crédit renouvelable",
+        "body": "Le crédit renouvelable, ou crédit revolving, est une réserve d'argent rechargeable à taux souvent très élevé. Comme on rembourse peu chaque mois, la dette s'étire et les intérzaeêts s'accumulent. C'est l'un des crédits les plus coûteux. Si tu en as un, vise à le rembourser vite et en priorité, et évite d'en ouvrir un nouveau sur un coup de tête en magasin."
+      },
+      {
+        "heading": "Emprunter de façon responsable",
+        "body": "Avant tout crédit, vérifie que la mensualité tient confortablement dans ton budget, même en cas d'imprévu. Une règle prudente : l'ensemble de tes remboursements ne devrait pas dévorer une part trop lourde de tes revenus. Lis tout le contrat, comprends la durée totale et le coût total, pas seulement la mensualité. Si quelque chose n'est pas clair, ne signe pas."
+      }
+    ],
+    "steps": [
+      "Demande toujours le coût total, pas seulement la mensualité.",
+      "Compare les offres avec le TAEG, pas le taux affiché.",
+      "Fuis les crédits renouvelables à taux très élevé.",
+      "Vérifie que la mensualité tient dans ton budget avec marge.",
+      "Lis tout le contrat avant de signer, et refuse si c'est flou."
+    ],
+    "faq": [
+      {
+        "q": "Le paiement en plusieurs fois sans frais, c'est risqué ?",
+        "a": "S'il est vraiment sans frais et que le montant rentre dans ton budget, il peut dépanner. Le risque est d'en cumuler plusieurs et de perdre la vue d'ensemble."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "petits-jobs-etudiants",
+    "theme": "money",
+    "title": "Trouver un petit job étudiant",
+    "emoji": "🧑‍🍳",
+    "intro": "Un job étudiant apporte un premier revenu, de l'expérience et de l'autonomie. Voici comment en trouver un sans y passer des mois.",
+    "sections": [
+      {
+        "heading": "Les jobs accessibles sans expérience",
+        "body": "Beaucoup de secteurs recrutent des débutants : restauration, vente, livraison encadrée, baby-sitting, soutien scolaire, manutention, événementiel, garde d'animaux, accueil. L'enjeu n'est pas le job parfait mais un premier pied dans le monde du travail. Chaque expérience, même courte, t'apprend la ponctualité, le contact client et la fiabilité, des atouts pour la suite."
+      },
+      {
+        "heading": "Où chercher efficacement",
+        "body": "Combine plusieurs canaux : sites d'emploi étudiant, services jobs de ton école ou université, panneaux d'affichage, commerces de ton quartier en candidature spontanée, et surtout ton entourage. Beaucoup de petits jobs ne sont jamais publiés et se trouvent par le bouche-à-oreille. Dis autour de toi que tu cherches : un proche connaît souvent quelqu'un qui recrute."
+      },
+      {
+        "heading": "Concilier job et études",
+        "body": "Le piège est de trop travailler et de voir ses notes chuter. Privilégie un volume d'heures raisonnable, des horaires compatibles avec tes cours, et un employeur qui accepte d'ajuster pendant les examens. Un contrat à temps partiel ou des missions ponctuelles te laissent de la souplesse. Ton job doit financer tes études, pas les sacrifier."
+      },
+      {
+        "heading": "Connaître ses droits de base",
+        "body": "Même pour un petit job, exige un contrat écrit avant de commencer, vérifie le taux horaire et tes heures, et garde tes fiches de paie. Tu as droit à une rémunération au moins égale au minimum légal et au paiement de toutes tes heures. Si quelque chose te semble anormal, renseigne-toi auprès du service jobs de ton établissement ou d'une association d'aide aux jeunes."
+      }
+    ],
+    "steps": [
+      "Liste les types de jobs ouverts aux débutants.",
+      "Prépare un CV court et une candidature spontanée.",
+      "Active plusieurs canaux, dont le bouche-à-oreille.",
+      "Choisis un volume d'heures compatible avec tes cours.",
+      "Exige un contrat écrit et conserve tes fiches de paie."
+    ],
+    "faq": [
+      {
+        "q": "Combien d'heures par semaine est raisonnable ?",
+        "a": "Cela dépend de ta charge d'études, mais en période de cours, un volume modéré protège tes résultats. Réserve les gros volumes aux vacances."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "rediger-un-cv-pour-petit-job",
+    "theme": "money",
+    "title": "Rédiger un CV simple pour un premier job",
+    "emoji": "📄",
+    "intro": "Pas besoin d'expérience pour avoir un bon CV. Un document clair, honnête et bien présenté suffit pour décrocher un premier job.",
+    "sections": [
+      {
+        "heading": "Ce qu'un recruteur regarde vraiment",
+        "body": "Pour un petit job, le recruteur ne cherche pas un parcours impressionnant : il cherche quelqu'un de fiable, disponible et motivé. Un CV propre, sans faute, facile à lire en quelques secondes, joue déjà en ta faveur. Tes coordonnées, ta disponibilité et un contact clair comptent souvent plus qu'une longue liste d'expériences que tu n'as pas encore."
+      },
+      {
+        "heading": "Structurer sans expérience",
+        "body": "Si tu n'as pas encore travaillé, valorise le reste : formation en cours, stages, bénévolat, projets scolaires, baby-sitting, sport en équipe, gestion d'un compte de contenu. Tout cela montre des qualités réelles : responsabilité, régularité, travail d'équipe. Ajoute une courte section compétences et langues. L'idée est de prouver que tu sais t'engager et apprendre."
+      },
+      {
+        "heading": "Soigner la forme",
+        "body": "Tiens-toi à une seule page, une police lisible, des titres clairs et des marges aérées. Évite les couleurs criardes et les designs surchargés. Relis-toi plusieurs fois et fais relire par quelqu'un : une faute peut suffire à écarter ta candidature. Enregistre ton CV en PDF nommé proprement, avec ton prénom et ton nom, pour faire bonne impression dès l'ouverture du fichier."
+      }
+    ],
+    "steps": [
+      "Mets en haut tes coordonnées et ta disponibilité.",
+      "Liste formation, stages, bénévolat et projets concrets.",
+      "Ajoute une section compétences et langues.",
+      "Garde une seule page, claire et aérée.",
+      "Relis, fais relire, et enregistre en PDF bien nommé."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reussir-un-entretien-debutant",
+    "theme": "money",
+    "title": "Réussir un entretien quand on débute",
+    "emoji": "🤝",
+    "intro": "Un entretien pour un premier job se prépare facilement. Ce que cherche le recruteur : du sérieux, de la motivation et un peu de bon sens.",
+    "sections": [
+      {
+        "heading": "Préparer l'essentiel",
+        "body": "Renseigne-toi rapidement sur l'employeur : que fait-il, quel poste, quels horaires. Prépare deux ou trois phrases sur pourquoi tu veux ce job et ce que tu peux apporter, même sans expérience : disponibilité, sérieux, envie d'apprendre. Anticipe les questions classiques et prépare aussi une question à poser. Arriver préparé montre que tu prends la démarche au sérieux."
+      },
+      {
+        "heading": "L'attitude le jour J",
+        "body": "Arrive cinq à dix minutes en avance, habillé proprement et de façon adaptée au poste. Coupe ton téléphone. Souris, regarde la personne, donne une poignée de main franche si c'est l'usage. Réponds avec des phrases complètes, pas en monosyllabes. Si tu ne sais pas, dis-le honnêtement plutôt que d'inventer. La sincérité et la politesse impressionnent plus qu'un discours appris par cœur."
+      },
+      {
+        "heading": "Après l'entretien",
+        "body": "Remercie en partant. Un court message de remerciement le lendemain, simple et poli, laisse une bonne impression sans en faire trop. Si tu n'as pas de réponse après le délai annoncé, une relance polie est légitime. En cas de refus, demande gentiment ce que tu pourrais améliorer : ce retour te servira pour le prochain entretien. Chaque entretien est un entraînement."
+      }
+    ],
+    "steps": [
+      "Renseigne-toi sur l'employeur et le poste.",
+      "Prépare ta motivation et une question à poser.",
+      "Arrive en avance, propre et téléphone coupé.",
+      "Réponds avec sincérité et des phrases complètes.",
+      "Remercie, et relance poliment si besoin."
+    ],
+    "faq": [
+      {
+        "q": "Que dire si on me demande mon expérience et que je n'en ai pas ?",
+        "a": "Sois honnête et redirige vers tes qualités : sérieux, ponctualité, envie d'apprendre vite. Les employeurs de premiers jobs s'y attendent."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vendre-ses-objets-d-occasion",
+    "theme": "money",
+    "title": "Vendre ses objets d'occasion en ligne",
+    "emoji": "📦",
+    "intro": "Vendre ce que tu n'utilises plus libère de l'espace et te rapporte de l'argent. C'est un revenu d'appoint simple et accessible à tous.",
+    "sections": [
+      {
+        "heading": "Trier ce qui se vend",
+        "body": "Fais le tour de chez toi : vêtements jamais portés, livres, jeux, électronique, déco, accessoires. Une bonne question : « Si je devais racheter cet objet aujourd'hui, le ferais-je ? » Si non, il peut partir. Les objets en bon état, propres et de marques connues se vendent le mieux. Trier régulièrement, par exemple à chaque changement de saison, alimente un petit revenu continu."
+      },
+      {
+        "heading": "Des annonces qui vendent",
+        "body": "Une bonne annonce, c'est de bonnes photos et une description honnête. Prends les photos en lumière naturelle, sur fond neutre, sous plusieurs angles, en montrant les défauts éventuels. Décris l'état réel, la taille, la marque, les dimensions. Fixe un prix en comparant des articles similaires déjà vendus. L'honnêteté évite les litiges et les mauvais avis qui plombent les ventes suivantes."
+      },
+      {
+        "heading": "Vendre en toute sécurité",
+        "body": "Privilégie les plateformes connues qui sécurisent le paiement et l'envoi. Méfie-toi des acheteurs qui veulent payer hors plateforme, t'envoient des liens étranges ou pressent. Pour une remise en main propre, choisis un lieu public et passant. N'envoie jamais un objet avant d'avoir la confirmation de paiement par la plateforme elle-même. La prudence évite la quasi-totalité des arnaques de revente."
+      },
+      {
+        "heading": "Gérer envois et acheteurs",
+        "body": "Réponds vite et poliment aux questions, emballe soigneusement, et envoie dans le délai annoncé avec un suivi quand c'est possible. Garde la preuve d'expédition. Un vendeur fiable obtient de bons avis, ce qui rassure les futurs acheteurs et accélère les ventes suivantes. Considère ça comme un mini-service client : la régularité construit une petite réputation utile."
+      }
+    ],
+    "steps": [
+      "Trie tes objets inutilisés en bon état.",
+      "Prends de bonnes photos et écris une description honnête.",
+      "Fixe un prix en comparant des ventes similaires.",
+      "Vends sur des plateformes connues qui sécurisent le paiement.",
+      "Emballe soigneusement et envoie avec un suivi."
+    ],
+    "faq": [
+      {
+        "q": "Faut-il déclarer cet argent ?",
+        "a": "Revendre ses objets personnels d'occasion sans intention de bénéfice n'est en général pas concerné. Si tu en fais une activité régulière et lucrative, renseigne-toi sur les règles fiscales de ton pays."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vide-dressing-rentable",
+    "theme": "money",
+    "title": "Organiser un vide-dressing rentable",
+    "emoji": "👗",
+    "intro": "Ta penderie déborde de vêtements jamais portés ? Un vide-dressing bien mené peut rapporter et te libérer de la place.",
+    "sections": [
+      {
+        "heading": "Faire un tri honnête",
+        "body": "Sors tout et range en trois piles : je garde, je vends, je donne ou recycle. Sois honnête : un vêtement non porté depuis un an a peu de chances de revenir. Les pièces propres, sans défaut majeur, de marques identifiables et toujours dans l'air du temps se vendent le mieux. Les vêtements abîmés se donnent à des points de collecte plutôt que de les vendre."
+      },
+      {
+        "heading": "Valoriser chaque pièce",
+        "body": "Lave et repasse avant de photographier. Une pièce nette se vend mieux et plus cher. Photographie portée ou bien à plat sur fond neutre, en lumière du jour. Indique la marque, la taille réelle, la matière, l'état et les éventuels défauts. Recherche le prix de pièces équivalentes pour fixer un tarif juste : ni trop haut, sinon ça ne part pas, ni bradé."
+      },
+      {
+        "heading": "Vendre en lot ou à l'unité",
+        "body": "Les pièces de valeur se vendent à l'unité. Les vêtements basiques ou de moindre valeur partent mieux en lots, par exemple un lot de t-shirts de la même taille. Tu peux aussi participer à un vide-dressing physique ou un dépôt-vente local. Multiplier les canaux accélère les ventes. L'objectif est d'écouler, pas de stocker indéfiniment en attendant le prix parfait."
+      }
+    ],
+    "steps": [
+      "Trie en trois piles : garder, vendre, donner.",
+      "Lave et repasse les pièces à vendre.",
+      "Photographie en lumière naturelle sur fond neutre.",
+      "Fixe les prix en comparant des pièces similaires.",
+      "Vends les pièces de valeur à l'unité et le reste en lots."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "competences-monetisables-introduction",
+    "theme": "money",
+    "title": "Identifier une compétence qui peut rapporter",
+    "emoji": "🛠️",
+    "intro": "Avant de chercher à gagner de l'argent avec une compétence, encore faut-il savoir laquelle développer. Voici comment choisir intelligemment.",
+    "sections": [
+      {
+        "heading": "Une compétence vendable, c'est quoi",
+        "body": "Une compétence rapporte quand elle résout un problème pour quelqu'un d'autre : écrire un texte clair, créer un visuel, monter une vidéo, gérer des réseaux sociaux, coder une page, traduire, donner des cours. Le point commun : c'est un service concret dont des gens ou des entreprises ont besoin. Une passion devient un revenu quand elle répond à une demande réelle, pas juste à ton plaisir."
+      },
+      {
+        "heading": "Croiser envie, aptitude et demande",
+        "body": "La bonne compétence se trouve à l'intersection de trois choses : ce que tu aimes faire, ce pour quoi tu as des facilités, et ce que des gens sont prêts à payer. Une compétence demandée que tu détestes te fera abandonner ; une passion sans demande ne paiera pas. Liste tes intérêts, observe ce qu'on te demande déjà gratuitement, et regarde ce qui se vend autour de toi."
+      },
+      {
+        "heading": "Le temps d'apprentissage est normal",
+        "body": "Aucune compétence ne devient rentable en une semaine. Compte plusieurs mois de pratique régulière avant de pouvoir facturer correctement. C'est un investissement, pas un raccourci. Méfie-toi de toute promesse de revenu rapide sans effort : c'est le signal d'une arnaque. La bonne nouvelle, c'est qu'une compétence solide, une fois acquise, te sert des années."
+      }
+    ],
+    "steps": [
+      "Liste ce que tu aimes faire et ce qui te vient facilement.",
+      "Repère ce qu'on te demande déjà, même gratuitement.",
+      "Vérifie qu'il existe une vraie demande payante.",
+      "Choisis une compétence à l'intersection des trois.",
+      "Accepte un temps d'apprentissage de plusieurs mois."
+    ],
+    "faq": [
+      {
+        "q": "Je n'ai aucune compétence particulière, je fais quoi ?",
+        "a": "Tout le monde commence là. Choisis-en une qui t'attire et apprends-la régulièrement. La compétence se construit, elle n'est jamais innée."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "se-lancer-dans-la-redaction-web",
+    "theme": "money",
+    "title": "Se lancer dans la rédaction web",
+    "emoji": "✍️",
+    "intro": "Si tu aimes écrire, la rédaction web est une compétence accessible et demandée. Voici comment en faire un premier revenu sérieusement.",
+    "sections": [
+      {
+        "heading": "Ce que fait un rédacteur web",
+        "body": "Un rédacteur web écrit des contenus pour des sites : articles de blog, fiches produit, pages d'information, newsletters. Le travail consiste à rendre un sujet clair, utile et agréable à lire, en respectant un thème et parfois des consignes de référencement. Pas besoin d'être romancier : il faut surtout savoir structurer ses idées, écrire sans faute et adapter son ton au public visé."
+      },
+      {
+        "heading": "Développer la compétence",
+        "body": "Travaille trois bases : l'orthographe et la grammaire irréprochables, la structure claire (titre, introduction, sections, conclusion), et la capacité à rendre un texte vivant. Lis beaucoup, écris régulièrement, fais-toi relire. Tu peux aussi apprendre les notions simples de référencement naturel. La régularité fait progresser plus vite que n'importe quelle astuce."
+      },
+      {
+        "heading": "Construire un échantillon de travail",
+        "body": "Personne ne te confiera de mission sans voir ce que tu sais faire. Crée toi-même trois ou quatre articles d'exemple sur des sujets variés, soignés comme s'ils étaient commandés. Tu peux aussi tenir un petit blog. Cet échantillon devient ton portfolio, l'outil clé pour convaincre tes premiers clients. La qualité de ces textes compte plus que leur quantité."
+      },
+      {
+        "heading": "Trouver ses premiers clients",
+        "body": "Commence par des missions modestes : plateformes de rédaction pour débutants, petites entreprises locales, associations, créateurs de contenu de ton entourage. Propose un service clair et un tarif honnête de débutant. Livre dans les délais, soigne chaque texte, demande un avis. Un premier client satisfait en amène d'autres, et tes tarifs montent avec ton expérience."
+      }
+    ],
+    "steps": [
+      "Travaille ton orthographe et ta structuration de texte.",
+      "Apprends les bases du référencement naturel.",
+      "Rédige 3 ou 4 articles d'exemple soignés.",
+      "Propose tes services à de petites structures locales.",
+      "Livre dans les délais et demande des avis pour progresser."
+    ],
+    "faq": [
+      {
+        "q": "L'IA va-t-elle remplacer les rédacteurs ?",
+        "a": "L'IA est un outil. Les rédacteurs qui savent vérifier les faits, apporter un angle, une vraie voix et structurer un sujet restent recherchés. Apprends à t'en servir comme assistant."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "se-lancer-dans-le-design-graphique",
+    "theme": "money",
+    "title": "Se lancer dans le design graphique",
+    "emoji": "🎨",
+    "intro": "Le design graphique est une compétence créative très demandée. Avec des outils gratuits et de la pratique, on peut en faire un revenu.",
+    "sections": [
+      {
+        "heading": "Ce que couvre le design débutant",
+        "body": "Pas besoin de viser des projets complexes pour commencer. La demande est forte sur des besoins simples : logos basiques, visuels pour réseaux sociaux, affiches, cartes de visite, miniatures de vidéos, présentations. Beaucoup de petites structures n'ont pas de designer et seraient ravies d'un coup de main soigné. Ce sont des projets parfaits pour débuter et se constituer un portfolio."
+      },
+      {
+        "heading": "Les outils pour démarrer",
+        "body": "Tu n'as pas besoin de logiciels coûteux au départ. Des outils gratuits ou peu chers permettent de créer des visuels de qualité et d'apprendre les bases : composition, couleurs, typographie, hiérarchie de l'information. Progressivement, tu pourras explorer des logiciels plus avancés. L'essentiel n'est pas l'outil mais ton œil : un bon design clair vaut mieux qu'un effet compliqué."
+      },
+      {
+        "heading": "Apprendre les fondamentaux",
+        "body": "Le design qui plaît respecte quelques principes : un alignement net, des couleurs cohérentes et limitées, deux polices maximum, des espaces qui laissent respirer, et un message clair en priorité. Étudie de bons exemples, observe ce qui fonctionne et pourquoi. Refais des designs existants pour t'entraîner. Ces fondamentaux comptent plus que les tendances qui passent."
+      },
+      {
+        "heading": "Montrer et vendre son travail",
+        "body": "Crée un portfolio en ligne, même simple, avec tes meilleurs travaux, vrais ou fictifs mais soignés. Propose tes services à ton entourage, aux commerces locaux, aux créateurs. Commence avec des tarifs de débutant et des délais clairs. Sois pro : brief précis, deux ou trois propositions, révisions limitées et annoncées. La fiabilité fidélise autant que le talent."
+      }
+    ],
+    "steps": [
+      "Choisis un outil de création gratuit pour démarrer.",
+      "Apprends les bases : alignement, couleur, typographie, espaces.",
+      "Entraîne-toi en refaisant de bons designs existants.",
+      "Constitue un portfolio en ligne avec tes meilleurs visuels.",
+      "Propose tes services autour de toi à des tarifs de débutant."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "apprendre-a-coder-pour-gagner-sa-vie",
+    "theme": "money",
+    "title": "Apprendre à coder pour en vivre un jour",
+    "emoji": "💻",
+    "intro": "Le code est une compétence très recherchée et accessible en autodidacte. Voici un chemin réaliste pour en faire un métier ou un revenu.",
+    "sections": [
+      {
+        "heading": "Pourquoi le code reste une bonne carte",
+        "body": "Les entreprises ont besoin de sites, d'applis et d'outils, donc de gens qui savent les construire. Le code se prête bien à l'apprentissage en autodidacte : énormément de ressources gratuites existent, et on peut prouver son niveau par des projets concrets plutôt que par un diplôme. C'est une compétence exigeante mais durable, qui ouvre l'emploi salarié comme le freelance."
+      },
+      {
+        "heading": "Choisir une première voie",
+        "body": "Ne disperse pas ton énergie. Choisis un domaine pour commencer : le développement web front-end est souvent recommandé aux débutants, car les résultats sont visuels et motivants. Apprends d'abord une base solide avant de papillonner. Mieux vaut maîtriser correctement un ensemble cohérent que survoler dix technologies. La spécialisation viendra naturellement avec l'expérience."
+      },
+      {
+        "heading": "Apprendre par la pratique",
+        "body": "Regarder des tutoriels ne suffit pas : on apprend à coder en codant. Après chaque notion, construis quelque chose, même petit. Multiplie les projets personnels : une page, un mini-jeu, un outil qui te sert à toi. Tu te heurteras à des bugs, c'est normal et formateur. Chercher la solution par soi-même est une compétence aussi importante que le code lui-même."
+      },
+      {
+        "heading": "Du premier projet au premier revenu",
+        "body": "Rassemble tes meilleurs projets dans un portfolio public. Contribue à des projets ouverts pour gagner en expérience. Pour les premiers revenus, vise des missions simples : site vitrine pour un commerce, petite correction de code, intégration. En parallèle, prépare une éventuelle candidature à un poste junior. Le temps d'apprentissage se compte en mois, voire en années, mais le métier en vaut la peine."
+      }
+    ],
+    "steps": [
+      "Choisis une première voie (souvent le web front-end).",
+      "Apprends une base solide avant de te disperser.",
+      "Construis un petit projet après chaque notion apprise.",
+      "Rassemble tes projets dans un portfolio public.",
+      "Vise des missions simples puis un poste junior."
+    ],
+    "faq": [
+      {
+        "q": "Faut-il un diplôme pour travailler dans le code ?",
+        "a": "Un diplôme aide, mais beaucoup de développeurs sont autodidactes ou issus de formations courtes. Un portfolio de projets concrets prouve ton niveau."
+      },
+      {
+        "q": "En combien de temps peut-on être employable ?",
+        "a": "Avec une pratique régulière et sérieuse, on parle souvent de plusieurs mois à un an ou deux. Méfie-toi des promesses de réussite en quelques semaines."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "se-lancer-dans-le-montage-video",
+    "theme": "money",
+    "title": "Se lancer dans le montage vidéo",
+    "emoji": "🎬",
+    "intro": "Avec l'explosion de la vidéo, savoir monter est une compétence très demandée. C'est accessible et ça peut devenir un vrai revenu.",
+    "sections": [
+      {
+        "heading": "La demande autour de la vidéo",
+        "body": "Créateurs de contenu, petites entreprises, marques et formateurs produisent de la vidéo en masse mais manquent souvent de temps pour la monter. C'est là qu'un monteur intervient : couper, rythmer, ajouter sous-titres, transitions et habillage. Les formats courts pour réseaux sociaux et les vidéos longues type tutoriel sont deux marchés actifs, accessibles à un débutant motivé."
+      },
+      {
+        "heading": "Les compétences à acquérir",
+        "body": "Apprends d'abord les bases du montage : couper proprement, garder un bon rythme, soigner le son, ajouter des sous-titres lisibles, choisir une musique adaptée. Un bon montage se remarque à peine : il sert le message sans le surcharger d'effets. Des logiciels gratuits ou abordables suffisent pour commencer et progresser. Le rythme et la clarté priment sur les effets spectaculaires."
+      },
+      {
+        "heading": "Se constituer une démo",
+        "body": "Avant de chercher des clients, monte trois ou quatre vidéos d'exemple : reprends des rushes libres de droits ou tes propres vidéos, et montre différents styles. Une courte vidéo de présentation de tes meilleurs montages est un excellent argument. Ce showreel prouve concrètement ton niveau, bien plus qu'une longue description écrite de tes compétences."
+      },
+      {
+        "heading": "Trouver ses premiers clients",
+        "body": "Approche les créateurs de taille moyenne, les petites entreprises locales, les formateurs en ligne. Propose un service clair : type de vidéo, délai, nombre de révisions, tarif de débutant. Sois fiable sur les délais et le format de livraison. Un client content te recommandera, et le montage est un métier où la relation de confiance pèse beaucoup dans la fidélisation."
+      }
+    ],
+    "steps": [
+      "Apprends à couper proprement, rythmer et soigner le son.",
+      "Maîtrise les sous-titres et un habillage simple.",
+      "Monte 3 ou 4 vidéos d'exemple variées.",
+      "Crée un showreel court de tes meilleurs montages.",
+      "Propose tes services aux créateurs et entreprises locales."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "se-lancer-en-community-management",
+    "theme": "money",
+    "title": "Se lancer en community management",
+    "emoji": "📱",
+    "intro": "Gérer les réseaux sociaux d'une marque est une compétence concrète et recherchée. Beaucoup de petites structures cherchent de l'aide.",
+    "sections": [
+      {
+        "heading": "Ce que fait un community manager",
+        "body": "Un community manager anime la présence d'une marque sur les réseaux : planifier des publications, écrire des légendes, répondre aux commentaires et messages, suivre les résultats. Le but est de construire une communauté et de représenter la marque avec un ton cohérent. C'est un mélange de création, d'organisation et de relation : pas besoin d'être influenceur, il faut être méthodique et à l'aise à l'écrit."
+      },
+      {
+        "heading": "Les compétences clés",
+        "body": "Travaille plusieurs choses : connaître le fonctionnement des principaux réseaux, écrire des légendes claires et engageantes, créer ou organiser des visuels simples, planifier un calendrier de contenus, et lire des statistiques de base. La régularité et la réactivité comptent énormément. Un bon community manager comprend l'audience de la marque et adapte le ton à chaque plateforme."
+      },
+      {
+        "heading": "Prouver sa valeur",
+        "body": "Pour convaincre, montre du concret. Tu peux gérer le compte d'une association, d'un proche commerçant, ou créer un compte exemple sur un thème, et documenter ce que tu as fait et les résultats obtenus. Cette preuve compte plus qu'un discours. Les clients veulent voir que tu sais publier régulièrement, écrire correctement et faire grandir une présence, même modeste."
+      },
+      {
+        "heading": "Trouver et garder des clients",
+        "body": "Les petites entreprises locales, artisans, associations et indépendants sont une cible idéale : ils ont besoin de visibilité mais pas le temps de s'en occuper. Propose une offre claire : nombre de publications, plateformes, reporting, tarif mensuel de débutant. Sois fiable et transparent sur les résultats. Le community management est un service de long terme : un client satisfait reste des mois."
+      }
+    ],
+    "steps": [
+      "Apprends le fonctionnement des principaux réseaux.",
+      "Entraîne-toi à écrire des légendes claires et engageantes.",
+      "Gère un compte réel (association, commerce, exemple) comme preuve.",
+      "Construis une offre claire avec publications et reporting.",
+      "Cible les petites structures locales qui manquent de temps."
+    ],
+    "faq": [
+      {
+        "q": "Faut-il avoir beaucoup d'abonnés personnellement ?",
+        "a": "Non. Ton compte personnel n'a pas à être populaire. Ce qui compte, c'est ta capacité à animer le compte d'une marque avec méthode et régularité."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bien-fixer-ses-tarifs-debutant",
+    "theme": "money",
+    "title": "Bien fixer ses tarifs quand on débute",
+    "emoji": "🏷️",
+    "intro": "Trop cher, on ne décroche rien ; trop bas, on s'épuise pour rien. Voici comment fixer un tarif juste pour démarrer une activité.",
+    "sections": [
+      {
+        "heading": "Le piège du tarif trop bas",
+        "body": "Beaucoup de débutants cassent les prix par peur de ne rien décrocher. Mais un tarif minuscule attire souvent des clients difficiles, t'épuise et te fait passer pour peu sérieux. Travailler quasi gratuitement n'est pas durable. Un tarif bas de débutant est normal au début, mais il doit rester raisonnable et augmenter dès que tu gagnes en expérience et en avis positifs."
+      },
+      {
+        "heading": "Comment estimer un prix",
+        "body": "Regarde ce que pratiquent d'autres débutants de ton domaine, puis estime le temps que te prend une prestation. Vise un tarif qui, divisé par tes heures, reste correct, sans oublier le temps invisible : échanges, révisions, recherche. Tu peux facturer à l'heure, au projet ou au forfait. Le tarif au projet rassure souvent le client, à condition de bien cadrer ce qui est inclus."
+      },
+      {
+        "heading": "Augmenter ses prix progressivement",
+        "body": "Tes tarifs de départ ne sont pas figés. À chaque palier, projets livrés, avis positifs, compétences renforcées, tu peux augmenter. Annonce les nouveaux tarifs simplement aux nouveaux clients, et calmement aux anciens. Une hausse régulière et raisonnable est saine et attendue. Rester éternellement au tarif débutant alors qu'on progresse, c'est se sous-payer et freiner son activité."
+      }
+    ],
+    "steps": [
+      "Observe les tarifs d'autres débutants de ton domaine.",
+      "Estime le temps réel d'une prestation, révisions incluses.",
+      "Choisis un mode de facturation : heure, projet ou forfait.",
+      "Fixe un tarif de débutant raisonnable, jamais dérisoire.",
+      "Augmente tes prix à chaque palier d'expérience."
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

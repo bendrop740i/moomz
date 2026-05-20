@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/lib/i18n-server";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
+import { FORMATION_THEMES, THEME_META } from "@/lib/formation/types";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 
 export const revalidate = 3600;
@@ -546,6 +547,18 @@ const YOU_LINKS: Record<HubLocale, { emoji: string; label: string; href: string 
   ],
 };
 
+// Formation — practical self-improvement modules for 17-34 year olds.
+const FORMATION_T: Record<HubLocale, { title: string; sub: string }> = {
+  fr: { title: "Formation", sub: "Modules concrets : lookmaxxing, forme, argent, mental, études, style…" },
+  en: { title: "Formation", sub: "Practical modules: looksmaxxing, fitness, money, mindset, studies, style…" },
+  es: { title: "Formación", sub: "Módulos prácticos: estética, forma física, dinero, mentalidad, estudios…" },
+  it: { title: "Formazione", sub: "Moduli pratici: cura di sé, forma, soldi, mentalità, studio, stile…" },
+  pt: { title: "Formação", sub: "Módulos práticos: estética, forma, dinheiro, mentalidade, estudos…" },
+  de: { title: "Formation", sub: "Praktische Module: Looksmaxxing, Fitness, Geld, Mindset, Studium…" },
+  ja: { title: "フォーメーション", sub: "実践モジュール:ルックスマックス、運動、お金、メンタル、勉強…" },
+  zh: { title: "成长课程", sub: "实用模块：颜值提升、健身、赚钱、心态、学习、穿搭…" },
+};
+
 export default function ExplorePage() {
   const locale = getLocale();
   const hl: HubLocale = (
@@ -559,6 +572,7 @@ export default function ExplorePage() {
   const t = EXPLORE_T[hl] ?? EXPLORE_T.en;
   const contentLinks = CONTENT_LINKS[hl] ?? CONTENT_LINKS.en;
   const youLinks = YOU_LINKS[hl] ?? YOU_LINKS.en;
+  const ft = FORMATION_T[hl] ?? FORMATION_T.en;
 
   return (
     <div className="space-y-8 fade-up">
@@ -634,6 +648,30 @@ export default function ExplorePage() {
           <span className="text-xs text-white/50">{t.compareSub}</span>
           <span className="text-xs text-pink-300/80 mt-1">{t.browse} →</span>
         </Link>
+      </section>
+
+      {/* Formation — practical self-improvement modules */}
+      <section className="space-y-3">
+        <div>
+          <h2 className="font-display text-2xl text-white">🎓 {ft.title}</h2>
+          <p className="text-sm text-white/50">{ft.sub}</p>
+        </div>
+        <ul className="flex flex-wrap gap-2">
+          {FORMATION_THEMES.map((theme) => {
+            const m = THEME_META[theme];
+            return (
+              <li key={theme}>
+                <Link
+                  href="/formation"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 px-3.5 py-2 text-sm text-white/75 hover:text-white transition"
+                >
+                  <span aria-hidden="true">{m.emoji}</span>
+                  {m.label}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       {/* Free tools */}

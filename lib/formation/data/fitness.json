@@ -1,0 +1,380 @@
+[
+  {
+    "slug": "demarrer-le-sport-sans-pression",
+    "theme": "fitness",
+    "title": "Démarrer le sport sans te mettre la pression",
+    "emoji": "🌱",
+    "intro": "Se lancer ne demande pas d'être motivé à fond ni d'avoir un programme parfait. Ça demande juste un premier pas réaliste.",
+    "sections": [
+      {
+        "heading": "Le piège du tout ou rien",
+        "body": "Beaucoup abandonnent parce qu'ils visent trop haut dès le départ : une heure de sport tous les jours, un régime strict, zéro écart. Au premier raté, le découragement gagne et tout s'arrête. Le corps et la motivation se construisent comme un muscle : progressivement. Commencer petit n'est pas un échec, c'est la stratégie la plus efficace pour durer. Mieux vaut dix minutes répétées trois mois que deux heures abandonnées en une semaine."
+      },
+      {
+        "heading": "Choisir une activité que tu n'détestes pas",
+        "body": "Le meilleur sport pour toi, c'est celui que tu feras vraiment. Marche rapide, vélo, danse, natation, sport au poids du corps chez toi : teste plusieurs choses sans culpabilité. Le plaisir n'est pas un luxe, c'est le carburant qui te fera revenir. Si chaque séance te demande un effort de volonté énorme, l'activité n'est pas la bonne. Tu as le droit de changer jusqu'à trouver ce qui te convient."
+      },
+      {
+        "heading": "Définir un objectif d'action, pas de résultat",
+        "body": "Un objectif comme 'perdre du poids' ne dépend pas entièrement de toi et peut décourager. Un objectif d'action, comme 'bouger 15 minutes trois fois cette semaine', est sous ton contrôle total. Tu peux le réussir quoi qu'il arrive. Les résultats physiques suivent naturellement quand les actions deviennent régulières. Concentre-toi sur la constance des gestes, pas sur la balance ou le miroir."
+      }
+    ],
+    "steps": [
+      "Choisis une activité que tu trouves au moins supportable, voire agréable",
+      "Fixe un objectif minuscule : 10 à 15 minutes, deux ou trois fois cette semaine",
+      "Bloque les créneaux dans ton agenda comme un vrai rendez-vous",
+      "Prépare tes affaires la veille pour réduire les excuses",
+      "Note chaque séance faite, sans juger sa qualité"
+    ],
+    "faq": [
+      {
+        "q": "Faut-il être motivé pour commencer ?",
+        "a": "Non. La motivation vient surtout après l'action, pas avant. Commence par un geste tout petit, et l'envie se construit séance après séance."
+      },
+      {
+        "q": "Combien de temps avant de voir des résultats ?",
+        "a": "L'énergie et l'humeur s'améliorent souvent en deux à trois semaines. Les changements visibles prennent plus de temps : vise la régularité, pas la rapidité."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "perte-de-poids-saine-principes",
+    "theme": "fitness",
+    "title": "Les vrais principes d'une perte de poids saine",
+    "emoji": "⚖️",
+    "intro": "Perdre du poids durablement ne repose pas sur un secret ni sur un produit miracle. Ça repose sur des bases simples et patientes.",
+    "sections": [
+      {
+        "heading": "Lent et régulier bat rapide et brutal",
+        "body": "Une perte saine se situe autour de 0,5 kg par semaine environ. Plus vite, et le corps perd surtout de l'eau et du muscle, puis reprend tout dès le retour à la normale : c'est l'effet yoyo. Les régimes extrêmes ralentissent le métabolisme et abîment la relation à la nourriture. Viser lent peut sembler frustrant, mais c'est la seule voie qui tient sur des années plutôt que sur des semaines."
+      },
+      {
+        "heading": "Manger mieux plutôt que manger très peu",
+        "body": "Couper drastiquement les calories te laisse affamé, fatigué et irritable, ce qui mène presque toujours à craquer. L'approche durable consiste à améliorer la qualité de ce que tu manges : plus de légumes, de protéines, de fibres, qui rassasient davantage pour un volume donné. Tu n'as pas besoin d'avoir faim en permanence pour progresser. Un corps nourri coopère ; un corps privé se rebelle."
+      },
+      {
+        "heading": "Le poids n'est qu'un indicateur parmi d'autres",
+        "body": "La balance varie chaque jour selon l'eau, le sel, le sommeil, le cycle. Se peser tous les matins peut créer une anxiété inutile. D'autres signes comptent autant : ton énergie, la qualité de ton sommeil, ta force, comment tes vêtements tombent, ton humeur. Si tu te sens mieux et plus solide, tu es sur la bonne voie, même si le chiffre bouge peu cette semaine."
+      },
+      {
+        "heading": "Quand consulter un professionnel",
+        "body": "Si tu as un objectif de poids important, des soucis de santé, ou simplement un doute, parler à un médecin ou à un diététicien est la meilleure décision. Ils adaptent les conseils à ton corps, ton histoire et ton mode de vie, ce qu'aucun article générique ne peut faire. Demander de l'aide n'est pas un échec : c'est ce que font les gens sérieux avec leur santé."
+      }
+    ],
+    "steps": [
+      "Vise une perte douce, pas une transformation express",
+      "Améliore la qualité de tes repas avant de réduire les quantités",
+      "Pèse-toi au maximum une fois par semaine, toujours dans les mêmes conditions",
+      "Suis d'autres signes : énergie, sommeil, force, humeur",
+      "Consulte un médecin ou un diététicien en cas d'objectif important ou de doute"
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi je reprends toujours le poids perdu ?",
+        "a": "Souvent parce que le régime était trop strict pour tenir. Une fois arrêté, les anciennes habitudes reviennent. La solution est de changer durablement, pas temporairement."
+      },
+      {
+        "q": "Faut-il avoir faim pour maigrir ?",
+        "a": "Non. Une faim constante est un signal que l'approche est trop sévère. On peut être rassasié avec des aliments riches en fibres et en protéines tout en perdant du poids doucement."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-equilibre-energetique",
+    "theme": "fitness",
+    "title": "Comprendre simplement l'équilibre énergétique",
+    "emoji": "🔋",
+    "intro": "Le poids dépend de l'énergie qui entre et qui sort. Comprendre ce principe sans en faire une obsession aide à choisir intelligemment.",
+    "sections": [
+      {
+        "heading": "Le principe de base, sans calcul obsessionnel",
+        "body": "Le corps prend du poids quand il reçoit plus d'énergie qu'il n'en dépense, et en perd dans le cas inverse. C'est utile à connaître, mais cela ne veut pas dire qu'il faut compter chaque calorie. Beaucoup de gens maigrissent durablement sans jamais utiliser d'application, simplement en mangeant plus de vrais aliments et en bougeant plus. Le concept éclaire ; il ne doit pas devenir une prison mentale."
+      },
+      {
+        "heading": "Toutes les calories ne se valent pas dans le ressenti",
+        "body": "200 calories de bonbons et 200 calories de légumes avec des protéines n'ont pas le même effet sur ta faim. Les aliments riches en fibres, en protéines et en eau te rassasient longtemps ; les aliments très transformés et sucrés laissent affamé peu après. Choisir des aliments rassasiants te permet de manger à ta faim tout en gardant un équilibre énergétique favorable, sans privation douloureuse."
+      },
+      {
+        "heading": "La dépense ne se résume pas au sport",
+        "body": "Le corps dépense de l'énergie en permanence : pour respirer, digérer, réfléchir, et surtout pour tous les petits mouvements de la journée. Marcher, prendre les escaliers, rester debout, bouger en parlant : ces gestes additionnés pèsent souvent plus qu'une séance de sport isolée. Augmenter ton activité quotidienne globale est un levier puissant et durable, en plus de l'exercice planifié."
+      }
+    ],
+    "steps": [
+      "Retiens le principe sans tomber dans le comptage permanent",
+      "Privilégie les aliments rassasiants : légumes, protéines, fibres",
+      "Bouge plus dans ta journée, pas seulement pendant les séances",
+      "Évite de transformer la nourriture en mathématiques anxieuses",
+      "Si compter t'angoisse, abandonne les applis et fie-toi à ta faim"
+    ],
+    "faq": [
+      {
+        "q": "Faut-il compter ses calories pour perdre du poids ?",
+        "a": "Pas forcément. Beaucoup réussissent en améliorant la qualité des repas et l'activité quotidienne. Compter peut aider à court terme, mais c'est inutile et risqué si ça crée de l'anxiété."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bases-nutrition-equilibree",
+    "theme": "fitness",
+    "title": "Les bases d'une assiette équilibrée",
+    "emoji": "🍽️",
+    "intro": "Bien manger n'a pas besoin d'être compliqué. Une méthode visuelle simple suffit pour construire des repas solides au quotidien.",
+    "sections": [
+      {
+        "heading": "La méthode de l'assiette en parts",
+        "body": "Une approche simple et reconnue : remplis environ la moitié de ton assiette de légumes ou de fruits, un quart de protéines (œufs, poisson, viande, légumineuses, tofu) et un quart de féculents de préférence complets (riz, pâtes, pommes de terre, pain). Ajoute un peu de matière grasse de qualité comme l'huile d'olive. Pas besoin de balance ni d'appli : ton regard suffit à équilibrer un repas correct."
+      },
+      {
+        "heading": "Pourquoi varier les couleurs",
+        "body": "Chaque couleur de fruit ou légume apporte des vitamines et antioxydants différents. Une assiette colorée est souvent une assiette riche en nutriments. Vise à intégrer plusieurs couleurs dans ta semaine plutôt que de manger toujours la même chose. Ce n'est pas une règle stricte mais un repère facile : plus de vert, de rouge, d'orange, de violet, c'est plus de diversité nutritionnelle, sans rien calculer."
+      },
+      {
+        "heading": "Aucun aliment n'est interdit",
+        "body": "Une alimentation équilibrée n'exclut pas le plaisir. Pizza, dessert, chocolat ont leur place ; le problème n'est jamais un aliment isolé, mais la régularité. La règle des 80/20 marche bien : si l'essentiel de ce que tu manges est nourrissant, le reste peut être pur plaisir sans culpabilité. Diaboliser des aliments crée des fringales et un rapport tendu à la nourriture."
+      }
+    ],
+    "steps": [
+      "Construis tes repas avec la moitié de légumes, un quart de protéines, un quart de féculents",
+      "Privilégie les féculents complets quand c'est possible",
+      "Vise plusieurs couleurs de fruits et légumes dans la semaine",
+      "Garde une place pour les aliments plaisir, sans culpabilité",
+      "Évite de classer les aliments en 'bons' et 'mauvais'"
+    ],
+    "faq": [
+      {
+        "q": "Faut-il supprimer les féculents pour maigrir ?",
+        "a": "Non. Les féculents fournissent de l'énergie et des fibres, surtout en version complète. Les supprimer fatigue et n'est pas tenable. Mieux vaut ajuster les portions que les bannir."
+      },
+      {
+        "q": "Le sucre est-il interdit ?",
+        "a": "Non, mais l'excès de sucres ajoutés est à limiter. Garder une place modérée pour les douceurs est plus durable qu'une interdiction totale qui finit en craquage."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-les-proteines",
+    "theme": "fitness",
+    "title": "Comprendre le rôle des protéines",
+    "emoji": "🥚",
+    "intro": "Les protéines sont essentielles pour réparer les muscles et rester rassasié. Pas besoin de poudres pour en avoir assez.",
+    "sections": [
+      {
+        "heading": "À quoi servent les protéines",
+        "body": "Les protéines sont les briques de ton corps : muscles, peau, cheveux, hormones, défenses immunitaires. Quand tu fais du sport, tes muscles ont besoin de protéines pour se réparer et se renforcer. Elles ont aussi un effet rassasiant fort : un repas qui en contient suffisamment cale plus longtemps. C'est pour cela qu'elles sont précieuses si tu veux perdre du poids sans avoir faim en permanence."
+      },
+      {
+        "heading": "Où les trouver dans l'assiette",
+        "body": "Les sources sont nombreuses et accessibles : œufs, poulet, poisson, viande, mais aussi lentilles, pois chiches, haricots, tofu, yaourt, fromage blanc, fromage. Les sources végétales sont économiques et excellentes ; combiner légumineuses et céréales sur la journée couvre tous les besoins. Avoir une source de protéines à chaque repas est un réflexe simple et efficace, sans rien de compliqué."
+      },
+      {
+        "heading": "Faut-il des poudres et des compléments",
+        "body": "Pour la grande majorité des gens, non. Une alimentation variée couvre largement les besoins, même quand on fait du sport régulièrement. Les poudres protéinées sont juste une commodité pratique, pas un produit magique, et ne sont jamais indispensables. Méfie-toi du marketing fitness qui fait croire l'inverse. Si tu as un doute sur tes besoins, un diététicien te répondra mieux qu'une publicité."
+      }
+    ],
+    "steps": [
+      "Inclus une source de protéines à chaque repas",
+      "Alterne sources animales et végétales selon tes goûts et ton budget",
+      "Combine légumineuses et céréales sur la journée si tu manges peu de viande",
+      "Mise sur les protéines pour rester rassasié plus longtemps",
+      "Considère les poudres comme un confort optionnel, jamais une obligation"
+    ],
+    "faq": [
+      {
+        "q": "Faut-il de la whey pour prendre du muscle ?",
+        "a": "Non. La whey est seulement pratique. Des œufs, du poulet, des légumineuses ou du fromage blanc font parfaitement le travail si tu en manges assez."
+      },
+      {
+        "q": "Les protéines végétales sont-elles suffisantes ?",
+        "a": "Oui, à condition de varier les sources sur la journée. Lentilles, pois chiches, tofu, céréales complètes combinés couvrent largement les besoins."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-les-glucides",
+    "theme": "fitness",
+    "title": "Comprendre les glucides sans les diaboliser",
+    "emoji": "🍚",
+    "intro": "Les glucides sont le carburant préféré de ton corps et de ton cerveau. Le problème n'est pas leur présence, mais leur qualité.",
+    "sections": [
+      {
+        "heading": "Ton corps a besoin de glucides",
+        "body": "Les glucides fournissent l'énergie rapide dont ton cerveau et tes muscles ont besoin, surtout si tu es actif. Les supprimer entraîne souvent fatigue, irritabilité, difficulté à se concentrer et baisse de performance au sport. Les régimes très pauvres en glucides peuvent faire perdre du poids vite, mais beaucoup les abandonnent car ils sont durs à tenir. Pour la plupart des gens, l'objectif est de bien choisir, pas d'éliminer."
+      },
+      {
+        "heading": "Glucides complets contre glucides raffinés",
+        "body": "Les glucides complets (pain complet, riz complet, flocons d'avoine, légumineuses, légumes) contiennent des fibres qui ralentissent la digestion, calent davantage et stabilisent l'énergie. Les glucides raffinés (sucreries, sodas, pain blanc, viennoiseries) donnent un pic d'énergie suivi d'une chute qui relance la faim. Privilégier le complet ne demande pas de privation, juste de meilleurs choix par défaut dans le caddie."
+      },
+      {
+        "heading": "Le timing autour du sport",
+        "body": "Avant une séance, un glucide facile à digérer (banane, flocons d'avoine, pain) donne de l'énergie. Après, les glucides aident à reconstituer les réserves musculaires. Pas besoin de stratégie compliquée : manger un repas équilibré dans les heures qui entourent ta séance suffit largement pour un sport amateur. Le timing pointu n'intéresse vraiment que les athlètes de haut niveau."
+      }
+    ],
+    "steps": [
+      "Garde des glucides à tes repas, surtout les jours actifs",
+      "Choisis le plus souvent des versions complètes et riches en fibres",
+      "Limite les sucres ajoutés et les sodas sans les bannir totalement",
+      "Mange un glucide léger avant un entraînement si tu manques d'énergie",
+      "Ne supprime pas les glucides sur un coup de mode"
+    ],
+    "faq": [
+      {
+        "q": "Les glucides font-ils grossir ?",
+        "a": "Non, pas en eux-mêmes. C'est l'excès d'énergie global qui compte. Des glucides complets en portions raisonnables font partie d'une alimentation saine."
+      },
+      {
+        "q": "Faut-il manger des glucides le soir ?",
+        "a": "Oui, sans problème. L'heure n'a pas d'effet magique. Un dîner équilibré avec des glucides complets est parfaitement sain et aide même à mieux dormir."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-les-bonnes-graisses",
+    "theme": "fitness",
+    "title": "Comprendre les graisses utiles à ton corps",
+    "emoji": "🥑",
+    "intro": "Les graisses ont longtemps eu mauvaise réputation à tort. Certaines sont indispensables à ta santé et à tes hormones.",
+    "sections": [
+      {
+        "heading": "Pourquoi ton corps a besoin de graisses",
+        "body": "Les graisses participent à la fabrication des hormones, à l'absorption de certaines vitamines, à la santé du cerveau et de la peau. Un régime trop pauvre en graisses peut perturber le cycle, l'humeur et la concentration. Le mythe selon lequel manger gras fait forcément grossir est faux : ce qui compte, c'est la quantité globale d'énergie et le type de graisses choisi. Les graisses ne sont pas l'ennemi."
+      },
+      {
+        "heading": "Les sources à privilégier",
+        "body": "Mise sur l'huile d'olive, l'avocat, les oléagineux (noix, amandes), les graines, et les poissons gras comme le saumon ou les sardines, riches en oméga-3. Ces graisses soutiennent le cœur et le cerveau. Elles sont caloriques, donc à doser sans excès, mais leur présence régulière en petites quantités est bénéfique. Une poignée de noix ou un filet d'huile d'olive sont des habitudes faciles et précieuses."
+      },
+      {
+        "heading": "Ce qu'il vaut mieux limiter",
+        "body": "Les graisses à surveiller sont surtout celles des aliments ultra-transformés : viennoiseries industrielles, fritures répétées, plats préparés. Elles s'accompagnent souvent de beaucoup de sel et de sucre. Cela ne veut pas dire zéro frites de ta vie, mais que ces aliments restent occasionnels. Cuisiner toi-même, même simplement, te donne automatiquement plus de contrôle sur la qualité des graisses que tu consommes."
+      }
+    ],
+    "steps": [
+      "Garde des graisses de qualité dans ton alimentation, sans les craindre",
+      "Privilégie huile d'olive, avocat, noix, graines, poissons gras",
+      "Dose les oléagineux : une petite poignée suffit, ils sont caloriques",
+      "Limite les fritures et les produits ultra-transformés au statut d'occasionnel",
+      "Cuisine maison pour mieux maîtriser la qualité des matières grasses"
+    ],
+    "faq": [
+      {
+        "q": "Manger gras fait-il grossir ?",
+        "a": "Pas en soi. Les graisses sont caloriques donc à doser, mais elles sont nécessaires. C'est l'excès global d'énergie qui fait prendre du poids, pas un nutriment isolé."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bien-shydrater-au-quotidien",
+    "theme": "fitness",
+    "title": "Bien t'hydrater au quotidien",
+    "emoji": "💧",
+    "intro": "L'eau est impliquée dans presque toutes les fonctions du corps. Bien s'hydrater est un des gestes santé les plus simples.",
+    "sections": [
+      {
+        "heading": "Pourquoi l'hydratation change tout",
+        "body": "L'eau régule la température, transporte les nutriments, aide la digestion et le cerveau à fonctionner. Une légère déshydratation peut suffire à provoquer fatigue, maux de tête, baisse de concentration et de performance sportive. Beaucoup de coups de mou en milieu de journée viennent simplement d'un manque d'eau. C'est un levier gratuit, immédiat et souvent négligé pour se sentir mieux."
+      },
+      {
+        "heading": "Combien et comment boire",
+        "body": "Les besoins varient selon ta taille, ton activité et la chaleur, mais viser environ 1,5 à 2 litres par jour est un repère raisonnable, à ajuster en cas de sport ou de forte chaleur. L'astuce la plus efficace est de répartir : boire un verre au réveil, à chaque repas, et entre les repas, plutôt que d'avaler un litre d'un coup. Avoir une gourde visible sur ton bureau t'y fait penser naturellement."
+      },
+      {
+        "heading": "La faim qui est en fait de la soif",
+        "body": "Le cerveau confond parfois soif et faim. Quand une envie de grignoter surgit sans vraie faim, boire un grand verre d'eau et attendre quelques minutes peut suffire à la faire passer. Ce n'est pas une astuce miracle pour maigrir, mais un réflexe sain qui aide à mieux écouter ton corps. Une bonne hydratation soutient aussi la satiété générale pendant les repas."
+      }
+    ],
+    "steps": [
+      "Bois un verre d'eau dès le réveil",
+      "Garde une gourde visible sur ton bureau ou dans ton sac",
+      "Bois à chaque repas et régulièrement entre les repas",
+      "Augmente ton apport les jours de sport et de chaleur",
+      "Face à une fringale soudaine, bois d'abord et attends quelques minutes"
+    ],
+    "faq": [
+      {
+        "q": "Le café et le thé comptent-ils dans l'hydratation ?",
+        "a": "En partie oui. Ils apportent de l'eau, mais l'eau pure reste la meilleure base. Évite de remplacer tous tes apports par des boissons caféinées."
+      },
+      {
+        "q": "Comment savoir si je bois assez ?",
+        "a": "Une urine claire et abondante est bon signe. Une urine très foncée indique souvent un manque d'eau à corriger."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "limiter-les-boissons-sucrees",
+    "theme": "fitness",
+    "title": "Réduire les boissons sucrées en douceur",
+    "emoji": "🥤",
+    "intro": "Les sodas et jus sucrés apportent beaucoup d'énergie sans rassasier. Les réduire est un des changements les plus rentables.",
+    "sections": [
+      {
+        "heading": "Pourquoi les boissons sucrées sont un piège",
+        "body": "Un soda ou un grand jus de fruits peut contenir l'équivalent de plusieurs cuillères de sucre, mais comme c'est liquide, il ne cale pas. Tu ajoutes beaucoup d'énergie sans réduire ta faim au repas suivant. C'est l'une des sources de sucres ajoutés les plus discrètes et les plus faciles à diminuer. Réduire ces boissons est souvent le geste qui rapporte le plus pour le moins d'effort ressenti."
+      },
+      {
+        "heading": "Des remplacements progressifs",
+        "body": "Pas besoin de tout arrêter d'un coup. Commence par couper tes boissons sucrées avec de l'eau, ou alterne un verre d'eau pour un de soda. Découvre l'eau aromatisée maison : tranches de citron, concombre, menthe, fruits rouges. Le thé glacé non sucré, l'eau pétillante nature ou les infusions froides sont d'excellentes alternatives. Le goût se rééduque vite : après quelques semaines, les sodas paraissent souvent trop sucrés."
+      },
+      {
+        "heading": "Le cas des jus de fruits",
+        "body": "Les jus de fruits, même sans sucre ajouté, restent très concentrés en sucres et pauvres en fibres comparés au fruit entier. Manger une orange rassasie plus que boire un jus d'orange. Garde les jus pour le plaisir occasionnel et privilégie le fruit entier au quotidien. Ce n'est pas une interdiction, juste un choix plus malin pour la satiété et l'apport en fibres."
+      }
+    ],
+    "steps": [
+      "Repère ta consommation actuelle de sodas et jus sur une semaine",
+      "Coupe progressivement tes boissons sucrées avec de l'eau",
+      "Prépare de l'eau aromatisée maison avec citron, menthe ou fruits",
+      "Préfère le fruit entier au jus pour la satiété et les fibres",
+      "Garde les boissons sucrées pour les occasions, pas le quotidien"
+    ],
+    "faq": [
+      {
+        "q": "Les sodas light sont-ils une bonne solution ?",
+        "a": "Ils évitent le sucre, mais entretiennent le goût du très sucré. En transition c'est utile ; à terme, viser l'eau et les boissons peu sucrées est préférable."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "comprendre-les-fibres",
+    "theme": "fitness",
+    "title": "Comprendre l'importance des fibres",
+    "emoji": "🌾",
+    "intro": "Les fibres calent, nourrissent ton microbiote et aident la digestion. Pourtant la plupart des gens n'en mangent pas assez.",
+    "sections": [
+      {
+        "heading": "Ce que font les fibres pour toi",
+        "body": "Les fibres sont la partie des végétaux que le corps ne digère pas entièrement. Elles ralentissent la digestion, ce qui prolonge la satiété et stabilise l'énergie. Elles nourrissent les bonnes bactéries de ton intestin, soutiennent le transit et participent à la santé du cœur. Manger plus de fibres est un moyen confortable de se sentir rassasié sans surcharger en énergie : un vrai atout pour la gestion du poids."
+      },
+      {
+        "heading": "Où trouver les fibres",
+        "body": "Les sources principales sont les légumes, les fruits, les légumineuses (lentilles, pois chiches, haricots), les céréales complètes et les oléagineux. Quelques réflexes simples : garder la peau des fruits et légumes quand c'est possible, choisir le pain et les pâtes complets, ajouter des légumineuses à tes plats, saupoudrer des graines. Pas besoin de compter : viser des végétaux variés à chaque repas suffit."
+      },
+      {
+        "heading": "Augmenter progressivement",
+        "body": "Si tu manges peu de fibres aujourd'hui, augmente doucement sur plusieurs semaines, sinon ton ventre peut protester (ballonnements, inconfort). Accompagne toujours une hausse de fibres d'une bonne hydratation : les fibres ont besoin d'eau pour bien faire leur travail. Ton système digestif s'adapte vite quand le changement est progressif. La régularité compte plus que d'en avaler beaucoup d'un coup."
+      }
+    ],
+    "steps": [
+      "Ajoute des légumes à chaque repas, crus ou cuits",
+      "Choisis les versions complètes du pain, du riz et des pâtes",
+      "Intègre des légumineuses plusieurs fois par semaine",
+      "Garde la peau des fruits et légumes quand c'est mangeable",
+      "Augmente les fibres progressivement et bois suffisamment d'eau"
+    ],
+    "faq": [
+      {
+        "q": "Les fibres aident-elles à perdre du poids ?",
+        "a": "Indirectement oui. Elles rassasient longtemps, ce qui aide à manger à sa faim sans excès. Elles ne brûlent rien, mais facilitent un équilibre confortable."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]
