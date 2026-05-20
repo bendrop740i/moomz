@@ -1,0 +1,759 @@
+[
+  {
+    "slug": "encuesta-restaurante-cena-amigos-es",
+    "locale": "es",
+    "emoji": "🍽️",
+    "title": "Encuesta para elegir restaurante con amigos",
+    "h1": "Encuesta: ¿a qué restaurante vamos a cenar?",
+    "description": "Plantilla de encuesta gratis y anónima para decidir en grupo a qué restaurante ir a cenar. Vota, comparte el enlace y descubre el favorito.",
+    "intro": "Cuadrar una cena entre amigos suele acabar en un chat infinito sin decisión. Esta plantilla resuelve el problema en un minuto: pones tres o cuatro restaurantes sobre la mesa, mandas el enlace al grupo y todo el mundo vota sin discutir. El recuento es anónimo y en tiempo real, así que nadie se siente presionado a votar lo mismo que el más insistente del grupo. La encuesta sirve igual para una cena improvisada de un viernes que para celebrar un cumple, un reencuentro o un fin de semana fuera. Cambia los nombres de los locales por los que tengas cerca y mándalo: en menos de diez minutos sabes a dónde vais a ir y puedes reservar mesa.",
+    "category": "food",
+    "audience": "Grupos de amigos que quieren cuadrar una cena sin discusiones interminables en el chat",
+    "question": "¿A qué restaurante vamos a cenar este viernes?",
+    "options": [
+      "Italiano de la esquina",
+      "Asiático fusión nuevo",
+      "Hamburguesería de siempre",
+      "Tapas en el centro"
+    ],
+    "whyItWorks": "Limitar a cuatro opciones cerradas evita el clásico bucle de propuestas eternas. Al ser anónima, nadie vota por compromiso y la opción ganadora refleja de verdad lo que apetece al grupo. Compartir el enlace por WhatsApp permite que todos voten cuando puedan, sin necesidad de que estén conectados a la vez.",
+    "tips": [
+      "Filtra antes por zona y presupuesto para no meter sitios imposibles.",
+      "Pon un emoji distinto al lado de cada local para que sea más visual.",
+      "Cierra la votación a una hora concreta para poder reservar a tiempo.",
+      "Si hay empate, lanza una segunda encuesta solo con los dos primeros.",
+      "Guarda el enlace: te servirá para futuras cenas con el mismo grupo."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué tipo de cocina nos apetece esta noche?",
+        "options": ["Italiana", "Japonesa", "Mexicana", "Mediterránea"]
+      },
+      {
+        "question": "¿Cenamos dentro o vamos a una terraza?",
+        "options": ["Terraza con vistas", "Local acogedor dentro", "Rooftop", "Da igual, lo que esté libre"]
+      },
+      {
+        "question": "¿Presupuesto para la cena de grupo?",
+        "options": ["Menos de 20€", "Entre 20 y 35€", "Entre 35 y 50€", "Sin tope, es ocasión especial"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánta gente puede votar en la encuesta?",
+        "a": "No hay límite. Puedes mandar el enlace a un grupo de cinco amigos o a una lista de cincuenta. Cada persona vota una sola vez y los resultados se actualizan en directo."
+      },
+      {
+        "q": "¿Pueden saber mis amigos qué he votado?",
+        "a": "No. moomz es anónimo por defecto. Solo se muestra el recuento total por opción, nunca quién ha votado qué."
+      },
+      {
+        "q": "¿Puedo añadir un restaurante después de crear la encuesta?",
+        "a": "No se pueden añadir opciones una vez creada, pero puedes lanzar una nueva encuesta en quince segundos con la lista actualizada y compartir el nuevo enlace."
+      },
+      {
+        "q": "¿Funciona si los amigos están en distintas ciudades?",
+        "a": "Sí, perfecto para planificar una cena cuando os vais a reunir. Cada uno vota desde su móvil y el ganador se ve en tiempo real desde cualquier lugar."
+      }
+    ],
+    "related": [
+      "encuesta-amigos-viaje-verano-es",
+      "encuesta-pareja-san-valentin-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-pareja-san-valentin-es",
+    "locale": "es",
+    "emoji": "💖",
+    "title": "Encuesta de pareja para San Valentín",
+    "h1": "Encuesta: ¿qué hacemos en San Valentín?",
+    "description": "Plantilla de encuesta para parejas que quieren decidir juntos el plan de San Valentín sin estrés. Manda el enlace, votad y que gane lo mejor.",
+    "intro": "San Valentín suele acabar siendo una sorpresa que solo lo es para uno de los dos, o un plan que ninguno quería pero nadie se atrevió a cambiar. Esta plantilla cambia las reglas: en lugar de adivinar lo que le gustaría al otro, lanzas una mini encuesta con tres o cuatro planes posibles y dejáis que el ganador decida por vosotros. Es íntimo, divertido y elimina la presión de organizarlo todo solo. Funciona igual para parejas recién hechas que llevan tres meses como para los que llevan diez años y necesitan refrescar la rutina. El resultado: un plan que de verdad apetece a los dos, sin discusiones previas ni decepciones a última hora.",
+    "category": "valentine",
+    "audience": "Parejas que quieren un San Valentín sin estrés y con un plan elegido a medias",
+    "question": "¿Cuál es nuestro plan ideal para San Valentín?",
+    "options": [
+      "Cena romántica en restaurante",
+      "Noche en casa con menú y peli",
+      "Escapada de fin de semana",
+      "Plan sorpresa: el que más vote lo organiza"
+    ],
+    "whyItWorks": "Convierte una decisión cargada de expectativas en un juego de dos. Al ser anónima incluso entre vosotros, podéis ser sinceros sin temor a herir al otro. Y la cuarta opción introduce un giro divertido que rompe el clásico dilema cena fuera versus cena en casa.",
+    "tips": [
+      "Mándalo unos cinco días antes para tener tiempo de reservar.",
+      "Incluye al menos una opción de bajo presupuesto y otra más elaborada.",
+      "Si vivís juntos, hacedlo a la vez en el sofá: las miradas valen oro.",
+      "Acompañad cada opción con un detalle concreto, no solo el tipo de plan.",
+      "Si el resultado os sorprende, hablad de por qué votasteis así."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué tipo de cena queremos en San Valentín?",
+        "options": ["Restaurante italiano", "Sushi en casa", "Cena que cocinamos juntos", "Picnic nocturno"]
+      },
+      {
+        "question": "¿Qué regalo te haría más ilusión este año?",
+        "options": ["Una experiencia juntos", "Algo material útil", "Una carta escrita a mano", "Una sorpresa total"]
+      },
+      {
+        "question": "¿Cómo queremos terminar la noche?",
+        "options": ["Peli en el sofá", "Bailando en algún sitio", "Paseo nocturno", "Sin móvil, solo charlando"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Mi pareja verá lo que he votado?",
+        "a": "No. Solo veréis el recuento de las opciones. Eso es justo lo que la hace divertida: no sabes si tu pareja votó lo mismo que tú hasta el final."
+      },
+      {
+        "q": "¿Cuándo es mejor enviar la encuesta?",
+        "a": "Unos cuatro o cinco días antes del 14 de febrero, así te queda margen para reservar restaurante o preparar el plan ganador con calma."
+      },
+      {
+        "q": "¿Y si la opción ganadora no me convence?",
+        "a": "Justamente por eso vale la pena: descubres lo que de verdad apetece al otro. Si la diferencia es mínima, podéis combinar las dos opciones más votadas."
+      },
+      {
+        "q": "¿Funciona para una relación a distancia?",
+        "a": "Sí, es ideal. Cada uno vota desde su móvil y luego planificáis juntos en función del ganador, ya sea una videocena o un plan para la próxima vez que os veáis."
+      }
+    ],
+    "related": [
+      "encuesta-restaurante-cena-amigos-es",
+      "encuesta-amigos-viaje-verano-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-amigos-viaje-verano-es",
+    "locale": "es",
+    "emoji": "🏖️",
+    "title": "Encuesta para elegir viaje de verano con amigos",
+    "h1": "Encuesta: ¿dónde nos vamos de viaje este verano?",
+    "description": "Plantilla de encuesta gratis para grupos que quieren elegir el destino del viaje de verano sin discutir. Vota anónimo y cierra el destino.",
+    "intro": "Organizar un viaje en grupo es maravilloso hasta que toca decidir el destino. Cada año el mismo bucle: alguien propone Croacia, otro insiste en Lisboa, un tercero quiere algo barato y al final el viaje se pospone. Esta plantilla rompe el atasco: pones tres o cuatro destinos viables, mandas el enlace al grupo de WhatsApp y en una tarde tenéis ganador. La encuesta es anónima, así que nadie vota por amistad ni por compromiso, y los resultados son inmediatos. Cuando aparezca el ganador, ya solo queda decidir fechas y reservar vuelos. Funciona para grupos de tres como para grupos de quince.",
+    "category": "travel",
+    "audience": "Grupos de amigos que quieren cerrar el destino del viaje sin meses de debate",
+    "question": "¿A dónde nos vamos este verano?",
+    "options": [
+      "Playa en Grecia",
+      "Roadtrip por Portugal",
+      "Cabaña en los Pirineos",
+      "Ciudad europea: Praga o Berlín"
+    ],
+    "whyItWorks": "Cierra el debate en horas en vez de semanas. Al limitar a cuatro destinos previamente filtrados por presupuesto y fechas, evitas el caos de propuestas constantes. Y al ser anónima, los más callados del grupo también votan, lo que da una decisión mucho más representativa.",
+    "tips": [
+      "Filtra antes los destinos por presupuesto máximo y duración.",
+      "Indica al lado de cada opción una estimación de coste aproximado.",
+      "Pon una fecha límite de votación, por ejemplo 48 horas.",
+      "Si hay empate, lanza una segunda encuesta solo con los dos finalistas.",
+      "Una vez decidido, abre otra encuesta para las fechas exactas."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué tipo de viaje nos apetece este verano?",
+        "options": ["Playa total relax", "Aventura y naturaleza", "Ciudad y cultura", "Mix de todo"]
+      },
+      {
+        "question": "¿Presupuesto medio por persona para el viaje?",
+        "options": ["Menos de 300€", "Entre 300 y 600€", "Entre 600 y 1000€", "Más de 1000€"]
+      },
+      {
+        "question": "¿Cuántos días reservamos para el viaje?",
+        "options": ["Fin de semana largo", "Una semana", "Diez días", "Dos semanas o más"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuántas personas pueden votar?",
+        "a": "Sin límite. Puedes compartirla con todo el grupo, incluso con los que solo van a venir si el destino les convence. Cada persona vota una vez."
+      },
+      {
+        "q": "¿Cómo evitamos que vote gente que no viene?",
+        "a": "Comparte el enlace solo en el grupo privado del viaje. Al ser anónima, basta con confiar en el grupo, no hay registro obligatorio."
+      },
+      {
+        "q": "¿Puedo lanzar varias encuestas para un mismo viaje?",
+        "a": "Sí, es lo recomendado: una para el destino, otra para las fechas, una tercera para el tipo de alojamiento. Cada encuesta se hace en segundos."
+      },
+      {
+        "q": "¿Y si nadie se pone de acuerdo después de votar?",
+        "a": "Esa es la magia: con la encuesta no hay nada que negociar, gana la opción más votada. Si quieres dejar espacio a debate, pacta antes que el resultado es vinculante."
+      }
+    ],
+    "related": [
+      "encuesta-restaurante-cena-amigos-es",
+      "encuesta-pareja-san-valentin-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-pizza-margherita-vs-quattro-formaggi-it",
+    "locale": "it",
+    "emoji": "🍕",
+    "title": "Sondaggio pizza: margherita o quattro formaggi?",
+    "h1": "Sondaggio: margherita o quattro formaggi, quale vince?",
+    "description": "Modello di sondaggio gratuito e anonimo per decidere in gruppo quale pizza ordinare. Manda il link, vota in pochi secondi e scopri la preferita degli amici.",
+    "intro": "L'eterno dibattito davanti al menu della pizzeria: margherita o quattro formaggi? Questo modello chiude la discussione in un attimo. Lanci il sondaggio, condividi il link sul gruppo WhatsApp e in cinque minuti hai la pizza vincente, senza il solito tira e molla. Funziona per una cena tra amici, una serata in famiglia o anche per decidere cosa ordinare in ufficio per la pausa pranzo. È anonimo, quindi nessuno vota per fare contento il più rumoroso del gruppo, e i risultati si aggiornano in tempo reale. Cambia le opzioni con le tue pizze preferite e adattalo al tuo locale di fiducia: il bello è la rapidità.",
+    "category": "food",
+    "audience": "Gruppi di amici o colleghi che vogliono decidere velocemente quale pizza ordinare insieme",
+    "question": "Quale pizza ordiniamo stasera?",
+    "options": [
+      "Margherita classica",
+      "Quattro formaggi",
+      "Diavola piccante",
+      "Capricciosa"
+    ],
+    "whyItWorks": "Limita la scelta a quattro opzioni chiare evitando il classico caos di proposte all'infinito. L'anonimato fa emergere le preferenze vere e non quelle dette per compiacere il gruppo. Inoltre il risultato in tempo reale crea aspettativa e rende il momento dell'ordine divertente.",
+    "tips": [
+      "Filtra prima per il menu della pizzeria scelta, evita opzioni non disponibili.",
+      "Aggiungi un emoji accanto a ogni nome per renderle più riconoscibili.",
+      "Chiudi le votazioni entro un orario preciso così puoi ordinare in tempo.",
+      "Se c'è pareggio, lancia un mini-sondaggio solo con le due finaliste.",
+      "Salva il link: lo riutilizzi per le prossime pizzate con lo stesso gruppo."
+    ],
+    "variations": [
+      {
+        "question": "Pizza tonda o pinsa romana stasera?",
+        "options": ["Tonda classica", "Pinsa romana", "Napoletana alta", "Pizza al taglio"]
+      },
+      {
+        "question": "Quale farcitura preferite per la pizza bianca?",
+        "options": ["Mortadella e pistacchio", "Salmone e burrata", "Prosciutto crudo e rucola", "Funghi e tartufo"]
+      },
+      {
+        "question": "Beviamo cosa con la pizza?",
+        "options": ["Birra chiara", "Vino rosso", "Coca cola", "Acqua e basta"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quante persone possono votare al sondaggio?",
+        "a": "Nessun limite. Puoi mandare il link a un gruppo di tre o di trenta persone. Ognuno vota una volta sola e i risultati si aggiornano in tempo reale."
+      },
+      {
+        "q": "I miei amici vedono cosa ho votato?",
+        "a": "No, moomz è completamente anonimo. Si vedono solo i totali per opzione, mai chi ha votato cosa."
+      },
+      {
+        "q": "Posso aggiungere una pizza dopo aver creato il sondaggio?",
+        "a": "Le opzioni non si modificano dopo la creazione, ma puoi creare un nuovo sondaggio in quindici secondi con la lista aggiornata e condividere il nuovo link."
+      },
+      {
+        "q": "Funziona anche per ordini da casa?",
+        "a": "Sì, è perfetto per i delivery. Ognuno vota dal divano e poi una sola persona si occupa di fare l'ordine vincente per tutti."
+      }
+    ],
+    "related": [
+      "sondaggio-coppia-san-valentino-it",
+      "sondaggio-amici-capodanno-festa-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-coppia-san-valentino-it",
+    "locale": "it",
+    "emoji": "💘",
+    "title": "Sondaggio di coppia per San Valentino",
+    "h1": "Sondaggio: cosa facciamo per San Valentino?",
+    "description": "Modello di sondaggio per coppie che vogliono decidere insieme il piano di San Valentino senza stress. Manda il link, votate e vince la scelta giusta.",
+    "intro": "San Valentino è spesso un'occasione caricata di aspettative: chi organizza teme di sbagliare, chi riceve teme di dover fingere entusiasmo. Questo modello cambia la dinamica. Invece di indovinare cosa piacerebbe all'altro, lanci un piccolo sondaggio con tre o quattro idee concrete e lasci che vinca la più amata. È intimo, leggero e toglie il peso della sorpresa perfetta. Va bene sia per le coppie che stanno insieme da poco sia per quelle che cercano di rompere la routine. Risultato: una serata che piace davvero a entrambi, decisa insieme ma in modo divertente.",
+    "category": "valentine",
+    "audience": "Coppie che vogliono un San Valentino senza stress e con un piano scelto a due",
+    "question": "Qual è il nostro piano ideale per San Valentino?",
+    "options": [
+      "Cena romantica al ristorante",
+      "Cena fatta in casa con film",
+      "Weekend fuori porta",
+      "Sorpresa: chi vince la organizza"
+    ],
+    "whyItWorks": "Trasforma una decisione carica di aspettative in un piccolo gioco di coppia. L'anonimato anche tra voi due permette di essere sinceri senza il timore di deludere. E la quarta opzione introduce un twist divertente che rompe il solito dilemma fuori casa o dentro casa.",
+    "tips": [
+      "Mandalo cinque giorni prima per avere tempo di prenotare.",
+      "Inserisci almeno un'opzione economica e una più ricercata.",
+      "Se vivete insieme, fatelo sul divano insieme: le facce valgono oro.",
+      "Accompagna ogni opzione con un dettaglio concreto, non solo il tipo di piano.",
+      "Se il risultato vi sorprende, parlatene: scoprite cosa vuole davvero l'altro."
+    ],
+    "variations": [
+      {
+        "question": "Che tipo di cena vogliamo per San Valentino?",
+        "options": ["Ristorante italiano", "Sushi a domicilio", "Cuciniamo insieme", "Pic-nic al chiuso o aperto"]
+      },
+      {
+        "question": "Quale regalo ti farebbe più piacere quest'anno?",
+        "options": ["Un'esperienza insieme", "Qualcosa di utile", "Una lettera scritta a mano", "Una sorpresa totale"]
+      },
+      {
+        "question": "Come vogliamo chiudere la serata?",
+        "options": ["Film sul divano", "Andare a ballare", "Passeggiata notturna", "Senza telefono, solo a parlare"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Il mio partner vedrà cosa ho votato?",
+        "a": "No, si vede solo il totale per opzione. Proprio questo rende il gioco interessante: non sai se l'altro ha votato come te fino alla fine."
+      },
+      {
+        "q": "Quando conviene inviare il sondaggio?",
+        "a": "Circa quattro o cinque giorni prima del 14 febbraio, così avete tempo per prenotare il ristorante o organizzare il piano vincente con calma."
+      },
+      {
+        "q": "E se l'opzione vincente non mi convince?",
+        "a": "È esattamente per quello che vale la pena: scopri cosa vuole davvero l'altro. Se i voti sono vicini, potete combinare le due opzioni più votate."
+      },
+      {
+        "q": "Funziona per una coppia a distanza?",
+        "a": "Sì, è perfetto. Ognuno vota dal proprio telefono e poi pianificate insieme in base al vincitore, magari per una video-cena o per la prossima volta che vi vedete."
+      }
+    ],
+    "related": [
+      "sondaggio-pizza-margherita-vs-quattro-formaggi-it",
+      "sondaggio-amici-capodanno-festa-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-amici-capodanno-festa-it",
+    "locale": "it",
+    "emoji": "🎉",
+    "title": "Sondaggio amici: come organizzare il Capodanno",
+    "h1": "Sondaggio: come passiamo il Capodanno con gli amici?",
+    "description": "Modello di sondaggio gratuito per gruppi che vogliono decidere insieme come festeggiare Capodanno. Vota, condividi il link e blocca il piano in poche ore.",
+    "intro": "Ogni anno la stessa storia: a metà novembre si parla di Capodanno, a metà dicembre nessuno ha ancora deciso niente. Questo modello accelera tutto. Proponi tre o quattro piani realistici, mandi il link al gruppo e in poche ore sai cosa farete il 31 dicembre. Niente più chat da quattrocento messaggi senza conclusione. Il sondaggio è anonimo, così anche chi di solito si adatta vota davvero quello che gli va, e i risultati sono in tempo reale. Funziona sia per un gruppo di amici di sempre sia per un gruppo misto che si sta organizzando per la prima volta insieme.",
+    "category": "newyear",
+    "audience": "Gruppi di amici che vogliono chiudere il piano di Capodanno senza settimane di indecisione",
+    "question": "Come passiamo il Capodanno insieme?",
+    "options": [
+      "Cena a casa di qualcuno",
+      "Cenone al ristorante",
+      "Weekend in montagna o al mare",
+      "Festa in una location affittata"
+    ],
+    "whyItWorks": "Chiude un dibattito che di solito dura settimane in poche ore. Le quattro opzioni filtrate evitano il caos delle proposte all'infinito. L'anonimato fa emergere la vera preferenza del gruppo, non quella dei più insistenti, e il risultato in tempo reale dà subito un punto di partenza concreto per organizzare."
+,
+    "tips": [
+      "Filtra prima per budget massimo e disponibilità di alloggio.",
+      "Indica accanto a ogni opzione una stima di costo a persona.",
+      "Metti una scadenza di votazione, ad esempio 72 ore.",
+      "Se c'è pareggio, lancia un secondo sondaggio solo con le finaliste.",
+      "Una volta scelto il piano, apri un altro sondaggio per il menu o il tema."
+    ],
+    "variations": [
+      {
+        "question": "Che tipo di Capodanno vogliamo?",
+        "options": ["Tranquillo in casa", "Festa in grande", "In viaggio fuori città", "Solo cena, niente botti"]
+      },
+      {
+        "question": "Budget medio a persona per la serata?",
+        "options": ["Meno di 30€", "Tra 30 e 70€", "Tra 70 e 150€", "Più di 150€"]
+      },
+      {
+        "question": "Tema per la festa di Capodanno?",
+        "options": ["Black and gold", "Anni 90", "Dress code rosso", "Niente tema, libero"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quante persone possono partecipare al sondaggio?",
+        "a": "Nessun limite. Puoi condividerlo con tutto il gruppo, anche con chi è ancora indeciso se venire. Ognuno vota una volta sola."
+      },
+      {
+        "q": "Come evito che voti chi non viene davvero?",
+        "a": "Condividi il link solo nel gruppo privato della serata. Essendo anonimo basta fidarsi del gruppo, non serve registrazione."
+      },
+      {
+        "q": "Posso fare più sondaggi per lo stesso Capodanno?",
+        "a": "Sì, anzi è consigliato: uno per il tipo di serata, uno per il budget, uno per il menu o il dress code. Ogni sondaggio richiede pochi secondi."
+      },
+      {
+        "q": "E se nessuno si mette d'accordo dopo il voto?",
+        "a": "Questo è il punto: con il sondaggio non c'è più nulla da negoziare, vince l'opzione più votata. Se vuoi spazio al dibattito, mettete d'accordo prima che il risultato è vincolante."
+      }
+    ],
+    "related": [
+      "sondaggio-pizza-margherita-vs-quattro-formaggi-it",
+      "sondaggio-coppia-san-valentino-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-restaurante-jantar-amigos-pt",
+    "locale": "pt",
+    "emoji": "🍽️",
+    "title": "Sondagem para escolher restaurante com amigos",
+    "h1": "Sondagem: a que restaurante vamos jantar?",
+    "description": "Modelo de sondagem gratuita e anónima para decidir em grupo a que restaurante ir jantar. Vota, partilha o link e descobre o favorito do grupo.",
+    "intro": "Combinar um jantar entre amigos quase sempre acaba num chat infinito sem decisão final. Este modelo resolve isso num minuto: colocas três ou quatro restaurantes em cima da mesa, envias o link para o grupo e cada um vota sem stress. A contagem é anónima e em tempo real, por isso ninguém se sente obrigado a votar como o mais insistente do grupo. A sondagem serve para um jantar improvisado de uma sexta-feira tanto como para um aniversário, um reencontro ou um fim de semana fora. Muda os nomes pelos restaurantes que tens por perto e envia: em menos de dez minutos sabes onde vão e podes reservar a mesa com tempo.",
+    "category": "food",
+    "audience": "Grupos de amigos que querem combinar um jantar sem discussões intermináveis no chat",
+    "question": "A que restaurante vamos jantar esta sexta-feira?",
+    "options": [
+      "Italiano do bairro",
+      "Asiático fusão novo",
+      "Hamburgueria de sempre",
+      "Petiscos no centro"
+    ],
+    "whyItWorks": "Limitar a quatro opções fechadas evita o clássico ciclo de sugestões intermináveis. Por ser anónima, ninguém vota por compromisso e a opção vencedora reflete o que realmente apetece ao grupo. Partilhar o link no WhatsApp permite que todos votem quando puderem, sem terem de estar online ao mesmo tempo.",
+    "tips": [
+      "Filtra antes por zona e orçamento para não meter sítios impossíveis.",
+      "Coloca um emoji ao lado de cada restaurante para ser mais visual.",
+      "Fecha a votação a uma hora concreta para poderes reservar a tempo.",
+      "Se houver empate, lança uma segunda sondagem só com os dois primeiros.",
+      "Guarda o link: vai servir-te para próximos jantares com o mesmo grupo."
+    ],
+    "variations": [
+      {
+        "question": "Que tipo de cozinha nos apetece esta noite?",
+        "options": ["Italiana", "Japonesa", "Mexicana", "Mediterrânica"]
+      },
+      {
+        "question": "Jantamos dentro ou numa esplanada?",
+        "options": ["Esplanada com vista", "Sala acolhedora", "Rooftop", "Tanto faz, o que houver"]
+      },
+      {
+        "question": "Orçamento para o jantar de grupo?",
+        "options": ["Menos de 20€", "Entre 20 e 35€", "Entre 35 e 50€", "Sem limite, é ocasião especial"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas pessoas podem votar na sondagem?",
+        "a": "Não há limite. Podes enviar o link a um grupo de cinco amigos ou a uma lista de cinquenta. Cada pessoa vota uma única vez e os resultados atualizam em tempo real."
+      },
+      {
+        "q": "Os meus amigos sabem em que opção votei?",
+        "a": "Não. A moomz é anónima por defeito. Só se mostra o total por opção, nunca quem votou em quê."
+      },
+      {
+        "q": "Posso adicionar um restaurante depois de criar a sondagem?",
+        "a": "Depois de criada não se podem adicionar opções, mas podes lançar uma nova sondagem em quinze segundos com a lista atualizada e partilhar o novo link."
+      },
+      {
+        "q": "Funciona se os amigos estiverem em cidades diferentes?",
+        "a": "Sim, perfeito para planear um jantar antes de se reunirem. Cada um vota do telemóvel e o vencedor aparece em tempo real para todos."
+      }
+    ],
+    "related": [
+      "sondagem-casal-dia-namorados-pt",
+      "sondagem-amigos-halloween-fantasia-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-casal-dia-namorados-pt",
+    "locale": "pt",
+    "emoji": "💖",
+    "title": "Sondagem de casal para o Dia dos Namorados",
+    "h1": "Sondagem: o que fazemos no Dia dos Namorados?",
+    "description": "Modelo de sondagem para casais decidirem juntos o plano do Dia dos Namorados sem stress. Envia o link, votem e o vencedor decide por vocês.",
+    "intro": "O Dia dos Namorados acaba muitas vezes a ser uma surpresa que só surpreende um dos dois, ou um plano que ninguém queria mas ninguém se atreveu a mudar. Este modelo muda a regra do jogo: em vez de adivinhar o que vai agradar ao outro, lanças uma mini sondagem com três ou quatro planos possíveis e deixam que vença o que realmente apetece. É íntimo, divertido e tira a pressão de organizar tudo sozinho. Funciona tanto para casais recentes como para casais de longa data que querem refrescar a rotina. O resultado: um plano que agrada de verdade aos dois, sem discussões prévias nem desilusões à última hora.",
+    "category": "valentine",
+    "audience": "Casais que querem um Dia dos Namorados sem stress e com um plano escolhido a dois",
+    "question": "Qual é o nosso plano ideal para o Dia dos Namorados?",
+    "options": [
+      "Jantar romântico no restaurante",
+      "Noite em casa com menu e filme",
+      "Escapadinha de fim de semana",
+      "Plano surpresa: quem ganha organiza"
+    ],
+    "whyItWorks": "Transforma uma decisão carregada de expectativas num pequeno jogo a dois. Por ser anónima mesmo entre vocês, é possível ser sincero sem medo de magoar o outro. E a quarta opção introduz uma reviravolta divertida que quebra o típico dilema sair fora ou ficar em casa.",
+    "tips": [
+      "Envia-o uns cinco dias antes para teres tempo de reservar.",
+      "Inclui pelo menos uma opção económica e outra mais elaborada.",
+      "Se vivem juntos, façam no sofá ao mesmo tempo: as caras valem ouro.",
+      "Acompanha cada opção com um detalhe concreto, não só o tipo de plano.",
+      "Se o resultado vos surpreender, falem sobre porque votaram assim."
+    ],
+    "variations": [
+      {
+        "question": "Que tipo de jantar queremos no Dia dos Namorados?",
+        "options": ["Restaurante italiano", "Sushi em casa", "Jantar feito a dois", "Piquenique nocturno"]
+      },
+      {
+        "question": "Que prenda te daria mais gosto este ano?",
+        "options": ["Uma experiência juntos", "Algo material útil", "Uma carta escrita à mão", "Uma surpresa total"]
+      },
+      {
+        "question": "Como queremos acabar a noite?",
+        "options": ["Filme no sofá", "Sair a dançar", "Passeio à noite", "Sem telemóvel, só a conversar"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "O meu par vai ver em que votei?",
+        "a": "Não. Só se vê o total por opção. É justamente isso que torna divertido: não sabes se o teu par votou igual a ti até ao fim."
+      },
+      {
+        "q": "Quando convém enviar a sondagem?",
+        "a": "Uns quatro ou cinco dias antes do 14 de fevereiro, assim sobra margem para reservar restaurante ou preparar o plano vencedor com calma."
+      },
+      {
+        "q": "E se a opção vencedora não me convence?",
+        "a": "É exactamente por isso que vale a pena: descobres o que realmente apetece ao outro. Se a diferença for pequena, podem combinar as duas opções mais votadas."
+      },
+      {
+        "q": "Funciona para uma relação à distância?",
+        "a": "Sim, é ideal. Cada um vota do telemóvel e depois planeiam juntos consoante o vencedor, seja para um vídeo-jantar ou para a próxima vez que se vejam."
+      }
+    ],
+    "related": [
+      "sondagem-restaurante-jantar-amigos-pt",
+      "sondagem-amigos-halloween-fantasia-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-amigos-halloween-fantasia-pt",
+    "locale": "pt",
+    "emoji": "🎃",
+    "title": "Sondagem para escolher fantasia de Halloween",
+    "h1": "Sondagem: que fantasia de Halloween vamos usar?",
+    "description": "Modelo de sondagem para grupos que querem combinar a fantasia de Halloween em conjunto. Vota anónimo, partilha o link e fechem o look antes da festa.",
+    "intro": "O Halloween chega rápido e o grupo nunca está de acordo sobre a fantasia. Uns querem algo assustador, outros preferem algo engraçado, outros não querem gastar nada. Este modelo simplifica tudo: lanças três ou quatro temas possíveis para o grupo, partilhas o link e em minutos sabem qual vai ser a estética da noite. Funciona para um grupo que vai todo igual, para casais coordenados ou para uma família que decide o tema da festa em casa. Por ser anónima, ninguém vota só por seguir o líder, e o resultado em tempo real permite começar a preparar acessórios assim que aparece o vencedor.",
+    "category": "halloween",
+    "audience": "Grupos de amigos ou famílias que querem decidir o tema de Halloween sem indecisão até à última hora",
+    "question": "Que tema de fantasia vamos usar no Halloween?",
+    "options": [
+      "Clássicos do terror (Drácula, bruxa, fantasma)",
+      "Filmes e séries do momento",
+      "Anos 80 estilo Stranger Things",
+      "Cada um escolhe livremente"
+    ],
+    "whyItWorks": "Resolve em minutos uma decisão que costuma arrastar-se até dias antes da festa. Limita o caos a quatro temas viáveis e por ser anónima dá voz aos mais discretos do grupo. O resultado em tempo real permite começar a comprar ou improvisar acessórios sem stress de última hora.",
+    "tips": [
+      "Lança a sondagem pelo menos duas semanas antes do 31 de outubro.",
+      "Filtra temas pelo orçamento médio do grupo para evitar opções impossíveis.",
+      "Junta uma referência visual ao lado de cada tema para inspirar.",
+      "Combina antes que o vencedor é vinculante para evitar fugidos.",
+      "Depois do tema, lança outra sondagem para detalhes como maquilhagem ou acessórios."
+    ],
+    "variations": [
+      {
+        "question": "Onde fazemos a festa de Halloween?",
+        "options": ["Casa de alguém", "Bar com tema Halloween", "Discoteca", "Saída em vários sítios"]
+      },
+      {
+        "question": "Que nível de assustador queremos?",
+        "options": ["Engraçado e leve", "Equilibrado", "Bastante assustador", "Gore total"]
+      },
+      {
+        "question": "Vamos coordenar a fantasia em grupo?",
+        "options": ["Todos iguais", "Mesmo tema, looks diferentes", "Por pares", "Livre, cada um o seu"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas pessoas podem votar?",
+        "a": "Não há limite. Pode ser um grupo de três amigos ou de trinta. Cada pessoa vota uma vez e os resultados atualizam em tempo real."
+      },
+      {
+        "q": "Como faço para que só vote quem vai à festa?",
+        "a": "Partilha o link só no grupo privado da festa. Por ser anónima basta confiar no grupo, não há registo obrigatório."
+      },
+      {
+        "q": "Posso fazer várias sondagens para o mesmo Halloween?",
+        "a": "Sim, é o ideal: uma para o tema, outra para o local, outra para o nível de assustador. Cada sondagem leva segundos a criar."
+      },
+      {
+        "q": "E se ninguém aceitar o vencedor?",
+        "a": "É por isso que convém combinar antes que o resultado é vinculante. Se quiseres espaço para debater, marca a regra logo no início e segue o voto da maioria."
+      }
+    ],
+    "related": [
+      "sondagem-restaurante-jantar-amigos-pt",
+      "sondagem-casal-dia-namorados-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-restaurant-abendessen-freunde-de",
+    "locale": "de",
+    "emoji": "🍽️",
+    "title": "Umfrage zum Restaurant für ein Abendessen mit Freunden",
+    "h1": "Umfrage: In welches Restaurant gehen wir essen?",
+    "description": "Kostenlose und anonyme Umfragevorlage, um in der Gruppe ein Restaurant fürs Abendessen zu wählen. Link teilen, abstimmen, Favoriten finden.",
+    "intro": "Ein Abendessen mit Freunden zu planen endet oft in einem endlosen Chat ohne Entscheidung. Diese Vorlage löst das Problem in einer Minute: Du stellst drei oder vier Restaurants zur Auswahl, schickst den Link in die WhatsApp-Gruppe und alle stimmen entspannt ab. Die Auswertung ist anonym und in Echtzeit, sodass niemand das Gefühl hat, dem lautesten in der Gruppe folgen zu müssen. Die Umfrage funktioniert genauso für ein spontanes Freitagsessen wie für einen Geburtstag, ein Klassentreffen oder ein Wochenende auswärts. Ersetze die Vorschläge durch die Lokale in deiner Stadt und schicke den Link los: In weniger als zehn Minuten weißt du, wo es hingeht, und kannst rechtzeitig reservieren.",
+    "category": "food",
+    "audience": "Freundesgruppen, die ein Abendessen ohne endlose Diskussionen im Chat planen wollen",
+    "question": "In welches Restaurant gehen wir Freitagabend?",
+    "options": [
+      "Italiener um die Ecke",
+      "Neuer asiatischer Fusion-Laden",
+      "Burgerladen wie immer",
+      "Tapas in der Innenstadt"
+    ],
+    "whyItWorks": "Vier klar definierte Optionen verhindern die typische Endlosschleife aus immer neuen Vorschlägen. Da die Abstimmung anonym ist, wählt niemand aus Höflichkeit mit, und das Ergebnis spiegelt die echte Stimmung der Gruppe wider. Der Link auf WhatsApp erlaubt jedem, abzustimmen, wenn er gerade Zeit hat.",
+    "tips": [
+      "Filtere vorher nach Stadtteil und Budget, damit keine unrealistischen Optionen drin sind.",
+      "Setze ein passendes Emoji neben jedes Restaurant, das macht es übersichtlicher.",
+      "Setze eine feste Deadline, um rechtzeitig reservieren zu können.",
+      "Bei Gleichstand starte eine zweite Umfrage nur mit den beiden Favoriten.",
+      "Speichere den Link, du kannst ihn für künftige Essen mit derselben Gruppe wiederverwenden."
+    ],
+    "variations": [
+      {
+        "question": "Welche Küche wollen wir heute Abend?",
+        "options": ["Italienisch", "Japanisch", "Mexikanisch", "Mediterran"]
+      },
+      {
+        "question": "Drinnen sitzen oder doch lieber Terrasse?",
+        "options": ["Terrasse mit Aussicht", "Gemütlich drinnen", "Rooftop", "Egal, Hauptsache frei"]
+      },
+      {
+        "question": "Budget pro Person fürs Gruppenessen?",
+        "options": ["Unter 20€", "Zwischen 20 und 35€", "Zwischen 35 und 50€", "Egal, besonderer Anlass"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Personen können in der Umfrage abstimmen?",
+        "a": "Es gibt keine Begrenzung. Du kannst den Link an fünf oder fünfzig Personen schicken. Jeder stimmt einmal ab und das Ergebnis aktualisiert sich in Echtzeit."
+      },
+      {
+        "q": "Sehen meine Freunde, wofür ich gestimmt habe?",
+        "a": "Nein. moomz ist standardmäßig anonym. Es werden nur die Gesamtzahlen pro Option angezeigt, nie wer was gewählt hat."
+      },
+      {
+        "q": "Kann ich nach dem Erstellen ein Restaurant nachträglich hinzufügen?",
+        "a": "Die Optionen lassen sich nach dem Erstellen nicht ändern, aber du kannst in fünfzehn Sekunden eine neue Umfrage mit aktualisierter Liste starten und den neuen Link teilen."
+      },
+      {
+        "q": "Funktioniert es, wenn die Freunde in verschiedenen Städten leben?",
+        "a": "Ja, perfekt zum Planen eines gemeinsamen Treffens. Jeder stimmt vom eigenen Handy aus ab und das Ergebnis ist für alle in Echtzeit sichtbar."
+      }
+    ],
+    "related": [
+      "umfrage-paar-valentinstag-de",
+      "umfrage-weihnachten-geschenk-kollege-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-paar-valentinstag-de",
+    "locale": "de",
+    "emoji": "💖",
+    "title": "Paar-Umfrage zum Valentinstag",
+    "h1": "Umfrage: Was machen wir am Valentinstag?",
+    "description": "Umfragevorlage für Paare, die den Valentinsplan stressfrei zu zweit entscheiden. Link senden, abstimmen und der Favorit spricht für euch.",
+    "intro": "Der Valentinstag endet oft so: Einer organisiert eine Überraschung, von der nur er weiß, dass es eine ist, oder beide sitzen in einem Plan fest, den eigentlich keiner wollte. Diese Vorlage dreht das Spiel um. Statt zu raten, was dem anderen gefällt, startest du eine kleine Umfrage mit drei oder vier konkreten Ideen und lasst den Favoriten gewinnen. Das ist intim, locker und nimmt den Druck der perfekten Überraschung. Funktioniert für junge Paare genauso wie für langjährige Beziehungen, die etwas Schwung in die Routine bringen wollen. Ergebnis: ein Abend, der wirklich zu euch beiden passt, gemeinsam entschieden und ohne langes Hin und Her.",
+    "category": "valentine",
+    "audience": "Paare, die einen entspannten Valentinstag mit einem zu zweit entschiedenen Plan wollen",
+    "question": "Was ist unser idealer Plan zum Valentinstag?",
+    "options": [
+      "Romantisches Dinner im Restaurant",
+      "Abend zu Hause mit Menü und Film",
+      "Wochenendtrip",
+      "Überraschung: Wer gewinnt, organisiert"
+    ],
+    "whyItWorks": "Verwandelt eine erwartungsgeladene Entscheidung in ein kleines Pärchenspiel. Da die Stimmen sogar zwischen euch anonym sind, könnt ihr ehrlich sein, ohne Angst zu enttäuschen. Die vierte Option bringt einen unterhaltsamen Twist ins Spiel und löst das ewige Drinnen-oder-Draußen-Dilemma elegant auf.",
+    "tips": [
+      "Schicke die Umfrage etwa fünf Tage vorher, dann bleibt Zeit zum Reservieren.",
+      "Baue mindestens eine günstige und eine etwas hochwertigere Option ein.",
+      "Wenn ihr zusammen wohnt, macht es gemeinsam auf dem Sofa, die Gesichter sind Gold wert.",
+      "Beschreibe jede Option mit einem konkreten Detail, nicht nur dem Typ Plan.",
+      "Überrascht euch das Ergebnis, sprecht darüber, warum ihr so gestimmt habt."
+    ],
+    "variations": [
+      {
+        "question": "Welche Art Dinner wollen wir am Valentinstag?",
+        "options": ["Italiener", "Sushi nach Hause", "Selbst kochen zu zweit", "Picknick drinnen oder draußen"]
+      },
+      {
+        "question": "Welches Geschenk würde dir dieses Jahr am meisten Freude machen?",
+        "options": ["Eine gemeinsame Erfahrung", "Etwas Praktisches", "Ein handgeschriebener Brief", "Eine echte Überraschung"]
+      },
+      {
+        "question": "Wie wollen wir den Abend ausklingen lassen?",
+        "options": ["Film auf dem Sofa", "Tanzen gehen", "Nächtlicher Spaziergang", "Ohne Handy, nur reden"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Sieht mein Partner, wofür ich gestimmt habe?",
+        "a": "Nein, sichtbar ist nur die Gesamtzahl pro Option. Genau das macht es spannend: Du weißt erst am Ende, ob ihr beide dasselbe gewählt habt."
+      },
+      {
+        "q": "Wann sollte ich die Umfrage am besten schicken?",
+        "a": "Etwa vier bis fünf Tage vor dem 14. Februar, so bleibt genug Spielraum, um zu reservieren oder den Gewinnerplan in Ruhe vorzubereiten."
+      },
+      {
+        "q": "Und wenn mir die Gewinneroption nicht gefällt?",
+        "a": "Genau deshalb lohnt es sich: Du erfährst, was den anderen wirklich anspricht. Liegen die Stimmen nah beieinander, könnt ihr die beiden Favoriten kombinieren."
+      },
+      {
+        "q": "Funktioniert das für eine Fernbeziehung?",
+        "a": "Ja, perfekt sogar. Jeder stimmt vom eigenen Handy ab und ihr plant dann je nach Gewinner ein Video-Dinner oder den Plan fürs nächste Treffen."
+      }
+    ],
+    "related": [
+      "umfrage-restaurant-abendessen-freunde-de",
+      "umfrage-weihnachten-geschenk-kollege-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-weihnachten-geschenk-kollege-de",
+    "locale": "de",
+    "emoji": "🎁",
+    "title": "Umfrage für ein Weihnachtsgeschenk für Kollegen",
+    "h1": "Umfrage: Welches Weihnachtsgeschenk für die Kollegen?",
+    "description": "Kostenlose Umfragevorlage, um im Team das Weihnachtsgeschenk für Kollegen zu wählen. Link teilen, anonym abstimmen und die Lieblingsidee schnell finden.",
+    "intro": "Im Büro endet die Frage nach dem Weihnachtsgeschenk meist im selben Muster: Eine Person macht alles allein oder es entstehen zehn lose Vorschläge im Chat, die nie zu einer Entscheidung führen. Diese Vorlage räumt das auf. Du stellst drei oder vier konkrete Geschenkideen für das Team zur Auswahl, teilst den Link im Team-Chat oder per Slack, und in kurzer Zeit habt ihr eine klare Mehrheit. Die Abstimmung ist anonym, sodass auch Kollegen, die sich sonst zurückhalten, ihre echte Meinung abgeben. So findest du ein Geschenk, das wirklich von der Mehrheit gewünscht ist, ohne dass eine einzelne Person die Verantwortung trägt.",
+    "category": "christmas",
+    "audience": "Teams und Büros, die ein Weihnachtsgeschenk für Kollegen demokratisch entscheiden wollen",
+    "question": "Welches Weihnachtsgeschenk für die Kollegen?",
+    "options": [
+      "Wichtelspiel im Büro",
+      "Gemeinsamer Gutschein für ein Restaurant",
+      "Kleines Geschenk für jeden (Schokolade, Tasse)",
+      "Spende an eine gemeinsame Wohltätigkeitsorganisation"
+    ],
+    "whyItWorks": "Entlastet die Person, die sonst alles allein entscheiden müsste. Die Anonymität sorgt dafür, dass auch leisere Stimmen aus dem Team ehrlich antworten, und die vier strukturierten Optionen ersparen langwierige Diskussionen. Das Ergebnis in Echtzeit ermöglicht eine schnelle Umsetzung lange vor dem Weihnachtsfest.",
+    "tips": [
+      "Starte die Umfrage spätestens Mitte November, um Zeit für die Bestellung zu haben.",
+      "Gib bei jeder Option ein realistisches Budget pro Person an.",
+      "Setze eine klare Deadline für die Abstimmung, etwa eine Woche.",
+      "Bei Gleichstand starte eine zweite Umfrage nur mit den beiden Favoriten.",
+      "Halte das Ergebnis im Team-Chat fest, damit niemand später anders behauptet."
+    ],
+    "variations": [
+      {
+        "question": "Wie hoch ist unser Budget pro Person fürs Wichteln?",
+        "options": ["Bis 10€", "Bis 20€", "Bis 30€", "Über 30€"]
+      },
+      {
+        "question": "Welches Format fürs Team-Geschenk?",
+        "options": ["Erlebnis (Escape Room, Restaurant)", "Materielles Geschenk", "Gemeinsame Aktion", "Spende"]
+      },
+      {
+        "question": "Welche Art Weihnachtsfeier wollen wir dieses Jahr?",
+        "options": ["Essen im Restaurant", "Feier im Büro", "Aktivität (Bowling, Kochkurs)", "Kein offizielles Format"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wer kann an der Umfrage teilnehmen?",
+        "a": "Alle, die den Link erhalten. Du teilst ihn am besten im Team-Chat oder per Mail, damit nur das Team abstimmt. Jeder kann nur einmal stimmen."
+      },
+      {
+        "q": "Sind die Antworten wirklich anonym?",
+        "a": "Ja. moomz speichert keine Information darüber, wer welche Option gewählt hat. Nur die Gesamtzahl pro Option ist sichtbar."
+      },
+      {
+        "q": "Wie verhindern wir, dass Externe mitstimmen?",
+        "a": "Da kein Account nötig ist, basiert die Auswertung auf Vertrauen. Teile den Link nur in internen Kanälen, dann bleibt die Abstimmung sauber."
+      },
+      {
+        "q": "Können wir mehrere Umfragen kombinieren?",
+        "a": "Ja, das ist sogar empfehlenswert: eine für die Art des Geschenks, eine für das Budget, eine für die Weihnachtsfeier. Jede Umfrage ist in Sekunden erstellt."
+      }
+    ],
+    "related": [
+      "umfrage-restaurant-abendessen-freunde-de",
+      "umfrage-paar-valentinstag-de"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "slug": "sondage-couple-resto-saint-valentin",
+    "locale": "fr",
+    "emoji": "🌹",
+    "title": "Sondage Saint-Valentin : où aller au resto en couple ?",
+    "h1": "Sondage couple : on choisit quel resto pour la Saint-Valentin ?",
+    "description": "Template de sondage Saint-Valentin pour couple : laissez votre moitié voter le resto idéal et évitez le drama du dernier moment. Lancez le poll en 30 secondes.",
+    "intro": "La Saint-Valentin approche et tu galères à choisir le resto sans déclencher un mini-drama ? Ce template moomz transforme la déco en vibe check honest : ta moitié vote, tu réserves, zéro débat. Bonus : tu peux activer le mode anonyme pour qu'elle dise vraiment ce qu'elle pense (au lieu du 'on s'en fout, choisis').",
+    "category": "couple",
+    "audience": "Couples 18-35 qui veulent éviter le débat resto à 19h le 14 février",
+    "question": "On va où pour la Saint-Valentin ?",
+    "options": [
+      "Resto italien intimiste",
+      "Sushi chic avec vue",
+      "Bistrot français cosy",
+      "On commande et Netflix",
+      "Brunch le 15 plutôt"
+    ],
+    "whyItWorks": "Choisir le resto de Saint-Valentin est un piège classique : 'choisis toi' suivi de 'mais pas ça'. Un poll moomz contourne le drama avec 4-5 options pré-validées, votes honest, résultat clair. Le mode anonyme révèle si l'autre préfère vraiment Netflix au resto étoilé.",
+    "tips": [
+      "Active le mode anonyme pour vrai honest feedback : l'autre osera dire 'flemme de sortir'",
+      "Partage le lien moomz en DM avec un 'vote en 5s mon love' — pas sur la story Insta cette fois",
+      "Ajoute une option 'on commande et Netflix' : 6 fois sur 10 elle gagne et tu évites une réservation à 80€",
+      "Lance le sondage 10 jours avant — pas le 13 février à 22h",
+      "Screenshot le résultat avant de réserver, ça évite le retour de drama 'mais j'avais pas dit ça'"
+    ],
+    "variations": [
+      {
+        "question": "Couple longue distance — on dîne ensemble en visio comment ?",
+        "options": [
+          "Même resto livré chez chacun",
+          "On cuisine la même recette en visio",
+          "Apéro Zoom et film synchro",
+          "On reporte au prochain weekend IRL"
+        ]
+      },
+      {
+        "question": "Premier Valentin ensemble — on ose quoi ?",
+        "options": [
+          "Resto cher 'on assume'",
+          "Pique-nique improvisé",
+          "Cinéma + burger old school",
+          "Soirée à la maison sans pression"
+        ]
+      },
+      {
+        "question": "10 ans ensemble — on innove ou tradition ?",
+        "options": [
+          "Le resto où on s'est rencontrés",
+          "Un nouveau spot jamais testé",
+          "Weekend en amoureux à la place",
+          "Cadeau seulement, pas de sortie"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "C'est vraiment anonyme si je partage à mon copain ?",
+        "a": "Oui — moomz n'affiche jamais qui a voté quoi. Même toi en tant que créateur tu vois seulement les pourcentages. Parfait pour du vrai honest feedback sans qu'il/elle craigne de te blesser."
+      },
+      {
+        "q": "Et si je veux ajouter une 6e option resto ?",
+        "a": "Le format moomz est limité à 5 options pour rester lisible et fun. Si tu hésites entre 6 spots, fais 2 polls successifs : 'demi-finale' puis 'finale'. Plus engageant en plus."
+      },
+      {
+        "q": "Mon/ma partenaire ne vote jamais aux sondages, ça marchera ?",
+        "a": "Justement, le format moomz est ultra rapide : 1 clic, pas de compte à créer, pas de pub. La friction est tellement basse que même les non-votants cliquent."
+      },
+      {
+        "q": "Je peux fermer le poll après son vote pour bloquer son choix ?",
+        "a": "Oui, dans /mes-sondages tu peux clôturer manuellement. Le résultat reste visible, mais plus personne ne peut voter — utile pour figer le verdict avant de réserver."
+      }
+    ],
+    "related": [
+      "sondage-couple-week-end-escapade",
+      "sondage-couple-serie-binge-watch",
+      "sondage-couple-prochaine-vacances"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-couple-week-end-escapade",
+    "locale": "fr",
+    "emoji": "🧳",
+    "title": "Sondage couple : on part où en week-end escapade ?",
+    "h1": "Sondage week-end en amoureux : la team vote la destination",
+    "description": "Template moomz pour choisir une escapade week-end à deux sans débat. Options pré-prêtes, vote en 5 secondes, réservation l'esprit léger.",
+    "intro": "Vendredi soir, vous voulez décrocher mais aucun de vous deux ne tranche entre la mer, la montagne ou un city break. Ce template moomz règle le débat en 2 minutes : 4 options, vote honest, et le perdant ferme sa gueule (avec amour). Beaucoup mieux que 3h de scroll Booking en parallèle.",
+    "category": "couple",
+    "audience": "Couples 20-40 qui veulent un weekend à deux sans le drama de la décision",
+    "question": "On part où ce week-end à deux ?",
+    "options": [
+      "Bord de mer et fruits de mer",
+      "Cabane perdue en forêt",
+      "City break Lisbonne / Rome / Berlin",
+      "Spa nature sans réseau",
+      "On reste, brunch + ciné"
+    ],
+    "whyItWorks": "Les escapades couple plantent souvent à cause d'attentes différentes : un veut chiller, l'autre veut visiter. Un sondage moomz révèle l'attente vraie dès le départ — pas de fausse surprise à l'arrivée. En plus c'est ludique : ça lance déjà la vibe du voyage.",
+    "tips": [
+      "Lance le poll un mardi pour le weekend suivant : laisse 48h pour réserver pas cher",
+      "Active anonyme — ton/ta partenaire osera dire 'flemme de city break' sans culpabiliser",
+      "Ajoute toujours l'option 'on reste' : 1 weekend sur 3 c'est la meilleure réponse",
+      "Screenshot le résultat et partage-le en DM avec 'verdict du peuple 🫡'",
+      "Pour booster le vote, partage en story Insta avec sticker question 'aidez-nous à trancher'"
+    ],
+    "variations": [
+      {
+        "question": "Couple longue distance — on se retrouve où ce weekend ?",
+        "options": [
+          "Mi-chemin dans une ville neutre",
+          "Chez toi, je viens",
+          "Chez moi, tu viens",
+          "Weekend Airbnb dans un 3e spot"
+        ]
+      },
+      {
+        "question": "Première escapade ensemble — on ose le format ?",
+        "options": [
+          "Hôtel chic 2 nuits",
+          "Camping aventure",
+          "Airbnb cosy en pleine nature",
+          "Roadtrip improvisé en voiture"
+        ]
+      },
+      {
+        "question": "Couple parents — premier weekend sans les enfants depuis 2 ans :",
+        "options": [
+          "Spa et silence total",
+          "City break culturel intense",
+          "Plage et farniente non négociables",
+          "Restos étoilés à chaque repas"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de votes pour que le résultat soit fiable ?",
+        "a": "À deux, le résultat est instantané : c'est 2 votes ou 1-1. Si tu veux un avis extérieur, partage le lien à 5 potes proches pour départager — moomz n'a pas de minimum."
+      },
+      {
+        "q": "On peut intégrer le poll directement dans une conv WhatsApp ?",
+        "a": "Oui — copie le lien moomz, colle-le dans la conv, le aperçu rich s'affiche avec la question et les options. Le clic ouvre le poll en plein écran, vote en 5s, retour direct au chat."
+      },
+      {
+        "q": "Et si on n'est jamais d'accord, ça aide vraiment ?",
+        "a": "Souvent oui : voir 'on reste à 60%' écrit sur l'écran évite le débat 'mais toi tu voulais'. Le chiffre tranche, l'ego prend moins."
+      },
+      {
+        "q": "Je peux re-voter si je change d'avis ?",
+        "a": "Non, un vote par appareil pour éviter la triche. Mais tu peux lancer un nouveau poll sous 30s avec les options ajustées."
+      }
+    ],
+    "related": [
+      "sondage-couple-resto-saint-valentin",
+      "sondage-couple-prochaine-vacances",
+      "sondage-couple-serie-binge-watch"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-couple-serie-binge-watch",
+    "locale": "fr",
+    "emoji": "🍿",
+    "title": "Sondage couple : quelle série on binge ce soir ?",
+    "h1": "Sondage série en couple : la team tranche le binge du soir",
+    "description": "Template moomz pour choisir la série à binge en couple sans 45 min de scroll Netflix. Options claires, vote honest, soirée sauvée.",
+    "intro": "Le drama universel : 21h, vous êtes sur le canap, la télécommande tourne depuis 30 min, et personne ne tranche. Ce template moomz transforme le scroll Netflix en vibe check rapide. 4-5 séries pré-shortlistées, vote en 5 secondes, lancement immédiat. Bonus : tu peux relancer le poll chaque semaine.",
+    "category": "couple",
+    "audience": "Couples 18-35 fatigués du scroll Netflix infini",
+    "question": "On binge quelle série ce soir ?",
+    "options": [
+      "Un truc léger feel-good",
+      "Thriller intense bien sombre",
+      "Romance Netflix easy",
+      "Documentaire true crime",
+      "Reality TV trash assumée"
+    ],
+    "whyItWorks": "Le choix de la série en couple a un coût caché : la fatigue de décision. Un sondage moomz externalise le débat en 2 minutes. En plus tu peux le ré-utiliser comme template chaque vendredi, ça devient un mini-rituel du couple.",
+    "tips": [
+      "Pré-shortliste à 4-5 séries max — au-delà tu paralyses le vote",
+      "Mets toujours une option 'trash assumée' : 1 vendredi sur 3 elle gagne et c'est le meilleur soir",
+      "Active anonyme pour que personne ne se sente jugé d'avoir voté reality TV",
+      "Partage en DM avec 'choisis vite j'ai sorti les chips' — urgence = engagement",
+      "Sauvegarde le poll fav et relance-le chaque vendredi : ferme du buzz couple"
+    ],
+    "variations": [
+      {
+        "question": "On replonge dans une vieille série culte ou on en lance une nouvelle ?",
+        "options": [
+          "Réécoute Game of Thrones",
+          "Friends pour la 8e fois",
+          "Nouvelle série hypée du moment",
+          "Anime qu'on a jamais osé"
+        ]
+      },
+      {
+        "question": "On binge un truc qu'on a déjà commencé séparément ?",
+        "options": [
+          "Je recommence avec toi",
+          "Tu me racontes les épisodes manqués",
+          "On regarde 2 séries différentes côte à côte",
+          "On lance un truc totalement nouveau pour les deux"
+        ]
+      },
+      {
+        "question": "Marathon weekend : on s'enchaîne combien d'épisodes ?",
+        "options": [
+          "3 épisodes sage",
+          "Une saison entière en 2 jours",
+          "Tout dispo jusqu'à 3h du mat",
+          "On chill, 1 épisode par soir"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le poll peut intégrer des affiches de séries ?",
+        "a": "Oui, à la création tu peux upload une image (5 MB max). Idée : screenshot des affiches en une grille, ça fait un poll visuel ultra clean."
+      },
+      {
+        "q": "Et si on est plus que deux (coloc, famille) ?",
+        "a": "Encore mieux — moomz brille à partir de 3-4 votants. Partage le lien dans le group chat, tout le monde vote en 10s, verdict imposé démocratiquement."
+      },
+      {
+        "q": "Je peux faire un poll uniquement pour ce soir, pas archivé ?",
+        "a": "Tous les polls restent dispos sur ton profil, mais tu peux les supprimer après. Sinon ils auto-archivent passé 14 jours sans vote (option dead-poll cleanup)."
+      },
+      {
+        "q": "Y'a un système d'historique pour voir les séries déjà votées ?",
+        "a": "Va sur /mes-sondages : tu vois tous tes polls créés avec leurs résultats. Pratique pour pas reproposer 3 fois la même série en 2 semaines."
+      }
+    ],
+    "related": [
+      "sondage-couple-resto-saint-valentin",
+      "sondage-couple-week-end-escapade",
+      "sondage-soiree-musique-playlist-vote"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-couple-prochaine-vacances",
+    "locale": "fr",
+    "emoji": "✈️",
+    "title": "Sondage couple : on part où en vacances cet été ?",
+    "h1": "Sondage vacances en couple : la destination qui met tout le monde d'accord",
+    "description": "Template moomz pour choisir vos prochaines vacances à deux. Mer, montagne, city break, roadtrip — vote honest sans drama de réservation.",
+    "intro": "Choisir une destination de vacances en couple, c'est le test ultime : Bali ou Bretagne, hôtel club ou roadtrip backpack ? Un sondage moomz t'évite 3 soirées de débat en posant clairement les 4-5 options sur la table. Vote honest en 5 secondes, verdict net, plus qu'à booker.",
+    "category": "couple",
+    "audience": "Couples 22-40 qui planifient les vacances 2-6 mois à l'avance",
+    "question": "On part où en vacances cet été ?",
+    "options": [
+      "Mer et plage all-inclusive",
+      "Roadtrip en van",
+      "City break culture",
+      "Montagne et rando nature",
+      "Backpack Asie du Sud-Est"
+    ],
+    "whyItWorks": "Les vacances couple cristallisent les attentes profondes : repos vs aventure, luxe vs frugal, plage vs culture. Un sondage révèle l'attente prioritaire de chacun en transparence — ensuite tu peux composer. Sans poll, c'est 3 mois de 'comme tu veux' suivis du regret muet sur place.",
+    "tips": [
+      "Lance le poll 4-6 mois avant — laisse le temps de chasser les bons prix",
+      "Active anonyme : ton/ta partenaire osera dire 'flemme d'organiser un backpack'",
+      "Limite à 4 options principales + 1 option 'autre, en discute' — sinon paralysie",
+      "Partage le lien en DM avec un 'aide-moi à trancher mon love' — pas en story (sujet trop perso)",
+      "Si écart 50/50, fais un 2e poll de tie-breaker entre les 2 finalistes"
+    ],
+    "variations": [
+      {
+        "question": "Budget vacances cet été — on dépense combien ?",
+        "options": [
+          "Moins de 500€ chacun, frugal",
+          "1000-1500€ chacun, confort moyen",
+          "Plus de 2000€ chacun, on se lâche",
+          "Pas de budget, on improvise"
+        ]
+      },
+      {
+        "question": "Durée idéale de vacances ensemble :",
+        "options": [
+          "1 semaine intense",
+          "2 semaines posées",
+          "3 semaines voyage long",
+          "Plusieurs courts weekends étalés"
+        ]
+      },
+      {
+        "question": "On part avec d'autres potes ou juste à deux ?",
+        "options": [
+          "Juste nous deux, intime",
+          "À 4 avec un autre couple",
+          "Groupe de 6-8 amis",
+          "Famille élargie classique"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Je peux partager le résultat à des potes pour avoir leur avis ?",
+        "a": "Carrément — le lien moomz reste actif tant que tu le veux. Tu peux étendre le vote à un cercle d'amis pour avoir un input externe sur la destination."
+      },
+      {
+        "q": "Et si on veut 2 destinations dans la même semaine ?",
+        "a": "Fais 2 polls séparés : 'spot principal' et 'extension 2-3 jours'. Plus clair que de mélanger les 2 questions et de diluer le vote."
+      },
+      {
+        "q": "Le poll expire quand ?",
+        "a": "Par défaut jamais — mais tu peux le clôturer manuellement quand vous avez tranché. Sinon il auto-archive après 14 jours sans nouveau vote."
+      },
+      {
+        "q": "On peut ajouter des photos de destinations ?",
+        "a": "Une image max par poll (5 MB). Astuce : fais un collage des 4 spots en 1 image, ça rend le poll ultra visuel et boost le vote."
+      }
+    ],
+    "related": [
+      "sondage-couple-week-end-escapade",
+      "sondage-couple-resto-saint-valentin",
+      "sondage-couple-serie-binge-watch"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-soiree-musique-playlist-vote",
+    "locale": "fr",
+    "emoji": "🎧",
+    "title": "Sondage soirée : on vote la playlist du soir",
+    "h1": "Sondage playlist soirée : la team choisit la vibe du son",
+    "description": "Template moomz pour faire voter ta crew la playlist de la soirée. Hip-hop, électro, années 2010, latino — vote en 5s, ambiance débloquée.",
+    "intro": "Tu organises une soirée et personne n'est jamais d'accord sur la musique : la team électro pleure dès qu'un reggaeton passe, la team latino pleure quand Daft Punk arrive. Ce template moomz résout le drama avant qu'il existe : poll dans le group chat, vote honest, playlist alignée avec la vibe majoritaire de la soirée.",
+    "category": "party",
+    "audience": "Organisateurs de soirées 18-30, crews mixtes en goûts musicaux",
+    "question": "On part sur quelle vibe musicale ce soir ?",
+    "options": [
+      "Hip-hop / rap FR et US",
+      "Électro et house",
+      "Années 2010 nostalgia",
+      "Latino reggaeton",
+      "Mix éclectique non-stop"
+    ],
+    "whyItWorks": "La musique est le drama silencieux #1 des soirées : personne ne dit rien mais tout le monde a un avis fort. Un poll moomz fait sortir l'opinion sans confrontation. Bonus : si la team latino gagne, les électro fans peuvent pas râler — la démocratie a parlé.",
+    "tips": [
+      "Lance le poll 2-3 jours avant la soirée pour laisser le temps de voter et de préparer la playlist",
+      "Partage dans le group chat WhatsApp / Discord avec un 'votez sinon c'est moi qui choisis 🫡'",
+      "Limite à 4-5 vibes max — 8 options diluent le vote et personne s'engage",
+      "Ajoute toujours l'option 'mix éclectique' : compromis safe quand 2 camps se neutralisent",
+      "Active anonyme pour que les fans de reggaeton osent voter sans honte sociale"
+    ],
+    "variations": [
+      {
+        "question": "Soirée techno underground — on part sur quel sub-genre ?",
+        "options": [
+          "Techno hard 140 BPM",
+          "Tech-house dansable",
+          "Trance progressive",
+          "Minimal deep"
+        ]
+      },
+      {
+        "question": "Soirée années 2000 — la vraie nostalgia c'est :",
+        "options": [
+          "Pop FR : Lorie, Star Academy",
+          "RnB US : Usher, Beyoncé",
+          "Rock indé : Strokes, Arctic Monkeys",
+          "Tout le monde se trompe, c'est les 90s"
+        ]
+      },
+      {
+        "question": "Playlist BBQ d'été — l'ambiance c'est :",
+        "options": [
+          "Reggae et chill",
+          "Latino feel-good",
+          "Funk vintage",
+          "Pop FM grand public"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le poll peut être lié à une playlist Spotify ?",
+        "a": "Pas directement — moomz n'intègre pas Spotify. Mais après le vote, copie-colle simplement le lien Spotify dans le group chat avec 'voilà la playlist élue 🎶'."
+      },
+      {
+        "q": "On peut voter plusieurs vibes à la fois ?",
+        "a": "Non, 1 vote par personne par poll — c'est ce qui force vraiment à trancher. Pour un poll multi-réponses, fais 2 polls successifs (top 2 préférences)."
+      },
+      {
+        "q": "Tout le monde voit le résultat en live ?",
+        "a": "Oui — c'est l'effet 'sondage social'. Les barres bougent en temps réel, et ça pousse les indécis à voter pour pas que leur camp perde."
+      },
+      {
+        "q": "Combien de votes pour que ça soit représentatif ?",
+        "a": "Dès 8-10 votes tu as une tendance claire. Au-delà de 20, c'est blindé. moomz scale jusqu'à des milliers sans limite, donc partage large."
+      }
+    ],
+    "related": [
+      "sondage-soiree-jeu-debut-soiree",
+      "sondage-soiree-deguisement-theme",
+      "sondage-anniv-cadeau-meilleur-ami"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-soiree-jeu-debut-soiree",
+    "locale": "fr",
+    "emoji": "🎲",
+    "title": "Sondage soirée : on commence par quel jeu ?",
+    "h1": "Sondage jeu de soirée : la team vote le brise-glace",
+    "description": "Template moomz pour choisir le jeu qui lance la soirée. Action vérité, loup-garou, beer pong — vote en 5s, début de soirée débloqué.",
+    "intro": "Début de soirée : tout le monde est assis, personne ne parle vraiment, l'ambiance est tiède. Le bon jeu débloque tout. Mais lequel ? Action ou vérité, loup-garou, beer pong, jeu de cartes ? Ce template moomz fait voter la team en 2 minutes — pas de débat, pas de 'oui mais nan', on enchaîne direct sur le jeu validé.",
+    "category": "party",
+    "audience": "Organisateurs de soirées 16-28, crews qui veulent un démarrage rapide",
+    "question": "On commence la soirée par quel jeu ?",
+    "options": [
+      "Action ou vérité classique",
+      "Loup-garou de Thiercelieux",
+      "Beer pong tournoi",
+      "Cards Against Humanity FR",
+      "Just Dance échauffement"
+    ],
+    "whyItWorks": "Le premier jeu set la vibe entière de la soirée : action/vérité débloque les confidences, loup-garou installe la stratégie, beer pong met l'alcool en route. Choisir ensemble avec un poll évite le 'allez on fait quoi' qui plombe 30 min. Plus le vote est rapide, plus la soirée démarre fort.",
+    "tips": [
+      "Lance le poll dès l'arrivée des premiers invités, dans le group chat de la soirée",
+      "5 options max — sinon paralysie, l'ambiance retombe avant le vote",
+      "Active anonyme pour que les timides osent voter beer pong sans pression sociale",
+      "Screenshot le résultat et affiche-le sur ton phone — 'le peuple a parlé, on lance'",
+      "Si écart serré, fais un round de chacun des 2 finalistes : double engagement"
+    ],
+    "variations": [
+      {
+        "question": "Apéro 6-8 personnes — quel jeu de cartes ?",
+        "options": [
+          "Uno classique",
+          "Skyjo addictif",
+          "Time's Up",
+          "Coup d'État stratégie"
+        ]
+      },
+      {
+        "question": "Grosse soirée 15+ personnes — on lance quoi ?",
+        "options": [
+          "Loup-garou avec 3 villages",
+          "Tournoi beer pong",
+          "Karaoké humiliation",
+          "Action ou vérité géant"
+        ]
+      },
+      {
+        "question": "Soirée jeux vidéo entre potes — on prend quoi ?",
+        "options": [
+          "Mario Kart classique",
+          "Super Smash Bros",
+          "Fifa tournoi",
+          "Party game type Jackbox"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Et si les gens votent un jeu mais qu'on l'a pas ?",
+        "a": "Astuce : pré-vérifie le matos avant de mettre l'option dans le poll. Sinon, ajoute une option 'on improvise un jeu maison' comme filet de sécurité."
+      },
+      {
+        "q": "Le poll peut tourner en plein milieu de la soirée pour le 2e jeu ?",
+        "a": "Carrément — relance un nouveau poll moomz en 30 secondes, partage dans le group chat ou montre l'écran. C'est ce qui rend les rituals de soirée fun."
+      },
+      {
+        "q": "Comment savoir si quelqu'un n'a pas voté ?",
+        "a": "moomz n'identifie pas les votants (par design). Mais tu vois le total de votes — si tu attendais 10 personnes et tu vois 7 votes, relance les 3 absents en DM."
+      },
+      {
+        "q": "Je peux faire un poll qui suggère un jeu différent à chaque soirée ?",
+        "a": "Crée un template moomz avec 6-8 jeux fav, et relance-le à chaque soirée. Le résultat varie selon la team présente — ça devient ton rituel."
+      }
+    ],
+    "related": [
+      "sondage-soiree-musique-playlist-vote",
+      "sondage-soiree-deguisement-theme",
+      "sondage-anniv-cadeau-meilleur-ami"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-soiree-deguisement-theme",
+    "locale": "fr",
+    "emoji": "🎭",
+    "title": "Sondage soirée déguisée : on part sur quel thème ?",
+    "h1": "Sondage thème déguisement : la team tranche le dress code",
+    "description": "Template moomz pour choisir le thème déguisé d'une soirée. Années 80, héros Marvel, classe et chic, BDSM-lite — vote honest, déguisement validé.",
+    "intro": "Soirée déguisée = drama garanti sur le thème. Untel veut années 80, l'autre exige Marvel, la troisième propose un dress code 'classe et chic' qui ferait pleurer un mariage. Ce template moomz fait voter la crew, ferme le débat, et chacun peut commencer à préparer son costume sans relancer la guerre dans le group chat.",
+    "category": "party",
+    "audience": "Hôtes de soirée déguisée 18-35 qui veulent éviter 3 jours de débat WhatsApp",
+    "question": "On part sur quel thème de déguisement ?",
+    "options": [
+      "Années 80 / 90 nostalgia",
+      "Personnages Disney / Pixar",
+      "Héros et villains Marvel / DC",
+      "Classe James Bond / Black Tie",
+      "Bad taste assumé délire"
+    ],
+    "whyItWorks": "Le thème déguisé conditionne tout : budget costume, photos, ambiance déco. Sans poll, c'est l'hôte qui impose, et 30% des invités viennent sans déguisement par flemme/désaccord. Avec poll, chacun a voté, chacun est engagé — taux de costume +60%, et personne ne râle.",
+    "tips": [
+      "Lance le poll 2-3 semaines avant la soirée : laisse le temps de préparer les costumes",
+      "5 options grand max — au-delà, paralysie et abstention",
+      "Ajoute une option 'bad taste' : safety net pour ceux qui veulent un costume facile à improviser",
+      "Active anonyme — les gens votent leur vrai préféré sans pression du host",
+      "Partage le lien dans la conv de la soirée avec 'verdict samedi sinon je décide 😈'"
+    ],
+    "variations": [
+      {
+        "question": "Halloween 2026 — on part sur quel angle ?",
+        "options": [
+          "Horror classique slasher",
+          "Monstres mythologiques",
+          "Films d'horreur récents",
+          "Costumes drôles plutôt que flippants"
+        ]
+      },
+      {
+        "question": "EVJF / EVG — thème déguisement de la soirée :",
+        "options": [
+          "Bachelorette assumée roses et paillettes",
+          "Années 2000 throwback",
+          "Tropical Hawaii fleurs",
+          "Bad gangster vibe assumée"
+        ]
+      },
+      {
+        "question": "Anniv 30 ans — thème souvenir d'ado :",
+        "options": [
+          "High school musical 2010",
+          "Camp de vacances été",
+          "Stars de la TV téléréalité 2010",
+          "Nuit blanche dancefloor"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Et si la majorité gagne mais que 3 personnes refusent le thème ?",
+        "a": "Classique : ajoute une règle 'tu viens sans, tu sers les boissons toute la soirée 😏'. Le ratio costume monte de 70% à 95% en 30 secondes."
+      },
+      {
+        "q": "Le poll affiche-t-il qui a voté quoi ?",
+        "a": "Non, jamais. moomz est 100% anonyme par design — même toi en tant que créateur tu vois seulement les pourcentages globaux. Parfait pour des choix sans drama."
+      },
+      {
+        "q": "Je peux partager un Pinterest moodboard du thème gagnant après ?",
+        "a": "Bien sûr — moomz ne gère pas les moodboards directement, mais le résultat du poll te donne le go pour balancer ton Pinterest dans la conv."
+      },
+      {
+        "q": "Combien de votes pour que le thème soit 'légitime' ?",
+        "a": "Dès 60% des invités ayant voté, le thème est validé démocratiquement. En-dessous, prolonge le vote ou relance en DM les retardataires."
+      }
+    ],
+    "related": [
+      "sondage-soiree-musique-playlist-vote",
+      "sondage-soiree-jeu-debut-soiree",
+      "sondage-anniv-cadeau-meilleur-ami"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-anniv-cadeau-meilleur-ami",
+    "locale": "fr",
+    "emoji": "🎁",
+    "title": "Sondage cadeau d'anniv : on prend quoi pour mon/ma BFF ?",
+    "h1": "Sondage cadeau BFF : la team tranche le bon kdo d'anniv",
+    "description": "Template moomz pour choisir le cadeau d'anniv parfait pour ton/ta meilleur·e ami·e. Fais voter le cercle proche, évite le doublon, tape juste.",
+    "intro": "L'anniv de ton/ta BFF approche et tu hésites entre 4 idées cadeaux. Demander aux autres potes en privé = 4 réponses contradictoires. Ce template moomz règle tout en 2 minutes : tu crées le poll, tu partages dans la conv des amis proches, vote en 5s, verdict net. Bonus : ça évite que 3 personnes achètent le même kdo.",
+    "category": "party",
+    "audience": "Groupes d'amis 18-35 qui coordonnent un cadeau ou cherchent l'idée parfaite",
+    "question": "Cadeau d'anniv pour ma BFF — on part sur quoi ?",
+    "options": [
+      "Bijou personnalisé prénom",
+      "Expérience spa / massage à 2",
+      "Set beauté luxe Sephora",
+      "Album photo souvenirs custom",
+      "Cagnotte commune pour un gros truc"
+    ],
+    "whyItWorks": "Choisir un cadeau pour quelqu'un de proche est un calcul émotionnel chargé. Externaliser à un poll dans le cercle proche prend l'angle 'on a tous voté' = aucune mauvaise surprise. En plus si vous êtes plusieurs à offrir, ça coordonne sans 47 messages WhatsApp.",
+    "tips": [
+      "Partage uniquement dans le cercle proche (pas avec la concernée, évidemment)",
+      "Active anonyme : permet d'oser dire 'le bijou j'aime pas, c'est cliché' sans froisser celui qui propose",
+      "Limite à 4-5 options réalistes au niveau budget — pas un mélange 30€ et 300€",
+      "Ajoute 'cagnotte commune' : option safe quand le groupe veut offrir gros sans dépasser 50€/pers",
+      "Screenshot le résultat et balance-le dans la conv : 'verdict du peuple, on part là-dessus'"
+    ],
+    "variations": [
+      {
+        "question": "Cadeau de couple à des amis qui se marient — on prend quoi ?",
+        "options": [
+          "Liste de mariage classique",
+          "Cagnotte voyage de noces",
+          "Cadeau perso fait main",
+          "Une grosse expérience à 2"
+        ]
+      },
+      {
+        "question": "Cadeau de naissance — on coordonne quoi ?",
+        "options": [
+          "Vêtements 6-12 mois",
+          "Cagnotte poussette / matos",
+          "Cadeau pour les parents (ils en ont besoin)",
+          "Album souvenirs personnalisé"
+        ]
+      },
+      {
+        "question": "Secret Santa au taf — budget 20€, qu'est-ce qu'on lui prend ?",
+        "options": [
+          "Truc utile bureau / tech",
+          "Bouteille de vin / alcool",
+          "Cadeau drôle dégueu",
+          "Bon cadeau Amazon / Fnac"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Et si le résultat me déçoit, je peux ignorer ?",
+        "a": "Évidemment — c'est ton cadeau au final. Mais souvent le poll révèle un consensus auquel tu n'avais pas pensé, et tu te rends compte que c'est plus pertinent que ton idée de base."
+      },
+      {
+        "q": "Comment éviter que le/la concerné·e voit le poll ?",
+        "a": "Partage le lien uniquement en DM privé aux personnes choisies. Le lien moomz n'est pas indexé Google et reste invisible sauf si quelqu'un le partage à la concernée."
+      },
+      {
+        "q": "Je peux faire 2 polls (idée + budget) ?",
+        "a": "Oui, recommandé même : 1 poll 'idée cadeau', 1 poll 'on met combien chacun'. Plus précis que de mélanger les 2 questions."
+      },
+      {
+        "q": "Combien de votes pour trancher ?",
+        "a": "Dans un groupe de 6-10 proches, dès que 70% ont voté tu as un verdict solide. En-dessous de 50%, relance par DM les retardataires."
+      }
+    ],
+    "related": [
+      "sondage-soiree-deguisement-theme",
+      "sondage-soiree-musique-playlist-vote",
+      "sondage-ado-bff-instagram-vibe-check"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-ado-bff-instagram-vibe-check",
+    "locale": "fr",
+    "emoji": "💅",
+    "title": "Sondage vibe check entre BFF sur Instagram",
+    "h1": "Sondage BFF Insta : vrai vibe check entre meilleures amies",
+    "description": "Template moomz à partager en story Insta pour un vrai vibe check avec ta BFF. Questions honest, votes anonymes, drama assumé en mode fun.",
+    "intro": "Sticker question Insta classique = réponse polie tiède. Sondage moomz = vrai honest feedback parce que c'est anonyme et que ta BFF peut voter ce qu'elle pense vraiment sans peur de te vexer. Ce template fait le vibe check de votre amitié en 5 questions ferme du buzz : qui est la plus drama, qui ghoste le plus, qui paye au resto…",
+    "category": "teen",
+    "audience": "Ados et jeunes adultes 14-22 qui veulent un vrai vibe check fun avec leurs BFF",
+    "question": "Vibe check BFF — qui de nous deux est :",
+    "options": [
+      "La plus drama queen",
+      "La plus loyale fidèle",
+      "La pire ghoster",
+      "La toujours late",
+      "Celle qui paye au resto"
+    ],
+    "whyItWorks": "Ado et jeune adulte, le vibe check entre BFF est un rituel social. Mais Insta polls sont publics : personne dit la vérité. moomz est anonyme — ta BFF vote ce qu'elle pense vraiment, et toi tu vois le verdict sans le filtre 'on va pas se vexer'. Pure ferme du buzz, mais positive.",
+    "tips": [
+      "Partage le lien moomz directement en story Insta avec sticker swipe-up vers le poll",
+      "Toujours mode anonyme actif — sinon ta BFF répond poli, pas honest",
+      "5 options max, formulées avec un mix sérieux + drôle (cf 'celle qui paye au resto')",
+      "Screenshot le résultat à la fin et republie en story 'le verdict est tombé 💀'",
+      "Crée une série de polls 'vibe check' à relancer tous les 3 mois — votre rituel"
+    ],
+    "variations": [
+      {
+        "question": "Notre amitié c'est plutôt quel duo de série ?",
+        "options": [
+          "Hannah Montana et Lily",
+          "Cher et Dionne (Clueless)",
+          "Blair et Serena (Gossip Girl)",
+          "Lorelai et Sookie (Gilmore Girls)"
+        ]
+      },
+      {
+        "question": "Si on partait en vacances 1 semaine, on serait :",
+        "options": [
+          "Best vibes ever non-stop",
+          "Mi-fun mi-drama mais ok",
+          "On s'engueule au 3e jour",
+          "Une de nous rentre plus tôt"
+        ]
+      },
+      {
+        "question": "Dans 10 ans on sera comment ?",
+        "options": [
+          "Témoins de mariage l'une de l'autre",
+          "Voisines, on s'appelle 5x/jour",
+          "On se voit 2x par an mais c'est pareil",
+          "On se sera perdues de vue (deal with it)"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ma BFF saura jamais qui a voté quoi ?",
+        "a": "Non — moomz n'enregistre aucune identité. Même toi en tant que créatrice du poll tu vois juste les pourcentages globaux. Honest feedback safe garanti."
+      },
+      {
+        "q": "Comment partager le poll en story Insta avec impact ?",
+        "a": "Story Insta → ajoute un sticker 'lien' → colle l'URL moomz. Le swipe-up ouvre directement le poll. Ajoute un emoji pour booster les clics ('vote honest 💀')."
+      },
+      {
+        "q": "Et si je veux que d'autres potes votent aussi sur notre amitié ?",
+        "a": "Crée le poll, partage en story publique au lieu de DM. Tu auras 30-50 votes de gens qui vous connaissent — verdict de la team élargie sur votre vibe."
+      },
+      {
+        "q": "Les bots votent dans mon poll ?",
+        "a": "moomz a un système de bots qui anime les sondages publics pour les rendre vivants. Pour les polls perso entre BFF, l'impact est marginal — ton vrai cercle pèse plus."
+      }
+    ],
+    "related": [
+      "sondage-ado-snap-streak-question",
+      "sondage-drama-qui-a-tort-couple-ami",
+      "sondage-anniv-cadeau-meilleur-ami"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-ado-snap-streak-question",
+    "locale": "fr",
+    "emoji": "🔥",
+    "title": "Sondage Snap streak : pose la question qui tue",
+    "h1": "Sondage Snap streak : la question qui maintient ta team engagée",
+    "description": "Template moomz à partager sur Snap pour entretenir tes streaks. Questions drôles vibe check qui font vraiment voter ta crew.",
+    "intro": "Tes streaks Snap meurent parce que 'salut' tous les jours c'est mort. Solution : un poll moomz une fois tous les 2-3 jours dans le streak. Question drôle, vote en 5s, ça relance la conv et nourrit la streak. Ce template propose 5 questions qui marchent à tous les coups — drôles, courtes, honest.",
+    "category": "teen",
+    "audience": "Ados 13-19 qui veulent garder leurs streaks Snap vivantes sans envoyer 'oui' chaque jour",
+    "question": "Honest, si on était en classe ensemble je serais :",
+    "options": [
+      "Le boss du fond de classe",
+      "Le clown de la team",
+      "Le génie discret en T-shirt",
+      "Le/la délégué·e ambitieux",
+      "Le sécheur permanent"
+    ],
+    "whyItWorks": "Les streaks Snap se meurent du contenu vide ('salut', 'wesh'). Un poll moomz est un contenu interactif qui force une réponse en 5 secondes — taux d'engagement +300% vs un snap classique. Bonus : ça génère un échange réel (commentaire sur le résultat) et la streak se renforce.",
+    "tips": [
+      "Lance 1 poll tous les 2-3 jours dans tes streaks — pas tous les jours, ça spam",
+      "Questions courtes, drôles, honest — pas 'tu vas bien ?'",
+      "Active anonyme : les ados osent vraiment voter ce qu'ils pensent",
+      "Si la team répond bien, screenshot le résultat et envoie-le aussi pour amplifier la conv",
+      "Garde un dossier de tes 10 meilleurs polls à relancer en rotation chaque mois"
+    ],
+    "variations": [
+      {
+        "question": "Honest, dans notre group chat je suis :",
+        "options": [
+          "Toujours actif·ve, base du chat",
+          "Ghost permanent, je read seulement",
+          "Le/la dramatique qui relance les sujets",
+          "L'agenda qui rappelle les events"
+        ]
+      },
+      {
+        "question": "Si on me ghoste 24h c'est parce que :",
+        "options": [
+          "T'es occupé·e pour vrai",
+          "T'as plus de batterie ouais ouais",
+          "T'es vexé·e mais tu veux pas dire",
+          "Tu m'as oublié·e (drama)"
+        ]
+      },
+      {
+        "question": "Honest, qu'est-ce qui te fait répondre le plus vite à un snap ?",
+        "options": [
+          "Une photo drôle / meme",
+          "Une question concrète",
+          "Un drama / gossip à raconter",
+          "Rien, je réponds quand je veux 😎"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le lien moomz s'ouvre direct depuis Snap ?",
+        "a": "Oui — colle le lien dans le snap (zone texte) ou dans le chat associé. Le destinataire clique, vote en 5s, retour à Snap. Friction quasi nulle."
+      },
+      {
+        "q": "Si la personne ne vote pas, ça compte pour la streak quand même ?",
+        "a": "La streak Snap dépend du snap envoyé, pas du vote. Tant que tu lui as snap, c'est validé. Le poll est juste là pour booster la conv et éviter les 'oui' vides."
+      },
+      {
+        "q": "Combien de polls par jour avant de saouler ?",
+        "a": "1 poll tous les 2-3 jours est le sweet spot. Plus, ça spam ; moins, ça perd l'effet boost. Garde tes polls pour quand la streak a besoin d'une recharge."
+      },
+      {
+        "q": "Ma streak est avec 1 seul·e ami·e, ça vaut le coup ?",
+        "a": "Total — un poll à 1 personne reste fun parce que le résultat affiche son vote en clair. Ça crée une mini-conv naturelle ('pourquoi t'as voté ça ??')."
+      }
+    ],
+    "related": [
+      "sondage-ado-bff-instagram-vibe-check",
+      "sondage-drama-qui-a-tort-couple-ami",
+      "sondage-debat-pizza-ananas-ou-non"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-drama-qui-a-tort-couple-ami",
+    "locale": "fr",
+    "emoji": "🍵",
+    "title": "Sondage drama : qui a tort dans cette histoire d'amis ?",
+    "h1": "Sondage drama amis : la team vote qui a tort dans l'embrouille",
+    "description": "Template moomz pour soumettre un drama d'amitié à la team et trancher honest. Vote anonyme, verdict net, drama soit éteint soit relancé.",
+    "intro": "Drama dans la team : tu sais plus si tu as raison ou tort, ton/ta pote insiste sur sa version. Solution moomz : tu poses la situation neutre dans un poll, tu balances dans le group chat élargi, et la team tranche honest. Verdict anonyme = vraie opinion sans peur de prendre parti publiquement. Soit le drama meurt, soit il s'enflamme légitimement.",
+    "category": "drama",
+    "audience": "Ados et jeunes adultes 16-28 au milieu d'un drama de groupe d'amis",
+    "question": "Drama récap : qui a tort là-dedans ?",
+    "options": [
+      "100% c'est moi qui exagère",
+      "100% c'est elle/lui qui exagère",
+      "Les 2 ont une part de tort",
+      "Pas assez d'infos pour juger",
+      "On s'en fout, passez à autre chose"
+    ],
+    "whyItWorks": "Soumettre un drama à un poll externe externalise le verdict. Plus personne ne peut dire 'tout le monde est d'accord avec moi' — le chiffre parle. C'est cathartique : le perdant doit accepter, ou peut au moins voir qu'il n'est pas le seul à avoir tort. Bonus : ça désamorce en mode jeu plutôt qu'en confrontation directe.",
+    "tips": [
+      "Présente le drama de la façon LA PLUS neutre possible — sinon le poll est biaisé",
+      "Toujours anonyme actif — la team ose voter contre toi sans peur de répercussions",
+      "Ajoute toujours l'option 'les 2 ont tort' : c'est souvent la réponse vraie",
+      "Partage dans la conv ÉLARGIE, pas seulement avec ton clan — vrai verdict externe",
+      "Si le verdict est contre toi, accepte gracieusement ('ok le peuple a parlé') — c'est plus mature"
+    ],
+    "variations": [
+      {
+        "question": "Drama couple : il a oublié notre anniv, je dois être chelou ou laisser passer ?",
+        "options": [
+          "Drama légit, fais-lui sentir",
+          "Une fois ça va, lâche du lest",
+          "C'est la goutte d'eau si répétitif",
+          "Lui demande pourquoi avant de juger"
+        ]
+      },
+      {
+        "question": "Drama coloc : il/elle a invité 8 personnes sans prévenir, je suis pénible ou pas ?",
+        "options": [
+          "Légit énervé·e, c'est ta maison aussi",
+          "Pas grave, soirée = soirée",
+          "Demande juste qu'il/elle prévienne next time",
+          "Tu connaissais le deal en signant"
+        ]
+      },
+      {
+        "question": "Drama famille : ma soeur a porté mes vêtements sans demander, je dois lâcher ?",
+        "options": [
+          "C'est tes affaires, c'est non",
+          "Famille c'est partage, chill",
+          "Demande qu'elle te demande next time",
+          "Vraie embrouille = vrai sujet, parlez-en"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Et si le drama implique quelqu'un qui pourrait voir le poll ?",
+        "a": "Partage uniquement dans une conv privée (sans la personne concernée). Le lien moomz n'est pas indexé Google, donc impossible à trouver sauf si quelqu'un lui forward."
+      },
+      {
+        "q": "Mes potes vont voter pour me défendre par loyauté, pas honest ?",
+        "a": "C'est pour ça que l'anonymat est crucial. Sans anonymat, oui ils voteraient en ta faveur. Avec anonymat, beaucoup osent dire 'tu exagères' parce que pas de répercussions."
+      },
+      {
+        "q": "Le poll peut servir à mettre fin au drama vraiment ?",
+        "a": "Souvent oui : avoir un verdict externe ('60% disent les 2 ont tort') aide les deux camps à dépasser. C'est l'effet 'médiateur silencieux' du poll."
+      },
+      {
+        "q": "Et si le drama est trop perso pour partager publiquement ?",
+        "a": "Réduis le cercle à 3-5 personnes de confiance. moomz fonctionne aussi bien avec 5 votes qu'avec 500 — la valeur est le verdict, pas le volume."
+      }
+    ],
+    "related": [
+      "sondage-ado-bff-instagram-vibe-check",
+      "sondage-ado-snap-streak-question",
+      "sondage-debat-pizza-ananas-ou-non"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-debat-pizza-ananas-ou-non",
+    "locale": "fr",
+    "emoji": "🍍",
+    "title": "Sondage débat : pizza ananas, ferme du buzz ou pas ?",
+    "h1": "Sondage pizza ananas : le débat éternel tranché par la team",
+    "description": "Template moomz pour le débat ultime : pizza ananas (Hawaienne) c'est légit ou crime culinaire ? Vote honest, lance le drama assumé.",
+    "intro": "Pizza ananas, ou Hawaienne pour les puristes : 60 ans de débat, et toujours pas tranché. Ce template moomz t'invite à poser la question à ta team, ton group chat, ta story Insta. Verdict anonyme = vraie opinion (sans la pression sociale du 'beuh c'est dégueu' qui force tout le monde à dire non). Bonus : le drama qui en sort relance la conv pour 3 jours.",
+    "category": "debate",
+    "audience": "Toute team 12-99 ans qui veut un débat fun universel et clivant",
+    "question": "Pizza ananas (Hawaienne), c'est :",
+    "options": [
+      "Crime contre l'humanité culinaire",
+      "Bizarre mais bon en vrai",
+      "Mon kiff total assumé",
+      "J'ai jamais goûté, j'ai peur",
+      "Légalement OK juste avec du jambon"
+    ],
+    "whyItWorks": "Pizza ananas est le débat parfait : universel, polarisant, sans enjeu réel. Le poll moomz révèle que 30-40% des gens aiment vraiment (anonymement) mais n'osent pas le dire en public. C'est un rituel de team-building drôle qui crée des discussions de 30 minutes pour 0 risque réel.",
+    "tips": [
+      "Partage en story Insta avec un sticker 'votez honest 🍍' — taux de réponse énorme",
+      "Anonyme TOUJOURS — sinon les gens disent 'crime' par peur du jugement social",
+      "Ajoute des options drôles (cf 'légal avec jambon') — multiplie l'engagement vote",
+      "Screenshot le résultat et republie en story 'le peuple a parlé' — milking de contenu",
+      "Relance le poll tous les 6 mois — l'opinion évolue avec les générations"
+    ],
+    "variations": [
+      {
+        "question": "Pain au chocolat ou chocolatine — fais ton camp :",
+        "options": [
+          "Pain au chocolat (le vrai nom)",
+          "Chocolatine (la team du Sud-Ouest)",
+          "Les deux marchent, calmez-vous",
+          "Je dis 'viennoiserie au chocolat' pour la paix"
+        ]
+      },
+      {
+        "question": "Sushi au saumon, classique ou ennuyeux ?",
+        "options": [
+          "Toujours valable, classique légit",
+          "Ennuyeux, vise le thon rouge",
+          "Bon avec sauce épicée only",
+          "Saumon cru c'est risqué non ?"
+        ]
+      },
+      {
+        "question": "Cuisson du steak — la team se positionne :",
+        "options": [
+          "Bleu / saignant only",
+          "À point équilibre parfait",
+          "Bien cuit c'est ok",
+          "Bien cuit = crime, je quitte la table"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi ce débat marche autant en 2026 encore ?",
+        "a": "Parce qu'il est inoffensif mais clivant — donc parfait pour engager une conversation safe avec n'importe qui. moomz l'utilise comme template d'icebreaker depuis des années avec des taux de vote x3 vs un poll classique."
+      },
+      {
+        "q": "Combien de votes pour un verdict 'officiel' ?",
+        "a": "Sur moomz, les polls pizza-ananas atteignent souvent 50-200 votes en 24h grâce au caractère viral du sujet. Au-delà de 30 votes, la tendance est statistiquement claire."
+      },
+      {
+        "q": "Le poll peut tourner en plusieurs langues ?",
+        "a": "moomz est dispo en 8 langues (FR, EN, ES, IT, PT, DE, JA, ZH). Le poll est dans la langue de ton choix, mais accessible à tous. Pratique pour comparer les votes internationaux."
+      },
+      {
+        "q": "Si je vote crime contre l'humanité, mes amis voient que c'est moi ?",
+        "a": "Non, jamais. moomz est anonyme par design. Le créateur du poll voit juste les pourcentages globaux, pas qui a voté quoi. Honest feedback safe garanti."
+      }
+    ],
+    "related": [
+      "sondage-drama-qui-a-tort-couple-ami",
+      "sondage-ado-bff-instagram-vibe-check",
+      "sondage-ado-snap-streak-question"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

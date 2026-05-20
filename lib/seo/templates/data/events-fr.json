@@ -1,0 +1,734 @@
+[
+  {
+    "slug": "sondage-mariage-couleur-theme",
+    "locale": "fr",
+    "emoji": "💍",
+    "title": "Sondage mariage : choisir la couleur du thème en 10s",
+    "h1": "Sondage couleur de mariage : laissez vos proches voter",
+    "description": "Hésitation sur la palette du mariage ? Créez un sondage anonyme en 10 secondes, partagez le lien et laissez vos proches voter en live.",
+    "intro": "Choisir la couleur d'un mariage, c'est rarement évident à deux. Plutôt que de tourner en rond, on lance un sondage moomz, on l'envoie au cercle proche (témoins, parents, BFF) et on voit la tendance se dessiner en live. Pas besoin d'inscription, juste un lien à partager.",
+    "category": "wedding",
+    "audience": "Couples qui préparent leur mariage et hésitent entre plusieurs palettes",
+    "question": "Quelle couleur principale pour notre mariage ?",
+    "options": [
+      "Pastel rose et sauge",
+      "Terracotta et beige",
+      "Bleu nuit et doré",
+      "Blanc et vert eucalyptus",
+      "Lavande et ivoire"
+    ],
+    "whyItWorks": "La couleur d'un mariage touche tout le monde (tenues, déco, photos) donc chaque invité a un avis. Limiter à 5 options évite la fatigue décisionnelle et accélère le vote. L'anonymat libère la parole : tata Michèle ose dire qu'elle n'aime pas le terracotta. Et voir les barres bouger en temps réel transforme le choix en mini-événement, ce qui crée du buzz avant le jour J.",
+    "tips": [
+      "Partagez le sondage 2 à 3 mois avant la date pour avoir le temps de commander la déco assortie.",
+      "Limitez-vous à 4 ou 5 options : au-delà, les votes se diluent et aucune couleur ne se détache.",
+      "Envoyez d'abord aux témoins et famille proche, puis élargissez si vous voulez plus de données.",
+      "En cas d'égalité, gardez les deux palettes gagnantes et faites un second sondage avec uniquement celles-ci.",
+      "Joignez une photo Pinterest par option dans le message d'envoi pour que les votants visualisent."
+    ],
+    "variations": [
+      {
+        "question": "Quelle ambiance déco pour la salle ?",
+        "options": ["Bohème champêtre", "Chic minimaliste", "Romantique fleurie", "Industriel végétal"]
+      },
+      {
+        "question": "Quel style de fleurs pour le bouquet ?",
+        "options": ["Pivoines et roses", "Eucalyptus et blanc", "Fleurs des champs", "Tropical et coloré"]
+      },
+      {
+        "question": "Quelle saison idéale pour notre mariage ?",
+        "options": ["Printemps (avril-mai)", "Été (juin-juillet)", "Fin d'été (août-septembre)", "Automne (octobre)"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de temps avant le mariage faut-il lancer ce sondage ?",
+        "a": "Idéalement 3 à 6 mois avant, pour avoir le temps de commander la déco, le linge de table et les tenues du cortège dans la couleur gagnante."
+      },
+      {
+        "q": "Faut-il l'envoyer à tous les invités ?",
+        "a": "Non. Limitez aux personnes dont l'avis compte vraiment (témoins, parents, demoiselles d'honneur). Trop de votants diluent le signal et compliquent la décision."
+      },
+      {
+        "q": "Et si ma future moitié et moi ne sommes pas d'accord avec le résultat ?",
+        "a": "Le sondage est un indicateur, pas un verdict. Utilisez-le pour départager si vous hésitez vraiment, sinon assumez votre choix : c'est votre mariage."
+      },
+      {
+        "q": "Comment garder l'anonymat des votes ?",
+        "a": "moomz ne demande aucun nom ni inscription. Les votants cliquent sur le lien et votent, c'est tout. Personne ne saura qui a voté quoi."
+      }
+    ],
+    "related": ["sondage-mariage-musique-ouverture-bal", "sondage-mariage-menu-plat-principal", "sondage-mariage-gateau-style", "sondage-mariage-tenue-invites-dresscode"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-mariage-musique-ouverture-bal",
+    "locale": "fr",
+    "emoji": "💃",
+    "title": "Sondage mariage : musique d'ouverture de bal en 10s",
+    "h1": "Sondage musique d'ouverture de bal : laissez les invités choisir",
+    "description": "Hésitation sur la chanson de la première danse ? Créez un sondage en 10 secondes, partagez le lien et voyez les votes s'animer en live.",
+    "intro": "La première danse, c'est LE moment qui marque le mariage. Plutôt que de batailler entre vos coups de cœur, on shortlist 4-5 morceaux et on lance un sondage moomz à vos témoins. En 24h vous avez votre answer, sans drama familial.",
+    "category": "wedding",
+    "audience": "Couples qui cherchent LE morceau parfait pour ouvrir le bal",
+    "question": "Quelle chanson pour notre ouverture de bal ?",
+    "options": [
+      "At Last - Etta James",
+      "Perfect - Ed Sheeran",
+      "Can't Help Falling in Love - Elvis",
+      "Thinking Out Loud - Ed Sheeran",
+      "La Vie en Rose - Édith Piaf"
+    ],
+    "whyItWorks": "La musique d'ouverture déclenche immédiatement des émotions chez les votants, donc l'engagement est très élevé. Un sondage évite les heures de débat entre vous et impose un cadre clair. Le côté anonyme aide les proches à voter selon leur ressenti sans vouloir vous faire plaisir. Et le résultat sert souvent de teaser pour les invités curieux du programme.",
+    "tips": [
+      "Mettez seulement des morceaux que vous accepteriez VRAIMENT : ne shortlistez que vos vrais coups de cœur.",
+      "Ajoutez la version (acoustique, live, originale) dans le titre, ça change tout pour les votants.",
+      "Envoyez le lien dans le groupe WhatsApp des témoins avec un extrait YouTube de chaque morceau.",
+      "Si égalité, gardez les deux morceaux : un pour l'ouverture, un pour la 2e danse parents-enfants.",
+      "Lancez le sondage au moins 2 mois avant pour avoir le temps de la chorégraphier si besoin."
+    ],
+    "variations": [
+      {
+        "question": "Quelle ambiance musicale pour la soirée ?",
+        "options": ["Années 80-90", "Latino-reggaeton", "Pop hits actuels", "Mix générationnel"]
+      },
+      {
+        "question": "Quelle chanson pour l'entrée des mariés ?",
+        "options": ["Marry You - Bruno Mars", "Signed Sealed Delivered - Stevie Wonder", "Walking on Sunshine - Katrina", "I Gotta Feeling - Black Eyed Peas"]
+      },
+      {
+        "question": "Quel morceau pour la dernière danse de la soirée ?",
+        "options": ["Time of My Life - Dirty Dancing", "Wonderwall - Oasis", "Don't Stop Me Now - Queen", "Le Sud - Nino Ferrer"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il proposer des morceaux français ou internationaux ?",
+        "a": "Mixez les deux. Les classiques internationaux fédèrent plus largement, mais un morceau français crée une émotion plus intime, surtout si la famille n'est pas anglophone."
+      },
+      {
+        "q": "Combien de morceaux mettre dans le sondage ?",
+        "a": "Entre 4 et 5 maximum. Au-delà, les votes se dispersent et aucun ne se démarque vraiment."
+      },
+      {
+        "q": "Et si on veut une chanson surprise pour notre partenaire ?",
+        "a": "Dans ce cas, sondez uniquement les amis proches en disant que c'est secret. Ou sondez d'abord la 'shortlist crédible' puis gardez votre vraie chanson surprise pour le jour J."
+      },
+      {
+        "q": "Le DJ peut-il participer au choix ?",
+        "a": "Oui, c'est même recommandé. Demandez-lui sa shortlist de morceaux qui marchent toujours bien en ouverture, puis mettez-les dans votre sondage."
+      }
+    ],
+    "related": ["sondage-mariage-couleur-theme", "sondage-mariage-menu-plat-principal", "sondage-mariage-gateau-style"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-mariage-menu-plat-principal",
+    "locale": "fr",
+    "emoji": "🍽️",
+    "title": "Sondage mariage : choisir le plat principal du menu",
+    "h1": "Sondage menu de mariage : faites voter pour le plat principal",
+    "description": "Filet de bœuf ou volaille ? Créez un sondage en 10 secondes, envoyez le lien aux invités et laissez-les choisir leur plat préféré.",
+    "intro": "Le plat principal d'un mariage, c'est ce dont les invités parleront le lendemain. Plutôt que de deviner ce qui plaira, on demande directement. moomz permet d'envoyer un sondage anonyme aux invités en 10 secondes : ils votent, vous tranchez avec le traiteur en connaissance de cause.",
+    "category": "wedding",
+    "audience": "Couples qui finalisent le menu avec leur traiteur",
+    "question": "Quel plat principal préférez-vous pour notre mariage ?",
+    "options": [
+      "Filet de bœuf, sauce au poivre",
+      "Suprême de volaille, jus aux morilles",
+      "Pavé de saumon, beurre blanc",
+      "Risotto crémeux aux cèpes (végé)",
+      "Souris d'agneau confite"
+    ],
+    "whyItWorks": "La nourriture est ce qui ancre le souvenir d'un mariage chez les invités. En sondant, vous montrez que leur avis compte, ce qui crée déjà une attente positive avant le jour J. Le sondage permet aussi de mesurer la part de végétariens sans demande awkward. Et techniquement, le traiteur préfère cuisiner un seul plat principal bien réussi plutôt que 3 options bancales.",
+    "tips": [
+      "Proposez 1 option végé même si vous ne la pensiez pas : ça révèle souvent un besoin sous-estimé.",
+      "Demandez au traiteur sa fourchette de prix par option pour éviter les surprises budget.",
+      "Envoyez le sondage 4-6 mois avant : c'est le moment où la plupart des traiteurs verrouillent le menu.",
+      "Ajoutez une option 'autre régime' dans un second sondage si vous avez plus de 5 invités à régime spécifique.",
+      "Si deux plats arrivent ex aequo, demandez au traiteur s'il propose un service double assiette."
+    ],
+    "variations": [
+      {
+        "question": "Quelle entrée pour notre menu ?",
+        "options": ["Tartare de saumon", "Velouté de saison", "Foie gras maison", "Burrata et tomates anciennes"]
+      },
+      {
+        "question": "Quel dessert pour clôturer le repas ?",
+        "options": ["Pièce montée traditionnelle", "Wedding cake américain", "Café gourmand", "Bar à desserts"]
+      },
+      {
+        "question": "Quel format de cocktail avant le repas ?",
+        "options": ["Vin d'honneur classique", "Cocktail dînatoire complet", "Food trucks", "Bar à champagne et tapas"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il sonder tous les invités ou juste les proches ?",
+        "a": "Tous les invités si possible. Plus l'échantillon est large, plus vous capterez les préférences réelles, notamment les régimes spécifiques."
+      },
+      {
+        "q": "Et si beaucoup d'invités demandent un régime spécial ?",
+        "a": "Au-delà de 10% de l'effectif, c'est un signal fort : prévoyez une vraie alternative végé/sans gluten avec le traiteur, pas juste un plat de secours."
+      },
+      {
+        "q": "Le sondage peut-il remplacer le carton-réponse ?",
+        "a": "Non, c'est complémentaire. Le sondage sert à choisir le plat unique. Le carton-réponse confirme la présence et les allergies individuelles."
+      },
+      {
+        "q": "Comment éviter de vexer le traiteur si on veut changer son menu type ?",
+        "a": "Présentez le sondage comme une démarche pour mieux servir vos invités, pas comme une remise en cause. La plupart des traiteurs apprécient les couples qui font ce travail en amont."
+      }
+    ],
+    "related": ["sondage-mariage-couleur-theme", "sondage-mariage-gateau-style", "sondage-mariage-tenue-invites-dresscode"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-mariage-gateau-style",
+    "locale": "fr",
+    "emoji": "🎂",
+    "title": "Sondage mariage : choisir le style de gâteau (10s)",
+    "h1": "Sondage gâteau de mariage : pièce montée, wedding cake ou naked cake ?",
+    "description": "Hésitation entre wedding cake et pièce montée ? Créez un sondage anonyme en 10 secondes, partagez le lien à vos proches et voyez les votes en live.",
+    "intro": "Le gâteau de mariage, c'est le clou visuel de la soirée. Pièce montée traditionnelle, wedding cake étagé, naked cake bohème… chaque style raconte une autre histoire. On lance un sondage moomz, on partage à la famille et aux témoins, et on tranche en s'appuyant sur l'avis général.",
+    "category": "wedding",
+    "audience": "Couples qui choisissent leur gâteau de mariage avec le pâtissier",
+    "question": "Quel style de gâteau pour notre mariage ?",
+    "options": [
+      "Pièce montée classique (choux)",
+      "Wedding cake étagé glacé",
+      "Naked cake bohème (peu glacé)",
+      "Number cake personnalisé",
+      "Bar à desserts varié"
+    ],
+    "whyItWorks": "Le gâteau divise toujours : certains adorent la tradition française, d'autres rêvent d'un wedding cake Pinterest. Le sondage neutralise les débats familiaux en posant la question ouvertement. Limiter à 5 styles évite la paralysie de choix. Et le visuel du gâteau impactant les photos officielles, l'avis collectif réduit le risque de regret.",
+    "tips": [
+      "Joignez une photo référence à chaque option dans votre message d'envoi (Pinterest, Instagram).",
+      "Précisez si le gâteau est l'unique dessert ou un complément : ça change les votes.",
+      "Demandez au pâtissier les fourchettes de prix par style avant de lancer le sondage.",
+      "Sondez plutôt les invités > 35 ans : ils sont souvent plus attachés à la pièce montée classique.",
+      "En cas d'égalité, optez pour un combo : par exemple un wedding cake symbolique + pièce montée à servir."
+    ],
+    "variations": [
+      {
+        "question": "Quelle saveur pour le gâteau de mariage ?",
+        "options": ["Vanille framboise", "Chocolat noir", "Citron meringué", "Fruits rouges et crème"]
+      },
+      {
+        "question": "Combien d'étages pour le wedding cake ?",
+        "options": ["2 étages (minimaliste)", "3 étages (équilibré)", "4 étages (impactant)", "5+ étages (XXL)"]
+      },
+      {
+        "question": "Quel cake topper sur le gâteau ?",
+        "options": ["Initiales métalliques", "Fleurs naturelles", "Figurines mariés", "Aucun, juste le gâteau"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien coûte un wedding cake par rapport à une pièce montée ?",
+        "a": "En général, le wedding cake étagé est 20-40% plus cher à pièce équivalente, à cause du travail de glaçage et de structure. Le naked cake est souvent le moins cher."
+      },
+      {
+        "q": "Quand faut-il choisir le gâteau ?",
+        "a": "3 à 6 mois avant le mariage. Les bons pâtissiers sont bookés tôt, surtout en haute saison (mai à septembre)."
+      },
+      {
+        "q": "Peut-on combiner deux styles ?",
+        "a": "Oui, c'est même tendance : un wedding cake pour la photo de coupe + une pièce montée pour le service. Comptez 30-50% de budget en plus."
+      },
+      {
+        "q": "Le gâteau remplace-t-il le dessert ?",
+        "a": "Pas toujours. Beaucoup de couples gardent un dessert au menu et servent le gâteau plus tard dans la soirée comme moment fort distinct."
+      }
+    ],
+    "related": ["sondage-mariage-menu-plat-principal", "sondage-mariage-couleur-theme", "sondage-anniv-gateau-saveur"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-mariage-tenue-invites-dresscode",
+    "locale": "fr",
+    "emoji": "👗",
+    "title": "Sondage mariage : choisir le dresscode des invités",
+    "h1": "Sondage dresscode mariage : laissez vos proches voter",
+    "description": "Black tie, champêtre chic ou tenue blanche ? Créez un sondage anonyme en 10 secondes et laissez vos témoins voter pour le dresscode parfait.",
+    "intro": "Le dresscode donne le ton du mariage avant même l'arrivée des invités. Mais imposer un code sans avis peut générer des tensions. On lance un sondage moomz aux témoins et à la famille proche, on récupère une tendance claire en 24h, et on annonce le dresscode définitif sur le faire-part en toute sérénité.",
+    "category": "wedding",
+    "audience": "Couples qui veulent imposer un dresscode harmonieux sans froisser personne",
+    "question": "Quel dresscode pour nos invités ?",
+    "options": [
+      "Tenue de cocktail élégante",
+      "Black tie (smoking et robe longue)",
+      "Champêtre chic (pastel et lin)",
+      "Tout en blanc",
+      "Libre, juste 'classe'"
+    ],
+    "whyItWorks": "Le dresscode touche directement le portefeuille et le confort des invités. En sondant, vous montrez que vous prenez en compte leur réalité (budget, type de morphologie). Le vote anonyme révèle ce que personne n'oserait dire en face. Et un dresscode légitimé par un vote est mieux respecté qu'un dresscode imposé.",
+    "tips": [
+      "Ajoutez une mini-description ou une photo référence pour chaque option : 'champêtre chic' ne signifie pas la même chose pour tout le monde.",
+      "Évitez 'tout en blanc' si vous craignez de vous faire éclipser : c'est splendide en photo mais risqué.",
+      "Sondez seulement après avoir fixé le lieu : un dresscode black tie en plein champ ne fonctionne pas.",
+      "Précisez le dresscode sur le faire-part ET sur un site dédié avec exemples photos.",
+      "Prévoyez une tolérance pour les invités âgés ou avec contraintes : le dresscode est une recommandation, pas une obligation."
+    ],
+    "variations": [
+      {
+        "question": "Quelle palette de couleurs imposer aux invités ?",
+        "options": ["Pastel uniquement", "Couleurs vives autorisées", "Neutres (beige, blanc, kaki)", "Aucune restriction"]
+      },
+      {
+        "question": "Faut-il interdire certaines couleurs aux invités ?",
+        "options": ["Pas de blanc (réservé mariée)", "Pas de noir", "Pas de blanc ni de rouge", "Tout est autorisé"]
+      },
+      {
+        "question": "Quelles chaussures recommander aux femmes invitées ?",
+        "options": ["Talons libres", "Talons bas conseillés (lieu extérieur)", "Pas de talons aiguilles", "Aucune restriction"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Peut-on imposer un dresscode aux invités ?",
+        "a": "Imposer non, recommander oui. Présentez-le comme un thème pour créer une cohérence visuelle, pas comme une obligation contractuelle."
+      },
+      {
+        "q": "Et les invités qui ne respectent pas le dresscode ?",
+        "a": "Ne faites rien le jour J. Les photos seront un peu disparates mais l'ambiance prime. Insister briserait l'expérience de l'invité."
+      },
+      {
+        "q": "Comment communiquer le dresscode ?",
+        "a": "Sur le save-the-date d'abord, puis sur le faire-part avec une ligne dédiée. Idéalement avec un lien vers un site mariage qui montre des exemples photos."
+      },
+      {
+        "q": "Le dresscode s'applique-t-il aussi aux enfants ?",
+        "a": "Recommandation seulement. Les parents apprécieront mais imposer aux enfants est mal vu : ils grandissent vite et personne ne veut investir dans une tenue ponctuelle."
+      }
+    ],
+    "related": ["sondage-mariage-couleur-theme", "sondage-mariage-musique-ouverture-bal", "sondage-mariage-menu-plat-principal"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-evjf-destination",
+    "locale": "fr",
+    "emoji": "✈️",
+    "title": "Sondage EVJF : choisir la destination en 10 secondes",
+    "h1": "Sondage EVJF destination : laissez les copines voter",
+    "description": "Lisbonne, Barcelone ou Marrakech ? Créez un sondage anonyme en 10 secondes, partagez aux copines et tranchez la destination de l'EVJF en live.",
+    "intro": "Organiser un EVJF, c'est jongler entre 8 copines avec 8 budgets différents. Au lieu d'un groupe WhatsApp qui dure 3 semaines, on lance un sondage moomz avec 4 destinations crédibles. En 48h, on a un winner clair et personne ne se sent ignoré.",
+    "category": "bachelorette",
+    "audience": "Témoins et copines qui organisent l'enterrement de vie de jeune fille",
+    "question": "Quelle destination pour l'EVJF ?",
+    "options": [
+      "Lisbonne (3 jours)",
+      "Barcelone (2 nuits)",
+      "Marrakech (riad et hammam)",
+      "Bordeaux et dégustation vins",
+      "Île de Ré (chill et bord de mer)"
+    ],
+    "whyItWorks": "Le choix de destination cristallise tous les conflits implicites du groupe (budget, dispo, peurs). Le vote anonyme révèle les vraies préférences sans devoir se justifier devant les copines. Voir les barres bouger crée un effet jeu qui dédramatise. Et un choix collectif assumé évite les regrets et reproches après le voyage.",
+    "tips": [
+      "Indiquez le budget approximatif par option dans le titre : ça filtre déjà les choix irréalistes.",
+      "Lancez le sondage minimum 3 mois avant pour avoir des billets d'avion à prix raisonnable.",
+      "Ne mettez pas la mariée dans le sondage si c'est censé être surprise pour elle.",
+      "Préparez une option 'rester en France' : 30-40% des EVJF se font sans avion.",
+      "Si égalité serrée, faites un 2e sondage avec les 2 destinations restantes pour trancher."
+    ],
+    "variations": [
+      {
+        "question": "Quel type d'EVJF préférez-vous ?",
+        "options": ["Week-end ville (shopping, resto)", "Séjour spa et détente", "Aventure plein air", "Soirée à thème à la maison"]
+      },
+      {
+        "question": "Quelle durée pour l'EVJF ?",
+        "options": ["1 journée", "Week-end (sam-dim)", "3 jours (ven-dim)", "Une semaine complète"]
+      },
+      {
+        "question": "Quel budget max par personne ?",
+        "options": ["Moins de 150€", "150-300€", "300-500€", "500€ et plus"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il inclure la mariée dans le sondage destination ?",
+        "a": "Cela dépend du concept. Si l'EVJF est une surprise totale, non. Si la mariée participe au choix, oui mais en lui demandant ses critères avant (pas ses destinations préférées)."
+      },
+      {
+        "q": "Combien de temps avant l'EVJF lancer le sondage ?",
+        "a": "Minimum 3 mois avant pour les destinations à l'étranger, 6 semaines pour la France. Plus tôt vous décidez, moins cher seront les vols et hébergements."
+      },
+      {
+        "q": "Que faire si une copine ne peut pas suivre le budget gagnant ?",
+        "a": "Discutez en amont du budget max avant de sonder. Ensuite, prévoyez une cagnotte solidaire si une copine clé est en difficulté financière."
+      },
+      {
+        "q": "Comment éviter les frustrations avec celles qui ne peuvent pas venir ?",
+        "a": "Organisez un 'EVJF bis' en France pour les copines qui n'ont pas pu faire le voyage : un dîner thématique ou un brunch suffit à les inclure."
+      }
+    ],
+    "related": ["sondage-evjf-activite-soiree", "sondage-evg-activite", "sondage-mariage-couleur-theme"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-evjf-activite-soiree",
+    "locale": "fr",
+    "emoji": "🥂",
+    "title": "Sondage EVJF : choisir l'activité ou le thème de soirée",
+    "h1": "Sondage activité EVJF : faites voter les copines",
+    "description": "Spa, escape game ou cours de cocktails ? Créez un sondage anonyme en 10 secondes, partagez aux copines et tranchez l'activité phare de l'EVJF.",
+    "intro": "Une fois la destination choisie, reste la grande question : on fait quoi ? Spa, atelier mixologie, escape game, photoshoot… les options sont infinies. Un sondage moomz aux copines en 10 secondes, et l'activité émerge naturellement sans débat interminable.",
+    "category": "bachelorette",
+    "audience": "Témoins qui planifient le programme de l'EVJF",
+    "question": "Quelle activité phare pour l'EVJF ?",
+    "options": [
+      "Cours de cocktails et mixologie",
+      "Spa et hammam après-midi",
+      "Escape game thématique",
+      "Photoshoot pro entre copines",
+      "Brunch et balade shopping"
+    ],
+    "whyItWorks": "Le choix d'activité touche les goûts profonds : sportive, calme, créative, festive. Sonder évite d'imposer un truc qui ne plaira qu'à 2 sur 8. Le format anonyme permet aux introverties de signaler qu'elles ne veulent pas d'une activité trop chaud. Et grouper 'activité phare + activités secondaires' permet de combiner les votes pour un programme équilibré.",
+    "tips": [
+      "Mixez les énergies : une activité 'chill' (spa) + une activité 'dynamique' (escape game) sur le week-end.",
+      "Vérifiez les contraintes de la mariée : grossesse, allergie, peur (acrophobie, claustro) avant de mettre certaines options.",
+      "Réservez les activités populaires (cours de cuisine, spa) 4-6 semaines avant : très demandées le samedi.",
+      "Si plusieurs activités arrivent ex aequo, planifiez-les sur 2 jours différents.",
+      "Gardez 30% du temps en 'libre' : trop de programme tue le côté chill."
+    ],
+    "variations": [
+      {
+        "question": "Quel thème de soirée pour l'EVJF ?",
+        "options": ["Années 2000 (Y2K)", "Disco paillettes", "Pyjama party glam", "Tropical et flamingo"]
+      },
+      {
+        "question": "Quel cadeau collectif offrir à la mariée ?",
+        "options": ["Album photos personnalisé", "Bon spa duo", "Bijou gravé", "Cagnotte voyage de noces"]
+      },
+      {
+        "question": "Quel type d'hébergement réserver ?",
+        "options": ["Airbnb grande maison", "Hôtel boutique", "Riad ou villa avec piscine", "Chambres d'hôtes de charme"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien d'activités prévoir sur un EVJF de 2 jours ?",
+        "a": "Maximum 2 activités structurées par jour. Au-delà, vous épuisez le groupe et tuez le côté spontané qui fait le charme d'un EVJF."
+      },
+      {
+        "q": "Comment gérer les copines qui ne participent qu'à certaines activités ?",
+        "a": "Acceptez-le sans en faire un drame. Communiquez clairement le coût de chaque activité pour qu'elles puissent contribuer uniquement à ce qu'elles font."
+      },
+      {
+        "q": "Faut-il imposer un dresscode pour la soirée ?",
+        "a": "Recommander oui, imposer non. Un thème léger (couleur ou accessoire commun) suffit pour des photos cohérentes sans stresser les copines."
+      },
+      {
+        "q": "Que faire si la mariée n'aime pas l'activité gagnante ?",
+        "a": "Discutez en amont avec elle de ses no-go absolus avant de lancer le sondage. Si l'activité gagnante ne lui plaît pas, prenez la seconde du sondage."
+      }
+    ],
+    "related": ["sondage-evjf-destination", "sondage-evg-activite", "sondage-anniv-theme-fete"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-evg-activite",
+    "locale": "fr",
+    "emoji": "🍻",
+    "title": "Sondage EVG : choisir l'activité en 10 secondes",
+    "h1": "Sondage EVG activité : faites voter les potes",
+    "description": "Karting, paintball ou dégustation bières ? Créez un sondage anonyme en 10 secondes, partagez aux potes et tranchez l'activité de l'EVG en live.",
+    "intro": "Organiser un EVG, c'est rassembler 6-12 potes avec 6-12 personnalités différentes. Plutôt que de relancer 50 fois le groupe Telegram, on shortliste 4 activités et on lance un sondage moomz. Vote anonyme, résultat en live, décision prise en 24h.",
+    "category": "bachelor",
+    "audience": "Témoins qui organisent l'enterrement de vie de garçon",
+    "question": "Quelle activité phare pour l'EVG ?",
+    "options": [
+      "Karting indoor",
+      "Paintball ou airsoft",
+      "Escape game",
+      "Dégustation bières et brasserie",
+      "Saut en parachute ou tyrolienne"
+    ],
+    "whyItWorks": "L'EVG cristallise les rivalités d'égo : qui ose proposer quoi, qui paie quoi, qui a peur de quoi. Sonder anonymement coupe court aux discussions de mâle alpha. Le vote révèle les vrais goûts du groupe (souvent moins extrêmes qu'imaginé). Et un choix collectif assumé évite les reproches du 'on aurait dû faire X'.",
+    "tips": [
+      "Vérifiez d'abord avec le marié ses no-go absolus (peur de l'avion, allergie, blessure) avant de proposer du saut élastique.",
+      "Précisez le budget par personne à côté de chaque option : ça filtre les options irréalistes.",
+      "Ne mettez pas le marié dans le sondage si c'est surprise totale.",
+      "Activités physiques le matin, soirée bar/club le soir : c'est le combo gagnant qui plaît à 90% des EVG.",
+      "Si égalité, combinez les 2 activités sur un week-end de 2 jours."
+    ],
+    "variations": [
+      {
+        "question": "Quel type de soirée pour clôturer l'EVG ?",
+        "options": ["Bar tournée pubs", "Club avec carré VIP", "Casino soirée poker", "Resto fin et chill"]
+      },
+      {
+        "question": "Quel défi imposer au marié pendant l'EVG ?",
+        "options": ["Déguisement humiliant", "Quiz couple en public", "Mission photo (selfies inconnus)", "Aucun défi, juste fun"]
+      },
+      {
+        "question": "Quelle destination pour un EVG week-end ?",
+        "options": ["Amsterdam", "Prague", "Lisbonne", "Bordeaux ou Marseille"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il toujours faire un EVG choquant ou humiliant ?",
+        "a": "Non, c'est dépassé. Sondez le groupe : la majorité des EVG modernes privilégient les activités fun et les bons moments, pas les défis embarrassants."
+      },
+      {
+        "q": "Combien doit coûter un EVG par personne ?",
+        "a": "Comptez 100-300€ pour une journée, 250-600€ pour un week-end. Calez le budget avant de lancer le sondage pour éviter les surprises."
+      },
+      {
+        "q": "Comment inclure les potes qui sont loin géographiquement ?",
+        "a": "Choisissez une ville centrale pour le groupe. Ou organisez 2 mini-EVG : un grand week-end + un apéro dans la ville du marié pour les locaux."
+      },
+      {
+        "q": "Que faire si le marié déteste les surprises ?",
+        "a": "Demandez-lui sa shortlist d'activités acceptables, puis sondez le groupe sur cette shortlist. Vous gardez le côté collectif sans le stresser."
+      }
+    ],
+    "related": ["sondage-evjf-destination", "sondage-evjf-activite-soiree", "sondage-mariage-musique-ouverture-bal"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-anniv-theme-fete",
+    "locale": "fr",
+    "emoji": "🎉",
+    "title": "Sondage anniversaire : choisir le thème de la fête",
+    "h1": "Sondage thème anniversaire : laissez les invités voter",
+    "description": "Années 90, casino royal, soirée déguisée ? Créez un sondage anonyme en 10 secondes et tranchez le thème de l'anniversaire en live avec les invités.",
+    "intro": "Le thème d'un anniversaire, c'est ce qui transforme un apéro en vraie soirée mémorable. Plutôt que de stresser sur Pinterest, on shortliste 4-5 thèmes accessibles et on lance un sondage moomz aux invités. En 48h, on a un thème validé collectivement et les invités sont déjà hype.",
+    "category": "birthday",
+    "audience": "Toute personne organisant son anniversaire ou celui d'un proche",
+    "question": "Quel thème pour la soirée d'anniversaire ?",
+    "options": [
+      "Années 90-2000",
+      "Casino royal (chic noir et or)",
+      "Tropical et beach party",
+      "Déguisement libre",
+      "Bal masqué chic"
+    ],
+    "whyItWorks": "Un thème impose un effort déco/tenue qui crée immédiatement de l'engagement chez les invités. Le sondage les implique dès la préparation, ce qui booste le taux de présence le jour J. Limiter à 5 options évite la paralysie. Et un thème voté collectivement est mieux respecté qu'un thème imposé : les invités jouent vraiment le jeu.",
+    "tips": [
+      "Évitez les thèmes trop pointus (cosplay, années 1820) qui demandent trop d'effort : taux de respect très bas.",
+      "Lancez le sondage minimum 3 semaines avant : les invités ont besoin de temps pour leur tenue.",
+      "Annoncez le thème ET un exemple de tenue 'minimum acceptable' (un accessoire suffit).",
+      "Prévoyez 5-10 accessoires de secours à l'entrée pour les flemmards : tout le monde joue le jeu.",
+      "Pour les 30-40 ans, les thèmes nostalgiques (90s, 2000s) marchent toujours mieux que les thèmes culturels."
+    ],
+    "variations": [
+      {
+        "question": "Quel format pour l'anniversaire ?",
+        "options": ["Soirée maison cosy", "Bar privatisé", "Resto privatisé", "Salle louée avec DJ"]
+      },
+      {
+        "question": "Quelle ambiance musicale pour la soirée ?",
+        "options": ["Hits années 90-2000", "Pop actuelle", "Reggaeton et latino", "DJ électro"]
+      },
+      {
+        "question": "Quelle activité pour animer l'anniversaire ?",
+        "options": ["Karaoké", "Photobooth pro", "Quiz sur le ou la fêté(e)", "Aucune, juste musique et danse"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il imposer un thème pour un anniversaire ?",
+        "a": "Si vous voulez créer un vrai moment marquant, oui. Sans thème, l'anniversaire devient un apéro classique. Avec, les invités s'impliquent et les photos sont fortes."
+      },
+      {
+        "q": "Quand annoncer le thème aux invités ?",
+        "a": "3 à 5 semaines avant, en même temps que l'invitation. Plus tard, les invités n'auront pas le temps de préparer une tenue."
+      },
+      {
+        "q": "Que faire des invités qui ne respectent pas le thème ?",
+        "a": "Aucun reproche le jour J. L'objectif est qu'ils viennent et passent un bon moment. Prévoyez des accessoires à l'entrée pour qu'ils puissent rejoindre le thème facilement."
+      },
+      {
+        "q": "Comment annoncer un thème original sans paraître ridicule ?",
+        "a": "Joignez une moodboard Pinterest et 3-4 photos de tenues réussies. Le côté visuel rassure et donne envie."
+      }
+    ],
+    "related": ["sondage-anniv-gateau-saveur", "sondage-baby-shower-theme", "sondage-evjf-activite-soiree"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-anniv-gateau-saveur",
+    "locale": "fr",
+    "emoji": "🎂",
+    "title": "Sondage anniversaire : choisir la saveur du gâteau",
+    "h1": "Sondage gâteau d'anniversaire : faites voter la saveur",
+    "description": "Chocolat, fraisier ou tiramisu ? Créez un sondage anonyme en 10 secondes et laissez les proches voter pour la saveur du gâteau d'anniversaire.",
+    "intro": "Le gâteau d'anniversaire, c'est LE moment photo de la soirée. Plutôt que de jouer aux devinettes, on demande aux proches. moomz permet de lancer un sondage anonyme en 10 secondes : 4-5 saveurs, lien partagé, la saveur gagnante est commandée chez le pâtissier sans regret.",
+    "category": "birthday",
+    "audience": "Familles et amis qui organisent un anniversaire pour quelqu'un d'autre",
+    "question": "Quelle saveur de gâteau d'anniversaire ?",
+    "options": [
+      "Chocolat noir intense",
+      "Fraisier classique",
+      "Tiramisu",
+      "Citron meringué",
+      "Forêt noire"
+    ],
+    "whyItWorks": "Le gâteau est l'élément central qui fédère 100% des invités. Sonder évite de cuisiner pour 20 personnes un dessert que 5 vont adorer et 15 vont laisser dans l'assiette. Le vote anonyme reflète les goûts réels (pas les goûts polis). Et les invités impliqués dans le choix mangent davantage le jour J : moins de gaspillage.",
+    "tips": [
+      "Demandez d'abord au fêté(e) ses 2-3 préférences absolues, puis sondez parmi celles-là.",
+      "Pour 15-25 personnes, prévoyez 1 gâteau de 25cm. Au-delà, 2 gâteaux de saveurs différentes valent mieux qu'un seul XXL.",
+      "Lancez le sondage 1-2 semaines avant : les bons pâtissiers ont besoin de 4-7 jours de délai.",
+      "Si vous faites le gâteau maison, choisissez une saveur que vous maîtrisez déjà : pas le moment d'innover.",
+      "Pour un anniversaire surprise, sondez la famille proche qui connaît bien les goûts."
+    ],
+    "variations": [
+      {
+        "question": "Quel format de gâteau pour l'anniversaire ?",
+        "options": ["Layer cake étagé", "Number cake en chiffre", "Gâteau classique rond", "Cupcakes individuels"]
+      },
+      {
+        "question": "Quelle décoration pour le gâteau ?",
+        "options": ["Fleurs fraîches", "Bougies magiques", "Photo comestible", "Topper personnalisé"]
+      },
+      {
+        "question": "Quel parfum de boisson pour accompagner ?",
+        "options": ["Champagne ou crémant", "Cocktail signature", "Mojito sans alcool", "Café et thé classiques"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il commander le gâteau ou le faire maison ?",
+        "a": "Maison si vous maîtrisez et avez le temps, c'est plus personnel. Pâtissier si vous voulez un effet wow visuel ou plus de 20 invités."
+      },
+      {
+        "q": "Quelle taille de gâteau pour combien de personnes ?",
+        "a": "Un gâteau de 22-24cm convient pour 12-15 personnes en dessert classique. Pour un layer cake, comptez plus large car les parts sont plus petites."
+      },
+      {
+        "q": "Et si le fêté est allergique à quelque chose ?",
+        "a": "Sondez en filtrant les options compatibles. Et précisez les allergènes à éviter quand vous briefez le pâtissier (gluten, lactose, fruits à coque)."
+      },
+      {
+        "q": "Combien de bougies sur le gâteau ?",
+        "a": "Une par année de vie pour les enfants. À partir de 30 ans, optez pour des bougies chiffre ou bougies magiques : plus pratique et plus photogénique."
+      }
+    ],
+    "related": ["sondage-anniv-theme-fete", "sondage-mariage-gateau-style", "sondage-baby-shower-theme"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-baby-shower-theme",
+    "locale": "fr",
+    "emoji": "👶",
+    "title": "Sondage baby shower : choisir le thème ou la couleur",
+    "h1": "Sondage thème baby shower : laissez les invitées voter",
+    "description": "Pastel, jungle ou nuages dorés ? Créez un sondage anonyme en 10 secondes pour choisir le thème de la baby shower de votre amie en toute sérénité.",
+    "intro": "Organiser une baby shower surprise, c'est un challenge : on veut faire plaisir à la future maman sans gâcher l'effet. On lance un sondage moomz au cercle proche (sœur, BFF, belle-famille), on récupère un thème consensus en 24h, et on déco en confiance.",
+    "category": "baby",
+    "audience": "BFF, sœurs ou belles-mères qui organisent une baby shower",
+    "question": "Quel thème pour la baby shower ?",
+    "options": [
+      "Pastel bleu et blanc (neutre garçon)",
+      "Pastel rose et doré (neutre fille)",
+      "Jungle et animaux mignons",
+      "Nuages et étoiles dorées",
+      "Boho beige et eucalyptus (neutre)"
+    ],
+    "whyItWorks": "Le thème d'une baby shower doit plaire à la future maman ET aux invitées, qui sont souvent multi-générationnelles (BFF + belles-sœurs + tantes). Le sondage anonyme évite les guerres de goûts en famille. Le vote rapide laisse le temps de commander la déco sur Amazon (5-7 jours). Et un thème consensus rassure l'organisatrice qui pilote souvent seule.",
+    "tips": [
+      "Si le sexe du bébé est connu, le thème se choisit en 5 minutes. Si surprise, partez sur du neutre (jaune, vert, beige).",
+      "Lancez le sondage minimum 3 semaines avant : il faut le temps de commander la déco et de la recevoir.",
+      "Privilégiez les thèmes 'décor réutilisable' (chiffre de feutrine, ballons gold) : la maman peut les garder pour la chambre de bébé.",
+      "Évitez les thèmes 'overload' (licorne arc-en-ciel + jungle + cars) : un seul thème clair vaut mieux que 3 mélangés.",
+      "Sondez en priorité les copines proches qui connaissent les goûts de la future maman."
+    ],
+    "variations": [
+      {
+        "question": "Quel format de baby shower organiser ?",
+        "options": ["Brunch entre filles", "Goûter avec gâteau", "Apéro mixte (avec papa)", "Soirée pyjama party"]
+      },
+      {
+        "question": "Quel jeu animer pendant la baby shower ?",
+        "options": ["Devine le poids du bébé", "Mesure le ventre de la maman", "Quiz couches aveugles", "Aucun jeu, juste discuter"]
+      },
+      {
+        "question": "Quel cadeau collectif pour la maman ?",
+        "options": ["Liste de naissance commune", "Bon spa post-accouchement", "Album photo grossesse", "Doudou personnalisé bébé"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il faire la baby shower avant ou après la naissance ?",
+        "a": "En France, avant la naissance est la norme (vers 7-8 mois de grossesse). La maman profite, et c'est plus simple à organiser sans nouveau-né."
+      },
+      {
+        "q": "Faut-il inviter la belle-famille ?",
+        "a": "Selon la relation avec la future maman. Demandez-lui en amont : certaines préfèrent un cercle intime BFF, d'autres aiment mélanger. Pas de règle universelle."
+      },
+      {
+        "q": "Doit-on offrir un cadeau si on est invitée à une baby shower ?",
+        "a": "Oui, traditionnellement. Petit cadeau (10-30€) si liste de naissance existe, ou cadeau collectif partagé entre invitées pour un cadeau plus marquant."
+      },
+      {
+        "q": "Combien d'invitées pour une baby shower réussie ?",
+        "a": "Entre 6 et 12 invitées idéalement. Moins, c'est trop intime. Plus, c'est ingérable et la maman ne profite pas de chacune."
+      }
+    ],
+    "related": ["sondage-anniv-theme-fete", "sondage-anniv-gateau-saveur", "sondage-famille-resto-dimanche"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-famille-resto-dimanche",
+    "locale": "fr",
+    "emoji": "🍝",
+    "title": "Sondage famille : choisir le resto du dimanche midi",
+    "h1": "Sondage resto dimanche en famille : tranchez en 10s",
+    "description": "Italien, asiatique ou brasserie ? Créez un sondage anonyme en 10 secondes et laissez toute la famille voter pour le resto du dimanche midi.",
+    "intro": "Le dimanche midi en famille, c'est toujours la même galère : tout le monde a un avis, personne ne veut trancher. On lance un sondage moomz dans le groupe WhatsApp famille, 5 options, et en 30 minutes on a un resto choisi collectivement. Adieu les 'moi je m'en fiche' qui durent 1h.",
+    "category": "family",
+    "audience": "Familles qui veulent éviter le drama du choix de resto chaque dimanche",
+    "question": "Quel resto pour ce dimanche midi en famille ?",
+    "options": [
+      "Italien (pizza et pâtes)",
+      "Brasserie française",
+      "Asiatique (sushi ou wok)",
+      "Burger gourmet",
+      "Crêperie ou galettes"
+    ],
+    "whyItWorks": "Le choix de resto en famille déclenche systématiquement des tensions générationnelles (les parents veulent classique, les ados veulent fun). Le sondage anonyme donne le même poids à tous, ce qui apaise les enfants/ados qui se sentent souvent ignorés. Le vote rapide évite l'effet 'j'ai pas envie de décider' qui paralyse les groupes familiaux. Et la décision collective est mieux acceptée même par les déçus.",
+    "tips": [
+      "Lancez le sondage le samedi soir : tout le monde répond avant le brunch du dimanche.",
+      "Précisez le quartier ou la ville dans le titre pour éviter les votes pour des restos inaccessibles.",
+      "Ajoutez une option 'à la maison' pour les dimanches où personne n'a envie de sortir.",
+      "Si la famille est nombreuse (>6 pers), pensez à appeler le resto la veille pour réserver le gagnant.",
+      "Variez les options chaque semaine pour éviter la routine : alternez classique, original, healthy."
+    ],
+    "variations": [
+      {
+        "question": "Quel type de cuisine pour le repas en famille ?",
+        "options": ["Cuisine traditionnelle française", "Italien", "Méditerranéen (libanais, grec)", "Asiatique"]
+      },
+      {
+        "question": "Quel budget par personne pour le resto ?",
+        "options": ["Moins de 20€", "20-35€", "35-60€", "Sans limite, on se fait plaisir"]
+      },
+      {
+        "question": "Plutôt resto ou repas à la maison ce dimanche ?",
+        "options": ["Resto, on profite", "Maison, on cuisine ensemble", "Brunch chez quelqu'un", "Pique-nique en extérieur"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il vraiment sonder pour un truc aussi simple qu'un resto ?",
+        "a": "Si votre famille passe systématiquement 30+ min à 'choisir', oui. Le sondage tranche en 10 minutes et évite les frustrations silencieuses des enfants/ados."
+      },
+      {
+        "q": "Comment éviter que ce soit toujours le même resto qui gagne ?",
+        "a": "Renouvelez les options chaque semaine. Ne laissez jamais le même resto plus de 2 fois consécutives dans le sondage, même s'il est plébiscité."
+      },
+      {
+        "q": "Les enfants peuvent-ils voter ?",
+        "a": "Oui, c'est même recommandé. Donnez-leur le téléphone pour cliquer, ils adorent. Et leur avis a souvent autant de pertinence que celui des parents."
+      },
+      {
+        "q": "Et si plusieurs membres de la famille n'ont pas envie de sortir ?",
+        "a": "Ajoutez une option 'à la maison' au sondage. Si elle gagne, vous économisez et passez quand même un bon moment ensemble."
+      }
+    ],
+    "related": ["sondage-anniv-theme-fete", "sondage-baby-shower-theme", "sondage-mariage-menu-plat-principal"],
+    "updatedAt": "2026-05-20"
+  }
+]

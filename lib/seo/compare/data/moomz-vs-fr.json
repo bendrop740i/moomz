@@ -1,0 +1,738 @@
+[
+  {
+    "slug": "moomz-vs-strawpoll-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Strawpoll", "emoji": "🥤", "tagline": "Le classique du sondage web depuis 2008" },
+    "title": "moomz vs Strawpoll : quel sondage gratuit en 2026 ?",
+    "h1": "moomz vs Strawpoll : lequel choisir en 2026 ?",
+    "description": "Comparatif honnête entre moomz et Strawpoll : prix, anonymat, design mobile, anti-triche, partage. Le verdict en 8 critères et 6 questions clés.",
+    "intro": "Strawpoll est le vétéran du sondage rapide en ligne, présent depuis 2008. moomz est plus récent mais 100% mobile-first, avec un design sombre vivant et des barres de vote animées en direct. On compare les deux honnêtement, sans pub.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Création d'un sondage",
+        "a": "10 secondes, sans compte, question + 2 à 6 options et c'est en ligne",
+        "b": "Très rapide aussi, mais l'interface pousse vite vers le compte payant Strawpoll Plus"
+      },
+      {
+        "winner": "a",
+        "label": "Design mobile",
+        "a": "Mobile-first, dark glass, barres animées et confettis quand on vote",
+        "b": "Fonctionnel mais daté, pensé desktop avant tout"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat par défaut",
+        "a": "Aucun compte, juste un cookie pour éviter les doubles votes",
+        "b": "Anonyme aussi mais pousse à créer un compte pour suivre ses sondages"
+      },
+      {
+        "winner": "b",
+        "label": "Notoriété et confiance",
+        "a": "Jeune marque, moins connue auprès du grand public",
+        "b": "Marque installée depuis plus de 15 ans, rassurante pour un public large"
+      },
+      {
+        "winner": "b",
+        "label": "Options avancées de vote",
+        "a": "1 vote par cookie, format simple sur 2 à 6 options",
+        "b": "Multi-choix, ranking, captcha, IP duplicate check, fenêtres horaires"
+      },
+      {
+        "winner": "a",
+        "label": "Prix",
+        "a": "Gratuit pour toujours, sans limite de sondages ni de votes",
+        "b": "Gratuit limité, Strawpoll Plus à partir de ~16$/mois pour débloquer le vrai"
+      },
+      {
+        "winner": "a",
+        "label": "Live en temps réel",
+        "a": "Les barres bougent en direct via Supabase Realtime à chaque vote",
+        "b": "Refresh manuel ou auto-refresh basique sur la page de résultats"
+      },
+      {
+        "winner": "tie",
+        "label": "Partage du lien",
+        "a": "Lien court moomz.com/abc12 avec aperçu OG riche sur les réseaux",
+        "b": "Lien court strawpoll.com/xxx avec aperçu correct"
+      }
+    ],
+    "verdict": "Strawpoll garde l'avantage si tu cherches une marque ultra-établie et des options pro comme le ranking ou le captcha. moomz gagne sur tout le reste : design moderne, gratuit sans limite, votes vraiment en live, et une expérience mobile pensée pour les ados et la Gen Z.",
+    "pickA": "Choisis moomz si tu veux poster ton sondage en story dans 10 secondes, voir les votes s'empiler en direct et tout garder gratuit, sans piège.",
+    "pickB": "Choisis Strawpoll si tu fais un vote officiel d'association, un concours avec règles strictes ou si tu as besoin du ranking multi-options.",
+    "faq": [
+      {
+        "q": "Strawpoll est-il vraiment gratuit ?",
+        "a": "Oui pour la version basique, mais beaucoup d'options (anti-triche IP, ranking, sondages privés, retrait du logo) sont réservées à Strawpoll Plus qui démarre autour de 16$ par mois."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans créer de compte ?",
+        "a": "Évidemment. moomz ne demande aucun compte pour voter ni pour créer un sondage. Un simple cookie empêche le double vote, c'est tout."
+      },
+      {
+        "q": "Lequel choisir pour partager en story Instagram ?",
+        "a": "moomz, sans hésiter. Le lien court et l'aperçu OG sont pensés pour les réseaux, et le design coloré rend mieux qu'une page Strawpoll desktop."
+      },
+      {
+        "q": "Et pour un vote en classe ou au bureau ?",
+        "a": "Strawpoll fait le job si tu veux des contrôles anti-triche stricts. Pour un brise-glace fun ou un vote rapide d'équipe, moomz est plus agréable."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Strawpoll ?",
+        "a": "Pour 90% des usages grand public oui : sondages amis, débats Twitter, votes rigolos. Pour des élections d'asso avec preuve d'unicité, Strawpoll Plus reste plus armé."
+      },
+      {
+        "q": "Comment migrer de Strawpoll à moomz ?",
+        "a": "Il n'y a rien à exporter : tu recrées ton sondage en 10 secondes sur moomz.com et tu partages le nouveau lien. Tes anciens sondages Strawpoll restent en ligne de leur côté."
+      }
+    ],
+    "related": ["moomz-vs-typeform-fr", "moomz-vs-google-forms-fr", "moomz-vs-mentimeter-fr", "moomz-vs-instagram-story-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-typeform-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Typeform", "emoji": "📋", "tagline": "Formulaires conversationnels élégants" },
+    "title": "moomz vs Typeform : sondage rapide ou formulaire pro ?",
+    "h1": "moomz vs Typeform : lequel utiliser en 2026 ?",
+    "description": "moomz contre Typeform : prix, anonymat, design, limite de réponses, vrais cas d'usage. Comparatif honnête en 8 critères pour choisir en 30 secondes.",
+    "intro": "Typeform est la référence du formulaire élégant, une question à la fois, parfait pour collecter des leads ou faire un quiz qualifié. moomz joue dans une autre cour : sondage public, anonyme, viral, qu'on partage comme un meme. Voyons ce qui les sépare vraiment.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Création express",
+        "a": "Question + options + envoi, 10 secondes chrono",
+        "b": "Builder puissant mais il faut compter quelques minutes pour un premier form"
+      },
+      {
+        "winner": "b",
+        "label": "Formulaires longs et logiques",
+        "a": "Une seule question par sondage, format volontairement simple",
+        "b": "Multi-questions, logique conditionnelle, scoring, calculs, le plein"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat",
+        "a": "Aucun compte, aucun email demandé, vote anonyme par défaut",
+        "b": "Souvent utilisé pour collecter des emails et données nominatives"
+      },
+      {
+        "winner": "a",
+        "label": "Prix",
+        "a": "Gratuit pour toujours, illimité",
+        "b": "Plan gratuit limité à 10 réponses par mois, payant à partir de 25€/mois environ"
+      },
+      {
+        "winner": "b",
+        "label": "Intégrations",
+        "a": "Lien partagé + OG préview, c'est tout",
+        "b": "Zapier, HubSpot, Slack, Notion, Google Sheets, 100+ connecteurs"
+      },
+      {
+        "winner": "a",
+        "label": "Viralité sociale",
+        "a": "Lien court, image OG, conçu pour Insta/Snap/WhatsApp",
+        "b": "Pensé pour l'email ou l'embed pro, pas pour le partage viral"
+      },
+      {
+        "winner": "a",
+        "label": "Résultats en direct",
+        "a": "Barres animées qui bougent en temps réel à chaque vote",
+        "b": "Dashboard analytics propre mais consulté à froid"
+      },
+      {
+        "winner": "b",
+        "label": "Design pro et branding",
+        "a": "Style fun, dark glass, cartoon — pas un outil corporate",
+        "b": "Charte graphique fine, custom domain, logo retiré sur plan payant"
+      }
+    ],
+    "verdict": "Typeform et moomz ne sont pas concurrents directs. Typeform est un outil de formulaire professionnel pour collecter des données structurées. moomz est un sondage social one-shot qu'on partage comme une story. Le bon choix dépend de l'usage, pas du prix.",
+    "pickA": "Choisis moomz si tu veux juste savoir 'pizza ananas oui ou non' et balancer le lien dans ta story dans la minute.",
+    "pickB": "Choisis Typeform si tu fais une vraie collecte de feedback client, un quiz qualifié avec branching ou un formulaire d'inscription pro.",
+    "faq": [
+      {
+        "q": "Typeform est-il gratuit ?",
+        "a": "Le plan gratuit existe mais plafonne à 10 réponses par mois et limite les questions. Les plans payants commencent autour de 25€/mois et grimpent vite."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui, c'est même le principe. Pas d'email, pas de mot de passe, un cookie suffit à empêcher le double vote."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz, franchement. Typeform marche mais le rendu desktop et la conversion en story sont bien moins fluides que sur moomz."
+      },
+      {
+        "q": "Et pour un usage classroom ou pro ?",
+        "a": "Typeform si tu veux des résultats structurés analysables. moomz si tu cherches un brise-glace ou un vote rapide d'équipe."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Typeform ?",
+        "a": "Non pour les formulaires multi-questions et la collecte de leads. Oui pour tous les micro-sondages sociaux qu'on aurait improvisés en Typeform faute de mieux."
+      },
+      {
+        "q": "Comment migrer de Typeform à moomz ?",
+        "a": "Pour les sondages simples une seule question : tu recopies la question, tu mets les options, tu partages le lien. Pour des formulaires complexes : reste sur Typeform."
+      }
+    ],
+    "related": ["moomz-vs-google-forms-fr", "moomz-vs-strawpoll-fr", "moomz-vs-mentimeter-fr", "moomz-vs-framaforms-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-google-forms-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Google Forms", "emoji": "📝", "tagline": "Formulaires gratuits dans la suite Google" },
+    "title": "moomz vs Google Forms : sondage rapide ou formulaire long ?",
+    "h1": "moomz vs Google Forms : que choisir pour ton sondage ?",
+    "description": "moomz contre Google Forms en 2026 : prix, anonymat, design mobile, viralité, exports. Comparatif neutre en 8 points et 6 questions pratiques.",
+    "intro": "Google Forms est l'outil par défaut de millions de profs, RH et associations. Gratuit, fiable, intégré à Google Drive. moomz vise un autre besoin : un micro-sondage social, sans compte, viral, qu'on lâche dans une story ou une boucle WhatsApp.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Rapidité de création",
+        "a": "10 secondes pour publier un sondage, sans rien configurer",
+        "b": "1 à 3 minutes pour un Form basique, plus si on cherche les bonnes options"
+      },
+      {
+        "winner": "b",
+        "label": "Formulaires multi-questions",
+        "a": "Une question, 2 à 6 options, point final",
+        "b": "Questions illimitées, types variés, sections, logique conditionnelle"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat clair",
+        "a": "Anonyme par défaut, jamais d'adresse email collectée",
+        "b": "Anonyme possible mais souvent piégé par 'collecter l'email automatiquement'"
+      },
+      {
+        "winner": "tie",
+        "label": "Prix",
+        "a": "Gratuit pour toujours sans limite",
+        "b": "Gratuit aussi avec un compte Google, sans limite de réponses"
+      },
+      {
+        "winner": "a",
+        "label": "Design mobile",
+        "a": "Mobile-first, dark glass, barres animées, confettis",
+        "b": "Propre mais générique, sensation administrative"
+      },
+      {
+        "winner": "b",
+        "label": "Export et analyse",
+        "a": "Pas d'export CSV, les résultats vivent sur la page du sondage",
+        "b": "Export Google Sheets natif, dashboards, filtres, analyse avancée"
+      },
+      {
+        "winner": "a",
+        "label": "Live et viralité",
+        "a": "Barres qui bougent en direct, lien court partageable en story",
+        "b": "Résultats consultables a posteriori, pas de vibe live"
+      },
+      {
+        "winner": "b",
+        "label": "Intégration écosystème",
+        "a": "Stand-alone, pas d'écosystème",
+        "b": "Drive, Sheets, Classroom, Workspace, fait partie de la stack pro"
+      }
+    ],
+    "verdict": "Google Forms reste imbattable pour un vrai formulaire structuré qui finit dans un Google Sheet. moomz n'essaie pas de jouer ce match. Sur le terrain du sondage rapide, anonyme et partageable, c'est l'inverse : moomz est nettement plus fun et plus rapide.",
+    "pickA": "Choisis moomz si tu veux juste une réponse rapide de tes potes ou de ta communauté, sans qu'ils aient à se logguer ou télécharger quoi que ce soit.",
+    "pickB": "Choisis Google Forms si tu collectes des candidatures, des feedbacks structurés ou si tu veux récupérer les données dans Sheets pour analyse.",
+    "faq": [
+      {
+        "q": "Google Forms est-il vraiment gratuit ?",
+        "a": "Oui, totalement, avec un compte Google. Pas de limite de réponses ni de questions, c'est l'un des outils gratuits les plus complets du marché."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Évidemment. moomz ne demande aucun compte, ni à toi pour créer, ni à tes amis pour voter."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz. Google Forms n'a pas été pensé pour ça : pas d'OG image stylée, design trop sobre, et obliger les gens à charger un form long en story tue le vote."
+      },
+      {
+        "q": "Et pour la classe ou le bureau ?",
+        "a": "Google Forms si tu veux récupérer un Sheet propre. moomz si c'est juste 'on prend quel restau ce midi'."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Google Forms ?",
+        "a": "Non pour les formulaires longs et l'analyse en Sheets. Oui pour tous les micro-sondages où Google Forms est en fait surdimensionné."
+      },
+      {
+        "q": "Comment migrer de Google Forms à moomz ?",
+        "a": "Si ton Form n'a qu'une seule question fermée, tu la recrées en 10 secondes sur moomz. Sinon les deux outils peuvent cohabiter selon le besoin."
+      }
+    ],
+    "related": ["moomz-vs-typeform-fr", "moomz-vs-strawpoll-fr", "moomz-vs-framaforms-fr", "moomz-vs-mentimeter-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-mentimeter-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Mentimeter", "emoji": "📊", "tagline": "Sondages interactifs pour présentations live" },
+    "title": "moomz vs Mentimeter : sondage social ou présentation live ?",
+    "h1": "moomz vs Mentimeter : le bon outil selon ton contexte",
+    "description": "moomz contre Mentimeter en 2026 : prix, fonctions live, anonymat, design, limite gratuite. Comparatif honnête en 8 critères pour choisir vite.",
+    "intro": "Mentimeter règne sur les salles de conférence et les amphis avec ses nuages de mots et ses quiz projetés. moomz vit ailleurs : sur le téléphone, en story, dans une boucle WhatsApp entre potes. Deux mondes, deux outils, on les compare quand même.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Création rapide",
+        "a": "10 secondes pour publier et partager un lien",
+        "b": "Builder slide par slide, prévu pour préparer une présentation"
+      },
+      {
+        "winner": "b",
+        "label": "Variété de formats",
+        "a": "Sondage à choix simple, 2 à 6 options, point",
+        "b": "Word cloud, quiz, scaling, classement, Q&A, open text, etc."
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat",
+        "a": "Anonyme natif, lien public, aucun code à taper",
+        "b": "Anonyme aussi mais via code à 6 chiffres et URL menti.com"
+      },
+      {
+        "winner": "a",
+        "label": "Prix",
+        "a": "Gratuit pour toujours, illimité",
+        "b": "Plan gratuit limité à 2 questions par présentation, payant à partir de ~12€/mois"
+      },
+      {
+        "winner": "b",
+        "label": "Présentation projetée",
+        "a": "Page web simple, pas pensée pour un vidéoprojecteur",
+        "b": "Slides plein écran avec compteur live, parfait en réunion ou amphi"
+      },
+      {
+        "winner": "a",
+        "label": "Design mobile pour le grand public",
+        "a": "Dark glass, animations, sensation app sociale",
+        "b": "Design pro, neutre, optimisé conférencier"
+      },
+      {
+        "winner": "tie",
+        "label": "Résultats en direct",
+        "a": "Barres animées qui bougent à chaque vote",
+        "b": "Mises à jour live sur la slide du présentateur"
+      },
+      {
+        "winner": "a",
+        "label": "Partage social",
+        "a": "Lien court moomz.com/abc12 + image OG, pensé réseaux",
+        "b": "Le code menti.com/XXXX est pensé pour être tapé en salle, pas partagé en DM"
+      }
+    ],
+    "verdict": "Mentimeter est un outil de présentation. moomz est un outil social. Si tu animes une conférence ou un cours, Mentimeter reste plus adapté. Si tu veux juste lancer un débat dans ta story, moomz est dix fois plus rapide et gratuit sans limite.",
+    "pickA": "Choisis moomz pour tout sondage destiné à être partagé sur les réseaux, dans un groupe WhatsApp, ou en story.",
+    "pickB": "Choisis Mentimeter si tu animes une présentation en salle, un cours en amphi, ou un atelier d'entreprise avec quiz projeté.",
+    "faq": [
+      {
+        "q": "Mentimeter est-il gratuit ?",
+        "a": "Le plan gratuit existe mais limite chaque présentation à 2 questions de type sondage et 5 questions de quiz. Les plans payants commencent autour de 12€/mois."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui. Aucun code à taper, aucun compte à créer : on clique sur le lien et on vote."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz, clairement. Mentimeter demande de taper un code, c'est tué dès la première friction sur mobile."
+      },
+      {
+        "q": "Et pour une classe ou une présentation ?",
+        "a": "Mentimeter garde l'avantage en classe avec slides projetées et formats variés. moomz est plus simple si la classe vote depuis son téléphone sans rien projeter."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Mentimeter ?",
+        "a": "Pour un sondage one-shot pendant un live, oui largement. Pour une présentation complète avec word cloud et quiz multi-formats, non."
+      },
+      {
+        "q": "Comment migrer de Mentimeter à moomz ?",
+        "a": "Tu identifies tes slides 'sondage simple' et tu les recrées en sondages moomz à part. Tu gardes Mentimeter pour les présentations complexes."
+      }
+    ],
+    "related": ["moomz-vs-kahoot-fr", "moomz-vs-strawpoll-fr", "moomz-vs-typeform-fr", "moomz-vs-google-forms-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-instagram-story-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Sondage Story Instagram", "emoji": "📱", "tagline": "Le sticker sondage natif d'Insta" },
+    "title": "moomz vs Sondage Story Instagram : lequel est mieux ?",
+    "h1": "moomz vs Sondage Story Instagram : qui gagne ?",
+    "description": "moomz contre le sticker sondage Instagram : audience, anonymat, options, durée, viralité. Comparatif neutre en 8 critères pour choisir en 30 secondes.",
+    "intro": "Le sticker sondage d'Instagram est ultra-simple mais limité à 2 options, 24h de durée et tes followers seulement. moomz est un sondage web qui survit au-delà de la story, avec jusqu'à 6 options et un anonymat total. On compare honnêtement.",
+    "highlights": [
+      {
+        "winner": "b",
+        "label": "Audience captive",
+        "a": "Il faut que la personne clique sur ton lien externe",
+        "b": "Affiché directement dans la story, vote en 1 tap sans quitter Insta"
+      },
+      {
+        "winner": "a",
+        "label": "Nombre d'options",
+        "a": "De 2 à 6 options par sondage",
+        "b": "2 options seulement pour le sticker sondage classique"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat",
+        "a": "Anonyme par défaut, personne ne voit qui a voté quoi",
+        "b": "Tu vois en tant que créateur exactement qui a voté quelle option"
+      },
+      {
+        "winner": "a",
+        "label": "Durée de vie",
+        "a": "Le sondage reste en ligne tant que tu ne le supprimes pas",
+        "b": "Disparaît avec ta story au bout de 24h"
+      },
+      {
+        "winner": "a",
+        "label": "Partage hors plateforme",
+        "a": "Lien moomz.com/abc12 partageable sur WhatsApp, X, Discord, partout",
+        "b": "Bloqué dans l'app Instagram, impossible à partager ailleurs"
+      },
+      {
+        "winner": "tie",
+        "label": "Rapidité de mise en place",
+        "a": "10 secondes pour créer + partager le lien",
+        "b": "Quelques secondes pour ajouter le sticker dans ta story"
+      },
+      {
+        "winner": "a",
+        "label": "Design custom",
+        "a": "Image personnalisée, design unique, OG préview riche",
+        "b": "Sticker standard, deux couleurs, peu de personnalisation"
+      },
+      {
+        "winner": "b",
+        "label": "Notifications natives",
+        "a": "Pas de push à chaque vote, tu reviens sur la page",
+        "b": "Push Instagram quand quelqu'un vote, intégré au flow de l'app"
+      }
+    ],
+    "verdict": "Le sticker Instagram gagne uniquement parce qu'il vit dans Insta. Sur tout le reste — anonymat, nombre d'options, durée, partage cross-plateforme — moomz est nettement plus puissant. Le combo gagnant est souvent les deux : sticker + lien moomz dans la même story.",
+    "pickA": "Choisis moomz si tu veux plus de 2 options, garder le sondage en ligne plus de 24h, ou partager au-delà d'Instagram.",
+    "pickB": "Choisis le sondage Story Insta si tu veux un vote ultra-rapide en interne à ta communauté Insta, sans clic vers l'extérieur.",
+    "faq": [
+      {
+        "q": "Le sondage Story Instagram est-il gratuit ?",
+        "a": "Oui, il est natif et gratuit à condition d'avoir un compte Instagram."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui, et c'est même son principal avantage : aucun login, aucun email, juste un clic."
+      },
+      {
+        "q": "Lequel choisir pour une story Instagram ?",
+        "a": "Le sticker natif est le plus rapide en interne. Mais si tu veux dépasser 2 options ou être anonyme, le lien moomz collé dans la story marche très bien."
+      },
+      {
+        "q": "Et pour un sondage en classe ou au bureau ?",
+        "a": "moomz sans hésiter. Le sticker Instagram suppose que tout le monde te suit sur Insta, ce qui est rarement le cas en pro."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer le sondage Insta ?",
+        "a": "Pour les sondages multi-options et anonymes oui. Pour un vote captif à ta communauté Insta, le sticker reste imbattable."
+      },
+      {
+        "q": "Comment migrer du sticker Insta vers moomz ?",
+        "a": "Tu recrées la question sur moomz, tu copies le lien, et tu le colles en swipe-up ou en sticker lien dans ta prochaine story."
+      }
+    ],
+    "related": ["moomz-vs-whatsapp-fr", "moomz-vs-strawpoll-fr", "moomz-vs-typeform-fr", "moomz-vs-mentimeter-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-whatsapp-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Sondage WhatsApp", "emoji": "💬", "tagline": "Le sondage natif dans tes groupes" },
+    "title": "moomz vs Sondage WhatsApp : anonyme ou pas en 2026 ?",
+    "h1": "moomz vs Sondage WhatsApp : qui choisir ?",
+    "description": "moomz contre le sondage WhatsApp natif : anonymat, audience, partage, design, durée. Comparatif neutre en 8 critères et 6 questions pratiques.",
+    "intro": "WhatsApp a son sondage intégré depuis 2022, parfait pour un vote dans un groupe famille ou potes. moomz arrive avec un atout que WhatsApp n'a pas : l'anonymat complet. On regarde où chacun gagne, sans flatterie.",
+    "highlights": [
+      {
+        "winner": "b",
+        "label": "Audience captive",
+        "a": "Lien à coller dans la conversation, vote dans le navigateur",
+        "b": "Affiché dans le chat, vote en 1 tap sans quitter WhatsApp"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat",
+        "a": "Personne ne sait qui a voté quoi",
+        "b": "Tout le monde voit qui a voté quoi dans le groupe, par défaut"
+      },
+      {
+        "winner": "tie",
+        "label": "Nombre d'options",
+        "a": "2 à 6 options par sondage",
+        "b": "Jusqu'à 12 options par sondage"
+      },
+      {
+        "winner": "a",
+        "label": "Partage cross-plateforme",
+        "a": "Lien moomz.com/abc12 partageable partout : Insta, X, Discord, email",
+        "b": "Bloqué dans la conversation, impossible à exporter ailleurs"
+      },
+      {
+        "winner": "a",
+        "label": "Design",
+        "a": "Dark glass, barres animées, confettis, image custom",
+        "b": "Texte simple dans la bulle de chat, zéro fioriture"
+      },
+      {
+        "winner": "a",
+        "label": "Durée de vie et trace",
+        "a": "Sondage hébergé sur une page dédiée, retrouvable à tout moment",
+        "b": "Noyé dans le scroll du groupe, perdu après quelques jours"
+      },
+      {
+        "winner": "tie",
+        "label": "Prix",
+        "a": "Gratuit pour toujours",
+        "b": "Gratuit, intégré à WhatsApp"
+      },
+      {
+        "winner": "a",
+        "label": "Live en temps réel",
+        "a": "Barres qui bougent en direct via Supabase Realtime",
+        "b": "Décomptes mis à jour mais sans animation, look statique"
+      }
+    ],
+    "verdict": "Le sondage WhatsApp gagne pour la friction zéro dans un groupe fermé. Mais dès que tu veux de l'anonymat, du multi-canal ou un sondage qui survit au scroll, moomz est nettement supérieur. Le combo est valide : poste ton lien moomz dans le groupe WhatsApp.",
+    "pickA": "Choisis moomz dès que tu veux de l'anonymat (sondage sensible, vote dans une équipe, débat tendu) ou partager au-delà de WhatsApp.",
+    "pickB": "Choisis le sondage WhatsApp natif pour un vote rapide non sensible dans un groupe fermé (resto du soir, choix de date).",
+    "faq": [
+      {
+        "q": "Le sondage WhatsApp est-il vraiment gratuit ?",
+        "a": "Oui, il est natif dans l'application et ne coûte rien."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui, et sans installer la moindre app. Un clic sur le lien dans WhatsApp et c'est voté."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz sans hésiter, le sondage WhatsApp ne peut pas sortir du chat."
+      },
+      {
+        "q": "Et pour un vote en classe ou au bureau ?",
+        "a": "Si l'équipe est déjà sur WhatsApp, le sondage natif suffit. Si l'anonymat compte (feedback manager, sujet sensible), moomz est obligatoire."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer le sondage WhatsApp ?",
+        "a": "Oui pour tout ce qui demande de l'anonymat ou un partage multi-canal. Non si tu veux que tes potes votent sans même quitter le chat."
+      },
+      {
+        "q": "Comment migrer d'un sondage WhatsApp à moomz ?",
+        "a": "Tu recrées la question sur moomz.com, tu copies le lien et tu le balances dans le même groupe WhatsApp. Les gens cliquent et votent anonymement."
+      }
+    ],
+    "related": ["moomz-vs-instagram-story-fr", "moomz-vs-strawpoll-fr", "moomz-vs-google-forms-fr", "moomz-vs-typeform-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-framaforms-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Framaforms", "emoji": "🦊", "tagline": "Formulaires libres et éthiques, made in France" },
+    "title": "moomz vs Framaforms : sondage social ou formulaire libre ?",
+    "h1": "moomz vs Framaforms : que choisir en 2026 ?",
+    "description": "moomz contre Framaforms : prix, anonymat, design, options, vie privée. Comparatif honnête en 8 critères pour choisir le bon outil français.",
+    "intro": "Framaforms, c'est l'alternative libre française à Google Forms, hébergée par l'asso Framasoft. moomz est plus social, plus mobile, moins formulaire. Les deux ont un point commun : zéro tracking publicitaire. On regarde où chacun brille.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Création rapide",
+        "a": "10 secondes pour un sondage publié",
+        "b": "Quelques minutes, builder type Drupal Webform, plus complet mais plus lent"
+      },
+      {
+        "winner": "b",
+        "label": "Formulaires complets",
+        "a": "Un sondage = une question, 2 à 6 options",
+        "b": "Formulaires multi-questions avec champs variés (texte, date, fichier...)"
+      },
+      {
+        "winner": "tie",
+        "label": "Anonymat",
+        "a": "Anonyme par défaut, juste un cookie",
+        "b": "Anonyme aussi, pas de tracking publicitaire, valeurs Framasoft"
+      },
+      {
+        "winner": "tie",
+        "label": "Prix",
+        "a": "Gratuit pour toujours",
+        "b": "Gratuit, soutenu par les dons à Framasoft"
+      },
+      {
+        "winner": "a",
+        "label": "Design moderne",
+        "a": "Dark glass, mobile-first, barres animées",
+        "b": "Interface fonctionnelle mais datée, héritée de Drupal"
+      },
+      {
+        "winner": "a",
+        "label": "Viralité et partage social",
+        "a": "Lien court + image OG riche, pensé pour les réseaux",
+        "b": "Lien long, aperçu minimaliste, pas pensé pour le social"
+      },
+      {
+        "winner": "b",
+        "label": "Souveraineté et auto-hébergement",
+        "a": "Hébergé chez nous (Vercel + Supabase), pas open source",
+        "b": "Logiciel libre, auto-hébergeable sur ton propre serveur"
+      },
+      {
+        "winner": "a",
+        "label": "Live en temps réel",
+        "a": "Barres qui bougent à chaque vote",
+        "b": "Résultats consultés en page séparée, sans live"
+      }
+    ],
+    "verdict": "Framaforms et moomz défendent tous deux des valeurs anti-pub, mais pour des usages différents. Framaforms reste le bon choix pour un formulaire long, souverain, auto-hébergeable. moomz brille sur le sondage rapide, social et viral en mobile.",
+    "pickA": "Choisis moomz si tu veux un sondage qui ressemble à une app sociale, partagé en story ou en groupe, avec une vibe Gen Z.",
+    "pickB": "Choisis Framaforms si tu fais un formulaire long pour une asso, un labo, une école, et que tu veux pouvoir l'auto-héberger.",
+    "faq": [
+      {
+        "q": "Framaforms est-il gratuit ?",
+        "a": "Oui, totalement, et sans publicité. Le service est porté par les dons à l'association Framasoft."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui, aucun compte n'est demandé pour voter ni pour créer un sondage."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz, sans débat. Framaforms a un lien long et un aperçu très neutre, peu adapté au social."
+      },
+      {
+        "q": "Et pour une classe ou une asso ?",
+        "a": "Framaforms si tu veux un vrai questionnaire structuré. moomz pour un vote rapide ou un brise-glace."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Framaforms ?",
+        "a": "Non pour les formulaires longs. Oui pour tous les micro-sondages où Framaforms est en fait surdimensionné."
+      },
+      {
+        "q": "Comment migrer de Framaforms à moomz ?",
+        "a": "Si ton form n'est qu'une question fermée, tu la recrées en 10 secondes sur moomz. Sinon les deux outils peuvent vivre en parallèle."
+      }
+    ],
+    "related": ["moomz-vs-google-forms-fr", "moomz-vs-typeform-fr", "moomz-vs-strawpoll-fr", "moomz-vs-mentimeter-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moomz-vs-kahoot-fr",
+    "locale": "fr",
+    "a": { "name": "moomz", "emoji": "💖", "tagline": "Sondages anonymes, lien court, votes en direct" },
+    "b": { "name": "Kahoot", "emoji": "🎮", "tagline": "Quiz gamifiés pour la classe ou l'équipe" },
+    "title": "moomz vs Kahoot : sondage social ou quiz gamifié ?",
+    "h1": "moomz vs Kahoot : que choisir en 2026 ?",
+    "description": "moomz contre Kahoot : prix, anonymat, format, gamification, audience. Comparatif neutre en 8 critères pour choisir vite et bien.",
+    "intro": "Kahoot a démocratisé le quiz gamifié en classe et en team building, avec son code PIN et sa musique reconnaissable. moomz vise un autre besoin : sondage rapide, anonyme, qu'on partage sur les réseaux. Deux univers différents, on les compare honnêtement.",
+    "highlights": [
+      {
+        "winner": "a",
+        "label": "Création rapide",
+        "a": "10 secondes pour publier un sondage",
+        "b": "Builder de quiz plus long, prévu pour préparer une session"
+      },
+      {
+        "winner": "b",
+        "label": "Gamification",
+        "a": "Système de streak et points sympa, mais pas de quiz scoré",
+        "b": "Quiz avec scoring, podium, musique, leaderboard live"
+      },
+      {
+        "winner": "a",
+        "label": "Anonymat",
+        "a": "Anonyme par défaut, aucune saisie de pseudo",
+        "b": "Pseudo demandé pour le leaderboard, anonymat partiel"
+      },
+      {
+        "winner": "a",
+        "label": "Prix",
+        "a": "Gratuit pour toujours, illimité",
+        "b": "Plan gratuit limité (10 participants en mode payant), payant à partir de ~10€/mois"
+      },
+      {
+        "winner": "b",
+        "label": "Animation en salle",
+        "a": "Pas conçu pour être projeté, sondage individuel par téléphone",
+        "b": "Conçu autour de l'écran central + code PIN, parfait en salle"
+      },
+      {
+        "winner": "a",
+        "label": "Partage social",
+        "a": "Lien court moomz.com/abc12 avec image OG riche",
+        "b": "Code PIN à taper sur kahoot.it, peu partageable sur les réseaux"
+      },
+      {
+        "winner": "tie",
+        "label": "Résultats en direct",
+        "a": "Barres animées qui bougent à chaque vote",
+        "b": "Compteur live affiché sur l'écran principal"
+      },
+      {
+        "winner": "b",
+        "label": "Mode classe et éducation",
+        "a": "Pas de mode éducation dédié",
+        "b": "Compte enseignant, banque de questions, suivi élève, intégrations Teams/Classroom"
+      }
+    ],
+    "verdict": "Kahoot reste roi du quiz gamifié en classe et en team building avec son setup salle + code PIN. moomz vit ailleurs : sondage social, viral, anonyme. Le choix dépend du contexte : tu animes une salle ou tu animes une story ?",
+    "pickA": "Choisis moomz si tu veux poser une question à ta communauté ou tes potes sur les réseaux, sans pseudo ni gamification scolaire.",
+    "pickB": "Choisis Kahoot si tu animes un quiz en classe, une formation ou un team building avec écran central et compétition.",
+    "faq": [
+      {
+        "q": "Kahoot est-il gratuit ?",
+        "a": "Il existe un plan gratuit basique mais beaucoup de modes (collaboratif, plus de participants, rapports détaillés) sont payants, à partir d'environ 10€/mois."
+      },
+      {
+        "q": "Peut-on voter sur moomz sans compte ?",
+        "a": "Oui, et même sans pseudo. Aucune information n'est demandée pour voter."
+      },
+      {
+        "q": "Lequel pour partager en story Instagram ?",
+        "a": "moomz, franchement. Kahoot demande un code PIN, c'est mort pour le social."
+      },
+      {
+        "q": "Et pour la classe ou le bureau ?",
+        "a": "Kahoot domine en salle avec écran projeté. moomz fonctionne bien pour un vote d'équipe rapide sans projection."
+      },
+      {
+        "q": "Est-ce que moomz peut remplacer Kahoot ?",
+        "a": "Non pour la dimension quiz gamifié avec leaderboard. Oui pour tout sondage rapide une seule question, anonyme."
+      },
+      {
+        "q": "Comment migrer de Kahoot à moomz ?",
+        "a": "Tu identifies tes questions de type sondage simple (pas un vrai quiz) et tu les recrées sur moomz. Tu gardes Kahoot pour les quiz scorés."
+      }
+    ],
+    "related": ["moomz-vs-mentimeter-fr", "moomz-vs-strawpoll-fr", "moomz-vs-typeform-fr", "moomz-vs-google-forms-fr"],
+    "topic": "vs-moomz",
+    "updatedAt": "2026-05-20"
+  }
+]

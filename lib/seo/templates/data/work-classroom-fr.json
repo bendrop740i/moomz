@@ -1,0 +1,775 @@
+[
+  {
+    "slug": "sondage-classe-icebreaker-rentree",
+    "locale": "fr",
+    "emoji": "🎒",
+    "title": "Sondage classe icebreaker rentrée : modèle prêt-à-l'emploi",
+    "h1": "Sondage icebreaker pour la rentrée scolaire",
+    "description": "Modèle de sondage anonyme pour casser la glace dès le premier jour de classe. Lancez-le en 10 secondes, partagez le lien, voyez les réponses arriver en direct.",
+    "intro": "La rentrée est le moment où tout se joue : si les élèves restent silencieux le premier jour, l'ambiance peut rester froide tout le trimestre. Ce modèle de sondage donne à chacun une raison de cliquer sans avoir à parler devant la classe. Vous projetez le résultat, vous riez ensemble, et la glace est brisée.",
+    "category": "classroom",
+    "audience": "Profs de collège et lycée, CPE, surveillants, animateurs de classe",
+    "question": "Quelle est votre vibe de rentrée ?",
+    "options": [
+      "Hyper motivé(e), j'attends ça depuis juillet",
+      "Plutôt content(e) de revoir les copains",
+      "Stressé(e) mais je vais gérer",
+      "Vraiment pas envie d'être là"
+    ],
+    "whyItWorks": "L'anonymat libère la parole : un élève timide n'osera jamais lever la main pour dire qu'il est stressé, mais il cliquera sans hésiter. Le résultat projeté montre que personne n'est seul à ressentir ce qu'il ressent, ce qui désamorce la pression sociale. Le format ludique (barres animées en temps réel) transforme l'exercice en moment collectif plutôt qu'en interrogatoire. Et vous obtenez en 2 minutes un aperçu honnête de l'état d'esprit du groupe.",
+    "tips": [
+      "Lancez le sondage les 5 premières minutes du cours, avant tout autre exercice.",
+      "Affichez le QR code au tableau plutôt que de dicter l'URL : 100 % de participation en 30 secondes.",
+      "Ne commentez pas les 'pas envie d'être là' : laissez le chiffre parler, ça suffit.",
+      "Refaites le même sondage en décembre puis en juin : c'est un super baromètre annuel."
+    ],
+    "variations": [
+      {
+        "question": "Qu'est-ce qui vous fait le plus peur cette année ?",
+        "options": ["Les notes", "Les exposés à l'oral", "Me faire des amis", "Rien, je suis serein(e)"]
+      },
+      {
+        "question": "Comment avez-vous passé votre été ?",
+        "options": ["Voyage à l'étranger", "Vacances en France", "Bossé pour économiser", "Glandé à la maison"]
+      },
+      {
+        "question": "Quel jour de la semaine serait votre jour off idéal ?",
+        "options": ["Lundi (week-end prolongé)", "Mercredi (couper la semaine)", "Vendredi (long week-end)", "Aucun, j'aime venir"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Les élèves doivent-ils créer un compte ?",
+        "a": "Non. moomz est 100 % anonyme par défaut : ils cliquent sur le lien, votent, c'est tout. Aucune inscription, aucune donnée personnelle collectée."
+      },
+      {
+        "q": "Comment partager le sondage à toute la classe rapidement ?",
+        "a": "Générez un QR code à partir du lien moomz (n'importe quel générateur gratuit fait l'affaire) et projetez-le au tableau. Les élèves scannent avec leur téléphone et votent en 5 secondes."
+      },
+      {
+        "q": "Est-ce que je peux voir qui a voté quoi ?",
+        "a": "Non, et c'est volontaire. L'anonymat garantit des réponses honnêtes. Si vous voulez savoir individuellement, faites un tour de table après — mais beaucoup d'élèves resteront muets, contrairement au sondage."
+      },
+      {
+        "q": "Combien de temps reste le sondage actif ?",
+        "a": "Tant que vous gardez le lien actif. Vous pouvez le rouvrir le lendemain pour les absents, ou en début de cours suivant pour comparer."
+      }
+    ],
+    "related": [
+      "sondage-eleve-matiere-preferee",
+      "sondage-classe-pause-recreation-jeu",
+      "sondage-icebreaker-this-or-that-classe"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-classe-sortie-scolaire",
+    "locale": "fr",
+    "emoji": "🚌",
+    "title": "Sondage sortie scolaire : laissez la classe choisir",
+    "h1": "Sondage pour choisir la prochaine sortie scolaire",
+    "description": "Modèle de sondage anonyme pour décider en classe de la destination de la sortie scolaire. Lancez le vote en 10 secondes, partagez le lien, le résultat tombe en direct.",
+    "intro": "Choisir une sortie scolaire à main levée, c'est garantir que la moitié de la classe vote comme son meilleur ami. Un sondage anonyme révèle ce que les élèves veulent vraiment, pas ce qu'ils osent dire. Vous gagnez du temps en réunion pédagogique et vous arrivez à la direction avec un mandat clair.",
+    "category": "classroom",
+    "audience": "Profs principaux, organisateurs de voyage scolaire, CPE",
+    "question": "Quelle sortie scolaire vous tente le plus ?",
+    "options": [
+      "Musée + expo en ville",
+      "Journée nature (rando, parc régional)",
+      "Parc d'attractions",
+      "Visite d'entreprise / chantier",
+      "Cinéma + restau"
+    ],
+    "whyItWorks": "Un vote anonyme évite l'effet de meute : l'élève qui adore les musées ne sera plus moqué pour son choix. Le résultat chiffré donne une légitimité face aux parents et à la direction (« 68 % de la classe a voté pour ça »). Le format rapide encourage les indécis à se positionner, contrairement aux longues réunions de classe. Et vous évitez la fameuse remarque post-sortie « personne ne voulait y aller ».",
+    "tips": [
+      "Faites le sondage en classe entière, pas en groupes : sinon les chefs influencent les indécis.",
+      "Précisez le budget approximatif dans la question si certaines options coûtent plus cher.",
+      "Si vous avez deux options gagnantes très proches, relancez un second sondage entre les deux.",
+      "Partagez le résultat aux parents : ça désamorce les futures réclamations.",
+      "Gardez une option 'Aucune ne me motive' si vous voulez vraiment lire le groupe."
+    ],
+    "variations": [
+      {
+        "question": "On a 1 journée et 25 €/élève — quelle sortie ?",
+        "options": ["Musée d'art moderne", "Parc accrobranche", "Journée plage", "Atelier cuisine"]
+      },
+      {
+        "question": "Voyage de fin d'année : où on va ?",
+        "options": ["Capitale européenne (3 jours)", "Mer / Sud de la France", "Montagne / ski", "Resto + cinéma près du lycée"]
+      },
+      {
+        "question": "Quel format préférez-vous pour la sortie ?",
+        "options": ["Une grosse journée", "Plusieurs petites sorties dans l'année", "Une semaine de voyage", "Pas de sortie, garder le budget"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Comment éviter que les élèves votent plusieurs fois ?",
+        "a": "moomz limite à un vote par appareil via cookie. Pour une classe de 30, c'est largement suffisant — les triches isolées ne décalent pas le résultat global."
+      },
+      {
+        "q": "Faut-il inclure les parents dans le vote ?",
+        "a": "Plutôt non au premier tour : laissez les élèves choisir d'abord, puis présentez le résultat aux parents pour validation budgétaire. Mélanger les deux dilue le signal."
+      },
+      {
+        "q": "Combien d'options proposer ?",
+        "a": "Entre 3 et 5. En dessous, le choix est forcé. Au-dessus, les votes se dispersent et aucune option ne se détache vraiment."
+      },
+      {
+        "q": "Et si la sortie gagnante n'est pas réalisable ?",
+        "a": "Mettez les contraintes dans la question (budget, transport, autorisations) avant de lancer le vote. Sinon vous frustrez la classe en annulant leur choix."
+      }
+    ],
+    "related": [
+      "sondage-classe-projet-groupe-theme",
+      "sondage-classe-icebreaker-rentree",
+      "sondage-equipe-reunion-jour-horaire"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-classe-projet-groupe-theme",
+    "locale": "fr",
+    "emoji": "📚",
+    "title": "Sondage thème projet de groupe : modèle classe",
+    "h1": "Sondage pour choisir un thème de projet de groupe",
+    "description": "Modèle de sondage anonyme pour faire voter la classe sur le thème du prochain projet de groupe. Anonyme, instantané, résultats projetables en direct.",
+    "intro": "Un projet de groupe mal choisi, c'est trois semaines de bâillements. Laisser les élèves voter sur le thème augmente leur implication dès le premier jour. Le format anonyme évite que les leaders d'opinion imposent leur sujet préféré au reste de la classe.",
+    "category": "classroom",
+    "audience": "Profs de collège, lycée, BTS, université",
+    "question": "Quel thème pour notre prochain projet de groupe ?",
+    "options": [
+      "Environnement et climat",
+      "Réseaux sociaux et désinformation",
+      "Histoire locale de notre ville",
+      "Sport et société",
+      "IA et futur du travail"
+    ],
+    "whyItWorks": "Quand les élèves choisissent eux-mêmes, l'engagement double : c'est leur projet, pas une corvée imposée. L'anonymat évite l'effet copinage où on vote comme son binôme. Le résultat sert de justification pédagogique solide en cas de remarque parent/inspection. Et le simple fait de cliquer ancre le sujet dans leur tête avant même que vous présentiez le cadrage.",
+    "tips": [
+      "Présentez chaque option en une phrase avant de lancer le vote : sinon ils votent au feeling du mot.",
+      "Annoncez le sondage 24 h à l'avance pour qu'ils y pensent un peu (vote plus réfléchi).",
+      "Limitez à 5 options max : au-delà, le vote se disperse et personne ne gagne nettement.",
+      "Partagez les % au tableau : la transparence rassure et coupe court aux contestations.",
+      "Si deux thèmes sont proches, formez deux sous-groupes plutôt qu'imposer le gagnant."
+    ],
+    "variations": [
+      {
+        "question": "Format du rendu final ?",
+        "options": ["Exposé oral classique", "Vidéo / podcast", "Affiche / poster", "Site web ou blog"]
+      },
+      {
+        "question": "Taille des groupes ?",
+        "options": ["Seul", "Binôme", "Groupe de 3-4", "Toute la classe sur un seul projet"]
+      },
+      {
+        "question": "Sujet de recherche pour le mémoire ?",
+        "options": ["Crise climatique", "Inégalités sociales", "Innovation tech", "Santé mentale", "Art et culture"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Et si les élèves veulent un thème que je n'avais pas listé ?",
+        "a": "Ajoutez une option 'Autre, je propose' et faites un second tour. Ou laissez-les écrire dans le chat de classe avant le sondage pour intégrer leurs idées."
+      },
+      {
+        "q": "Comment éviter qu'un thème politique divise la classe ?",
+        "a": "Cadrez les options à l'avance pour rester sur des sujets de société analysables, pas des opinions partisanes. 'Désinformation' oui, 'pour ou contre tel parti' non."
+      },
+      {
+        "q": "Puis-je partager les résultats aux parents ?",
+        "a": "Oui, copiez-collez les pourcentages dans le mail de présentation du projet. Ça montre que la démarche est démocratique et pédagogique."
+      },
+      {
+        "q": "Le sondage marche-t-il en BTS / fac ?",
+        "a": "Encore mieux : les étudiants adultes apprécient la transparence du vote et sautent les longues délibérations en TD."
+      }
+    ],
+    "related": [
+      "sondage-classe-sortie-scolaire",
+      "sondage-eleve-matiere-preferee",
+      "sondage-icebreaker-deux-verites-mensonge"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-classe-pause-recreation-jeu",
+    "locale": "fr",
+    "emoji": "🎲",
+    "title": "Sondage jeu de récré : laissez la classe choisir",
+    "h1": "Sondage pour choisir le jeu de la récréation",
+    "description": "Modèle de sondage anonyme pour décider en 30 secondes du jeu de la récré ou de la pause. Lien partageable, anonyme, résultats en direct.",
+    "intro": "Les négociations interminables pour choisir un jeu de récré, c'est du temps perdu sur la pause elle-même. Un sondage rapide tranche en moins d'une minute et tout le monde joue ensemble plutôt que de râler. Idéal en école primaire, en garderie, en centre de loisirs ou en colo.",
+    "category": "classroom",
+    "audience": "Profs d'école primaire, animateurs de centre de loisirs, animateurs de colo",
+    "question": "Quel jeu pour la prochaine récré ?",
+    "options": [
+      "Loup / chat perché",
+      "Foot",
+      "Cache-cache géant",
+      "Épervier",
+      "Jeu libre, on décide sur place"
+    ],
+    "whyItWorks": "Un vote rapide remplace les 10 minutes de chamaillerie où trois gosses imposent leur jeu aux autres. L'anonymat protège les enfants qui n'aiment pas le foot mais n'osent pas le dire devant les copains. Le format ludique (ils voient les barres bouger) leur fait adorer voter, et ils participeront plus volontiers au jeu choisi parce qu'ils ont eu leur mot à dire.",
+    "tips": [
+      "Faites voter avant la sonnerie, pas pendant la récré : sinon vous mangez leur temps libre.",
+      "Si vous tournez chaque jour, gardez l'historique et alternez les gagnants pour ne pas frustrer.",
+      "Pour les petits (CP-CE1), utilisez la tablette de classe : ils votent un par un en file.",
+      "Ajoutez une option 'jeu libre' pour respecter ceux qui ne veulent rien d'organisé.",
+      "Évitez les jeux à élimination si la récré dure moins de 15 minutes."
+    ],
+    "variations": [
+      {
+        "question": "Quel atelier pour le mercredi après-midi ?",
+        "options": ["Activité manuelle", "Sport collectif", "Jeu de société", "Sortie au parc"]
+      },
+      {
+        "question": "Quel jeu pour la journée pluie en colo ?",
+        "options": ["Loup-garou", "Time's Up", "Karaoké", "Tournoi de cartes"]
+      },
+      {
+        "question": "Veillée de ce soir, on fait quoi ?",
+        "options": ["Boum / soirée musicale", "Grand jeu en équipes", "Veillée calme avec film", "Histoires racontées"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "C'est utilisable avec des CP qui ne lisent pas encore bien ?",
+        "a": "Oui, lisez les options à voix haute et laissez-les pointer sur l'écran. Ou utilisez des emojis explicites dans les options (⚽ foot, 👻 cache-cache, etc.)."
+      },
+      {
+        "q": "Que faire si toujours le même jeu gagne ?",
+        "a": "Retirez l'option gagnante du sondage suivant ou imposez une rotation : 'aujourd'hui on choisit entre les 3 qui ont gagné le moins'."
+      },
+      {
+        "q": "Comment éviter que les enfants votent plusieurs fois ?",
+        "a": "Le cookie moomz bloque déjà les votes multiples sur un même appareil. Si vous utilisez une tablette unique, faites passer les enfants un par un et rechargez la page entre chaque."
+      },
+      {
+        "q": "Marche aussi pour un anniversaire ou une fête à la maison ?",
+        "a": "Parfaitement. Lancez le sondage 10 minutes avant l'arrivée des invités, ils votent en arrivant, et l'animation démarre toute seule."
+      }
+    ],
+    "related": [
+      "sondage-classe-icebreaker-rentree",
+      "sondage-icebreaker-this-or-that-classe",
+      "sondage-classe-sortie-scolaire"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-eleve-matiere-preferee",
+    "locale": "fr",
+    "emoji": "📊",
+    "title": "Sondage matière préférée : modèle classe avec QR code",
+    "h1": "Sondage pour identifier la matière préférée de la classe",
+    "description": "Modèle de sondage anonyme pour découvrir la matière préférée des élèves. Partagez le lien ou affichez un QR code au tableau, résultats en direct.",
+    "intro": "Demander la matière préférée à main levée, c'est récolter des réponses de complaisance. Anonymement, vous obtenez la vraie cartographie de l'envie scolaire de votre classe. Très utile en début d'année pour calibrer votre approche, ou en conseil de classe pour appuyer un constat.",
+    "category": "classroom",
+    "audience": "Profs principaux, profs de toutes matières, CPE en conseil de classe",
+    "question": "Quelle est votre matière préférée cette année ?",
+    "options": [
+      "Maths / sciences",
+      "Français / langues",
+      "Histoire-géo / SES",
+      "Arts / musique",
+      "EPS"
+    ],
+    "whyItWorks": "L'anonymat retire la pression d'avoir l'air 'cool' ou 'bon élève'. Le résultat révèle souvent des surprises (la matière qu'on croyait mal-aimée a 30 %). Affichez un QR code projeté au tableau et 100 % de la classe vote en moins d'une minute. Et le format est suffisamment court pour passer en début ou fin de séance sans grignoter le cours.",
+    "tips": [
+      "Affichez le QR code en haute résolution au tableau : pas besoin de dicter d'URL.",
+      "Lancez le sondage en début d'année puis refaites-le en mai : la comparaison est très parlante.",
+      "Évitez de commenter à chaud (« ah bon, vraiment maths ? ») : ça casse l'honnêteté pour le prochain sondage.",
+      "Si vous êtes prof d'une matière mal classée, ne le prenez pas perso : utilisez le résultat pour ajuster.",
+      "Partagez le résultat anonymisé en conseil de classe : ça donne du poids à votre analyse pédagogique."
+    ],
+    "variations": [
+      {
+        "question": "Quelle matière vous semble la plus utile pour plus tard ?",
+        "options": ["Maths", "Langues vivantes", "Histoire-géo", "SVT / physique", "Aucune, je vais réviser pour l'oubli"]
+      },
+      {
+        "question": "Quel type de cours préférez-vous ?",
+        "options": ["Cours magistral classique", "Travaux pratiques / labo", "Travail en groupe", "Exposés et débats"]
+      },
+      {
+        "question": "Si vous pouviez ajouter une matière au programme, ce serait...",
+        "options": ["Code / informatique", "Cuisine / vie pratique", "Philo dès la 4e", "Éducation financière", "Méditation / bien-être"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Comment générer le QR code du sondage ?",
+        "a": "Copiez le lien moomz, collez-le dans n'importe quel générateur de QR code gratuit (qr-code-generator.com par exemple), enregistrez l'image, projetez-la. Une fois pour toutes."
+      },
+      {
+        "q": "Puis-je utiliser ce sondage pour évaluer mon enseignement ?",
+        "a": "Indirectement oui. Une matière mal-aimée n'est pas forcément la faute du prof, mais une chute brutale entre septembre et avril mérite une réflexion sur la pédagogie utilisée."
+      },
+      {
+        "q": "Et si certains élèves cochent au hasard ?",
+        "a": "Sur 30 votes, le bruit du hasard s'annule. Tant que vous avez une majorité d'élèves engagés, le signal global reste fiable."
+      },
+      {
+        "q": "Le sondage est-il vraiment anonyme côté technique ?",
+        "a": "Oui. moomz ne collecte aucun nom, email ou identifiant d'élève. Un simple cookie technique empêche les doubles votes, c'est tout."
+      }
+    ],
+    "related": [
+      "sondage-classe-icebreaker-rentree",
+      "sondage-classe-projet-groupe-theme",
+      "sondage-icebreaker-this-or-that-classe"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-icebreaker-rdv-team-building",
+    "locale": "fr",
+    "emoji": "🤝",
+    "title": "Sondage icebreaker team-building : modèle prêt-à-l'emploi",
+    "h1": "Sondage icebreaker pour démarrer un team-building",
+    "description": "Modèle de sondage anonyme pour briser la glace au début d'un team-building. Lancez le vote en 10 secondes, partagez le lien, résultats projetables en direct.",
+    "intro": "Les 15 premières minutes d'un team-building décident de l'énergie des heures suivantes. Un sondage anonyme évite les silences gênants et donne immédiatement à tout le monde quelque chose dont parler. Idéal en kickoff, en séminaire, ou en début d'atelier d'équipe.",
+    "category": "icebreaker",
+    "audience": "RH, managers, facilitateurs, organisateurs de séminaire",
+    "question": "Quelle est votre vibe team-building idéale ?",
+    "options": [
+      "Escape game / défi cérébral",
+      "Sport / activité physique",
+      "Atelier créatif (cuisine, peinture)",
+      "Apéro chill et conversations",
+      "Sortie nature (rando, accrobranche)"
+    ],
+    "whyItWorks": "Voter anonymement révèle les vraies préférences de l'équipe, pas ce que chacun croit qu'on attend de lui. Le résultat projeté lance instantanément la conversation (« Ah, on est combien à vouloir un apéro plutôt qu'un escape game ? »). Le format de 30 secondes respecte le temps de tout le monde et démarre fort sans la lourdeur d'un tour de table de 12 personnes.",
+    "tips": [
+      "Lancez le sondage AVANT les présentations individuelles : ça désamorce les profils introvertis.",
+      "Projetez les résultats à l'écran et laissez 2 minutes de réaction libre : c'est là que la magie opère.",
+      "Évitez les options trop nichées (« padel ») au profit de catégories larges (« sport »).",
+      "Refaites le même sondage en fin de séminaire avec « qu'avez-vous préféré aujourd'hui » : très puissant pour la rétro.",
+      "Ne commentez pas négativement les options minoritaires : l'introverti qui a voté 'apéro chill' ne reviendra plus."
+    ],
+    "variations": [
+      {
+        "question": "Quel est votre meilleur souvenir pro de l'année ?",
+        "options": ["Un projet livré qui a marché", "Une victoire d'équipe", "Une rencontre humaine forte", "Un challenge perso surmonté"]
+      },
+      {
+        "question": "Si vous n'aviez pas votre job actuel, vous feriez quoi ?",
+        "options": ["Création artistique", "Voyage / nomade digital", "Entrepreneuriat", "Métier manuel", "Carrément autre chose, je vous dirai"]
+      },
+      {
+        "question": "Votre super-pouvoir au travail c'est ?",
+        "options": ["Organiser le chaos", "Faire rire l'équipe", "Trouver les bugs / problèmes", "Convaincre n'importe qui", "Tout finir en deadline"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Faut-il que les participants installent une app ?",
+        "a": "Non. Ils cliquent sur un lien, votent, c'est fini. Aucune installation, aucune création de compte. C'est ce qui rend l'adoption immédiate, même chez les profils peu tech."
+      },
+      {
+        "q": "Combien de participants max ?",
+        "a": "moomz tient sans souci 200+ votes en simultané. Pour un séminaire de 20 à 150 personnes, aucun problème de performance."
+      },
+      {
+        "q": "Et si l'équipe est distribuée / 100 % remote ?",
+        "a": "Encore mieux : partagez le lien dans Slack/Teams au lancement du visio, et tout le monde voit les résultats à l'écran partagé. L'effet 'on est ensemble' fonctionne aussi à distance."
+      },
+      {
+        "q": "Puis-je sauvegarder les résultats pour mon rapport RH ?",
+        "a": "Faites une capture d'écran des barres finales : pas de personnes identifiables dedans, donc RGPD-friendly et présentable en compte-rendu."
+      }
+    ],
+    "related": [
+      "sondage-icebreaker-this-or-that-classe",
+      "sondage-icebreaker-deux-verites-mensonge",
+      "sondage-team-after-work-lieu"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-icebreaker-this-or-that-classe",
+    "locale": "fr",
+    "emoji": "⚡",
+    "title": "Sondage this or that en classe : icebreaker rapide",
+    "h1": "Sondage 'this or that' pour briser la glace en classe",
+    "description": "Modèle de sondage anonyme façon 'this or that' (deux choix opposés) pour briser la glace en classe ou en réunion. Lien partageable, résultats en direct.",
+    "intro": "Le format 'this or that' (sucré ou salé, été ou hiver…) est l'icebreaker le plus addictif qui existe : une question, deux options, on clique sans réfléchir. En enchaînant 5 à 7 questions, vous créez en 10 minutes une carte d'identité collective de votre groupe que tout le monde commente avec le sourire.",
+    "category": "icebreaker",
+    "audience": "Profs, formateurs, facilitateurs d'atelier, animateurs de groupe",
+    "question": "This or that : sucré ou salé pour le petit-déj ?",
+    "options": [
+      "Team sucré (Nutella, céréales, viennoiseries)",
+      "Team salé (œufs, jambon, fromage)"
+    ],
+    "whyItWorks": "Le choix binaire force à se positionner, donc 100 % du groupe vote en moins de 10 secondes. Les opposés crus créent un débat naturel : chaque camp défend son choix avec humour. C'est inoffensif (rien d'intime), donc même les plus timides cliquent sans stress. Et le format est addictif : après la première question, le groupe en redemande, ce qui chauffe l'ambiance pour la suite de votre session.",
+    "tips": [
+      "Préparez 5-7 questions à l'avance et enchaînez sans pause : le rythme fait l'énergie.",
+      "Alternez questions consensuelles et clivantes : 'thé ou café' (50/50) puis 'pizza ananas oui ou non' (drama garanti).",
+      "Évitez les sujets sensibles (politique, religion) — le but c'est de chauffer, pas de cliver.",
+      "Demandez au camp minoritaire de défendre son choix en 30 secondes : super pour les introvertis qui ont enfin une raison de parler.",
+      "Gardez la dernière question pour la 'plus folle' : ça finit sur un rire."
+    ],
+    "variations": [
+      {
+        "question": "Été ou hiver ?",
+        "options": ["Été (chaleur, mer, soleil)", "Hiver (neige, plaid, cocooning)"]
+      },
+      {
+        "question": "Pizza ananas : oui ou non ?",
+        "options": ["Oui, c'est délicieux", "Non, c'est un crime"]
+      },
+      {
+        "question": "Chien ou chat ?",
+        "options": ["Team chien (loyal, joueur)", "Team chat (indépendant, mystérieux)"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de questions enchaîner sans lasser ?",
+        "a": "5 à 7 questions, pas plus. Au-delà, l'énergie retombe. Vous pouvez en garder en réserve pour relancer en fin de journée."
+      },
+      {
+        "q": "Faut-il varier les votes ou rester sur du binaire ?",
+        "a": "Pour l'icebreaker, restez sur 2 options. Le binaire force la décision, le ternaire dilue. Vous passez à des sondages plus nuancés ensuite, quand le groupe est chaud."
+      },
+      {
+        "q": "Ça marche avec des ados au lycée ?",
+        "a": "Très bien. Choisissez des dilemmes pop-culture (TikTok ou Instagram, Spotify ou Apple Music) plutôt que générationnels. Ils adorent débattre 5 minutes après chaque vote."
+      },
+      {
+        "q": "Et en visio / classe virtuelle ?",
+        "a": "C'est l'usage idéal. Vous partagez votre écran avec les résultats en direct, et les chats explosent de réactions à chaque barre qui bouge."
+      }
+    ],
+    "related": [
+      "sondage-icebreaker-rdv-team-building",
+      "sondage-icebreaker-deux-verites-mensonge",
+      "sondage-classe-icebreaker-rentree"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-icebreaker-deux-verites-mensonge",
+    "locale": "fr",
+    "emoji": "🕵️",
+    "title": "Sondage deux vérités un mensonge : icebreaker culte",
+    "h1": "Sondage 'deux vérités, un mensonge' version anonyme",
+    "description": "Modèle de sondage pour jouer aux 'deux vérités, un mensonge' en groupe avec un vote anonyme à la fin. Lien partageable, résultats en direct.",
+    "intro": "Le jeu des 'deux vérités, un mensonge' est un classique des icebreakers, mais il bute toujours sur la même limite : à main levée, les gens votent pour suivre les autres. Avec un sondage anonyme, chacun décide vraiment ce qu'il pense, et le grand reveal devient beaucoup plus drôle (et révélateur).",
+    "category": "icebreaker",
+    "audience": "Animateurs de team-building, profs, organisateurs de soirée, facilitateurs",
+    "question": "Marie a dit 3 affirmations sur elle — laquelle est le mensonge ?",
+    "options": [
+      "Elle a vécu 2 ans au Japon",
+      "Elle a un brevet de parachutisme",
+      "Elle a déjà rencontré Beyoncé"
+    ],
+    "whyItWorks": "Le vote anonyme empêche l'effet 'je vote comme mon voisin' qui ruine le jeu en présentiel. Chacun réfléchit vraiment et engage son intuition. Le résultat projeté crée un moment de suspense formidable quand la personne révèle la bonne réponse. Et c'est un format qui révèle des facettes des gens (un brevet de parachutisme ?!) tout en restant léger.",
+    "tips": [
+      "Demandez à la personne de préparer ses 3 affirmations à l'avance — sinon le 'mensonge' est trop évident.",
+      "Le mensonge le plus efficace est celui le plus proche de la vérité (« j'ai vécu 2 ans à Tokyo » alors que c'était 6 mois).",
+      "Faites tourner 1 personne par sondage, pas 5 d'un coup : sinon le rythme s'effondre.",
+      "Réservez ce jeu pour la phase 2 du team-building, quand les gens commencent à se connaître. Trop tôt, c'est intimidant.",
+      "Mettez les affirmations dans la question, pas en options : les options sont juste 'A', 'B', 'C' pour pouvoir lire les phrases longues."
+    ],
+    "variations": [
+      {
+        "question": "Tom a dit 3 trucs sur son CV — lequel est faux ?",
+        "options": ["Il a bossé chez Apple 6 mois", "Il a un doctorat en physique", "Il a fondé 2 startups"]
+      },
+      {
+        "question": "3 anecdotes sur Léa — laquelle est inventée ?",
+        "options": ["Elle parle 4 langues", "Elle a couru un marathon", "Elle a déjà été figurante dans un film"]
+      },
+      {
+        "question": "Sur Pierre, lequel est le bobard ?",
+        "options": ["Il a un permis bateau", "Il a fait du théâtre amateur 5 ans", "Il a déjà mangé du serpent"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Combien de personnes peuvent passer dans une session ?",
+        "a": "3 à 5 personnes en 20 minutes, c'est le bon rythme. Au-delà, l'audience décroche. Pour un grand groupe, faites des sous-groupes de 6-8."
+      },
+      {
+        "q": "Et si quelqu'un n'a pas envie de partager des trucs perso ?",
+        "a": "Acceptez les affirmations 'soft' (passe-temps, voyages, films vus). L'enjeu c'est le mystère, pas l'intimité. Personne ne doit se sentir forcé."
+      },
+      {
+        "q": "Comment éviter que les collègues proches devinent tout de suite ?",
+        "a": "Demandez à la personne de garder un mensonge plausible que même ses proches n'ont pas remarqué. Souvent c'est un détail (« j'ai un chat » alors qu'elle a un chien)."
+      },
+      {
+        "q": "Marche en visio ?",
+        "a": "Parfaitement. La personne lit ses 3 affirmations au micro, vous partagez l'écran avec le sondage, et tout le monde vote en parallèle. Le reveal en direct est génial."
+      }
+    ],
+    "related": [
+      "sondage-icebreaker-rdv-team-building",
+      "sondage-icebreaker-this-or-that-classe",
+      "sondage-team-after-work-lieu"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-bureau-restaurant-midi",
+    "locale": "fr",
+    "emoji": "🍽️",
+    "title": "Sondage restau du midi au bureau : décidez en 30 secondes",
+    "h1": "Sondage pour choisir le restau du midi au bureau",
+    "description": "Modèle de sondage anonyme pour décider en équipe du restau du midi. Lancez le vote en 10 secondes, partagez le lien dans Slack, résultats en direct.",
+    "intro": "La discussion « on mange où ce midi ? » fait perdre 15 minutes chaque jour à toutes les équipes du monde. Un sondage rapide tranche en moins d'une minute et tout le monde gagne du temps. Plus de personne qui dit « je m'en fiche » en bloquant la décision sans s'engager.",
+    "category": "work",
+    "audience": "Managers d'équipe, office managers, assistants de direction, équipes qui déjeunent ensemble",
+    "question": "Resto du midi, on choisit quoi ?",
+    "options": [
+      "Sushi / japonais",
+      "Burger / brasserie",
+      "Salade / healthy",
+      "Italien (pâtes, pizza)",
+      "Cantine bureau"
+    ],
+    "whyItWorks": "Le sondage force tout le monde à se positionner, y compris ceux qui disent toujours « je m'en fiche » pour ensuite faire la grimace. L'anonymat évite le mimétisme social (« si Marc choisit le burger je dis burger aussi »). Le résultat tombe en 30 secondes, projetable dans le canal Slack. Et vous évitez la frustration récurrente des minoritaires qui mangent toujours ce que la majorité a imposé.",
+    "tips": [
+      "Lancez le sondage à 11h30 max : passé midi, les gens commencent à craquer et le vote retombe.",
+      "Limitez à 5 options proches géographiquement : sinon vous perdez 20 min à marcher.",
+      "Si toujours le même resto gagne, retirez-le 1 jour sur 2 pour vraiment varier.",
+      "Pour les bureaux distribués (resto livré), précisez le budget par personne dans la question.",
+      "Refaites un sondage de satisfaction le lendemain : très utile pour calibrer les futurs choix."
+    ],
+    "variations": [
+      {
+        "question": "Livraison au bureau, on commande quoi ?",
+        "options": ["Sushi Uber Eats", "Pokébowl", "Pizza grand format à partager", "Tacos / mexicain"]
+      },
+      {
+        "question": "Resto du vendredi midi (on prend le temps) ?",
+        "options": ["Brasserie classique", "Bistrot de chef", "Resto à thème (asiat, libanais...)", "On reste à la cantine"]
+      },
+      {
+        "question": "Déjeuner client important, on l'emmène où ?",
+        "options": ["Resto étoilé proche", "Bistrot tendance", "Resto japonais haut de gamme", "Brasserie business classique"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Comment partager le sondage dans Slack/Teams ?",
+        "a": "Copiez simplement le lien moomz et collez-le dans le canal. Slack et Teams génèrent une preview cliquable. Les collègues votent et reviennent dans le chat, c'est instantané."
+      },
+      {
+        "q": "Comment éviter qu'un votant indécis attende le résultat avant de voter ?",
+        "a": "Donnez une deadline claire (« sondage fermé à 11h45 »). Annoncez ensuite la décision : le retardataire vote dans le vide et apprend pour la prochaine fois."
+      },
+      {
+        "q": "Marche aussi pour le télétravail / équipes hybrides ?",
+        "a": "Oui : ceux au bureau votent pour le resto, ceux en remote pour la livraison de leur choix. Vous pouvez faire 2 sondages parallèles si besoin."
+      },
+      {
+        "q": "Faut-il inclure les patrons / la direction dans le vote ?",
+        "a": "Ça dépend de la culture. En équipe plate, oui — leur vote compte comme les autres. En culture hiérarchique, attention à l'effet d'imposition : si le boss vote sushi, beaucoup suivront."
+      }
+    ],
+    "related": [
+      "sondage-team-after-work-lieu",
+      "sondage-equipe-reunion-jour-horaire",
+      "sondage-team-cadeau-collegue-depart"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-equipe-reunion-jour-horaire",
+    "locale": "fr",
+    "emoji": "🗓️",
+    "title": "Sondage équipe : choisir jour et horaire de réunion",
+    "h1": "Sondage pour choisir le jour et l'horaire d'une réunion",
+    "description": "Modèle de sondage simple pour identifier les préférences de jour/horaire de réunion en équipe. Lancez le vote en 10 secondes, partagez le lien, résultats en direct.",
+    "intro": "Choisir un créneau de réunion à 10 par mail, c'est 3 jours de ping-pong. Un sondage rapide donne une lecture immédiate des préférences globales et accélère la décision. À noter : moomz n'est pas un planificateur de réunion type Doodle avec gestion fine de disponibilités — c'est un sondage indicatif pour départager rapidement entre options chrono prédéfinies.",
+    "category": "work",
+    "audience": "Managers, chefs de projet, office managers, organisateurs de comité",
+    "question": "Réunion équipe : quel créneau préférez-vous ?",
+    "options": [
+      "Lundi 10h",
+      "Mardi 14h",
+      "Mercredi 9h",
+      "Jeudi 16h",
+      "Vendredi 11h"
+    ],
+    "whyItWorks": "Le vote anonyme évite le réflexe « je dis comme le boss ». Le résultat tombe en 5 minutes au lieu de 3 jours de mails croisés. Vous voyez instantanément le créneau qui rassemble le plus de monde. Et c'est suffisant pour des réunions récurrentes ou des points d'équipe — pour des réunions à enjeux avec dispos individuelles complexes, gardez Doodle ou Calendly.",
+    "tips": [
+      "Maximum 5 créneaux : au-delà, le vote se disperse et personne ne se détache.",
+      "Précisez la durée prévue dans la question (« réu d'1 h ») — ça change le vote.",
+      "Évitez les créneaux 12h-14h sauf si c'est explicitement un lunch meeting.",
+      "Pour une réunion récurrente, refaites le sondage tous les 6 mois : les dispos changent.",
+      "Donnez une deadline de vote (« sondage fermé vendredi 17h ») sinon ça traîne."
+    ],
+    "variations": [
+      {
+        "question": "Daily stand-up : à quelle heure ?",
+        "options": ["9h pile", "9h30", "10h", "11h après le café"]
+      },
+      {
+        "question": "Format de la rétro de sprint ?",
+        "options": ["1h en visio", "1h30 en salle", "2h avec atelier", "30 min express"]
+      },
+      {
+        "question": "Quand on planifie le séminaire annuel ?",
+        "options": ["Janvier (rentrée)", "Mai (avant été)", "Septembre (rentrée pro)", "Décembre (bilan)"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Pourquoi pas Doodle directement ?",
+        "a": "Doodle excelle pour croiser des dispos individuelles précises (« je suis libre mardi 10-12h et jeudi 14-16h »). moomz est plus rapide pour un vote indicatif sur 3-5 créneaux prédéfinis. Utilisez moomz pour trancher vite, Doodle pour optimiser des dispos complexes."
+      },
+      {
+        "q": "Et si plusieurs créneaux ont le même score ?",
+        "a": "Faites un second tour entre les 2 gagnants, ou tranchez en manager. L'avantage du vote, c'est qu'au moins vous savez que vous êtes sur les bons créneaux."
+      },
+      {
+        "q": "Comment intégrer ça à mon calendrier Outlook/Google ?",
+        "a": "Une fois le créneau choisi, créez manuellement l'événement dans votre calendrier d'entreprise. moomz ne synchronise pas — c'est juste l'outil de décision."
+      },
+      {
+        "q": "Marche pour des équipes sur fuseaux horaires différents ?",
+        "a": "Précisez le fuseau dans les options (« Lundi 10h Paris / 4h NYC ») sinon vote ambigu. Pour des équipes mondiales très distribuées, World Time Buddy + Doodle restent plus adaptés."
+      }
+    ],
+    "related": [
+      "sondage-bureau-restaurant-midi",
+      "sondage-team-after-work-lieu",
+      "sondage-team-cadeau-collegue-depart"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-team-cadeau-collegue-depart",
+    "locale": "fr",
+    "emoji": "🎁",
+    "title": "Sondage cadeau de départ collègue : modèle équipe",
+    "h1": "Sondage pour choisir le cadeau de départ d'un collègue",
+    "description": "Modèle de sondage anonyme pour faire voter l'équipe sur le cadeau de départ d'un collègue. Lancez le vote en 10 secondes, partagez le lien, résultats en direct.",
+    "intro": "Choisir un cadeau de départ par mails et chats, ça finit toujours en chaos : 3 personnes proposent 4 idées chacune, personne ne tranche, et le pot de départ arrive avec un cadeau bâclé. Un sondage anonyme aligne l'équipe en une heure et garantit que le collègue qui part repart avec quelque chose qui plaît à la majorité.",
+    "category": "work",
+    "audience": "Managers, office managers, RH, équipes qui organisent un pot de départ",
+    "question": "Cadeau de départ pour Sarah, on part sur quoi ?",
+    "options": [
+      "Carte cadeau (Fnac, Amazon, etc.)",
+      "Cagnotte Leetchi à dépenser où elle veut",
+      "Objet personnalisé (mug, livre dédicacé)",
+      "Expérience (resto, spa, weekend)",
+      "Cadeau collectif fait main"
+    ],
+    "whyItWorks": "L'anonymat permet aux gens d'être honnêtes (« je préfère mettre 20 € dans une cagnotte plutôt que 50 € dans un objet bof »). Le résultat aligne l'équipe vite et évite les longues discussions WhatsApp. Vous savez immédiatement le format qui colle au budget collectif. Et le collègue qui part reçoit quelque chose voulu par la majorité, pas une initiative isolée d'une seule personne.",
+    "tips": [
+      "Lancez le sondage 2 semaines avant le départ : trop tard, les gens sont en mode bâclage.",
+      "Précisez le budget par personne dans la question (« contribution ~15 € chacun »).",
+      "Si l'équipe est très grande, faites 2 sondages en cascade : format d'abord, puis détail du cadeau.",
+      "Excluez le collègue qui part du sondage (envoyez le lien à un canal sans lui) — sinon surprise foutue.",
+      "Une fois le format choisi, désignez 1 seule personne pour exécuter : à plusieurs ça se disperse."
+    ],
+    "variations": [
+      {
+        "question": "Pour le pot de Marc (départ retraite), on prévoit quoi ?",
+        "options": ["Album souvenirs équipe", "Voyage / weekend", "Cagnotte ouverte", "Cadeau hobby (golf, cuisine...)"]
+      },
+      {
+        "question": "Carte cadeau format ?",
+        "options": ["Fnac / Cultura", "Amazon", "Decathlon", "Resto / Michelin"]
+      },
+      {
+        "question": "Pour le pot de bébé de Léa, on offre ?",
+        "options": ["Vêtements bébé", "Cagnotte parents", "Cadeau pour elle (massage, beauté)", "Livre + objet collectif"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Comment éviter que la cagnotte soit déséquilibrée (certains donnent 5 €, d'autres 50) ?",
+        "a": "Annoncez un montant indicatif fixe (« 15 € par personne ») dans la question du sondage. Ça crée une norme implicite que les retardataires respectent."
+      },
+      {
+        "q": "Faut-il inclure les anciens collègues qui ont déjà quitté l'équipe ?",
+        "a": "Si ils étaient proches, oui — envoyez le lien personnellement. Ils contribueront souvent volontiers et apprécieront d'être inclus."
+      },
+      {
+        "q": "Que faire si l'équipe vote massivement 'cagnotte' mais que la direction veut un 'vrai cadeau' ?",
+        "a": "Respectez le vote — l'équipe sait mieux que la direction ce qui plaira à un collègue qu'elle côtoie tous les jours. La cagnotte est très souvent le choix préféré des départs."
+      },
+      {
+        "q": "Marche pour un pot de bienvenue plutôt que de départ ?",
+        "a": "Oui, mêmes options. Pour un arrivant, privilégiez quelque chose de pratique (équipement bureau, abonnement utile) plutôt que personnel — vous ne le connaissez pas encore."
+      }
+    ],
+    "related": [
+      "sondage-team-after-work-lieu",
+      "sondage-bureau-restaurant-midi",
+      "sondage-equipe-reunion-jour-horaire"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondage-team-after-work-lieu",
+    "locale": "fr",
+    "emoji": "🍻",
+    "title": "Sondage after-work : choisir le lieu en équipe",
+    "h1": "Sondage pour choisir le lieu de l'after-work",
+    "description": "Modèle de sondage anonyme pour décider en équipe du lieu de l'after-work. Lancez le vote en 10 secondes, partagez le lien, résultats en direct.",
+    "intro": "L'after-work qui n'a jamais lieu parce que personne ne se met d'accord sur le bar, c'est l'erreur classique. Un sondage rapide tranche en 5 minutes et tout le monde peut s'organiser. L'anonymat évite que les introvertis se sentent obligés de suivre les choix des plus extravertis.",
+    "category": "work",
+    "audience": "Managers, office managers, équipes qui organisent leurs after-works",
+    "question": "After-work jeudi soir, on va où ?",
+    "options": [
+      "Bar à cocktails / rooftop",
+      "Brasserie classique (bières, planches)",
+      "Bar à vin chill",
+      "Karaoké / activité",
+      "Resto + restau prolongé"
+    ],
+    "whyItWorks": "Voter anonymement permet à chacun d'être honnête sur ses préférences sans pression sociale. Le résultat révèle souvent que la 'norme' supposée (« on va toujours dans ce bar ») ne reflète pas ce que veut vraiment l'équipe. Le format de 30 secondes évite les longues discussions en chat. Et plus l'équipe se sent écoutée sur le choix du lieu, plus l'after-work attire de monde la fois suivante.",
+    "tips": [
+      "Lancez le sondage le mardi pour un after-work jeudi — assez tôt pour planifier, assez tard pour avoir les présents confirmés.",
+      "Ajoutez une option 'pas dispo cette semaine' pour mesurer le taux de présence avant de réserver.",
+      "Limitez à 5 options géographiquement proches : sinon vous perdez l'effet 'on y va à pied'.",
+      "Pour un after-work d'équipe distribuée, prévoyez 2 lieux (1 par ville) et faites 2 sondages.",
+      "Si la même personne organise toujours, faites tourner — le sondage allège la charge mentale."
+    ],
+    "variations": [
+      {
+        "question": "After-work pour fêter la livraison du projet, on fait quoi ?",
+        "options": ["Resto sympa toute l'équipe", "Bar à cocktails", "Bowling / activité", "Apéro au bureau"]
+      },
+      {
+        "question": "Pot d'arrivée du nouveau, où on l'emmène ?",
+        "options": ["Bar préféré de l'équipe", "Resto pour vraiment discuter", "Apéro bureau (low-key)", "On laisse choisir le nouveau"]
+      },
+      {
+        "question": "Soirée Noël équipe ?",
+        "options": ["Resto classique", "Resto + soirée dansante", "Activité team-building festive", "Apéro déguisé au bureau"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Comment gérer ceux qui ne boivent pas ?",
+        "a": "Évitez d'imposer un bar 100 % alcool. Brasserie ou resto sont des choix safes (boissons soft variées). Ou ajoutez une option 'lieu sans alcool dominant' dans le sondage."
+      },
+      {
+        "q": "Faut-il forcer la présence ou laisser optionnel ?",
+        "a": "Toujours optionnel pour un after-work — l'obligation tue l'ambiance. Le sondage révèle naturellement qui veut venir, et c'est mieux 6 motivés que 12 dont la moitié subit."
+      },
+      {
+        "q": "Comment éviter que le boss impose son bar préféré ?",
+        "a": "Anonymat du vote = sa préférence ne sera pas devinable. Si lui-même propose 'tous les votes anonymes', vous savez que c'est un manager qui sait s'effacer."
+      },
+      {
+        "q": "Marche pour une soirée de fin d'année beaucoup plus grosse ?",
+        "a": "Pour un événement à 50+ personnes avec budget conséquent, le sondage donne la direction mais ne remplace pas un brief événementiel. Utilisez moomz pour le format (resto vs activité vs soirée), puis affinez avec un prestataire."
+      }
+    ],
+    "related": [
+      "sondage-bureau-restaurant-midi",
+      "sondage-team-cadeau-collegue-depart",
+      "sondage-icebreaker-rdv-team-building"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

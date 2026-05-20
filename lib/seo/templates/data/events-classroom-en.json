@@ -1,0 +1,732 @@
+[
+  {
+    "slug": "wedding-color-theme-poll",
+    "locale": "en",
+    "emoji": "💍",
+    "title": "Wedding Color Theme Poll Template — Free & Anonymous",
+    "h1": "Pick your wedding color theme with a quick poll",
+    "description": "Let your bridal party and family vote on your wedding color theme in seconds. Free, anonymous, mobile-first poll with live results bars.",
+    "intro": "Choosing a wedding color palette can drag on for weeks. A 10-second poll shared in your group chat ends the debate fast. Drop the link, let everyone tap their favorite, and watch the live bars decide the vibe of your big day.",
+    "category": "wedding",
+    "audience": "Engaged couples planning their reception with input from family and bridesmaids",
+    "question": "Which color theme should we go for at the wedding?",
+    "options": [
+      "Soft pastels (blush, sage, cream)",
+      "Bold and modern (emerald, gold, black)",
+      "Classic romantic (ivory, blush, champagne)",
+      "Boho earthy (terracotta, mustard, dusty pink)"
+    ],
+    "whyItWorks": "Color themes are emotional choices — people have opinions but often hold back in group chats. An anonymous poll removes the pressure, surfaces honest favorites, and gives the couple real data instead of polite shrugs. Live bars also make it feel like a fun moment, not a chore.",
+    "tips": [
+      "Share the poll link in your bridal party group chat with a quick voice note",
+      "Post it as an Instagram story sticker pointing to the poll URL",
+      "Close voting 48 hours in to avoid endless second-guessing",
+      "Add a photo or mood board screenshot when you announce the winning palette",
+      "Use anonymous voting so guests give honest preferences, not polite ones"
+    ],
+    "variations": [
+      {
+        "question": "Backyard intimate wedding — which palette feels right?",
+        "options": ["Wildflower garden (lavender, sage, cream)", "Sunset warm (peach, terracotta, gold)", "Coastal blue (navy, white, sand)"]
+      },
+      {
+        "question": "Big ballroom wedding — which color story wins?",
+        "options": ["Black tie classic (black, white, gold)", "Jewel tones (emerald, sapphire, ruby)", "Romantic blush (blush, ivory, rose gold)"]
+      },
+      {
+        "question": "Destination wedding — pick the palette",
+        "options": ["Tropical bright (coral, turquoise, palm green)", "Tuscan warm (olive, ochre, cream)", "Greek isle (cobalt blue, white, lemon)"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many color options should I include in the poll?",
+        "a": "Three to four palettes is the sweet spot. More than five and voters get overwhelmed, fewer than three feels like a fake choice. Group similar shades into one named palette to keep it clean."
+      },
+      {
+        "q": "Should I let guests vote or just the bridal party?",
+        "a": "Bridal party only for the final color call — they're the ones wearing the colors. Save guest polls for things like song requests or dessert choices where opinions are welcome but not binding."
+      },
+      {
+        "q": "What if the poll result isn't what I wanted?",
+        "a": "The poll is data, not destiny. If your gut says otherwise, use the result as a starting point and tweak. Many couples find the runner-up palette becomes their accent colors."
+      },
+      {
+        "q": "Can the poll stay anonymous?",
+        "a": "Yes — moomz polls don't show who voted, just the counts. This is perfect for getting honest feedback without anyone worrying about hurting feelings."
+      }
+    ],
+    "related": ["wedding-first-dance-song", "wedding-cake-style-poll", "wedding-guest-dresscode-poll", "wedding-main-course-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "wedding-first-dance-song",
+    "locale": "en",
+    "emoji": "💃",
+    "title": "Wedding First Dance Song Poll — Let Everyone Vote",
+    "h1": "Choose your first dance song with a fun poll",
+    "description": "Can't decide on your first dance song? Run a quick anonymous poll with your partner, family or wedding party. Free, mobile-friendly, live results.",
+    "intro": "The first dance song is one of those decisions that feels huge in the moment. Instead of arguing for weeks, drop a shortlist into a moomz poll and let the people you love tap their favorite. You'll have your answer before the playlist even loads.",
+    "category": "wedding",
+    "audience": "Couples narrowing down their first dance song with input from close friends or family",
+    "question": "Which song should be our first dance?",
+    "options": [
+      "Perfect — Ed Sheeran",
+      "At Last — Etta James",
+      "Thinking Out Loud — Ed Sheeran",
+      "All of Me — John Legend",
+      "Can't Help Falling in Love — Elvis"
+    ],
+    "whyItWorks": "First dance songs trigger memories and emotions. People vote with their gut, and the most-loved song usually wins by a clear margin. Anonymous voting means your mom won't lobby for her favorite and your best friend won't troll you with a joke pick.",
+    "tips": [
+      "Pre-listen to each option as a couple so the shortlist already feels right",
+      "Include one wildcard song to spark conversation in the group chat",
+      "Cap the poll at 5 songs — more makes voters scroll instead of decide",
+      "Share with your wedding party first, then expand if you want broader input",
+      "Close the poll a week before the DJ briefing so you have time to rehearse"
+    ],
+    "variations": [
+      {
+        "question": "Modern wedding — pick the first dance song",
+        "options": ["Lover — Taylor Swift", "Yellow — Coldplay", "Perfect — Ed Sheeran", "Die With a Smile — Lady Gaga & Bruno Mars"]
+      },
+      {
+        "question": "Classic romantic — which timeless song?",
+        "options": ["At Last — Etta James", "Unforgettable — Nat King Cole", "The Way You Look Tonight — Frank Sinatra", "Can't Help Falling in Love — Elvis"]
+      },
+      {
+        "question": "Fun upbeat first dance — what's the vibe?",
+        "options": ["Marry You — Bruno Mars", "Signed Sealed Delivered — Stevie Wonder", "Lovely Day — Bill Withers", "I Wanna Dance With Somebody — Whitney Houston"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should the song be one we both love or one with personal meaning?",
+        "a": "Personal meaning beats popularity every time. If a song reminds you of your first date or road trip together, it'll feel more real than a top-charts pick. Use the poll to validate, not decide for you."
+      },
+      {
+        "q": "How long should the first dance song be?",
+        "a": "Three to four minutes feels right. Anything longer and guests get restless. Most DJs can edit a longer song down to a clean 3:30 — ask in advance."
+      },
+      {
+        "q": "Can I include a song nobody knows?",
+        "a": "Absolutely. The first dance is about the couple, not the crowd. Just be ready for it to lose the poll — that's fine. Pick it anyway if it's the one."
+      },
+      {
+        "q": "What if our families have strong song opinions?",
+        "a": "Run the poll in your couple chat first, lock the song, then announce. Polling family for the first dance is asking for drama you don't need."
+      }
+    ],
+    "related": ["wedding-color-theme-poll", "wedding-main-course-poll", "wedding-cake-style-poll", "wedding-guest-dresscode-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "wedding-main-course-poll",
+    "locale": "en",
+    "emoji": "🍽️",
+    "title": "Wedding Main Course Poll Template — Quick & Anonymous",
+    "h1": "Vote on the wedding main course in seconds",
+    "description": "Help your guests pick the main course at your wedding with a free anonymous poll. Mobile-friendly, live results, perfect for the planning group chat.",
+    "intro": "Caterers usually want a head count per dish a few weeks before the wedding. A quick poll saves you from individual texts and spreadsheets — just share the link, let everyone tap, and forward the results to your caterer.",
+    "category": "wedding",
+    "audience": "Couples finalizing their wedding menu with the caterer or planning team",
+    "question": "Which main course should we serve at the wedding?",
+    "options": [
+      "Beef tenderloin",
+      "Roast chicken with herbs",
+      "Pan-seared salmon",
+      "Vegetarian risotto",
+      "Surf and turf"
+    ],
+    "whyItWorks": "Food choices are deeply personal — diet, allergies, taste, even price perception. A poll surfaces the most-loved option without anyone feeling singled out. It also gives you ammo when explaining your menu choice to family members who wanted something else.",
+    "tips": [
+      "Always include at least one vegetarian option, even if you're not vegetarian",
+      "Mention dietary restrictions in your share message so guests answer honestly",
+      "Send the poll to guests as part of your RSVP, not separately",
+      "Close voting 30 days before the wedding to give the caterer time",
+      "Pair this poll with a dessert poll for a complete menu pick"
+    ],
+    "variations": [
+      {
+        "question": "Buffet-style wedding — which station gets top billing?",
+        "options": ["Pasta bar", "Carving station (beef + ham)", "Taco bar", "Mediterranean mezze"]
+      },
+      {
+        "question": "Plated dinner — pick the protein",
+        "options": ["Filet mignon", "Lamb chops", "Sea bass", "Stuffed portobello"]
+      },
+      {
+        "question": "Casual outdoor wedding — what's the main?",
+        "options": ["BBQ brisket", "Wood-fired pizza", "Burger bar", "Grilled chicken skewers"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should I poll guests or just decide with my partner?",
+        "a": "Decide with your partner and caterer. Polling guests on the main course usually backfires — too many opinions. Use polls for fun choices like late-night snacks or signature cocktails."
+      },
+      {
+        "q": "What if my caterer charges different prices per dish?",
+        "a": "Share the price range in your share message so voters know. Otherwise expect the most expensive option to win and your budget to cry."
+      },
+      {
+        "q": "How do I handle dietary restrictions?",
+        "a": "Always offer a clear vegetarian and gluten-free option. Most caterers will make individual swaps for allergies — collect those on your RSVP form, not in this poll."
+      },
+      {
+        "q": "Can guests vote for multiple options if my reception is a buffet?",
+        "a": "moomz polls are single-choice by design, which forces a real preference. For buffets, run separate polls per station (mains / sides / desserts) to get cleaner data."
+      }
+    ],
+    "related": ["wedding-color-theme-poll", "wedding-first-dance-song", "wedding-cake-style-poll", "wedding-guest-dresscode-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "wedding-cake-style-poll",
+    "locale": "en",
+    "emoji": "🎂",
+    "title": "Wedding Cake Style Poll — Free Vote Template",
+    "h1": "Pick the wedding cake style with a fast poll",
+    "description": "Tiered classic or rustic naked cake? Run a quick anonymous poll to choose your wedding cake style. Free, mobile-first, live results in real time.",
+    "intro": "Wedding cake choices have exploded — naked cakes, drip cakes, croquembouche, donut towers. Pinterest is a rabbit hole. A 10-second poll shared with your taste-testers cuts through the noise and tells you what people actually want to eat.",
+    "category": "wedding",
+    "audience": "Couples meeting with bakers and deciding on the wedding cake style",
+    "question": "Which cake style fits our wedding best?",
+    "options": [
+      "Classic tiered with fondant",
+      "Naked / semi-naked rustic",
+      "Drip cake with chocolate",
+      "Cupcake or dessert tower",
+      "Modern minimalist single tier"
+    ],
+    "whyItWorks": "Cakes are visual and emotional — half the decision is the photo, half is the taste. People have strong opinions but rarely volunteer them. A poll surfaces real preferences in seconds and gives your baker concrete direction at your tasting.",
+    "tips": [
+      "Attach a Pinterest board link in your share message so voters see each style",
+      "Don't poll for flavor — too personal, do that as a couple at the tasting",
+      "Include the cake topper style as a follow-up poll",
+      "Close voting at least 6 weeks out so the baker has time",
+      "Use the poll result as your starting point with the baker, not the final design"
+    ],
+    "variations": [
+      {
+        "question": "Small intimate wedding cake — which style?",
+        "options": ["Single-tier minimalist", "Bundt cake with flowers", "Tall narrow naked cake", "Crepe cake stack"]
+      },
+      {
+        "question": "Big wedding cake — pick the showstopper",
+        "options": ["5-tier white classic", "Drip cake with gold leaf", "Sugar flower garden cake", "Croquembouche tower"]
+      },
+      {
+        "question": "Alternative to cake — what's the centerpiece?",
+        "options": ["Donut wall", "Macaron tower", "Pie buffet", "Cheese wheel cake"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should I do a cake at all?",
+        "a": "Cake is tradition but not mandatory. Many couples skip it for a dessert bar or pie buffet. Run a poll between cake / dessert bar / both — your guests will tell you what they actually want."
+      },
+      {
+        "q": "How many tiers do I need?",
+        "a": "Roughly one tier per 50 guests for a slice each. Less if you also serve a separate dessert. The baker will guide you once you have your final headcount."
+      },
+      {
+        "q": "What's the difference between naked and semi-naked cakes?",
+        "a": "Naked cakes have no exterior frosting (you see the layers). Semi-naked have a thin scraped layer. Both are rustic; semi-naked is slightly more polished and travels better in heat."
+      },
+      {
+        "q": "Should the cake match the wedding color theme?",
+        "a": "It should complement, not match perfectly. White or cream cakes with color accents (flowers, drips, ribbons) work in any palette. Run the cake poll AFTER the color theme poll for best results."
+      }
+    ],
+    "related": ["wedding-color-theme-poll", "wedding-first-dance-song", "wedding-main-course-poll", "wedding-guest-dresscode-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "wedding-guest-dresscode-poll",
+    "locale": "en",
+    "emoji": "👗",
+    "title": "Wedding Guest Dresscode Poll Template — Free Tool",
+    "h1": "Set the wedding dresscode with a quick poll",
+    "description": "Black tie or smart casual? Run a fast anonymous poll with your wedding party to lock in the guest dresscode. Free, mobile-first, live results.",
+    "intro": "Guests panic about dresscodes. Setting one early saves dozens of WhatsApp messages from confused cousins. Run a quick poll with your wedding party to pick the vibe, then communicate it clearly on your invitations.",
+    "category": "wedding",
+    "audience": "Couples deciding the formality level for their wedding guests",
+    "question": "Which dresscode should we set for our guests?",
+    "options": [
+      "Black tie",
+      "Cocktail / semi-formal",
+      "Smart casual",
+      "Garden party",
+      "All white"
+    ],
+    "whyItWorks": "Dresscode choices reflect the entire vibe of your wedding — venue, season, time of day. Polling your wedding party gives you a sense of what feels right and what your closest friends will actually be comfortable wearing for 8 hours.",
+    "tips": [
+      "Match the dresscode to the venue — ballroom = formal, beach = breezy",
+      "Communicate the dresscode on save-the-dates, not just invitations",
+      "Add a Pinterest example link so guests aren't guessing",
+      "Avoid all-black or all-white unless you really want it (some guests find it restrictive)",
+      "Include a 'beach / garden / barn' descriptor on the card to help guests pick footwear"
+    ],
+    "variations": [
+      {
+        "question": "Beach wedding dresscode — pick the vibe",
+        "options": ["Resort chic (linen, pastels)", "Beach casual (sundresses, button-downs)", "Tropical (bright colors, prints)", "Barefoot beachy"]
+      },
+      {
+        "question": "Winter wedding dresscode — what works?",
+        "options": ["Black tie with wraps", "Velvet and jewel tones", "Smart casual with layers", "Holiday glam (sparkle encouraged)"]
+      },
+      {
+        "question": "Theme wedding dresscode — pick the era",
+        "options": ["1920s Gatsby", "Old Hollywood glam", "Bohemian 70s", "Modern minimalist"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is it okay to require a strict dresscode?",
+        "a": "Yes — guests appreciate clarity. Black tie or all-white events make people commit. Just give 6+ weeks notice and avoid surprises on the invitation."
+      },
+      {
+        "q": "What if guests don't follow the dresscode?",
+        "a": "Most will try. A few won't. That's fine — your wedding photos won't be ruined by one cousin in jeans. Don't enforce; just communicate clearly upfront."
+      },
+      {
+        "q": "Should the wedding party match or contrast the dresscode?",
+        "a": "The wedding party (bridesmaids/groomsmen) wears their own outfits, set separately. Guest dresscode is for everyone else. The two don't need to match."
+      },
+      {
+        "q": "Can I have different dresscodes for ceremony and reception?",
+        "a": "Possible but rare — usually creates confusion. Pick one vibe for the whole day. If reception is dancier, just tell guests to wear comfortable shoes."
+      }
+    ],
+    "related": ["wedding-color-theme-poll", "wedding-cake-style-poll", "wedding-first-dance-song", "wedding-main-course-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bachelorette-destination-poll",
+    "locale": "en",
+    "emoji": "✈️",
+    "title": "Bachelorette Destination Poll — Free Group Vote",
+    "h1": "Pick the bachelorette destination with a fast poll",
+    "description": "Beach, city break or spa weekend? Let the bridal party vote anonymously on the bachelorette destination. Free poll, mobile-first, live results.",
+    "intro": "Trying to pick a bachelorette destination over group chat is chaos. Budgets clash, dates conflict, opinions multiply. A 10-second anonymous poll gives the maid of honor real data fast — share the link, let everyone tap, lock it in.",
+    "category": "bachelorette",
+    "audience": "Maid of honor coordinating destination with the bride's friend group",
+    "question": "Where should we go for the bachelorette weekend?",
+    "options": [
+      "Beach getaway (Tulum, Algarve, Mykonos)",
+      "City break (Lisbon, Nashville, Barcelona)",
+      "Spa & wellness retreat",
+      "Mountain cabin / nature",
+      "Theme park / fun resort"
+    ],
+    "whyItWorks": "Destination polls work because nobody wants to be the friend that says 'I can't afford that' out loud. Anonymous voting means honest input — the budget-conscious option suddenly gets more votes than the chat suggested. The MOH gets a real picture of what the group will actually commit to.",
+    "tips": [
+      "Share rough budget per option in the poll share message — flights + hotel",
+      "Lock dates BEFORE the destination poll so people vote on what they can attend",
+      "Cap voting at 5 days max to keep momentum",
+      "Send a follow-up poll with the top 2 destinations and specific dates",
+      "Use the result as a strong recommendation, but always sanity-check with the bride"
+    ],
+    "variations": [
+      {
+        "question": "Budget bachelorette weekend — pick the destination",
+        "options": ["Local Airbnb getaway", "Road trip to nearby city", "Camping or cabin trip", "Day spa + dinner in town"]
+      },
+      {
+        "question": "Splurge bachelorette — pick the dream destination",
+        "options": ["Tulum villa with private chef", "Ibiza beach club weekend", "Vegas pool party suite", "Santorini cliffside hotel"]
+      },
+      {
+        "question": "Weekend vs week-long bachelorette",
+        "options": ["Friday-Sunday close getaway", "Long weekend (Thu-Mon) flight", "Full week destination (international)"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should I poll all the bridesmaids or just close friends?",
+        "a": "Everyone who's invited and might come. People feel excluded if they didn't get a say. Share the poll widely, but make clear the bride has the final call."
+      },
+      {
+        "q": "What if the destination is too expensive for some?",
+        "a": "Mention the rough total budget per option in the share message. Anonymous polls help people who'd be too embarrassed to say 'too pricey' in the group chat."
+      },
+      {
+        "q": "Should the bride know about the poll?",
+        "a": "Depends on tradition. Some surprise the bride completely, others want her input. Ask her preference upfront — surprises only work if she actually likes surprises."
+      },
+      {
+        "q": "How far in advance should I run this poll?",
+        "a": "At least 4 months before the planned date. Destinations + flights + accommodations need lead time, and people block their calendars early."
+      }
+    ],
+    "related": ["bachelorette-night-theme-poll", "bachelor-party-activity-poll", "wedding-color-theme-poll", "wedding-first-dance-song"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bachelorette-night-theme-poll",
+    "locale": "en",
+    "emoji": "🥂",
+    "title": "Bachelorette Night Theme Poll — Free Vote Template",
+    "h1": "Choose the bachelorette night theme with a poll",
+    "description": "Disco, Barbie, 90s or speakeasy? Let the bridal party vote on the bachelorette night theme with a free anonymous poll. Mobile, live results.",
+    "intro": "A great bachelorette night needs one unifying theme that everyone gets behind. Costumes are easier, photos look cohesive, and the bride feels celebrated. Drop a few theme ideas in a poll, let the group decide, then plan the outfits.",
+    "category": "bachelorette",
+    "audience": "Maid of honor planning the main bachelorette night with the bridal party",
+    "question": "What should the bachelorette night theme be?",
+    "options": [
+      "Disco / 70s glam",
+      "Barbie pink",
+      "90s throwback",
+      "Speakeasy / 1920s",
+      "All-white club night"
+    ],
+    "whyItWorks": "Themes get the group hyped before the trip even starts — costumes, props, playlists all flow from one decision. A poll lets shy bridesmaids vote for the theme they're actually comfortable in (some hate disco wigs, some live for them).",
+    "tips": [
+      "Match the theme to the destination — Barbie pink in Tulum hits different than in Vegas",
+      "Share Pinterest moodboards in your follow-up message after the poll closes",
+      "Set a costume budget cap in the share message so nobody overspends",
+      "Include the bride's own style hints — she'll wear it in every photo",
+      "Plan one 'casual' night and one 'theme' night to give people a break"
+    ],
+    "variations": [
+      {
+        "question": "Bride-meets-bachelorette one-night party — pick a theme",
+        "options": ["Diamonds and denim", "Cocktail elegance", "Tropical luau", "Y2K pop"]
+      },
+      {
+        "question": "Tame bachelorette weekend theme",
+        "options": ["Wine tasting glam", "Brunch & boas", "Spa & silk robes", "Garden party tea"]
+      },
+      {
+        "question": "Wild bachelorette weekend theme",
+        "options": ["Vegas neon", "Beach club rave", "80s rock concert", "Mardi Gras feathers"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does the theme need to match the destination?",
+        "a": "Not strictly, but it helps. Disco pairs well with city nights; tropical themes nail beach trips. A mismatched theme just means people feel slightly out of place in photos."
+      },
+      {
+        "q": "Should the bride pick the theme or vote with the group?",
+        "a": "Run the poll with the group, but show the bride the top 2 results before locking. Her comfort matters more than the group majority."
+      },
+      {
+        "q": "What if someone hates the winning theme?",
+        "a": "Costume adjacency works — they can wear something inspired but more comfortable. Nobody is forced into a wig. The theme is the vibe, not a strict uniform."
+      },
+      {
+        "q": "Can we do two themes for two nights?",
+        "a": "Absolutely — run two polls if the trip has multiple nights. One classy, one wild is the common combo. Just don't over-plan; bachelorettes need spontaneity too."
+      }
+    ],
+    "related": ["bachelorette-destination-poll", "bachelor-party-activity-poll", "wedding-color-theme-poll", "wedding-guest-dresscode-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bachelor-party-activity-poll",
+    "locale": "en",
+    "emoji": "🍻",
+    "title": "Bachelor Party Activity Poll — Free Group Vote",
+    "h1": "Pick the bachelor party activity with a poll",
+    "description": "Golf, paintball or poker night? Let the groomsmen vote on the bachelor party activity with a free anonymous poll. Mobile-first, live results.",
+    "intro": "Bachelor parties don't need to be wild — they need to be FOR the groom. Different friends suggest different things, group chats stall. A quick poll cuts the noise and tells the best man what activity the group actually wants to commit to.",
+    "category": "bachelor",
+    "audience": "Best man coordinating activities with the groom's friend group",
+    "question": "Which activity should we do for the bachelor party?",
+    "options": [
+      "Golf weekend",
+      "Paintball / airsoft day",
+      "Poker night + steakhouse",
+      "Brewery tour",
+      "Skiing / outdoor adventure"
+    ],
+    "whyItWorks": "Bachelor parties pull together friends from different eras of the groom's life — college, work, family. They don't always agree on what 'fun' looks like. Anonymous polls let everyone vote honestly without trying to seem cool, and the winning activity usually has broad appeal.",
+    "tips": [
+      "Run the poll with the groom's input on what HE wants — it's his party",
+      "Include rough cost per person in the share message",
+      "Avoid activities the groom hates (no skydiving if he's scared of heights)",
+      "Pair the activity with a casual night for relaxed bonding",
+      "Lock in the activity 6+ weeks before so flights and bookings work"
+    ],
+    "variations": [
+      {
+        "question": "Chill bachelor weekend — pick the activity",
+        "options": ["Cabin + poker + BBQ", "Fishing trip", "Whiskey tasting + cigars", "Sports bar marathon"]
+      },
+      {
+        "question": "Adventure bachelor weekend — pick the activity",
+        "options": ["Whitewater rafting", "Snowboarding trip", "Hiking + camping", "Go-karting + paintball combo"]
+      },
+      {
+        "question": "City bachelor weekend — pick the activity",
+        "options": ["Sports game (NBA/NFL/soccer)", "Steakhouse + speakeasy crawl", "Comedy club night", "Casino floor with dinner"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should the groom be part of the poll?",
+        "a": "Yes — it's his party. Either share the poll with him or screenshot the results before locking. Surprises only work if you know him well enough to predict his taste."
+      },
+      {
+        "q": "How long should a bachelor party last?",
+        "a": "Most are one weekend, Friday-Sunday. International trips stretch to 4-5 days. Anything longer is hard for guys with jobs and families."
+      },
+      {
+        "q": "What if the budget varies wildly across the group?",
+        "a": "Pick activities with optional add-ons. Core day = same price for everyone. Extras (cigars, premium tasting, fancy dinner) = pay per head. Anonymous poll helps surface real budget limits."
+      },
+      {
+        "q": "Should we plan a 'tame' and a 'wild' option?",
+        "a": "Yes — most successful bachelor parties have one chill day and one bigger night. Run two polls: daytime activity + night out. Keeps everyone engaged regardless of energy level."
+      }
+    ],
+    "related": ["bachelorette-destination-poll", "bachelorette-night-theme-poll", "wedding-first-dance-song", "wedding-main-course-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "classroom-back-to-school-icebreaker",
+    "locale": "en",
+    "emoji": "🎒",
+    "title": "Back-to-School Icebreaker Poll — Free Class Tool",
+    "h1": "Run a back-to-school icebreaker with a quick poll",
+    "description": "Break the ice on day one with a free anonymous classroom poll. Quick, mobile-friendly, live results — perfect for the first day back at school.",
+    "intro": "Day one of school is awkward. Students don't know each other yet, the teacher is a stranger, the energy is flat. A quick anonymous poll on the screen gets every student tapping within 30 seconds — no raised hands, no pressure, instant engagement.",
+    "category": "classroom",
+    "audience": "Teachers in primary, middle and high school looking to engage students on day one",
+    "question": "What's the best thing about summer break ending?",
+    "options": [
+      "Seeing my friends again",
+      "Getting back into a routine",
+      "New school supplies",
+      "Honestly nothing",
+      "New subjects to learn"
+    ],
+    "whyItWorks": "Anonymous polls remove the social risk of speaking up. Shy students tap with the same energy as outgoing ones. The teacher sees instant class-wide responses, which becomes a perfect launchpad for a discussion ('I see 60% voted nothing — let's talk about it').",
+    "tips": [
+      "Project the poll on the whiteboard with the QR code visible",
+      "Use phone-friendly polls so students vote without needing accounts",
+      "Run 2-3 polls back-to-back to get into a rhythm",
+      "Discuss results out loud to spark conversation, not just data",
+      "Keep options light and inclusive — avoid anything that could embarrass a student"
+    ],
+    "variations": [
+      {
+        "question": "First-day primary school icebreaker",
+        "options": ["My favorite color is blue", "...is pink", "...is green", "...is yellow", "...is something else"]
+      },
+      {
+        "question": "First-day high school icebreaker",
+        "options": ["I'm excited", "I'm nervous", "I'm tired", "I just want to leave", "I'm somehow all four"]
+      },
+      {
+        "question": "Mid-week energy check icebreaker",
+        "options": ["Crushing it", "Holding on", "Need coffee", "Send help", "Just vibing"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do students need an account to vote?",
+        "a": "No — moomz polls work with just a tap on the link or QR code. No login, no email. This is critical for classroom use where you can't manage 30 accounts."
+      },
+      {
+        "q": "Can students see who voted for what?",
+        "a": "No, votes are anonymous. Only the total counts are visible. This is what makes polls work for shy students and tougher topics."
+      },
+      {
+        "q": "What if I want to know which student voted what?",
+        "a": "Then use a Google Form or a tool with login. moomz is intentionally anonymous — that's the whole point. For attendance or graded work, use other tools."
+      },
+      {
+        "q": "How often should I run icebreaker polls?",
+        "a": "First day for sure, then once a week or before any group discussion. Polls work best when they're a quick warm-up, not a graded activity."
+      }
+    ],
+    "related": ["classroom-field-trip-vote", "classroom-group-project-theme", "icebreaker-two-truths-one-lie", "bachelorette-night-theme-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "classroom-field-trip-vote",
+    "locale": "en",
+    "emoji": "🚌",
+    "title": "Classroom Field Trip Vote — Free Anonymous Poll",
+    "h1": "Vote on the next field trip with a quick poll",
+    "description": "Museum, zoo or science center? Let students vote anonymously on the next class field trip with a free poll. Mobile, live results, no accounts.",
+    "intro": "Field trip decisions used to mean hands raised in class and shy students never speaking up. A quick anonymous poll surfaces the real majority — students vote with their thumbs, see live bars, and feel ownership over the choice.",
+    "category": "classroom",
+    "audience": "Teachers organizing class field trips and wanting genuine student input",
+    "question": "Where should we go for our next field trip?",
+    "options": [
+      "Natural history museum",
+      "Zoo or aquarium",
+      "Science center",
+      "Art museum",
+      "Outdoor nature reserve"
+    ],
+    "whyItWorks": "Field trips work better when students feel they chose them. Polls give every student an equal say, including the quiet ones who'd never raise their hand. Bonus: when the trip happens, behavior is better because students remember they voted for it.",
+    "tips": [
+      "Pre-filter the options to trips that are actually feasible (budget, distance, dates)",
+      "Run the poll during class so participation is near 100%",
+      "Share the result with the principal as evidence of student engagement",
+      "Run a follow-up poll closer to the trip on smaller details (lunch spot, group size)",
+      "Use the runner-up trip as next term's plan to keep momentum"
+    ],
+    "variations": [
+      {
+        "question": "Local field trip — pick the destination",
+        "options": ["Town historical site", "Botanical garden", "Local farm visit", "City library tour"]
+      },
+      {
+        "question": "Big educational trip — pick the destination",
+        "options": ["Capital city overnight", "National park 2-day camp", "Theater + behind-the-scenes tour", "Tech / robotics center"]
+      },
+      {
+        "question": "End-of-year reward trip — pick the destination",
+        "options": ["Theme park day", "Beach day", "Bowling + pizza", "Movie + arcade"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should students vote on every detail or just the destination?",
+        "a": "Just the destination, sometimes the lunch spot. Too many polls and students get poll fatigue. Keep their votes meaningful by limiting them to real decisions."
+      },
+      {
+        "q": "What if students vote for something we can't afford?",
+        "a": "Pre-filter the options before the poll. Only include trips that fit your budget. Don't let students vote on dreams — that creates disappointment."
+      },
+      {
+        "q": "Can parents vote too?",
+        "a": "Possible, but separate the polls. A parents-only poll on cost-sharing or chaperone preference works well. Mixing student + parent votes muddies the result."
+      },
+      {
+        "q": "How far in advance should I poll?",
+        "a": "8-12 weeks before the trip. You need time to book buses, get parent permission slips, and coordinate with the venue."
+      }
+    ],
+    "related": ["classroom-back-to-school-icebreaker", "classroom-group-project-theme", "icebreaker-two-truths-one-lie", "bachelor-party-activity-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "classroom-group-project-theme",
+    "locale": "en",
+    "emoji": "📚",
+    "title": "Group Project Theme Poll — Free Classroom Vote",
+    "h1": "Choose your group project theme with a quick poll",
+    "description": "Let students or your team vote anonymously on the group project theme. Free, mobile-first, live results — perfect for the first project meeting.",
+    "intro": "Group projects often stall before they begin because nobody can agree on a theme. A 10-second anonymous poll gives the group a starting point. Tap a favorite, see the live bars, lock in the winning theme, and move on to actual work.",
+    "category": "classroom",
+    "audience": "Teachers or students kicking off a group project that needs a topic",
+    "question": "Which theme should our group project be about?",
+    "options": [
+      "Climate change",
+      "Social media impact",
+      "Mental health",
+      "Space exploration",
+      "Future of work"
+    ],
+    "whyItWorks": "Group dynamics are messy — loud students dominate, quiet ones disengage. Anonymous polls reset the power balance and give the actual majority their voice. The winning theme usually has buy-in from all group members, which kills the 'I didn't pick this' excuse halfway through.",
+    "tips": [
+      "Teacher or group leader pre-filters themes to those that meet project criteria",
+      "Run the poll during the first group meeting so participation is full",
+      "Discuss the top 2 results before locking the theme — sometimes the runner-up has nuance",
+      "Use the same poll format for sub-decisions (research question, format, presentation style)",
+      "Time-box the poll to 5 minutes max to avoid endless debate"
+    ],
+    "variations": [
+      {
+        "question": "Science group project — pick the theme",
+        "options": ["Renewable energy", "Genetics and DNA", "Astronomy and space", "Marine biology", "Robotics and AI"]
+      },
+      {
+        "question": "History group project — pick the era",
+        "options": ["Ancient Egypt", "World War II", "Civil rights movement", "Industrial revolution", "Cold War"]
+      },
+      {
+        "question": "Creative group project — pick the format",
+        "options": ["Short documentary video", "Podcast episode", "Photo essay", "Live presentation", "Interactive website"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should the teacher vote in the poll?",
+        "a": "No — let students own the choice. The teacher's role is to pre-filter what's allowed and discuss results, not to vote. If teachers vote, students assume the result is rigged."
+      },
+      {
+        "q": "What if the group can't agree even after the poll?",
+        "a": "Run a runoff poll between the top 2 options. If still tied, the group leader or teacher makes the call. The poll narrows the field, not always the final pick."
+      },
+      {
+        "q": "Can we use polls for grading?",
+        "a": "Polls aren't built for grading — they're anonymous by design. Use them for input and decisions, then grade through usual channels (rubrics, individual assessments)."
+      },
+      {
+        "q": "Should we run separate polls for each project decision?",
+        "a": "Yes for big decisions (theme, format). No for small ones (font color, slide order). Reserve polls for moments that actually need group buy-in."
+      }
+    ],
+    "related": ["classroom-back-to-school-icebreaker", "classroom-field-trip-vote", "icebreaker-two-truths-one-lie", "wedding-color-theme-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "icebreaker-two-truths-one-lie",
+    "locale": "en",
+    "emoji": "🎭",
+    "title": "Two Truths and a Lie Poll — Free Icebreaker Template",
+    "h1": "Run two truths and a lie with a quick poll",
+    "description": "Turn the classic icebreaker into a fast anonymous poll — share 3 statements, let everyone vote on the lie. Free, mobile, live results in seconds.",
+    "intro": "Two truths and a lie is the universal icebreaker — but it often dies because nobody wants to guess out loud. Turn it into a poll: drop 3 statements, let everyone tap the one they think is the lie, watch the bars settle, then reveal the truth. Way more fun, way less awkward.",
+    "category": "icebreaker",
+    "audience": "Anyone running an icebreaker — teachers, team leads, party hosts, group organizers",
+    "question": "Which one is the lie?",
+    "options": [
+      "I've been to 12 countries",
+      "I once met a famous celebrity at the grocery store",
+      "I can juggle 4 balls",
+      "I have a twin sibling"
+    ],
+    "whyItWorks": "The classic game gets stuck when people don't want to guess in front of the group. A poll fixes that — everyone votes silently, and the reveal becomes a group moment instead of an awkward one. Plus the live bars show interesting clustering, which sparks follow-up conversation.",
+    "tips": [
+      "Pick statements that are at least slightly believable as either truth or lie",
+      "Avoid lies that are obviously wild — too easy to spot",
+      "Run this with every new person in the group/team to learn fun facts",
+      "Save the reveal for after voting closes for max drama",
+      "Make it a repeating segment in team meetings or class warm-ups"
+    ],
+    "variations": [
+      {
+        "question": "Two truths and a lie — work edition (pick the lie)",
+        "options": ["I once worked at a restaurant for one shift then quit", "I've done a TED talk", "I have a side business selling vintage clothes"]
+      },
+      {
+        "question": "Two truths and a lie — childhood edition (pick the lie)",
+        "options": ["I was on a kids' TV show", "I broke my arm 3 times before age 10", "I won a school spelling bee"]
+      },
+      {
+        "question": "Two truths and a lie — travel edition (pick the lie)",
+        "options": ["I missed a flight and had to sleep in the airport", "I've seen the northern lights", "I once swam with sharks"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many statements should I include?",
+        "a": "Three is classic (2 truths, 1 lie). Four works too if you want one truth and one obvious decoy. More than four and the poll gets messy."
+      },
+      {
+        "q": "When should I reveal the lie?",
+        "a": "After voting closes and you've seen the bars. Build suspense — comment on the result first ('60% of you got it wrong!'), then reveal."
+      },
+      {
+        "q": "Can I run this with strangers or only people who know each other?",
+        "a": "Both work. With strangers, it's pure guessing and a fun way to learn about them. With friends, you can craft lies that test how well they know you — usually with hilarious results."
+      },
+      {
+        "q": "How long should the poll stay open?",
+        "a": "60-90 seconds in person — enough to read and vote, not so long that energy drops. Online or async, leave it open for a few hours so everyone can join."
+      }
+    ],
+    "related": ["classroom-back-to-school-icebreaker", "classroom-field-trip-vote", "classroom-group-project-theme", "bachelorette-night-theme-poll"],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,0 +1,663 @@
+[
+  {
+    "slug": "office-lunch-restaurant-poll",
+    "locale": "en",
+    "emoji": "🥗",
+    "title": "Office Lunch Poll: Pick Where the Team Eats Today",
+    "h1": "Office Lunch Restaurant Poll",
+    "description": "Stop the endless 'where do we eat?' Slack thread. Drop a moomz poll, let the team pick the lunch spot in 30 seconds, and head out without the chaos.",
+    "intro": "Every office has that one daily ritual: someone asks 'lunch?' in the team channel and 45 minutes later you're still debating sushi vs. salad. A quick poll cuts that loop. Share one link, everyone taps once, the highest-voted spot wins. No long messages, no shy people getting overruled, no manager picking for everyone. It also works for remote teams ordering delivery to the same office, or hybrid teams syncing on a 'we're all in today' day.",
+    "category": "work",
+    "audience": "Office teams, startup squads, hybrid coworkers, interns coordinating lunch runs",
+    "question": "Where are we grabbing lunch today?",
+    "options": ["Sushi place around the corner", "Healthy bowls and salads", "Burger spot", "Italian / pasta", "Bring lunch / kitchen leftovers"],
+    "whyItWorks": "Lunch decisions are low-stakes but high-frequency, which makes them perfect for a quick poll. People who hate confrontation get a voice without speaking up. Loud voices stop dominating. And because moomz shows live results, the team feels the consensus building in real time, which is half the fun.",
+    "tips": [
+      "Drop the poll in your team chat by 11:15 at the latest so people can plan around it.",
+      "Cap options at 4 to keep the vote fast — too many choices and people just skip.",
+      "Add a 'bring lunch' option so people who already ate or packed don't feel forced to pick a restaurant.",
+      "Pin the winning spot in the channel so latecomers know where to meet.",
+      "Run it weekly on Fridays as a 'team lunch' ritual — small thing, big morale boost."
+    ],
+    "variations": [
+      {
+        "question": "Friday team lunch — who's in?",
+        "options": ["I'm in, pick anywhere", "In, but only if it's healthy", "Skipping today", "Remote, I'll join virtually"]
+      },
+      {
+        "question": "Office snack run — what should we grab?",
+        "options": ["Coffee + pastries", "Smoothies", "Pizza slices", "Donuts (yes, I'm that person)"]
+      },
+      {
+        "question": "Client lunch — which type of spot?",
+        "options": ["Quiet bistro to talk", "Trendy place to impress", "Quick casual to save time", "Hotel restaurant near the office"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How many options should I add?",
+        "a": "Three to four is the sweet spot. More than five and the vote splits too much, plus people lose patience. If you have a long list, run a first poll to shortlist then a second to decide."
+      },
+      {
+        "q": "What if people want to suggest a spot that isn't listed?",
+        "a": "Pin the moomz link with a message like 'reply with other ideas, I'll add the top one'. You can also include an 'other (drop in chat)' option as a catch-all."
+      },
+      {
+        "q": "Can I limit voting to my team?",
+        "a": "moomz polls are open by link, so anyone with the URL can vote. For a small office team this is fine — just share the link only in your private team channel."
+      },
+      {
+        "q": "How long should the poll stay open?",
+        "a": "20 to 40 minutes is usually enough. Set a clear close time in your message ('voting closes at 11:45') so stragglers know when to jump in."
+      }
+    ],
+    "related": ["team-meeting-time-poll", "team-after-work-venue-poll", "team-leaving-gift-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "team-meeting-time-poll",
+    "locale": "en",
+    "emoji": "📅",
+    "title": "Team Meeting Time Poll: Find the Best Slot Fast",
+    "h1": "Team Meeting Time Poll",
+    "description": "Get a quick read on which meeting time works best for the team. moomz is not a calendar app — use it for an indicative vote, then book the slot.",
+    "intro": "Pinning down a meeting time across a team is one of the most boring tasks at work, and it gets worse the bigger the team. A moomz poll gives you a fast indicative read: who prefers mornings, who's slammed at 2pm, who'd rather do Friday. It's not a calendar app like Doodle — it won't check availability or send invites. Think of it as a vote, not a scheduler. Once the top time wins, you still send the proper calendar invite from your usual tool.",
+    "category": "work",
+    "audience": "Team leads, project managers, scrum masters, freelancers coordinating client calls",
+    "question": "When works best for the team sync this week?",
+    "options": ["Tuesday 10am", "Tuesday 3pm", "Wednesday 11am", "Thursday 2pm", "Friday 9am"]
+  ,
+    "whyItWorks": "A poll surfaces preferences without forcing a long email thread. People who hate early mornings or 4pm energy crashes can quietly vote against them. You also see the split visually, which makes the final pick feel democratic instead of imposed.",
+    "tips": [
+      "Add 4 to 5 time slots max — beyond that, votes scatter and no clear winner emerges.",
+      "Be explicit that this is indicative ('I'll send the calendar invite for whichever wins') so no one assumes their vote = locked attendance.",
+      "Mention the timezone if your team is distributed (e.g. 'all times CET').",
+      "Close the poll 24h before you need to send invites so you have time to handle conflicts.",
+      "Run it as a recurring check-in once a month if the team's schedule shifts often."
+    ],
+    "variations": [
+      {
+        "question": "Recurring weekly standup — what time?",
+        "options": ["Monday 9am", "Monday 11am", "Tuesday 9:30am", "Tuesday 4pm"]
+      },
+      {
+        "question": "1:1 with the boss — when can you make it?",
+        "options": ["Wednesday morning", "Wednesday afternoon", "Thursday morning", "Friday before lunch"]
+      },
+      {
+        "question": "Quarterly all-hands — pick the day",
+        "options": ["Tuesday afternoon", "Wednesday all day", "Thursday morning", "Friday lunch + after"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is this a replacement for Doodle or Calendly?",
+        "a": "No. moomz is a poll app, not a calendar tool. It doesn't read availability or send invites. Use it only for a quick indicative vote, then schedule properly in your calendar app."
+      },
+      {
+        "q": "What if two slots tie?",
+        "a": "Either run a second moomz between just those two, or use a tiebreaker rule you announce upfront ('earliest slot wins on tie')."
+      },
+      {
+        "q": "Can people vote for multiple times?",
+        "a": "No — moomz allows one vote per person per poll. If you want a 'pick all that work' result, mention in the message that people should vote for their top preference only."
+      },
+      {
+        "q": "How do I get late voters to chime in?",
+        "a": "Drop a reminder in the chat 30 minutes before close, and include a clear deadline in your original message. Most teams need exactly one nudge."
+      }
+    ],
+    "related": ["office-lunch-restaurant-poll", "team-after-work-venue-poll", "team-leaving-gift-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "team-leaving-gift-poll",
+    "locale": "en",
+    "emoji": "🎁",
+    "title": "Leaving Gift Poll: Pick the Perfect Goodbye Present",
+    "h1": "Team Leaving Gift Poll",
+    "description": "Colleague leaving and the team can't agree on a gift? Run a quick moomz poll, get a clear winner in minutes, no group-chat back-and-forth.",
+    "intro": "Picking a leaving gift always turns into a 47-message group chat. Someone suggests a generic mug, someone else wants to go expensive, the quiet ones don't reply, and the day before the farewell party you're still arguing. A poll fixes that. List four solid options at different price points, let everyone vote, take the winner. Bonus: the people who didn't speak up in the chat finally get a say, and no single person feels responsible for a flop gift.",
+    "category": "work",
+    "audience": "Coworkers organizing a farewell, team leads, HR people running send-offs",
+    "question": "What should we get [name] as a leaving gift?",
+    "options": ["Group card + bottle of nice wine or champagne", "Personalized gift (engraved item, custom illustration)", "Experience voucher (spa, restaurant, concert)", "Pooled cash in an envelope", "Big collective gift (smartwatch, headphones)"],
+    "whyItWorks": "Gifts are emotional and price-sensitive — people don't want to look cheap or extravagant. A poll lets everyone signal their budget comfort and taste without saying it out loud. It also speeds the decision: instead of three days of debate, you have an answer by lunch and the organizer can go buy the thing.",
+    "tips": [
+      "Add a price range next to each option so people vote with budget in mind ('around $30/person').",
+      "Pin the poll in the team chat and tag the few people whose input matters most (close work friends).",
+      "Close the poll a full week before the leaving date — you need time to buy, wrap, and prep the card.",
+      "Once the winner is set, send a follow-up poll to pick the specific item (e.g. which wine, which experience voucher).",
+      "Always run it without the leaving person in the channel — obvious but easy to forget."
+    ],
+    "variations": [
+      {
+        "question": "Boss is leaving — what's the gift vibe?",
+        "options": ["Premium and personal", "Funny inside-joke gift", "Group experience to remember", "Just a beautiful card with everyone's words"]
+      },
+      {
+        "question": "Maternity leave goodbye — what do we get?",
+        "options": ["Baby gift basket", "Spa voucher for mom", "Restaurant gift card for the couple", "Cute personalized item for the baby"]
+      },
+      {
+        "question": "Intern is leaving — small budget version",
+        "options": ["Signed team card + small gift", "Restaurant voucher", "Cool branded company merch", "Drinks together as the actual gift"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do we collect money once the gift is picked?",
+        "a": "After the poll closes, post the chosen gift + per-person amount, and use a tool like PayPal pool, Revolut, or even a physical envelope on someone's desk. The poll just decides what to buy."
+      },
+      {
+        "q": "What if someone doesn't want to chip in?",
+        "a": "Always make contributions optional and never call people out. The poll is for input, not pressure."
+      },
+      {
+        "q": "Should the leaving person see the poll?",
+        "a": "No — run it in a side channel or DM thread that excludes them. Surprise is half the point."
+      },
+      {
+        "q": "Can I add a custom amount option?",
+        "a": "Yes, add an option like 'small budget version (under $20 each)' so people who can't pay more feel comfortable voting honestly."
+      }
+    ],
+    "related": ["office-lunch-restaurant-poll", "team-after-work-venue-poll", "team-meeting-time-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "team-after-work-venue-poll",
+    "locale": "en",
+    "emoji": "🍻",
+    "title": "After-Work Venue Poll: Pick Where the Team Drinks Tonight",
+    "h1": "After-Work Venue Poll",
+    "description": "Drop a moomz poll, get the after-work spot locked in two minutes. No more 'where are we going?' chaos in the group chat at 5:55pm.",
+    "intro": "After-work drinks are supposed to be the easy part of the week, but somehow picking the bar takes longer than the actual drinks. Half the team wants chill rooftop vibes, the other half wants a loud sports bar, and the introvert is praying you skip the karaoke option. A moomz poll cuts the back-and-forth. Drop 4 venue options, let everyone tap their preference between meetings, and by 5:30 you have a winner. People show up at the right place without anyone having to play tour guide.",
+    "category": "work",
+    "audience": "Office teams, startup squads, friend groups doubling as coworkers",
+    "question": "Where are we going after work tonight?",
+    "options": ["Chill rooftop bar", "Cocktail spot downtown", "Pub with food (so we can eat too)", "Loud bar with music", "Wine bar / quieter spot"],
+    "whyItWorks": "Venue choice mixes mood (loud vs. chill), budget (cocktails vs. pints), and food needs (snack vs. proper dinner). A poll surfaces those trade-offs visually. Quiet team members get a vote without speaking up, and the loud person stops auto-deciding for everyone.",
+    "tips": [
+      "Add one 'with food' option — half the team didn't eat lunch and you'll lose them by 7pm otherwise.",
+      "Pick venues in walking distance from the office, or close to a common metro line, so no one bails on logistics.",
+      "Drop the poll by 4pm so people can plan their evening (and partner / kid drop-offs).",
+      "Include the venue name + 'why' line ('rooftop with sunset views') so people vote on the vibe, not just the name.",
+      "Pin the winning venue + meet time in the chat so latecomers can join directly."
+    ],
+    "variations": [
+      {
+        "question": "Welcome drinks for the new hire — where?",
+        "options": ["Cocktail bar, classy intro", "Casual pub, easier to chat", "Restaurant with bar, full evening", "Office happy hour, then move"]
+      },
+      {
+        "question": "End-of-quarter celebration — go big where?",
+        "options": ["Rooftop with a view", "Private room at a restaurant", "Karaoke night", "Bar crawl, 3 stops"]
+      },
+      {
+        "question": "Quick post-work drink — 1h max",
+        "options": ["Closest bar to the office", "Café with terrace", "Quick beer at the pub", "Skip drinks, just dinner"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What if a few people can't make it?",
+        "a": "Run the poll among the people who confirmed they're coming. A separate 'who's in?' message first, then the venue poll, saves you from votes by people who'll bail anyway."
+      },
+      {
+        "q": "Should I add price-tier info?",
+        "a": "Yes, especially for cocktail bars vs. pubs. A quick '$$$' next to each option helps the budget-conscious vote honestly."
+      },
+      {
+        "q": "How do I handle dietary restrictions?",
+        "a": "Mention them in the message ('the pub option has vegan food, the cocktail bar doesn't serve food') so people vote with eating in mind."
+      },
+      {
+        "q": "Can I run this as a recurring weekly poll?",
+        "a": "Absolutely — many teams do a 'Thursday drinks' moomz every week. People come to expect the poll and respond fast."
+      }
+    ],
+    "related": ["office-lunch-restaurant-poll", "team-leaving-gift-poll", "party-playlist-vote-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "couple-valentine-restaurant-poll",
+    "locale": "en",
+    "emoji": "💝",
+    "title": "Valentine's Restaurant Poll: Pick the Date Spot Together",
+    "h1": "Valentine's Day Restaurant Poll",
+    "description": "Send your partner a quick moomz poll with 3 to 4 Valentine's restaurant options. Cute, low-pressure, no awkward 'I don't know, you choose'.",
+    "intro": "The 'where do you want to go for Valentine's?' conversation is famous for ending in a frustrated 'I don't know, anywhere is fine'. A tiny poll fixes that. Pick 3 or 4 restaurants you'd actually be happy with, drop them into a moomz, send the link in a sweet message. Your partner taps one in 10 seconds. No pressure, no overthinking, no last-minute scramble on February 13th. Bonus: it's a flirty, slightly playful way to plan something romantic without it feeling like a logistics meeting.",
+    "category": "couple",
+    "audience": "Couples, long-distance partners, anyone planning a romantic night",
+    "question": "Where should we go for Valentine's dinner?",
+    "options": ["The cozy Italian we love", "Sushi tasting menu", "Rooftop with city view", "Fancy French bistro", "Stay in and I cook for you"],
+    "whyItWorks": "Asking openly leads to 'I don't know'. Offering 3-4 options removes choice paralysis and signals you've already done the thinking. It also gives your partner a sense of agency without putting the whole night on their shoulders. The 'stay in and I cook' option doubles as a sweet plot twist.",
+    "tips": [
+      "Send the poll 10 to 14 days before Valentine's so you can actually book a table.",
+      "Include one home-cooked option — sometimes the most romantic answer is 'just us, no crowd'.",
+      "Wrap it in a cute message: 'I want to plan something for us, pick your vibe 💝'.",
+      "Avoid options you actually hate — your partner will sense it and feel weird picking.",
+      "Once they vote, book immediately and screenshot the reservation. Done."
+    ],
+    "variations": [
+      {
+        "question": "Anniversary dinner — where to celebrate?",
+        "options": ["The restaurant where we had our first date", "Somewhere new and special", "Hotel restaurant + stay the night", "Home dinner I'll cook"]
+      },
+      {
+        "question": "Surprise weekend dinner — pick the vibe",
+        "options": ["Romantic candlelit", "Hidden speakeasy", "Beach / waterfront", "Tasting menu adventure"]
+      },
+      {
+        "question": "First Valentine's together — go big or chill?",
+        "options": ["Go all out fancy", "Casual and cute", "Home + movie + wine", "Weekend trip instead"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Should I share the restaurants beforehand or surprise?",
+        "a": "Sharing options strikes a balance — your partner picks the vibe, you handle booking and the night itself. Pure surprise is romantic but risky if you don't know their current cravings."
+      },
+      {
+        "q": "What if my partner refuses to pick?",
+        "a": "Add a 'pick for me, you choose 💕' option. Some people genuinely don't want to decide, and that's fine — at least they voted for handing it back to you."
+      },
+      {
+        "q": "Is this not too unromantic, sending a poll?",
+        "a": "Frame it as care, not logistics: 'I want to make this perfect for you, help me pick'. The poll is a tool, the energy you put around it is what makes it romantic."
+      },
+      {
+        "q": "Can I use this for other date nights?",
+        "a": "Yes — birthdays, anniversaries, random Friday nights. A short poll beats the 'idk where do you want to eat?' loop every time."
+      }
+    ],
+    "related": ["couple-weekend-getaway-poll", "couple-next-vacation-poll", "party-playlist-vote-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "couple-weekend-getaway-poll",
+    "locale": "en",
+    "emoji": "🏖️",
+    "title": "Couple Weekend Getaway Poll: Pick the Trip Together",
+    "h1": "Couple Weekend Getaway Poll",
+    "description": "Both want a quick weekend away but can't decide where? Drop a moomz poll with 3 to 4 ideas, vote, book. Done before Sunday dinner.",
+    "intro": "Couples planning a weekend trip often spend more time deciding than actually traveling. One wants mountains, the other wants a city, both want to be 'low-key spontaneous' which translates to 'nothing is booked yet'. A small poll forces a decision without it feeling like a debate. List 3 or 4 realistic options that fit your shared budget and travel time, vote together (or each in your own corner with a quick link), pick the winner, book. The whole planning step takes under 10 minutes.",
+    "category": "couple",
+    "audience": "Couples, long-distance partners, anyone planning a short escape",
+    "question": "Where should we go for our weekend getaway?",
+    "options": ["Cozy cabin in the mountains", "City weekend (museums, restaurants, walking)", "Beach + spa hotel", "Countryside Airbnb with a hot tub", "Road trip, no fixed destination"],
+    "whyItWorks": "Travel choices mix mood (chill vs. active), budget, and travel time. A visual poll surfaces those trade-offs and forces an honest preference. It also avoids the trap where one partner picks just to please the other and then feels resentful when the trip happens.",
+    "tips": [
+      "Pre-filter the options to match your budget and the actual travel time you have — don't include a 6-hour drive for a 2-day trip.",
+      "Add a 'pick the vibe, I'll pick the spot' option if one of you wants to plan the details as a surprise.",
+      "Decide together on dates first, then run the poll for the destination — opposite order usually fails.",
+      "Once you vote, book the same evening before motivation dies and prices rise.",
+      "Save the poll link or a screenshot — it makes a cute memory of how the trip got picked."
+    ],
+    "variations": [
+      {
+        "question": "Birthday weekend — what's the vibe?",
+        "options": ["Romantic boutique hotel", "Adventure (hike, kayak, ski)", "Foodie city break", "Beach + nothing to do"]
+      },
+      {
+        "question": "First trip together — pick the move",
+        "options": ["Easy short weekend nearby", "Bigger city we both want to see", "Cozy Airbnb in nature", "Spa retreat, full chill"]
+      },
+      {
+        "question": "Last-minute escape this Friday — where?",
+        "options": ["Train somewhere within 2h", "Drive to the closest beach", "Mountain cabin if available", "Stay home, fancy hotel night nearby"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What if we tie or both vote different things?",
+        "a": "A tie is information — it means both options work. Pick by who hasn't picked recently, by which is cheaper, or just by which has availability. Don't overthink a tie."
+      },
+      {
+        "q": "Should I include flights / longer trips?",
+        "a": "Only if you've both said you have budget and time for it. Mixing a weekend cabin with a 5-day Bali trip in the same poll splits votes and creates frustration."
+      },
+      {
+        "q": "Can I use this with friends instead of a partner?",
+        "a": "Yes — same logic works for friend trips. Add 'who's actually coming' as a separate poll first, then destination, then dates."
+      },
+      {
+        "q": "How far ahead should I run the poll?",
+        "a": "For a weekend, 2 to 4 weeks ahead is ideal — enough lead time to find good prices, but not so far that motivation fades."
+      }
+    ],
+    "related": ["couple-next-vacation-poll", "couple-valentine-restaurant-poll", "party-costume-theme-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "couple-next-vacation-poll",
+    "locale": "en",
+    "emoji": "✈️",
+    "title": "Next Vacation Poll: Pick the Big Trip Together",
+    "h1": "Couple Next Vacation Poll",
+    "description": "Bali, Lisbon, road trip, or all-inclusive? Send your partner a moomz poll with 4 destinations and lock the next vacation in one tap.",
+    "intro": "Planning the next real vacation as a couple is exciting until it turns into months of 'we should look at flights soon' followed by zero action. A poll snaps you out of that loop. List 4 destinations you've both flirted with, send the link, let your partner vote in 30 seconds. You see the result, you talk about it, you book the flights this weekend. The poll isn't the decision — it's the trigger that makes the decision happen.",
+    "category": "couple",
+    "audience": "Couples, partners planning a bigger trip, anyone tired of vacation indecision",
+    "question": "Where should our next big trip be?",
+    "options": ["Bali / Southeast Asia", "Japan (food, culture, cities)", "Italy (Rome, Amalfi, Sicily)", "Iceland / Nordic road trip", "All-inclusive beach (Mexico, Caribbean)"],
+    "whyItWorks": "Big destinations carry big emotional weight — they hit your dreams, your budget, and your time off all at once. Voting on a shortlist makes the conversation concrete instead of theoretical. Once you see your partner's pick (or split), the next conversation writes itself: 'cool, let's look at dates for that one'.",
+    "tips": [
+      "Pre-shortlist destinations that match your real budget — don't include a $10k trip if you have $3k.",
+      "Mention rough trip length and budget in the message ('thinking 10 days, around $3500 total').",
+      "Once the winner is picked, set a 'we book by X date' deadline so you don't stall.",
+      "Add a 'somewhere new we haven't talked about' option to leave room for inspiration.",
+      "Save the poll link to look back at it post-trip — sweet little timeline moment."
+    ],
+    "variations": [
+      {
+        "question": "Honeymoon vote — pick the dream",
+        "options": ["Maldives overwater bungalow", "Japan two-week deep dive", "Italy + Greece combo", "African safari + Cape Town"]
+      },
+      {
+        "question": "Summer vacation type",
+        "options": ["Beach + nothing to do", "City + museums + food", "Road trip with stops", "Adventure (hike, dive, surf)"]
+      },
+      {
+        "question": "Winter trip — sun or snow?",
+        "options": ["Ski resort in the Alps", "Caribbean / Thailand for sun", "Northern lights trip", "Christmas markets in Europe"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What if we vote different destinations?",
+        "a": "Talk about why each of you picked yours — usually one of you cares more about the specific spot, the other cares about the vibe. Pick the destination that matches the stronger reason."
+      },
+      {
+        "q": "Should I include rough prices?",
+        "a": "Yes — even a '$$$' tier helps your partner vote with budget in mind. Otherwise you risk picking the dream and then awkwardly downgrading later."
+      },
+      {
+        "q": "How far ahead should we run this?",
+        "a": "For a big trip, 4 to 8 months ahead works best — gives time to find flight deals, take time off, and plan the route."
+      },
+      {
+        "q": "Can we use this for group trips with friends?",
+        "a": "Yes, but cap the group at 5 to 6 voters max — beyond that, opinions scatter and nothing wins clearly. Share the link only with the people actually traveling."
+      }
+    ],
+    "related": ["couple-weekend-getaway-poll", "couple-valentine-restaurant-poll", "team-after-work-venue-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "party-playlist-vote-poll",
+    "locale": "en",
+    "emoji": "🎵",
+    "title": "Party Playlist Vote: Let the Guests Pick the Vibe",
+    "h1": "Party Playlist Vote Poll",
+    "description": "Stop being the DJ alone. Drop a moomz poll, let the whole party vote on the next song or genre, and watch the dancefloor finally own the night.",
+    "intro": "Every house party has the same DJ drama: one person controls the speaker, half the guests are silently mad, the other half are requesting songs that don't fit the vibe. A moomz poll fixes that with one link. Drop 4 genre or song options on the QR-code-friendly screen, let everyone vote from their phone, play whatever wins. The party feels collaborative, the host stops being the bad guy, and the dancefloor actually fills up because people are dancing to what they voted for.",
+    "category": "party",
+    "audience": "Party hosts, college students, house parties, prom and birthday squads",
+    "question": "What should we play next?",
+    "options": ["Throwback 2000s pop", "Reggaeton / Latin", "Hip-hop / R&B", "House / electronic", "Disco / funk classics"],
+    "whyItWorks": "Music taste is personal and political at parties. Letting people vote turns 'whose phone is on the speaker' from a power struggle into a quick democratic vote. It also reveals the room's actual vibe — sometimes you'll be shocked by what wins, and the night gets way better for it.",
+    "tips": [
+      "Show the poll on a TV or projector so people see the live results and feel the building consensus.",
+      "Rerun the poll every 30 to 45 minutes — the vibe shifts as people drink and the night moves on.",
+      "Include one wildcard option ('total throwback chaos') for fun.",
+      "Don't let the poll replace a tight playlist — use it for genre direction, then pick the actual songs.",
+      "If you're using a music app with collaborative playlists, share that link separately for song-level requests."
+    ],
+    "variations": [
+      {
+        "question": "Pre-game or main party energy?",
+        "options": ["Chill pre-game vibes", "Build-up bangers", "Peak time, no breaks", "Sing-along anthems"]
+      },
+      {
+        "question": "End-of-night closer — what's the last song?",
+        "options": ["Slow dance ballad", "Classic singalong", "One more banger", "Surprise wildcard"]
+      },
+      {
+        "question": "Wedding playlist vote (between songs)",
+        "options": ["80s / 90s classics", "Latin floor fillers", "Modern pop hits", "Cheesy karaoke chants"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I show the poll at the party?",
+        "a": "Open the moomz link on your phone or laptop, share the QR code (just have guests scan to open the link), or cast the page to a TV. Live results refresh automatically."
+      },
+      {
+        "q": "Can I add specific song titles instead of genres?",
+        "a": "Yes — works great for shortlists ('next song: Bad Bunny vs. Drake vs. Beyoncé'). Just keep it to 4 options so the vote stays fast."
+      },
+      {
+        "q": "Does moomz actually play the music?",
+        "a": "No — moomz is just the poll layer. You still play music through Spotify, Apple Music, YouTube, or wherever. The poll just decides what comes next."
+      },
+      {
+        "q": "What if people request the same song over and over?",
+        "a": "Cap each poll to 4 distinct vibes, and rerun it instead of letting the same option always win. Variety keeps the floor alive."
+      }
+    ],
+    "related": ["party-costume-theme-poll", "team-after-work-venue-poll", "couple-valentine-restaurant-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "party-costume-theme-poll",
+    "locale": "en",
+    "emoji": "🎭",
+    "title": "Party Costume Theme Poll: Let the Squad Pick the Look",
+    "h1": "Party Costume Theme Poll",
+    "description": "Throwing a themed party? Drop a moomz poll, let the guests vote on the costume theme early, and avoid the chaos of mixed-vibe outfits at the door.",
+    "intro": "Themed parties are amazing when everyone commits and tragic when half the room shows up in jeans. A poll locks the theme in early enough for everyone to actually plan, and gets buy-in because the group voted for it. Drop 4 themes you're personally excited to host (the theme bleeds into decor, music, drinks), share the link with the guest list, let people vote in 24 hours. Whoever wins gets posted in the group chat with a 'theme is locked: x' message and the planning starts.",
+    "category": "party",
+    "audience": "Party hosts, birthday organizers, college and student parties, Halloween squads",
+    "question": "What's the costume theme for the party?",
+    "options": ["Y2K / early 2000s", "Disco glam", "Iconic movie characters", "All white party", "Decades mash-up (pick your era)"],
+    "whyItWorks": "Themes are polarizing — what excites one person feels lame to another. A poll surfaces those splits before they become 'I didn't dress up because the theme was bad' moments at the door. It also creates anticipation: people start brainstorming outfits the second the theme is locked.",
+    "tips": [
+      "Run the poll at least 2 to 3 weeks before the party so people have time to assemble outfits.",
+      "Limit options to 4 themes max — too many splits the vote and no clear winner emerges.",
+      "Add a short visual or example in the message ('Y2K = low-rise jeans, butterfly clips, juicy tracksuits').",
+      "Pin the winning theme in the group chat plus a couple of inspiration photos.",
+      "Have a few spare accessories at the door for guests who forgot or improvised — it saves the vibe."
+    ],
+    "variations": [
+      {
+        "question": "Halloween group costume vote",
+        "options": ["Squid Game crew", "Mean Girls cast", "Power Rangers", "Classic horror villains"]
+      },
+      {
+        "question": "Birthday party dress code",
+        "options": ["Black tie chic", "All neon", "Pyjama party", "Festival outfits"]
+      },
+      {
+        "question": "New Year's party vibe",
+        "options": ["Disco / sparkly everything", "Black + gold elegance", "Costume free-for-all", "Pyjama countdown party"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I make sure people actually dress up?",
+        "a": "Three things: lock the theme early, drop inspiration photos in the chat, and post a 'best costume wins X' bounty. Public visibility of the theme = higher commitment."
+      },
+      {
+        "q": "What if the winning theme is hard to execute?",
+        "a": "When you set the options, pre-filter for accessible themes that don't require expensive costumes. Y2K beats 'Renaissance court' for most groups."
+      },
+      {
+        "q": "Should I let plus-ones vote?",
+        "a": "Optional — but keep the vote tight to the core guest list (the people definitely coming). Plus-ones can theme-match whatever wins."
+      },
+      {
+        "q": "Can the poll double as the invite?",
+        "a": "Yes — frame the message as 'party on date X, help pick the theme'. Voting becomes a soft RSVP and gets people invested before they even reply."
+      }
+    ],
+    "related": ["party-playlist-vote-poll", "couple-valentine-restaurant-poll", "team-after-work-venue-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "teen-bff-vibe-check-poll",
+    "locale": "en",
+    "emoji": "💖",
+    "title": "BFF Vibe Check Poll: How Strong Is Your Friendship Really?",
+    "h1": "BFF Vibe Check Poll",
+    "description": "Send your BFF a moomz vibe check poll and see if you're matching energy or low-key drifting. Honest answers, zero pressure, tea-spilling guaranteed.",
+    "intro": "BFF vibes shift. One week you're texting nonstop, the next they're posting stories you weren't tagged in. A vibe check poll is the unserious, fun way to actually surface where you both stand without anyone having to say 'are we okay?' out loud. Send it as a moomz link with a 'no thoughts just answer' caption. The result becomes the conversation. If they pick 'distant rn ngl' you laugh about it and fix it. If they pick 'closer than ever', screenshot and post it. Either way you both feel seen.",
+    "category": "teen",
+    "audience": "Teens, college students, Gen Z friend groups",
+    "question": "Real talk — what's our BFF vibe rn?",
+    "options": ["10/10 telepathy bestie level", "Strong but we need a hangout", "Kinda distant ngl 😔", "We're toxic but in a fun way", "Locked in forever no matter what"],
+    "whyItWorks": "Asking 'are we good?' feels heavy. A poll wraps the same question in chaos and humor, which is the only register Gen Z trusts. People answer more honestly when there's a meme-y energy around it, so you actually get useful intel instead of a polite 'we're fine'.",
+    "tips": [
+      "Send the poll with a meme or a 'this is just for fun ✨' caption to keep it low-pressure.",
+      "Don't send it after a fight — it'll feel like a test. Send it during a chill moment.",
+      "If they pick a sad option, follow up with a plan, not a guilt trip ('omg let's link this weekend').",
+      "Run it once a season, not weekly — overuse kills the magic.",
+      "Screenshot the result if it's iconic, post it as a story together."
+    ],
+    "variations": [
+      {
+        "question": "Group chat vibe check",
+        "options": ["We're literally a family", "Dead group chat lately", "Drama brewing but cute", "Best chat I'm in fr"]
+      },
+      {
+        "question": "Crush vibe check — do they like you back?",
+        "options": ["Obsessed with you", "Mid energy from them", "Mixed signals zone", "Friend zone confirmed"]
+      },
+      {
+        "question": "Sibling relationship vibe",
+        "options": ["Built-in best friend", "Love them, can't live with them", "We don't talk much", "Iconic duo behavior"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is this not a bit too much for a BFF?",
+        "a": "Depends on the friendship. Most close friends find it hilarious and revealing. If you're not sure how they'll take it, lead with 'random question for the vibes' and keep it light."
+      },
+      {
+        "q": "What if they pick a sad option?",
+        "a": "Take the W of honest info and follow up with action — suggest a hangout, drop a voice note, send a meme. Don't make them defend the answer."
+      },
+      {
+        "q": "Can I send it to multiple friends at once?",
+        "a": "Yes — share the same moomz link in your group chat. Each person's vote is anonymous in the result, so honesty stays high."
+      },
+      {
+        "q": "What if they don't answer at all?",
+        "a": "That's information too. Either they're busy or the vibe is off. Don't double-text the poll — give it 48h and let it go."
+      }
+    ],
+    "related": ["drama-who-is-wrong-friend-fight", "debate-pineapple-pizza-poll", "party-playlist-vote-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "drama-who-is-wrong-friend-fight",
+    "locale": "en",
+    "emoji": "🍿",
+    "title": "Friend Drama Poll: Who's Actually Wrong Here?",
+    "h1": "Friend Fight Drama Poll: Who's Wrong?",
+    "description": "Drama in the group chat? Drop a moomz poll, let the squad vote on who's actually wrong, and end the debate (or start a bigger one).",
+    "intro": "Every friend group has the same recurring scene: two people are mad at each other, everyone else is pretending to stay neutral, and the group chat is a battlefield of subtweets. A poll cuts through it. Lay out the situation in one neutral sentence, list the possible verdicts, share the link with the group. The result might not settle the fight, but it absolutely settles 'what does everyone actually think', which is half the drama anyway. Used right, it ends arguments. Used wrong, it goes viral in the group chat for a week. Both are entertaining.",
+    "category": "drama",
+    "audience": "Friend groups, teens, college squads, anyone tangled in group chat beef",
+    "question": "[friend A] vs [friend B] — who's actually in the wrong?",
+    "options": ["[friend A] is wrong", "[friend B] is wrong", "Both are wrong", "Neither, it's a misunderstanding", "We don't have enough info"],
+    "whyItWorks": "Drama thrives in 'whose side are you on?' DMs that never get aired in public. A poll surfaces the group consensus quickly and anonymously, which often de-escalates because both parties realize the room agrees on something. It also takes pressure off the friends who hate picking sides — they can vote 'misunderstanding' or 'both wrong' without burning bridges.",
+    "tips": [
+      "Write the situation in one neutral paragraph — don't bias the question or the options.",
+      "Run it in a private group chat, not publicly — drama belongs to the squad, not the internet.",
+      "Don't tag the two people in the fight when you send it — let the group respond first, then debrief.",
+      "Add a 'we don't have enough info' option — it saves the poll from forcing a verdict on a confusing situation.",
+      "Once results are in, send a short summary in the chat instead of dragging the screenshots around."
+    ],
+    "variations": [
+      {
+        "question": "Relationship drama — was the ex right?",
+        "options": ["Ex was right", "You were right", "Both messy", "Just move on bestie"]
+      },
+      {
+        "question": "Roommate fight — pick a side",
+        "options": ["Roommate A wrong", "Roommate B wrong", "Both petty", "Vibes off, separate problem"]
+      },
+      {
+        "question": "Family group chat drama verdict",
+        "options": ["Mom is right", "Sibling is right", "Both being dramatic", "Stay out of it bro"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Won't this make the drama worse?",
+        "a": "It can — only run it if you genuinely want a group verdict. Don't send it to provoke. The best use is when both parties have asked the friends to weigh in already."
+      },
+      {
+        "q": "Should I share the result with the two people fighting?",
+        "a": "Only if they ask, and only with the percentages, not who voted what. Naming voters turns a vibe check into a witch trial."
+      },
+      {
+        "q": "What if both people are in the chat where I send it?",
+        "a": "Don't. Run it in a separate chat without them, get the read, then handle it tactfully. Anonymous votes inside a chat that includes the subjects almost always backfire."
+      },
+      {
+        "q": "Can I use this for non-friend drama (work, family)?",
+        "a": "Family yes, work no. Work polls about who's wrong create legal and HR mess. Keep it to private circles."
+      }
+    ],
+    "related": ["teen-bff-vibe-check-poll", "debate-pineapple-pizza-poll", "party-playlist-vote-poll"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "debate-pineapple-pizza-poll",
+    "locale": "en",
+    "emoji": "🍍",
+    "title": "Pineapple on Pizza Poll: Settle the Eternal Debate",
+    "h1": "Pineapple on Pizza Debate Poll",
+    "description": "The internet's oldest food fight, finally voted on. Drop a moomz poll, see where your friend group really stands on pineapple pizza.",
+    "intro": "Pineapple on pizza has been the internet's favorite low-stakes culture war since 2017. Everyone has a take, nobody is going to change their mind, and that's exactly why it's a perfect group poll. Drop it in your friend chat or work Slack and watch the war start. The fun isn't the verdict — it's the percentage split. Is your squad 70% pro? 90% anti? Split 50/50 with one chaos vote? That's the gold. Send it as a 'no thoughts just answer' moomz and let the screenshots fly.",
+    "category": "debate",
+    "audience": "Friend groups, work chats, anyone who likes pretending food debates are serious",
+    "question": "Real take — pineapple on pizza, yes or no?",
+    "options": ["YES, hawaiian supremacy", "NO, that's a crime", "Only if it's grilled / done right", "I literally don't care", "Pineapple yes, but not on pizza"],
+    "whyItWorks": "Low-stakes polarizing debates are the perfect poll fuel. Everyone has an instant opinion, no one has to research anything, and the result generates instant chat. It's also a great icebreaker for new groups — you learn the chaos energy of every person in the room within one vote.",
+    "tips": [
+      "Send it with a 'sorry I have to know' caption — playful framing gets way more votes.",
+      "Run it in big chats — bigger sample = better screenshot.",
+      "Pair with a second poll right after ('and pizza crust — thin or thick?') to keep the energy going.",
+      "Screenshot the final % and post it in the chat with a dramatic verdict.",
+      "Repeat the same poll on the same group in a year — chaos energy of seeing the same people switch sides."
+    ],
+    "variations": [
+      {
+        "question": "Coriander / cilantro — love or hate?",
+        "options": ["Love it on everything", "Tastes like soap, hard no", "Only in small amounts", "Genuinely don't notice"]
+      },
+      {
+        "question": "Ketchup on eggs?",
+        "options": ["Yes, normal behavior", "No, that's wrong", "Only on fried eggs", "Sriracha or nothing"]
+      },
+      {
+        "question": "Hottest take — milk before cereal or cereal first?",
+        "options": ["Cereal first, always", "Milk first, fight me", "Doesn't matter, freak", "I don't eat cereal"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does this work better as a poll than a chat debate?",
+        "a": "Chat debates favor the loudest voice. Polls give every voter equal weight and a quick out — you don't have to defend your pineapple love in front of 20 people, you just tap."
+      },
+      {
+        "q": "Should I add a 'depends on the pizza' option?",
+        "a": "Yes — most diplomats live in that category. Adding it surfaces real preferences instead of forcing a fake binary."
+      },
+      {
+        "q": "Can this work for non-food debates?",
+        "a": "Absolutely — same format works for AC temperature, toilet paper direction, hot dog as a sandwich, etc. Any silly polarizing topic with 2 to 4 strong stances."
+      },
+      {
+        "q": "What's the goal — to settle it or to enjoy the chaos?",
+        "a": "Chaos. Nobody is changing their mind on pineapple pizza. The fun is the percentage split and the screenshots. Lean into the entertainment, not the verdict."
+      }
+    ],
+    "related": ["teen-bff-vibe-check-poll", "drama-who-is-wrong-friend-fight", "party-playlist-vote-poll"],
+    "updatedAt": "2026-05-20"
+  }
+]
