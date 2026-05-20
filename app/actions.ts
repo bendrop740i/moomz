@@ -164,21 +164,14 @@ export async function createPoll(formData: FormData) {
     ? langCookie!
     : "fr";
 
-  const rawImageUrl = String(formData.get("image_url") ?? "").trim();
-  // Only accept https URLs to avoid javascript:/data: shenanigans.
-  const imageUrl = /^https:\/\//i.test(rawImageUrl) ? rawImageUrl.slice(0, 1024) : null;
-
-  const insertPayload: Record<string, unknown> = {
+  const { error } = await supabase.from("polls").insert({
     slug,
     question,
     options: optionsRaw,
     profile_id: profileId,
     topics,
     lang,
-  };
-  if (imageUrl) insertPayload.image_url = imageUrl;
-
-  const { error } = await supabase.from("polls").insert(insertPayload);
+  });
   if (error) throw new Error(error.message);
 
   pushSlugToHistory("moomz_created_slugs", slug);
