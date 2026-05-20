@@ -27,6 +27,7 @@ export default function MusicMiniPlayer() {
     next,
     seek,
     restart,
+    start,
   } = useMusic();
 
   const barRef = useRef<HTMLDivElement | null>(null);
@@ -43,8 +44,27 @@ export default function MusicMiniPlayer() {
     [duration, seek],
   );
 
-  // Only render once playback has started — no idle button cluttering the UI.
-  if (!current) return null;
+  // Idle state: no track loaded yet. Show a compact "launch radio" pill so
+  // the radio is reachable from every page, not only /music.
+  if (!current) {
+    return (
+      <div className="fixed bottom-20 right-3 z-30 select-none">
+        <button
+          onClick={() => start()}
+          disabled={isLoading}
+          aria-label="Lancer la vibe radio"
+          className="glass rounded-full shadow-lg shadow-black/40 pl-2.5 pr-3.5 py-2 flex items-center gap-2 text-xs font-semibold text-white/90 hover:bg-white/[0.08] transition active:scale-95 disabled:opacity-60"
+        >
+          <span className="w-6 h-6 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center shrink-0">
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="white" aria-hidden>
+              <path d="M3 2l7 4-7 4z" />
+            </svg>
+          </span>
+          <span>{isLoading ? "Chargement…" : "Vibe radio"}</span>
+        </button>
+      </div>
+    );
+  }
 
   const showBufferingDot = isBuffering && !isLoadingNext;
   // Prefer the live <audio> duration; fall back to the DB-stored duration_s
