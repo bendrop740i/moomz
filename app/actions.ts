@@ -26,24 +26,27 @@ function cookieOpts(extra: {
   };
 }
 
-type ProfileLookup =
-  | { kind: "user"; userId: string }
-  | { kind: "token"; token: string };
+// A resolved profile lookup — just the profile id. The session user_id or the
+// claim_token cookie is resolved to an id via the SECURITY DEFINER
+// resolve_profile_id RPC, so the anon client never reads the secret
+// profiles.claim_token column directly.
+type ProfileLookup = { id: string };
 
 async function getProfileLookup(): Promise<ProfileLookup | null> {
-  const supabase = getServerSupabase();
-  const { data } = await supabase.auth.getUser();
-  if (data.user) return { kind: "user", userId: data.user.id };
-  const token = cookies().get("moomz_profile_token")?.value;
-  if (token) return { kind: "token", token };
-  return null;
+  const ssr = getServerSupabase();
+  const { data } = await ssr.auth.getUser();
+  const token = cookies().get("moomz_profile_token")?.value ?? null;
+  if (!data.user && !token) return null;
+  const { data: id } = await getSupabase().rpc("resolve_profile_id", {
+    p_user_id: data.user?.id ?? null,
+    p_claim_token: token,
+  });
+  return id ? { id: id as string } : null;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function applyLookup(q: any, lookup: ProfileLookup): any {
-  return lookup.kind === "user"
-    ? q.eq("user_id", lookup.userId)
-    : q.eq("claim_token", lookup.token);
+  return q.eq("id", lookup.id);
 }
 
 

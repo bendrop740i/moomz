@@ -22,12 +22,11 @@ export type Profile = {
 };
 
 export type PrivateProfile = Profile & {
-  claim_token: string | null;
   user_id: string | null;
 };
 
 const PROFILE_COLS_BASE =
-  "id,username,display_name,bio,socials,avatar_emoji,claim_token,user_id,created_at,total_points,top_streak";
+  "id,username,display_name,bio,socials,avatar_emoji,user_id,created_at,total_points,top_streak";
 const PROFILE_COLS_EXTENDED = `${PROFILE_COLS_BASE},avatar_url,cosmetic_id,cosmetics_owned`;
 
 // Best-effort SELECT that tries to read the new avatar_url / cosmetic_id
@@ -60,11 +59,18 @@ export async function getMyProfile(): Promise<PrivateProfile | null> {
   const token = cookies().get("moomz_profile_token")?.value;
   if (!token) return null;
   const anon = getSupabase();
+  // Resolve the claim_token to an id via the SECURITY DEFINER RPC — the anon
+  // client must not read the secret claim_token column directly.
+  const { data: id } = await anon.rpc("resolve_profile_id", {
+    p_user_id: null,
+    p_claim_token: token,
+  });
+  if (!id) return null;
   return await selectProfile<PrivateProfile>((cols) =>
     anon
       .from("profiles")
       .select(cols)
-      .eq("claim_token", token)
+      .eq("id", id as string)
       .maybeSingle(),
   );
 }

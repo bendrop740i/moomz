@@ -7,24 +7,14 @@ export const dynamic = "force-dynamic";
 
 async function resolveProfileId(): Promise<string | null> {
   const ssr = getServerSupabase();
-  const supabase = getSupabase();
   const { data: auth } = await ssr.auth.getUser();
-  if (auth.user) {
-    const { data } = await supabase
-      .from("profiles")
-      .select("id")
-      .eq("user_id", auth.user.id)
-      .maybeSingle<{ id: string }>();
-    if (data) return data.id;
-  }
-  const token = cookies().get("moomz_profile_token")?.value;
-  if (!token) return null;
-  const { data } = await supabase
-    .from("profiles")
-    .select("id")
-    .eq("claim_token", token)
-    .maybeSingle<{ id: string }>();
-  return data?.id ?? null;
+  const token = cookies().get("moomz_profile_token")?.value ?? null;
+  if (!auth.user && !token) return null;
+  const { data: id } = await getSupabase().rpc("resolve_profile_id", {
+    p_user_id: auth.user?.id ?? null,
+    p_claim_token: token,
+  });
+  return (id as string | null) ?? null;
 }
 
 export async function GET() {
