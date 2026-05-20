@@ -57,46 +57,84 @@ export function familyById(id: string): AchFamily | undefined {
   return ALL_FAMILIES.find((f) => f.id === id);
 }
 
-// Every metric the engine can read. Topic metrics resolve via `topicVotes`.
+// Every scalar metric the engine can read. `topic:<id>` resolves via
+// `topicVotes`, `tpoll:<id>` via `topicPolls`.
 export type UserStats = {
   votesCast: number;
+  nightVotes: number;
+  dawnVotes: number;
+  weekendVotes: number;
   voteStreakTop: number;
+  rebelStreakTop: number;
   dailyStreak: number;
   activeDays: number;
+  accountAgeDays: number;
   pollsCreated: number;
   bestPollVotes: number;
+  receivedVotesTotal: number;
   rebelCount: number;
   majorityCount: number;
   totalPoints: number;
   coinsEarnedTotal: number;
   coinsSpentTotal: number;
-  achievementsUnlocked: number;
+  cosmeticsUnlocked: number;
+  pollsBoosted: number;
+  questionsAsked: number;
+  questionsAnswered: number;
+  questionsReceived: number;
+  quizzesCompleted: number;
+  pollsSeen: number;
+  distinctTopicsVoted: number;
   predictionsMade: number;
   predictionsWon: number;
+  predictionStreakTop: number;
+  predictionMaxStake: number;
+  achievementsUnlocked: number;
   topicVotes: Record<string, number>;
+  topicPolls: Record<string, number>;
 };
 
 export const EMPTY_STATS: UserStats = {
   votesCast: 0,
+  nightVotes: 0,
+  dawnVotes: 0,
+  weekendVotes: 0,
   voteStreakTop: 0,
+  rebelStreakTop: 0,
   dailyStreak: 0,
   activeDays: 0,
+  accountAgeDays: 0,
   pollsCreated: 0,
   bestPollVotes: 0,
+  receivedVotesTotal: 0,
   rebelCount: 0,
   majorityCount: 0,
   totalPoints: 0,
   coinsEarnedTotal: 0,
   coinsSpentTotal: 0,
-  achievementsUnlocked: 0,
+  cosmeticsUnlocked: 0,
+  pollsBoosted: 0,
+  questionsAsked: 0,
+  questionsAnswered: 0,
+  questionsReceived: 0,
+  quizzesCompleted: 0,
+  pollsSeen: 0,
+  distinctTopicsVoted: 0,
   predictionsMade: 0,
   predictionsWon: 0,
+  predictionStreakTop: 0,
+  predictionMaxStake: 0,
+  achievementsUnlocked: 0,
   topicVotes: {},
+  topicPolls: {},
 };
 
 export function metricValue(stats: UserStats, metric: string): number {
   if (metric.startsWith("topic:")) {
     return stats.topicVotes[metric.slice(6)] ?? 0;
+  }
+  if (metric.startsWith("tpoll:")) {
+    return stats.topicPolls[metric.slice(6)] ?? 0;
   }
   const v = (stats as unknown as Record<string, unknown>)[metric];
   return typeof v === "number" ? v : 0;
