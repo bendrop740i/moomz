@@ -6,7 +6,7 @@ import { getServerSupabase } from "@/lib/supabase-server";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { ALL_FAMILIES, type AchCategory } from "@/lib/achievements/families";
-import { ALL_ACHIEVEMENTS, ACHIEVEMENT_COUNT, type Achievement } from "@/lib/achievements/engine";
+import { ALL_ACHIEVEMENTS, ACHIEVEMENT_COUNT, evaluateFromMetrics, type Achievement } from "@/lib/achievements/engine";
 import { renderAchievement, categoryLabel, type AchLang } from "@/lib/achievements/i18n";
 
 export const dynamic = "force-dynamic";
@@ -58,22 +58,37 @@ export default async function HautFaitsPage() {
   const { data: auth } = await ssr.auth.getUser();
   const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
 
+  const supabase = getSupabase();
   let metrics: Record<string, number> = {};
   let coinBalance = 0;
   let hasProfile = false;
   try {
-    const { data } = await getSupabase().rpc("get_achievement_stats", {
+    const { data } = await supabase.rpc("get_achievement_stats", {
       p_user_id: auth.user?.id ?? null,
       p_claim_token: claimToken,
     });
     const st = (data ?? {}) as {
       has_profile?: boolean;
       metrics?: Record<string, number>;
+      owned?: string[];
       coin_balance?: number;
     };
     hasProfile = !!st.has_profile;
     metrics = st.metrics ?? {};
     coinBalance = st.coin_balance ?? 0;
+    // Universal sync — claim anything earned-but-unclaimed (counters raised by
+    // asking questions / finishing quizzes since the last vote) on page open.
+    if (hasProfile) {
+      const { newlyUnlocked } = evaluateFromMetrics(metrics, new Set(st.owned ?? []));
+      if (newlyUnlocked.length > 0) {
+        const { data: claimData } = await supabase.rpc("claim_achievements", {
+          p_user_id: auth.user?.id ?? null,
+          p_claim_token: claimToken,
+          p_ids: newlyUnlocked.map((a) => a.id),
+        });
+        coinBalance = ((claimData ?? {}) as { balance?: number }).balance ?? coinBalance;
+      }
+    }
   } catch {
     // fall through with empty stats
   }

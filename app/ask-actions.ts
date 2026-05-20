@@ -81,6 +81,23 @@ export async function askQuestion(formData: FormData): Promise<AskResult> {
   const { error } = await supabase.from("ask_questions").insert(insertPayload);
   if (error) return { ok: false, error: error.message };
 
+  // Bump the asker's questions_asked counter (achievement family `asker`) —
+  // identity-token RPC, so it only ever raises the asker's own row. The
+  // recipient's questions_received is handled by the ask_questions trigger.
+  try {
+    const ssr = getServerSupabase();
+    const { data: auth } = await ssr.auth.getUser();
+    const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
+    await supabase.rpc("increment_profile_counter", {
+      p_user_id: auth.user?.id ?? null,
+      p_claim_token: claimToken,
+      p_column: "questions_asked",
+      p_amount: 1,
+    });
+  } catch {
+    // best-effort — never blocks asking.
+  }
+
   // Optimistic: ping the recipient's public route so SSR reflects the new ask.
   const { data: prof } = await supabase
     .from("profiles_public")

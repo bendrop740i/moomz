@@ -103,7 +103,7 @@ export default function QuizPage({ params }: { params: Params }) {
           </div>
         </header>
 
-        <QuizPlay quiz={quiz} />
+        <QuizPlay quiz={quiz} slug={params.slug} />
 
         {/* SEO-rich static rendering of all questions + answers + explainers,
             collapsed by default so it doesn't spoil play mode. Browsers index

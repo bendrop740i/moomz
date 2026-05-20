@@ -4,13 +4,14 @@
 // after each pick, tallies the final score. Reads the full Quiz object
 // from props — no fetch.
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Quiz } from "@/lib/quizzes/types";
+import { recordQuizDone } from "../../actions";
 
 type Phase = "answering" | "revealed" | "done";
 
-export default function QuizPlay({ quiz }: { quiz: Quiz }) {
+export default function QuizPlay({ quiz, slug }: { quiz: Quiz; slug: string }) {
   const [step, setStep] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -20,6 +21,15 @@ export default function QuizPlay({ quiz }: { quiz: Quiz }) {
   const total = quiz.questions.length;
   const phase: Phase =
     step >= total ? "done" : picked === null ? "answering" : "revealed";
+
+  // Record the finished quiz once → quizzes_completed achievement counter.
+  const recordedRef = useRef(false);
+  useEffect(() => {
+    if (phase === "done" && !recordedRef.current) {
+      recordedRef.current = true;
+      void recordQuizDone(slug);
+    }
+  }, [phase, slug]);
 
   const choose = useCallback(
     (i: number) => {

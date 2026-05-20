@@ -228,6 +228,29 @@ export async function markPollSeen(slug: string, voteCount: number) {
   cookies().set(`moomz_seen_${slug}`, String(voteCount), cookieOpts());
 }
 
+// Records a finished quiz once per quiz per browser (cookie-gated, so it can't
+// be farmed) → bumps quizzes_completed for the `quizzer` achievement family.
+export async function recordQuizDone(slug: string) {
+  if (!slug || typeof slug !== "string") return;
+  const jar = cookies();
+  const key = `moomz_quizdone_${slug}`.slice(0, 90);
+  if (jar.get(key)) return;
+  jar.set(key, "1", cookieOpts({ maxAge: 60 * 60 * 24 * 365 }));
+  try {
+    const ssr = getServerSupabase();
+    const { data: auth } = await ssr.auth.getUser();
+    const claimToken = jar.get("moomz_profile_token")?.value ?? null;
+    await getSupabase().rpc("increment_profile_counter", {
+      p_user_id: auth.user?.id ?? null,
+      p_claim_token: claimToken,
+      p_column: "quizzes_completed",
+      p_amount: 1,
+    });
+  } catch {
+    // best-effort — never throws to the quiz UI.
+  }
+}
+
 export async function setTopics(topics: string[]) {
   const valid = topics.filter((t) => (TOPIC_IDS as string[]).includes(t)).slice(0, 6);
   cookies().set("moomz_topics", valid.join(","), cookieOpts());
