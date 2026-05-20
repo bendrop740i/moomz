@@ -4,7 +4,7 @@ import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
 import { getLocale } from "@/lib/i18n-server";
-import { t } from "@/lib/i18n";
+import { t, type Locale } from "@/lib/i18n";
 
 type TrendingPoll = {
   id: string;
@@ -18,17 +18,41 @@ type TrendingPoll = {
   last_vote_at: string | null;
   topics?: string[];
   profile_id?: string | null;
+  lang?: string | null;
 };
 
-async function getTrending(limit = 40): Promise<TrendingPoll[]> {
+const TRENDING_SELECT =
+  "id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics,profile_id,lang";
+
+// Trending polls filtered to the visitor's UI locale. The selected language
+// drives the content: a FR visitor sees FR polls, an EN visitor sees EN polls.
+// If the locale yields too few polls (< MIN_RESULTS) we append unfiltered
+// trending polls as a safety net so the feed never looks empty.
+const MIN_RESULTS = 5;
+
+async function getTrending(locale: Locale, limit = 40): Promise<TrendingPoll[]> {
   try {
     const supabase = getSupabase();
     const { data } = await supabase
       .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics,profile_id")
+      .select(TRENDING_SELECT)
+      .eq("lang", locale)
       .order("trending_score", { ascending: false })
       .limit(limit);
-    return (data as TrendingPoll[]) ?? [];
+    const scoped = (data as TrendingPoll[]) ?? [];
+    if (scoped.length >= MIN_RESULTS) return scoped;
+
+    // Fallback: top up with unfiltered trending polls so the feed isn't empty.
+    const { data: fallback } = await supabase
+      .from("polls_trending")
+      .select(TRENDING_SELECT)
+      .order("trending_score", { ascending: false })
+      .limit(limit);
+    const seen = new Set(scoped.map((p) => p.id));
+    const extra = ((fallback as TrendingPoll[]) ?? []).filter(
+      (p) => !seen.has(p.id),
+    );
+    return [...scoped, ...extra].slice(0, limit);
   } catch {
     return [];
   }
@@ -63,7 +87,7 @@ export default async function TrendingFeed() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
 
-  const allPolls = await getTrending(40);
+  const allPolls = await getTrending(locale, 40);
   const jar = cookies();
 
   const votedSet = new Set(readSlugHistory("moomz_voted_slugs"));

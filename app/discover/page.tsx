@@ -40,6 +40,7 @@ type TrendingRow = {
   trending_score: number;
   last_vote_at: string | null;
   profile_id?: string | null;
+  lang?: string | null;
 };
 
 export default async function DiscoverPage() {
@@ -47,13 +48,32 @@ export default async function DiscoverPage() {
   const tx = (k: string) => t(k, locale);
 
   const supabase = getSupabase();
+  const DISCOVER_SELECT =
+    "id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,profile_id,lang";
+
+  // Filter the Discover feed to the visitor's UI locale — the selected
+  // language drives the content. Fall back to unfiltered polls if the locale
+  // has fewer than 5 trending polls so the feed never looks empty.
   const { data } = await supabase
     .from("polls_trending")
-    .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,profile_id")
+    .select(DISCOVER_SELECT)
+    .eq("lang", locale)
     .order("trending_score", { ascending: false })
     .limit(40);
 
-  const rows = (data as TrendingRow[]) ?? [];
+  let rows = (data as TrendingRow[]) ?? [];
+  if (rows.length < 5) {
+    const { data: fallback } = await supabase
+      .from("polls_trending")
+      .select(DISCOVER_SELECT)
+      .order("trending_score", { ascending: false })
+      .limit(40);
+    const seen = new Set(rows.map((r) => r.id));
+    const extra = ((fallback as TrendingRow[]) ?? []).filter(
+      (r) => !seen.has(r.id),
+    );
+    rows = [...rows, ...extra].slice(0, 40);
+  }
   const skipped = new Set(readSlugHistory("moomz_skipped_slugs"));
   const voted = new Set(readSlugHistory("moomz_voted_slugs"));
   const jar = cookies();

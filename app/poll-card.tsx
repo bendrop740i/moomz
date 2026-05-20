@@ -112,7 +112,14 @@ export default function PollCard({
   const [total, setTotal] = useState<number>(initialVoteCount);
   const [confettiKey, setConfettiKey] = useState(0);
   const [bumpKey, setBumpKey] = useState<{ idx: number; k: number } | null>(null);
-  const [flames, setFlames] = useState<{ id: number; idx: number }[]>([]);
+  // One flame burst at most per option — keyed by option index. A fresh
+  // realtime vote on an option REPLACES any in-flight flame there (new `id`
+  // remounts the element, restarting the CSS keyframe) instead of stacking a
+  // second 🔥 at the identical `right-3 top-1/2` position. Each flame carries
+  // a small random offset + rotation so even rapid sequential bursts fan out.
+  const [flames, setFlames] = useState<
+    Record<number, { id: number; dx: number; dy: number; rot: number } | undefined>
+  >({});
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
   const [reveal, setReveal] = useState<{ isMajority: boolean; isRebel: boolean; userPct: number } | null>(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -226,8 +233,20 @@ export default function PollCard({
           setTotal((t) => t + 1);
           setBumpKey({ idx, k: Date.now() });
           const fid = ++flameIdRef.current;
-          setFlames((f) => [...f, { id: fid, idx }]);
-          setTimeout(() => setFlames((f) => f.filter((x) => x.id !== fid)), 1200);
+          const flame = {
+            id: fid,
+            dx: Math.round((Math.random() - 0.5) * 22),
+            dy: Math.round((Math.random() - 0.5) * 14),
+            rot: Math.round((Math.random() - 0.5) * 24),
+          };
+          // Replace (not append) the flame for this option so concurrent
+          // realtime votes on the same option never pile up at one spot.
+          setFlames((f) => ({ ...f, [idx]: flame }));
+          setTimeout(
+            () =>
+              setFlames((f) => (f[idx]?.id === fid ? { ...f, [idx]: undefined } : f)),
+            1200,
+          );
         },
       )
       .subscribe();
@@ -387,7 +406,7 @@ export default function PollCard({
             );
           }
 
-          const fireForThis = flames.filter((f) => f.idx === i);
+          const fireForThis = flames[i];
           // Tween from 0 → pct on the first paint after voting; subsequent
           // realtime updates animate via the CSS `transition: width` rule.
           const renderedPct = barsArmed ? pct : 0;
@@ -431,16 +450,20 @@ export default function PollCard({
                   <AnimatedNumber value={pct} />%
                 </span>
               </div>
-              {fireForThis.map((f) => (
+              {fireForThis && (
                 <span
-                  key={f.id}
-                  className="flame-burst absolute right-3 top-1/2 -translate-y-1/2 text-2xl"
-                  style={{ ["--fx" as string]: `${(Math.random() - 0.5) * 30}px` }}
+                  key={fireForThis.id}
+                  className="flame-burst absolute right-2 top-1/2 text-2xl"
+                  style={{
+                    ["--fx" as string]: `${fireForThis.dx}px`,
+                    ["--fy" as string]: `${fireForThis.dy}px`,
+                    ["--frot" as string]: `${fireForThis.rot}deg`,
+                  }}
                   aria-hidden
                 >
                   🔥
                 </span>
-              ))}
+              )}
             </div>
           );
         })}

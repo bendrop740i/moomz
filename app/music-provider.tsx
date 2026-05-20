@@ -33,6 +33,10 @@ type MusicState = {
   // gesture we want instant veil feedback even before any state commit lands.
   intentId: string | null;
   volume: number;
+  // Live playback position (seconds) + total duration (seconds, 0 if unknown).
+  // Drives the mini-player scrubber + elapsed/total time labels.
+  currentTime: number;
+  duration: number;
   play: () => Promise<void>;
   pause: () => void;
   toggle: () => void;
@@ -40,6 +44,10 @@ type MusicState = {
   setVolume: (v: number) => void;
   start: () => Promise<void>;
   playTrack: (t: Track) => Promise<void>;
+  // Jump to an absolute position (seconds) within the current track.
+  seek: (seconds: number) => void;
+  // Restart the current track from 0 (single tap on the "previous" control).
+  restart: () => void;
 };
 
 const Ctx = createContext<MusicState | null>(null);
@@ -59,6 +67,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
   const [isLoadingNext, setIsLoadingNext] = useState(false);
   const [intentId, setIntentId] = useState<string | null>(null);
   const [volume, setVolumeState] = useState(0.6);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
   const restoredRef = useRef(false);
   // Speculatively-fetched next track so the first "Lancer la radio" click can
   // skip the Supabase RPC round-trip and go straight to play().
@@ -309,6 +319,31 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
     [loadAndMaybePlay],
   );
 
+  // Jump to an absolute position. Used by the mini-player scrubber.
+  const seek = useCallback((seconds: number) => {
+    const el = audioRef.current;
+    if (!el) return;
+    const dur = el.duration;
+    const clamped = Number.isFinite(dur) && dur > 0
+      ? Math.min(Math.max(0, seconds), dur)
+      : Math.max(0, seconds);
+    try {
+      el.currentTime = clamped;
+      setCurrentTime(clamped);
+    } catch {}
+  }, []);
+
+  // Restart the current track from the beginning.
+  const restart = useCallback(() => {
+    const el = audioRef.current;
+    if (!el) return;
+    try {
+      el.currentTime = 0;
+      setCurrentTime(0);
+    } catch {}
+    if (el.paused) el.play().catch(() => {});
+  }, []);
+
   // Persist current playback position every 3s while playing, plus on pause.
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -343,6 +378,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       isLoadingNext,
       intentId,
       volume,
+      currentTime,
+      duration,
       play,
       pause,
       toggle,
@@ -350,6 +387,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       setVolume,
       start,
       playTrack,
+      seek,
+      restart,
     }),
     [
       current,
@@ -359,6 +398,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       isLoadingNext,
       intentId,
       volume,
+      currentTime,
+      duration,
       play,
       pause,
       toggle,
@@ -366,6 +407,8 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
       setVolume,
       start,
       playTrack,
+      seek,
+      restart,
     ],
   );
 
@@ -388,6 +431,22 @@ export function MusicProvider({ children }: { children: React.ReactNode }) {
         onWaiting={() => setIsBuffering(true)}
         onStalled={() => setIsBuffering(true)}
         onCanPlay={() => setIsBuffering(false)}
+        onTimeUpdate={(e) => {
+          setCurrentTime(e.currentTarget.currentTime || 0);
+        }}
+        onDurationChange={(e) => {
+          const d = e.currentTarget.duration;
+          setDuration(Number.isFinite(d) && d > 0 ? d : 0);
+        }}
+        onLoadedMetadata={(e) => {
+          const d = e.currentTarget.duration;
+          setDuration(Number.isFinite(d) && d > 0 ? d : 0);
+        }}
+        onEmptied={() => {
+          // New src loading — reset the scrubber so it doesn't show stale time.
+          setCurrentTime(0);
+          setDuration(0);
+        }}
         onEnded={() => {
           // Auto-advance with smart shuffle.
           try {
