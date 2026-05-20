@@ -15,3 +15,5 @@ next-env.d.ts
 .secrets
 .secrets.*
 .git-token
+
+.env*.local
