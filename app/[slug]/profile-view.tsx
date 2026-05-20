@@ -1,5 +1,7 @@
 import type { Profile } from "@/lib/profile";
 import { ACHIEVEMENT_ORDER, ACHIEVEMENTS, type AchievementId } from "@/lib/achievements";
+import { getLocale } from "@/lib/i18n-server";
+import { t } from "@/lib/i18n";
 import ShareLinker from "./share-linker";
 import MadeWithMoomz from "./made-with-moomz";
 import LinkerPollsGrid from "./linker-polls-grid";
@@ -56,6 +58,8 @@ export default function ProfileView({
   const totalVotes = polls.reduce((s, p) => s + p.vote_count, 0);
   const socials = profile.socials ?? {};
   const socialKeys = Object.keys(socials).filter((k) => SOCIAL_ICONS[k]);
+  const locale = getLocale();
+  const isBot = profile.is_bot === true;
 
   return (
     <div className="space-y-6 fade-up">
@@ -68,6 +72,16 @@ export default function ProfileView({
           </h1>
           {profile.display_name && (
             <div className="text-sm text-white/50 break-all">@{profile.username}</div>
+          )}
+          {isBot && (
+            <div className="pt-2 flex flex-col items-center gap-1.5">
+              <span className="inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-purple-500/25 border border-purple-300/50 text-purple-100">
+                {t("bot.badge", locale)}
+              </span>
+              <p className="text-[11px] text-white/45 max-w-xs">
+                {t("bot.disclaimer", locale)}
+              </p>
+            </div>
           )}
           {profile.bio && (
             <p className="text-white/70 text-sm pt-1 text-balance break-words whitespace-pre-wrap">
@@ -140,7 +154,7 @@ export default function ProfileView({
         polls={
           polls.length === 0 ? (
             <div className="glass rounded-2xl p-6 text-center text-white/50 text-sm">
-              Pas encore de sondages publiés.
+              {t("misc.profileNoPolls", locale)}
             </div>
           ) : (
             <LinkerPollsGrid polls={polls} />

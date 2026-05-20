@@ -93,8 +93,11 @@ export default async function FeaturedAsks() {
                       <div className="font-bold text-sm truncate">
                         {r.display_name ?? `@${r.username}`}
                       </div>
-                      <div className="text-[10px] text-white/40 truncate">
-                        @{r.username}
+                      <div className="text-[10px] text-white/40 truncate flex items-center gap-1.5">
+                        <span>@{r.username}</span>
+                        <span className="inline-flex items-center px-1.5 py-px rounded bg-purple-500/20 border border-purple-300/30 text-purple-200 text-[9px] uppercase tracking-wider shrink-0">
+                          {tx("bot.badge.short")}
+                        </span>
                       </div>
                     </div>
                   </div>

@@ -12,6 +12,7 @@ export type Profile = {
   created_at: string;
   total_points?: number | null;
   top_streak?: number | null;
+  is_bot?: boolean | null;
 };
 
 export type PrivateProfile = Profile & {
@@ -50,7 +51,7 @@ export async function getProfileByUsername(username: string): Promise<Profile | 
   const supabase = getSupabase();
   const { data } = await supabase
     .from("profiles_public")
-    .select("id,username,display_name,bio,socials,avatar_emoji,created_at")
+    .select("id,username,display_name,bio,socials,avatar_emoji,created_at,is_bot")
     .eq("username", username.toLowerCase())
     .maybeSingle();
   return (data as Profile | null) ?? null;

@@ -201,15 +201,20 @@ export default function HomePage() {
       />
       <PageHero taglines={TAGLINES[locale] ?? TAGLINES.en} />
 
-      <QuickChips labels={CHIP_LABELS[locale] ?? CHIP_LABELS.en} />
-
-      <WhyMoomz locale={locale} />
-
+      {/* HERO: Daily Moomz is the primary hook — bring people back every day. */}
       <Suspense fallback={<DailyCardSkeleton />}>
         <DailyCardSection />
       </Suspense>
 
+      <QuickChips labels={CHIP_LABELS[locale] ?? CHIP_LABELS.en} />
+
       <CreatePollForm />
+
+      <section id="trending" className="scroll-mt-4">
+        <Suspense fallback={<TrendingFeedSkeleton />}>
+          <TrendingFeed />
+        </Suspense>
+      </section>
 
       <FeaturedRead locale={locale} title={FEATURED_READ_TITLES[locale] ?? FEATURED_READ_TITLES.en} />
 
@@ -217,11 +222,7 @@ export default function HomePage() {
         <FeaturedAsks />
       </Suspense>
 
-      <section id="trending" className="scroll-mt-4">
-        <Suspense fallback={<TrendingFeedSkeleton />}>
-          <TrendingFeed />
-        </Suspense>
-      </section>
+      <WhyMoomz locale={locale} />
 
       <Suspense fallback={<WorldVibesSkeleton />}>
         <WorldVibesSection />

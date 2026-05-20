@@ -3,7 +3,69 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, Science QCM pack (latest).** User asked for QCM (multiple-choice quiz) pages on lots of subjects, physics-first, in multiple languages, with 10 agents ("fait stp des page de QCM sur plein de sujet physique etc et dans plsuieur langue met 10 agent la dessus"). Shipped via **10 parallel agents** — **39 new quizzes / ~463 new questions across 8 languages**, plus activated the previously-WIP quiz routes.
+**2026-05-20, credibility hardening pass (latest).** User showed the live site and pointed out the spam polls + obvious fake votes were destroying credibility. After a frank back-and-forth on strategy, they validated a pragmatic plan (no page deletions, no audience switch — just kill the visible spam, calibrate the bot, label the characters). Shipped:
+
+- **Migrations `013` + `013b` + `013c`** applied live via PAT to Supabase. Net effect after the 3 passes:
+  - **`is_noisy_question(text)` SQL helper** mirrors `looksLikeNoise` from `app/actions.ts`. Catches: <4 char questions, 6+ consecutive same chars, <3 distinct chars (now triggers at length ≥4 instead of ≥5 — that's how "rttr" slipped through), no content chars (after stripping whitespace/punct/digits — works for CJK/Hindi/Arabic/Cyrillic), and <30% content ratio for 8+ char strings. **First version broke ~730 non-ASCII seed polls** because POSIX `[[:alpha:]]` doesn't match CJK in this Supabase collation; `013b` restored them by counting "non-whitespace/punct/digit" chars instead of "alpha" chars.
+  - **Retroactive flag**: ~248 polls marked `is_dead=true` (visible "rttr" / "Test from claude" / dup spam like "les pied qui pue ou le slip qui pue" which existed 6 times with 800-1050 bot votes each). The dedup pass keeps the row with most human votes per normalized question and kills the rest.
+  - **Bot v4 (`fake_vote_burst`)** rewritten: (a) skips polls flagged by `is_noisy_question`, (b) enforces a hard cap of `max(30, human_votes × 5 + 30)` per poll — so a 0-human poll tops at 30 bot votes total, a 50-human poll at 280. Cron renamed `fake_vote_burst_every_3min` and dropped from every minute to **every 3 minutes** (66% less bot pressure).
+- **`lib/profile.ts`** — `Profile` type gained `is_bot?: boolean | null`. `getProfileByUsername` now selects `is_bot` from `profiles_public`.
+- **`app/[slug]/page.tsx`** — `generateMetadata` emits `robots: { index: false, follow: true }` when `profile.is_bot`. The 16 character accounts (`luna_fr`, `maya_en`, etc.) are no longer indexable by Google but internal links still pass authority.
+- **`app/[slug]/profile-view.tsx`** — visible "🤖 Personnage moomz" badge + disclaimer line on bot profile pages. Honest > opaque.
+- **`app/featured-asks.tsx`** — small inline "🤖 personnage" chip next to the `@username` in the home carousel cards.
+- **i18n** — `bot.badge`, `bot.badge.short`, `bot.disclaimer` keys added in all 8 langs. Title of the featured-asks carousel switched from "🌟 Profils du jour" to "🤖 Personnages moomz" (and translations) across fr/en/es/it/pt/de/ja/zh.
+- **Home reorder (`app/page.tsx`)** — `DailyCardSection` moved to right after `PageHero` (was buried mid-page after WhyMoomz). `DailyCard` visual beef-up: min-height 280-320px, gradient bumped from 0.25 to 0.4 opacity, two blur orbs as accents, title scales to text-5xl on md+, white pill CTA in pink-600 text. The Daily is now the literal hero of the home.
+- **`app/_seo/keyword-page-view.tsx`** — `fetchMatchingPolls` now requires `vote_count >= 10` (strict gate), with a fallback to `vote_count >= 1` if fewer than 3 polls match. Empty/abandoned polls no longer pollute `/mot` + `/word` keyword landing pages.
+
+**Verification**:
+- Trending feed sample after migration: real polls in pole position ("Tu prefere le foot ou faire des pompe ?", "Fuck ou love", "Le soleil ou la neige"). "rttr" / "Test from claude" / 5 of 6 "les pied qui pue" copies all dead.
+- `npx tsc --noEmit` green after fixing a transient `misc.profileNoPolls` duplicate (linter had added the key in a `misc` section while I was also adding it next to `linker.polls.empty` — removed my dups).
+- DB final state: 248 dead / 3063 alive / `fake_vote_burst_every_3min @ */3 * * * *` / `is_noisy_question` helper exists.
+
+**What this DOES NOT do** (deferred — out of scope for this pass):
+- Doesn't decide the audience (Gen Z vs adult EVJF). User chose to keep both — SEO pages for adult occasions remain indexed, home defaults to Gen Z tone.
+- Doesn't ship a single hero hook — Daily Moomz promoted but Rebel + ASK + Trending all still on home.
+- Doesn't add analytics (PostHog / Plausible) — flagged as Week 4 priority in the strategy convo.
+- Doesn't touch the i18n missing-key audit (19 keys still untranslated in pt/de/ja/zh per the security audit).
+
+---
+
+**2026-05-20, /compare + /template SEO push.** User asked which page types to add for SEO and selected my recommendation: compare pages + template pages, shipped via 10 parallel agents. **102 new SEO routes** total:
+
+- **30 head-to-head compare pages** under `/compare/[slug]`:
+  - 8 FR `moomz-vs-*` (Strawpoll, Typeform, Google Forms, Mentimeter, Instagram Story, WhatsApp, Framaforms, Kahoot)
+  - 8 EN `moomz-vs-*` NEW competitors not in /alternatives (Typeform, SurveyMonkey, JotForm, Kahoot, AhaSlides, Vevox, Instagram Poll, WhatsApp Poll)
+  - 7 EN cross-competitor (typeform-vs-google-forms, strawpoll-vs-doodle, mentimeter-vs-slido, kahoot-vs-mentimeter, surveymonkey-vs-typeform, jotform-vs-google-forms, polleverywhere-vs-slido) — `topic: "cross"`, moomz only mentioned once in verdict
+  - 7 FR cross-competitor (strawpoll-vs-framaforms, instagram-vs-whatsapp-sondage, typeform-vs-google-forms-fr, surveymonkey-vs-typeform-fr, doodle-vs-framadate, mentimeter-vs-ahaslides-fr, kahoot-vs-wooclap)
+  - Each page: 8 highlights (winner: a/b/tie), verdict + pickA/pickB, 6 FAQ, 2-4 cross-linked related slugs, real pricing facts cited
+- **72 poll templates** under `/template/[slug]`:
+  - 12 FR events (mariage, EVJF, EVG, anniv, baby shower, famille)
+  - 12 FR work/classroom (rentrée, sortie, projet groupe, restau midi, réunion, after-work)
+  - 12 FR social (couple, soirée, ado, drama, débat)
+  - 12 EN events/classroom (wedding, bachelorette, bachelor, field-trip, icebreaker)
+  - 12 EN work/social (lunch, leaving-gift, weekend-getaway, playlist vote, vibe-check, pineapple-pizza)
+  - 12 multi-locale ES/IT/PT/DE (3 each: food, valentine, travel/newyear/halloween/christmas)
+  - Each template: question + 3-5 options, whyItWorks, 3-5 tips, 3 variations (each with own question + options), 4 FAQ, 2-4 related. **One-click launch deeplinks to `/?q=&o=`** which prefills `CreatePollForm` (existing surface).
+
+**Infra** (data lives in JSON files for hot-reload + agent-friendly editing):
+- `lib/seo/compare/{types.ts, loader.ts, data/*.json}` — `ComparePage` schema (slug, locale fr/en, a/b parties with name+emoji+tagline, 8 highlights, verdict, pickA/B, 6 FAQ, related, topic). Loader is `fs.readdirSync`-based like `lib/seo/keywords/loader.ts`.
+- `lib/seo/templates/{types.ts, loader.ts, data/*.json}` — `TemplatePage` schema (slug, locale fr/en/es/it/pt/de, category, audience, question, options, whyItWorks, tips, 3 variations, 4 FAQ, related). Plus `templateLaunchUrl(p)` helper that encodes `?q=&o=`.
+- `app/compare/page.tsx` (hub grouped by topic) + `app/compare/[slug]/page.tsx` (head-to-head view with bilingual i18n inline `T` table, head-to-head 12-col grid, verdict cards, FAQ details, related pills).
+- `app/template/page.tsx` (hub grouped by category with emoji+label map) + `app/template/[slug]/page.tsx` (preview poll card mimicking PollCard look, 6-locale inline i18n `T` table, variations cards each with own launch link, FAQ, related).
+- `app/sitemap.ts` — added `/compare` + `/template` hub URLs + `getAllCompares()` + `getAllTemplates()` maps (priority 0.75, monthly changefreq).
+- `app/actions.ts` — added `compare`, `template`, `templates` to `RESERVED_USERNAMES` so users can't shadow these surfaces.
+
+**Build verify**: `npx tsc --noEmit` green. The 6 untracked breakages in `lib/seo/read/r08.ts` + WIP quiz dirs remain pre-existing and unimported (don't ship).
+
+**2026-05-20, SEO interlinking on poll detail + public profile.** User asked to turn the per-poll `/[slug]` and public profile `/[username]` pages into deeply-connected SEO hubs (15+ outbound internal links each) so Google stops seeing them as dead-ends. Shipped 4 new server components in `app/[slug]/` (no client JS — the vote UI stays interactive, everything new renders below it as static):
+- **`topic-pills.tsx`** — maps each `polls.topics` entry to the best-matching `/idees/<slug>` (FR) or `/ideas/<slug>` (EN) landing using a hardcoded TOPIC_TO_SEO table validated against `allPages` from `lib/seo`. Unknown topics fall back to `/discover?topic=<id>`.
+- **`related-polls-grid.tsx`** — static 2-col / 4-col compact poll cards (question + emoji options + vote count, no realtime, no vote action).
+- **`below-poll-seo.tsx`** — orchestrator below `VoteClient`+`PollExplainer`+`KeywordChips`. Fetches 8 polls via `.overlaps('topics', ...)` on `polls_with_stats` (excluding current + dead seeds), falls back to top-6 from `polls_trending` if `<4` similar. Plus a CTA card linking to `/?q=<question>&o=<opts>` (fork the poll) and 8 hub pills (`/idees`, `/ideas`, `/guides`, `/blog`, `/read`, `/discover`, `/music`, `/mot`).
+- **`below-profile-seo.tsx`** — fetches 6 trending non-bot profiles from `profiles_public` ordered by `total_points DESC` (no `updated_at` column — total_points is the recency proxy), aggregates top 5 topics from the user's polls, renders profile cards + topic pills + 8 hub pills. Mounted after `<ProfileView />`.
+
+Wiring: `app/[slug]/page.tsx` — added `topics` to the poll `.select(...)`, passes it + `lang` into `<BelowPollSeo />`. Profile branch mounts `<BelowProfileSeo profileId={profile.id} />` after `<ProfileView />`. Existing JSON-LD (BreadcrumbList + ProfilePage on profile, QAPage + FAQPage + BreadcrumbList on poll) is untouched. Result: each poll page now exposes ~20-24 new internal anchors (8 similar + 2-5 topic pills + 1 fork CTA + 8 explore pills) and each profile page ~14-19 (6 profiles + 3-5 topic pills + 8 explore pills). `npx tsc --noEmit` exits clean. Commit `d754647` pushed to main.
+
+**2026-05-20, Science QCM pack.** User asked for QCM (multiple-choice quiz) pages on lots of subjects, physics-first, in multiple languages, with 10 agents ("fait stp des page de QCM sur plein de sujet physique etc et dans plsuieur langue met 10 agent la dessus"). Shipped via **10 parallel agents** — **39 new quizzes / ~463 new questions across 8 languages**, plus activated the previously-WIP quiz routes.
 
 New data files in `lib/quizzes/data/`:
 - `physique-fr.ts` — 4 quiz FR: mécanique classique, électricité & magnétisme, ondes/son/optique, relativité & quantique (45 questions)
@@ -262,6 +324,8 @@ Pushes to `main` auto-deploy on Vercel. To force a redeploy : `vercel --prod` fr
 - **Port 3000 occupied** locally → dev server runs on `3001`. Not a code issue, just the user's machine.
 
 ## Done so far
+- [x] **/compare hub + 30 head-to-head pages** (FR+EN, moomz-vs and cross-competitor matrix). Loader at `lib/seo/compare/loader.ts`, routes at `app/compare/[page,slug]`. Wired in sitemap, reserved in usernames.
+- [x] **/template hub + 72 poll templates** (FR/EN/ES/IT/PT/DE, categories wedding/work/classroom/couple/party/teen/drama/debate/food/travel/seasonal). Each template links to `/?q=&o=` to prefill `CreatePollForm`. Loader at `lib/seo/templates/loader.ts`.
 - [x] MVP shipped — create poll, vote, see results
 - [x] Dark glass design + Space Grotesk + animated blob background + emoji per option
 - [x] Optimistic vote with server-side count sync (no `router.refresh` dance)

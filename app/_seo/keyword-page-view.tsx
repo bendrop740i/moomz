@@ -18,14 +18,30 @@ async function fetchMatchingPolls(page: KeywordPage, limit = 8): Promise<Matched
     .slice(0, 6);
   if (patterns.length === 0) return [];
   const orExpr = patterns.map((p) => `question.ilike.%${p}%`).join(",");
-  const { data } = await supabase
+  // Quality gate: only surface polls with ≥10 votes. Empty/abandoned polls
+  // would make the SEO page look low-quality to Google (and to humans).
+  // Fall back to a lower threshold if too few polls match the strict gate.
+  const { data: strict } = await supabase
     .from("polls_with_stats")
     .select("slug,question,options,vote_count")
     .or(orExpr)
     .eq("is_dead", false)
+    .gte("vote_count", 10)
     .order("vote_count", { ascending: false })
     .limit(limit);
-  return (data as MatchedPoll[]) ?? [];
+  if (strict && strict.length >= 3) return strict as MatchedPoll[];
+  // Fallback: relax to ≥1 vote so the page is never empty when matching polls
+  // exist. Better than showing 0 polls; still avoids the "0 vote / abandoned"
+  // look.
+  const { data: relaxed } = await supabase
+    .from("polls_with_stats")
+    .select("slug,question,options,vote_count")
+    .or(orExpr)
+    .eq("is_dead", false)
+    .gte("vote_count", 1)
+    .order("vote_count", { ascending: false })
+    .limit(limit);
+  return (relaxed as MatchedPoll[]) ?? [];
 }
 
 type KeywordLabels = {

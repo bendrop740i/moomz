@@ -27,9 +27,14 @@ export async function generateMetadata({
     if (profile) {
       const title = `@${profile.username}${profile.display_name ? ` (${profile.display_name})` : ""} — moomz`;
       const description = profile.bio ?? `Découvre les sondages de @${profile.username}`;
+      // Animation/character accounts are intentionally not indexed: they exist
+      // to seed engagement, not to compete in search. `follow:true` so internal
+      // links still pass authority.
+      const robots = profile.is_bot ? { index: false, follow: true } : undefined;
       return {
         title,
         description,
+        ...(robots ? { robots } : {}),
         openGraph: { title, description, type: "profile" },
         twitter: { card: "summary_large_image", title, description },
       };
