@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import BottomNav from "./bottom-nav-v2";
 import SiteHeader from "./site-header";
 import StreakHUD from "./streak-hud";
@@ -103,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <ServiceWorkerRegister />
           </MusicProvider>
         </LocaleProvider>
+        <Analytics />
       </body>
     </html>
   );
