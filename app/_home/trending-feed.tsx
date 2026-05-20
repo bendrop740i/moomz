@@ -17,6 +17,7 @@ type TrendingPoll = {
   trending_score: number;
   last_vote_at: string | null;
   topics?: string[];
+  profile_id?: string | null;
 };
 
 async function getTrending(limit = 40): Promise<TrendingPoll[]> {
@@ -24,12 +25,37 @@ async function getTrending(limit = 40): Promise<TrendingPoll[]> {
     const supabase = getSupabase();
     const { data } = await supabase
       .from("polls_trending")
-      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics")
+      .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,topics,profile_id")
       .order("trending_score", { ascending: false })
       .limit(limit);
     return (data as TrendingPoll[]) ?? [];
   } catch {
     return [];
+  }
+}
+
+// Batch-lookup `cosmetic_id` for a set of author profile IDs. Silently returns
+// an empty map if the column doesn't exist yet (parallel migration pending),
+// or if the network call fails — callers fall back to paletteFor(slug).
+async function getAuthorCosmetics(
+  ids: string[],
+): Promise<Map<string, string | null>> {
+  const unique = Array.from(new Set(ids.filter(Boolean)));
+  if (unique.length === 0) return new Map();
+  try {
+    const supabase = getSupabase();
+    const { data, error } = await supabase
+      .from("profiles_public")
+      .select("id,cosmetic_id")
+      .in("id", unique);
+    if (error || !data) return new Map();
+    const map = new Map<string, string | null>();
+    for (const row of data as { id: string; cosmetic_id?: string | null }[]) {
+      if (row.cosmetic_id) map.set(row.id, row.cosmetic_id);
+    }
+    return map;
+  } catch {
+    return new Map();
   }
 }
 
@@ -53,6 +79,10 @@ export default async function TrendingFeed() {
   const offTopic = fresh.filter((p) => !matchesTopics(p));
   const alreadyVoted = allPolls.filter((p) => votedSet.has(p.slug) && !skippedSet.has(p.slug));
   const polls = [...onTopic, ...offTopic, ...alreadyVoted].slice(0, 15);
+
+  const cosmeticsByAuthor = await getAuthorCosmetics(
+    polls.map((p) => p.profile_id ?? "").filter(Boolean),
+  );
 
   const top1Score = polls[0]?.trending_score ?? 0;
 
@@ -120,6 +150,9 @@ export default async function TrendingFeed() {
                 isLive={isLive}
                 isNew={isNew}
                 isRising={isRising}
+                authorCosmeticId={
+                  p.profile_id ? cosmeticsByAuthor.get(p.profile_id) ?? null : null
+                }
               />
             </div>
           );

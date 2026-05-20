@@ -7,6 +7,7 @@ import { castVote, refreshCounts, skipPoll } from "./actions";
 import { getBrowserSupabase } from "@/lib/supabase-browser";
 import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
+import { palettePreviewFromCosmetic } from "@/lib/cosmetics";
 import AnimatedNumber from "./animated-number";
 import { useT } from "./locale-context";
 
@@ -78,6 +79,12 @@ type Props = {
   isLive?: boolean;
   isNew?: boolean;
   isRising?: boolean;
+  // If the poll author has an equipped cosmetic palette, callers may pass it
+  // here to override the per-slug hashed palette used for the question
+  // gradient. Accepts a `cosmetic_id` string (e.g. "ocean", "galaxy") matching
+  // a `PaletteId` in lib/cosmetics.ts. Unknown / "auto" / null → fall back to
+  // paletteFor(slug).
+  authorCosmeticId?: string | null;
   onSkip?: () => void;
   onVoted?: () => void;
 };
@@ -93,6 +100,7 @@ export default function PollCard({
   isLive,
   isNew,
   isRising,
+  authorCosmeticId,
   onSkip,
   onVoted,
 }: Props) {
@@ -156,7 +164,9 @@ export default function PollCard({
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
-  const pal = paletteFor(slug);
+  // Prefer the author's equipped cosmetic palette when present; otherwise fall
+  // back to the per-slug hashed palette so existing polls keep their look.
+  const pal = palettePreviewFromCosmetic(authorCosmeticId) ?? paletteFor(slug);
 
   useEffect(() => {
     const match =

@@ -56,3 +56,17 @@ export function unlockLabel(p: CosmeticPalette): string {
   if (p.unlock.kind === "streak") return `Streak ${p.unlock.value}`;
   return "";
 }
+
+// Returns the same shape as `paletteFor` in lib/palette.ts so callers can
+// drop-in override the slug-hashed palette when a profile has an equipped
+// cosmetic. We narrow to the `{c1,c2,c3}` triple used by the gradient text
+// in PollCard / VoteClient.
+export function palettePreviewFromCosmetic(
+  cosmeticId: string | null | undefined,
+): { c1: string; c2: string; c3: string } | null {
+  const p = paletteById(cosmeticId ?? null);
+  // "auto" is the explicit opt-in to per-slug hashed palettes — treat it as
+  // "no override" so the caller falls back to paletteFor(slug).
+  if (!p || p.id === "auto") return null;
+  return { c1: p.c1, c2: p.c2, c3: p.c3 };
+}

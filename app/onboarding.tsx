@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { setTopics } from "./actions";
-import { TOPICS, getTopicLabel, type Topic } from "@/lib/topics";
+import { TOPICS, type Topic } from "@/lib/topics";
 import { useT } from "./locale-context";
 
 const MAX_PICK = 5;
@@ -194,7 +194,7 @@ export default function Onboarding() {
             {TOPICS.map((topic) => {
               const active = picked.has(topic.id);
               const disabled = !active && picked.size >= MAX_PICK;
-              const label = getTopicLabel(topic.id, t);
+              const label = t(`onboarding.topic.${topic.id}`);
               return (
                 <button
                   key={topic.id}
@@ -211,14 +211,6 @@ export default function Onboarding() {
                         : "bg-white/[0.04] border-white/10 hover:bg-white/[0.08] hover:border-white/20 active:scale-[0.97]"
                   }`}
                 >
-                  <span
-                    className={`text-3xl leading-none transition-transform ${
-                      active ? "scale-110" : "group-hover:scale-105"
-                    }`}
-                    aria-hidden
-                  >
-                    {topic.emoji}
-                  </span>
                   <span className="text-xs sm:text-sm font-semibold text-center leading-tight">
                     {label}
                   </span>
@@ -242,7 +234,7 @@ export default function Onboarding() {
             disabled={saving}
             className="min-h-[48px] rounded-xl px-4 text-sm font-medium text-white/60 hover:text-white hover:bg-white/5 transition disabled:opacity-50 shrink-0"
           >
-            {t("onboarding.skipButton")}
+            {t("onboarding.skip")}
           </button>
           <button
             onClick={submit}
@@ -252,8 +244,8 @@ export default function Onboarding() {
             {saving
               ? "…"
               : picked.size === 0
-                ? t("onboarding.errorNoTopics")
-                : `${t("onboarding.submitButton")} (${picked.size})`}
+                ? t("onboarding.pick_topics")
+                : `${t("onboarding.continue")} (${picked.size})`}
           </button>
         </div>
       </div>

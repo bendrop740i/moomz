@@ -11,6 +11,8 @@ import InstallPrompt from "./install-prompt";
 import PushPrompt from "./push-prompt";
 import { MusicProvider } from "./music-provider";
 import MusicMiniPlayer from "./music-mini-player";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getLocale } from "@/lib/i18n-server";
 import { getDirection } from "@/lib/dir";
 import { t } from "@/lib/i18n";
@@ -103,6 +105,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <ServiceWorkerRegister />
           </MusicProvider>
         </LocaleProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

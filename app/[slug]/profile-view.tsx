@@ -2,6 +2,7 @@ import type { Profile } from "@/lib/profile";
 import { ACHIEVEMENT_ORDER, ACHIEVEMENTS, type AchievementId } from "@/lib/achievements";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
+import { paletteById } from "@/lib/cosmetics";
 import ShareLinker from "./share-linker";
 import MadeWithMoomz from "./made-with-moomz";
 import LinkerPollsGrid from "./linker-polls-grid";
@@ -60,18 +61,58 @@ export default function ProfileView({
   const socialKeys = Object.keys(socials).filter((k) => SOCIAL_ICONS[k]);
   const locale = getLocale();
   const isBot = profile.is_bot === true;
+  // Equipped cosmetic palette (if any). `paletteById` returns null for "auto"
+  // or unknown IDs, which is what we want — no pill in that case.
+  const equipped = paletteById(profile.cosmetic_id ?? null);
+  const hasEquippedPalette = !!equipped && equipped.id !== "auto";
+  const avatarUrl = profile.avatar_url ?? null;
 
   return (
     <div className="space-y-6 fade-up">
       <header className="glass relative rounded-3xl p-4 sm:p-6 space-y-4 text-center">
         <ShareLinker username={profile.username} displayName={profile.display_name} />
-        <div className="text-5xl sm:text-6xl">{profile.avatar_emoji}</div>
+        {avatarUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={avatarUrl}
+            alt={profile.display_name ?? `@${profile.username}`}
+            width={88}
+            height={88}
+            className="mx-auto w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border border-white/15 bg-white/5 shadow-lg"
+          />
+        ) : (
+          <div className="text-5xl sm:text-6xl">{profile.avatar_emoji}</div>
+        )}
         <div className="space-y-1">
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight break-words">
             {profile.display_name ?? `@${profile.username}`}
           </h1>
           {profile.display_name && (
             <div className="text-sm text-white/50 break-all">@{profile.username}</div>
+          )}
+          {hasEquippedPalette && equipped && (
+            <div className="pt-1 flex justify-center">
+              <span
+                className="inline-flex items-center gap-1.5 text-[11px] font-semibold px-2.5 py-1 rounded-full border border-white/15 bg-white/5"
+                title={`Cosmetic: ${equipped.name}`}
+              >
+                <span aria-hidden className="flex -space-x-1">
+                  <span
+                    className="w-2.5 h-2.5 rounded-full border border-black/30"
+                    style={{ background: equipped.c1 }}
+                  />
+                  <span
+                    className="w-2.5 h-2.5 rounded-full border border-black/30"
+                    style={{ background: equipped.c2 }}
+                  />
+                  <span
+                    className="w-2.5 h-2.5 rounded-full border border-black/30"
+                    style={{ background: equipped.c3 }}
+                  />
+                </span>
+                <span className="text-white/80">✨ wearing {equipped.name}</span>
+              </span>
+            </div>
           )}
           {isBot && (
             <div className="pt-2 flex flex-col items-center gap-1.5">

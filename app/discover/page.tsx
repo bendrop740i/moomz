@@ -39,6 +39,7 @@ type TrendingRow = {
   recent_votes: number;
   trending_score: number;
   last_vote_at: string | null;
+  profile_id?: string | null;
 };
 
 export default async function DiscoverPage() {
@@ -48,7 +49,7 @@ export default async function DiscoverPage() {
   const supabase = getSupabase();
   const { data } = await supabase
     .from("polls_trending")
-    .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at")
+    .select("id,slug,question,options,created_at,vote_count,recent_votes,trending_score,last_vote_at,profile_id")
     .order("trending_score", { ascending: false })
     .limit(40);
 
@@ -57,10 +58,35 @@ export default async function DiscoverPage() {
   const voted = new Set(readSlugHistory("moomz_voted_slugs"));
   const jar = cookies();
 
+  // Batch lookup of cosmetic_id for the authors of these polls. Tolerates the
+  // column not existing yet (parallel migration) — falls back to no override.
+  const authorIds = Array.from(
+    new Set(rows.map((r) => r.profile_id).filter((x): x is string => !!x)),
+  );
+  const cosmeticByAuthor = new Map<string, string | null>();
+  if (authorIds.length > 0) {
+    try {
+      const { data: cosmetics, error } = await supabase
+        .from("profiles_public")
+        .select("id,cosmetic_id")
+        .in("id", authorIds);
+      if (!error && cosmetics) {
+        for (const c of cosmetics as { id: string; cosmetic_id?: string | null }[]) {
+          if (c.cosmetic_id) cosmeticByAuthor.set(c.id, c.cosmetic_id);
+        }
+      }
+    } catch {
+      // ignore — column likely doesn't exist yet
+    }
+  }
+
   const enrich = (r: TrendingRow) => {
     const votedRaw = jar.get(`moomz_voted_${r.slug}`)?.value;
     const alreadyVoted = votedRaw !== undefined ? Number(votedRaw) : null;
-    return { ...r, alreadyVoted };
+    const authorCosmeticId = r.profile_id
+      ? cosmeticByAuthor.get(r.profile_id) ?? null
+      : null;
+    return { ...r, alreadyVoted, authorCosmeticId };
   };
   const fresh = rows.filter((r) => !voted.has(r.slug) && !skipped.has(r.slug)).map(enrich);
   const seenAgain = rows.filter((r) => voted.has(r.slug) && !skipped.has(r.slug)).map(enrich);

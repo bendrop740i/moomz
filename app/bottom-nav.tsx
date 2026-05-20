@@ -42,9 +42,25 @@ export default function BottomNav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, [pathname]);
 
+  const hiddenRef = useRef(hidden);
+  useEffect(() => {
+    hiddenRef.current = hidden;
+  }, [hidden]);
+
+  // Helper: skip work when tab is hidden, the device is offline,
+  // or the nav itself is scroll-hidden (user is scrolling — no need to refresh badges).
+  const canFetch = () => {
+    if (typeof document === "undefined") return false;
+    if (document.visibilityState !== "visible") return false;
+    if (typeof navigator !== "undefined" && navigator.onLine === false) return false;
+    if (hiddenRef.current) return false;
+    return true;
+  };
+
   useEffect(() => {
     let cancelled = false;
     const fetchAsk = async () => {
+      if (!canFetch()) return;
       try {
         const res = await fetch("/api/ask-pending", { cache: "no-store" });
         if (!res.ok) return;
@@ -53,22 +69,35 @@ export default function BottomNav() {
       } catch {}
     };
     fetchAsk();
-    const id = setInterval(fetchAsk, 30_000);
+    const id = setInterval(fetchAsk, 60_000);
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") fetchAsk();
+    };
+    const onOnline = () => fetchAsk();
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("online", onOnline);
     return () => {
       cancelled = true;
       clearInterval(id);
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("online", onOnline);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
   useEffect(() => {
     let cancelled = false;
-    const compute = async () => {
+    // Read the cookie once on mount: if the user has zero created polls,
+    // skip the polls-stats loop entirely.
+    const readSlugs = () => {
       const match = document.cookie.match(/(?:^|;\s*)moomz_created_slugs=([^;]+)/);
-      if (!match) {
-        if (!cancelled) setPollsBadge(null);
-        return;
-      }
-      const slugs = decodeURIComponent(match[1]).split(",").filter(Boolean).slice(0, 20);
+      if (!match) return [] as string[];
+      return decodeURIComponent(match[1]).split(",").filter(Boolean).slice(0, 20);
+    };
+
+    const compute = async () => {
+      if (!canFetch()) return;
+      const slugs = readSlugs();
       if (slugs.length === 0) {
         if (!cancelled) setPollsBadge(null);
         return;
@@ -90,12 +119,41 @@ export default function BottomNav() {
         if (!cancelled) setPollsBadge(total > 0 ? total : null);
       } catch {}
     };
-    compute();
-    const id = setInterval(compute, 30_000);
+
+    // Gate the whole loop on whether there are slugs at mount time
+    // (also re-check on focus in case the user just created their first poll).
+    let id: ReturnType<typeof setInterval> | null = null;
+    const start = () => {
+      const slugs = readSlugs();
+      if (slugs.length === 0) {
+        setPollsBadge(null);
+        if (id) {
+          clearInterval(id);
+          id = null;
+        }
+        return;
+      }
+      compute();
+      if (!id) id = setInterval(compute, 60_000);
+    };
+    start();
+
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") start();
+    };
+    const onFocus = () => start();
+    const onOnline = () => start();
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("focus", onFocus);
+    window.addEventListener("online", onOnline);
     return () => {
       cancelled = true;
-      clearInterval(id);
+      if (id) clearInterval(id);
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("focus", onFocus);
+      window.removeEventListener("online", onOnline);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { createPoll } from "./actions";
 import { useT } from "./locale-context";
@@ -24,6 +24,96 @@ const OPTION_EXAMPLES: [string, string][] = [
   ["chaud", "pas chaud"],
 ];
 
+const ACCEPTED_MIME = ["image/jpeg", "image/png", "image/webp", "image/gif"];
+const MAX_BYTES = 5 * 1024 * 1024; // 5 MB
+const TARGET_W = 1200;
+const TARGET_H = 630;
+const JPEG_QUALITY = 0.85;
+
+// Cover-semantics canvas resize → JPEG blob.
+async function resizeImageToBlob(file: File): Promise<Blob> {
+  // Skip resize if original is already small enough and already JPEG.
+  if (file.type === "image/jpeg" && file.size <= MAX_BYTES) {
+    const img = await loadImage(file);
+    if (img.naturalWidth <= TARGET_W && img.naturalHeight <= TARGET_H) {
+      return file;
+    }
+  }
+
+  const img = await loadImage(file);
+  const srcW = img.naturalWidth;
+  const srcH = img.naturalHeight;
+  const srcRatio = srcW / srcH;
+  const targetRatio = TARGET_W / TARGET_H;
+
+  // Cover: crop the larger axis to match target ratio.
+  let cropW = srcW;
+  let cropH = srcH;
+  let cropX = 0;
+  let cropY = 0;
+  if (srcRatio > targetRatio) {
+    // Source too wide → crop width.
+    cropW = Math.round(srcH * targetRatio);
+    cropX = Math.round((srcW - cropW) / 2);
+  } else if (srcRatio < targetRatio) {
+    // Source too tall → crop height.
+    cropH = Math.round(srcW / targetRatio);
+    cropY = Math.round((srcH - cropH) / 2);
+  }
+
+  // Output dimensions: scale down if source crop is larger than target.
+  const outW = Math.min(TARGET_W, cropW);
+  const outH = Math.min(TARGET_H, cropH);
+
+  const canvas = document.createElement("canvas");
+  canvas.width = outW;
+  canvas.height = outH;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) throw new Error("canvas-context-unavailable");
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = "high";
+  ctx.drawImage(img, cropX, cropY, cropW, cropH, 0, 0, outW, outH);
+
+  return await new Promise<Blob>((resolve, reject) => {
+    canvas.toBlob(
+      (blob) => {
+        if (blob) resolve(blob);
+        else reject(new Error("canvas-toblob-failed"));
+      },
+      "image/jpeg",
+      JPEG_QUALITY,
+    );
+  });
+}
+
+function loadImage(file: File): Promise<HTMLImageElement> {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      // Defer revoke so the bitmap is available for drawing.
+      resolve(img);
+    };
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("image-load-failed"));
+    };
+    img.src = url;
+  });
+}
+
+function makeUuid(): string {
+  try {
+    if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
+      return crypto.randomUUID();
+    }
+  } catch {
+    // ignore
+  }
+  // Fallback: timestamp + random.
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
 export default function CreatePollForm() {
   const t = useT();
   const searchParams = useSearchParams();
@@ -39,6 +129,12 @@ export default function CreatePollForm() {
   const [pending, setPending] = useState(false);
   const [pIdx, setPIdx] = useState(0);
 
+  // Image upload state.
+  const [imageUrl, setImageUrl] = useState<string>("");
+  const [uploading, setUploading] = useState(false);
+  const [imageError, setImageError] = useState<string>("");
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
+
   const reactId = useId();
   const formId = `create-poll-${reactId}`;
   const headingId = `${formId}-heading`;
@@ -46,6 +142,8 @@ export default function CreatePollForm() {
   const questionHintId = `${formId}-question-hint`;
   const optionsLabelId = `${formId}-options-label`;
   const optionsHintId = `${formId}-options-hint`;
+  const imageInputId = `${formId}-image`;
+  const imageErrorId = `${formId}-image-error`;
 
   useEffect(() => {
     if (prefillQ || prefillOpts) return;
@@ -68,6 +166,56 @@ export default function CreatePollForm() {
   const addOption = () => options.length < 6 && setOptions([...options, ""]);
   const removeOption = (i: number) =>
     options.length > 2 && setOptions(options.filter((_, idx) => idx !== i));
+
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    setImageError("");
+    if (!file) return;
+
+    if (!ACCEPTED_MIME.includes(file.type)) {
+      setImageError("Format non supporté (jpeg, png, webp, gif uniquement)");
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+    if (file.size > MAX_BYTES) {
+      setImageError("Image trop lourde (max 5 Mo)");
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
+    setUploading(true);
+    try {
+      const blob = await resizeImageToBlob(file);
+      const { getBrowserSupabase } = await import("@/lib/supabase-browser");
+      const supabase = getBrowserSupabase();
+      const key = `${makeUuid()}.jpg`;
+      const { error: upErr } = await supabase.storage
+        .from("poll-images")
+        .upload(key, blob, {
+          contentType: "image/jpeg",
+          upsert: false,
+        });
+      if (upErr) throw upErr;
+      const { data } = supabase.storage.from("poll-images").getPublicUrl(key);
+      if (!data?.publicUrl) throw new Error("no-public-url");
+      setImageUrl(data.publicUrl);
+    } catch (err) {
+      console.error("[create-poll-form] image upload failed", err);
+      setImageError(
+        "Image n'a pas pu être uploadée — réessaie ou crée sans",
+      );
+      setImageUrl("");
+      if (fileInputRef.current) fileInputRef.current.value = "";
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const clearImage = () => {
+    setImageUrl("");
+    setImageError("");
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
 
   return (
     <form
@@ -109,6 +257,66 @@ export default function CreatePollForm() {
         <span id={questionHintId} className="sr-only">
           Pose une question courte, 200 caractères maximum.
         </span>
+      </div>
+
+      <div>
+        <label
+          htmlFor={imageInputId}
+          className="block text-xs font-medium mb-1.5 text-white/60 uppercase tracking-wider"
+        >
+          Image (optionnel)
+        </label>
+        <div className="flex items-start gap-3">
+          <div className="flex-1 min-w-0">
+            <input
+              ref={fileInputRef}
+              id={imageInputId}
+              type="file"
+              accept="image/jpeg,image/png,image/webp,image/gif"
+              onChange={handleFileChange}
+              disabled={uploading || pending}
+              aria-describedby={imageError ? imageErrorId : undefined}
+              className="block w-full text-xs sm:text-sm text-white/70 file:mr-3 file:rounded-lg file:border-0 file:bg-white/10 file:px-3 file:py-2 file:text-xs file:font-medium file:text-white/90 hover:file:bg-white/15 file:cursor-pointer cursor-pointer rounded-xl bg-white/5 border border-white/10 px-3 py-2.5 outline-none focus:border-pink-400/50 transition disabled:opacity-50"
+            />
+            {uploading && (
+              <div className="mt-2 flex items-center gap-2 text-xs text-white/60">
+                <span
+                  className="inline-block w-3.5 h-3.5 rounded-full border-2 border-white/30 border-t-pink-400 animate-spin"
+                  aria-hidden="true"
+                />
+                <span>Upload en cours…</span>
+              </div>
+            )}
+            {imageError && (
+              <p
+                id={imageErrorId}
+                role="alert"
+                className="mt-2 text-xs text-red-400"
+              >
+                {imageError}
+              </p>
+            )}
+          </div>
+          {imageUrl && !uploading && (
+            <div className="relative shrink-0">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={imageUrl}
+                alt="Aperçu de l'image téléchargée"
+                className="w-[120px] h-[63px] object-cover rounded-lg border border-white/10"
+              />
+              <button
+                type="button"
+                onClick={clearImage}
+                aria-label="Retirer l'image"
+                className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-black/80 text-white text-xs leading-none flex items-center justify-center border border-white/20 hover:bg-red-500/90 transition"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+          )}
+        </div>
+        <input type="hidden" name="image_url" value={imageUrl} />
       </div>
 
       <div className="space-y-2" role="group" aria-labelledby={optionsLabelId} aria-describedby={optionsHintId}>
@@ -175,7 +383,7 @@ export default function CreatePollForm() {
 
       <button
         type="submit"
-        disabled={pending}
+        disabled={pending || uploading}
         aria-label={
           pending
             ? `${t("form.creating")} — création de votre sondage en cours`

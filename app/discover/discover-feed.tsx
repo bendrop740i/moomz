@@ -16,6 +16,7 @@ type Poll = {
   trending_score: number;
   last_vote_at: string | null;
   alreadyVoted: number | null;
+  authorCosmeticId?: string | null;
 };
 
 export default function DiscoverFeed({
@@ -130,6 +131,7 @@ export default function DiscoverFeed({
                   isLive={isLive}
                   isNew={isNew}
                   isRising={isRising}
+                  authorCosmeticId={p.authorCosmeticId ?? null}
                   onSkip={() => skip(p.slug)}
                   onVoted={scrollToNext}
                 />

@@ -9,6 +9,22 @@ import { buildPollSlug, randomSuffix } from "@/lib/slug";
 import { t } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
 
+// Shared cookie defaults: secure in prod, sameSite=lax everywhere.
+// Pass `httpOnly: true` for anything not read by client JS.
+function cookieOpts(extra: {
+  httpOnly?: boolean;
+  maxAge?: number;
+  path?: string;
+} = {}) {
+  return {
+    sameSite: "lax" as const,
+    secure: process.env.NODE_ENV === "production",
+    path: extra.path ?? "/",
+    maxAge: extra.maxAge ?? 60 * 60 * 24 * 365,
+    httpOnly: extra.httpOnly ?? false,
+  };
+}
+
 type ProfileLookup =
   | { kind: "user"; userId: string }
   | { kind: "token"; token: string };
@@ -35,12 +51,10 @@ function voterId() {
   let id = jar.get("moomz_voter")?.value;
   if (!id) {
     id = crypto.randomUUID();
-    jar.set("moomz_voter", id, {
-      httpOnly: false,
-      sameSite: "lax",
-      maxAge: 60 * 60 * 24 * 365,
-      path: "/",
-    });
+    // httpOnly: the cookie is only used server-side for vote attribution,
+    // so locking it down closes the "rotate the cookie to bypass rate limit"
+    // attack flagged in the security audit.
+    jar.set("moomz_voter", id, cookieOpts({ httpOnly: true }));
   }
   return id;
 }
@@ -54,11 +68,7 @@ function pushSlugToHistory(cookieName: string, slug: string) {
   const filtered = list.filter((s) => s !== slug);
   filtered.unshift(slug);
   const trimmed = filtered.slice(0, HISTORY_LIMIT);
-  jar.set(cookieName, trimmed.join(","), {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
+  jar.set(cookieName, trimmed.join(","), cookieOpts());
 }
 
 function looksLikeNoise(text: string, minLen = 2): boolean {
@@ -146,14 +156,21 @@ export async function createPoll(formData: FormData) {
     ? langCookie!
     : "fr";
 
-  const { error } = await supabase.from("polls").insert({
+  const rawImageUrl = String(formData.get("image_url") ?? "").trim();
+  // Only accept https URLs to avoid javascript:/data: shenanigans.
+  const imageUrl = /^https:\/\//i.test(rawImageUrl) ? rawImageUrl.slice(0, 1024) : null;
+
+  const insertPayload: Record<string, unknown> = {
     slug,
     question,
     options: optionsRaw,
     profile_id: profileId,
     topics,
     lang,
-  });
+  };
+  if (imageUrl) insertPayload.image_url = imageUrl;
+
+  const { error } = await supabase.from("polls").insert(insertPayload);
   if (error) throw new Error(error.message);
 
   pushSlugToHistory("moomz_created_slugs", slug);
@@ -166,30 +183,18 @@ export async function skipPoll(slug: string) {
 }
 
 export async function markPollSeen(slug: string, voteCount: number) {
-  cookies().set(`moomz_seen_${slug}`, String(voteCount), {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
+  cookies().set(`moomz_seen_${slug}`, String(voteCount), cookieOpts());
 }
 
 export async function setTopics(topics: string[]) {
   const valid = topics.filter((t) => (TOPIC_IDS as string[]).includes(t)).slice(0, 6);
-  cookies().set("moomz_topics", valid.join(","), {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
+  cookies().set("moomz_topics", valid.join(","), cookieOpts());
 }
 
 export async function setLocale(locale: string) {
   const allowed = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"];
   if (!allowed.includes(locale)) return;
-  cookies().set("moomz_locale", locale, {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
+  cookies().set("moomz_locale", locale, cookieOpts());
 }
 
 const RESERVED_USERNAMES = new Set([
@@ -277,12 +282,11 @@ export async function claimUsername(formData: FormData) {
   }
 
   if (newToken) {
-    cookies().set("moomz_profile_token", newToken, {
-      sameSite: "lax",
-      maxAge: 60 * 60 * 24 * 365 * 5,
-      path: "/",
-      httpOnly: true,
-    });
+    cookies().set(
+      "moomz_profile_token",
+      newToken,
+      cookieOpts({ httpOnly: true, maxAge: 60 * 60 * 24 * 365 * 5 }),
+    );
   }
 
   const created = readSlugList("moomz_created_slugs");
@@ -321,6 +325,10 @@ export async function updateProfile(formData: FormData) {
   const tiktok = String(formData.get("tiktok") ?? "").trim() || null;
   const x = String(formData.get("x") ?? "").trim() || null;
   const website = String(formData.get("website") ?? "").trim() || null;
+  const rawAvatarUrl = String(formData.get("avatar_url") ?? "").trim();
+  const avatarUrl = /^https:\/\//i.test(rawAvatarUrl) ? rawAvatarUrl.slice(0, 1024) : null;
+  const cosmeticIdRaw = String(formData.get("cosmetic_id") ?? "").trim();
+  const cosmeticId = /^[a-z0-9_\-]{1,40}$/i.test(cosmeticIdRaw) ? cosmeticIdRaw : null;
 
   const socials: Record<string, string> = {};
   if (insta) socials.instagram = insta.replace(/^@/, "");
@@ -328,28 +336,22 @@ export async function updateProfile(formData: FormData) {
   if (x) socials.x = x.replace(/^@/, "");
   if (website) socials.website = website.startsWith("http") ? website : `https://${website}`;
 
+  // Build patch additively — never overwrite avatar_url / cosmetic_id when the
+  // caller didn't include them in the form (preserves prior values).
+  const patch: Record<string, unknown> = {
+    display_name: displayName,
+    bio,
+    avatar_emoji: emoji.slice(0, 4),
+    socials,
+  };
+  if (formData.has("avatar_url")) patch.avatar_url = avatarUrl;
+  if (formData.has("cosmetic_id")) patch.cosmetic_id = cosmeticId;
+
   const { error } = await supabase
     .from("profiles")
-    .update({
-      display_name: displayName,
-      bio,
-      avatar_emoji: emoji.slice(0, 4),
-      socials,
-    })
+    .update(patch)
     .eq("id", existing.id);
   if (error) throw new Error(error.message);
-}
-
-const STREAK_WINDOW_MS = 3 * 60 * 1000;
-
-function computeStreak(prev: { cur: number; top: number; pts: number; ts: number } | null) {
-  const now = Date.now();
-  const cur = prev && now - prev.ts < STREAK_WINDOW_MS ? prev.cur + 1 : 1;
-  const top = Math.max(prev?.top ?? 0, cur);
-  const multiplier = cur >= 18 ? 5 : cur >= 12 ? 4 : cur >= 7 ? 3 : cur >= 3 ? 2 : 1;
-  const gained = multiplier;
-  const pts = (prev?.pts ?? 0) + gained;
-  return { cur, top, pts, ts: now, multiplier, gained };
 }
 
 type CastVoteResult = {
@@ -381,30 +383,8 @@ export async function castVote(
   if (error && !error.message.toLowerCase().includes("duplicate")) {
     throw new Error(error.message);
   }
-  cookies().set(`moomz_voted_${slug}`, String(optionIndex), {
-    sameSite: "lax",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
+  cookies().set(`moomz_voted_${slug}`, String(optionIndex), cookieOpts());
   pushSlugToHistory("moomz_voted_slugs", slug);
-
-  const prevRaw = cookies().get("moomz_streak")?.value;
-  let prev: { cur: number; top: number; pts: number; ts: number } | null = null;
-  if (prevRaw) {
-    try {
-      prev = JSON.parse(prevRaw);
-    } catch {}
-  }
-  const streak = computeStreak(prev);
-  cookies().set(
-    "moomz_streak",
-    JSON.stringify({ cur: streak.cur, top: streak.top, pts: streak.pts, ts: streak.ts }),
-    {
-      sameSite: "lax",
-      maxAge: 60 * 60 * 24 * 365,
-      path: "/",
-    },
-  );
 
   const { data: votes } = await supabase
     .from("votes")
@@ -431,81 +411,61 @@ export async function castVote(
     .maybeSingle();
   const isDaily = today?.poll_id === pollId;
 
-  const newAchievements: string[] = [];
-  const profileLookup = await getProfileLookup();
-  if (profileLookup) {
-    const { data: prof } = await applyLookup(
-      supabase
-        .from("profiles")
-        .select("id,total_points,top_streak,achievements,votes_cast,rebel_count,majority_count,polls_created,daily_streak,last_daily_date"),
-      profileLookup,
-    ).maybeSingle();
-    if (prof) {
-      const owned = new Set<string>((prof.achievements ?? []) as string[]);
-      const unlock = (id: string) => {
-        if (!owned.has(id)) {
-          owned.add(id);
-          newAchievements.push(id);
-        }
-      };
-      const newVotesCast = (prof.votes_cast ?? 0) + 1;
-      const newRebelCount = (prof.rebel_count ?? 0) + (isRebel ? 1 : 0);
-      const newMajorityCount = (prof.majority_count ?? 0) + (isMajority ? 1 : 0);
+  // -----
+  // Race-safe streak / points / achievements credit via SQL function.
+  // The RPC takes an advisory lock keyed on hashtext(voter_id) so two parallel
+  // calls from the same voter serialize cleanly. Profile lookup happens inside
+  // the txn with FOR UPDATE so writes are consistent.
+  // -----
+  const ssr = getServerSupabase();
+  const { data: auth } = await ssr.auth.getUser();
+  const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
 
-      if (newVotesCast === 1) unlock("first_vote");
-      if (isRebel && newRebelCount === 1) unlock("first_rebel");
-      if (newRebelCount >= 10) unlock("rebel_x10");
-      if (newVotesCast >= 100) unlock("marathon");
-      if (streak.cur >= 3) unlock("streak_3");
-      if (streak.cur >= 7) unlock("streak_7");
-      if (streak.cur >= 12) unlock("streak_12");
-      if (streak.cur >= 18) unlock("streak_18");
-      unlock("claimed");
+  const { data: streakResult } = await supabase.rpc("apply_vote_streak", {
+    p_voter_id: id,
+    p_user_id: auth.user?.id ?? null,
+    p_claim_token: claimToken,
+    p_is_majority: isMajority,
+    p_is_rebel: isRebel,
+    p_is_daily: isDaily,
+  });
 
-      let newDailyStreak = prof.daily_streak ?? 0;
-      let newLastDailyDate: string | null = prof.last_daily_date ?? null;
-      if (isDaily) {
-        const todayStr = new Date().toISOString().slice(0, 10);
-        const last = prof.last_daily_date ? new Date(prof.last_daily_date) : null;
-        if (last && prof.last_daily_date === todayStr) {
-          // already counted today
-        } else {
-          const yesterday = new Date();
-          yesterday.setUTCDate(yesterday.getUTCDate() - 1);
-          const yStr = yesterday.toISOString().slice(0, 10);
-          newDailyStreak = prof.last_daily_date === yStr ? (prof.daily_streak ?? 0) + 1 : 1;
-          newLastDailyDate = todayStr;
-        }
-      }
+  type RpcResult = {
+    gained?: number;
+    multiplier?: number;
+    current?: number;
+    top?: number;
+    total?: number;
+    achievements?: string[];
+  };
+  const sr: RpcResult = (streakResult ?? {}) as RpcResult;
 
-      await supabase
-        .from("profiles")
-        .update({
-          total_points: (prof.total_points ?? 0) + streak.gained,
-          top_streak: Math.max(prof.top_streak ?? 0, streak.cur),
-          votes_cast: newVotesCast,
-          rebel_count: newRebelCount,
-          majority_count: newMajorityCount,
-          achievements: Array.from(owned),
-          daily_streak: newDailyStreak,
-          last_daily_date: newLastDailyDate,
-        })
-        .eq("id", prof.id);
-    }
-  }
+  // Also keep the cookie up-to-date for anon-without-profile users so the
+  // top-right HUD shows a sensible streak. For profile users the RPC is
+  // authoritative but we still sync the cookie for instant UI.
+  cookies().set(
+    "moomz_streak",
+    JSON.stringify({
+      cur: sr.current ?? 1,
+      top: sr.top ?? 1,
+      pts: sr.total ?? sr.gained ?? 0,
+      ts: Date.now(),
+    }),
+    cookieOpts(),
+  );
 
   return {
     counts,
     total,
     points: {
-      gained: streak.gained,
-      total: streak.pts,
-      current: streak.cur,
-      top: streak.top,
-      multiplier: streak.multiplier,
+      gained: sr.gained ?? 1,
+      total: sr.total ?? sr.gained ?? 1,
+      current: sr.current ?? 1,
+      top: sr.top ?? 1,
+      multiplier: sr.multiplier ?? 1,
     },
     reveal: { isMajority, isRebel, userPct, majorityPct },
-    achievements: newAchievements,
+    achievements: sr.achievements ?? [],
   };
 }
 

@@ -17,8 +17,9 @@ function getAskerId(): string {
   if (!id) {
     id = crypto.randomUUID();
     jar.set("moomz_voter", id, {
-      httpOnly: false,
+      httpOnly: true,
       sameSite: "lax",
+      secure: process.env.NODE_ENV === "production",
       maxAge: 60 * 60 * 24 * 365,
       path: "/",
     });
@@ -40,6 +41,10 @@ export async function askQuestion(formData: FormData): Promise<AskResult> {
   const recipientId = String(formData.get("recipient_id") ?? "").trim();
   const text = String(formData.get("text") ?? "").trim();
   const locale = String(formData.get("locale") ?? "").trim().slice(0, 6) || null;
+  // Honor the anonymous toggle. Truthy values: "1", "true", "on" (the default
+  // when an unchecked checkbox is omitted falls through to false).
+  const anonRaw = String(formData.get("is_anonymous") ?? "").trim().toLowerCase();
+  const isAnonymous = anonRaw === "1" || anonRaw === "true" || anonRaw === "on" || anonRaw === "yes";
 
   if (!recipientId) return { ok: false, error: "bad_request" };
   if (text.length < MIN_QUESTION_LEN) return { ok: false, error: "too_short" };
@@ -49,7 +54,9 @@ export async function askQuestion(formData: FormData): Promise<AskResult> {
   const askerId = getAskerId();
   const supabase = getSupabase();
 
-  // Cap: 3 per asker → recipient / 24h.
+  // Cap: 3 per asker → recipient / 24h. We always pass the real asker id here
+  // so the rate-limit window holds even on anonymous asks; only the persisted
+  // `asker_id` is dropped to honor the toggle.
   const { data: recent } = await supabase.rpc("ask_recent_count", {
     p_recipient: recipientId,
     p_asker: askerId,
@@ -58,13 +65,20 @@ export async function askQuestion(formData: FormData): Promise<AskResult> {
     return { ok: false, error: "rate_limited" };
   }
 
-  const { error } = await supabase.from("ask_questions").insert({
+  const insertPayload: Record<string, unknown> = {
     recipient_id: recipientId,
-    asker_id: askerId,
     text,
     status: "pending",
     locale,
-  });
+  };
+  // When the user opts into anonymity we skip writing asker_id entirely so the
+  // recipient has no way to fingerprint the asker. Otherwise persist it like
+  // before.
+  if (!isAnonymous) {
+    insertPayload.asker_id = askerId;
+  }
+
+  const { error } = await supabase.from("ask_questions").insert(insertPayload);
   if (error) return { ok: false, error: error.message };
 
   // Optimistic: ping the recipient's public route so SSR reflects the new ask.
