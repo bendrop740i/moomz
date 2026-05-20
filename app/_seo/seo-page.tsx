@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdSlot from "@/app/ad-slot";
 import type { SeoPage, Locale } from "@/lib/seo/types";
 import { pageUrl, pollLaunchUrl } from "@/lib/seo/types";
 import { relatedPages } from "@/lib/seo";
@@ -159,6 +160,8 @@ export default function SeoPageView({ page }: Props) {
           </section>
         ))}
       </div>
+
+      <AdSlot />
 
       {page.polls.length > 0 && (
         <section className="space-y-4">

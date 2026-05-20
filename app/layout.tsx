@@ -13,6 +13,7 @@ import { MusicProvider } from "./music-provider";
 import MusicMiniPlayer from "./music-mini-player";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 import { getLocale } from "@/lib/i18n-server";
 import { getDirection } from "@/lib/dir";
 import { t } from "@/lib/i18n";
@@ -107,6 +108,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </LocaleProvider>
         <Analytics />
         <SpeedInsights />
+        {process.env.NEXT_PUBLIC_ADSENSE_CLIENT && (
+          <Script
+            id="adsbygoogle-loader"
+            async
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
+          />
+        )}
       </body>
     </html>
   );

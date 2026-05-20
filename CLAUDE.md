@@ -27,7 +27,9 @@ Live and working: core poll/vote/share, home trending feed, Discover (TikTok sna
 
 **M3 — coin shop: shipped & live.** Migration 024: `profiles.cosmetics_owned text[]` + `buy_cosmetic` RPC (server-priced CASE, identity-resolved); `get_achievement_stats` now returns `cosmetics_owned`. Page `/boutique` + `boutique-grid.tsx` (8-lang) — buy any of the 7 paid palettes with coins (200–1500 🪙) as an alternative to the points/streak grind. `lib/cosmetics.ts` got a `price` field; `isUnlocked` now also honours bought palettes; `profile-form` passes `owned` so bought palettes are equippable. Wires the `decorator` family. Linked from `/haut-faits`. Verified end-to-end. **M1+M2+M3 all shipped — the coin economy is complete: earn (418 achievements) → spend (predictions, boost, cosmetics).**
 
-**Next: M4 — Stripe (needs the user: Stripe account + API keys).** Buy coins for real money — the actual revenue. In parallel: SEO-page ads (infra can be built now, gated behind an AdSense env var).
+**SEO-page ads: infra shipped (dark until configured).** `app/ad-slot.tsx` (AdSense display unit) + loader `<Script>` in `layout.tsx` + dynamic `/ads.txt` route — all gated behind env vars `NEXT_PUBLIC_ADSENSE_CLIENT` (`ca-pub-…`) + `NEXT_PUBLIC_ADSENSE_SLOT`. `<AdSlot/>` mounted mid-content on the quote / keyword / idea-blog SEO views only (~1300 content pages — never the app surface). Renders nothing until **the user** creates an AdSense account + one display ad-unit and sets the two env vars in Vercel.
+
+**Next: M4 — Stripe (needs the user: Stripe account + API keys).** Buy coins for real money — the actual revenue. This is the only money-making piece still missing; everything else (engagement economy + ad inventory) is in place.
 
 ## Auth
 - **Magic-link email is the sole auth path.** Resend SMTP wired (`smtp.resend.com`, sender `hello@moomz.com`); `moomz.com` sending domain DNS-verified (DKIM+SPF+MX → not spam); branded dark email template live (`supabase-migrations/email-magic-link.html`).

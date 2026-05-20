@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdSlot from "@/app/ad-slot";
 import { getSupabase } from "@/lib/supabase";
 import type { KeywordPage } from "@/lib/seo/keywords/types";
 import { keywordUrl } from "@/lib/seo/keywords/types";
@@ -224,6 +225,8 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
           </section>
         ))}
       </div>
+
+      <AdSlot />
 
       {/* Matching polls */}
       <section className="space-y-4">

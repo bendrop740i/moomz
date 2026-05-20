@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdSlot from "@/app/ad-slot";
 import { getSupabase } from "@/lib/supabase";
 import type { QuotePage, QuoteLocale } from "@/lib/seo/quotes/types";
 import { quoteUrl, quoteHubUrl } from "@/lib/seo/quotes/types";
@@ -223,6 +224,8 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
           ))}
         </ul>
       </section>
+
+      <AdSlot />
 
       <Link
         href={ctaHref}
