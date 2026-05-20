@@ -424,7 +424,7 @@ The user has authorized me to run SQL / Management API calls on the moomz Supaba
 - **Domaine custom** : moomz.com (linked au projet, DNS en cours de propagation)
 - **Supabase project ref** : `tpncpfatthgssttzrchu`
 - **Supabase URL** : `https://tpncpfatthgssttzrchu.supabase.co`
-- **Supabase publishable (anon) key** : `sb_publishable_XgtHGO4uA5SGjcPv6I1gtQ_eIbEzOG0` (public, OK exposed)
+- **Supabase publishable (anon) key** : stored in `.secrets.txt` as `supabase_anon_key` (read it from there — also present in `.env.production.local` and the client bundle; it's the *public* anon key, RLS is what protects data, but kept out of this tracked file for tidiness)
 - **Owner email** : bendrop740i@gmail.com (Vercel + GitHub + Supabase)
 
 ## File layout
@@ -558,7 +558,7 @@ vercel logs <deployment-url>
 vercel --prod
 
 # Verify Supabase REST API
-curl -s "https://tpncpfatthgssttzrchu.supabase.co/rest/v1/polls?select=id&limit=1" -H "apikey: sb_publishable_XgtHGO4uA5SGjcPv6I1gtQ_eIbEzOG0"
+curl -s "https://tpncpfatthgssttzrchu.supabase.co/rest/v1/polls?select=id&limit=1" -H "apikey: $(grep -oE 'sb_publishable_[A-Za-z0-9_]+' .secrets.txt)"
 
 # Check DNS propagation
 nslookup moomz.com
