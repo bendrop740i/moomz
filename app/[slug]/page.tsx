@@ -10,6 +10,7 @@ import PollExplainer from "./poll-explainer";
 import KeywordChips from "./keyword-chips";
 import QuoteChips from "./quote-chips";
 import PredictionWidget, { type ExistingPrediction } from "./prediction-widget";
+import BoostButton from "./boost-button";
 import BelowPollSeo from "./below-poll-seo";
 import BelowProfileSeo from "./below-profile-seo";
 import type { AskItem } from "./ask-section";
@@ -196,9 +197,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
   // pulled to drive the BelowPollSeo similar-polls query + topic pills.
   const { data: poll } = await supabase
     .from("polls")
-    .select("id,slug,question,options,created_at,explainer,lang,topics,is_dead")
+    .select("id,slug,question,options,created_at,explainer,lang,topics,is_dead,profile_id,boost_until")
     .eq("slug", handle)
-    .maybeSingle<Poll & { topics: string[] | null; is_dead: boolean | null }>();
+    .maybeSingle<
+      Poll & {
+        topics: string[] | null;
+        is_dead: boolean | null;
+        profile_id: string | null;
+        boost_until: string | null;
+      }
+    >();
 
   if (!poll) notFound();
 
@@ -223,6 +231,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
     Date.now() - new Date(poll.created_at).getTime() < 24 * 60 * 60 * 1000;
   let predExisting: ExistingPrediction | null = null;
   let predBalance = 0;
+  let predProfileId: string | null = null;
   try {
     const ssrP = getServerSupabase();
     const { data: authP } = await ssrP.auth.getUser();
@@ -233,6 +242,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
     });
     const sp = (statsP ?? {}) as { profile_id?: string | null; coin_balance?: number };
     predBalance = sp.coin_balance ?? 0;
+    predProfileId = sp.profile_id ?? null;
     if (sp.profile_id) {
       const { data: pr } = await supabase
         .from("predictions")
@@ -355,6 +365,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
         existing={predExisting}
         lang={getLocale()}
       />
+      {(poll as { profile_id?: string | null }).profile_id &&
+        predProfileId &&
+        (poll as { profile_id?: string | null }).profile_id === predProfileId &&
+        !((poll as { is_dead?: boolean | null }).is_dead) && (
+          <BoostButton
+            pollId={poll.id}
+            boostUntil={(poll as { boost_until?: string | null }).boost_until ?? null}
+            lang={getLocale()}
+          />
+        )}
       <PollExplainer slug={poll.slug} options={poll.options} explainer={poll.explainer} />
       <KeywordChips question={poll.question} options={poll.options} lang={poll.lang} />
       <QuoteChips question={poll.question} options={poll.options} lang={poll.lang} />

@@ -257,6 +257,37 @@ export async function placePrediction(
   return { ok: false, error: r.error ?? "unknown", balance: r.balance };
 }
 
+export type BoostResult =
+  | { ok: true; balance: number; boostUntil: string }
+  | { ok: false; error: string; balance?: number };
+
+// M3 — spend coins to boost your own poll up Trending/Discover for 24h.
+export async function boostPoll(pollId: string): Promise<BoostResult> {
+  const ssr = getServerSupabase();
+  const { data: auth } = await ssr.auth.getUser();
+  const claimToken = cookies().get("moomz_profile_token")?.value ?? null;
+  const supabase = getSupabase();
+  const { data, error } = await supabase.rpc("boost_poll", {
+    p_user_id: auth.user?.id ?? null,
+    p_claim_token: claimToken,
+    p_poll_id: pollId,
+  });
+  if (error) return { ok: false, error: "server" };
+  const r = (data ?? {}) as {
+    ok?: boolean;
+    error?: string;
+    balance?: number;
+    boost_until?: string;
+  };
+  if (r.ok) {
+    if (typeof r.balance === "number") {
+      cookies().set("moomz_coins", String(r.balance), cookieOpts());
+    }
+    return { ok: true, balance: r.balance ?? 0, boostUntil: r.boost_until ?? "" };
+  }
+  return { ok: false, error: r.error ?? "unknown", balance: r.balance };
+}
+
 export async function markPollSeen(slug: string, voteCount: number) {
   cookies().set(`moomz_seen_${slug}`, String(voteCount), cookieOpts());
 }

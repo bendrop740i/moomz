@@ -23,7 +23,9 @@ Live and working: core poll/vote/share, home trending feed, Discover (TikTok sna
 
 **M2 — predictions: shipped & live.** Bet coins on a poll outcome (coin sink + viral hook; legal — no cashout, free coins playable). Migrations 021/022: `predictions` table, `place_prediction` RPC (spend + validate, identity-resolved), `resolve_predictions` cron (`resolve_predictions_job`, every 15 min) — settles 24h after poll creation, payout = `stake / winnerShare` clamped ×1.2–×8, refund if <10 votes; `get_achievement_stats` now also returns `profile_id`. `placePrediction` server action + `app/[slug]/prediction-widget.tsx` (8-lang, mounted on the poll page below the vote) — pick option + stake chip (10/25/50/100), shows your bet + win/lose/refund state. Wires the `predictions`/`oracle`/`prophet`/`highroller` achievement families. Verified end-to-end.
 
-**Next: M3 — poll boost + coin shop.** Spend coins to boost a poll up Trending/Discover; a coin shop surface. Then M4 = Stripe (buy coins). SEO-page ads = parallel passive revenue.
+**M3 — poll boost: shipped & live.** Migration 023: `boost_poll` RPC — 150 coins → 24h boost (owner-only, validated, identity-resolved; re-boost extends). The `polls.boost_until` column + the 5× factor in `polls_trending` already existed. `boostPoll` server action + `app/[slug]/boost-button.tsx` (8-lang) shown to the poll owner below the prediction widget. Wires the `booster` achievement family. Verified end-to-end.
+
+**M3 remaining + next:** a coin-shop surface (`/boutique`) — buy cosmetics with coins (needs a cosmetics-ownership model; current palettes are streak/points-gated). Then M4 = Stripe (buy coins). SEO-page ads = parallel passive revenue.
 
 ## Auth
 - **Magic-link email is the sole auth path.** Resend SMTP wired (`smtp.resend.com`, sender `hello@moomz.com`); `moomz.com` sending domain DNS-verified (DKIM+SPF+MX → not spam); branded dark email template live (`supabase-migrations/email-magic-link.html`).
