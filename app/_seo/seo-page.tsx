@@ -93,66 +93,108 @@ export default function SeoPageView({ page }: Props) {
   const breadcrumbItems = buildBreadcrumbs(page);
 
   return (
-    <article className="space-y-8 fade-up">
+    <article className="space-y-12 fade-up">
       <BreadcrumbJsonLd items={breadcrumbItems} />
       <Breadcrumb page={page} />
 
-      <header className="space-y-3">
-        <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link
-            href={page.category === "idees" || page.category === "guides" || page.category === "ideas" || page.category === "blog" ? `/${page.category}` : "/"}
-            className="hover:text-white transition"
-          >
-            {page.category}
-          </Link>
-          <span>·</span>
-          <span>{page.locale}</span>
+      {/* Hero — glass panel with gradient orbs behind the title */}
+      <header className="relative overflow-hidden glass rounded-[2rem] p-6 sm:p-10">
+        <div className="pointer-events-none absolute -top-16 -right-10 h-48 w-48 rounded-full bg-pink-500/30 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-20 -left-12 h-52 w-52 rounded-full bg-purple-600/25 blur-3xl" />
+        <div className="relative space-y-4">
+          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.2em]">
+            <Link
+              href={page.category === "idees" || page.category === "guides" || page.category === "ideas" || page.category === "blog" ? `/${page.category}` : "/"}
+              className="rounded-full bg-white/10 border border-white/15 px-3 py-1 text-white/70 hover:bg-white/20 hover:text-white transition"
+            >
+              {page.category}
+            </Link>
+            <span className="rounded-full bg-white/5 border border-white/10 px-3 py-1 text-white/40">
+              {page.locale}
+            </span>
+          </div>
+          <h1 className="font-display text-4xl sm:text-6xl tracking-tight leading-[1.05]">
+            {page.emoji ? (
+              <span className="mr-2 inline-block drop-shadow-[0_4px_12px_rgba(236,72,153,0.5)]">
+                {page.emoji}
+              </span>
+            ) : null}
+            <span className="bg-gradient-to-br from-white via-pink-200 to-orange-300 bg-clip-text text-transparent">
+              {page.h1}
+            </span>
+          </h1>
+          <p className="text-white/70 text-base sm:text-xl leading-relaxed text-balance max-w-2xl">
+            {page.intro}
+          </p>
         </div>
-        <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent leading-tight">
-          {page.emoji ? <span className="mr-2">{page.emoji}</span> : null}
-          {page.h1}
-        </h1>
-        <p className="text-white/60 text-base sm:text-lg text-balance">{page.intro}</p>
       </header>
 
+      {/* Primary CTA */}
       <Link
         href="/"
-        className="block rounded-2xl bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 px-5 py-4 hover:from-pink-500/30 hover:to-purple-600/30 transition"
+        className="group block rounded-2xl bg-gradient-to-r from-pink-500/25 via-purple-600/20 to-orange-500/20 border border-pink-400/30 px-5 py-4 hover:border-pink-400/60 hover:from-pink-500/35 hover:to-orange-500/30 transition"
       >
         <div className="flex items-center justify-between gap-3">
           <div>
-            <div className="font-display text-xl">{labels.create}</div>
+            <div className="font-display text-xl text-white">{labels.create}</div>
             <div className="text-xs text-white/50">moomz.com — 10 secondes, anonyme, gratuit</div>
           </div>
-          <span className="text-2xl">→</span>
+          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-xl text-white group-hover:translate-x-1 group-hover:bg-white/20 transition">
+            →
+          </span>
         </div>
       </Link>
 
-      {page.sections.map((s, i) => (
-        <section key={i} className="space-y-2">
-          <h2 className="font-semibold text-xl text-white">{s.h}</h2>
-          <p className="text-white/70 leading-relaxed whitespace-pre-line">{s.body}</p>
-        </section>
-      ))}
+      {/* Article body — accent bar + drop-cap rhythm */}
+      <div className="space-y-10">
+        {page.sections.map((s, i) => (
+          <section key={i} className="space-y-3">
+            <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+              <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-purple-500" />
+              {s.h}
+            </h2>
+            <p className="text-white/75 text-[15px] sm:text-base leading-[1.8] whitespace-pre-line pl-[18px]">
+              {s.body}
+            </p>
+          </section>
+        ))}
+      </div>
 
       {page.polls.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.ideas}</h2>
-          <ul className="space-y-2">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-purple-500" />
+            {labels.ideas}
+          </h2>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {page.polls.map((p, i) => (
-              <li key={i} className="glass rounded-xl px-4 py-3">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="space-y-1">
-                    <div className="font-medium text-white">{p.q}</div>
-                    <div className="text-xs text-white/50">{p.options.join(" · ")}</div>
-                  </div>
-                  <Link
-                    href={pollLaunchUrl(p)}
-                    className="shrink-0 rounded-lg bg-pink-500/20 border border-pink-400/30 px-3 py-1.5 text-xs font-medium text-pink-200 hover:bg-pink-500/30 transition whitespace-nowrap"
-                  >
-                    {labels.tryNow}
-                  </Link>
+              <li
+                key={i}
+                className="glass rounded-2xl p-4 flex flex-col gap-3 hover:bg-white/[0.08] transition group"
+              >
+                <div className="flex items-start gap-2.5">
+                  <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-pink-500/20 border border-pink-400/30 text-xs font-display text-pink-200">
+                    {i + 1}
+                  </span>
+                  <div className="font-semibold text-white leading-snug">{p.q}</div>
                 </div>
+                <div className="flex flex-wrap gap-1.5 pl-[38px]">
+                  {p.options.map((o, oi) => (
+                    <span
+                      key={oi}
+                      className="rounded-lg bg-white/5 border border-white/10 px-2.5 py-1 text-xs text-white/60"
+                    >
+                      {o}
+                    </span>
+                  ))}
+                </div>
+                <Link
+                  href={pollLaunchUrl(p)}
+                  className="mt-auto inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-pink-500/25 to-purple-600/25 border border-pink-400/30 px-3 py-2 text-sm font-medium text-pink-100 hover:from-pink-500/40 hover:to-purple-600/40 transition"
+                >
+                  {labels.tryNow}
+                  <span aria-hidden="true" className="group-hover:translate-x-0.5 transition">→</span>
+                </Link>
               </li>
             ))}
           </ul>
@@ -160,16 +202,29 @@ export default function SeoPageView({ page }: Props) {
       )}
 
       {page.faq.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.faq}</h2>
-          <div className="space-y-2">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-orange-400 to-pink-500" />
+            {labels.faq}
+          </h2>
+          <div className="space-y-2.5">
             {page.faq.map((f, i) => (
-              <details key={i} className="glass rounded-xl px-4 py-3 group">
-                <summary className="font-medium text-white cursor-pointer list-none flex items-center justify-between">
-                  <span>{f.q}</span>
-                  <span className="text-white/40 group-open:rotate-45 transition">+</span>
+              <details
+                key={i}
+                className="glass rounded-2xl px-5 py-4 group open:bg-white/[0.07] open:ring-1 open:ring-pink-400/20 transition"
+              >
+                <summary className="font-semibold text-white cursor-pointer list-none flex items-center justify-between gap-3">
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-pink-300/70">Q.</span>
+                    {f.q}
+                  </span>
+                  <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white/10 text-white/50 group-open:rotate-45 group-open:bg-pink-500/30 group-open:text-pink-200 transition">
+                    +
+                  </span>
                 </summary>
-                <p className="text-white/70 mt-2 leading-relaxed">{f.a}</p>
+                <p className="text-white/70 mt-3 leading-relaxed border-t border-white/10 pt-3">
+                  {f.a}
+                </p>
               </details>
             ))}
           </div>
@@ -183,20 +238,30 @@ export default function SeoPageView({ page }: Props) {
         related list.
       */}
       {related.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.related}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-purple-400 to-pink-500" />
+            {labels.related}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {related.map((r) => (
               <Link
                 key={r.slug + r.category}
                 href={pageUrl(r)}
-                className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition flex items-center gap-3"
+                className="glass rounded-2xl p-4 hover:bg-white/[0.08] transition flex items-center gap-3 group"
               >
-                {r.emoji && <span className="text-2xl">{r.emoji}</span>}
-                <div className="min-w-0">
-                  <div className="text-sm font-medium text-white truncate">{r.h1}</div>
-                  <div className="text-xs text-white/40 truncate">{r.description}</div>
+                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-pink-500/20 to-purple-600/20 border border-white/10 text-2xl">
+                  {r.emoji || "✨"}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="text-sm font-semibold text-white truncate group-hover:text-pink-200 transition">
+                    {r.h1}
+                  </div>
+                  <div className="text-xs text-white/40 line-clamp-1">{r.description}</div>
                 </div>
+                <span className="text-white/30 group-hover:text-white/70 group-hover:translate-x-0.5 transition" aria-hidden="true">
+                  →
+                </span>
               </Link>
             ))}
           </div>
@@ -214,30 +279,31 @@ export default function SeoPageView({ page }: Props) {
 
       {/* Similar-poll prominent CTA — visually loud, non-sticky */}
       {ctaPolls.length > 0 && (
-        <section className="space-y-3">
-          <div className="rounded-2xl bg-gradient-to-br from-pink-500/15 via-purple-600/10 to-pink-500/15 border border-pink-400/30 p-5 sm:p-6 space-y-4">
-            <div className="space-y-1">
-              <div className="font-display text-2xl text-white">
+        <section>
+          <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-pink-500/20 via-purple-600/15 to-orange-500/20 border border-pink-400/30 p-6 sm:p-8 space-y-5">
+            <div className="pointer-events-none absolute -top-12 right-0 h-40 w-40 rounded-full bg-pink-500/30 blur-3xl" />
+            <div className="relative space-y-1.5">
+              <div className="font-display text-2xl sm:text-3xl text-white">
                 {footerLabels.similarPoll}
               </div>
-              <p className="text-sm text-white/60">{footerLabels.similarPollSub}</p>
+              <p className="text-sm text-white/65">{footerLabels.similarPollSub}</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-3">
               {ctaPolls.map((p, i) => (
                 <Link
                   key={i}
                   href={pollLaunchUrl(p)}
-                  className="block rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition p-3 group"
+                  className="flex flex-col rounded-2xl bg-white/[0.06] border border-white/10 hover:bg-white/[0.12] hover:border-pink-400/40 transition p-4 group"
                 >
-                  <div className="text-sm font-medium text-white line-clamp-2">
+                  <div className="text-sm font-semibold text-white line-clamp-2">
                     {p.q}
                   </div>
-                  <div className="text-xs text-white/40 mt-1 line-clamp-1">
+                  <div className="text-xs text-white/40 mt-1.5 line-clamp-1">
                     {p.options.join(" · ")}
                   </div>
-                  <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-pink-500/20 border border-pink-400/30 px-3 py-1 text-xs font-medium text-pink-200 group-hover:bg-pink-500/30 transition">
+                  <div className="mt-4 inline-flex w-fit items-center gap-1.5 rounded-full bg-pink-500/25 border border-pink-400/30 px-3.5 py-1.5 text-xs font-medium text-pink-100 group-hover:bg-pink-500/40 transition">
                     {footerLabels.launchPoll}
-                    <span aria-hidden="true">→</span>
+                    <span aria-hidden="true" className="group-hover:translate-x-0.5 transition">→</span>
                   </div>
                 </Link>
               ))}
@@ -248,9 +314,12 @@ export default function SeoPageView({ page }: Props) {
 
       <Link
         href="/"
-        className="block rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 px-5 py-4 text-center font-display text-xl hover:scale-[1.02] transition shadow-lg shadow-pink-500/30"
+        className="group block rounded-2xl bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-600 px-5 py-5 text-center font-display text-xl text-white hover:scale-[1.02] transition shadow-lg shadow-pink-500/30"
       >
-        {labels.create}
+        <span className="inline-flex items-center gap-2">
+          {labels.create}
+          <span aria-hidden="true" className="group-hover:translate-x-1 transition">→</span>
+        </span>
       </Link>
     </article>
   );

@@ -5,7 +5,6 @@ import SiteHeader from "./site-header";
 import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
-import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
 import InstallPrompt from "./install-prompt";
 import PushPrompt from "./push-prompt";
@@ -89,12 +88,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="blob blob-3" />
           </div>
           <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
-          <main className="relative mx-auto w-full max-w-xl px-5 pt-4 sm:pt-6 pb-28">
+          <main className="relative mx-auto w-full max-w-xl px-4 pt-3 sm:px-6 sm:pt-5 pb-[calc(7rem+env(safe-area-inset-bottom))]">
             <SiteHeader />
             {children}
-            <div className="flex justify-end mt-8">
-              <LocaleSwitcher />
-            </div>
           </main>
           <StreakHUD />
           <AchievementToast />

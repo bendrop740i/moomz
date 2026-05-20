@@ -13,6 +13,7 @@ import {
   WorldVibesSkeleton,
 } from "./_home/skeletons";
 import PageHero from "./page-hero";
+import LocaleSwitcher from "./locale-switcher";
 import QuickChips from "./quick-chips";
 import WhyMoomz from "./why-moomz";
 import FeaturedRead from "./featured-read";
@@ -199,6 +200,10 @@ export default function HomePage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <div className="flex justify-end -mb-5 sm:-mb-3">
+        <LocaleSwitcher />
+      </div>
+
       <PageHero taglines={TAGLINES[locale] ?? TAGLINES.en} />
 
       {/* HERO: Daily Moomz is the primary hook — bring people back every day. */}

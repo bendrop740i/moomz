@@ -161,77 +161,139 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
     page.locale === "fr" ? "/mot" : page.locale === "en" ? "/word" : `/topic/${page.locale}`;
 
   return (
-    <article className="space-y-8 fade-up">
-      <header className="space-y-3">
-        <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href={hubHref} className="hover:text-white transition">
-            {labels.crumb}
-          </Link>
-          <span>·</span>
-          <span>{page.locale}</span>
+    <article className="space-y-12 fade-up">
+      {/* Hero */}
+      <header className="relative overflow-hidden glass rounded-[2rem] p-6 sm:p-10">
+        <div className="pointer-events-none absolute -top-16 -right-10 h-48 w-48 rounded-full bg-purple-600/30 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-20 -left-12 h-52 w-52 rounded-full bg-pink-500/25 blur-3xl" />
+        <div className="relative space-y-4">
+          <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.2em]">
+            <Link
+              href={hubHref}
+              className="rounded-full bg-white/10 border border-white/15 px-3 py-1 text-white/70 hover:bg-white/20 hover:text-white transition"
+            >
+              {labels.crumb}
+            </Link>
+            <span className="rounded-full bg-white/5 border border-white/10 px-3 py-1 text-white/40">
+              {page.locale}
+            </span>
+          </div>
+          <h1 className="font-display text-4xl sm:text-6xl tracking-tight leading-[1.05]">
+            {page.emoji ? (
+              <span className="mr-2 inline-block drop-shadow-[0_4px_12px_rgba(168,85,247,0.5)]">
+                {page.emoji}
+              </span>
+            ) : null}
+            <span className="bg-gradient-to-br from-white via-pink-200 to-orange-300 bg-clip-text text-transparent">
+              {page.keyword}
+            </span>
+          </h1>
+          <p className="text-white/70 text-base sm:text-xl leading-relaxed text-balance max-w-2xl">
+            {page.intro}
+          </p>
         </div>
-        <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent leading-tight">
-          {page.emoji ? <span className="mr-2">{page.emoji}</span> : null}
-          {page.keyword}
-        </h1>
-        <p className="text-white/70 leading-relaxed text-balance">{page.intro}</p>
       </header>
 
+      {/* Primary CTA */}
       <Link
         href="/"
-        className="block rounded-2xl bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 px-5 py-4 hover:from-pink-500/30 hover:to-purple-600/30 transition"
+        className="group block rounded-2xl bg-gradient-to-r from-pink-500/25 via-purple-600/20 to-orange-500/20 border border-pink-400/30 px-5 py-4 hover:border-pink-400/60 hover:from-pink-500/35 hover:to-orange-500/30 transition"
       >
         <div className="flex items-center justify-between gap-3">
           <div>
-            <div className="font-display text-xl">{labels.create}</div>
+            <div className="font-display text-xl text-white">{labels.create}</div>
             <div className="text-xs text-white/50">moomz.com — 10 secondes, anonyme, gratuit</div>
           </div>
-          <span className="text-2xl">→</span>
+          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white/10 text-xl text-white group-hover:translate-x-1 group-hover:bg-white/20 transition">
+            →
+          </span>
         </div>
       </Link>
 
-      {page.sections.map((s, i) => (
-        <section key={i} className="space-y-2">
-          <h2 className="font-semibold text-xl text-white">{s.h}</h2>
-          <p className="text-white/70 leading-relaxed whitespace-pre-line">{s.body}</p>
-        </section>
-      ))}
+      {/* Article body */}
+      <div className="space-y-10">
+        {page.sections.map((s, i) => (
+          <section key={i} className="space-y-3">
+            <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+              <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-purple-500" />
+              {s.h}
+            </h2>
+            <p className="text-white/75 text-[15px] sm:text-base leading-[1.8] whitespace-pre-line pl-[18px]">
+              {s.body}
+            </p>
+          </section>
+        ))}
+      </div>
 
-      <section className="space-y-3">
-        <h2 className="font-semibold text-xl text-white">{labels.polls}</h2>
+      {/* Matching polls */}
+      <section className="space-y-4">
+        <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+          <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-orange-400 to-pink-500" />
+          {labels.polls}
+        </h2>
         {polls.length > 0 ? (
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {polls.map((p) => (
               <li key={p.slug}>
                 <Link
                   href={`/${p.slug}`}
-                  className="glass rounded-xl px-4 py-3 block hover:bg-white/10 transition h-full"
+                  className="glass rounded-2xl p-4 flex flex-col gap-2.5 hover:bg-white/[0.08] transition h-full group"
                 >
-                  <div className="text-sm font-medium text-white line-clamp-2">{p.question}</div>
-                  <div className="text-xs text-white/50 mt-1 line-clamp-1">
-                    {p.options.slice(0, 3).join(" · ")}
-                    {p.vote_count && p.vote_count > 0 ? ` · ${p.vote_count} votes` : ""}
+                  <div className="text-sm font-semibold text-white line-clamp-2 group-hover:text-pink-100 transition">
+                    {p.question}
                   </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {p.options.slice(0, 3).map((o, oi) => (
+                      <span
+                        key={oi}
+                        className="rounded-lg bg-white/5 border border-white/10 px-2.5 py-1 text-xs text-white/60"
+                      >
+                        {o}
+                      </span>
+                    ))}
+                  </div>
+                  {p.vote_count && p.vote_count > 0 ? (
+                    <div className="mt-auto pt-1 text-xs font-medium text-pink-300/80 inline-flex items-center gap-1">
+                      <span aria-hidden="true">🔥</span>
+                      {p.vote_count} votes
+                    </div>
+                  ) : null}
                 </Link>
               </li>
             ))}
           </ul>
         ) : (
-          <p className="text-white/50 text-sm">{labels.pollsEmpty}</p>
+          <div className="glass rounded-2xl p-6 text-center">
+            <div className="text-3xl mb-2">👀</div>
+            <p className="text-white/55 text-sm">{labels.pollsEmpty}</p>
+          </div>
         )}
       </section>
 
       {page.faq.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.faq}</h2>
-          <div className="space-y-2">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-purple-400 to-pink-500" />
+            {labels.faq}
+          </h2>
+          <div className="space-y-2.5">
             {page.faq.map((f, i) => (
-              <details key={i} className="glass rounded-xl px-4 py-3 group">
-                <summary className="font-medium text-white cursor-pointer list-none flex items-center justify-between">
-                  <span>{f.q}</span>
-                  <span className="text-white/40 group-open:rotate-45 transition">+</span>
+              <details
+                key={i}
+                className="glass rounded-2xl px-5 py-4 group open:bg-white/[0.07] open:ring-1 open:ring-pink-400/20 transition"
+              >
+                <summary className="font-semibold text-white cursor-pointer list-none flex items-center justify-between gap-3">
+                  <span className="flex items-center gap-2.5">
+                    <span className="text-pink-300/70">Q.</span>
+                    {f.q}
+                  </span>
+                  <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white/10 text-white/50 group-open:rotate-45 group-open:bg-pink-500/30 group-open:text-pink-200 transition">
+                    +
+                  </span>
                 </summary>
-                <p className="text-white/70 mt-2 leading-relaxed">{f.a}</p>
+                <p className="text-white/70 mt-3 leading-relaxed border-t border-white/10 pt-3">
+                  {f.a}
+                </p>
               </details>
             ))}
           </div>
@@ -239,14 +301,17 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
       )}
 
       {related.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.related}</h2>
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-orange-500" />
+            {labels.related}
+          </h2>
           <div className="flex flex-wrap gap-2">
             {related.map((r) => (
               <Link
                 key={r.slug}
                 href={keywordUrl(r)}
-                className="glass rounded-full px-3 py-1.5 text-sm hover:bg-white/10 transition"
+                className="rounded-full bg-white/5 border border-white/10 px-3.5 py-1.5 text-sm text-white/75 hover:bg-pink-500/15 hover:border-pink-400/30 hover:text-white transition"
               >
                 {r.emoji ? <span className="mr-1">{r.emoji}</span> : null}
                 {r.keyword}
@@ -257,17 +322,24 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
       )}
 
       {similar.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-xl text-white">{labels.similar}</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-purple-400 to-pink-500" />
+            {labels.similar}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {similar.map((r) => (
               <Link
                 key={r.slug}
                 href={keywordUrl(r)}
-                className="glass rounded-xl px-3 py-2 hover:bg-white/10 transition flex items-center gap-2"
+                className="glass rounded-2xl px-3.5 py-3 hover:bg-white/[0.08] transition flex items-center gap-3 group"
               >
-                {r.emoji ? <span className="text-xl">{r.emoji}</span> : null}
-                <span className="text-sm text-white/80 truncate">{r.keyword}</span>
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-pink-500/15 to-purple-600/15 border border-white/10 text-xl">
+                  {r.emoji || "✨"}
+                </span>
+                <span className="text-sm font-medium text-white/80 truncate group-hover:text-pink-200 transition">
+                  {r.keyword}
+                </span>
               </Link>
             ))}
           </div>
@@ -276,9 +348,12 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
 
       <Link
         href="/"
-        className="block rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 px-5 py-4 text-center font-display text-xl hover:scale-[1.02] transition shadow-lg shadow-pink-500/30"
+        className="group block rounded-2xl bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-600 px-5 py-5 text-center font-display text-xl text-white hover:scale-[1.02] transition shadow-lg shadow-pink-500/30"
       >
-        {labels.create}
+        <span className="inline-flex items-center gap-2">
+          {labels.create}
+          <span aria-hidden="true" className="group-hover:translate-x-1 transition">→</span>
+        </span>
       </Link>
     </article>
   );

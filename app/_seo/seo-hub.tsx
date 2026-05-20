@@ -210,45 +210,70 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
     .filter((x) => x.count > 0);
 
   return (
-    <div className="space-y-8 fade-up">
-      <header className="space-y-2 text-center">
-        <h1 className="font-display text-5xl sm:text-6xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-          {title}
-        </h1>
-        <p className="text-white/60 text-balance">{description}</p>
+    <div className="space-y-12 fade-up">
+      {/* Hero */}
+      <header className="relative overflow-hidden glass rounded-[2rem] p-8 sm:p-12 text-center">
+        <div className="pointer-events-none absolute -top-20 left-1/2 -translate-x-1/2 h-56 w-72 rounded-full bg-pink-500/25 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-24 -right-12 h-52 w-52 rounded-full bg-purple-600/25 blur-3xl" />
+        <div className="relative space-y-4">
+          <span className="inline-block rounded-full bg-white/10 border border-white/15 px-3 py-1 text-[11px] uppercase tracking-[0.2em] text-white/60">
+            {footerLabels.pageCount(pages.length)}
+          </span>
+          <h1 className="font-display text-5xl sm:text-7xl tracking-tight leading-[1.02] bg-gradient-to-br from-white via-pink-200 to-orange-300 bg-clip-text text-transparent">
+            {title}
+          </h1>
+          <p className="text-white/70 text-base sm:text-lg text-balance max-w-2xl mx-auto">
+            {description}
+          </p>
+        </div>
       </header>
 
       <Link
         href="/"
-        className="block rounded-2xl bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 px-5 py-4 hover:from-pink-500/30 hover:to-purple-600/30 transition text-center"
+        className="group block rounded-2xl bg-gradient-to-r from-pink-500/25 via-purple-600/20 to-orange-500/20 border border-pink-400/30 px-5 py-4 hover:border-pink-400/60 hover:from-pink-500/35 hover:to-orange-500/30 transition text-center"
       >
-        <div className="font-display text-xl">moomz.com</div>
-        <div className="text-xs text-white/50">Crée ton sondage en 10 secondes</div>
+        <div className="font-display text-xl text-white">moomz.com</div>
+        <div className="text-xs text-white/50">
+          Crée ton sondage en 10 secondes
+          <span aria-hidden="true" className="ml-1 inline-block group-hover:translate-x-1 transition">→</span>
+        </div>
       </Link>
 
       {/* Featured / hero row */}
       {featured.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-base text-white/80 uppercase tracking-wider text-xs">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-purple-500" />
             {labels.featured}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            {featured.map((p) => (
+            {featured.map((p, i) => (
               <Link
                 key={p.category + ":" + p.slug}
                 href={pageUrl(p)}
-                className="glass card-in rounded-2xl p-5 hover:bg-white/10 transition flex flex-col gap-3 h-full"
+                className={`glass card-in relative overflow-hidden rounded-2xl p-5 hover:bg-white/[0.09] transition flex flex-col gap-3 h-full group ${
+                  i === 0 ? "ring-1 ring-pink-400/30" : ""
+                }`}
               >
-                <div className="flex items-center gap-2">
-                  {p.emoji ? <span className="text-3xl">{p.emoji}</span> : null}
-                  <span className="text-[10px] uppercase tracking-wider text-white/40 ml-auto px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
+                <div className="pointer-events-none absolute -top-10 -right-8 h-28 w-28 rounded-full bg-pink-500/15 blur-2xl opacity-0 group-hover:opacity-100 transition" />
+                <div className="relative flex items-center gap-2">
+                  {p.emoji ? (
+                    <span className="grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-pink-500/20 to-purple-600/20 border border-white/10 text-2xl">
+                      {p.emoji}
+                    </span>
+                  ) : null}
+                  <span className="text-[10px] uppercase tracking-wider text-white/50 ml-auto px-2.5 py-1 rounded-full bg-white/5 border border-white/10">
                     {categoryBadge(p)}
                   </span>
                 </div>
-                <div className="font-display text-xl text-white leading-tight">
+                <div className="relative font-display text-xl text-white leading-tight group-hover:text-pink-100 transition">
                   {p.h1}
                 </div>
-                <div className="text-sm text-white/60 line-clamp-4">{p.description}</div>
+                <div className="relative text-sm text-white/60 line-clamp-4">{p.description}</div>
+                <span className="relative mt-auto pt-1 text-sm font-medium text-pink-300/80 inline-flex items-center gap-1">
+                  {labels.featured}
+                  <span aria-hidden="true" className="group-hover:translate-x-1 transition">→</span>
+                </span>
               </Link>
             ))}
           </div>
@@ -257,16 +282,16 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
 
       {/* Filter / sort hint (visual only — links to query strings) */}
       <div className="flex items-center gap-2 flex-wrap text-xs">
-        <span className="text-white/40">{labels.sortBy}</span>
+        <span className="text-white/40 uppercase tracking-wider">{labels.sortBy}</span>
         <Link
           href="?sort=recent"
-          className="glass rounded-full px-3 py-1 text-white/80 hover:bg-white/10 transition"
+          className="glass rounded-full px-3.5 py-1.5 text-white/80 hover:bg-white/10 hover:text-white transition"
         >
           {labels.sortRecent}
         </Link>
         <Link
           href="?sort=popular"
-          className="glass rounded-full px-3 py-1 text-white/80 hover:bg-white/10 transition"
+          className="glass rounded-full px-3.5 py-1.5 text-white/80 hover:bg-white/10 hover:text-white transition"
         >
           {labels.sortPopular}
         </Link>
@@ -274,20 +299,24 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
 
       {/* Topic clusters */}
       {clusters.length > 0 && (
-        <section className="space-y-4">
-          <h2 className="font-semibold text-base text-white/80 uppercase tracking-wider text-xs">
+        <section className="space-y-5">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-orange-400 to-pink-500" />
             {labels.topics}
           </h2>
-          <div className="space-y-4">
+          <div className="space-y-5">
             {clusters.map((cluster, i) => (
-              <div key={i} className="space-y-2">
-                <h3 className="text-sm font-medium text-white">{cluster.label}</h3>
+              <div key={i} className="glass rounded-2xl p-4 sm:p-5 space-y-3">
+                <h3 className="text-sm font-semibold text-white flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 rounded-full bg-pink-400" />
+                  {cluster.label}
+                </h3>
                 <div className="flex flex-wrap gap-2">
                   {cluster.pages.map((p) => (
                     <Link
                       key={p.category + ":" + p.slug}
                       href={pageUrl(p)}
-                      className="glass rounded-full px-3 py-1.5 text-sm text-white/80 hover:bg-white/10 transition"
+                      className="rounded-full bg-white/5 border border-white/10 px-3 py-1.5 text-sm text-white/75 hover:bg-pink-500/15 hover:border-pink-400/30 hover:text-white transition"
                     >
                       {p.emoji ? <span className="mr-1">{p.emoji}</span> : null}
                       {truncate(p.h1, 48)}
@@ -301,22 +330,30 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
       )}
 
       {/* Full list (preserved from the original hub view) */}
-      <section className="space-y-3">
-        <h2 className="font-semibold text-base text-white/80 uppercase tracking-wider text-xs">
+      <section className="space-y-4">
+        <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+          <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-purple-400 to-pink-500" />
           {footerLabels.pageCount(pages.length)}
         </h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {pages.map((p) => (
             <li key={p.slug + p.category}>
               <Link
                 href={pageUrl(p)}
-                className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition flex items-start gap-3 h-full"
+                className="glass rounded-2xl p-4 hover:bg-white/[0.08] transition flex items-start gap-3 h-full group"
               >
-                {p.emoji && <span className="text-2xl shrink-0">{p.emoji}</span>}
-                <div className="min-w-0">
-                  <div className="text-sm font-medium text-white">{p.h1}</div>
+                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-pink-500/15 to-purple-600/15 border border-white/10 text-2xl">
+                  {p.emoji || "✨"}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="text-sm font-semibold text-white group-hover:text-pink-200 transition">
+                    {p.h1}
+                  </div>
                   <div className="text-xs text-white/40 line-clamp-2 mt-0.5">{p.description}</div>
                 </div>
+                <span className="text-white/25 group-hover:text-white/70 group-hover:translate-x-0.5 transition" aria-hidden="true">
+                  →
+                </span>
               </Link>
             </li>
           ))}
@@ -325,40 +362,43 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
 
       {/* Cross-category footer */}
       {otherCats.length > 0 && (
-        <section className="space-y-3">
-          <h2 className="font-semibold text-base text-white/80 uppercase tracking-wider text-xs">
+        <section className="space-y-4">
+          <h2 className="font-display text-2xl sm:text-3xl text-white flex items-center gap-3">
+            <span className="h-7 w-1.5 shrink-0 rounded-full bg-gradient-to-b from-pink-400 to-orange-500" />
             {labels.alsoSee}
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {otherCats.map(({ category, count }) => (
               <Link
                 key={category}
                 href={`/${category}`}
-                className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition flex items-center justify-between"
+                className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
-                <span className="text-sm font-medium text-white">
+                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">
                   {CATEGORY_LABEL[loc]?.[category] ?? category}
                 </span>
-                <span className="text-xs text-white/40">{count}</span>
+                <span className="rounded-full bg-white/5 border border-white/10 px-2 py-0.5 text-xs text-white/50">
+                  {count}
+                </span>
               </Link>
             ))}
             {/* Keyword hubs for FR/EN */}
             {loc === "fr" ? (
               <Link
                 href="/mot"
-                className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition flex items-center justify-between"
+                className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
-                <span className="text-sm font-medium text-white">Mots-clés</span>
-                <span className="text-xs text-white/40">120+</span>
+                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">Mots-clés</span>
+                <span className="rounded-full bg-white/5 border border-white/10 px-2 py-0.5 text-xs text-white/50">120+</span>
               </Link>
             ) : null}
             {loc === "en" ? (
               <Link
                 href="/word"
-                className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition flex items-center justify-between"
+                className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
-                <span className="text-sm font-medium text-white">Keywords</span>
-                <span className="text-xs text-white/40">120+</span>
+                <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">Keywords</span>
+                <span className="rounded-full bg-white/5 border border-white/10 px-2 py-0.5 text-xs text-white/50">120+</span>
               </Link>
             ) : null}
           </div>
