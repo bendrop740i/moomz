@@ -10,6 +10,7 @@ import { getAllCompares } from "@/lib/seo/compare/loader";
 import { compareUrl } from "@/lib/seo/compare/types";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { templateUrl } from "@/lib/seo/templates/types";
+import { getAllLocalizedRoutes as getVsRoutes } from "@/lib/seo/vs/loader";
 import { getSupabase } from "@/lib/supabase";
 import { CONVERTISSEUR_SLUGS } from "@/lib/tools/convertisseur";
 import { METEO_SLUGS } from "@/lib/tools/meteo";
@@ -216,6 +217,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: p.category === "idees" || p.category === "ideas" ? 0.8 : 0.7,
   }));
 
+  const vsUrls: MetadataRoute.Sitemap = [
+    { url: `${BASE}/vs`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
+    ...getVsRoutes().map((r) => ({
+      url: `${BASE}/vs/${r.locale}/${r.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
   const [polls, profiles] = await Promise.all([getPolls(), getProfiles()]);
 
   const pollUrls: MetadataRoute.Sitemap = polls.map((p) => ({
@@ -241,6 +252,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...compareUrls,
     ...templateUrls,
     ...toolsUrls,
+    ...vsUrls,
     ...pollUrls,
     ...profileUrls,
   ];
