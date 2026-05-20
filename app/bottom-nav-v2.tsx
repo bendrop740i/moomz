@@ -19,7 +19,7 @@ const LEFT: TabItem[] = [
   { href: "/discover", labelKey: "nav.discover", fallbackLabel: "Discover", icon: DiscoverIcon },
 ];
 const RIGHT: TabItem[] = [
-  { href: "/explore", labelKey: "nav.explore", fallbackLabel: "Explore", icon: ExploreIcon },
+  { href: "/play", labelKey: "nav.play", fallbackLabel: "Play", icon: PlayIcon },
   { href: "/me", labelKey: "nav.me", fallbackLabel: "Profil", icon: MeIcon, badge: true },
 ];
 
@@ -296,23 +296,33 @@ function DiscoverIcon({ active }: { active?: boolean }) {
   );
 }
 
-function ExploreIcon({ active }: { active?: boolean }) {
+function PlayIcon({ active }: { active?: boolean }) {
+  // Game controller — the Play tab is the gamification + coin-economy hub.
   return (
     <svg
       width="22"
       height="22"
       viewBox="0 0 24 24"
-      fill={active ? "currentColor" : "none"}
+      fill="none"
       stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
       className="transition-all duration-200 ease-out"
     >
-      <rect x="3" y="3" width="7.5" height="7.5" rx="2.2" fillOpacity={active ? 0.9 : 0} />
-      <rect x="13.5" y="3" width="7.5" height="7.5" rx="2.2" fillOpacity={active ? 0.9 : 0} />
-      <rect x="3" y="13.5" width="7.5" height="7.5" rx="2.2" fillOpacity={active ? 0.9 : 0} />
-      <rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2.2" fillOpacity={active ? 0.9 : 0} />
+      <rect
+        x="2"
+        y="7"
+        width="20"
+        height="11"
+        rx="5.5"
+        fill={active ? "currentColor" : "none"}
+        fillOpacity={active ? 0.15 : 0}
+      />
+      <line x1="7" y1="11" x2="7" y2="14.5" />
+      <line x1="5.25" y1="12.75" x2="8.75" y2="12.75" />
+      <circle cx="15.75" cy="11.75" r="1.15" fill="currentColor" stroke="none" />
+      <circle cx="18.5" cy="14.25" r="1.15" fill="currentColor" stroke="none" />
     </svg>
   );
 }

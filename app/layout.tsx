@@ -8,8 +8,7 @@ import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
 import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
-import InstallPrompt from "./install-prompt";
-import PushPrompt from "./push-prompt";
+import AppPrompts from "./app-prompts";
 import { MusicProvider } from "./music-provider";
 import MusicMiniPlayer from "./music-mini-player";
 import { Analytics } from "@vercel/analytics/next";
@@ -93,6 +92,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(11,6,19,0.6)_100%)]" />
           <SiteHeader />
           <main className="relative mx-auto w-full max-w-xl px-4 pt-5 sm:px-6 sm:pt-6 pb-[calc(7rem+env(safe-area-inset-bottom))]">
+            <AppPrompts installStrings={installStrings} pushStrings={pushStrings} />
             {children}
             <SiteFooter />
             <div className="mt-6 flex justify-center border-t border-white/10 pt-6">
@@ -103,8 +103,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <AchievementToast />
           <BottomNav />
           <MusicMiniPlayer />
-          <InstallPrompt strings={installStrings} />
-          <PushPrompt strings={pushStrings} />
           <ServiceWorkerRegister />
           </MusicProvider>
         </LocaleProvider>

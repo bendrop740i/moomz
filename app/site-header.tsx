@@ -4,24 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useT } from "./locale-context";
+import { HudPill } from "./hud-stats";
 
 // `/` and `/discover` render their own full-bleed branded hero — a top bar there
-// would just double up the wordmark. Hiding is a deliberate choice: the bottom
-// nav still covers navigation on those pages.
+// would just double up the wordmark. On those two pages the StreakHUD floats the
+// stats pill instead; everywhere else the header carries it.
 const HIDE_EXACT = new Set(["/", "/discover"]);
-
-type NavLink = {
-  href: string;
-  emoji: string;
-  labelKey: string;
-  fallback: string;
-};
-
-const NAV_LINKS: NavLink[] = [
-  { href: "/discover", emoji: "🔥", labelKey: "nav.discover", fallback: "Discover" },
-  { href: "/idees", emoji: "💡", labelKey: "nav.ideas", fallback: "Idées" },
-  { href: "/read", emoji: "📖", labelKey: "nav.read", fallback: "Read" },
-];
 
 export default function SiteHeader() {
   const pathname = usePathname();
@@ -39,13 +27,10 @@ export default function SiteHeader() {
 
   if (HIDE_EXACT.has(pathname)) return null;
 
-  const isActive = (href: string) =>
-    pathname === href || pathname?.startsWith(href + "/");
-
-  const label = (link: NavLink) => {
-    const translated = t(link.labelKey);
-    return translated === link.labelKey ? link.fallback : translated;
-  };
+  const exploreTr = t("nav.explore");
+  const exploreLabel = exploreTr === "nav.explore" ? "Explore" : exploreTr;
+  const exploreActive =
+    pathname === "/explore" || pathname?.startsWith("/explore/");
 
   return (
     <header
@@ -71,27 +56,24 @@ export default function SiteHeader() {
           />
         </Link>
 
-        {/* Nav chips — clear hover + active states, mobile-first (overflow scroll) */}
-        <nav className="scrollbar-hide flex min-w-0 items-center gap-1.5 overflow-x-auto">
-          {NAV_LINKS.map((link) => {
-            const active = isActive(link.href);
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                aria-current={active ? "page" : undefined}
-                className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition active:scale-95 ${
-                  active
-                    ? "border-pink-400/40 bg-gradient-to-r from-pink-500/30 to-purple-500/25 text-white shadow-[0_0_12px_-2px_rgba(255,61,139,0.5)]"
-                    : "border-white/10 bg-white/5 text-white/65 hover:border-white/20 hover:bg-white/10 hover:text-white"
-                }`}
-              >
-                <span aria-hidden>{link.emoji}</span>
-                <span>{label(link)}</span>
-              </Link>
-            );
-          })}
-        </nav>
+        {/* Right cluster: the stats HUD + a single Explore door to the SEO/content
+            surface. The 3 random nav chips are gone — primary nav lives in the
+            bottom bar, the full content map lives behind this one button. */}
+        <div className="flex shrink-0 items-center gap-1.5">
+          <HudPill />
+          <Link
+            href="/explore"
+            aria-current={exploreActive ? "page" : undefined}
+            className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition active:scale-95 ${
+              exploreActive
+                ? "border-pink-400/40 bg-gradient-to-r from-pink-500/30 to-purple-500/25 text-white shadow-[0_0_12px_-2px_rgba(255,61,139,0.5)]"
+                : "border-white/10 bg-white/5 text-white/65 hover:border-white/20 hover:bg-white/10 hover:text-white"
+            }`}
+          >
+            <span aria-hidden>🧭</span>
+            <span>{exploreLabel}</span>
+          </Link>
+        </div>
       </div>
     </header>
   );

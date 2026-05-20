@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import CreatePollForm from "./create-poll-form";
 import FeaturedAsks from "./featured-asks";
-import SeoFooter from "./seo-footer";
 import DailyCardSection from "./_home/daily-card-section";
 import TrendingFeed from "./_home/trending-feed";
 import WorldVibesSection from "./_home/world-vibes-section";
@@ -100,6 +99,17 @@ const FEATURED_READ_TITLES: Record<Locale, string> = {
   zh: "📖 故事 — 今日 WTF 帖",
 };
 
+const ZONE_LABELS: Record<Locale, { vote: string; more: string }> = {
+  fr: { vote: "🔥 Vote du moment", more: "✨ Encore plus" },
+  en: { vote: "🔥 Vote now", more: "✨ Even more" },
+  es: { vote: "🔥 Vota ahora", more: "✨ Aún más" },
+  it: { vote: "🔥 Vota adesso", more: "✨ Ancora di più" },
+  pt: { vote: "🔥 Vota agora", more: "✨ Ainda mais" },
+  de: { vote: "🔥 Jetzt voten", more: "✨ Noch mehr" },
+  ja: { vote: "🔥 いま投票", more: "✨ もっと見る" },
+  zh: { vote: "🔥 马上投票", more: "✨ 还有更多" },
+};
+
 export const dynamic = "force-dynamic";
 
 const HOME_META: Record<string, { title: string; description: string }> = {
@@ -192,6 +202,8 @@ export default function HomePage() {
     },
   ];
 
+  const zones = ZONE_LABELS[locale] ?? ZONE_LABELS.en;
+
   return (
     <div className="space-y-7 fade-up">
       <script
@@ -199,38 +211,42 @@ export default function HomePage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <PageHero taglines={TAGLINES[locale] ?? TAGLINES.en} />
 
-      {/* HERO: Daily Moomz is the primary hook — bring people back every day. */}
-      <Suspense fallback={<DailyCardSkeleton />}>
-        <DailyCardSection />
-      </Suspense>
-
-      <QuickChips labels={CHIP_LABELS[locale] ?? CHIP_LABELS.en} />
-
-      <CreatePollForm />
-
-      <section id="trending" className="scroll-mt-4">
-        <Suspense fallback={<TrendingFeedSkeleton />}>
-          <TrendingFeed />
-        </Suspense>
+      {/* ── Zone 1 — Crée : le hero parle de lui-même, pas de label ── */}
+      <section className="space-y-7">
+        <PageHero taglines={TAGLINES[locale] ?? TAGLINES.en} />
+        <CreatePollForm />
+        <QuickChips labels={CHIP_LABELS[locale] ?? CHIP_LABELS.en} />
       </section>
 
-      <FeaturedRead locale={locale} title={FEATURED_READ_TITLES[locale] ?? FEATURED_READ_TITLES.en} />
+      {/* ── Zone 2 — Vote ── */}
+      <section className="space-y-7">
+        <p className="text-xs uppercase tracking-widest text-white/40">{zones.vote}</p>
+        {/* Daily Moomz is the primary hook — bring people back every day. */}
+        <Suspense fallback={<DailyCardSkeleton />}>
+          <DailyCardSection />
+        </Suspense>
+        <div id="trending" className="scroll-mt-4">
+          <Suspense fallback={<TrendingFeedSkeleton />}>
+            <TrendingFeed />
+          </Suspense>
+        </div>
+      </section>
 
-      <Suspense fallback={<FeaturedAsksSkeleton />}>
-        <FeaturedAsks />
-      </Suspense>
-
-      <WhyMoomz locale={locale} />
-
-      <Suspense fallback={<WorldVibesSkeleton />}>
-        <WorldVibesSection />
-      </Suspense>
+      {/* ── Zone 3 — Plus ── */}
+      <section className="space-y-7">
+        <p className="text-xs uppercase tracking-widest text-white/40">{zones.more}</p>
+        <FeaturedRead locale={locale} title={FEATURED_READ_TITLES[locale] ?? FEATURED_READ_TITLES.en} />
+        <Suspense fallback={<FeaturedAsksSkeleton />}>
+          <FeaturedAsks />
+        </Suspense>
+        <Suspense fallback={<WorldVibesSkeleton />}>
+          <WorldVibesSection />
+        </Suspense>
+        <WhyMoomz locale={locale} />
+      </section>
 
       <p className="text-center text-xs text-white/30">{tx("home.footer")}</p>
-
-      <SeoFooter locale={locale === "en" ? "en" : "fr"} />
     </div>
   );
 }
