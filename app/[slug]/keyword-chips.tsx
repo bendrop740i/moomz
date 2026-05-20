@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { getAllKeywords } from "@/lib/seo/keywords/loader";
+import { getAllKeywords, isKeywordLocale } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
+import type { KeywordLocale } from "@/lib/seo/keywords/types";
 
 // Renders chip-links to keyword pages whose matchPatterns appear in the
 // current poll's question/options. Indexable internal links that turn each
@@ -14,7 +15,7 @@ export default function KeywordChips({
   options: string[];
   lang: string | null | undefined;
 }) {
-  const target: "fr" | "en" = lang === "fr" ? "fr" : "en";
+  const target: KeywordLocale = lang && isKeywordLocale(lang) ? lang : "en";
   const haystack = `${question} ${options.join(" ")}`.toLowerCase();
   const seen = new Set<string>();
   const matches = getAllKeywords()
@@ -27,7 +28,17 @@ export default function KeywordChips({
     })
     .slice(0, 10);
   if (matches.length === 0) return null;
-  const label = target === "fr" ? "Mots-clés" : "Keywords";
+  const LABEL_MAP: Record<KeywordLocale, string> = {
+    fr: "Mots-clés",
+    en: "Keywords",
+    es: "Palabras clave",
+    it: "Parole chiave",
+    pt: "Palavras-chave",
+    de: "Stichwörter",
+    ja: "キーワード",
+    zh: "关键词",
+  };
+  const label = LABEL_MAP[target];
   return (
     <section className="space-y-2 mt-2" aria-label={label}>
       <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">{label}</h2>

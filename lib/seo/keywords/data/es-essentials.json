@@ -1,0 +1,902 @@
+[
+  {
+    "slug": "sol",
+    "locale": "es",
+    "keyword": "Sol",
+    "matchPatterns": ["sol", "soleado", "verano", "estrella", "amanecer", "atardecer"],
+    "topic": "sciences",
+    "title": "El Sol — distancia, fusión nuclear y vibras cósmicas",
+    "description": "Todo sobre el Sol: 150 millones de km, fusión de hidrógeno en helio, manchas solares, mitología y por qué hace vibrar a toda la galaxia.",
+    "emoji": "☀️",
+    "intro": "El Sol es literalmente la estrella principal del sistema solar, y sin él seríamos solo una piedra congelada flotando en el vacío. Situado a unos 149,6 millones de kilómetros de la Tierra (lo que llamamos una unidad astronómica), nuestra estrella tiene un diámetro de 1,39 millones de km, unas 109 veces el de la Tierra. Su luz tarda aproximadamente 8 minutos y 20 segundos en llegarnos, lo que significa que cuando miras un atardecer estás viendo el pasado. El Sol es una estrella enana amarilla de tipo G2V, con unos 4.600 millones de años, y le quedan otros 5.000 millones de años antes de convertirse en una gigante roja. Su núcleo alcanza los 15 millones de grados Celsius y cada segundo fusiona alrededor de 600 millones de toneladas de hidrógeno en helio, liberando la energía que hace crecer las plantas, alimenta la fotosíntesis y te da ese bronceado de julio. En moomz las encuestas del estilo 'team sol vs team lluvia' explotan desde los primeros rayos de abril, y claramente el team sol arrasa. Más allá de la ciencia pura, el Sol es mitología viva: Ra en Egipto, Helios en Grecia, Inti para los incas, Amaterasu en Japón. Hoy sigue siendo central en la cultura pop, la energía solar supera ya el 5% de la electricidad mundial, y los eclipses totales reúnen a millones de espectadores como el de abril de 2024 visible en Norteamérica.",
+    "sections": [
+      {
+        "h": "La ciencia del Sol explicada simple",
+        "body": "El Sol es una bola de plasma sostenida por su propia gravedad. Su estructura se divide en varias capas: el núcleo donde ocurre la fusión nuclear, la zona radiativa, la zona convectiva, luego la fotosfera (la superficie visible) a unos 5.500 °C, la cromosfera y finalmente la corona que puede superar el millón de grados. Cada segundo el Sol convierte 4 millones de toneladas de materia en energía pura según la famosa fórmula E=mc² de Einstein. Esta energía atraviesa las capas durante decenas de miles de años antes de escapar como luz visible. El viento solar, un flujo de partículas cargadas, viaja a 400 km/s y provoca las auroras boreales cuando choca con el campo magnético terrestre. Las manchas solares, más oscuras y frías, siguen un ciclo de unos 11 años que influye en el clima espacial y a veces afecta nuestros satélites GPS y redes eléctricas."
+      },
+      {
+        "h": "Mitología y cultura alrededor del Sol",
+        "body": "Desde la noche de los tiempos, el Sol ha sido objeto de culto. Los egipcios veneraban a Ra, que cruzaba el cielo en barca cada día. Los griegos tenían a Helios y luego a Apolo, los aztecas hacían rituales para Tonatiuh y los incas adoraban a Inti en el Coricancha de Cuzco. Luis XIV de Francia se autoproclamó Rey Sol en el siglo XVII para reforzar su poder absoluto. En la cultura pop moderna el Sol está en todas partes: 'Here Comes the Sun' de los Beatles, 'Aquarius/Let The Sunshine In' del musical Hair, el manga Demon Slayer donde Tanjiro domina la respiración del sol, o la carta del Sol en el tarot que simboliza alegría pura. Sin olvidar los festivales de verano, las playlists 'golden hour' en Spotify con miles de millones de reproducciones y la obsesión TikTok por la hora dorada justo antes del atardecer."
+      },
+      {
+        "h": "Atardecer: por qué es tan hermoso",
+        "body": "El atardecer no es solo estética, es física pura. Cuando el Sol está bajo en el horizonte, su luz atraviesa una capa de atmósfera mucho más gruesa. Las longitudes de onda cortas (azul, violeta) son dispersadas por las moléculas del aire (la famosa dispersión de Rayleigh) y solo las longitudes largas (rojo, naranja, rosa) llegan a tus ojos. Las partículas de polvo, la contaminación y las nubes altas amplifican el efecto creando degradados espectaculares. Los atardeceres más brutales suelen verse tras una tormenta o en otoño. En Santorini, Bali, Marrakech o Cádiz, el atardecer se ha vuelto un ritual social inmortalizado en Instagram con filtro 'aesthetic'. En moomz las vibras de atardecer son las más compartidas del verano, sobre todo entre junio y septiembre cuando la luz dorada llega a su apogeo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿A qué distancia está el Sol de la Tierra?",
+        "a": "El Sol se encuentra a unos 149,6 millones de kilómetros de la Tierra en promedio, distancia que llamamos una unidad astronómica (UA). Esta cifra varía ligeramente durante el año: estamos más cerca en enero (147 millones de km, el perihelio) y más lejos en julio (152 millones de km, el afelio). Su luz tarda exactamente 8 minutos y 20 segundos en llegarnos, así que siempre vemos al Sol tal como era hace poco más de 8 minutos."
+      },
+      {
+        "q": "¿Por qué brilla el Sol?",
+        "a": "El Sol brilla gracias a la fusión nuclear que ocurre en su núcleo. Bajo temperaturas de 15 millones de grados y presiones colosales, núcleos de hidrógeno se fusionan formando helio y liberan enormes cantidades de energía en forma de fotones. Esta energía atraviesa las capas internas durante miles de años antes de escapar como luz visible. Sin esta fusión el Sol estaría apagado y la Tierra sería un mundo helado y sin vida."
+      },
+      {
+        "q": "¿Cuánto tiempo le queda al Sol?",
+        "a": "El Sol tiene unos 4.600 millones de años y está aproximadamente a la mitad de su vida. Dentro de unos 5.000 millones de años empezará a quedarse sin hidrógeno en el núcleo, se hinchará como gigante roja y se tragará probablemente a Mercurio, Venus y quizá a la Tierra. Después se transformará en una enana blanca, un objeto ultra-denso del tamaño de la Tierra que se enfriará lentamente durante miles de millones de años. No hay prisa, te queda tiempo."
+      },
+      {
+        "q": "¿Se puede mirar el Sol directamente?",
+        "a": "No, jamás. Mirar el Sol directamente, aunque sea unos segundos, puede causar lesiones irreversibles en la retina llamadas retinopatía solar. Durante un eclipse parcial es aún más peligroso porque la pupila se dilata. Hay que usar gafas especiales certificadas ISO 12312-2 o un telescopio con filtro solar homologado. El amanecer y el atardecer son menos peligrosos porque la atmósfera filtra mucho, pero la prudencia sigue siendo clave."
+      }
+    ],
+    "related": ["luna", "mar", "espacio", "verano", "navidad"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "luna",
+    "locale": "es",
+    "keyword": "Luna",
+    "matchPatterns": ["luna", "moon", "satelite", "eclipse", "noche", "lunar"],
+    "topic": "sciences",
+    "title": "La Luna — origen, fases, mareas y misterios del satélite",
+    "description": "Todo sobre la Luna: impacto gigante hace 4.500M años, fases, mareas, Apolo 11 y por qué fascina a poetas, científicos y enamorados.",
+    "emoji": "🌙",
+    "intro": "La Luna es nuestro único satélite natural y la compañera más fiel de la Tierra desde hace casi 4.500 millones de años. Situada a unos 384.400 kilómetros de distancia (la luz tarda 1,28 segundos en hacer el viaje), tiene un diámetro de 3.474 km, aproximadamente un cuarto del de la Tierra, lo que la convierte en uno de los satélites más grandes del sistema solar en proporción a su planeta. La teoría dominante sobre su formación es la del impacto gigante: hace unos 4.500 millones de años un protoplaneta del tamaño de Marte llamado Theia chocó contra la Tierra primitiva y los escombros lanzados al espacio se agruparon para formar la Luna. La Luna está en rotación sincronizada con la Tierra, lo que significa que siempre nos muestra la misma cara. Su lado oculto fue fotografiado por primera vez por la sonda soviética Luna 3 en 1959, y el 20 de julio de 1969 Neil Armstrong y Buzz Aldrin se convirtieron en los primeros humanos en pisarla durante la misión Apolo 11. Su famosa frase 'un pequeño paso para el hombre, un gran salto para la humanidad' marcó la historia. En moomz las encuestas 'team luna llena vs team luna nueva' o 'crees en la influencia lunar sobre el sueño' generan mucho debate. La Luna también gobierna las mareas mediante su atracción gravitacional y ha inspirado mitologías enteras, desde Selene en Grecia hasta Chang'e en China, sin contar la astrología, la licantropía y miles de canciones pop.",
+    "sections": [
+      {
+        "h": "Las fases de la Luna explicadas simple",
+        "body": "La Luna pasa por 8 fases principales en un ciclo de 29,5 días llamado mes sinódico. Empieza con la luna nueva (invisible, alineada entre Sol y Tierra), pasa al creciente iluminado, llega al cuarto creciente (mitad iluminada), continúa hacia la luna gibosa creciente, alcanza la luna llena (totalmente iluminada, opuesta al Sol), decrece hacia gibosa menguante, cuarto menguante y creciente menguante antes de volver a luna nueva. Estas fases no se deben a la sombra de la Tierra (eso son los eclipses), sino al ángulo entre Sol, Luna y Tierra. La luna llena ocurre cuando estamos entre los dos. En el hemisferio norte la luna creciente parece una C invertida, mientras que en el sur es una C normal. Calendarios agrícolas, festivales y mareas siguen este ciclo desde hace milenios."
+      },
+      {
+        "h": "Mareas, mitología e influencia cultural",
+        "body": "La gravedad de la Luna deforma los océanos y crea dos abultamientos: uno hacia ella, otro al lado opuesto. La Tierra al girar genera dos mareas altas y dos bajas cada día. El Sol también contribuye pero con menos fuerza. En cultura, la Luna ha inspirado a todas las civilizaciones: Selene y Artemisa en Grecia, Diana en Roma, Chang'e en China que vive ahí con un conejo, Tsukuyomi en Japón, Coyolxauhqui entre los aztecas. En el mundo moderno: 'Fly Me to the Moon' de Frank Sinatra, 'Moonlight Sonata' de Beethoven, la saga Sailor Moon, el manga 'Tsuki ga Kirei', sin olvidar la astrología occidental donde tu luna natal define tus emociones. Los hombres lobo, los vampiros y mil leyendas más beben de la luna llena."
+      },
+      {
+        "h": "Apolo 11 y el regreso a la Luna",
+        "body": "La carrera espacial entre EE.UU. y la URSS culminó el 20 de julio de 1969 cuando Neil Armstrong bajó del módulo Eagle y pisó el Mar de la Tranquilidad. La misión Apolo 11 llevó a Armstrong, Aldrin y Collins (que se quedó en órbita) y trajo 21,5 kg de muestras lunares. Entre 1969 y 1972 hubo 6 alunizajes tripulados (Apolo 11, 12, 14, 15, 16, 17) con 12 astronautas pisando la superficie. Después, silencio durante 50 años. El programa Artemis de la NASA planea llevar a la primera mujer y al próximo hombre cerca del polo sur lunar hacia 2026-2027. China, India (que aluniza con éxito en agosto de 2023 cerca del polo sur con Chandrayaan-3) y SpaceX también están en la carrera. La Luna sigue siendo un objetivo geopolítico y científico clave."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo se formó la Luna?",
+        "a": "La teoría más aceptada es la del impacto gigante: hace unos 4.500 millones de años, un protoplaneta del tamaño de Marte llamado Theia chocó con la Tierra primitiva. Los escombros lanzados al espacio se agruparon en órbita y formaron la Luna en unos pocos millones de años. Esto explica por qué la composición lunar es similar al manto terrestre pero pobre en hierro: el núcleo de Theia se fusionó con el de la Tierra."
+      },
+      {
+        "q": "¿Por qué siempre vemos la misma cara de la Luna?",
+        "a": "Porque la Luna está en rotación sincronizada con la Tierra: tarda exactamente lo mismo en girar sobre sí misma (27,3 días) que en orbitarnos. Las fuerzas de marea de la Tierra frenaron progresivamente su rotación hasta sincronizarla. La cara oculta solo se fotografió por primera vez en 1959 con la sonda soviética Luna 3. Tiene paisajes muy distintos: más cráteres y menos mares de lava."
+      },
+      {
+        "q": "¿La Luna influye en el sueño y el humor?",
+        "a": "Algunos estudios recientes (universidad de Washington, 2021) sugieren que la gente duerme menos los días previos a luna llena, posiblemente por la luz extra. Para el humor, sin embargo, no hay evidencia científica sólida pese a la creencia popular ('locura lunar'). La palabra lunático viene del latín lunaticus. Lo que sí está confirmado es su influencia en mareas y en ciertos ciclos biológicos de corales y arrecifes."
+      },
+      {
+        "q": "¿Por qué a veces vemos la Luna de día?",
+        "a": "Porque la Luna no necesita la oscuridad para ser visible: refleja la luz solar. Cuando está suficientemente alejada del Sol en el cielo (en cuarto creciente o menguante por ejemplo), es perfectamente visible en pleno día contra el azul del cielo. La únicas fases en que no se ve de día son la luna nueva (demasiado cerca del Sol) y la luna llena (que sale al anochecer, cuando el Sol se pone)."
+      }
+    ],
+    "related": ["sol", "espacio", "mar", "amor", "navidad"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mar",
+    "locale": "es",
+    "keyword": "Mar",
+    "matchPatterns": ["mar", "oceano", "playa", "agua", "ola", "marea"],
+    "topic": "sciences",
+    "title": "El mar — océanos, mareas, vida marina y misterio azul",
+    "description": "Todo sobre el mar: 71% de la superficie terrestre, profundidades abismales, biodiversidad alucinante, mareas lunares y cultura playera.",
+    "emoji": "🌊",
+    "intro": "El mar cubre el 71% de la superficie de la Tierra y contiene el 97% del agua del planeta. Sin él no habría vida, ni clima estable, ni siquiera oxígeno respirable (más de la mitad del oxígeno que respiramos viene del fitoplancton oceánico, no de los bosques). Los océanos se dividen en cinco: Pacífico (el más grande, casi la mitad del total), Atlántico, Índico, Antártico y Ártico. El punto más profundo conocido es la fosa de las Marianas con sus 10.984 metros, donde la presión es 1.000 veces la atmosférica y aún así hay vida: peces translúcidos, anfípodos gigantes, bacterias extremófilas. El mar regula el clima global al absorber el 90% del exceso de calor producido por el efecto invernadero y aproximadamente el 25% del CO2 emitido por humanos. También fue la cuna de la vida: hace 3.500 millones de años aparecieron las primeras bacterias en los océanos, y hace unos 375 millones de años algunos peces salieron a tierra firme. En moomz las encuestas 'team mar vs team montaña' o 'mejor playa de España' generan debate eterno, y siempre hay una mayoría 'mar' en verano. Más allá de la biología, el mar es cultura: la Odisea de Homero, Moby Dick de Melville, Piratas del Caribe, surf en Mundaka, paella valenciana frente al Mediterráneo, vacaciones en la Costa Brava o Cancún. El mar es también un universo amenazado por la contaminación plástica, el calentamiento, la acidificación y la sobrepesca.",
+    "sections": [
+      {
+        "h": "Los océanos y la vida marina",
+        "body": "Se estima que en los océanos viven entre 700.000 y 1 millón de especies, de las cuales solo conocemos unas 230.000. La biodiversidad marina es alucinante: ballenas azules (los animales más grandes que han existido jamás, hasta 30 metros), tiburones (más de 500 especies), arrecifes de coral que albergan el 25% de la vida marina pese a cubrir menos del 1% del fondo, calamares gigantes de hasta 14 metros, medusas inmortales (Turritopsis dohrnii), pulpos con 9 cerebros. Las zonas oscuras del océano (a partir de 1.000 metros) albergan animales bioluminiscentes que producen su propia luz mediante reacciones químicas. La Gran Barrera de Coral australiana es la mayor estructura viva del planeta, visible desde el espacio. Pero la sobrepesca, el plástico (8 millones de toneladas al año van al mar) y la acidificación están diezmando los ecosistemas marinos."
+      },
+      {
+        "h": "Mareas, olas y poder del mar",
+        "body": "Las mareas son provocadas principalmente por la atracción gravitacional de la Luna (y en menor medida del Sol). Cuando Sol, Luna y Tierra están alineados (luna nueva o llena), las mareas son más fuertes (mareas vivas). Cuando están en ángulo recto (cuartos), son débiles (mareas muertas). En la bahía del Mont-Saint-Michel en Francia, la diferencia entre marea alta y baja puede superar los 14 metros. Las olas se forman por el viento que arrastra el agua en superficie: cuanto más fuerte y constante sea, más altas las olas. En tormentas grandes pueden superar los 30 metros. Los tsunamis son distintos: ondas creadas por terremotos submarinos, que viajan a 800 km/h en océano abierto y se elevan hasta decenas de metros al llegar a la costa, como el de Sumatra en 2004 o el de Japón en 2011."
+      },
+      {
+        "h": "Cultura playa y vida frente al mar",
+        "body": "El mar ha estructurado civilizaciones enteras: fenicios, griegos, vikingos, polinesios, todos navegantes legendarios. España vive de cara al mar en sus dos costas: Mediterráneo y Atlántico. En literatura, La Odisea, Moby Dick, El viejo y el mar de Hemingway, Veinte mil leguas de viaje submarino de Verne; en cine, Tiburón de Spielberg, Titanic, Piratas del Caribe, Buscando a Nemo. La playa es también ritual social: bronceado, mojito, paddle, surf, snorkel, sandcastles. El surf nació en Hawái entre los polinesios y hoy es deporte olímpico desde Tokio 2020. Las marcas de bañadores, las playas de Tulum, Bali, Mykonos o Saint-Tropez son destinos lifestyle saturados en Instagram. El mar es libertad, infinito y reset mental — pero también responsabilidad: respetar los ecosistemas, no dejar plástico."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué es salada el agua del mar?",
+        "a": "Porque desde hace miles de millones de años, la lluvia disuelve minerales de las rocas continentales y los arrastra a los océanos. Estos minerales (principalmente cloruro de sodio) se acumulan ya que el agua se evapora pero la sal se queda. La salinidad media es del 3,5%, o sea 35 gramos de sal por litro. El Mar Muerto alcanza el 34% y por eso flotas sin esfuerzo. Algunos mares cerrados como el Báltico son menos salados por los grandes ríos que desembocan."
+      },
+      {
+        "q": "¿Cuánto medimos del fondo marino?",
+        "a": "Apenas el 25% del fondo oceánico está cartografiado en alta resolución, aunque se acelera (proyecto Seabed 2030). Solo unos pocos sumergibles han bajado a más de 10.000 metros: el Trieste en 1960, el Deepsea Challenger de James Cameron en 2012 y la expedición Five Deeps de Victor Vescovo en 2019. Conocemos mejor la superficie de Marte que las profundidades de nuestros océanos. Por eso siguen descubriéndose nuevas especies cada año en las fosas abisales y los volcanes submarinos."
+      },
+      {
+        "q": "¿Por qué el mar parece azul?",
+        "a": "Porque el agua absorbe las longitudes de onda largas (rojo, amarillo) y refleja las cortas (azul). Cuanto más profundo, más azul oscuro. En aguas tropicales poco profundas y arenosas, el mar parece turquesa porque el blanco del fondo refleja la luz. La presencia de algas, sedimentos o plancton puede teñirlo de verde o marrón. El Mar Rojo debe su nombre a cianobacterias que se vuelven rojizas estacionalmente, no a la sangre como en la leyenda bíblica."
+      },
+      {
+        "q": "¿Está realmente en peligro el mar?",
+        "a": "Sí, y la urgencia es real. La temperatura media de los océanos ha subido 0,88 °C desde la era preindustrial, el nivel del mar sube 3,4 mm al año, la acidificación amenaza moluscos y corales. La Gran Barrera de Coral ha perdido el 50% de sus corales en 25 años. El plástico forma giros gigantes como el de Pacífico, del tamaño de Francia × 3. La sobrepesca ha agotado el 33% de las poblaciones de peces. Acciones colectivas (áreas marinas protegidas, fin del plástico de un solo uso, reducción de CO2) son urgentes."
+      }
+    ],
+    "related": ["sol", "luna", "espacio", "verano", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "espacio",
+    "locale": "es",
+    "keyword": "Espacio",
+    "matchPatterns": ["espacio", "universo", "galaxia", "planeta", "astronauta", "cosmos"],
+    "topic": "sciences",
+    "title": "El espacio — universo, galaxias, agujeros negros y exploración",
+    "description": "Todo sobre el espacio: 13.800 millones de años, 2 billones de galaxias, agujeros negros, ISS, SpaceX y misión Artemis a la Luna.",
+    "emoji": "🚀",
+    "intro": "El espacio es la última frontera, según decía Star Trek, y francamente sigue siendo verdad. El universo observable tiene un diámetro de aproximadamente 93.000 millones de años luz y contiene al menos 2 billones de galaxias según las últimas estimaciones del Hubble y el James Webb. Tiene 13.800 millones de años desde el Big Bang, ese momento inicial donde toda la materia y la energía estaban concentradas en un punto increíblemente denso y caliente. La expansión continúa, acelerada por la misteriosa energía oscura que constituye el 68% del universo, mientras que la materia oscura forma el 27% y la materia ordinaria (nosotros, las estrellas, los planetas) solo el 5%. Nuestra galaxia, la Vía Láctea, alberga unos 200-400.000 millones de estrellas y mide unos 100.000 años luz de diámetro. La galaxia vecina más cercana, Andrómeda, se acerca a nosotros a 110 km/s y chocaremos con ella en unos 4.500 millones de años (no te preocupes, las estrellas son tan distantes entre sí que el choque será más una fusión espectacular que una destrucción). En moomz las encuestas 'crees en aliens', 'irías a Marte' o 'team SpaceX vs NASA' generan mucha discusión. La exploración espacial vive una nueva edad de oro con SpaceX que ha revolucionado los lanzamientos reutilizables, el James Webb que nos da imágenes alucinantes desde 2022, el programa Artemis que prevé volver a la Luna y rovers como Perseverance buscando rastros de vida pasada en Marte.",
+    "sections": [
+      {
+        "h": "Galaxias, estrellas y agujeros negros",
+        "body": "Las galaxias son agrupaciones de miles de millones de estrellas, gas, polvo y materia oscura unidas por la gravedad. Hay galaxias espirales como la nuestra, elípticas, irregulares y enanas. En el centro de casi todas las grandes hay un agujero negro supermasivo: el nuestro se llama Sagitario A* y pesa 4 millones de veces el Sol. La primera foto de un agujero negro la consiguió el Event Horizon Telescope en 2019 (el de M87) y en 2022 la de Sagitario A*. Las estrellas nacen en nebulosas como la del Águila o la de Orión, viven millones o miles de millones de años fusionando elementos cada vez más pesados, y mueren explotando en supernovas o transformándose en enanas blancas, estrellas de neutrones o agujeros negros. Casi todos los átomos de tu cuerpo (carbono, oxígeno, hierro) se forjaron en el corazón de estrellas muertas hace miles de millones de años. Literalmente eres polvo de estrellas, como cantaba Joni Mitchell."
+      },
+      {
+        "h": "El sistema solar más allá del Sol",
+        "body": "Nuestro sistema solar tiene 8 planetas: 4 rocosos (Mercurio, Venus, Tierra, Marte) y 4 gigantes (Júpiter, Saturno, Urano, Neptuno). Plutón fue degradado a planeta enano en 2006 por la UAI. Júpiter es el rey con su masa de 318 veces la Tierra y su famosa Gran Mancha Roja, una tormenta más grande que nuestro planeta y activa desde hace al menos 350 años. Saturno tiene sus anillos legendarios hechos casi enteramente de hielo. Marte es el objetivo número uno de SpaceX y de Elon Musk que sueña con colonizarlo. Más allá de Neptuno está el cinturón de Kuiper donde están Plutón y Eris, y aún más lejos la nube de Oort hipotética que se extendería hasta 1 año luz del Sol. Las sondas Voyager 1 y 2 lanzadas en 1977 han salido ya del sistema solar y siguen enviando datos."
+      },
+      {
+        "h": "Exploración espacial moderna: SpaceX, Artemis, James Webb",
+        "body": "Desde la década de 2010 vivimos un renacimiento espacial. SpaceX de Elon Musk revolucionó la industria con sus cohetes Falcon 9 reutilizables que aterrizan verticalmente, reduciendo el coste de lanzamiento drásticamente. La cápsula Crew Dragon transporta astronautas a la Estación Espacial Internacional (ISS) desde 2020. Starship, su mega-cohete, debe llevar humanos a la Luna y a Marte. NASA tiene el programa Artemis que prevé llevar a la primera mujer y al próximo hombre a la Luna hacia 2026-2027, con la idea de instalar una base permanente cerca del polo sur. China alunizó con éxito Chang'e 5 en 2020 y Chang'e 6 en el lado oculto en 2024. India lo logró con Chandrayaan-3 en agosto de 2023. El telescopio James Webb, lanzado en diciembre de 2021, nos da imágenes inéditas del universo profundo, observando galaxias que se formaron solo 300 millones de años tras el Big Bang."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿De qué tamaño es el universo?",
+        "a": "El universo observable mide unos 93.000 millones de años luz de diámetro, pero esto es solo la parte que podemos ver. El universo entero podría ser infinito o curvado sobre sí mismo. Contiene al menos 2 billones de galaxias, cada una con cientos de miles de millones de estrellas. Las cifras son tan absurdas que el cerebro humano no las concibe realmente. La distancia entre la Tierra y la estrella más cercana después del Sol (Próxima Centauri) ya es de 4,24 años luz, o sea 40 billones de km."
+      },
+      {
+        "q": "¿Existen los extraterrestres?",
+        "a": "Estadísticamente, sí muy probablemente, pero aún no se ha probado. Con 200.000 millones de galaxias × 200.000 millones de estrellas × millones de planetas habitables, sería extraño que estuviéramos solos. La paradoja de Fermi se pregunta entonces por qué no detectamos señales. Misiones como SETI escuchan el cielo desde los 60. La NASA busca vida microbiana en Marte, Europa (luna de Júpiter) y Encélado (luna de Saturno). El descubrimiento de fosfina en Venus en 2020 alimentó las especulaciones pero sigue debatiéndose."
+      },
+      {
+        "q": "¿Cuánto cuesta ir al espacio?",
+        "a": "Caro pero cada vez menos. Un asiento en SpaceX Crew Dragon a la ISS cuesta unos 55 millones de dólares para turistas privados. Blue Origin de Jeff Bezos ofrece vuelos suborbitales de 11 minutos por unos 200.000 a 500.000 dólares. Virgin Galactic está en gamas parecidas. Para profesionales, la NASA forma astronautas durante años; las plazas son ultracompetitivas (unas 20 por más de 12.000 candidatos en la última promoción). El precio total del programa Apolo en su época: 280.000 millones de dólares actuales."
+      },
+      {
+        "q": "¿Se puede oír en el espacio?",
+        "a": "No, el sonido necesita un medio (aire, agua, sólido) para propagarse. El espacio es vacío casi absoluto, así que aunque exploten estrellas o galaxias cerca, no oirías nada. Los astronautas en la ISS se comunican por radio, no directamente. Las películas que muestran explosiones ruidosas en el espacio están totalmente equivocadas físicamente. En cambio, las ondas electromagnéticas (luz, radio, rayos X) se propagan perfectamente y son nuestra única manera de observar el cosmos."
+      }
+    ],
+    "related": ["sol", "luna", "mar", "ia", "iphone"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pizza",
+    "locale": "es",
+    "keyword": "Pizza",
+    "matchPatterns": ["pizza", "margherita", "napolitana", "pepperoni", "italia"],
+    "topic": "food",
+    "title": "Pizza — historia, recetas clásicas y el debate piña eterno",
+    "description": "Todo sobre la pizza: Margherita de 1889 en Nápoles, masa madre, los grandes clásicos, hawaiana polémica y mejores pizzerías del mundo.",
+    "emoji": "🍕",
+    "intro": "La pizza es probablemente el plato más universalmente amado del planeta. Se estima que se comen 5.000 millones de pizzas al año solo en EE.UU., y unas 350 porciones se devoran por segundo en el mundo. Aunque sus orígenes son antiguos (los etruscos y los griegos ya horneaban panes planos con condimentos), la pizza moderna nació en Nápoles a finales del siglo XVIII como comida callejera barata para los obreros. El golpe maestro llegó el 11 de junio de 1889 cuando el pizzaiolo Raffaele Esposito creó tres pizzas para la reina Margarita de Saboya que visitaba Nápoles. La que más gustó a la reina, con tomate (rojo), mozzarella (blanco) y albahaca (verde), recordando los colores de la bandera italiana, recibió su nombre: pizza Margherita. Ese día nació un mito. La pizza napolitana fue declarada patrimonio inmaterial de la UNESCO en 2017. La auténtica respeta reglas estrictas certificadas por la Associazione Verace Pizza Napoletana: masa de harina italiana 00, fermentación de mínimo 8 horas, cocción a 485 °C en horno de leña durante 60-90 segundos, diámetro de 22-35 cm, borde alto y aireado. En moomz las encuestas 'piña en la pizza sí o no', 'mejor topping' o 'pizza al horno vs domicilio' provocan auténticas guerras santas. La hawaiana fue inventada en 1962 por el griego-canadiense Sam Panopoulos, no por italianos: por eso muchos italianos consideran que es una herejía. Más allá del debate, hoy la pizza es un fenómeno global con variantes infinitas: Nueva York, Chicago deep dish, Roma al taglio, Detroit, sicilianas, y mil fusiones.",
+    "sections": [
+      {
+        "h": "Los grandes clásicos italianos",
+        "body": "Las pizzas clásicas italianas son sagradas: Margherita (tomate, mozzarella di bufala, albahaca, aceite de oliva, sal); Marinara (tomate, ajo, orégano, aceite, ¡sin queso! es la más antigua, anterior a la Margherita); Quattro Stagioni (cuatro estaciones: alcachofas, jamón, champiñones, aceitunas); Quattro Formaggi (cuatro quesos: mozzarella, gorgonzola, parmesano, fontina); Diavola (mozzarella, salami picante); Capricciosa (mozzarella, jamón, champiñones, alcachofas, huevo); Prosciutto e funghi (jamón cocido y champiñones). Cada región tiene su variante: en Roma la masa es fina y crujiente, en Nápoles más esponjosa con borde alto. En Sicilia la sfincione es gruesa y rectangular con cebolla y anchoas. La auténtica masa lleva solo harina, agua, sal y levadura, fermentación lenta de 24-72h en frío para que sea digestiva."
+      },
+      {
+        "h": "El debate piña: hawaiana y herejías",
+        "body": "La pizza hawaiana (jamón + piña) fue inventada en 1962 en Canadá por Sam Panopoulos, un greco-canadiense que regentaba el restaurante Satellite en Ontario. Le puso el nombre por la marca de piña enlatada Hawaiian. Desde entonces divide al mundo entero: en 2017 el presidente de Islandia bromeó con prohibirla, los italianos en general la odian y los chefs napolitanos la rechazan oficialmente. Pero las estadísticas dicen otra cosa: la hawaiana es una de las top 5 más vendidas en muchos países. Otras herejías frecuentes: pizza con kebab, pizza dulce con nutella, pizza con ketchup en lugar de tomate (terrorismo culinario), pizza fría al día siguiente para desayuno. En moomz, los duelos 'piña sí vs piña no' suelen tener 60-65% pro-piña según el país."
+      },
+      {
+        "h": "Las mejores pizzerías del mundo",
+        "body": "El ranking 50 Top Pizza, considerado el referente mundial, premia cada año a las mejores pizzerías. Año tras año las napolitanas dominan: Una Pizza Napoletana de Anthony Mangieri en Nueva York, I Masanielli de Francesco Martucci en Caserta, 10 Diego Vitagliano en Nápoles. Otras leyendas: L'Antica Pizzeria da Michele (la que sale en Come Reza Ama con Julia Roberts), Sorbillo, Di Matteo en Nápoles. Fuera de Italia: Pepe in Grani (Caiazzo), Bæst en Copenhague, 50 Kalò en Londres, Razza en Nueva Jersey, Pizzeria Bianco en Phoenix. En España destacan Sartoria Panatieri en Barcelona (Top 5 mundial), Demaio en Madrid, Caya en San Sebastián. La cocción al horno de leña a 485 °C en 60-90 segundos es el secreto, junto con harinas italianas de calidad y fermentaciones largas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo y dónde se inventó la pizza?",
+        "a": "La pizza moderna nació en Nápoles, Italia, entre finales del siglo XVIII y principios del XIX, como comida callejera popular. La pizza Margherita, en concreto, la creó el pizzaiolo Raffaele Esposito el 11 de junio de 1889 en honor a la reina Margarita de Saboya. Pero panes planos con condimentos existen desde la Antigüedad: egipcios, griegos y etruscos ya los preparaban. Lo que la pizza italiana añadió fue la combinación tomate + mozzarella + albahaca con masa fermentada y horno de leña."
+      },
+      {
+        "q": "¿Cuál es la verdadera receta de la masa napolitana?",
+        "a": "Según la Associazione Verace Pizza Napoletana: 1 kg de harina italiana 00, 600 ml de agua, 30 g de sal marina, 0,5-3 g de levadura fresca (mínima). Mezclar, amasar 20 min, dejar reposar 2h a temperatura ambiente, luego porcionar bolas de 250g y fermentar 6-24h en frío. Estirar a mano (¡prohibido el rodillo!), añadir tomate San Marzano, mozzarella de búfala, albahaca y aceite de oliva. Cocción 60-90 segundos a 485 °C en horno de leña."
+      },
+      {
+        "q": "¿Cuántas calorías tiene una pizza?",
+        "a": "Depende mucho. Una Margherita de pizzería napolitana auténtica (250-300g) tiene entre 700 y 900 kcal en total. Una pizza congelada de supermercado a menudo se acerca a las 1.000-1.200 kcal porque tiene más grasa y queso industrial. Las pizzas americanas tipo Domino's con extra pepperoni y queso pueden subir a 2.500 kcal la pizza grande. Una porción media son 250-350 kcal. El secreto es masa fermentada con harinas de calidad: se digiere mejor y satisface más rápido."
+      },
+      {
+        "q": "¿Por qué los italianos odian la pizza con piña?",
+        "a": "Por motivos culturales y técnicos. Culturalmente, la pizza es patrimonio sagrado y mezclar fruta tropical contradice la tradición mediterránea. Técnicamente, la piña suelta agua durante la cocción y satura la masa, además su acidez choca con la del tomate. La hawaiana fue inventada en Canadá en 1962, no en Italia: para los puristas no es ni pizza ni italiana. Dicho esto, las estadísticas globales muestran que sigue siendo una de las más pedidas, sobre todo entre niños y jóvenes."
+      }
+    ],
+    "related": ["sushi", "cafe", "chocolate", "amor", "netflix"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sushi",
+    "locale": "es",
+    "keyword": "Sushi",
+    "matchPatterns": ["sushi", "sashimi", "maki", "nigiri", "japon", "japones"],
+    "topic": "food",
+    "title": "Sushi — historia japonesa, tipos, etiqueta y los mejores chefs",
+    "description": "Todo sobre el sushi: Hanaya Yohei en Edo en los 1820s, nigiri, maki, sashimi, omakase, etiqueta japonesa y los mejores chefs estrella.",
+    "emoji": "🍣",
+    "intro": "El sushi es la joya gastronómica de Japón y una de las cocinas más respetadas y exportadas del mundo. Aunque hoy lo asociamos a pescado crudo sobre arroz, sus orígenes son sorprendentes: el ancestro del sushi nació en el sudeste asiático hace más de 1.500 años como una técnica de conservación. El pescado se fermentaba con arroz y sal durante meses para preservarlo, y solo se comía el pescado; el arroz se tiraba. Esta técnica, llamada narezushi, llegó a Japón hacia el siglo VIII. Durante siglos el sushi evolucionó, y en el período Edo (1603-1868) un chef llamado Hanaya Yohei revolucionó el plato hacia 1820-1825 al inventar el sushi moderno tal como lo conocemos: arroz avinagrado servido inmediatamente con un pedazo de pescado fresco encima, sin fermentación. Lo bautizó nigirizushi (sushi prensado a mano) y lo vendía como comida rápida callejera en su puesto del barrio Ryogoku de Edo (el antiguo Tokio). Tras el gran terremoto de Kanto de 1923, muchos chefs de Edo se dispersaron por Japón y el sushi se extendió por todo el país. En los 60 llegó a EE.UU., y desde los 80 conquistó el mundo entero. En moomz las encuestas 'team sushi vs team pizza', 'mejor pescado para sushi' o 'el sushi vegetariano cuenta' generan mucha conversación. Hoy un omakase de alto nivel en Tokio puede costar 500-800 euros por persona, y restaurantes como Sukiyabashi Jiro (el del documental Jiro Sueña con Sushi) son cultos.",
+    "sections": [
+      {
+        "h": "Los diferentes tipos de sushi",
+        "body": "El sushi no es un solo plato sino una familia entera. Nigiri: una bolita de arroz avinagrado a mano coronada con un pedazo de pescado (atún, salmón, calamar, anguila, etc.); es el sushi clásico de Edo. Maki: arroz y relleno enrollados en un alga nori y cortados en 6 u 8 piezas; hosomaki (finos), futomaki (gruesos), uramaki (arroz por fuera, alga por dentro, tipo California Roll). Temaki: cono de alga rellena, comida con la mano. Sashimi: pescado crudo solo, sin arroz (técnicamente no es sushi). Chirashi: bol de arroz con varios pescados encima. Inari: arroz envuelto en tofu frito dulce. Gunkan: cuenco de arroz envuelto en alga con relleno blando (huevas, oricio, etc.). El California Roll, inventado en Los Ángeles en los 70 por Ichiro Mashita, popularizó el uramaki con aguacate, cangrejo y pepino."
+      },
+      {
+        "h": "Etiqueta y rituales en sushi-ya",
+        "body": "Comer sushi en Japón sigue códigos estrictos que los puristas respetan. 1) Usar palillos o los dedos, pero nunca cuchillo y tenedor. 2) Mojar el lado del pescado en la salsa de soja, no el arroz (chuparía el sushi). 3) Comer el nigiri de un solo bocado si es posible. 4) El wasabi ya viene puesto bajo el pescado por el chef; añadir más es ofensa. 5) El gari (jengibre encurtido) sirve para limpiar el paladar entre piezas, no para comerlo con el sushi. 6) Comer las piezas en orden: empezar por las suaves (pescado blanco) y acabar por las grasas (toro) y dulces (anguila). 7) Beber té verde, sake o cerveza, no refrescos. 8) En un omakase (a discreción del chef), confiar y dejar que él decida la sucesión. Decir 'gochisousama deshita' al final por agradecimiento."
+      },
+      {
+        "h": "Los chefs estrella y los mejores spots",
+        "body": "El sushi de altísimo nivel es un arte que requiere décadas de aprendizaje. Jiro Ono, fallecido en 2025 a los 99 años, fue el rostro más famoso con su Sukiyabashi Jiro en Ginza, Tokio, inmortalizado por el documental Netflix de David Gelb. Otros maestros legendarios: Takashi Saito (Sushi Saito), Mitsuhiro Araki (Araki en Londres y Tokio), Naomichi Yasuda (Sushi Yasuda Nueva York). En España, el sushi se vive bien en Kabuki Wellington (Madrid, 1 estrella Michelin), Koy Shunka (Barcelona, 1 estrella), 99 Sushi Bar (Madrid). Para descubrir: probar un omakase aunque sea una vez, comer en barra mirando al chef trabajar, evitar conveyor belt salvo por curiosidad. El criterio número uno de calidad: frescura del pescado y temperatura del arroz (debe estar tibio, ligeramente por encima del pescado)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quién inventó el sushi moderno?",
+        "a": "El sushi moderno (nigiri sobre arroz avinagrado servido inmediatamente, sin fermentación) lo inventó el chef Hanaya Yohei en el período Edo en Japón, hacia los años 1820-1825. Lo vendía como comida rápida callejera en su puesto del barrio Ryogoku de Edo (el antiguo Tokio). Antes, el sushi era narezushi: pescado fermentado durante meses con arroz, una técnica de conservación venida del sudeste asiático en el siglo VIII. Yohei revolucionó el concepto y popularizó el nigiri tal como lo comemos hoy."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre sushi y sashimi?",
+        "a": "El sushi siempre lleva arroz avinagrado: el pescado o relleno se sirve encima o enrollado con arroz. El sashimi, en cambio, es pescado crudo solo, sin arroz, presentado en rebanadas finas con wasabi y salsa de soja. Técnicamente el sashimi no es sushi, es una categoría distinta. Los puristas dicen que el verdadero arte del sushi es el equilibrio entre arroz y pescado, mientras que el sashimi destaca la calidad pura del producto. En un omakase a menudo se sirven los dos."
+      },
+      {
+        "q": "¿Es seguro comer pescado crudo?",
+        "a": "Sí, si está bien hecho. Los chefs profesionales usan pescado de grado sushi, congelado previamente a -20 °C durante 7 días o a -35 °C durante 15 horas, según las normas FDA y europeas, para matar los parásitos (anisakis, etc.). El atún se considera más seguro al sashimi crudo sin congelación previa. Es importante elegir restaurantes serios. El sushi casero con pescado de supermercado normal es arriesgado. Mujeres embarazadas, niños pequeños e inmunodeprimidos deberían evitar pescado crudo por precaución."
+      },
+      {
+        "q": "¿Por qué el sushi cuesta tan caro?",
+        "a": "Por varias razones acumuladas. Primero la materia prima: el atún rojo de calidad, el otoro y otros pescados nobles pueden alcanzar precios de locura (un atún rojo de Bluefin se vendió por 3 millones de euros en una subasta de Tsukiji en 2019). Después el saber hacer: un sushi chef se forma entre 10 y 20 años antes de hacer nigiri en barra. La frescura del producto, el arroz japonés Koshihikari, el vinagre artesanal, el wasabi real (no la falsa pasta verde), el alga nori de calidad, todo cuesta. Y finalmente la experiencia: un omakase es un servicio personalizado."
+      }
+    ],
+    "related": ["pizza", "cafe", "chocolate", "anime", "kpop"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cafe",
+    "locale": "es",
+    "keyword": "Café",
+    "matchPatterns": ["cafe", "espresso", "capuchino", "latte", "barista", "expresso"],
+    "topic": "food",
+    "title": "Café — origen etíope, recetas, métodos y cultura mundial",
+    "description": "Todo sobre el café: Etiopía Kaffa, arábica vs robusta, espresso, V60, cold brew, latte art y cómo se ha vuelto la 2ª bebida más consumida.",
+    "emoji": "☕",
+    "intro": "El café es la segunda bebida más consumida del planeta después del agua, con más de 2.250 millones de tazas tragadas cada día en el mundo. Su historia empieza en Etiopía, en la región de Kaffa, donde según la leyenda un pastor llamado Kaldi descubrió hacia el siglo IX que sus cabras se ponían más enérgicas tras comer las bayas rojas de cierto arbusto. Probó él mismo y descubrió la cafeína. La realidad histórica es algo distinta: el café se cultivó por primera vez en Etiopía y Yemen entre los siglos XII y XV. Los sufíes yemeníes lo bebían para mantenerse despiertos durante las oraciones nocturnas. En el siglo XVI, el café se extendió por todo el imperio otomano y entró en Europa por Venecia hacia 1615. Los cafés (lugar) florecieron en El Cairo, Estambul, después en París, Londres, Viena, convirtiéndose en epicentros de la vida intelectual y revolucionaria. Voltaire bebía supuestamente 40-50 tazas al día. La Bolsa de Londres nació en un café (el Lloyd's en 1688). Hoy Brasil produce un tercio del café mundial, Vietnam viene segundo, Colombia y Etiopía completan el podio. En moomz las encuestas 'team café vs team té', 'espresso solo o con leche' o 'el café antes de las 10 am' generan debate eterno. El café también es ritual: la primera taza de la mañana, las pausas, las charlas de terraza. Y desde la oleada del specialty coffee de los 2000, ha alcanzado niveles de sofisticación dignos del vino.",
+    "sections": [
+      {
+        "h": "Arábica vs Robusta y las variedades",
+        "body": "Existen dos especies principales cultivadas comercialmente: la Coffea arabica (60% de la producción mundial) y la Coffea canephora (robusta, 40%). La arábica crece en altura (600-2000m), tiene un sabor más complejo, aromático, ácido y dulce, con menos cafeína (1-1,5%). Etiopía, Colombia, Brasil, Costa Rica y Kenia son grandes productores arábica. La robusta crece más baja, es más amarga, menos refinada, pero tiene el doble de cafeína (2-3%) y mucha más crema en espresso. Vietnam es el rey de la robusta. La arábica se subdivide en variedades: Bourbon, Typica, Geisha (la más cara, originaria de Etiopía y plantada en Panamá, batió récords a más de 10.000 €/kg en subasta), Caturra, SL28. El terroir, la altitud, el procesamiento (lavado, natural, honey) influyen mucho en el perfil aromático final."
+      },
+      {
+        "h": "Los métodos de preparación",
+        "body": "El espresso es el rey: 7-9g de café molido fino, agua a 92-96 °C bajo 9 bares de presión durante 25-30 segundos, resultando en 25-30 ml con crema dorada. Inventado en Italia por Angelo Moriondo en 1884 y perfeccionado por Luigi Bezzera en 1901. A partir del espresso: capuchino (espresso + leche vaporizada + espuma), latte (espresso + más leche, menos espuma), americano (espresso + agua caliente), macchiato (espresso 'manchado' con un poco de leche). Métodos suaves: V60 Hario (papel cónico, vertido manual), Chemex (jarra de vidrio diseñada en 1941), French Press (cafetera de émbolo, infusión 4 min), AeroPress (invención americana de 2005, presión manual), cold brew (infusión en frío 12-24h, suave y muy aromático). Cada método extrae aromas distintos del mismo café."
+      },
+      {
+        "h": "La cultura café y la tercera ola",
+        "body": "La cultura café ha vivido tres olas. Primera ola (s. XIX-XX): café masivo, instantáneo Nescafé inventado en 1938, Maxwell House. Segunda ola: Starbucks abre en Seattle en 1971 y populariza el espresso, el latte, los nombres italianos y los tamaños XXL. Tercera ola (años 2000): el café se convierte en producto artesanal, comparable al vino. Cafeterías de specialty coffee como Blue Bottle, Stumptown, Intelligentsia, La Marzocco, Square Mile en Londres ponen el foco en el origen, el productor, los métodos de extracción precisos. Los baristas son artistas, el latte art (corazones, rosetas, cisnes en la espuma) se vuelve viral en Instagram. En España, destacan Hola Coffee, Toma Café y Mistura en Madrid; Nømad y Satan's Coffee Corner en Barcelona; y Espresso Lab en Valencia, todas referentes del specialty español."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Es malo para la salud beber demasiado café?",
+        "a": "Con moderación, el café tiene beneficios demostrados: protege contra la diabetes tipo 2, las enfermedades cardiovasculares, el Parkinson y el Alzheimer (estudios meta-análisis 2017). La dosis razonable es 3-4 tazas al día, o sea 300-400 mg de cafeína. Más allá puede causar ansiedad, palpitaciones, insomnio, problemas digestivos. Las embarazadas deberían limitarse a 200 mg/día. El café no es deshidratante (mito antiguo): el agua que contiene compensa el efecto diurético leve."
+      },
+      {
+        "q": "¿Cuándo dejar de beber café por la tarde?",
+        "a": "La cafeína tiene una vida media de 5-6 horas en el organismo, lo que significa que si tomas un café a las 16h, la mitad sigue circulando a las 22h. Para una buena calidad de sueño, los expertos recomiendan parar a partir de las 14h o 15h máximo. Las personas sensibles deben parar incluso al mediodía. El café descafeinado contiene aún 2-15 mg de cafeína por taza, no es cero. Té verde, infusiones de manzanilla o rooibos son buenas alternativas para la tarde."
+      },
+      {
+        "q": "¿De dónde viene el café?",
+        "a": "El café tiene su origen en Etiopía, en la región de Kaffa (que dio su nombre a la bebida). Según la leyenda, un pastor llamado Kaldi descubrió el efecto estimulante de las bayas hacia el siglo IX. La realidad histórica sitúa el primer cultivo en Etiopía y Yemen entre los siglos XII y XV. Los sufíes yemeníes lo bebían para mantenerse despiertos durante oraciones nocturnas. Después se extendió por el imperio otomano y luego a Europa por Venecia en 1615. Hoy Brasil es el productor número uno mundial."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre espresso y café filtro?",
+        "a": "El espresso es una extracción rápida bajo presión (9 bares, 25-30s) con café molido fino, resultando en una taza concentrada (25-30 ml) con crema. El café filtro es una extracción lenta por gravedad (3-4 min) con molido más grueso, dando una taza más larga (200-300 ml) sin crema. El espresso es más intenso, dulce y aromático en boca; el filtro destaca aromas más sutiles y ácidos. En cafeína por taza, el filtro suele tener más (porque la cantidad es mayor) aunque el espresso es más concentrado."
+      }
+    ],
+    "related": ["pizza", "sushi", "chocolate", "ia", "iphone"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "chocolate",
+    "locale": "es",
+    "keyword": "Chocolate",
+    "matchPatterns": ["chocolate", "cacao", "negro", "blanco", "leche", "trufa"],
+    "topic": "food",
+    "title": "Chocolate — historia, cacao, tipos y los mejores maestros chocolateros",
+    "description": "Todo sobre el chocolate: cacao maya y azteca, llegada a Europa en 1528, negro vs leche vs blanco, y los mejores chocolateros del mundo.",
+    "emoji": "🍫",
+    "intro": "El chocolate es probablemente el alimento más adorado del mundo, capaz de consolar penas amorosas y celebrar éxitos. Su historia empieza hace 3.500 años en Mesoamérica, donde los olmecas, mayas y aztecas cultivaban el cacao y lo consumían como bebida amarga, espesa, con chile y especias, llamada xocolatl (de ahí viene el nombre). Para los aztecas las semillas de cacao eran tan preciadas que servían de moneda: 100 granos compraban un pavo, 4 una calabaza. Hernán Cortés llegó a México en 1519, descubrió el cacao en la corte del emperador Moctezuma II y lo trajo a España en 1528. Los españoles añadieron azúcar y vainilla, transformando la bebida amarga en algo dulce y delicioso. Durante el siglo XVII el chocolate se convirtió en bebida aristocrática en Europa. La revolución llegó en 1828 cuando el holandés Coenraad Van Houten inventó la prensa de cacao, separando manteca y polvo. En 1847 Joseph Fry creó el primer chocolate sólido en Inglaterra, y en 1875 el suizo Daniel Peter inventó el chocolate con leche al mezclar cacao con la leche en polvo de su vecino Henri Nestlé. En 1879 Rodolphe Lindt inventó el conchado, técnica que hace el chocolate suave y untuoso. En moomz las encuestas 'team chocolate negro vs leche', 'tabletas vs bombones' o 'el chocolate blanco es chocolate' provocan debates. España consume entre 3-4 kg por habitante al año (récords en Suiza con 11 kg), y hay maestros como Oriol Balaguer, Paco Torreblanca o Enric Rovira que están en el top mundial.",
+    "sections": [
+      {
+        "h": "Negro, leche, blanco: ¿qué los diferencia?",
+        "body": "Las tres familias se distinguen por su composición. Chocolate negro: mínimo 35% cacao según la UE, lleva cacao en pasta, manteca de cacao, azúcar y a veces vainilla. Las tabletas premium superan el 70%, el de 100% es solo cacao puro, intenso y amargo. Chocolate con leche: mínimo 25% cacao, 14% leche en polvo. Más dulce, más cremoso, suele tener menos antioxidantes pero también menos amargor. Inventado por Daniel Peter en Vevey (Suiza) en 1875. Chocolate blanco: estrictamente no contiene cacao en pasta (la parte oscura), solo manteca de cacao (mínimo 20%), azúcar y leche. Por eso algunos dicen que no es 'verdadero' chocolate, pero técnicamente sí ya que la manteca de cacao viene del cacao. También existen el chocolate rubí (rosado, lanzado por Barry Callebaut en 2017) y el chocolate al 100% cacao para puristas."
+      },
+      {
+        "h": "El cacao: del árbol a la tableta",
+        "body": "El cacao (Theobroma cacao, 'alimento de los dioses') crece en una franja tropical 20° al norte y al sur del ecuador. Costa de Marfil y Ghana producen 60% del cacao mundial, seguidos por Ecuador, Indonesia, Camerún y Nigeria. El árbol tarda 4-5 años antes de dar fruto, cada mazorca contiene 20-50 semillas. Las semillas se fermentan 5-7 días, se secan al sol, después se exportan. En la chocolatería se tuestan a 120-140 °C durante 20-40 min, se descascarillan (nibs de cacao), se muelen para obtener la pasta de cacao, después se mezclan con azúcar, manteca y leche, se conchan (mezcla larga durante 12-72h), se templan y se moldean. Las variedades: Criollo (raro, fino, 5% de la producción), Forastero (común, productivo, 80%), Trinitario (híbrido, 15%). Los grandes crus llegan a 200-500 €/kg en bean-to-bar."
+      },
+      {
+        "h": "Los maestros chocolateros y la tendencia bean-to-bar",
+        "body": "Los grandes nombres clásicos: Lindt, Valrhona (Francia, referente profesional), Cluizel, Bonnat, Pralus, Bernachon en Lyon (uno de los pocos que tuestan ellos mismos). En la nueva generación bean-to-bar, donde el chocolatero compra granos directamente al productor y controla toda la cadena: Marou en Vietnam, Original Beans, Solstice (EE.UU.), Akesson's, Manoa, Mast Brothers. En España, Oriol Balaguer y Enric Rovira en Barcelona son referentes mundiales; Paco Torreblanca en Alicante; Pancracio y Cacao Sampaka en Madrid son must absolutos. Lo que distingue a un gran chocolate: terroir único del cacao, tueste perfecto, conchado largo, sin lecitina industrial. Cataste como un vino: olfato, fundente en boca, longitud aromática, notas (frutos rojos, especias, tabaco, frutos secos)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿De dónde viene el chocolate?",
+        "a": "El chocolate se originó en Mesoamérica hace 3.500 años. Olmecas, mayas y aztecas cultivaban el cacao y lo consumían como bebida amarga llamada xocolatl, mezclada con chile y especias. Para los aztecas las semillas eran tan preciadas que servían de moneda. Hernán Cortés lo descubrió en la corte de Moctezuma II en 1519 y trajo cacao a España en 1528. Los españoles añadieron azúcar y vainilla. El chocolate sólido como lo conocemos hoy lo inventó Joseph Fry en Inglaterra en 1847, y el chocolate con leche Daniel Peter en Suiza en 1875."
+      },
+      {
+        "q": "¿Es bueno comer chocolate?",
+        "a": "El chocolate negro con alto porcentaje de cacao (70% o más) es muy interesante nutricionalmente: rico en flavonoides antioxidantes, magnesio, hierro, cobre. Estudios demuestran que un consumo moderado (20-30g/día) baja la tensión, mejora la función endotelial, podría reducir el riesgo cardiovascular. También contiene teobromina (estimulante suave) y triptófano (precursor de la serotonina, 'hormona de la felicidad'). El chocolate con leche y el blanco son más calóricos y azucarados, con menos beneficios. Cuanto más alto el porcentaje de cacao, mejor."
+      },
+      {
+        "q": "¿Por qué algunos chocolates son tan caros?",
+        "a": "Por el origen y el saber hacer. Los chocolates premium usan granos rares (Criollo, Trinitario), terroirs únicos (Madagascar, Venezuela, Vietnam Marou), procesos artesanales (fermentación cuidada, tueste personalizado, conchado largo 72h). Un bean-to-bar como Marou Ben Tre 78% cuesta unos 8-10 € los 80g, contra 1-2 € para chocolate industrial. Los grandes chocolateros (Valrhona Manjari, Pierre Hermé) van más allá. El cacao Geisha es uno de los más caros del mundo. El precio refleja la equidad con los productores y la calidad excepcional."
+      },
+      {
+        "q": "¿Por qué el chocolate da felicidad?",
+        "a": "Por varias razones químicas. El chocolate contiene triptófano, un aminoácido precursor de la serotonina, neurotransmisor del bienestar. También feniletilamina, llamada 'molécula del amor', anandamida (similar al cannabis) y teobromina, estimulante suave. La grasa untuosa, el dulzor y el fundente en boca activan los circuitos de recompensa. Pero el efecto psicológico cuenta más: comer chocolate suele asociarse a momentos placenteros (niñez, regalos, San Valentín) y activa el sistema de recompensa por anticipación. Es un placer multisensorial completo."
+      }
+    ],
+    "related": ["pizza", "sushi", "cafe", "amor", "navidad"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "amor",
+    "locale": "es",
+    "keyword": "Amor",
+    "matchPatterns": ["amor", "pareja", "enamorado", "relacion", "novio", "novia"],
+    "topic": "couple",
+    "title": "Amor — qué es, fases, lenguajes del amor y mitos modernos",
+    "description": "Todo sobre el amor: química cerebral, las 3 fases (pasión, apego, compromiso), 5 lenguajes del amor y los mitos de las apps de citas.",
+    "emoji": "💖",
+    "intro": "El amor es probablemente el tema más universal de la condición humana, fuente inagotable de poesía, canciones, pelis, sufrimiento y alegría. Pero qué es realmente, científicamente. La neurociencia ha estudiado el amor desde los años 2000 con resultados fascinantes. Helen Fisher, la antropóloga que más se ha investigado el cerebro enamorado mediante IRM funcional, identificó tres sistemas cerebrales distintos: el deseo (libido, dirigido por testosterona y estrógenos), la atracción (enamoramiento intenso, dopamina, norepinefrina, baja serotonina, parecido al TOC), y el apego (vínculo a largo plazo, oxitocina y vasopresina). El amor pasión dura biológicamente entre 6 meses y 4 años, después se transforma en apego (o se rompe). En moomz las encuestas 'crees en el amor a primera vista', 'mejor pareja vivir juntos o no' o 'el amor verdadero existe' explotan en los DMs. La sociología señala que las relaciones modernas han cambiado mucho: Tinder se lanzó en 2012 y revolucionó las citas, las parejas mixtas binacionales han pasado del 5% al 15% en 30 años, el matrimonio se atrasa (en España alrededor de 35 años en 2024), y los modelos de relación alternativos (poliamor, relaciones libres, soltería elegida) se democratizan. Pero más allá de las modas, el amor sigue siendo lo que más declaran los humanos como fuente de felicidad y sentido, según los estudios longitudinales más largos (Harvard Study of Adult Development, 85 años de seguimiento).",
+    "sections": [
+      {
+        "h": "Las 3 fases biológicas del amor",
+        "body": "Según Helen Fisher el amor sigue tres fases. Fase 1 — el deseo: pura libido, atracción física, dirigido por las hormonas sexuales. Puede aparecer hacia cualquier persona atractiva. Fase 2 — la atracción/enamoramiento: enfoque obsesivo sobre una persona, pensamientos intrusivos, euforia, pérdida de apetito y sueño. Bioquímicamente parece un TOC ligero: la serotonina baja, la dopamina sube, las recompensas se vinculan a la persona deseada. Esta fase dura 6 meses a 4 años. Fase 3 — el apego: una vez la pasión se calma, si la pareja sobrevive, deja espacio a un vínculo profundo dirigido por oxitocina y vasopresina, segregadas durante el sexo, las caricias y los momentos compartidos. Es lo que sostiene las relaciones largas. Algunas parejas pasan directamente del 1 al 3 sin pasar por el 2 (amistad amorosa); otras se quedan estancadas en el 2 (pasiones tormentosas)."
+      },
+      {
+        "h": "Los 5 lenguajes del amor de Gary Chapman",
+        "body": "En 1992 el pastor americano Gary Chapman publicó The Five Love Languages, libro que se ha vuelto un clásico vendido a más de 20 millones de ejemplares. Su tesis: todos no expresamos ni recibimos el amor de la misma manera. Existen cinco lenguajes principales: 1) Palabras de afirmación (cumplidos, 'te quiero', mensajes tiernos); 2) Tiempo de calidad (atención plena, momentos juntos sin móvil); 3) Recibir regalos (no necesariamente caros, sino simbólicos); 4) Actos de servicio (cocinar, ayudar, ocuparse de cosas); 5) Toque físico (caricias, abrazos, sostener la mano, sexo). Las parejas duraderas suelen identificar el lenguaje principal de su pareja y se adaptan, en vez de imponer el suyo. Si tu lenguaje son las palabras pero tu pareja vive los actos, los regalos te dejarán frío. Hay test online para identificar el tuyo."
+      },
+      {
+        "h": "Apps de citas y mitos modernos",
+        "body": "Las apps de citas han transformado el panorama. Tinder se lanza en 2012, después Bumble, Hinge, Coffee Meets Bagel, Feeld para los curiosos. Hoy 30-40% de las parejas se conocen online (contra menos del 5% en 2000). Pero los algoritmos crean efectos perversos: hipersexualización del descubrimiento (basado en fotos), paradoja de la elección (demasiadas opciones paralizan), ghosting, breadcrumbing, situationships. Estudios muestran que los hombres reciben mucho menos matches en promedio, lo que genera frustración, mientras las mujeres son inundadas. La generación Z empieza a alejarse de Tinder por agotamiento y vuelve a las apps que valoran las charlas (Hinge, ahora 'designed to be deleted'). Los mitos persistentes: la media naranja (mito romántico cristiano-platónico), el príncipe azul, el amor a primera vista (sí existe pero es solo atracción intensa, no amor profundo)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura el amor pasional?",
+        "a": "Según los estudios de Helen Fisher y Donatella Marazziti (universidad de Pisa), la fase de pasión intensa con sus síntomas característicos (obsesión, euforia, pérdida de apetito) dura entre 6 meses y 4 años, con un pico hacia los 18 meses. Después la química cerebral cambia: la dopamina baja, la oxitocina sube. Si la pareja se mantiene, evoluciona hacia el apego más sereno. Es una buena noticia: una pasión eterna sería biológicamente agotadora. Las parejas duraderas saben mantener llamitas de atracción dentro de un apego profundo."
+      },
+      {
+        "q": "¿El amor a primera vista existe de verdad?",
+        "a": "Sí, pero suele ser una forma intensa de atracción inmediata más que amor profundo. Estudios demuestran que el cerebro decide en 90 milisegundos si una persona es atractiva (rostro simétrico, voz, olor, lenguaje corporal). El 'flechazo' suele basarse en señales subconscientes que recuerdan a personas amadas en la infancia, criterios estéticos universales (juventud, salud) y compatibilidad olfativa (CMH, complejo mayor de histocompatibilidad). Pero el verdadero amor, basado en conocimiento mutuo y vínculo profundo, exige tiempo. El flechazo es un buen punto de partida, no una garantía."
+      },
+      {
+        "q": "¿Por qué se rompen tantas parejas hoy en día?",
+        "a": "Por razones múltiples. Sociológicamente, las mujeres ya no soportan económicamente las relaciones tóxicas (independencia financiera), la sociedad acepta el divorcio (ya no es estigma), las expectativas suben (la pareja ahora tiene que ser amante, mejor amigo, socio, terapeuta), las apps facilitan los nuevos encuentros. Psicológicamente, el modelo de pareja para toda la vida es reciente (segunda mitad del s. XX) y poco natural biológicamente. Hoy 40-50% de los matrimonios acaban en divorcio en muchos países occidentales. La buena noticia: las parejas que duran están más satisfechas en promedio que antes."
+      },
+      {
+        "q": "¿Cómo saber si se está realmente enamorado?",
+        "a": "Algunos signos: piensas constantemente en la otra persona, te sientes eufórico solo con ver su nombre en notificación, los momentos de separación son dolorosos, sientes celos suaves, su felicidad te importa más que la tuya, quieres proyectar el futuro juntos. Físicamente: corazón acelerado, sudoración, falta de apetito al inicio. Psicológicamente: idealizas (los defectos se vuelven encanto). Si pasados 4-6 meses sigues sintiendo ternura profunda, gana sobre la frustración y proyectas a largo plazo, hay buenas chances de que sea amor verdadero, no solo flechazo."
+      }
+    ],
+    "related": ["beso", "ruptura", "chocolate", "navidad", "netflix"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "beso",
+    "locale": "es",
+    "keyword": "Beso",
+    "matchPatterns": ["beso", "besar", "kiss", "labios", "frances", "lenguas"],
+    "topic": "couple",
+    "title": "Beso — historia, ciencia, tipos y cultura del beso en el mundo",
+    "description": "Todo sobre el beso: 4500 años de historia, química cerebral, tipos de beso, beso francés, beso esquimal y cultura del beso por país.",
+    "emoji": "💋",
+    "intro": "El beso es uno de los gestos más íntimos y universales de la humanidad. Aunque parezca natural, no es estrictamente innato: el 46% de las culturas en el mundo no practican el beso romántico boca a boca según un estudio de 2015 de la American Anthropologist Association. Los primeros rastros escritos de beso aparecen en textos sánscritos hindúes hace unos 4.500 años, en India, donde se describe el contacto entre labios y respiraciones. El beso romántico tal como lo conocemos en Occidente se extendió por las civilizaciones grecorromana y judeocristiana. Los romanos distinguían tres tipos: osculum (beso amistoso en la mejilla), basium (beso afectuoso en los labios) y suavium (beso apasionado con lengua). Científicamente besarse activa una cascada química impresionante: dopamina (placer), oxitocina (apego), serotonina (humor), adrenalina (excitación), y baja el cortisol (estrés). Un beso apasionado consume entre 6 y 12 calorías, moviliza 34 músculos faciales (entre ellos el orbicular de los labios) y transfiere unos 80 millones de bacterias entre las dos bocas (según un estudio holandés de 2014). Esta intimidad microbiana podría reforzar las defensas inmunitarias de la pareja. En moomz las encuestas 'mejor primer beso' o 'cuántos besos antes de irse a la cama' encadenan visualizaciones. Más allá de la ciencia, el beso es uno de los rituales más cargados culturalmente: prohibido en algunas sociedades, censurado en Bollywood durante décadas, central en innumerables escenas memorables del cine.",
+    "sections": [
+      {
+        "h": "La ciencia detrás del beso",
+        "body": "Cuando dos personas se besan, su cerebro entra en frenesí. La cara, especialmente los labios, tiene una densidad de terminaciones nerviosas excepcional: el córtex somatosensorial consagra una superficie enorme a las sensaciones bucales. El primer beso libera una mezcla de hormonas: dopamina (sistema de recompensa, igual que con drogas o azúcar), feniletilamina (la 'hormona del enamoramiento'), oxitocina (vinculación duradera, también liberada al amamantar), endorfinas (placer natural). La adrenalina hace acelerar el corazón hasta 100-130 pulsaciones por minuto. Más fascinante todavía: el beso permite intercambiar información química sobre la compatibilidad genética del CMH (complejo mayor de histocompatibilidad). Estudios sugieren que tendemos a preferir el sabor de personas con CMH diferente al nuestro, lo que aseguraría una mayor diversidad inmunitaria de los descendientes. Por eso un primer beso puede ser revelador: si la química 'pasa', es a menudo bioquímico."
+      },
+      {
+        "h": "Los diferentes tipos de beso",
+        "body": "Hay más variantes de las que parece. El beso pico (peck): boca cerrada, rápido, afectivo. El beso francés (french kiss): con lengua, apasionado; recibió este nombre durante la Primera Guerra Mundial cuando los soldados americanos descubrieron esta práctica en Francia. El beso esquimal: roce de nariz contra nariz, practicado por los inuits, sobre todo por motivos prácticos (con boca congelada en -40 °C). El beso mariposa: con las pestañas en la mejilla. El beso de Spider-Man: cabeza al revés, popularizado por la peli de 2002. El beso araña: con la lengua dibujando círculos. El beso italiano: muy apasionado mordiendo suavemente el labio inferior. El beso de cine: pose dramática, dura más de 10 segundos. Récord: 58h 35min 58s, parejas tailandesas Ekkachai y Laksana en 2013. El primer beso de Hollywood lo registró Edison en 1896 (The Kiss, 18 segundos), considerado obsceno por la prensa."
+      },
+      {
+        "h": "El beso en las culturas del mundo",
+        "body": "El beso no es universal. En Japón, China y muchas culturas asiáticas, el beso en público sigue siendo tabú; en India, las pelis de Bollywood lo prohibieron oficialmente durante décadas (ya autorizado pero raro). En la India tradicional, el beso era considerado privado y casi sagrado. Los inuits, los maoríes, los polinesios prefieren el contacto nariz-nariz. En Francia se da el beso saludo en la mejilla (el famoso bisou), 1, 2, 3 o 4 según la región. España generalmente dos. Bélgica y Países Bajos 3. Italia 2. En Argentina, hombres se besan en la mejilla sin ningún problema. En el mundo árabe, el beso entre amigos del mismo sexo es común. La cultura LGBT+ ha luchado por el derecho a besarse en público en muchos países, sigue criminalizado en una decena de Estados. El Día del Beso se celebra el 6 de julio."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué cerramos los ojos al besar?",
+        "a": "Por varias razones. Primero, sensorial: cerrar los ojos permite concentrarse plenamente en las sensaciones táctiles, gustativas y olfativas, sin sobrecarga visual. Estudios cognitivos demuestran que el cerebro tiene capacidad limitada de procesamiento; ver de cerca a alguien activa zonas cerebrales que compiten con las sensaciones íntimas. Segundo, social: cerrar los ojos crea una burbuja de intimidad y vulnerabilidad. Tercero, anatómico: a tal corta distancia los ojos no pueden enfocar correctamente y veríamos borroso. Por eso cerrarlos es más bien automático."
+      },
+      {
+        "q": "¿Es bueno besarse para la salud?",
+        "a": "Sí, besarse tiene muchos beneficios documentados. Reduce el estrés bajando el cortisol, refuerza la inmunidad mediante el intercambio de bacterias diversas, libera hormonas del bienestar (dopamina, oxitocina, endorfinas), mejora la salud cardiovascular acelerando temporalmente el ritmo (entrenamiento suave), refuerza los músculos faciales (hasta 34 implicados), favorece la salud bucal estimulando la producción de saliva y reduciendo las bacterias dañinas. Las parejas que se besan diariamente reportan más satisfacción conyugal. Por contra: cuidado con la transmisión de virus (mononucleosis, herpes labial, COVID en su día)."
+      },
+      {
+        "q": "¿Cómo dar un buen primer beso?",
+        "a": "Hay algunos principios: 1) Asegurarse de que el momento es justo y la persona consentidora (mirada, lenguaje corporal, proximidad creciente); 2) Inclinarse ligeramente, dejar a la otra la mitad del camino; 3) Empezar suave, labios apenas entreabiertos, no entrar directamente con la lengua; 4) Sincronizar el ritmo con el del otro; 5) Respirar por la nariz, no asfixiarse; 6) Variar las presiones e intensidad; 7) Aliento fresco obligatorio (mentas o chicles previamente, evitar ajo y cebolla). Mirar a los ojos antes y sonreír después crea momentos memorables. Y sobre todo: relajarse, no es un examen."
+      },
+      {
+        "q": "¿Por qué no todas las culturas besan?",
+        "a": "Porque el beso romántico es un constructo cultural, no un instinto universal. Un estudio de 2015 demostró que solo el 46% de las 168 culturas estudiadas en el mundo practican el beso romántico boca-boca. En muchas culturas tradicionales africanas, amazónicas o melanesias el beso era visto como sucio o incomprensible. La antropóloga Vaughn Bryant rastrea su difusión a partir de la India antigua hace unos 4.500 años, su llegada a Grecia y Roma, luego a Europa medieval y por colonización al mundo entero. La globalización (cine de Hollywood) acelera su adopción, pero algunas culturas la rechazan."
+      }
+    ],
+    "related": ["amor", "ruptura", "chocolate", "navidad", "kpop"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ruptura",
+    "locale": "es",
+    "keyword": "Ruptura",
+    "matchPatterns": ["ruptura", "romper", "ex", "separacion", "corazon roto", "breakup"],
+    "topic": "couple",
+    "title": "Ruptura — etapas del duelo amoroso, ciencia y cómo superarla",
+    "description": "Todo sobre la ruptura: las 5 etapas del duelo amoroso, ciencia del corazón roto, ghosting, cómo superarla y por qué duele tanto físicamente.",
+    "emoji": "💔",
+    "intro": "La ruptura amorosa es una de las experiencias más dolorosas de la vida humana, y la ciencia confirma que el dolor es muy real. Estudios mediante IRM funcional, llevados por la antropóloga Helen Fisher y la psicóloga Lucy Brown, han demostrado que ver fotos de un ex tras una ruptura activa las mismas zonas cerebrales que el dolor físico: la corteza cingulada anterior y la ínsula. Por eso decimos literalmente que se nos rompe el corazón. El síndrome del corazón roto (cardiomiopatía de Takotsubo, descrita por primera vez en Japón en 1990) es una afección cardíaca real desencadenada por un estrés emocional intenso, con síntomas parecidos a los del infarto. Tras una ruptura, el cerebro pasa por una desintoxicación de dopamina y oxitocina, lo que explica los síntomas de tipo abstinencia: pensamientos obsesivos, antojo de mirar el móvil compulsivamente, ansiedad, insomnio, pérdida o aumento de apetito. La duración media del duelo amoroso es de 3 a 18 meses según los estudios, con una regla aproximada: la mitad del tiempo de la relación. En moomz las encuestas 'mejor manera de superar una ruptura', 'volver con el ex sí o no' o 'ghosting o ruptura clara' explotan en engagement. Más allá del dolor, las rupturas son también oportunidades de crecimiento personal, redescubrimiento de uno mismo y a veces de relaciones más sanas a continuación.",
+    "sections": [
+      {
+        "h": "Las 5 etapas del duelo amoroso",
+        "body": "Adaptadas de las etapas del duelo de Elisabeth Kübler-Ross, las fases tras una ruptura son: 1) Negación/Shock — el cerebro rechaza la realidad, esperas un mensaje, te dices que es temporal, no logras realizar; 2) Cólera — rabia contra el ex, contra ti mismo, contra el universo, ganas de venganza, comportamientos a veces destructivos; 3) Negociación — fantasmas de volver, intentos de mantener contacto, mensajes en plena noche, búsqueda de explicaciones; 4) Tristeza/Depresión — gran vacío, llantos, baja de energía, pérdida del sentido, ganas de aislarse; 5) Aceptación — empiezas a proyectar la vida sin esa persona, los pensamientos sobre el ex se espacian, vuelve la alegría. Estas etapas no son lineales: se hacen idas y vueltas. La duración varía según la intensidad de la relación, las circunstancias de la ruptura (mutua vs unilateral, ghosting, infidelidad)."
+      },
+      {
+        "h": "La ciencia del corazón roto",
+        "body": "El término 'corazón roto' no es metáfora. La cardiomiopatía de Takotsubo, descubierta por médicos japoneses en 1990, es un debilitamiento agudo del ventrículo izquierdo que se da por estrés emocional intenso: ruptura, muerte de un ser querido, despido. Afecta sobre todo a mujeres tras la menopausia y produce síntomas parecidos a infarto (dolor en el pecho, falta de aliento). Por suerte es casi siempre reversible en unas semanas. A nivel cerebral, las IRM funcionales muestran que pensar en un ex tras una ruptura activa la corteza cingulada anterior y la ínsula, las mismas zonas que el dolor físico. Por eso un analgésico común como el paracetamol podría incluso reducir el dolor emocional (estudios prueban ese efecto). La oxitocina y la dopamina caen brutalmente, creando un síndrome de abstinencia comparable al de la cocaína: pensamientos obsesivos, antojo, ansiedad."
+      },
+      {
+        "h": "Cómo superar una ruptura: métodos eficaces",
+        "body": "Los terapeutas y la investigación dan consejos validados. 1) Aplicar el 'No contacto' total durante al menos 30-90 días: silenciar/bloquear al ex en las redes, no mirar sus stories, no decir 'sigamos siendo amigos' demasiado pronto. Cada estímulo reactiva la abstinencia. 2) Moverse físicamente: el deporte libera endorfinas que actúan como antidepresivos naturales. 3) Llorar mucho al principio: la represión emocional alarga el duelo. 4) Hablarlo con amigos, familia o un terapeuta. 5) Reinvertir energía en proyectos personales (estudios, viajes, nuevos hobbies). 6) Evitar el rebote demasiado rápido, suele tapar el dolor sin tratarlo. 7) Tener paciencia: el tiempo cura, pero lleva su ritmo. Apps como Mend (EE.UU.) o Rx Breakup ofrecen acompañamiento estructurado. Si los síntomas se eternizan más allá de 6 meses con depresión grave, consultar a un profesional."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura el duelo amoroso?",
+        "a": "En promedio, los estudios indican entre 3 y 18 meses, con una regla aproximada: la mitad del tiempo de la relación. Una relación de 2 años suele requerir 12 meses para superarse en profundidad. Los primeros 1-3 meses son los más dolorosos (fase aguda, abstinencia química). Después la intensidad va bajando. Volver a estar realmente disponible emocionalmente para una nueva relación lleva en promedio 6-12 meses. Si los síntomas siguen siendo severos pasado un año (depresión, pensamientos suicidas), consultar a un terapeuta es muy recomendable."
+      },
+      {
+        "q": "¿Hay que cortar todo contacto con el ex?",
+        "a": "Sí, al menos durante 30-90 días, según los terapeutas. La regla del 'No contacto': no mensajes, ni llamadas, ni redes, ni ver sus stories. Cada estímulo reactiva el síndrome de abstinencia cerebral y alarga el duelo. La idea de quedarse amigos puede funcionar pero solo mucho después de superar emocionalmente, no en los primeros meses. Excepción: si tenéis hijos en común o trabajáis juntos, limitar a estricto mínimo y todo profesional/parental. Suprimir las fotos del feed también ayuda enormemente."
+      },
+      {
+        "q": "¿Por qué hace tanto daño romper?",
+        "a": "Por varias razones acumuladas. Bioquímicamente, el cerebro vive una abstinencia de dopamina y oxitocina, comparable a la de drogas duras. Las IRM muestran que el dolor emocional activa las mismas zonas que el físico. Psicológicamente, perdemos a una persona, pero también un proyecto de futuro, hábitos, identidad de pareja, círculo social compartido. La autoestima se hunde sobre todo si la ruptura es unilateral. Cuanto más fusional, más larga o significativa fuera la relación, mayor el dolor. Es por eso que duele tanto: porque el amor era real."
+      },
+      {
+        "q": "¿Es buena idea volver con el ex?",
+        "a": "Estadísticamente, no en la mayoría de casos. Estudios muestran que las parejas que rompen y vuelven (más de una vez) tienen tasas de satisfacción más bajas y más conflictos. Las razones que provocaron la ruptura (incompatibilidad, infidelidad, comunicación) suelen volver a aparecer si no se han trabajado seriamente. Sin embargo, vuelta funciona si: 1) Las dos personas han hecho un verdadero trabajo personal; 2) Las razones de la ruptura eran circunstanciales (distancia, etapa de vida); 3) Las dos quieren volver de forma estable. Honestidad y terapia de pareja ayudan mucho."
+      }
+    ],
+    "related": ["amor", "beso", "netflix", "navidad", "anime"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "netflix",
+    "locale": "es",
+    "keyword": "Netflix",
+    "matchPatterns": ["netflix", "serie", "binge", "streaming", "chill", "pelicula"],
+    "topic": "pop-culture",
+    "title": "Netflix — historia, mejores series, algoritmos y cómo cambió la TV",
+    "description": "Todo sobre Netflix: de DVD por correo en 1997 a 270M de suscriptores, mejores series, algoritmos y la revolución del streaming.",
+    "emoji": "🍿",
+    "intro": "Netflix es la plataforma de streaming que cambió radicalmente la forma de consumir contenido audiovisual. Fundada en 1997 por Reed Hastings y Marc Randolph en Scotts Valley, California, empezó alquilando DVDs por correo, modelo entonces innovador frente a las tiendas tipo Blockbuster. La leyenda dice que Hastings tuvo la idea tras pagar 40 dólares de multa por devolver tarde Apollo 13. En 2007 Netflix lanzó su servicio de streaming online, y todo cambió. En 2013 produjo House of Cards, su primera serie original con Kevin Spacey y David Fincher, marcando el inicio de su transformación en estudio. En 2017 estrena Stranger Things y se vuelve un fenómeno cultural global. En 2024 Netflix supera los 270 millones de suscriptores en el mundo (vs Blockbuster, que se hundió en 2010). El presupuesto de contenido en 2024: 17.000 millones de dólares al año, más que muchos países gastan en cultura. En moomz las encuestas 'qué ves esta noche en Netflix', 'mejor serie de todos los tiempos' o 'team Stranger Things vs La Casa de Papel' provocan debates eternos. El algoritmo de recomendación es uno de los más sofisticados del mundo: analiza tu hora de visionado, lo que pausas, lo que abandonas, lo que ves dos veces, y propone contenidos hiperpersonalizados. El término 'Netflix and chill' ha entrado en el lenguaje corriente como código universal para una velada romántica.",
+    "sections": [
+      {
+        "h": "Las series Netflix que marcaron historia",
+        "body": "Algunas series Netflix son fenómenos culturales globales. Stranger Things (2016-) — Duffer Brothers, nostalgia de los 80, monstruos del Upside Down, Eleven y la pandilla de Hawkins; la temporada 4 fue récord absoluto de visualizaciones. La Casa de Papel (2017-2021) — producción española de Vancouver Media que se volvió viral mundial, Tokio, el Profesor, las máscaras de Dalí, Bella Ciao en bucle. Squid Game (2021) — Hwang Dong-hyuk, serie surcoreana que arrasó récords con 1.650 millones de horas vistas en 28 días; los juegos de niños mortales por dinero. The Crown (2016-2023) — Peter Morgan, drama sobre la familia real británica; Olivia Colman y Imelda Staunton. Black Mirror — Charlie Brooker, antología distópica tech, originaria de Channel 4, llegó a Netflix en 2016. Otros bombazos: Wednesday, Bridgerton, El juego del calamar, Lupin, Dark, Narcos, Mindhunter, Master of None, Ozark, Mad Men (compra). Netflix produce hoy en más de 30 idiomas, lo que ha popularizado contenidos no anglosajones por todo el mundo."
+      },
+      {
+        "h": "El algoritmo Netflix: cómo funciona",
+        "body": "El algoritmo de Netflix es uno de los más estudiados en la industria tech. Analiza decenas de señales: lo que ves enteramente, lo que pausas, lo que abandonas a los 5 minutos, lo que ves dos veces, la hora a la que ves, el dispositivo, el género preferido, las comparaciones con perfiles similares (filtrado colaborativo). Casi el 80% de lo que ves en Netflix viene de recomendaciones del algoritmo, no de búsquedas activas. La función 'Top 10' por país (introducida en 2020) crea efectos de masa y de moda. Las miniaturas de las pelis se adaptan dinámicamente: si te gustan las pelis románticas, una thriller te aparecerá con su miniatura más romántica. Netflix gasta cientos de millones en I+D para optimizar este algoritmo. Crítica: el sistema favorece los contenidos virales en detrimento de las pelis de autor más exigentes, y crea burbujas algorítmicas."
+      },
+      {
+        "h": "Netflix vs competencia: la guerra del streaming",
+        "body": "Netflix ya no es solo. Disney+ se lanza en noviembre 2019 con todo el catálogo Marvel, Star Wars, Pixar; alcanzó los 150M suscriptores en 2024. HBO Max (ahora Max) tiene Juego de Tronos, Succession, The Last of Us. Apple TV+ apostó por la calidad sobre la cantidad (Ted Lasso, Severance, Slow Horses). Amazon Prime Video (Los Anillos de Poder, The Boys, Reacher). Paramount+ con Star Trek y Yellowstone. La fragmentación de los catálogos cuesta caro a los consumidores: tener todas las plataformas suele superar los 50€ al mes. Netflix respondió aumentando los precios (12-22€/mes según plan), cobrando por las cuentas compartidas desde 2023, y lanzando una fórmula con publicidad. La era dorada del streaming barato está acabando, igual que el cable americano antes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto cuesta Netflix?",
+        "a": "Los precios varían según el país y el plan elegido. En España en 2024-2025: Plan Estándar con anuncios 6,99€/mes, Estándar 13,99€/mes (1080p, 2 pantallas), Premium 19,99€/mes (4K, 4 pantallas, audio espacial). Añadir un usuario adicional fuera del hogar: 5,99€/mes. Los precios han subido regularmente: el plan Premium ha pasado de unos 12€ en 2017 a casi 20€ hoy. Las cuentas compartidas son ahora bloqueadas mediante geolocalización IP/Wi-Fi, lo que ha provocado un éxodo masivo desde 2023."
+      },
+      {
+        "q": "¿Cuál es la mejor serie de Netflix?",
+        "a": "Imposible objetivamente, depende mucho del gusto, pero algunos consensos. Para el suspense psicológico: Mindhunter, Dark, Black Mirror. Para el drama: The Crown, Mad Men. Para la acción y violencia estilizada: Squid Game, La Casa de Papel, Lupin. Para la nostalgia pop: Stranger Things. Para la comedia: Brooklyn Nine-Nine (catálogo), Sex Education. Para el género histórico: Bridgerton, Vikings: Valhalla. Para los amantes de los documentales: The Last Dance, Tiger King, Making a Murderer. El IMDb top suele tener Breaking Bad y Game of Thrones (no en Netflix) y luego Stranger Things, Dark, Mindhunter, The Crown."
+      },
+      {
+        "q": "¿Por qué Netflix retira algunas series?",
+        "a": "Por contratos de licencias limitadas. Cuando una serie no es producción original de Netflix sino comprada a otro estudio, los derechos suelen ser por un periodo (3-5 años). Cuando expira, si Netflix no renueva (por coste demasiado alto o si el estudio recupera para su propia plataforma), la serie desaparece. Ejemplo: Friends salió de Netflix EE.UU. en 2020 para irse a HBO Max. The Office se fue a Peacock. Las series originales Netflix (House of Cards, Stranger Things) se quedan eternamente porque las posee."
+      },
+      {
+        "q": "¿Cómo desbloquear el catálogo Netflix de otros países?",
+        "a": "Mediante una VPN, aunque Netflix lucha activamente contra esta práctica. Cada país tiene un catálogo distinto a causa de los derechos: el catálogo EE.UU. suele ser el más rico (más de 5.000 títulos contra 2.500-3.000 en Europa). Con una VPN como NordVPN, ExpressVPN o Surfshark, te conectas a un servidor de otro país y accedes a su catálogo. Netflix bloquea direcciones IP de VPNs reconocidas, así que hay que cambiar de servidor a veces. Atención: técnicamente va contra los términos de uso de Netflix, aunque rara vez sanciona."
+      }
+    ],
+    "related": ["anime", "kpop", "amor", "ruptura", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "anime",
+    "locale": "es",
+    "keyword": "Anime",
+    "matchPatterns": ["anime", "manga", "japon", "otaku", "shonen", "ghibli"],
+    "topic": "pop-culture",
+    "title": "Anime — historia japonesa, mejores series y por qué conquista el mundo",
+    "description": "Todo sobre el anime: Osamu Tezuka, Ghibli, Naruto, One Piece, Demon Slayer y por qué la animación japonesa arrasa entre la Gen Z.",
+    "emoji": "🎌",
+    "intro": "El anime, la animación japonesa, ha pasado de subcultura otaku a fenómeno cultural global con miles de millones de fans en el mundo. Sus orígenes se remontan a principios del siglo XX, pero la verdadera revolución llegó con Osamu Tezuka, el 'Dios del Manga'. En 1963 lanzó Astro Boy (Tetsuwan Atom), la primera serie de anime televisiva japonesa, inspirándose en Walt Disney pero con su estilo propio: ojos grandes, dibujos económicos pero expresivos, narraciones largas. Tezuka también creó Black Jack, Kimba el León Blanco (que inspiró polémicamente El Rey León de Disney) y Phoenix. En los 70-80 llegaron monumentos como Mobile Suit Gundam (1979), Akira (1988, peli de Katsuhiro Otomo que sigue siendo referencia ciberpunk), Nausicaä del Valle del Viento (1984) de Hayao Miyazaki, que fundó después Studio Ghibli con Isao Takahata. Ghibli produjo obras maestras absolutas: Mi vecino Totoro (1988), La princesa Mononoke (1997), El viaje de Chihiro (2001, Óscar a la mejor película de animación), El castillo ambulante (2004). Los años 2000-2020 vieron explotar los shonen mainstream: Naruto, One Piece, Bleach, Attack on Titan, My Hero Academia, Demon Slayer (cuya peli Mugen Train se convirtió en 2020 en la peli más taquillera en Japón). En moomz las encuestas 'mejor anime de todos los tiempos', 'team Naruto vs One Piece' o 'Studio Ghibli vs Makoto Shinkai' generan debates apasionados. Hoy hay más de 700 nuevas series cada año y plataformas como Crunchyroll han pasado los 13 millones de suscriptores.",
+    "sections": [
+      {
+        "h": "Los grandes estudios y autores",
+        "body": "Studio Ghibli (fundado 1985 por Miyazaki, Takahata y Suzuki) — el patrón oro de la animación poética: El viaje de Chihiro (Oscar 2003), Mi vecino Totoro, La princesa Mononoke, El castillo ambulante, El chico y la garza (2023, Oscar 2024). MAPPA — Jujutsu Kaisen, Attack on Titan temporadas finales, Chainsaw Man. Studio Pierrot — Naruto, Bleach, Tokyo Ghoul. Toei Animation — One Piece, Dragon Ball, Sailor Moon, los más antiguos en activo (fundado 1948). Madhouse — Death Note, One Punch Man (S1), Hunter x Hunter, Monster. Bones — My Hero Academia, Fullmetal Alchemist Brotherhood, Mob Psycho 100. Ufotable — Demon Slayer, Fate. Trigger — Kill la Kill, Cyberpunk Edgerunners. Makoto Shinkai (CoMix Wave Films) — Your Name (2016, fenómeno global), Weathering with You, Suzume. Cada estudio tiene su firma visual y narrativa."
+      },
+      {
+        "h": "Los animes que conquistaron el mundo",
+        "body": "Algunos animes son fenómenos planetarios. Dragon Ball (1986-) — Akira Toriyama, la obra que dio a conocer el anime en Occidente; Goku, Vegeta, las transformaciones Super Saiyan. Naruto (2002-2017) — Masashi Kishimoto, ninja huérfano que quiere ser hokage; influencia inmensa en Gen Y/Z. One Piece (1999-) — Eiichiro Oda, Luffy y el One Piece, sigue activo después de 25 años, más de 500 millones de mangas vendidos. Death Note (2006-2007) — Tsugumi Ohba, thriller cerebral, Light vs L. Attack on Titan (2013-2023) — Hajime Isayama, dark fantasy política sobre la humanidad asediada por titanes gigantes. Demon Slayer (2019-) — Koyoharu Gotouge, Tanjiro y la respiración del agua; la película Mugen Train batió récords en taquilla. Jujutsu Kaisen (2020-) — Gege Akutami, magia maldita en Tokio. Spy x Family, My Hero Academia, Frieren, Solo Leveling completan el podio actual."
+      },
+      {
+        "h": "Por qué el anime conquista a la Gen Z",
+        "body": "Varias razones explican el auge global del anime. 1) Diversidad de géneros: shonen (acción), shojo (romance), seinen (adultos), isekai (mundo paralelo), slice of life, mecha, deportivo (Haikyuu!!, Blue Lock), hay para todo el mundo. 2) Profundidad psicológica: los personajes evolucionan, tienen traumas, dudas, valores complejos, lejos del maniqueísmo de muchas pelis de Hollywood. 3) Estética visual única: paletas, transformaciones, openings musicales icónicos (que se vuelven virales en TikTok). 4) Streaming accesible: Crunchyroll, Netflix, ADN, Wakanim han democratizado el acceso. 5) Comunidades fervientes: convenciones (Anime Expo, Japan Expo), cosplay, foros, reaction videos en YouTube. 6) Soft power japonés: Cool Japan, merchandising masivo. Hoy un 50% de los jóvenes 15-25 años en EE.UU., Francia o Brasil ven anime regularmente."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál es la diferencia entre anime y manga?",
+        "a": "Manga es el cómic japonés (versión escrita y dibujada), anime es la animación japonesa (la versión animada en TV o cine). Muchos animes son adaptaciones de mangas anteriores (One Piece, Naruto, Demon Slayer). Otros son originales (Cowboy Bebop, FLCL). El manga se lee de derecha a izquierda, formato tankobon (180-220 páginas, blanco y negro). El mercado del manga vale unos 6.000 millones de dólares por año en Japón y conoce un auge mundial (los mangas representan ya el 60% de las ventas de cómic en Francia)."
+      },
+      {
+        "q": "¿Por dónde empezar con el anime?",
+        "a": "Depende de tus gustos. Para acción shonen: Demon Slayer (corto, espectacular), Naruto (largo pero icónico), Jujutsu Kaisen. Para narración compleja: Death Note, Code Geass, Attack on Titan. Para emoción: Your Name (peli de Makoto Shinkai), Clannad, Anohana. Para humor: One Punch Man, Spy x Family, Konosuba. Para Ghibli: Mi vecino Totoro o El viaje de Chihiro. Para principiantes adultos: Cowboy Bebop, Samurai Champloo, Vinland Saga, Frieren. Los servicios como Crunchyroll proponen catálogos enormes en VOSE o doblados."
+      },
+      {
+        "q": "¿Por qué los personajes de anime tienen ojos tan grandes?",
+        "a": "Es un legado de Osamu Tezuka, que en los 50 se inspiró en Walt Disney (Bambi, Mickey) y en los dibujos animados americanos. Tezuka adoptó los ojos grandes para mostrar mejor las emociones, los pensamientos y la profundidad psicológica. Esta convención se ha quedado y los estudios la han desarrollado. Anatómicamente, los ojos grandes permiten también miradas más expresivas, atajos visuales para los animadores y un carácter más infantil/inocente. Los animes seinen para adultos a menudo tienen ojos más pequeños y realistas (Berserk, Vagabond)."
+      },
+      {
+        "q": "¿Es serio el anime o solo para niños?",
+        "a": "Para nada solo para niños. El anime se divide en clases según público: kodomo (niños, Pokémon, Doraemon), shonen (chicos jóvenes pero leído por adultos también), shojo (chicas jóvenes), seinen (adultos: Vinland Saga, Monster, Berserk, Ghost in the Shell), josei (mujeres adultas). Muchos animes abordan temas serios: filosofía (Ghost in the Shell), guerra (Grave of the Fireflies), salud mental (Welcome to the NHK), economía (Spice and Wolf), traumas (Attack on Titan). Hayao Miyazaki, Mamoru Hosoda, Satoshi Kon han sido reconocidos como grandes autores cinematográficos del siglo XXI."
+      }
+    ],
+    "related": ["kpop", "netflix", "sushi", "amor", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "kpop",
+    "locale": "es",
+    "keyword": "K-Pop",
+    "matchPatterns": ["kpop", "k-pop", "bts", "blackpink", "corea", "idol"],
+    "topic": "pop-culture",
+    "title": "K-Pop — historia, BTS, Blackpink y la conquista coreana del mundo",
+    "description": "Todo sobre el K-Pop: desde Seo Taiji 1992 hasta BTS y Blackpink, fenómeno global, fandoms, sistema de idols y soft power coreano.",
+    "emoji": "🎤",
+    "intro": "El K-Pop (pop coreano) es uno de los fenómenos culturales más importantes del siglo XXI, parte de la 'Korean Wave' o Hallyu que también incluye los dramas (K-dramas) y el cine coreano (Parásitos Óscar 2020). Sus orígenes modernos se remontan a 1992 cuando Seo Taiji and Boys revolucionaron la escena musical coreana mezclando hip-hop, rock y pop al estilo americano. Después llegó la primera generación de idols: H.O.T (1996), Sechs Kies, S.E.S, Fin.K.L. La segunda generación (mediados 2000) vio surgir TVXQ, Super Junior, BIGBANG, 2NE1, Girls' Generation, SHINee. Pero el verdadero salto global llegó con la tercera generación: EXO, BTS (debutados en 2013 por Big Hit), Blackpink (2016 por YG), TWICE, Red Velvet. BTS pasó a ser el primer grupo coreano número 1 en el Billboard Hot 100 (Dynamite, 2020), tocaron en la ONU, generaron 5.000 millones de dólares anuales para la economía surcoreana en su pico. Blackpink se convirtió en el grupo femenino más streameado del mundo. La cuarta generación (NewJeans, IVE, LE SSERAFIM, Stray Kids, ATEEZ, Aespa) consolida hoy la posición global. En moomz las encuestas 'mejor grupo K-Pop', 'team BTS vs team Blackpink' o 'Jungkook vs G-Dragon' explotan los engagements en Asia, América y cada vez más en Europa. El modelo K-Pop combina entrenamientos draconianos (5-10 años de trainee), coreografías sincronizadas, estética visual perfecta y fandoms hiperorganizados (ARMY, Blink, MOA) que streamean en masa.",
+    "sections": [
+      {
+        "h": "BTS, Blackpink y los pilares del K-Pop moderno",
+        "body": "BTS (Bangtan Sonyeondan, 'Boy Scouts a prueba de balas') — debutó en 2013 con Big Hit, ahora HYBE; 7 miembros: RM, Jin, Suga, J-Hope, Jimin, V, Jungkook. Estilo único: letras introspectivas sobre la salud mental, la presión social, la juventud. Discos icónicos: Wings, Love Yourself, Map of the Soul. Primer grupo coreano nº 1 en el Billboard Hot 100 (Dynamite, 2020), conciertos en estadios sold-out, hablaron en la ONU. Su fandom ARMY es uno de los más poderosos del mundo. Hicieron una pausa colectiva en 2022 para el servicio militar (obligatorio en Corea) y vuelven en 2025. Blackpink — formado por YG en 2016: Jisoo, Jennie, Rosé, Lisa. Estilo girl crush, hits internacionales: Ddu-du Ddu-du, Kill This Love, How You Like That, Pink Venom (con Selena Gomez). Primer grupo K-Pop femenino cabeza de cartel en Coachella (2023). Cada miembro lanza ahora carreras solo (Jennie con sello propio, Rosé con APT con Bruno Mars que arrasó en 2024)."
+      },
+      {
+        "h": "El sistema de idols: entrenamiento y disciplina",
+        "body": "El K-Pop reposa en un sistema único de producción de idols. Las grandes agencias (HYBE, SM Entertainment, YG, JYP) reclutan jóvenes (a menudo entre 11-15 años) tras castings o calles. Los reclutas firman contratos largos (5-10 años) y se convierten en trainees. Entrenamiento: 10-14 horas al día, canto, baile, idiomas (inglés, japonés, chino, a veces español), conducta en redes, posing, entrevistas. Vida estrictamente controlada: regímenes alimenticios, peso supervisado, prohibición de citas durante los primeros años, redes monitorizadas. Solo el 1-2% de los trainees debutan al final en un grupo. Los críticos denuncian la presión psicológica intensa y los burnouts (suicidios de algunos idols han chocado a Corea: Sulli en 2019, Goo Hara). Las agencias han hecho esfuerzos desde entonces (apoyo psicológico, derechos mejorados, contratos más cortos)."
+      },
+      {
+        "h": "Hallyu y soft power coreano",
+        "body": "El K-Pop forma parte de la Hallyu (Korean Wave), la ola cultural surcoreana que abarca también los K-dramas (Squid Game, El juego del calamar, Crash Landing on You, Mr. Sunshine), el cine (Parásitos Óscar 2020, Old Boy, The Handmaiden), los videojuegos (Lineage, MapleStory), la cocina (kimchi, bibimbap, K-BBQ), el K-beauty (cosméticos, rutinas en 10 etapas, marcas Innisfree, Laneige). Esta exportación cultural está apoyada por el gobierno coreano desde los 90 (objetivo: pasar de país pobre a potencia cultural). Ha funcionado: en 2023 las exportaciones culturales coreanas generaron más de 14.000 millones de dólares. El K-Pop por sí solo se estima en 10.000 millones de dólares anuales. La marca-país Corea ha pasado de 'país de fábricas baratas' a 'país cool' en 20 años. El Festival de Cannes, los Oscar, los Grammy ya no pueden ignorar Corea."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué el K-Pop es tan popular en el mundo?",
+        "a": "Por una combinación única: producción de alta calidad (vídeos cinematográficos, coreografías perfectas), estética visual irreprochable, miembros con personalidades distintas que crean attachments emocionales, fandoms ultraorganizados que streamean en masa, presencia masiva en redes (TikTok, Twitter, Instagram), uso estratégico del inglés en los estribillos, y diversidad de estilos musicales (hip-hop, pop, EDM, R&B, balada). La política coreana de soft power desde los 90 ha sido clave también. La pandemia COVID acentuó el fenómeno con los lives online."
+      },
+      {
+        "q": "¿Cuál es el grupo K-Pop más popular?",
+        "a": "BTS sigue siendo el grupo más global con más de 60 millones de discos vendidos, fandom ARMY estimado en más de 90 millones de miembros, ganador de numerosos Billboard Awards. Blackpink lidera en streams para los grupos femeninos y en presencia en Occidente. En cuarta generación, NewJeans (HYBE/ADOR) ha explotado con OMG, Super Shy, Get Up, y Stray Kids encabeza dos veces el Billboard 200. TWICE sigue siendo top en Japón. La popularidad varía según país y generación: Japón ama TWICE y SEVENTEEN, EE.UU. BTS y NewJeans, Sudeste Asiático Blackpink."
+      },
+      {
+        "q": "¿Cómo se vuelve uno idol K-Pop?",
+        "a": "Las grandes agencias (HYBE, SM, YG, JYP, Cube, Starship) organizan auditions globales cada año, abiertas a candidatos del mundo entero (Corea, Japón, China, Tailandia, Vietnam, EE.UU., a veces Europa). Si te seleccionan, te conviertes en trainee y firmas un contrato a largo plazo (5-10 años). Tienes que mudarte a Corea, vivir en dormitorios, entrenar 10-14 horas al día (canto, baile, idiomas, conducta). Solo el 1-2% debuta en un grupo. El proceso es muy duro psicológica y físicamente. Algunos idols extranjeros conocidos: Lisa (Blackpink, tailandesa), Sana/Mina/Momo (TWICE, japonesas), Lay (EXO, chino)."
+      },
+      {
+        "q": "¿Por qué los idols K-Pop no pueden tener pareja?",
+        "a": "No es estrictamente prohibido por la ley sino por contratos. Las agencias K-Pop suelen incluir cláusulas de 'no-dating' durante los primeros 3-5 años de carrera, a veces más. La razón: mantener la fantasía de disponibilidad romántica con los fans, parte del modelo económico. Cuando se revela una relación, suele desencadenar reacciones violentas de algunos fans (cartas de luto, devolución de merchandising). HyunA y E'Dawn fueron despedidos de Cube en 2018 por confirmar su relación. Las cosas evolucionan suavemente, sobre todo entre los idols más experimentados."
+      }
+    ],
+    "related": ["anime", "netflix", "amor", "futbol", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "futbol",
+    "locale": "es",
+    "keyword": "Fútbol",
+    "matchPatterns": ["futbol", "soccer", "messi", "ronaldo", "barca", "madrid", "liga"],
+    "topic": "sport",
+    "title": "Fútbol — historia, Real Madrid vs Barça, Messi vs Ronaldo y leyendas",
+    "description": "Todo sobre el fútbol: historia FIFA 1904, Real Madrid 1902 vs Barça 1899, eterno debate Messi-Ronaldo, mundiales y leyendas eternas.",
+    "emoji": "⚽",
+    "intro": "El fútbol es de lejos el deporte más popular del planeta, con unos 4.000 millones de aficionados, o sea más de la mitad de la humanidad. Sus orígenes modernos se remontan al 26 de octubre de 1863 en Londres cuando se fundó The Football Association y se codificaron las primeras reglas. La FIFA, la federación internacional, se creó el 21 de mayo de 1904 en París por iniciativa de 7 países europeos. El primer Mundial tuvo lugar en Uruguay en 1930 y lo ganó la selección anfitriona. Brasil tiene el récord con 5 títulos (1958, 1962, 1970, 1994, 2002), seguido por Italia y Alemania con 4, y Argentina con 3 (incluyendo Catar 2022 con Messi). En España, los dos clubes mítico-rivales son: Real Madrid (fundado el 6 de marzo de 1902) y FC Barcelona (fundado el 29 de noviembre de 1899 por el suizo Joan Gamper). El Clásico, el partido entre los dos, es probablemente el partido de clubes más visto del mundo, con audiencias TV de 500-650 millones de personas. El eterno debate Messi vs Cristiano Ronaldo divide el planeta desde 2008: 8 Balones de Oro para Messi, 5 para CR7, dos modelos opuestos (Messi el talento natural, Ronaldo la máquina trabajadora). En moomz las encuestas 'mejor jugador de todos los tiempos', 'Messi o Ronaldo' o 'Real Madrid vs Barça' encadenan miles de votos. Maradona (Mano de Dios 1986), Pelé (3 Mundiales), Zidane (cabezazo 2006), Cruyff, Beckenbauer son leyendas absolutas más allá de las generaciones.",
+    "sections": [
+      {
+        "h": "Real Madrid vs FC Barcelona: el Clásico",
+        "body": "Los dos clubes nacieron prácticamente en la misma época: Real Madrid el 6 de marzo de 1902, FC Barcelona el 29 de noviembre de 1899. Su rivalidad va más allá del deporte: el Madrid representa históricamente al poder central monárquico y franquista (Bernabéu fue presidente bajo Franco), el Barça encarna la identidad catalana, el separatismo, 'més que un club'. Palmarés combinado vertiginoso: Real Madrid tiene 15 Ligas de Campeones (récord absoluto, incluyendo 14ª y 15ª en 2022 y 2024), 36 Ligas españolas, 20 Copas del Rey. FC Barcelona: 5 Champions, 27 Ligas, 31 Copas del Rey. Jugadores legendarios pasaron por ambos clubes (Di Stéfano, Cruyff entrenador, Ronaldinho, Messi, Cristiano Ronaldo). El Clásico es uno de los partidos más vistos del mundo. Mítica era Guardiola con Messi-Xavi-Iniesta del 2008-2012, que ganó casi todo con un tiki-taka revolucionario."
+      },
+      {
+        "h": "Messi vs Cristiano Ronaldo: el GOAT eterno",
+        "body": "La rivalidad Messi vs Ronaldo ha marcado dos décadas de fútbol. Lionel Messi (nacido 24 junio 1987, Rosario, Argentina) — formado en La Masia del Barça desde los 13 años, debut profesional en 2004. Récords: 8 Balones de Oro (2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023), Mundial 2022 con Argentina (su última pieza que faltaba), 10 Ligas con Barça, 4 Champions League. Estilo: pierna izquierda mágica, dribling cercano, visión de juego sobrenatural, máquina de asistir y marcar. Cristiano Ronaldo (nacido 5 febrero 1985, Madeira) — formado en el Sporting de Lisboa, Manchester United, Real Madrid (2009-2018), Juve, Man United de nuevo, Al-Nassr. Récords: 5 Balones de Oro, máximo goleador histórico en selecciones, máximo goleador de la Champions, Eurocopa 2016 con Portugal. Estilo: físico extraordinario, juego aéreo, mentalidad trabajadora, ambidextro. Los aficionados se dividen: Messi para el genio, Ronaldo para el esfuerzo y la longevidad."
+      },
+      {
+        "h": "Las leyendas: Pelé, Maradona, Zidane",
+        "body": "Más allá de Messi y CR7, varias leyendas marcan la historia. Pelé (1940-2022, Brasil) — único jugador con 3 Mundiales (1958, 1962, 1970), 1.281 goles oficiales según FIFA. Conocido por su elegancia, técnica y aura mítica. Diego Armando Maradona (1960-2020, Argentina) — Mundial 1986 marcado por la 'Mano de Dios' contra Inglaterra y el 'gol del siglo' 4 minutos después, regate por todo el campo. Considerado por muchos argentinos como su 'D10S'. Johan Cruyff (1947-2016, Países Bajos) — inventor del fútbol total, mítico jugador y entrenador del Barça (Dream Team de los 90 con Romário, Stoichkov). Zinedine Zidane (1972, Marsella, padres argelinos) — Mundial 1998, Euro 2000 con Francia, doblete de cabeza en la final del 98 contra Brasil, golazo de volea en la final de la Champions 2002 con el Real Madrid contra el Bayer Leverkusen, cabezazo a Materazzi en la final de 2006. Otros titanes: Beckenbauer, Cruyff entrenador, Ronaldinho, Ronaldo Fenômeno, Iniesta, Xavi."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se creó el fútbol?",
+        "a": "Las reglas modernas del fútbol se codificaron el 26 de octubre de 1863 en Londres con la fundación de The Football Association (FA), la primera federación nacional de fútbol del mundo. Sus 14 reglas iniciales sirvieron de base para todas las demás. Antes existían formas de juegos de pelota con el pie en muchas culturas (cuju en China hace 2.000 años, harpastum romano, calcio florentino en Italia). La FIFA, federación internacional, se fundó el 21 de mayo de 1904 en París. El primer Mundial tuvo lugar en Uruguay en 1930."
+      },
+      {
+        "q": "¿Quién ha ganado más mundiales?",
+        "a": "Brasil tiene el récord con 5 títulos: 1958 (en Suecia, llegada de Pelé con 17 años), 1962 (en Chile), 1970 (en México, equipo legendario con Pelé, Tostão, Jairzinho), 1994 (en EE.UU., contra Italia en penaltis, era Romário-Bebeto) y 2002 (en Corea/Japón, con Ronaldo Fenômeno, Ronaldinho y Rivaldo). Italia y Alemania empatan con 4 títulos. Argentina tiene 3 (1978, 1986 con Maradona, 2022 con Messi). Francia 2 (1998 con Zidane, 2018 con Mbappé). Uruguay 2 (1930, 1950). España 1 (2010 en Sudáfrica). Inglaterra 1 (1966 en casa)."
+      },
+      {
+        "q": "¿Cuánto gana un futbolista profesional?",
+        "a": "Enormes disparidades. Los top mundiales (Mbappé, Haaland, Messi en Inter Miami, Vinicius Jr) ganan 50-200 millones de euros anuales con sueldo + patrocinios. En la Liga BBVA, el salario medio es de unos 3-4 millones brutos anuales para los titulares, pero baja a 1-2 millones en clubes pequeños. Segunda división española: 100.000-500.000 € anuales. En categorías inferiores (3ª RFEF, regional), los jugadores están a menudo semi-profesionales o amateurs. Solo el 1-2% de los jugadores formados profesionalmente acceden a una verdadera carrera profesional rentable. Los porcentajes son crueles."
+      },
+      {
+        "q": "¿Por qué se considera al fútbol el deporte más popular?",
+        "a": "Por varias razones acumuladas. 1) Reglas simples: 2 porterías, una pelota, 11 vs 11, prohibido tocar con la mano (excepto portero). Niños y adultos lo entienden en 5 minutos. 2) Material mínimo: una pelota basta, las porterías pueden ser piedras o ramos. Accesible en países pobres como ricos. 3) Universalidad cultural: practicado en los 5 continentes desde hace más de 100 años. 4) Combinación de habilidad técnica, físico, estrategia y emoción colectiva. 5) Acontecimientos planetarios (Mundial, Champions League) que crean comunidades globales. La final del Mundial 2022 reunió 1.500 millones de espectadores."
+      }
+    ],
+    "related": ["olimpicos", "mar", "amor", "navidad", "kpop"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "olimpicos",
+    "locale": "es",
+    "keyword": "Juegos Olímpicos",
+    "matchPatterns": ["olimpicos", "olimpiadas", "jjoo", "olimpia", "medalla", "olympic"],
+    "topic": "sport",
+    "title": "Juegos Olímpicos — historia, leyendas y récords desde Olimpia 776 a.C.",
+    "description": "Todo sobre los JJOO: desde Olimpia 776 a.C. hasta París 2024, deportes, leyendas (Bolt, Phelps, Biles) y curiosidades increíbles.",
+    "emoji": "🏅",
+    "intro": "Los Juegos Olímpicos son el mayor evento deportivo del mundo, símbolo de excelencia, fraternidad y respeto desde hace casi 3.000 años. Sus orígenes son antiguos: los primeros Juegos Olímpicos antiguos tuvieron lugar en el 776 a.C. en Olimpia, en el Peloponeso griego, en honor a Zeus. Eran una competición religiosa y deportiva que reunía a las ciudades-Estado griegas cada 4 años. Solo los hombres griegos libres podían participar, totalmente desnudos (la palabra 'gimnasio' viene del griego gymnos, desnudo). Las disciplinas incluían carrera (estadio, doble estadio), lanzamiento de disco y jabalina, salto de longitud, lucha, pugilato (boxeo), pancracio (combate libre brutal), carreras de carros. Los vencedores recibían una corona de olivo y gloria eterna. Los Juegos antiguos se prolongaron durante 1.200 años hasta que el emperador romano Teodosio I los abolió en 393 d.C. por considerarlos paganos. La reactivación moderna se debe al barón Pierre de Coubertin, pedagogo francés, que organizó los primeros Juegos Olímpicos modernos en Atenas en 1896. Desde entonces los JJOO de verano se celebran cada 4 años (excepto durante las guerras mundiales y aplazado en 2020-2021 por COVID). Los Juegos de invierno se añadieron en 1924 en Chamonix. París acogió los Juegos de verano en 2024, con una ceremonia de apertura inédita en el Sena. En moomz las encuestas 'mejor deporte olímpico', 'Bolt o Phelps el GOAT' o 'verano vs invierno' captan el interés. Los Juegos Paralímpicos, creados en 1960, también celebran las performances de los atletas con discapacidad.",
+    "sections": [
+      {
+        "h": "De Olimpia 776 a.C. a París 2024",
+        "body": "Los Juegos antiguos comenzaron en 776 a.C. en Olimpia, organizados cada 4 años (una olimpiada) en honor a Zeus. Las ciudades griegas se enfrentaban en disciplinas atléticas. Una tregua sagrada (ekecheiría) suspendía las guerras durante los Juegos. El primer ganador registrado: Corebos de Élide, en la carrera de estadio (192m, la longitud del estadio de Olimpia). Solo los hombres griegos libres podían participar; las mujeres tenían sus propios Juegos en honor a Hera. Los Juegos duraron 1.200 años antes de ser abolidos en 393 d.C. por Teodosio I. Pierre de Coubertin los reactivó en Atenas en 1896 con 13 países, 245 atletas. Hoy reúnen a más de 200 países, 10.000+ atletas, 50.000+ voluntarios. París 2024 mostró una ceremonia inédita en el Sena con desfile de barcos, marcando una ruptura con las ceremonias clásicas en estadios. Los Juegos costaron unos 8.000 millones de euros."
+      },
+      {
+        "h": "Las leyendas olímpicas: Bolt, Phelps, Biles",
+        "body": "Algunos atletas marcaron los Juegos para siempre. Usain Bolt (Jamaica) — 8 medallas de oro (3 anuladas por dopaje de relevista compatriota), 100m en 9'58, 200m en 19'19, récords del mundo aún imbatidos. 'Lightning Bolt' personificó la velocidad pura entre 2008 y 2016. Michael Phelps (EE.UU.) — el atleta más medallado de todos los tiempos, 28 medallas olímpicas incluyendo 23 de oro en natación, repartidas en 5 Juegos (2000-2016). Su sesión Pekín 2008 con 8 oros en 8 carreras sigue siendo inalcanzable. Simone Biles (EE.UU.) — la mejor gimnasta de todos los tiempos, 7 medallas olímpicas, varios elementos llevan su nombre tan difíciles que las gimnastas no se atreven a intentarlos. Su retirada parcial en Tokio 2020 por salud mental conmocionó a un debate global y empujó a la atención de los atletas. Otras leyendas: Carl Lewis, Jesse Owens (4 oros en Berlín 1936 frente a Hitler), Nadia Comaneci (10 perfecto en Montreal 1976 a los 14 años), Mark Spitz, Allyson Felix, Katie Ledecky."
+      },
+      {
+        "h": "Curiosidades y anécdotas olímpicas",
+        "body": "Los Juegos están llenos de historias asombrosas. 1) Hasta 1948 las medallas de oro eran realmente de oro macizo; hoy son plata bañada en oro (6g de oro mínimo). 2) Las medallas de París 2024 contienen un trozo de la Torre Eiffel original. 3) La llama olímpica se enciende en Olimpia con un espejo parabólico, después viaja por el país anfitrión. 4) Los Juegos boicoteados: Moscú 1980 boicoteado por EE.UU. (intervención soviética en Afganistán), Los Ángeles 1984 boicoteado por la URSS. 5) Eric Moussambani (Guinea Ecuatorial) hizo 100m libres en Sídney 2000 en 1'52 (el doble de los demás) porque aprendió a nadar 9 meses antes: se convirtió en héroe mundial. 6) Tug-of-war (cabo) fue una disciplina olímpica de 1900 a 1920. 7) Las paloas mensajeras, el arte (pintura, escultura) y la natación con obstáculos formaron parte de antiguos JJOO. 8) Eddie 'The Eagle' Edwards (saltos de esquí, Calgary 1988) llegó penúltimo en todo pero se hizo legendario."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo y dónde se inventaron los JJOO?",
+        "a": "Los primeros Juegos Olímpicos antiguos tuvieron lugar en el año 776 a.C. en Olimpia, en el Peloponeso griego, en honor a Zeus. Eran una competición religioso-deportiva entre las ciudades-Estado griegas, cada 4 años, durante 1.200 años hasta el 393 d.C. cuando el emperador romano Teodosio I los abolió. Los Juegos modernos los reactivó el barón Pierre de Coubertin en Atenas en 1896 con 13 países y 245 atletas. Hoy los JJOO de verano reúnen a más de 200 países y 10.000+ atletas cada 4 años."
+      },
+      {
+        "q": "¿Cuántas medallas se ganan en los JJOO?",
+        "a": "En París 2024 se repartieron 5.084 medallas (oro, plata, bronce confundidos) en 32 deportes y 329 pruebas. EE.UU. ganó el medallero general con 40 oros, China en segundo con 40 oros también (separados por más medallas totales), seguidos de Japón, Australia, Francia (anfitrión, 16 oros). En la historia EE.UU. lidera de lejos con más de 2.800 medallas olímpicas de verano. Por habitante, países pequeños como las Bahamas, Nueva Zelanda o Hungría son extraordinariamente eficientes."
+      },
+      {
+        "q": "¿Cuánto cuestan los JJOO?",
+        "a": "Cada vez más, aunque los modelos varían. París 2024 costó unos 8.000 millones de euros (3-4 mil millones de inversión pública + 4 mil millones del Comité de Organización financiados por privados). Tokio 2020-2021 costó 15.000 millones (saliendo a más por COVID). Río 2016 unos 13.000 millones. Pekín 2008 más de 40.000 millones (el más caro). Las pérdidas son frecuentes: Montreal 1976 tardó 30 años en pagar su deuda. Los JJOO son a menudo no rentables a corto plazo pero generan plusvalías indirectas (turismo, infraestructuras, marca-país)."
+      },
+      {
+        "q": "¿Qué deportes nuevos se han añadido a los JJOO?",
+        "a": "Los JJOO evolucionan para atraer al público joven. Tokio 2020 añadió: skateboarding, surf, escalada deportiva, kárate. París 2024 añadió: breakdancing (breaking), una primera mundial muy mediatizada. Los Ángeles 2028 añadirá: cricket, flag football (fútbol americano sin contacto), squash, lacrosse y béisbol/sóftbol. Algunos deportes han salido: béisbol y sóftbol (en/fuera según ediciones), kárate ya no está en 2024. La inclusión de deportes urbanos (skate, breaking) busca conectar con la Gen Z que se aleja de los deportes tradicionales televisados."
+      }
+    ],
+    "related": ["futbol", "navidad", "verano", "espacio", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "navidad",
+    "locale": "es",
+    "keyword": "Navidad",
+    "matchPatterns": ["navidad", "santa", "papa noel", "regalo", "nochebuena", "arbol"],
+    "topic": "holidays",
+    "title": "Navidad — historia, tradiciones, Papá Noel y la magia del 25 de diciembre",
+    "description": "Todo sobre Navidad: orígenes Sol Invictus y cristianos, Papá Noel, árbol, regalos, comidas y tradiciones del mundo el 25 de diciembre.",
+    "emoji": "🎄",
+    "intro": "La Navidad es probablemente la fiesta más celebrada del mundo, con más de 2.000 millones de personas que la festejan, y mucho más allá de los cristianos. Su historia es una fascinante mezcla de paganismo y cristianismo. Antes del cristianismo, los romanos celebraban del 17 al 23 de diciembre las Saturnales en honor a Saturno: festines, regalos, esclavos liberados temporalmente, igualdad social simbólica. El 25 de diciembre, justo después del solsticio de invierno (21-22 de diciembre), los romanos festejaban el Sol Invictus (Sol Invencible) instaurado por el emperador Aureliano en 274 d.C. para celebrar el regreso de la luz tras la noche más larga del año. Los pueblos germánicos y nórdicos celebraban Yule, una fiesta solsticial con grandes troncos de madera quemados y banquetes. La Iglesia cristiana fijó el nacimiento de Cristo el 25 de diciembre hacia el siglo IV (Papa Liberio en 354), aunque la Biblia no menciona la fecha. La idea era integrar las fiestas paganas existentes para facilitar la conversión. Papá Noel, tal como lo conocemos, es una invención casi reciente: viene de San Nicolás (siglo IV, obispo de Myra), después Santa Claus en EE.UU. modernizado por Coca-Cola en los años 1930 (el dibujante Haddon Sundblom para los anuncios). En moomz las encuestas 'team Navidad vs team Halloween', 'mejor regalo', 'mariscos sí o no' o 'turrón blando o duro' encadenan los votos en diciembre. La cifra de negocio mundial de Navidad supera el billón de dólares en regalos, alimentos y decoración.",
+    "sections": [
+      {
+        "h": "Los orígenes paganos y cristianos de Navidad",
+        "body": "La Navidad combina varios estratos. Las Saturnales romanas (17-23 dic.) celebraban a Saturno, dios de la agricultura, con festines, regalos, inversión temporal de los roles sociales. El 25 dic. los romanos celebraban Sol Invictus desde 274 d.C., una fiesta solar tras el solsticio de invierno. Los pueblos germánicos celebraban Yule con troncos en el hogar, decoraciones de ramas y banquetes. Cuando el cristianismo se hizo religión del Imperio Romano en el siglo IV, la Iglesia eligió el 25 de diciembre para conmemorar el nacimiento de Cristo. La Biblia no da fecha al nacimiento, pero los Padres de la Iglesia fijaron esta para tomar el relevo de las fiestas paganas existentes. El primer registro escrito de la celebración cristiana data del 336. Hoy las tradiciones se mezclan: árbol (origen germánico), regalos (saturnales romanas), comidas, misa de medianoche y Papá Noel forman un sincretismo único."
+      },
+      {
+        "h": "Papá Noel: del santo a la marca",
+        "body": "Papá Noel es una evolución cultural fascinante. San Nicolás de Myra (270-343), obispo turco generoso conocido por dar regalos a los niños pobres, se convirtió en patrón de los niños en Europa. Su fiesta se celebraba el 6 de diciembre en muchos países. Holanda exportó la tradición de Sinterklaas a Nueva Ámsterdam (futura Nueva York). En 1823 Clement Clarke Moore publicó el poema 'A Visit from St. Nicholas' (popularmente 'The Night Before Christmas') que codificó muchos elementos: el trineo, los 8 renos (Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Donner, Blitzen) y el descenso por la chimenea. En 1881 Thomas Nast (caricaturista de Harper's Weekly) dibujó a Santa con su traje rojo y barba blanca. En los años 1930, Coca-Cola encargó al dibujante Haddon Sundblom los Santas para sus anuncios de Navidad, fijando definitivamente la imagen actual (rojo y blanco, barriga, bonito). El mito comercial cubrió al santo religioso."
+      },
+      {
+        "h": "Tradiciones de Navidad por el mundo",
+        "body": "Cada país tiene sus rituales. España: Nochebuena el 24 de diciembre con cena familiar (mariscos, cordero, turrón, polvorones, mazapán, cava), regalos a veces el 25 o más tradicionalmente el 6 de enero por los Reyes Magos (con sus dulces de Roscón de Reyes). El cordero o cochinillo asado es típico, así como los villancicos. México: Posadas del 16 al 24 de diciembre, piñata, ponche, tamales, Misa de Gallo. Italia: panettone, La Befana (bruja generosa) el 6 de enero. Alemania: mercados de Navidad (Weihnachtsmarkt), galletas Lebkuchen, calendario de adviento, San Nicolás el 6 de diciembre. Suecia: Santa Lucia el 13 de diciembre, jul julbord. Japón: KFC para la cena de Navidad (tradición lanzada por una campaña de marketing en 1974), tartas de fresas. EE.UU.: muérdago, calcetines colgados, eggnog, intercambio de regalos el 25 por la mañana, películas familiares. En Australia, Navidad cae en pleno verano: barbacoa en la playa, surf con Papá Noel."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué celebramos Navidad el 25 de diciembre?",
+        "a": "Porque la Iglesia católica fijó el nacimiento de Cristo en esta fecha hacia el siglo IV, pese a que la Biblia no la menciona. La elección estratégica permitía tomar el relevo de las fiestas paganas existentes: el Sol Invictus romano (instaurado por Aureliano en 274 d.C.) celebraba el retorno de la luz tras el solsticio de invierno. Las Saturnales romanas y el Yule germánico también se desarrollaban en estas fechas. Integrando estas tradiciones, la Iglesia facilitó la conversión de los paganos. Las Iglesias ortodoxas (rusa, griega, copta) celebran Navidad el 7 de enero por seguir el calendario juliano."
+      },
+      {
+        "q": "¿Existe realmente Papá Noel?",
+        "a": "Como personaje histórico real, sí: deriva de San Nicolás de Myra (270-343), obispo turco generoso. Como el Papá Noel actual con traje rojo, trineo y renos, es una construcción cultural construida durante 200 años. Clement Clarke Moore lo describió en un poema en 1823, Thomas Nast lo dibujó en los 1880, Coca-Cola fijó su imagen en los 1930. Para los niños, mantener la magia es generalmente positivo hasta los 7-8 años, según los psicólogos. Después la transición se hace naturalmente y el niño se vuelve a su vez 'guardián del secreto' para los más pequeños."
+      },
+      {
+        "q": "¿Por qué nos regalamos en Navidad?",
+        "a": "Por varias razones acumuladas. 1) Las Saturnales romanas: los romanos se intercambiaban regalos llamados strenae (de donde viene el sustantivo en algunas lenguas). 2) La tradición cristiana de los Reyes Magos que ofrecen oro, incienso y mirra al niño Jesús. 3) San Nicolás distribuía regalos a los niños pobres. 4) La industrialización del siglo XIX (Coca-Cola, grandes almacenes en EE.UU.) comercializaron masivamente la tradición. Hoy es un acto de afecto familiar y social, y un momento económico mayor (las ventas de Navidad representan el 20-30% del CA anual de muchos comercios)."
+      },
+      {
+        "q": "¿Por qué un árbol de Navidad?",
+        "a": "El árbol de Navidad viene de tradiciones germánicas y nórdicas paganas. Los pueblos celtas, germánicos y vikingos veneraban árboles perennes (abeto, encina, acebo) como símbolos de vida en pleno invierno. En la Edad Media, mystery plays cristianos en Alemania incluían un 'paraíso' decorado con manzanas y barquillos. La tradición del abeto decorado en interior se desarrolló en Alsacia y Alemania en el siglo XVI. Martín Lutero habría inventado las velas según una leyenda. La tradición llegó a Inglaterra en 1840 con el príncipe Alberto, marido de Victoria, después a EE.UU. y Francia. Hoy se venden más de 100 millones de árboles cada año en el mundo."
+      }
+    ],
+    "related": ["amor", "chocolate", "verano", "olimpicos", "netflix"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "verano",
+    "locale": "es",
+    "keyword": "Verano",
+    "matchPatterns": ["verano", "vacaciones", "playa", "calor", "summer", "agosto"],
+    "topic": "holidays",
+    "title": "Verano — solsticio, vacaciones, mar, sol y mejores destinos del mundo",
+    "description": "Todo sobre el verano: solsticio 21 de junio, ola de calor, vacaciones, playa, helado, festivales y los mejores destinos veraniegos.",
+    "emoji": "🏖️",
+    "intro": "El verano es la estación más esperada del año, sinónimo de libertad, vacaciones, playa, sol y noches infinitas. Astronómicamente, el verano del hemisferio norte empieza el solsticio de verano, generalmente el 20 o 21 de junio, cuando el polo norte está inclinado al máximo hacia el Sol (23,5°). Es el día más largo del año: en Madrid el Sol está más de 15 horas, en San Petersburgo es la famosa Noche Blanca donde nunca se pone realmente. El verano dura oficialmente hasta el equinoccio de otoño hacia el 22-23 de septiembre. En el hemisferio sur (Argentina, Australia, Sudáfrica) el verano está invertido: empieza el 21-22 de diciembre. Los meses más calurosos suelen ser julio y agosto en el norte, enero y febrero en el sur. El cambio climático ha alterado la situación: las olas de calor son cada vez más frecuentes e intensas. España batió récord en agosto de 2024 con 47°C en La Sagra (Toledo). Las vacaciones de verano son una invención reciente: nacieron en Francia en 1936 con el Front Populaire de Léon Blum que instauró las primeras 'vacances payées' (15 días al año, luego 5 semanas). En moomz las encuestas 'mejor destino veraniego', 'playa o montaña', 'helado vainilla vs chocolate' o 'siesta sí o no' explotan en julio-agosto. El verano es también la estación de los festivales (Mad Cool, Sonar, Primavera Sound, Tomorrowland, Coachella en abril, Lollapalooza), los romances de verano, y para muchos el momento más libre del año.",
+    "sections": [
+      {
+        "h": "El solsticio y la ciencia del verano",
+        "body": "El verano se produce porque el eje de rotación de la Tierra está inclinado 23,5° con respecto a su órbita alrededor del Sol. Durante el solsticio de verano (20-21 de junio en el norte), el hemisferio norte está inclinado al máximo hacia el Sol: los rayos llegan más perpendiculares, lo que concentra el calor. Es el día más largo del año, después la duración del día disminuye. En el círculo ártico (norte del paralelo 66°33'), el Sol no se pone durante varios días o semanas (sol de medianoche en Tromso, Murmansk). En la Antártida es lo opuesto. La culminación del calor no se da en el solsticio sino con 1-2 meses de retraso (julio-agosto en el norte) por la inercia térmica de océanos y suelos. Los días siguen siendo largos pero el calor acumulado alcanza su máximo. El cambio climático aumenta la intensidad y la frecuencia de las olas de calor: 2023 fue el año más caluroso jamás registrado en el mundo."
+      },
+      {
+        "h": "Vacaciones, playa y rituales del verano",
+        "body": "El verano viene asociado a las vacaciones desde el siglo XX. En Francia, las vacaciones pagadas son una conquista social de 1936 (Front Populaire de Blum): 2 semanas obligatorias, después 3 semanas en 1956, 4 semanas en 1969, 5 semanas en 1982. En España se generalizaron a partir de los años 60. Las playas se llenan: en España, la Costa Brava, la Costa del Sol, Mallorca, Ibiza, Cádiz, Asturias. En el extranjero, los españoles favorecen el Mediterráneo (Italia, Croacia, Grecia), Portugal (Algarve), Sudeste Asiático y México. Los rituales: bronceado, mojito en la playa, sandías y melones, helados, siestas, juegos de raqueta o palas, paddle, surf, snorkel, sandcastles, festivales de música, conciertos al aire libre, romances de verano (las estadísticas muestran un pico de relaciones entre 18-30 años en julio-agosto), bodas (sábados de mayo a septiembre)."
+      },
+      {
+        "h": "Los mejores destinos veraniegos del mundo",
+        "body": "Algunos lugares son míticos. Mediterráneo: Mykonos y Santorini en Grecia (atardeceres legendarios), Capri y Cerdeña en Italia, Mallorca e Ibiza (fiesta sin descanso), Croacia (Hvar, Split, parque Plitvice), Costa Azul francesa (Saint-Tropez, Cannes), Mallorca tranquilo en el interior. Atlántico: Algarve portugués (Lagos, Faro), País Vasco francés y español (Biarritz, San Sebastián), Cádiz, Asturias y Galicia. Lejos: Bali (Ubud, Canggu, Uluwatu), Tailandia islas del sur (Koh Phi Phi, Koh Tao), Filipinas (Palawan), México (Tulum, Holbox, Sayulita), Brasil (Florianópolis, Bahía), República Dominicana, Cuba, Caribe. Para el frescor: Islandia (con sol de medianoche), Noruega fiordos, Nueva Zelanda (verano austral en diciembre). Las nuevas tendencias: nature retreats, slow tourism, trabajo a distancia con vista al mar (workation). Atención a la masificación: Venecia, Barcelona, Ámsterdam, Dubrovnik."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo empieza oficialmente el verano?",
+        "a": "El verano astronómico empieza con el solsticio de verano, generalmente el 20 o 21 de junio en el hemisferio norte (a veces el 22 según los años). Es el día más largo del año. El verano dura hasta el equinoccio de otoño, hacia el 22-23 de septiembre. En meteorología, los climatólogos suelen usar las estaciones meteorológicas: el verano dura del 1 de junio al 31 de agosto en el norte (y de diciembre a febrero en el sur). El hemisferio sur tiene un calendario invertido: el verano allí empieza el 21-22 de diciembre."
+      },
+      {
+        "q": "¿Por qué hace tanto calor en verano?",
+        "a": "Porque el eje terrestre está inclinado 23,5° con respecto al plano orbital. En verano del hemisferio norte, el polo norte se inclina hacia el Sol: los rayos solares llegan más perpendiculares al suelo, concentrando la energía sobre una superficie más pequeña. Los días también son más largos (más horas de calentamiento), las noches más cortas (menos enfriamiento). Resultado: el calor se acumula gradualmente con un retraso de 1-2 meses sobre el solsticio (de ahí el pico de calor en julio-agosto). La distancia al Sol no es el factor principal: estamos paradójicamente más lejos del Sol en julio (afelio) que en enero (perihelio)."
+      },
+      {
+        "q": "¿Por qué nos cansamos más en verano?",
+        "a": "Por varias razones acumuladas. 1) El calor: el cuerpo gasta energía para regularse (sudoración, vasodilatación), lo que cansa naturalmente. 2) La deshidratación: incluso ligera, baja energía y concentración. 3) Las noches más cortas: dormimos menos y el calor altera la calidad del sueño (cuerpo difícil de bajar bajo los 18°C óptimo). 4) El sol: la exposición prolongada agota (insolación, golpe de calor). 5) Las comidas más pesadas (paellas, barbacoas, alcohol) pueden cansar. Soluciones: hidratarse mucho (2-3L/día), siesta, comidas ligeras, evitar el sol de 12-16h, dormir con ventanas abiertas si refresca."
+      },
+      {
+        "q": "¿Es verdad que los embarazos son más numerosos en agosto?",
+        "a": "Estadísticamente, sí, hay una sutil estacionalidad en los nacimientos. En muchos países occidentales, los meses con más nacimientos son julio-agosto-septiembre, lo que corresponde a concepciones en octubre-noviembre-diciembre (vacaciones de invierno, frío que une, fiestas). Una segunda ola se da en mayo-junio (concepciones en agosto-septiembre, vacaciones de verano). Razones: vacaciones (más tiempo libre, menos estrés), reuniones familiares, alcohol, ambiente romántico, fertilidad ligeramente más alta. Pero las diferencias son pequeñas (5-10%) y varían según las culturas y los climas."
+      }
+    ],
+    "related": ["sol", "mar", "navidad", "futbol", "amor"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ia",
+    "locale": "es",
+    "keyword": "Inteligencia Artificial",
+    "matchPatterns": ["ia", "ai", "chatgpt", "gpt", "inteligencia artificial", "openai"],
+    "topic": "tech",
+    "title": "Inteligencia Artificial — historia, ChatGPT, riesgos y futuro de la IA",
+    "description": "Todo sobre la IA: de Turing 1950 a ChatGPT del 30 de noviembre 2022 de OpenAI, deep learning, GPT-4, Claude, Gemini y riesgos.",
+    "emoji": "🤖",
+    "intro": "La Inteligencia Artificial (IA) es probablemente la revolución tecnológica más importante desde Internet, y quizá desde la electricidad. Sus raíces conceptuales se remontan al artículo seminal de Alan Turing en 1950 titulado 'Computing Machinery and Intelligence' que se planteaba '¿pueden pensar las máquinas?' y proponía el famoso test de Turing. El término 'Inteligencia Artificial' se acuñó en 1956 en la conferencia de Dartmouth organizada por John McCarthy, Marvin Minsky, Claude Shannon y Nathaniel Rochester. Durante décadas, la IA progresó lentamente con éxitos puntuales (Deep Blue venciendo a Kasparov en 1997 al ajedrez, Watson de IBM ganando a Jeopardy! en 2011) pero limitaciones serias. La verdadera revolución ocurrió hacia 2012 con el deep learning: Alex Krizhevsky con AlexNet ganó el desafío ImageNet usando redes neuronales convolucionales en GPUs, demostrando que las redes profundas funcionaban. Después fue una aceleración fulgurante: AlphaGo de DeepMind venciendo a Lee Sedol al Go en 2016, GPT-2 sorprendiendo en 2019, y el momentum culminante el 30 de noviembre de 2022 con el lanzamiento de ChatGPT por OpenAI. La interfaz alcanzó los 100 millones de usuarios en 2 meses, el adopción más rápida de un producto digital en la historia. Hoy GPT-4, Claude (Anthropic), Gemini (Google), Llama (Meta), Mistral compiten en una carrera tecnológica frenética. En moomz las encuestas 'IA buena o mala', 'ChatGPT vs Claude', 'la IA va a sustituir mi trabajo' o 'crees en la singularidad' explotan los engagements.",
+    "sections": [
+      {
+        "h": "De Turing a ChatGPT: la historia de la IA",
+        "body": "1950: Alan Turing publica 'Computing Machinery and Intelligence' y propone el test de Turing. 1956: conferencia de Dartmouth, nacimiento del término IA. 1966-1973: primer invierno de la IA tras decepciones. 1980-1987: sistemas expertos, segundo auge. 1997: Deep Blue (IBM) vence a Kasparov al ajedrez (3,5-2,5). 2011: Watson (IBM) gana en Jeopardy!. 2012: AlexNet revoluciona la visión por ordenador (deep learning + GPUs). 2014: GAN (Generative Adversarial Networks) de Ian Goodfellow. 2016: AlphaGo (DeepMind) vence a Lee Sedol al Go (impensable antes). 2017: Google publica 'Attention is all you need', invención del Transformer (arquitectura base de los LLM modernos). 2018: BERT y GPT-1. 2020: GPT-3 (175 mil millones de parámetros) sorprende por sus capacidades. 30 de noviembre 2022: ChatGPT (basado en GPT-3.5) abierto al público, 100M de usuarios en 2 meses. 2023: GPT-4, Claude, Gemini, llegada de la IA generativa multimodal. 2024-2025: los modelos de razonamiento (o1, o3, Claude Opus) marcan un nuevo salto."
+      },
+      {
+        "h": "ChatGPT, Claude, Gemini: la guerra de los LLM",
+        "body": "Tres gigantes y muchos retadores. OpenAI (fundada 2015 por Elon Musk, Sam Altman, Ilya Sutskever) lanza GPT-4 en marzo de 2023, GPT-4o en mayo de 2024 (multimodal nativo), o1 modelo de razonamiento en septiembre de 2024, o3 en diciembre de 2024. Backed por Microsoft con 13 mil millones de dólares. Anthropic (fundada 2021 por antiguos de OpenAI: Dario y Daniela Amodei) lanza Claude focado en la seguridad, Claude 3 Opus en marzo de 2024 ya competía con GPT-4, después Claude 3.5 Sonnet y Claude 4 que se ha convertido en el referente para la programación. Google DeepMind lanza Gemini en diciembre de 2023, Gemini 1.5 Pro con contexto enorme (1M tokens), Gemini 2.0 en 2024. Meta lanza Llama 2 (julio 2023) y Llama 3 en código abierto, democratizando los LLM. Mistral AI (Francia) sale en 2023, prometedora startup europea. xAI (Elon Musk) lanza Grok. La competencia es brutal, los costes de entrenamiento alcanzan miles de millones por modelo."
+      },
+      {
+        "h": "Riesgos, ética y futuro de la IA",
+        "body": "La IA plantea preguntas existenciales serias. Riesgos a corto plazo: desempleo masivo (los empleos administrativos, jurídicos, artísticos amenazados), desinformación (deepfakes, fake news automatizadas), pérdida de privacidad, sesgos algorítmicos que perpetúan discriminaciones, concentración del poder en manos de las grandes tech. Riesgos a largo plazo (debatidos): la singularidad (IA superinteligente fuera de control), riesgo existencial. Geoffrey Hinton (padrino del deep learning) dejó Google en 2023 para alertar libremente sobre estos peligros. Yoshua Bengio firma cartas abiertas pidiendo una pausa. Ética: necesidad de alineamiento (que la IA persiga objetivos compatibles con valores humanos), transparencia, auditabilidad. Regulación: la UE adoptó el AI Act en 2024, primer marco mundial. EE.UU. y China avanzan más en flexible. Futuro probable: IA omnipresente en 5 años (asistentes personales, médicos, abogados aumentados), automatización del 30-40% de las tareas, transformación radical del trabajo y la educación. Estar formado y mantenerse informado es clave."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quién inventó ChatGPT?",
+        "a": "ChatGPT lo desarrolló OpenAI, una empresa fundada en 2015 en San Francisco por Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, John Schulman, Wojciech Zaremba y otros, originalmente como un laboratorio sin ánimo de lucro. Musk se fue del consejo en 2018. ChatGPT, basado en el modelo GPT-3.5, se lanzó al público el 30 de noviembre de 2022. Alcanzó 100 millones de usuarios en 2 meses, el adopción más rápida de un producto digital en la historia. Sam Altman, CEO de OpenAI, se ha convertido en una de las figuras tecnológicas más influyentes del mundo."
+      },
+      {
+        "q": "¿La IA va a sustituir mi trabajo?",
+        "a": "Probablemente transformará tu trabajo más que sustituirlo, pero depende del sector. Los más amenazados a corto plazo (3-7 años): tareas administrativas repetitivas, redacción básica, traducción, análisis de datos sencillos, atención al cliente nivel 1, ciertos aspectos de la programación. Los más resilientes: oficios manuales (fontaneros, electricistas, cocineros), relacionales (enfermeros, terapeutas, profesores), creativos de alto nivel, dirección estratégica. La buena estrategia: aprender a usar la IA como un asistente potente, especializarse en lo que la IA no hace bien (juicio, creatividad humana, empatía), formarse constantemente."
+      },
+      {
+        "q": "¿La IA puede ser peligrosa?",
+        "a": "Sí, varios riesgos serios identificados. Corto plazo: desinformación masiva (deepfakes, fake news automatizadas), sesgos algorítmicos (discriminaciones reforzadas), pérdida de privacidad, ciberataques sofisticados, dependencia excesiva (pérdida de competencias humanas). Medio plazo: desempleo masivo en algunos sectores, concentración del poder económico. Largo plazo (debatido): la 'IA general' (AGI) podría sobrepasar la inteligencia humana en todos los terrenos y, mal alineada, plantear riesgos existenciales. Geoffrey Hinton, Yoshua Bengio, Stuart Russell, Yuval Noah Harari alertan regularmente. Otros (Yann LeCun) son más optimistas. La regulación es esencial."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre IA, machine learning y deep learning?",
+        "a": "La IA es el campo general: hacer que las máquinas tengan comportamientos inteligentes. El Machine Learning (ML) es una rama de la IA donde la máquina aprende a partir de datos sin programación explícita; incluye regresión, árboles de decisión, SVM, etc. El Deep Learning (DL) es una sub-rama del ML que usa redes neuronales profundas (varias capas) inspiradas en el cerebro. Es lo que ha permitido la revolución de los últimos 12 años (ChatGPT, AlphaGo, reconocimiento facial). En orden: IA ⊃ ML ⊃ DL. Los grandes LLMs (Large Language Models) como GPT-4 o Claude son redes neuronales profundas con la arquitectura Transformer."
+      }
+    ],
+    "related": ["iphone", "espacio", "netflix", "anime", "olimpicos"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "iphone",
+    "locale": "es",
+    "keyword": "iPhone",
+    "matchPatterns": ["iphone", "apple", "ios", "smartphone", "jobs", "movil"],
+    "topic": "tech",
+    "title": "iPhone — historia desde Jobs 2007, modelos, iOS y el smartphone que cambió todo",
+    "description": "Todo sobre el iPhone: lanzamiento 9 enero 2007 por Jobs en Macworld, modelos icónicos, iOS, App Store y por qué revolucionó el mundo.",
+    "emoji": "📱",
+    "intro": "El iPhone es probablemente el producto tecnológico más influyente desde el ordenador personal, y posiblemente desde el teléfono mismo. El 9 de enero de 2007 en la keynote de Macworld en San Francisco, Steve Jobs subió al escenario con su famoso jersey negro y vaqueros para anunciar 'tres productos revolucionarios': un iPod pantalla ancha con controles táctiles, un teléfono móvil revolucionario y un dispositivo de comunicación por Internet. La sorpresa: no eran tres productos, sino uno solo. 'Today, Apple is going to reinvent the phone'. El iPhone se lanzó realmente el 29 de junio de 2007 en EE.UU. a 499$ (4GB) y 599$ (8GB). En el primer fin de semana, Apple vendió 270.000 unidades. Las críticas eran mixtas (sin teclado físico, batería no extraíble, sin 3G, sin App Store), pero el producto era tan visualmente nuevo que cambió las reglas del juego. Hoy, 18 años después, Apple ha vendido más de 2.500 millones de iPhones, generando más de 200 mil millones de dólares en ingresos anuales. El App Store, lanzado en 2008, creó toda una economía con millones de desarrolladores. El iPhone provocó la caída de gigantes (Nokia, BlackBerry, Microsoft Phone) y forzó a Google a desarrollar Android. En moomz las encuestas 'iPhone vs Samsung', 'mejor versión iPhone', 'iOS o Android' o 'comprarías un Vision Pro' son temas que polarizan. El iPhone sigue siendo el producto cultural y tecnológico más reconocido del mundo, equivalente al Walkman en su época.",
+    "sections": [
+      {
+        "h": "Los modelos icónicos del iPhone",
+        "body": "Cada generación ha marcado su época. iPhone original (2007): pantalla 3,5\", 2MP, sin 3G, sin App Store, lanzado por Jobs en San Francisco. iPhone 3G (2008): añade 3G y App Store, primera gran revolución. iPhone 4 (2010): diseño cristal/aluminio firmado Jony Ive, Retina display, FaceTime. iPhone 5 (2012): primera vez 4 pulgadas, formato alargado, Lightning. iPhone 6/6 Plus (2014): el 'phablet' Apple a 5,5\", récord absoluto de ventas. iPhone X (2017): décimo aniversario, Face ID, notch, pantalla OLED edge-to-edge, fin del botón Home. iPhone 11 Pro (2019): triple cámara, modo nocturno. iPhone 12 (2020): 5G, MagSafe, vuelta a las aristas planas estilo iPhone 4-5. iPhone 14 Pro (2022): Dynamic Island, Always-On display. iPhone 15 Pro (2023): titanio, USB-C (forzado por la UE). iPhone 16 (2024): Apple Intelligence (IA generativa integrada), botón Acción y Capture. Steve Jobs falleció el 5 de octubre de 2011 a la edad de 56 años de cáncer de páncreas, dejando a Tim Cook como CEO."
+      },
+      {
+        "h": "El ecosistema iOS y la App Store",
+        "body": "El iPhone no es solo un teléfono, es un ecosistema cerrado vertical. iOS, el sistema operativo, recibe actualizaciones gratuitas durante 5-6 años (mucho más que Android), con nuevas funciones cada septiembre (WWDC anual). La App Store, lanzada el 10 de julio de 2008, fue un terremoto: por primera vez los desarrolladores podían distribuir apps al mundo entero pasando por una sola plataforma. Hoy: 1,8 millones de apps, 600 mil millones de dólares pagados a los desarrolladores desde 2008, 30% de comisión Apple (la 'Apple Tax' criticada). El ecosistema Apple es ultra-cohesivo: iPhone + iPad + Mac + Apple Watch + AirPods + Apple TV todo trabajando junto (AirDrop, Handoff, iCloud, Continuity Camera). Esta integración crea una lock-in fuerte: el 90% de los usuarios iPhone se quedan en iPhone en su próxima compra. Apple Pay, Apple Music, Apple TV+, iCloud generan más de 90 mil millones anuales de servicios."
+      },
+      {
+        "h": "Por qué el iPhone cambió todo",
+        "body": "El iPhone provocó cambios sociales y económicos masivos. 1) Smartphone como extensión del cuerpo: las personas miran su iPhone 100-200 veces al día, escolarmente conectados. 2) Caída de gigantes: Nokia (era #1 mundial en 2007) y BlackBerry se hundieron al no adaptarse a las pantallas táctiles. 3) Nuevos comportamientos: selfies (la cámara frontal del iPhone 4 de 2010 democratizó el formato), TikTok-Instagram-Snap requieren una calidad de cámara que los teléfonos tradicionales no tenían. 4) Uberización: sin smartphones, no habría Uber, Airbnb, Tinder, Doordash, Deliveroo. 5) Economía de apps: 600 mil millones pagados a los desarrolladores en 16 años. 6) Cambio mediático: TV → YouTube → TikTok, lectura en papel → smartphone. 7) Impacto en la salud mental: estudios muestran correlaciones (no probadas como causales) entre uso intensivo del smartphone y ansiedad/depresión entre los adolescentes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se inventó el iPhone?",
+        "a": "El iPhone se anunció el 9 de enero de 2007 por Steve Jobs en la keynote de Macworld en San Francisco. Su famosa frase: 'Today, Apple is going to reinvent the phone'. Se lanzó realmente al público el 29 de junio de 2007 en EE.UU. a 499$ por el modelo de 4GB. Su desarrollo había empezado en secreto en 2004 con el proyecto 'Purple', juntando equipos del iPod e ingenieros nuevos. El proyecto era tan secreto que muchos ingenieros no sabían que estaban trabajando en un teléfono. Estuvo a punto de fracasar varias veces (la pantalla táctil capacitiva, batería)."
+      },
+      {
+        "q": "¿Cuál es el iPhone más vendido de todos los tiempos?",
+        "a": "El iPhone 6 y 6 Plus, lanzados en septiembre de 2014, batieron todos los récords con más de 220 millones de unidades vendidas en total. Fue la primera vez que Apple ofrecía una pantalla grande (4,7\" y 5,5\"), respondiendo a la demanda del mercado en favor de los 'phablets'. La forma redondeada y el aluminio gustaron. Otros bestsellers: iPhone 7 (2016), iPhone 11 (2019), iPhone 13 (2021). El iPhone se mantiene como el smartphone más vendido del mundo año tras año, pese a un mercado dominado en volumen por Android (Samsung, Xiaomi, Huawei)."
+      },
+      {
+        "q": "¿iPhone o Android, cuál elegir?",
+        "a": "Depende de tus prioridades. iPhone ventajas: ecosistema unificado (Mac/iPad/Watch/AirPods), iOS actualizado 5-6 años, App Store curada, privacidad reforzada (Apple no vende los datos), reventa fácil, soporte premium (Genius Bar). Inconvenientes: más caro (a partir de 800€), menos personalizable, cerrado. Android ventajas: rango de precios amplio (de 100€ a 1500€), personalización ilimitada, mejor integración Google, software libre, USB-C universalmente, baterías removibles algunos modelos. Inconvenientes: actualizaciones a veces 3 años máximo (excepto Pixel y Samsung Galaxy S), fragmentación, calidad muy variable. Si valoras simplicidad: iPhone. Si valoras control: Android."
+      },
+      {
+        "q": "¿Quién es Steve Jobs?",
+        "a": "Steve Jobs (1955-2011) fue el cofundador de Apple Computer junto a Steve Wozniak y Ronald Wayne en 1976. Visionario, perfeccionista y carismático, lanzó productos que cambiaron el mundo: Apple II, Macintosh (1984), iMac (1998), iPod (2001), iTunes Store (2003), iPhone (2007), iPad (2010). Despedido de Apple en 1985, fundó NeXT y compró Pixar (vendida a Disney en 2006 por 7,4 mil millones $). Volvió a Apple en 1997, transformando una empresa al borde de la quiebra en la más valiosa del mundo. Murió el 5 de octubre de 2011 de cáncer de páncreas a los 56 años. Famoso por su keynotes, su jersey negro/jeans 501/New Balance 991, y su perfeccionismo legendario."
+      }
+    ],
+    "related": ["ia", "espacio", "netflix", "anime", "kpop"],
+    "updatedAt": "2026-05-20"
+  }
+]

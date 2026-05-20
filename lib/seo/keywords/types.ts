@@ -5,10 +5,21 @@
 export type KeywordSection = { h: string; body: string };
 export type KeywordFaq = { q: string; a: string };
 
+export type KeywordLocale =
+  | "fr"
+  | "en"
+  | "es"
+  | "it"
+  | "pt"
+  | "de"
+  | "ja"
+  | "zh";
+
 export type KeywordPage = {
-  // Unique slug, kebab-case. Used in the URL: /mot/<slug> (fr) or /word/<slug> (en).
+  // Unique slug, kebab-case. URL: /mot/<slug> (fr), /word/<slug> (en),
+  // /topic/<locale>/<slug> for the other 6 locales.
   slug: string;
-  locale: "fr" | "en";
+  locale: KeywordLocale;
   // Short display label rendered as the H1 (e.g. "Pizza", "Le soleil").
   keyword: string;
   // Lowercased substrings used as ilike filters on polls.question / options.
@@ -29,5 +40,7 @@ export type KeywordPage = {
 };
 
 export function keywordUrl(p: KeywordPage): string {
-  return p.locale === "fr" ? `/mot/${p.slug}` : `/word/${p.slug}`;
+  if (p.locale === "fr") return `/mot/${p.slug}`;
+  if (p.locale === "en") return `/word/${p.slug}`;
+  return `/topic/${p.locale}/${p.slug}`;
 }

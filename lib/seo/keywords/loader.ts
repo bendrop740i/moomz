@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { KeywordPage } from "./types";
+import type { KeywordPage, KeywordLocale } from "./types";
+
+const VALID_LOCALES: KeywordLocale[] = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"];
 
 const DATA_DIR = path.join(process.cwd(), "lib", "seo", "keywords", "data");
 
@@ -22,7 +24,8 @@ function loadAll(): KeywordPage[] {
       if (!Array.isArray(parsed)) continue;
       for (const item of parsed) {
         const k = item as KeywordPage;
-        if (!k || typeof k.slug !== "string" || (k.locale !== "fr" && k.locale !== "en")) continue;
+        if (!k || typeof k.slug !== "string") continue;
+        if (!VALID_LOCALES.includes(k.locale)) continue;
         const key = `${k.locale}:${k.slug}`;
         if (seen.has(key)) continue;
         seen.add(key);
@@ -40,10 +43,14 @@ export function getAllKeywords(): KeywordPage[] {
   return loadAll();
 }
 
-export function keywordsByLocale(locale: "fr" | "en"): KeywordPage[] {
+export function keywordsByLocale(locale: KeywordLocale): KeywordPage[] {
   return loadAll().filter((k) => k.locale === locale);
 }
 
-export function findKeyword(locale: "fr" | "en", slug: string): KeywordPage | null {
+export function findKeyword(locale: KeywordLocale, slug: string): KeywordPage | null {
   return loadAll().find((k) => k.locale === locale && k.slug === slug) ?? null;
+}
+
+export function isKeywordLocale(s: string): s is KeywordLocale {
+  return VALID_LOCALES.includes(s as KeywordLocale);
 }
