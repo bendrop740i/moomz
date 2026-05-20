@@ -23,6 +23,37 @@ export default async function MePage() {
   const locale = getLocale();
   const tx = (k: string) => t(k, locale);
 
+  // Personal hub — quick links to every account-area surface. Achievements
+  // live at /haut-faits (same route the StreakHUD links to); Explore covers
+  // every other surface (tools, quiz, templates, content...).
+  // votes.title / polls.title come from i18n; achievements + explore labels
+  // are translated inline here (no shared i18n keys exist for them yet).
+  const HUB_LABELS: Record<
+    string,
+    { hub: string; achievements: string; explore: string }
+  > = {
+    fr: { hub: "Navigation", achievements: "Haut faits", explore: "Tout explorer" },
+    en: { hub: "Navigation", achievements: "Achievements", explore: "Explore all" },
+    es: { hub: "Navegación", achievements: "Logros", explore: "Explorar todo" },
+    it: { hub: "Navigazione", achievements: "Imprese", explore: "Esplora tutto" },
+    pt: { hub: "Navegação", achievements: "Conquistas", explore: "Explorar tudo" },
+    de: { hub: "Navigation", achievements: "Erfolge", explore: "Alles entdecken" },
+    ja: { hub: "ナビ", achievements: "実績", explore: "すべて見る" },
+    zh: { hub: "导航", achievements: "成就", explore: "探索全部" },
+  };
+  const hubL = HUB_LABELS[locale] ?? HUB_LABELS.en;
+  const hubLinks: {
+    emoji: string;
+    label: string;
+    href: string;
+    accent?: boolean;
+  }[] = [
+    { emoji: "🏅", label: hubL.achievements, href: "/haut-faits" },
+    { emoji: "🗳️", label: tx("votes.title"), href: "/mes-votes" },
+    { emoji: "📊", label: tx("polls.title"), href: "/mes-sondages" },
+    { emoji: "🧭", label: hubL.explore, href: "/explore", accent: true },
+  ];
+
   let pending: AskItem[] = [];
   if (profile) {
     const anon = getSupabase();
@@ -98,6 +129,34 @@ export default async function MePage() {
           </Link>
         </div>
       )}
+
+      {/* Personal hub — reach achievements, history and the full explore map */}
+      <section className="space-y-2.5">
+        <h2 className="text-sm uppercase tracking-widest text-pink-300 font-semibold flex items-center gap-2">
+          <span aria-hidden="true">🧭</span>
+          {hubL.hub}
+        </h2>
+        <div className="grid grid-cols-2 gap-2">
+          {hubLinks.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className={`rounded-2xl px-3 py-3.5 flex items-center gap-2.5 transition min-h-[56px] ${
+                l.accent
+                  ? "bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 hover:from-pink-500/30 hover:to-purple-600/30"
+                  : "glass hover:bg-white/[0.08]"
+              }`}
+            >
+              <span className="text-xl leading-none shrink-0" aria-hidden="true">
+                {l.emoji}
+              </span>
+              <span className="text-sm font-semibold text-white/85 truncate">
+                {l.label}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       <ProfileForm initialProfile={profile} />
     </div>

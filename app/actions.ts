@@ -358,7 +358,7 @@ const RESERVED_USERNAMES = new Set([
   "ask", "daily", "world", "register", "password", "sw", "manifest", "robots",
   "sitemap", "opengraph", "icon", "favicon", "apple-icon", "push", "notif",
   "search", "explore", "trending", "new", "home", "static", "public", "next",
-  "404", "500", "logout", "verify", "quiz", "outils", "tools",
+  "create", "404", "500", "logout", "verify", "quiz", "outils", "tools",
   "haut-faits", "achievements", "coins", "wallet", "boutique", "shop",
   // Utility tools shipped 2026-05-20
   "convertisseur", "converter", "meteo", "weather", "heure", "time",

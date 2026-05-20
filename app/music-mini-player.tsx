@@ -1,8 +1,13 @@
 "use client";
 
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useMusic } from "./music-provider";
 import TrackCover from "./music/track-cover";
+
+// localStorage key persisting the collapsed/expanded preference. Defaults to
+// collapsed (compact pill) so the player stays out of the way until the user
+// taps it open.
+const COLLAPSED_KEY = "moomz_music_collapsed";
 
 // Format a seconds count as m:ss (e.g. 184 -> "3:04"). Returns "–:––" when
 // the value is unknown so the layout never collapses.
@@ -31,6 +36,28 @@ export default function MusicMiniPlayer() {
   } = useMusic();
 
   const barRef = useRef<HTMLDivElement | null>(null);
+
+  // Collapsed = compact floating pill. Defaults to true (out of the way).
+  // `null` until the effect below reads localStorage so SSR/first paint don't
+  // flash the wrong state on the client.
+  const [collapsed, setCollapsed] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    let initial = true;
+    try {
+      const raw = localStorage.getItem(COLLAPSED_KEY);
+      // Only an explicit "0" opts the user into the expanded layout.
+      if (raw === "0") initial = false;
+    } catch {}
+    setCollapsed(initial);
+  }, []);
+
+  const setCollapsedPersisted = useCallback((value: boolean) => {
+    setCollapsed(value);
+    try {
+      localStorage.setItem(COLLAPSED_KEY, value ? "1" : "0");
+    } catch {}
+  }, []);
 
   // Translate a pointer position over the progress track into a seek target.
   const seekFromPointer = useCallback(
@@ -76,11 +103,112 @@ export default function MusicMiniPlayer() {
     ? Math.min(100, (currentTime / totalDuration) * 100)
     : 0;
 
+  // Keyframes shared by both layouts.
+  const sharedStyle = (
+    <style
+      dangerouslySetInnerHTML={{
+        __html: `
+@keyframes moomz-mini-dot {
+  0%, 100% { transform: scale(1); opacity: 0.55; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+@keyframes moomz-cover-glow {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.85; }
+}
+@keyframes moomz-disc-spin {
+  to { transform: rotate(360deg); }
+}
+`,
+      }}
+    />
+  );
+
+  // ---- COLLAPSED: compact floating pill ------------------------------------
+  // ~48px tall. A spinning album disc + a play/pause control. Tapping the disc
+  // expands; the play/pause button stays usable while collapsed.
+  if (collapsed !== false) {
+    return (
+      <div className="fixed bottom-20 right-3 z-30 select-none">
+        <div
+          className="glass rounded-full shadow-lg shadow-black/40 p-1 flex items-center gap-1"
+          style={{ animation: "moomz-fade-in 0.2s ease-out" }}
+        >
+          {/* Spinning album disc — tap to expand */}
+          <button
+            onClick={() => setCollapsedPersisted(false)}
+            aria-label="Ouvrir le lecteur"
+            title={current.title}
+            className="w-10 h-10 rounded-full overflow-hidden shrink-0 relative ring-1 ring-white/15 transition active:scale-90"
+          >
+            <div
+              className="absolute inset-0"
+              style={
+                isPlaying
+                  ? { animation: "moomz-disc-spin 7s linear infinite" }
+                  : undefined
+              }
+            >
+              <TrackCover
+                seed={current.id}
+                label={current.title}
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+            {/* Center spindle hole for the vinyl look */}
+            <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#0b0613] ring-1 ring-white/20" />
+            {showBufferingDot && (
+              <span
+                className="absolute top-0.5 right-0.5 w-1.5 h-1.5 rounded-full bg-pink-400"
+                style={{ animation: "moomz-mini-dot 1s ease-in-out infinite" }}
+                aria-label="Chargement audio"
+              />
+            )}
+          </button>
+
+          {/* Play / pause */}
+          <button
+            onClick={toggle}
+            className="w-9 h-9 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 text-white flex items-center justify-center shrink-0 transition active:scale-90 shadow-md shadow-pink-500/30"
+            aria-label={isPlaying ? "Pause" : "Lecture"}
+          >
+            {isPlaying ? (
+              <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
+                <rect x="2" y="2" width="3" height="8" rx="1" />
+                <rect x="7" y="2" width="3" height="8" rx="1" />
+              </svg>
+            ) : (
+              <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
+                <path d="M3 2l7 4-7 4z" />
+              </svg>
+            )}
+          </button>
+        </div>
+        {sharedStyle}
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `@keyframes moomz-fade-in { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }`,
+          }}
+        />
+      </div>
+    );
+  }
+
+  // ---- EXPANDED: full player ----------------------------------------------
   return (
     <div className="fixed bottom-20 right-3 left-3 sm:left-auto z-30 select-none">
-      <div className="glass rounded-2xl shadow-lg shadow-black/40 p-2 sm:max-w-[300px] sm:ml-auto">
+      <div
+        className="glass rounded-2xl shadow-lg shadow-black/40 p-2 sm:max-w-[300px] sm:ml-auto"
+        style={{ animation: "moomz-expand-in 0.22s ease-out" }}
+      >
         <div className="flex items-center gap-2 text-xs">
-          <div className="w-9 h-9 rounded-lg overflow-hidden shrink-0 relative">
+          {/* Cover — tap to collapse */}
+          <button
+            onClick={() => setCollapsedPersisted(true)}
+            aria-label="Réduire le lecteur"
+            title="Réduire"
+            className="w-9 h-9 rounded-lg overflow-hidden shrink-0 relative transition active:scale-90"
+          >
             <TrackCover
               seed={current.id}
               label={current.title}
@@ -93,7 +221,7 @@ export default function MusicMiniPlayer() {
                 style={{ animation: "moomz-cover-glow 1.6s ease-in-out infinite" }}
               />
             )}
-          </div>
+          </button>
 
           <div className="flex-1 min-w-0">
             <div className="truncate font-medium text-white/90 flex items-center gap-1.5">
@@ -163,6 +291,18 @@ export default function MusicMiniPlayer() {
               <rect x="8" y="2" width="2" height="8" rx="0.5" />
             </svg>
           </button>
+
+          {/* Collapse / minimize */}
+          <button
+            onClick={() => setCollapsedPersisted(true)}
+            className="w-8 h-8 rounded-full hover:bg-white/10 text-white/70 hover:text-white flex items-center justify-center shrink-0 transition active:scale-90"
+            aria-label="Réduire le lecteur"
+            title="Réduire"
+          >
+            <svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+              <path d="M2.5 7.5h7" />
+            </svg>
+          </button>
         </div>
 
         {/* Progress / scrubber */}
@@ -225,18 +365,10 @@ export default function MusicMiniPlayer() {
         </div>
       </div>
 
+      {sharedStyle}
       <style
         dangerouslySetInnerHTML={{
-          __html: `
-@keyframes moomz-mini-dot {
-  0%, 100% { transform: scale(1); opacity: 0.55; }
-  50% { transform: scale(1.4); opacity: 1; }
-}
-@keyframes moomz-cover-glow {
-  0%, 100% { opacity: 0.35; }
-  50% { opacity: 0.85; }
-}
-`,
+          __html: `@keyframes moomz-expand-in { from { opacity: 0; transform: translateY(6px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }`,
         }}
       />
     </div>

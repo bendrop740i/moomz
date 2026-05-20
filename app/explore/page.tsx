@@ -181,6 +181,10 @@ type ExploreStrings = {
   contentSub: string;
   tools: string;
   toolsSub: string;
+  you: string;
+  youSub: string;
+  achievements: string;
+  music: string;
   pages: string;
   browse: string;
   cta: string;
@@ -203,6 +207,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Inspiration, tutos et histoires autour des sondages.",
     tools: "Outils gratuits",
     toolsSub: "Utilitaires en temps réel — devises, météo, crypto et plus.",
+    you: "Ton espace",
+    youSub: "Ton profil, tes votes, tes sondages et tes haut faits.",
+    achievements: "Haut faits",
+    music: "Musique",
     pages: "pages",
     browse: "Parcourir",
     cta: "Crée ton sondage gratuit →",
@@ -223,6 +231,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Inspiration, how-tos and stories about polls.",
     tools: "Free tools",
     toolsSub: "Live-data utilities — currency, weather, crypto and more.",
+    you: "Your space",
+    youSub: "Your profile, your votes, your polls and your achievements.",
+    achievements: "Achievements",
+    music: "Music",
     pages: "pages",
     browse: "Browse",
     cta: "Create your free poll →",
@@ -243,6 +255,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Inspiración, tutoriales e historias sobre encuestas.",
     tools: "Herramientas gratuitas",
     toolsSub: "Utilidades en tiempo real — divisas, clima, cripto y más.",
+    you: "Tu espacio",
+    youSub: "Tu perfil, tus votos, tus encuestas y tus logros.",
+    achievements: "Logros",
+    music: "Música",
     pages: "páginas",
     browse: "Explorar",
     cta: "Crea tu encuesta gratis →",
@@ -263,6 +279,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Ispirazione, tutorial e storie sui sondaggi.",
     tools: "Strumenti gratuiti",
     toolsSub: "Utilità in tempo reale — valute, meteo, cripto e altro.",
+    you: "Il tuo spazio",
+    youSub: "Il tuo profilo, i tuoi voti, i tuoi sondaggi e le tue imprese.",
+    achievements: "Imprese",
+    music: "Musica",
     pages: "pagine",
     browse: "Sfoglia",
     cta: "Crea il tuo sondaggio gratis →",
@@ -283,6 +303,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Inspiração, tutoriais e histórias sobre enquetes.",
     tools: "Ferramentas gratuitas",
     toolsSub: "Utilitários em tempo real — moedas, clima, cripto e mais.",
+    you: "O teu espaço",
+    youSub: "O teu perfil, os teus votos, as tuas enquetes e as tuas conquistas.",
+    achievements: "Conquistas",
+    music: "Música",
     pages: "páginas",
     browse: "Explorar",
     cta: "Cria a tua enquete grátis →",
@@ -303,6 +327,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "Inspiration, Anleitungen und Geschichten rund um Umfragen.",
     tools: "Kostenlose Tools",
     toolsSub: "Echtzeit-Tools — Währungen, Wetter, Krypto und mehr.",
+    you: "Dein Bereich",
+    youSub: "Dein Profil, deine Stimmen, deine Umfragen und deine Erfolge.",
+    achievements: "Erfolge",
+    music: "Musik",
     pages: "Seiten",
     browse: "Durchsuchen",
     cta: "Erstelle deine kostenlose Umfrage →",
@@ -323,6 +351,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "投票にまつわるヒント、ハウツー、ストーリー。",
     tools: "無料ツール",
     toolsSub: "リアルタイムの便利ツール — 通貨、天気、仮想通貨など。",
+    you: "あなたのスペース",
+    youSub: "プロフィール、投票履歴、作成した投票、実績。",
+    achievements: "実績",
+    music: "ミュージック",
     pages: "ページ",
     browse: "見る",
     cta: "無料で投票を作成 →",
@@ -343,6 +375,10 @@ const EXPLORE_T: Record<HubLocale, ExploreStrings> = {
     contentSub: "关于投票的灵感、教程和故事。",
     tools: "免费工具",
     toolsSub: "实时数据工具 — 货币、天气、加密货币等。",
+    you: "你的空间",
+    youSub: "你的资料、投票记录、发起的投票和成就。",
+    achievements: "成就",
+    music: "音乐",
     pages: "页",
     browse: "浏览",
     cta: "免费创建你的投票 →",
@@ -360,6 +396,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Citations", href: "/citations" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Musique", href: "/music" },
   ],
   en: [
     { emoji: "💡", label: "Poll ideas", href: "/ideas" },
@@ -367,6 +404,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Quotes", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Music", href: "/music" },
   ],
   es: [
     { emoji: "💡", label: "Ideas de encuestas", href: "/ideas" },
@@ -374,6 +412,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Citas", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Música", href: "/music" },
   ],
   it: [
     { emoji: "💡", label: "Idee per sondaggi", href: "/ideas" },
@@ -381,6 +420,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Citazioni", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Musica", href: "/music" },
   ],
   pt: [
     { emoji: "💡", label: "Ideias de enquetes", href: "/ideas" },
@@ -388,6 +428,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Citações", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Música", href: "/music" },
   ],
   de: [
     { emoji: "💡", label: "Umfrage-Ideen", href: "/ideas" },
@@ -395,6 +436,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "Blog", href: "/blog" },
     { emoji: "💬", label: "Zitate", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "Musik", href: "/music" },
   ],
   ja: [
     { emoji: "💡", label: "投票のアイデア", href: "/ideas" },
@@ -402,6 +444,7 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "ブログ", href: "/blog" },
     { emoji: "💬", label: "名言", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "ミュージック", href: "/music" },
   ],
   zh: [
     { emoji: "💡", label: "投票创意", href: "/ideas" },
@@ -409,6 +452,59 @@ const CONTENT_LINKS: Record<
     { emoji: "✍️", label: "博客", href: "/blog" },
     { emoji: "💬", label: "名言", href: "/quotes" },
     { emoji: "📖", label: "Read", href: "/read" },
+    { emoji: "🎵", label: "音乐", href: "/music" },
+  ],
+};
+
+// Personal surfaces — links to the user's own account-area pages.
+const YOU_LINKS: Record<HubLocale, { emoji: string; label: string; href: string }[]> = {
+  fr: [
+    { emoji: "🙋", label: "Mon profil", href: "/me" },
+    { emoji: "🏅", label: "Haut faits", href: "/haut-faits" },
+    { emoji: "🗳️", label: "Mes votes", href: "/mes-votes" },
+    { emoji: "📊", label: "Mes sondages", href: "/mes-sondages" },
+  ],
+  en: [
+    { emoji: "🙋", label: "My profile", href: "/me" },
+    { emoji: "🏅", label: "Achievements", href: "/haut-faits" },
+    { emoji: "🗳️", label: "My votes", href: "/mes-votes" },
+    { emoji: "📊", label: "My polls", href: "/mes-sondages" },
+  ],
+  es: [
+    { emoji: "🙋", label: "Mi perfil", href: "/me" },
+    { emoji: "🏅", label: "Logros", href: "/haut-faits" },
+    { emoji: "🗳️", label: "Mis votos", href: "/mes-votes" },
+    { emoji: "📊", label: "Mis encuestas", href: "/mes-sondages" },
+  ],
+  it: [
+    { emoji: "🙋", label: "Il mio profilo", href: "/me" },
+    { emoji: "🏅", label: "Imprese", href: "/haut-faits" },
+    { emoji: "🗳️", label: "I miei voti", href: "/mes-votes" },
+    { emoji: "📊", label: "I miei sondaggi", href: "/mes-sondages" },
+  ],
+  pt: [
+    { emoji: "🙋", label: "O meu perfil", href: "/me" },
+    { emoji: "🏅", label: "Conquistas", href: "/haut-faits" },
+    { emoji: "🗳️", label: "Os meus votos", href: "/mes-votes" },
+    { emoji: "📊", label: "As minhas sondagens", href: "/mes-sondages" },
+  ],
+  de: [
+    { emoji: "🙋", label: "Mein Profil", href: "/me" },
+    { emoji: "🏅", label: "Erfolge", href: "/haut-faits" },
+    { emoji: "🗳️", label: "Meine Stimmen", href: "/mes-votes" },
+    { emoji: "📊", label: "Meine Umfragen", href: "/mes-sondages" },
+  ],
+  ja: [
+    { emoji: "🙋", label: "マイプロフィール", href: "/me" },
+    { emoji: "🏅", label: "実績", href: "/haut-faits" },
+    { emoji: "🗳️", label: "投票履歴", href: "/mes-votes" },
+    { emoji: "📊", label: "作成した投票", href: "/mes-sondages" },
+  ],
+  zh: [
+    { emoji: "🙋", label: "我的资料", href: "/me" },
+    { emoji: "🏅", label: "成就", href: "/haut-faits" },
+    { emoji: "🗳️", label: "我的投票", href: "/mes-votes" },
+    { emoji: "📊", label: "我的发起", href: "/mes-sondages" },
   ],
 };
 
@@ -428,6 +524,7 @@ export default function ExplorePage() {
 
   const t = EXPLORE_T[hl] ?? EXPLORE_T.en;
   const contentLinks = CONTENT_LINKS[hl] ?? CONTENT_LINKS.en;
+  const youLinks = YOU_LINKS[hl] ?? YOU_LINKS.en;
 
   return (
     <div className="space-y-8 fade-up">
@@ -549,6 +646,31 @@ export default function ExplorePage() {
               >
                 <span aria-hidden="true">{l.emoji}</span>
                 {l.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* Your space — personal account surfaces */}
+      <section className="space-y-3">
+        <div>
+          <h2 className="font-display text-2xl text-white">🙋 {t.you}</h2>
+          <p className="text-sm text-white/50">{t.youSub}</p>
+        </div>
+        <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {youLinks.map((l) => (
+            <li key={l.href}>
+              <Link
+                href={l.href}
+                className="glass rounded-2xl px-4 py-4 hover:bg-white/10 transition flex flex-col items-center gap-1.5 h-full text-center"
+              >
+                <span className="text-2xl" aria-hidden="true">
+                  {l.emoji}
+                </span>
+                <span className="font-display text-sm text-white">
+                  {l.label}
+                </span>
               </Link>
             </li>
           ))}
