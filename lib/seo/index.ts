@@ -8,6 +8,7 @@ import { guides } from "./guides";
 import { guides2 } from "./guides-2";
 import { blog } from "./blog";
 import { blog2 } from "./blog-2";
+import { blog3 } from "./blog-3";
 import { extras } from "./extras";
 import { read } from "./read";
 import { seoVs } from "./seo-vs";
@@ -23,6 +24,7 @@ export const allPages: SeoPage[] = [
   ...guides2,
   ...blog,
   ...blog2,
+  ...blog3,
   ...extras,
   ...read,
   ...seoVs,
