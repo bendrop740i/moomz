@@ -92,7 +92,7 @@ async function TracksGrid() {
       />
       <p className="text-white/50 text-xs sm:text-sm -mt-4">
         {tracks.length > 0
-          ? `${tracks.length} tracks · shuffle infini, jamais 2x la même`
+          ? "Shuffle infini — jamais deux fois la même."
           : "Bibliothèque vide pour l'instant."}
       </p>
       {tracks.length === 0 ? (
