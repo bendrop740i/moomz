@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "messi",
+    "locale": "es",
+    "keyword": "Messi",
+    "matchPatterns": ["messi", "leo messi", "la pulga", "barsa", "argentina", "balon de oro"],
+    "topic": "sport",
+    "title": "Messi — la historia del mejor jugador de la historia",
+    "description": "Lionel Messi: de Rosario al Barça, la selección argentina, el Mundial 2022 y por qué muchos lo consideran el mejor jugador de la historia.",
+    "emoji": "🐐",
+    "intro": "Lionel Messi es, para una gran parte del mundo del fútbol, el mejor jugador de la historia. Nacido en Rosario, Argentina, el 24 de junio de 1987, su historia empieza con una dificultad: de niño le diagnosticaron un problema de crecimiento que requería un tratamiento caro. El FC Barcelona, que había detectado su talento extraordinario, se ofreció a costear el tratamiento si la familia se mudaba a España — la leyenda cuenta que el primer contrato se firmó en una servilleta de papel. Messi llegó a la cantera del Barça, La Masia, siendo un niño, y debutó con el primer equipo en 2004. A partir de ahí construyó una carrera sin parangón: pasó casi dos décadas en el Barcelona, ganando todo lo que se puede ganar a nivel de clubes, batiendo récords de goles que parecían imposibles, y conquistando un número histórico de Balones de Oro, el premio individual más prestigioso del fútbol. Su único reproche, durante años, fue no haber ganado un gran título con la selección argentina — algo que pesaba enormemente. Eso cambió: ganó la Copa América y, sobre todo, conquistó la Copa del Mundo de 2022 en Catar, completando así su carrera y silenciando el último argumento de sus críticos. En moomz, las encuestas '¿Messi o Cristiano?', '¿mejor jugador de la historia?', '¿quién es el GOAT?' encienden a cualquier aficionado. Messi es mucho más que un futbolista: es una leyenda viva.",
+    "sections": [
+      {
+        "h": "De Rosario a La Masia: el niño que el Barça salvó",
+        "body": "La historia de Messi tiene un comienzo conmovedor. De pequeño, en su Rosario natal, le detectaron un déficit de hormona del crecimiento, una condición que necesitaba un tratamiento médico costoso que la familia no podía permitirse cómodamente. Su talento, sin embargo, era ya tan llamativo que clubes empezaron a fijarse en él. Fue el FC Barcelona quien dio el paso decisivo: ofreció pagar el tratamiento si la familia Messi se trasladaba a Barcelona. El acuerdo, según la leyenda más famosa del fútbol moderno, se selló en una servilleta de papel. Así, siendo un niño, Messi se incorporó a La Masia, la legendaria academia de cantera del Barça, lejos de su país y su familia ampliada. Allí se formó futbolística y personalmente. Aquel niño bajito de Rosario, al que un club europeo tuvo que ayudar a crecer, se convertiría en el jugador más decisivo de la historia de ese mismo club."
+      },
+      {
+        "h": "Casi dos décadas en el Barça: récords imposibles",
+        "body": "La carrera de Messi en el FC Barcelona es probablemente la más extraordinaria que un jugador ha tenido en un solo club. Debutó con el primer equipo en 2004 y permaneció en el Barça hasta 2021, casi dos décadas en las que lo ganó prácticamente todo: numerosas Ligas, Copas y varias Champions League, el máximo título europeo de clubes. Pero lo que dejó atónito al mundo fueron sus números individuales. Messi convirtió en rutina cifras de goles y asistencias que para cualquier otro jugador serían el techo de toda una carrera. Es el máximo goleador histórico del Barcelona por una distancia enorme, y batió récords de goles en un año natural que muchos consideraban inalcanzables. Más allá de los números, fue su forma de jugar: regate corto e imparable, visión de juego, capacidad para decidir partidos él solo. Durante años, ver al Barça era, en gran medida, ver a Messi resolver lo imposible cada fin de semana."
+      },
+      {
+        "h": "El Mundial 2022: la pieza que faltaba",
+        "body": "Durante mucho tiempo, los críticos de Messi se aferraron a un único argumento: que no había ganado un gran título con la selección argentina, algo que sí logró su eterna comparación, Diego Maradona, con el Mundial de 1986. Messi sufrió varias finales dolorosas con Argentina, incluida la final del Mundial de 2014. La presión sobre él era brutal. Pero la historia le dio el final que merecía. Primero ganó la Copa América con Argentina, su primer gran título con la selección absoluta. Y después llegó el momento definitivo: la Copa del Mundo de Catar 2022. Argentina, con Messi como líder absoluto, ganó el torneo en una final inolvidable. Con ese triunfo, Messi completó su palmarés y cerró cualquier debate sobre lo que le faltaba. Levantar la Copa del Mundo fue, para muchos, la coronación perfecta del que consideran el mejor jugador de todos los tiempos. La carrera estaba completa."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Messi o Cristiano Ronaldo, quién es mejor?",
+        "a": "Es el debate más eterno del fútbol moderno y no tiene una respuesta objetiva. Messi y Cristiano Ronaldo han dominado el fútbol durante más de una década, repartiéndose los premios individuales y batiendo récords constantemente. Messi suele asociarse con la genialidad natural, el regate, la visión de juego y la creatividad pura. Cristiano con la potencia, el físico, la mentalidad ganadora y una capacidad goleadora descomunal en varias ligas distintas. Quienes defienden a Messi destacan su talento innato y el Mundial 2022; quienes defienden a Cristiano destacan su versatilidad, sus títulos europeos y su longevidad. La rivalidad ha elevado a ambos. La elección depende del gusto: lo justo es reconocer que han sido los dos jugadores definitorios de su época."
+      },
+      {
+        "q": "¿Por qué Messi se fue del Barcelona?",
+        "a": "Messi dejó el FC Barcelona en 2021 después de casi dos décadas en el club, y la salida no fue por voluntad propia. El motivo fue económico y reglamentario: el Barça atravesaba una grave crisis financiera y, debido a las normas del 'fair play financiero' y los límites salariales de la Liga española, el club no podía inscribir un nuevo contrato para Messi sin incumplir las reglas. A pesar de que tanto el jugador como el club querían continuar juntos, la situación lo hizo imposible. Fue una despedida traumática, con una rueda de prensa muy emotiva. Messi continuó su carrera primero en el Paris Saint-Germain y después en el Inter Miami de Estados Unidos. Su marcha cerró una era irrepetible para el Barcelona."
+      },
+      {
+        "q": "¿Cuántos Balones de Oro tiene Messi?",
+        "a": "Lionel Messi ha ganado el Balón de Oro un número de veces histórico, más que cualquier otro futbolista — es el jugador con más Balones de Oro de la historia del premio. El Balón de Oro es el galardón individual más prestigioso del fútbol, concedido al mejor jugador del año. Que Messi lo haya ganado tantas veces, a lo largo de muchos años y diferentes etapas de su carrera, es uno de los argumentos más fuertes de quienes lo consideran el mejor de la historia. Conviene consultar fuentes actualizadas para la cifra exacta más reciente, ya que el premio se entrega cada año, pero su dominio en este apartado es indiscutible y refleja una regularidad de élite mantenida durante casi toda su trayectoria."
+      },
+      {
+        "q": "¿Por qué llaman a Messi 'la Pulga'?",
+        "a": "A Lionel Messi se le conoce con el apodo de 'la Pulga' desde muy joven. El sobrenombre se relaciona con su baja estatura — recordemos que de niño tuvo un déficit de crecimiento — y con su forma de jugar: pequeño, rápido, escurridizo, capaz de moverse entre los rivales con una agilidad sorprendente, igual que una pulga difícil de atrapar. El apodo, lejos de ser despectivo, se convirtió en una marca cariñosa y reconocible en todo el mundo. Es habitual en el fútbol que los grandes jugadores tengan apodos que capturan su esencia, y 'la Pulga' describe perfectamente lo que hacía Messi en el campo: aparecer donde nadie lo esperaba y escaparse de cualquier marcaje."
+      }
+    ],
+    "related": ["real-madrid", "barcelona", "mundial", "champions", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "real-madrid",
+    "locale": "es",
+    "keyword": "Real Madrid",
+    "matchPatterns": ["real madrid", "madrid", "merengue", "bernabeu", "blancos", "champions"],
+    "topic": "sport",
+    "title": "Real Madrid — el club más laureado de la Champions League",
+    "description": "Real Madrid: historia desde 1902, los récords en la Champions, el Bernabéu, los Galácticos y por qué es el club más grande de Europa.",
+    "emoji": "👑",
+    "intro": "El Real Madrid es uno de los clubes de fútbol más grandes y exitosos de la historia, y el más laureado de la máxima competición europea. El club fue fundado el 6 de marzo de 1902 en la capital española, y el calificativo 'Real' se lo concedió el rey Alfonso XIII en 1920, lo que explica la corona en su escudo. Conocido como 'los blancos' o 'los merengues' por el color de su equipación, el Real Madrid ha marcado la historia del fútbol europeo. Su época más legendaria comenzó en los años cincuenta, cuando dominó las primeras ediciones de la Copa de Europa — la competición que hoy conocemos como Champions League — ganándola de forma consecutiva con una generación de jugadores míticos. Desde entonces, el Real Madrid ha mantenido una relación especial con esa competición: es, con diferencia, el club que más veces la ha ganado, hasta el punto de que muchos lo consideran el 'rey de Europa'. El club juega en el estadio Santiago Bernabéu, recientemente remodelado en una obra espectacular. A lo largo de su historia ha tenido épocas doradas como la de los 'Galácticos' de principios de los 2000 o los años de dominio europeo de la década de 2010. En moomz, las encuestas '¿Real Madrid o Barcelona?', '¿mejor club de la historia?', '¿el clásico más recordado?' encienden la pasión. El Real Madrid es sinónimo de exigencia, exitos y la mística de la Champions.",
+    "sections": [
+      {
+        "h": "Más de un siglo de historia: de 1902 a hoy",
+        "body": "El Real Madrid se fundó en 1902, lo que lo convierte en uno de los clubes más antiguos del fútbol español. En sus primeras décadas fue construyendo una identidad y compitiendo en el incipiente fútbol nacional. El distintivo 'Real' y la corona en el escudo llegaron en 1920 por concesión del rey Alfonso XIII. Pero el club dio el salto a la leyenda en los años cincuenta, una década que lo cambió todo. Bajo la presidencia de Santiago Bernabéu — el dirigente que da nombre al estadio — el Real Madrid construyó un equipo extraordinario y conquistó las primeras ediciones de la Copa de Europa de forma consecutiva. Aquel dominio inicial creó la mística europea del club, una identidad que se ha transmitido de generación en generación. Desde entonces, el Real Madrid ha vivido épocas mejores y peores, pero siempre ha mantenido la ambición de ganar y una exigencia que es parte fundamental de su carácter como institución."
+      },
+      {
+        "h": "El rey de la Champions League",
+        "body": "Si hay algo que define al Real Madrid por encima de todo es su relación con la máxima competición de clubes de Europa, la Champions League — antes llamada Copa de Europa. El Real Madrid es, sin discusión, el club que más veces ha ganado este título en toda la historia, y por un margen considerable respecto al segundo. Esta relación especial empezó en los años cincuenta con aquellas primeras conquistas consecutivas, y se ha renovado a lo largo de las décadas. La afición madridista ha desarrollado lo que se conoce como la 'remontada' europea: una fe casi mística en que el equipo puede dar la vuelta a cualquier eliminatoria en las grandes noches del Bernabéu, algo que ha ocurrido en numerosas ocasiones. Para el madridismo, la Champions no es un trofeo más: es la competición que define la identidad del club. Ganarla es la máxima aspiración cada temporada, y haberla ganado tantas veces es la base de su prestigio mundial."
+      },
+      {
+        "h": "Los Galácticos, el Bernabéu y la grandeza moderna",
+        "body": "En el siglo XXI, el Real Madrid ha protagonizado dos eras especialmente recordadas. La primera fue la de los 'Galácticos', a comienzos de los años 2000, cuando el club fichó a algunas de las mayores estrellas mundiales del momento, reuniendo a futbolistas de fama planetaria en una misma plantilla — una política de fichajes que mezclaba el éxito deportivo con un enorme impacto mediático y comercial. La segunda fue el dominio europeo de la década de 2010, en la que el club volvió a conquistar la Champions de forma reiterada. Todo ello tiene su escenario en el estadio Santiago Bernabéu, uno de los templos del fútbol mundial, sometido en los últimos años a una remodelación espectacular que lo ha convertido en un estadio ultramoderno. El Real Madrid combina así su enorme historia con la ambición de seguir siendo grande en el presente: es un club que vive obligado a competir por todo, temporada tras temporada."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se fundó el Real Madrid?",
+        "a": "El Real Madrid fue fundado el 6 de marzo de 1902 en la capital española, lo que lo sitúa entre los clubes más antiguos del fútbol del país. Inicialmente se llamó simplemente Madrid Football Club. El calificativo 'Real' lo añadió en 1920, cuando el rey Alfonso XIII concedió al club ese título honorífico, y desde entonces el escudo incorpora una corona. Más de un siglo de historia lo convierte en una institución con una tradición enorme, que ha vivido la evolución completa del fútbol español y europeo, desde los inicios amateur del deporte hasta el fútbol global y profesionalizado de hoy."
+      },
+      {
+        "q": "¿Por qué el Real Madrid es el rey de la Champions?",
+        "a": "Al Real Madrid se le llama 'el rey de la Champions' porque es, con mucha diferencia, el club que más veces ha ganado la máxima competición de clubes de Europa a lo largo de la historia. Esta supremacía empezó en los años cincuenta, cuando el club conquistó de forma consecutiva las primeras ediciones de la entonces llamada Copa de Europa, y se ha mantenido a través de las décadas con nuevas conquistas. Esta relación especial ha creado una mística alrededor del club y de su afición — la fe en las 'remontadas' europeas en el estadio Bernabéu — que es parte central de su identidad. Ningún otro club tiene un vínculo tan fuerte con esta competición."
+      },
+      {
+        "q": "¿Qué fueron los Galácticos del Real Madrid?",
+        "a": "Los 'Galácticos' fue el nombre que recibió la política de fichajes del Real Madrid a comienzos de los años 2000. Consistía en incorporar cada verano a una de las mayores estrellas del fútbol mundial, reuniendo en una misma plantilla a futbolistas de fama planetaria. La idea combinaba dos objetivos: lograr éxitos deportivos y, a la vez, generar un impacto mediático y comercial enorme — vender camisetas, atraer aficionados en todo el mundo, hacer crecer la marca del club. La era de los Galácticos dejó momentos memorables y mucha repercusión mundial, aunque también generó debates sobre si tantas estrellas juntas formaban siempre el mejor equipo posible. Es una de las etapas más recordadas del club."
+      },
+      {
+        "q": "¿Real Madrid o Barcelona, cuál es mejor?",
+        "a": "Es la gran rivalidad del fútbol español y una de las más intensas del mundo, conocida como 'el Clásico'. No hay una respuesta objetiva: son dos de los clubes más grandes y laureados de la historia, con filosofías y estilos a menudo distintos. El Real Madrid se asocia tradicionalmente con la mística europea, la exigencia y el dominio de la Champions League. El Barcelona se asocia con un estilo de juego muy identificable, la cantera de La Masia y figuras como Messi. Ambos han vivido épocas de dominio. La elección depende casi siempre de la afición y los sentimientos de cada uno. Lo justo es decir que su rivalidad ha elevado el nivel del fútbol mundial y ha dado partidos inolvidables."
+      }
+    ],
+    "related": ["barcelona", "messi", "champions", "futbol", "mundial"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "barcelona",
+    "locale": "es",
+    "keyword": "Barcelona",
+    "matchPatterns": ["barcelona", "barsa", "barça", "culé", "la masia", "camp nou"],
+    "topic": "sport",
+    "title": "FC Barcelona — La Masia, el tiki-taka y 'més que un club'",
+    "description": "FC Barcelona: historia desde 1899, La Masia, la era de Guardiola, Messi y por qué es 'más que un club' para todos sus aficionados culés.",
+    "emoji": "🔵",
+    "intro": "El FC Barcelona es uno de los clubes de fútbol más grandes, influyentes y queridos del mundo, conocido por su lema 'més que un club' — 'más que un club' en catalán. Fue fundado el 29 de noviembre de 1899 por un grupo de aficionados encabezados por el suizo Joan Gamper, y con el tiempo se convirtió en mucho más que una entidad deportiva: el Barça es un símbolo de identidad cultural y de Cataluña, algo que explica ese famoso lema. El club juega tradicionalmente con los colores azulgrana, lo que le da el apodo de 'blaugrana', y sus aficionados son conocidos como 'culés'. Históricamente, el Barcelona ha tenido una relación especial con la formación de jugadores en su cantera, La Masia, una academia legendaria de la que han salido algunos de los mejores futbolistas de la historia. La época más gloriosa del club llegó con la era del entrenador Pep Guardiola, a finales de los 2000, cuando el Barça desplegó un estilo de juego — el llamado 'tiki-taka', basado en la posesión del balón y el pase corto — que maravilló al mundo y arrasó en títulos. Aquel equipo, con Lionel Messi como gran estrella, es considerado por muchos uno de los mejores de la historia. En moomz, las encuestas '¿Barcelona o Real Madrid?', '¿mejor equipo de la historia?', '¿extrañas la era Guardiola?' generan debate apasionado. El Barça es fútbol, identidad y un estilo de juego propio.",
+    "sections": [
+      {
+        "h": "Más que un club: identidad y tradición",
+        "body": "El FC Barcelona se fundó en 1899 de la mano de Joan Gamper, un pionero suizo del fútbol, junto a otros aficionados. Desde sus inicios, el club fue creciendo hasta convertirse en una institución central de la vida de Cataluña. El famoso lema 'més que un club' resume esa dimensión: para muchos de sus seguidores, el Barça no es solo un equipo de fútbol, sino un símbolo de identidad cultural, social y, en ciertos momentos de la historia, también de resistencia. Esta carga simbólica es parte fundamental de lo que hace especial al club. A nivel deportivo, el Barcelona ha sido durante más de un siglo uno de los grandes del fútbol español y europeo, ganando títulos nacionales e internacionales. Pero su seña de identidad va más allá de los trofeos: tiene que ver con un estilo, con una filosofía y con la conexión profunda entre el club y la gente que lo siente como suyo."
+      },
+      {
+        "h": "La Masia: la fábrica de cracks",
+        "body": "Una de las grandes señas de identidad del FC Barcelona es La Masia, su academia de cantera. La filosofía del club ha dado siempre mucha importancia a formar jugadores desde pequeños, no solo en lo futbolístico sino también en una determinada manera de entender el juego. La Masia se hizo legendaria porque de ella han salido algunos de los mejores futbolistas de la historia del fútbol — jugadores que crecieron juntos desde niños, aprendiendo el mismo estilo, y que después formaron la columna vertebral del primer equipo. El caso más célebre es el de Lionel Messi, que llegó a La Masia siendo un niño procedente de Argentina. Que un club sea capaz de generar a sus propias estrellas, en lugar de comprarlas todas, es algo poco habitual y muy valorado. La Masia representa una manera de entender el fútbol: la idea de que el éxito puede construirse desde la base, con paciencia, identidad y un estilo de juego compartido."
+      },
+      {
+        "h": "La era Guardiola y el tiki-taka",
+        "body": "La época más recordada y gloriosa del FC Barcelona moderno es la que vivió bajo la dirección del entrenador Pep Guardiola, a finales de la década de 2000. Guardiola, que había sido jugador formado en La Masia, llevó al equipo a desplegar un estilo de juego que cautivó al mundo entero: el llamado 'tiki-taka', basado en la posesión continua del balón, el pase corto y rápido, la presión inmediata tras perder la pelota y un dominio casi total de los partidos. Aquel Barça, con Messi en su mejor versión y una generación de jugadores formados en la cantera, arrasó en títulos nacionales y europeos, y es considerado por muchos expertos como uno de los mejores equipos de la historia del fútbol. La era Guardiola no solo ganó: cambió la forma en que se entendía el juego e influyó en entrenadores de todo el planeta. Para los aficionados del Barça, fue una época irrepetible de fútbol bello y exitoso a la vez."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué el Barça dice ser 'más que un club'?",
+        "a": "'Més que un club' — 'más que un club' en catalán — es el lema del FC Barcelona, y resume la idea de que la entidad es mucho más que un equipo de fútbol. Para muchos de sus aficionados, el Barça es un símbolo de identidad cultural y social ligado a Cataluña. A lo largo de la historia, el club ha estado vinculado a la cultura, la lengua y los sentimientos de mucha gente, y en ciertos periodos llegó a representar algo más que el deporte. Por eso el lema tiene una carga emocional fuerte: expresa que apoyar al Barcelona, para sus seguidores, es también una forma de pertenencia y de identidad. Es una de las frases más reconocibles del fútbol mundial."
+      },
+      {
+        "q": "¿Qué es el tiki-taka?",
+        "a": "El 'tiki-taka' es el nombre popular que recibió el estilo de juego que desarrolló el FC Barcelona, especialmente bajo la dirección de Pep Guardiola a finales de los años 2000. Se caracteriza por la posesión continua del balón, los pases cortos y rápidos entre los jugadores, el movimiento constante para crear líneas de pase, y la presión inmediata para recuperar la pelota nada más perderla. La idea de fondo es controlar el partido teniendo el balón el mayor tiempo posible y desgastar al rival. Aquel Barça lo llevó a un nivel de perfección que maravilló al mundo. El tiki-taka influyó en entrenadores y selecciones de todo el planeta, y se convirtió en una de las filosofías de juego más influyentes de la historia reciente del fútbol."
+      },
+      {
+        "q": "¿Por qué La Masia es tan importante?",
+        "a": "La Masia es la academia de cantera del FC Barcelona, y es importante porque representa una filosofía: la idea de formar a los propios jugadores desde niños en lugar de comprarlos todos ya hechos. La Masia se hizo legendaria porque de ella han salido algunos de los mejores futbolistas de la historia del fútbol, incluido Lionel Messi, que llegó allí siendo un niño. Lo especial es que esos jugadores crecen juntos, aprenden el mismo estilo de juego y, cuando llegan al primer equipo, ya comparten una forma de entender el fútbol. Esto da identidad al club y demuestra que el éxito puede construirse desde la base. Para el Barça, La Masia no es solo una cantera: es parte de su ADN."
+      },
+      {
+        "q": "¿Cuándo se fundó el FC Barcelona?",
+        "a": "El FC Barcelona fue fundado el 29 de noviembre de 1899 por un grupo de aficionados al fútbol encabezados por Joan Gamper, un emprendedor y deportista suizo que está considerado el gran padre del club. En aquella época, el fútbol estaba dando sus primeros pasos en España, y el Barça fue uno de los pioneros. Desde esos inicios modestos, el club fue creciendo hasta convertirse en una de las instituciones deportivas más grandes del mundo y en un símbolo de Cataluña. Más de un siglo de historia ha hecho del Barcelona un club con una tradición enorme, que ha vivido toda la evolución del fútbol y ha dejado momentos inolvidables, especialmente en sus épocas más gloriosas."
+      }
+    ],
+    "related": ["real-madrid", "messi", "champions", "futbol", "mundial"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tenis",
+    "locale": "es",
+    "keyword": "Tenis",
+    "matchPatterns": ["tenis", "raqueta", "grand slam", "wimbledon", "roland garros", "atp"],
+    "topic": "sport",
+    "title": "Tenis — Grand Slams, leyendas y por qué engancha tanto",
+    "description": "Tenis: los cuatro Grand Slams, la era de los grandes campeones, las reglas básicas y por qué es uno de los deportes más completos.",
+    "emoji": "🎾",
+    "intro": "El tenis es uno de los deportes individuales más populares, exigentes y elegantes del mundo. Tiene raíces antiguas — sus orígenes se remontan a juegos de pelota practicados en Francia hace siglos — pero el tenis moderno, tal como lo conocemos, se formalizó en el siglo XIX en Inglaterra. Es un deporte que enfrenta a dos jugadores (o cuatro, en la modalidad de dobles) que golpean una pelota con raquetas por encima de una red, en una pista que puede ser de distintas superficies: tierra batida, hierba o pista dura. Esa variedad de superficies es una de las riquezas del tenis, porque cada una favorece un estilo de juego distinto. La estructura de la temporada gira en torno a los cuatro grandes torneos, los llamados Grand Slams: el Abierto de Australia, Roland Garros (en París, sobre tierra batida), Wimbledon (en Londres, sobre hierba, el más antiguo y prestigioso) y el US Open (en Nueva York). Ganar un Grand Slam es el sueño de cualquier tenista, y acumular muchos a lo largo de una carrera es lo que define a las leyendas del deporte. El tenis ha vivido una época dorada con una generación de campeones extraordinarios que dominaron el deporte durante años. En moomz, las encuestas '¿mejor tenista de la historia?', '¿tierra, hierba o pista dura?', '¿tu Grand Slam favorito?' enganchan a los aficionados. El tenis combina técnica, físico, estrategia y una enorme fortaleza mental.",
+    "sections": [
+      {
+        "h": "Los cuatro Grand Slams: el corazón del tenis",
+        "body": "La temporada de tenis se organiza alrededor de cuatro torneos especiales, los Grand Slams, que son los más importantes y prestigiosos del calendario. El Abierto de Australia abre el año, en enero, sobre pista dura. Roland Garros, que se disputa en París, es el gran torneo sobre tierra batida — una superficie lenta que premia la resistencia, la paciencia y el juego de fondo. Wimbledon, en Londres, es el más antiguo y tradicional de todos: se juega sobre hierba, una superficie rápida, y conserva tradiciones únicas como la obligación de vestir de blanco. Y el US Open, en Nueva York, cierra el año sobre pista dura, con un ambiente más festivo y espectacular. Ganar uno de estos cuatro torneos es el mayor logro al que aspira un tenista. La carrera por acumular títulos de Grand Slam es la verdadera medida de la grandeza en este deporte: las leyendas se cuentan por cuántos han conseguido."
+      },
+      {
+        "h": "La era dorada: una generación irrepetible",
+        "body": "El tenis ha vivido en las últimas décadas una de las épocas más extraordinarias de su historia. Una generación de campeones de un nivel altísimo dominó el deporte durante muchos años, protagonizando rivalidades legendarias y elevando el listón de exigencia hasta cotas nunca vistas. Estos grandes campeones se repartieron la inmensa mayoría de los títulos de Grand Slam durante un periodo larguísimo, algo insólito en un deporte tan competitivo. Sus enfrentamientos, especialmente en finales de los grandes torneos, son recordados como algunos de los mejores partidos de la historia del tenis. Esta época dorada coincidió además con avances en la preparación física, la tecnología de las raquetas y la profesionalización del deporte. Para los aficionados, fue un privilegio: ver a varios de los mejores tenistas de todos los tiempos compitiendo a la vez, semana tras semana. El reto de las nuevas generaciones es ahora tomar el relevo de aquella era irrepetible."
+      },
+      {
+        "h": "Reglas básicas y por qué es un deporte tan completo",
+        "body": "El tenis tiene un sistema de puntuación particular que puede despistar al principio. Un partido se divide en sets, los sets en juegos, y los juegos se ganan sumando puntos con una cuenta peculiar (quince, treinta, cuarenta y juego). Hay que ganar un número determinado de sets para llevarse el partido. Más allá de las reglas, lo que hace especial al tenis es lo completo que es como deporte. Exige una técnica muy depurada para golpear la pelota con precisión y potencia. Requiere una condición física exigente: velocidad, resistencia, agilidad, fuerza. Demanda inteligencia táctica para construir los puntos y leer al rival. Y, quizás lo más característico, pone a prueba la fortaleza mental: el tenista está solo en la pista, sin compañeros ni entrenador que le hablen durante el juego, y debe gestionar la presión, los nervios y los momentos difíciles por sí mismo. Esa combinación de cuerpo y mente es lo que convierte al tenis en un deporte fascinante."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuáles son los cuatro Grand Slams del tenis?",
+        "a": "Los cuatro Grand Slams son los torneos más importantes y prestigiosos del calendario del tenis. Son: el Abierto de Australia, que se disputa en enero sobre pista dura; Roland Garros, en París, sobre tierra batida, la superficie más lenta; Wimbledon, en Londres, sobre hierba, el torneo más antiguo y tradicional del mundo; y el US Open, en Nueva York, sobre pista dura, que cierra la temporada. Ganar uno de estos cuatro torneos es el mayor logro individual al que puede aspirar un tenista, y acumular varios títulos de Grand Slam a lo largo de una carrera es lo que distingue a las grandes leyendas del deporte. Cada Grand Slam tiene su propio carácter y tradiciones."
+      },
+      {
+        "q": "¿Por qué hay distintas superficies en el tenis?",
+        "a": "El tenis se juega sobre tres tipos principales de superficie — tierra batida, hierba y pista dura — y esta variedad es una de las grandes riquezas del deporte. Cada superficie cambia la forma en que bota la pelota y la velocidad del juego. La tierra batida es lenta: la pelota bota alto y despacio, lo que favorece los puntos largos, la resistencia y el juego de fondo. La hierba es rápida: la pelota bota bajo y veloz, premiando el juego agresivo. La pista dura está en un punto intermedio. Esta diversidad obliga a los tenistas a adaptar su estilo y hace que algunos jugadores destaquen más en unas superficies que en otras. Por eso ganar Grand Slams en superficies distintas es una muestra de versatilidad."
+      },
+      {
+        "q": "¿Cómo funciona la puntuación en el tenis?",
+        "a": "La puntuación del tenis tiene una estructura peculiar pero lógica una vez se entiende. Un partido se gana consiguiendo un número determinado de sets (normalmente dos de tres, o tres de cinco en algunos torneos masculinos importantes). Cada set se gana al alcanzar seis juegos con al menos dos de ventaja. Y cada juego se gana sumando puntos, con una cuenta tradicional que va quince, treinta, cuarenta y juego. Si ambos jugadores llegan a cuarenta, se produce el 'deuce' o iguales, y hay que ganar dos puntos seguidos. Cuando un set llega a un empate ajustado en juegos, suele resolverse con un 'tie-break'. Aunque al principio parece complicado, es un sistema que crea mucha tensión y emoción en cada punto importante."
+      },
+      {
+        "q": "¿Quién es el mejor tenista de la historia?",
+        "a": "Es uno de los debates favoritos de los aficionados al tenis, y no tiene respuesta única. El tenis ha vivido una era dorada en la que una generación de campeones extraordinarios dominó el deporte durante muchísimos años, repartiéndose la mayoría de los títulos de Grand Slam y protagonizando rivalidades legendarias. Quienes defienden a uno u otro suelen apelar al número de Grand Slams conseguidos, al dominio en distintas superficies, a la longevidad o al impacto en el deporte. Lo justo es decir que esa generación situó el nivel del tenis más alto que nunca y que el debate sobre quién es el mejor refleja precisamente lo extraordinario de la época. Conviene consultar fuentes actualizadas sobre los récords más recientes."
+      }
+    ],
+    "related": ["nadal", "alcaraz", "baloncesto", "formula1", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "baloncesto",
+    "locale": "es",
+    "keyword": "Baloncesto",
+    "matchPatterns": ["baloncesto", "basket", "nba", "canasta", "triple", "basquet"],
+    "topic": "sport",
+    "title": "Baloncesto — de la NBA a la Liga ACB, el deporte de la canasta",
+    "description": "Baloncesto: el origen en 1891, la NBA, el éxito de España, las reglas básicas y por qué es uno de los deportes más espectaculares del mundo.",
+    "emoji": "🏀",
+    "intro": "El baloncesto es uno de los deportes más populares y espectaculares del mundo, practicado y seguido por cientos de millones de personas. Tiene un origen muy concreto y bien documentado: fue inventado en 1891 por James Naismith, un profesor de educación física canadiense que trabajaba en Estados Unidos. Naismith buscaba un deporte que se pudiera jugar bajo techo durante el invierno y que no fuera tan brusco como otros; colgó dos cestas de melocotones en las paredes de un gimnasio y escribió las primeras reglas. Aquel juego improvisado se convirtió en uno de los deportes globales más importantes. El baloncesto enfrenta a dos equipos de cinco jugadores que intentan introducir el balón en la canasta del rival, situada a una altura determinada, mientras defienden la suya. La máxima referencia mundial es la NBA, la liga estadounidense, considerada la mejor competición de baloncesto del planeta y un fenómeno de entretenimiento global con jugadores convertidos en estrellas mundiales. Pero el baloncesto es enorme en muchos países, y España es uno de los grandes referentes europeos: su Liga ACB es de las mejores del mundo, y la selección española ha vivido una época dorada con éxitos importantes en grandes campeonatos. En moomz, las encuestas '¿NBA o baloncesto europeo?', '¿mejor jugador de la historia?', '¿baloncesto o fútbol?' enganchan a los aficionados. El baloncesto combina velocidad, técnica, altura y espectáculo.",
+    "sections": [
+      {
+        "h": "El invento de 1891 y las reglas del juego",
+        "body": "El baloncesto nació de una necesidad concreta. En 1891, James Naismith, profesor de educación física en una escuela de Estados Unidos, recibió el encargo de crear un deporte que se pudiera practicar en interior durante los meses fríos de invierno, cuando no se podía jugar al aire libre. Naismith ideó un juego en el que había que introducir un balón en una cesta elevada — al principio, literalmente cestas de melocotones colgadas en las paredes — y redactó un conjunto inicial de reglas. El éxito fue inmediato y el deporte se expandió rápidamente. Las reglas modernas son más complejas, pero la esencia sigue siendo la misma: dos equipos de cinco jugadores, una canasta a cada lado, y el objetivo de anotar más puntos que el rival. Los lanzamientos valen distintos puntos según desde dónde se hagan, lo que añade estrategia. El baloncesto es un deporte de ritmo rápido, con marcadores altos y constante alternancia de ataque y defensa."
+      },
+      {
+        "h": "La NBA: la mejor liga del mundo",
+        "body": "Cuando se habla de baloncesto de élite, la primera referencia mundial es la NBA, la liga profesional de Estados Unidos. La NBA está considerada la mejor competición de baloncesto del planeta: reúne a los mejores jugadores del mundo, ofrece un nivel de juego extraordinario y es, además, un fenómeno de entretenimiento global. Sus estrellas son celebridades conocidas mucho más allá del deporte, con una enorme influencia cultural en la moda, la música y las redes sociales. La NBA ha sabido convertir el baloncesto en un espectáculo total, con grandes producciones, una temporada larga que culmina en unos playoffs muy intensos y unas finales seguidas en todo el mundo. La liga ha tenido a lo largo de su historia figuras legendarias que han marcado épocas y han llevado el deporte a su máxima popularidad. Para muchos aficionados, seguir la NBA es seguir el baloncesto en su versión más espectacular y de mayor nivel."
+      },
+      {
+        "h": "España y el baloncesto: una potencia",
+        "body": "El baloncesto no es solo cosa de Estados Unidos. España es una de las grandes potencias mundiales de este deporte, especialmente en el ámbito europeo. La Liga ACB española está considerada una de las mejores ligas de baloncesto fuera de la NBA, con clubes históricos y un nivel competitivo muy alto. Pero el mayor orgullo del baloncesto español ha sido su selección nacional: España ha vivido una auténtica época dorada, con una generación de jugadores extraordinarios que conquistaron títulos importantes en grandes campeonatos internacionales, situando al país entre la élite mundial del baloncesto durante años. Algunos jugadores españoles han triunfado también en la NBA, demostrando que el talento del país puede competir al máximo nivel. Esos éxitos popularizaron enormemente el baloncesto en España, donde es uno de los deportes más seguidos después del fútbol. El baloncesto español es un ejemplo de cómo el trabajo en la formación y la cantera puede llevar a un país a lo más alto."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quién inventó el baloncesto y cuándo?",
+        "a": "El baloncesto fue inventado en 1891 por James Naismith, un profesor de educación física de origen canadiense que trabajaba en una escuela en Estados Unidos. Naismith recibió el encargo de crear un deporte que se pudiera jugar en interior durante el invierno, cuando el frío impedía las actividades al aire libre. Su solución fue colgar dos cestas de melocotones en las paredes de un gimnasio y diseñar un juego en el que había que introducir un balón en ellas. Naismith escribió las primeras reglas del deporte. Aquel invento, nacido de una necesidad práctica, se convirtió en uno de los deportes más populares y globales del mundo. Es uno de los pocos deportes de los que se conoce con tanta precisión su origen."
+      },
+      {
+        "q": "¿Por qué la NBA es la mejor liga de baloncesto?",
+        "a": "La NBA, la liga profesional de Estados Unidos, está considerada la mejor competición de baloncesto del mundo por varias razones. Reúne a los mejores jugadores del planeta, ya que atrae talento de todos los países. El nivel de juego es extraordinariamente alto y competitivo. Y, además, la NBA ha convertido el baloncesto en un espectáculo de entretenimiento global, con grandes producciones, una temporada larga y unos playoffs muy intensos. Sus estrellas son celebridades mundiales con enorme influencia cultural. La combinación de nivel deportivo máximo, espectáculo y proyección global hace que la NBA sea la referencia indiscutible del baloncesto de élite. Otros países tienen ligas muy buenas, pero la NBA está en otra dimensión."
+      },
+      {
+        "q": "¿España es buena en baloncesto?",
+        "a": "Sí, España es una de las grandes potencias mundiales del baloncesto. El país ha vivido una auténtica época dorada en este deporte, especialmente con su selección nacional, que conquistó títulos importantes en grandes campeonatos internacionales gracias a una generación de jugadores extraordinarios. Esos éxitos situaron a España entre la élite mundial durante años. Además, la Liga ACB española está considerada una de las mejores ligas de baloncesto del mundo fuera de la NBA, y varios jugadores españoles han triunfado en la propia NBA. El baloncesto es uno de los deportes más seguidos en España después del fútbol, y el éxito de su selección lo popularizó enormemente. Es un ejemplo de buena formación deportiva."
+      },
+      {
+        "q": "¿Cuáles son las reglas básicas del baloncesto?",
+        "a": "El baloncesto enfrenta a dos equipos de cinco jugadores cada uno. El objetivo es introducir el balón en la canasta del equipo rival, situada a una altura determinada, mientras se defiende la propia. Los puntos varían según desde dónde se anote: los lanzamientos desde lejos valen más que los cercanos, y los tiros libres tienen su propio valor. Los jugadores deben botar el balón mientras se desplazan — no se puede correr con él en las manos — y hay reglas sobre el tiempo de posesión y las faltas. El partido se divide en periodos, y gana el equipo que más puntos consiga. Es un deporte de ritmo rápido, con marcadores altos y mucha alternancia entre ataque y defensa, lo que lo hace muy espectacular."
+      }
+    ],
+    "related": ["tenis", "futbol", "formula1", "ufc", "mundial"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "formula1",
+    "locale": "es",
+    "keyword": "Fórmula 1",
+    "matchPatterns": ["formula 1", "f1", "automovilismo", "gran premio", "monoplaza", "carrera"],
+    "topic": "sport",
+    "title": "Fórmula 1 — la élite del automovilismo mundial",
+    "description": "Fórmula 1: historia desde 1950, los circuitos míticos, la tecnología extrema, los pilotos legendarios y por qué engancha tanto al público.",
+    "emoji": "🏎️",
+    "intro": "La Fórmula 1 es la categoría reina del automovilismo y una de las competiciones deportivas más espectaculares, tecnológicas y globales del mundo. El Campeonato Mundial de Fórmula 1 se disputa de manera oficial desde 1950, lo que la convierte en una competición con más de siete décadas de historia. La F1 enfrenta a los mejores pilotos del planeta a bordo de monoplazas — coches de carreras de una sola plaza, con las ruedas al descubierto — diseñados con la tecnología más avanzada que existe. Cada temporada se disputa un calendario de Grandes Premios en circuitos repartidos por todo el mundo, algunos de ellos auténticos templos del deporte. La Fórmula 1 es, en esencia, una competición doble: por un lado luchan los pilotos por el título de Campeón del Mundo, y por otro las escuderías o equipos compiten por el campeonato de constructores. Esto es clave para entender la F1: el rendimiento depende tanto del talento del piloto como de la calidad del coche que ha desarrollado su equipo, una combinación de habilidad humana e ingeniería extrema. La F1 ha tenido a lo largo de su historia pilotos legendarios, rivalidades intensas y momentos inolvidables. En los últimos años ha vivido además un auge de popularidad enorme, especialmente entre el público joven. En moomz, las encuestas '¿mejor piloto de la historia?', '¿circuito favorito?', '¿F1 o MotoGP?' enganchan a los aficionados. La Fórmula 1 es velocidad, tecnología y emoción al máximo nivel.",
+    "sections": [
+      {
+        "h": "Más de 70 años de historia: de 1950 a hoy",
+        "body": "El Campeonato Mundial de Fórmula 1 se disputa oficialmente desde 1950, lo que la convierte en una de las competiciones deportivas con más historia y tradición del mundo. A lo largo de estas más de siete décadas, la F1 ha evolucionado enormemente. Los coches de los inicios no tienen nada que ver con los monoplazas actuales: la tecnología, la seguridad, la aerodinámica y los motores han avanzado de forma espectacular. La seguridad, en particular, ha sido una preocupación creciente — en las primeras décadas el deporte era extremadamente peligroso, y con el tiempo se han introducido innumerables mejoras para proteger a los pilotos. La F1 también ha cambiado de circuitos, de países y de protagonistas, pero ha mantenido su esencia: ser la máxima categoría del automovilismo, el lugar donde compiten los mejores pilotos con la tecnología más avanzada. Cada época ha tenido sus leyendas y sus grandes rivalidades, y la historia de la F1 está llena de momentos que han trascendido el deporte."
+      },
+      {
+        "h": "Pilotos, escuderías y la doble competición",
+        "body": "Para entender la Fórmula 1 hay que comprender que en cada temporada se disputan en realidad dos campeonatos a la vez. Por un lado, está el campeonato de pilotos: cada piloto suma puntos según su posición en cada Gran Premio, y quien más puntos acumula al final del año se proclama Campeón del Mundo. Por otro lado, está el campeonato de constructores: las escuderías o equipos suman los puntos de sus dos pilotos, y compiten entre ellas por ese título. Esta doble competición es esencial, porque refleja la naturaleza de la F1: el éxito depende tanto del talento del piloto como de la calidad del coche. Un piloto extraordinario en un coche poco competitivo tiene muy difícil ganar; un coche dominante puede llevar a su equipo a arrasar. Las escuderías invierten cantidades enormes en desarrollo tecnológico, y la lucha entre equipos por construir el mejor monoplaza es tan importante como la lucha entre pilotos en la pista."
+      },
+      {
+        "h": "Tecnología extrema y el auge de la F1",
+        "body": "La Fórmula 1 es, además de un deporte, una de las cumbres de la ingeniería. Los monoplazas de F1 están entre los vehículos más avanzados tecnológicamente del mundo: cada componente — el motor, la aerodinámica, los neumáticos, los sistemas electrónicos — está diseñado y optimizado al límite de lo posible. Los equipos emplean a cientos de ingenieros y desarrollan los coches de forma continua a lo largo de la temporada, buscando cualquier mínima ventaja. Muchos avances tecnológicos que hoy son comunes en los coches de calle se probaron primero en la F1. En los últimos años, la Fórmula 1 ha vivido además un auge de popularidad notable, especialmente entre el público joven, impulsado en parte por documentales que mostraron el lado humano y la tensión interna del deporte, y por una estrategia de comunicación más moderna en redes sociales. La F1 ha sabido renovarse y atraer a nuevas generaciones de aficionados, combinando su tradición con un espectáculo global muy bien presentado."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Desde cuándo existe la Fórmula 1?",
+        "a": "El Campeonato Mundial de Fórmula 1 se disputa de manera oficial desde 1950, por lo que tiene más de siete décadas de historia. Eso la convierte en una de las competiciones deportivas más antiguas y con más tradición del mundo del automovilismo. A lo largo de todos estos años, la F1 ha evolucionado de forma espectacular: los coches, la tecnología, la seguridad y el propio espectáculo de los inicios no tienen nada que ver con los actuales. La seguridad, en concreto, ha mejorado enormemente, ya que en las primeras décadas el deporte era extremadamente peligroso. Pese a todos los cambios, la F1 ha mantenido siempre su esencia de ser la máxima categoría del automovilismo mundial."
+      },
+      {
+        "q": "¿Qué es el campeonato de constructores?",
+        "a": "En la Fórmula 1 se disputan dos campeonatos a la vez. El más conocido es el de pilotos, que premia al mejor piloto de la temporada. Pero también existe el campeonato de constructores, que premia al mejor equipo o escudería. Funciona así: cada escudería tiene dos pilotos, y los puntos que ambos consiguen en cada carrera se suman para el equipo. La escudería que más puntos acumula al final del año gana el campeonato de constructores. Este título es muy importante porque refleja la calidad del trabajo de todo el equipo — ingenieros, mecánicos, desarrollo del coche — y no solo el talento individual de un piloto. En la F1, el coche es tan determinante como el piloto, y por eso ambos campeonatos importan."
+      },
+      {
+        "q": "¿Qué importa más en la F1, el piloto o el coche?",
+        "a": "En la Fórmula 1, el éxito depende de la combinación de dos factores: el talento del piloto y la calidad del coche. Ambos son imprescindibles. Un piloto extraordinario que compita con un monoplaza poco competitivo tiene muy difícil ganar carreras, por mucho que se esfuerce. Y un coche dominante, el mejor de la parrilla, puede llevar al éxito incluso facilitando mucho la tarea del piloto. La F1 es, por tanto, un deporte donde la ingeniería pesa tanto como la habilidad humana. Esta es una de las grandes particularidades de la competición frente a otros deportes más individuales. Las escuderías invierten cantidades enormes en desarrollar el mejor coche posible, conscientes de que sin un buen monoplaza el mejor piloto no puede triunfar."
+      },
+      {
+        "q": "¿Por qué la Fórmula 1 se ha vuelto tan popular?",
+        "a": "La Fórmula 1 ha vivido en los últimos años un auge de popularidad notable, especialmente entre el público joven. Varios factores lo explican. Por un lado, documentales que mostraron el lado humano del deporte — las rivalidades, la presión, las historias personales de los pilotos y los equipos — acercaron la F1 a gente que antes no la seguía. Por otro lado, una estrategia de comunicación más moderna, con mayor presencia en redes sociales y un espectáculo mejor presentado. La F1 ha sabido combinar su enorme tradición y su prestigio tecnológico con una imagen más accesible y atractiva. El resultado es que ha conectado con nuevas generaciones de aficionados en todo el mundo, ampliando mucho su audiencia."
+      }
+    ],
+    "related": ["motogp", "ufc", "tenis", "baloncesto", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nadal",
+    "locale": "es",
+    "keyword": "Nadal",
+    "matchPatterns": ["nadal", "rafa nadal", "rafa", "tenista", "roland garros", "mallorca"],
+    "topic": "sport",
+    "title": "Rafa Nadal — el rey de la tierra batida y leyenda española",
+    "description": "Rafael Nadal: de Manacor a leyenda del tenis. Roland Garros, su dominio en tierra batida y por qué es un icono del deporte español.",
+    "emoji": "🎾",
+    "intro": "Rafael Nadal es uno de los mejores tenistas de la historia y, sin ninguna duda, el deportista español más laureado e influyente de su generación. Nació en Manacor, en la isla de Mallorca, el 3 de junio de 1986, en el seno de una familia muy unida que ha sido siempre clave en su carrera — su tío Toni Nadal fue su entrenador durante la mayor parte de su trayectoria. Nadal saltó a la élite del tenis siendo muy joven y enseguida se convirtió en un fenómeno mundial. Su gran característica fue una combinación poco habitual: un físico portentoso, una intensidad y una capacidad de lucha inagotables, y una fortaleza mental extraordinaria. Nadal nunca daba un punto por perdido, y esa actitud lo convirtió en un rival temible. Es conocido sobre todo como 'el rey de la tierra batida', porque su dominio en esa superficie, y especialmente en el torneo de Roland Garros, en París, ha sido absoluto e histórico — algo nunca visto en el tenis. Pero Nadal fue mucho más que un especialista: ganó Grand Slams en todas las superficies y protagonizó algunas de las mayores rivalidades de la historia del deporte. En España, Nadal es un icono nacional, admirado tanto por sus éxitos como por sus valores: humildad, esfuerzo, deportividad. En moomz, las encuestas '¿mejor tenista español de la historia?', '¿quién es el rey de la tierra?', '¿Nadal o los otros grandes?' enganchan a cualquier aficionado. Nadal representa la cultura del esfuerzo llevada al máximo nivel.",
+    "sections": [
+      {
+        "h": "De Manacor a la élite mundial",
+        "body": "Rafael Nadal nació en 1986 en Manacor, una localidad de la isla de Mallorca, y su historia está profundamente ligada a su tierra y a su familia. Su tío, Toni Nadal, fue quien le entrenó desde niño y durante la mayor parte de su carrera, formando con él una de las parejas entrenador-jugador más exitosas de la historia del deporte. Nadal mostró talento desde muy joven y dio el salto a la élite del tenis profesional siendo todavía un adolescente. Su irrupción fue impactante: enseguida demostró que tenía un nivel y una mentalidad de campeón. A diferencia de muchas estrellas que se forman en grandes academias internacionales, Nadal se mantuvo siempre vinculado a Mallorca, donde con el tiempo creó su propia academia de tenis. Esa conexión con sus orígenes, esa cercanía y esa sencillez son parte importante de su imagen y de por qué es tan querido. El niño de Manacor se convirtió en una de las figuras más grandes del deporte mundial."
+      },
+      {
+        "h": "El rey indiscutible de la tierra batida",
+        "body": "Si hay algo por lo que Rafael Nadal pasará a la historia es por su dominio sobre la tierra batida, la superficie lenta del tenis. En esa superficie, y muy especialmente en el torneo de Roland Garros, en París, el rendimiento de Nadal ha sido sencillamente histórico, sin precedentes en el deporte. Su número de títulos en ese Grand Slam es una cifra que muchos consideran prácticamente imposible de igualar. La tierra batida premia la resistencia, la paciencia, la capacidad de construir puntos largos y de no rendirse nunca — y todas esas cualidades describen perfectamente a Nadal. Su juego en esa superficie, con su famoso golpe de derecha cargado de efecto, su intensidad y su lucha incansable, lo convirtió en un rival casi invencible. El apodo de 'el rey de la tierra' no es una exageración: es una descripción literal de un dominio que define una era. Pocos deportistas han sido tan superiores a todos sus rivales en un terreno concreto."
+      },
+      {
+        "h": "Mucho más que la tierra: una leyenda completa",
+        "body": "Sería un error reducir a Rafael Nadal a un especialista en tierra batida. Aunque ese fue su reino, Nadal demostró ser un campeón completo: ganó títulos de Grand Slam en todas las superficies — tierra, hierba y pista dura —, algo que solo está al alcance de los más grandes. Esa versatilidad lo sitúa entre los mejores tenistas de todos los tiempos sin discusión. Nadal protagonizó además algunas de las rivalidades más legendarias de la historia del tenis, con partidos recordados como auténticas obras maestras del deporte. Pero su legado va más allá de los títulos. Nadal es admirado por sus valores: la humildad pese a los éxitos, una deportividad ejemplar, el respeto a los rivales y una cultura del esfuerzo y la superación que ha convertido en un modelo. En España es un icono nacional querido por gente de todas las edades. Rafael Nadal representa lo mejor que puede ofrecer el deporte: talento, trabajo y valores."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué llaman a Nadal 'el rey de la tierra'?",
+        "a": "A Rafael Nadal se le conoce como 'el rey de la tierra batida' por su dominio histórico sobre esa superficie del tenis, la más lenta de las tres. Especialmente en el torneo de Roland Garros, en París, el rendimiento de Nadal ha sido sin precedentes: ha ganado ese Grand Slam un número de veces que muchos consideran prácticamente imposible de igualar. La tierra batida premia cualidades como la resistencia, la paciencia y la capacidad de no rendirse nunca, todas ellas marca de la casa de Nadal. Su superioridad sobre los rivales en esa superficie fue tan abrumadora durante tantos años que el apodo de 'rey de la tierra' no es una metáfora exagerada, sino la descripción literal de un dominio que define toda una era del tenis."
+      },
+      {
+        "q": "¿De dónde es Rafa Nadal?",
+        "a": "Rafael Nadal es español, nacido el 3 de junio de 1986 en Manacor, una localidad situada en la isla de Mallorca. Su vínculo con Mallorca y con su familia ha sido siempre una parte fundamental de su historia. Su tío, Toni Nadal, fue su entrenador desde niño y durante la mayor parte de su carrera. A diferencia de muchas estrellas del deporte, Nadal se mantuvo siempre conectado a su tierra natal, donde con el tiempo creó su propia academia de tenis. Esa cercanía a sus orígenes, su sencillez y su humildad son rasgos muy asociados a su imagen pública y son parte de por qué es una figura tan querida y respetada en España y en todo el mundo."
+      },
+      {
+        "q": "¿Nadal solo era bueno en tierra batida?",
+        "a": "No, sería un error pensarlo. Aunque Rafael Nadal es conocido sobre todo como 'el rey de la tierra batida' por su dominio histórico en esa superficie, fue un campeón completo y versátil. Nadal ganó títulos de Grand Slam en las tres superficies del tenis — tierra batida, hierba y pista dura —, un logro que solo está al alcance de los tenistas verdaderamente grandes. Esa capacidad de ganar en condiciones tan distintas demuestra que su talento iba mucho más allá de una sola especialidad. Lo que ocurre es que su superioridad en tierra batida fue tan abrumadora que eclipsó, en la imagen popular, sus enormes éxitos en el resto de superficies. Nadal está, sin discusión, entre los mejores tenistas de todos los tiempos."
+      },
+      {
+        "q": "¿Por qué Nadal es un icono en España?",
+        "a": "Rafael Nadal es un icono en España por una combinación de éxitos deportivos y valores personales. En lo deportivo, es uno de los mejores tenistas de la historia y el deportista español más laureado de su generación, con un palmarés impresionante. Pero su admiración va más allá de los títulos. Nadal es valorado por su humildad pese a todo lo que ha ganado, por su deportividad y respeto a los rivales, por su cercanía y sencillez, y por encarnar la cultura del esfuerzo y la superación. Nunca se rendía en un partido, y esa actitud se convirtió en un modelo. En España es querido por gente de todas las edades, considerado un ejemplo dentro y fuera de la pista. Representa lo mejor del deporte."
+      }
+    ],
+    "related": ["tenis", "alcaraz", "baloncesto", "formula1", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mundial",
+    "locale": "es",
+    "keyword": "Mundial",
+    "matchPatterns": ["mundial", "copa del mundo", "seleccion", "fifa", "world cup", "campeon del mundo"],
+    "topic": "sport",
+    "title": "Mundial — la Copa del Mundo, el mayor evento del fútbol",
+    "description": "El Mundial de fútbol: historia desde 1930, el formato, España campeona en 2010 y por qué es el mayor evento deportivo del planeta.",
+    "emoji": "🏆",
+    "intro": "El Mundial de fútbol, oficialmente la Copa Mundial de la FIFA, es el mayor evento del fútbol y uno de los acontecimientos deportivos más importantes del planeta — solo comparable, en seguimiento global, a los Juegos Olímpicos. Se celebra cada cuatro años y enfrenta a las selecciones nacionales de fútbol de todo el mundo en un torneo que paraliza literalmente a países enteros. El primer Mundial de la historia se disputó en 1930 en Uruguay, que además fue el primer campeón. Desde entonces, salvo las ediciones canceladas por la Segunda Guerra Mundial, el torneo se ha celebrado de forma ininterrumpida cada cuatro años, convirtiéndose en una cita sagrada para los aficionados al fútbol. Ganar el Mundial es el mayor logro al que puede aspirar una selección nacional y un futbolista: por encima de cualquier título de club, levantar la Copa del Mundo es alcanzar la gloria absoluta. El torneo tiene una primera fase de grupos y, después, una fase eliminatoria en la que cada partido es a vida o muerte, lo que genera una tensión y una emoción incomparables. Para España, el Mundial tiene un significado especialísimo: en 2010, en Sudáfrica, la selección española se proclamó campeona del mundo por primera vez en su historia, un hito que el país entero celebró de forma inolvidable. En moomz, las encuestas '¿mejor Mundial de la historia?', '¿quién ganará el próximo?', '¿qué selección es la más grande?' enganchan a todo el mundo. El Mundial es una fiesta global del fútbol.",
+    "sections": [
+      {
+        "h": "De 1930 a hoy: casi un siglo de historia",
+        "body": "La Copa Mundial de la FIFA tiene una historia que arranca en 1930. Aquel primer Mundial se celebró en Uruguay, un país pequeño pero entonces una gran potencia del fútbol, que además se convirtió en el primer campeón del mundo de la historia. Desde esa edición fundacional, el Mundial se ha disputado cada cuatro años de forma ininterrumpida, con la única excepción de las ediciones que no pudieron celebrarse a causa de la Segunda Guerra Mundial. A lo largo de casi un siglo, el torneo ha crecido enormemente: ha aumentado el número de selecciones participantes, ha recorrido los cinco continentes, y se ha convertido en un fenómeno mediático y económico de escala planetaria. Cada edición del Mundial deja momentos para la historia, jugadas legendarias, goles inolvidables y campeones que pasan a la leyenda. Es un torneo cargado de tradición y de memoria colectiva: para muchos aficionados, los recuerdos de la vida se ordenan en función de los Mundiales que han vivido."
+      },
+      {
+        "h": "El formato: la tensión de la eliminatoria",
+        "body": "El Mundial tiene un formato que combina dos fases muy distintas, y esa estructura es clave para su emoción. La primera es la fase de grupos: las selecciones se reparten en varios grupos y juegan todas contra todas dentro de su grupo, clasificándose las mejores para la siguiente ronda. Esta fase permite cierto margen de error. Pero después llega lo verdaderamente intenso: la fase eliminatoria. A partir de los octavos o cuartos de final, cada partido es a vida o muerte — quien pierde queda eliminado y se va a casa, sin segundas oportunidades. Esta característica genera una tensión enorme: un solo mal partido, un error puntual o un gol en contra pueden acabar con el sueño de toda una selección y de todo un país. Los partidos eliminatorios del Mundial son de los momentos deportivos más dramáticos y emocionantes que existen, a menudo decididos en los últimos minutos o incluso en una tanda de penaltis. Esa mezcla de regularidad y muerte súbita es parte de la magia del torneo."
+      },
+      {
+        "h": "España campeona en 2010: un hito histórico",
+        "body": "Para los aficionados españoles, el Mundial tiene un significado muy especial por un motivo concreto e inolvidable: en 2010, en el Mundial celebrado en Sudáfrica, la selección española se proclamó campeona del mundo por primera vez en toda su historia. Fue un acontecimiento que el país entero vivió con una intensidad emocional difícil de describir. España, que durante décadas había sido considerada una selección con mucho talento pero incapaz de ganar los grandes torneos, rompió por fin esa barrera y alcanzó la cima del fútbol mundial. Aquella generación de jugadores, que desplegaba un fútbol de gran calidad, pasó a la historia. La celebración en las calles de toda España fue masiva, un momento de unión y alegría colectiva que muchos recuerdan como uno de los días más felices que ha vivido el deporte español. Ganar un Mundial es el sueño de cualquier país futbolero, y España lo cumplió. Aquel triunfo de 2010 quedó grabado para siempre en la memoria nacional."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo fue el primer Mundial de fútbol?",
+        "a": "El primer Mundial de fútbol de la historia se disputó en 1930 y se celebró en Uruguay. Aquel país sudamericano, una gran potencia futbolística de la época, no solo organizó el torneo, sino que además se convirtió en el primer campeón del mundo de la historia. Desde aquella edición fundacional, la Copa Mundial de la FIFA se ha disputado cada cuatro años de forma ininterrumpida, con la única excepción de las ediciones que tuvieron que cancelarse a causa de la Segunda Guerra Mundial. El torneo ha ido creciendo enormemente con el tiempo, aumentando el número de selecciones participantes y recorriendo todos los continentes, hasta convertirse en el mayor evento del fútbol mundial."
+      },
+      {
+        "q": "¿Cuándo ganó España el Mundial?",
+        "a": "España se proclamó campeona del mundo en 2010, en el Mundial que se celebró en Sudáfrica. Fue la primera vez en toda su historia que la selección española conquistaba la Copa del Mundo, un hito largamente esperado. España había sido considerada durante décadas una selección con mucho talento pero incapaz de ganar los grandes torneos, y aquel triunfo rompió por fin esa barrera. La victoria fue celebrada de forma masiva y emocionante en toda España, recordada como uno de los días más felices del deporte español. Aquella generación de jugadores, que practicaba un fútbol de gran calidad, pasó a la historia del país. El Mundial de 2010 quedó grabado para siempre en la memoria colectiva española."
+      },
+      {
+        "q": "¿Cada cuánto se celebra el Mundial?",
+        "a": "El Mundial de fútbol, la Copa Mundial de la FIFA, se celebra cada cuatro años. Esta periodicidad es una de las características que lo hacen tan especial: al disputarse solo una vez cada cuatro años, cada edición se convierte en un acontecimiento muy esperado y único. Para un futbolista, esto significa que tendrá pocas oportunidades de jugar un Mundial a lo largo de su carrera, lo que añade un valor enorme a cada participación. El torneo se ha celebrado de forma ininterrumpida cada cuatro años desde 1930, con la única excepción de las ediciones canceladas durante la Segunda Guerra Mundial. Esa cita cada cuatro años organiza, para muchos aficionados, los recuerdos de toda una vida."
+      },
+      {
+        "q": "¿Por qué ganar el Mundial es lo máximo en el fútbol?",
+        "a": "Ganar el Mundial es considerado el mayor logro posible en el fútbol por varias razones. En primer lugar, es un torneo de selecciones nacionales: representar y dar la gloria al propio país tiene un valor emocional y simbólico que ningún título de club iguala. En segundo lugar, se celebra solo cada cuatro años, lo que hace que las oportunidades sean escasas y muy valiosas. En tercer lugar, su formato eliminatorio genera una exigencia y una presión extremas. Y, por último, es el evento que reúne a las mejores selecciones del planeta. Por todo ello, levantar la Copa del Mundo es alcanzar la cima absoluta del fútbol, por encima de cualquier otro título, y convierte a una selección y a sus jugadores en leyendas para siempre."
+      }
+    ],
+    "related": ["messi", "champions", "futbol", "real-madrid", "barcelona"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "champions",
+    "locale": "es",
+    "keyword": "Champions League",
+    "matchPatterns": ["champions", "champions league", "copa de europa", "uefa", "final", "europa"],
+    "topic": "sport",
+    "title": "Champions League — la máxima competición de clubes de Europa",
+    "description": "La Champions League: la historia, el formato, las grandes finales, el himno y por qué es el torneo de clubes más prestigioso del mundo.",
+    "emoji": "⭐",
+    "intro": "La Champions League es la máxima competición de fútbol de clubes de Europa y, para muchos, el torneo de clubes más prestigioso y deseado del mundo. Su origen se remonta a 1955, cuando se creó la entonces llamada Copa de Europa, una competición que enfrentaba a los mejores clubes del continente. Con el paso de las décadas, el torneo fue evolucionando hasta adoptar en los años noventa el nombre de Liga de Campeones de la UEFA — la 'Champions League' — junto con un nuevo formato y una imagen de marca espectacular. Hoy la Champions es mucho más que una competición deportiva: es un fenómeno global, un espectáculo de máximo nivel que se sigue en todo el planeta. La componen los mejores equipos de las distintas ligas europeas, y disputarla cada temporada ya es un objetivo en sí mismo para los grandes clubes. La competición tiene una fase inicial y, después, una fase eliminatoria a doble partido — ida y vuelta — que va reduciendo a los participantes hasta llegar a una gran final a partido único en una sede elegida con antelación. Esa final de la Champions es uno de los partidos más vistos del año en todo el mundo. El torneo tiene además elementos icónicos, como su famoso himno, que suena antes de cada partido y se ha convertido en uno de los sonidos más reconocibles del fútbol. En moomz, las encuestas '¿mejor final de la Champions?', '¿qué club domina Europa?', '¿Champions o Mundial?' encienden a los aficionados. La Champions es el fútbol de clubes en su máxima expresión.",
+    "sections": [
+      {
+        "h": "De la Copa de Europa a la Champions League",
+        "body": "La competición que hoy conocemos como Champions League nació en 1955 con el nombre de Copa de Europa. Su idea original era enfrentar a los campeones de las distintas ligas nacionales del continente para determinar cuál era el mejor club de Europa. Aquella primera Copa de Europa tuvo unos años iniciales muy marcados por el dominio de ciertos clubes que conquistaron las primeras ediciones. Con el paso del tiempo, la competición fue creciendo en importancia y prestigio. El gran cambio llegó en la década de 1990, cuando el torneo se reformó profundamente: adoptó el nombre de Liga de Campeones de la UEFA — Champions League —, cambió su formato para incluir más equipos y no solo a los campeones de liga, y desarrolló una imagen de marca moderna y espectacular. Esa transformación convirtió a la Champions en el gran producto del fútbol de clubes europeo. Pero, pese a los cambios de nombre y formato, la esencia se mantiene: coronar al mejor equipo de Europa cada temporada."
+      },
+      {
+        "h": "El formato: la magia de las eliminatorias",
+        "body": "La Champions League tiene un formato que combina distintas fases y que está diseñado para generar la máxima emoción. La competición arranca con una fase inicial en la que participan numerosos equipos. Después llega lo más esperado por los aficionados: la fase eliminatoria. Las rondas eliminatorias de la Champions se disputan, tradicionalmente, a doble partido — un encuentro de ida y otro de vuelta, uno en el campo de cada equipo —, lo que añade estrategia y tensión, ya que un equipo puede remontar en casa lo que perdió fuera. Estas eliminatorias van reduciendo el número de participantes ronda tras ronda. Y todo culmina en la gran final, que se disputa a partido único en una sede neutral elegida con antelación. La final de la Champions es uno de los acontecimientos deportivos más vistos del mundo cada año. Esta estructura de eliminatorias, con sus remontadas épicas y sus noches inolvidables, es buena parte de lo que hace tan especial a la competición."
+      },
+      {
+        "h": "El himno, las grandes noches y el prestigio",
+        "body": "La Champions League no es solo fútbol: es también una marca y un espectáculo con elementos icónicos que la han convertido en un fenómeno cultural. El más reconocible de todos es su himno, una pieza musical solemne y grandiosa que suena en los estadios antes de cada partido. Ese himno se ha convertido en uno de los sonidos más identificables del fútbol mundial; para los aficionados, escucharlo significa que va a empezar una de las grandes noches del calendario. Y es que la Champions ha sabido construir esa sensación de 'grandes noches' — partidos con una atmósfera especial, una iluminación cuidada, una puesta en escena que transmite que se está disputando algo importante. Disputar la Champions, y especialmente avanzar en ella, es uno de los grandes objetivos de cualquier club grande de Europa cada temporada. Ganarla es alcanzar la cima del fútbol de clubes. Por todo ello, la Champions League goza de un prestigio inmenso y es, para muchos, la competición de clubes más deseada del mundo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es la Champions League?",
+        "a": "La Champions League, oficialmente la Liga de Campeones de la UEFA, es la máxima competición de fútbol de clubes de Europa. En ella participan los mejores equipos de las distintas ligas del continente, que compiten entre sí para determinar cuál es el mejor club de Europa cada temporada. Para muchos aficionados, es el torneo de clubes más prestigioso y deseado del mundo. La competición nació en 1955 con el nombre de Copa de Europa y se transformó en la Champions League en los años noventa, adoptando un nuevo formato y una imagen de marca espectacular. Disputarla es un objetivo en sí mismo para los grandes clubes, y ganarla es alcanzar la cima del fútbol de clubes."
+      },
+      {
+        "q": "¿Desde cuándo existe la Champions League?",
+        "a": "La competición nació en 1955 con el nombre de Copa de Europa. Su idea original era enfrentar a los campeones de las distintas ligas nacionales europeas para determinar el mejor club del continente. Durante décadas se disputó con ese nombre y un formato distinto. El gran cambio llegó en la década de 1990, cuando el torneo se reformó profundamente: adoptó el nombre de Liga de Campeones de la UEFA — la Champions League —, amplió el número de equipos participantes y desarrolló una imagen de marca moderna. Por tanto, aunque la 'Champions League' como tal nace en los noventa, su historia como máxima competición de clubes de Europa se remonta a 1955."
+      },
+      {
+        "q": "¿Por qué la final de la Champions es tan importante?",
+        "a": "La final de la Champions League es uno de los partidos más importantes y vistos del año en todo el mundo. Su relevancia tiene varias razones. Es el partido que corona al mejor club de Europa, el punto culminante de toda una temporada de competición. Se disputa a partido único en una sede neutral, lo que añade dramatismo: no hay segunda oportunidad. Reúne, normalmente, a dos de los mejores equipos del continente. Y la puesta en escena del evento — el himno, la ceremonia, la atmósfera — está cuidada para transmitir que se trata de algo grande. Todo ello hace que la final de la Champions sea un acontecimiento deportivo de seguimiento masivo y global, esperado por aficionados de todos los países."
+      },
+      {
+        "q": "¿Champions League o Mundial, qué vale más?",
+        "a": "Es un debate interesante porque son competiciones de naturaleza distinta. El Mundial es el torneo de selecciones nacionales: ganarlo significa dar la gloria al propio país, tiene una carga emocional y simbólica única, y se celebra solo cada cuatro años. La Champions League es el torneo de clubes: la disputan equipos, no países, se juega cada temporada y reúne a los mejores clubes de Europa con un nivel de juego altísimo. Para un futbolista, ganar el Mundial suele considerarse la gloria máxima por representar a su país, pero la Champions tiene un prestigio enorme y se gana con más frecuencia. No hay una respuesta única: son los dos grandes títulos del fútbol, cada uno con su valor especial."
+      }
+    ],
+    "related": ["real-madrid", "barcelona", "messi", "mundial", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ufc",
+    "locale": "es",
+    "keyword": "UFC",
+    "matchPatterns": ["ufc", "mma", "octagono", "artes marciales", "combate", "luchador"],
+    "topic": "sport",
+    "title": "UFC — la cúspide de las artes marciales mixtas",
+    "description": "UFC: la mayor organización de MMA del mundo. El octágono, las artes marciales mixtas, las categorías y el auge global del deporte.",
+    "emoji": "🥊",
+    "intro": "La UFC, siglas en inglés de Ultimate Fighting Championship, es la mayor y más importante organización de artes marciales mixtas (MMA) del mundo, y se ha convertido en uno de los grandes fenómenos del deporte de combate moderno. Las artes marciales mixtas son una disciplina que, como su nombre indica, combina técnicas de distintas artes marciales y deportes de contacto — boxeo, lucha, kickboxing, jiu-jitsu, muay thai y otras — en un mismo combate. Esto significa que un peleador de MMA debe ser un atleta extraordinariamente completo, capaz de pelear de pie, en el suelo, con golpes y con técnicas de agarre y sumisión. La UFC nació en 1993 en Estados Unidos. En sus inicios fue una competición muy controvertida, casi sin reglas, presentada como un experimento para ver qué arte marcial era la más efectiva. Con el tiempo, la organización se profesionalizó enormemente: introdujo categorías de peso, reglas claras, controles de seguridad y una estructura deportiva seria. Esa evolución la transformó de un espectáculo polémico en un deporte regulado y de masas. Los combates de la UFC se disputan en un recinto característico de forma octagonal — el famoso 'octágono' —, que es uno de los símbolos más reconocibles del deporte. Hoy la UFC es un fenómeno global con seguidores en todo el mundo. En moomz, las encuestas '¿mejor peleador de la historia?', '¿UFC o boxeo?', '¿te gusta el MMA?' generan respuestas apasionadas. La UFC representa las artes marciales mixtas en su máxima expresión.",
+    "sections": [
+      {
+        "h": "Qué son las artes marciales mixtas",
+        "body": "Para entender la UFC hay que entender primero qué son las artes marciales mixtas, o MMA. A diferencia de los deportes de combate tradicionales, que se centran en una sola disciplina — el boxeo solo permite golpear con los puños, la lucha se centra en los derribos y agarres —, las MMA combinan técnicas de muchas artes marciales distintas en un mismo combate. Un peleador de MMA puede golpear con puños, codos, rodillas y patadas, puede derribar al rival, puede pelear en el suelo y puede aplicar técnicas de sumisión para forzar la rendición del oponente. Esto convierte a las artes marciales mixtas en un deporte extraordinariamente completo y exigente: un buen peleador no puede dominar solo una faceta, sino que debe ser competente en todas. Debe saber pelear de pie y en el suelo, atacar y defenderse, golpear y agarrar. Esta combinación de disciplinas es lo que da a las MMA su carácter único y lo que hace que los combates sean impredecibles."
+      },
+      {
+        "h": "De experimento polémico a deporte profesional",
+        "body": "La UFC nació en 1993 en Estados Unidos, y sus inicios fueron muy distintos a lo que es hoy. En sus primeras ediciones, la competición se presentó casi como un experimento: enfrentar a practicantes de distintas artes marciales para ver cuál era la más efectiva en un combate real, con muy pocas reglas. Aquel formato resultó polémico y generó mucha controversia y rechazo. Pero la organización entendió que, para sobrevivir y crecer, tenía que transformarse en un deporte serio y regulado. Así, con el paso de los años, la UFC se profesionalizó por completo: introdujo categorías de peso para que los combates fueran justos, estableció un reglamento claro con acciones permitidas y prohibidas, incorporó controles médicos y de seguridad, y creó una estructura deportiva con campeones y rankings. Esa evolución fue clave: convirtió un espectáculo controvertido en un deporte legítimo y respetado. La UFC moderna no tiene nada que ver con sus caóticos inicios."
+      },
+      {
+        "h": "El octágono y el auge global del MMA",
+        "body": "Uno de los elementos más reconocibles de la UFC es el recinto donde se disputan los combates: una superficie cerrada de forma octagonal, conocida simplemente como 'el octágono'. Esta jaula de ocho lados se ha convertido en un símbolo del deporte, hasta el punto de que 'subir al octágono' es una expresión habitual para referirse a competir en la UFC. Más allá de su imagen, la UFC ha protagonizado en las últimas décadas un crecimiento espectacular: ha pasado de ser un espectáculo minoritario y polémico a un fenómeno deportivo global con millones de seguidores en todo el mundo. La organización ha sabido construir grandes peleadores con carisma y proyección mediática, eventos cuidadosamente promocionados y una narrativa que engancha al público. Las artes marciales mixtas son hoy uno de los deportes de combate de mayor crecimiento del planeta, y la UFC es su máxima referencia. Su éxito ha popularizado las MMA en países donde antes eran prácticamente desconocidas, atrayendo a nuevas generaciones de aficionados al deporte de combate."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué significa UFC?",
+        "a": "UFC son las siglas en inglés de Ultimate Fighting Championship. Es la mayor y más importante organización de artes marciales mixtas (MMA) del mundo. La UFC organiza combates de MMA y se ha convertido en la máxima referencia de este deporte de combate a nivel global. Nació en 1993 en Estados Unidos y, con el tiempo, ha pasado de ser un espectáculo polémico y poco regulado a un deporte profesional, serio y de masas. Cuando se habla de las artes marciales mixtas de élite, la UFC es prácticamente sinónimo del deporte, igual que la NBA lo es del baloncesto. Sus combates se disputan en un recinto de forma octagonal conocido como 'el octágono'."
+      },
+      {
+        "q": "¿Qué son las artes marciales mixtas?",
+        "a": "Las artes marciales mixtas, conocidas como MMA por sus siglas en inglés, son un deporte de combate que combina técnicas de muchas disciplinas distintas — boxeo, lucha, kickboxing, jiu-jitsu, muay thai y otras — en un mismo enfrentamiento. A diferencia del boxeo, que solo permite golpes de puño, o de la lucha, centrada en los agarres, en las MMA un peleador puede golpear con puños, codos, rodillas y patadas, derribar al rival, pelear en el suelo y aplicar técnicas de sumisión. Esto exige que el peleador sea un atleta muy completo, competente en todas las facetas del combate: de pie y en el suelo, golpeando y agarrando. Esa variedad es lo que define a las MMA y lo que hace sus combates impredecibles."
+      },
+      {
+        "q": "¿Por qué se llama 'octágono' al recinto de la UFC?",
+        "a": "Los combates de la UFC se disputan en un recinto cerrado que tiene forma de octágono — un polígono de ocho lados —, y de ahí viene el nombre con el que se conoce popularmente. Esta jaula octagonal se ha convertido en uno de los símbolos más reconocibles de la UFC y de las artes marciales mixtas en general. Es tan identificativo que 'subir al octágono' se ha convertido en una expresión habitual para referirse a competir en la UFC. El recinto cerrado cumple además una función práctica: evita que los peleadores salgan del área de combate y permite ciertas acciones, como apoyarse en la pared de la jaula. El octágono es a la UFC lo que el ring es al boxeo."
+      },
+      {
+        "q": "¿UFC o boxeo, qué es mejor?",
+        "a": "Es una comparación frecuente entre aficionados a los deportes de combate, y depende mucho del gusto de cada uno. El boxeo es un deporte centenario, con una enorme tradición, basado exclusivamente en el golpeo con los puños — es un arte de técnica, distancia y estrategia muy depurado. La UFC, con las artes marciales mixtas, ofrece combates más variados e impredecibles, ya que combinan golpes, derribos, lucha en el suelo y técnicas de sumisión. Quienes prefieren el boxeo valoran su pureza técnica y su historia; quienes prefieren las MMA valoran la variedad y lo completo del deporte. No hay una respuesta objetiva: son dos disciplinas distintas, ambas con un nivel deportivo altísimo, y muchos aficionados disfrutan de las dos."
+      }
+    ],
+    "related": ["formula1", "baloncesto", "tenis", "motogp", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "alcaraz",
+    "locale": "es",
+    "keyword": "Alcaraz",
+    "matchPatterns": ["alcaraz", "carlos alcaraz", "carlitos", "tenista", "murcia", "joven promesa"],
+    "topic": "sport",
+    "title": "Carlos Alcaraz — la joya del tenis español que llegó a la cima",
+    "description": "Carlos Alcaraz: de El Palmar a número uno del tenis mundial. El relevo de Nadal, su talento explosivo y por qué es el futuro del deporte.",
+    "emoji": "🎾",
+    "intro": "Carlos Alcaraz es la gran estrella del tenis español de la nueva generación y uno de los talentos más espectaculares que ha dado este deporte en mucho tiempo. Nació en El Palmar, una pedanía de la ciudad de Murcia, el 5 de mayo de 2003, lo que significa que se convirtió en una figura mundial siendo todavía muy joven. Alcaraz irrumpió en la élite del tenis con una velocidad asombrosa, y lo hizo en un momento muy especial: justo cuando la legendaria generación de campeones que había dominado el tenis durante años empezaba a acercarse al final de sus carreras. Por eso, desde el primer momento, a Alcaraz se le señaló como el llamado a recoger el relevo, especialmente el del gran Rafael Nadal como referente del tenis español. Y el joven murciano no se achicó ante esa enorme presión: respondió con resultados extraordinarios, conquistando títulos de Grand Slam y alcanzando el número uno del ranking mundial a una edad muy temprana, batiendo récords de precocidad. Lo que más impresiona de Alcaraz es su estilo de juego: una combinación de potencia, velocidad, talento y una variedad de recursos poco habitual, además de un carácter alegre y competitivo que ha conquistado al público. En moomz, las encuestas '¿Alcaraz es el futuro del tenis?', '¿el nuevo Nadal?', '¿mejor tenista joven?' enganchan a los aficionados. Carlos Alcaraz representa el presente y el futuro del tenis español.",
+    "sections": [
+      {
+        "h": "De El Palmar a la élite mundial en tiempo récord",
+        "body": "Carlos Alcaraz nació en 2003 en El Palmar, una pedanía cercana a la ciudad de Murcia, en el sureste de España. Como ocurre con muchos grandes deportistas, su talento se manifestó desde niño, y su entorno y su familia apostaron por su carrera en el tenis. Lo que distingue la historia de Alcaraz del resto es la velocidad con la que escaló hasta lo más alto. Mientras que para la mayoría de tenistas llegar a la élite es un proceso largo y gradual, Alcaraz quemó etapas a un ritmo asombroso. Siendo todavía un adolescente o un jugador muy joven, ya competía de tú a tú con los mejores del mundo y empezaba a ganarles. Su ascenso fue tan rápido que batió récords de precocidad, alcanzando logros — como ser número uno del mundo o ganar un Grand Slam — a edades a las que muy pocos jugadores en la historia lo habían conseguido. El niño de El Palmar se convirtió en una superestrella global en muy poco tiempo, y lo hizo, además, manteniendo una imagen cercana y humilde."
+      },
+      {
+        "h": "El relevo de una generación legendaria",
+        "body": "El surgimiento de Carlos Alcaraz ocurrió en un momento muy concreto y significativo del tenis. Durante muchísimos años, el deporte había estado dominado por una generación de campeones legendarios, jugadores extraordinarios que se repartieron casi todos los grandes títulos. Pero toda era tiene un final, y esa generación irrepetible empezaba a acercarse al ocaso de sus carreras. El tenis necesitaba nuevas figuras capaces de tomar el relevo, de generar ilusión y de mantener el nivel y el interés del deporte. Alcaraz apareció justo en ese contexto y, casi de inmediato, fue identificado como el gran heredero. Para el tenis español en particular, se le vio como el llamado a continuar el legado de Rafael Nadal, el icono que durante tantos años había sido la bandera del deporte en el país. Asumir ese papel a una edad tan joven implica una presión enorme. Lo notable de Alcaraz es que no solo no se ha hundido bajo esa presión, sino que ha respondido a las expectativas con resultados a la altura de un campeón."
+      },
+      {
+        "h": "Un estilo de juego que enamora",
+        "body": "Más allá de los títulos y los récords, lo que ha conquistado al público de Carlos Alcaraz es su forma de jugar. El tenista murciano tiene un estilo extraordinariamente completo y vistoso, que combina cualidades que no siempre van juntas. Tiene una potencia notable en sus golpes, una velocidad y una capacidad atlética impresionantes para llegar a pelotas imposibles, y al mismo tiempo un talento y una sensibilidad que le permiten ejecutar golpes de gran finura, como las dejadas. Esa variedad de recursos — poder atacar de muchas formas distintas, mezclar la fuerza con la sutileza — hace que sus partidos sean un espectáculo y que sea un rival muy difícil de descifrar. A todo ello se suma su carácter: Alcaraz transmite alegría, energía positiva y una pasión competitiva contagiosa, sonríe en la pista y disfruta del juego. Esa combinación de talento espectacular y personalidad simpática ha hecho que el público de todo el mundo, no solo en España, conecte rápidamente con él. Alcaraz no solo gana: entretiene."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quién es Carlos Alcaraz?",
+        "a": "Carlos Alcaraz es un tenista español, la gran estrella de la nueva generación del tenis del país y uno de los talentos más espectaculares del deporte a nivel mundial. Nació en El Palmar, una pedanía de Murcia, el 5 de mayo de 2003. Alcaraz irrumpió en la élite del tenis muy joven y con una velocidad asombrosa, conquistando títulos de Grand Slam y alcanzando el número uno del ranking mundial a una edad muy temprana, batiendo récords de precocidad. Se le considera el llamado a tomar el relevo de la legendaria generación de campeones que dominó el tenis durante años, y en particular el heredero de Rafael Nadal como referente del tenis español. Su estilo de juego potente y variado ha conquistado al público."
+      },
+      {
+        "q": "¿Es Alcaraz el sucesor de Nadal?",
+        "a": "A Carlos Alcaraz se le ha señalado, prácticamente desde su irrupción, como el llamado a tomar el relevo de Rafael Nadal como gran referente del tenis español. El contexto lo explica: Alcaraz apareció justo cuando la legendaria generación de campeones, Nadal incluido, empezaba a acercarse al final de sus carreras, y el tenis necesitaba nuevas figuras. Alcaraz, joven, talentoso y español, era el candidato natural a continuar ese legado. Conviene matizar que cada jugador es único: Alcaraz tiene su propio estilo y su propia personalidad, y no es una 'copia' de Nadal. Pero en el sentido de ser la nueva bandera del tenis español y de asumir el papel de gran referente del país, sí puede considerarse su sucesor, un relevo que ha asumido con resultados de campeón."
+      },
+      {
+        "q": "¿Qué hace especial a Carlos Alcaraz?",
+        "a": "Lo que hace especial a Carlos Alcaraz es, sobre todo, su estilo de juego extraordinariamente completo y vistoso. Combina cualidades que no siempre van juntas: una gran potencia en sus golpes, una velocidad y una capacidad atlética impresionantes, y al mismo tiempo un talento y una sensibilidad que le permiten ejecutar golpes de gran finura, como las dejadas. Esa variedad de recursos lo convierte en un rival muy difícil de descifrar y hace que sus partidos sean un espectáculo. A ello se suma su carácter: Alcaraz transmite alegría, energía positiva y pasión competitiva, disfruta en la pista y conecta con el público. Esa mezcla de talento espectacular y personalidad simpática es lo que lo distingue y lo que ha hecho que aficionados de todo el mundo se enganchen a él."
+      },
+      {
+        "q": "¿Por qué Alcaraz batió récords de precocidad?",
+        "a": "Carlos Alcaraz batió récords de precocidad porque alcanzó logros muy importantes del tenis a edades a las que muy pocos jugadores en la historia lo habían conseguido. Mientras que para la mayoría de tenistas llegar a la élite y conquistar grandes títulos es un proceso largo y gradual, Alcaraz quemó etapas a un ritmo asombroso. Siendo todavía muy joven, ya competía y ganaba a los mejores del mundo, conquistó títulos de Grand Slam y llegó al número uno del ranking mundial. Esa rapidez en su ascenso es lo que le permitió batir marcas de precocidad. Es una muestra de un talento excepcional, pero también de una madurez mental y competitiva poco habituales a una edad tan temprana. Su evolución ha sido uno de los grandes acontecimientos del tenis reciente."
+      }
+    ],
+    "related": ["nadal", "tenis", "baloncesto", "formula1", "futbol"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "motogp",
+    "locale": "es",
+    "keyword": "MotoGP",
+    "matchPatterns": ["motogp", "moto gp", "motociclismo", "moto", "piloto", "gran premio"],
+    "topic": "sport",
+    "title": "MotoGP — la élite del motociclismo de velocidad",
+    "description": "MotoGP: la máxima categoría del motociclismo de velocidad. Historia, circuitos, el dominio español y por qué es un deporte tan espectacular.",
+    "emoji": "🏍️",
+    "intro": "MotoGP es la máxima categoría del motociclismo de velocidad, la cúspide de un deporte espectacular que enfrenta a los mejores pilotos del mundo sobre motos de carreras prototipo, las más avanzadas que existen. El Campeonato del Mundo de Motociclismo tiene una larga historia: la competición se disputa de manera oficial desde 1949, lo que la convierte en una de las competiciones deportivas más antiguas del mundo del motor. El campeonato se estructura en distintas categorías según la cilindrada y el tipo de moto, y MotoGP es la categoría reina, la de mayor nivel y la que más expectación genera. Como en otras competiciones de motor, la temporada se disputa en un calendario de Grandes Premios celebrados en circuitos repartidos por todo el mundo. Lo que hace tan especial al MotoGP es la combinación de elementos que reúne: la velocidad extrema de las motos, la habilidad y la valentía de unos pilotos que se inclinan hasta rozar el asfalto con la rodilla y el codo en cada curva, la estrategia de carrera, y el riesgo evidente de un deporte donde el peligro está siempre presente. España tiene una relación muy especial con el MotoGP: el país ha vivido una auténtica época dorada, con una generación de pilotos españoles que ha dominado el campeonato y conquistado numerosos títulos mundiales, convirtiendo al motociclismo en uno de los deportes más seguidos de España. En moomz, las encuestas '¿mejor piloto de MotoGP?', '¿MotoGP o Fórmula 1?', '¿circuito favorito?' enganchan a los aficionados al motor.",
+    "sections": [
+      {
+        "h": "Más de 70 años de historia del Mundial de motociclismo",
+        "body": "El Campeonato del Mundo de Motociclismo se disputa de forma oficial desde 1949, lo que lo convierte en una de las competiciones deportivas de motor más antiguas y con más tradición del mundo. A lo largo de estas más de siete décadas, el motociclismo de velocidad ha evolucionado enormemente. Las motos de los inicios no tienen nada que ver con los prototipos actuales: la tecnología, la potencia, la electrónica, la aerodinámica y la seguridad han avanzado de manera espectacular. La seguridad, en particular, ha sido una preocupación constante, porque el motociclismo es un deporte de riesgo elevado, y con el tiempo se han introducido muchísimas mejoras tanto en las motos como en los circuitos y en los equipamientos de los pilotos. El campeonato ha tenido distintas categorías a lo largo de su historia, y la denominación 'MotoGP' para la categoría reina es relativamente moderna. Pero la esencia se mantiene: coronar al mejor piloto del mundo de la máxima categoría del motociclismo de velocidad cada temporada."
+      },
+      {
+        "h": "Pilotos al límite: habilidad, valentía y riesgo",
+        "body": "Lo que hace al MotoGP un deporte tan espectacular y, a la vez, tan exigente, es lo que se le pide a sus protagonistas. Pilotar una moto de MotoGP al límite requiere una combinación extraordinaria de cualidades. Hace falta una habilidad técnica enorme para controlar una máquina tan potente. Hace falta una condición física exigente, porque conducir estas motos durante una carrera es agotador. Hace falta inteligencia táctica para gestionar la carrera, los neumáticos y los adelantamientos. Y, sobre todo, hace falta una gran valentía y una fortaleza mental especial: los pilotos de MotoGP toman las curvas inclinando la moto de forma extrema, hasta rozar el asfalto con la rodilla e incluso con el codo, y lo hacen a velocidades altísimas, conscientes del riesgo. El motociclismo es un deporte donde el peligro es real y siempre está presente. Esa valentía de los pilotos, su capacidad de competir al límite asumiendo ese riesgo, es una de las cosas que más admiran y respetan los aficionados."
+      },
+      {
+        "h": "España, una potencia del MotoGP",
+        "body": "El MotoGP tiene en España uno de sus grandes feudos. El país ha vivido una auténtica época dorada en el motociclismo de velocidad, con una generación de pilotos españoles de un nivel extraordinario que ha dominado el campeonato del mundo durante años, conquistando numerosos títulos en las distintas categorías y, muy especialmente, en la categoría reina, MotoGP. Esos éxitos no son casualidad: España cuenta con una sólida cultura del motociclismo, con buenos circuitos, con escuelas de pilotos y con una afición enorme y apasionada. De hecho, varios de los Grandes Premios del calendario mundial se disputan en circuitos españoles, que suelen llenarse de público. El dominio de los pilotos españoles popularizó todavía más el deporte en el país, convirtiendo al MotoGP en uno de los deportes más seguidos de España, solo por detrás del fútbol y compitiendo en interés con el baloncesto o el tenis. El motociclismo español es un ejemplo de cómo una buena cantera y una afición fiel pueden situar a un país en la cima de un deporte."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es MotoGP?",
+        "a": "MotoGP es la máxima categoría del Campeonato del Mundo de Motociclismo, la cúspide del motociclismo de velocidad. Es la categoría reina, la de mayor nivel y la que más expectación genera, en la que compiten los mejores pilotos del mundo sobre las motos de carreras prototipo más avanzadas que existen. El Campeonato del Mundo de Motociclismo se disputa oficialmente desde 1949 y se estructura en distintas categorías según la cilindrada y el tipo de moto, siendo MotoGP la más importante. La temporada se disputa en un calendario de Grandes Premios celebrados en circuitos de todo el mundo. MotoGP combina velocidad extrema, habilidad y valentía de los pilotos, estrategia y un riesgo evidente, lo que lo convierte en un deporte muy espectacular."
+      },
+      {
+        "q": "¿Desde cuándo existe el Mundial de motociclismo?",
+        "a": "El Campeonato del Mundo de Motociclismo se disputa de manera oficial desde 1949, lo que lo convierte en una de las competiciones deportivas de motor más antiguas y con más tradición del mundo, con más de siete décadas de historia. A lo largo de todos estos años, el motociclismo de velocidad ha evolucionado de forma espectacular: las motos, la tecnología, la potencia, la electrónica y la seguridad de los inicios no tienen nada que ver con las actuales. La seguridad, en concreto, ha mejorado enormemente, ya que el motociclismo es un deporte de riesgo elevado. La categoría reina ha recibido distintos nombres a lo largo de la historia, y la denominación 'MotoGP' es relativamente moderna, pero la esencia del campeonato se mantiene desde 1949."
+      },
+      {
+        "q": "¿Por qué España es tan buena en MotoGP?",
+        "a": "España es una de las grandes potencias mundiales del MotoGP, y ha vivido una auténtica época dorada en el motociclismo de velocidad. Varios factores lo explican. El país cuenta con una sólida cultura del motociclismo, con buenos circuitos — de hecho, varios Grandes Premios del calendario mundial se disputan en España —, con escuelas y canteras de pilotos, y con una afición enorme y apasionada. Esa base ha permitido que surja una generación de pilotos españoles de un nivel extraordinario, que ha dominado el campeonato del mundo durante años y conquistado numerosos títulos. El éxito de esos pilotos, a su vez, ha popularizado todavía más el deporte en el país. España es un buen ejemplo de cómo la combinación de cultura deportiva, infraestructuras y afición puede situar a un país en la élite."
+      },
+      {
+        "q": "¿MotoGP o Fórmula 1, qué es mejor?",
+        "a": "Es una comparación habitual entre los aficionados al motor, y depende del gusto de cada uno, ya que son deportes con personalidades distintas. La Fórmula 1 es la élite del automovilismo, con monoplazas de cuatro ruedas, una enorme carga tecnológica y una doble competición de pilotos y constructores. El MotoGP es la élite del motociclismo de velocidad, con motos de dos ruedas, y suele destacarse por la espectacularidad de los pilotos inclinando las motos en las curvas, la valentía que exige y la frecuencia de adelantamientos y emoción en pista. Quienes prefieren el MotoGP suelen valorar esa cercanía al riesgo y la habilidad pura del piloto; quienes prefieren la F1 valoran la tecnología y la estrategia. No hay respuesta objetiva: muchos aficionados al motor disfrutan de los dos."
+      }
+    ],
+    "related": ["formula1", "ufc", "tenis", "baloncesto", "futbol"],
+    "updatedAt": "2026-05-20"
+  }
+]

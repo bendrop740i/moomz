@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "paella",
+    "locale": "es",
+    "keyword": "Paella",
+    "matchPatterns": ["paella", "arroz", "valencia", "valenciana", "socarrat", "mariscos"],
+    "topic": "food",
+    "title": "Paella — historia valenciana, recetas y por qué es patrimonio",
+    "description": "Todo sobre la paella: orígenes en la huerta valenciana, receta tradicional, el debate del chorizo y el famoso socarrat.",
+    "emoji": "🥘",
+    "intro": "La paella es probablemente el plato español más reconocido en el mundo, y también uno de los más malinterpretados. Nacida en la huerta valenciana a mediados del siglo XIX (las primeras menciones escritas datan de 1840), la paella original no llevaba marisco — era un plato campesino preparado al aire libre por jornaleros con lo que tenían a mano: arroz bomba, pollo, conejo, judías verdes, garrofó (alubia plana), tomate, azafrán, romero, aceite de oliva y agua. El nombre viene del latín 'patella' (sartén), pasando por el catalán-valenciano 'paella'. La sartén ancha y plana de hierro permite que el arroz se cocine en una capa delgada y desarrolle el famoso socarrat — esa costra dorada del fondo que es el santo grial de cualquier paella bien hecha. Hoy en día existen decenas de variedades: paella valenciana (la auténtica), paella de marisco, paella mixta (mar y montaña), arroz negro con tinta de calamar, arroz a banda (solo con caldo de pescado). Los valencianos son intransigentes: cualquier paella que lleve chorizo es directamente considerada una herejía. La paella se prepara y se come en grupo, los domingos, en familia, los días de celebración. En moomz, las encuestas '¿paella valenciana o de marisco?', 'chorizo en la paella sí o no' y '¿qué arroz es mejor?' encienden los chats. La paella es identidad cultural, ritual social y plato técnico al mismo tiempo.",
+    "sections": [
+      {
+        "h": "La auténtica paella valenciana: ingredientes y técnica",
+        "body": "La Denominación de Origen Paella Valenciana, reconocida por la Generalitat, fija 10 ingredientes obligatorios: arroz, pollo, conejo, judía verde plana, garrofó, tomate, agua, sal, azafrán y aceite de oliva. Opcionales aceptados: alcachofa, pato, caracoles serranos, romero, pimentón. Prohibidos absolutamente: chorizo, guisantes, marisco, cebolla. La técnica es ritual: primero el sofrito (pollo y conejo dorados, luego verduras, luego tomate rallado), después se añade el azafrán y el pimentón, se cubre con agua, se hierve para hacer el caldo. Cuando el caldo está a punto, se añade el arroz en cruz desde el centro y se distribuye. A partir de ahí, NO SE REMUEVE — la paella se cocina sin tocar durante unos 18-20 minutos, los primeros 10 a fuego fuerte, luego se baja para que se forme el socarrat. Se deja reposar 5 minutos tapada con un paño antes de servir directamente desde la paellera."
+      },
+      {
+        "h": "El socarrat: el grial de la paella",
+        "body": "El socarrat es esa capa fina, crujiente y caramelizada que se forma en el fondo de la paella cuando los almidones del arroz se tuestan en contacto directo con el hierro caliente. Es la diferencia entre una paella correcta y una paella excepcional. Para conseguirlo: paellera de hierro pulido (mejor que antiadherente), fuego adecuado al tamaño, no remover durante la cocción, escuchar el sonido (cuando el agua se ha evaporado y empieza a crujir), subir el fuego los últimos 1-2 minutos para tostar el fondo sin quemarlo. Una vez servido, se rasca el socarrat con cuchara y se reparte — es el premio para los buenos paellosos. El olfato no engaña: cuando huele a 'tostado pero no quemado', es el momento de retirar. Conseguir un buen socarrat sin quemar la paella es un arte que distingue al cocinero amateur del experto."
+      },
+      {
+        "h": "Paella en el mundo y el debate del chorizo",
+        "body": "La paella es probablemente el plato español más exportado, pero también el más maltratado en el extranjero. En 2016, Jamie Oliver publicó una receta de paella con chorizo que provocó indignación masiva en España y se viralizó como ejemplo perfecto de cómo NO se hace una paella. Los valencianos lo viven como una agresión cultural — han creado incluso una web (wikipaella.org) para promover la auténtica. En restaurantes turísticos de Madrid o Barcelona, abunda la paella congelada recalentada que da pena. Para reconocer una buena: debe ser de pedido (al menos 25-30 minutos de espera porque se prepara al momento), servirse directamente en la paellera (no en plato), tener el arroz suelto (no pegajoso ni caldoso, salvo el arroz meloso o caldoso que son otros platos distintos), tener socarrat visible. Una buena paella valenciana cuesta entre 18 y 30 euros por persona en Valencia. Por debajo de eso, sospecha."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿La paella original lleva mariscos?",
+        "a": "No. La paella original valenciana es un plato de tierra con pollo, conejo y verduras de la huerta. Los mariscos vinieron después, cuando la receta se extendió a las zonas costeras y a los restaurantes turísticos. Hoy la paella de marisco es legítima y deliciosa, pero es una variedad distinta a la valenciana original. La paella mixta (mezcla de carne y marisco) es muy popular pero los puristas la consideran un sacrilegio — la regla valenciana dice que mar y tierra no se mezclan en la misma paella."
+      },
+      {
+        "q": "¿Qué arroz usar para una paella perfecta?",
+        "a": "El arroz bomba es el rey: una variedad de grano redondo cultivada en Valencia, Calasparra (Murcia) y el Delta del Ebro. Absorbe hasta 3 veces su volumen en líquido sin pasarse, queda suelto y mantiene la forma. Alternativas válidas: arroz Senia o Albufera, también valencianos. JAMÁS uses arroz largo tipo basmati, arroz redondo italiano (tipo arborio o carnaroli — esos son para risotto), ni arroz precocido. El arroz bomba es más caro (4-7 euros/kg) pero la diferencia es radical. Calcula 80-100 gramos de arroz por persona."
+      },
+      {
+        "q": "¿Por qué los valencianos se ofenden con el chorizo?",
+        "a": "Porque el chorizo es un embutido especiado con pimentón ahumado y ajo que tiñe todo el plato de rojo y enmascara los sabores delicados del azafrán, el sofrito y el pollo. Los valencianos consideran que añadir chorizo es como ponerle ketchup a una pizza napolitana: cambia completamente la naturaleza del plato. Hay además un componente identitario fuerte: la paella es patrimonio cultural valenciano (declarada BIC inmaterial en 2021), y verla mancillada con chorizo en redes sociales o restaurantes extranjeros se vive como un agravio. El meme 'no se le pone chorizo a la paella' es ya cultura pop."
+      },
+      {
+        "q": "¿Se come la paella el domingo siempre?",
+        "a": "Es la tradición. La paella es el plato de domingo por excelencia en gran parte de España, especialmente en la Comunidad Valenciana, Murcia y zonas mediterráneas. Se prepara al aire libre en grandes paelleras (los modelos profesionales pueden cocinar para 20-50 personas), se acompaña con vino o cerveza, alioli, ensalada y se comparte en familia. La sobremesa puede durar horas. También es plato típico de fiestas mayores (Fallas, San Juan), bodas y celebraciones. Pedir paella un lunes para cenar suele indicar restaurante poco serio — los buenos sitios la preparan solo para mediodía."
+      }
+    ],
+    "related": ["tapas", "tortilla-espanola", "vino", "sangria", "barcelona"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tapas",
+    "locale": "es",
+    "keyword": "Tapas",
+    "matchPatterns": ["tapas", "tapeo", "tapa", "pintxos", "raciones", "bar"],
+    "topic": "food",
+    "title": "Tapas — la cultura del aperitivo español que conquistó el mundo",
+    "description": "Tapas: origen, etimología, ruta del tapeo, pintxos vascos, tortilla, jamón. La forma de comer más social del mundo.",
+    "emoji": "🥘",
+    "intro": "Las tapas son mucho más que un tipo de comida — son una forma de vivir, socializar y entender la gastronomía. La etimología más aceptada: la palabra viene de 'tapar', porque antiguamente se colocaba una rebanada de pan o jamón encima del vaso de vino para evitar que entraran moscas (literalmente 'tapaba' la copa). Esta costumbre se transformó con el tiempo en pequeñas porciones de comida que acompañan la bebida. La tradición se fortaleció en Andalucía durante los siglos XVIII y XIX, especialmente en Sevilla, donde el rey Alfonso X habría ordenado que se sirviera comida con todo vaso de vino para evitar borracheras (otra teoría discutida). Hoy las tapas son sinónimo de España en todo el mundo: pinchos, montaditos, tapas frías y calientes, raciones más grandes que se comparten. En el País Vasco se llaman pintxos (pinchados con palillo sobre rebanada de pan) y han generado una cultura culinaria gourmet que ha colocado a San Sebastián entre las capitales gastronómicas mundiales. La 'ruta del tapeo' — ir de bar en bar tomando una tapa y una caña en cada uno — es uno de los rituales sociales más característicos de España. En moomz, las encuestas '¿tapas favoritas?', '¿pinchos vascos o tapas andaluzas?', '¿tortilla con o sin cebolla?' encienden discusiones eternas. Las tapas funcionan porque combinan comida deliciosa, bebida fresca, movilidad (vas cambiando de bar), conversación y precio asequible.",
+    "sections": [
+      {
+        "h": "Las tapas clásicas que hay que conocer",
+        "body": "Tortilla de patatas (con o sin cebolla, debate eterno): huevos batidos con patatas confitadas, plato nacional español. Croquetas: bechamel rebozada con jamón, pollo o bacalao en su interior. Boquerones en vinagre: anchoas frescas marinadas con ajo y perejil. Patatas bravas: patatas fritas con salsa picante de tomate y alioli. Calamares a la romana: rabas fritas con limón. Gambas al ajillo: gambas salteadas con ajo y guindilla en aceite caliente, servidas en cazuela de barro. Pulpo a la gallega: pulpo cocido, cortado en rodajas, con pimentón, sal gorda y aceite, sobre cama de patatas. Pimientos de Padrón: pequeños pimientos verdes fritos con sal — 'unos pican y otros no' (uno de cada diez es picante). Jamón ibérico de bellota: el rey indiscutible. Albóndigas en salsa. Chopitos. Caracoles en salsa. Cada región tiene sus especialidades, lo que hace de las tapas un universo en constante descubrimiento."
+      },
+      {
+        "h": "Pintxos vascos: la versión gourmet",
+        "body": "En el País Vasco, las tapas se llaman pintxos (literalmente 'pinchos'), porque tradicionalmente vienen pinchados con palillo sobre una rebanada de pan. Pero la cultura del pintxo ha evolucionado hacia auténtica alta cocina en miniatura: gildas (el primer pintxo de la historia, creado en San Sebastián en 1946, con anchoa, aceituna y guindilla), brick de morcilla con manzana caramelizada, foie con uva, cogote de merluza, txangurro (centollo) gratinado, txampi (champiñones con jamón y cigala). En la Parte Vieja de San Sebastián, los bares despliegan sus pintxos en la barra y los clientes eligen — el sistema clásico es contar los palillos al final para saber cuánto pagar. Restaurantes como Atari, La Cuchara de San Telmo o Borda Berri son referencia mundial. La cultura del pintxo gourmet ha producido cocineros legendarios como Juan Mari Arzak, Pedro Subijana o Andoni Luis Aduriz."
+      },
+      {
+        "h": "La ruta del tapeo: un ritual social",
+        "body": "El 'tapeo' o 'ir de tapas' es uno de los rituales sociales más arraigados en España. La idea: en vez de cenar en un único restaurante, se va de bar en bar tomando una bebida (caña, vino, vermut, tinto de verano) y una tapa o pincho en cada uno. Cada bar tiene su especialidad — el de las bravas, el de las gildas, el del pulpo, el de las croquetas. Las rutas más famosas: Cava Baja en Madrid, calle Laurel en Logroño (La Rioja, una de las concentraciones de bares de tapas más densa del mundo), Triana en Sevilla, Parte Vieja en San Sebastián, calle Elvira en Granada. En Granada todavía es tradición que la tapa venga GRATIS con la bebida — un superviviente único que muchos turistas no se creen. El ritual implica moverse a pie, encontrarse con conocidos, hacer sobremesas largas. Sociológicamente, las tapas crean conexión: comer poco y de pie facilita el cambio constante de compañía y de tema."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿De dónde viene la palabra tapa?",
+        "a": "La teoría más aceptada es que viene del verbo 'tapar': antiguamente, en bares y tabernas, se colocaba una rebanada de pan o un trozo de jamón encima del vaso de vino para que no entraran moscas u otros insectos — literalmente se 'tapaba' la copa. Con el tiempo, este pequeño bocado se elaboró más y se convirtió en costumbre servir algo de comer con cada bebida. Otra leyenda atribuye el origen al rey Alfonso X 'el Sabio', que habría ordenado servir comida con el vino para prevenir borracheras, pero esta teoría no está bien documentada históricamente."
+      },
+      {
+        "q": "¿En Granada las tapas son realmente gratis?",
+        "a": "Sí, Granada es una de las pocas ciudades de España donde sigue siendo tradición incluir una tapa gratuita con cada bebida. El sistema funciona así: pides una caña, un vino o un refresco (entre 2 y 3 euros), y el camarero te trae también una tapa sin coste — puede ser croquetas, patatas con huevo, montaditos, pollo, ensalada. Con cada nueva bebida, te traen una tapa diferente. Algunos bares incluso tienen menús pintados donde puedes elegir qué tapa quieres. Es una tradición que sobrevive en Granada, Almería, parte de Jaén y algunos pueblos de Andalucía. En el resto de España las tapas se pagan aparte."
+      },
+      {
+        "q": "¿Tortilla de patatas con cebolla o sin cebolla?",
+        "a": "Es el debate gastronómico más eterno de España. Equipo 'con cebolla' (concebollistas): defienden que la cebolla aporta dulzor, jugosidad y profundidad de sabor. Equipo 'sin cebolla' (sincebollistas): defienden la pureza del huevo y la patata sin distracciones. Cantantes, políticos y deportistas se han pronunciado públicamente. Encuestas serias dan ganadora a la versión 'con cebolla' (60-65% de españoles), pero los sincebollistas son apasionados. Otro debate paralelo: cuajada o poco hecha. Los puristas exigen el centro jugoso, casi líquido — los conservadores la prefieren bien cuajada. Cada familia tiene su receta."
+      },
+      {
+        "q": "¿Cuánto cuesta ir de tapas en España?",
+        "a": "Depende mucho de la ciudad y zona. En ciudades como Granada, Almería o pueblos pequeños, una tapa + bebida puede costar entre 2,50 y 4 euros, y con 15-25 euros puedes hacer una ruta completa cenando bien. En zonas turísticas de Madrid, Barcelona, Sevilla o San Sebastián, los pintxos gourmet pueden costar 3-6 euros cada uno y una cena de pintxos en San Sebastián puede llegar a 40-60 euros por persona. Las raciones (más grandes, para compartir) cuestan entre 8 y 18 euros. Es una forma de comer muy social y económica si vas a sitios populares fuera de zona turística."
+      }
+    ],
+    "related": ["paella", "tortilla-espanola", "jamon", "vino", "cerveza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tortilla-espanola",
+    "locale": "es",
+    "keyword": "Tortilla Española",
+    "matchPatterns": ["tortilla", "tortilla de patatas", "tortilla española", "patatas", "huevo"],
+    "topic": "food",
+    "title": "Tortilla española — patatas, huevo y el eterno debate de la cebolla",
+    "description": "La tortilla de patatas: origen disputado, técnica perfecta, el debate del siglo (con o sin cebolla) y por qué es el plato más español.",
+    "emoji": "🍳",
+    "intro": "La tortilla española, también llamada tortilla de patatas, es probablemente el plato más universal y democrático de la cocina española. Está en la nevera de casi todas las casas, en la barra de cualquier bar, en los pícnics del campo, en los avituallamientos de los corredores, en los menús de comedor escolar. Sus ingredientes son humildes: patatas, huevos, aceite de oliva, sal. Y opcionalmente cebolla, lo que ha generado el debate gastronómico más eterno de España. El origen de la tortilla es disputado: durante mucho tiempo se atribuyó a Joseph de Tena Godoy y Malfeito, oficial militar carlista del siglo XIX en Navarra, que la habría inventado durante el sitio de Bilbao en 1835. Pero documentos recientes (descubrimiento de la Real Academia de Gastronomía) atribuyen una versión muy similar a una receta extremeña de Villanueva de la Serena fechada en 1798. Lo cierto es que la patata, introducida en Europa desde Sudamérica en el siglo XVI, tardó siglos en popularizarse en la cocina española y la tortilla la convirtió en alimento de primera necesidad. Hoy, la tortilla es objeto de concursos serios (la Mejor Tortilla del Mundo en Alicante, la de Betanzos), de libros enteros, de discusiones interminables. En moomz, '¿tortilla con o sin cebolla?' es probablemente la encuesta más viral de la historia hispanohablante. La tortilla es comida cotidiana elevada a arte.",
+    "sections": [
+      {
+        "h": "La receta perfecta paso a paso",
+        "body": "Ingredientes para una tortilla de 6 personas: 1 kg de patatas (mejor variedades como Monalisa, Kennebec o Agria), 6-8 huevos camperos, 1 cebolla mediana (opcional según equipo), 500 ml de aceite de oliva virgen extra, sal. Técnica: 1) Pela las patatas y córtalas en láminas finas (3-4 mm) o en dados pequeños. 2) Confita las patatas en el aceite a 130-140 °C durante 25-30 minutos hasta que estén tiernas pero no doradas. Si llevas cebolla, añádela también desde el inicio cortada en juliana fina. 3) Escurre, reserva el aceite y mezcla las patatas con los huevos batidos y sal. Deja reposar 10 minutos. 4) En una sartén bien caliente con un poco del aceite reservado, vierte la mezcla, cuaja por un lado a fuego medio (4-5 minutos), tapa con plato y da la vuelta. 5) Termina por el otro lado (3-4 minutos para jugosa, 6-7 para bien cuajada). Punto clave: la diferencia entre buena y excepcional está en el confitado lento de la patata y el reposo de la mezcla."
+      },
+      {
+        "h": "Con cebolla o sin cebolla: la guerra civil de la tortilla",
+        "body": "Este es el debate culinario más identitario de España. Concebollistas (con cebolla): defienden que la cebolla, confitada lentamente con la patata, aporta dulzor, jugosidad, profundidad de sabor y caramelización deliciosa. Pertenecen al equipo con cebolla: la mayoría de cocineros profesionales, Ferran Adrià, Karlos Arguiñano, y según encuestas serias el 60-65% de los españoles. Sincebollistas (sin cebolla): defienden la pureza del plato, la armonía simple entre patata y huevo, sin distracciones. Pertenecen a este equipo: Mario Vaquerizo, Lola Flores y muchas abuelas. La cuestión llegó al punto de generar memes, camisetas, libros y debates en TV — Pedro Sánchez (presidente del gobierno) confesó en 2018 que es del equipo sin cebolla, generando reacciones polarizadas. La paz culinaria es imposible: cada uno con su tortilla y respetando la del otro."
+      },
+      {
+        "h": "Variaciones regionales y la mejor del mundo",
+        "body": "La tortilla básica admite todo tipo de variaciones según la región: tortilla 'paisana' (con verduras, chorizo, pimientos), tortilla de Betanzos (jugosa al límite, característica de Galicia, casi líquida en el centro), tortilla con jamón, con bacalao, con espárragos, con champiñones. En Madrid abundan los pinchos de tortilla con punto cuajado. En Cantabria es popular la 'tortilla guisada', cubierta con salsa. Cada año se celebra el campeonato 'Mejor Tortilla del Mundo' en Alicante — ganadores recientes son referencia, como Senén González (bar Sagartoki, Vitoria) o José Ramón Elizondo. En Madrid, el 'Pez Tortilla' es famoso por sus rellenas (con queso fundido, chistorra, etc.). Casa Dani (Madrid), Casa Lucio (Madrid, con sus huevos rotos también), Sylkar y Casa Salvador son rutas obligadas para tortilleros. Una buena tortilla cuesta 10-15 euros en restaurante."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se inventó la tortilla de patatas?",
+        "a": "El origen es disputado. La teoría tradicional atribuye su invención a Joseph de Tena Godoy y al general Tomás de Zumalacárregui durante el sitio de Bilbao (1835), durante la Primera Guerra Carlista, como forma de alimentar a los soldados con ingredientes baratos y disponibles. Sin embargo, investigaciones más recientes han encontrado una receta muy similar en un documento de Villanueva de la Serena (Extremadura) fechado en 1798, lo que adelanta el origen al menos 40 años. En cualquier caso, la tortilla se popularizó en el siglo XIX cuando la patata pasó de ser comida de pobres a estar en todas las cocinas españolas."
+      },
+      {
+        "q": "¿Tortilla jugosa o bien cuajada?",
+        "a": "Otro gran debate. Los amantes de la tortilla jugosa, casi líquida en el centro, defienden que ese es el verdadero punto: el huevo apenas cuajado se mezcla con las patatas y crea una textura cremosa única — la clave es que las patatas sean abundantes y el huevo no esté completamente solidificado. Los conservadores prefieren la tortilla bien hecha, firme, que se pueda cortar en porciones limpias y guardar varios días. Las tortillas de bar suelen estar más cuajadas; las gourmet y caseras tienden a ser más jugosas. El campeonato Mejor Tortilla del Mundo premia generalmente las jugosas."
+      },
+      {
+        "q": "¿Cómo conservar la tortilla?",
+        "a": "Una tortilla bien cuajada se conserva en la nevera, en recipiente cerrado, hasta 3-4 días. La tortilla muy jugosa (con huevo casi líquido) debe consumirse el mismo día por seguridad alimentaria — el huevo poco hecho es vulnerable a la salmonella. Puedes recalentarla brevemente en sartén o microondas, aunque pierde encanto. La tortilla en pincho (montadito) se conserva mejor al estar protegida por el pan. Para llevar a pícnic o viajes, mejor bien cuajada y envuelta en papel absorbente."
+      },
+      {
+        "q": "¿Por qué la tortilla española es famosa en todo el mundo?",
+        "a": "Por varias razones convergentes. Primero, es deliciosa, accesible y se adapta a cualquier momento del día (desayuno, almuerzo, cena, picoteo). Segundo, ingredientes baratos y disponibles en todo el mundo (patatas, huevos, aceite). Tercero, la tortilla se ha exportado con la diáspora española y con el boom de la cocina española en los años 2000-2010 (Ferran Adrià, José Andrés, restaurantes españoles abriendo en Nueva York, Londres, Tokio). Es vegetariana, sin gluten, naturalmente sana y reconfortante. En muchos países hispanos de Latinoamérica también es plato popular, aunque las versiones locales varían."
+      }
+    ],
+    "related": ["paella", "tapas", "jamon", "vino", "churros"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "churros",
+    "locale": "es",
+    "keyword": "Churros",
+    "matchPatterns": ["churros", "churreria", "chocolate", "desayuno", "porras", "merienda"],
+    "topic": "food",
+    "title": "Churros — la masa frita más adictiva, con chocolate caliente",
+    "description": "Churros con chocolate, porras, churrerías históricas. Origen disputado entre España y China, técnica de la masa y rituales de domingo.",
+    "emoji": "🥨",
+    "intro": "Los churros son uno de los placeres más universales y más fotogénicos de la gastronomía española. Bastones alargados de masa frita, crujientes por fuera y ligeramente blandos por dentro, espolvoreados con azúcar y bañados en chocolate espeso. Su origen es objeto de leyendas: una teoría dice que los pastores trashumantes los inventaron como alternativa al pan fresco en lugares remotos; otra que los marineros portugueses los trajeron de China en el siglo XVI, inspirados en los 'youtiao' chinos (palitos fritos de masa salada). Lo cierto es que los churros se popularizaron en España en los siglos XVIII-XIX y desde aquí se exportaron a toda Iberoamérica, donde tienen variantes propias: en México se rellenan con dulce de leche, en Argentina son más finos, en Uruguay van con dulce de leche también. En España coexisten dos formas: el churro fino (en forma de lazo o tubo recto, masa más densa) y la porra (más gruesa, masa más esponjosa, típica de Madrid). El consumo clásico: churros con chocolate caliente espeso (no cacao soluble, sino chocolate puro derretido con un poco de leche o agua y maicena) en una churrería tradicional, los domingos por la mañana después de fiesta, o como merienda otoñal-invernal. En moomz, las encuestas '¿churros, porras o ambos?', '¿chocolate o azúcar?', '¿la mejor churrería?' generan debate cariñoso. Comer churros en San Ginés a las 5 de la mañana después de una noche en Madrid es uno de los rituales más mágicos de la cultura española.",
+    "sections": [
+      {
+        "h": "Receta y técnica del churro perfecto",
+        "body": "La masa es engañosamente simple: agua, harina, sal. Algunas recetas añaden bicarbonato o aceite para más esponjosidad. Proporción base: 1 parte de agua por 1 parte de harina en volumen, una pizca de sal. Técnica: 1) Hierve el agua con la sal. 2) Retira del fuego y añade la harina de golpe, removiendo enérgicamente con cuchara de palo hasta obtener una masa lisa y homogénea (parecida a la masa choux pero sin huevo). 3) Deja templar. 4) Pasa la masa a una manga pastelera con boquilla rizada de estrella (la forma característica del churro). 5) Calienta aceite (girasol o oliva suave) a 180-190 °C en abundante cantidad. 6) Forma los churros sobre el aceite caliente cortando con tijera, fríelos 3-4 minutos hasta que estén dorados, dales la vuelta una vez. 7) Escurre sobre papel absorbente y espolvorea con azúcar (con o sin canela según preferencia). El secreto de las churrerías es el aceite muy caliente y el grosor uniforme de la masa."
+      },
+      {
+        "h": "Churro vs porra: las diferencias",
+        "body": "Aunque mucha gente los confunde, churros y porras son productos distintos. Churro: masa de harina y agua sin levadura, forma fina (1-2 cm de diámetro), generalmente en lazo o herradura, crujiente y compacto. Porra (o churro grande, o porro madrileño): masa con bicarbonato u otro agente leudante que le da esponjosidad, forma gruesa (3-5 cm de diámetro), aireada y más blanda por dentro, generalmente recta y larga (luego cortada en trozos). La porra es típica de Madrid y zona centro. En Andalucía, la palabra 'tejeringo' designa el churro fino, y existen variantes regionales como el 'jeringo' aragonés. En América Latina: en México el churro suele ser más dulce, en Argentina más fino, en Uruguay relleno de dulce de leche. Para acompañar: chocolate espeso obligatorio (en taza o tazón para mojar) o café con leche en versión más ligera."
+      },
+      {
+        "h": "Las churrerías históricas y el ritual",
+        "body": "España tiene churrerías centenarias que son monumentos culinarios. La más famosa es San Ginés en Madrid (Pasadizo de San Ginés, 5), fundada en 1894, abierta 24 horas — destino obligatorio tras una noche de fiesta madrileña. Genuina, con suelo de mármol, espejos y camareros con pajarita. Otras referencias: Los Artesanos 1902 (también Madrid), Chocolatería Valor (Alicante y franquicias), Churrería Manolo (Murcia). En Madrid se generaliza la tradición del 'chocolate con churros' los domingos por la mañana en familia. En el sur, se desayuna más con tejeringos o churros simples. En verano la tradición se modifica: churros con horchata (Valencia), o granizado. Una ración de churros con chocolate cuesta entre 4 y 7 euros — sencillo, asequible, satisfactorio. Es comida del pueblo, transversal a clases sociales — desde el currante después del turno de noche hasta el grupo de amigos después de fiesta."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Los churros vienen de China?",
+        "a": "Es una teoría plausible pero no confirmada. Algunos historiadores sostienen que los marineros portugueses descubrieron en China el 'youtiao' (palitos fritos de masa salada que se comen para desayunar con leche de soja) en el siglo XVI y los adaptaron en Iberia añadiendo el dulce. Otra teoría dice que los pastores trashumantes españoles los inventaron en las sierras como alternativa al pan fresco difícil de obtener. Lo más probable es que la idea de masa frita exista en muchas culturas (los buñuelos árabes, los donuts holandeses), pero la versión española con forma estriada y azúcar es genuinamente ibérica."
+      },
+      {
+        "q": "¿Por qué los churros tienen forma estriada?",
+        "a": "La forma estriada (rizada en estrella en sección transversal) no es estética: tiene una función práctica clave. Aumenta la superficie de contacto con el aceite, lo que mejora la fritura y crea más zonas crujientes. Además permite que la masa se cocine uniformemente — un churro liso quedaría crudo por dentro o demasiado dorado por fuera. Se consigue con boquillas de estrella en la manga pastelera (las churreras profesionales son máquinas de presión con esta boquilla). Es la prueba de que la tradición culinaria también es ingeniería."
+      },
+      {
+        "q": "¿El chocolate de churrería es realmente diferente?",
+        "a": "Sí, completamente. El chocolate de churrería no es cacao soluble en leche caliente, sino chocolate puro derretido (cobertura o chocolate negro al 50-70% de cacao) con un poco de leche o agua y maicena para espesarlo. La textura debe ser tan espesa que el churro se mantenga de pie clavado en él — no líquido como el cacao infantil. Es muy intenso y rico, ideal para mojar pero no para tomar a vasos enteros como bebida ligera. Algunas churrerías añaden canela o ralladura de naranja. En casa puedes preparar uno decente con 100g chocolate negro + 200ml leche + 1 cucharada de maicena disuelta."
+      },
+      {
+        "q": "¿Engordan mucho los churros?",
+        "a": "Sí, son calóricos. Una ración estándar de 6 churros con chocolate ronda las 400-600 kcal, principalmente por la fritura (los churros absorben aceite) y el chocolate espeso azucarado. No es un desayuno equilibrado: pocas proteínas, muchos hidratos refinados y grasas. Pero como capricho ocasional (un domingo, un día de fiesta, una excursión nocturna) es perfectamente aceptable. La frecuencia es lo importante: comerlos cada dos meses no afectará a nadie, comerlos todas las semanas sí. Los churros caseros tienen más control sobre el aceite y la cantidad de azúcar."
+      }
+    ],
+    "related": ["chocolate", "tortilla-espanola", "tapas", "navidad", "feria-abril"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "jamon",
+    "locale": "es",
+    "keyword": "Jamón",
+    "matchPatterns": ["jamon", "jamón", "iberico", "ibérico", "serrano", "bellota", "cerdo"],
+    "topic": "food",
+    "title": "Jamón — ibérico, serrano y la obsesión española por el cerdo curado",
+    "description": "Jamón ibérico de bellota, serrano, curación, cortado a cuchillo, denominaciones de origen. El producto gastronómico más español.",
+    "emoji": "🥩",
+    "intro": "El jamón es, junto a la paella, el embajador gastronómico universal de España. Resultado de un proceso milenario de salazón y curado de la pata trasera del cerdo, alcanza en su versión más noble — el jamón ibérico de bellota — niveles de complejidad aromática comparables a los mejores vinos del mundo. Existen dos grandes categorías: el jamón serrano (de cerdo blanco común, curado en zonas montañosas) y el jamón ibérico (de cerdos de raza ibérica, autóctona de la Península). Dentro del ibérico hay niveles: ibérico de cebo (alimentación con pienso), ibérico de cebo de campo (mezcla pienso y pasto), e ibérico de bellota (alimentación libre en dehesa con bellotas durante la 'montanera' — 4-5 meses entre octubre y febrero cuando comen 6-10 kg de bellotas al día). El ibérico de bellota 100% (de pureza racial total) es el rey absoluto: marca con etiqueta negra. Las cuatro Denominaciones de Origen del jamón ibérico son Jabugo (Huelva), Guijuelo (Salamanca), Dehesa de Extremadura y Los Pedroches (Córdoba). La curación dura entre 24 y 48 meses en bodegas naturales. España consume unos 4 kg de jamón por persona al año, y es el embutido más caro del mundo: una pata completa de Joselito o 5 Jotas puede costar entre 300 y 1.500 euros. En moomz, las encuestas '¿jamón ibérico vs serrano?', '¿con pan o solo?', '¿cortado a cuchillo o a máquina?' encienden discusiones de patriotismo culinario.",
+    "sections": [
+      {
+        "h": "Ibérico vs serrano: las diferencias clave",
+        "body": "Jamón serrano: se elabora con cerdo blanco común (raza Landrace, Duroc, Pietrain o cruces), curado entre 7 y 24 meses, su carne es rosada-roja y el tocino blanco. Bueno y mucho más asequible (10-25 euros/kg). Marcas como Teruel DOP o Trevélez son referencia. Jamón ibérico: viene del cerdo ibérico, raza autóctona oscura con pezuña negra (de ahí 'pata negra'), que infiltra grasa en el músculo creando esa veteado característico. La grasa del ibérico de bellota es rica en ácido oleico (el mismo que el aceite de oliva) gracias a las bellotas, y por eso es más saludable que otras grasas saturadas. Etiquetas oficiales por ley: negra (ibérico de bellota 100%), roja (ibérico de bellota), verde (ibérico de cebo de campo), blanca (ibérico de cebo). Precios: serrano 10-20 €/kg, ibérico de cebo 25-40 €/kg, ibérico de bellota 60-100 €/kg, ibérico de bellota 100% (etiqueta negra) 80-200 €/kg en pieza entera, o 100-300 €/kg cortado en sobres."
+      },
+      {
+        "h": "El arte del corte y la cata",
+        "body": "Cortar bien un jamón es un arte que se aprende durante años. El cortador profesional usa un jamonero (soporte de madera), un cuchillo jamonero largo y flexible para las lonchas, un cuchillo más corto para limpiar, y una puntilla para detalles. Las lonchas deben ser muy finas (casi transparentes), de unos 4-6 cm de largo, 2-3 cm de ancho, mostrando la veta de grasa. Empezar por la parte llamada 'maza' (la parte más grande y jugosa), luego 'contramaza' y 'punta'. El jamón debe servirse a temperatura ambiente (22-24 °C) para que la grasa se funda en la boca. Para apreciarlo, comer una loncha sola primero, luego con un trocito de pan, idealmente acompañado de fino, manzanilla, vino tinto suave o cava. Maridajes prohibidos: nada muy graso (queso fuerte) o muy ácido que rompa los aromas. Una buena cata de jamón ibérico de bellota tiene notas de bellota, hierbas mediterráneas, fruto seco y un final dulce ligeramente láctico."
+      },
+      {
+        "h": "Las dehesas y la cultura del cerdo ibérico",
+        "body": "La dehesa es un ecosistema único de la Península Ibérica: bosques abiertos de encinas y alcornoques, pastoreados, donde los cerdos ibéricos viven en semilibertad. Se extiende por Extremadura, oeste de Andalucía (Huelva, Córdoba) y Salamanca. Durante la 'montanera' (octubre-febrero), los cerdos engordan comiendo bellotas — un cerdo ibérico de bellota puede comer hasta 10 kg de bellotas al día y ganar 1 kg diario. Esta alimentación, combinada con el ejercicio (los cerdos andan kilómetros buscando bellotas), produce esa grasa infiltrada y aromática única. La dehesa también es un ecosistema biodiverso protegido, refugio de águilas, linces ibéricos y miles de especies. La cultura del cerdo es central en pueblos extremeños y andaluces — la matanza tradicional en noviembre-diciembre todavía se celebra en muchos lugares. Joselito, 5 Jotas (Sánchez Romero Carvajal), Cinco Jotas, Carrasco Guijuelo son las marcas más prestigiosas del mundo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál es la diferencia entre pata negra y jamón ibérico?",
+        "a": "'Pata negra' es un nombre coloquial que técnicamente no es oficial: alude al color de la pezuña del cerdo ibérico, que es oscura (de ahí 'pata negra'). Pero no todos los cerdos ibéricos tienen pezuña 100% negra (algunos cruces pueden tenerla manchada), y algunos cerdos no ibéricos también pueden tener pezuña oscura por casualidad. Para identificar correctamente, hay que mirar la etiqueta oficial obligatoria desde 2014: negra (100% ibérico de bellota), roja (ibérico de bellota), verde (cebo de campo) o blanca (cebo). Esa etiqueta es la garantía real, no la pezuña."
+      },
+      {
+        "q": "¿Cuánto se conserva un jamón ibérico?",
+        "a": "Una pata entera de jamón ibérico curado se conserva muchos meses una vez empezada, siempre que se mantenga en lugar fresco y seco (15-20 °C) y se cubra la zona cortada con tocino o paño de algodón fino para evitar oxidación y secado excesivo. Si se va a tardar más de dos semanas en consumir, conviene cubrir bien y comprobar regularmente. El jamón loncheado en sobres dura abierto 2-3 días en nevera (mejor consumir a temperatura ambiente), o varias semanas sin abrir según fecha del envasado. Congelar es posible pero pierde texture y aroma — los puristas lo evitan."
+      },
+      {
+        "q": "¿Por qué es tan caro el jamón ibérico de bellota?",
+        "a": "Por el coste de producción. Un cerdo ibérico de bellota requiere: raza pura (más cara de criar), espacio en dehesa (las dehesas son ecosistemas extensos), alimentación con bellotas durante la montanera (4-5 meses libres en bosque), tiempo de crecimiento más largo (16-22 meses frente a 6 meses de un cerdo industrial), curación de 36-48 meses en bodegas con merma del 30-40% del peso inicial. Cada pata supone años de inversión y trabajo. A esto se añade la demanda global: Asia, EE.UU., Europa central buscan ibérico premium, lo que tira de precios. Es probablemente el embutido más caro del mundo por buenas razones."
+      },
+      {
+        "q": "¿Es saludable comer jamón regularmente?",
+        "a": "Con moderación, sí, especialmente el ibérico de bellota. Aporta proteínas de alta calidad, vitamina B1, hierro, zinc, fósforo y selenio. La grasa del ibérico de bellota es rica en ácido oleico (50-60%), el mismo del aceite de oliva, con efectos cardiovasculares positivos. Sin embargo, contiene mucha sal (5-6%), por lo que personas con hipertensión deben limitar su consumo. La OMS clasifica las carnes procesadas (incluido el jamón) como potencialmente cancerígenas si se consumen en exceso (>50g diarios). Una ración razonable: 50-80g, 2-3 veces por semana, dentro de una dieta variada."
+      }
+    ],
+    "related": ["tapas", "tortilla-espanola", "paella", "vino", "queso"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vino",
+    "locale": "es",
+    "keyword": "Vino",
+    "matchPatterns": ["vino", "tinto", "blanco", "rioja", "ribera", "cava", "denominacion"],
+    "topic": "food",
+    "title": "Vino — Rioja, Ribera, Albariño y la tradición vinícola española",
+    "description": "Todo sobre el vino español: Rioja, Ribera del Duero, Albariño, cava, tempranillo, denominaciones de origen y cómo elegir bien.",
+    "emoji": "🍷",
+    "intro": "España es uno de los grandes países vinícolas del mundo, con una tradición que se remonta al menos al 3000 a.C. cuando los fenicios introdujeron la viticultura en la Península. Hoy tiene la mayor superficie de viñedo del mundo (más de 950.000 hectáreas), aunque produce menos volumen que Francia o Italia porque los rendimientos son inferiores debido al clima seco y la edad de las viñas. España cuenta con 70 Denominaciones de Origen Protegidas (DOP), entre las más prestigiosas: Rioja (la más conocida internacionalmente), Ribera del Duero (los grandes tempranillos), Priorat (vinos potentes catalanes), Rías Baixas (albariños gallegos), Jerez (vinos generosos), Cava (los espumosos catalanes), Rueda (verdejos), Penedès, Toro, Bierzo, Montsant. Los grandes cepas autóctonas son la tempranillo (rey de los tintos españoles), la garnacha (compartida con Francia), la mencía (Bierzo), la albariño (Galicia), el verdejo (Rueda) y el palomino (Jerez). En moomz, las encuestas '¿Rioja o Ribera?', '¿tinto o blanco?', '¿conoces tu vino o lo pides al azar?' generan debate. La cultura del vino en España es democrática: desde el vino de mesa que se sirve por el cuartillo en pueblos hasta los Vega Sicilia que se venden a 500+ euros la botella. Beber vino no es snob, es disfrute social — copa con tapas, vino con la comida, cubatas no van.",
+    "sections": [
+      {
+        "h": "Las grandes DOP españolas",
+        "body": "Rioja (La Rioja, País Vasco y Navarra): la más famosa internacionalmente, dominada por tempranillo, con clasificación por crianza (joven, crianza, reserva, gran reserva según meses en barrica y botella). Estilos clásicos en barrica de roble americano (vainilla, coco). Bodegas legendarias: López de Heredia (Tondonia), Marqués de Murrieta, Muga, La Rioja Alta. Ribera del Duero (Castilla y León): tinto fino (tempranillo local), vinos más potentes y oscuros. Vega Sicilia (Único), Pingus, Pesquera. Priorat (Cataluña): garnacha y cariñena en suelos de pizarra (licorella), vinos minerales y poderosos. L'Ermita de Álvaro Palacios. Rías Baixas (Galicia): albariños frescos, salinos, perfectos con mariscos. Pazo Señorans. Jerez (Cádiz): vinos generosos únicos (fino, manzanilla, amontillado, oloroso, palo cortado, Pedro Ximénez) con el sistema de soleras. González Byass, Lustau. Cava: espumoso catalán con método tradicional (Champenoise), zona principal Penedès. Freixenet, Codorníu, Recaredo (boutique)."
+      },
+      {
+        "h": "Cómo leer una etiqueta de vino español",
+        "body": "Una buena etiqueta da varias informaciones clave. Denominación de Origen (DOP o DO): garantiza zona y reglas de producción. Cosecha (año): el año de la vendimia, no del embotellado. Tipo según crianza (sistema español característico): Vino joven (sin paso por barrica o muy poco, máximo 6 meses, fruta fresca), Crianza (mínimo 24 meses entre barrica y botella, al menos 6 en barrica para tintos, 18 meses totales en blancos y rosados), Reserva (mínimo 36 meses entre barrica y botella, 12 en barrica para tintos), Gran Reserva (mínimo 60 meses entre barrica y botella, 18 en barrica para tintos). En Cava: Reserva (mínimo 18 meses sobre lías), Gran Reserva (mínimo 30 meses), Cava de Paraje Calificado (máxima categoría desde 2017). Tipo de uva: si pone 'tempranillo', 'verdejo' o 'monovarietal', es un solo cepaje. Si no, es una mezcla. Bodega: nombre del productor. Grado alcohólico: tintos 12-15%, blancos 11-13%, espumosos 11-12,5%."
+      },
+      {
+        "h": "Maridajes y vinos para cada ocasión",
+        "body": "Reglas básicas de maridaje: vinos blancos jóvenes y frescos con pescados, mariscos, ensaladas, quesos jóvenes; vinos blancos con crianza con pescados grasos (salmón, atún) y aves; rosados con embutidos, paellas, comida picante; tintos jóvenes con pasta, pizza, embutidos curados; tintos crianza con carnes asadas, guisos; tintos reserva/gran reserva con carnes rojas potentes, caza, cordero; finos y manzanillas con jamón ibérico, almendras, anchoas; olorosos con caza, quesos curados; Pedro Ximénez con postres con chocolate. Para empezar a explorar: un Albariño de Rías Baixas (10-15€) con mariscos, un Crianza de Rioja (10-20€) con jamón y carnes, un Verdejo de Rueda (8-12€) versátil para verano. Una buena botella en cena romántica: 20-35 euros. Para regalar: 30-60 euros en bodega independiente. Por encima de 60€ entras en territorio especialista. En supermercado, evita lo de menos de 5€ — suele ser industrial mediocre."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Rioja o Ribera del Duero, cuál es mejor?",
+        "a": "Es como preguntar si es mejor Madrid o Barcelona — son estilos distintos, ambos excelentes. Rioja: tradicionalmente más elegante, equilibrado, con notas de roble americano (vainilla, coco), uvas tempranillo combinadas con garnacha y mazuelo, climatología más atlántica. Ribera del Duero: más concentrado, oscuro, frutal, climatología continental extrema, tempranillo (llamado tinto fino) generalmente puro, barricas más a menudo de roble francés. Los Rioja envejecen más tiempo y suelen ser más sutiles a edad madura; los Ribera son más potentes desde jóvenes. Los puristas suelen tener preferencia personal — los enólogos modernos coinciden en que ambas regiones producen vinos de clase mundial."
+      },
+      {
+        "q": "¿Por qué el cava no es champán?",
+        "a": "Porque el champán es una denominación protegida de Francia: solo el vino espumoso producido en la región francesa de Champagne con métodos específicos puede llamarse así. El cava es el equivalente español, principalmente producido en el Penedès (Cataluña), con uvas autóctonas (Macabeo, Xarel·lo, Parellada) y el mismo método tradicional de segunda fermentación en botella. Es perfectamente comparable en calidad — algunos cavas Gran Reserva o de Paraje Calificado (Recaredo, Gramona, Codorníu Ars Collecta) compiten con champanes de categoría media-alta a precios muy inferiores. Otros espumosos españoles: corpinnat (escisión de algunos productores del cava por razones de calidad), espumoso de Rueda."
+      },
+      {
+        "q": "¿Cuánto se puede guardar un vino?",
+        "a": "Depende del tipo y la calidad. Vinos jóvenes (sin crianza): consumir en 1-2 años, no mejoran con el tiempo. Crianzas: aguantan 5-8 años en buenas condiciones. Reservas: 10-15 años. Gran Reservas y vinos de alta gama (Vega Sicilia, Pingus, Tondonia): 20-50 años o más. Vinos blancos jóvenes: 1-2 años máximo. Blancos con crianza (Tondonia blanco): décadas. Cavas brut nature jóvenes: 1-3 años. Gran Reservas de cava: 5-10 años. Vinos de Jerez (oloroso, Pedro Ximénez): décadas, prácticamente eternos. Condiciones de guarda: temperatura constante (12-16 °C ideal), oscuridad, humedad 60-70%, botellas tumbadas para que el corcho no se seque. Sin esas condiciones, los vinos envejecen mal o se estropean."
+      },
+      {
+        "q": "¿El precio refleja realmente la calidad del vino?",
+        "a": "Hasta cierto punto sí, pero con matices. Hasta unos 25-30 euros, generalmente cuanto más pagas, mejor vino (mejor uva, mejor elaboración, más cuidado). Entre 30 y 100 euros, la diferencia es real pero ya entran factores como prestigio de la bodega y demanda de mercado. Por encima de 100 euros, el precio refleja en gran parte la rareza, el marketing y la coleccionabilidad — el placer hedonista no escala linealmente. Un Crianza de Rioja a 15 euros puede dar más placer a 90% de bebedores que un Gran Reserva a 100 euros — depende del momento, la comida, la compañía. Catar a ciegas es el mejor revelador de prejuicios."
+      }
+    ],
+    "related": ["jamon", "tapas", "paella", "tortilla-espanola", "queso"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cerveza",
+    "locale": "es",
+    "keyword": "Cerveza",
+    "matchPatterns": ["cerveza", "caña", "tercio", "estrella", "mahou", "craft", "ipa"],
+    "topic": "food",
+    "title": "Cerveza — caña, tercio, craft y la sed nacional española",
+    "description": "Todo sobre la cerveza en España: Mahou, Estrella, San Miguel, craft beer, IPA, caña perfecta y la cultura del tapeo.",
+    "emoji": "🍺",
+    "intro": "La cerveza es la bebida alcohólica más consumida en España, por delante del vino — los españoles beben unos 50 litros por persona y año, lo que sitúa al país entre los 15 mayores consumidores del mundo. La caña — una cerveza pequeña de barril servida en vaso estrecho de 200ml — es el ritual social más fundamental del país. Tomarse una caña con los amigos en una terraza al sol es prácticamente el deporte nacional. Las grandes marcas industriales dominan el mercado: Mahou (Madrid, fundada en 1890), Estrella Damm (Barcelona, 1876), San Miguel (Filipinas inicialmente, ahora española, 1890), Cruzcampo (Sevilla, 1904), Estrella Galicia (A Coruña, 1906), Alhambra (Granada, 1925), Voll-Damm (la doble malta de Damm). Cada región tiene su lealtad: Mahou en Madrid, Estrella Damm en Cataluña, Cruzcampo en Andalucía. Pero desde 2010 ha explotado en España la revolución de la cerveza artesanal (craft beer): cervecerías como La Cibeles (Madrid), Naparbier (Navarra), La Quince, Garage Beer Co (Barcelona), Cierzo (Zaragoza), Edge Brewing — IPAs, stouts, sours, pales con sabores que rompen con la cerveza industrial monótona. En moomz, las encuestas '¿caña o tercio?', '¿con o sin alcohol?', '¿craft o industrial?', '¿mejor cerveza del mundo?' generan respuestas instantáneas. La cerveza en España va con tapas, partidos, terrazas, después del trabajo, en mitad del verano a las cuatro de la tarde. Es democrática, refrescante, social.",
+    "sections": [
+      {
+        "h": "Tipos de cerveza: lager, ale, IPA y más",
+        "body": "Las cervezas se dividen principalmente en dos grandes familias según el tipo de fermentación. Lager (fermentación baja): cervezas claras, refrescantes, ligeras, las más consumidas en el mundo. Incluyen las Pilsner (estilo checo original, dorada y amarga seca), las Helles alemanas, las Märzen/Oktoberfest. La inmensa mayoría de cervezas españolas industriales son lagers. Ale (fermentación alta): más complejas, frutales, aromáticas. Incluyen las Pale Ales, las IPA (India Pale Ale, muy amargas con mucho lúpulo, estilo americano explosivo), las Stout (negras y tostadas como Guinness), las Porter, las Weissbier alemanas (de trigo, afrutadas), las Saison belgas, las Trapenses. Las craft beer españolas están explorando todos estos estilos y muchos más: NEIPAs (turbias y afrutadas), sours, barrel aged. Sin alcohol: las cervezas 0,0 españolas están entre las mejores del mundo (Mahou 0,0, San Miguel 0,0), gracias a procesos modernos que conservan el sabor."
+      },
+      {
+        "h": "Cómo se sirve una caña perfecta",
+        "body": "Una caña bien tirada es un arte que distingue a un buen bar de uno mediocre. Requisitos: vaso limpio y frío, grifo con presión adecuada, cerveza a temperatura óptima (4-6 °C), y el barman debe llenar el vaso inclinado al inicio (45°) para luego enderezarlo y crear una corona de espuma de 1-2 cm. La espuma no es decoración: protege la cerveza del oxígeno, libera aromas y mantiene la efervescencia. Una caña sin espuma es sospechosa, una con demasiada es un truco para servir menos líquido. El servicio debe ser rápido pero cuidadoso. En Madrid, donde la caña-cultura es religiosa, los buenos sitios (La Ardosa, Casa Camacho, El Doble) tienen camareros expertos. La caña típica son 200 ml en vaso estrecho; el doble (300-400 ml) y el tercio (botellín de 330 ml) son alternativas. Una jarra mediana en supermercado: 500 ml. Una caña en bar normal: 1,50-2,50 euros."
+      },
+      {
+        "h": "La revolución craft beer en España",
+        "body": "Hasta los años 2000, el mercado español de cerveza era prácticamente monopolizado por unas cuantas marcas industriales con productos casi idénticos (lagers ligeras de 4,5-5%). A partir de 2010, inspirados por la revolución craft americana, decenas de microcervecerías españolas empezaron a producir estilos antes inexistentes: IPAs muy lupuladas, stouts imperiales, sours, NEIPAs turbias. Hoy hay más de 600 cervecerías artesanales activas en España. Ciudades como Madrid, Barcelona, Valencia, Bilbao y Zaragoza tienen escenas vivas con bares especializados (La Tape, Fábrica Maravillas, Cervecería Cobreces, Garage Beer Co, BierWinkel). Festivales como Barcelona Beer Festival, Madrid Beer Week reúnen a miles de aficionados. Una pinta de craft en bar especializado cuesta 5-8 euros (frente a 2-3 € de caña industrial), pero la experiencia gustativa es radicalmente distinta. El movimiento ha forzado incluso a las grandes marcas a sacar líneas premium (Mahou Maestra, Estrella Damm Inedit). En moomz, los partidarios de la cerveza craft hacen proselitismo activo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué la cerveza se sirve fría en España?",
+        "a": "Por razones climáticas y culturales. España tiene climas muy calurosos en verano y la cerveza fría es perfecta para refrescarse. Las grandes marcas españolas (Mahou, Estrella, San Miguel) están diseñadas para servirse a 4-6 °C, donde sus sabores ligeros funcionan bien. Sin embargo, esta práctica es criticada por puristas: las cervezas servidas demasiado frías (especialmente las craft con mucho sabor) pierden complejidad aromática porque las moléculas volátiles se inhiben. Las craft beer ideales se sirven a 7-12 °C según el estilo. En invierno y para cervezas complejas (stouts, ales), temperaturas más altas son recomendadas."
+      },
+      {
+        "q": "¿Mahou, Estrella o Cruzcampo, cuál es mejor?",
+        "a": "Son las tres grandes marcas regionales, con perfiles muy similares (lagers ligeras de 5%) y cada región tiene su preferencia tribal. Mahou (Madrid) tiene la Mahou Cinco Estrellas (5,5%) como referencia, más amarga y con cuerpo. Estrella Damm (Barcelona) es ligeramente más dulce y afrutada. Cruzcampo (Sevilla) es más ligera. Estrella Galicia (Coruña) gana ranking de blind tests, considerada más refinada. San Miguel es la más exportada internacionalmente. En tests a ciegas, las diferencias son sutiles: si te tapan los ojos, la mayoría no distingue. Las preferencias son más identitarias que gastronómicas — Madrid jura por Mahou, Sevilla por Cruzcampo."
+      },
+      {
+        "q": "¿Por qué España tiene tantos botellines pequeños (tercios)?",
+        "a": "El tercio (botellín de 330 ml) es típicamente español. Razones: 1) Temperatura: en climas calurosos, una cerveza pequeña se bebe antes de calentarse. 2) Sociabilidad: pides varios tercios en una sesión, lo que prolonga el momento social. 3) Cultura del tapeo: la caña/tercio acompaña tapas, no comidas largas. 4) Tradición histórica de tabernas. El equivalente extranjero es la pinta inglesa (568 ml) o el medio litro alemán — más grandes pero menos prácticas en el calor mediterráneo. La caña (200 ml) lleva esto al extremo: pequeñísima, fresca, perfecta para tres en una hora con amigos."
+      },
+      {
+        "q": "¿La cerveza sin alcohol es realmente buena en España?",
+        "a": "Sí, España es referencia mundial en cerveza sin alcohol. Mahou 0,0, San Miguel 0,0, Estrella Damm 0,0, Cruzcampo 0,0 son productos serios con un consumo masivo: España es uno de los mayores consumidores per cápita de cerveza sin alcohol del mundo. Los procesos modernos (fermentación interrumpida, evaporación a baja temperatura, ósmosis inversa) permiten conservar gran parte del sabor. Algunas cervezas sin alcohol son ya casi indistinguibles de las normales en cata a ciegas. Son perfectas para conductores, embarazadas, niños mayores, deportistas, mediodías laborales. Las craft también están sacando versiones sin alcohol (Inedit 0,0, San Miguel Eco)."
+      }
+    ],
+    "related": ["tapas", "paella", "jamon", "tortilla-espanola", "vino"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "helado",
+    "locale": "es",
+    "keyword": "Helado",
+    "matchPatterns": ["helado", "gelato", "sorbete", "polo", "verano", "playa"],
+    "topic": "food",
+    "title": "Helado — gelato italiano, sorbetes y la fiebre del verano",
+    "description": "Todo sobre el helado: tradición italiana del gelato, sorbetes mediterráneos, polos, los mejores sabores y la moda foodie del verano.",
+    "emoji": "🍦",
+    "intro": "El helado es probablemente el postre más universal del planeta, presente en todas las culturas y climas, aunque España y los países mediterráneos lo viven con una intensidad especial. Cada español consume unos 7-8 litros de helado al año, principalmente entre mayo y septiembre. El origen del helado se remonta a milenios: los antiguos persas y chinos ya hacían postres helados con nieve mezclada con miel y frutas; los árabes refinaron la técnica del sorbete (sharbat); los Médici en Florencia y la corte de Catalina de Médici en Francia popularizaron el helado moderno en el siglo XVI. Pero fue Italia la que perfeccionó el arte: el gelato italiano se distingue del helado industrial por su menor contenido de grasa (5-7% frente al 10-15% del helado americano), menor cantidad de aire incorporado (más denso y cremoso), y temperaturas de servicio más altas (-12 °C frente a -18 °C, lo que libera más sabor). En España, las heladerías italianas son referencia (Giangrossi, Amorino, Della Sera) junto con marcas históricas como Frigo (Camy, Cornetto, Magnum), Llao Llao (yogur helado), y heladerías artesanas locales. En moomz, las encuestas '¿mejor sabor de helado?', '¿gelato o helado americano?', '¿polo del Frigo favorito?' siempre generan nostalgia y debate. El helado de verano es asociación inmediata con playa, vacaciones, infancia, primeros amores adolescentes en el chiringuito.",
+    "sections": [
+      {
+        "h": "Gelato vs helado: las diferencias técnicas",
+        "body": "El gelato italiano y el helado industrial americano son productos distintos a pesar del nombre. Gelato: 5-7% de materia grasa (vs 10-20% del americano), 20-35% de aire incorporado (vs 50-100% del americano = el helado americano puede ser literalmente la mitad aire), sirve a -12 °C (vs -18 °C), textura cremosa y densa, sabores más intensos porque hay menos grasa que enmasque. Helado tipo industrial (Häagen-Dazs, Ben & Jerry's): muy graso, muy aireado, muy frío, textura suave y esponjosa. Sorbete: sin lácteos, base de agua, fruta y azúcar — más refrescante, perfecto para intolerantes a la lactosa, vegano. Frozen yogurt (yogur helado): base de yogur, menos graso que el helado tradicional, más ácido. El gelato bien hecho debe servirse con cuchara (no bola) en su mostrador de cristal, y los sabores deben ser de colores naturales y poco saturados: un pistacho fluorescente o un fresa rojo neón es señal de colorantes industriales."
+      },
+      {
+        "h": "Los sabores clásicos y los nuevos hits",
+        "body": "Clásicos eternos: vainilla (el más vendido en el mundo, pese a su aparente simpleza), chocolate, fresa, café, pistacho (siempre superior si es de Bronte, Sicilia), avellana, stracciatella (vainilla con virutas de chocolate), tiramisú, dulce de leche, limón, mango, frutos rojos. Sabores españoles típicos: turrón (especialmente en Navidad), leche merengada, horchata (granizado-helado mezcla en Valencia), nata, mantecado, yema. Nuevas tendencias: matcha (té verde japonés), kinder, oreo, biscoff, queso, aceite de oliva, palomitas, lavanda, vino tinto, hierbabuena con chocolate negro. Heladerías artesanas españolas innovadoras: Mistura (Madrid, gana premios internacionales), DellaSera, Rocambolesc (heladería de Jordi Roca, El Celler de Can Roca), Iceberg Bilbao, Caribbean (Valencia). Una bola de gelato artesano: 2,50-4 euros. Una tarrina de 500g de marca premium: 7-12 euros."
+      },
+      {
+        "h": "Polos, granizados y el verano español",
+        "body": "Más allá del helado tradicional, el verano español está poblado de productos helados específicos. El polo (helado en palo) es nostalgia pura: Frigopié, Drácula (con su lengua de chicle), Calippo (helado de tubo), Magnum (con su cubierta de chocolate crujiente, marca insignia de Frigo), Maxibon (helado entre dos galletas), Tofupies, Frigodedo. El granizado: zumo de fruta congelado parcialmente que se sirve raspado, muy popular en zonas costeras (limón, café, sandía, melón). La horchata valenciana: bebida fría a base de chufa, hidratante y refrescante, perfecta para verano. El sorbete de limón al cava: postre clásico de bodas. La leche merengada: bebida helada con leche, canela y limón, típica del verano andaluz. En las playas, el carrito del 'helaaaaadooooo, agua, refresco' es banda sonora del verano. La nostalgia del polo Frigo en la piscina de los 90 vuelve mucho en redes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué el gelato italiano es más cremoso?",
+        "a": "Por tres razones técnicas. Primero, contiene menos aire incorporado durante la mantecación (overrun del 20-35% vs 50-100% del helado americano industrial), por lo que es más denso. Segundo, contiene menos materia grasa (5-7% vs 10-15%), lo que paradójicamente lo hace más cremoso porque la grasa cristaliza diferente. Tercero, se sirve a temperatura más alta (-12 °C vs -18 °C), lo que mantiene una textura blanda y permite que los sabores se expresen mejor. Un helado servido demasiado frío entumece las papilas gustativas y pierde sabor — los italianos lo saben desde el Renacimiento."
+      },
+      {
+        "q": "¿Cómo identificar una buena heladería?",
+        "a": "Varios signos. Colores naturales y apagados: un pistacho debe ser verde oliva, no verde fluorescente; una fresa rosa pálido, no fucsia; una vainilla amarilla cremosa, no blanca pura (excepto si es 'fior di latte'). Los helados deben estar tapados (cubiertos por su propia espátula de inox) y no presentar 'picos' altos amontonados (señal de mucho aire y emulsionantes industriales). Sabores estacionales: una buena heladería cambia los frutos según la estación (fresas en primavera, melocotón en verano, castaña en otoño). Lista de ingredientes corta y reconocible: leche, nata, azúcar, fruta. Evita las que muestran 50 sabores y todos a colores chillones — eso es helado industrial coloreado."
+      },
+      {
+        "q": "¿Engordan mucho los helados?",
+        "a": "Depende mucho del tipo. Un sorbete de fruta: 100-150 kcal por 100g (poca grasa, mucha agua y azúcar). Un gelato artesano: 180-220 kcal/100g. Un helado tipo Häagen-Dazs (rico en grasa y nata): 250-300 kcal/100g. Un Magnum almendrado: 280 kcal/unidad. Una bola pequeña (60g) de gelato: 120 kcal — bastante razonable como capricho. El problema viene cuando es 'una tarrina entera mientras ves Netflix' (500g de Häagen-Dazs = 1.500 kcal). Como capricho ocasional, el helado es perfectamente compatible con una dieta equilibrada. Los sorbetes y yogures helados son las opciones más ligeras."
+      },
+      {
+        "q": "¿Cuál es el helado más vendido del mundo?",
+        "a": "La vainilla sigue siendo el sabor más vendido a nivel global, seguida del chocolate. En España, los Top 5 más vendidos suelen ser: Magnum (almendrado o clásico), Frigopié, Cornetto, Calippo y Maxibon. Las grandes marcas industriales: Frigo (Unilever, marcas Magnum, Cornetto, Carte d'Or), Häagen-Dazs (Nestlé), Ben & Jerry's (Unilever también). Mercadona tiene una línea propia muy popular y barata. Llao Llao revolucionó el segmento de yogur helado. A nivel artesano, las heladerías italianas e independientes locales ganan terreno año tras año."
+      }
+    ],
+    "related": ["chocolate", "verano", "churros", "playa", "navidad"],
+    "updatedAt": "2026-05-20"
+  }
+]

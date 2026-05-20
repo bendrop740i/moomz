@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "san-valentin",
+    "locale": "es",
+    "keyword": "San Valentín",
+    "matchPatterns": ["san valentin", "san valentín", "enamorados", "amor", "pareja", "regalo romantico"],
+    "topic": "holidays",
+    "title": "San Valentín — el día de los enamorados, historia y vibe-check",
+    "description": "San Valentín: el origen del 14 de febrero, las tradiciones, los regalos y por qué la fiesta del amor divide tanto a la gente cada año.",
+    "emoji": "💘",
+    "intro": "San Valentín, el Día de los Enamorados, se celebra cada 14 de febrero y es una de las fechas más conocidas y, a la vez, más debatidas del calendario. Su origen mezcla la historia, la leyenda y, sobre todo, una buena dosis de comercio moderno. La fiesta toma su nombre de San Valentín, una figura ligada al cristianismo de los primeros siglos. La leyenda más extendida cuenta que Valentín era un sacerdote que casaba en secreto a parejas de enamorados en una época en que esos matrimonios estaban prohibidos, y que por ello fue ejecutado un 14 de febrero. Hay varias versiones y mucha incertidumbre histórica, pero esa historia romántica es la que ha quedado en el imaginario popular. Durante siglos, la asociación entre el 14 de febrero y el amor fue creciendo, especialmente en la cultura europea, hasta que en la época moderna la fecha se transformó en lo que hoy conocemos: un día dedicado a las parejas, marcado por las flores, los bombones, las cenas románticas, los corazones y los regalos. San Valentín es también una de las fiestas que más divide a la gente: hay quien la vive con ilusión como una excusa perfecta para celebrar el amor, y hay quien la critica por su lado comercial o por la presión que genera. En moomz, las encuestas '¿San Valentín, romántico o comercial?', '¿mejor regalo de San Valentín?', '¿se celebra o no?' encienden el debate al instante. Sea como sea, el 14 de febrero es una fecha que nadie ignora.",
+    "sections": [
+      {
+        "h": "El origen: entre la historia y la leyenda",
+        "body": "El origen de San Valentín mezcla elementos históricos, religiosos y legendarios, y no es del todo seguro. La fiesta toma su nombre de la figura de San Valentín, un personaje vinculado al cristianismo de los primeros siglos. La leyenda más conocida y romántica cuenta que Valentín era un sacerdote que, en una época en la que ciertos matrimonios estaban prohibidos, casaba en secreto a las parejas de enamorados, desafiando esa prohibición. Por ese acto habría sido detenido y finalmente ejecutado un 14 de febrero. Existen varias versiones de la historia y mucha incertidumbre sobre los hechos reales, hasta el punto de que es difícil separar lo histórico de lo legendario. Lo que sí es cierto es que, con el paso de los siglos, la fecha del 14 de febrero fue quedando asociada al amor y a los enamorados en la cultura popular, especialmente en Europa. Esa asociación, alimentada por la literatura y las costumbres, es la base sobre la que se construyó la fiesta moderna que celebramos hoy."
+      },
+      {
+        "h": "Tradiciones modernas: flores, bombones y cenas",
+        "body": "El San Valentín que se celebra hoy en día es, en buena medida, una construcción moderna, con tradiciones que se han ido popularizando y comercializando a lo largo del tiempo. Las costumbres más extendidas son fáciles de reconocer: regalar flores, especialmente rosas rojas, símbolo clásico del amor; los bombones y el chocolate, otro regalo típico de la fecha; las tarjetas y mensajes románticos; los corazones por todas partes; y, sobre todo, la cena romántica, que se ha convertido en una de las costumbres centrales del día — los restaurantes suelen llenarse el 14 de febrero. También se han popularizado los regalos para la pareja, que van desde detalles pequeños y simbólicos hasta obsequios más importantes. Todo este conjunto de tradiciones tiene un fuerte componente comercial: San Valentín es una de las grandes campañas del año para floristerías, chocolaterías, restaurantes y comercios en general. Es precisamente ese lado comercial lo que genera parte del debate alrededor de la fecha, pero también es lo que la ha hecho tan visible y reconocible en todo el mundo."
+      },
+      {
+        "h": "La fiesta que divide: ¿celebrarla o no?",
+        "body": "Pocas fechas del calendario dividen tanto las opiniones como San Valentín. Por un lado están quienes la viven con ilusión: para ellos, el 14 de febrero es una excusa perfecta y bonita para parar, dedicar tiempo a la pareja, expresar el cariño y celebrar el amor — argumentan que, con el ritmo de la vida diaria, está bien tener un día reservado para eso. Por otro lado están los que la critican. Algunos rechazan su lado comercial, considerando que es una fiesta inflada artificialmente para vender flores, bombones y cenas. Otros señalan que el amor debería celebrarse todos los días, no en una fecha impuesta. Y otros apuntan a la presión que genera: la sensación de obligación de tener un detalle, de quedar bien, o el malestar que puede provocar en quienes no tienen pareja en ese momento. Como respuesta, han surgido alternativas, como celebrar la amistad ese día, o reírse abiertamente de la fecha. En moomz, este debate es uno de los más recurrentes: San Valentín es, ante todo, una fiesta sobre la que todo el mundo tiene una opinión."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué se celebra San Valentín el 14 de febrero?",
+        "a": "San Valentín se celebra el 14 de febrero por su vínculo con la figura de San Valentín, un personaje ligado al cristianismo de los primeros siglos. La leyenda más conocida cuenta que Valentín era un sacerdote que casaba en secreto a parejas de enamorados en una época en que esos matrimonios estaban prohibidos, y que por ello fue ejecutado precisamente un 14 de febrero. Hay varias versiones de la historia y mucha incertidumbre sobre los hechos reales. Lo que sí ocurrió es que, con el paso de los siglos, esa fecha quedó asociada en la cultura popular al amor y a los enamorados, especialmente en Europa. Sobre esa base se construyó después la fiesta moderna que celebramos hoy."
+      },
+      {
+        "q": "¿Es San Valentín una fiesta solo comercial?",
+        "a": "Es uno de los grandes debates alrededor de esta fecha. Es cierto que San Valentín tal y como se celebra hoy tiene un fuerte componente comercial: es una de las grandes campañas del año para floristerías, chocolaterías, restaurantes y comercios, y muchas de sus tradiciones — regalar flores, bombones, cenas — implican gasto. Por eso hay quien la critica como una fiesta inflada artificialmente para vender. Sin embargo, la asociación entre el 14 de febrero y el amor tiene raíces históricas y culturales que se remontan siglos atrás, mucho antes de su comercialización moderna. Así que la respuesta más justa es que San Valentín tiene un origen cultural real, pero su versión actual está, efectivamente, muy marcada por el comercio. Cada persona decide cómo vivirla."
+      },
+      {
+        "q": "¿Qué se puede regalar en San Valentín?",
+        "a": "Los regalos clásicos de San Valentín son bien conocidos: flores, especialmente rosas rojas; bombones y chocolate; tarjetas y mensajes románticos; y una cena especial, una de las costumbres centrales de la fecha. Pero más allá de lo tradicional, lo importante de un regalo de San Valentín es que sea personal y tenga en cuenta a la otra persona. Un detalle pensado, por pequeño que sea, suele valer más que un regalo caro y genérico. Hay quien prefiere experiencias — una escapada, un plan juntos — en lugar de objetos. Y hay parejas que deciden no regalarse nada y simplemente pasar tiempo de calidad. No existe una regla: lo que mejor funciona es conocer los gustos de la otra persona y, sobre todo, evitar la presión de tener que cumplir con un guion."
+      },
+      {
+        "q": "¿Qué hacer en San Valentín si no tienes pareja?",
+        "a": "San Valentín no tiene por qué ser un día triste para quien no tiene pareja. Cada vez es más común reinterpretar la fecha. Una opción muy popular es celebrar la amistad: quedar con los amigos, hacer un plan en grupo y reivindicar que el amor no es solo el de pareja. Otra es practicar el llamado autocuidado: dedicarse el día a uno mismo, hacer algo que apetezca, un capricho, un plan personal. También hay quien simplemente ignora la fecha y la vive como un día normal, o quien se la toma con humor. La clave es no dejarse llevar por la presión social ni por la idea de que ese día hay que sentirse de una forma concreta. San Valentín es una fiesta opcional, y hay muchas maneras válidas de vivirla, con pareja o sin ella."
+      }
+    ],
+    "related": ["dia-de-la-madre", "carnaval", "amor", "navidad", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "semana-santa",
+    "locale": "es",
+    "keyword": "Semana Santa",
+    "matchPatterns": ["semana santa", "procesion", "procesión", "cofradia", "pasos", "viernes santo"],
+    "topic": "holidays",
+    "title": "Semana Santa — tradición, procesiones y la gran fiesta española",
+    "description": "Semana Santa en España: origen religioso, las procesiones, las cofradías, los pasos y por qué es una de las tradiciones más importantes.",
+    "emoji": "✝️",
+    "intro": "La Semana Santa es una de las tradiciones culturales y religiosas más importantes y arraigadas de España, una celebración que cada año moviliza a millones de personas y atrae a visitantes de todo el mundo. Es una fiesta de origen cristiano que conmemora la pasión, muerte y resurrección de Jesús, y se celebra en la semana que va del Domingo de Ramos al Domingo de Resurrección. Su fecha exacta varía cada año, porque depende del calendario lunar, lo que hace que la Semana Santa pueda caer en marzo o en abril. Más allá de su dimensión religiosa, la Semana Santa es un fenómeno cultural enorme. Lo más característico y reconocible son las procesiones: desfiles solemnes en los que las cofradías y hermandades — asociaciones de fieles con siglos de historia en muchos casos — sacan a la calle los 'pasos', impresionantes esculturas e imágenes religiosas, a menudo auténticas obras de arte, llevadas por los costaleros. Las procesiones recorren las calles de pueblos y ciudades acompañadas de música, incienso, los característicos capirotes y un ambiente de gran intensidad emocional. La Semana Santa de algunas ciudades españolas es especialmente famosa y atrae a un turismo masivo. Es también una fecha de vacaciones para muchos: para parte de la población es ante todo una semana de descanso, viajes y reencuentros familiares. En moomz, las encuestas '¿Semana Santa de procesiones o de vacaciones?', '¿torrijas o no?', '¿qué planes haces?' generan debate. La Semana Santa combina fe, arte, tradición y descanso.",
+    "sections": [
+      {
+        "h": "Origen y significado de la Semana Santa",
+        "body": "La Semana Santa es una celebración de origen cristiano. Conmemora los acontecimientos centrales de la fe cristiana relacionados con los últimos días de Jesús: su entrada en Jerusalén, su pasión, su muerte y su resurrección. Por eso la semana está jalonada de días con significados concretos — el Domingo de Ramos, el Jueves Santo, el Viernes Santo, el Domingo de Resurrección — cada uno asociado a un momento de ese relato. Una particularidad importante es que la Semana Santa no tiene una fecha fija en el calendario: cambia cada año, porque su cálculo depende del ciclo lunar. Por eso puede celebrarse en marzo o en abril según el año. La Semana Santa se celebra en muchos países de tradición cristiana, pero en España ha adquirido a lo largo de los siglos una dimensión y una forma de expresión propias y muy intensas, hasta convertirse en una de las señas de identidad cultural del país. Para los creyentes, es una semana de profundo significado espiritual; para la sociedad en general, es también una de las grandes tradiciones culturales del calendario."
+      },
+      {
+        "h": "Las procesiones, las cofradías y los pasos",
+        "body": "Lo más característico y reconocible de la Semana Santa española son las procesiones. Se trata de desfiles solemnes que recorren las calles de pueblos y ciudades durante los días de la semana. El alma de estas procesiones son las cofradías y hermandades, asociaciones de fieles, muchas de ellas con siglos de historia, que organizan y protagonizan los desfiles. Los miembros de las cofradías, los llamados nazarenos o penitentes, suelen vestir túnicas y el característico capirote, ese gorro alto y puntiagudo que es uno de los símbolos visuales más identificables de la fiesta. El elemento central de cada procesión son los 'pasos': grandes plataformas que portan impresionantes esculturas e imágenes religiosas, muchas de ellas auténticas obras de arte de gran valor histórico. Estos pasos, que pueden ser muy pesados, son llevados a hombros por los costaleros. Las procesiones avanzan acompañadas de música — bandas, marchas procesionales —, del olor del incienso y de un ambiente de gran solemnidad e intensidad emocional, que conmueve tanto a creyentes como a espectadores."
+      },
+      {
+        "h": "Una semana de fe, turismo y vacaciones",
+        "body": "La Semana Santa es vivida de maneras muy distintas según las personas, y esa variedad es parte de su riqueza. Para los creyentes y para quienes participan en las cofradías, es ante todo una semana de profundo significado religioso y emocional, de fe, de tradición familiar transmitida de generación en generación. Para muchas ciudades españolas, la Semana Santa es además un fenómeno turístico de primera magnitud: las celebraciones de algunas localidades son especialmente famosas y atraen cada año a un número enorme de visitantes nacionales y extranjeros, con un gran impacto cultural y económico. Y para otra parte de la población, la Semana Santa es sobre todo un periodo de vacaciones — uno de los grandes puentes del calendario —, una semana de descanso aprovechada para viajar, hacer escapadas o reunirse con la familia. Esta convivencia de dimensiones — la religiosa, la cultural y artística, la turística y la de descanso — es lo que hace de la Semana Santa una fecha tan importante y tan presente en la vida española, celebre cada uno lo que celebre."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué la Semana Santa cambia de fecha cada año?",
+        "a": "La Semana Santa no tiene una fecha fija en el calendario y puede caer en marzo o en abril según el año. El motivo es que su fecha se calcula en función del ciclo lunar, siguiendo una regla tradicional ligada al calendario cristiano. Al depender de las fases de la luna y no de una fecha concreta del calendario, la Semana Santa se desplaza de un año a otro. Por eso unos años se celebra antes y otros más tarde. Esto la diferencia de fiestas con fecha fija como la Navidad. Esta variabilidad es algo que la gente ya tiene asumido, y cada año se consulta cuándo caerá la Semana Santa para organizar las vacaciones, los viajes y las celebraciones."
+      },
+      {
+        "q": "¿Qué son las cofradías y los pasos?",
+        "a": "Las cofradías y hermandades son el alma de la Semana Santa española. Se trata de asociaciones de fieles, muchas de ellas con siglos de historia, que organizan y protagonizan las procesiones. Sus miembros, los nazarenos o penitentes, suelen vestir túnicas y el característico capirote, ese gorro alto y puntiagudo tan reconocible. Los 'pasos', por su parte, son el elemento central de cada procesión: grandes plataformas que portan impresionantes esculturas e imágenes religiosas, muchas de ellas auténticas obras de arte de gran valor. Estos pasos, que pueden ser muy pesados, son llevados a hombros por los costaleros a lo largo del recorrido. Cofradías, nazarenos y pasos forman, juntos, la imagen más reconocible de la Semana Santa."
+      },
+      {
+        "q": "¿Hay que ser religioso para disfrutar la Semana Santa?",
+        "a": "No necesariamente. La Semana Santa tiene un origen y un significado religioso profundo, y para los creyentes es ante todo una semana de fe. Pero la celebración tiene también una enorme dimensión cultural, artística y social que pueden apreciar personas de cualquier creencia. Las procesiones, con sus pasos que son obras de arte, su música, su solemnidad y su ambiente, atraen cada año a multitud de espectadores, incluidos turistas de todo el mundo que no son religiosos pero disfrutan del espectáculo cultural. Además, para mucha gente la Semana Santa es simplemente un periodo de vacaciones y descanso. Así que se puede vivir y disfrutar de muchas formas: como experiencia religiosa, como tradición cultural, como atractivo turístico o como tiempo libre."
+      },
+      {
+        "q": "¿Qué se come en Semana Santa?",
+        "a": "La Semana Santa tiene su propia gastronomía tradicional, ligada en parte a las costumbres religiosas de la fecha. El dulce más emblemático son las torrijas: rebanadas de pan empapadas en leche o vino, rebozadas en huevo, fritas y endulzadas, un postre que se asocia inseparablemente a estas fechas. También son típicos otros dulces como los pestiños o las monas de Pascua, estas últimas especialmente en algunas regiones. En cuanto a los platos salados, la tradición religiosa de no comer carne en ciertos días de la Semana Santa ha dado lugar a recetas típicas a base de pescado y verduras, como el potaje de garbanzos con bacalao o el bacalao en distintas preparaciones. La gastronomía de Semana Santa varía según la región, pero las torrijas son, sin duda, el sabor más universal de estas fechas en España."
+      }
+    ],
+    "related": ["feria-abril", "carnaval", "navidad", "ano-nuevo", "reyes-magos"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "halloween",
+    "locale": "es",
+    "keyword": "Halloween",
+    "matchPatterns": ["halloween", "noche de brujas", "disfraz", "calabaza", "truco o trato", "miedo"],
+    "topic": "holidays",
+    "title": "Halloween — la noche de brujas, origen y por qué triunfa",
+    "description": "Halloween: del Samhain celta a la fiesta global del 31 de octubre. Disfraces, calabazas, truco o trato y su reciente llegada a España.",
+    "emoji": "🎃",
+    "intro": "Halloween, la 'noche de brujas', se celebra cada 31 de octubre y se ha convertido en una de las fiestas más populares y globales del mundo, especialmente entre la gente joven. Aunque hoy se asocia sobre todo a la cultura estadounidense, su origen es mucho más antiguo y europeo. Halloween tiene sus raíces en el Samhain, una antigua festividad de los pueblos celtas que marcaba el final de la temporada de cosechas y el comienzo del invierno. Según aquellas creencias, en esa noche la frontera entre el mundo de los vivos y el de los muertos se volvía más fina. Con el tiempo, esa tradición se fue mezclando con otras celebraciones, y su nombre actual deriva de la expresión inglesa que designa la víspera del Día de Todos los Santos. La fiesta viajó a Estados Unidos con los emigrantes europeos, y fue allí donde se transformó en la celebración que conocemos hoy: una mezcla de disfraces, decoración terrorífica, calabazas iluminadas, dulces y diversión en torno al miedo. Desde Estados Unidos, gracias sobre todo al cine y a la cultura popular, Halloween se ha exportado al mundo entero. En España, Halloween es una llegada relativamente reciente que ha calado con fuerza, especialmente entre niños y jóvenes, conviviendo con tradiciones propias de esas mismas fechas. En moomz, las encuestas '¿Halloween o tradición de Todos los Santos?', '¿mejor disfraz?', '¿te gusta el terror?' generan debate. Halloween es la gran fiesta del miedo divertido.",
+    "sections": [
+      {
+        "h": "Del Samhain celta a la noche de brujas",
+        "body": "El origen de Halloween es mucho más antiguo de lo que muchos imaginan, y es europeo, no estadounidense. La fiesta hunde sus raíces en el Samhain, una antigua festividad de los pueblos celtas. El Samhain marcaba un momento clave del año: el final de la temporada de cosechas y el comienzo de la mitad oscura del año, el invierno. Para aquellos pueblos, era un momento cargado de significado, y según sus creencias, durante esa noche la frontera entre el mundo de los vivos y el de los muertos se volvía especialmente delgada. Con el paso de los siglos, y con la expansión del cristianismo, aquella celebración se fue mezclando con otras festividades de esas mismas fechas, como el Día de Todos los Santos. De hecho, el nombre 'Halloween' deriva de una expresión inglesa que significa, precisamente, la víspera de Todos los Santos. Así, lo que hoy vivimos como una fiesta moderna y comercial es, en realidad, el resultado de una larguísima evolución que parte de antiguas tradiciones europeas relacionadas con el cambio de estación y el recuerdo de los difuntos."
+      },
+      {
+        "h": "Disfraces, calabazas y truco o trato",
+        "body": "El Halloween moderno tiene un conjunto de tradiciones muy reconocibles, que se forjaron sobre todo en Estados Unidos. La más universal es la de los disfraces: vestirse, especialmente de personajes terroríficos — fantasmas, brujas, monstruos, esqueletos — aunque hoy vale cualquier disfraz. La decoración es otro elemento clave: casas y calles se llenan de motivos tenebrosos. Y, por supuesto, está la calabaza iluminada, quizás el símbolo visual más identificable de la fiesta: una calabaza vaciada en la que se talla una cara y se coloca una luz en su interior. Otra tradición muy conocida es la del 'truco o trato': los niños, disfrazados, van de puerta en puerta pidiendo dulces, con la fórmula de que, si no se les da una golosina, harán una pequeña travesura. Todas estas costumbres tienen algo en común: juegan con el miedo de una forma divertida y festiva, convirtiendo lo terrorífico en motivo de celebración. Es esa mezcla de susto y diversión la que ha hecho de Halloween una fiesta tan atractiva, sobre todo para los más jóvenes."
+      },
+      {
+        "h": "Halloween en España: una fiesta importada que triunfa",
+        "body": "En España, Halloween es una celebración de llegada relativamente reciente. Durante mucho tiempo, el 31 de octubre y los primeros días de noviembre estuvieron marcados en el país por tradiciones propias ligadas al Día de Todos los Santos y al recuerdo de los difuntos — la visita a los cementerios, las flores, dulces típicos de la temporada. Halloween llegó después, importado sobre todo a través del cine, las series y la cultura popular estadounidense, y ha calado con fuerza, especialmente entre los niños y la gente joven. Hoy es habitual ver en España fiestas de disfraces, decoración terrorífica en comercios y casas, y eventos de Halloween por todas partes. Esta llegada ha generado cierto debate: hay quien considera que Halloween eclipsa o sustituye tradiciones propias, y hay quien simplemente la disfruta como una fiesta más, divertida y sin complicaciones. En la práctica, lo que ha ocurrido es una convivencia: Halloween se ha sumado al calendario español sin hacer desaparecer del todo las costumbres anteriores. Es un buen ejemplo de cómo las fiestas viajan y se transforman en un mundo globalizado."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿De dónde viene Halloween?",
+        "a": "Aunque hoy se asocia sobre todo a Estados Unidos, el origen de Halloween es europeo y muy antiguo. La fiesta hunde sus raíces en el Samhain, una antigua festividad de los pueblos celtas que marcaba el final de la temporada de cosechas y el comienzo del invierno, y que según sus creencias era una noche en la que la frontera entre vivos y muertos se volvía más fina. Con el paso de los siglos, esa tradición se fue mezclando con otras celebraciones de las mismas fechas, como el Día de Todos los Santos — de hecho, el nombre 'Halloween' deriva de una expresión inglesa que significa la víspera de Todos los Santos. La fiesta viajó después a Estados Unidos con los emigrantes europeos, y allí se transformó en la celebración moderna que hoy se ha exportado al mundo entero."
+      },
+      {
+        "q": "¿Qué significa 'truco o trato'?",
+        "a": "'Truco o trato' es una de las tradiciones más conocidas de Halloween. Consiste en que los niños, disfrazados, recorren las casas de su vecindario llamando a las puertas y pidiendo dulces. La expresión 'truco o trato' funciona como una especie de fórmula lúdica: el mensaje es que, si los adultos de la casa les dan una golosina (el 'trato'), todo bien; pero si no se les da nada, los niños harán una pequeña travesura inofensiva (el 'truco'). En la práctica, es un juego festivo y amable: las casas que participan suelen tener dulces preparados para repartir. Es una costumbre que se popularizó sobre todo en Estados Unidos y que, con la expansión global de Halloween, se ha extendido a muchos otros países. Es una de las actividades favoritas de los niños en esta fiesta."
+      },
+      {
+        "q": "¿Halloween es lo mismo que el Día de Todos los Santos?",
+        "a": "No son lo mismo, aunque están relacionados por las fechas. Halloween se celebra la noche del 31 de octubre, y el Día de Todos los Santos es el 1 de noviembre. De hecho, el propio nombre 'Halloween' deriva de una expresión que significa 'víspera de Todos los Santos', lo que muestra su conexión histórica. Sin embargo, hoy tienen un carácter muy distinto. Halloween es una fiesta lúdica y festiva, centrada en los disfraces, el miedo divertido y los dulces. El Día de Todos los Santos es una jornada de recuerdo de los difuntos, con tradiciones como la visita a los cementerios. En países como España conviven ambas: Halloween, de llegada más reciente, y las tradiciones propias de Todos los Santos, que tienen mucha más historia en el país."
+      },
+      {
+        "q": "¿Por qué la calabaza es el símbolo de Halloween?",
+        "a": "La calabaza iluminada es probablemente el símbolo visual más reconocible de Halloween. Se trata de una calabaza a la que se le vacía el interior, se le talla una cara — a menudo con expresión terrorífica o burlona — y se le coloca una luz dentro, de modo que la cara queda iluminada y brilla en la oscuridad. Esta tradición se popularizó en Estados Unidos, donde la calabaza, abundante en esa época del año por la temporada de cosecha de otoño, se convirtió en el material ideal para esta costumbre. La calabaza tallada e iluminada se asocia a leyendas populares de la cultura anglosajona. Hoy es un elemento decorativo central de la fiesta: se ven calabazas de Halloween por todas partes, en casas, comercios y eventos, y tallarlas se ha convertido en una actividad típica de estas fechas."
+      }
+    ],
+    "related": ["dia-de-muertos", "carnaval", "navidad", "san-valentin", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ano-nuevo",
+    "locale": "es",
+    "keyword": "Año Nuevo",
+    "matchPatterns": ["año nuevo", "ano nuevo", "uvas", "campanadas", "propositos", "1 de enero"],
+    "topic": "holidays",
+    "title": "Año Nuevo — campanadas, uvas y propósitos del 1 de enero",
+    "description": "Año Nuevo: la celebración del 1 de enero, las doce uvas españolas, las campanadas, los propósitos y las grandes tradiciones de la suerte.",
+    "emoji": "🎉",
+    "intro": "El Año Nuevo es una de las celebraciones más universales del planeta: prácticamente todo el mundo, sea cual sea su cultura, marca de algún modo el paso de un año al siguiente. En la mayoría de países, el Año Nuevo se celebra el 1 de enero, según el calendario que se usa de forma común en gran parte del mundo. La celebración tiene en realidad dos momentos: la Nochevieja, la noche del 31 de diciembre, que es cuando ocurre la gran fiesta de despedida del año; y el propio día 1 de enero, primer día del nuevo año. El Año Nuevo es una fecha cargada de simbolismo. Representa un final y un comienzo, un punto de inflexión: es el momento en que la gente echa la vista atrás para hacer balance del año que termina y, a la vez, mira hacia delante con esperanza e ilusión por el que empieza. De ahí nacen muchas de sus tradiciones, como la de los propósitos de Año Nuevo. España tiene una tradición de Año Nuevo muy característica y famosa: la de tomarse las doce uvas al ritmo de las campanadas de medianoche. En moomz, las encuestas '¿conseguiste comer las doce uvas?', '¿propósitos de Año Nuevo, sí o no?', '¿mejor forma de celebrar la Nochevieja?' enganchan a todo el mundo. El Año Nuevo es la fiesta de los nuevos comienzos.",
+    "sections": [
+      {
+        "h": "Las doce uvas y las campanadas",
+        "body": "España tiene una de las tradiciones de Año Nuevo más características y reconocibles del mundo: la de las doce uvas. La costumbre consiste en tomarse doce uvas en la noche del 31 de diciembre, una por cada una de las doce campanadas que marcan la llegada de la medianoche y, con ella, el comienzo del nuevo año. La tradición dice que hay que comer una uva con cada campanada, al ritmo que estas marcan, y que conseguir comérselas todas a tiempo trae buena suerte para el año que empieza. En la práctica, comerse las doce uvas al compás de las campanadas tiene su dificultad — es fácil atragantarse o perder el ritmo —, y eso forma parte de la diversión: cada Nochevieja, las familias y los grupos de amigos viven el momento entre risas y nervios. Las campanadas son retransmitidas por la televisión desde un lugar emblemático, y millones de españoles las siguen a la vez, lo que convierte el momento en un ritual colectivo nacional. Las doce uvas son, sin duda, el símbolo más identificable del Año Nuevo español."
+      },
+      {
+        "h": "Los propósitos de Año Nuevo",
+        "body": "Una de las tradiciones más universales del Año Nuevo es la de los propósitos: la costumbre de aprovechar el comienzo del nuevo año para plantearse objetivos, metas o cambios que se quieren lograr o llevar a cabo durante los doce meses que empiezan. Los propósitos de Año Nuevo nacen de ese simbolismo de la fecha como un nuevo comienzo, una página en blanco: el cambio de año invita a la gente a querer mejorar algún aspecto de su vida. Los propósitos más típicos suelen tener que ver con la salud, el deporte, los hábitos, el trabajo, los estudios, las relaciones o el ahorro. Sin embargo, los propósitos de Año Nuevo tienen también su lado realista, y es algo de lo que se habla mucho: con frecuencia se abandonan al poco tiempo, ya que mantener un cambio de hábitos a largo plazo es difícil. Por eso hay quien los considera una tradición ilusionante y motivadora, y quien los ve con cierto escepticismo. En cualquier caso, hacer balance del año y plantearse cosas para el siguiente es un ritual muy extendido."
+      },
+      {
+        "h": "Tradiciones de la suerte y celebración global",
+        "body": "El Año Nuevo está rodeado de tradiciones y supersticiones relacionadas con atraer la buena suerte para los doce meses que empiezan. Además de las doce uvas, en España y en otros países existen costumbres muy diversas: hay quien recibe el año vestido con ropa interior de un color concreto, considerado de buena suerte; quien introduce algún objeto en la copa al brindar; quien sigue rituales de todo tipo en el primer momento del año. Cada cultura tiene las suyas, y muchas comparten esa idea de que lo que se haga al empezar el año tendrá influencia en cómo va a ir. Más allá de las supersticiones, el Año Nuevo es una celebración verdaderamente global: en todo el mundo se despide el año con fiestas, cenas, reuniones familiares o de amigos, brindis y, en muchas ciudades, espectáculos de fuegos artificiales. Es uno de los pocos momentos en que prácticamente todo el planeta celebra algo a la vez, cada lugar a su hora, en una sucesión de medianoches que recorre el globo. El Año Nuevo une, en cierto modo, a toda la humanidad en torno a la idea de un nuevo comienzo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué se comen doce uvas en Año Nuevo en España?",
+        "a": "Tomarse doce uvas en la noche del 31 de diciembre es una de las tradiciones de Año Nuevo más características de España. La costumbre consiste en comer una uva con cada una de las doce campanadas que marcan la llegada de la medianoche y el comienzo del nuevo año. La tradición dice que conseguir comerse las doce uvas al ritmo de las campanadas trae buena suerte para el año que empieza. En la práctica tiene su dificultad, y eso forma parte de la diversión del momento. Las campanadas se retransmiten por televisión desde un lugar emblemático y millones de españoles las siguen a la vez, lo que convierte el ritual de las uvas en una celebración colectiva nacional. Es el símbolo más reconocible del Año Nuevo español."
+      },
+      {
+        "q": "¿Qué es la Nochevieja?",
+        "a": "La Nochevieja es la noche del 31 de diciembre, la última del año, y es cuando tiene lugar la gran fiesta de despedida del año saliente y de bienvenida al nuevo. Conviene distinguirla del Año Nuevo en sentido estricto, que es el día 1 de enero, primer día del nuevo año. La celebración del cambio de año tiene, por tanto, esos dos momentos. La Nochevieja es la noche de la fiesta: cenas especiales, reuniones familiares o con amigos, las campanadas y las uvas a medianoche, brindis y, después, en muchos casos, fiesta hasta la madrugada. El día de Año Nuevo, el 1 de enero, suele ser un día más tranquilo y de descanso. Nochevieja y Año Nuevo forman juntos una de las grandes celebraciones del calendario."
+      },
+      {
+        "q": "¿Funcionan los propósitos de Año Nuevo?",
+        "a": "Es un tema del que se habla mucho. Los propósitos de Año Nuevo — la costumbre de plantearse objetivos al empezar el año — nacen del simbolismo de la fecha como un nuevo comienzo. Son una tradición ilusionante y motivadora: animan a la gente a querer mejorar. Sin embargo, también es muy conocido su lado realista: con frecuencia los propósitos se abandonan al poco tiempo, porque mantener un cambio de hábitos a largo plazo es difícil. Los expertos suelen señalar que los propósitos funcionan mejor cuando son concretos, realistas y se acompañan de un plan, en lugar de ser metas muy vagas o demasiado ambiciosas. Así que pueden funcionar, pero requieren constancia. Lo importante es no frustrarse si no se cumplen todos: el balance y la reflexión que invitan a hacer ya tienen valor por sí mismos."
+      },
+      {
+        "q": "¿Por qué el Año Nuevo se celebra el 1 de enero?",
+        "a": "El Año Nuevo se celebra el 1 de enero en la mayoría de los países del mundo porque ese es el primer día del año según el calendario de uso común en gran parte del planeta. Es importante señalar que no todas las culturas celebran el comienzo del año en la misma fecha: existen otros calendarios y otras tradiciones, como el Año Nuevo chino, que se celebra en una fecha distinta. Pero el 1 de enero, según el calendario más extendido internacionalmente, se ha convertido en la fecha de Año Nuevo que comparten la mayoría de países, lo que hace que sea una de las pocas celebraciones que prácticamente todo el mundo marca de algún modo más o menos a la vez."
+      }
+    ],
+    "related": ["fin-de-ano", "nochebuena", "reyes-magos", "navidad", "san-valentin"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reyes-magos",
+    "locale": "es",
+    "keyword": "Reyes Magos",
+    "matchPatterns": ["reyes magos", "reyes", "melchor", "gaspar", "baltasar", "cabalgata"],
+    "topic": "holidays",
+    "title": "Reyes Magos — el 6 de enero, la cabalgata y los regalos",
+    "description": "Los Reyes Magos: la tradición del 6 de enero en España. Melchor, Gaspar y Baltasar, la cabalgata, el roscón y la ilusión infantil.",
+    "emoji": "👑",
+    "intro": "El Día de Reyes, que se celebra el 6 de enero, es una de las fechas más mágicas y queridas del calendario español, especialmente para los niños. Esta festividad tiene un origen cristiano: conmemora la Epifanía, es decir, la visita de los Reyes Magos al niño Jesús según el relato tradicional, en la que estos tres personajes — conocidos como Melchor, Gaspar y Baltasar — le llevaron regalos. De ese relato nace la tradición más importante de la fecha en España: la noche del 5 al 6 de enero, la noche de Reyes, es la noche en la que los Reyes Magos traen los regalos a los niños. Es importante entender este detalle cultural: en España, a diferencia de otros países donde los regalos se asocian sobre todo a la noche de Navidad y a la figura de Papá Noel, la gran noche de los regalos infantiles ha sido tradicionalmente la de Reyes. Para los niños españoles, la noche del 5 de enero es una de las más emocionantes del año: se escribe la carta a los Reyes pidiendo los regalos, se les deja algo de comer y beber, y se espera con enorme ilusión que a la mañana siguiente hayan dejado los obsequios. La fecha tiene además otras tradiciones muy arraigadas, como la cabalgata y el roscón de Reyes. En moomz, las encuestas '¿Reyes Magos o Papá Noel?', '¿roscón con nata o sin nata?', '¿tu Rey favorito?' generan debate. El Día de Reyes es pura ilusión.",
+    "sections": [
+      {
+        "h": "El origen: la Epifanía y los tres Reyes",
+        "body": "El Día de Reyes, el 6 de enero, tiene un origen religioso: celebra la Epifanía, una festividad cristiana que conmemora la visita de los Reyes Magos al niño Jesús. Según el relato tradicional, tras el nacimiento de Jesús, tres personajes procedentes de Oriente — que la tradición ha fijado como Melchor, Gaspar y Baltasar — viajaron guiados por una estrella para visitarlo y le llevaron regalos. Esos tres personajes son los Reyes Magos. De ese relato nace toda la tradición de la fecha. La idea de que los Reyes llevaron regalos al niño Jesús es la base de la costumbre de que, en la noche de Reyes, sean ellos quienes traigan los regalos a los niños. Cada uno de los tres Reyes tiene en la tradición popular su propia personalidad y aspecto característicos, y los niños suelen tener su Rey favorito. Así, una festividad de origen religioso se ha transformado, con el tiempo, en una celebración familiar centrada en la ilusión, los regalos y la magia, sin que ello haya hecho desaparecer su significado original."
+      },
+      {
+        "h": "La noche de Reyes y la magia de los regalos",
+        "body": "El corazón de la festividad, lo que la hace tan especial sobre todo para los niños, es la noche del 5 al 6 de enero, la noche de Reyes. Es, por tradición, la gran noche de los regalos infantiles en España. El proceso forma parte de la magia: en los días o semanas previos, los niños escriben su carta a los Reyes Magos, en la que les cuentan cómo se han portado y les piden los regalos que desean. La noche del 5 de enero, antes de irse a dormir, es costumbre dejar preparados los zapatos — para que los Reyes sepan dónde dejar los regalos — y algo de comer y beber para los Reyes y para sus camellos, que han hecho un largo viaje. Y luego llega la espera, llena de nervios e ilusión, hasta la mañana del 6 de enero, cuando los niños descubren los regalos que los Reyes les han dejado. Esta tradición es uno de los recuerdos de infancia más bonitos para muchos españoles. Es importante señalar que en España la gran noche de los regalos ha sido tradicionalmente esta, la de Reyes, y no la de Navidad."
+      },
+      {
+        "h": "La cabalgata y el roscón de Reyes",
+        "body": "Además de la noche de los regalos, el Día de Reyes tiene otras dos tradiciones muy arraigadas en España. La primera es la cabalgata de Reyes: la tarde del 5 de enero, en pueblos y ciudades de toda España se celebran desfiles en los que los Reyes Magos recorren las calles, normalmente sobre carrozas, saludando a la gente y, muy a menudo, lanzando caramelos a los niños. La cabalgata es un acontecimiento muy esperado, una fiesta callejera que reúne a las familias y que supone la antesala de la gran noche. La segunda tradición es gastronómica: el roscón de Reyes. Se trata de un dulce típico de la fecha, un bizcocho con forma de rosca, decorado con frutas confitadas, que se come el día de Reyes. El roscón tiene además un componente lúdico: en su interior se esconden una figurita y, según la costumbre, un haba — a quien le toca la figurita se le considera 'rey' del día, y a quien le toca el haba le corresponde, por tradición, pagar el roscón. El roscón se puede encontrar en distintas versiones, con relleno o sin él, lo que da pie a uno de los pequeños debates clásicos de la fecha."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quiénes son Melchor, Gaspar y Baltasar?",
+        "a": "Melchor, Gaspar y Baltasar son los nombres que la tradición ha dado a los tres Reyes Magos. Según el relato cristiano de la Epifanía, tras el nacimiento de Jesús, tres personajes procedentes de Oriente viajaron guiados por una estrella para visitar al niño y le llevaron regalos. La tradición popular ha ido fijando con el tiempo los nombres de estos tres Reyes — Melchor, Gaspar y Baltasar —, así como una personalidad y un aspecto característicos para cada uno de ellos. Son figuras centrales de la festividad del 6 de enero en España, y los niños suelen tener su Rey favorito. La idea de que los Reyes llevaron regalos al niño Jesús es la base de la tradición de que, en la noche de Reyes, traigan los regalos a los niños."
+      },
+      {
+        "q": "¿Cuándo traen los regalos los Reyes Magos?",
+        "a": "Los Reyes Magos traen los regalos en la noche del 5 al 6 de enero, conocida como la noche de Reyes. Esta es, por tradición, la gran noche de los regalos infantiles en España. Los niños escriben previamente su carta a los Reyes pidiendo lo que desean, y la noche del 5 de enero dejan preparados sus zapatos y algo de comer y beber para los Reyes y sus camellos. A la mañana siguiente, el 6 de enero, descubren los regalos. Es importante conocer este detalle cultural: en España, a diferencia de otros países donde los regalos se asocian a la noche de Navidad y a la figura de Papá Noel, la gran noche de los regalos ha sido tradicionalmente la de Reyes, aunque hoy muchas familias combinan ambas tradiciones."
+      },
+      {
+        "q": "¿Qué es el roscón de Reyes?",
+        "a": "El roscón de Reyes es el dulce típico del Día de Reyes en España. Se trata de un bizcocho con forma de rosca, es decir, en forma de aro o anillo, decorado por encima con frutas confitadas de colores. Se come el 6 de enero, día de Reyes. El roscón tiene un componente lúdico muy característico: en su interior se esconden dos sorpresas. Por un lado, una figurita: a quien le toca en su porción se le considera, de forma simbólica, el 'rey' del día. Por otro lado, un haba: según la tradición, a quien le toca el haba le corresponde pagar el roscón. El roscón se puede encontrar en distintas versiones — con relleno, como nata o crema, o sin relleno —, y la elección entre unas y otras es uno de los pequeños debates clásicos de la fecha."
+      },
+      {
+        "q": "¿Reyes Magos o Papá Noel?",
+        "a": "Es un debate muy presente en España. Tradicionalmente, en el país la gran noche de los regalos infantiles ha sido la de Reyes, el 5 al 6 de enero, con los Reyes Magos como protagonistas. La figura de Papá Noel, que trae los regalos en la noche de Navidad, llegó más tarde, importada de otras culturas. Hoy conviven ambas tradiciones, y muchas familias españolas combinan las dos: algún regalo de Papá Noel en Navidad y los regalos de los Reyes el 6 de enero. Esto genera debate: hay quien defiende mantener la tradición propia de los Reyes Magos como seña de identidad cultural, y hay quien simplemente disfruta de ambas. La realidad es que las dos figuras conviven en la España actual, y cada familia decide cómo organizar sus tradiciones navideñas."
+      }
+    ],
+    "related": ["nochebuena", "ano-nuevo", "fin-de-ano", "navidad", "carnaval"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nochebuena",
+    "locale": "es",
+    "keyword": "Nochebuena",
+    "matchPatterns": ["nochebuena", "noche buena", "24 de diciembre", "cena", "familia", "villancicos"],
+    "topic": "holidays",
+    "title": "Nochebuena — la noche del 24 de diciembre en familia",
+    "description": "Nochebuena: la celebración del 24 de diciembre. La cena familiar, los villancicos, las tradiciones navideñas y su significado más profundo.",
+    "emoji": "🎄",
+    "intro": "La Nochebuena es la noche del 24 de diciembre, la víspera del día de Navidad, y es una de las celebraciones más importantes y emotivas del calendario en España y en muchos países. Es una fecha de origen cristiano: la Nochebuena es la noche en que, según la tradición, se celebra el nacimiento de Jesús. De hecho, su propio nombre — la 'noche buena' — alude al carácter especialmente significativo y feliz que la tradición atribuye a esa noche. Pero, más allá de su dimensión religiosa, la Nochebuena se ha convertido para la inmensa mayoría de la gente en algo muy concreto: la gran noche de reunión familiar de las fiestas navideñas. La imagen central de la Nochebuena es la cena familiar: la noche del 24 de diciembre, las familias se reúnen alrededor de la mesa para celebrar juntos, en lo que suele ser una de las cenas más cuidadas, abundantes y especiales del año. Es una noche cargada de tradiciones: la decoración navideña, los villancicos, los reencuentros, y en muchos hogares también el intercambio de regalos. La Nochebuena tiene un fuerte componente emocional: es un momento de unión, de echar de menos a quienes ya no están, de hacer un alto en el ritmo del año. En moomz, las encuestas '¿mejor plato de la cena de Nochebuena?', '¿Nochebuena en familia o con amigos?', '¿villancicos sí o no?' generan debate. La Nochebuena es la noche del reencuentro.",
+    "sections": [
+      {
+        "h": "El significado de la Nochebuena",
+        "body": "La Nochebuena, la noche del 24 de diciembre, tiene un origen y un significado religioso: según la tradición cristiana, es la noche en que se celebra el nacimiento de Jesús, y de ahí que sea la víspera del día de Navidad. El propio nombre de la fecha, la 'noche buena', alude a ese carácter especialmente significativo y feliz que la tradición le atribuye. Para los creyentes, la Nochebuena conserva ese significado espiritual, y una tradición muy ligada a la fecha es la celebración de la Misa del Gallo, la misa nocturna de Navidad. Sin embargo, con el paso del tiempo, la Nochebuena se ha convertido para la inmensa mayoría de la gente, sea o no creyente, en algo que va más allá de lo religioso: es ante todo la gran noche de reunión familiar de las fiestas navideñas. Esa dimensión de encuentro, de familia, de calor del hogar, es la que define hoy la Nochebuena en la práctica, conviva o no con su sentido religioso original. Es una fecha que la mayoría de la gente vive con intensidad emocional."
+      },
+      {
+        "h": "La cena de Nochebuena: el corazón de la fiesta",
+        "body": "Si hay una imagen que define la Nochebuena, esa es la de la cena familiar. La noche del 24 de diciembre, las familias se reúnen alrededor de la mesa para celebrar juntas, en lo que suele ser una de las cenas más esperadas, cuidadas y especiales de todo el año. La cena de Nochebuena es una tradición central: muchas familias preparan platos que solo se hacen en estas fechas, recetas que pasan de generación en generación, y la mesa se llena de productos especiales. La gastronomía de la Nochebuena varía mucho según la región y según cada familia, pero suele caracterizarse por ser abundante y festiva. Además de la comida, la cena de Nochebuena es un momento de conversación, de reencuentro, de estar juntos. Para muchas familias es la ocasión del año en que se reúnen todos sus miembros, incluidos los que viven lejos. El intercambio de regalos forma parte también de la noche en muchos hogares. La cena de Nochebuena es, en definitiva, mucho más que una comida: es el ritual que reúne a la familia."
+      },
+      {
+        "h": "Villancicos, decoración y emoción navideña",
+        "body": "La Nochebuena está rodeada de un conjunto de tradiciones que crean su ambiente tan característico. Una de las más reconocibles son los villancicos, las canciones navideñas tradicionales que suenan en estas fechas y que, para mucha gente, forman parte inseparable del espíritu de la Navidad. La decoración es otro elemento central: en los días previos, los hogares se visten de Navidad — el árbol, las luces, el belén o nacimiento en muchas casas, los adornos —, creando un ambiente especial que culmina en la Nochebuena. Pero quizás lo más característico de la Nochebuena es su carga emocional. Es una noche de unión y de reencuentro, en la que muchas familias se juntan al completo. Es también, inevitablemente, una noche en la que se recuerda y se echa de menos a los seres queridos que ya no están, lo que le da un componente agridulce. Y es un momento de hacer un alto en el ritmo del año, de parar y valorar lo importante. Esa mezcla de alegría, reencuentro, tradición y emoción es lo que hace de la Nochebuena una noche tan especial para tanta gente."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué se celebra en Nochebuena?",
+        "a": "La Nochebuena es la noche del 24 de diciembre, la víspera del día de Navidad. Tiene un origen religioso: según la tradición cristiana, es la noche en que se celebra el nacimiento de Jesús, y su propio nombre — la 'noche buena' — alude a ese carácter especialmente significativo. Para los creyentes conserva ese significado espiritual. Pero, más allá de lo religioso, la Nochebuena se ha convertido para la mayoría de la gente en la gran noche de reunión familiar de las fiestas navideñas: la noche en que las familias se juntan para cenar y celebrar juntas. Así que en la Nochebuena se celebra, según cada persona, el nacimiento de Jesús, la Navidad en su sentido más amplio, y, sobre todo, el reencuentro y la unión familiar."
+      },
+      {
+        "q": "¿Qué diferencia hay entre Nochebuena y Navidad?",
+        "a": "La Nochebuena y la Navidad son fechas consecutivas y muy relacionadas, pero no son lo mismo. La Nochebuena es la noche del 24 de diciembre, la víspera, y es cuando tiene lugar la gran celebración: la cena familiar, los reencuentros, en muchos casos el intercambio de regalos. El día de Navidad es el 25 de diciembre, el día siguiente. Tradicionalmente, la gran celebración nocturna y la cena se hacen en la Nochebuena, mientras que el día de Navidad, el 25, suele ser un día más de reunión familiar, a menudo con una comida del mediodía. En la práctica, ambas fechas forman parte de la misma celebración navideña, pero la Nochebuena es la noche de la gran fiesta y la Navidad es el día que la sigue."
+      },
+      {
+        "q": "¿Qué se come en la cena de Nochebuena?",
+        "a": "La cena de Nochebuena es una de las más cuidadas y especiales del año, y su contenido varía mucho según la región y según cada familia. En general, se caracteriza por ser una cena abundante y festiva, en la que muchas familias preparan platos que solo se hacen en estas fechas, recetas tradicionales que pasan de generación en generación. Es habitual que la mesa se llene de productos considerados especiales o de cierto lujo. Como postre, son muy típicos los dulces navideños tradicionales, como los turrones, los polvorones o los mazapanes, que son sabores inseparables de estas fechas en España. No existe un menú único: cada familia tiene sus propias tradiciones culinarias para la noche de Nochebuena, y eso forma parte de su encanto."
+      },
+      {
+        "q": "¿Por qué la Nochebuena es tan emotiva?",
+        "a": "La Nochebuena tiene una carga emocional muy fuerte por varias razones. Es, ante todo, una noche de reencuentro: muchas familias se reúnen al completo, incluidos los miembros que viven lejos, y para algunas es la ocasión del año en que se juntan todos. Ese encuentro genera alegría y calor. Al mismo tiempo, es inevitablemente una noche en la que se recuerda y se echa de menos a los seres queridos que ya no están, lo que le da un componente agridulce y conmovedor. Es también un momento de parar el ritmo del año, de hacer balance y valorar lo importante. Y está rodeada de tradiciones — la decoración, los villancicos, los rituales familiares — que despiertan recuerdos de la infancia. Esa mezcla de reencuentro, nostalgia, tradición y pausa es lo que hace de la Nochebuena una noche tan especial y emotiva."
+      }
+    ],
+    "related": ["ano-nuevo", "reyes-magos", "fin-de-ano", "navidad", "san-valentin"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dia-de-muertos",
+    "locale": "es",
+    "keyword": "Día de Muertos",
+    "matchPatterns": ["dia de muertos", "día de muertos", "catrina", "ofrenda", "mexico", "altar"],
+    "topic": "holidays",
+    "title": "Día de Muertos — la celebración mexicana de la vida y la muerte",
+    "description": "Día de Muertos: la tradición mexicana del 1 y 2 de noviembre. Las ofrendas, los altares, las catrinas, las calaveras y el legado de UNESCO.",
+    "emoji": "💀",
+    "intro": "El Día de Muertos es una de las celebraciones más bellas, profundas y reconocibles de la cultura latinoamericana, y muy especialmente de México, donde es una auténtica seña de identidad nacional. Se celebra principalmente los días 1 y 2 de noviembre, fechas en las que la tradición dice que las almas de los seres queridos fallecidos regresan para reunirse con sus familias. Lo que hace tan especial al Día de Muertos es su enfoque ante la muerte: en lugar de vivir esta fecha como un momento de tristeza o de luto, la cultura mexicana la celebra como una fiesta de la vida, una ocasión llena de color, comida, música y alegría para recordar y honrar a quienes ya no están. Es una forma de entender la muerte que sorprende y conmueve: no como un final triste y sombrío, sino como parte del ciclo de la vida, y a los difuntos no se les llora, se les celebra y se les invita a volver. La tradición tiene raíces muy antiguas, que mezclan creencias de los pueblos prehispánicos de México con elementos llegados después. El Día de Muertos es tan importante culturalmente que la UNESCO lo reconoció como Patrimonio Cultural Inmaterial de la Humanidad. Sus elementos — las ofrendas, los altares, las catrinas, las calaveras de azúcar, las flores naranjas — se han vuelto mundialmente famosos. En moomz, las encuestas '¿Día de Muertos o Halloween?', '¿qué pondrías en tu ofrenda?', '¿conoces esta tradición?' generan conversación. El Día de Muertos celebra la vida a través del recuerdo.",
+    "sections": [
+      {
+        "h": "Una forma única de entender la muerte",
+        "body": "Lo que hace verdaderamente especial al Día de Muertos es su enfoque ante la muerte, una forma de entenderla que es propia de la cultura mexicana y que sorprende y emociona a quien se acerca a ella. En muchas culturas, la muerte y el recuerdo de los difuntos se viven como momentos de tristeza, luto y solemnidad. El Día de Muertos propone algo distinto: celebra la vida y honra a los seres queridos fallecidos con una fiesta llena de color, comida, música y alegría. La idea de fondo es que la muerte no es un final triste y oscuro, sino una parte natural del ciclo de la vida, y que a los difuntos no hay que llorarlos con dolor, sino recordarlos con cariño, celebrarlos e incluso invitarlos a volver. Durante estos días, la tradición dice que las almas de los seres queridos regresan para reunirse con sus familias, que las reciben con alegría. Esta manera de afrontar la muerte — sin negarla, pero sin temerla, integrándola en la vida con humor, color y celebración — es uno de los grandes valores culturales y filosóficos del Día de Muertos."
+      },
+      {
+        "h": "Las ofrendas, los altares y los símbolos",
+        "body": "El Día de Muertos tiene un conjunto de elementos y símbolos que lo hacen inconfundible y que se han vuelto mundialmente famosos. El más importante son las ofrendas o altares: las familias montan en sus casas, y también en lugares públicos, altares dedicados a sus seres queridos fallecidos. En estos altares se colocan elementos cargados de significado: fotografías de los difuntos, sus comidas y bebidas favoritas — porque la tradición dice que las almas vienen a disfrutarlas —, velas, y elementos decorativos. Las flores juegan un papel central, especialmente unas flores de color naranja intenso que se asocian inseparablemente a la fecha y cuyo color y aroma, según la tradición, ayudan a guiar a las almas de regreso. Otro símbolo famosísimo es la catrina, una figura que representa a la muerte de forma elegante y con humor, una calavera vestida con elegancia que se ha convertido en un icono de la fecha. Y están las calaveras, presentes en muchas formas — incluidas las calaveras de azúcar — que reflejan ese trato cercano y desdramatizado con la muerte. Cada elemento del Día de Muertos tiene un sentido."
+      },
+      {
+        "h": "Una tradición Patrimonio de la Humanidad",
+        "body": "El Día de Muertos es una tradición con raíces muy profundas. Sus orígenes mezclan creencias y prácticas de los pueblos prehispánicos de México, que ya tenían sus propias formas de relacionarse con la muerte y honrar a los difuntos, con elementos llegados posteriormente. De esa fusión, a lo largo de los siglos, nació la celebración que hoy conocemos. La importancia cultural del Día de Muertos es tan grande que la UNESCO lo reconoció como Patrimonio Cultural Inmaterial de la Humanidad, un reconocimiento que subraya su valor y la necesidad de preservarlo. En las últimas décadas, además, el Día de Muertos ha ganado una enorme proyección internacional: sus imágenes, sus colores y su filosofía se han dado a conocer en todo el mundo a través del cine, el arte y la cultura popular, hasta convertirse en una de las tradiciones latinoamericanas más reconocibles globalmente. Es importante, eso sí, distinguir el Día de Muertos de Halloween: aunque caen en fechas cercanas y a veces se mezclan, son tradiciones de origen y de sentido muy distintos. El Día de Muertos es un orgullo cultural de México y de toda Latinoamérica."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se celebra el Día de Muertos?",
+        "a": "El Día de Muertos se celebra principalmente los días 1 y 2 de noviembre. Según la tradición, son las fechas en las que las almas de los seres queridos fallecidos regresan para reunirse con sus familias, que las reciben con alegría. Es una celebración muy importante en México, donde es una auténtica seña de identidad cultural, y también está presente en otros países de Latinoamérica. Conviene no confundir el Día de Muertos con Halloween: aunque caen en fechas cercanas — Halloween es el 31 de octubre — son tradiciones de origen y de sentido completamente distintos. El Día de Muertos es una celebración para honrar y recordar a los difuntos con color, comida y alegría, no una fiesta de miedo."
+      },
+      {
+        "q": "¿Qué es una ofrenda o altar de muertos?",
+        "a": "La ofrenda, también llamada altar de muertos, es el elemento central del Día de Muertos. Se trata de un altar que las familias montan en sus casas, y también en lugares públicos, dedicado a sus seres queridos fallecidos. En la ofrenda se colocan elementos cargados de significado: fotografías de los difuntos, sus comidas y bebidas favoritas — porque la tradición dice que las almas regresan a disfrutarlas —, velas, flores de color naranja características de la fecha, y diversos elementos decorativos. Cada elemento de la ofrenda tiene su sentido y su simbolismo. La ofrenda es, en esencia, una forma de recibir, honrar y recordar con cariño a los seres queridos que ya no están, y de invitar a sus almas a volver durante estos días para reunirse con la familia."
+      },
+      {
+        "q": "¿Día de Muertos y Halloween son lo mismo?",
+        "a": "No, no son lo mismo, aunque a veces se confunden o se mezclan porque caen en fechas cercanas — Halloween es el 31 de octubre y el Día de Muertos el 1 y 2 de noviembre. Son tradiciones de origen y de sentido muy distintos. Halloween tiene raíces en antiguas festividades europeas, llegó a transformarse sobre todo en Estados Unidos, y es hoy una fiesta lúdica centrada en el miedo divertido, los disfraces terroríficos y los dulces. El Día de Muertos es una tradición latinoamericana, con raíces prehispánicas mexicanas, que celebra y honra a los seres queridos fallecidos con color, comida y alegría, desde una forma muy particular de entender la muerte. Aunque ambos tratan, de algún modo, el tema de la muerte, lo hacen desde lugares y con significados completamente diferentes."
+      },
+      {
+        "q": "¿Qué es una catrina?",
+        "a": "La catrina es uno de los símbolos más famosos y reconocibles del Día de Muertos. Se trata de una figura que representa a la muerte de una forma muy particular: como una calavera vestida con elegancia, a menudo con ropa y sombreros elegantes. La catrina representa la muerte con humor y con elegancia, sin dramatismo, lo que refleja perfectamente la filosofía del Día de Muertos: el trato cercano, desdramatizado y hasta divertido con la muerte. Con el tiempo, la catrina se ha convertido en un icono cultural de la fecha y de México. Durante el Día de Muertos es habitual que la gente se pinte la cara imitando el aspecto de la catrina, con diseños de calavera elegantes y coloridos, una práctica artística que se ha vuelto muy reconocible internacionalmente."
+      }
+    ],
+    "related": ["halloween", "carnaval", "navidad", "san-valentin", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "feria-abril",
+    "locale": "es",
+    "keyword": "Feria de Abril",
+    "matchPatterns": ["feria de abril", "feria abril", "sevilla", "caseta", "sevillanas", "rebujito"],
+    "topic": "holidays",
+    "title": "Feria de Abril — la gran fiesta de Sevilla, casetas y sevillanas",
+    "description": "Feria de Abril de Sevilla: la historia, las casetas, los trajes de flamenca, las sevillanas, el rebujito y un ambiente festivo único.",
+    "emoji": "💃",
+    "intro": "La Feria de Abril es una de las fiestas más famosas, vistosas y queridas de España, la gran celebración de la ciudad de Sevilla y una de las señas de identidad de Andalucía. Es una fiesta que llena de color, música y alegría la capital andaluza durante una semana, normalmente —como su nombre indica— en torno al mes de abril, aunque su fecha exacta varía cada año en función del calendario. La Feria de Abril tiene un origen relativamente concreto: nació en el siglo XIX, en sus inicios como una feria de ganado, es decir, un mercado de compraventa de animales. Pero con el paso del tiempo, aquella feria comercial se fue transformando, perdiendo su carácter de mercado y ganando su dimensión festiva, hasta convertirse en la gran celebración popular que es hoy. La Feria se desarrolla en un recinto específico de la ciudad que se monta para la ocasión, lleno de luz y de elementos característicos. El alma de la Feria son las casetas, las sevillanas, los trajes de flamenca, los caballos y los coches de caballos, el baile, la música y un ambiente social muy particular. Es una fiesta que combina tradición, elegancia, gastronomía y diversión. En moomz, las encuestas '¿la Feria de Abril o las Fallas?', '¿bailas sevillanas?', '¿traje de flamenca, sí o no?' generan debate. La Feria de Abril es color, baile y el espíritu festivo de Sevilla.",
+    "sections": [
+      {
+        "h": "De feria de ganado a gran fiesta popular",
+        "body": "La Feria de Abril tiene un origen que sorprende a quien no lo conoce: nació en el siglo XIX, y en sus inicios no era una fiesta, sino una feria de ganado, es decir, un mercado donde se compraban y vendían animales. Era, por tanto, un evento de carácter comercial y económico. Sin embargo, como ha ocurrido con otras ferias a lo largo de la historia, alrededor de aquella actividad comercial fue creciendo un ambiente festivo: la gente que acudía al mercado también socializaba, comía, bebía y se divertía. Con el paso de las décadas, ese componente festivo fue ganando peso, mientras que el carácter de mercado de ganado se fue perdiendo. La feria comercial acabó transformándose por completo en una celebración popular. Hoy, la Feria de Abril es exclusivamente una fiesta: una gran celebración de Sevilla en la que no queda apenas rastro de su origen ganadero, salvo quizás la presencia destacada de los caballos. Es un ejemplo fascinante de cómo un evento puede cambiar por completo su naturaleza con el tiempo, conservando el nombre pero transformando su esencia."
+      },
+      {
+        "h": "Las casetas: el corazón de la Feria",
+        "body": "El elemento más característico y central de la Feria de Abril son las casetas. La Feria se celebra en un recinto específico de la ciudad de Sevilla, que se monta especialmente para la ocasión, y ese recinto se llena de casetas: pequeñas construcciones temporales, una especie de carpas o pabellones, organizadas en calles. Cada caseta es un espacio de reunión, normalmente perteneciente a familias, grupos de amigos, asociaciones, peñas o entidades. Dentro de las casetas es donde se vive la Feria de verdad: se come, se bebe, se charla, se baila, se escucha música y se disfruta del ambiente. Las casetas tienen su propia decoración y su propio ambiente. Una particularidad importante de la Feria de Sevilla es que la mayoría de las casetas son privadas, es decir, pertenecen a esos grupos concretos, y entrar en ellas suele requerir ser invitado o conocer a alguien — aunque también hay casetas de carácter más público. Esta estructura de casetas da a la Feria de Abril su carácter social tan particular: es una fiesta de reencuentro, de grupos, de invitaciones."
+      },
+      {
+        "h": "Sevillanas, trajes de flamenca y ambiente único",
+        "body": "La Feria de Abril es una explosión de color, música y tradición, y varios elementos crean su ambiente inconfundible. Uno de los más visibles son los trajes de flamenca: muchas mujeres acuden a la Feria vestidas con el traje de flamenca o de gitana, una prenda tradicional, colorida y vistosa, que es una de las imágenes más reconocibles de la fiesta. Otro elemento central es el baile: las sevillanas, un baile tradicional típico de Andalucía, suenan y se bailan constantemente durante la Feria, en las casetas y por todo el recinto. La música está presente en todo momento. También son característicos los caballos y los coches de caballos, que recorren el recinto, especialmente durante el día. Y la Feria tiene su propia gastronomía y sus propias costumbres en cuanto a comida y bebida. Todo ello — el color de los trajes, la música, el baile de las sevillanas, los caballos, el ambiente de las casetas, la luz del recinto — crea una atmósfera única, alegre y festiva, que hace de la Feria de Abril una experiencia inolvidable y una de las fiestas más especiales de España."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué es la Feria de Abril?",
+        "a": "La Feria de Abril es la gran fiesta de la ciudad de Sevilla y una de las celebraciones más famosas de España y de Andalucía. Es una fiesta que llena de color, música, baile y alegría la capital andaluza durante una semana, normalmente en torno al mes de abril, aunque su fecha exacta varía cada año. La Feria se desarrolla en un recinto específico de la ciudad que se monta para la ocasión. Sus elementos más característicos son las casetas — pequeñas construcciones temporales donde se reúnen familias y grupos —, las sevillanas, los trajes de flamenca, los caballos y un ambiente social muy particular. Es una fiesta que combina tradición, elegancia, gastronomía y diversión, y es una de las grandes señas de identidad de Sevilla."
+      },
+      {
+        "q": "¿Qué son las casetas de la Feria?",
+        "a": "Las casetas son el elemento más característico y central de la Feria de Abril. Se trata de pequeñas construcciones temporales, una especie de carpas o pabellones, que se montan en el recinto de la Feria organizadas en calles. Cada caseta es un espacio de reunión que normalmente pertenece a familias, grupos de amigos, asociaciones, peñas o entidades. Dentro de las casetas es donde se vive la Feria: se come, se bebe, se charla, se baila y se disfruta del ambiente. Una particularidad importante de la Feria de Sevilla es que la mayoría de las casetas son privadas, es decir, pertenecen a grupos concretos, y entrar suele requerir ser invitado o conocer a alguien, aunque también existen casetas de carácter más público. Esta estructura da a la Feria su carácter social tan particular."
+      },
+      {
+        "q": "¿Cuándo se celebra la Feria de Abril?",
+        "a": "La Feria de Abril se celebra en la ciudad de Sevilla y, como su nombre indica, normalmente tiene lugar en torno al mes de abril. Sin embargo, su fecha exacta no es fija: varía cada año. El motivo es que la fecha de la Feria se calcula tradicionalmente en relación con la Semana Santa, de modo que la Feria se celebra un cierto tiempo después de esta. Como la Semana Santa cambia de fecha cada año — porque depende del calendario lunar —, la Feria de Abril también se desplaza, y según el año puede caer en distintos momentos, a veces incluso ya entrado el mes de mayo. La Feria dura aproximadamente una semana. Cada año se consulta el calendario para saber exactamente cuándo caerá."
+      },
+      {
+        "q": "¿Hay que saber bailar sevillanas para ir a la Feria?",
+        "a": "No es obligatorio en absoluto, aunque las sevillanas son uno de los elementos centrales del ambiente de la Feria de Abril. Las sevillanas son un baile tradicional típico de Andalucía que suena y se baila constantemente durante la Feria, en las casetas y por todo el recinto. Mucha gente que acude a la Feria sí sabe bailarlas, y forma parte de la diversión. Pero quien no sabe puede disfrutar perfectamente de la Feria de muchas otras maneras: el ambiente, la comida, la bebida, la música, la conversación, ver a la gente con sus trajes de flamenca, los caballos, el color del recinto. La Feria es una experiencia muy rica y social que va mucho más allá del baile. Y, además, siempre se puede aprender: muchos visitantes acaban animándose a probar las sevillanas."
+      }
+    ],
+    "related": ["sanfermines", "semana-santa", "carnaval", "navidad", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sanfermines",
+    "locale": "es",
+    "keyword": "Sanfermines",
+    "matchPatterns": ["sanfermines", "san fermin", "san fermín", "pamplona", "encierro", "chupinazo"],
+    "topic": "holidays",
+    "title": "Sanfermines — la fiesta de Pamplona y los encierros",
+    "description": "Sanfermines: la famosa fiesta de Pamplona en julio. El chupinazo, los encierros, el pañuelo rojo y la fama mundial de esta celebración.",
+    "emoji": "🐂",
+    "intro": "Los Sanfermines son una de las fiestas más famosas de España y, probablemente, una de las celebraciones españolas más conocidas en todo el mundo. Son las fiestas de la ciudad de Pamplona, la capital de Navarra, y se celebran cada año en el mes de julio, comenzando tradicionalmente el día 6 y prolongándose durante varios días. Las fiestas se celebran en honor a San Fermín, el santo del que toman su nombre. Aunque su origen está ligado a celebraciones religiosas y ferias que se remontan a hace siglos, los Sanfermines tal y como los conocemos hoy son una gran fiesta popular que combina tradición, religión, cultura y, sobre todo, mucha diversión. La ciudad de Pamplona se transforma por completo durante estos días: se llena de gente, de ambiente, de música y de actividades a todas horas. Los Sanfermines tienen varios momentos y elementos icónicos: el chupinazo que da el pistoletazo de salida a las fiestas, los famosos encierros, la vestimenta tradicional con el pañuelo rojo, y un ambiente festivo prácticamente ininterrumpido. La fama internacional de los Sanfermines se debe en buena medida a los encierros, ese momento tan espectacular y peligroso, que han llamado la atención del mundo entero. En moomz, las encuestas '¿Sanfermines o Feria de Abril?', '¿correrías un encierro?', '¿conoces esta fiesta?' generan debate. Los Sanfermines son una explosión festiva única.",
+    "sections": [
+      {
+        "h": "Una fiesta con siglos de historia",
+        "body": "Los Sanfermines son las fiestas de Pamplona, la capital de Navarra, y se celebran en honor a San Fermín, el santo del que toman su nombre. La fiesta tiene una historia muy larga: sus raíces se hunden en celebraciones religiosas en honor al santo y en ferias comerciales que se remontan a hace siglos, en la época medieval. Originalmente, estas celebraciones se hacían en otra época del año, pero con el tiempo se trasladaron al mes de julio, buscando mejor tiempo, y se fueron fusionando distintas tradiciones — la religiosa, la ferial, la festiva — en una única gran celebración. A lo largo de los siglos, los Sanfermines fueron creciendo y transformándose hasta convertirse en la gran fiesta popular que son hoy. Las fiestas comienzan tradicionalmente el 6 de julio y se prolongan durante varios días. Aunque mantienen su componente religioso — hay actos en honor a San Fermín —, los Sanfermines son hoy una celebración en la que conviven la tradición, la religión, la cultura y, muy especialmente, la diversión y el ambiente festivo, en una mezcla que ha conquistado tanto a los pamploneses como a visitantes de todo el mundo."
+      },
+      {
+        "h": "El chupinazo, el pañuelo rojo y los encierros",
+        "body": "Los Sanfermines tienen varios elementos icónicos que cualquier persona asocia inmediatamente con la fiesta. El primero es el chupinazo: el acto que da el pistoletazo de salida oficial a las fiestas. El chupinazo es un momento multitudinario y de enorme euforia, en el que una gran multitud se reúne para celebrar el comienzo de los Sanfermines. Otro elemento característico es la vestimenta: durante las fiestas, la gente viste de forma tradicional, destacando el característico pañuelo rojo que se anuda al cuello, una de las imágenes más reconocibles de los Sanfermines, junto con la ropa blanca. Pero, sin duda, lo que ha dado fama mundial a los Sanfermines son los encierros. El encierro es una carrera en la que los toros recorren un trayecto por las calles de Pamplona, y los corredores corren delante de ellos. Es un momento muy breve pero de enorme intensidad y espectacularidad, y también de evidente peligro. Los encierros se celebran durante varias mañanas de las fiestas y son seguidos con expectación. Junto a estos elementos, los Sanfermines ofrecen un ambiente festivo continuo, con música, actividades y celebración a todas horas."
+      },
+      {
+        "h": "Fama mundial y el legado de los Sanfermines",
+        "body": "Los Sanfermines son una de las fiestas españolas más conocidas internacionalmente, y esa fama mundial tiene mucho que ver con los encierros, ese momento tan espectacular que ha llamado la atención de medios y públicos de todo el planeta. Cada año, los Sanfermines atraen a Pamplona a un enorme número de visitantes, muchos de ellos extranjeros que viajan específicamente para vivir las fiestas. La proyección internacional de los Sanfermines se vio impulsada también por la cultura y la literatura, que contribuyeron a dar a conocer la fiesta más allá de las fronteras españolas. Hoy, los Sanfermines forman parte del imaginario que mucha gente de todo el mundo tiene sobre España, junto a otras tradiciones del país. Conviene señalar que los Sanfermines, y especialmente los encierros, no están exentos de polémica y debate, sobre todo en relación con el bienestar animal y con los riesgos para las personas. Pero, más allá de las controversias, es innegable que los Sanfermines son una fiesta con una identidad poderosa, con siglos de historia, y una de las celebraciones que más interés despierta dentro y fuera de España."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué son los Sanfermines?",
+        "a": "Los Sanfermines son las fiestas de la ciudad de Pamplona, la capital de Navarra, y son una de las celebraciones más famosas de España y del mundo. Se celebran cada año en el mes de julio, comenzando tradicionalmente el día 6 y prolongándose durante varios días, en honor a San Fermín, el santo del que toman su nombre. Aunque tienen un origen ligado a celebraciones religiosas y ferias que se remontan a siglos atrás, los Sanfermines de hoy son una gran fiesta popular que combina tradición, religión, cultura y diversión. La ciudad se transforma por completo, con ambiente festivo a todas horas. Sus elementos más icónicos son el chupinazo, los encierros, el característico pañuelo rojo y la vestimenta blanca."
+      },
+      {
+        "q": "¿Qué es el encierro de Sanfermines?",
+        "a": "El encierro es el elemento más famoso de los Sanfermines y lo que les ha dado proyección mundial. Se trata de una carrera en la que los toros recorren un trayecto por las calles de Pamplona, y los corredores corren delante de ellos a lo largo de ese recorrido. Es un momento muy breve — dura solo unos minutos — pero de enorme intensidad, espectacularidad y también de evidente peligro. Los encierros se celebran durante varias mañanas a lo largo de las fiestas y son seguidos con gran expectación, tanto por el público presente como por los medios. Es importante señalar que los encierros conllevan riesgos reales y que son objeto de debate y polémica, especialmente en relación con el bienestar animal y la seguridad de las personas."
+      },
+      {
+        "q": "¿Qué es el chupinazo?",
+        "a": "El chupinazo es el acto que da el pistoletazo de salida oficial a los Sanfermines, el momento que marca el comienzo de las fiestas. Es un acto multitudinario y de enorme euforia: una gran multitud se reúne para celebrar juntos el arranque de los Sanfermines, en un ambiente de alegría desbordante. El chupinazo es uno de los momentos más esperados y emblemáticos de toda la fiesta. A partir de ese instante, comienzan oficialmente varios días de celebración continua. El chupinazo es, en cierto modo, el equivalente al disparo de salida de una de las fiestas más intensas del calendario español, y para muchos pamploneses y visitantes es un momento cargado de emoción y de ilusión por las fiestas que empiezan."
+      },
+      {
+        "q": "¿Por qué la gente viste de blanco y rojo en Sanfermines?",
+        "a": "La vestimenta tradicional de los Sanfermines es una de las imágenes más reconocibles de la fiesta. Durante las fiestas, la gente viste de forma característica: ropa blanca y, anudado al cuello, un pañuelo rojo. El pañuelo rojo es, quizás, el elemento más simbólico de la indumentaria sanferminera. Esta combinación de blanco y rojo crea una imagen muy reconocible: las calles de Pamplona se llenan de gente vestida así durante los Sanfermines, lo que contribuye al ambiente festivo y a la sensación de celebración colectiva. Vestir de blanco y rojo es una forma de participar en la fiesta, de sentirse parte de ella. Es una tradición muy arraigada, y para mucha gente, ponerse la ropa de Sanfermines es ya el primer gesto de la celebración."
+      }
+    ],
+    "related": ["feria-abril", "carnaval", "semana-santa", "navidad", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fin-de-ano",
+    "locale": "es",
+    "keyword": "Fin de Año",
+    "matchPatterns": ["fin de año", "fin de ano", "nochevieja", "31 de diciembre", "fiesta", "cotillon"],
+    "topic": "holidays",
+    "title": "Fin de Año — despedir el año, fiesta y balance del 31 de diciembre",
+    "description": "Fin de Año: cómo se despide el año el 31 de diciembre. La fiesta de Nochevieja, el balance, las tradiciones y el ambiente festivo.",
+    "emoji": "🥂",
+    "intro": "El Fin de Año es la celebración con la que despedimos el año que termina, una de las fechas más esperadas y especiales del calendario. Se vive sobre todo en la noche del 31 de diciembre, la Nochevieja, que es cuando ocurre la gran fiesta de despedida. El Fin de Año es un momento cargado de simbolismo: representa el cierre de un ciclo, el final de doce meses de vida, y la antesala de un nuevo comienzo. Por eso es una fecha doble en su espíritu: por un lado, invita a mirar atrás, a hacer balance del año que se acaba — los buenos momentos, los malos, lo que se ha logrado, lo que se ha perdido —; y, por otro lado, invita a mirar adelante, con ilusión y esperanza, hacia el año que está a punto de empezar. El Fin de Año combina así la reflexión y la fiesta. Es, por una parte, un momento íntimo y emocional de hacer recuento; y es, por otra parte, una de las grandes noches de celebración del año. La forma de celebrar el Fin de Año es muy variada: hay quien lo vive en familia, quien lo celebra con amigos, quien sale de fiesta hasta la madrugada, quien prefiere algo tranquilo. En España, la Nochevieja está marcada por las campanadas y las doce uvas. En moomz, las encuestas '¿cómo celebras el Fin de Año?', '¿fiesta o tranquilidad?', '¿qué balance haces del año?' generan conversación. El Fin de Año es despedida, balance y celebración a la vez.",
+    "sections": [
+      {
+        "h": "El simbolismo del Fin de Año",
+        "body": "El Fin de Año es mucho más que el final de un mes: es el cierre de todo un ciclo, de doce meses de vida, y por eso es una fecha cargada de simbolismo. Despedir el año tiene un componente emocional importante. Es, ante todo, un momento de balance: el Fin de Año invita de forma natural a mirar atrás y hacer recuento de lo vivido en esos doce meses. La gente recuerda los buenos momentos y los malos, los logros y las decepciones, las cosas que han cambiado, las personas que han entrado o salido de su vida. Es un ejercicio de reflexión que muchas personas hacen, de forma más o menos consciente, al llegar estas fechas. Pero el Fin de Año no es solo mirar atrás: es también, inseparablemente, mirar adelante. El final de un año es la antesala del comienzo de otro, y por eso el Fin de Año está lleno de esperanza e ilusión por lo que está por venir. De esa mirada al futuro nacen tradiciones como los propósitos. El Fin de Año combina, así, esas dos miradas — al pasado que se cierra y al futuro que se abre — en una sola noche cargada de significado."
+      },
+      {
+        "h": "La Nochevieja: la gran fiesta de despedida",
+        "body": "La gran celebración del Fin de Año tiene lugar en la noche del 31 de diciembre, la Nochevieja. Es una de las grandes noches de fiesta del año. La forma de vivir la Nochevieja es muy variada y cada persona o familia tiene sus propias costumbres. Para muchos, la noche comienza con una cena especial, a menudo en familia, una de las cenas más cuidadas del año. Después llega el momento central: la medianoche, el instante exacto del paso de un año al siguiente, que en España se vive con las campanadas y la tradición de las doce uvas. Tras la medianoche, llega el momento de los brindis, de los buenos deseos, de las felicitaciones. Y, a partir de ahí, para mucha gente la Nochevieja continúa con fiesta: hay quien lo celebra en casa, quien va a fiestas, quien sale hasta la madrugada — es una de las noches en que más gente sale de fiesta en todo el año. Son típicos también los elementos festivos como el cotillón. Pero la Nochevieja no se vive igual en todas partes: hay quien prefiere una celebración tranquila, íntima, sin grandes fiestas. Todas las formas son válidas."
+      },
+      {
+        "h": "Tradiciones y ambiente del Fin de Año",
+        "body": "El Fin de Año está rodeado de un ambiente y de unas tradiciones que lo hacen inconfundible. En España, el momento más emblemático son las campanadas de medianoche y la tradición de tomar las doce uvas, una por campanada, en lo que es uno de los rituales colectivos más característicos del país. Pero hay muchas más costumbres asociadas a estas fechas: tradiciones y supersticiones para atraer la buena suerte en el año que empieza, brindis especiales, y todo tipo de rituales que varían según la familia y la región. El ambiente del Fin de Año es muy particular: en los días previos se respira ya la sensación de cierre del año, las ciudades están decoradas por las fiestas navideñas, y la noche del 31 hay un ambiente festivo generalizado. En muchas ciudades del mundo, el Fin de Año se celebra con grandes espectáculos de fuegos artificiales en el momento de la medianoche. El Fin de Año tiene además algo de celebración global: en todo el planeta, cada lugar a su hora, se va despidiendo el año en una sucesión de medianoches. Es una de las pocas fechas que prácticamente toda la humanidad marca de algún modo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre Fin de Año y Año Nuevo?",
+        "a": "El Fin de Año y el Año Nuevo son dos caras de la misma celebración, la del paso de un año al siguiente, pero se refieren a momentos distintos. El Fin de Año hace referencia a la despedida del año que termina, y se vive sobre todo en la noche del 31 de diciembre, la Nochevieja, que es cuando ocurre la gran fiesta. El Año Nuevo, en cambio, hace referencia al comienzo del nuevo año, y se asocia al día 1 de enero, primer día del año. En la práctica, ambos forman parte de la misma celebración: la noche del 31 se despide el año viejo y, a la medianoche, se da la bienvenida al nuevo. Se podría decir que el Fin de Año es la despedida y el Año Nuevo es la bienvenida, unidos en una sola noche."
+      },
+      {
+        "q": "¿Cómo se celebra el Fin de Año?",
+        "a": "El Fin de Año se celebra sobre todo en la noche del 31 de diciembre, la Nochevieja, y la forma de vivirlo es muy variada según cada persona y cada familia. Para muchos, la noche comienza con una cena especial, a menudo en familia. El momento central es la medianoche, que en España se vive con las campanadas y la tradición de las doce uvas. Después llegan los brindis y las felicitaciones. A partir de ahí, hay quien continúa con fiesta — en casa, en fiestas, saliendo hasta la madrugada, ya que es una de las grandes noches de fiesta del año — y hay quien prefiere una celebración más tranquila e íntima. No existe una única forma correcta: el Fin de Año se puede celebrar con una gran fiesta o de manera sosegada, en familia o con amigos. Todas las opciones son válidas."
+      },
+      {
+        "q": "¿Por qué hacemos balance del año en Fin de Año?",
+        "a": "Hacer balance del año en Fin de Año es algo muy natural, y tiene que ver con el simbolismo de la fecha. El Fin de Año no es el final de un día o de un mes cualquiera: es el cierre de todo un ciclo, de doce meses de vida. Ese carácter de final completo invita de forma espontánea a mirar atrás y hacer recuento de lo vivido: los buenos momentos y los malos, los logros y las decepciones, lo que ha cambiado, las personas que han entrado o salido de nuestra vida. Es un ejercicio de reflexión que muchas personas hacen al llegar estas fechas. Ese balance, además, suele ir acompañado de la mirada hacia el futuro: del recuento del año que termina nacen las ganas de plantearse cosas para el que empieza. Hacer balance es una forma de cerrar bien un ciclo antes de abrir otro."
+      },
+      {
+        "q": "¿Qué es el cotillón de Nochevieja?",
+        "a": "El cotillón es uno de los elementos festivos típicos de las celebraciones de Nochevieja. Se refiere, en general, a los complementos y artículos de fiesta que se usan para celebrar la noche de Fin de Año y la llegada del nuevo año: gorros, sombreros, antifaces, serpentinas, matasuegras y otros objetos festivos y divertidos. El cotillón forma parte del ambiente de celebración de la Nochevieja, especialmente tras las campanadas, cuando se brinda y se da la bienvenida al nuevo año. En un sentido más amplio, la palabra 'cotillón' también puede referirse a la propia fiesta de Nochevieja organizada en locales o salas, que a menudo incluyen estos artículos festivos para los asistentes. El cotillón aporta ese toque lúdico y desenfadado a la celebración del Fin de Año."
+      }
+    ],
+    "related": ["ano-nuevo", "nochebuena", "reyes-magos", "navidad", "san-valentin"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dia-de-la-madre",
+    "locale": "es",
+    "keyword": "Día de la Madre",
+    "matchPatterns": ["dia de la madre", "día de la madre", "madre", "mama", "mamá", "regalo"],
+    "topic": "holidays",
+    "title": "Día de la Madre — celebrar y agradecer a mamá",
+    "description": "El Día de la Madre: la celebración para honrar a las madres. Origen, fecha, regalos y el significado de una de las fechas más emotivas.",
+    "emoji": "💐",
+    "intro": "El Día de la Madre es una de las celebraciones más emotivas y queridas del calendario, una fecha dedicada a honrar, celebrar y agradecer a las madres todo lo que representan y todo lo que hacen. Es una fiesta que se celebra en prácticamente todos los países del mundo, aunque con un detalle importante: la fecha no es la misma en todas partes. El Día de la Madre se celebra en distintos días según el país. En España, por ejemplo, se celebra en una fecha del mes de mayo, mientras que en otros países cae en momentos distintos del calendario. Esta variedad de fechas se debe a que la celebración tiene orígenes y tradiciones diversas según las culturas. Pero, más allá de la fecha concreta, el sentido del Día de la Madre es universal: es un día para reconocer la figura de la madre, para expresarle cariño, gratitud y reconocimiento. La maternidad y el papel de las madres tienen un peso enorme en todas las sociedades, y el Día de la Madre es la ocasión en que ese papel, a menudo silencioso y dado por sentado durante el resto del año, se pone en el centro y se celebra. Es una fecha marcada por los gestos de cariño: los regalos, las flores, las felicitaciones, las comidas familiares, los detalles. En moomz, las encuestas '¿mejor regalo para el Día de la Madre?', '¿detalle hecho a mano o comprado?', '¿cómo celebras a tu madre?' generan conversación. El Día de la Madre es, sobre todo, un día de agradecimiento.",
+    "sections": [
+      {
+        "h": "El significado del Día de la Madre",
+        "body": "El Día de la Madre es una fecha dedicada por completo a honrar la figura de la madre. Su significado es profundamente emotivo y, en el fondo, universal: es un día para reconocer, celebrar y agradecer todo lo que las madres representan y todo lo que hacen. La figura de la madre y la maternidad tienen un peso enorme en todas las sociedades y culturas del mundo. El papel de las madres en la familia, en el cuidado, en la educación y en la vida de los hijos es inmenso, y, sin embargo, muchas veces ese papel se da por sentado en el día a día. El Día de la Madre tiene precisamente la función de poner ese papel en el centro de atención al menos un día al año: parar, reconocerlo de forma explícita, y dedicar tiempo y gestos de cariño a las madres. Es un día para decir 'gracias', para expresar el afecto que muchas veces no se verbaliza en la rutina, para hacer sentir a las madres lo importantes y lo queridas que son. Por eso es una de las fechas más emotivas del calendario: toca un afecto fundamental y casi universal, el que une a los hijos con sus madres."
+      },
+      {
+        "h": "Una fecha distinta según el país",
+        "body": "Una característica curiosa del Día de la Madre es que, aunque se celebra en prácticamente todo el mundo, no se celebra el mismo día en todas partes. La fecha del Día de la Madre varía según el país. En España, por ejemplo, se celebra en una fecha del mes de mayo. En otros países, también en mayo pero en un día distinto. Y en otros lugares del mundo, la celebración cae en meses completamente diferentes. Esta variedad de fechas se debe a que el Día de la Madre, como celebración, tiene orígenes y tradiciones diversas según las culturas y los países: no nació en un único lugar ni en un único momento, sino que distintas sociedades fueron desarrollando o adoptando una fecha para honrar a las madres, cada una por su camino. Por eso conviene tener en cuenta este detalle, especialmente para quien tiene familia o seres queridos en otros países: el Día de la Madre puede caer en momentos distintos según dónde se esté. Lo que sí comparten todas las versiones, independientemente de la fecha, es el sentido de la celebración: honrar y agradecer a las madres."
+      },
+      {
+        "h": "Regalos, detalles y formas de celebrar",
+        "body": "El Día de la Madre es una fecha muy marcada por los gestos de cariño y las muestras de afecto. La forma más extendida de celebrarlo son los regalos y los detalles: es tradición obsequiar a las madres en su día. Los regalos pueden ser de muchos tipos — desde flores, uno de los obsequios más clásicos de la fecha, hasta todo tipo de detalles pensados según los gustos de cada madre. Pero, más allá del regalo material, hay algo que se valora especialmente en el Día de la Madre: el gesto personal y la atención. Un detalle hecho a mano, una carta, unas palabras de agradecimiento sinceras, o simplemente tiempo de calidad, suelen tener un valor enorme, a menudo mayor que cualquier regalo caro. De hecho, los detalles hechos a mano por los hijos, especialmente cuando son pequeños, son uno de los recuerdos más entrañables de esta fecha. Es también muy común celebrar el día con una comida familiar, una reunión, una salida — dedicar tiempo a la madre y a la familia. En definitiva, lo importante del Día de la Madre no es tanto el qué se regala, sino el gesto de parar, reconocer y agradecer."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se celebra el Día de la Madre?",
+        "a": "El Día de la Madre se celebra en prácticamente todo el mundo, pero con un detalle importante: la fecha no es la misma en todos los países. En España, por ejemplo, el Día de la Madre se celebra en una fecha del mes de mayo. En otros países cae también en mayo pero en un día distinto, y en otros lugares del mundo la celebración tiene lugar en meses completamente diferentes. Esta variedad se debe a que el Día de la Madre tiene orígenes y tradiciones diversas según las culturas. Por eso conviene comprobar la fecha concreta según el país, especialmente si se tiene familia en el extranjero. Lo que comparten todas las versiones, sea cual sea el día, es el sentido de la celebración: honrar y agradecer a las madres."
+      },
+      {
+        "q": "¿Qué se puede regalar en el Día de la Madre?",
+        "a": "Los regalos del Día de la Madre pueden ser de muchos tipos. El obsequio más clásico de la fecha son las flores, pero hay infinitas opciones, y lo ideal es pensar en los gustos concretos de cada madre. Sin embargo, más allá del regalo material, en el Día de la Madre se valora especialmente el gesto personal: un detalle hecho a mano, una carta, unas palabras de agradecimiento sinceras o simplemente tiempo de calidad suelen tener un valor enorme, a menudo mayor que un regalo caro. Los detalles hechos a mano por los hijos, sobre todo cuando son pequeños, son de los recuerdos más entrañables de esta fecha. También es muy común celebrar el día con una comida o una reunión familiar. Lo importante no es tanto el qué, sino el gesto de reconocer y agradecer."
+      },
+      {
+        "q": "¿Por qué es importante el Día de la Madre?",
+        "a": "El Día de la Madre es importante porque pone en el centro de atención, al menos un día al año, una figura fundamental: la de la madre. El papel de las madres en la familia, en el cuidado, en la educación y en la vida de los hijos es inmenso en todas las sociedades, y, sin embargo, muchas veces ese papel se da por sentado en el día a día. El Día de la Madre sirve para parar, reconocer ese papel de forma explícita y dedicar gestos de cariño y agradecimiento. Es una ocasión para decir 'gracias', para expresar un afecto que a menudo no se verbaliza en la rutina, y para hacer sentir a las madres lo queridas e importantes que son. Por eso es una de las fechas más emotivas del calendario: celebra un afecto profundo y casi universal."
+      },
+      {
+        "q": "¿Es mejor un regalo comprado o hecho a mano?",
+        "a": "No hay una respuesta única, y depende de cada madre y de cada situación. Un regalo comprado puede ser perfecto si está bien pensado, si se ajusta a los gustos y necesidades de la madre y si transmite que se ha tenido en cuenta a la persona. Por su parte, un detalle hecho a mano tiene un valor especial: transmite tiempo, esfuerzo y cariño personal, y suele tener una carga emocional fuerte — los detalles hechos a mano por los hijos, sobre todo cuando son pequeños, son recuerdos muy entrañables. Lo que de verdad importa en el Día de la Madre no es el precio ni si el regalo es comprado o artesanal, sino el gesto: que la madre sienta que se la ha tenido presente, que se la reconoce y se la agradece. A veces, las palabras sinceras y el tiempo compartido valen más que cualquier objeto."
+      }
+    ],
+    "related": ["san-valentin", "carnaval", "navidad", "amor", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "carnaval",
+    "locale": "es",
+    "keyword": "Carnaval",
+    "matchPatterns": ["carnaval", "disfraz", "disfraces", "comparsa", "fiesta", "mascara"],
+    "topic": "holidays",
+    "title": "Carnaval — disfraces, color y la gran fiesta antes de la Cuaresma",
+    "description": "El Carnaval: origen, tradiciones, disfraces, los carnavales famosos de España y por qué es la fiesta más libre y colorida del calendario.",
+    "emoji": "🎭",
+    "intro": "El Carnaval es una de las fiestas más antiguas, libres, coloridas y divertidas del calendario, una celebración que se vive en muchísimos países del mundo y que se caracteriza, ante todo, por los disfraces, la música, el baile y un espíritu de desenfado y diversión sin límites. El Carnaval no tiene una fecha fija: cambia cada año, porque está ligado al calendario cristiano — se celebra en los días previos al comienzo de la Cuaresma, el periodo de recogimiento que precede a la Semana Santa. De hecho, esa relación es clave para entender la esencia del Carnaval: tradicionalmente, era el momento de fiesta, exceso y diversión justo antes del periodo de abstinencia y seriedad de la Cuaresma. El Carnaval era, así, una válvula de escape, unos días en los que se permitía lo que el resto del año estaba más restringido. De ahí su espíritu característico: la libertad, la transgresión amable, la posibilidad de ser otro durante unos días gracias al disfraz y la máscara. El Carnaval tiene orígenes muy antiguos, que se remontan a fiestas paganas anteriores incluso al cristianismo. En España, hay carnavales muy famosos, cada uno con su personalidad y sus tradiciones propias. En moomz, las encuestas '¿mejor disfraz de Carnaval?', '¿Carnaval o Halloween para disfrazarse?', '¿qué carnaval es el mejor?' generan debate. El Carnaval es la gran fiesta de la libertad y el color.",
+    "sections": [
+      {
+        "h": "El origen y el sentido del Carnaval",
+        "body": "El Carnaval es una fiesta con orígenes muy antiguos. Sus raíces se remontan a celebraciones que existían incluso antes del cristianismo, fiestas paganas relacionadas con el cambio de estación, la fertilidad o el desenfreno festivo, que con el tiempo se fueron transformando y mezclando con la tradición cristiana. La clave para entender el sentido del Carnaval está en su posición en el calendario: el Carnaval se celebra en los días previos al comienzo de la Cuaresma, que es el periodo de recogimiento, austeridad y abstinencia que, en la tradición cristiana, precede a la Semana Santa. El Carnaval era, tradicionalmente, el último momento de fiesta, exceso y diversión antes de ese periodo más serio. Esto explica su carácter: el Carnaval funcionaba como una válvula de escape, unos días en los que se permitía la celebración, el desenfreno y la transgresión que el resto del año, y muy especialmente durante la Cuaresma, estaban más restringidos. De esa función nace el espíritu que sigue definiendo al Carnaval hoy: la libertad, la diversión sin complejos y la posibilidad de romper, durante unos días, con las normas y los roles habituales."
+      },
+      {
+        "h": "Disfraces, máscaras y la libertad de ser otro",
+        "body": "Si hay un elemento que define al Carnaval por encima de cualquier otro, ese es el disfraz. Disfrazarse es la esencia misma de la fiesta. Y el disfraz, en el Carnaval, tiene un significado especial que va más allá de lo lúdico. La máscara y el disfraz permiten, durante unos días, ser otro: ocultar la propia identidad, adoptar otra apariencia, otro personaje, otro papel. Esa transformación tiene un componente liberador. Bajo el disfraz, las personas se sienten más libres para hacer cosas que quizás no harían a cara descubierta, para soltarse, para divertirse sin las inhibiciones habituales. Históricamente, esa libertad que daba la máscara estaba ligada al espíritu transgresor del Carnaval: era el momento de poder reír de todo, de poder invertir los papeles sociales, de poder ser, por unos días, alguien distinto. Hoy, los disfraces de Carnaval son muy variados — los hay graciosos, ingeniosos, elaborados, sencillos, de grupo, individuales — y disfrazarse es, sobre todo, una forma de diversión y de creatividad. Pero ese fondo de libertad, esa idea de que el Carnaval permite ser otro, sigue formando parte del encanto de la fiesta."
+      },
+      {
+        "h": "Los carnavales de España y del mundo",
+        "body": "El Carnaval se celebra en muchísimos lugares del mundo, y en cada uno adquiere personalidades, formas y tradiciones propias. Hay carnavales famosos por su música y sus desfiles espectaculares, otros por sus comparsas y sus concursos, otros por sus tradiciones particulares y su humor. En España, existen varios carnavales especialmente famosos, cada uno con su carácter distintivo: algunos destacan por sus elaborados disfraces y su despliegue espectacular, otros por sus agrupaciones, sus chirigotas y comparsas que compiten con ingenio y crítica humorística, otros por sus tradiciones únicas. Cada carnaval español tiene su propia identidad y sus seguidores. Los elementos comunes a casi todos los carnavales son los desfiles y comparsas, la música, el baile, el color, y por supuesto los disfraces. El Carnaval suele ser también una fiesta muy participativa y popular, en la que la gente no es solo espectadora, sino protagonista. Esa combinación de tradición, creatividad, humor, color y participación es lo que hace del Carnaval una de las fiestas más queridas, y lo que explica que se haya mantenido viva durante tantos siglos en tantos lugares del mundo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué el Carnaval cambia de fecha cada año?",
+        "a": "El Carnaval no tiene una fecha fija en el calendario y cambia cada año. El motivo es que está ligado al calendario cristiano: el Carnaval se celebra en los días previos al comienzo de la Cuaresma, el periodo de recogimiento que precede a la Semana Santa. Como la Semana Santa no tiene fecha fija — se calcula en función del ciclo lunar y puede caer en marzo o en abril —, la Cuaresma y, por tanto, el Carnaval también se desplazan de un año a otro. Así, según el año, el Carnaval cae en distintos momentos, generalmente entre febrero y marzo. Esta variabilidad es algo que la gente tiene asumido, y cada año se consulta cuándo caerá el Carnaval para organizar las celebraciones."
+      },
+      {
+        "q": "¿Qué relación tiene el Carnaval con la Cuaresma?",
+        "a": "La relación entre el Carnaval y la Cuaresma es clave para entender el sentido de la fiesta. La Cuaresma es, en la tradición cristiana, un periodo de recogimiento, austeridad y abstinencia que precede a la Semana Santa. El Carnaval se celebra justo en los días anteriores al comienzo de esa Cuaresma. Tradicionalmente, el Carnaval era el último momento de fiesta, exceso y diversión antes de ese periodo más serio y restrictivo. Funcionaba como una válvula de escape: unos días de celebración y desenfreno justo antes de la seriedad de la Cuaresma. De esa relación nace el espíritu característico del Carnaval — la libertad, la diversión sin complejos, la transgresión amable — que sigue definiendo a la fiesta hoy, aunque mucha gente la celebre sin tener presente ese trasfondo religioso."
+      },
+      {
+        "q": "¿Por qué nos disfrazamos en Carnaval?",
+        "a": "Disfrazarse es la esencia misma del Carnaval, y tiene un significado que va más allá de lo puramente lúdico. La máscara y el disfraz permiten, durante unos días, ser otro: ocultar la propia identidad y adoptar otra apariencia, otro personaje. Esa transformación tiene un componente liberador. Bajo el disfraz, las personas se sienten más libres para soltarse, divertirse y dejar de lado las inhibiciones habituales. Históricamente, esa libertad que daba la máscara estaba ligada al espíritu transgresor del Carnaval, esos días en los que se podía reír de todo e invertir los papeles habituales. Hoy, disfrazarse en Carnaval es sobre todo una forma de diversión y de creatividad, pero ese fondo — la idea de que el disfraz permite ser otro y sentirse más libre — sigue siendo parte del encanto de la fiesta."
+      },
+      {
+        "q": "¿Carnaval o Halloween para disfrazarse?",
+        "a": "Es una comparación divertida, ya que ambas fiestas tienen los disfraces como elemento central, pero con espíritus distintos. Halloween se celebra el 31 de octubre y sus disfraces se asocian tradicionalmente a lo terrorífico — fantasmas, monstruos, brujas —, aunque hoy vale cualquier disfraz; su ambiente juega con el miedo divertido. El Carnaval se celebra en los días previos a la Cuaresma, cambia de fecha cada año, y sus disfraces son mucho más variados y libres: graciosos, ingeniosos, elaborados, de grupo, sin una temática fija; su espíritu es el de la libertad, el color y la transgresión amable. Además, el Carnaval suele tener una dimensión más participativa, con desfiles y comparsas. Para disfrazarse, ambas son ocasiones perfectas: la elección depende de si se prefiere el rollo terrorífico de Halloween o la libertad colorida del Carnaval."
+      }
+    ],
+    "related": ["halloween", "feria-abril", "san-valentin", "navidad", "ano-nuevo"],
+    "updatedAt": "2026-05-20"
+  }
+]

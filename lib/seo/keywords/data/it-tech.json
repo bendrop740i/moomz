@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "iphone",
+    "locale": "it",
+    "keyword": "iPhone",
+    "matchPatterns": ["iphone", "apple", "ios", "melafonino", "telefono apple"],
+    "topic": "tech",
+    "title": "iPhone — l'oggetto che ha cambiato tutto",
+    "description": "Dal lancio del 2007 a oggi: storia, prezzi, iOS e perché l'iPhone divide ancora gli italiani. Tutto sul melafonino su moomz.",
+    "emoji": "📱",
+    "intro": "L'iPhone è probabilmente l'oggetto di consumo più influente del XXI secolo. Quando Steve Jobs lo presentò sul palco del Macworld il 9 gennaio 2007, lo descrisse come tre prodotti in uno: un iPod, un telefono e un dispositivo per Internet. Il primo modello arrivò nei negozi il 29 giugno 2007 negli Stati Uniti, costava 499 dollari e non aveva nemmeno l'App Store, che sarebbe arrivato solo nel luglio 2008. Da allora Apple ha venduto oltre 2,3 miliardi di iPhone nel mondo, generando più ricavi del telefono di qualunque concorrente. In Italia l'iPhone è uno status symbol fortissimo: avere l'ultimo modello significa molto, soprattutto tra gli under 25, e la frase 'mandami su WhatsApp' nasconde spesso un occhio attento a che bolla colorata appare nella chat. Il prezzo è il vero nodo: un iPhone Pro top di gamma supera tranquillamente i 1.400-1.500 euro in Italia, una cifra che equivale a uno stipendio netto medio. Per questo i sondaggi 'iPhone o Android' su moomz sono delle vere e proprie guerre civili: chi difende l'ecosistema Apple (continuità con Mac, iMessage, AirPods, privacy) e chi lo considera un acquisto di pura immagine. La verità è che l'iPhone non è solo un telefono: è un biglietto d'ingresso a un mondo, e capire cosa ci spinge a comprarlo è il vibe-check tecnologico per eccellenza.",
+    "sections": [
+      {
+        "h": "Come l'iPhone ha riscritto le regole",
+        "body": "Prima del 2007 gli smartphone esistevano già: BlackBerry dominava il mondo business con la sua tastiera fisica, Nokia vendeva centinaia di milioni di telefoni, Windows Mobile arrancava. Ma erano tutti pensati come telefoni con qualche funzione in più. L'iPhone capovolse la logica: era un computer tascabile con touchscreen capacitivo (si usa con il dito, non con il pennino), niente tastiera fisica, un'interfaccia grafica fluida. L'App Store del 2008 trasformò poi il telefono in una piattaforma: oggi esistono milioni di app e un'intera economia digitale ci gira sopra. La fotocamera ha ucciso il mercato delle compatte, la geolocalizzazione ha reso possibili Uber e le app di consegna, le notifiche hanno cambiato il modo in cui viviamo il tempo. Apple non inventò ogni singola tecnologia, ma le mise insieme in un prodotto che chiunque poteva usare senza manuale. È questo il vero genio dell'iPhone: aver reso il computer invisibile."
+      },
+      {
+        "h": "iPhone vs Android: la vera differenza",
+        "body": "La scelta tra iPhone e Android non è tecnica, è culturale. Android (di Google) offre più libertà: puoi personalizzare quasi tutto, scegliere tra decine di marchi e fasce di prezzo, da 150 a 1.500 euro, sideloadare app, cambiare launcher. L'iPhone offre coerenza: l'ecosistema Apple (iPhone, iPad, Mac, Apple Watch, AirPods) funziona insieme in modo quasi magico, gli aggiornamenti iOS arrivano per 6-7 anni su ogni modello, la privacy è un argomento di vendita esplicito. iMessage e FaceTime creano un effetto rete: in alcuni gruppi di amici la 'bolla verde' (l'utente Android) viene quasi esclusa. Android ha più quota di mercato globale (circa il 70%), ma l'iPhone domina la fascia alta e genera la maggior parte dei profitti del settore. In Italia la divisione è netta tra chi vede l'iPhone come un investimento in tranquillità e chi lo vede come una tassa sull'immagine. Su moomz è uno dei sondaggi più polarizzanti in assoluto."
+      },
+      {
+        "h": "Quanto costa davvero un iPhone",
+        "body": "Il prezzo dell'iPhone in Italia è cresciuto in modo significativo nell'ultimo decennio. Il modello base parte oggi intorno agli 850-950 euro, mentre la versione Pro Max con più memoria può sfiorare i 1.900 euro. A questo si aggiunge l'ecosistema: AirPods (150-300 euro), una cover decente (30-60 euro), eventualmente AppleCare. Molti italiani comprano l'iPhone a rate, spesso a tasso zero tramite l'operatore, il che diluisce ma non riduce il costo reale. Il mercato del ricondizionato è esploso proprio per questo: un iPhone usato in buono stato costa il 30-50% in meno e Apple stessa sostiene la riparabilità. Una regola pratica: il modello base 'standard' offre il 90% dell'esperienza Pro a un prezzo molto inferiore, e l'iPhone dell'anno precedente, appena esce il nuovo, crolla di prezzo restando perfettamente valido. Comprare l'ultimissimo modello il giorno del lancio è quasi sempre la scelta meno razionale e più emotiva."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quando è uscito il primo iPhone?",
+        "a": "Steve Jobs presentò il primo iPhone il 9 gennaio 2007 sul palco del Macworld di San Francisco, con la celebre frase 'un iPod, un telefono e un comunicatore Internet'. Il dispositivo arrivò effettivamente nei negozi statunitensi il 29 giugno 2007 al prezzo di 499 dollari per il modello da 4 GB. In Italia e in Europa arrivò più tardi, nel 2007-2008. Curiosamente il primo iPhone non aveva l'App Store, che fu lanciato solo a luglio 2008 con l'iPhone 3G: il primo modello funzionava solo con le app preinstallate da Apple. Non supportava nemmeno il copia-incolla, arrivato con iOS 3 nel 2009."
+      },
+      {
+        "q": "L'iPhone dura davvero più a lungo di un Android?",
+        "a": "In termini di aggiornamenti software, generalmente sì. Apple supporta i suoi iPhone con aggiornamenti iOS per circa 6-7 anni, mentre molti produttori Android li abbandonano dopo 2-4 anni, anche se Google e Samsung hanno recentemente promesso 7 anni di aggiornamenti sui modelli di punta. Hardware: la batteria di qualunque smartphone si degrada dopo 500-800 cicli di ricarica, sia iPhone che Android, ma su iPhone la sostituzione ufficiale costa 70-110 euro e ridà nuova vita al dispositivo. La differenza vera è il valore residuo: un iPhone usato di 3 anni si rivende a una frazione del prezzo nettamente più alta rispetto a un Android equivalente."
+      },
+      {
+        "q": "Vale la pena comprare l'ultimo modello di iPhone?",
+        "a": "Raramente, se il ragionamento è razionale. Le differenze tra un iPhone e quello dell'anno precedente sono spesso marginali: fotocamera leggermente migliore, chip più veloce di cui il 90% degli utenti non noterà la differenza, magari un nuovo materiale. Il modello dell'anno prima, appena esce il nuovo, scende di 150-250 euro restando ottimo per 5-6 anni. Conviene cambiare iPhone quando il proprio diventa davvero lento, la batteria è esausta o si rompe lo schermo: cioè ogni 4-5 anni, non ogni anno. Comprare il top di gamma al day one è quasi sempre una scelta emotiva, legata allo status più che al bisogno reale."
+      },
+      {
+        "q": "Perché in Italia tutti hanno l'iPhone tra i giovani?",
+        "a": "È un fenomeno sociale più che tecnologico. Tra gli under 25 italiani l'iPhone funziona come segnale di appartenenza: la 'bolla blu' di iMessage, gli AirPods bianchi visibili, l'estetica riconoscibile. Possedere un iPhone comunica un certo status, anche quando viene acquistato a rate o di seconda mano. In realtà la quota Android in Italia resta consistente nella popolazione generale, ma nei gruppi giovanili urbani la pressione sociale verso l'iPhone è fortissima. Su moomz molti sondaggi rivelano questo divario generazionale: per molti giovani la marca del telefono dice qualcosa sull'identità, mentre gli adulti tendono a guardare di più al rapporto qualità-prezzo."
+      }
+    ],
+    "related": ["android", "mac", "pc", "instagram-app", "whatsapp"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "chatgpt",
+    "locale": "it",
+    "keyword": "ChatGPT",
+    "matchPatterns": ["chatgpt", "chat gpt", "openai", "intelligenza artificiale", "ia"],
+    "topic": "tech",
+    "title": "ChatGPT — l'IA che ha invaso la vita di tutti",
+    "description": "Lanciato a fine 2022, ChatGPT ha raggiunto 100 milioni di utenti in due mesi. Cos'è davvero, a cosa serve e cosa rischia.",
+    "emoji": "🤖",
+    "intro": "ChatGPT è il prodotto tecnologico cresciuto più in fretta nella storia. Quando OpenAI lo lanciò il 30 novembre 2022, doveva essere una demo per raccogliere feedback. Nel giro di cinque giorni aveva un milione di utenti, e in soli due mesi raggiunse i 100 milioni di utenti attivi: per fare un confronto, a TikTok servirono nove mesi, a Instagram più di due anni. ChatGPT è un chatbot basato su un grande modello linguistico (LLM): un sistema addestrato su enormi quantità di testo che impara a prevedere la parola successiva e, così facendo, riesce a scrivere, riassumere, tradurre, programmare e rispondere a domande in un linguaggio naturale e fluente. Non 'capisce' come un essere umano e non 'sa' le cose: genera testo statisticamente plausibile, ed è per questo che a volte 'allucina', cioè inventa informazioni false con grande sicurezza. In Italia ChatGPT ha avuto un momento di notorietà particolare nel marzo-aprile 2023, quando il Garante della privacy ne bloccò temporaneamente l'accesso per problemi sul trattamento dei dati, salvo poi riammetterlo dopo le modifiche di OpenAI. Oggi studenti, professionisti, creator e curiosi lo usano ogni giorno. Su moomz i sondaggi 'usi ChatGPT per i compiti?' o 'l'IA ti fa paura?' rivelano un'Italia spaccata tra entusiasmo e timore.",
+    "sections": [
+      {
+        "h": "Come funziona davvero un'IA come ChatGPT",
+        "body": "ChatGPT è un grande modello linguistico, in inglese Large Language Model. È stato addestrato leggendo una quantità gigantesca di testo: libri, articoli, codice, conversazioni, pagine web. Durante l'addestramento il modello ha imparato non i fatti, ma le regolarità statistiche del linguaggio: dato un pezzo di testo, quale parola viene più probabilmente dopo. Quando gli scrivi una domanda, ChatGPT non cerca la risposta in un database: la genera una parola alla volta, scegliendo continuazioni plausibili. Questo spiega le sue capacità sorprendenti ma anche i suoi limiti. Può scrivere una poesia o un'email perfetta, ma può anche affermare con sicurezza assoluta una data sbagliata, una citazione inventata o una sentenza giuridica inesistente. Gli sviluppatori applicano poi una fase di 'allineamento', con feedback umano, per renderlo più utile, educato e sicuro. Capire questo meccanismo è fondamentale: ChatGPT è uno strumento brillante per generare e rielaborare testo, non un oracolo della verità."
+      },
+      {
+        "h": "A cosa serve (e a cosa no)",
+        "body": "ChatGPT eccelle in tutto ciò che è linguaggio e rielaborazione. È utilissimo per scrivere bozze di email, lettere e testi, riassumere documenti lunghi, tradurre, spiegare concetti complessi in modo semplice, fare brainstorming di idee, correggere e migliorare un testo, generare e correggere codice. È un ottimo tutor per studiare, se usato per capire e non per copiare. Funziona male, invece, come fonte di fatti: per date, numeri, statistiche, eventi recenti va sempre verificato altrove, perché può sbagliare con grande sicurezza. Non è una calcolatrice affidabile per la matematica complessa, anche se è migliorato. Non sostituisce il giudizio umano nelle decisioni importanti (mediche, legali, finanziarie). E non va alimentato con dati personali sensibili o segreti aziendali, perché le conversazioni possono essere usate per migliorare il servizio. La regola d'oro: ChatGPT è un assistente velocissimo, ma il controllo finale resta sempre a te."
+      },
+      {
+        "h": "L'IA, la scuola e il futuro del lavoro",
+        "body": "L'arrivo di ChatGPT ha scatenato un terremoto soprattutto nella scuola e nell'università. Molti studenti lo usano per fare i compiti, scrivere temi e tesine, e gli insegnanti faticano a distinguere un testo umano da uno generato dall'IA: i rilevatori automatici sono spesso inaffidabili. La risposta più sensata non è vietare, ma cambiare il modo di valutare: più orali, più lavori in classe, più richieste di ragionamento personale. Sul lavoro l'impatto è ambivalente. L'IA non 'ruberà' semplicemente i posti: automatizza compiti, non interi mestieri. I lavori più esposti sono quelli ripetitivi di scrittura, traduzione, assistenza clienti, programmazione di base. Ma nascono nuove competenze richieste, come saper dialogare bene con l'IA, verificare i suoi output, integrarla nei processi. La storia della tecnologia insegna che gli strumenti spostano il lavoro più che cancellarlo. Su moomz il dibattito 'l'IA ci ruberà il lavoro?' è tra i più sentiti dalla generazione che entrerà presto nel mondo professionale."
+      }
+    ],
+    "faq": [
+      {
+        "q": "ChatGPT è gratis?",
+        "a": "Esiste una versione gratuita di ChatGPT, accessibile dal sito di OpenAI o dall'app, che funziona con un modello molto capace ed è sufficiente per la maggior parte degli usi quotidiani. C'è poi un abbonamento a pagamento, ChatGPT Plus, che in Italia costa circa 20 euro al mese e offre accesso ai modelli più avanzati, risposte più veloci nelle ore di punta, generazione di immagini, navigazione web e funzioni extra. Per uno studente o un utente occasionale la versione gratuita è in genere più che sufficiente. L'abbonamento ha senso per chi lo usa intensamente per lavoro o studio ogni giorno. Esistono anche alternative gratuite di altri produttori, come Gemini di Google e Claude di Anthropic."
+      },
+      {
+        "q": "ChatGPT dice sempre la verità?",
+        "a": "No, ed è il suo limite più importante da conoscere. ChatGPT non sa cosa è vero: genera testo statisticamente plausibile. Quando non ha l'informazione, tende a inventarla in modo convincente: gli esperti chiamano questo fenomeno 'allucinazione'. Può citare libri che non esistono, attribuire frasi a persone sbagliate, sbagliare date e numeri. È particolarmente inaffidabile su eventi molto recenti e su dati precisi. Per questo qualunque informazione fattuale ottenuta da ChatGPT va verificata su fonti attendibili. Va usato come strumento per scrivere, rielaborare e spiegare, non come enciclopedia. Trattarlo come una fonte di verità assoluta è l'errore più comune e più pericoloso."
+      },
+      {
+        "q": "Perché in Italia ChatGPT è stato bloccato nel 2023?",
+        "a": "Nel marzo 2023 il Garante per la protezione dei dati personali italiano dispose la limitazione temporanea del trattamento dei dati degli utenti italiani da parte di OpenAI. Le contestazioni riguardavano la mancanza di informazioni chiare agli utenti sull'uso dei loro dati, l'assenza di una base giuridica adeguata per l'addestramento del modello e la mancanza di un sistema di verifica dell'età. Per alcune settimane ChatGPT fu inaccessibile dall'Italia. OpenAI rispose introducendo modalità di informativa più trasparenti, strumenti per opporsi all'uso dei propri dati e un controllo dell'età. Il servizio fu poi riammesso ad aprile 2023. È stato uno dei primi grandi interventi di un'autorità europea su un'IA generativa."
+      },
+      {
+        "q": "Usare ChatGPT per i compiti è barare?",
+        "a": "Dipende da come lo usi. Farti scrivere interamente un tema e consegnarlo come tuo è copiare, ed è scorretto verso te stesso prima che verso l'insegnante: non impari nulla. Usare ChatGPT per farti spiegare un concetto che non hai capito, per avere un riassunto da cui partire, per controllare un ragionamento o correggere la grammatica è invece un uso intelligente dello strumento, simile a chiedere aiuto a un tutor. La differenza sta nel fatto che il lavoro intellettuale e la comprensione restino tuoi. Le scuole stanno adattando i metodi di valutazione, puntando più su orali, prove in classe e ragionamento personale, proprio perché il testo scritto a casa è ormai facilmente delegabile a un'IA."
+      }
+    ],
+    "related": ["intelligenza-artificiale", "iphone", "pc", "gaming", "instagram-app"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "intelligenza-artificiale",
+    "locale": "it",
+    "keyword": "Intelligenza artificiale",
+    "matchPatterns": ["intelligenza artificiale", "ia", "ai", "robot", "algoritmo"],
+    "topic": "tech",
+    "title": "Intelligenza artificiale — promessa o minaccia?",
+    "description": "Dall'idea del 1956 ai chatbot di oggi: cos'è davvero l'IA, dove la usiamo ogni giorno e quanto dobbiamo temerla.",
+    "emoji": "🧠",
+    "intro": "L'intelligenza artificiale è la tecnologia di cui tutti parlano e che pochi capiscono davvero. Il termine nacque nell'estate del 1956, durante un seminario al Dartmouth College negli Stati Uniti, dove un gruppo di scienziati guidato da John McCarthy coniò l'espressione 'artificial intelligence'. Per decenni l'IA fu più promessa che realtà, attraversando periodi di entusiasmo e lunghi 'inverni' di disillusione. La svolta è arrivata negli anni 2010 con il deep learning, le reti neurali profonde alimentate da enormi quantità di dati e da una potenza di calcolo prima impensabile. Da allora l'IA è uscita dai laboratori ed è entrata nelle nostre tasche. È IA il riconoscimento facciale che sblocca il telefono, la voce di Siri e Alexa, i filtri di Instagram, i suggerimenti di Netflix e Spotify, le auto che frenano da sole, i traduttori istantanei, i chatbot come ChatGPT. La maggior parte di queste applicazioni è 'IA debole' o 'ristretta': sistemi bravissimi in un compito specifico ma incapaci di tutto il resto. L'IA generale, quella che eguaglierebbe o supererebbe l'intelligenza umana in ogni campo, resta per ora ipotetica. Su moomz i sondaggi 'l'IA ci aiuterà o ci sostituirà?' o 'ti fideresti di un'auto a guida autonoma?' raccontano un'Italia divisa tra fascino e paura.",
+    "sections": [
+      {
+        "h": "IA debole, IA forte e superintelligenza",
+        "body": "Per orientarsi conviene distinguere tre concetti. L'IA debole o ristretta è tutta l'IA che esiste oggi: sistemi addestrati per un compito preciso, dal riconoscere un volto al consigliare una serie TV, al generare testo. Sono strumenti potentissimi nel loro ambito ma 'stupidi' fuori da esso: un modello che gioca a scacchi a livello sovrumano non sa preparare un caffè né capire perché. L'IA forte o generale, in inglese AGI, è l'idea di una macchina capace di ragionare, apprendere e adattarsi in qualunque campo come o meglio di un essere umano. Non esiste ancora, e gli esperti sono profondamente divisi su quando e se arriverà. La superintelligenza è l'ipotesi successiva: un'IA che superi enormemente l'intelligenza umana in tutto. È materia di dibattito filosofico ed etico più che di ingegneria attuale. Confondere l'IA debole di oggi con la superintelligenza dei film di fantascienza è l'errore più diffuso quando se ne parla."
+      },
+      {
+        "h": "L'IA che usi ogni giorno senza saperlo",
+        "body": "L'intelligenza artificiale è già ovunque, spesso invisibile. Quando sblocchi lo smartphone con il volto, è IA. Quando l'app di posta sposta un messaggio nello spam, è IA. I feed di Instagram, TikTok e YouTube sono ordinati da algoritmi di raccomandazione che imparano cosa ti tiene incollato allo schermo. Netflix e Spotify ti suggeriscono contenuti basandosi sui tuoi gusti e su quelli di milioni di utenti simili. I traduttori automatici, le mappe che ricalcolano il percorso nel traffico, le banche che bloccano una transazione sospetta, le diagnosi mediche assistite dall'analisi di immagini radiologiche: tutto IA. Anche le auto moderne usano IA per la frenata automatica d'emergenza e il mantenimento di corsia. Questa onnipresenza ha un lato positivo, comodità e nuovi servizi, e uno critico: gli algoritmi che decidono cosa vediamo possono creare bolle informative, dipendenza da scroll e amplificare contenuti estremi. L'IA non è neutra: riflette i dati e gli obiettivi di chi la costruisce."
+      },
+      {
+        "h": "Quanto dobbiamo temere l'IA?",
+        "body": "La paura dell'IA che 'si ribella' come nei film è in gran parte fantascienza: i sistemi attuali non hanno volontà, coscienza né obiettivi propri. I rischi reali sono più concreti e più vicini. C'è il rischio occupazionale: l'automazione di molti compiti, soprattutto ripetitivi, che richiederà una riqualificazione di massa dei lavoratori. C'è la disinformazione: deepfake video e audio sempre più realistici, testi falsi generati in massa, che minano la fiducia in ciò che vediamo online. C'è il problema dei bias: se i dati di addestramento contengono pregiudizi, l'IA li riproduce e li amplifica, ad esempio nelle decisioni su prestiti o assunzioni. C'è la privacy: la sorveglianza di massa resa possibile dal riconoscimento facciale. L'Unione Europea ha approvato l'AI Act, il primo grande regolamento al mondo sull'IA, proprio per affrontare questi rischi. La domanda giusta non è 'l'IA ci distruggerà?' ma 'chi controlla l'IA e con quali regole?'. Su moomz il dibattito è acceso e generazionale."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quando è nata l'intelligenza artificiale?",
+        "a": "Come disciplina scientifica, l'intelligenza artificiale nasce ufficialmente nell'estate del 1956, durante un workshop al Dartmouth College, negli Stati Uniti. Fu lì che il matematico John McCarthy coniò il termine 'artificial intelligence'. Le idee di fondo, però, erano più antiche: già nel 1950 il matematico britannico Alan Turing aveva pubblicato un articolo celebre proponendo il 'test di Turing' per capire se una macchina può pensare. Dopo il 1956 l'IA ha attraversato decenni alterni, con grandi entusiasmi seguiti da 'inverni dell'IA' di delusione e tagli ai finanziamenti. La rivoluzione attuale è iniziata negli anni 2010 grazie al deep learning, ai big data e alla potenza di calcolo delle moderne schede grafiche."
+      },
+      {
+        "q": "L'intelligenza artificiale può diventare cosciente?",
+        "a": "Allo stato attuale delle conoscenze, no. I sistemi di IA che usiamo oggi, anche i più impressionanti, non hanno coscienza, emozioni, desideri né esperienza soggettiva. Sono sistemi matematici che elaborano dati e producono output: un chatbot che scrive 'sono felice di aiutarti' non prova alcuna felicità, sta solo generando testo statisticamente appropriato. Se la coscienza artificiale sia possibile in linea di principio è una questione filosofica aperta, su cui scienziati e filosofi non concordano. Quello che è certo è che le IA attuali non sono vive né senzienti. Attribuire loro intenzioni e sentimenti, fenomeno chiamato antropomorfizzazione, è naturale ma fuorviante."
+      },
+      {
+        "q": "L'IA mi ruberà il lavoro?",
+        "a": "L'IA trasformerà molti lavori più di quanto li cancellerà del tutto. La storia tecnologica mostra che l'automazione elimina compiti specifici, non sempre mestieri interi, e ne crea di nuovi. I ruoli più esposti sono quelli con molte attività ripetitive e prevedibili: data entry, traduzione di base, parte dell'assistenza clienti, alcune attività di scrittura e contabilità. I lavori che richiedono creatività complessa, relazione umana, manualità non standardizzata e giudizio in situazioni ambigue sono più protetti. La chiave per il futuro è la riqualificazione: imparare a usare l'IA come strumento diventa una competenza richiesta in quasi ogni settore. Chi sa collaborare con l'IA avrà un vantaggio su chi la ignora."
+      },
+      {
+        "q": "Cos'è l'AI Act europeo?",
+        "a": "L'AI Act è il regolamento dell'Unione Europea sull'intelligenza artificiale, il primo grande quadro normativo organico al mondo dedicato a questa tecnologia, approvato in via definitiva nel 2024. Il suo approccio è basato sul rischio: classifica i sistemi di IA in categorie e impone obblighi proporzionati. Alcune applicazioni considerate inaccettabili, come certi usi del riconoscimento facciale di massa o il social scoring, sono vietate. I sistemi 'ad alto rischio', ad esempio quelli usati in sanità, giustizia o assunzioni, devono rispettare requisiti rigorosi di trasparenza, sicurezza e supervisione umana. L'obiettivo dichiarato è promuovere un'IA affidabile tutelando i diritti fondamentali dei cittadini europei. È un modello normativo che molti altri Paesi stanno osservando da vicino."
+      }
+    ],
+    "related": ["chatgpt", "iphone", "pc", "vr", "gaming"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "whatsapp",
+    "locale": "it",
+    "keyword": "WhatsApp",
+    "matchPatterns": ["whatsapp", "messaggio", "chat", "gruppo", "spunte blu"],
+    "topic": "tech",
+    "title": "WhatsApp — l'app che ha sostituito gli SMS",
+    "description": "Oltre 2 miliardi di utenti, le spunte blu, i gruppi di famiglia: WhatsApp è il tessuto sociale digitale dell'Italia. Tutto qui.",
+    "emoji": "💬",
+    "intro": "WhatsApp non è solo un'app di messaggistica: in Italia è diventata un'infrastruttura sociale. Nata nel 2009 da Brian Acton e Jan Koum, due ex dipendenti di Yahoo, WhatsApp aveva un'idea semplice e geniale: mandare messaggi via Internet invece che via SMS, a costo praticamente zero. In un'epoca in cui ogni SMS si pagava, fu una rivoluzione. Nel 2014 Facebook, oggi Meta, la acquistò per circa 19 miliardi di dollari, una delle operazioni più grandi della storia tech. Oggi WhatsApp conta oltre 2 miliardi di utenti nel mondo ed è l'app di messaggistica dominante in Italia, dove è praticamente universale: dai nonni agli adolescenti, tutti la usano. Ha sostituito gli SMS, in larga parte le telefonate, e ha generato un intero galateo digitale fatto di spunte blu, 'ultimo accesso', stato 'online', messaggi vocali, gruppi. Il 'gruppo di famiglia' è ormai un'istituzione, così come il gruppo della classe, quello del calcetto, quello degli amici delle vacanze. WhatsApp è il luogo dove iniziano e finiscono le relazioni, dove si organizza la vita quotidiana, dove nascono drammi e fraintendimenti. Su moomz i sondaggi 'spunte blu attive o disattivate?' o 'rispondi subito ai messaggi?' sono dei veri vibe-check delle abitudini digitali degli italiani.",
+    "sections": [
+      {
+        "h": "Il galateo delle spunte blu",
+        "body": "Le spunte di WhatsApp sono diventate un linguaggio sociale a sé. Una spunta grigia significa messaggio inviato, due spunte grigie messaggio consegnato al telefono del destinatario, due spunte blu messaggio letto. Questa apparente innocenza tecnica ha creato un'enorme tensione relazionale: il temuto 'visualizzato e non risposto', cioè quando qualcuno legge ma non scrive nulla. È fonte di ansia, gelosia e litigi, soprattutto nelle coppie e nelle amicizie. Per questo WhatsApp permette di disattivare le conferme di lettura: una scelta che a sua volta comunica qualcosa, una richiesta di libertà o, per i più sospettosi, qualcosa da nascondere. C'è poi l'indicatore 'online' e 'ultimo accesso', che può essere nascosto, e il famigerato 'sta scrivendo...' che appare e scompare. Tutto questo ha trasformato la comunicazione in una continua negoziazione di disponibilità e attenzione. Il tempo di risposta è diventato un segnale: rispondere troppo in fretta o troppo tardi dice qualcosa sul rapporto."
+      },
+      {
+        "h": "Il gruppo di famiglia e gli altri gruppi",
+        "body": "I gruppi WhatsApp sono il cuore della socialità digitale italiana. Il gruppo di famiglia è quasi un genere a sé: buongiorno con immagini di fiori e angeli, catene di auguri, fake news inoltrate dagli zii, foto dei nipoti, discussioni che degenerano. C'è poi il gruppo della classe dei figli, gestito spesso da genitori molto attivi, il gruppo del lavoro, quello degli amici storici, quello creato per un singolo evento e mai più chiuso. I gruppi hanno funzioni preziose, organizzare cene, vacanze, regali, ma generano anche fatica: notifiche infinite, messaggi che si accavallano, il dramma di chi 'esce dal gruppo' come gesto carico di significato. WhatsApp ha aggiunto strumenti per gestirli, dai sondaggi interni al silenziamento, fino alla possibilità di rispondere a un messaggio specifico per non perdere il filo. Su moomz molti sondaggi raccontano l'amore-odio degli italiani verso i loro gruppi: indispensabili e insopportabili allo stesso tempo."
+      },
+      {
+        "h": "Privacy, crittografia e cosa sa Meta",
+        "body": "WhatsApp utilizza la crittografia end-to-end per impostazione predefinita su tutte le chat e le chiamate: significa che il contenuto dei messaggi è leggibile solo dal mittente e dal destinatario, nemmeno WhatsApp stessa può leggerlo. È una protezione importante. Tuttavia la privacy non è assoluta: Meta, proprietaria di WhatsApp, raccoglie i cosiddetti metadati, cioè con chi parli, quando, quanto spesso, da dove. Questi dati hanno valore. Nel 2021 un aggiornamento dell'informativa sulla privacy scatenò una fuga di utenti verso app concorrenti come Signal e Telegram, percepite come più rispettose della riservatezza. WhatsApp chiarì poi che le chat personali restavano private e che le novità riguardavano le conversazioni con le aziende. Per chi tiene molto alla privacy, alcune buone pratiche aiutano: attivare la verifica in due passaggi, controllare le impostazioni su chi può vedere foto profilo e ultimo accesso, diffidare dei link sospetti e delle truffe via messaggio, sempre più frequenti."
+      }
+    ],
+    "faq": [
+      {
+        "q": "WhatsApp è davvero gratis?",
+        "a": "Sì, WhatsApp è gratuita da scaricare e da usare per inviare messaggi, foto, video, audio e per fare chiamate vocali e videochiamate: serve solo una connessione Internet, dati mobili o WiFi. Agli inizi WhatsApp prevedeva un piccolo abbonamento annuale di circa un euro dopo il primo anno, ma questa quota fu eliminata nel 2016. Oggi WhatsApp non si finanzia con la pubblicità mostrata nelle chat personali né con abbonamenti. Il modello di business passa da WhatsApp Business e dai servizi alle aziende, che pagano per comunicare con i clienti tramite la piattaforma, e dall'integrazione nell'ecosistema di Meta. Per l'utente comune, l'uso resta completamente gratuito."
+      },
+      {
+        "q": "I messaggi WhatsApp sono davvero privati?",
+        "a": "Il contenuto dei messaggi sì: WhatsApp usa la crittografia end-to-end di default, quindi testo, foto, audio e chiamate sono leggibili solo da chi scrive e da chi riceve. Nemmeno WhatsApp o Meta possono leggere il contenuto delle chat. Tuttavia la privacy non è totale. Meta raccoglie i metadati: con chi comunichi, con che frequenza, quando, le informazioni del dispositivo. Inoltre, se fai un backup delle chat su servizi cloud come Google Drive o iCloud, quel backup potrebbe non avere la stessa protezione, anche se WhatsApp offre l'opzione di crittografare anche i backup. Per i più attenti alla riservatezza esistono alternative come Signal, considerata particolarmente rigorosa, ma con molti meno utenti."
+      },
+      {
+        "q": "Conviene disattivare le spunte blu?",
+        "a": "È una scelta personale e non c'è una risposta giusta. Disattivare le conferme di lettura toglie pressione: nessuno saprà se hai letto un messaggio, riducendo l'ansia del 'visualizzato e non risposto' e dando più libertà sui tempi di risposta. Lo svantaggio è la reciprocità: se le disattivi, anche tu smetti di vedere quando gli altri leggono i tuoi messaggi. Inoltre alcuni interpretano le spunte blu spente come segno di qualcosa da nascondere, soprattutto nelle coppie sospettose. Va ricordato che i gruppi e i messaggi vocali hanno regole proprie. In sintesi, disattivarle conviene a chi vive male l'aspettativa di risposta immediata; chi non ha problemi con questo può lasciarle attive senza pensieri."
+      },
+      {
+        "q": "Perché molti sono passati a Telegram o Signal?",
+        "a": "Le ondate di passaggio sono legate soprattutto alla percezione della privacy. Telegram ha guadagnato utenti grazie ai canali pubblici, ai gruppi enormi fino a decine di migliaia di membri, ai bot e a una sensazione di maggiore apertura, anche se va detto che le chat normali di Telegram non sono crittografate end-to-end di default, solo le 'chat segrete' lo sono. Signal è cresciuta soprattutto tra chi mette la riservatezza al primo posto: è considerata l'app più rigorosa sul fronte privacy, raccoglie pochissimi dati ed è no-profit. La grande migrazione del 2021 fu scatenata da un controverso aggiornamento dell'informativa di WhatsApp. Nonostante questi spostamenti, WhatsApp resta dominante in Italia per il classico effetto rete: tutti la usano, quindi è difficile abbandonarla davvero."
+      }
+    ],
+    "related": ["instagram-app", "iphone", "android", "chatgpt", "intelligenza-artificiale"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "instagram-app",
+    "locale": "it",
+    "keyword": "Instagram",
+    "matchPatterns": ["instagram", "insta", "storie", "reels", "social"],
+    "topic": "tech",
+    "title": "Instagram — il social che modella come ci vediamo",
+    "description": "Da app di foto quadrate del 2010 a impero dei Reels: come Instagram ha cambiato estetica, autostima e relazioni degli italiani.",
+    "emoji": "📸",
+    "intro": "Instagram è probabilmente il social network che ha avuto l'impatto più profondo sul nostro modo di guardare noi stessi e gli altri. Lanciata il 6 ottobre 2010 da Kevin Systrom e Mike Krieger, all'inizio era un'app semplicissima: foto quadrate, filtri vintage, niente video, niente messaggi. Conquistò un milione di utenti in due mesi. Nel 2012 Facebook, oggi Meta, la comprò per circa un miliardo di dollari, cifra che all'epoca sembrò folle e che oggi appare un affare clamoroso: Instagram vale molte decine di volte tanto. Negli anni si è trasformata radicalmente: nel 2016 arrivarono le Storie, copiate spudoratamente da Snapchat, nel 2020 i Reels, la risposta a TikTok. Oggi Instagram conta oltre 2 miliardi di utenti ed è, per la generazione moomz, una delle infrastrutture centrali della vita sociale. È vetrina, portfolio, diario, agenzia di dating, strumento di lavoro per creator e aziende. Ma è anche un'enorme macchina di confronto sociale: scorriamo vite apparentemente perfette, corpi ritoccati, vacanze da sogno, e ne usciamo spesso più insoddisfatti. Su moomz i sondaggi 'quante ore al giorno su Instagram?' o 'i like contano per te?' rivelano un rapporto complicato, fatto di dipendenza, piacere e malessere insieme.",
+    "sections": [
+      {
+        "h": "Da foto quadrate a Reels: la metamorfosi",
+        "body": "Instagram del 2010 era quasi minimalista: si scattava una foto, la si rendeva quadrata, si applicava un filtro per darle un'aria nostalgica, la si pubblicava. Niente video, niente direct, niente algoritmo: il feed era cronologico. Quella semplicità fu la sua forza. Poi sono arrivate ondate di novità, spesso copiando i concorrenti. Le Storie del 2016 presero il formato effimero di Snapchat e lo resero mainstream. I Reels del 2020 imitarono i video brevi e verticali di TikTok. Nel frattempo l'algoritmo ha sostituito il feed cronologico: ora non vedi i post nell'ordine in cui sono stati pubblicati, ma quelli che il sistema ritiene ti terranno più a lungo sull'app. Instagram ha aggiunto shopping, direct sempre più simile a una chat, note, broadcast. Questa continua trasformazione ha un prezzo: molti utenti storici lamentano che l'app abbia perso la sua identità originale, diventando un ibrido che insegue TikTok invece di valorizzare le foto."
+      },
+      {
+        "h": "Instagram, autostima e confronto sociale",
+        "body": "Il lato più studiato di Instagram è il suo effetto sulla salute mentale, soprattutto degli adolescenti e in particolare delle ragazze. Il meccanismo è il confronto sociale verso l'alto: scorrendo il feed vediamo una selezione curata, filtrata e ritoccata delle vite altrui, e inconsciamente la confrontiamo con la nostra vita reale, completa di noia e difetti. Il risultato può essere insoddisfazione, ansia, percezione distorta del proprio corpo. Documenti interni di Meta emersi nel 2021 hanno mostrato che l'azienda stessa era consapevole dell'impatto negativo su una parte delle utenti giovani. I filtri di bellezza, capaci di assottigliare il viso e modificare i lineamenti in tempo reale, hanno alimentato fenomeni come la 'dismorfia da Snapchat', il desiderio di assomigliare alla propria versione filtrata. Instagram ha introdotto contromisure, come la possibilità di nascondere il conteggio dei like e strumenti per il benessere, ma il nodo resta. La consapevolezza è la prima difesa: ricordare che il feed è una vetrina, non la realtà."
+      },
+      {
+        "h": "Creator, influencer e il sogno di vivere di social",
+        "body": "Instagram ha creato un'intera economia. Gli influencer e i creator guadagnano grazie a contenuti sponsorizzati, collaborazioni con marchi, vendita di prodotti propri, link di affiliazione. Per molti giovani 'fare l'influencer' è diventato un'aspirazione di carriera concreta, al pari di mestieri tradizionali. La realtà però è molto più dura del sogno: solo una piccola minoranza vive davvero di social, il lavoro è precario, dipende da algoritmi che cambiano senza preavviso, richiede produzione costante di contenuti e un'esposizione personale che logora, con commenti d'odio e pressione continua. Il fenomeno del burnout dei creator è ampiamente documentato. Per le aziende, invece, Instagram è uno strumento di marketing potente e relativamente accessibile. Su moomz molti sondaggi toccano questo tema: il fascino di un lavoro creativo e libero da un lato, la consapevolezza della sua fragilità e dei suoi costi psicologici dall'altro. Il consiglio più ricorrente è trattare i social come una possibile opportunità, non come un piano di vita garantito."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Chi ha inventato Instagram?",
+        "a": "Instagram è stata creata da Kevin Systrom e Mike Krieger e lanciata il 6 ottobre 2010. Inizialmente era un'app esclusiva per iPhone. Il nome unisce 'instant camera' e 'telegram', a indicare l'idea di condividere istantanee in modo immediato. Il successo fu fulmineo: un milione di utenti in due mesi. Nel aprile 2012 Facebook, l'attuale Meta, acquistò Instagram per circa un miliardo di dollari quando l'app aveva appena 13 dipendenti. All'epoca la cifra parve esagerata; col senno di poi fu una delle acquisizioni più riuscite della storia tecnologica. Systrom e Krieger lasciarono l'azienda nel 2018, in disaccordo sulla crescente integrazione con Facebook."
+      },
+      {
+        "q": "Instagram fa male alla salute mentale?",
+        "a": "Le ricerche indicano che può avere effetti negativi, soprattutto su adolescenti e in particolare sulle ragazze, anche se non è automatico per tutti. Il meccanismo principale è il confronto sociale: scorrere immagini selezionate, filtrate e ritoccate di vite altrui può generare insoddisfazione, ansia e percezione distorta del proprio corpo. Documenti interni di Meta emersi nel 2021 hanno confermato che l'azienda era a conoscenza di questi rischi per parte delle giovani utenti. Detto questo, l'impatto dipende molto da come si usa l'app: chi la usa per creatività, per restare in contatto con persone care e per interessi reali tende a starci meglio di chi passa ore in scrolling passivo. Limitare il tempo, curare chi si segue e ricordare che il feed non è la realtà sono accorgimenti efficaci."
+      },
+      {
+        "q": "Perché Instagram è diventato uguale a TikTok?",
+        "a": "Per pura competizione commerciale. TikTok, con il suo formato di video brevi, verticali e ipnotici, ha conquistato l'attenzione dei giovani a una velocità impressionante a partire dal 2018-2020, sottraendo tempo e utenti a Instagram. Meta ha risposto introducendo i Reels nel 2020 e dando loro un'enorme priorità nell'algoritmo, perché i video coinvolgono di più e trattengono più a lungo. Il risultato è che oggi Instagram spinge i video brevi anche a chi era arrivato per le foto. Molti utenti storici lo vivono come un tradimento dell'identità originale dell'app, e i vertici stessi hanno ammesso le critiche, promettendo di ribilanciare. La logica di fondo, però, resta: i social inseguono il formato che cattura più attenzione, e oggi quel formato è il video breve."
+      },
+      {
+        "q": "Si può davvero vivere facendo l'influencer?",
+        "a": "Per una minoranza sì, per la grande maggioranza no. Vivere di Instagram richiede un pubblico ampio e coinvolto, contenuti di qualità prodotti con costanza e la capacità di trasformare i follower in entrate tramite sponsorizzazioni, prodotti propri, affiliazioni. Solo una piccola percentuale di creator raggiunge un reddito stabile sufficiente. Il lavoro è inoltre precario: dipende da algoritmi che cambiano senza preavviso, richiede esposizione personale costante e comporta un alto rischio di burnout e di esposizione a critiche e odio online. Per i più, i social funzionano meglio come canale complementare, ad esempio per promuovere un'attività o un talento, che come unica fonte di reddito. È un'opportunità reale ma fragile, non una garanzia."
+      }
+    ],
+    "related": ["whatsapp", "iphone", "android", "chatgpt", "gaming"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "android",
+    "locale": "it",
+    "keyword": "Android",
+    "matchPatterns": ["android", "samsung", "google", "smartphone", "robottino verde"],
+    "topic": "tech",
+    "title": "Android — il sistema operativo più diffuso al mondo",
+    "description": "Oltre 3 miliardi di dispositivi attivi: cos'è Android, perché è ovunque e in cosa batte (o no) l'iPhone.",
+    "emoji": "🤖",
+    "intro": "Android è il sistema operativo più usato del pianeta: gira su oltre 3 miliardi di dispositivi attivi, dalla maggior parte degli smartphone a tablet, smartwatch, TV e auto. Eppure molti lo nominano senza sapere bene cosa sia. Android nacque come piccola startup fondata nel 2003 da Andy Rubin e altri; Google la acquisì nel 2005, intuendo che il futuro sarebbe stato mobile. Il primo telefono Android, l'HTC Dream, arrivò nel 2008, poco dopo il primo iPhone. La grande differenza strategica fu questa: mentre Apple teneva iOS esclusivamente per i propri dispositivi, Google rese Android disponibile gratuitamente a tutti i produttori. Il risultato è che oggi Samsung, Xiaomi, Oppo, Motorola, Google stessa con i Pixel e decine di altri marchi usano Android, ciascuno con la propria interfaccia personalizzata. Questo spiega la sua diffusione globale, attorno al 70% del mercato, e l'enorme varietà di prezzi, da telefoni economici sotto i 150 euro a top di gamma oltre i 1.500 euro. In Italia Android ha una quota molto consistente nella popolazione generale, anche se tra i giovani la pressione verso l'iPhone è forte. Su moomz i sondaggi 'Android o iPhone' e 'quanto hai speso per il telefono?' mostrano due filosofie: libertà e varietà contro coerenza e status.",
+    "sections": [
+      {
+        "h": "Perché Android è ovunque",
+        "body": "Il dominio di Android si spiega con una scelta strategica precisa di Google: invece di costruire e vendere telefoni propri come Apple, Google ha reso il sistema operativo gratuito e aperto, permettendo a qualunque produttore di hardware di adottarlo. Questo ha generato un ecosistema vastissimo. Samsung, leader mondiale del settore, costruisce su Android la sua interfaccia One UI; Xiaomi, Oppo, OnePlus, Motorola, Nothing e molti altri fanno lo stesso. Google guadagna non vendendo Android, ma attraverso i servizi: ricerca, pubblicità, Play Store, app come Gmail e Maps preinstallate. La conseguenza per il consumatore è una scelta enorme: esistono telefoni Android per ogni budget e ogni esigenza. Lo svantaggio è la frammentazione: versioni diverse del sistema, interfacce diverse, tempi di aggiornamento molto variabili a seconda del produttore. Comprare Android significa scegliere all'interno di un universo, mentre comprare un iPhone significa entrare in un giardino curato ma chiuso."
+      },
+      {
+        "h": "Cosa puoi fare con Android che con iPhone no",
+        "body": "Android è più aperto e personalizzabile di iOS. Puoi cambiare il launcher, cioè l'aspetto della schermata principale, riorganizzare le icone con grande libertà, mettere widget ovunque, scegliere app predefinite diverse per browser, messaggi e telefono. Puoi installare applicazioni anche al di fuori del Play Store, pratica chiamata sideloading, utile ma da maneggiare con prudenza per i rischi di sicurezza. Molti telefoni Android offrono caratteristiche hardware che l'iPhone non ha, come lo slot per la scheda microSD per espandere la memoria su alcuni modelli, la ricarica via cavo più rapida, il jack per le cuffie su certi dispositivi. La gamma di prezzi è incomparabilmente più ampia. In cambio, l'iPhone offre maggiore uniformità, aggiornamenti garantiti più a lungo su ogni modello e un ecosistema che si integra meglio con altri prodotti Apple. La scelta dipende da quanto valore dai alla libertà di personalizzazione rispetto alla semplicità."
+      },
+      {
+        "h": "Sicurezza e aggiornamenti: il vero punto debole",
+        "body": "Il tallone d'Achille storico di Android è stato l'aggiornamento del software. Poiché il sistema passa attraverso i produttori, che lo personalizzano, le nuove versioni e soprattutto le patch di sicurezza arrivano con ritardi variabili o non arrivano affatto sui telefoni più economici. Questo è un problema perché le patch di sicurezza correggono vulnerabilità che possono essere sfruttate da malware. La situazione è molto migliorata: Google e Samsung promettono ormai fino a sette anni di aggiornamenti sui modelli di punta, allineandosi alla longevità degli iPhone. Sui telefoni di fascia bassa, però, la storia resta diversa. Per la sicurezza valgono comunque buone abitudini valide su qualsiasi sistema: scaricare app solo da fonti affidabili, preferibilmente il Play Store, diffidare di link e allegati sospetti, mantenere il telefono aggiornato. Android non è intrinsecamente meno sicuro di iOS, ma la sua apertura richiede un utente un po' più attento."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Chi possiede Android?",
+        "a": "Android appartiene a Google, che lo acquisì nel 2005 quando era ancora una piccola startup fondata nel 2003 da Andy Rubin. Google sviluppa il sistema operativo e ne rilascia il codice base in modo gratuito e in gran parte open source, così che qualunque produttore di hardware possa usarlo. Per questo Android gira su telefoni di marchi diversissimi, da Samsung a Xiaomi a Motorola. Google produce anche telefoni propri, la linea Pixel, che offrono la versione 'pura' di Android e ricevono gli aggiornamenti per primi. Il modello di guadagno di Google non sta nel vendere Android, ma nei servizi e nella pubblicità collegati: ricerca, Play Store, app preinstallate."
+      },
+      {
+        "q": "Android è meno sicuro dell'iPhone?",
+        "a": "Non intrinsecamente, ma la sua apertura richiede più attenzione. Android consente di installare app anche al di fuori del Play Store, una libertà che apre la porta a software malevolo se l'utente è poco prudente. iOS, più chiuso, limita questo rischio per impostazione. Inoltre, storicamente, gli aggiornamenti di sicurezza su Android arrivavano con ritardi a causa del passaggio dai produttori, anche se la situazione è molto migliorata sui modelli recenti. Detto questo, un telefono Android usato con buon senso, scaricando app solo dal Play Store, evitando link sospetti e tenendo il sistema aggiornato, è perfettamente sicuro. La differenza pratica per l'utente medio attento è minima; il rischio cresce per chi installa software da fonti dubbie."
+      },
+      {
+        "q": "Conviene comprare un telefono Android economico?",
+        "a": "Spesso sì, ed è uno dei grandi vantaggi di Android. La fascia media, attorno ai 250-400 euro, oggi offre telefoni con ottimo schermo, buona fotocamera, autonomia solida e prestazioni più che sufficienti per la vita quotidiana: messaggi, social, video, foto, navigazione. La differenza con i top di gamma da 1.000 euro e più si nota soprattutto in fotografia spinta, gaming intensivo e materiali premium. Sotto i 150 euro la qualità cala in modo evidente e gli aggiornamenti possono mancare. Il punto da verificare prima dell'acquisto è proprio quello: per quanti anni il produttore garantisce gli aggiornamenti di sistema e di sicurezza. Un buon telefono di fascia media ben supportato è un acquisto molto più razionale di un top di gamma comprato per immagine."
+      },
+      {
+        "q": "Posso passare da iPhone ad Android senza perdere i dati?",
+        "a": "Sì, anche se richiede qualche passaggio. Contatti, calendario ed email si trasferiscono facilmente se sono sincronizzati con un account Google o tramite esportazione. Foto e video possono essere spostati con servizi cloud come Google Foto o tramite cavo e computer. WhatsApp ha introdotto strumenti ufficiali per migrare la cronologia delle chat tra i due sistemi, anche se il processo va seguito con cura. La parte più delicata riguarda iMessage: prima di lasciare l'iPhone conviene disattivarlo, altrimenti alcuni messaggi inviati da utenti Apple potrebbero non arrivare sul nuovo telefono. Le app a pagamento vanno generalmente riacquistate, perché App Store e Play Store sono negozi separati. Con un po' di pazienza, la migrazione è del tutto fattibile."
+      }
+    ],
+    "related": ["iphone", "instagram-app", "whatsapp", "pc", "gaming"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mac",
+    "locale": "it",
+    "keyword": "Mac",
+    "matchPatterns": ["mac", "macbook", "apple computer", "imac", "macos"],
+    "topic": "tech",
+    "title": "Mac — il computer Apple tra mito e prezzo",
+    "description": "Dal 1984 ai chip Apple Silicon: storia del Mac, perché piace ai creativi e quando conviene davvero rispetto a un PC.",
+    "emoji": "💻",
+    "intro": "Il Mac è il computer di Apple, e come tutti i prodotti della mela divide il mondo in fedelissimi e scettici. La sua storia è una delle più importanti dell'informatica: il Macintosh originale fu presentato il 24 gennaio 1984, con il celebre spot televisivo diretto da Ridley Scott, lo stesso regista di Blade Runner. Il Macintosh portò al grande pubblico l'interfaccia grafica con icone, finestre e mouse, rendendo il computer usabile senza digitare comandi. Negli anni Novanta Apple rischiò il fallimento, ma il ritorno di Steve Jobs nel 1997 e il lancio dell'iMac colorato nel 1998 invertirono la rotta. La svolta tecnica più recente è del 2020, quando Apple abbandonò i processori Intel e introdusse i propri chip, Apple Silicon, che hanno regalato ai Mac un'enorme efficienza energetica: i MacBook moderni durano un'intera giornata di lavoro con una carica e restano silenziosi e freschi. Oggi il Mac è particolarmente amato da chi lavora nella creatività, grafica, video, musica, design, e da sviluppatori, ma resta una macchina costosa: i prezzi partono da circa mille euro e salgono molto in fretta. In Italia il Mac è anche uno status symbol, il portatile che si vede aperto nei bar e nelle università. Su moomz i sondaggi 'Mac o PC?' sono un classico vibe-check professionale e generazionale.",
+    "sections": [
+      {
+        "h": "macOS contro Windows: due filosofie",
+        "body": "La differenza tra un Mac e un PC Windows non è solo l'hardware, ma il sistema operativo e l'esperienza complessiva. macOS è progettato da Apple per girare solo sui Mac: questo controllo totale su hardware e software produce un sistema generalmente stabile, coerente, curato nei dettagli e ben integrato con iPhone e iPad. Windows, di Microsoft, gira invece su migliaia di configurazioni hardware diverse di marchi diversi: è più flessibile e universale ma, proprio per questo, può essere meno uniforme. macOS è spesso preferito per la coerenza dell'interfaccia, la qualità del trackpad, la continuità con gli altri dispositivi Apple e una certa tranquillità sul fronte malware, storicamente più rari su Mac, anche se non assenti. Windows offre più scelta, più compatibilità con software specifici, soprattutto in ambito aziendale e gaming, e prezzi molto più variabili. Non esiste un vincitore assoluto: dipende da cosa devi farci."
+      },
+      {
+        "h": "Perché i creativi amano il Mac",
+        "body": "C'è una ragione storica e una pratica per cui il Mac è radicato nel mondo creativo. Storicamente, fin dagli anni Ottanta e Novanta, il Macintosh fu la piattaforma di riferimento per il desktop publishing, la grafica e l'editoria: software come quelli per l'impaginazione e il fotoritocco nacquero o si affermarono lì. Quella reputazione si è autoalimentata: studi, agenzie e scuole di design hanno continuato a usare Mac, quindi chi entra nel settore impara su Mac. Praticamente, il Mac offre vantaggi concreti per chi lavora con immagini, video e audio: schermi di ottima qualità con buona resa cromatica, il software di Apple per montaggio video e produzione musicale incluso o a basso costo, e con i chip Apple Silicon prestazioni eccellenti nell'editing video unite a silenziosità e autonomia. Va detto che oggi anche su Windows si fa creatività ad altissimo livello: il monopolio creativo del Mac è più un'eredità culturale che una necessità tecnica assoluta."
+      },
+      {
+        "h": "Quanto costa un Mac e quando conviene",
+        "body": "Il Mac costa di più, è un fatto. Il portatile più accessibile, il MacBook Air, parte da circa 1.200 euro in Italia, e le configurazioni con più memoria e spazio di archiviazione salgono rapidamente, perché Apple fa pagare cara la personalizzazione. Un PC Windows con caratteristiche sulla carta simili spesso costa meno. Quando conviene comunque un Mac? Conviene a chi è già nell'ecosistema Apple e vuole continuità con iPhone e iPad, a chi lavora nella creatività e usa software della suite Apple, a chi cerca un portatile silenzioso con grande autonomia e lo terrà molti anni: i Mac tendono a durare a lungo e mantengono un buon valore di rivendita. Conviene meno a chi ha un budget limitato, a chi gioca, dato che il gaming su Mac resta limitato, e a chi ha bisogno di software specifici disponibili solo su Windows. Una regola pratica: scegli il sistema in base ai programmi che devi usare, non al logo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quando è nato il primo Mac?",
+        "a": "Il primo Macintosh fu presentato da Apple il 24 gennaio 1984. Il lancio fu accompagnato da uno spot televisivo leggendario, diretto da Ridley Scott e trasmesso durante il Super Bowl, ispirato al romanzo 1984 di George Orwell. Il Macintosh originale portò al grande pubblico l'interfaccia grafica con finestre, icone e mouse, un modo di usare il computer molto più intuitivo rispetto alla riga di comando dell'epoca. Non fu il primo computer con interfaccia grafica in assoluto, ma fu quello che la rese accessibile e popolare. Da allora il marchio è diventato semplicemente Mac, e la gamma comprende portatili MacBook, computer all-in-one iMac e desktop come Mac mini e Mac Studio."
+      },
+      {
+        "q": "Cosa sono i chip Apple Silicon?",
+        "a": "Apple Silicon è il nome dei processori progettati direttamente da Apple per i Mac, introdotti a partire dal 2020 in sostituzione dei chip Intel usati fino ad allora. Sono basati sulla stessa architettura efficiente degli iPhone e iPad, e hanno portato un salto enorme soprattutto in efficienza energetica: i MacBook con questi chip durano molte ore con una sola carica, scaldano poco e spesso non hanno bisogno di ventole rumorose. Le prestazioni sono elevate, in particolare nell'editing video e in molti carichi di lavoro creativi. Lo svantaggio principale è che alcuni software molto specifici, certi giochi e alcuni programmi tecnici possono avere compatibilità limitata, anche se la situazione è migliorata moltissimo nel tempo."
+      },
+      {
+        "q": "Il Mac prende i virus?",
+        "a": "Sì, anche se in misura minore rispetto a Windows. Per anni si è creduto che i Mac fossero immuni ai virus: in realtà erano semplicemente un bersaglio meno appetibile, perché meno diffusi. Con la crescita della loro popolarità sono aumentati anche i malware progettati per macOS. Apple integra diverse protezioni di sistema che bloccano molte minacce, e macOS resta statisticamente più sicuro nell'uso quotidiano. Tuttavia nessun sistema è invulnerabile. Le minacce più comuni su Mac oggi sono software indesiderati, adware e truffe di phishing che ingannano l'utente. Valgono le solite buone pratiche: scaricare software solo da fonti affidabili, non cliccare link sospetti, tenere il sistema aggiornato. La sicurezza dipende più dal comportamento dell'utente che dal logo."
+      },
+      {
+        "q": "Mac o PC per studiare all'università?",
+        "a": "Dipende dal corso di studi e dal budget, più che da una superiorità assoluta. Per la maggior parte delle facoltà va benissimo entrambi: scrivere tesine, navigare, usare il pacchetto Office, fare videochiamate sono attività che qualunque computer recente gestisce. Il Mac è ottimo per durata della batteria, portabilità, silenziosità e per chi studia design, comunicazione o discipline creative. Il PC Windows conviene se il corso richiede software specifici disponibili solo su Windows, frequenti in ingegneria, in alcune materie scientifiche e in ambito gestionale, e se il budget è limitato, dato che si trovano buoni portatili Windows a prezzi più bassi. Il consiglio pratico è informarsi su quali programmi userà davvero il corso e scegliere di conseguenza, evitando di pagare un sovrapprezzo solo per il marchio."
+      }
+    ],
+    "related": ["pc", "iphone", "gaming", "android", "chatgpt"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pc",
+    "locale": "it",
+    "keyword": "PC",
+    "matchPatterns": ["pc", "computer", "windows", "portatile", "notebook"],
+    "topic": "tech",
+    "title": "PC — il computer che si adatta a tutti",
+    "description": "Fisso o portatile, da gaming o da ufficio: come orientarsi nel mondo dei PC Windows e scegliere senza spendere male.",
+    "emoji": "🖥️",
+    "intro": "Il PC, acronimo di personal computer, è la macchina che ha portato l'informatica in ogni casa e ogni ufficio. Nel linguaggio comune con PC si intende soprattutto un computer con sistema operativo Windows, in contrapposizione al Mac di Apple, anche se in senso stretto anche un Mac è un personal computer. La storia del PC come fenomeno di massa inizia nel 1981, quando IBM lancia il suo Personal Computer e, scelta cruciale, ne rende l'architettura aperta: altri produttori poterono costruire macchine compatibili. Nacque così l'universo dei PC, dominato dal sistema operativo di Microsoft, che da MS-DOS arrivò a Windows, presentato nel 1985 e diventato negli anni Novanta lo standard mondiale. Oggi Windows gira su oltre un miliardo di dispositivi. La forza del PC è la varietà assoluta: esistono PC fissi e portatili, ultraleggeri da viaggio e potenti workstation, macchine da ufficio a poche centinaia di euro e mostri da gaming che ne costano diverse migliaia. Questa libertà è anche la difficoltà: scegliere un PC significa orientarsi tra processori, memoria, schede grafiche e marchi. In Italia il PC Windows resta lo strumento più diffuso a scuola, in azienda e per il gaming. Su moomz i sondaggi 'PC o console?' e 'fisso o portatile?' raccontano usi e priorità molto diversi tra gli utenti.",
+    "sections": [
+      {
+        "h": "I componenti di un PC spiegati semplici",
+        "body": "Capire le sigle aiuta a non farsi ingannare. Il processore, o CPU, è il cervello del computer: gestisce i calcoli e influenza la velocità generale; le famiglie più note sono Intel Core e AMD Ryzen. La RAM è la memoria di lavoro: più ce n'è, più applicazioni puoi tenere aperte senza rallentamenti; oggi 8 GB sono il minimo, 16 GB il valore consigliato per stare comodi. L'archiviazione è dove vivono i file e il sistema: gli SSD, dischi a stato solido, sono molto più veloci dei vecchi hard disk meccanici e rendono l'avvio quasi istantaneo; un SSD è ormai irrinunciabile. La scheda grafica, o GPU, gestisce le immagini: per ufficio e navigazione basta quella integrata nel processore, mentre per il gaming e il montaggio video pesante serve una GPU dedicata, la voce più costosa. Infine lo schermo, la batteria, la tastiera. Saper leggere queste cinque voci permette di confrontare due PC in modo sensato e di non pagare per potenza che non userai mai."
+      },
+      {
+        "h": "PC fisso o portatile?",
+        "body": "La scelta tra fisso e portatile dipende da come e dove userai il computer. Il portatile vince sulla mobilità: lo porti in università, a lezione, in viaggio, lo usi dal divano. È la scelta più sensata per la maggior parte degli studenti e di chi ha spazio limitato. Gli svantaggi sono prestazioni inferiori a parità di prezzo, minore possibilità di aggiornarlo nel tempo e schermi più piccoli. Il PC fisso vince su potenza, prezzo e durata: a parità di spesa offre componenti più performanti, è facilmente aggiornabile, dura più a lungo, scalda meno e permette schermi grandi, tastiera e mouse comodi. È la scelta ideale per il gaming serio, il montaggio video, il lavoro creativo intensivo e per chi lavora sempre dalla stessa scrivania. Esistono anche soluzioni intermedie, come un portatile collegato a un monitor esterno a casa. La domanda da farsi è semplice: ho davvero bisogno di spostarlo, o resterà quasi sempre sulla scrivania?"
+      },
+      {
+        "h": "PC da gaming: cosa serve davvero",
+        "body": "Il PC da gaming è una categoria a sé, spesso oggetto di sogni e di spese. Per giocare bene serve soprattutto una buona scheda grafica dedicata, il componente che disegna i mondi di gioco, affiancata da un processore adeguato e da almeno 16 GB di RAM. Ma il punto importante è la proporzionalità: la potenza necessaria dipende da cosa e come vuoi giocare. Per titoli competitivi popolari, spesso ottimizzati e leggeri, basta una configurazione di fascia media. Per giocare agli ultimi titoli con la grafica al massimo e schermi ad alta risoluzione e refresh elevato serve invece una macchina costosa. Il PC da gaming offre rispetto alla console maggiore potenza, schermi più flessibili, possibilità di aggiornamento e di usarlo anche per lavoro e studio, ma costa di più e richiede qualche conoscenza tecnica. La console è più semplice e con un prezzo d'ingresso più basso. Su moomz è una delle rivalità più sentite. Il consiglio è non inseguire la configurazione estrema: meglio una macchina equilibrata sul budget reale."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanto deve costare un buon PC?",
+        "a": "Dipende dall'uso. Per attività di base, navigazione, posta, video, Office, scrittura, un portatile Windows valido si trova oggi tra i 400 e i 600 euro, purché abbia un SSD e almeno 8, meglio 16 GB di RAM. Per uno studente che fa anche un po' di multitasking e qualche lavoro più impegnativo, la fascia ideale è 600-900 euro. Per il gaming o il montaggio video servono configurazioni con scheda grafica dedicata, e i prezzi salgono: da circa 800 euro per il gaming entry level fino a oltre 2.000 euro per le macchine più potenti. Sotto i 350 euro la qualità di solito cala in modo evidente. La regola è non pagare per potenza che non userai: meglio un buon PC equilibrato che un mostro sovradimensionato."
+      },
+      {
+        "q": "Cosa significano RAM, SSD e CPU?",
+        "a": "Sono i tre componenti che determinano di più la sensazione di velocità di un computer. La CPU, o processore, è il cervello: esegue i calcoli e incide sulla rapidità generale. La RAM è la memoria di lavoro temporanea: contiene i programmi mentre li usi, e averne di più permette di tenere aperte molte applicazioni senza rallentamenti; 16 GB sono oggi un buon valore. L'SSD è il disco dove sono archiviati il sistema operativo e i file: è una memoria a stato solido, molto più rapida del vecchio hard disk meccanico, e rende l'accensione e l'apertura dei programmi quasi immediate. Un computer con poca RAM o senza SSD risulterà lento anche con un buon processore. Per un acquisto azzeccato, controllare questi tre dati è più utile che guardare il marchio."
+      },
+      {
+        "q": "Meglio un PC o una console per giocare?",
+        "a": "Dipende dalle priorità. La console, come PlayStation o Xbox, ha un prezzo d'ingresso più basso, è semplice da usare, basta accenderla e giocare, e tutti i giochi sono garantiti compatibili. È la scelta più comoda e senza pensieri. Il PC da gaming costa di più e richiede qualche conoscenza tecnica, ma offre in cambio maggiore potenza grafica, schermi più flessibili con alte frequenze di aggiornamento, una libreria di giochi enorme spesso a prezzi scontati, la possibilità di aggiornare i componenti nel tempo e di usare la stessa macchina anche per studio e lavoro. In sintesi: console per chi vuole semplicità e spesa contenuta, PC per chi cerca prestazioni, versatilità e personalizzazione. È una delle scelte più discusse tra i giocatori."
+      },
+      {
+        "q": "Quanto dura un PC prima di doverlo cambiare?",
+        "a": "Un PC ben scelto e ben tenuto può durare facilmente dai 5 agli 8 anni per un uso normale, e talvolta di più. La durata dipende molto dalla configurazione iniziale: un computer comprato già al limite delle prestazioni invecchia in fretta, mentre uno con buoni margini, soprattutto abbondante RAM e un SSD, resta valido a lungo. I PC fissi durano di più dei portatili perché si possono aggiornare: aggiungere RAM o sostituire l'SSD può ringiovanire una macchina lenta a costi bassi. Spesso un PC sembra vecchio solo perché è pieno di programmi inutili o privo di manutenzione: una pulizia del software o l'aggiunta di un SSD bastano a rimetterlo in sesto. Cambiare ogni due o tre anni è quasi sempre superfluo."
+      }
+    ],
+    "related": ["mac", "gaming", "iphone", "android", "vr"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gaming",
+    "locale": "it",
+    "keyword": "Gaming",
+    "matchPatterns": ["gaming", "videogioco", "videogiochi", "console", "playstation"],
+    "topic": "tech",
+    "title": "Gaming — l'intrattenimento numero uno al mondo",
+    "description": "I videogiochi valgono più di cinema e musica insieme. Storia, console, eSport e il dibattito sulla dipendenza.",
+    "emoji": "🎮",
+    "intro": "Il gaming non è più una nicchia: è l'industria dell'intrattenimento più grande del pianeta. Il mercato globale dei videogiochi vale più di quello del cinema e della musica messi insieme, e coinvolge miliardi di persone di ogni età e genere. L'idea che il videogioco sia 'roba da bambini' è superata da decenni: l'età media dei giocatori è ben oltre i trent'anni, e la metà del pubblico è composta da donne. La storia comincia negli anni Settanta con i cabinati da sala giochi e con Pong; gli anni Ottanta videro l'esplosione delle console domestiche e l'arrivo di icone come Super Mario; gli anni Novanta portarono la grafica tridimensionale. Oggi si gioca ovunque: su console come PlayStation e Xbox, su PC, e soprattutto su smartphone, dove i giochi mobile generano la fetta più grande di tutto il mercato. Il gaming è diventato anche un fenomeno sociale e mediatico: gli eSport riempiono stadi, gli streamer su Twitch e YouTube hanno milioni di follower, e titoli online sono veri luoghi di ritrovo per intere generazioni. In Italia il settore cresce con costanza. Su moomz i sondaggi 'console o PC?', 'qual è il tuo gioco preferito?' o 'i videogiochi creano dipendenza?' generano sempre tantissimi voti e dibattiti accesi.",
+    "sections": [
+      {
+        "h": "Console, PC e mobile: i tre mondi del gaming",
+        "body": "Oggi il gaming si divide in tre grandi piattaforme, ciascuna con la propria cultura. Le console, principalmente PlayStation di Sony e Xbox di Microsoft, più la ibrida Nintendo Switch, offrono semplicità: si collegano alla TV e si gioca, con la garanzia che ogni titolo funzioni. Il PC da gaming offre più potenza grafica, schermi più flessibili, una libreria immensa con frequenti sconti e la possibilità di aggiornare i componenti, in cambio di un costo maggiore e di qualche competenza tecnica. Il mobile, cioè i giochi su smartphone, è in realtà il segmento più grande di tutti per numero di giocatori e ricavi: è accessibile, immediato, spesso gratuito all'inizio. Nintendo merita un discorso a parte: punta meno sulla potenza grafica e più sulla creatività e sul gioco condiviso, con saghe storiche come Mario e Zelda. Non esiste una piattaforma migliore in assoluto: dipende da quanto si vuole spendere, da quanto conta la grafica e da come si preferisce giocare, soli o in compagnia."
+      },
+      {
+        "h": "eSport: i videogiochi diventano sport",
+        "body": "Gli eSport, cioè le competizioni professionistiche di videogiochi, sono uno dei fenomeni più sorprendenti dell'ultimo decennio. I tornei dei titoli più popolari mettono in palio montepremi milionari e attraggono pubblici enormi: le finali dei campionati mondiali dei giochi più seguiti vengono guardate online da decine di milioni di spettatori, cifre paragonabili a grandi eventi sportivi tradizionali. Esistono squadre professionistiche, allenatori, analisti, sponsor, stipendi per i giocatori migliori. La carriera di un pro player è però breve e durissima: richiede ore di allenamento quotidiano, riflessi che declinano già a vent'anni inoltrati, forte pressione. Attorno agli eSport è cresciuto anche il fenomeno dello streaming: piattaforme come Twitch hanno reso possibile guardare altri giocare, e gli streamer di maggior successo sono diventate vere celebrità con milioni di follower. Il dibattito se gli eSport siano 'veri sport' resta aperto, ma economicamente e culturalmente sono ormai un settore consolidato che le università stesse iniziano a riconoscere."
+      },
+      {
+        "h": "Videogiochi e dipendenza: il dibattito",
+        "body": "La domanda se i videogiochi creino dipendenza è seria e dibattuta. L'Organizzazione Mondiale della Sanità ha incluso il 'disturbo da gioco', in inglese gaming disorder, nella sua classificazione delle malattie: si tratta però di una condizione che riguarda una minoranza di giocatori e che si diagnostica solo quando il gioco compromette gravemente vita scolastica, lavorativa, relazionale e di salute per un periodo prolungato. Giocare molto non equivale automaticamente a essere dipendenti. Detto questo, alcuni meccanismi sono progettati per massimizzare il tempo speso: ricompense continue, obiettivi che si rinnovano, le cosiddette loot box, casse a premio casuali criticate perché simili al gioco d'azzardo. La ricerca mostra anche aspetti positivi del gaming: socialità, problem solving, riflessi, gestione dello stress, creatività. La chiave, come per molte attività digitali, è l'equilibrio: tempo consapevole, attenzione ai segnali di eccesso e, per i più giovani, dialogo in famiglia. Su moomz il tema divide tra chi difende il gaming e chi ne teme gli abusi."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Il gaming vale davvero più del cinema?",
+        "a": "Sì, da diversi anni. L'industria globale dei videogiochi genera ricavi superiori a quelli del cinema e della musica registrata messi insieme. Le ragioni sono diverse: il gaming raggiunge miliardi di persone su tutte le piattaforme, dagli smartphone alle console, i giochi mobile portano un pubblico vastissimo, e i titoli di maggior successo restano attivi e generano ricavi per anni grazie a contenuti aggiuntivi e acquisti interni. Un singolo grande lancio può incassare in pochi giorni cifre paragonabili ai più grandi film. Questo non significa che il cinema sia in crisi assoluta, ma certifica che il videogioco è ormai la forma di intrattenimento dominante, non più una nicchia per appassionati."
+      },
+      {
+        "q": "I videogiochi rendono violenti?",
+        "a": "La ricerca scientifica nel suo complesso non ha dimostrato un legame causale tra videogiochi e comportamenti violenti reali. È un tema studiato da decenni: molti studi non trovano alcun effetto, altri trovano effetti minimi e di breve durata sull'aggressività momentanea, ma nessuna prova solida che giocare a titoli violenti renda una persona violenta nella vita. Va considerato che il gaming è ormai diffusissimo in tutto il mondo, mentre la criminalità violenta non segue affatto la stessa curva. Gli esperti sottolineano che i comportamenti aggressivi dipendono da fattori complessi, familiari, sociali, psicologici. È invece sensato che i genitori usino i sistemi di classificazione per età, come il PEGI in Europa, per scegliere giochi adatti ai più piccoli."
+      },
+      {
+        "q": "Quanto si può vivere facendo il gamer professionista?",
+        "a": "Per pochissimi, e per poco tempo. Diventare un pro player o uno streamer di successo è realisticamente difficile quanto sfondare in uno sport tradizionale o nello spettacolo. Una minoranza ristrettissima raggiunge stipendi alti grazie a tornei, sponsor e streaming, ma la grande maggioranza di chi ci prova non ne ricava un reddito sufficiente. La carriera competitiva è inoltre brevissima: i riflessi calano già verso la fine dei vent'anni, e la pressione è enorme. Lo streaming richiede costanza, personalità e tempismo, oltre a una buona dose di fortuna con gli algoritmi. Il consiglio degli stessi professionisti è trattare il gaming come una passione e, eventualmente, una possibile opportunità complementare, senza puntarci come unico piano di vita."
+      },
+      {
+        "q": "Cosa sono le loot box e perché sono criticate?",
+        "a": "Le loot box sono casse o pacchetti virtuali, presenti in molti videogiochi, che contengono ricompense casuali: oggetti, personaggi, elementi estetici. Spesso si possono ottenere giocando, ma anche acquistare con denaro reale. La critica principale è che il loro meccanismo, pagare per un risultato incerto e casuale, somiglia al gioco d'azzardo, e questo è considerato particolarmente problematico quando il pubblico include minori. Diversi Paesi hanno avviato indagini e in alcuni casi regolamentato o limitato le loot box. Il dibattito riguarda anche il modello economico più ampio dei giochi: titoli formalmente gratuiti che spingono ad acquisti continui. Le associazioni dei consumatori e alcune autorità chiedono maggiore trasparenza, ad esempio sull'effettiva probabilità di ottenere ciascun premio."
+      }
+    ],
+    "related": ["pc", "vr", "iphone", "mac", "android"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vr",
+    "locale": "it",
+    "keyword": "Realtà virtuale",
+    "matchPatterns": ["realta virtuale", "vr", "visore", "metaverso", "oculus"],
+    "topic": "tech",
+    "title": "Realtà virtuale — il futuro promesso da decenni",
+    "description": "Visori, metaverso e realtà aumentata: dove siamo davvero con la VR, a cosa serve e perché non ha ancora sfondato.",
+    "emoji": "🥽",
+    "intro": "La realtà virtuale, o VR, è una di quelle tecnologie che vengono annunciate come 'il futuro' da decenni senza essere mai diventate davvero di massa. L'idea è semplice e potente: indossare un visore che sostituisce completamente la vista e l'udito del mondo reale con un ambiente digitale tridimensionale, dando la sensazione di essere fisicamente altrove. I primi esperimenti risalgono agli anni Sessanta, e il termine 'realtà virtuale' si diffuse alla fine degli anni Ottanta. Ci fu una grande ondata di entusiasmo, e di delusione, negli anni Novanta: la tecnologia non era pronta. La rinascita moderna è iniziata negli anni 2010, in particolare quando Facebook, oggi Meta, acquistò il produttore di visori Oculus nel 2014 per circa 2 miliardi di dollari, puntando con decisione su questo settore. Da allora i visori sono migliorati moltissimo, sono diventati più leggeri, più definiti, autonomi senza bisogno di un PC. Eppure la VR resta una tecnologia di nicchia rispetto allo smartphone. Accanto alla VR si parla di realtà aumentata, AR, che sovrappone elementi digitali al mondo reale invece di sostituirlo, e di metaverso, la visione di mondi virtuali condivisi e persistenti. Su moomz i sondaggi 'compreresti un visore VR?' o 'il metaverso è il futuro o una bolla?' dividono gli utenti tra curiosi entusiasti e scettici.",
+    "sections": [
+      {
+        "h": "VR, AR e mixed reality: le differenze",
+        "body": "Si fa spesso confusione tra tre concetti vicini ma distinti. La realtà virtuale, VR, è immersione totale: il visore copre completamente la vista e ti trasporta in un ambiente interamente digitale, escludendo il mondo reale. È la tecnologia dei visori da gaming e delle esperienze immersive. La realtà aumentata, AR, fa il contrario: lascia vedere il mondo reale e vi sovrappone elementi digitali, testi, immagini, oggetti virtuali. L'esempio più popolare di AR è stato un gioco per smartphone che faceva apparire creature digitali nelle strade reali; gli occhiali smart che mostrano informazioni davanti agli occhi sono un'altra applicazione. La realtà mista, o mixed reality, è una via di mezzo avanzata: oggetti digitali che interagiscono in modo realistico con l'ambiente reale, ad esempio uno schermo virtuale fissato a una parete vera. I visori più recenti tendono a combinare queste capacità. Capire la differenza aiuta a non confondere promesse molto diverse tra loro."
+      },
+      {
+        "h": "A cosa serve davvero la VR oggi",
+        "body": "Al di là dell'immaginario fantascientifico, la realtà virtuale ha già usi concreti. Il gaming è l'applicazione più matura: i giochi in VR offrono un'immersione che nessuno schermo tradizionale può dare, anche se richiedono spazio fisico e possono provocare nausea ad alcune persone. Ci sono poi applicazioni professionali in crescita: la formazione e l'addestramento, dove la VR permette di simulare situazioni pericolose o costose in sicurezza, ad esempio per chirurghi, piloti, operai; la progettazione e l'architettura, per visitare un edificio prima di costruirlo; la medicina, anche per terapie contro fobie e dolore. Ci sono usi nell'istruzione, nei musei virtuali, negli eventi e nelle riunioni a distanza. La VR è anche usata per il fitness, con applicazioni che trasformano l'allenamento in gioco. Il limite attuale resta la diffusione: nonostante questi usi reali, il visore non è ancora entrato nella vita quotidiana come lo smartphone, e per molti resta un oggetto occasionale più che uno strumento d'uso costante."
+      },
+      {
+        "h": "Il metaverso: rivoluzione o bolla?",
+        "body": "Il metaverso è la visione di uno spazio digitale condiviso e persistente, dove le persone, rappresentate da avatar, lavorano, socializzano, giocano, comprano. Il termine viene da un romanzo di fantascienza degli anni Novanta. Nel 2021 questa idea è esplosa nel dibattito pubblico, soprattutto quando Facebook cambiò nome in Meta proprio per segnalare la sua scommessa sul metaverso, investendo miliardi di dollari. L'entusiasmo iniziale ha però lasciato spazio a un forte scetticismo: i mondi virtuali proposti sono apparsi spesso poco attraenti, poco popolati, tecnicamente immaturi, e l'attenzione mediatica e degli investitori si è in gran parte spostata sull'intelligenza artificiale. Restano due posizioni. Per gli ottimisti, il metaverso è una direzione di lungo periodo, che maturerà col migliorare di visori e connessioni, e l'attuale delusione è solo una fase. Per gli scettici, è stata soprattutto una bolla di hype, e gli spazi digitali condivisi che funzionano davvero sono già qui, sono i grandi giochi online, senza bisogno di un visore. Su moomz il dibattito resta apertissimo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "La realtà virtuale fa venire la nausea?",
+        "a": "A una parte degli utenti sì, ed è uno dei limiti più noti della VR. Il fenomeno si chiama cybersickness, o mal di simulatore, e somiglia al mal d'auto. È causato da un conflitto tra ciò che gli occhi vedono, cioè movimento nell'ambiente virtuale, e ciò che l'orecchio interno percepisce, cioè un corpo fermo. Il cervello riceve segnali contraddittori e reagisce con nausea, mal di testa, capogiri. La sensibilità varia molto da persona a persona: alcuni non ne soffrono affatto, altri la avvertono dopo pochi minuti. La tecnologia è migliorata, con schermi a frequenza di aggiornamento più alta e tracciamento più preciso che riducono il problema, e abituarsi gradualmente con sessioni brevi aiuta. Alcune esperienze, soprattutto quelle con movimenti rapidi, restano comunque più difficili da tollerare di altre."
+      },
+      {
+        "q": "Quanto costa un visore VR?",
+        "a": "I prezzi variano molto a seconda della categoria. I visori autonomi di fascia accessibile, che funzionano da soli senza bisogno di collegarli a un PC, partono da alcune centinaia di euro e rappresentano oggi il modo più diffuso di provare la VR. Salendo di qualità, con schermi più definiti, maggiore comfort e funzioni di realtà mista, si arriva facilmente a cifre intorno o oltre i mille euro. I visori di fascia alta, pensati per usi professionali o per i più esigenti, possono costare diverse migliaia di euro. Va inoltre considerato lo spazio fisico necessario per muoversi in sicurezza e, per i visori non autonomi, il costo di un PC adeguato. Per un primo assaggio, un visore autonomo entry level è la scelta più ragionevole."
+      },
+      {
+        "q": "Il metaverso è morto?",
+        "a": "Non è morto, ma l'enorme hype del 2021-2022 si è sgonfiato. Dopo l'ondata di entusiasmo, alimentata anche dal cambio di nome di Facebook in Meta, l'interesse di media e investitori si è in larga parte spostato sull'intelligenza artificiale generativa. Molti mondi virtuali presentati come il futuro si sono rivelati poco frequentati e tecnicamente acerbi. Questo non significa che l'idea di spazi digitali condivisi sia finita: esiste già e funziona molto bene sotto forma di grandi giochi e piattaforme sociali online frequentate da milioni di persone. Ciò che è in dubbio è la versione del metaverso basata su visori e avatar tridimensionali come prossima grande piattaforma di massa. Resta una scommessa di lungo periodo, su cui ottimisti e scettici restano profondamente divisi."
+      },
+      {
+        "q": "La VR fa male agli occhi o ai bambini?",
+        "a": "Per gli adulti, un uso ragionevole della VR non risulta dannoso per la vista, anche se può causare affaticamento visivo, secchezza oculare e mal di testa dopo sessioni lunghe: pause regolari aiutano. Per i bambini il discorso è più prudente. Molti produttori di visori indicano un'età minima consigliata, spesso intorno ai 12-13 anni, perché il sistema visivo dei più piccoli è ancora in sviluppo e gli effetti a lungo termine dell'uso intenso non sono pienamente noti. Ci sono anche aspetti pratici: i visori sono spesso troppo grandi per le teste dei bambini, e l'isolamento totale dall'ambiente comporta rischi di urti. Per i minori si raccomandano quindi sessioni brevi, supervisione di un adulto e rispetto delle indicazioni di età del produttore."
+      }
+    ],
+    "related": ["gaming", "pc", "intelligenza-artificiale", "iphone", "chatgpt"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cripto",
+    "locale": "it",
+    "keyword": "Criptovalute",
+    "matchPatterns": ["cripto", "criptovaluta", "criptovalute", "blockchain", "wallet"],
+    "topic": "tech",
+    "title": "Criptovalute — la moneta digitale tra sogno e rischio",
+    "description": "Cosa sono davvero le criptovalute, come funziona la blockchain e perché entusiasmano e spaventano allo stesso tempo.",
+    "emoji": "🪙",
+    "intro": "Le criptovalute sono uno dei temi più discussi, fraintesi e divisivi della tecnologia recente. Una criptovaluta è una forma di moneta digitale che non esiste in forma fisica e che, a differenza dell'euro o del dollaro, non è emessa né garantita da una banca centrale o da uno Stato. Si basa su una tecnologia chiamata blockchain, una sorta di registro pubblico condiviso e protetto dalla crittografia, in cui vengono registrate tutte le transazioni in modo che nessuno possa modificarle a posteriori. La prima e più famosa criptovaluta è Bitcoin, nata nel 2009 da un'identità misteriosa nota con lo pseudonimo di Satoshi Nakamoto. L'idea originale era ambiziosa: creare un denaro digitale che funzionasse senza intermediari, da persona a persona. Da allora sono nate migliaia di altre criptovalute. Il mondo cripto è caratterizzato da una volatilità estrema: i prezzi possono salire o crollare del 20% in un solo giorno, creando storie di guadagni rapidi e di perdite rovinose. Attorno a questo universo si sono moltiplicate anche le truffe. In Italia le autorità invitano alla massima prudenza. Su moomz i sondaggi 'investiresti in criptovalute?' o 'le cripto sono il futuro o una bolla?' accendono dibattiti tra chi vede una rivoluzione finanziaria e chi vede solo speculazione e rischio.",
+    "sections": [
+      {
+        "h": "Cos'è la blockchain, spiegata semplice",
+        "body": "Per capire le criptovalute bisogna capire la blockchain. Immagina un grande registro contabile, un quaderno dove sono annotate tutte le transazioni. La novità della blockchain è che questo quaderno non è custodito da una banca o da un ente centrale, ma è copiato e condiviso su migliaia di computer in tutto il mondo. Ogni nuova transazione viene raggruppata in un 'blocco', e ogni blocco è collegato matematicamente al precedente, formando una 'catena', da cui il nome. La crittografia rende praticamente impossibile modificare una transazione passata senza che tutta la rete se ne accorga. Il risultato è un sistema in cui non serve fidarsi di un intermediario: la fiducia è garantita dalla matematica e dalla trasparenza del registro condiviso. Questa idea ha applicazioni potenziali anche oltre il denaro, ad esempio nella tracciabilità di prodotti o nei contratti automatici. La blockchain è la vera innovazione tecnica; le criptovalute sono solo la sua applicazione più conosciuta."
+      },
+      {
+        "h": "Perché il prezzo delle cripto è così instabile",
+        "body": "La caratteristica che spaventa di più chi si avvicina alle criptovalute è la volatilità estrema. A differenza di una valuta tradizionale, il cui valore è relativamente stabile e sostenuto da un'economia e da una banca centrale, il prezzo di una criptovaluta dipende quasi interamente da domanda e offerta sul mercato, e da fattori come notizie, dichiarazioni di personaggi influenti, mode, paura ed euforia collettiva. Non avendo un valore intrinseco facile da misurare, le cripto sono soggette a oscillazioni enormi: variazioni a doppia cifra percentuale in un solo giorno sono normali. Questo crea due narrazioni opposte: da un lato le storie di chi ha guadagnato cifre importanti comprando al momento giusto, dall'altro quelle di chi ha perso quasi tutto comprando al picco di una bolla. Gli esperti finanziari ricordano che la possibilità di guadagni rapidi è inseparabile dal rischio di perdite rapide. Le criptovalute sono uno strumento ad altissimo rischio, non un risparmio sicuro."
+      },
+      {
+        "h": "Truffe cripto: come riconoscerle",
+        "body": "Il mondo delle criptovalute, proprio per la sua complessità e per il miraggio di guadagni facili, è terreno fertile per truffe. Le autorità italiane ed europee mettono in guardia di continuo. Alcuni segnali d'allarme sono ricorrenti: chiunque prometta rendimenti garantiti, alti e sicuri sta mentendo, perché nessun investimento serio può garantire profitti; gli schemi che pagano i vecchi investitori con i soldi dei nuovi, i cosiddetti schemi Ponzi, crollano sempre. Diffidare dei messaggi che spingono ad agire in fretta, dei finti consigli di personaggi famosi usati senza consenso, dei progetti che chiedono di reclutare altre persone. Attenzione anche al phishing: siti e wallet falsi creati per rubare le credenziali e i fondi. Regole di buon senso: non investire mai più di quanto si è disposti a perdere, diffidare di ciò che non si capisce, usare solo piattaforme regolamentate e riconosciute, custodire con cura le proprie chiavi di accesso. Se un'offerta sembra troppo bella per essere vera, quasi sempre lo è."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le criptovalute sono legali in Italia?",
+        "a": "Sì, possedere, comprare e vendere criptovalute è legale in Italia. Non sono però considerate moneta a corso legale come l'euro: nessuno è obbligato ad accettarle come pagamento. Negli ultimi anni il quadro normativo si è progressivamente definito, sia a livello italiano sia europeo, con regole sempre più precise sulle piattaforme di scambio e sugli obblighi degli operatori. Esistono anche obblighi fiscali: i guadagni ottenuti con le criptovalute possono essere soggetti a tassazione e vanno dichiarati, secondo le regole vigenti. È quindi importante informarsi sulla normativa aggiornata e, in caso di operazioni significative, rivolgersi a un commercialista. Legalità non significa assenza di rischio: le autorità ricordano costantemente che si tratta di strumenti molto rischiosi."
+      },
+      {
+        "q": "Conviene investire in criptovalute?",
+        "a": "Non esiste una risposta valida per tutti, ma alcuni principi sono condivisi dagli esperti. Le criptovalute sono un investimento ad altissimo rischio e altamente speculativo: il loro valore può crollare rapidamente e in modo imprevedibile. Per questo, la regola più ripetuta è non investire mai denaro di cui si potrebbe avere bisogno e non puntare somme che non ci si può permettere di perdere completamente. Le cripto non sono uno strumento di risparmio né una garanzia di guadagno: chi le presenta così sta ingannando. Per chi è interessato, l'approccio prudente prevede di destinarvi solo una piccola parte del patrimonio, di studiare bene ciò in cui si investe e di diffidare delle promesse di profitti facili. Per la maggior parte delle persone, strumenti finanziari più tradizionali e diversificati restano più adatti."
+      },
+      {
+        "q": "Cos'è un wallet di criptovalute?",
+        "a": "Un wallet, letteralmente portafoglio, è lo strumento che permette di conservare e gestire le proprie criptovalute. In realtà non contiene monete fisiche né digitali: custodisce le chiavi crittografiche che dimostrano la proprietà dei fondi registrati sulla blockchain. Esistono diversi tipi. I wallet software sono applicazioni su computer o smartphone, comodi ma più esposti se il dispositivo viene compromesso. I wallet hardware sono dispositivi fisici simili a chiavette USB che custodiscono le chiavi offline, considerati più sicuri. C'è poi la differenza tra tenere le cripto su una piattaforma di scambio, che gestisce le chiavi per te, e gestirle in autonomia. La regola fondamentale è la custodia delle chiavi private e della frase di recupero: chi le perde perde l'accesso ai fondi per sempre, e chi le ruba può sottrarre tutto."
+      },
+      {
+        "q": "Le criptovalute fanno male all'ambiente?",
+        "a": "Alcune sì, in misura significativa, altre molto meno. Il problema riguarda soprattutto il meccanismo con cui certe criptovalute, storicamente Bitcoin, validano le transazioni: un processo chiamato mining che richiede un'enorme quantità di calcolo e quindi di energia elettrica. Il consumo energetico complessivo di queste reti è stato paragonato a quello di interi Paesi, con un impatto ambientale criticato a livello globale. Va però precisato che non tutte le criptovalute funzionano così: diverse reti importanti hanno adottato meccanismi alternativi, molto più efficienti dal punto di vista energetico, riducendo drasticamente i consumi. Inoltre una parte del mining utilizza energia da fonti rinnovabili. L'impatto ambientale resta comunque uno degli argomenti più usati dai critici delle criptovalute, soprattutto verso le reti basate sui sistemi più energivori."
+      }
+    ],
+    "related": ["bitcoin", "intelligenza-artificiale", "chatgpt", "pc", "soldi"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bitcoin",
+    "locale": "it",
+    "keyword": "Bitcoin",
+    "matchPatterns": ["bitcoin", "btc", "satoshi", "criptovaluta", "mining"],
+    "topic": "tech",
+    "title": "Bitcoin — la prima criptovaluta e il suo mito",
+    "description": "Nato nel 2009 da un creatore misterioso, Bitcoin è l'oro digitale o una bolla? Storia, funzionamento e dibattito.",
+    "emoji": "₿",
+    "intro": "Bitcoin è la criptovaluta originale, quella che ha dato il via a tutto. La sua storia comincia in un momento preciso e simbolico: alla fine del 2008, in piena crisi finanziaria globale, un documento tecnico firmato con lo pseudonimo di Satoshi Nakamoto descrisse un sistema di denaro elettronico tra pari, senza bisogno di banche. La rete Bitcoin entrò in funzione il 3 gennaio 2009. La vera identità di Satoshi Nakamoto non è mai stata accertata: potrebbe essere una persona o un gruppo, e questo mistero è parte del mito di Bitcoin. Un aneddoto famoso racconta i primi tempi del suo valore: nel 2010 un programmatore pagò due pizze con diecimila bitcoin, una transazione che ricordata oggi vale una fortuna e che viene celebrata ogni anno come 'Bitcoin Pizza Day'. Bitcoin ha un limite tecnico fondamentale: ne potranno mai esistere al massimo 21 milioni, un tetto scritto nelle sue regole, ed è proprio questa scarsità programmata che porta i sostenitori a chiamarlo 'oro digitale'. Il suo prezzo ha vissuto cicli spettacolari di ascese e crolli. Per gli entusiasti è una rivoluzione monetaria; per i critici è una bolla speculativa senza valore reale. Su moomz i sondaggi 'Bitcoin: oro digitale o bolla?' restano tra i più discussi del momento.",
+    "sections": [
+      {
+        "h": "Come funziona Bitcoin",
+        "body": "Bitcoin funziona senza una banca centrale grazie alla blockchain e a una rete di computer distribuita in tutto il mondo. Ogni transazione viene trasmessa alla rete, verificata e poi registrata in modo permanente in un blocco. Il processo che conferma le transazioni e crea nuovi bitcoin si chiama mining: dei computer molto potenti competono per risolvere complessi calcoli matematici, e chi riesce viene ricompensato con bitcoin. Questo meccanismo serve a rendere la rete sicura e a impedire le frodi, ma comporta un enorme consumo energetico. Una caratteristica cruciale è il tetto massimo: il codice di Bitcoin stabilisce che non potranno mai esistere più di 21 milioni di unità. Inoltre, a intervalli regolari, la ricompensa data ai miner si dimezza, un evento chiamato halving, che riduce progressivamente la creazione di nuovi bitcoin. È questa scarsità matematica, contrapposta alle valute tradizionali che le banche centrali possono stampare, l'argomento centrale di chi paragona Bitcoin all'oro."
+      },
+      {
+        "h": "Oro digitale o bolla speculativa?",
+        "body": "Il dibattito su cosa sia davvero Bitcoin divide profondamente. I sostenitori lo vedono come 'oro digitale', una riserva di valore: la sua quantità è limitata, non può essere svalutato da un governo che stampa moneta, è trasferibile in tutto il mondo senza intermediari, e per alcuni rappresenta una protezione contro l'inflazione e una forma di indipendenza dal sistema bancario. I critici, tra cui molti economisti e banche centrali, ribattono che Bitcoin non produce nulla, non distribuisce dividendi, non ha un valore intrinseco misurabile: il suo prezzo dipende solo da quanto qualcun altro è disposto a pagarlo. Lo accusano di essere troppo volatile per essere una vera moneta o una vera riserva di valore stabile, di consumare troppa energia e di prestarsi a speculazione e attività illecite. La verità è che dopo oltre quindici anni Bitcoin esiste ancora ed è seguito da milioni di persone, ma resta un asset estremamente rischioso. Su moomz il sondaggio si ripropone di continuo, perché nessuna delle due posizioni ha convinto l'altra."
+      },
+      {
+        "h": "I cicli di Bitcoin e l'effetto FOMO",
+        "body": "La storia del prezzo di Bitcoin è una sequenza di cicli drammatici: lunghe salite che attirano sempre più persone, picchi vertiginosi seguiti da crolli profondi, fasi di apatia e poi nuove risalite. Questo andamento alimenta un fenomeno psicologico potentissimo, la FOMO, dall'inglese fear of missing out, la paura di restare esclusi. Quando il prezzo sale e i media ne parlano, molte persone comprano per non perdere l'occasione, spesso proprio vicino al picco; quando poi il prezzo crolla, vendono in preda al panico, realizzando una perdita. È il classico errore del comprare alto e vendere basso, l'esatto contrario di una strategia sensata, ed è guidato dall'emozione collettiva più che dall'analisi. Il mondo cripto è particolarmente esposto a questa dinamica perché è giovane, mediatico e popolato da storie di guadagni rapidi che colpiscono l'immaginazione. La lezione che gli osservatori più esperti ripetono è proprio questa: le decisioni di investimento prese sull'onda della paura o dell'euforia sono quasi sempre le peggiori, e Bitcoin non fa eccezione."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Chi ha inventato Bitcoin?",
+        "a": "Bitcoin è stato inventato da una persona, o forse un gruppo di persone, che ha usato lo pseudonimo di Satoshi Nakamoto. Alla fine del 2008 Nakamoto pubblicò il documento tecnico che descriveva il sistema, e all'inizio del 2009 la rete Bitcoin entrò in funzione. La vera identità di Satoshi Nakamoto non è mai stata confermata, nonostante numerose indagini, ipotesi e persone che nel tempo hanno affermato di esserlo. Dopo i primi anni, in cui partecipò allo sviluppo del progetto, Nakamoto si ritirò dalla scena pubblica e non si è più fatto sentire. Si stima che possieda una grande quantità di bitcoin dei primi tempi, mai spostati. Questo anonimato totale è diventato uno degli elementi più affascinanti e misteriosi della storia di Bitcoin."
+      },
+      {
+        "q": "Quanti bitcoin esistono?",
+        "a": "Il numero massimo di bitcoin che potranno mai esistere è fissato a 21 milioni: è una regola scritta nel codice stesso di Bitcoin e considerata una delle sue caratteristiche fondamentali. Non tutti sono già in circolazione: nuovi bitcoin vengono creati gradualmente come ricompensa per i miner che mantengono e proteggono la rete. A intervalli regolari, però, questa ricompensa si dimezza, in un evento chiamato halving, così che la creazione di nuove unità rallenta nel tempo, e gli ultimi bitcoin verranno generati solo in un futuro lontano. Va inoltre considerato che una quantità significativa di bitcoin è andata persa per sempre, ad esempio perché i proprietari hanno smarrito le chiavi di accesso. È questa scarsità programmata e prevedibile l'argomento centrale di chi paragona Bitcoin a un metallo prezioso."
+      },
+      {
+        "q": "Si può pagare con Bitcoin?",
+        "a": "Tecnicamente sì, e alcuni esercizi commerciali e servizi online accettano pagamenti in Bitcoin, ma nella vita quotidiana l'uso come mezzo di pagamento resta limitato. Ci sono diversi ostacoli pratici. Il primo è la volatilità: se il valore può oscillare molto in poche ore, è difficile usarlo per pagare un caffè o fare la spesa. Il secondo riguarda i tempi e i costi di transazione, che in certi momenti di congestione della rete possono essere elevati. Per questo, oggi Bitcoin è usato dalla maggior parte di chi lo possiede più come bene da detenere a scopo di investimento o come riserva di valore che come moneta per gli acquisti di tutti i giorni. In Italia, inoltre, Bitcoin non è moneta a corso legale: nessuno è obbligato ad accettarlo."
+      },
+      {
+        "q": "Perché Bitcoin consuma tanta energia?",
+        "a": "Il consumo energetico di Bitcoin dipende dal suo meccanismo di sicurezza, chiamato proof of work. Per validare le transazioni e creare nuovi bitcoin, una rete mondiale di computer specializzati esegue continuamente un'enorme quantità di calcoli, competendo tra loro: questo richiede moltissima elettricità. Il consumo complessivo della rete Bitcoin è stato stimato paragonabile a quello di interi Paesi di medie dimensioni, e questo è uno degli argomenti più forti dei suoi critici, preoccupati per l'impatto ambientale. I sostenitori replicano che parte di questa energia proviene da fonti rinnovabili o da energia che andrebbe altrimenti sprecata, e che il sistema bancario tradizionale ha anch'esso costi energetici. Va comunque notato che altre criptovalute hanno scelto meccanismi alternativi, molto più efficienti dal punto di vista energetico, mentre Bitcoin ha finora mantenuto il proof of work."
+      }
+    ],
+    "related": ["cripto", "soldi", "intelligenza-artificiale", "pc", "chatgpt"],
+    "updatedAt": "2026-05-20"
+  }
+]

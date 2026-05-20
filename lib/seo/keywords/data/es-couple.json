@@ -1,0 +1,407 @@
+[
+  {
+    "slug": "pareja",
+    "locale": "es",
+    "keyword": "Pareja",
+    "matchPatterns": ["pareja", "relacion", "relación", "compromiso", "convivencia", "amor"],
+    "topic": "couple",
+    "title": "Pareja — convivencia, compromiso y dinámicas de relación",
+    "description": "Todo sobre las relaciones de pareja: compromiso, convivencia, comunicación, crisis y por qué seguimos buscando el amor.",
+    "emoji": "💑",
+    "intro": "Tener pareja es probablemente una de las experiencias más complejas y transformadoras de la vida humana. En España, según el INE, alrededor del 60% de los adultos tiene pareja, y la edad media para casarse ha subido a los 34 años para mujeres y 36 para hombres — una década más que en los años 80. La estructura de pareja ha cambiado radicalmente: matrimonios religiosos en descenso, parejas de hecho en aumento, divorcios estabilizados en torno al 50% del número de matrimonios, parejas LGBTQ+ legalmente equiparadas desde 2005, parejas multinacionales más frecuentes, parejas a distancia gracias a la tecnología, parejas abiertas o poliamorosas cada vez más visibles aunque siguen siendo minoría. La psicología de la pareja ha sido revolucionada por figuras como John Gottman (cuya investigación de 40 años predice con 94% de precisión qué parejas se divorciarán según patrones de comunicación), Esther Perel (la dialéctica entre seguridad y deseo) y Sue Johnson (terapia centrada en las emociones). La pareja moderna se enfrenta a desafíos nuevos: redes sociales que generan comparaciones tóxicas, apps de citas que dan ilusión de infinitas opciones, presión profesional bilateral, vivienda inalcanzable que obliga a convivencia precaria. En moomz, las encuestas sobre pareja arrasan: '¿pareja abierta sí o no?', '¿quién pone la lavadora en casa?', '¿discutís por dinero?', '¿es normal pelearse mucho?'. La pareja sigue siendo el laboratorio social más íntimo y revelador.",
+    "sections": [
+      {
+        "h": "Las fases de una relación de pareja",
+        "body": "La psicología describe varias fases típicas. 1) Enamoramiento (0-18 meses): explosión química con dopamina, noradrenalina, feniletilamina; idealización del otro; obsesión, mariposas, sexo intenso, baja crítica. 2) Diferenciación (1-3 años): empiezan a verse los defectos reales, hay primeras discusiones sobre estilos de vida, familia, dinero, planes. Muchas parejas rompen aquí cuando descubren que el otro no era exactamente quien creían. 3) Lucha de poder (2-5 años): conflicto por control, autonomía, espacio personal vs cercanía. 4) Estabilización (5+ años): si la pareja sobrevive, llegan a una forma de aceptación realista del otro, con compromiso consciente. 5) Renovación o estancamiento: cada 7 años aproximadamente, las parejas pasan por crisis de renovación. Las que se reinventan (nuevos proyectos, intereses compartidos) sobreviven; las que se estancan acaban en separación emocional o divorcio. Cada fase requiere habilidades distintas: empatía, comunicación, gestión del conflicto, autonomía emocional."
+      },
+      {
+        "h": "Convivencia: el verdadero examen",
+        "body": "Salir con alguien es una cosa; vivir juntos es otra completamente distinta. La convivencia revela hábitos invisibles que nunca habrían aparecido en citas: cómo se exprime el tubo de pasta, quién limpia el baño, las costumbres del WhatsApp con el ex, los ronquidos, la temperatura del termostato, el orden vs caos en la cocina, el dinero compartido o separado, el tiempo de pantalla en pareja, los planes con amigos individuales. Según estudios, las principales causas de conflicto doméstico son: 1) reparto desigual de tareas (especialmente la 'carga mental': planificar comidas, recordar cumpleaños), 2) dinero (cuentas conjuntas vs separadas, ahorros vs gastos), 3) familia política (visitas, navidad, distancia), 4) intimidad sexual (frecuencia, deseo desincronizado), 5) tiempo de ocio (en casa vs fuera, planes propios vs en pareja). La convivencia exitosa requiere acuerdos explícitos, no asunciones; comunicación regular, no quejas guardadas; y respeto del espacio individual dentro del compartido."
+      },
+      {
+        "h": "Cuándo dejar y cuándo trabajar la relación",
+        "body": "Esta es probablemente la pregunta más difícil de la psicología relacional. Señales claras de que una relación debe terminar: violencia física o emocional sistemática, infidelidad reincidente sin arrepentimiento real, desprecio constante (Gottman lo considera el predictor #1 de divorcio), incompatibilidad fundamental de valores no negociables (hijos sí/no, religión, geografía), pérdida total de atracción mutua sin posibilidad de reparación, adicciones no tratadas. Señales de que vale la pena luchar: amor mutuo todavía presente bajo el conflicto, problemas resolubles con comunicación o terapia, momentos de conexión real entre las crisis, compromiso compartido para mejorar. La terapia de pareja (no individual) tiene tasas de éxito del 70-75% según el método (Gottman, EFT). Romper duele pero quedarse en una relación tóxica daña más a largo plazo. El criterio práctico: si imaginar otros 10 años igual te paraliza, es momento de actuar — sea trabajar duro o dejar. La indecisión crónica es la peor opción."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura el enamoramiento?",
+        "a": "Según estudios de Helen Fisher (Rutgers University), la fase de enamoramiento intenso con todos sus cócteles químicos (dopamina, norepinefrina, feniletilamina) dura entre 6 y 24 meses, con un promedio de 18 meses. Después, esos neurotransmisores bajan y se sustituyen progresivamente por oxitocina y vasopresina, las hormonas del apego seguro. Es por eso que las relaciones cambian: la pasión inicial obsesiva da paso a un afecto más calmado y profundo, lo que muchos confunden con 'aburrimiento' o 'fin del amor' cuando es simplemente evolución biológica."
+      },
+      {
+        "q": "¿Las parejas abiertas funcionan?",
+        "a": "Funcionan para algunas personas pero no para la mayoría. Estudios sobre poliamor y relaciones abiertas (universidad de Michigan, 2018) sugieren que las parejas no-monógamas éticas tienen niveles de satisfacción similares a las monógamas SI hay comunicación excelente, reglas claras y compatibilidad psicológica. Sin embargo, requieren niveles de inteligencia emocional, gestión de celos y comunicación que la mayoría de gente no tiene. Sobreviven mejor las que se eligen desde el principio como abiertas, peor las que 'abren' una relación monógama en crisis (suele ser el principio del fin). En España siguen siendo minoritarias pero crecen, especialmente entre menores de 35 años."
+      },
+      {
+        "q": "¿Es normal que disminuya el sexo en una relación larga?",
+        "a": "Sí, totalmente normal. La frecuencia sexual baja gradualmente con los años en casi todas las parejas: del pico inicial (varias veces por semana) a una vez por semana o quincenal tras 5 años, y a menos frecuente en parejas de 10+ años con hijos pequeños. Esto no significa fin del amor: significa estabilización de hormonas y rutinas. Lo problemático no es la cantidad sino la insatisfacción no comunicada. Las parejas que mantienen vida sexual rica a largo plazo (sí existen) son las que cuidan la novedad: viajes, juegos, conversación íntima, espacio físico para el deseo (no solo cansancio y críos), atención al deseo de la otra persona. Esther Perel ha escrito mucho sobre esto."
+      },
+      {
+        "q": "¿Cuándo es el mejor momento para empezar a vivir juntos?",
+        "a": "No hay respuesta universal. Los estudios sugieren que parejas que conviven antes de los 6-9 meses tienen mayores tasas de ruptura, posiblemente porque no se conocen lo suficiente o lo hacen por razones prácticas (alquiler, comodidad) más que por deseo profundo. Lo recomendado: convivir tras 1-2 años de relación estable, idealmente después de pasar al menos unas vacaciones largas juntos, de conocer círculos respectivos, de haber atravesado al menos una pequeña crisis y resolverla bien. Empezar a convivir por razones económicas (vivienda inalcanzable) sin haber decidido el compromiso emocional puede salir mal. Si la pareja está en pisos distintos en la misma ciudad, una opción intermedia es 'medio-convivencia': 4-5 noches juntos por semana."
+      }
+    ],
+    "related": ["amor", "beso", "cita", "novio", "novia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cita",
+    "locale": "es",
+    "keyword": "Cita",
+    "matchPatterns": ["cita", "primera cita", "date", "ligar", "conocer", "tinder"],
+    "topic": "couple",
+    "title": "Cita — primera vez, apps de citas y el arte de conocer a alguien",
+    "description": "Primera cita: dónde ir, qué decir, señales para detectar. Apps como Tinder, Bumble, Hinge y por qué seguimos buscando el amor offline.",
+    "emoji": "💕",
+    "intro": "Una primera cita es probablemente una de las experiencias humanas más universales y a la vez más cargadas de ansiedad. En España, según estudios recientes, la mayoría de jóvenes entre 18 y 35 años usa al menos una app de citas (Tinder, Bumble, Hinge, Badoo, Grindr), y se estima que entre el 25% y el 35% de las parejas actuales se conocieron online. Pero la cita offline sigue siendo el momento de la verdad: cuando los filtros del perfil, las fotos editadas y los mensajes pensados durante horas se convierten en realidad cara a cara. La primera cita típica en España ocurre en una terraza de café, un bar de tapas o un paseo por la ciudad — los restaurantes formales asustan demasiado en una primera. Dura entre 1 y 3 horas, con la regla no escrita de 'una copa y veo cómo voy'. Las señales de éxito: risa fácil, contacto visual prolongado, ganas explícitas de quedar otra vez. Las señales de fracaso: silencios incómodos, mirar el móvil, hablar solo del ex. La psicología de las citas ha sido revolucionada por estudios como los de Helen Fisher y John Gottman: las cuatro decisiones más importantes en los primeros 5 minutos (instinto), las preguntas mágicas para acelerar intimidad (las 36 de Arthur Aron), y la importancia del 'segundo encuentro' que es donde se revela la química real. En moomz, las encuestas '¿peor primera cita?', '¿quién paga la cuenta?', '¿café o copas?' generan historias salvajes — entre el 60% y el 80% de los usuarios reconocen haber tenido al menos una cita desastrosa.",
+    "sections": [
+      {
+        "h": "Apps de citas: cómo funcionan y qué buscan",
+        "body": "El mercado global de apps de citas mueve unos 6.000 millones de dólares anuales y tiene perfiles muy distintos. Tinder: dominante mundial, basado en deslizar fotos, perfil más casual y a menudo orientado a encuentros rápidos, gran volumen. Bumble: las mujeres dan el primer paso obligatoriamente (excepto en parejas heterosexuales), promovida como app feminista. Hinge: 'designed to be deleted', cuestionarios largos y profundos, orientada a relaciones serias. Grindr y Scruff: específicas para hombres gays y bisexuales. Badoo: muy popular en España e Italia, mezcla red social y citas. Inner Circle: elitista, requiere ser admitido. OkCupid: tests de compatibilidad detallados. Las tasas de éxito varían: Hinge presume del 75% de matches que terminan en quedada real, Tinder ronda el 20-30%. La fatiga de apps es real: muchos usuarios reportan agotamiento por el efecto supermercado (parálisis por exceso de opciones) y vuelven a buscar conexiones offline."
+      },
+      {
+        "h": "Cómo planear una primera cita ganadora",
+        "body": "Los expertos coinciden en varios principios. Lugar: ni demasiado formal ni demasiado casual. Una terraza con buen ambiente, un bar de cócteles, un café especialidad, un paseo (parque, mercado, exposición) son apuestas seguras. Cenas largas en restaurante caro son arriesgadas (si no hay química, son 2 horas eternas). Duración: 1-2 horas máximo en la primera, deja con ganas de más. Hora: idealmente al atardecer o early evening (19-21h). Día: martes a jueves son las mejores noches (no cargadas de expectativas como sábado, ni cansadas como domingo). Temas a evitar: ex (todos), trabajo en detalle aburrido, política polarizada salvo que sepas que coincidís, religión, dinero, hijos imaginarios. Temas que funcionan: viajes, pasiones, anécdotas familiares ligeras, planes futuros generales, humor sobre situaciones cotidianas. Pagar: en España la tendencia moderna es dividir o que cada uno pague lo suyo en la primera. Ofrecer pagar es educado, esperar que el otro pague todo está pasado de moda."
+      },
+      {
+        "h": "Señales de match, red flags y siguiente paso",
+        "body": "Señales positivas en una primera cita: ríe genuinamente, te toca el brazo o roza la mano 'accidentalmente', mantiene contacto visual prolongado, pregunta sobre ti con curiosidad real, comparte cosas personales no superficiales, propone una segunda cita explícitamente o sugiere planes futuros ('cuando tengas tiempo te llevo a ese sitio'). Red flags clásicas: mira el móvil constantemente, llega más de 15 minutos tarde sin avisar, habla solo de su ex (bien o mal, da igual), critica a personas absent sin pudor, te interrumpe sistemáticamente, presume mucho (dinero, trabajo, viajes), pregunta cero sobre ti, bebe demasiado en la primera, propone subir a su casa demasiado pronto sin química previa, hace bromas inapropiadas. Tras la cita: si sientes que sí, escribe en 24-48 horas (regla obsoleta del 'esperar tres días'), propón una segunda concreta. Si fue raro pero curioso, espera un par de días. Si fue malo, sé directo pero amable o desaparece (ghosting es controvertido pero práctica común)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Quién debe pagar la primera cita?",
+        "a": "En España hoy en día la tendencia mayoritaria es dividir, especialmente entre menores de 35 años. Encuestas recientes muestran que el 60% de mujeres prefieren pagar lo suyo o ir 'a medias' en la primera cita, considerándolo más igualitario. El 30% acepta que pague la otra persona si lo ofrece. El 10% espera que pague el otro. Etiqueta moderna: el que invita propone pagar, el otro ofrece dividir, se llega a un acuerdo natural. Lo importante: no convertir el pago en un test pasivo-agresivo. Si quieres pagar, hazlo con naturalidad; si quieres dividir, dilo claro. En citas LGBTQ+, dividir es claramente la norma sin tensiones de género."
+      },
+      {
+        "q": "¿Cuánto esperar para escribir tras una primera cita?",
+        "a": "La regla de los 3 días está totalmente obsoleta y se considera juego manipulador. Lo recomendado: si te apetece, escribe en 24-48 horas, idealmente la noche siguiente o al día siguiente por la mañana. Un mensaje breve como 'Me lo pasé muy bien anoche, espero repetir pronto' deja la pelota en su tejado sin presión. Si la otra persona no responde en 3 días, asume que no hay interés y déjalo. Esperar demasiado señaliza desinterés o juego, escribir inmediatamente puede parecer intenso pero generalmente es mejor que parecer indiferente. La autenticidad gana ante la estrategia."
+      },
+      {
+        "q": "¿Cuándo es buena idea acostarse en la primera cita?",
+        "a": "Es decisión personal sin reglas absolutas. Las estadísticas: el 30-40% de citas resultantes de apps acaban en sexo la primera noche entre personas menores de 35 años. La pregunta no es 'cuándo' sino 'qué buscas': si buscas relación seria, ralentizar no es mala idea (permite ver química real más allá del físico, evalúa la paciencia del otro). Si buscas conexión más casual, perfectamente válido. Lo que sí es cierto: las relaciones serias se construyen igual lo hayas hecho la primera noche o la décima, el tabú del 'too soon' es más cultural que real. Lo crucial: protección, consentimiento entusiasta, sobriedad suficiente para decidir bien, comunicación clara después."
+      },
+      {
+        "q": "¿Por qué hago tantas citas y nunca encuentro a nadie?",
+        "a": "Razones frecuentes. 1) Estás en modo búsqueda compulsiva sin filtros — el efecto supermercado paraliza. 2) Tus criterios son irrealistas (físicos demasiado estrictos, listas mentales rígidas). 3) Sigues con bloqueos del pasado (heridas no curadas que sabotean inconscientemente). 4) Estás en modo 'evitar dolor' más que 'buscar conexión'. 5) Solo conoces gente por apps, ignorando círculos sociales reales. 6) Estás en una fase vital ocupada (trabajo intenso, mudanza, recuperación) y no es buen momento. Consejos: vuelve a la vida offline, baja expectativas iniciales (espera persona simpática, no alma gemela en 30 min), trabaja contigo mismo (terapia, hobbies), y acepta que encontrar pareja sana lleva tiempo. La estadística dice que la mayoría de personas necesita probar muchas citas para una conexión real."
+      }
+    ],
+    "related": ["amor", "pareja", "beso", "ruptura", "novio"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "novio",
+    "locale": "es",
+    "keyword": "Novio",
+    "matchPatterns": ["novio", "boyfriend", "chico", "pareja", "pretendiente"],
+    "topic": "couple",
+    "title": "Novio — el chico ideal, banderas rojas y cómo elegir bien",
+    "description": "Qué es un buen novio: cualidades, banderas rojas a evitar, dinámicas masculinas modernas y por qué elegir bien lo cambia todo.",
+    "emoji": "💁‍♂️",
+    "intro": "Tener novio es probablemente uno de los temas más comentados, debatidos y narrativizados en redes sociales, podcasts y entre amigas. La figura del 'novio' ha evolucionado radicalmente: ya no es solo el chico con quien vas en serio hacia el matrimonio, sino una etiqueta más fluida que incluye desde relaciones de pocos meses hasta convivencias de años sin papeles. En España, según el INE, la edad media para tener primer novio formal está en torno a los 17-18 años, aunque las relaciones serias tardan en consolidarse — la edad media de primer matrimonio ronda los 36 años para hombres. El 'novio moderno' enfrenta expectativas más altas y menos definidas que generaciones anteriores: tiene que ser sensible pero seguro, ambicioso pero no workaholic, masculino pero no machista, divertido pero no inmaduro, cariñoso pero no pegajoso. Las redes sociales han creado el fenómeno del 'green flag boyfriend' (novio con banderas verdes virales: cocina, ayuda en casa, comparte feminismo, tiene amigas, no es tóxico) versus el 'red flag boyfriend' (señales tóxicas que TikTok identifica colectivamente: love bombing, ghosting, gaslighting). En moomz, las encuestas '¿novio que cocina o que limpia?', '¿qué cualidad es no negociable?', '¿cuándo decir te quiero?' generan respuestas diversísimas. Tener un buen novio (y reconocerlo) puede cambiar la vida; tener un mal novio puede arruinar años de tu juventud.",
+    "sections": [
+      {
+        "h": "Las cualidades de un buen novio",
+        "body": "Más allá de la atracción inicial, los rasgos de un buen novio para una relación duradera son consistentes según psicólogos como John Gottman. 1) Respeto profundo: te trata como igual, valora tu opinión, no te interrumpe ni te subestima. 2) Comunicación: capaz de expresar sentimientos, escuchar activamente, no recurrir al silencio como castigo. 3) Sentido del humor compartido: la risa juntos es predictor #1 de longevidad de la relación. 4) Inteligencia emocional: identifica sus emociones y las tuyas, gestiona el conflicto sin desbordarse. 5) Responsabilidad: cumple lo que dice, tiene su vida bajo control (trabajo, finanzas, salud) o trabaja para tenerla. 6) Generosidad: no solo material, también con tiempo, atención, energía emocional. 7) Apoyo activo: celebra tus éxitos sin sentirse amenazado, te empuja a crecer. 8) Mentalidad de equipo: piensa 'nosotros' en problemas, no 'tú vs yo'. 9) Compatibilidad de valores: en lo importante (familia, dinero, lugar de vida, ética) están alineados. 10) Trato con su entorno: cómo trata a su madre, a camareros, a animales — predictor enorme."
+      },
+      {
+        "h": "Las red flags que no deberías ignorar",
+        "body": "Banderas rojas que la psicología señala consistentemente como predictores de problemas. 1) Love bombing inicial: en las primeras semanas te bombardea con regalos, declaraciones, 'eres la mejor mujer de mi vida' a los 10 días — clásica táctica narcisista. 2) Aislamiento: aleja a tus amigas, critica a tu familia, quiere que pases todo el tiempo con él. 3) Celos excesivos disfrazados de amor: revisa tu móvil, controla con quién hablas. 4) Gaslighting: te hace dudar de tus percepciones ('eso no pasó', 'estás loca'). 5) Críticas constantes a tu físico, ropa, decisiones. 6) Doble discurso entre lo que dice en público y en privado. 7) Cero amigas: si solo tiene amigos hombres y desprecia a las mujeres como grupo. 8) Adicciones no reconocidas (alcohol, drogas, juego, porno problemático). 9) Historial de relaciones tóxicas donde 'todas sus ex eran locas' (estadísticamente improbable). 10) Violencia: NUNCA un empujón, un grito amenazante, una mano en la cara es 'normal' o 'crisis aislada'. Si pasa una vez, repetirá. Sal."
+      },
+      {
+        "h": "La masculinidad moderna y los nuevos novios",
+        "body": "La figura masculina en pareja vive una transformación profunda. El modelo del 'macho proveedor silencioso' ha entrado en crisis, aunque sus residuos persisten. Las nuevas generaciones de hombres (especialmente menores de 35) negocian su rol entre demandas contradictorias: ser fuerte pero vulnerable, ambicioso pero no a costa de la relación, compartir tareas domésticas pero conservar autoridad en algunas decisiones. La conversación pública (Andrew Tate vs feminismo, podcasts masculinistas vs Brené Brown) crea polos. Los hombres que mejor navegan estos cambios son los que: 1) Han trabajado conscientemente sus emociones (terapia, lectura, conversaciones reales con amigos), 2) Tienen modelos masculinos sanos (padres presentes, amigos no tóxicos), 3) No ven el feminismo como amenaza sino como liberación también propia, 4) Comparten carga mental, no solo tareas, 5) Tienen amigos hombres con quienes hablar de cosas profundas, no solo fútbol y trabajo. El 'novio verde' en redes sociales no es estereotipo cursi: refleja una demanda real de relaciones más igualitarias y emocionales."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo es el momento de presentar al novio a la familia?",
+        "a": "No hay regla universal. La práctica común en España: presentar a amigos cercanos tras 1-3 meses (es más informal), a familia directa tras 4-9 meses (más comprometido), a abuelos y familia extendida tras un año o cuando la relación está claramente formalizada. Presentar muy pronto puede generar presión innecesaria; presentar muy tarde puede señalizar dudas. Indicadores: ¿la relación parece estable, va más allá de la fase inicial? ¿Has conocido a sus referentes? ¿Hay un futuro previsible? Una buena estrategia: presentación 'casual' antes que cena formal — un café espontáneo, un evento donde tu familia estará, suaviza la primera impresión."
+      },
+      {
+        "q": "¿Cómo se rompe con un novio sin hacer daño?",
+        "a": "Romper bien es un arte. Principios: hacerlo en persona si la relación ha durado más de un mes (texto o llamada solo para relaciones cortas), elegir momento neutral (no su cumpleaños ni el día de un examen), ser claro sin dar falsas esperanzas, no entrar en debates sobre cada razón, no pedir 'seguir siendo amigos' inmediatamente (necesita distancia), no romper estando borracha o enfadada. Frases útiles: 'He estado pensando mucho y creo que no es lo que necesito ahora', 'Te respeto demasiado para fingir que esto está funcionando'. Tras la ruptura: sin contacto al menos 1 mes (no responder mensajes desesperados, no espiar redes), bloquear si es necesario, no contar detalles a su círculo cercano para no humillarlo. Si hubo amor real, ambos pueden sanar bien con tiempo."
+      },
+      {
+        "q": "¿Es normal pelearse con el novio?",
+        "a": "Sí, completamente. Cero conflicto en una pareja es generalmente señal de evitación, no de salud. John Gottman demostró que las parejas saludables discuten regularmente, pero la diferencia está en CÓMO. Las parejas que duran: critican comportamientos específicos (no atacan la persona), expresan necesidades en positivo ('necesito X' vs 'tú nunca Y'), usan humor para desescalar, reparan rápidamente tras los conflictos ('perdón, me he pasado'), mantienen ratio 5:1 de interacciones positivas vs negativas en lo cotidiano. Las parejas en riesgo: crítica destructiva, desprecio (peor predictor), defensividad, stonewalling (silencio). Discutir está bien; despreciarse, no. Si las peleas son por temas siempre nuevos y se resuelven, es vida normal. Si son por los mismos temas eternamente sin avance, es patrón."
+      },
+      {
+        "q": "¿Cuándo decir te quiero por primera vez?",
+        "a": "El timing del primer 'te quiero' es delicado. Demasiado pronto (primera o segunda cita) suena a love bombing o desesperación. Demasiado tarde puede transmitir tibieza y desinterés. El momento medio típico en relaciones jóvenes españolas: 2-4 meses, cuando ya hay confianza, vulnerabilidad mutua, momentos compartidos significativos, y la sensación de que es real, no euforia química. Cómo: idealmente en privado, sin presión (no en cumpleaños donde se espera), después de un momento sincero. Si lo dices primero y no te lo dicen de vuelta, no exijas: dale tiempo. Algunas personas tardan más en pronunciar las palabras pero lo demuestran con actos. Si pasan 6 meses sin que lo diga ni lo demuestre, sí es alarmante."
+      }
+    ],
+    "related": ["novia", "amor", "cita", "pareja", "beso"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "novia",
+    "locale": "es",
+    "keyword": "Novia",
+    "matchPatterns": ["novia", "girlfriend", "chica", "pareja", "pretendienta"],
+    "topic": "couple",
+    "title": "Novia — la chica ideal, dinámicas femeninas y elecciones inteligentes",
+    "description": "Cómo es una buena novia en 2026: independencia, comunicación, banderas rojas femeninas y dinámicas modernas de pareja.",
+    "emoji": "💁‍♀️",
+    "intro": "El concepto de novia ha cambiado más en los últimos 30 años que en los 300 anteriores. La novia tradicional (sumisa, dedicada al hogar, espera del proveedor) prácticamente ha desaparecido en España, sustituida por mujeres con carreras profesionales, autonomía financiera, redes sociales fuertes propias y expectativas claras de igualdad. En 2024, la tasa de actividad laboral de las mujeres en España rondaba el 60% (frente al 70% de los hombres, brecha que se cierra rápidamente). El 60% de los estudiantes universitarios son mujeres, y en muchos sectores profesionales (medicina, educación, derecho) son ya mayoría. Esto transforma la pareja: ahora ambos miembros suelen tener carrera, sueldo, planes propios, y la convivencia se negocia entre iguales. La 'novia perfecta' en redes sociales también ha mutado: ya no es la chica callada y bonita, sino la mujer con personalidad, humor, intereses propios, ambición compatible con la pareja. Sin embargo, persisten tensiones: la carga mental (planificar, recordar, organizar) sigue recayendo desproporcionadamente en mujeres; las expectativas estéticas son más altas que nunca por culpa de Instagram; el reloj biológico genera presión asimétrica en la decisión de hijos. En moomz, las encuestas '¿qué cualidad valoras más en una novia?', '¿celos a veces o nunca?', '¿hijos sí o no?', '¿amigos antes que tú?' rebelan visiones muy distintas según generación y género.",
+    "sections": [
+      {
+        "h": "Qué hace a una buena novia (más allá del físico)",
+        "body": "Los rasgos asociados a relaciones duraderas y satisfactorias son sorprendentemente independientes del género. 1) Independencia emocional: no necesita a su pareja para validarse, tiene vida propia (amigas, hobbies, ambiciones). 2) Comunicación clara: dice lo que siente sin esperar que adivinen, expresa necesidades en positivo. 3) Apoyo activo: celebra los éxitos de su pareja sin envidia, le impulsa a crecer. 4) Respeto: no critica destructivamente, no humilla en público, no usa silencios como castigo. 5) Capacidad de pedir perdón: reconoce cuando se equivoca, no necesita 'ganar' cada discusión. 6) Reciprocidad: no es solo recibir cuidados, también darlos. 7) Compatibilidad de valores en lo importante. 8) Inteligencia emocional: identifica sus propias emociones y las del otro. 9) Sentido del humor: capaz de reír juntos, de no tomarse todo personalmente. 10) Trato con su entorno: cómo trata a sus amigas, a su familia, a la gente que sirve — refleja su carácter real. La belleza atrae al principio, pero estos rasgos sostienen una relación a 5, 10, 20 años."
+      },
+      {
+        "h": "Red flags que también existen en mujeres",
+        "body": "El discurso sobre 'red flags' suele enfocarse en hombres tóxicos, pero existen patrones problemáticos también en mujeres. 1) Drama crónico: si la vida está llena de crisis inventadas, exes que reaparecen casualmente, conflictos con amigas semanales — es agotador. 2) Material posesivo: si los regalos y el dinero invertido en ella son la prueba del amor, en vez del tiempo y la presencia. 3) Comparación constante con otras parejas vista en Instagram: la vida real nunca compite con feeds editados. 4) Ghosting selectivo: desaparece días cuando algo no le gusta en vez de hablar. 5) Triangulación: comenta tus problemas con familia o amigas antes que contigo. 6) Celos disfrazados de amor: te aleja de tus amigos hombres, vigila tus likes en Instagram. 7) Cero responsabilidad por sus emociones: 'me has hecho sentir mal' en vez de 'me siento mal cuando pasa X'. 8) Negativa a hablar de futuro tras meses: sin claridad de hacia dónde va la relación. 9) Doble discurso entre lo que dice en privado y la imagen pública. 10) Mentiras pequeñas sostenidas: si miente sobre cosas insignificantes, miente sobre las importantes."
+      },
+      {
+        "h": "Carga mental y desigualdades invisibles",
+        "body": "Una de las mayores fuentes de conflicto en parejas modernas es la 'carga mental': el trabajo cognitivo invisible de gestionar el hogar y la vida familiar. Aunque las tareas físicas se reparten más equitativamente (cada vez más hombres cocinan, limpian, hacen compra), la 'planificación' suele seguir recayendo en mujeres: recordar cumpleaños familiares, planificar comidas semanales, organizar citas médicas de los hijos, comprar regalos, contratar al fontanero, mantener relaciones sociales de pareja. Estudios franceses (Emma, ilustradora) viralizaron el concepto en 2017. Solución: hacer visible esa carga, repartirla explícitamente (no solo 'ayudar' sino apropiarse de territorios completos), revisar reparto periódicamente. Otra fuente de tensión: dinero. Las parejas modernas viven con dos sueldos pero raramente discuten finanzas con franqueza. Conversaciones recomendadas antes de convivir: ¿cuentas conjuntas o separadas o mixtas? ¿quién paga el qué? ¿qué nivel de ahorro queremos? ¿deudas previas? Estos temas evitados generan conflictos crónicos."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Es normal que mi novia tenga muchos amigos hombres?",
+        "a": "Sí, es totalmente normal y saludable. Las personas adultas con vidas plenas tienen amistades de todos los géneros, formadas en trabajo, universidad, hobbies, infancia. Una mujer que tiene amigos hombres no es una señal de infidelidad ni desinterés en ti — es una señal de que es una persona socialmente sana. Las parejas seguras respetan los círculos sociales individuales. Los celos por amigos del sexo opuesto suelen indicar inseguridades propias, no problemas reales. Lo único legítimo: si esos amigos son ex parejas con química no resuelta, o si hay comportamientos específicos que cruzan límites (mensajes secretos, encuentros que esconde). Pero amigos normales, conocidos del curro, equipos de pádel — todos perfectamente sanos."
+      },
+      {
+        "q": "¿Cómo se reconquista a una novia que se está alejando?",
+        "a": "Antes de actuar, entiende por qué se aleja. Causas comunes: agotamiento por carga mental desigual, falta de atención y presencia tuya, problemas no resueltos que ha intentado plantear sin éxito, ella ha cambiado y siente que no la conoces, exceso de rutina sin novedad. Estrategia: 1) Pregúntale directa y abiertamente cómo está, escucha sin defenderte ni interrumpir. 2) Asume responsabilidad por tus errores específicos sin justificarlos. 3) Cambia comportamientos, no solo prometas (los actos cuentan, no las palabras). 4) Vuelve a invertir tiempo de calidad: salidas planificadas, atención plena. 5) Si la situación es seria, propón terapia de pareja. Lo que NO funciona: regalos caros para 'comprar', presión, ultimátum, ghostearla para 'mostrar tu valor'. Si está realmente alejada y tras conversación honesta dice que no quiere más, respeta esa decisión."
+      },
+      {
+        "q": "¿Cuántos años de novios antes de casarse?",
+        "a": "En España la edad media de primer matrimonio está en 36 años para hombres y 34 para mujeres en 2024, y las parejas suelen llevar entre 4 y 8 años saliendo antes de casarse — un cambio enorme respecto a generaciones anteriores que se casaban tras 1-2 años. El matrimonio formal va en descenso (43% menos bodas en 2022 que en 1995), sustituido por convivencias largas, parejas de hecho o relaciones sin formalización legal. La decisión depende de factores: estabilidad económica, planes de hijos, presión familiar, valores religiosos, ventajas legales (hipoteca, herencia, fiscalidad). No hay 'tiempo correcto' universal: algunas parejas se casan a los 2 años y duran 50; otras tras 10 años se separan al año del matrimonio. Lo importante: que sea decisión consciente, no automática."
+      },
+      {
+        "q": "¿La novia puede pagar la cita?",
+        "a": "Por supuesto, y cada vez más. En España moderna, según encuestas a menores de 35 años, alrededor del 50-60% de mujeres pagan o dividen citas regularmente, especialmente cuando son ellas las que invitan o proponen el plan. El estigma de 'tiene que pagar el hombre' está pasado de moda, aunque persiste en generaciones mayores y zonas rurales. Las dinámicas saludables: cada uno paga la suya, alternancia (yo invito esta, tú la próxima), o el que más gana paga más. Una mujer que se ofende porque su novia divide la cuenta probablemente tiene expectativas obsoletas. Lo crucial es la transparencia y el equilibrio: si una persona paga sistemáticamente, debería ser por elección consciente, no por presión o tradición."
+      }
+    ],
+    "related": ["novio", "amor", "cita", "pareja", "beso"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sexo",
+    "locale": "es",
+    "keyword": "Sexo",
+    "matchPatterns": ["sexo", "intimidad", "deseo", "kamasutra", "preliminares", "orgasmo"],
+    "topic": "couple",
+    "title": "Sexo — intimidad, deseo y la sexualidad sana en pareja",
+    "description": "Todo sobre el sexo en pareja: deseo, comunicación, fantasías, frecuencia, problemas comunes y por qué la conexión sexual evoluciona.",
+    "emoji": "🔥",
+    "intro": "El sexo es probablemente uno de los temas más universales y a la vez más tabús de las relaciones humanas. En España, según el último estudio del CIS sobre sexualidad (2020), la edad media de primera relación sexual es de 17,3 años, los adultos españoles tienen relaciones sexuales aproximadamente 1-2 veces por semana en promedio, y el 67% se considera sexualmente satisfecho — aunque la satisfacción es mayor en hombres que en mujeres, una brecha que persiste y que la educación sexual moderna intenta cerrar. La sexualidad ha vivido revoluciones consecutivas: la píldora anticonceptiva (años 60-70) liberó a las mujeres del miedo al embarazo, la pandemia del SIDA (años 80-90) obligó a normalizar el uso del condón, internet (años 2000-) democratizó el acceso al porno (con todos sus problemas), las apps de citas (años 2010-) facilitaron encuentros sin compromiso, el movimiento MeToo (2017-) puso en el centro el consentimiento entusiasta. Hoy, las generaciones jóvenes españolas tienen más educación sexual que sus padres pero también más ansiedad de rendimiento (por culpa del porno irreal), más problemas de deseo (las pantallas matan la libido), y más libertad para explorar identidades y orientaciones. En moomz, las encuestas '¿frecuencia ideal?', '¿hablas de sexo con tu pareja?', '¿juguetes sexuales sí o no?', '¿fantasía secreta?' generan respuestas valientes y diversísimas. El sexo bueno requiere mucho más que técnica: requiere comunicación, presencia, vulnerabilidad y trabajo emocional.",
+    "sections": [
+      {
+        "h": "Comunicación sexual: el factor diferencial",
+        "body": "El mayor predictor de satisfacción sexual en pareja no es la técnica ni la frecuencia, sino la calidad de la comunicación sobre sexo. Y sin embargo, la mayoría de parejas (incluso de muchos años) no hablan explícitamente de lo que les gusta, lo que les incomoda, lo que querrían probar. Por qué: vergüenza, miedo a herir, suposición de que 'el otro ya lo sabe', falta de vocabulario. Cómo empezar: fuera del momento sexual (no en la cama, mejor paseando o tomando algo), con humor y curiosidad ('he leído algo interesante sobre...'), con preguntas abiertas ('¿qué te gustaría probar conmigo?'), validando las respuestas sin juicio. Conceptos clave que cambian relaciones: el 'yes-no-maybe list' (listas individuales de lo que sí, no, quizás), el consentimiento entusiasta continuado (no solo 'no es no', sino 'sí entusiasta es sí'), la diferencia entre deseo espontáneo (más típicamente masculino) y deseo responsivo (más típicamente femenino — necesita contexto y estímulo previo). Esther Perel y Emily Nagoski son referencias para empezar a entender estas dinámicas modernas."
+      },
+      {
+        "h": "Frecuencia, deseo desincronizado y crisis sexuales",
+        "body": "El 'sexo en pareja' suele tener un arco previsible: explosión los primeros 6-18 meses, gradual descenso hasta estabilizarse en una rutina, crisis periódicas. La frecuencia media en parejas establecidas: 1-2 veces por semana entre 25-35 años, 1 vez por semana entre 35-50, menos frecuente después. Pero las medias engañan: hay parejas estables con sexo diario y otras con sexo mensual igualmente felices. Lo problemático: el deseo desincronizado, cuando una persona quiere más y la otra menos. Causas en mujeres: anticonceptivos hormonales que matan libido, cansancio crónico (especialmente con hijos pequeños), problemas no resueltos en la relación, autoestima corporal, falta de preliminares suficientes, parto reciente. Causas en hombres: estrés laboral, porno excesivo (puede generar 'sensibilidad disminuida'), depresión, edad y testosterona, problemas vasculares (disfunción eréctil). Solución no es presionar a quien quiere menos, sino crear espacio común para entender qué pasa: terapia sexual, cambios de hábitos, médicos si hace falta, redescubrimiento de juegos previos sin meta orgasmo."
+      },
+      {
+        "h": "Fantasías, juguetes y la sexualidad consciente",
+        "body": "La sexualidad moderna se entiende como exploración consciente, no solo como acto reproductivo o de descarga. Las fantasías son normales y comunes: estudios indican que el 80-95% de las personas tienen fantasías sexuales regulares. Las más comunes: trío (frecuente en ambos sexos), juego de roles (jefa/empleado, médica/paciente), exhibicionismo/voyeurismo controlado, BDSM suave (atar, vendar ojos, juegos de poder), sexo en lugares públicos imaginarios. Tener una fantasía NO significa querer realizarla — el cerebro fantasea muchas cosas que no quiere vivir. Los juguetes sexuales se han normalizado masivamente: el 50% de mujeres españolas y el 30% de hombres usan o han usado juguetes (vibradores, anillos, lubes, BDSM kits). Marcas como Bijoux Indiscrets (española), Lelo, We-Vibe, Dame son referencia. El lubricante es uno de los productos más infrautilizados pero más útiles — especialmente importante en mujeres tras anticonceptivos hormonales o lactancia. La pornografía es una conversación delicada: la 'porno ética' (Erika Lust en España) intenta ofrecer alternativas a la pornografía mainstream que genera expectativas distorsionadas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál es la frecuencia sexual ideal en pareja?",
+        "a": "No hay respuesta universal. Estudios sugieren que el bienestar marginal aumenta hasta una vez por semana, después de lo cual la felicidad reportada se estabiliza. Lo crucial es que ambos miembros estén satisfechos con la frecuencia acordada. Parejas con sexo mensual pueden ser felices si ambos están bien; parejas con sexo diario pueden estar mal si uno se siente presionado. Las medias son meramente descriptivas: 1-2 veces por semana entre 25-35 años en parejas establecidas, 1 vez por semana entre 35-50, después varía mucho. Foco menor en cantidad, mayor en calidad y satisfacción de ambas partes."
+      },
+      {
+        "q": "¿Cómo hablar de fantasías con tu pareja sin asustarla?",
+        "a": "Con tacto y empezando por escuchar. 1) Crea contexto: fuera de la cama, en momento relajado, sin presión inmediata. 2) Empieza preguntando: '¿alguna vez has tenido una fantasía rara o curiosa?' antes de soltar la tuya. 3) Cuando compartas la tuya, presenta la idea no como demanda: 'me da curiosidad probar X, no sé qué te parece'. 4) Acepta el 'no' sin presionar, sin sentirte rechazado: tener fantasías no obliga a realizarlas. 5) Negociad versiones intermedias: si una fantasía es muy extrema para ella, quizás una versión suavizada funciona. 6) Acuerdo común: lo que no se prueba, no se prueba, sin chantaje emocional. La compatibilidad de fantasías nunca es 100% — eso es normal. El respeto a los límites del otro es no negociable."
+      },
+      {
+        "q": "¿Por qué bajó tanto el deseo después de tener hijo?",
+        "a": "Por múltiples razones biológicas, psicológicas y prácticas. Biológicas: hormonas post-parto (caída brusca de estrógeno, prolactina alta por lactancia que reduce libido), recuperación física del cuerpo, dolor o sequedad. Psicológicas: cambio de identidad (ser madre además de pareja), nuevo rol mental, ansiedad por el bebé. Prácticas: cansancio extremo (interrupción crónica del sueño), bebé que despierta justo cuando hay intimidad, falta de privacidad. Suele ser temporal: el deseo vuelve gradualmente entre 6-18 meses tras el parto, pero a menudo cambia (de espontáneo a responsivo, requiriendo más contexto). Soluciones: paciencia, hablar honestamente, redescubrir intimidad no genital (caricias, masajes), ayuda con el bebé para descansar, terapia sexual si persiste mucho tiempo. NO es signo de fin del amor — es transición biológica."
+      },
+      {
+        "q": "¿La pornografía afecta la sexualidad en pareja?",
+        "a": "Sí, especialmente cuando se consume excesivamente y solo. Los problemas documentados: 'pornografía expectativas' (cuerpos irreales, escenas imposibles, falta de preliminares, escenarios que no funcionan en la vida real), desensibilización (necesidad de más estímulo o más extremos para excitarse), comparación tóxica (uno mismo o la pareja parecen 'menos' que las personas en pantalla), tiempo robado a la intimidad real, problemas de erección en hombres jóvenes que solo se excitan con porno. La pornografía consumida moderadamente y críticamente, ocasionalmente en pareja como inspiración, puede ser sana. La pornografía compulsiva consumida sola en lugar de intimidad real es problemática. Existen alternativas más éticas (Erika Lust, Make Love Not Porn) que muestran sexo real y diverso."
+      }
+    ],
+    "related": ["amor", "beso", "pareja", "intimidad", "cita"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "infidelidad",
+    "locale": "es",
+    "keyword": "Infidelidad",
+    "matchPatterns": ["infidelidad", "cuernos", "engaño", "engaño", "trampa", "amante", "putear"],
+    "topic": "couple",
+    "title": "Infidelidad — por qué pasa, cómo se descubre y se puede superar",
+    "description": "Infidelidad en pareja: estadísticas, motivos, señales, descubrimiento, perdón o ruptura. La crisis más temida y más común.",
+    "emoji": "💔",
+    "intro": "La infidelidad es probablemente el problema más estudiado, temido y debatido en relaciones de pareja. Las estadísticas son sorprendentes y variables según método: en España, encuestas serias (CIS, Ashley Madison) sugieren que entre el 30% y el 50% de los adultos en pareja han sido infieles al menos una vez (con sexo, no solo emocionalmente), y los hombres reportan más infidelidades aunque la brecha se está cerrando, especialmente entre menores de 40 años. Existen muchos tipos de infidelidad: el affair clásico (relación paralela continuada), el one-night stand (un encuentro aislado), la infidelidad emocional (intimidad afectiva con otra persona sin sexo), la infidelidad digital (sexting, citas en redes, pornografía secreta con personas reales), la microinfidelidad (coqueteos, mantener contactos secretos con ex). Cada una tiene impactos distintos. Esther Perel, terapeuta de pareja referente mundial, ha escrito 'El dilema de la pareja' donde defiende que la infidelidad no siempre es señal de un mal matrimonio: muchas veces es búsqueda de algo perdido en uno mismo, no necesariamente reproche al otro. Esto es controvertido pero abre la conversación sobre por qué personas que dicen amar a su pareja engañan. En moomz, las encuestas '¿perdonarías una infidelidad?', '¿qué cuenta como engaño?', '¿chat con ex es trampa?' dividen radicalmente las generaciones y géneros. La infidelidad es una crisis devastadora pero algunas parejas la superan y emergen más fuertes; otras (la mayoría) terminan rompiendo.",
+    "sections": [
+      {
+        "h": "Por qué las personas son infieles",
+        "body": "Los motivos varían según estudios, pero los más documentados: 1) Insatisfacción crónica con la pareja (sexual, emocional o ambas) sin haberlo comunicado. 2) Búsqueda de novedad y emoción cuando la relación es rutinaria. 3) Buscar validación externa: sentirse atractivo de nuevo, especialmente en crisis de mediana edad. 4) Oportunidad y bajo riesgo de ser descubierto (viajes de trabajo, ausencias largas). 5) Problemas individuales no resueltos: ansiedad, baja autoestima, traumas que se buscan curar en aventuras. 6) Adicción al sexo o a la conquista (patrón patológico). 7) Venganza por una infidelidad previa o por agravios acumulados. 8) Influencia social: el grupo de amigos engaña y se normaliza. Hombres y mujeres tienen perfiles ligeramente distintos: los hombres reportan más motivos sexuales y de oportunidad; las mujeres más motivos emocionales y de búsqueda de conexión profunda. Las relaciones largas con baja sexualidad sin diálogo son las más vulnerables. La 'crisis de los 7 años' tiene base estadística — es cuando muchas parejas se cuestionan."
+      },
+      {
+        "h": "Cómo se descubre y las señales clásicas",
+        "body": "Las infidelidades se descubren mayormente por accidente, no por investigación activa. Maneras comunes: ver un mensaje sospechoso en el móvil del otro (notificación, pantalla bloqueada), revisar el móvil intencionadamente tras sospechas, contraseña olvidada en pareja, un mensaje accidental enviado al receptor equivocado, ver un cargo de tarjeta inexplicable (hotel, regalo, restaurante), un amigo común que cuenta haberle visto con otra persona, redes sociales (un comentario, una foto donde aparece), comportamiento extraño detectable. Señales clásicas (no necesariamente concluyentes pero acumuladas): mejora repentina de aspecto físico sin razón, secretismo nuevo con el móvil (lo lleva al baño, lo gira al apoyar), cambios horarios laborales inexplicables, distanciamiento sexual o paradójicamente aumento brusco, irritabilidad nueva contigo, contactos nuevos en redes sociales con perfil sospechoso, llamadas que sale a coger fuera. Importante: estas señales pueden indicar otras cosas (estrés laboral, depresión, problemas no relacionados). La paranoia injustificada también destruye relaciones."
+      },
+      {
+        "h": "¿Se puede superar una infidelidad?",
+        "body": "Sí, pero es difícil y no para todas las parejas. Las estadísticas: aproximadamente el 60-70% de parejas que pasan por una infidelidad terminan separándose dentro de los 2 años siguientes, especialmente si fue infidelidad larga emocional. El 30-40% restante puede reconstruir y a veces emerger más fuerte, pero requiere mucho trabajo. Lo que ayuda a la reconstrucción: 1) Honestidad total del que fue infiel: contar verdad completa (sin detalles sexuales innecesarios que traumatizan), responder preguntas. 2) Cortar contacto absoluto con la otra persona, demostrable. 3) Buscar terapia de pareja (no solo individual). 4) Comprender por qué pasó (no como excusa, sino como diagnóstico). 5) Reconstruir confianza con actos pequeños sostenidos durante meses-años. 6) La persona engañada no debería volver a 'recordar' la traición como arma en cada discusión futura. Lo que NO funciona: barrer bajo la alfombra, perdón fácil sin trabajo profundo, ultimátum de control extremo. Algunas parejas eligen perdonar y construir una relación nueva, distinta a la anterior. Otras eligen separarse, lo cual también es respetable y sano."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué cuenta como infidelidad?",
+        "a": "Depende de cada pareja, no hay definición universal. Para algunas, infidelidad es solo sexo penetrativo con otra persona. Para otras, incluye besos, sexo oral, contacto físico íntimo. Para muchas, incluye también la infidelidad emocional: tener intimidad afectiva profunda con otra persona, hablar todos los días con un compañero de trabajo en plan flirteo, mantener relación emocional secreta. La 'microinfidelidad' (likes a ex, contactos secretos en redes, chats privados con coqueteo aunque no haya quedada) divide opiniones. Lo crucial: que la pareja DEFINA explícitamente sus reglas. Si una persona considera que algo es engaño y la otra no, hay conflicto. Conversaciones tempranas en la relación sobre límites concretos ayudan."
+      },
+      {
+        "q": "¿Es mejor confesar una infidelidad o callarla?",
+        "a": "Es una decisión muy personal y controvertida éticamente. Argumentos a favor de confesar: vivir con la mentira corroe a la persona infiel, el secreto crea barrera emocional, la pareja merece la verdad para decidir con información completa, las relaciones sin honestidad son frágiles. Argumentos en contra: el daño causado puede ser mayor que el beneficio (especialmente si fue un encuentro único sin riesgo de repetir, o si confesar es más por aliviarse uno mismo que por amor a la pareja). Esther Perel sugiere preguntarse: ¿por qué quieres confesar? ¿Para liberarte de culpa, o por respeto? Si la infidelidad va a continuar, sí debe saberse. Si fue aislado, profundamente arrepentido y cerrado, algunos terapeutas sugieren que vivir con la culpa puede ser mejor que destruir a la pareja. No hay respuesta unánime."
+      },
+      {
+        "q": "¿Por qué hay más infidelidades hoy que antes?",
+        "a": "Realmente no está claro que sean más, pero sí son más visibles. Razones del aumento aparente: 1) Apps de citas que facilitan contactos secretos (Tinder, Ashley Madison específicamente para infidelidades). 2) Redes sociales que reconectan con ex y crean nuevas oportunidades. 3) Mayor libertad sexual general, menos tabú. 4) Igualdad de género que iguala los comportamientos masculino y femenino (antes solo hombres se sospechaban infieles, ahora las mujeres también). 5) Más viajes laborales, vidas paralelas. 6) Menor presión social/religiosa para mantener matrimonios infelices. Lo que sí cambia es la mayor proporción de descubrimientos: las infidelidades dejan rastro digital (mensajes, fotos, cargos), antes eran más fáciles de esconder. La estadística histórica real es difícil porque siempre fue tabú declarar."
+      },
+      {
+        "q": "¿Las relaciones abiertas evitan la infidelidad?",
+        "a": "Parcialmente sí. Las relaciones poliamorosas o abiertas con reglas explícitas redefinen la infidelidad: ya no es 'tener sexo con otro' (eso está permitido) sino 'romper las reglas acordadas' (mentir sobre encuentros, sobrepasar límites pactados, ocultar relaciones serias). Estudios sobre poliamor ético sugieren que estas parejas tienen niveles de satisfacción similares a las monógamas SI hay comunicación excelente. Pero también pueden ser infieles: tener sexo no protegido con alguien externo cuando se acordó protección, desarrollar amor profundo no comunicado con otra persona, ocultar relaciones de la pareja principal. La infidelidad es romper un acuerdo, sea cual sea el acuerdo. La monogamia no es lo único que se puede traicionar."
+      }
+    ],
+    "related": ["amor", "ruptura", "pareja", "celos", "ex"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "celos",
+    "locale": "es",
+    "keyword": "Celos",
+    "matchPatterns": ["celos", "celoso", "celosa", "envidia", "inseguridad", "posesivo"],
+    "topic": "couple",
+    "title": "Celos — psicología, tipos y cómo gestionarlos en pareja",
+    "description": "Celos en pareja: cuándo son normales, cuándo son tóxicos, sus raíces psicológicas y cómo gestionarlos sin destruir la relación.",
+    "emoji": "😤",
+    "intro": "Los celos son una emoción universal que todas las personas experimentan alguna vez en su vida — y especialmente en pareja. Evolutivamente, los celos tendrían sentido como mecanismo de protección de los recursos reproductivos: alertan cuando hay riesgo de perder al compañero o compañera. Pero en la modernidad, los celos pueden ser sanos en pequeñas dosis (señal de que la relación importa) o destructivos cuando se vuelven obsesivos, paranoides, controladores. La psicología distingue varios tipos: celos retrospectivos (obsesión con el pasado sexual del partner), celos sexuales (miedo a infidelidad física), celos emocionales (miedo a infidelidad afectiva), celos basados en inseguridad (yo no soy suficiente), celos basados en posesión (tú me perteneces). Las redes sociales han creado nuevas formas de celos: el 'who liked your post' celoso, el examen del Instagram del ex de tu pareja, el celo por seguidores nuevos del sexo opuesto. Los celos en exceso son una de las principales causas de toxicidad y violencia en pareja: el control disfrazado de amor ('me preocupo por ti'), el aislamiento progresivo ('no me gusta esa amiga tuya'), la violencia verbal o física en casos extremos. Encuestas del Ministerio de Igualdad en España indican que un alto porcentaje de jóvenes confunde control con amor ('si me cela es porque me quiere'). En moomz, las preguntas '¿celos es señal de amor o de inseguridad?', '¿es normal mirar el WhatsApp?', '¿celos por amigos del sexo opuesto?' generan respuestas muy divididas.",
+    "sections": [
+      {
+        "h": "Las raíces psicológicas de los celos",
+        "body": "Los celos suelen tener raíces más profundas que la situación inmediata. Factores principales: 1) Apego inseguro de la infancia: personas que crecieron sintiendo que el amor era condicional o inestable tienden a ser celosas en relaciones adultas (teoría del apego, John Bowlby). 2) Traumas previos: traiciones pasadas (infidelidades sufridas, abandono) crean hiperalerta. 3) Baja autoestima: si crees que no eres suficiente, asumes que cualquier alternativa es mejor que tú. 4) Comparación social tóxica: redes sociales magnifican las inseguridades. 5) Proyección: a veces, las personas que son celosas son ellas mismas las propensas a la infidelidad (proyectan su propia disposición). 6) Cultura machista: el modelo tradicional que romantiza el control como amor ('eres mía'). Identificar la raíz es clave para trabajar los celos: no se curan ignorándolos ni con la pareja 'demostrando' constantemente fidelidad, sino con trabajo personal (terapia, autoconocimiento, sanación de heridas)."
+      },
+      {
+        "h": "Celos sanos vs celos tóxicos",
+        "body": "No todos los celos son problemáticos. Hay celos sanos: una punzada momentánea cuando alguien se acerca demasiado a tu pareja en una fiesta, un mensaje de inquietud cuando notas que algo no cuadra, una conversación honesta sobre límites. Estos celos son normales y manejables. Los celos tóxicos cruzan líneas claras: 1) Control: revisar el móvil, exigir reportes constantes de ubicación, vigilar redes sociales obsesivamente. 2) Aislamiento: prohibir o desaprobar amistades del sexo opuesto, criticar a la familia, limitar salidas. 3) Acusaciones recurrentes sin base: 'seguro que has visto a X', 'no me dices la verdad', sin pruebas. 4) Manipulación emocional: amenazas de suicidio si no le obedeces, lloros, chantajes. 5) Violencia: verbal (insultos, gritos) o física (empujones, golpes, en casos extremos). La regla de oro: los celos sanos son tuyos y los gestionas tú; los celos tóxicos los proyectas sobre la pareja exigiéndole que cambie su vida. Si los celos de tu pareja te obligan a limitar la tuya, es señal de alarma máxima."
+      },
+      {
+        "h": "Cómo gestionar los celos propios y ajenos",
+        "body": "Si tú eres la persona celosa: 1) Reconócelos sin negarlos: 'Estoy sintiendo celos ahora mismo, ¿qué los está activando?'. 2) Distingue entre realidad (hay algo concreto sospechoso) y proyección (mis miedos). 3) Habla en primera persona con tu pareja: 'Cuando vi X me sentí inseguro/a, ¿podemos hablar?' en vez de acusar. 4) Trabaja tus inseguridades de fondo en terapia individual — no en exigencias a tu pareja. 5) Cuídate (deporte, amigos propios, autoestima) en lugar de centrar todo en la relación. Si tu pareja es la celosa: 1) No 'demuestres' eternamente: no soluciona el problema de raíz. 2) Pon límites claros: si revisa tu móvil, si te limita socialmente, eso no es aceptable independientemente de cuánto te quiera. 3) Anímale a hacer terapia individual. 4) Si las exigencias crecen, considera seriamente si la relación es sana — el control nunca se cura con más amor, solo con trabajo personal. 5) Si hay violencia, no esperes más: 016 es el teléfono español de ayuda contra violencia de género (no deja rastro en factura)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Sentir celos a veces es normal?",
+        "a": "Sí, completamente. Los celos ocasionales son una emoción humana universal, prácticamente todos los seres humanos los experimentan en algún momento. Una punzada cuando alguien se acerca demasiado a tu pareja, una inquietud cuando notas su distancia, una incomodidad cuando habla mucho de otra persona — todo eso es normal y manejable. El problema no son los celos en sí, sino: 1) Su intensidad (si te dominan, no si los sientes brevemente), 2) Su frecuencia (esporádicos vs constantes), 3) Cómo los gestionas (los procesas internamente vs los proyectas controlando), 4) Si te llevan a comportamientos invasivos. Los celos sanos generan conversación; los celos tóxicos generan control."
+      },
+      {
+        "q": "¿Es trampa mirar el móvil de tu pareja?",
+        "a": "Sí, casi unánimemente entre psicólogos. Mirar el móvil de tu pareja sin permiso es una violación de la privacidad y un síntoma claro de desconfianza patológica, no resolución. Razones: 1) Crea una dinámica policía/sospechoso destructiva. 2) Si encuentras algo, ¿cómo lo planteas sin admitir que husmeaste? 3) Si no encuentras nada, no te tranquilizará — buscarás más. 4) Erosiona la confianza al revés: tu pareja se sentirá vigilada. 5) Es adictivo: una vez que empiezas, no paras. La alternativa sana: hablar de las inseguridades directamente, hacer terapia individual, e si la desconfianza es total, considerar si esa relación es sostenible. Excepción debatible: parejas con acuerdo explícito de móviles abiertos, lo cual es minoritario."
+      },
+      {
+        "q": "¿Mi pareja es muy celosa, debo dejarla?",
+        "a": "Depende del grado y disposición a cambiar. Si los celos son ocasionales y se resuelven con conversación, son normales. Si los celos involucran control, aislamiento, acusaciones, restricciones a tu vida — es señal de alarma. Pregúntate: ¿reconoce el problema o lo justifica? ¿Está dispuesto/a a trabajar en terapia individual? ¿Sus celos van mejorando o empeorando? ¿Te sientes más libre o más prisionero/a con el tiempo? Si reconoce el problema y trabaja activamente, puede mejorar (a veces dramáticamente con terapia). Si niega el problema, te culpa a ti por sus celos, o avanzan hacia violencia — debes salir. La 'esperanza de cambio' sin acción concreta es trampa. Si hay violencia física, no esperes ni una segunda vez."
+      },
+      {
+        "q": "¿Los celos disminuyen con el tiempo en una relación estable?",
+        "a": "Sí, generalmente. En relaciones estables, sanas y de larga duración, los celos suelen disminuir progresivamente porque se va construyendo confianza acumulada (cada acto fiel se suma), porque las dinámicas se vuelven previsibles, y porque la atracción rival va dejando de ser percibida como amenaza. Pero esto requiere bases sanas desde el inicio. Si los celos persisten o crecen con los años, indica problemas no resueltos: inseguridades crónicas no trabajadas, traumas no procesados, o problemas reales en la relación que no se han abordado. Crisis específicas pueden reactivar celos (un viaje del partner, un trabajo nuevo con compañeros atractivos, una crisis personal), pero las parejas sanas se comunican y los gestionan sin destruir todo."
+      }
+    ],
+    "related": ["amor", "infidelidad", "pareja", "ruptura", "ex"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "soltero",
+    "locale": "es",
+    "keyword": "Soltero",
+    "matchPatterns": ["soltero", "soltera", "single", "sin pareja", "solteria", "solo"],
+    "topic": "couple",
+    "title": "Soltero — la soltería como elección y la vida sin pareja",
+    "description": "Soltería en 2026: por elección, post-ruptura, ventajas y desventajas. Cómo disfrutarla y por qué cada vez más gente la elige.",
+    "emoji": "🧍",
+    "intro": "La soltería ha vivido una transformación radical en las últimas décadas: de ser un estado mal visto (especialmente para mujeres tras cierta edad) a convertirse en una elección legítima e incluso aspiracional para muchas personas. En España, según el INE, el porcentaje de hogares unipersonales (personas que viven solas) ha pasado del 13% en 1991 al 26% en 2024, casi el doble. La edad media de primera convivencia ha subido a los 30 años (frente a los 24 de la generación de los 80), y muchas personas pasan periodos largos (5-15 años) entre relaciones serias o sin relación nunca. Los motivos son múltiples: 1) Independencia económica de las mujeres, que ya no necesitan casarse para sobrevivir. 2) Mayor educación que retrasa el momento de 'sentar cabeza'. 3) Vivienda inalcanzable que hace difícil compartir piso con alguien sin estar seguro. 4) Cultura de las apps que normaliza relaciones casuales sin compromiso. 5) Desencanto con el modelo tradicional (matrimonios fallidos de padres, miedo al divorcio). 6) Trabajos exigentes que dejan poco tiempo. 7) Mayor consciencia de salud mental: muchos prefieren estar solos antes que en relaciones tóxicas. En moomz, las preguntas '¿soltería sí o no?', '¿prefieres estar solo o mal acompañado?', '¿cuánto llevas soltero?' revelan que la soltería ya no es estigma. Existe una nueva narrativa: 'No estoy buscando, estoy viviendo'.",
+    "sections": [
+      {
+        "h": "Ventajas y desventajas de la soltería",
+        "body": "Ventajas de ser soltero/a: 1) Libertad absoluta para tomar decisiones (mudarse de ciudad, cambiar de trabajo, viajar sin coordinar). 2) Tiempo para uno mismo: explorar hobbies, amistades, desarrollo personal. 3) Estabilidad financiera personal sin depender de otra economía. 4) Menos conflictos diarios. 5) Espacio físico y mental propio. 6) Conocerse en profundidad antes de comprometerse. 7) Oportunidad de viajar más. 8) Privacidad y silencio cuando lo necesitas. Desventajas: 1) Soledad puntual o crónica, especialmente en momentos difíciles (enfermedad, crisis, navidad). 2) Falta de apoyo emocional cotidiano. 3) Carga económica completa (alquileres, gastos). 4) Carga social del 'estado civil' en familias tradicionales. 5) Menos sexo si no quieres apps casuales. 6) Sentimiento de exclusión en eventos para parejas. 7) Sensación ocasional de 'me estoy perdiendo algo'. Lo importante: ambos lados existen, y depende de la fase vital. Hay momentos donde la soltería es perfecta y momentos donde se busca pareja activamente."
+      },
+      {
+        "h": "Soltería elegida vs soltería sufrida",
+        "body": "No todas las solterías son iguales psicológicamente. Soltería elegida: la persona ha decidido conscientemente que prefiere estar sola, sea permanentemente o en esta fase de la vida. Está construyendo una vida plena con amigos, familia, trabajo, hobbies, viajes. No busca activamente pareja, está disponible si llega algo bueno pero no se desespera. Suele tener autoestima sana y resiliencia. Soltería sufrida: la persona quiere pareja pero no la encuentra (o no encuentra una sana). Vive con sensación de 'estar a la espera', se compara con amigos en parejas felices, baja su autoestima con cada Tinder fallido. Puede caer en cinismo ('todos son iguales') o desesperación ('moriré sola'). La diferencia entre las dos no es la situación objetiva sino la actitud y la calidad de vida construida alrededor. El secreto: vive la soltería como si fuera la mejor cosa, y atraerás mejores parejas (o disfrutarás más estando solo). La energía 'tengo todo bajo control' es magnetismo; la energía 'necesito que alguien me complete' es repelente."
+      },
+      {
+        "h": "Cómo disfrutar plenamente la soltería",
+        "body": "Estrategias para vivir bien la soltería (especialmente post-ruptura o por elección): 1) Reconstruye o cultiva amigos y amigas: la pareja no debería ser tu única fuente de afecto. Quedadas regulares, planes grupales. 2) Hobbies que ocupen tu tiempo y te apasionen: deporte, idiomas, arte, voluntariado, lectura, cocina. 3) Viaja solo/a: una experiencia transformadora — Asia, Latinoamérica, road trips europeos. 4) Cuida tu salud: deporte regular, alimentación, sueño, terapia si hace falta para sanar relaciones pasadas. 5) Construye carrera profesional sin la limitación de pensar en compatibilizar con pareja. 6) Aprende a estar contigo: silencios, soledad activa (no aislamiento), meditación, journaling. 7) Date capricho sin culpa: cena en restaurante caro solo, fin de semana en hotel, comprar lo que te apetece. 8) Familia: cultiva relaciones con padres, hermanos, sobrinos. 9) Mascota: para muchos solteros, una mascota cambia radicalmente la calidad de vida. 10) Sexo: tener vida sexual ocasional consensuada es sano si lo gestionas bien. La soltería bien vivida puede ser la mejor fase de tu vida."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Hasta qué edad es normal estar soltero?",
+        "a": "No hay 'edad límite' ya en 2026. La presión social que existía hasta los 90 (especialmente para mujeres después de los 30) está cada vez más diluida en las grandes ciudades, aunque persiste en zonas rurales y familias tradicionales. La edad media de primer matrimonio en España son los 35-36 años para hombres y 33-34 para mujeres, y muchas personas se casan más tarde o nunca. Personas de 40, 50, 60 años solteras felices son cada vez más habituales. La pregunta no es la edad sino: ¿estás bien con tu vida? Si sí, ningún reloj biológico social debería presionarte. Si quieres pareja y no la encuentras, trabajalo (terapia, salir de apps, cambiar contextos), no por edad sino por deseo genuino."
+      },
+      {
+        "q": "¿Cómo afrontar las navidades soltero/a sin sufrir?",
+        "a": "Las fechas familiares pueden ser desafiantes para solteros, especialmente con preguntas incómodas ('¿y para cuándo el novio/a?'). Estrategias: 1) Prepara respuestas cortas y firmes: 'estoy bien así, gracias' sin entrar en debate. 2) Planifica con quién pasarlas: familia (si te aporta), amigos (cada vez más grupos hacen 'Friendsmas'), o solo/a con plan que te guste. 3) Date placeres extra: un viaje a un destino soñado en navidades, un retreat de yoga, un fin de semana en un parador. 4) Voluntariado: ayudar en comedor social, refugio, asilo te conecta con propósito. 5) Apaga redes sociales esos días: ver feeds de familias felices empeora el estado. 6) Practica gratitud: tu salud, libertad, amistades reales. 7) No te compares con narrativas idealizadas — muchas familias son disfuncionales aunque parezcan felices en fotos. La soltería en navidades duele si te enfocas en lo que falta; brilla si te enfocas en lo que tienes."
+      },
+      {
+        "q": "¿Es mejor estar solo que mal acompañado?",
+        "a": "Sí, casi unánimemente entre psicólogos. Estar en una relación tóxica daña la autoestima, el bienestar emocional, la salud mental y a menudo la salud física a largo plazo. La soledad puntual de la soltería es manejable; el aislamiento dentro de una mala relación es destructor. Estudios longitudinales (Harvard Study of Adult Development) muestran que la calidad de las relaciones predice la felicidad y la salud mucho mejor que el estado civil — personas solteras con buenas amistades viven más y son más felices que personas casadas en relaciones malas. La soltería elegida activamente con red social sana es preferible a quedarse 'por miedo a estar solo'. Si la única razón para seguir es 'no querer estar solo', revisar urgentemente."
+      },
+      {
+        "q": "¿La soltería larga es buena o mala para encontrar pareja después?",
+        "a": "Depende de cómo se viva. Soltería larga bien vivida (con amigos, hobbies, autoconocimiento, sanación de traumas pasados): es excelente preparación para una pareja sana cuando llegue, porque traes una persona completa en vez de necesitada. Soltería larga sufrida (con resentimiento, baja autoestima, defensas activadas): puede dificultar nuevas relaciones porque traes miedos acumulados, hipersensibilidad, comparaciones constantes con ex pasadas. La clave es trabajar la soltería como una etapa de crecimiento, no como espera frustrada. Cuanto más a gusto contigo en la soltería, mejor pareja serás cuando llegue alguien. La paradoja: quien menos necesita pareja suele ser quien mejores parejas atrae."
+      }
+    ],
+    "related": ["amor", "ruptura", "ex", "cita", "pareja"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "ex",
+    "locale": "es",
+    "keyword": "Ex",
+    "matchPatterns": ["ex", "exnovio", "exnovia", "ex-pareja", "antiguo", "olvidar"],
+    "topic": "couple",
+    "title": "Ex — superar a una ex pareja, gestionar el contacto y seguir adelante",
+    "description": "Cómo superar a un ex: tiempo necesario, no contacto, redes sociales, segundas oportunidades y por qué algunos ex vuelven.",
+    "emoji": "👻",
+    "intro": "El 'ex' es probablemente el personaje más debatido en conversaciones de pareja, amistad y terapia. Todas las personas que han tenido una relación seria tienen al menos un ex, y la forma de gestionar esa figura (físicamente, emocionalmente, digitalmente) define enormemente la salud de tus relaciones presentes y futuras. La gestión del ex tiene varias dimensiones: 1) Tiempo y proceso para superarlo emocionalmente (entre 6 meses y 2 años en relaciones serias, según estudios). 2) Contacto: ¿bloquear, mantener amistad, ghostear? 3) Redes sociales: ¿unfollow, mute, mirar obsesivamente? 4) Pertenencias: regalos, fotos, cosas guardadas. 5) Vuelta: el famoso 'volver con un ex' que el 50% de la gente prueba (sin estadística clara de éxito a largo plazo, aunque mayoritariamente falla). 6) Encuentros casuales: cuando aparece en una fiesta, en el barrio, en la oficina. La psicología moderna ha desarrollado conceptos como 'no contacto' (la práctica de cortar todo contacto durante meses tras una ruptura para sanar realmente), 'duelo de pareja' (proceso similar al duelo por muerte con fases reconocibles), 'ghosting' (desaparecer sin explicación) y 'breadcrumbing' (dejar 'migas' de atención para mantenerte enganchado/a). En moomz, las preguntas '¿amistad con el ex sí o no?', '¿volverías?', '¿cuántos ex tienes?', '¿bloqueado en redes?' generan respuestas muy diferentes según edad, género y heridas pasadas.",
+    "sections": [
+      {
+        "h": "Las fases del duelo amoroso",
+        "body": "Superar a un ex sigue fases reconocibles, similares al duelo. 1) Negación (días-semanas tras la ruptura): 'no me lo creo', sigues actuando como si nada hubiera pasado, esperas que vuelva, pones excusas. 2) Negociación: revisas la ruptura buscando soluciones, 'si hubiera hecho X', mensajes intentando reconciliar. 3) Ira: contra él/ella, contra ti, contra el mundo. Las redes sociales pueden ser ventana de venganza pasivo-agresiva. 4) Tristeza profunda (semanas-meses): el verdadero dolor del vacío, llanto, pérdida de apetito, sueño alterado, sensación de futuro destruido. Es la fase necesaria que no se puede saltar. 5) Aceptación: gradualmente integras la pérdida, vuelves a interesarte por cosas, ríes de nuevo, eventualmente vuelves a estar disponible para nuevas conexiones. Duración total: 6-12 meses para relaciones de 1-3 años, hasta 2 años para relaciones largas o muy intensas. Reglas generales: el tiempo de superación es proporcional a la duración y intensidad de la relación. Las rupturas mutuas sin traición son más fáciles que las traumáticas (infidelidad, descubrimientos brutales)."
+      },
+      {
+        "h": "No contacto y redes sociales",
+        "body": "El 'no contacto' es la estrategia más recomendada por psicólogos para superar una ruptura. Consiste en cortar todo tipo de comunicación con el ex durante al menos 30-60-90 días (idealmente más): no mensajes, no llamadas, no quedadas, no preguntar por amistades comunes, no mirar redes sociales. Por qué funciona: 1) Permite procesar emociones sin reactivación constante. 2) Evita el síndrome de la 'cura del exnovio en pequeñas dosis' que prolonga el dolor. 3) Crea espacio para identidad propia. 4) Si la otra persona quiere volver, demostrará que vale la pena con acciones concretas. En cuanto a redes sociales: 1) Unfollow mínimo (sin necesariamente bloquear si genera drama). 2) Mute o silenciar es buena opción intermedia. 3) Bloquear si hay mucha tentación de mirar o si la persona te tortura con stories desafiantes. 4) Bloqueado también en las redes que comparten amigos comunes para evitar ver fotos. La fuerza de voluntad es limitada — quitar la tentación es más efectivo que resistirla. Reemplaza el tiempo de stalking con actividades: deporte, amigos, hobbies."
+      },
+      {
+        "h": "¿Volver con un ex funciona?",
+        "body": "Estadísticamente, volver con un ex tiene tasas de éxito bajas a largo plazo. Estudios sugieren que el 50% de personas vuelven con un ex al menos una vez en su vida, pero menos del 15% de esas reconciliaciones terminan en relaciones largas estables — y muchas de esas eran rupturas leves por circunstancias (distancia, momento de vida) más que por incompatibilidades fundamentales. Cuándo SÍ tiene sentido intentar: 1) La ruptura fue por factores externos (mudanza, momento vital) que ahora cambiaron. 2) Ambos han trabajado individualmente sus problemas (terapia, autoconocimiento). 3) Ambos reconocen específicamente qué cambiar (no genérico 'haremos mejor'). 4) Han pasado meses suficientes para evaluar con perspectiva (no semanas en pleno duelo). Cuándo NO tiene sentido: 1) Hubo violencia (verbal, emocional, física) — vuelve a aparecer 99% del tiempo. 2) Hubo infidelidad sin trabajo profundo de raíz. 3) Vuelves por miedo a estar solo. 4) Nada ha cambiado realmente en circunstancias o personas. 5) Solo uno de los dos quiere volver y convence al otro. Volver con un ex puede funcionar pero requiere honestidad brutal y trabajo serio."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto tiempo se tarda en superar a un ex?",
+        "a": "Depende mucho de la duración e intensidad de la relación. Estudios sugieren tiempos aproximados: relaciones de menos de 6 meses se superan en 1-3 meses. Relaciones de 1-3 años requieren 6-12 meses para superación significativa. Relaciones de 5+ años o muy intensas pueden necesitar 1-2 años o más. Hay personas que tras una ruptura traumática (infidelidad, abandono súbito) nunca recuperan totalmente la confianza en relaciones futuras sin trabajo terapéutico. Lo más importante no es el tiempo objetivo sino los signos: dejar de pensar en él/ella cada día, no llorar al ver una canción que compartíais, sentir alegría por otras cosas, abrirse a nuevas conexiones. Si pasan 1-2 años y sigues estancado, considera terapia individual."
+      },
+      {
+        "q": "¿Se puede ser amigo de un ex?",
+        "a": "Sí, pero con condiciones. Ser amigo real de un ex es posible y a veces deseable, especialmente si la relación fue sana, la ruptura mutua y respetuosa, y ha pasado tiempo suficiente para que el contacto no sea doloroso ni confuso. Sin embargo, muchas amistades 'con ex' son en realidad un disfraz para mantener vínculo emocional cuando uno (o ambos) sigue enamorado. Condiciones necesarias para una amistad real con ex: 1) Mínimo 6-12 meses de no contacto previo. 2) Ambos en otras relaciones estables o totalmente sanos solteros. 3) Capacidad de hablar de la nueva pareja del otro sin dolor. 4) Pareja actual cómoda con la amistad. 5) Naturaleza no romántica clara (no quedadas tipo cita, no contactos íntimos). Si una de estas no se cumple, mejor amistad superficial o nada."
+      },
+      {
+        "q": "¿Por qué a veces el ex vuelve?",
+        "a": "Hay varios motivos posibles, no todos sanos. 1) Genuina reflexión: ha trabajado lo suyo, ve claro que se equivocó y quiere reparar realmente. (Minoritario). 2) Soledad: se siente solo y tú representas comodidad conocida — no es amor sino confort. 3) Atracción residual no procesada: te recuerda con romantización de la memoria, no recuerda los problemas reales. 4) Crisis personal: ha pasado por algo (despido, problema familiar, ruptura nueva) y busca apoyo en lo que ya conocía. 5) Ego: enterarse que has rehecho tu vida le activa el sentido de propiedad ('era mía/o'). 6) Sexo: si la conexión física fue intensa, vuelve buscando eso. Cómo distinguir: la genuina reflexión viene con propuestas concretas de cambio, terapia individual, paciencia, sin presión. La búsqueda manipuladora es ambigua, intensa, prometedora pero sin actos cambiados. Pregunta clave: ¿por qué AHORA?"
+      },
+      {
+        "q": "¿Es normal soñar con tu ex?",
+        "a": "Sí, completamente normal y muy común, especialmente en los meses tras la ruptura pero también años después. Los sueños no significan necesariamente que sigas enamorado/a: son la mente procesando memoria emocional almacenada. Los sueños con ex pueden activarse por: estímulos externos (un olor, una canción, un lugar), aniversarios importantes (cumpleaños, fecha de relación), nueva pareja (la mente compara), crisis emocionales. Si los sueños son ocasionales y no te alteran el día, no significa nada. Si son obsesivos, recurrentes, mezclados con tristeza diurna intensa años después de la ruptura, indica que el proceso de duelo no se completó y vale la pena trabajarlo (terapia)."
+      }
+    ],
+    "related": ["ruptura", "amor", "soltero", "infidelidad", "celos"],
+    "updatedAt": "2026-05-20"
+  }
+]

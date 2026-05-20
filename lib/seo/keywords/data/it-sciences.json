@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "sole",
+    "locale": "it",
+    "keyword": "Sole",
+    "matchPatterns": ["sole", "soleggiato", "estate", "stella", "alba", "tramonto"],
+    "topic": "sciences",
+    "title": "Sole — distanza, fusione nucleare e vibrazioni cosmiche",
+    "description": "Tutto sul Sole: 150 milioni di km, fusione di idrogeno in elio, macchie solari, mitologia e perché fa vibrare l'intera galassia.",
+    "emoji": "☀️",
+    "intro": "Il Sole è letteralmente la stella protagonista del sistema solare, e senza di lui saremmo solo un sasso congelato che fluttua nel vuoto. Situato a circa 149,6 milioni di chilometri dalla Terra (quella che gli astronomi chiamano un'unità astronomica), il nostro astro ha un diametro di 1,39 milioni di km, circa 109 volte quello della Terra. La sua luce impiega 8 minuti e 20 secondi a raggiungerci, il che significa che ogni volta che guardi un tramonto stai osservando il passato. Il Sole è una nana gialla di tipo G2V, ha circa 4,6 miliardi di anni, e gliene restano ancora 5 miliardi prima di trasformarsi in una gigante rossa che inghiottirà Mercurio e Venere e forse anche la Terra. Il suo nucleo raggiunge i 15 milioni di gradi e ogni secondo fonde 600 milioni di tonnellate di idrogeno in elio, liberando l'energia che alimenta la fotosintesi, fa crescere le viti del Chianti e ti regala l'abbronzatura di Ferragosto. Su moomz i sondaggi tipo 'team sole vs team pioggia' esplodono dai primi raggi di aprile e il team sole vince quasi sempre. Oltre alla scienza pura, il Sole è mitologia viva: Ra in Egitto, Apollo in Grecia e Roma, Inti per gli Inca, Amaterasu in Giappone. Ancora oggi il Sole è il vero re della cultura pop, dell'energia rinnovabile e dei vibe-check estivi.",
+    "sections": [
+      {
+        "h": "La fisica del Sole spiegata semplice",
+        "body": "Il Sole è una palla di plasma tenuta insieme dalla propria gravità. La sua struttura è stratificata: nucleo dove avviene la fusione nucleare, zona radiativa, zona convettiva, fotosfera (la superficie visibile a circa 5500 °C), cromosfera e infine corona, che paradossalmente supera il milione di gradi pur essendo la parte più esterna. Ogni secondo il Sole converte 4 milioni di tonnellate di materia in energia secondo la celebre E=mc² di Einstein del 1905. Questa energia, prodotta nel nucleo, impiega decine di migliaia di anni ad attraversare gli strati interni prima di sfuggire come luce visibile. Il vento solare, flusso di particelle cariche, viaggia a circa 400 km/s e crea le aurore boreali quando colpisce il campo magnetico terrestre. Le macchie solari, più scure perché più fredde, seguono un ciclo di circa 11 anni che influisce sulle telecomunicazioni, sui satelliti GPS e talvolta sulle reti elettriche. Il prossimo massimo solare è atteso proprio nel 2025-2026."
+      },
+      {
+        "h": "Mitologia e cultura intorno al Sole",
+        "body": "Dalla notte dei tempi il Sole è stato oggetto di culto. Gli egizi veneravano Ra che attraversava il cielo su una barca, i greci avevano Helios e poi Apollo, gli aztechi compivano sacrifici per Tonatiuh, gli Inca adoravano Inti nel Coricancha di Cuzco. Akhenaton in Egitto tentò una rivoluzione monoteista nel XIV secolo a.C. dedicata al disco solare Aton. Luigi XIV di Francia si autoproclamò Re Sole nel XVII secolo per consolidare il suo potere assoluto. Nella cultura pop il Sole è ovunque: 'Here Comes the Sun' dei Beatles del 1969, 'Il sole esiste per tutti' dei Modà, l'estate di Cesare Cremonini, il manga Demon Slayer dove Tanjiro padroneggia la respirazione del sole. Senza dimenticare le playlist 'golden hour' su Spotify con miliardi di stream e l'ossessione TikTok per l'ora dorata. In Italia il Sole è anche identità: il Mezzogiorno, le coste pugliesi e siciliane, le terrazze di Positano al tramonto."
+      },
+      {
+        "h": "Il tramonto: perché è così bello",
+        "body": "Il tramonto non è solo estetica, è pura fisica. Quando il Sole è basso all'orizzonte la sua luce attraversa uno strato di atmosfera molto più spesso. Le lunghezze d'onda corte (blu, viola) vengono disperse dalle molecole dell'aria (la famosa diffusione di Rayleigh) e solo le lunghezze lunghe (rosso, arancio, rosa) arrivano fino ai tuoi occhi. Particelle di polvere, inquinamento e nubi alte amplificano l'effetto creando degradazioni spettacolari. I tramonti più assurdi si vedono di solito dopo un temporale o in autunno. A Santorini, a Bali, a Marrakech, a Capri o sulla terrazza di un agriturismo toscano, il tramonto è diventato un rituale social immortalato su Instagram con filtri aesthetic. Su moomz le vibrazioni da tramonto sono le più condivise dell'estate, soprattutto tra giugno e settembre, quando la luce dorata raggiunge l'apice e i feed esplodono di foto in controluce. Il tramonto è anche un momento neutro perfetto per un appuntamento."
+      }
+    ],
+    "faq": [
+      {
+        "q": "A che distanza si trova il Sole dalla Terra?",
+        "a": "Il Sole si trova in media a 149,6 milioni di chilometri dalla Terra, una distanza che gli astronomi chiamano un'unità astronomica (UA). Questa cifra varia leggermente durante l'anno: siamo più vicini a inizio gennaio (147 milioni di km, il perielio) e più lontani a inizio luglio (152 milioni di km, l'afelio). Curiosamente l'estate boreale coincide quindi con la maggiore distanza dal Sole, le stagioni dipendono dall'inclinazione dell'asse terrestre di 23,5 gradi, non dalla distanza. La luce solare impiega esattamente 8 minuti e 20 secondi per raggiungerci."
+      },
+      {
+        "q": "Perché il Sole brilla?",
+        "a": "Il Sole brilla grazie alla fusione nucleare che avviene nel suo nucleo. Sotto temperature di 15 milioni di gradi e pressioni colossali, i nuclei di idrogeno si fondono formando elio e liberando enormi quantità di energia sotto forma di fotoni. Questa energia attraversa gli strati interni del Sole per decine di migliaia di anni prima di sfuggire come luce visibile. Senza questa fusione il Sole sarebbe spento e la Terra sarebbe un pianeta gelato e senza vita. Ogni secondo il Sole consuma 600 milioni di tonnellate di idrogeno."
+      },
+      {
+        "q": "Quanto tempo gli resta al Sole?",
+        "a": "Il Sole ha circa 4,6 miliardi di anni ed è approssimativamente a metà della sua vita. Tra circa 5 miliardi di anni inizierà a esaurire l'idrogeno nel nucleo, si gonfierà come gigante rossa e ingoierà probabilmente Mercurio, Venere e forse la Terra. Poi si trasformerà in nana bianca, un oggetto ultra-denso delle dimensioni della Terra che si raffredderà lentamente per miliardi di anni. Nessuna fretta dunque, ti resta moltissimo tempo per i tuoi sondaggi moomz sotto il sole."
+      },
+      {
+        "q": "Si può guardare il Sole direttamente?",
+        "a": "No, mai. Guardare il Sole direttamente, anche per pochi secondi, può causare lesioni irreversibili alla retina chiamate retinopatia solare. Durante un'eclissi parziale è ancora più pericoloso perché la pupilla si dilata. Bisogna usare occhiali speciali certificati ISO 12312-2 o un telescopio con filtro solare omologato. L'alba e il tramonto sono meno pericolosi perché l'atmosfera filtra molto, ma la prudenza resta fondamentale. Non usare mai occhiali da sole normali per osservare un'eclissi, non offrono alcuna protezione adeguata."
+      }
+    ],
+    "related": ["luna", "mare", "spazio", "estate", "ferragosto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "luna",
+    "locale": "it",
+    "keyword": "Luna",
+    "matchPatterns": ["luna", "lunare", "satellite", "eclissi", "notte", "plenilunio"],
+    "topic": "sciences",
+    "title": "Luna — origine, fasi, maree e misteri del satellite",
+    "description": "Tutto sulla Luna: impatto gigante 4.500 milioni di anni fa, fasi, maree, Apollo 11 e perché affascina poeti, scienziati e innamorati.",
+    "emoji": "🌙",
+    "intro": "La Luna è il nostro unico satellite naturale e la compagna più fedele della Terra da quasi 4,5 miliardi di anni. Situata a circa 384.400 chilometri di distanza (la luce impiega 1,28 secondi a fare il viaggio), ha un diametro di 3.474 km, circa un quarto di quello terrestre, il che la rende uno dei satelliti più grandi del sistema solare in proporzione al suo pianeta. La teoria dominante sulla sua formazione è quella dell'impatto gigante: circa 4,5 miliardi di anni fa un protopianeta delle dimensioni di Marte chiamato Theia si scontrò contro la Terra primordiale, e i detriti scagliati nello spazio si aggregarono fino a formare la Luna. La Luna è in rotazione sincronizzata con la Terra, e questo significa che ci mostra sempre la stessa faccia, mentre il lato nascosto fu fotografato per la prima volta dalla sonda sovietica Luna 3 nel 1959. Il 20 luglio 1969 Neil Armstrong e Buzz Aldrin divennero i primi esseri umani a calpestarla nella missione Apollo 11. La frase 'un piccolo passo per l'uomo, un grande balzo per l'umanità' è scolpita nella memoria collettiva. Su moomz i sondaggi 'team plenilunio vs team luna nuova' generano sempre tanto dibattito, soprattutto tra chi crede nell'influenza lunare sul sonno e sull'umore.",
+    "sections": [
+      {
+        "h": "Le fasi lunari spiegate semplici",
+        "body": "La Luna attraversa 8 fasi principali in un ciclo di 29,5 giorni chiamato mese sinodico. Si parte dalla luna nuova (invisibile, allineata tra Sole e Terra), si passa al crescente illuminato, al primo quarto (metà illuminata), si arriva alla gibbosa crescente, al plenilunio o luna piena (totalmente illuminata, opposta al Sole), poi decresce verso gibbosa calante, ultimo quarto e calante stretta prima di tornare alla luna nuova. Queste fasi non dipendono dall'ombra della Terra (quella è l'eclissi), ma dall'angolo tra Sole, Luna e Terra. Nell'emisfero nord la falce di luna crescente sembra una C rovesciata, mentre nel sud è una C normale. Calendari agricoli, festival e maree seguono questo ciclo da millenni. Nella tradizione contadina italiana ancora oggi si potano le viti e si imbottiglia il vino secondo le fasi lunari, specialmente in Toscana e Piemonte."
+      },
+      {
+        "h": "Maree, mitologia e influenza culturale",
+        "body": "La gravità della Luna deforma gli oceani creando due rigonfiamenti: uno verso di lei e uno dal lato opposto. La Terra ruotando genera così due alte maree e due basse al giorno. Anche il Sole contribuisce ma con forza minore. Nella cultura la Luna ha ispirato ogni civiltà: Selene e Artemide in Grecia, Diana a Roma, Chang'e in Cina che vi abita con un coniglio, Tsukuyomi in Giappone, Coyolxauhqui tra gli aztechi. In Italia c'è il celebre 'Al chiaro di luna' di Beethoven, c'è Pirandello con i suoi personaggi lunatici, c'è Calvino con 'La distanza della Luna' nelle Cosmicomiche. Nella cultura pop moderna 'Fly Me to the Moon' di Frank Sinatra, Sailor Moon, la saga di Twilight, gli astrologi che fissano il tema natale sulla posizione lunare. Lupi mannari e vampiri devono tutto al plenilunio. Su moomz le notti di luna piena vedono picchi di voti sui sondaggi notturni."
+      },
+      {
+        "h": "Apollo 11 e il ritorno alla Luna",
+        "body": "La corsa allo spazio tra USA e URSS culminò il 20 luglio 1969 quando Neil Armstrong scese dal modulo Eagle e mise piede nel Mare della Tranquillità. La missione Apollo 11 portò Armstrong, Aldrin e Collins (che restò in orbita) e riportò a Terra 21,5 kg di campioni lunari. Tra il 1969 e il 1972 ci furono 6 allunaggi con equipaggio (Apollo 11, 12, 14, 15, 16, 17) e 12 astronauti calpestarono la superficie. Poi silenzio per oltre 50 anni. Il programma Artemis della NASA punta a riportare la prima donna e il prossimo uomo vicino al polo sud lunare entro il 2026-2027. Cina (che ha fatto allunare il rover Yutu nel 2019 sul lato nascosto), India (Chandrayaan-3 nell'agosto 2023 vicino al polo sud) e SpaceX sono protagonisti della nuova corsa. La Luna resta un obiettivo geopolitico e scientifico strategico, soprattutto per le riserve di ghiaccio d'acqua al polo sud."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Come si è formata la Luna?",
+        "a": "La teoria più accreditata è quella dell'impatto gigante: circa 4,5 miliardi di anni fa un protopianeta delle dimensioni di Marte chiamato Theia si scontrò con la Terra primordiale. I detriti scagliati nello spazio si aggregarono in orbita formando la Luna nell'arco di pochi milioni di anni. Questa teoria spiega perché la composizione lunare è simile al mantello terrestre ma povera di ferro: il nucleo di Theia si fuse con quello della Terra. Le rocce riportate dalle missioni Apollo hanno confermato la similarità con i materiali terrestri."
+      },
+      {
+        "q": "Perché vediamo sempre la stessa faccia della Luna?",
+        "a": "Perché la Luna è in rotazione sincronizzata con la Terra: impiega esattamente lo stesso tempo per ruotare su se stessa (27,3 giorni) e per orbitare attorno a noi. Le forze di marea della Terra hanno progressivamente rallentato la rotazione lunare finché si è sincronizzata. Il lato nascosto fu fotografato per la prima volta nel 1959 dalla sonda sovietica Luna 3 e ha paesaggi molto diversi: più crateri, meno mari di lava basaltica. Il rover cinese Chang'e 4 atterrò sul lato nascosto nel gennaio 2019, primo nella storia."
+      },
+      {
+        "q": "La Luna influenza il sonno e l'umore?",
+        "a": "Alcuni studi recenti (Università di Washington 2021) suggeriscono che le persone dormono leggermente meno nei giorni che precedono il plenilunio, forse a causa della maggiore luminosità. Per quanto riguarda l'umore non ci sono prove scientifiche solide nonostante la credenza popolare nella 'pazzia lunare'. La parola lunatico viene dal latino lunaticus. Quello che è confermato è l'influenza sulle maree e su certi cicli biologici di coralli e barriere coralline. Anche le tartarughe marine sincronizzano la nidificazione con le fasi lunari."
+      },
+      {
+        "q": "Perché a volte vediamo la Luna di giorno?",
+        "a": "Perché la Luna non ha bisogno del buio per essere visibile: riflette la luce solare. Quando si trova sufficientemente lontana dal Sole nel cielo (in primo o ultimo quarto per esempio), è perfettamente visibile in pieno giorno contro il blu del cielo. Le uniche fasi in cui non si vede di giorno sono la luna nuova (troppo vicina al Sole) e il plenilunio (sorge al tramonto, quando il Sole cala). Provare a osservare la Luna pomeridiana è uno degli esercizi più semplici di astronomia amatoriale."
+      }
+    ],
+    "related": ["sole", "mare", "spazio", "tramonto", "san-valentino"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mare",
+    "locale": "it",
+    "keyword": "Mare",
+    "matchPatterns": ["mare", "oceano", "spiaggia", "onda", "marea", "costa"],
+    "topic": "sciences",
+    "title": "Mare — oceani, maree, vita marina e mistero azzurro",
+    "description": "Tutto sul mare: 71% della superficie terrestre, abissi misteriosi, biodiversità straordinaria, maree lunari e cultura balneare italiana.",
+    "emoji": "🌊",
+    "intro": "Il mare copre circa il 71% della superficie terrestre con un volume totale di 1,3 miliardi di chilometri cubi di acqua salata. Cinque grandi oceani (Pacifico, Atlantico, Indiano, Antartico e Artico) e decine di mari secondari come il Mediterraneo, il Mar Nero, il Mar Adriatico e il Mar Tirreno definiscono la geografia del pianeta blu. La profondità media è di 3.700 metri, ma raggiunge gli 11.034 metri nella Fossa delle Marianne, abbastanza profonda da inghiottire l'Everest con quasi 2 km di acqua sopra la vetta. Il mare contiene il 97% di tutta l'acqua del pianeta e produce oltre la metà dell'ossigeno che respiriamo grazie al fitoplancton, principalmente i ciglialgi e i cianobatteri. La vita è iniziata negli oceani circa 3,5 miliardi di anni fa con cianobatteri che hanno gradualmente ossigenato l'atmosfera. Oggi gli oceani ospitano oltre 200.000 specie conosciute, e si stima che il vero numero sia tra 1 e 10 milioni considerando le profondità inesplorate. In Italia il mare è cultura quotidiana: 7.500 km di coste, l'estate al mare è un rito nazionale dall'epoca dei bagni di Rimini dell'Ottocento. Su moomz i sondaggi 'team montagna vs team mare' generano sempre dibattiti accesi e il team mare in agosto schiaccia tutti.",
+    "sections": [
+      {
+        "h": "Maree, correnti e onde",
+        "body": "Le maree sono causate dall'attrazione gravitazionale della Luna e in misura minore del Sole. Si verificano in due cicli giornalieri da circa 12 ore e 25 minuti l'uno. Quando Luna e Sole sono allineati (luna nuova o piena) abbiamo maree sigiziali, particolarmente ampie, soprattutto in luoghi come la baia di Fundy in Canada (16 metri di dislivello) o Mont-Saint-Michel in Francia. In Italia le maree sono molto meno marcate, generalmente sotto i 50 cm, tranne nella laguna di Venezia dove possono superare il metro provocando la celebre acqua alta. Le correnti oceaniche come la Corrente del Golfo trasportano calore e regolano il clima europeo: senza di essa Roma avrebbe il clima di Boston. Le onde sono generate dal vento, e la più alta mai misurata su un sensore ha raggiunto 19 metri nell'Atlantico del Nord nel 2013, mentre onde anomale rogue waves possono superare i 25 metri."
+      },
+      {
+        "h": "Biodiversità: dal corallo alla balena blu",
+        "body": "Gli oceani ospitano una biodiversità straordinaria. La balenottera azzurra, lunga fino a 30 metri e pesante 180 tonnellate, è il più grande animale mai esistito sulla Terra. Il polpo possiede nove cervelli (uno centrale e otto nei tentacoli) e tre cuori, ed è considerato dagli scienziati uno degli invertebrati più intelligenti. Le barriere coralline coprono meno dell'1% del fondale oceanico ma ospitano il 25% della vita marina conosciuta. La Grande Barriera Corallina australiana, lunga 2.300 km, è visibile dallo spazio. Le profondità abissali ospitano creature bioluminescenti come il pesce abissale anguilliforme con la sua piccola luce per attirare le prede. Il Mediterraneo, pur essendo uno dei mari più antichi e più studiati, conta circa 17.000 specie e ospita 8 specie di cetacei tra cui delfini, capodogli e balenottere comuni nel Santuario Pelagos."
+      },
+      {
+        "h": "Mare e cultura italiana",
+        "body": "Il mare è cuore dell'identità italiana. 7.500 km di coste, isole splendide come la Sicilia, la Sardegna, Capri, Ischia e le Eolie. La cultura balneare moderna nasce a metà Ottocento quando Rimini apre i primi stabilimenti termali e Viareggio in Versilia diventa la meta dell'alta borghesia toscana. Nel Novecento il mare diventa sinonimo di vacanza estiva di massa: Riccione, Rimini, Jesolo, Forte dei Marmi, la Costiera Amalfitana. Cantautori come Lucio Dalla con 'Com'è profondo il mare' o Caparezza con 'Tutto ciò che c'è' hanno dedicato pezzi celebri alle onde. Pasolini girava ad Anzio e Sabaudia, Fellini ha eternato Rimini in 'Amarcord'. Su moomz i sondaggi estivi 'team Costiera vs team Sardegna' o 'Capri o Positano' generano migliaia di voti. Il mare è anche luogo dei primi appuntamenti d'estate, baci al tramonto sul molo e drammi adolescenziali sulla spiaggia dopo l'aperitivo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché il mare è salato?",
+        "a": "Il sale negli oceani proviene principalmente dall'erosione delle rocce continentali. La pioggia, leggermente acida per il CO2 dell'atmosfera, dissolve minerali dalle rocce e li trasporta nei fiumi fino al mare. Vulcanismo sottomarino, sorgenti idrotermali e accumulo nel corso di miliardi di anni hanno portato la salinità media a circa 35 grammi per litro, quasi tutto cloruro di sodio (sale da cucina). Il Mar Morto in Israele è dieci volte più salato, mentre il Mar Baltico solo otto grammi per litro. Il Mediterraneo, evaporando molto, è leggermente più salato dell'Atlantico."
+      },
+      {
+        "q": "Quanto è profondo il mare più profondo?",
+        "a": "La Fossa delle Marianne nel Pacifico occidentale raggiunge gli 11.034 metri nel Challenger Deep, scoperto nel 1875 dalla nave HMS Challenger. È più profonda dell'Everest è alto, l'Everest 8.849 metri lascerebbe 2 km d'acqua sopra la sua vetta. La pressione laggiù è di oltre 1.000 atmosfere. James Cameron, regista di Titanic e Avatar, vi scese in solitaria nel 2012 a bordo del Deepsea Challenger, raggiungendo 10.908 metri. La spedizione cinematografica scoprì nuove specie di anfipodi e cetrioli di mare adattati a queste condizioni estreme."
+      },
+      {
+        "q": "Perché il mare cambia colore?",
+        "a": "Il colore del mare dipende dall'angolo del sole, dalla profondità, dal fondale e dal contenuto biologico. L'acqua assorbe il rosso e riflette il blu, ecco perché di base appare azzurro. Acque ricche di plancton appaiono verdi (Atlantico del Nord), mentre acque tropicali povere di nutrienti su sabbia bianca appaiono turchesi intensi (Maldive, Bahamas, Sardegna). Il Mar Rosso prende il nome dalle alghe stagionali. Le acque torbide vicino agli estuari sono marroni per i sedimenti. Al tramonto il mare riflette i toni del cielo e diventa rosa o dorato, da cui le foto perfette di Polignano a Mare o Tropea."
+      },
+      {
+        "q": "Il Mediterraneo si sta riscaldando?",
+        "a": "Sì, il Mediterraneo si riscalda circa il 20% più velocemente della media globale, ed è uno dei mari che soffre maggiormente il cambiamento climatico. Le temperature estive superano spesso i 30 °C in superficie, con conseguenze sulla biodiversità: morie di gorgonie, sbiancamento dei coralli mediterranei, arrivo di specie aliene tropicali come il pesce coniglio, il pesce scorpione e i polipi blu. L'innalzamento del livello del mare, circa 3,4 mm/anno globalmente, minaccia particolarmente Venezia, la laguna di Grado e le coste basse della Puglia. Il MOSE è entrato in funzione per proteggere Venezia dalle acque alte estreme."
+      }
+    ],
+    "related": ["sole", "luna", "estate", "sardegna", "capri"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "spazio",
+    "locale": "it",
+    "keyword": "Spazio",
+    "matchPatterns": ["spazio", "universo", "cosmo", "galassia", "stelle", "nasa"],
+    "topic": "sciences",
+    "title": "Spazio — universo, galassie e l'avventura cosmica",
+    "description": "L'universo osservabile è grande 93 miliardi di anni luce, contiene 2.000 miliardi di galassie. Dal Big Bang all'esplorazione spaziale moderna.",
+    "emoji": "🚀",
+    "intro": "Lo spazio è l'ambiente più vasto, più strano e più affascinante che esista. L'universo osservabile ha un diametro di circa 93 miliardi di anni luce e si stima contenga circa 2.000 miliardi di galassie, ognuna con miliardi o trilioni di stelle. Tutto è cominciato circa 13,8 miliardi di anni fa con il Big Bang, evento iniziale teorizzato negli anni 1920 dal sacerdote belga Georges Lemaître e confermato dalla scoperta della radiazione cosmica di fondo da parte di Penzias e Wilson nel 1965 (Nobel per la fisica nel 1978). Da allora l'universo si è espanso e continua ad accelerare la sua espansione a causa dell'energia oscura, una forza misteriosa che costituisce circa il 68% del cosmo. La materia oscura, altra entità sconosciuta, rappresenta il 27%, mentre la materia ordinaria che vediamo non supera il 5%. L'esplorazione spaziale moderna è iniziata il 4 ottobre 1957 con lo Sputnik sovietico, è culminata con l'allunaggio dell'Apollo 11 nel 1969, e oggi vive una nuova età dell'oro grazie a SpaceX, Blue Origin, Roscosmos, ESA, NASA e CNSA cinese. L'ISS orbita a 408 km dal suolo, abitata dal 2000. Su moomz i sondaggi 'team Marte vs team Luna' o 'vorresti essere astronauta?' generano sempre tanto entusiasmo, soprattutto tra i giovani che hanno scoperto lo spazio con Interstellar e SpaceX.",
+    "sections": [
+      {
+        "h": "Dal Big Bang alle galassie attuali",
+        "body": "L'universo è nato 13,8 miliardi di anni fa con il Big Bang, un'espansione rapidissima da uno stato di densità ed energia estreme. Nei primi tre minuti si formarono i nuclei di idrogeno, deuterio ed elio. Dopo 380.000 anni l'universo si raffreddò abbastanza da permettere agli elettroni di legarsi ai nuclei creando i primi atomi, e da quel momento la luce poté viaggiare liberamente: è la radiazione cosmica di fondo a 2,725 K che rileviamo ancora oggi. Le prime stelle si formarono dopo circa 200 milioni di anni, le prime galassie poco dopo. La nostra Via Lattea, vecchia di 13,6 miliardi di anni, contiene circa 200 miliardi di stelle ed è larga 100.000 anni luce. La galassia più vicina di dimensioni paragonabili è Andromeda, a 2,5 milioni di anni luce, e collisionerà con la Via Lattea tra circa 4 miliardi di anni formando Milkomeda."
+      },
+      {
+        "h": "L'esplorazione spaziale ieri e oggi",
+        "body": "Il 4 ottobre 1957 l'URSS lanciò lo Sputnik 1, primo satellite artificiale. Yuri Gagarin fu il primo uomo nello spazio il 12 aprile 1961. La corsa allo spazio culminò il 20 luglio 1969 con Neil Armstrong sulla Luna. Tra il 1969 e il 1972 dodici astronauti calpestarono la superficie lunare. Le sonde Voyager 1 e 2, lanciate nel 1977, hanno attraversato l'eliopausa entrando nello spazio interstellare nel 2012 e 2018. Il telescopio Hubble (1990) e il James Webb (lanciato il 25 dicembre 2021) hanno rivoluzionato l'astronomia. Marte è esplorato dai rover Curiosity (dal 2012) e Perseverance (dal 2021). SpaceX di Elon Musk ha ridotto drasticamente i costi di lancio dal 2010 con i razzi riutilizzabili Falcon 9 e mira a colonizzare Marte con Starship. L'astronauta italiano Samantha Cristoforetti ha trascorso oltre 370 giorni nello spazio in due missioni ed è stata comandante dell'ISS nel 2022."
+      },
+      {
+        "h": "Spazio nella cultura pop italiana e mondiale",
+        "body": "Lo spazio è una miniera inesauribile per cinema, letteratura e gaming. Da '2001 Odissea nello spazio' di Stanley Kubrick del 1968, capolavoro assoluto, a 'Star Wars' di George Lucas del 1977 che ha ridefinito la fantascienza pop. 'Interstellar' di Christopher Nolan (2014) ha portato i buchi neri al grande pubblico. La saga 'Alien' di Ridley Scott, 'Gravity' di Cuarón, 'The Martian' di Ridley Scott. In Italia Gianni Rodari scriveva poesie sui pianeti per bambini, e Margherita Hack è stata l'astrofisica più amata dal grande pubblico. Roberto Vecchioni ha cantato 'Luci a San Siro' parlando di stelle metafora. Anche i videogiochi: Mass Effect, No Man's Sky con i suoi 18 quintilioni di pianeti generati proceduralmente, Elite Dangerous. Su moomz i sondaggi 'team Star Wars vs team Star Trek' o 'andresti su Marte in sola andata?' dividono sempre i feed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanto è grande l'universo?",
+        "a": "L'universo osservabile ha un diametro di circa 93 miliardi di anni luce, ovvero la distanza percorsa dalla luce in 93 miliardi di anni terrestri. Ma è solo la parte che possiamo vedere: l'universo totale è probabilmente molto più grande, forse infinito. Contiene circa 2.000 miliardi di galassie e un numero stimato di 10 alla 24 stelle, più dei granelli di sabbia su tutte le spiagge della Terra. L'espansione cosmica continua ad accelerare, e tra un trilione di anni galassie lontane saranno invisibili anche con i migliori telescopi."
+      },
+      {
+        "q": "Si può sentire un suono nello spazio?",
+        "a": "No, lo spazio è praticamente vuoto e i suoni hanno bisogno di un mezzo materiale (aria, acqua, solido) per propagarsi. Le onde sonore non si trasmettono nel vuoto. Quello che spesso chiamiamo 'suoni spaziali' sono in realtà onde radio convertite in suono artificialmente, come le frequenze del campo magnetico di Giove o le pulsar registrate dalle radio osservatori. Nei film 'Star Wars' o 'Star Trek' le esplosioni rumorose sono pura licenza poetica. 'Gravity' del 2013 cercò di rispettare meglio il silenzio cosmico realistico."
+      },
+      {
+        "q": "Quanto tempo ci vuole per andare su Marte?",
+        "a": "Con la tecnologia attuale ci vogliono tra 7 e 9 mesi per raggiungere Marte, a seconda della finestra di lancio ottimale che si presenta ogni 26 mesi circa, quando i due pianeti sono allineati favorevolmente. Una missione completa con permanenza richiederebbe circa due anni e mezzo. Elon Musk e SpaceX puntano a missioni con equipaggio entro il 2030, anche se è considerato molto ottimistico. La NASA punta al 2040 circa. Le sfide sono enormi: radiazioni cosmiche, supporto vitale, atterraggio su atmosfera sottile, polvere marziana tossica e il ritorno."
+      },
+      {
+        "q": "Che cos'è un buco nero?",
+        "a": "Un buco nero è una regione dello spaziotempo dove la gravità è così intensa che nemmeno la luce può sfuggire. Si forma quando una stella massiccia, almeno 20-25 volte la massa del Sole, collassa alla fine della sua vita. Il bordo da cui niente può tornare indietro si chiama orizzonte degli eventi. Il primo buco nero mai fotografato direttamente è stato M87* nel 2019 dal progetto Event Horizon Telescope. Sgr A*, il buco nero supermassiccio al centro della nostra galassia, ha 4 milioni di masse solari ed è stato fotografato nel 2022. Stephen Hawking ha teorizzato che i buchi neri evaporano lentamente emettendo radiazione."
+      }
+    ],
+    "related": ["sole", "luna", "stella", "pianeta", "terra"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stella",
+    "locale": "it",
+    "keyword": "Stella",
+    "matchPatterns": ["stella", "stelle", "stellato", "stellare", "nebulosa", "costellazione"],
+    "topic": "sciences",
+    "title": "Stelle — nascita, morte e poesia di luci nel cielo",
+    "description": "Tutto sulle stelle: nane gialle, giganti rosse, supernove, costellazioni e il fascino di alzare gli occhi al cielo da Galileo a oggi.",
+    "emoji": "⭐",
+    "intro": "Le stelle sono sfere giganti di plasma tenute insieme dalla propria gravità, in cui avvengono le reazioni di fusione nucleare che illuminano l'universo. La sola Via Lattea ne contiene circa 200 miliardi e l'universo osservabile probabilmente ne ospita 10 alla 24, un numero così enorme che supera quello dei granelli di sabbia di tutte le spiagge terrestri. Le stelle si formano dal collasso gravitazionale di nubi molecolari di gas (soprattutto idrogeno) e polvere. Quando il nucleo raggiunge i 10 milioni di gradi la fusione si accende e nasce una stella. La classificazione di Harvard, ideata all'inizio del Novecento da Annie Jump Cannon e Williamina Fleming, le divide in classi spettrali OBAFGKM (memorizzata dagli astronomi anglofoni con la frase 'Oh Be A Fine Girl/Guy Kiss Me'). Il nostro Sole è una G2V, gialla, tiepida e modesta. Le stelle più calde di tipo O sono blu e bruciano l'idrogeno in pochi milioni di anni, mentre le nane rosse di tipo M possono vivere mille miliardi di anni. Su moomz i sondaggi 'sei più team mare stellato vs team aurora boreale?' o 'qual è la tua costellazione preferita' fanno emergere il lato romantico, sognatore e quasi infantile degli utenti.",
+    "sections": [
+      {
+        "h": "Vita e morte delle stelle",
+        "body": "Una stella nasce in una nube molecolare gigante, vive per milioni o miliardi di anni fondendo idrogeno in elio nel suo nucleo, poi muore in modi diversi a seconda della massa. Stelle simili al Sole, terminato l'idrogeno, si gonfiano in giganti rosse, espellono gli strati esterni formando nebulose planetarie, e il nucleo collassa in una nana bianca grande come la Terra ma con densità di tonnellate al centimetro cubo. Le stelle massicce (oltre 8 masse solari) muoiono spettacolarmente in supernova, esplodendo con luminosità pari a un'intera galassia per settimane. Lasciano dietro una stella di neutroni (un cucchiaino pesa miliardi di tonnellate) o un buco nero. La supernova del 1054 vista in Cina con un'esplosione visibile di giorno per 23 giorni lasciò la Nebulosa del Granchio. Tutti gli elementi pesanti del corpo umano, ferro nel sangue, calcio nelle ossa, sono nati in stelle morenti."
+      },
+      {
+        "h": "Costellazioni e mitologia stellata",
+        "body": "Le costellazioni sono pattern di stelle che gli antichi hanno raggruppato in figure mitologiche. L'Unione Astronomica Internazionale ne riconosce ufficialmente 88. Le più famose: Orione con la cintura delle tre stelle, l'Orsa Maggiore con il Grande Carro, Cassiopea a forma di W, le Pleiadi con il loro ammasso aperto facilmente visibile a occhio nudo. I segni zodiacali sono 12 costellazioni lungo l'eclittica. La stella polare attuale è Polaris nell'Orsa Minore, ma a causa della precessione degli equinozi cambierà nei millenni: tra 12.000 anni la stella polare sarà Vega. Sirius, nella costellazione del Cane Maggiore, è la stella più luminosa del cielo notturno e dista 8,6 anni luce. Gli antichi egizi sincronizzavano il calendario con il sorgere di Sirio che coincideva con la piena del Nilo. Dante nella Divina Commedia conclude ogni cantica con la parola 'stelle'."
+      },
+      {
+        "h": "Osservare le stelle in Italia",
+        "body": "Italia è ricca di luoghi spettacolari per osservare le stelle. Le Dolomiti, l'Etna, la Sardegna interna, le Alpi orientali, l'Aspromonte, l'Abruzzo, la Toscana del sud, soprattutto la Val d'Orcia e l'Argentario. Il parco del Pollino tra Calabria e Basilicata è una delle zone meno inquinate luminosamente d'Europa. L'osservatorio di Asiago in Veneto, dell'Università di Padova, è uno dei più importanti. L'Italia ha grandi astronomi storici: Galileo Galilei a Padova fu il primo a puntare un telescopio verso il cielo nel 1609 scoprendo le lune di Giove e le fasi di Venere, mentre Margherita Hack ha divulgato l'astrofisica in modo accessibile per cinquant'anni. App come Stellarium, SkySafari o Star Walk rendono l'osservazione facile anche al neofita. Le notti di Perseidi attorno al 10-13 agosto, le 'lacrime di San Lorenzo', sono un appuntamento popolare imperdibile."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché le stelle brillano e tremolano?",
+        "a": "Le stelle producono luce grazie alla fusione nucleare nei loro nuclei, dove idrogeno si trasforma in elio liberando enorme energia. Il tremolio (scintillazione o twinkling) che vediamo a occhio nudo non è proprio della stella, ma dell'atmosfera terrestre: gli strati d'aria a temperature diverse rifrangono la luce in modo variabile, facendola apparire tremolante. I pianeti come Venere o Giove tremolano meno perché appaiono come piccoli dischi e non come punti. È uno dei modi semplici per distinguere un pianeta da una stella nel cielo notturno."
+      },
+      {
+        "q": "Qual è la stella più vicina alla Terra dopo il Sole?",
+        "a": "Proxima Centauri, una nana rossa nel sistema di Alpha Centauri, dista 4,24 anni luce dalla Terra. Il sistema Alpha Centauri è triplo (Alpha Centauri A, B e Proxima). Nel 2016 è stato scoperto un esopianeta, Proxima b, nella zona abitabile di Proxima Centauri, anche se le forti emissioni di brillamenti della nana rossa rendono improbabile vita complessa. Il progetto Breakthrough Starshot punta a inviare nanoprobes a 20% della velocità della luce per raggiungerlo in 20 anni. Sirius, la stella più brillante, è la quinta più vicina a 8,6 anni luce."
+      },
+      {
+        "q": "Si possono vedere le stelle di giorno?",
+        "a": "No, durante il giorno il cielo è troppo luminoso a causa della diffusione della luce solare nell'atmosfera (diffusione di Rayleigh, che dà il colore blu). Le stelle restano lì ma sono completamente sovrastate dalla luminosità solare. Tuttavia, in condizioni eccezionali come da pozzi profondi o dall'alta montagna in condizioni atmosferiche speciali, è possibile vedere alcune stelle luminose. Gli astronauti nello spazio vedono le stelle di giorno perché lì non c'è atmosfera diffusa. Durante un'eclissi solare totale appaiono le stelle e i pianeti più luminosi attorno al disco oscurato."
+      },
+      {
+        "q": "Cosa sono le stelle cadenti?",
+        "a": "Le 'stelle cadenti' non sono stelle ma meteore: piccoli detriti di polvere e roccia (la maggior parte non più grandi di un sasso) che entrano nell'atmosfera terrestre a velocità tra 11 e 72 km/s e bruciano per attrito creando una scia luminosa. Quando la Terra attraversa la scia di una cometa si vedono sciami di meteore: le Perseidi attorno al 12 agosto (cometa Swift-Tuttle), le Leonidi a novembre (cometa Tempel-Tuttle), le Geminidi a dicembre. In Italia le notti di San Lorenzo sono il momento più popolare per esprimere desideri."
+      }
+    ],
+    "related": ["sole", "luna", "spazio", "pianeta", "amore"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pianeta",
+    "locale": "it",
+    "keyword": "Pianeta",
+    "matchPatterns": ["pianeta", "pianeti", "marte", "venere", "giove", "saturno"],
+    "topic": "sciences",
+    "title": "Pianeta — i mondi del sistema solare ed esopianeti",
+    "description": "Otto pianeti del sistema solare più 5.500 esopianeti scoperti. Da Mercurio a Nettuno e oltre, l'avventura della scoperta dei mondi.",
+    "emoji": "🪐",
+    "intro": "Un pianeta è un corpo celeste che orbita attorno a una stella, è massiccio abbastanza da assumere una forma sferica per la propria gravità e ha pulito la propria orbita da altri detriti di dimensioni comparabili. Questa definizione è stata adottata dall'Unione Astronomica Internazionale a Praga nel 2006 e ha portato alla declassificazione di Plutone a pianeta nano, decisione che ha generato polemiche tra appassionati e nostalgici. Il sistema solare conta oggi 8 pianeti ufficiali: Mercurio, Venere, Terra, Marte (i 4 rocciosi o terrestri) e Giove, Saturno, Urano, Nettuno (i 4 giganti gassosi o ghiacciati). Plutone, Eris, Haumea, Makemake e Cerere sono pianeti nani. Oltre il nostro sistema solare, abbiamo confermato oltre 5.500 esopianeti, scoperti soprattutto dal telescopio Kepler della NASA dal 2009 al 2018 e oggi dal TESS e dal James Webb. Si stima che ogni stella della galassia abbia in media almeno un pianeta, dunque la Via Lattea conta centinaia di miliardi di mondi. Su moomz i sondaggi 'team Marte vs team Saturno' o 'su quale pianeta vivresti?' generano sempre tante reazioni, soprattutto in chi sogna di esplorare l'universo dopo aver guardato Interstellar o The Martian.",
+    "sections": [
+      {
+        "h": "I pianeti del sistema solare",
+        "body": "Mercurio, il più piccolo e vicino al Sole, ha temperature che oscillano tra -180 °C e 430 °C. Venere, simile alla Terra per dimensioni, ha un'atmosfera di CO2 densa che crea un effetto serra estremo: 465 °C in superficie, il pianeta più caldo del sistema solare. La Terra, l'unico finora confermato con vita. Marte, il pianeta rosso colorato dall'ossido di ferro, ha avuto acqua liquida in passato e oggi è il target principale dell'esplorazione umana. Giove, il gigante con la sua Grande Macchia Rossa, una tempesta più grande della Terra che dura da almeno 350 anni. Saturno, celebre per i suoi anelli di ghiaccio e roccia che si estendono fino a 282.000 km dal pianeta. Urano, ruota di lato con un asse inclinato di 98°. Nettuno, scoperto matematicamente nel 1846 prima ancora di essere osservato, ha venti di 2.100 km/h, i più veloci del sistema solare. Plutone, declassato nel 2006, è stato visitato dalla sonda New Horizons nel luglio 2015."
+      },
+      {
+        "h": "Marte: ossessione moderna",
+        "body": "Marte è il pianeta più studiato dopo la Terra. Conosciuto fin dall'antichità per il suo colore rosso che gli è valso il nome del dio romano della guerra, è stato visitato da decine di sonde. Gli astronauti non vi hanno ancora messo piede, ma rover come Spirit, Opportunity, Curiosity (dal 2012) e Perseverance (dal 2021) hanno fotografato la superficie in altissima definizione. Nel 2021 l'elicottero Ingenuity ha volato per la prima volta su un altro pianeta. SpaceX punta alla colonizzazione con Starship; Elon Musk parla di un milione di umani su Marte entro il 2050 (ottimismo industriale, ma il calendario si sposta). NASA punta agli anni 2040 per missioni con equipaggio. Le sfide sono enormi: radiazioni cosmiche, atmosfera sottile (1% di quella terrestre), -63 °C di media, tempeste di polvere che durano mesi. Ma se Marte avesse vita microbica passata, sarebbe la più grande scoperta della storia umana."
+      },
+      {
+        "h": "Esopianeti e ricerca di vita",
+        "body": "Il primo esopianeta confermato attorno a una stella simile al Sole è stato 51 Pegasi b nel 1995, scoperta che valse il Nobel per la fisica a Michel Mayor e Didier Queloz nel 2019. Da allora abbiamo confermato oltre 5.500 esopianeti, e migliaia in attesa di conferma. Esistono mondi di ogni tipo: Hot Jupiter, Super-Earth, mondi oceanici, mondi ghiacciati, mondi lavici. TRAPPIST-1, scoperto nel 2017 a 40 anni luce, ha 7 pianeti rocciosi, di cui 3 nella zona abitabile. Il James Webb (JWST) analizza le atmosfere degli esopianeti per cercare biosignatures: ossigeno, metano, vapore acqueo. K2-18 b ha rivelato indizi di possibile vita microbica oceanica nel 2023, anche se gli scienziati restano molto cauti. La domanda 'siamo soli nell'universo' è la più grande della scienza moderna, e probabilmente la risponderemo nei prossimi 20-50 anni con telescopi sempre più potenti."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché Plutone non è più un pianeta?",
+        "a": "Nel 2006 l'Unione Astronomica Internazionale ha ridefinito 'pianeta' richiedendo tre condizioni: orbitare attorno al Sole, essere sferico per gravità, aver ripulito la propria orbita. Plutone fallisce la terza condizione, condividendo l'orbita con molti altri oggetti della fascia di Kuiper. È stato quindi declassato a 'pianeta nano' insieme a Cerere, Eris, Haumea e Makemake. Molti astronomi e appassionati continuano a considerarlo emotivamente un pianeta. La sonda New Horizons l'ha sorvolato nel luglio 2015, rivelando un mondo geologicamente attivo con montagne di ghiaccio d'acqua e ghiacciai d'azoto."
+      },
+      {
+        "q": "Quale pianeta è il più vicino alla Terra?",
+        "a": "In media è Mercurio, contrariamente a quanto si pensa comunemente. Studi pubblicati nel 2019 hanno mostrato che a causa delle orbite ellittiche, Mercurio è in media il pianeta più vicino alla Terra. Quando ci si avvicina di più, Venere arriva fino a 38 milioni di km, mentre Mercurio fino a 77 milioni di km. Ma poiché Venere passa anche dalla parte opposta del Sole, in media Mercurio è il più vicino a tutti i pianeti, Terra inclusa. Marte invece, al passaggio più vicino, dista circa 55 milioni di km."
+      },
+      {
+        "q": "Si può vedere Giove a occhio nudo?",
+        "a": "Sì, Giove è facilmente visibile a occhio nudo come una stella molto brillante (più di tutte tranne Venere). Con un piccolo binocolo si vedono le sue 4 lune più grandi (Io, Europa, Ganimede, Callisto) scoperte da Galileo nel 1610 e visibili come puntini luminosi che cambiano posizione di notte in notte. Con un telescopio amatoriale si vedono le bande nuvolose colorate e la Grande Macchia Rossa. Saturno con i suoi anelli è uno spettacolo da telescopio anche modesto. Marte appare come una stella rossastra. App come SkySafari o Stellarium indicano in tempo reale dove si trovano nel cielo."
+      },
+      {
+        "q": "Esistono pianeti abitabili oltre la Terra?",
+        "a": "Abbiamo scoperto oltre 60 esopianeti nella zona abitabile della loro stella, dove l'acqua liquida potrebbe esistere. Tra i più promettenti: Proxima Centauri b (4,24 anni luce), TRAPPIST-1e ed f (40 anni luce), K2-18 b (124 anni luce, possibili indizi di vita microbica). Ma 'zona abitabile' non significa abitabile: serve atmosfera adeguata, campo magnetico, acqua liquida confermata, stabilità climatica. Nel sistema solare, oltre alla Terra, Marte (vita passata), Europa (oceano sotto la crosta ghiacciata), Encelado, Titano e forse Venere (atmosfera alta) sono i candidati più interessanti per cercare vita extraterrestre."
+      }
+    ],
+    "related": ["sole", "luna", "spazio", "stella", "terra"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "terra",
+    "locale": "it",
+    "keyword": "Terra",
+    "matchPatterns": ["terra", "pianeta terra", "mondo", "globo", "natura", "ecosistema"],
+    "topic": "sciences",
+    "title": "Terra — il pianeta blu, l'unico mondo che conosciamo con vita",
+    "description": "4,5 miliardi di anni di storia, 8 miliardi di umani, 8,7 milioni di specie viventi. Tutto sulla Terra, il pianeta più sorprendente che esista.",
+    "emoji": "🌍",
+    "intro": "La Terra è il terzo pianeta del sistema solare, l'unico finora confermato con vita, e l'unico ad avere il privilegio assurdo di ospitare 8 miliardi di esseri umani che ti scrollano TikTok mentre leggi questa frase. Nato circa 4,54 miliardi di anni fa dalla nebulosa solare, il nostro pianeta è la culla di tutta la vita conosciuta nell'universo. Ha un diametro di 12.742 km, una massa di 5,97 per 10 alla 24 chilogrammi, e ruota su se stessa in 23 ore 56 minuti e 4 secondi (il giorno siderale; il giorno solare è di 24 ore esatte). Si trova a 149,6 milioni di km dal Sole, perfettamente nella zona abitabile dove l'acqua può esistere allo stato liquido. La sua atmosfera contiene 78% azoto, 21% ossigeno e 1% altri gas tra cui l'1% di argon e tracce di CO2 (attualmente 420 ppm, salita drammatica dai 280 ppm preindustriali). Il campo magnetico generato dal nucleo di ferro fuso ci protegge dalle radiazioni solari. La Terra ospita circa 8,7 milioni di specie viventi conosciute, ma la cifra reale è stimata fino a 100 milioni considerando microrganismi non catalogati. Su moomz i sondaggi 'team città vs team natura' o 'quale paese vorresti visitare' rivelano sempre quanto la generazione attuale sia divisa tra urbanità e sogno selvaggio.",
+    "sections": [
+      {
+        "h": "Geologia e struttura della Terra",
+        "body": "La Terra è composta da quattro strati principali: la crosta (rocciosa, sottile, da 5 km sotto gli oceani a 70 km sotto le montagne), il mantello (roccia silicatica plastica, spesso 2.900 km), il nucleo esterno (ferro e nichel fusi che generano il campo magnetico) e il nucleo interno (ferro solido a 5.400 °C, denso come l'oro). La tettonica a placche, teoria confermata negli anni 1960, spiega che la crosta è divisa in placche che si muovono di pochi cm all'anno causando terremoti, vulcanismi e formazione di montagne. L'Italia si trova all'incontro tra la placca africana e quella euroasiatica, motivo per cui ha vulcani attivi (Etna, Stromboli, Vesuvio, Vulcano) e zone sismiche importanti (L'Aquila, Amatrice, Friuli, Campania). Il Monte Bianco cresce di alcuni mm all'anno mentre l'Adriatico si sta lentamente chiudendo."
+      },
+      {
+        "h": "L'origine della vita",
+        "body": "Le prime tracce di vita risalgono a circa 3,5 miliardi di anni fa con cianobatteri che dominarono gli oceani per oltre due miliardi di anni. Furono questi microorganismi a produrre l'ossigeno atmosferico nella 'Grande Ossigenazione' di 2,4 miliardi di anni fa, evento che cambiò per sempre la Terra. Vita complessa: il Cambriano (541 milioni di anni fa) vide un'esplosione di biodiversità marina, poi colonizzazione delle terre emerse 470 milioni di anni fa con muschi e licheni. I dinosauri dominarono per 165 milioni di anni fino all'estinzione di massa di 66 milioni di anni fa causata dall'impatto di un asteroide di 10 km nello Yucatán messicano (cratere di Chicxulub). I mammiferi presero il sopravvento, e Homo sapiens emerge in Africa circa 300.000 anni fa. Da allora, ci siamo diffusi su tutti i continenti, sviluppato agricoltura 10.000 anni fa, civiltà urbane 6.000 anni fa, e siamo arrivati nello spazio nel 1961."
+      },
+      {
+        "h": "Crisi climatica e futuro",
+        "body": "Il cambiamento climatico antropogenico è la sfida più urgente del XXI secolo. La temperatura media globale è salita di 1,2 °C rispetto all'era preindustriale, e l'Accordo di Parigi del 2015 punta a contenerla sotto 1,5 °C, soglia che probabilmente supereremo. Gli effetti: scioglimento dei ghiacciai (in Italia il ghiacciaio della Marmolada perde superficie ogni anno, la Vedretta dei Sassolungi è scomparsa), eventi estremi (ondate di calore record in Sicilia e Sardegna nell'estate 2021 con 48,8 °C a Floridia in provincia di Siracusa, record europeo), siccità prolungate, alluvioni come quella dell'Emilia-Romagna del maggio 2023. L'Italia ha circa 380.000 frane attive e oltre 7 milioni di persone vivono in aree a rischio idrogeologico. La biodiversità è in collasso: si stima che siamo nella sesta estinzione di massa. Su moomz i sondaggi su clima e ambiente raccolgono migliaia di voti, soprattutto tra gli under 25."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanto è vecchia la Terra?",
+        "a": "La Terra ha circa 4,54 miliardi di anni, cifra stabilita con grande precisione nel 1956 dal geologo Clair Patterson misurando il decadimento radioattivo dell'uranio in piombo in meteoriti e rocce terrestri antichissime come quelle dell'Australia occidentale. Si è formata insieme al resto del sistema solare per accrescimento gradualmente di polvere e gas attorno al giovane Sole. I primi 500 milioni di anni furono brutali: l'Eone Adeano vide impatti continui di asteroidi e la formazione della Luna per impatto gigante. La crosta solida si formò probabilmente entro 100-150 milioni di anni dalla formazione del pianeta."
+      },
+      {
+        "q": "Perché la Terra è chiamata pianeta blu?",
+        "a": "Perché il 71% della sua superficie è coperto da acqua, principalmente oceani, e dallo spazio il pianeta appare di un blu intenso, intervallato da bianco delle nuvole e dei poli e dal verde-marrone dei continenti. La foto 'Blue Marble' scattata dall'Apollo 17 il 7 dicembre 1972 a 45.000 km dalla Terra è diventata iconica e ha contribuito alla coscienza ambientale moderna. L'astronauta Carl Sagan ha riflettuto sulla 'pallida puntino azzurra' fotografata dal Voyager 1 nel 1990 a 6 miliardi di km, immagine commovente di quanto siamo piccoli."
+      },
+      {
+        "q": "Quante specie viventi ci sono sulla Terra?",
+        "a": "Sono circa 8,7 milioni di specie scientificamente conosciute, ma la cifra reale è stimata tra 10 e 100 milioni includendo microorganismi non catalogati nel suolo, negli oceani profondi e nelle giungle inesplorate. Ogni anno gli scienziati descrivono circa 18.000 nuove specie. Si stima però che stiamo perdendo specie da 100 a 1.000 volte più velocemente del tasso naturale a causa dell'attività umana: deforestazione, agricoltura intensiva, inquinamento, cambiamento climatico, caccia. L'85% delle specie esistite nella storia della Terra sono ormai estinte attraverso 5 grandi estinzioni di massa."
+      },
+      {
+        "q": "Cosa succederà alla Terra in futuro?",
+        "a": "A breve termine il cambiamento climatico è la sfida principale: temperatura in aumento, biodiversità in calo, eventi estremi più frequenti. A medio termine (50.000-100.000 anni) potrebbe arrivare una nuova era glaciale ciclica. A lungo termine (500 milioni di anni) il Sole brillerà di più, l'acqua evaporerà definitivamente e la vita complessa scomparirà. Tra 5 miliardi di anni il Sole diventerà gigante rossa e probabilmente inghiottirà la Terra. Ma niente di questo è impedito da una possibile colonizzazione di altri pianeti, se l'umanità sopravvive a se stessa e raggiunge altri sistemi stellari nel prossimo millennio."
+      }
+    ],
+    "related": ["sole", "luna", "spazio", "mare", "estate"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "acqua",
+    "locale": "it",
+    "keyword": "Acqua",
+    "matchPatterns": ["acqua", "h2o", "idrico", "dissetare", "potabile", "sorgente"],
+    "topic": "sciences",
+    "title": "Acqua — la molecola che ha reso possibile la vita",
+    "description": "H2O: 71% della Terra, 60% del corpo umano. Dal ciclo dell'acqua alle crisi idriche, viaggio nella molecola più importante del pianeta.",
+    "emoji": "💧",
+    "intro": "L'acqua è la molecola più importante della Terra. Senza di lei nessuna forma di vita esisterebbe come la conosciamo, e probabilmente nessuna forma di vita complessa potrebbe esistere altrove nell'universo, secondo le ipotesi scientifiche attuali. La formula chimica H2O, due atomi di idrogeno legati a uno di ossigeno, è probabilmente la più famosa della scienza. L'acqua copre il 71% della superficie terrestre, costituisce circa il 60% del corpo umano adulto (75% nei neonati), e mediamente un essere umano ha bisogno di 1,5-2 litri al giorno per restare in salute (cifra dipende da clima, attività e dimensione). L'acqua è anche una sostanza eccezionalmente strana dal punto di vista fisico: si espande quando ghiaccia (per cui il ghiaccio galleggia, mentre la maggior parte dei liquidi solidi affondano nel proprio liquido), ha un altissimo calore specifico (motivo per cui gli oceani moderano il clima), e dissolve quasi tutte le sostanze ioniche (è il 'solvente universale'). Su moomz i sondaggi 'team frizzante vs team naturale' o 'acqua del rubinetto o in bottiglia' generano sempre dibattiti tipicamente italiani: il paese consuma 220 litri di acqua minerale pro capite l'anno, il primato europeo.",
+    "sections": [
+      {
+        "h": "Il ciclo dell'acqua",
+        "body": "L'acqua sul pianeta segue un ciclo continuo guidato dall'energia solare. Evaporazione: il Sole fa evaporare l'acqua dagli oceani (che forniscono il 90% dell'acqua atmosferica), dai laghi e dai fiumi. Traspirazione: le piante rilasciano vapore acqueo attraverso le foglie. Condensazione: il vapore sale, si raffredda e forma nuvole. Precipitazione: pioggia, neve, grandine cadono al suolo. Deflusso: l'acqua scorre verso fiumi e mari. Infiltrazione: una parte penetra nel suolo formando falde acquifere. L'acqua dolce è solo il 2,5% del totale terrestre, di cui il 68% intrappolato in ghiacci e ghiacciai (in calo allarmante), il 30% in falde sotterranee, e solo lo 0,3% in fiumi e laghi accessibili. Il ciclo è in via di alterazione: le aree umide diventano più umide, le aree secche più secche, e gli eventi estremi (alluvioni, siccità) sono in aumento documentato dovuto al cambiamento climatico antropogenico."
+      },
+      {
+        "h": "Acqua nel corpo umano e nutrizione",
+        "body": "Il corpo umano è circa 60% acqua negli adulti, con variazioni importanti: 75% nei neonati, 50% negli anziani, più nelle persone magre che in quelle obese (il grasso contiene meno acqua del muscolo). Ogni giorno perdiamo circa 2,5 litri attraverso urina, sudore, respirazione e feci, e dobbiamo reintegrarli con bevande e cibo (frutta e verdura contengono 80-95% di acqua). La disidratazione causa stanchezza, mal di testa, calo cognitivo, e oltre il 10% di perdita può essere fatale. Il famoso 'bere 8 bicchieri al giorno' è un'approssimazione: il fabbisogno reale dipende da peso, attività, clima. In Italia l'acqua del rubinetto è generalmente sicura e controllata, sebbene quella minerale sia preferita per gusto e per tradizione. Il Belpaese ha oltre 250 marche di acqua minerale: San Pellegrino, Ferrarelle, Lete, Acqua Panna, Sant'Anna e mille altre, ciascuna con composizione minerale specifica."
+      },
+      {
+        "h": "Crisi idrica e acqua come bene comune",
+        "body": "L'acqua dolce accessibile è una risorsa scarsa. Circa 2 miliardi di persone nel mondo non hanno accesso ad acqua potabile sicura, e 4 miliardi vivono in zone con scarsità idrica per almeno un mese l'anno. L'agricoltura usa il 70% dell'acqua dolce globale, l'industria il 20% e i consumi domestici il 10%. Crisi storiche: Città del Capo nel 2018 quasi a 'Day Zero', il Lago d'Aral scomparso al 90% per irrigazione del cotone in Asia centrale, lo svuotamento delle falde fossili negli Stati Uniti e in India. In Italia l'estate 2022 è stata la più secca dal 1800, con il Po quasi prosciugato e ondate di siccità che hanno colpito agricoltura e idroelettrico. Le crisi idriche future genereranno conflitti geopolitici: il bacino del Nilo tra Egitto ed Etiopia con la diga GERD, il Tigri-Eufrate tra Turchia, Siria e Iraq. L'acqua è il petrolio del XXI secolo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanta acqua dobbiamo bere al giorno?",
+        "a": "L'European Food Safety Authority raccomanda 2 litri al giorno per le donne e 2,5 litri per gli uomini, includendo l'acqua contenuta negli alimenti (circa il 20-30% del fabbisogno). Il famoso 'bere 8 bicchieri al giorno' è un'approssimazione utile ma non scientifica. Il fabbisogno reale dipende da peso, attività fisica, clima, gravidanza, e patologie eventuali. Un atleta in estate può aver bisogno di 4-5 litri. Segnali di disidratazione: urina scura, sete intensa, mal di testa, stanchezza. Bere troppa acqua è raro ma pericoloso, può causare iponatremia (diluizione del sodio nel sangue)."
+      },
+      {
+        "q": "L'acqua in bottiglia è meglio di quella del rubinetto?",
+        "a": "In Italia generalmente no, dal punto di vista sanitario. L'acqua del rubinetto è controllata più frequentemente e rigorosamente dell'acqua in bottiglia. Studi comparativi hanno mostrato che spesso l'acqua in bottiglia, pur con etichette evocative, è solo acqua di falda imbottigliata. Differenze ci sono in termini di mineralizzazione e gusto: alcune zone come la Liguria o le Marche hanno acqua del rubinetto eccellente, altre come Roma hanno acqua dura più ricca di calcare. L'impatto ambientale dell'acqua in bottiglia è enorme: l'Italia consuma 14 miliardi di bottiglie di plastica l'anno, prima al mondo pro capite. La caraffa filtrante è un buon compromesso."
+      },
+      {
+        "q": "Perché il ghiaccio galleggia?",
+        "a": "Perché l'acqua è una delle rare sostanze il cui solido è meno denso del liquido. A 4 °C l'acqua è alla massima densità, e ghiacciando a 0 °C la struttura cristallina dei legami a idrogeno crea una rete esagonale aperta che occupa più volume del liquido (circa il 9% in più). Risultato: il ghiaccio galleggia. Questa proprietà ha conseguenze enormi per la vita: laghi e mari ghiacciano in superficie ma restano liquidi sotto, permettendo la sopravvivenza di pesci e ecosistemi acquatici durante l'inverno. Senza questa anomalia, i mari potrebbero congelarsi dal fondo e la vita complessa probabilmente non sarebbe esistita sulla Terra."
+      },
+      {
+        "q": "Quanta acqua c'è sulla Terra?",
+        "a": "Sulla Terra ci sono circa 1,386 miliardi di chilometri cubi di acqua, di cui il 97,5% è acqua salata negli oceani. L'acqua dolce è solo il 2,5% del totale, e di questa il 68% è ghiaccio (calotte polari e ghiacciai), il 30% è acqua sotterranea nelle falde, e solo lo 0,3% (circa lo 0,007% del totale) è acqua superficiale accessibile in fiumi e laghi. Quindi l'acqua disponibile per uso umano e ecosistemi è una piccolissima frazione del totale. Ecco perché la gestione sostenibile delle risorse idriche è cruciale, soprattutto in zone come Sicilia, Sardegna e Puglia dove la scarsità si sta accentuando."
+      }
+    ],
+    "related": ["mare", "fuoco", "tempesta", "terra", "estate"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fuoco",
+    "locale": "it",
+    "keyword": "Fuoco",
+    "matchPatterns": ["fuoco", "fiamma", "combustione", "incendio", "ardere", "rogo"],
+    "topic": "sciences",
+    "title": "Fuoco — chimica della combustione e dominio prometeico",
+    "description": "Il fuoco non è materia ma reazione: combustione di ossigeno e combustibile. Dalla scoperta umana ai grandi incendi del XXI secolo.",
+    "emoji": "🔥",
+    "intro": "Il fuoco è una delle scoperte più rivoluzionarie della storia umana, e paradossalmente non è una 'cosa' ma una reazione chimica: la combustione, ovvero l'ossidazione rapida ed esotermica di un combustibile in presenza di ossigeno. Il triangolo del fuoco richiede tre elementi: combustibile, ossigeno (almeno il 16% nell'aria) e una fonte di calore sufficiente a raggiungere la temperatura di accensione. Quando questi tre fattori convergono, la reazione si automantiene rilasciando calore, luce e gas (CO2, vapore acqueo, fuliggine). I primi indizi di uso controllato del fuoco da parte degli ominidi risalgono a 1,5 milioni di anni fa in Africa (Homo erectus), anche se l'evidenza chiara di focolari domestici è più recente, circa 400.000 anni fa. Il fuoco ha cambiato tutto: cottura del cibo (più calorie disponibili, evoluzione del cervello), riscaldamento, protezione dai predatori, illuminazione notturna, metallurgia (bronzo dal 3300 a.C., ferro dal 1200 a.C.), industria, motori a combustione. Su moomz i sondaggi 'team caminetto vs team aria condizionata' o 'preferisci una grigliata o una pizzeria' rivelano un legame ancestrale, quasi atavico, con il fuoco.",
+    "sections": [
+      {
+        "h": "La chimica della combustione",
+        "body": "La combustione è una reazione di ossidoriduzione esotermica. Per esempio, bruciando metano: CH4 + 2 O2 dà CO2 + 2 H2O + energia (circa 890 kJ per mole). I legami chimici si riorganizzano liberando energia sotto forma di calore e luce. La fiamma visibile è gas incandescente: la parte blu interna è a 1.300-1.500 °C, la parte gialla esterna è più fredda (800-1.200 °C) ma luminosa per la fuliggine incandescente. Esistono diverse temperature di accensione: la carta brucia a 233 °C (il famoso titolo del romanzo di Bradbury Fahrenheit 451 equivale a questa soglia), il legno tra 250 e 300 °C, la benzina solo a 247 °C. L'ossigeno puro al posto dell'aria aumenta drammaticamente la temperatura e la velocità della combustione, motivo per cui i razzi spaziali usano LOX (ossigeno liquido) come ossidante. Senza ossigeno, la combustione si ferma: ecco perché soffocare un fuoco con sabbia o coperta lo spegne."
+      },
+      {
+        "h": "Il fuoco nella storia umana",
+        "body": "Il controllo del fuoco è probabilmente la più grande svolta tecnologica della preistoria. Charles Darwin lo definì 'la più grande scoperta mai fatta dall'uomo, escluso il linguaggio'. Cucinare il cibo ha permesso di assorbire più calorie con meno sforzo, alimentando l'evoluzione di un cervello energivoro. Il fuoco ha permesso di colonizzare climi freddi, fondere metalli (rivoluzione del bronzo e poi del ferro), cuocere ceramica, illuminare la notte, allungare la giornata produttiva. Nella mitologia greca Prometeo ruba il fuoco agli dei per donarlo agli umani, e Zeus lo punisce incatenandolo al Caucaso. Vesta a Roma, Agni in India, Loki in Scandinavia: ogni civiltà ha divinità del fuoco. L'Olimpico, le veglie funebri, i falò di mezza estate, le candele alle ricorrenze: il fuoco è inseparabile dal sacro. In Italia il fuoco è anche cucina: la pizza nel forno a legna, la grigliata in famiglia, il braciere d'inverno."
+      },
+      {
+        "h": "Incendi e crisi climatica",
+        "body": "Gli incendi boschivi sono sempre esistiti come parte del ciclo ecologico naturale, ma il cambiamento climatico li sta amplificando drammaticamente. Le 'megafiamme' (mega-incendi che bruciano oltre 40.000 ettari) sono in aumento ovunque: Australia 2019-2020 (oltre 18 milioni di ettari bruciati, miliardi di animali morti), California in modo cronico negli ultimi 10 anni, Siberia, Amazzonia in fiamme dal 2019, Canada nell'estate 2023 con record assoluti di 18 milioni di ettari. In Italia gli incendi estivi colpiscono ogni anno la Sardegna, la Sicilia, la Calabria, l'Aspromonte. L'estate 2017 ha visto oltre 160.000 ettari bruciati in Italia. Cause: 60% dolose o colpose (incuria, mozziconi, fuochi non spenti), 30% naturali (fulmini), 10% sconosciute. Il cambiamento climatico aumenta temperatura, siccità e vento, creando condizioni 'fire weather' più frequenti. Le foreste mediterranee sono particolarmente vulnerabili."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quando l'uomo ha scoperto il fuoco?",
+        "a": "I primi indizi di uso del fuoco da parte degli ominidi risalgono a circa 1,5 milioni di anni fa in Africa, dove Homo erectus avrebbe già controllato il fuoco. Le evidenze chiare di focolari domestici sono più recenti: circa 400.000-790.000 anni fa nella grotta di Gesher Benot Ya'aqov in Israele. Si presume che inizialmente l'uomo abbia catturato il fuoco da incendi naturali, e solo successivamente abbia imparato a produrlo per attrito o per percussione (acciarino con pirite). Cucinare i cibi è stato probabilmente il fattore decisivo per l'evoluzione del cervello umano negli ultimi 800.000 anni, ipotesi sostenuta dall'antropologo Richard Wrangham."
+      },
+      {
+        "q": "Perché la fiamma è di colore diverso?",
+        "a": "Il colore della fiamma dipende dalla temperatura e dalla composizione chimica del combustibile. Una fiamma giallo-arancione (cucina, camino) è relativamente fredda, 800-1.200 °C, e brilla per la fuliggine incandescente. Una fiamma blu è più calda (1.300-1.500 °C come quella del fornello a gas) e più efficiente, con combustione completa. I metalli colorano la fiamma in modo caratteristico: il rame dà verde, il sodio giallo intenso (come i lampioni stradali), il potassio violetto, il litio rosso. Questa proprietà si chiama test della fiamma ed è usata in chimica analitica e nei fuochi d'artificio."
+      },
+      {
+        "q": "Come si spegne un incendio?",
+        "a": "Eliminando uno dei tre lati del triangolo del fuoco: combustibile, ossigeno o calore. L'acqua agisce raffreddando e creando vapore che soffoca l'ossigeno, è il metodo più comune. La schiuma copre la superficie tagliando l'ossigeno (efficace su benzina e oli). La sabbia e gli estintori a polvere fanno lo stesso. CO2 sostituisce l'ossigeno ma non lascia residui (usato per impianti elettrici). Mai usare acqua su un incendio di olio in cucina (esplode), né su impianti elettrici (rischio elettrocuzione). Per incendi boschivi si creano viali tagliafuoco, si usano elicotteri con secchio e canadair che caricano acqua dal mare o da laghi."
+      },
+      {
+        "q": "Perché il fuoco è simbolico in molte culture?",
+        "a": "Il fuoco rappresenta trasformazione, purificazione, vita e distruzione simultaneamente. Per i greci, Prometeo lo ruba agli dei (mito fondante della civiltà). In India Agni è il dio del fuoco sacrificale. Per gli zoroastriani il fuoco sacro brucia nei templi da migliaia di anni senza spegnersi. La fiamma olimpica viaggia in tutto il mondo prima di accendere il braciere. Le candele nelle chiese, nelle sinagoghe, nei templi buddhisti rappresentano la presenza divina o il ricordo dei defunti. In Italia i falò di San Giovanni il 24 giugno e i falò della Befana il 6 gennaio sono tradizioni che bruciano l'inverno o l'anno vecchio. Il fuoco è anche metafora d'amore: 'fiamma' nel linguaggio amoroso, 'bruciare di passione', 'avere il fuoco dentro'."
+      }
+    ],
+    "related": ["acqua", "sole", "tempesta", "estate", "natale"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nuvola",
+    "locale": "it",
+    "keyword": "Nuvola",
+    "matchPatterns": ["nuvola", "nuvole", "cielo", "nuvoloso", "cumulo", "stratus"],
+    "topic": "sciences",
+    "title": "Nuvole — formazione, tipi e poesia del cielo",
+    "description": "Cumuli, cirri, stratus: tutto sulle nuvole, come si formano, perché producono pioggia e perché stiamo a guardarle da bambini.",
+    "emoji": "☁️",
+    "intro": "Le nuvole sono sospensioni di goccioline d'acqua o cristalli di ghiaccio nell'atmosfera, e nonostante sembrino leggere e impalpabili, una nuvola cumulo media pesa circa 500 tonnellate, l'equivalente di 100 elefanti che galleggiano nel cielo. Si formano quando l'aria umida sale, si raffredda al di sotto del punto di rugiada, e il vapore acqueo condensa attorno a particelle di polvere, polline, sale marino o inquinamento (nuclei di condensazione). La classificazione delle nuvole risale al 1803 quando il meteorologo amatoriale inglese Luke Howard propose i nomi latini ancora in uso oggi: cirrus (riccioli), cumulus (mucchio), stratus (strato), nimbus (pioggia). L'Organizzazione Meteorologica Mondiale riconosce 10 generi principali divisi in 14 specie e 9 varietà, con anche le 'cloud street' (strade di nuvole), le nuvole lenticolari sopra le montagne, gli undulatus asperatus aggiunti al catalogo solo nel 2017. In Italia le nuvole hanno un ruolo affettivo profondo: 'C'è un dolore al mondo che vale più della gioia' di Pavese, il cielo di Roma di Pasolini, e i pomeriggi a guardare le nuvole nei pomeriggi d'estate sono un rito infantile universale. Su moomz i sondaggi 'team cielo limpido vs team cielo nuvoloso' dividono in modo netto le persone.",
+    "sections": [
+      {
+        "h": "Come si formano le nuvole",
+        "body": "Le nuvole si formano quando l'aria umida sale, si raffredda e il vapore acqueo condensa in goccioline o cristalli di ghiaccio. L'aria può salire per quattro motivi: convezione (riscaldamento solare del suolo che genera correnti ascendenti, formando cumuli pomeridiani d'estate), orografia (vento spinto contro montagne, da cui le nuvole sopra le Alpi e gli Appennini), fronte (incontro tra masse d'aria calda e fredda), convergenza (correnti che si scontrano e si elevano). Quando l'aria raggiunge il punto di rugiada (variabile con la temperatura), il vapore condensa attorno ai nuclei di condensazione. Le goccioline sono microscopiche (1-100 micrometri) e galleggiano nelle correnti ascendenti. Quando si fondono o ghiacciano, diventano abbastanza pesanti da cadere come precipitazioni. Le nuvole sono il riciclatore dell'acqua del pianeta, parte del ciclo idrologico globale."
+      },
+      {
+        "h": "I tipi principali di nuvole",
+        "body": "Le nuvole si dividono in alte (sopra 6.000 m), medie (2.000-6.000 m), basse (sotto 2.000 m) e a sviluppo verticale. Alte: cirrus (riccioli di ghiaccio sottili che annunciano cambiamento del tempo entro 24h), cirrostratus (velo che produce aloni solari/lunari), cirrocumulus (cielo a 'pecorelle'). Medie: altocumulus (mucchi medi), altostratus (velo grigio diffuso). Basse: stratus (nebbia alta, cielo plumbeo), stratocumulus (rotoli grigi), nimbostratus (le tipiche nuvole della pioggia continua autunnale). A sviluppo verticale: cumulus (bei batuffoli di bel tempo), cumulonimbus (i mostri dei temporali estivi, possono superare i 12 km di altezza, contengono enormi quantità di energia e producono fulmini, grandine, tornado). Imparare a riconoscerle aiuta a prevedere il tempo: i cumulonimbus che crescono rapidamente in pomeriggio significano temporale entro poche ore."
+      },
+      {
+        "h": "Nuvole, poesia e cultura",
+        "body": "Le nuvole hanno ispirato poeti, pittori e filosofi da sempre. Aristofane scrisse 'Le Nuvole' nel 423 a.C., commedia che metteva in ridicolo Socrate. Constable e Turner dipingevano cieli inglesi minuziosamente. Magritte ha riempito di nuvole i suoi quadri surrealisti come 'L'Imperio delle Luci'. In Italia Giacomo Leopardi guardava le 'erranti gregge' delle nuvole nello Zibaldone. Calvino dedica un racconto delle Cosmicomiche alla 'nuvola di smog'. Lucio Battisti canta 'È come il cielo all'orizzonte / un cielo grande che si tinge di un colore strano'. Su moomz i sondaggi che evocano cielo, atmosfera o meteo emozionale generano sempre risposte molto poetiche. Guardare le nuvole, attività detta 'cloudgazing', è anche praticata terapeuticamente per il rilassamento e la mindfulness. Il pareidolia (vedere forme nelle nuvole) è un fenomeno cognitivo umano universale che inizia nell'infanzia."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanto pesa una nuvola?",
+        "a": "Una nuvola cumulo di medie dimensioni (1 chilometro cubo) contiene circa 500 tonnellate di acqua sotto forma di micro-goccioline, l'equivalente di 100 elefanti. Le nuvole più grandi come i cumulonimbus possono contenere milioni di tonnellate d'acqua. Ma nonostante questo peso enorme, le nuvole galleggiano perché le goccioline sono così piccole che le correnti ascendenti d'aria le sostengono. La densità dell'aria nuvolosa è leggermente inferiore a quella dell'aria circostante (l'aria umida è più leggera dell'aria secca a parità di temperatura), e questo aiuta la galleggiabilità."
+      },
+      {
+        "q": "Perché le nuvole sono bianche?",
+        "a": "Le nuvole appaiono bianche perché le goccioline d'acqua di cui sono composte hanno dimensioni paragonabili alle lunghezze d'onda della luce visibile, e diffondono tutti i colori in modo simile (diffusione di Mie). La luce solare bianca passa attraverso, viene riflessa e diffusa, e ne esce ancora bianca. Le nuvole grigie o scure (nimbus, cumulonimbus) appaiono così perché sono spesse e bloccano la luce solare che le attraversa: dal basso le vediamo in ombra. Al tramonto le nuvole riflettono i colori caldi del cielo (rosso, arancio, rosa) creando spettacoli pittoreschi sopra il mare di Capri o il lago di Como."
+      },
+      {
+        "q": "Perché il cielo è blu se le nuvole sono bianche?",
+        "a": "Il cielo blu e le nuvole bianche dipendono da fenomeni di diffusione diversa. Il cielo è blu per la diffusione di Rayleigh: le molecole d'aria sono molto più piccole della lunghezza d'onda della luce e diffondono molto di più le lunghezze d'onda corte (blu, viola) rispetto a quelle lunghe (rosso). Il blu domina perché i nostri occhi sono più sensibili al blu che al viola. Le nuvole, fatte di goccioline d'acqua più grandi delle molecole d'aria, diffondono ugualmente tutti i colori (diffusione di Mie) e appaiono bianche. Al tramonto la luce attraversa più atmosfera, il blu è dispersato e restano rossi e arancioni, da cui i cieli infuocati sul Mar Tirreno o sul Golfo di Napoli."
+      },
+      {
+        "q": "Si può toccare una nuvola?",
+        "a": "Sì, in un certo senso. Una nuvola è semplicemente vapore acqueo condensato in micro-goccioline o cristalli di ghiaccio. Camminare nella nebbia equivale a camminare in una nuvola che tocca il suolo. Salendo in montagna ad alta quota o in aereo si attraversano spesso nuvole: dentro è umido, denso, freddo, e visibilità ridotta. La sensazione è simile a una doccia fine. Sul Monte Bianco o sul Cervino i nuvoloni avvolgono spesso le creste e gli alpinisti ci camminano dentro per ore. Non puoi 'sederti' su una nuvola come nei cartoni animati: non ha consistenza solida, anche se contiene 500 tonnellate di acqua per chilometro cubo."
+      }
+    ],
+    "related": ["sole", "tempesta", "acqua", "estate", "tramonto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tempesta",
+    "locale": "it",
+    "keyword": "Tempesta",
+    "matchPatterns": ["tempesta", "temporale", "tuono", "fulmine", "uragano", "tornado"],
+    "topic": "sciences",
+    "title": "Tempesta — fulmini, tuoni e la furia del cielo",
+    "description": "Una tempesta media libera 250 kWh, un fulmine raggiunge 30.000 °C. Tuoni, uragani e tornado: la fisica dietro la potenza del cielo.",
+    "emoji": "⛈️",
+    "intro": "Una tempesta è una manifestazione spettacolare e talvolta devastante dei fenomeni atmosferici. Il termine include temporali con fulmini e tuoni, uragani, tornado, cicloni, tempeste tropicali, tempeste di neve. Un temporale medio rilascia un'energia equivalente a circa 250 kWh, ovvero l'elettricità che alimenta una casa per circa una settimana. La Terra ospita in media circa 2.000 temporali in corso in ogni momento e si stima che cadano circa 100 fulmini al secondo a livello globale, ovvero 8,6 milioni al giorno. Un singolo fulmine può raggiungere i 100 milioni di volt e una temperatura di 30.000 °C, cinque volte la superficie del Sole. Il tuono che segue è il suono dell'aria che si dilata istantaneamente per il calore prima di collassare. La velocità della luce (300.000 km/s) e del suono (340 m/s) permettono di calcolare la distanza di un fulmine: ogni 3 secondi tra lampo e tuono corrispondono a circa 1 km. Su moomz i sondaggi 'team temporale estivo vs team neve invernale' o 'paura dei fulmini sì o no' rivelano il legame ambivalente, di fascino e timore, che gli umani hanno con il cielo violento.",
+    "sections": [
+      {
+        "h": "Come si formano i temporali",
+        "body": "I temporali nascono in nuvole cumulonimbus a sviluppo verticale, che possono superare i 12 km di altezza e contenere milioni di tonnellate di acqua. La formazione richiede tre ingredienti: umidità (vapore acqueo nell'aria), instabilità (aria calda al suolo, fredda in alto), innesco (riscaldamento solare pomeridiano, fronte freddo, orografia). All'interno della nube si verificano correnti ascendenti violente fino a 100 km/h che separano elettricamente le particelle: ghiaccio leggero positivo in alto, grandine pesante negativa in basso. Quando la differenza di potenziale supera la rigidità dielettrica dell'aria (circa 3 milioni di V/m), si verifica la scarica: il fulmine. La maggior parte cade nube-nube, ma circa il 25% scarica al suolo. Il temporale tipico dura 30 minuti, ma in cluster organizzati può durare ore. Le grandinate estive italiane causano danni miliardari all'agricoltura, soprattutto in Pianura Padana."
+      },
+      {
+        "h": "Uragani, tornado e cicloni",
+        "body": "Gli uragani (atlantici e pacifici orientali), i tifoni (pacifico occidentale) e i cicloni (oceano indiano) sono lo stesso fenomeno con nomi diversi a seconda della regione. Si formano su acque tropicali sopra i 26,5 °C, con bassa pressione e forza di Coriolis. La scala Saffir-Simpson li classifica da categoria 1 (119-153 km/h di vento) a categoria 5 (oltre 252 km/h). Uragano Katrina nel 2005 fu categoria 5 al picco e devastò New Orleans. I tornado, invece, sono fenomeni terrestri locali ma intensissimi, con venti che possono superare i 400 km/h misurati nella scala Enhanced Fujita. Il 'Tornado Alley' negli USA centrali è l'epicentro mondiale, con circa 1.200 tornado l'anno. In Italia i tornado sono rari ma esistono: il tornado del Riviera del Brenta del luglio 2015 EF4, il tornado di Taranto nel 2012 EF3 che causò gravi danni all'ILVA. Le trombe d'aria sull'Adriatico sono frequenti d'estate."
+      },
+      {
+        "h": "Tempeste e cambiamento climatico",
+        "body": "Il cambiamento climatico antropogenico sta intensificando i fenomeni atmosferici estremi. L'atmosfera più calda contiene più vapore acqueo (circa 7% in più per ogni °C di aumento), quindi le precipitazioni quando arrivano sono più intense. Gli uragani non aumentano in numero ma in intensità, con più cat 4 e 5. Le grandinate sono più severe per cumulonimbus più potenti. Eventi estremi in Italia recenti: l'alluvione di Genova del 2014, l'alluvione di Olbia del 2013 (con 18 morti), la tempesta Vaia dell'ottobre 2018 che ha abbattuto 14 milioni di alberi nelle Dolomiti orientali in poche ore, l'alluvione dell'Emilia-Romagna del maggio 2023, l'uragano Apollo nel Mediterraneo del 2021. Si parla di 'medicanes' (Mediterranean hurricanes) sempre più frequenti. La protezione civile italiana ha aumentato gli allerta meteo e i sistemi di evacuazione, ma il rischio idrogeologico resta enorme su tutta la penisola."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanti volt ha un fulmine?",
+        "a": "Un fulmine medio raggiunge i 100 milioni di volt (100 MV) e una corrente di 30.000 ampere, scaricando un'energia di circa 5 miliardi di joule in pochi millisecondi. La temperatura del canale del fulmine raggiunge i 30.000 °C, cinque volte la superficie del Sole. Solo l'1-2% di questa energia diventa luce visibile (il lampo), il resto si trasforma in calore, suono (il tuono) e onde radio. Ogni anno circa 24.000 persone muoiono nel mondo colpite da fulmini, e altre 240.000 sopravvivono ma riportano conseguenze permanenti. Le precauzioni: non ripararsi sotto alberi isolati, evitare l'acqua, non parlare al telefono fisso durante un temporale."
+      },
+      {
+        "q": "Perché si vede prima il lampo e poi si sente il tuono?",
+        "a": "Perché la luce viaggia a 300.000 km/s mentre il suono a soli 340 m/s, cioè quasi un milione di volte più lentamente. Per calcolare la distanza del fulmine basta contare i secondi tra lampo e tuono e dividere per 3: 3 secondi = 1 km, 6 secondi = 2 km, e così via. Se vedi un fulmine e senti subito un tuono assordante (boato secco), il fulmine è cadutosi a meno di un chilometro. Se i tuoni sono brontolii lontani, la tempesta è oltre 10 km e non rappresenta pericolo immediato. La regola 30/30 della protezione civile: se il lampo è seguito dal tuono entro 30 secondi (10 km), prendi rifugio."
+      },
+      {
+        "q": "Posso essere colpito da un fulmine in casa?",
+        "a": "Sì, è raro ma possibile. I fulmini possono entrare in casa attraverso le linee elettriche (sovratensione che fulmina elettrodomestici e talvolta persone in contatto con essi), le linee telefoniche, le tubature metalliche (rubinetti, doccia), il caminetto. Durante un temporale severo è prudente: non usare il telefono fisso, evitare doccia e lavare i piatti, scollegare apparecchi elettronici sensibili, non toccare termosifoni o tubature, restare lontani da finestre e porte. Il fulmine non entra in una casa con tetto solido se è equipaggiata di parafulmine, brevettato da Benjamin Franklin nel 1752, che convoglia la scarica a terra senza danni."
+      },
+      {
+        "q": "Le tempeste sono in aumento in Italia?",
+        "a": "Sì, sia in frequenza che soprattutto in intensità a causa del cambiamento climatico. Il Mediterraneo si riscalda più rapidamente della media globale e fornisce più energia ai fenomeni meteorologici estremi. Le grandinate severe sono in aumento documentato in Pianura Padana, con chicchi che possono superare i 10 cm di diametro come nel luglio 2023 in provincia di Brescia (record nazionale di 19 cm). Le precipitazioni intense in 24 ore hanno frequenza crescente, causando alluvioni e frane. La tempesta Vaia nel 2018, l'alluvione dell'Emilia nel 2023, le bombe d'acqua estive sono segnali chiari. Il rischio idrogeologico italiano è tra i più alti d'Europa per geomorfologia fragile."
+      }
+    ],
+    "related": ["nuvola", "fuoco", "acqua", "terremoto", "halloween"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "terremoto",
+    "locale": "it",
+    "keyword": "Terremoto",
+    "matchPatterns": ["terremoto", "sisma", "scossa", "magnitudo", "tellurico", "epicentro"],
+    "topic": "sciences",
+    "title": "Terremoto — placche tettoniche, scala Richter e l'Italia sismica",
+    "description": "L'Italia è il paese più sismico d'Europa. Tutto sui terremoti: cause, scala Richter, prevenzione e i grandi eventi della storia italiana.",
+    "emoji": "🏚️",
+    "intro": "Un terremoto è una vibrazione improvvisa della crosta terrestre causata dal rilascio di energia accumulata lungo faglie tettoniche. Si verificano in media circa 500.000 terremoti l'anno nel mondo, di cui circa 100.000 percepiti dagli umani e 100 abbastanza forti da causare danni significativi. L'Italia è il paese più sismico d'Europa per posizione geografica: si trova all'incontro tra la placca africana che spinge verso nord (a 5 mm l'anno) e quella euroasiatica. Tutta la penisola, dalla Sicilia al Friuli, è classificata in zone sismiche, con l'Appennino centrale (Lazio, Abruzzo, Marche, Umbria) tra le aree più attive. La magnitudo si misura sulla scala Richter logaritmica (un grado in più equivale a 32 volte più energia) o sulla scala Mw (momento sismico), più affidabile per terremoti grandi. La massima magnitudo mai registrata è 9,5 nel terremoto di Valdivia (Cile) nel 1960. Il terremoto del Sumatra 2004 di magnitudo 9,1 generò lo tsunami che uccise 230.000 persone in 14 paesi. In Italia il terremoto più recente devastante è quello di Amatrice del 24 agosto 2016 (Mw 6,2, 299 morti). Su moomz i sondaggi sui terremoti generano sempre grande partecipazione, soprattutto da utenti delle zone colpite.",
+    "sections": [
+      {
+        "h": "La fisica dei terremoti",
+        "body": "I terremoti sono causati dal movimento delle placche tettoniche, immense placche di crosta terrestre che si muovono di pochi cm all'anno. Quando due placche si scontrano, si allontanano o scorrono l'una sull'altra, accumulano stress elastico. Quando lo stress supera la resistenza delle rocce, si verifica un fratture rapida: il terremoto. L'energia viene rilasciata in onde sismiche di tre tipi: onde P (primarie, di compressione, le più veloci, 6-8 km/s nella crosta), onde S (secondarie, di taglio, più lente ma più dannose), onde superficiali (Love e Rayleigh, le più devastanti, viaggiano sulla superficie come onde marine). Il punto in profondità dove si frattura la faglia è chiamato ipocentro, e la sua proiezione verticale in superficie è l'epicentro. La maggior parte dei terremoti italiani sono crostali (profondità inferiore a 30 km), e questo li rende particolarmente dannosi in superficie."
+      },
+      {
+        "h": "L'Italia sismica: storia e geografia",
+        "body": "L'Italia è uno dei paesi più sismici al mondo per la sua posizione tettonica. Le zone più attive: Appennino centro-meridionale (Lazio, Abruzzo, Molise, Campania, Calabria), Friuli, Sicilia orientale e Calabria meridionale, e la fascia subito ai piedi delle Alpi. Eventi storici devastanti: Messina-Reggio Calabria 1908 (Mw 7,1, oltre 80.000 morti, il peggior terremoto europeo del secolo), Avezzano 1915 (Mw 7,0, 30.000 morti), Belice 1968 (Sicilia, Mw 6,4), Friuli 1976 (Mw 6,5, 989 morti), Irpinia 1980 (Mw 6,9, 2.914 morti), Umbria-Marche 1997 (Mw 6,0, danni Basilica di San Francesco), L'Aquila 2009 (Mw 6,3, 309 morti), Emilia 2012 (Mw 5,9, 27 morti, danni industriali enormi), Amatrice 2016 (Mw 6,2, 299 morti). Tra L'Aquila e Amatrice c'è una linea di faglie particolarmente attive. Le case in muratura tradizionale crollano facilmente, mentre quelle progettate con criteri antisismici resistono."
+      },
+      {
+        "h": "Prevenzione e cosa fare durante un sisma",
+        "body": "I terremoti non si possono prevedere con precisione, ma si possono mitigare i loro effetti. Costruzioni antisismiche: dal 2008 la normativa italiana NTC impone criteri severi su tutto il territorio nazionale. Strutture in cemento armato con isolatori sismici alla base, controventature, gerarchia delle resistenze. Il Giappone, paese sismico per eccellenza, ha edifici che resistono a magnitudo 9 con scosse devastanti. In casa: fissare mobili pesanti al muro, mai metter letti sotto specchi o oggetti pendenti, sapere dove sono i punti più sicuri (vani strutturali in muri portanti, sotto travi solide). Durante un sisma: la regola 'drop, cover, hold on' (a terra, copri la testa, tieni stretto). Non scappare in strada durante la scossa (rischio cadute oggetti). Dopo il sisma: uscire con calma, lontano da edifici lesionati, evitare scale interne, non rientrare prima del 'cessato pericolo'. L'INGV e la Protezione Civile gestiscono il monitoraggio e le emergenze."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Si possono prevedere i terremoti?",
+        "a": "No, la previsione precisa di tempo, luogo e magnitudo di un terremoto è impossibile con le tecnologie attuali. Si possono però identificare zone sismiche e fare valutazioni probabilistiche su lunghi periodi. Esistono sistemi di 'early warning' (allerta precoce) che sfruttano la maggior velocità delle onde P rispetto alle S per dare pochi secondi di anticipo prima dello scuotimento più forte: il Giappone ha il sistema più avanzato, l'Italia sta sviluppando il proprio. Questi pochi secondi possono salvare vite: fermare treni, bloccare gas e centrali, attivare evacuazioni. I 'precursori' classici (animali agitati, livelli di falda, emissioni di radon) non sono affidabili come metodo predittivo."
+      },
+      {
+        "q": "Qual è stato il terremoto più forte mai registrato?",
+        "a": "Il terremoto di Valdivia in Cile del 22 maggio 1960, magnitudo Mw 9,5, è il più forte mai misurato dalla seismologia moderna. Generò uno tsunami che colpì Cile, Hawaii, Giappone, Filippine e altre coste pacifiche, causando complessivamente oltre 5.000 morti. Il sisma fratturò una faglia di 1.000 km della zona di subduzione tra placca di Nazca e sudamericana. Più recentemente, il terremoto di Sumatra del 26 dicembre 2004 (Mw 9,1) e quello di Tōhoku del Giappone dell'11 marzo 2011 (Mw 9,1) hanno avuto magnitudo simili. Il sisma più devastante della storia umana per vittime è invece quello di Shaanxi (Cina) del 1556 con 830.000 morti, dovuto alla densità di popolazione e al crollo delle abitazioni rupestri."
+      },
+      {
+        "q": "Cosa devo fare se inizia un terremoto?",
+        "a": "Se sei in casa: 'drop, cover, hold on' - a terra, sotto un tavolo solido o vicino a un muro portante, copri la testa con le braccia, tieniti stretto se possibile. Non corri verso le scale (collassano spesso), non usare l'ascensore (rischio blocco). Se sei in strada: allontanati da edifici, lampioni, linee elettriche, vetrate. Cerca uno spazio aperto. Se sei in auto: ferma il veicolo lontano da ponti, cavalcavia ed edifici, resta dentro l'auto fino alla fine delle scosse. Dopo la scossa principale, attendi qualche secondo prima di uscire (alcune cose potrebbero cadere ancora), poi vai all'aperto in zona sicura. Le scosse di assestamento (aftershocks) possono durare giorni o settimane e possono essere quasi forti quanto la principale."
+      },
+      {
+        "q": "Quali sono le zone più sismiche in Italia?",
+        "a": "Le zone classificate ad alto rischio sismico (Zona 1 nella mappa sismica italiana) includono l'intero Appennino centro-meridionale: alto Lazio, Abruzzo intero, Molise, gran parte della Campania e Basilicata, Calabria intera (specialmente la fascia tirrenica e meridionale), Sicilia orientale (Messina, Catania, Siracusa zona Etna), Friuli orientale. Zona 2 (media-alta pericolosità) include gran parte dell'Italia centrale, della Puglia, del Trentino orientale. Zona 3 e 4 includono Pianura Padana, Toscana, Sardegna (la meno sismica della penisola). L'INGV pubblica la mappa sismica aggiornata e i dati in tempo reale dei sismi su ingv.it. Conoscere la zona della propria casa è il primo passo per la prevenzione."
+      }
+    ],
+    "related": ["tempesta", "fuoco", "mare", "terra", "ferragosto"],
+    "updatedAt": "2026-05-20"
+  }
+]

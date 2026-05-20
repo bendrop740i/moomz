@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "estrela",
+    "locale": "pt",
+    "keyword": "Estrela",
+    "matchPatterns": ["estrela", "estrelas", "estelar", "constelacao", "constelação"],
+    "topic": "sciences",
+    "title": "Estrela: o que são, como nascem e como morrem no universo",
+    "description": "Tudo sobre estrelas: desde as anãs vermelhas até supernovas, da formação em nebulosas à morte espetacular em buracos negros e estrelas de nêutrons.",
+    "emoji": "⭐",
+    "intro": "As estrelas são enormes esferas de plasma incandescente onde a fusão nuclear transforma hidrogênio em hélio e libera quantidades absurdas de energia em forma de luz e calor. O nosso Sol é uma estrela bem comum, mas a Via Láctea inteira contém cerca de 100 a 400 bilhões de estrelas, e o universo observável guarda algo como 200 sextilhões delas. Esse número é tão grande que, se cada grão de areia da Terra fosse uma estrela, ainda assim faltariam grãos para representar todas as estrelas que existem. As estrelas nascem em nebulosas, gigantescas nuvens de gás e poeira interestelar onde a gravidade aglomera matéria até disparar a fusão nuclear no núcleo. Esse processo pode durar dezenas de milhões de anos. Uma vez acesas, elas brilham por bilhões de anos antes de esgotar o combustível e morrer das formas mais variadas: anãs brancas, gigantes vermelhas, supernovas, buracos negros, estrelas de nêutrons. No moomz, a estrela é uma metáfora poderosa para personalidades luminosas, mas a astronomia real é ainda mais fascinante. Cada estrela que você vê no céu noturno é uma janela para outro pedaço do tempo, porque a luz delas pode ter levado milhões ou até bilhões de anos para chegar aos seus olhos. Algumas das estrelas que vemos hoje já nem existem mais.",
+    "sections": [
+      {
+        "h": "Como nascem as estrelas",
+        "body": "Tudo começa em uma nebulosa, vasta nuvem de hidrogênio molecular, hélio e poeira espalhada pelo espaço interestelar. A famosa Nebulosa de Órion é um exemplo visível a olho nu, contendo verdadeiros berçários estelares. Uma perturbação gravitacional, como a onda de choque de uma supernova próxima, pode iniciar o colapso de uma região mais densa. À medida que a matéria se aglomera, a temperatura central aumenta gradualmente até atingir cerca de 10 milhões de graus Celsius, ponto crítico em que a fusão nuclear se inicia. Nesse momento, prótons de hidrogênio começam a se fundir formando hélio, libertando energia gigantesca e estabilizando o objeto contra o colapso gravitacional. Nasce uma protoestrela, e ela continuará evoluindo até atingir a sequência principal. Estrelas pequenas como anãs vermelhas podem demorar centenas de milhões de anos para chegar lá, enquanto estrelas massivas o fazem em poucos milhões de anos. A massa inicial determina quase tudo: cor, temperatura, brilho, tempo de vida e fim do astro. Uma estrela com 30 vezes a massa solar vive apenas alguns milhões de anos, enquanto uma anã vermelha pode durar trilhões de anos, mais do que a idade atual do universo."
+      },
+      {
+        "h": "Classificação espectral e tipos de estrelas",
+        "body": "Os astrônomos classificam estrelas pela sigla OBAFGKM, do mais quente ao mais frio. Estrelas tipo O são azuladas, ultrapassam 30.000 graus Celsius na superfície e brilham milhares de vezes mais que o Sol. No outro extremo, estrelas tipo M são vermelhas, frias (menos de 3.500 graus) e fracas. Nosso Sol é uma estrela tipo G, amarela, com 5.500 graus na superfície e idade na metade da vida estelar. Há ainda categorias especiais como anãs brancas (núcleos densos de estrelas mortas), gigantes vermelhas (estrelas envelhecidas que incham), supergigantes azuis e amarelas (gigantes massivas raras como Rigel e Betelgeuse), pulsares (estrelas de nêutrons em rotação rápida) e até estrelas variáveis cujo brilho oscila periodicamente. Sistemas binários, onde duas estrelas orbitam uma em torno da outra, são extremamente comuns, representando talvez metade das estrelas da galáxia. Algumas formam tríplices ou quádruplas, como o sistema Alpha Centauri, que contém três estrelas e é o mais próximo do nosso Sol, a 4,37 anos-luz."
+      },
+      {
+        "h": "A morte espetacular das estrelas massivas",
+        "body": "O fim de uma estrela depende crucialmente de sua massa inicial. Estrelas pequenas a médias como o Sol expandem-se em gigantes vermelhas ao esgotar o hidrogênio do núcleo, e depois ejetam suas camadas externas formando nebulosas planetárias. O que resta é uma anã branca densa, do tamanho da Terra mas com a massa do Sol. Estrelas massivas, com mais de oito massas solares, vivem mais intensamente e morrem com fúria. Quando esgotam o combustível nuclear, o núcleo colapsa sob a própria gravidade em frações de segundo, e o resto da estrela explode em uma supernova, evento que pode brilhar mais que toda a galáxia hospedeira por semanas. A famosa supernova de 1054 foi observada por astrônomos chineses durante o dia e originou a nebulosa do Caranguejo. Após a explosão, o núcleo remanescente pode tornar-se uma estrela de nêutrons, objeto ultradenso onde uma colher de chá pesaria milhões de toneladas, ou um buraco negro, região do espaço-tempo onde nem a luz escapa. Esses cataclismos espalham elementos pesados pelo espaço, e foram exatamente eles que formaram o cálcio dos seus ossos e o ferro do seu sangue. Como dizia Carl Sagan, somos feitos de poeira de estrelas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas estrelas existem no universo?",
+        "a": "Estimativas atuais apontam para cerca de 200 sextilhões de estrelas no universo observável, ou seja, 2 seguido de 23 zeros. Esse número vem da multiplicação entre o número estimado de galáxias (de 200 bilhões a 2 trilhões) pelo número médio de estrelas por galáxia (centenas de bilhões). É mais estrelas do que grãos de areia em todas as praias da Terra somadas."
+      },
+      {
+        "q": "Qual é a estrela mais próxima da Terra depois do Sol?",
+        "a": "É Proxima Centauri, uma anã vermelha pertencente ao sistema Alpha Centauri, a 4,24 anos-luz de distância. Em 2016, astrônomos descobriram um planeta rochoso, Proxima b, orbitando essa estrela dentro da zona habitável. A luz que vemos de Proxima Centauri hoje saiu de lá há mais de quatro anos. Já a estrela mais próxima visível a olho nu sem instrumentos especiais é Alpha Centauri A, a 4,37 anos-luz."
+      },
+      {
+        "q": "Por que as estrelas cintilam?",
+        "a": "A cintilação das estrelas, fenômeno conhecido como cintilação atmosférica, não é causada pelas estrelas em si, mas pela atmosfera terrestre. A luz vinda de pontos muito distantes atravessa camadas de ar com temperaturas e densidades variadas, sofrendo pequenas refrações. Isso faz com que o brilho aparente oscile rapidamente. Do espaço, sem atmosfera, as estrelas têm luz constante. Planetas como Vênus e Júpiter cintilam pouco porque aparecem como discos, não pontos."
+      },
+      {
+        "q": "O que é uma estrela cadente?",
+        "a": "Estrelas cadentes não são realmente estrelas. São meteoros, pequenos fragmentos de poeira e rocha que entram na atmosfera terrestre em alta velocidade e vaporizam por atrito, produzindo um rastro luminoso. A maioria tem o tamanho de um grão de areia. Chuvas de meteoros, como as Perseidas em agosto e as Leônidas em novembro, acontecem quando a Terra cruza o rastro de cometas, e podem produzir dezenas de meteoros por hora em céus escuros."
+      }
+    ],
+    "related": ["sol", "lua", "planeta", "espaco", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "planeta",
+    "locale": "pt",
+    "keyword": "Planeta",
+    "matchPatterns": ["planeta", "planetas", "sistema solar", "marte", "jupiter"],
+    "topic": "sciences",
+    "title": "Planeta: os mundos do Sistema Solar e exoplanetas além",
+    "description": "Guia completo dos planetas: Mercúrio a Netuno, planetas anões, exoplanetas, atmosferas, luas e a busca por vida fora da Terra.",
+    "emoji": "🪐",
+    "intro": "O conceito de planeta sofreu uma reviravolta importante em 2006, quando a União Astronômica Internacional definiu oficialmente o termo e rebaixou Plutão à categoria de planeta anão. Hoje, o Sistema Solar conta oficialmente com oito planetas: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno. Para ser considerado planeta, um corpo precisa orbitar uma estrela, ter massa suficiente para assumir forma esférica e ter limpado a vizinhança de sua órbita gravitacional. Plutão falha no último critério, daí sua reclassificação. Os planetas dividem-se em dois grandes grupos: rochosos ou telúricos (Mercúrio, Vênus, Terra, Marte), menores e densos, com superfície sólida, e gasosos ou jovianos (Júpiter, Saturno, Urano, Netuno), gigantescos e compostos majoritariamente de hidrogênio e hélio. Júpiter sozinho tem mais massa do que todos os outros planetas somados. Para além do nosso sistema, astrônomos já confirmaram a existência de mais de 5.500 exoplanetas orbitando outras estrelas, e estimam que existam pelo menos um trilhão deles só na Via Láctea. Alguns ficam em zonas habitáveis, onde água líquida poderia existir, alimentando a especulação sobre vida extraterrestre. No moomz, brincamos com personalidades planetárias, mas a realidade astronômica é o maior show que existe.",
+    "sections": [
+      {
+        "h": "Os planetas rochosos: vizinhos próximos",
+        "body": "Mercúrio é o menor planeta e o mais próximo do Sol, com temperaturas que variam de 430 graus de dia a menos 180 à noite, porque não tem atmosfera para reter calor. Um ano em Mercúrio dura apenas 88 dias terrestres. Vênus, frequentemente chamado de irmã da Terra por seu tamanho similar, é o planeta mais quente do Sistema Solar, com temperatura superficial de 465 graus Celsius. Sua atmosfera densa de dióxido de carbono cria um efeito estufa descontrolado, e nuvens de ácido sulfúrico cobrem o planeta. A Terra, a única conhecida que abriga vida, tem oceanos líquidos, atmosfera respirável e proteção do campo magnético. Marte, o planeta vermelho, parece o mais promissor para colonização futura. Sua cor vem do óxido de ferro no solo, e ele possui calotas polares de gelo de água, vulcões gigantes como o Monte Olimpo (maior vulcão conhecido do Sistema Solar) e o Vale Marineris, cânion com mais de 4 mil quilômetros de extensão. Missões como Perseverance e o helicóptero Ingenuity exploram Marte em busca de sinais de vida passada."
+      },
+      {
+        "h": "Os gigantes gasosos e seus anéis",
+        "body": "Júpiter, maior planeta do Sistema Solar, tem 11 vezes o diâmetro da Terra e mais de 95 luas conhecidas. Sua famosa Grande Mancha Vermelha é uma tempestade anticiclônica que dura há pelo menos 350 anos e poderia engolir a Terra inteira. As luas galileanas, descobertas por Galileu em 1610 (Io, Europa, Ganimedes e Calisto), são objetos fascinantes. Europa, em particular, esconde um oceano de água líquida sob uma crosta de gelo e é um dos lugares mais promissores para vida microbiana. Saturno é famoso pelos espetaculares anéis, compostos majoritariamente de gelo e poeira, com partículas que vão do tamanho de grãos de areia a blocos do tamanho de casas. Sua lua Titã tem atmosfera densa e lagos de metano líquido na superfície. Urano e Netuno, os gigantes gelados, são azulados devido ao metano em suas atmosferas. Urano gira de lado, com eixo de rotação quase paralelo ao plano orbital, possivelmente após uma colisão gigantesca há bilhões de anos. Netuno, descoberto em 1846 por cálculos matemáticos antes de observação direta, tem ventos de mais de 2.100 km/h, os mais rápidos do Sistema Solar."
+      },
+      {
+        "h": "Exoplanetas e a busca por vida",
+        "body": "A descoberta do primeiro exoplaneta confirmado em torno de uma estrela parecida com o Sol veio em 1995, com 51 Pegasi b, e rendeu o Prêmio Nobel de Física em 2019 aos suíços Michel Mayor e Didier Queloz. Desde então, telescópios como Kepler e TESS revolucionaram a busca por novos mundos. O telescópio espacial James Webb, lançado em 2021, é capaz até de analisar as atmosferas de exoplanetas em busca de bioassinaturas como oxigênio, ozônio e metano. O sistema TRAPPIST-1, descoberto em 2017, contém sete planetas rochosos do tamanho da Terra, três deles na zona habitável da estrela anã. Proxima b, planeta orbitando Proxima Centauri (a estrela mais próxima do Sol), também está na zona habitável. Embora ainda não tenhamos provas de vida fora da Terra, o número crescente de exoplanetas habitáveis sugere que estatisticamente seria improvável estarmos sozinhos. Iniciativas como SETI buscam sinais inteligentes, enquanto missões como Breakthrough Starshot planejam enviar sondas miniaturizadas até Alpha Centauri usando velas solares e lasers de alta potência."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Por que Plutão deixou de ser planeta?",
+        "a": "Em 2006, a União Astronômica Internacional adotou três critérios para definir um planeta: orbitar uma estrela, ter forma esférica por sua gravidade e ter limpado a vizinhança orbital de outros objetos. Plutão satisfaz os dois primeiros mas não o terceiro, pois compartilha sua região com muitos outros objetos transnetunianos similares. Foi reclassificado como planeta anão, categoria que também inclui Éris, Makemake, Haumea e Ceres."
+      },
+      {
+        "q": "Quanto tempo leva chegar a Marte?",
+        "a": "Depende da posição relativa dos planetas. Em condições ideais, uma viagem com tecnologia atual leva entre seis e nove meses. A janela de lançamento ótima ocorre a cada 26 meses, quando Terra e Marte se alinham favoravelmente. A SpaceX planeja missões tripuladas para a década de 2030, e tecnologias futuras como propulsão nuclear ou plasma poderiam reduzir essa viagem para algumas semanas, tornando colonizações mais viáveis."
+      },
+      {
+        "q": "Qual é o maior planeta conhecido?",
+        "a": "Júpiter é o maior do Sistema Solar, com diâmetro de cerca de 140 mil quilômetros. Mas entre exoplanetas, ROXs 42Bb tem cerca de dez vezes a massa de Júpiter, e alguns objetos como anãs marrons ficam no limite entre planetas gigantes e estrelas fracassadas. Quanto mais massa, mais calor e gravidade. A linha entre planetas e estrelas é definida pela capacidade de iniciar fusão nuclear, em torno de 75 vezes a massa de Júpiter."
+      },
+      {
+        "q": "Existe vida em outros planetas?",
+        "a": "Ainda não confirmamos vida fora da Terra, mas vários lugares são candidatos promissores: Marte (microorganismos passados ou subterrâneos), Europa e Encélado (oceanos sob gelo), Titã (química exótica baseada em metano) e exoplanetas em zonas habitáveis. A NASA tem missões específicas para investigar essas possibilidades. Estatisticamente, considerando o número de planetas conhecidos, parece improvável que estejamos completamente sozinhos no universo."
+      }
+    ],
+    "related": ["sol", "lua", "espaco", "estrela", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "terra",
+    "locale": "pt",
+    "keyword": "Terra",
+    "matchPatterns": ["terra", "planeta terra", "globo", "geografia"],
+    "topic": "sciences",
+    "title": "Terra: o planeta azul, sua estrutura, biosfera e crise climática",
+    "description": "Tudo sobre o planeta Terra: estrutura interna, atmosfera, biosfera, clima, biodiversidade e desafios ambientais do século XXI.",
+    "emoji": "🌍",
+    "intro": "A Terra é o terceiro planeta a partir do Sol, o único conhecido a abrigar vida e o único também onde você está agora lendo este texto. Com cerca de 12.742 quilômetros de diâmetro e idade estimada em 4,54 bilhões de anos, ela ocupa uma posição privilegiada na chamada zona habitável do Sistema Solar, distância em que água pode existir em estado líquido. Cerca de 71% da superfície terrestre é coberta por oceanos, dando origem ao apelido planeta azul, embora também pudéssemos chamá-lo de planeta verde devido à vegetação, ou planeta branco devido às nuvens. A Terra tem uma atmosfera composta principalmente por nitrogênio (78%) e oxigênio (21%), protegendo a vida da radiação solar nociva e mantendo temperatura média habitável. O campo magnético, gerado pelo movimento de ferro líquido no núcleo externo, desvia o vento solar e impede que a atmosfera seja arrancada como aconteceu em Marte. A Lua, nossa companheira cósmica, estabiliza o eixo terrestre e regula as marés. Mais de 8 bilhões de seres humanos vivem aqui hoje, junto com pelo menos 8,7 milhões de espécies catalogadas, embora estimativas mais amplas falem em até 1 trilhão de espécies microbianas. No moomz, brincamos com responsabilidade ambiental e estilos de vida, mas a realidade do planeta exige atenção urgente em meio à crise climática.",
+    "sections": [
+      {
+        "h": "Estrutura interna: do núcleo à crosta",
+        "body": "A Terra é composta por várias camadas distintas, descobertas principalmente por meio do estudo de ondas sísmicas. O núcleo interno, sólido apesar das temperaturas de até 5.400 graus Celsius (semelhantes à superfície do Sol), é composto principalmente de ferro e níquel, com cerca de 1.220 quilômetros de raio. A pressão imensa o mantém sólido. Acima dele, o núcleo externo é líquido, e seu movimento gera o campo magnético terrestre por efeito dínamo. O manto, camada espessa de rocha viscosa, ocupa cerca de 84% do volume do planeta. As correntes de convecção no manto movem as placas tectônicas, processo lento mas implacável que cria montanhas, abre oceanos, gera terremotos e alimenta vulcões. A crosta é a fina camada exterior, dividida em crosta oceânica (mais densa, com cerca de 7 quilômetros de espessura) e crosta continental (menos densa, com até 70 quilômetros nas cordilheiras). A teoria das placas tectônicas, consolidada nos anos 1960, explica fenômenos antes misteriosos como a separação de continentes (a famosa Pangeia se fragmentou há cerca de 200 milhões de anos) e a distribuição de fósseis."
+      },
+      {
+        "h": "Atmosfera, clima e biodiversidade",
+        "body": "A atmosfera terrestre tem várias camadas: troposfera (onde acontece o clima, 0 a 12 km), estratosfera (com a camada de ozônio, 12 a 50 km), mesosfera (50 a 85 km), termosfera (onde ocorrem auroras, 85 a 600 km) e exosfera. O clima resulta da interação entre radiação solar, oceanos, atmosfera, biosfera e geosfera. Correntes oceânicas como a Corrente do Golfo distribuem calor globalmente, enquanto o ciclo da água conecta os oceanos à terra firme pela evaporação, chuva e rios. A biodiversidade terrestre é espetacular: das florestas tropicais com a maior concentração de espécies por metro quadrado, aos desertos com vida adaptada a condições extremas, dos oceanos abissais com formas estranhas adaptadas à escuridão total, às tundras polares. A Amazônia, embora reduzida hoje, ainda é a maior floresta tropical contínua do mundo, abrigando cerca de 10% das espécies conhecidas. Recifes de coral como a Grande Barreira australiana abrigam centenas de milhares de espécies marinhas. Mas estamos vivendo o que cientistas chamam de sexta extinção em massa, com perda de espécies em ritmo mil vezes superior ao natural."
+      },
+      {
+        "h": "A crise climática e o futuro do planeta",
+        "body": "Desde a Revolução Industrial no século XVIII, a humanidade liberou grandes quantidades de dióxido de carbono, metano e outros gases de efeito estufa na atmosfera, principalmente pela queima de combustíveis fósseis. A concentração de CO2 passou de 280 partes por milhão pré-industriais para mais de 420 ppm hoje, nível não visto há milhões de anos. A temperatura média global aumentou cerca de 1,2 graus Celsius desde 1880, derretendo geleiras, elevando o nível do mar, intensificando ondas de calor, secas, incêndios e tempestades. O Acordo de Paris de 2015 fixou meta de limitar o aquecimento a 1,5 graus, mas as emissões continuam altas. Os impactos sociais são profundos: refugiados climáticos, insegurança alimentar, perda cultural de comunidades costeiras. Soluções incluem transição energética para fontes renováveis como solar e eólica, eletrificação dos transportes, reflorestamento massivo, mudança de hábitos alimentares (menos carne bovina), e tecnologias emergentes como captura direta de carbono. Países como Costa Rica e Uruguai já geram quase toda eletricidade de fontes renováveis. A geração atual enfrenta talvez o maior desafio coletivo da história humana."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos anos tem a Terra?",
+        "a": "A Terra tem aproximadamente 4,54 bilhões de anos, idade determinada pela datação radioativa de meteoritos primitivos e das rochas mais antigas conhecidas no planeta, como os zircões de Jack Hills na Austrália Ocidental, com mais de 4,4 bilhões de anos. O Sistema Solar como um todo se formou a partir de uma nuvem de gás e poeira que colapsou gravitacionalmente, e a Terra se acreditou em poucas dezenas de milhões de anos."
+      },
+      {
+        "q": "Por que o céu é azul?",
+        "a": "O céu é azul devido ao espalhamento de Rayleigh: a luz solar branca contém todas as cores, mas as moléculas de ar espalham mais intensamente os comprimentos de onda curtos, principalmente azul e violeta. Nossos olhos são mais sensíveis ao azul que ao violeta, então enxergamos o céu nessa cor. Ao amanhecer e entardecer, a luz percorre mais atmosfera, perdendo o azul e revelando os vermelhos e laranjas característicos."
+      },
+      {
+        "q": "Qual é o lugar mais profundo da Terra?",
+        "a": "É a Fossa das Marianas, no Oceano Pacífico ocidental, com profundidade máxima de 10.984 metros no Abismo Challenger. Para comparar, se colocássemos o Monte Everest dentro dela, ainda sobrariam mais de 2 quilômetros de água acima do cume. A pressão lá embaixo equivale a 1.000 atmosferas, e mesmo assim existem formas de vida adaptadas a essas condições extremas, incluindo peixes, anêmonas e microorganismos."
+      },
+      {
+        "q": "Por que existem estações do ano?",
+        "a": "As estações resultam da inclinação do eixo terrestre, de cerca de 23,5 graus em relação ao plano da órbita. Durante metade do ano, o hemisfério norte está inclinado em direção ao Sol e recebe mais luz direta (verão), enquanto o sul fica mais frio (inverno). Seis meses depois, a situação se inverte. Próximo ao equador, a inclinação tem pouco efeito, e as estações são definidas pelas chuvas, criando as estações úmida e seca."
+      }
+    ],
+    "related": ["sol", "lua", "mar", "verao", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "agua",
+    "locale": "pt",
+    "keyword": "Água",
+    "matchPatterns": ["agua", "água", "h2o", "hidratação", "hidratacao"],
+    "topic": "sciences",
+    "title": "Água: a molécula da vida, ciclo hidrológico e crise hídrica global",
+    "description": "Tudo sobre a água: propriedades únicas da molécula H2O, ciclo hidrológico, importância biológica e crise hídrica do século XXI.",
+    "emoji": "💧",
+    "intro": "A água é a substância mais comum na superfície da Terra e a mais essencial para a vida como a conhecemos. Toda forma de vida descoberta até hoje depende dela, e a busca por água em outros mundos é praticamente sinônimo da busca por vida extraterrestre. Quimicamente, a água é uma molécula simples: dois átomos de hidrogênio ligados a um de oxigênio, fórmula H2O. Mas suas propriedades são extraordinariamente peculiares e únicas em comparação com outras moléculas similares. A geometria angular da molécula (cerca de 104,5 graus) e a polaridade resultante fazem com que a água forme pontes de hidrogênio entre moléculas vizinhas, o que explica boa parte de seu comportamento incomum. Ela é menos densa quando sólida do que líquida, razão pela qual o gelo flutua, salvando vidas aquáticas durante invernos. Ela tem elevadíssima capacidade térmica, regulando o clima global e mantendo nossa temperatura corporal estável. Ela é solvente quase universal, dissolvendo mais substâncias que qualquer outro líquido conhecido. O corpo humano é composto por cerca de 60% de água, e perder apenas 2% leva à desidratação. No moomz, debates sobre água engarrafada versus torneira aparecem com frequência, e a verdade é mais complexa do que parece. Globalmente, mais de 2 bilhões de pessoas ainda não têm acesso seguro a água potável, e a crise hídrica é uma das emergências mais urgentes do nosso tempo.",
+    "sections": [
+      {
+        "h": "O ciclo hidrológico: a água em movimento",
+        "body": "A água da Terra está em movimento perpétuo através do ciclo hidrológico, mantido pela energia solar e pela gravidade. Tudo começa com a evaporação dos oceanos, que liberam diariamente cerca de 1 trilhão de toneladas de água para a atmosfera. Essa água ascende como vapor invisível, esfria nas alturas e se condensa em pequenas gotículas que formam nuvens. Quando as gotículas se aglomeram o suficiente, caem como precipitação: chuva, neve, granizo ou orvalho. Parte da água que cai sobre os continentes infiltra-se no solo e recarrega aquíferos subterrâneos, alguns dos quais demoram milhares de anos para se renovar. O lençol Guarani, sob Brasil, Argentina, Paraguai e Uruguai, é um dos maiores reservatórios do mundo. Outra parte escorre em rios que retornam aos oceanos. A vegetação contribui pela transpiração, processo em que plantas liberam vapor pelas folhas. Na Amazônia, esse fenômeno é tão intenso que a floresta gera seus próprios rios voadores, correntes de umidade que levam chuva para o sul do Brasil e países vizinhos. O ciclo é um sistema fechado em escala planetária, mas a distribuição é profundamente desigual: alguns lugares recebem chuvas torrenciais, outros vivem secas crônicas."
+      },
+      {
+        "h": "Água potável, distribuição desigual e crise hídrica",
+        "body": "Apenas 2,5% da água do planeta é doce, e grande parte dela está congelada nas calotas polares e geleiras. A fração efetivamente disponível para consumo humano em rios, lagos e aquíferos representa menos de 1% do total. Essa água preciosa é distribuída de forma muito desigual: o Brasil detém cerca de 12% da água doce mundial, enquanto regiões inteiras do Oriente Médio e Norte da África enfrentam escassez crônica. Mesmo em países ricos em água, a poluição compromete fontes inteiras. Os oceanos plásticos, esgotos não tratados, agrotóxicos e contaminantes industriais ameaçam reservas. Em São Paulo, a crise hídrica de 2014-2015 mostrou como uma metrópole pode ficar perto do colapso. Lisboa e Madrid também enfrentam estresse hídrico periódico. A Cidade do Cabo, em 2018, esteve a poucos dias do Dia Zero quando as torneiras seriam fechadas. Tecnologias como dessalinização (cada vez mais eficiente), reúso de água, captação de chuva e redes inteligentes oferecem soluções, mas exigem investimento massivo. A ONU declara o acesso à água como direito humano fundamental, mas a realidade fica longe disso para mais de 2 bilhões de pessoas."
+      },
+      {
+        "h": "Água engarrafada versus torneira: o debate",
+        "body": "A indústria da água engarrafada movimenta mais de 300 bilhões de dólares globalmente por ano e cresce sem parar, especialmente em países emergentes. Marcas como Evian, Perrier, Fiji, Voss e tantas outras prometem pureza, mineralidade e até bem-estar. A realidade é mais nuançada. Em países desenvolvidos com infraestrutura sanitária boa, a água da torneira costuma ser segura, controlada por padrões rígidos e às vezes até mais testada que a engarrafada. Em Portugal, por exemplo, a água pública passa por dezenas de análises e é potável em quase todas as zonas. No Brasil, a qualidade varia muito por região, e muitas pessoas optam por filtros ou engarrafada por precaução. Mas o impacto ambiental da água engarrafada é dramático: cada garrafa plástica precisa de quase três vezes seu volume em água para ser produzida, e a maioria não é reciclada efetivamente. Plásticos chegam aos oceanos, mares e até ao nosso próprio corpo na forma de microplásticos. Soluções incluem garrafas reutilizáveis, filtros domésticos de qualidade, sistemas de osmose reversa, e pressão política para melhorar a água pública. No moomz, a discussão sobre escolhas conscientes envolve diretamente esse tipo de decisão diária."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanta água devemos beber por dia?",
+        "a": "A recomendação clássica de 2 litros ou 8 copos por dia é uma média, não regra rígida. Necessidades reais variam com peso, atividade física, clima, alimentação e estado de saúde. Frutas, vegetais e outras bebidas também contribuem para hidratação. Sinais de boa hidratação incluem urina amarelo-clara e ausência de sede frequente. Em climas muito quentes ou durante exercícios intensos, as necessidades aumentam consideravelmente, podendo chegar a 3-4 litros diários."
+      },
+      {
+        "q": "Por que o gelo flutua na água?",
+        "a": "Quando a água congela, suas moléculas se organizam em uma estrutura cristalina hexagonal aberta, com mais espaços entre elas. Resultado: o gelo é cerca de 9% menos denso que a água líquida e flutua. Essa peculiaridade é vital para a vida aquática: durante invernos rigorosos, o gelo se forma na superfície de lagos e rios mas a água abaixo permanece líquida, protegendo peixes e outras espécies. Sem essa propriedade, oceanos congelariam de baixo para cima."
+      },
+      {
+        "q": "É verdade que existe microplástico em quase tudo?",
+        "a": "Sim. Pesquisas recentes encontraram microplásticos na água engarrafada, na torneira, no ar que respiramos, no sangue humano, no leite materno e até em fetos. Estima-se que ingerimos o equivalente a um cartão de crédito em plástico por semana. Os efeitos a longo prazo na saúde ainda são estudados, mas há preocupações sobre disrupção endócrina e inflamação crônica. Reduzir uso de plásticos descartáveis é uma das ações mais imediatas que cada um pode tomar."
+      },
+      {
+        "q": "Por que a água do mar é salgada?",
+        "a": "A água da chuva, ligeiramente ácida pelo CO2 dissolvido, erode rochas continentais e dissolve sais que são levados pelos rios até os oceanos. Ao longo de bilhões de anos, esses sais se acumularam. A salinidade média marinha é de cerca de 35 gramas por litro, mas varia regionalmente: o Mar Morto chega a 340 g/l, enquanto o Báltico tem só 7 g/l. Beber água do mar é perigoso porque seu sal exige mais água para ser eliminado pelos rins, agravando a desidratação."
+      }
+    ],
+    "related": ["mar", "terra", "sol", "verao", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fogo",
+    "locale": "pt",
+    "keyword": "Fogo",
+    "matchPatterns": ["fogo", "chama", "combustão", "combustao", "incendio", "incêndio"],
+    "topic": "sciences",
+    "title": "Fogo: química da combustão, domesticação humana e incêndios florestais",
+    "description": "A ciência do fogo: química da combustão, descoberta humana, simbolismo cultural e a crescente ameaça dos megaincêndios florestais.",
+    "emoji": "🔥",
+    "intro": "O fogo é uma das forças mais transformadoras da história humana. Sua domesticação, ocorrida possivelmente há mais de um milhão de anos pelo Homo erectus na África, mudou para sempre o curso da nossa espécie. Aprender a controlar o fogo significou poder cozinhar alimentos (o que liberou mais nutrientes e permitiu que nossos cérebros crescessem), aquecer cavernas em invernos rigorosos, afastar predadores e estender o dia útil para além do pôr do sol. Quimicamente, o fogo é uma reação de oxidação rápida, geralmente envolvendo um combustível (orgânico ou inorgânico) e um oxidante (normalmente o oxigênio do ar) acima de uma temperatura mínima chamada ponto de ignição. O resultado é a libertação de calor, luz e novos compostos químicos como dióxido de carbono e água. As chamas que vemos são plasma incandescente, gases tão quentes que emitem luz visível. A cor das chamas indica a temperatura: amarela está em torno de 1.000 graus, laranja em torno de 1.200, branca pode passar de 1.500. No moomz, o fogo aparece como metáfora de paixão, intensidade e energia transformadora. Mas além das metáforas, o fogo ainda é uma força crítica do nosso tempo, com megaincêndios florestais cada vez mais frequentes e intensos por causa das mudanças climáticas, ameaçando ecossistemas inteiros e milhões de vidas.",
+    "sections": [
+      {
+        "h": "A química do fogo: o triângulo da combustão",
+        "body": "Para haver fogo, três elementos precisam estar simultaneamente presentes: combustível, oxidante e calor. É o famoso triângulo do fogo. Remova qualquer um e a chama se apaga. O combustível pode ser sólido (madeira, papel, carvão), líquido (gasolina, álcool, óleo) ou gasoso (metano, propano, hidrogênio). O oxidante é geralmente o oxigênio da atmosfera, embora em situações especiais outros oxidantes como cloro ou flúor possam alimentar reações similares. O calor precisa atingir o ponto de ignição da substância: a madeira começa a queimar em torno de 300 graus, a gasolina em apenas 50 graus, o magnésio metálico em mais de 470. Uma vez iniciado, o fogo se autossustenta porque libera mais calor do que precisa para continuar. A combustão completa libera principalmente CO2 e vapor d'água. A combustão incompleta, com oxigênio insuficiente, produz monóxido de carbono (gás invisível, inodoro e letal), fuligem e outros compostos tóxicos. Por isso lareiras precisam de boa ventilação e detectores de CO são essenciais em casas com aquecedores a gás. Bombeiros usam o triângulo para combater incêndios: resfriam com água (removendo calor), abafam com espuma (removendo oxigênio) ou removem o combustível."
+      },
+      {
+        "h": "A domesticação do fogo na evolução humana",
+        "body": "Antropólogos debatem há décadas exatamente quando os humanos começaram a controlar o fogo. Evidências em Wonderwerk, na África do Sul, sugerem uso controlado há cerca de 1 milhão de anos. Outras descobertas em Israel apontam para 800 mil anos atrás. O que está claro é que essa habilidade transformou a espécie. Cozinhar alimentos quebra proteínas e amidos, tornando-os mais digestíveis e nutritivos. Antropólogos como Richard Wrangham argumentam que sem cozinhar, nossos cérebros nunca teriam atingido o tamanho atual, porque eles consomem 20% da nossa energia em repouso. O fogo também permitiu a expansão para climas frios, levando humanos modernos para a Europa, Sibéria e além. Em termos sociais, a fogueira tornou-se centro da vida comunitária, lugar de histórias, rituais e formação de laços. Estudos sobre comunidades Kalahari mostram que conversas noturnas em torno do fogo são fundamentalmente diferentes das diurnas, mais focadas em mitos, espiritualidade e personagens ausentes. Ferramentas de pedra ficaram melhores quando aquecidas, cerâmica e metalurgia exigiram domínio fino do calor. O fogo foi o primeiro grande tecnologia humana, e nada do que viria depois teria sido possível sem ele."
+      },
+      {
+        "h": "Megaincêndios florestais e mudanças climáticas",
+        "body": "Incêndios florestais sempre fizeram parte da natureza, e muitos ecossistemas evoluíram dependendo deles. Algumas árvores como eucaliptos australianos têm sementes que só germinam após exposição ao calor do fogo. Pradarias inteiras precisam de queimadas periódicas para se renovar. Mas o que estamos vendo hoje é radicalmente diferente: megaincêndios cada vez mais frequentes, intensos e devastadores, alimentados pelas mudanças climáticas. As temporadas de fogo se estenderam, secas mais longas deixam vegetação mais inflamável, e ventos extremos espalham as chamas rapidamente. A Austrália em 2019-2020 perdeu 18 milhões de hectares, com 3 bilhões de animais mortos ou deslocados. A Amazônia tem sofrido recordes anuais de queimadas, muitas iniciadas para abrir pasto. A Califórnia, o Mediterrâneo, a Sibéria, a Grécia, Portugal e Espanha viveram tragédias recorrentes. Em Portugal, o incêndio de Pedrógão Grande em 2017 matou 66 pessoas, marca dramática da nova realidade. Combate exige tecnologia (drones, modelagem por inteligência artificial, helicópteros) mas também prevenção: gestão de combustível, queimas controladas, infraestrutura defensiva, e principalmente combate às causas profundas que são o aquecimento global e as alterações de uso do solo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Por que as chamas têm cores diferentes?",
+        "a": "A cor das chamas depende principalmente da temperatura e da composição química do combustível. Chamas frias parecem vermelhas ou laranjas, médias amarelas, e muito quentes ficam azuis ou brancas. Diferentes metais produzem cores características: cobre dá verde, sódio amarelo brilhante, lítio vermelho, potássio violeta. É exatamente esse princípio que está por trás dos fogos de artifício, onde sais metálicos específicos são adicionados para criar cores espetaculares."
+      },
+      {
+        "q": "Por que não devemos jogar água em fogo de óleo?",
+        "a": "Óleo aquecido pode ultrapassar 300 graus Celsius. Ao despejar água em cima, ela imediatamente vira vapor, expandindo cerca de 1.700 vezes em volume e ejetando óleo em chamas explosivamente. Pode causar queimaduras graves e espalhar o fogo. O correto é abafar com tampa metálica ou pano úmido, ou usar extintor de classe K. Bicarbonato de sódio também funciona para fogos pequenos, mas nunca farinha (pode explodir como poeira combustível)."
+      },
+      {
+        "q": "Quando os humanos descobriram o fogo?",
+        "a": "Evidências mais antigas de uso controlado do fogo datam de cerca de 1 milhão de anos, em Wonderwerk na África do Sul, atribuídas ao Homo erectus. Alguns sites em Israel sugerem cerca de 800 mil anos. O uso sistemático para cozinhar e proteção tornou-se generalizado há cerca de 400 mil anos. A capacidade de produzir fogo deliberadamente (com pederneira ou fricção) veio depois, possivelmente em torno de 100 mil anos atrás. Antes disso, humanos provavelmente colhiam fogo de causas naturais e o mantinham aceso."
+      },
+      {
+        "q": "O que é o ponto de fulgor?",
+        "a": "Ponto de fulgor é a temperatura mínima na qual um líquido emite vapores suficientes para formar uma mistura inflamável com o ar. É diferente do ponto de ignição (onde a substância pega fogo sozinha). O ponto de fulgor da gasolina é negativo (cerca de 43 graus abaixo de zero), por isso ela é tão perigosa. O do diesel está em torno de 60 graus, e o do azeite é de aproximadamente 200 graus. Esses números regulam como combustíveis são armazenados, transportados e manuseados com segurança."
+      }
+    ],
+    "related": ["agua", "sol", "verao", "tempestade", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nuvem",
+    "locale": "pt",
+    "keyword": "Nuvem",
+    "matchPatterns": ["nuvem", "nuvens", "nimbus", "cirrus", "atmosfera"],
+    "topic": "sciences",
+    "title": "Nuvem: tipos, formação atmosférica e seu papel no clima global",
+    "description": "Tudo sobre nuvens: como se formam, os 10 tipos principais, papel no clima, previsão do tempo e fenômenos meteorológicos extremos.",
+    "emoji": "☁️",
+    "intro": "As nuvens são massas visíveis de minúsculas gotículas de água ou cristais de gelo suspensos na atmosfera. Embora pareçam flutuar levemente, uma nuvem cumulus média pode pesar mais de 500 toneladas, equivalente a 100 elefantes adultos. O que as mantém no ar é que as gotículas individuais são tão pequenas (cerca de 20 micrômetros) que caem extremamente lentamente, mais lento que correntes de ar ascendentes. A formação das nuvens é um processo fascinante de física atmosférica. Quando o ar úmido sobe e esfria, atinge o ponto de orvalho, em que o vapor d'água se condensa em torno de partículas microscópicas chamadas núcleos de condensação (poeira, sal marinho, fumaça, pólen). Bilhões dessas gotículas formam a nuvem. Em altitudes maiores, abaixo de zero grau, gotículas congelam em cristais de gelo, formando nuvens altas como os cirros. A classificação moderna das nuvens vem do farmacêutico inglês Luke Howard, que em 1802 propôs os termos cirrus, stratus, cumulus e nimbus, usados até hoje. No moomz, observar nuvens vira passatempo poético e até mesmo terapia, prática conhecida como cloud watching. Mas além da contemplação, as nuvens têm papel crucial no clima planetário, regulando temperatura ao refletir luz solar e reter calor terrestre. Compreender as nuvens é compreender o planeta e antecipar o que vem amanhã.",
+    "sections": [
+      {
+        "h": "Os 10 tipos principais de nuvens",
+        "body": "A Organização Meteorológica Mundial classifica nuvens em dez gêneros principais, agrupados por altura. Nuvens altas (acima de 6 km) incluem cirrus (filamentos brancos delicados), cirrocumulus (pequenos flocos) e cirrostratus (véu transparente). Nuvens médias (2 a 6 km) compreendem altocumulus (massas brancas ou cinza arredondadas) e altostratus (camada cinza sem detalhes). Nuvens baixas (até 2 km) incluem stratus (camada uniforme baixa), stratocumulus (massas arredondadas em baixa altitude) e nimbostratus (camada espessa cinza-escura que produz chuva contínua). Nuvens de desenvolvimento vertical são as mais espetaculares: cumulus (algodões brancos típicos de dias bonitos) e cumulonimbus (gigantes tempestuosos que podem chegar a 18 km de altura, com forma de bigorna no topo). Observar e identificar nuvens ajuda a prever o tempo. Cirros aparecendo de oeste podem indicar tempestade chegando em 24 horas. Cumulus se desenvolvendo verticalmente sugerem instabilidade atmosférica e possibilidade de chuva. Cumulonimbus prenunciam tempestades severas com trovões, relâmpagos, granizo e até tornados. Aplicativos modernos e satélites detalham tudo, mas o céu continua acessível ao observador atento."
+      },
+      {
+        "h": "Nuvens e clima: regulação térmica global",
+        "body": "As nuvens desempenham papel duplo e complexo no clima da Terra. Por um lado, refletem cerca de 30% da radiação solar que chega ao planeta de volta ao espaço, exercendo efeito de resfriamento global. Esse fenômeno, chamado albedo das nuvens, é especialmente forte em nuvens brancas e baixas como stratus marinhos. Por outro lado, nuvens também aprisionam radiação infravermelha emitida pela superfície terrestre, contribuindo para o efeito estufa e aquecimento. Esse efeito é mais forte em nuvens altas e finas como cirros. O balanço entre esses dois efeitos varia conforme tipo, altitude, latitude e estação do ano. Modelar nuvens corretamente é um dos maiores desafios das simulações climáticas e fonte principal de incerteza em projeções de aquecimento global. Pequenas mudanças na cobertura de nuvens podem amplificar ou atenuar dramaticamente o aquecimento causado por emissões de CO2. Projetos como CLOUD do CERN investigam como aerossóis afetam formação de nuvens, com possíveis consequências para entender variações climáticas naturais. Tecnologias controversas como geoengenharia solar propõem clarear nuvens marinhas artificialmente para combater aquecimento, mas suscitam debates éticos profundos."
+      },
+      {
+        "h": "Fenômenos meteorológicos espetaculares",
+        "body": "Nuvens dão origem a fenômenos atmosféricos espetaculares e por vezes devastadores. Tempestades cumulonimbus podem produzir relâmpagos com temperatura de 30 mil graus Celsius, cinco vezes a temperatura da superfície do Sol. O som do trovão é o ar superaquecido se expandindo explosivamente. Granizo se forma em correntes ascendentes fortes que sustentam pedras de gelo até que cresçam o suficiente para cair, às vezes com tamanhos surreais como em uma tempestade no Texas em 2003 onde caiu uma pedra de 18 cm de diâmetro. Tornados nascem em supercélulas, tempestades muito organizadas com rotação interna; suas velocidades de vento podem ultrapassar 500 km/h. Furacões e tufões são gigantes tropicais que extraem energia de oceanos quentes; o Tip em 1979 atingiu 2.220 km de diâmetro. Existem também nuvens raras e maravilhosas: lenticulares parecendo discos voadores em torno de montanhas, mammatus pendendo como sacos invertidos antes de tempestades severas, nuvens noctilucentes brilhando azuladas em céu de verão polar, asperitas (oficialmente reconhecidas em 2017) com superfície ondulada surreal. Cada nuvem tem uma história, uma física e por vezes uma beleza única que vale parar para observar."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Por que as nuvens são brancas?",
+        "a": "Nuvens são brancas porque suas gotículas dispersam todas as cores do espectro solar de forma quase igual. Esse fenômeno chamado espalhamento de Mie acontece quando partículas têm tamanho comparável ao comprimento de onda da luz. Quando nuvens ficam muito espessas, menos luz chega à base, e elas aparecem cinza ou pretas. Nuvens com gelo refletem ainda mais intensamente. Ao amanhecer e entardecer, podem ficar rosadas, alaranjadas ou vermelhas pela mudança de ângulo solar."
+      },
+      {
+        "q": "Quanto pesa uma nuvem?",
+        "a": "Embora pareçam flutuantes, nuvens são surpreendentemente pesadas. Uma nuvem cumulus média de 1 quilômetro cúbico contém cerca de 500 toneladas de água. Cumulonimbus gigantescos podem chegar a milhões de toneladas. O que as mantém no ar é que essa massa está distribuída em bilhões de gotículas individuais tão pequenas que sua velocidade de queda é menor que correntes ascendentes do ar. Quando gotículas crescem o suficiente, caem como chuva."
+      },
+      {
+        "q": "Como é a previsão do tempo feita hoje?",
+        "a": "A meteorologia moderna combina dados de satélites, radares, balões atmosféricos, estações de superfície, navios, aviões e modelos computacionais complexos. Supercomputadores resolvem equações da física atmosférica em grades tridimensionais, simulando como o sistema evolui. Previsões para 24-48 horas são bastante confiáveis, com mais de 90% de acerto. Para 7 dias, a precisão cai mas continua útil. Além disso, ainda há grande incerteza devido ao caráter caótico da atmosfera, fenômeno descoberto por Edward Lorenz nos anos 1960."
+      },
+      {
+        "q": "Por que algumas nuvens são vermelhas no pôr do sol?",
+        "a": "Ao pôr do sol, a luz solar atravessa muito mais atmosfera para chegar até nós, comparada ao meio-dia. Cores de comprimento curto (azul, violeta, verde) são espalhadas e dispersas pelo caminho, restando principalmente os tons vermelhos, laranjas e amarelos. Nuvens nesse momento refletem essa luz colorida, criando os céus dramáticos famosos. Poluição e cinzas vulcânicas podem intensificar ainda mais, como após erupções como a do Krakatoa em 1883 que tingiu céus do mundo inteiro por anos."
+      }
+    ],
+    "related": ["agua", "sol", "tempestade", "verao", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tempestade",
+    "locale": "pt",
+    "keyword": "Tempestade",
+    "matchPatterns": ["tempestade", "tempestades", "trovoada", "raio", "furacão", "furacao"],
+    "topic": "sciences",
+    "title": "Tempestade: trovões, raios e os ciclones tropicais mais devastadores",
+    "description": "A ciência das tempestades: formação atmosférica, raios e trovões, ciclones tropicais, alertas meteorológicos e o impacto das mudanças climáticas.",
+    "emoji": "⛈️",
+    "intro": "Tempestades são entre os fenômenos atmosféricos mais espetaculares e perigosos do planeta. Elas podem variar de simples trovoadas locais que duram alguns minutos a ciclones tropicais que devastam países inteiros durante dias. O que todas têm em comum é a presença de instabilidade atmosférica intensa, com correntes de ar ascendentes carregadas de umidade. Quando o ar quente e úmido próximo à superfície sobe rapidamente, ele esfria e a umidade condensa em nuvens cumulonimbus. Dentro dessas nuvens monstruosas, que podem ultrapassar 18 km de altura, processos elétricos complexos separam cargas positivas e negativas, levando a descargas elétricas que conhecemos como raios. Globalmente, ocorrem cerca de 100 raios por segundo no planeta, um total de 8 milhões por dia. Cada raio aquece o ar em torno a aproximadamente 30 mil graus Celsius, mais quente que a superfície do Sol, fazendo o ar se expandir explosivamente e gerar o som do trovão. No Brasil, lugares como o Pantanal e a Amazônia estão entre os mais propensos a tempestades elétricas do mundo. Em Portugal, tempestades costumam vir do Atlântico, especialmente no inverno. No moomz, falamos de tempestades como metáfora emocional, mas também precisamos respeitar a fúria real dessas forças naturais, especialmente em um mundo onde a crise climática intensifica eventos extremos a cada ano.",
+    "sections": [
+      {
+        "h": "Anatomia de uma tempestade",
+        "body": "Uma tempestade típica passa por três fases distintas. A fase de desenvolvimento ou cumulus envolve correntes de ar ascendentes que constroem a nuvem verticalmente, atingindo dezenas de milhares de metros. A fase madura é caracterizada por chuva intensa, granizo, fortes ventos e atividade elétrica, com correntes ascendentes e descendentes coexistindo dentro da mesma nuvem. A fase de dissipação ocorre quando o ar frio descendente domina e corta o fornecimento de ar quente alimentando a tempestade. Em tempestades severas e organizadas como supercélulas, esse ciclo pode durar várias horas. As supercélulas têm rotação interna chamada mesociclone, e são as únicas tempestades capazes de gerar tornados violentos. O famoso Tornado Alley nos Estados Unidos vê centenas desses fenômenos por ano. No hemisfério sul, supercélulas ocorrem na Argentina, Uruguai e sul do Brasil, criando alguns dos tornados mais intensos fora dos Estados Unidos. Em Portugal, embora raros, tornados ocorrem ocasionalmente, especialmente no Alentejo e Algarve. Sistemas multicelulares e linhas de instabilidade também produzem chuvas torrenciais, alagamentos e prejuízos massivos sem necessariamente envolver tornados."
+      },
+      {
+        "h": "Raios e trovões: a eletricidade do céu",
+        "body": "A formação de raios começa dentro de cumulonimbus quando colisões entre cristais de gelo, granizo e gotículas geram separação de cargas elétricas. Cargas positivas tendem a se acumular no topo das nuvens, negativas na base. A diferença de potencial entre a nuvem e o solo (ou entre nuvens) pode chegar a centenas de milhões de volts, ultrapassando a capacidade isolante do ar. Quando isso acontece, ocorre uma descarga, e em milionésimos de segundo um canal de plasma se forma transportando corrente de até 30 mil ampères. Cada raio aquece o ar circundante quase instantaneamente, fazendo-o expandir-se explosivamente e gerando ondas sonoras que percebemos como trovão. Como a luz viaja muito mais rápido que o som, vemos o relâmpago antes de ouvir o trovão. Cada três segundos de intervalo equivale a aproximadamente um quilômetro de distância. No mundo, certos lugares concentram tempestades elétricas: o Lago Maracaibo na Venezuela tem mais de 250 noites por ano com raios, fenômeno único conhecido como Catatumbo Lightning. Raios matam centenas de pessoas todo ano no mundo. Procurar abrigo em estruturas sólidas, ficar longe de árvores isoladas e evitar metais expostos são medidas básicas de segurança."
+      },
+      {
+        "h": "Furacões, ciclones e mudanças climáticas",
+        "body": "Ciclones tropicais são as tempestades mais poderosas do planeta. Recebem diferentes nomes conforme a região: furacões no Atlântico e leste do Pacífico, tufões no oeste do Pacífico, ciclones no Índico. Formam-se sobre oceanos quentes (temperatura acima de 26 graus) onde a evaporação intensa alimenta correntes ascendentes que se organizam em torno de um centro de baixa pressão, criando rotação por efeito Coriolis. Podem atingir mais de 1000 km de diâmetro e ventos superiores a 250 km/h. O Tip em 1979 detém o recorde de tamanho com 2.220 km de extensão. Furacões Katrina em 2005 e Maria em 2017 mataram milhares e causaram dezenas de bilhões em prejuízos. As mudanças climáticas estão intensificando esses fenômenos: oceanos mais quentes fornecem mais energia, e nível do mar mais alto agrava inundações costeiras. Estudos do IPCC indicam que furacões podem não ficar mais frequentes, mas tendem a ser mais intensos, com maior proporção de categorias 4 e 5. Sistemas de alerta precoce, melhorias em construções resistentes e evacuações planejadas salvam vidas, mas o impacto econômico e social cresce ano a ano. O Brasil é relativamente protegido de furacões clássicos, mas o ciclone subtropical Catarina em 2004 surpreendeu o mundo ao atingir Santa Catarina, evento raríssimo no Atlântico Sul."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Por que vemos o raio antes de ouvir o trovão?",
+        "a": "Porque a luz viaja muito mais rápido que o som. A luz se propaga a quase 300 mil quilômetros por segundo, enquanto o som percorre apenas cerca de 340 metros por segundo no ar. Quanto mais distante o raio, maior o intervalo entre vê-lo e ouvi-lo. Como regra prática, conte os segundos entre o relâmpago e o trovão e divida por 3 para obter a distância em quilômetros. Se você ouvir o trovão imediatamente após ver o raio, ele caiu muito perto e o risco é máximo."
+      },
+      {
+        "q": "É verdade que raios não caem duas vezes no mesmo lugar?",
+        "a": "Mito completo. Raios frequentemente caem múltiplas vezes no mesmo lugar, especialmente em estruturas altas com bons condutores. O Empire State Building em Nova York é atingido cerca de 25 vezes por ano, e o Cristo Redentor no Rio de Janeiro recebe vários raios anuais, sendo equipado com sistemas de proteção. Para-raios funcionam exatamente porque atraem descargas elétricas, conduzindo-as com segurança até o solo e protegendo o resto da estrutura."
+      },
+      {
+        "q": "Qual foi o furacão mais destruidor da história?",
+        "a": "Em termos de mortes, o Ciclone Bhola que atingiu Bangladesh em 1970 matou entre 300 mil e 500 mil pessoas, sendo o mais letal da história moderna. Em prejuízos econômicos, o Furacão Katrina (2005, Nova Orleans) causou cerca de 125 bilhões de dólares em danos. O Furacão Maria devastou Porto Rico em 2017. O Tufão Haiyan nas Filipinas em 2013 teve ventos de 315 km/h, entre os mais fortes já medidos. Cada vez mais países adotam sistemas de alerta para reduzir o número de vítimas."
+      },
+      {
+        "q": "Por que tornados são tão raros no Brasil e Portugal?",
+        "a": "Tornados precisam de condições atmosféricas muito específicas: massa de ar quente e úmida em colisão com massa fria e seca, cisalhamento vertical do vento e instabilidade severa. No centro dos Estados Unidos, planícies amplas favorecem essas combinações com frequência. No Brasil, condições adequadas ocorrem mais frequentemente no sul, próximo à fronteira com Argentina. Em Portugal, o clima atlântico mais estável dificulta a formação. Mas com mudanças climáticas, esses padrões podem mudar, e eventos atípicos têm aumentado globalmente."
+      }
+    ],
+    "related": ["nuvem", "agua", "fogo", "verao", "ia"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "terremoto",
+    "locale": "pt",
+    "keyword": "Terremoto",
+    "matchPatterns": ["terremoto", "tremor", "sismo", "abalo sismico", "abalo sísmico"],
+    "topic": "sciences",
+    "title": "Terremoto: tectônica, escala Richter e os maiores sismos da história",
+    "description": "Tudo sobre terremotos: placas tectônicas, como medir a intensidade, prevenção, tsunamis e os sismos mais devastadores já registrados.",
+    "emoji": "🌋",
+    "intro": "Terremotos são vibrações da crosta terrestre causadas principalmente pelo movimento de placas tectônicas. A teoria das placas tectônicas, consolidada nos anos 1960 graças ao trabalho de cientistas como Harry Hess e John Tuzo Wilson, mostrou que a superfície da Terra é fragmentada em cerca de 15 grandes placas e várias menores, que flutuam sobre o manto e se deslocam alguns centímetros por ano. Quando essas placas colidem, se afastam ou deslizam lateralmente, acumulam tensão. Eventualmente, a tensão supera a resistência das rochas, que se quebram subitamente, liberando energia em forma de ondas sísmicas. O ponto de origem dentro da Terra é o hipocentro ou foco, e a projeção na superfície é o epicentro. As ondas sísmicas viajam pelo planeta inteiro, sendo registradas por sismógrafos em todo o mundo. Existem ondas P (primárias, mais rápidas, longitudinais), S (secundárias, transversais) e ondas de superfície (Love e Rayleigh), que causam a maior parte dos danos. No moomz, falar sobre terremoto pode ser metáfora para grandes mudanças pessoais, mas o fenômeno real é uma das forças mais destruidoras da natureza. Portugal viveu o terrível terremoto de 1755 que devastou Lisboa, marco histórico que mudou para sempre a forma como a humanidade pensa sobre desastres naturais e segurança em construções.",
+    "sections": [
+      {
+        "h": "Placas tectônicas e zonas de risco sísmico",
+        "body": "Os terremotos não acontecem aleatoriamente pelo planeta. Eles concentram-se principalmente nas bordas de placas tectônicas, onde as tensões se acumulam. O famoso Anel de Fogo do Pacífico, que envolve a borda do oceano Pacífico, é responsável por cerca de 90% dos terremotos mundiais. Países como Japão, Indonésia, Chile, Peru, Filipinas, Nova Zelândia e a costa oeste dos Estados Unidos fazem parte dessa região. Outra zona ativa é a faixa Alpide, do Mediterrâneo até o Himalaia, passando por Turquia, Irã e Paquistão. Portugal fica numa zona moderada de risco, na fronteira entre as placas africana e eurásica, sendo o sul do país (Algarve) e a região de Lisboa mais vulneráveis. O Brasil está no interior da placa Sul-Americana e tem sismicidade relativamente baixa, mas terremotos menores ocorrem em regiões como o Acre e o Mato Grosso. Tipos diferentes de bordas geram tipos diferentes de terremotos. Bordas convergentes (onde placas colidem) geram os mais poderosos, especialmente em zonas de subducção onde uma placa mergulha sob outra. Bordas divergentes (onde placas se afastam) geram terremotos menores e contínuos. Bordas transformantes (onde placas deslizam lateralmente) podem gerar grandes sismos, como na Falha de San Andreas na Califórnia."
+      },
+      {
+        "h": "Como medir terremotos: Richter e Mercalli",
+        "body": "Existem duas formas principais de medir terremotos. A escala Richter, desenvolvida por Charles Richter em 1935, mede a magnitude do sismo, ou seja, a quantidade de energia liberada na fonte. É uma escala logarítmica: cada ponto representa dez vezes mais amplitude e cerca de 32 vezes mais energia. Um sismo de magnitude 7 libera cerca de 1.000 vezes mais energia que um de magnitude 5. Atualmente, sismólogos usam uma versão mais precisa chamada magnitude de momento, que dá resultados similares para sismos médios mas é mais confiável para os muito grandes. Já a escala Mercalli Modificada mede a intensidade percebida, baseada nos efeitos observáveis sobre pessoas, construções e paisagem. Vai de I (não percebido) a XII (destruição total). A intensidade varia conforme a distância do epicentro e tipo de solo. Construções modernas em zonas de risco são projetadas para resistir ao sismo: estruturas flexíveis, fundações isoladas, materiais reforçados. No Japão, todos os arranha-céus são construídos com tecnologia anti-sísmica avançada. Em zonas como Lisboa, o código de construção considera a história sísmica regional e exige adaptações específicas. Educação da população em como reagir é tão importante quanto engenharia: agachar, cobrir e segurar (drop, cover, hold on)."
+      },
+      {
+        "h": "Tsunamis e os maiores terremotos da história",
+        "body": "Quando grandes terremotos ocorrem no fundo do oceano, podem deslocar enormes massas de água, gerando tsunamis. Essas ondas podem viajar a até 800 km/h em alto-mar com pouca altura, mas ao chegarem à costa rasa, desaceleram e crescem dramaticamente, podendo atingir dezenas de metros. O tsunami de 2004 no Oceano Índico, originado por um sismo de magnitude 9,1 ao largo de Sumatra, matou mais de 230 mil pessoas em 14 países. O tsunami de 2011 no Japão, gerado por sismo de magnitude 9,1, matou cerca de 18 mil pessoas e desencadeou o acidente nuclear de Fukushima. Os maiores terremotos já registrados em magnitude foram o de Valdivia, Chile, em 1960 (magnitude 9,5), o do Alasca em 1964 (9,2), e o de Sumatra em 2004 (9,1). Em mortes, o terremoto de Shaanxi na China em 1556 matou estimados 830 mil pessoas, ainda hoje o mais letal da história. O terremoto de Lisboa em 1755 (estimado em magnitude 8,5 a 9) atingiu a cidade na manhã de 1 de novembro, dia de Todos os Santos. Seguido de três tsunamis e incêndios que duraram dias, matou possivelmente 50 mil pessoas e influenciou profundamente filósofos como Voltaire e Rousseau. Foi também o primeiro terremoto estudado cientificamente, marcando o nascimento da sismologia moderna."
+      }
+    ],
+    "faq": [
+      {
+        "q": "É possível prever um terremoto?",
+        "a": "Não, ainda não. Apesar de décadas de pesquisa, ciência sísmica não consegue prever com precisão onde, quando e com que magnitude um terremoto vai ocorrer. O que existe é avaliação probabilística de risco em zonas conhecidas, sistemas de alerta precoce que detectam ondas P (mais rápidas) e enviam aviso segundos antes da chegada das ondas S (mais destrutivas), dando tempo para parar trens, fechar válvulas de gás e proteger-se. Japão e México já têm sistemas operacionais que salvam vidas regularmente."
+      },
+      {
+        "q": "O que fazer durante um terremoto?",
+        "a": "A regra principal é agachar, cobrir e segurar. Agache-se no chão para não cair, cubra a cabeça e o pescoço com os braços e segure-se em uma mesa ou móvel resistente. Mantenha-se longe de janelas, espelhos, móveis altos e luminárias que possam cair. Se estiver em prédio alto, não use elevador; em rua, vá para área aberta longe de prédios. Após o tremor, esteja preparado para réplicas e siga instruções das autoridades. Manter um kit de emergência (água, alimentos, lanterna, rádio) é recomendado em zonas de risco."
+      },
+      {
+        "q": "Por que o terremoto de Lisboa de 1755 foi tão importante?",
+        "a": "Foi um dos maiores eventos sísmicos da história europeia e mudou o pensamento filosófico, científico e político da época. Atingiu Lisboa em pleno dia religioso, devastou a cidade com tremor, tsunami e incêndios, matando dezenas de milhares. O marquês de Pombal, ministro do rei, organizou resposta moderna pioneira (enterrar mortos, alimentar sobreviventes, reconstruir com padrões anti-sísmicos). O evento abalou a ideia de Providência Divina, alimentou debates filosóficos com Voltaire e Rousseau, e marcou o início da sismologia moderna como ciência sistemática."
+      },
+      {
+        "q": "Existem terremotos no Brasil?",
+        "a": "Sim, embora raros e geralmente fracos. O Brasil está no interior da placa Sul-Americana, longe de bordas tectônicas ativas. Os tremores ocorrem por falhas geológicas internas e tensões transmitidas das bordas. Algumas regiões como Acre, Mato Grosso, Tocantins e nordeste registram sismos com magnitudes 4 a 5 com alguma frequência. O maior registrado no Brasil foi em Mato Grosso em 1955, com magnitude 6,2. Embora não cause grandes destruições, atividade sísmica no Brasil existe e é monitorada por institutos como o IAG-USP e a UnB."
+      }
+    ],
+    "related": ["fogo", "agua", "tempestade", "terra", "ia"],
+    "updatedAt": "2026-05-20"
+  }
+]

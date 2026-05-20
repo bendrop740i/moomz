@@ -1,0 +1,542 @@
+[
+  {
+    "slug": "pizza",
+    "locale": "it",
+    "keyword": "Pizza",
+    "matchPatterns": ["pizza", "pizzeria", "margherita", "napoletana", "pizzaiolo"],
+    "topic": "food",
+    "title": "Pizza — storia, stili e perché è patrimonio UNESCO",
+    "description": "Dalla Margherita di Napoli del 1889 alla romana sottile, dalla newyorkese alla detroit. Tutto sulla pizza, simbolo dell'Italia nel mondo.",
+    "emoji": "🍕",
+    "intro": "La pizza è probabilmente il piatto più universale del pianeta. Si stima che nel mondo si vendano oltre 5 miliardi di pizze l'anno, di cui circa 3 miliardi solo negli Stati Uniti, e oltre 1,5 miliardi in Italia. Eppure, malgrado la sua diffusione globale, la pizza è italianissima fino al midollo: la sua storia moderna inizia ufficialmente nel giugno 1889 a Napoli, quando il pizzaiolo Raffaele Esposito prepara per la regina Margherita di Savoia una pizza tricolore con pomodoro (rosso), mozzarella (bianco) e basilico (verde), battezzata Margherita in suo onore. Il documento di Esposito è ancora conservato. Esistevano già da decenni focacce simili nelle strade napoletane, alimento povero del popolo, ma è questa visita reale che eleva la pizza a icona nazionale. Il 7 dicembre 2017 l'arte del pizzaiolo napoletano è stata inscritta nel patrimonio culturale immateriale dell'UNESCO, riconoscimento storico che protegge il gesto, la tecnica e la tradizione orale. La vera pizza napoletana è regolamentata dal disciplinare AVPN (Associazione Verace Pizza Napoletana): pasta a lunga lievitazione, cottura in forno a legna a 430-485 °C per 60-90 secondi, bordo gonfio (cornicione), centro morbido. Su moomz i sondaggi 'pizza ananas sì o no' o 'Margherita vs Marinara' generano sempre migliaia di voti.",
+    "sections": [
+      {
+        "h": "Le grandi famiglie della pizza",
+        "body": "La pizza napoletana è la matrice: pasta sottile al centro, cornicione gonfio, cottura veloce a fuoco vivo, da mangiare con la forchetta perché il centro è umido. La Vera Pizza Napoletana è protetta dal disciplinare AVPN ed è patrimonio UNESCO. La pizza romana ha due declinazioni: la tonda romana sottile e croccante come un cracker, e la pizza al taglio venduta a peso nei forni di tutta Roma. La pizza newyorkese è nata quando gli emigranti napoletani arrivarono a New York all'inizio del Novecento: fette grandi da piegare a metà per mangiarle camminando, formaggio molto filante, salsa dolce-acida. La pizza Detroit è quadrata, cotta in teglia oliata di origine industriale, con il formaggio che caramellizza sui bordi. La pizza Chicago deep-dish è quasi una torta salata, da mangiare con la forchetta. In Italia ci sono anche la pizza al padellino piemontese, la pinsa romana di farine miste, e la pizza fritta napoletana tradizionale popolare nei vicoli."
+      },
+      {
+        "h": "Come riconoscere una vera pizzeria",
+        "body": "Pochi segnali non ingannano. Carta corta: una vera pizzeria napoletana raramente offre più di 15-20 pizze, perché padroneggia le sue basi e usa pochi ingredienti DOP. Forno a legna visibile, che raggiunge i 430-485 °C con la cupola in mattoni refrattari. Pasta a lunga lievitazione (24-72 ore) che si vede dal cornicione alveolato e leggero. Ingredienti DOP: pomodori San Marzano dell'Agro Sarnese-Nocerino, mozzarella di bufala campana DOP o fior di latte di Agerola, olio extravergine d'oliva, basilico fresco aggiunto a fine cottura. Le foglie di basilico devono essere ancora verdi brillanti, non cotte e annerite. Il prezzo: una vera Margherita a Napoli costa 5-7 €, a Milano 9-12 €, a Roma 8-10 €. Sotto i 6 € fuori dalla Campania è probabilmente pizza industriale. Sopra i 18 € si paga il quartiere o la location turistica più che la qualità."
+      },
+      {
+        "h": "Pizza e socialità: l'arma segreta degli italiani",
+        "body": "La pizza è il piatto sociale per eccellenza. Costa poco, si condivide, non sporca troppo, lascia le mani libere per parlare, è fotogenica per Instagram. Per primo appuntamento è una scelta safe: una pizzeria con tovaglia a quadretti disinnesca l'imbarazzo del ristorante stellato. Una pizza a quattro condita 'in tegame singolo' o tagliata in trancetti è un meccanismo sociale di condivisione potentissimo. Per le serate tra amici è la formula vincente: pizza, birra, chiacchiere fino a tardi. La 'pizza del venerdì sera' è quasi un'istituzione settimanale in molte famiglie italiane. Su moomz tantissime storie di appuntamenti iniziano con una pizza condivisa e un calice di rosso (Chianti, Aglianico, Primitivo). Il classico tranello: la pizza all'ananas. Se l'altro la ama o la odia, è già un mini vibe-check istantaneo della personalità."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché la pizza Margherita si chiama così?",
+        "a": "Nel giugno 1889 il pizzaiolo napoletano Raffaele Esposito preparò una pizza con i colori della bandiera italiana (pomodoro rosso, mozzarella bianca, basilico verde) per la regina Margherita di Savoia in visita a Napoli con il re Umberto I. Le piacque tantissimo e Esposito la battezzò Margherita in suo onore. Esiste un documento storico, la lettera di ringraziamento della casa reale conservata nelle pizzerie napoletane storiche, che attesta l'episodio. Pizze simili esistevano probabilmente già prima, ma questa visita reale ha codificato il nome e fatto entrare la pizza Margherita nella storia gastronomica mondiale."
+      },
+      {
+        "q": "La pizza all'ananas è davvero un'eresia?",
+        "a": "La pizza hawaiana (prosciutto e ananas) fu inventata nel 1962 da Sam Panopoulos, ristoratore greco emigrato in Canada, nella città di Chatham, Ontario. Quindi non ha nulla di italiano né tantomeno hawaiano, è canadese. I puristi italiani la detestano apertamente (un ex presidente islandese scherzò sul volerla proibire). Ma in termini di gusto, il mix dolce-salato funziona ed ha i suoi fan. Su moomz è uno dei sondaggi più discussi: tipicamente il 70-80% degli italiani vota contro, mentre nei paesi anglosassoni il sostegno sale al 50%. È un vero test culturale di tolleranza gastronomica."
+      },
+      {
+        "q": "Perché la pizza napoletana è UNESCO?",
+        "a": "Il 7 dicembre 2017 l'arte del pizzaiolo napoletano è stata inscritta nel patrimonio culturale immateriale dell'UNESCO. Non è la pizza come ricetta a essere protetta, ma il savoir-faire: il gesto di stendere la pasta a mano (mai con il mattarello), la lunga lievitazione, l'uso del forno a legna, la trasmissione orale tra generazioni di pizzaioli napoletani. La candidatura era stata sostenuta da 2 milioni di firme. È il riconoscimento ufficiale che la pizza napoletana è molto più di un fast food: è cultura viva, mestiere artigianale, identità di Napoli e dell'Italia intera proiettata nel mondo."
+      },
+      {
+        "q": "Quanto deve costare una vera Margherita?",
+        "a": "A Napoli, una vera Margherita AVPN in pizzeria storica (Da Michele, Sorbillo, di Matteo) costa tra 4 e 7 €. A Milano o Roma, una Margherita di qualità in pizzeria napoletana certificata costa 8-12 €. Sotto i 6 € fuori dalla Campania, c'è quasi sicuramente un compromesso sulla materia prima (mozzarella industriale, pomodoro in scatola economica). Sopra i 15-18 € si paga il quartiere o la location turistica, più che la qualità della pizza. Le 'gourmet' di pizzaioli noti come Franco Pepe, Gabriele Bonci o Cristina Acidini possono superare i 20 € giustificandolo con ingredienti d'eccellenza. Ma per la Margherita classica, 10 € sono lo standard accettabile."
+      }
+    ],
+    "related": ["pasta", "mozzarella", "carbonara", "vino", "san-valentino"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pasta",
+    "locale": "it",
+    "keyword": "Pasta",
+    "matchPatterns": ["pasta", "spaghetti", "penne", "rigatoni", "carbonara", "pomodoro"],
+    "topic": "food",
+    "title": "Pasta — 350 formati italiani e il piatto più amato al mondo",
+    "description": "L'Italia produce 3,3 milioni di tonnellate di pasta l'anno, ha oltre 350 formati e ne consuma 23 kg pro capite. Tutto sulla pasta.",
+    "emoji": "🍝",
+    "intro": "La pasta è il simbolo per eccellenza della cucina italiana e probabilmente il piatto più rappresentato nel mondo dopo la pizza. L'Italia produce circa 3,3 milioni di tonnellate di pasta l'anno (un terzo della produzione globale), esporta oltre il 60% in più di 200 paesi, e gli italiani ne consumano in media 23 kg pro capite l'anno, primato mondiale assoluto. La pasta secca, fatta solo di semola di grano duro e acqua, ha radici antichissime: la testimonianza scritta più antica è una tavola etrusca del IV secolo a.C. che mostra strumenti per fare la pasta. La leggenda di Marco Polo che avrebbe portato la pasta dalla Cina è un mito ottocentesco infondato: la pasta esisteva già da secoli nel Mediterraneo prima del suo viaggio del 1271-1295. Gli arabi in Sicilia codificarono già nel IX secolo la produzione di pasta secca essiccata al sole. Esistono oltre 350 formati di pasta in Italia, ognuno con tradizione locale e abbinamento sugo ideale. La regola d'oro: ogni sugo ha la sua pasta. Su moomz i sondaggi 'spaghetti vs penne' o 'pasta al dente o ben cotta' rivelano differenze regionali profonde tra Nord e Sud d'Italia.",
+    "sections": [
+      {
+        "h": "I formati di pasta e i loro sughi",
+        "body": "Esiste una grammatica precisa dei formati. Pasta lunga sottile: spaghetti, capellini, vermicelli, perfetti con sughi leggeri all'olio, al pomodoro fresco, alle vongole. Pasta lunga grossa: bucatini, pici, perciatelli, ideali con sughi più ricchi come amatriciana o aglio-olio-peperoncino. Pasta corta liscia: penne lisce, rigatoni, perfette con sughi cremosi alla panna. Pasta corta rigata: penne rigate, fusilli, mezze maniche, trattengono meglio sughi corposi (al ragù, all'arrabbiata, al sugo di salsiccia). Pasta ripiena: ravioli, tortellini, agnolotti, pansoti, ciascuno con il suo ripieno regionale. Pasta da forno: lasagne, cannelloni. Pasta speciale regionale: orecchiette pugliesi (con cime di rapa), trofie liguri (con pesto), bigoli veneti, malloreddus sardi (gnocchetti). La regola è semplice: pasta sottile con sugo leggero, pasta corposa con sugo ricco. Mai mettere il parmigiano sui sughi di pesce, e mai spezzare gli spaghetti."
+      },
+      {
+        "h": "Come si cuoce la pasta perfetta",
+        "body": "La pasta perfetta richiede pochi accorgimenti ma rigore. Acqua abbondante: 1 litro per ogni 100 g di pasta, in pentola larga. Sale: 10 g per litro, da aggiungere quando l'acqua bolle (mai prima per non corrodere la pentola, e mai dopo aver buttato la pasta). Ebollizione forte mantenuta dall'inizio alla fine. Buttare la pasta in un solo gesto, mescolare subito per evitare incolli. Tempo di cottura: rigorosamente al dente, ovvero 1-2 minuti prima del tempo indicato in confezione, per permettere alla pasta di finire la cottura nel sugo. Lo strato bianco al centro della pasta tagliata indica la dote di amido che assorbirà il sugo. Mai sciacquare la pasta dopo averla scolata (a parte la pasta fredda per insalate o quella in brodo): l'amido superficiale è ciò che lega il sugo. Conservare sempre un bicchiere di acqua di cottura per allentare la salsa al momento di mantecare. Il segreto degli chef è proprio nell'acqua di cottura."
+      },
+      {
+        "h": "La pasta come patrimonio culturale italiano",
+        "body": "La pasta è molto più che un alimento per gli italiani: è identità, ricordo, famiglia, rituale. Il pranzo della domenica con il ragù della nonna che cuoce 6 ore. Le tagliatelle di sfoglia tirata a mano in Emilia-Romagna. Gli spaghetti aglio olio peperoncino della mezzanotte dopo una serata. Le orecchiette stese sul tagliere nei vicoli di Bari Vecchia. La carbonara discussa su quale variante sia 'autentica' (guanciale o pancetta? Pecorino o parmigiano? Crema d'uovo o uovo intero?). Le penne all'arrabbiata di Roma con peperoncino piccante. Sophia Loren ha detto 'tutto quello che vedi lo devo agli spaghetti'. Federico Fellini girava scene di pasta nei suoi film. La 'pasta-mafia' (Pizzaballa, Barilla, De Cecco, Garofalo) è un settore economico di miliardi. Su moomz i sondaggi 'pasta secca o all'uovo' o 'al ragù bolognese vs al ragù napoletano' alimentano discussioni interregionali infinite, perché ogni famiglia italiana ha la sua ricetta sacra inviolabile."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché in Italia si dice 'al dente'?",
+        "a": "Al dente significa letteralmente 'al dente', ovvero pasta cotta ancora con una leggera resistenza alla masticazione, percepibile dai denti. Il centro della pasta deve presentare ancora un'anima bianca quando si taglia. Questa cottura non è solo gusto: la pasta al dente ha un indice glicemico inferiore (rilascio più lento dei carboidrati nel sangue), si digerisce meglio, e assorbe meglio il sugo. La pasta scotta è considerata in Italia una mancanza di rispetto al prodotto. La tradizione del 'al dente' è particolarmente forte nel Sud Italia, dove la pasta viene cotta talvolta ancora più 'dura' rispetto al Nord. Nei paesi anglosassoni la pasta viene spesso cotta troppo a lungo, motivo per cui i ristoranti italiani all'estero ci tengono spesso a indicare la cottura 'al dente'."
+      },
+      {
+        "q": "Pasta secca o fresca: qual è meglio?",
+        "a": "Non sono interscambiabili, sono prodotti diversi con usi diversi. La pasta secca è fatta solo di semola di grano duro e acqua, essiccata, ha lunga conservazione (anni) ed è la base della cucina del Sud Italia. È perfetta per sughi rossi, fritti, al pesce. La pasta fresca all'uovo (con farina di grano tenero e uova) è tipica del Nord (Emilia, Piemonte) e va consumata entro pochi giorni. È ideale per sughi al ragù bolognese, alla panna, ai funghi. Tagliatelle, lasagne, tortellini, ravioli sono tradizionalmente di pasta fresca all'uovo. La pasta secca biologica artigianale (trafilata al bronzo, essiccata lentamente a basse temperature) di marche come Felicetti, Pastificio dei Campi, Verrigni, ha qualità superiore alle pasta industriali al teflon."
+      },
+      {
+        "q": "Si può mangiare pasta tutti i giorni?",
+        "a": "Sì, la pasta è una base sana della dieta mediterranea, dichiarata patrimonio UNESCO nel 2010. È un carboidrato complesso a basso indice glicemico (specie se al dente), ricca di fibre se integrale, e contiene proteine vegetali. Una porzione standard è di 80-100 g secchi (corrispondente a 200-250 kcal), perfettamente equilibrata in un pasto con verdure e proteine. Gli italiani la consumano in media 5 volte a settimana e hanno una delle aspettative di vita più alte al mondo. Il problema non è la pasta in sé, ma le porzioni eccessive, i sughi troppo grassi o industriali, e l'aggiunta di troppo formaggio. Una pasta al pomodoro fresco con verdura è uno dei piatti più sani al mondo."
+      },
+      {
+        "q": "Quali sono i formati italiani più strani?",
+        "a": "L'Italia ha oltre 350 formati di pasta, alcuni davvero curiosi. Gli strozzapreti emiliani (gnocchetti attorcigliati a mano), le orecchiette pugliesi (a forma di piccole orecchie), i pici toscani (spaghettoni grossi tirati a mano), i pizzoccheri valtellinesi (di grano saraceno), i sedani rigati, le ditali (piccoli ditali), le manfricoli, gli strangozzi umbri. Ci sono pasta sottilissime come gli spaghettini per il brodo, e pasta enormi come i paccheri napoletani. Ogni regione ha le sue specialità. I formati più creativi industriali includono le pasta a forma di lettere dell'alfabeto, le rotelle, gli anelli, le farfalline. Su moomz un sondaggio 'la pasta più strana che hai mangiato' rivela sempre nomi inaspettati come 'corallini' o 'tempestine'."
+      }
+    ],
+    "related": ["pizza", "carbonara", "pesto", "mozzarella", "vino"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "carbonara",
+    "locale": "it",
+    "keyword": "Carbonara",
+    "matchPatterns": ["carbonara", "guanciale", "pecorino", "uova", "pasta romana"],
+    "topic": "food",
+    "title": "Carbonara — la ricetta romana sacra e le sue eresie",
+    "description": "Solo 5 ingredienti: guanciale, uova, pecorino, pepe, pasta. Niente panna, niente pancetta. Tutto sulla carbonara romana DOC.",
+    "emoji": "🍳",
+    "intro": "La carbonara è il piatto romano più copiato e più mal cucinato del mondo. Origini incerte: la teoria più accreditata la fa nascere a Roma nel 1944, quando gli americani arrivarono con bacon e uova in polvere e i romani li mescolarono alla pasta creando una versione ibrida. La prima ricetta scritta documentata appare nel 1950 sulla rivista La Stampa. Il nome 'carbonara' è attribuito alternativamente ai carbonai (lavoratori del carbone) o al pepe nero che ricorda la fuliggine. Quello che è certo è che la vera carbonara romana ha solo 5 ingredienti: guanciale (mai pancetta), uova (rosso d'uovo soprattutto), pecorino romano (mai parmigiano), pepe nero macinato fresco e pasta (rigorosamente spaghetti o rigatoni). NIENTE panna, NIENTE cipolla, NIENTE aglio, NIENTE prezzemolo. Aggiungere uno di questi ingredienti è considerato dai romani un'eresia gastronomica. Il 6 aprile si celebra il Carbonara Day, lanciato nel 2017, in cui ristoratori e amatori condividono le loro versioni sui social media. Su moomz i sondaggi 'carbonara con o senza panna' o 'guanciale vs pancetta' generano vere e proprie guerre civili dei commenti, soprattutto tra romani e milanesi.",
+    "sections": [
+      {
+        "h": "La vera ricetta romana",
+        "body": "Per 4 persone: 400 g di rigatoni o spaghetti, 200 g di guanciale di Amatrice in cubetti, 4 tuorli d'uovo + 1 uovo intero, 100 g di pecorino romano DOP grattugiato, pepe nero macinato al momento, sale. Tagliare il guanciale a cubetti di 1 cm. Cuocerlo a fuoco medio in padella antiaderente senza aggiungere olio: il suo grasso si scioglierà e diventerà croccante in 5-7 minuti. Spegnere e tenerlo da parte nella sua padella. In una ciotola sbattere i tuorli con il pecorino e tanto pepe, fino ad ottenere una crema densa. Cuocere la pasta al dente in acqua salata. Scolare la pasta tenendo un mestolo d'acqua di cottura. Versare la pasta nella padella con il guanciale, mescolare brevemente, poi togliere dal fuoco e versare la crema di uovo e pecorino. Mantecare velocemente aggiungendo poca acqua di cottura se serve. Servire subito con altro pecorino e pepe. La crema deve essere vellutata, MAI strapazzata (uova cotte = errore!). Il segreto: spegnere il fuoco prima di aggiungere l'uovo."
+      },
+      {
+        "h": "Le eresie da evitare assolutamente",
+        "body": "Le eresie alla carbonara fanno inorridire i romani. NIENTE panna: la cremosità deve venire dai tuorli e dall'amido della pasta, non da panna industriale che renderebbe il piatto pesante e dolciastro. NIENTE pancetta: si usa guanciale (pancia di maiale stagionata), molto più saporito e con grasso che si scioglie meglio. La pancetta è meno grassa e dà un risultato secco. NIENTE parmigiano: si usa pecorino romano, formaggio salato e sapido caratteristico del Lazio. Il parmigiano è un formaggio diverso, più dolce e delicato, perfetto per altri piatti. NIENTE aglio e cipolla: la carbonara è semplicità e purezza. NIENTE prezzemolo a guarnire. NIENTE strapazzata d'uova: se l'uovo cuoce diventa frittata, vanificando la cremosità. NIENTE versione 'aglio olio peperoncino' con uovo: quella è una pasta cacio e pepe con guanciale, non carbonara. Sulle pizzerie 'spaghetti alla carbonara con panna' è la prova che il locale non sa cosa sta facendo."
+      },
+      {
+        "h": "Carbonara nel mondo e meme italiani",
+        "body": "La carbonara è uno dei piatti italiani più stravolti all'estero. In Francia si trova ovunque 'spaghettis carbonara' con panna, formaggio fuso e pancetta cubettata. In Germania, Olanda, UK la versione con panna è la norma. In Giappone la fanno con il tarako (uova di merluzzo) creando un'ibridazione interessante. Negli USA, soprattutto a New York, ci sono ottime versioni in trattorie italiane storiche del Greenwich Village. Sui social italiani il 'cringe' verso le versioni straniere è quasi un genere di intrattenimento. La 'finta carbonara' dell'estero è oggetto di meme infiniti su Instagram e TikTok, con video di 'reaction' di nonni italiani che vedono ricette con panna o latte. Antonino Cannavacciuolo, Bottura, Cracco hanno tutti commentato il fenomeno. Il famoso 'incidente carbonara' in cui una rivista francese pubblicò una ricetta con cipolle, scatenò un incidente diplomatico minore sui social. La carbonara è diventata simbolo identitario dell'orgoglio gastronomico italiano."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché senza panna?",
+        "a": "Perché la cremosità della carbonara deve venire esclusivamente dai tuorli d'uovo emulsionati con l'amido della pasta e l'acqua di cottura. La crema d'uovo cruda, mantecata fuori dal fuoco, è leggera, vellutata e mantiene il sapore complesso del guanciale e del pecorino. La panna, ricca di grassi caseari e zuccheri del latte, copre questi sapori delicati e rende il piatto pesante e dolciastro. La carbonara originale romana, documentata fin dagli anni '50, non ha mai contenuto panna. È stata aggiunta dalle versioni industriali e dalla cucina internazionale come scorciatoia. Per i romani la panna nella carbonara è un'eresia paragonabile a mettere ketchup in una pasta al ragù alla bolognese."
+      },
+      {
+        "q": "Quale pasta per la carbonara?",
+        "a": "I formati tradizionali sono gli spaghetti e i rigatoni, entrambi accettati dai romani. Gli spaghetti sono la versione più popolare, classica e fotogenica. I rigatoni hanno il vantaggio di trattenere meglio la salsa nelle scanalature interne, dando ogni morso una concentrazione maggiore di guanciale e pecorino. Alcuni romani prediligono i mezzi paccheri o le mezze maniche. Le penne sono accettabili ma meno tradizionali. Da evitare: pasta troppo sottile (capellini) che si secca prima di amalgamare il sugo, o pasta troppo grossa (paccheri lisci) che la salsa non riesce a impregnare. La pasta deve essere rigorosamente al dente, anzi un minuto in meno della cottura indicata in confezione, per finire di cuocersi nella padella con il sugo."
+      },
+      {
+        "q": "Si possono usare le uova intere?",
+        "a": "La ricetta tradizionale romana usa solo tuorli d'uovo, perché l'albume rende la crema più liquida e meno gialla. La regola: 1 tuorlo a persona + 1 uovo intero per il piatto (per 4 persone: 4 tuorli + 1 intero). Alcune varianti più povere usano solo uova intere per ragioni economiche o per ridurre il colesterolo, ma la cremosità ne soffre. L'albume va versato in piatti diversi: una frittata, una meringa, oppure se siete in pochi può andare ma cambia leggermente la consistenza. I tuorli devono essere freschissimi: pastorizzazione consigliata in estate o per anziani e bambini per evitare rischio salmonella. Le uova devono essere a temperatura ambiente, non fredde di frigo, altrimenti rovinano la mantecatura."
+      },
+      {
+        "q": "Quale guanciale usare?",
+        "a": "Il guanciale è la guancia del maiale stagionata, molto più saporita e grassa della pancetta (che invece è la pancia). Il guanciale più rinomato è quello di Amatrice o di Norcia (IGP per quest'ultimo). Si riconosce dalla forma triangolare, dal colore rosa-rosso intenso con striature di grasso bianco, e dalla copertura esterna di pepe nero e talvolta erbe aromatiche. Si taglia a cubetti di circa 1 cm e si cuoce a fuoco medio senza aggiungere olio: il suo grasso si scioglie creando una base aromatica per il piatto. Comprare buon guanciale in macelleria di fiducia o in negozi specializzati: il guanciale industriale di supermercato è spesso troppo magro e poco saporito. Conservare in frigo per settimane avvolto in carta da forno o sottovuoto."
+      }
+    ],
+    "related": ["pasta", "pizza", "mozzarella", "vino", "pesto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gelato",
+    "locale": "it",
+    "keyword": "Gelato",
+    "matchPatterns": ["gelato", "sorbetto", "cono", "coppa", "stracciatella", "pistacchio"],
+    "topic": "food",
+    "title": "Gelato — l'arte italiana del freddo dall'antichità a oggi",
+    "description": "Il gelato italiano è un patrimonio mondiale: meno grasso del ice cream, più denso, più cremoso. Dalle origini siciliane ai maestri di oggi.",
+    "emoji": "🍦",
+    "intro": "Il gelato è una delle gioie più universali dell'estate italiana e una bandiera della tradizione gastronomica nazionale nel mondo. Differisce dall'ice cream americano per composizione: il gelato italiano contiene meno grassi (4-9% contro 14-25% dell'ice cream), meno aria incorporata (overrun del 25-35% contro 50-100%) e si serve a temperatura più alta (-13°C contro -18°C). Risultato: gelato più denso, cremoso, intenso nel sapore. Le origini sono contese: alcuni ne fanno risalire l'invenzione agli arabi siciliani del IX secolo con il loro 'sherbet' a base di succhi e neve dell'Etna. Altri al cuoco fiorentino Bernardo Buontalenti che nel 1565 sarebbe stato il primo a creare una crema gelata moderna per Caterina de' Medici. La rivoluzione moderna si deve al siciliano Francesco Procopio dei Coltelli che a Parigi aprì nel 1686 il Café Procope, primo gelato pubblico al mondo. Oggi in Italia ci sono oltre 39.000 gelaterie e si consumano circa 6 kg di gelato pro capite l'anno. Su moomz i sondaggi 'gelato al cono vs gelato in coppetta' o 'pistacchio vs cioccolato' generano dibattiti accesi, perché il gelato è memoria d'infanzia e identità.",
+    "sections": [
+      {
+        "h": "Gelato artigianale vs industriale",
+        "body": "La distinzione è cruciale. Il gelato artigianale è prodotto giornalmente in laboratorio con materie prime fresche: latte intero, panna, zucchero, frutta fresca o ingredienti di qualità (vera pasta di pistacchio di Bronte, nocciole IGP del Piemonte, cacao di alta qualità). Ha colori naturali, anche meno appariscenti (il pistacchio vero è marroncino-verdognolo, non verde fluo), texture cremosa e morbida, fonde rapidamente perché contiene poca aria. Il gelato industriale, prodotto in fabbriche per il largo consumo, contiene grassi vegetali idrogenati (palma, cocco), latte in polvere, emulsionanti, aromi artificiali (anziché frutta vera), stabilizzanti, coloranti, molta aria incorporata. Si riconosce a vista: gusti dai colori molto saturi (giallo limone vivo, verde menta artificiale, rosa shocking fragola), montagne enormi di gelato nella vetrina (chiaramente armati con stabilizzanti), texture troppo plasticosa. Una vera gelateria artigianale mostra le vaschette piatte e segue la stagionalità (no fragola a dicembre)."
+      },
+      {
+        "h": "I gusti italiani più amati",
+        "body": "Il pistacchio in cima alla lista: il vero pistacchio di Bronte (IGP siciliano) ha colore verde-marroncino e gusto intenso quasi salato. La crema, base di tante varianti, è solo latte, zucchero, uova. Stracciatella inventata a Bergamo negli anni '60: crema bianca con scaglie di cioccolato fondente. Bacio, gianduia, nocciola (delle Langhe IGP). Fior di latte, base puro di latte fresco senza aromi. Limone siciliano, sorbetto pulisci-bocca per eccellenza. Fragola di stagione (maggio-giugno). Frutti di bosco, fichi d'india siciliani, sambuco, melone. La cassata siciliana al gelato e la cassata gelato. Gusti regionali: il Bronte siciliano, il pistacchio di Bronte, il cassato palermitano, l'amarena di Verona, il torrone di Cremona. Negli ultimi anni esplosione di gusti creativi: gelato al gorgonzola, al peperoncino, al wasabi, alle alghe, al sake. Marco Venturino, Sergio Dondoli (San Gimignano), Vito Magri sono tra i maestri più premiati al Gelato World Tour."
+      },
+      {
+        "h": "Gelato e cultura italiana",
+        "body": "Il gelato è memoria collettiva italiana. Le sere d'estate dopo cena con la famiglia o gli amici, in piazza o in gelateria, è quasi un rituale nazionale. Il primo appuntamento adolescenziale spesso si svolge davanti a un cono. Le code di mezzanotte alle gelaterie storiche come Giolitti a Roma o Vivoli a Firenze sono tradizione. Il 'gelato per ogni mese': fragola a maggio, pesca a luglio, pistacchio sempre, marrone glacé a ottobre, panettone-marrone a dicembre. Federico Fellini girava scene di gelato nei suoi film. La pubblicità Algida ha codificato il Cornetto come simbolo pop. Carlo Verdone in 'Compagni di scuola' ha eternato l'iconografia del gelataio. Su moomz i sondaggi estivi 'cono o coppetta' o 'qual è la tua gelateria preferita' rivelano legami affettivi profondi con luoghi e ricordi. La gelateria di quartiere è patrimonio sociale tanto quanto la pizzeria. Il Gelato World Tour gira il mondo dal 2013 incoronando ogni anno i maestri della categoria."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Qual è la differenza tra gelato e ice cream?",
+        "a": "Il gelato italiano contiene meno grassi (4-9% di matière grasse contro 14-25% dell'ice cream), meno aria incorporata (overrun del 25-35% contro 50-100%) e si serve a temperatura più alta (-13°C contro -18°C). Risultato: il gelato è più denso, più cremoso, con un sapore più intenso e immediato. L'ice cream è più ricco di grasso, più freddo, e proprio per il suo elevato overrun (più aria), risulta più 'spumoso' e leggero in bocca. Anche le base sono diverse: il gelato italiano usa più latte e meno panna, mentre l'ice cream americano usa molta panna. Il gelato è solitamente più intenso, l'ice cream più burroso. Sono prodotti differenti, entrambi validi a modo loro."
+      },
+      {
+        "q": "Come riconoscere una vera gelateria artigianale?",
+        "a": "Segnali chiari: la vetrina è piatta o leggermente bombata, non con montagne enormi (le montagne di gelato indicano stabilizzanti industriali). I colori sono naturali e attenuati: il pistacchio è marroncino-verdognolo, non verde fluo; la fragola è rosa pallido, non shocking pink; la menta è verde tenue, non turchese. La stagionalità è rispettata: la fragola d'estate, il melone a luglio, i marroni in autunno. Niente fragola fluorescente a dicembre. Il gelato si scioglie velocemente in bocca e nel cono (la stabilità eccessiva indica additivi). La lista degli ingredienti è semplice e leggibile: latte, panna, zucchero, frutta o ingredienti naturali. Niente lecitine, mono e digliceridi, polisorbati. La gelateria è certificata se trasforma in proprio le materie prime e non lavora con basi precostituite industriali."
+      },
+      {
+        "q": "Quanti gusti esistono?",
+        "a": "Centinaia, virtualmente infiniti. I gusti classici italiani sono circa 30-40: crema, fior di latte, stracciatella, cioccolato (fondente, al latte, bianco), pistacchio, nocciola, vaniglia, mandorla, bacio, gianduia, caffè, limone, fragola, melone, pesca, ananas, frutti di bosco, lampone, mirtillo, cocco, banana, kiwi, mela verde, arancia, mandarino, cassis, sorbetto champagne. Gusti creativi moderni: gorgonzola e pera, pomodoro, sedano, peperoncino, lavanda, basilico, aceto balsamico, zenzero, cardamomo. Gelati salati: parmigiano, tartufo, alici. Gusti regionali: pistacchio di Bronte, nocciola del Piemonte, gianduia torinese, cassata siciliana, sambuco, fichi d'India, cremolato. Esistono persino gelati al sushi, al ramen, al curry, ma sono più curiosità culinarie che mainstream."
+      },
+      {
+        "q": "Si può mangiare gelato in inverno?",
+        "a": "Assolutamente sì, e gli italiani lo fanno. Le gelaterie italiane più rinomate restano aperte tutto l'anno (Giolitti a Roma, Grom in molte città, Vivoli a Firenze) e propongono gusti invernali specifici: marron glacé, panettone, pandoro, zenzero, cannella, tiramisù, zabaione, vin brulé, mandarino tardivo siciliano, cioccolato fondente intenso. Il gelato non è solo estivo: una cioccolata calda con dentro una pallina di gelato fior di latte è una specialità invernale. La cremolata, semifreddo, semifreddi tipici come il torrone-cioccolato sono gelati invernali. In montagna, dopo lo sci, il gelato accompagna spesso una merenda calda. Il consumo italiano di gelato è leggermente stagionale (picco luglio-agosto) ma significativo anche in inverno."
+      }
+    ],
+    "related": ["pizza", "pasta", "tiramisu", "espresso", "estate"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "espresso",
+    "locale": "it",
+    "keyword": "Espresso",
+    "matchPatterns": ["espresso", "caffe", "macchina espresso", "ristretto", "lungo", "macchiato"],
+    "topic": "food",
+    "title": "Espresso — il rito italiano della tazzina",
+    "description": "30 ml, 25 secondi, 9 bar di pressione: l'espresso è chimica e cultura. Tutto sul caffè italiano e la sua filosofia di vita.",
+    "emoji": "☕",
+    "intro": "L'espresso è probabilmente la bevanda più rappresentativa dell'identità italiana dopo il vino. La sua invenzione è ufficialmente milanese: Angelo Moriondo brevettò la prima macchina nel 1884 a Torino per l'Esposizione Generale Italiana, ma è Luigi Bezzera a Milano nel 1901 che ne perfezionò il principio brevettando la macchina con pressione di vapore. Nel 1948 Achille Gaggia introdusse la pressione meccanica a 9 bar generata da molla manuale, dando vita all'espresso moderno con la crema dorata in superficie. La definizione tecnica: 25-30 ml di liquido estratto da 7-9 g di caffè macinato fine, sotto 9 bar di pressione, in 25-30 secondi, a 88-92°C. Il risultato è una bevanda concentrata con crema persistente, aromi complessi che variano dal cacao agli agrumi, dalle note tostate ai sentori floreali. Gli italiani bevono in media 14 kg di caffè all'anno a testa e consumano oltre 90 milioni di caffè al giorno. Il bar è il luogo sociale per eccellenza, presente in ogni paese italiano, e il caffè al banco costa standardizzato attorno a 1,20-1,50 € quasi ovunque. Su moomz i sondaggi 'espresso vs cappuccino' o 'caffè zucchero o senza' generano dibattiti regionali sorprendenti.",
+    "sections": [
+      {
+        "h": "L'estrazione perfetta",
+        "body": "Un espresso perfetto richiede precisione millimetrica. Macinatura: il caffè deve essere macinato finemente (consistenza di zucchero a velo grosso) appena prima dell'estrazione, mai pre-macinato. La dose: 7-9 g per un singolo, 14-18 g per un doppio. La pressatura nel portafiltro deve essere uniforme con circa 15-20 kg di pressione. L'acqua deve essere a 88-92°C (mai a 100°C che brucia gli oli e produce amaro), filtrata e mineralizzata correttamente. La pressione di estrazione: 9 bar nominali. Il tempo: 25-30 secondi dall'attivazione della pompa. Se l'estrazione dura meno di 20 secondi il caffè è 'sotto-estratto' (acido, sottile, debole); se dura più di 35 secondi è 'sovra-estratto' (amaro, bruciato, legnoso). La crema deve essere persistente, color nocciola, e supportare lo zucchero per qualche secondo prima di affondare. La 'tigratura' della crema (striature più scure) indica una buona estrazione di alta qualità."
+      },
+      {
+        "h": "Le declinazioni dell'espresso",
+        "body": "Il caffè espresso è la base, ma le varianti sono infinite. Ristretto: 15-20 ml di estrazione fermata prima, più concentrato e meno amaro. Lungo: 35-40 ml con più acqua, più diluito ma anche più amaro perché si estrae di più dalla pasta del caffè. Macchiato: espresso 'macchiato' con goccia di latte schiumato (caldo) o freddo (al freddo). Marocchino: espresso, cacao amaro, latte montato, in piccolo bicchiere. Caffè in vetro: per chi preferisce vederlo. Caffè corretto: con grappa, sambuca, anice, o altri liquori, tradizione del Nord soprattutto. Cappuccino: espresso + latte schiumato 1/3-1/3-1/3 (espresso-latte-schiuma), rigorosamente del mattino, mai dopo le 11. Latte macchiato: bicchiere di latte schiumato 'macchiato' di poco caffè, opposto al cappuccino. Caffè americano: espresso allungato con tanta acqua bollente. Caffè freddo siciliano: per l'estate. Caffè shakerato: con ghiaccio in shaker, dolcificato."
+      },
+      {
+        "h": "Il rito del bar italiano",
+        "body": "Il bar italiano non è solo un luogo dove bere caffè, è un'istituzione sociale. Si entra, si saluta con un 'buongiorno', si ordina al banco, si sorseggia il caffè in piedi mentre si chiacchiera con il barista o il vicino di banco. Il rituale dura 2-3 minuti, è veloce, codificato, quasi maschile. Pagare 1,20-1,50 € e uscire. Sedersi al tavolino costa il doppio, e in zone turistiche fino a 6 € (consigliamo di prendere il caffè al banco). Le scuse italiane per 'fare un caffè': 'andiamo a prendere un caffè' = ti voglio parlare. 'Offrirti un caffè' = un piccolo regalo gentile. 'Il caffè della pausa' = momento sacro dell'ufficio. Il barista riconosce i clienti abituali e prepara il loro caffè senza chiedere. A Napoli c'è il 'caffè sospeso', tradizione novecentesca di pagare un caffè in più per chi non se lo può permettere, recentemente riscoperta. Su moomz tanti sondaggi rivelano il rapporto profondo, quasi affettivo, degli italiani con il loro bar di quartiere."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché in Italia il cappuccino solo al mattino?",
+        "a": "Per tradizione gastronomica. In Italia il latte è considerato un alimento pesante da consumare al mattino, mai dopo i pasti. Il cappuccino accompagna il cornetto a colazione, punto. Dopo le 11 un italiano ordina un caffè (espresso) o eventualmente un macchiato. Ordinare un cappuccino dopo pranzo in trattoria è un modo certo per essere etichettati come turisti stranieri. Questa regola informale è così radicata che molti baristi italiani all'estero la spiegano ai clienti. Le ragioni storiche sono legate alla digestione: il latte rallenta lo svuotamento gastrico, e i pasti italiani sono già abbastanza ricchi. Però oggi i giovani sono meno rigidi su questa regola, anche se rimane una tradizione fortemente sentita."
+      },
+      {
+        "q": "Quanto costa un buon espresso?",
+        "a": "Un espresso al banco in un bar italiano costa tipicamente 1,00-1,50 € in tutta Italia, una standardizzazione informale ma molto rispettata. A Roma alcuni bar storici come Sant'Eustachio o Tazza d'Oro costano 1,10 €. Al tavolino il prezzo raddoppia a 2-3 €. Nei luoghi super-turistici (piazza San Marco a Venezia, piazza Navona a Roma) può arrivare a 5-8 €, ma è una rapina. Le caffetterie di specialità (specialty coffee, terza onda) come Ditta Artigianale a Firenze o Orso a Milano costano 2-3 € per un espresso di altissima qualità con tracciabilità d'origine. All'estero, un espresso 'italiano' nei caffè internazionali costa 2,50-4 €. Da Starbucks o nelle catene si arriva a 4-5 € per qualcosa che è raramente un vero espresso."
+      },
+      {
+        "q": "Quanta caffeina ha un espresso?",
+        "a": "Un espresso singolo (30 ml) contiene circa 60-80 mg di caffeina, sorprendentemente meno di una tazza di caffè americano filtrato (95-150 mg) o di un mug grande (150-200 mg). Questo perché il tempo di estrazione è breve (25-30 secondi) e quindi meno caffeina si trasferisce nella tazzina. Un caffè decaffeinato espresso italiano contiene meno di 5 mg (deve avere meno dello 0,1% di caffeina per essere etichettato 'decaffeinato'). La caffeina inizia a fare effetto in 15-20 minuti, raggiunge il picco in 45 minuti, e ha un'emivita di 5-6 ore. L'OMS raccomanda un massimo di 400 mg al giorno, ovvero circa 5-6 espresso. Gli italiani con i loro 3-5 espresso al giorno restano nei limiti raccomandati."
+      },
+      {
+        "q": "Cos'è la 'crema' dell'espresso?",
+        "a": "La crema è lo strato dorato-marrone in superficie che caratterizza un espresso ben estratto. Si forma dall'emulsione di acqua, olii del caffè (lipidi) e CO2 sotto la pressione di 9 bar. La crema deve essere persistente (deve sopportare un cucchiaino di zucchero per 2-3 secondi prima che affondi), color nocciola-marrone con 'tigratura' (striature più scure) che indica buon equilibrio di estrazione. Se la crema è troppo chiara o sottile: caffè vecchio, macinatura sbagliata, sotto-estrazione, pressione insufficiente. Se la crema è troppo scura e amara: caffè troppo tostato o sovra-estratto. La crema è quasi una firma di qualità: un espresso senza crema è probabilmente mal preparato o fatto con materia prima scadente. La crema migliora il primo sorso e mantiene gli aromi più volatili."
+      }
+    ],
+    "related": ["cappuccino", "tiramisu", "panettone", "vino", "pizza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cappuccino",
+    "locale": "it",
+    "keyword": "Cappuccino",
+    "matchPatterns": ["cappuccino", "cappuccio", "schiuma latte", "colazione", "barista"],
+    "topic": "food",
+    "title": "Cappuccino — la colazione italiana e il latte schiumato perfetto",
+    "description": "1/3 espresso, 1/3 latte caldo, 1/3 schiuma densa. Il cappuccino italiano spiegato: storia, tecnica, perché solo al mattino.",
+    "emoji": "☕",
+    "intro": "Il cappuccino è la regina indiscussa della colazione italiana. Si dice che il nome derivi dal colore marroncino dei cappucci dei frati cappuccini, ordine francescano fondato nel 1525, anche se la prima documentazione scritta è di fine Ottocento a Vienna come 'kapuziner'. La versione moderna italiana si codifica nel Novecento con la diffusione delle macchine per espresso: 1/3 di espresso, 1/3 di latte caldo, 1/3 di schiuma di latte densa. La proporzione classica dà un volume totale di circa 150-180 ml, in tazza preriscaldata. Quello che distingue un vero cappuccino italiano da una versione anglo-sassone è la qualità della schiuma: deve essere micro-schiuma cremosa e densa, non bollona o asciutta, ottenuta con la vaporizzazione del latte fresco intero. La temperatura ideale del latte è 60-65°C, mai oltre i 70°C che bruciano le proteine e producono retrogusto bruciacchiato. Gli italiani consumano cappuccino esclusivamente la mattina (entro le 11) per via della pesantezza del latte sullo stomaco. Su moomz i sondaggi 'cappuccino vs cornetto' o 'a colazione caffè o cappuccino' rivelano abitudini quotidiane diverse tra Nord e Sud d'Italia.",
+    "sections": [
+      {
+        "h": "La schiuma perfetta: tecnica del barista",
+        "body": "La schiuma di latte è ciò che rende il cappuccino un'opera d'arte quotidiana. Si parte da latte intero fresco (l'unico che monta bene grazie alle proteine del siero), preferibilmente di alta qualità non UHT, freddo di frigo (3-5°C). Si versa nella brocca riempiendo circa 1/3 della capienza. Si immerge la lancia del vapore appena sotto la superficie e si attiva il vapore. Nei primi secondi il latte 'frusta' incorporando aria: si sentono i caratteristici sibili-clic. Poi si abbassa la brocca per immergere completamente la lancia e creare il vortice (texturing) che rende la schiuma cremosa e omogenea. La temperatura va monitorata: si ferma a 60-65°C, quando la brocca diventa appena calda da non poter toccare per più di 3 secondi. Il latte ben schiumato si vede dalla lucentezza brillante della superficie e dalla densità della crema (deve disegnare facilmente latte art). I dolcificanti o lo zucchero vanno messi nel caffè PRIMA del latte, mai dopo, per non rovinare la schiuma."
+      },
+      {
+        "h": "Latte art e cappuccino moderno",
+        "body": "Negli ultimi 25 anni il 'latte art' è esploso come fenomeno mondiale. La tecnica di disegnare con la schiuma sul cappuccino - cuori, rosette, foglie, cigni, tulipani - è stata codificata principalmente dai baristi americani della terza onda del caffè e successivamente diffusa in Italia. La precisione richiede controllo della densità della schiuma, della velocità di versamento e della distanza dall'altezza. I campionati mondiali di latte art riuniscono campioni di tutto il mondo (da WBC al World Latte Art Championship). In Italia il livello è cresciuto enormemente grazie a maestri come Alessandro Galtieri, Davide Cobelli, e le scuole come Espresso Academy a Firenze o IIAC a Milano. Il latte art non migliora il gusto del cappuccino, ma è segno di rispetto per il cliente e di abilità del barista. Spesso accompagnato da specialty coffee a 2,50-3,50 €, contro 1,30 € del cappuccino tradizionale al banco di trattoria. Su Instagram i baristi pubblicano i loro lavori più belli, vere opere temporanee."
+      },
+      {
+        "h": "Cappuccino nella cultura italiana",
+        "body": "Il cappuccino è il rituale mattutino di milioni di italiani. La colazione tipica al bar è 'cappuccino e cornetto' (o brioche al Sud), consumata in piedi al banco in 5-7 minuti prima di andare al lavoro. Il costo medio è 2,50-3 € per il combo, e per molti è la pausa-amica della mattina. La merenda pomeridiana raramente include cappuccino, perché dopo le 11 si considera fuori orario. Al ristorante, ordinare un cappuccino dopo pranzo è considerato un faux pas culturale, e fa sorridere i camerieri italiani con i turisti stranieri. Cesare Cremonini ha cantato 'una giornata uggiosa, cappuccino e brioche' nei suoi pezzi più dolci. Lucio Battisti, Vasco Rossi, anche loro hanno citato il cappuccino come simbolo dell'inizio della giornata. Nei film di Carlo Verdone, Nanni Moretti, l'iconografia del bar mattutino è onnipresente. Il 'cappuccino al banco' è quasi una metafora di italianità autentica. Su moomz tanti utenti raccontano i loro rituali mattutini al bar."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché i giapponesi e gli americani amano tanto il cappuccino?",
+        "a": "Perché è un equilibrio perfetto di caffè, latte e schiuma che rende l'espresso italiano più accessibile a chi non è abituato all'amaro intenso. In Giappone l'introduzione del cappuccino negli anni '80 ha rivoluzionato il rapporto con il caffè, prima dominato dal solo americano filtrato. Le catene Starbucks (dal 1996 in Giappone) hanno reso il cappuccino mainstream. Negli USA lo stesso effetto è arrivato negli anni '90. La differenza con la versione italiana è spesso la quantità: i cappuccini americani sono enormi (300-450 ml contro i 150 ml italiani), molto più diluiti, e accompagnati da sciroppi (vaniglia, nocciola, caramel). Il cappuccino italiano è più concentrato, intenso, e dura il tempo di una conversazione veloce, non una scrittura prolungata."
+      },
+      {
+        "q": "Si può fare un cappuccino in casa?",
+        "a": "Sì, ma serve la macchina giusta. Una macchina per espresso con lancia vapore di qualità (da 200-500 €) è il minimo. Le moka tradizionali non producono espresso vero (pressione 1-2 bar invece di 9 bar), quindi il 'cappuccino di moka' è in realtà un caffellatte. Per la schiuma serve la lancia vapore, oppure dispositivi alternativi: schiumatori manuali con pompa, cappuccinatori elettrici. Il latte va schiumato a 60-65°C, mai bollente, con latte intero fresco. Le 'capsule' Nespresso e Lavazza possono fare un decente caffè ma la schiuma resta debole. Per cappuccino di qualità professionale a casa servono macchine ECM, La Marzocco home, Rancilio Silvia con grinder dedicato: investimento 1.500-3.000 €."
+      },
+      {
+        "q": "Lo zucchero nel cappuccino prima o dopo?",
+        "a": "Prima del latte, mai dopo. Mettere lo zucchero nell'espresso in tazza prima di versare il latte schiumato permette di scioglierlo bene nella parte calda del caffè. Aggiungere zucchero sopra la schiuma rovina il latte art se presente, e crea grumi non sciolti in fondo alla tazza. Gli italiani in genere usano 1-2 zollette o cucchiaini, ma molti puristi lo bevono senza zucchero per apprezzare meglio gli aromi del caffè e la dolcezza naturale del lattosio. Il dolcificante segue la stessa regola. I dolcificanti artificiali rovinano spesso la schiuma se aggiunti dopo. Le bustine di zucchero del bar sono spesso da 5-6 g, una è sufficiente per un cappuccino dolce ma non stucchevole."
+      },
+      {
+        "q": "Cappuccino vs caffellatte: qual è la differenza?",
+        "a": "Sono bevande diverse anche se simili. Il cappuccino ha proporzione 1/3-1/3-1/3 (espresso-latte-schiuma) in tazza di 150-180 ml: la schiuma è densa, abbondante, copre la superficie. Il caffellatte (o latte macchiato) ha più latte e meno schiuma, in bicchiere alto da 250-300 ml: prevale il latte, con un leggero strato di schiuma in superficie e l'espresso che 'macchia' il latte. Il caffellatte è meno italiano e più diffuso nei paesi nordici (Latte è il nome internazionale, ma significa 'latte' in italiano, quindi un 'latte' all'estero in Italia confonde sempre). Il latte macchiato napoletano è invece più simile al cappuccino. La 'latte' americana è sostanzialmente un caffellatte arricchito. Su moomz spesso i sondaggi 'cappuccino vs latte macchiato' rivelano preferenze generazionali e geografiche."
+      }
+    ],
+    "related": ["espresso", "tiramisu", "panettone", "gelato", "pizza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tiramisu",
+    "locale": "it",
+    "keyword": "Tiramisù",
+    "matchPatterns": ["tiramisu", "tiramisù", "mascarpone", "savoiardi", "dolce", "dessert"],
+    "topic": "food",
+    "title": "Tiramisù — il dolce italiano più amato al mondo",
+    "description": "Mascarpone, savoiardi, caffè, uova, cacao: il tiramisù trevigiano degli anni '70 è oggi il dessert italiano più replicato.",
+    "emoji": "🍰",
+    "intro": "Il tiramisù è probabilmente il dolce italiano più conosciuto al mondo dopo il gelato. Letteralmente 'tira-mi-sù', cioè 'tirami su' (dammi energia), il nome evoca l'effetto rinvigorente della combinazione di caffè e zucchero. La paternità è ufficialmente trevigiana: il dolce moderno fu creato nel ristorante 'Le Beccherie' a Treviso nel 1972 da Roberto Linguanotto e dalla famiglia Campeol. La ricetta originale viene registrata in dossier ufficiali dalla Confraternita del Tiramisù trevigiano. Altre città (Tolmezzo, Pieris, Trieste) ne rivendicano la paternità, ma è Treviso ad averla codificata come patrimonio. Gli ingredienti tradizionali sono solo 6: mascarpone, savoiardi, uova fresche, zucchero, caffè espresso, cacao amaro in polvere. Nessun alcol nella ricetta originale, anche se molte versioni moderne aggiungono Marsala, rum, brandy o liquore al caffè. Il tiramisù è oggi un dolce universalmente conosciuto, replicato in mille varianti (al pistacchio, alle fragole, al limone, al cioccolato bianco, al matcha), oggetto del Tiramisù World Cup che si tiene a Treviso ogni anno dal 2017 con oltre 700 partecipanti da decine di nazioni. Su moomz i sondaggi 'tiramisù classico vs varianti' generano sempre dibattiti accesi.",
+    "sections": [
+      {
+        "h": "La ricetta originale trevigiana",
+        "body": "Per 6 persone: 500 g di mascarpone, 6 uova fresche, 150 g di zucchero, 24 savoiardi, 500 ml di caffè espresso forte raffreddato, cacao amaro in polvere per la copertura. Separare i tuorli dagli albumi. Montare i tuorli con metà dello zucchero fino a ottenere una crema chiara e spumosa. Incorporare il mascarpone a temperatura ambiente mescolando dal basso verso l'alto. Montare a parte gli albumi a neve ferma con il resto dello zucchero. Incorporare gli albumi al composto di tuorli e mascarpone con movimenti delicati. Bagnare brevemente i savoiardi nel caffè (un solo secondo per lato, non zuppi). Disporre uno strato di savoiardi in un pirex rettangolare, coprire con metà della crema. Ripetere uno strato di savoiardi e uno di crema. Spolverare abbondantemente di cacao amaro setacciato. Riposare in frigo per minimo 4-6 ore (ideale 12 ore) prima di servire. Il tempo di riposo è fondamentale per amalgamare i sapori e dare la giusta consistenza. Si conserva 2-3 giorni in frigo."
+      },
+      {
+        "h": "Mascarpone e savoiardi: gli ingredienti chiave",
+        "body": "Il mascarpone è un formaggio fresco lombardo a pasta cremosa ottenuto da panna fresca di vacca acidificata con acido citrico. Non è una crema o un formaggio spalmabile generico: è specifico, ricco di grassi (40-45%) e ha consistenza cremosa quasi burrosa. Le marche più rinomate: Galbani, Granarolo, Ferrari, Vicenzi, Sterilgarda. Il vero mascarpone DOP è quello prodotto in Lombardia secondo disciplinare. I savoiardi sono biscotti secchi di pasta montata fatta di uova, zucchero, farina, di forma allungata. Originari del Piemonte sabaudo (Savoia da cui il nome), sono biscotti ariosi che si imbevono perfettamente del caffè senza disfarsi. Le marche storiche italiane: Savoiardi Vicenzi, Mulino Bianco, Buitoni. In alternativa si usano anche pavesini (più piccoli e croccanti) o biscotti tipo champagne francesi. Il caffè deve essere espresso autentico forte (mai caffè americano allungato), preparato con moka o macchina espresso, raffreddato prima dell'uso."
+      },
+      {
+        "h": "Le varianti moderne e i record",
+        "body": "Il tiramisù originale è sacro per i puristi, ma le varianti sono infinite. Tiramisù al pistacchio di Bronte con crema di pistacchio. Tiramisù alle fragole con sciroppo di fragole al posto del caffè. Tiramisù al limone (limoncello e mascarpone al limone). Tiramisù al cioccolato bianco. Tiramisù alle banane (caraibico). Tiramisù al matcha (giappocrazia). Tiramisù salato con prosciutto e formaggi (versione antipasto stravagante). Tiramisù vegano senza uova né mascarpone (con anacardi e tofu di seta). Senza glutine con savoiardi GF. Il Tiramisù World Cup di Treviso, dal 2017, è la competizione mondiale che ogni anno premia maestri del dolce in due categorie: classico e creativo. Hanno partecipato oltre 700 concorrenti da 30+ paesi. Su moomz sondaggi tipo 'tiramisù classico vs al pistacchio' generano discussioni infinite, perché ogni famiglia ha la sua variante preferita. Federico Fellini era un grande amante del tiramisù, lo ordinava ai ristoranti durante le sue riprese a Roma."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Da dove viene il tiramisù?",
+        "a": "Il tiramisù moderno nacque ufficialmente nel 1972 al ristorante 'Le Beccherie' di Treviso, creato da Roberto Linguanotto e dalla famiglia Campeol. La paternità trevigiana è stata riconosciuta ufficialmente nel 2017 con un riconoscimento del Ministero delle Politiche Agricole. Altre città italiane ne hanno rivendicato l'origine (Pieris in Friuli, Tolmezzo in Friuli, Trieste), ma le ricerche storiche hanno confermato che la versione codificata e brevettata è trevigiana. Le origini dolciarie hanno radici più antiche: dolci 'al cucchiaio' a base di mascarpone e biscotti esistevano già nel Veneto del Settecento, ma è la formula con caffè e cacao che è propriamente novecentesca. Il nome 'tiramisù' compare per la prima volta in stampa nel 1971."
+      },
+      {
+        "q": "Si può fare senza uova?",
+        "a": "Sì, esistono diverse varianti senza uova. Una versione comune sostituisce le uova con panna fresca montata (200-250 ml) mescolata al mascarpone, dando una consistenza più leggera e mousse. Altre versioni usano latte condensato dolcificato. Per chi ha intolleranza alle uova, la versione 'tiramisù della nonna' senza uova è perfettamente buona, anche se la struttura cambia: meno densa, più dolce, più 'mousse'. Per i vegani esistono versioni con tofu di seta frullato, anacardi messi a bagno, panna vegetale di soia o di cocco. Per allergici al lattosio: mascarpone vegano (di anacardi), oppure ricotta vegana. Il sapore caratteristico del mascarpone è difficile da replicare al 100%, ma le versioni adatte funzionano discretamente."
+      },
+      {
+        "q": "Quanto si conserva il tiramisù?",
+        "a": "In frigo coperto con pellicola, il tiramisù si conserva 2-3 giorni. Dopo 24 ore di riposo i sapori si amalgamano e raggiungono il massimo, dopo 3 giorni inizia a perdere consistenza e i savoiardi diventano troppo molli. Le uova crude sono il fattore limitante: in estate o per persone fragili (anziani, bambini, donne incinte) meglio consumarlo entro 24 ore o usare uova pastorizzate. Il tiramisù si può anche congelare: dopo 3-4 ore di riposo in frigo, mettere in congelatore in contenitore ermetico. Si conserva fino a 1 mese. Scongelare 6-8 ore in frigo prima di servire. Il cacao in superficie può scolorire, va rispolverato prima di servire. Il tiramisù è uno dei pochi dolci che migliora nel tempo (nelle prime 24 ore), motivo per cui è perfetto da preparare la sera prima per una cena di famiglia."
+      },
+      {
+        "q": "Si può mettere alcol nel tiramisù?",
+        "a": "La ricetta originale trevigiana del 1972 NON contiene alcol, ma molte versioni moderne ne aggiungono per arricchire il sapore. Le aggiunte più comuni sono: Marsala (vino siciliano dolce fortificato, classico nella crema), rum scuro (Cuba o Jamaica), brandy o cognac (1 cucchiaio nella crema), liquore al caffè (Borghetti, Tia Maria, Kahlúa, da aggiungere al caffè per bagnare i savoiardi). La dose va contenuta (1-3 cucchiai per ricetta da 6 persone) per non coprire il sapore del mascarpone e del caffè. Per bambini, donne incinte o astemi: la versione senza alcol resta perfetta e tradizionale. Il liquore al caffè è la versione più diffusa nel Nord Italia, mentre il Marsala è più tradizionale nel Centro e nel Sud. Su moomz sondaggi 'tiramisù con o senza Marsala' rivelano differenze regionali."
+      }
+    ],
+    "related": ["espresso", "cappuccino", "panettone", "gelato", "pizza"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mozzarella",
+    "locale": "it",
+    "keyword": "Mozzarella",
+    "matchPatterns": ["mozzarella", "bufala", "fior di latte", "campania", "mozzarella di bufala"],
+    "topic": "food",
+    "title": "Mozzarella — bufala campana DOP, fior di latte e i loro segreti",
+    "description": "La mozzarella di bufala campana DOP è patrimonio italiano. Differenze con il fior di latte, storia e perché è regina della cucina del Sud.",
+    "emoji": "🧀",
+    "intro": "La mozzarella è uno dei formaggi più rappresentativi dell'Italia e protagonista assoluta di tantissimi piatti della cucina del Sud. Il nome deriva dal verbo dialettale napoletano 'mozzare', cioè tagliare con le dita la pasta filata in pezzi rotondi. Le prime testimonianze scritte di una sorta di mozzarella risalgono al XII secolo nei monasteri della pianura del Volturno in Campania. La produzione moderna si codifica nei secoli XVII-XVIII con l'introduzione della bufala mediterranea italiana in Campania (la bufala è arrivata in Europa nel Medioevo dai mongoli attraverso l'Egitto e il Sud Italia). Esistono due tipologie principali: la mozzarella di bufala campana DOP (dal 1996), prodotta esclusivamente con latte di bufala in Campania, Lazio sud, basso Molise e nord Puglia, e il fior di latte (mozzarella di vacca), prodotto in tutta Italia con latte vaccino. Sono prodotti diversi nonostante l'apparenza simile: la bufala è più cremosa, più grassa, più intensa di sapore, mentre il fior di latte è più delicato. Su moomz i sondaggi 'mozzarella di bufala vs fior di latte' sono sempre molto seguiti dai gourmet e dai meridionali ferrati sul tema.",
+    "sections": [
+      {
+        "h": "La produzione tradizionale",
+        "body": "Il processo della mozzarella è patrimonio tecnico antico. Il latte fresco (di bufala o di vacca) viene riscaldato a 36-38°C e cagliato con caglio naturale di vitello in 20-30 minuti. La cagliata si rompe in pezzi della grandezza di una nocciola e si lascia maturare in siero per circa 4 ore, fino a quando il pH scende a 4,9-5,0 (controllo dell'acidità è cruciale). Poi la fase magica: la 'filatura'. La cagliata viene immersa in acqua a 80-85°C e mescolata con un bastone di legno fino a ottenere una pasta elastica e filamentosa. Il casaro 'mozza' la pasta a mano in pezzi della grandezza desiderata, e le forme finiscono in acqua fredda per fissare la struttura. Poi in salamoia per qualche ora. La mozzarella va consumata entro 2-4 giorni dalla produzione per gustare il massimo della sua qualità. Le tradizionali 'mozzarelle dalla notte' di Caserta o Battipaglia, ancora calde al mattino, sono un'esperienza gastronomica imperdibile."
+      },
+      {
+        "h": "Bufala DOP vs Fior di latte: le differenze",
+        "body": "La mozzarella di bufala campana DOP è il prodotto premium. Il latte di bufala mediterranea italiana ha quasi il doppio del grasso del latte vaccino (8% contro 3,5%) e più proteine, dando un sapore più intenso, cremoso, leggermente acidulo, con sentori di erba e di stalla nobile. La consistenza è elastica ma molto morbida, e il taglio rivela 'lacrime di latte' (siero bianco) che colano. Le mozzarelle di Caserta, Aversa, Battipaglia, Mondragone, Capua sono le più rinomate. Il fior di latte è la mozzarella di latte vaccino. Più delicato, meno grasso (16-20% contro il 24% della bufala), più dolce, meno aromatico. Ideale per la pizza napoletana (la bufala renderebbe la pizza troppo umida durante la cottura). Si produce in tutta Italia, ma le più rinomate sono quelle di Agerola in costiera amalfitana e della Calabria. Tutte e due si gustano al meglio fredde di frigo ma a temperatura ambiente, mai dopo le 18 ore di vita, mai cotte (alterano la consistenza e il sapore)."
+      },
+      {
+        "h": "Mozzarella nella cucina italiana",
+        "body": "La mozzarella è regina di tantissime preparazioni. Da sola con un filo d'olio extravergine, sale, pepe e basilico: il caprese semplice, piatto patrimonio di Capri e dell'estate italiana. La caprese con pomodoro fresco e basilico, simbolo dei colori della bandiera italiana. Nell'insalata caprese di Capri, tradizionalmente con il fior di latte. Nella mozzarella in carrozza, fritta in pastella, specialità napoletana. Nelle pizze: la pizza margherita preferisce il fior di latte di Agerola (perché meno umido durante la cottura), mentre la pizza fritta o le pizze gourmet usano spesso la bufala. Nella parmigiana di melanzane. Negli arancini siciliani. Nei supplì romani. Negli sfincioni palermitani. Nella mozzarella in piedi (panini caldi tradizionali napoletani). Nei panini gourmet. Le 'mozzarelle in foglia' avvolte in foglie di asfodelo o di limone, tradizione cilentana, sono regalo gastronomico tipico del Sud."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Mozzarella di bufala o fior di latte sulla pizza?",
+        "a": "Per la pizza napoletana tradizionale si usa il fior di latte, soprattutto quello di Agerola, perché la bufala rilascia troppo siero durante la cottura, rendendo l'impasto umido e la pizza 'allagata'. I pizzaioli napoletani della tradizione AVPN usano quasi esclusivamente fior di latte. La bufala viene riservata a pizze gourmet con bufala fresca aggiunta a fine cottura (la pizza esce dal forno e la bufala viene messa sopra, mantenendo cremosità). La 'pizza alla bufala' che si trova al ristorante è di solito margherita con bufala posta fresca dopo la cottura. Per pizze cotte in forno casalingo, dove la cottura è più lunga, il fior di latte è ancora più indicato. La bufala in cottura tende a scomporsi e a ridursi a brodo lattiginoso."
+      },
+      {
+        "q": "Quanto costa una vera mozzarella di bufala DOP?",
+        "a": "Una mozzarella di bufala campana DOP di qualità costa tra 18 e 25 € al kg in macelleria o gastronomia di qualità, e 12-18 € al kg in supermercato. Una tipica bocconcino da 250-300 g costa quindi 5-7 €. Sotto i 4 € per 250 g è probabile che sia mozzarella di bufala non DOP, miscelata o di qualità inferiore. La vera mozzarella di bufala DOP ha etichetta con bollo DOP, numero di tracciabilità, denominazione 'Mozzarella di Bufala Campana DOP'. Il fior di latte di qualità (Agerola) costa 12-15 € al kg. La 'mozzarella' industriale di supermercato (spesso un misto di latte vaccino con minimo 12% di latte di bufala) costa 4-7 € al kg ma è un prodotto di qualità nettamente inferiore."
+      },
+      {
+        "q": "Si può conservare la mozzarella in frigo?",
+        "a": "Sì, ma è subottimale. La mozzarella è un formaggio fresco che dovrebbe essere consumato entro 1-2 giorni dalla produzione. Se conservata in frigo, va tenuta nella sua acqua di governo (salamoia), in contenitore ermetico, a temperatura 4-6°C, mai sotto. Prima di consumarla, va tirata fuori dal frigo 30-60 minuti prima per essere a temperatura ambiente: il sapore esce solo a 15-18°C circa. Mai congelare: distrugge la struttura della pasta filata. Si conserva 3-5 giorni in frigo se ben sigillata. Se l'acqua diventa torbida o acida, il formaggio è andato. La 'mozzarella della notte' (prodotta la notte e venduta al mattino) è l'esperienza top: si consuma calda di pochissime ore, ed è un'esperienza gastronomica difficile da replicare nei supermercati."
+      },
+      {
+        "q": "Perché la mozzarella di bufala viene solo dalla Campania?",
+        "a": "Per via della tradizione storica e dell'ambiente naturale specifico. Le bufale mediterranee italiane sono allevate da secoli nella pianura paludosa del Volturno, nella piana del Sele, nell'agro pontino e nel basso Molise: zone con clima mite, abbondanza di acqua, pascoli ricchi. Le bufale prosperano in queste condizioni in modo diverso dalle vacche. Il latte di bufala, lavorato in giornata in caseifici locali, dà la mozzarella DOP. Il disciplinare DOP (1996) limita la produzione alle province di Caserta, Salerno, Napoli, parte di Roma e Frosinone, basso Molise (Isernia), nord Puglia (Foggia). Fuori da queste zone, anche se prodotta con latte di bufala, non può chiamarsi DOP. Esistono mozzarelle di bufala campana al di fuori della DOP (qualità simile ma non certificata)."
+      }
+    ],
+    "related": ["pizza", "pasta", "carbonara", "vino", "pesto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "prosciutto",
+    "locale": "it",
+    "keyword": "Prosciutto",
+    "matchPatterns": ["prosciutto", "parma", "san daniele", "crudo", "cotto", "salume"],
+    "topic": "food",
+    "title": "Prosciutto — crudo di Parma DOP, San Daniele e l'arte della stagionatura",
+    "description": "Il prosciutto crudo italiano: Parma, San Daniele, Toscano, Veneto. Stagionatura, taglio, abbinamenti, perché è icona della cucina italiana.",
+    "emoji": "🍖",
+    "intro": "Il prosciutto è uno dei salumi italiani più rappresentativi e simbolo della gastronomia del Paese. Esistono due grandi famiglie: il prosciutto crudo (stagionato senza cottura) e il prosciutto cotto (cotto al vapore in stampi). Il crudo è il più nobile e tradizionale, esistente fin dall'epoca romana: Catone, Plinio e Columella documentano già nel I secolo a.C. l'arte di stagionare la coscia di maiale con sale. Le quattro principali DOP italiane del crudo sono: Prosciutto di Parma DOP (Emilia-Romagna, stagionato 12-36 mesi nelle colline parmensi), Prosciutto di San Daniele DOP (Friuli, stagionato 13-18 mesi a San Daniele del Friuli, riconoscibile dalla zampa rimasta attaccata), Prosciutto Toscano DOP (più sapido e affumicato), Prosciutto Veneto Berico-Euganeo DOP. Il prosciutto crudo italiano è esportato in tutto il mondo: il Parma DOP esporta 9.500 tonnellate annue, il San Daniele 7.000 tonnellate. Su moomz i sondaggi 'Parma vs San Daniele' o 'prosciutto crudo o cotto' rivelano amori regionali profondi.",
+    "sections": [
+      {
+        "h": "Parma vs San Daniele: le differenze",
+        "body": "Il Prosciutto di Parma DOP e il Prosciutto di San Daniele DOP sono i due grandi rivali. Provengono entrambi da maiali allevati in Italia (10 regioni specifiche), nutriti con cereali nazionali tra cui il siero del Parmigiano Reggiano. La differenza geografica si sente nel risultato. Il Parma DOP è prodotto sulle colline di Parma (microclima ventoso e fresco), stagionato 12-36 mesi, e ha colore rosa-rosso brillante, sapore dolce-delicato, aroma complesso. La zampa viene rimossa, ed è riconoscibile dalla 'corona ducale' a 5 punte impressa sulla cotenna. Il San Daniele DOP è prodotto a San Daniele del Friuli (clima diverso, più umido e ventilato), stagionato 13-18 mesi, e ha colore rosso più intenso, sapore più sapido, aroma di carne. La zampa viene mantenuta attaccata, segno distintivo immediato, e l'incisione 'San Daniele' impressa. Entrambi vantano qualità eccelse: la scelta è soggettiva. Su moomz i sondaggi 'Parma vs San Daniele' dividono Nord e Centro Italia in modo netto."
+      },
+      {
+        "h": "Il taglio perfetto",
+        "body": "Il prosciutto crudo va tagliato a fette sottilissime, quasi trasparenti, per esprimere il massimo del sapore. Il taglio professionale richiede affettatrice elettrica regolata sul minimo (0,5-1 mm), o per i veri puristi, il coltello a mano lungo (lardatoio o coltello da prosciutto) di acciaio inox affilatissimo. Le fette tagliate fresche al momento sono superiori a quelle in busta sottovuoto: l'esposizione all'aria ossida rapidamente. In una buona gastronomia italiana il prosciutto si taglia a richiesta. Il taglio a mano è arte: il maestro prosciuttaio inclina il prosciutto, segue la grana, e produce fette uniformi che cadono leggere come petali. A Parma esistono ancora vecchi maestri 'tagliatori a mano libera' che ottengono fette di 0,8 mm di spessore. Il prosciutto cotto, invece, va tagliato leggermente più spesso (1-2 mm) per non disfarsi. Le fette si servono a temperatura ambiente, mai fredde di frigo (il grasso non si scioglie e i sapori restano nascosti)."
+      },
+      {
+        "h": "Abbinamenti: pane, frutta, vino",
+        "body": "Il prosciutto crudo si gusta con accompagnamenti che ne esaltano il sapore senza coprirlo. Pane: ideale il pane di grano duro toscano sciapo (senza sale), che lascia parlare il sale del prosciutto. La pagnotta di Altamura, la coppia ferrarese, la focaccia di Recco (più ricca, abbinamento più gourmet). Frutta: il melone bianco o cantalupo è il classico abbinamento estivo italiano (prosciutto e melone è quasi un piatto-cliché), con il dolce-fresco che bilancia il sale. I fichi neri di settembre, ancora più raffinati, con le loro note nettariche. La pera Williams con il San Daniele. Le mostarde di Cremona per abbinamenti audaci. Formaggi: il Parmigiano Reggiano di 24 mesi, il pecorino fresco, la stracciatella pugliese. Vino: il Lambrusco di Sorbara (rosso vivace dell'Emilia), il Prosecco DOC trentino-veneto (brut, mai dolce), il vino bianco friulano (Friulano, Pinot Grigio) per il San Daniele. Per il Parma DOP, anche un Sangiovese o un Barbera giovane. Mai vini ricchi e tannici come Barolo, che coprono troppo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanto costa un vero prosciutto di Parma DOP?",
+        "a": "Un Prosciutto di Parma DOP intero (8-9 kg) costa tra 200 e 400 € a seconda della stagionatura. Stagionato 14-16 mesi: 22-25 €/kg. Stagionato 24 mesi: 28-35 €/kg. Stagionato 30+ mesi (gran riserva): 40-60 €/kg. Le riserve speciali di alcuni produttori (Antica Corte Pallavicina, Marco D'Oggiono) possono superare i 100 €/kg. Tagliato fresco in gastronomia: 35-45 €/kg per il Parma di buona stagionatura, 50-70 €/kg per il San Daniele DOP. In supermercato: 18-30 €/kg per il sottovuoto, qualità accettabile ma inferiore al fresco. Da evitare: prosciutti 'tipo Parma' o 'aromatizzato' a 8-12 €/kg, sono prodotti industriali senza certificazione DOP, spesso da maiali allevati all'estero."
+      },
+      {
+        "q": "Si può mangiare prosciutto crudo durante la gravidanza?",
+        "a": "In Italia le autorità sanitarie raccomandano cautela. Il prosciutto crudo stagionato non viene cotto e c'è un rischio teorico, anche se molto basso, di toxoplasmosi e listeriosi. Per le donne incinte non immunizzate alla toxoplasmosi (test del sangue rivelato negativo), il consiglio è di evitare prosciutto crudo nei 9 mesi. Le donne già immunizzate possono mangiarlo. La carne stagionata 12+ mesi è generalmente più sicura perché il sale e l'essiccazione riducono i patogeni. Il prosciutto cotto, invece, è completamente sicuro. In gravidanza è meglio scegliere il prosciutto cotto, oppure il prosciutto crudo congelato per 4-7 giorni (il congelamento uccide il toxoplasma). I formaggi a pasta dura come Parmigiano e Grana sono perfettamente sicuri."
+      },
+      {
+        "q": "Prosciutto crudo o cotto?",
+        "a": "Sono due prodotti diversi con usi diversi. Il prosciutto crudo (Parma, San Daniele, Toscano) è stagionato 12-36 mesi, ha sapore intenso, salato-dolce, e va consumato a temperatura ambiente in fette sottili. Costo elevato, simbolo di qualità. Il prosciutto cotto è cotto al vapore in stampo, ha consistenza morbida, sapore delicato, ed è ideale per panini, antipasti, vol-au-vent. Ne esistono di tre tipologie: tradizionale (con cottura tradizionale, qualità migliore), praga (più affumicato, di influenza ceca), arrosto (più asciutto). Il prosciutto cotto buono costa 15-25 €/kg, quello industriale 8-12 €/kg. La scelta tra crudo e cotto dipende dall'uso: il crudo per gourmet, il cotto per ogni giorno e per i bambini. La differenza tecnica: il crudo perde fino al 30% del peso nella stagionatura, il cotto resta più del peso iniziale grazie alla cottura in stampo."
+      },
+      {
+        "q": "Perché il prosciutto crudo italiano è famoso nel mondo?",
+        "a": "Per qualità, tradizione e tracciabilità inarrivabili. I disciplinari DOP italiani sono i più severi al mondo: maiali di razza specifica (Large White, Landrace italiana, Duroc), allevati in 10 regioni italiane (no maiali esteri), alimentati con cereali certificati, macellati a peso minimo 160 kg e 9 mesi d'età. La stagionatura segue protocolli stringenti: solo sale marino, niente conservanti chimici, niente nitrati/nitriti, niente fumi liquidi. La stagionatura naturale in cantine fresche e ventilate sviluppa gli aromi complessi che richiedono mesi-anni di trasformazione enzimatica. Il prosciutto americano 'Italian-style' o lo spagnolo 'Jamón Serrano' o 'Ibérico' sono prodotti diversi (anche se ottimi a modo loro). Il Parma DOP esporta 9.500 tonnellate l'anno, il San Daniele 7.000 tonnellate, in oltre 80 paesi."
+      }
+    ],
+    "related": ["mozzarella", "pizza", "pasta", "vino", "pesto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "vino",
+    "locale": "it",
+    "keyword": "Vino",
+    "matchPatterns": ["vino", "rosso", "bianco", "chianti", "barolo", "prosecco"],
+    "topic": "food",
+    "title": "Vino italiano — 408 DOCG/DOC, Barolo, Chianti, Prosecco e i grandi terroir",
+    "description": "L'Italia produce 50 milioni di ettolitri di vino l'anno, è il primo produttore mondiale. Tutto sui grandi vini italiani.",
+    "emoji": "🍷",
+    "intro": "L'Italia è il primo produttore mondiale di vino, con 50 milioni di ettolitri prodotti annui (circa il 18% della produzione globale), e il primo esportatore in volume nel mondo. La viticoltura italiana è antichissima: gli etruschi coltivavano viti già nel IX secolo a.C., e i romani diffusero la viticoltura in tutto il Mediterraneo. Oggi l'Italia conta 408 vini DOC/DOCG, 76 DOCG (Denominazione di Origine Controllata e Garantita, il livello più alto), 332 DOC, e 118 IGT (Indicazione Geografica Tipica). Le grandi regioni viticole: Piemonte (Barolo, Barbaresco, Barbera, Dolcetto), Toscana (Chianti, Brunello di Montalcino, Nobile di Montepulciano, Bolgheri), Veneto (Prosecco, Amarone, Soave, Bardolino), Sicilia (Nero d'Avola, Etna Rosso), Puglia (Primitivo, Negroamaro), Campania (Aglianico, Greco di Tufo), Friuli (Friulano, Pinot Grigio, Ribolla). La biodiversità ampelografica italiana è la più ricca al mondo con oltre 500 varietà autoctone. Su moomz i sondaggi 'rosso vs bianco' o 'Chianti vs Barolo' generano sempre dibattiti accesi soprattutto tra appassionati di enologia.",
+    "sections": [
+      {
+        "h": "I grandi rossi italiani",
+        "body": "Il Barolo è il re dei vini italiani: prodotto in 11 comuni del Piemonte attorno alla città omonima, da uva Nebbiolo, invecchiato minimo 38 mesi (62 mesi per la Riserva). Ha profumi intensi di frutti rossi, rose, catrame, e una struttura tannica imponente. Annate top: 2010, 2013, 2016. Costo: 30-300+ €. Il Brunello di Montalcino, da uva Sangiovese al 100%, è il rivale toscano: minimo 4 anni di invecchiamento, 5 per la Riserva. Eleganza e potenza, frutta rossa matura, spezie, tabacco. Top annate: 2010, 2015, 2016. Costo: 35-200 €. Il Chianti Classico DOCG (Sangiovese 80%+), invecchiato 12+ mesi, ha freschezza fruttata e tannini più morbidi. Costo: 12-50 €. L'Amarone della Valpolicella, da uve appassite in fruttaio, è denso e potente (15-17% alc), spezie, frutta sotto spirito. Top annate: 2013, 2015. Costo: 30-200 €. Il Sassicaia di Bolgheri, primo Super Tuscan moderno (1968), ha aperto la strada ai blend bordolesi italiani. Costo: 150-300 €."
+      },
+      {
+        "h": "Bianchi, bollicine e dolci",
+        "body": "Il Prosecco DOC e DOCG è il bianco frizzante più famoso al mondo: 600 milioni di bottiglie l'anno tra Veneto e Friuli, da uva Glera, metodo Martinotti (rifermentazione in autoclave). Il Prosecco di Conegliano Valdobbiadene DOCG è la versione premium. Il Franciacorta DOCG (Lombardia) è il metodo classico (come lo Champagne) più rinomato d'Italia: Chardonnay e Pinot Nero, 18-30 mesi sui lieviti. Costo: 18-80 €. Il Trento DOC è l'altra grande denominazione di bollicine metodo classico (Ferrari, Cavit). Tra i bianchi: il Vermentino di Sardegna (fresco, salino, perfetto per pesce), il Friulano (la 'tocai' friulana, pulita, mineral), il Greco di Tufo campano (DOCG, ricco di carattere vulcanico), il Verdicchio di Castelli di Jesi marchigiano, il Soave veneto. Vini dolci: il Passito di Pantelleria (zibibbo siciliano appassito), il Vin Santo toscano (uva trebbiana appassita per 6 anni), il Moscato d'Asti, lo Sciacchetrà delle Cinque Terre."
+      },
+      {
+        "h": "Vino italiano e cucina: abbinamenti",
+        "body": "L'abbinamento vino-cibo è arte raffinata. Regole base: vini bianchi leggeri (Vermentino, Pinot Grigio, Soave) con antipasti freddi e pesce. Bianchi strutturati (Greco di Tufo, Friulano, Verdicchio invecchiato) con pesce arrosto e crostacei. Rosati (Cerasuolo d'Abruzzo, Negroamaro rosato) con primi al pomodoro, salumi. Rossi giovani e freschi (Chianti, Dolcetto, Barbera) con pasta al ragù, pizza, salumi. Rossi strutturati (Barolo, Brunello, Amarone) con arrosti, brasati, formaggi stagionati. Vini dolci (Passito, Vin Santo, Moscato) con dessert al cucchiaio, formaggi erborinati. Bollicine (Franciacorta, Prosecco brut) come aperitivo o con frittura mista. Mai vino dolce con piatto salato (lo zucchero appesantisce). Mai vino tannico con pesce (i tannini sanno di pesce vecchio quando incontrano gli oli marini). La temperatura: bianchi 8-12°C, rosati 10-12°C, rossi giovani 14-16°C, rossi strutturati 16-18°C. Mai 'a temperatura ambiente' (oggi le case sono troppo calde a 22°C)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Chi è il maggior produttore di vino al mondo?",
+        "a": "L'Italia, in costante alternanza con la Francia. Negli ultimi 10 anni l'Italia ha prodotto in media 48-50 milioni di ettolitri annui, contro i 45-48 milioni della Francia. Il 2023 ha visto un'inversione (Francia 48 milioni, Italia 38 milioni) per ragioni climatiche (siccità, grandine in Italia). Storicamente l'Italia è il primo produttore mondiale 15 volte negli ultimi 25 anni. Spagna terza (40-45 milioni). USA quarti (24 milioni). Argentina, Australia, Cina, Sud Africa, Cile chiudono la top 10. In termini di esportazioni in volume, l'Italia è prima al mondo, mentre la Francia è prima in valore (vini più costosi). Il Prosecco è da solo il 30% delle bottiglie italiane esportate, segnale di forte standardizzazione del marchio."
+      },
+      {
+        "q": "Quanto costa un vero Barolo?",
+        "a": "Il Barolo DOCG di un produttore serio costa tra 25 e 80 € la bottiglia in enoteca. Sotto i 20 € è probabilmente Barolo industriale di cantine sociali (qualità accettabile ma non eccelsa). I Barolo di grandi produttori (Giacomo Conterno, Bartolo Mascarello, Bruno Giacosa, Vietti, Cordero di Montezemolo, Marchesi di Barolo) partono da 40-60 € e arrivano a 200-300 € per le riserve speciali. I Barolo di vecchie annate (1990, 1996, 2001) sono da collezione: 200-1000+ € a bottiglia. Il Barolo invecchia magnificamente in cantina: 10-20 anni di affinamento esaltano l'eleganza. Da bere giovane sembra ancora troppo tannico, va aperto 2-3 ore prima e decantato. Le 'sottozone' del Barolo (MGA o cru come Cannubi, Brunate, Sarmassa) indicano provenienze specifiche pregiate."
+      },
+      {
+        "q": "Vino biodinamico, biologico, naturale: qual è la differenza?",
+        "a": "Sono tre categorie distinte ma sovrapposte. Vino biologico (certificato dal 2012 in UE): l'uva è coltivata senza pesticidi sintetici, e in cantina sono limitati gli additivi (sulfiti max 100 mg/L in rosso, 150 in bianco). Vino biodinamico: pratiche steineriane con calendario lunare, preparati naturali (corno-letame, silice), certificazioni Demeter o Biodyvin. Biodinamico è anche biologico. Vino naturale: non ha definizione legale, ma è generalmente considerato vino con minimi interventi, fermentazioni con lieviti indigeni (no lieviti commerciali), nessun additivo (o pochissimo: sulfiti sotto 30 mg/L o zero). Il vino naturale è spesso anche biologico ma non sempre certificato. Nascita del movimento naturale: anni '80 in Beaujolais (Francia) e Loira, in Italia con Vinitaly e Vini Naturali da inizio 2000."
+      },
+      {
+        "q": "Si può conservare il vino in cucina?",
+        "a": "No, è una pessima idea. Il vino soffre tre nemici: calore, luce, vibrazioni. La cucina ha tutti e tre: caldo del forno, luce, lavastoviglie. Conservare bottiglie in cucina accelera l'invecchiamento prematuro: in 2-3 mesi il vino può perdere qualità irrecuperabilmente. La cantina ideale: temperatura costante 12-15°C, umidità 65-75%, oscurità totale, no vibrazioni. Le case moderne raramente offrono queste condizioni naturali. Soluzioni: cantine elettriche di varie dimensioni (da 50 a 1500 bottiglie, costo 200-3000 €), o conservare in punto fresco della casa (cantina condominiale, ripostiglio, vano ascensore). Il vino da consumare entro 6 mesi tollera condizioni meno perfette. I grandi vini da invecchiamento (Barolo, Brunello) richiedono cantine vere."
+      }
+    ],
+    "related": ["pizza", "pasta", "mozzarella", "carbonara", "prosciutto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pesto",
+    "locale": "it",
+    "keyword": "Pesto",
+    "matchPatterns": ["pesto", "basilico", "ligure", "genovese", "pesto alla genovese", "pinoli"],
+    "topic": "food",
+    "title": "Pesto alla Genovese — il verde dell'Italia dal mortaio",
+    "description": "Basilico genovese DOP, pinoli, parmigiano, pecorino, aglio, olio, sale. Il vero pesto alla genovese si fa nel mortaio.",
+    "emoji": "🌿",
+    "intro": "Il pesto alla genovese è una delle salse italiane più rappresentative al mondo e la regina della cucina ligure. Il nome 'pesto' deriva dal verbo italiano 'pestare', ovvero schiacciare nel mortaio: la sua preparazione tradizionale richiede mortaio di marmo e pestello di legno (tipicamente olivo), non frullatore o robot da cucina (che riscaldano il basilico, ossidandolo). La ricetta moderna si codifica a Genova nell'Ottocento, anche se erano già diffuse salse a base di erbe pestate fin dall'epoca romana (il moretum, descritto da Virgilio nel I secolo a.C., aveva basilico, aglio e formaggio). Gli ingredienti del vero pesto alla genovese DOP sono solo 7: basilico genovese DOP, pinoli italiani o mediterranei, aglio di Vessalico, Parmigiano Reggiano DOP, Pecorino Sardo DOP, olio extravergine d'oliva ligure DOP, sale marino. Niente prezzemolo, niente noci (quella è la 'salsa di noci' diversa), niente menta, niente mandorle. Su moomz i sondaggi 'pesto genovese vs altre varianti regionali' generano sempre tanto dibattito, perché ogni regione italiana ha sue salse al basilico ma il genovese è inarrivabile.",
+    "sections": [
+      {
+        "h": "La ricetta tradizionale e il mortaio",
+        "body": "Per 4 persone (400 g di pasta): 50 g di foglie di basilico genovese DOP fresche e piccole, 30 g di pinoli mediterranei, 2-3 spicchi di aglio dolce di Vessalico (Liguria), 60 g di Parmigiano Reggiano 24 mesi DOP grattugiato, 20 g di Pecorino Sardo DOP grattugiato, 100 ml di olio extravergine d'oliva ligure DOP, sale grosso marino qb. Lavare le foglie con acqua fredda, asciugare delicatamente con panno (mai centrifuga, danneggia le foglie). Nel mortaio di marmo, schiacciare aglio e qualche granello di sale grosso (crea l'attrito). Aggiungere i pinoli e schiacciare fino a crema. Aggiungere foglie di basilico a manciate, schiacciandole con movimento rotatorio del pestello (mai martellare) per non strappare le foglie ma rilasciare gli oli aromatici. Quando si è formata una crema verde brillante, aggiungere i formaggi mescolando. Versare a filo l'olio extravergine continuando a mescolare con movimento circolare. Sale ad assaggio. Il pesto è pronto: verde brillante, cremoso, aromatico. Si conserva in frigo per 3-4 giorni con strato d'olio in superficie."
+      },
+      {
+        "h": "Basilico genovese DOP e ingredienti chiave",
+        "body": "Il basilico genovese DOP (dal 2005) è coltivato in una zona ristretta della Liguria, principalmente nei comuni di Genova Pra' e nelle valli circostanti. Si distingue per foglie piccole, ovali, di colore verde tenue, prive del sentore di menta che hanno altre varietà di basilico. Ha aroma delicato, dolce, fresco, senza note pungenti. Cresce in serra o in piena terra con clima mediterraneo specifico. I pinoli devono essere italiani o mediterranei (Italia, Spagna, Portogallo, Tunisia), mai cinesi (più piccoli, sapore diverso). L'aglio di Vessalico (Liguria) è dolce e morbido, non aggressivo come altri agli. I formaggi: Parmigiano Reggiano DOP minimo 24 mesi + Pecorino Sardo DOP (dosaggio 3:1 verso il Parmigiano). L'olio extravergine deve essere ligure (DOP Riviera Ligure), con sentore di mandorla e nota erbacea moderata. Sale marino integrale, mai sale fino raffinato. La qualità di ogni ingrediente conta: con basilico generico e pinoli cinesi il risultato non è pesto alla genovese."
+      },
+      {
+        "h": "Pesto e pasta: gli abbinamenti classici",
+        "body": "Il pesto si abbina alla pasta in modo classico e codificato. Il formato tradizionale ligure è le trofie liguri (gnocchetti ritorti corti) o le trenette (linguine sottili e lunghe). Con il pesto si aggiungono sempre due ingredienti accessori: patate a dadini e fagiolini, cotti insieme alla pasta. Il piatto si chiama 'trofie al pesto con patate e fagiolini' ed è la versione genovese autentica. Per non rovinare il pesto: scolare la pasta tenendo un mestolo d'acqua di cottura. Mai cuocere il pesto sul fuoco (perde aroma). Mai versare il pesto in pentola calda direttamente: scaldare la ciotola con poca acqua di cottura, poi versare il pesto, e infine la pasta scolata. Mescolare velocemente. Il pesto deve restare verde brillante, mai virare al verde-marrone (segno di calore eccessivo). Le pastasciutte al pesto si conservano poco: meglio prepararle al momento. Su moomz tanti sondaggi rivelano 'a chi piace il pesto in barattolo' (la risposta è quasi mai)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché nel pesto si usano due formaggi?",
+        "a": "Per equilibrio di sapore. Il Parmigiano Reggiano DOP, formaggio a pasta dura prodotto in Emilia-Romagna, ha sapore dolce, di latte cotto, leggermente piccante negli stagionati lunghi. Da solo sarebbe troppo dolce. Il Pecorino Sardo DOP (o Pecorino Romano DOP in alcune ricette), formaggio di pecora, ha sapore più sapido, salato, aromatico. Il mix dei due (proporzioni circa 3:1 verso il Parmigiano) crea una complessità che valorizza il basilico senza coprirlo. Usando solo Parmigiano il pesto risulterebbe dolce e piatto. Usando solo Pecorino sarebbe troppo aggressivo. La combinazione è ottimale e tradizionale ligure. Alcune varianti sostituiscono il Pecorino Sardo con il Pecorino Romano (più salato e aggressivo), modificando leggermente il profilo."
+      },
+      {
+        "q": "Mortaio o frullatore?",
+        "a": "Il mortaio di marmo con pestello di legno è il metodo tradizionale ligure e produce risultati superiori. Il frullatore elettrico riscalda il basilico per attrito (le lame ruotano a 10.000+ giri/minuto), ossidando le clorofille e degradando gli oli aromatici. Il risultato di frullatore è più verde scuro, più amaro, perde i profumi delicati del basilico. Il mortaio invece schiaccia delicatamente, mantenendo intatte le proprietà del basilico. Tempo: 15-20 minuti al mortaio contro 1 minuto al frullatore. Le foglie di basilico hanno ghiandole oleose che vanno aperte con la pressione, non con il taglio delle lame. Per chi ha fretta, il frullatore va impostato a impulsi brevi con ingredienti freddi, e si versa l'olio per ultimo. Il frigo aiuta a tenere bassa la temperatura. Ma il mortaio resta il gold standard."
+      },
+      {
+        "q": "Si può conservare il pesto?",
+        "a": "Sì, in frigo per 3-4 giorni in barattolo di vetro con strato di olio extravergine in superficie (impedisce ossidazione e annerimento). Mai esporre all'aria. Per conservare più a lungo: congelare. Il pesto congelato in vaschette del ghiaccio (porzionato) si conserva 6 mesi senza perdere troppo aroma. Si scongela in frigo o a temperatura ambiente. Il pesto in barattolo industriale (Barilla, Sacla, marche più premium) si conserva mesi grazie a pastorizzazione e additivi (acido ascorbico contro l'ossidazione), ma il sapore è molto diverso e generalmente inferiore. La salsa pastorizzata è cotta, perdendo aroma. I marchi premium 'da agricoltura biologica' avvicinano un po' il sapore autentico ma non lo replicano. Il vero pesto è quello fresco preparato al momento."
+      },
+      {
+        "q": "Quali sono le varianti regionali del pesto?",
+        "a": "Esistono molte salse al basilico in Italia ma il pesto alla genovese è l'unico DOP. Il pesto trapanese (Sicilia) si fa con mandorle invece di pinoli, basilico, pomodoro fresco crudo, aglio, olio, formaggio. Aspetto rosa-arancione invece di verde. Si usa con i busiati (pasta siciliana). Il pesto alla calabrese ha peperoncino aggiunto. Il pesto alla noci (Liguria, salsa di noci) sostituisce pinoli con noci, panna o ricotta, mollica di pane, e prezzemolo o maggiorana invece del basilico (anche se alcune varianti hanno entrambi). Si usa coi pansoti (ravioli liguri). Il pesto agli agrumi: alcune cucine moderne aggiungono buccia di limone o arancia. Il pesto al pistacchio (siciliano gourmet) sostituisce pinoli con pistacchio di Bronte. Il pesto rosso o alla siciliana (pomodori secchi, basilico, mandorle). Su moomz sondaggi 'pesto verde vs pesto rosso' rivelano preferenze regionali Italia-Sud vs Italia-Nord."
+      }
+    ],
+    "related": ["pasta", "mozzarella", "pizza", "vino", "carbonara"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "panettone",
+    "locale": "it",
+    "keyword": "Panettone",
+    "matchPatterns": ["panettone", "natale", "milano", "lievito madre", "canditi", "dolce natale"],
+    "topic": "food",
+    "title": "Panettone — il dolce milanese di Natale e la lievitazione di 36 ore",
+    "description": "Lievito madre, 36 ore di lievitazione, canditi e uvetta. Il panettone milanese è patrimonio italiano del Natale e si esporta nel mondo.",
+    "emoji": "🍞",
+    "intro": "Il panettone è il dolce di Natale per eccellenza in Italia. Originario di Milano, ha radici antiche: la leggenda lo fa nascere alla corte degli Sforza nel XV secolo, quando il garzone Toni avrebbe inventato un pane ricco per sostituire un dolce sciupato dal cuoco principale; di qui 'pan del Toni' poi panettone. La versione codificata nasce nella seconda metà dell'Ottocento a Milano con i pasticceri Angelo Motta e successivamente Gioacchino Alemagna che industrializzarono la produzione. Il panettone moderno è caratterizzato da: forma cilindrica alta (il classico 'pirottino'), pasta lievitata con lievito madre per 36-48 ore complessive, canditi (cedro, scorza d'arancia) e uvetta sultanina. Esistono due grandi categorie: il panettone classico (DOP dal 2005 con disciplinare 'Panettone Tipico della Tradizione Artigianale Milanese') e le varianti senza canditi, alla crema, al cioccolato, al pistacchio. Il consumo italiano supera i 60 milioni di pezzi l'anno in dicembre-gennaio. Su moomz i sondaggi 'panettone vs pandoro' (Natale d'oro veronese) generano sempre vere e proprie guerre nazionali tra Milano e Verona.",
+    "sections": [
+      {
+        "h": "La lievitazione di 36 ore",
+        "body": "Il panettone artigianale richiede una lavorazione lunga e tecnica precisa. La base è il lievito madre (pasta acida di farina e acqua coltivata per anni nei laboratori artigianali, alcune ceppi hanno oltre 100 anni di storia). Il lievito viene 'rinfrescato' più volte prima dell'uso. La prima lavorazione: si impasta il lievito madre con farina, zucchero, tuorli d'uovo, burro, e si lascia lievitare 12-14 ore in cella di lievitazione a 26-28°C. La seconda lavorazione (impasto definitivo): si aggiungono altri tuorli, miele, vaniglia, sale, canditi (cedro candito e scorza d'arancia) e uvetta. Si impasta a lungo (40-60 minuti) per sviluppare il glutine. Si forma la pagnotta nello stampo (pirottino), si lascia lievitare altre 6-8 ore fino al raggiungimento del bordo. Si fa un taglio a croce in superficie e si cuoce 50-60 minuti a 170-180°C. Si raffredda capovolto (importante: altrimenti collassa) per 6-8 ore. La crosta deve essere dorata, la pasta interna gialla e alveolata. Il processo totale: 36-48 ore."
+      },
+      {
+        "h": "I grandi pasticceri italiani",
+        "body": "Il panettone artigianale di alta qualità è un universo di maestri. Sui premier moderni: Iginio Massari (Brescia, 'maestro dei maestri', presidente storico dell'AMPI), Achille Zoia (Vigevano), Salvatore De Riso (Costa Amalfitana, ha rivoluzionato il panettone con varianti sud Italia), Vincenzo Tiri (Acerenza, Basilicata, vincitore campionati con panettone classico), Olivier Bajard (Francia, premiato in Italia), Cristian Beduschi (Treviso). Le grandi industrie storiche (Motta, Alemagna, Bauli) producono panettone industriale di buona qualità a prezzi accessibili (8-15 €). I panettoni artigianali di qualità eccellenti costano 30-60 € (Massari, De Riso, Tiri, Pansa di Amalfi). Le edizioni speciali da pasticceria possono superare i 100 € (Massari Premium, Cova Milano, Pasticceria Marchesi). Il Campionato Mondiale del Panettone si tiene ogni anno e premia i migliori interpreti. La rivista 'Dolce&Salato' pubblica annualmente la classifica dei migliori panettoni artigianali italiani."
+      },
+      {
+        "h": "Panettone vs Pandoro: la guerra italiana",
+        "body": "L'Italia si divide tra Milano (panettone) e Verona (pandoro). Il pandoro, dolce veronese inventato nel 1894 da Domenico Melegatti, è una colomba alta a tronco di cono ottagonale, di pasta lievitata gialla intensa, senza canditi né uvetta. Si serve cosparso di zucchero a velo che evoca la neve sui monti. Sapore più burroso, più morbido, più dolce del panettone. Più adatto ai bambini per assenza di canditi. La guerra panettone vs pandoro è epica nei sondaggi: tendenzialmente i milanesi e i lombardi votano panettone, i veronesi e i veneti votano pandoro. Le statistiche di vendita italiane mostrano il panettone ancora in vantaggio (55-60%) sul pandoro (40-45%). All'estero il panettone è di gran lunga più conosciuto come simbolo italiano. Sui sondaggi moomz 'panettone con canditi vs panettone senza' rivela un'altra divisione: i puristi vogliono canditi, le nuove generazioni li detestano spesso. La 'colomba pasquale' è cugina del panettone per Pasqua, con forma a colomba e mandorle in superficie."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perché il panettone si mangia solo a Natale?",
+        "a": "Per tradizione antica e per la complessità produttiva. Il panettone è dolce delle feste natalizie da quando si codifica a fine Ottocento. La lavorazione lunga (36-48 ore) lo rendeva storicamente difficile e costoso da produrre, quindi riservato alle occasioni speciali. Anche la conservazione era difficile prima dei conservanti moderni. Oggi il panettone si produce industrialmente tutto l'anno (in Sud America soprattutto), ma in Italia rimane legato a novembre-gennaio. Alcune pasticcerie artigianali producono varianti estive (panettone al pistacchio, all'amarena, al pesto) tutto l'anno, ma sono ancora rare. La 'stagione panettone' inizia a novembre nelle pasticcerie e finisce a fine gennaio. Le scorte invendute si esportano in Brasile, Argentina (dove il panettone è popolarissimo) o si trasformano in altri prodotti."
+      },
+      {
+        "q": "Quanto costa un panettone artigianale?",
+        "a": "Un panettone artigianale di qualità costa 30-60 € per pezzo standard (750g-1kg). I maestri pasticceri più rinomati: Massari (35-45 €), Cova Milano (40-50 €), De Riso (35-45 €), Tiri (30-40 €), Marchesi 1824 (50-70 €). Le edizioni speciali o limited edition possono superare i 100 €. Il panettone industriale di qualità buona (Bauli, Motta, Le Tre Marie, Galup) costa 8-15 €. Sotto i 6-8 € è probabilmente industriale economico con margarina al posto del burro, lievito chimico al posto del lievito madre, canditi industriali. Le grandi catene supermercati offrono panettoni a 4-6 € durante le offerte natalizie, qualità accettabile per consumo veloce ma molto distante dall'artigianale. Il panettone artigianale di buon livello (15-25 €) si trova in pasticcerie locali in tutta Italia."
+      },
+      {
+        "q": "Si può fare il panettone in casa?",
+        "a": "Sì ma è uno dei dolci più tecnici della pasticceria italiana. Serve lievito madre attivo e ben rinfrescato (non si compra al supermercato, va coltivato per settimane o mesi). La temperatura va controllata costantemente (cella di lievitazione ideale a 26-28°C). Il dosaggio degli ingredienti è preciso al grammo. La lavorazione richiede 36-48 ore con due impasti, lunghi tempi di lievitazione, attenzione costante. Il fallimento più comune: lievito non abbastanza forte, pasta che non sale, panettone basso e gommoso. Le scuole di pasticceria offrono corsi specifici (Cast Alimenti, Italian Chef Academy, Boscolo). Per chi ha pazienza e attrezzatura, il risultato è gratificante. Per chi ha fretta, comprare un panettone artigianale di un buon pasticcere è la scelta saggia. Esistono ricette 'cheating' con lievito di birra che danno risultati discreti in 6-8 ore."
+      },
+      {
+        "q": "Come conservare il panettone?",
+        "a": "Il panettone artigianale, una volta tagliato, va conservato in busta plastica o pellicola alimentare per non seccare. Si conserva 5-7 giorni a temperatura ambiente in luogo fresco e asciutto. Mai in frigo (l'umidità lo rovinerebbe in 24 ore). Mai in congelatore (cambia struttura della pasta lievitata). I panettoni industriali sigillati confezionati hanno scadenze 4-6 mesi grazie a conservanti e tecnologie. Una volta aperti, anche loro vanno consumati entro 5-7 giorni. Per riscaldare un panettone secco: tostatura veloce in forno a 150°C per 3-5 minuti, oppure microonde per 20-30 secondi. Le fette secche si possono trasformare in french toast, budino di pane, o tartufato bagnato in vin santo. Il panettone vecchio di 6-12 mesi conservato bene può ancora essere usato per ricette di recupero (zuppe di pane, panettone gelato, bagnato in caffè e cognac)."
+      }
+    ],
+    "related": ["espresso", "tiramisu", "cappuccino", "vino", "natale"],
+    "updatedAt": "2026-05-20"
+  }
+]

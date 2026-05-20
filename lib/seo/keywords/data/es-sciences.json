@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "estrella",
+    "locale": "es",
+    "keyword": "Estrella",
+    "matchPatterns": ["estrella", "estrellas", "constelacion", "constelación", "via lactea", "cosmos"],
+    "topic": "sciences",
+    "title": "Estrella — bolas de fusión, constelaciones y la magia del cielo nocturno",
+    "description": "Todo sobre las estrellas: fusión nuclear, tipos espectrales, constelaciones, supernovas y por qué seguimos pidiendo deseos al verlas caer.",
+    "emoji": "⭐",
+    "intro": "Una estrella es esencialmente una bola gigante de gas (mayoritariamente hidrógeno y helio) que produce energía gracias a la fusión nuclear en su núcleo. Solo en nuestra galaxia, la Vía Láctea, se estima que hay entre 100.000 y 400.000 millones de estrellas, y el universo observable contiene más de dos billones de galaxias, cada una con miles de millones de estrellas. La estrella más cercana después del Sol es Próxima Centauri, a 4,24 años luz, lo que significa que la luz que vemos de ella salió hace más de cuatro años. Las estrellas se clasifican según su tipo espectral (O, B, A, F, G, K, M de más caliente a más fría) y nuestro Sol es una G2V bastante modesta en la escala cósmica. Las estrellas más masivas viven solo unos millones de años antes de explotar como supernovas, mientras que las enanas rojas pueden vivir billones de años. Cuando una estrella muere, deja como residuo una enana blanca, una estrella de neutrones o un agujero negro. En moomz, las encuestas sobre el cielo nocturno arrasan: ¿prefieres una noche estrellada en el campo o un cielo de ciudad con sus luces? ¿Crees en los signos del zodiaco? ¿Pedirías un deseo a una estrella fugaz? La cultura humana ha mirado a las estrellas durante 40.000 años, desde los grabados rupestres con constelaciones hasta los telescopios James Webb que escudriñan los confines del universo. Pedir un deseo al ver una estrella fugaz sigue siendo uno de los gestos más universales y tiernos del planeta.",
+    "sections": [
+      {
+        "h": "Cómo nace y muere una estrella",
+        "body": "Las estrellas nacen en nubes moleculares de gas y polvo llamadas nebulosas. Cuando una región se vuelve lo suficientemente densa, colapsa por gravedad y forma una proto-estrella. Si la masa es suficiente (al menos 8% de la masa del Sol), la presión en el núcleo enciende la fusión de hidrógeno en helio y nace una estrella. Pasa entonces la mayor parte de su vida en la 'secuencia principal'. Cuando se acaba el hidrógeno, las estrellas como el Sol se hinchan en gigantes rojas y luego pierden sus capas externas formando una nebulosa planetaria, dejando una enana blanca. Las estrellas masivas (más de 8 masas solares) explotan como supernova: en pocos segundos liberan tanta energía como el Sol en toda su vida, dispersando los elementos pesados (carbono, oxígeno, hierro) que formarán nuevas estrellas, planetas, e incluso nosotros. La famosa frase de Carl Sagan es literal: somos polvo de estrellas."
+      },
+      {
+        "h": "Constelaciones y mitos del cielo",
+        "body": "Las constelaciones son agrupaciones aparentes de estrellas que no tienen relación física entre sí (suelen estar a distancias muy distintas) pero forman dibujos en nuestro cielo. La Unión Astronómica Internacional reconoce oficialmente 88 constelaciones desde 1930. Las más conocidas: Orión (con su famoso cinturón de tres estrellas), la Osa Mayor (que contiene el Carro), Casiopea (la W), la Cruz del Sur (visible solo desde el hemisferio sur). Cada cultura tiene sus propios mitos: para los griegos, las constelaciones contaban historias de dioses y héroes; los aztecas veían patrones distintos; los aborígenes australianos identificaban formas en las zonas oscuras entre estrellas. Los doce signos del zodiaco corresponden a constelaciones por las que pasa el Sol en su recorrido aparente anual. La estrella Polar, que indica el norte, es Polaris en la Osa Menor, situada a unos 433 años luz."
+      },
+      {
+        "h": "Estrellas fugaces y pedir un deseo",
+        "body": "Lo que llamamos 'estrellas fugaces' en realidad no son estrellas: son meteoros, fragmentos de roca o polvo cósmico (a veces más pequeños que un grano de arena) que entran en la atmósfera terrestre a 11-72 km/s y se queman por fricción a unos 80-100 km de altitud. Cuando la Tierra atraviesa los restos dejados por un cometa, se producen las lluvias de meteoros. Las más famosas: las Perseidas en agosto (Lágrimas de San Lorenzo), las Gemínidas en diciembre y las Leónidas en noviembre. En noches de máximo se pueden ver más de 100 meteoros por hora desde lugares oscuros. La tradición de pedir un deseo al ver una estrella fugaz se remonta a la Grecia antigua: Ptolomeo creía que cuando los dioses miraban a la Tierra, accidentalmente desplazaban estrellas, y ese momento de atención divina era el ideal para formular un deseo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuántas estrellas se pueden ver a simple vista?",
+        "a": "Desde un lugar muy oscuro, sin contaminación lumínica y con la vista bien adaptada a la oscuridad, se pueden ver entre 4.500 y 6.000 estrellas en toda la esfera celeste, pero solo unas 2.500-3.000 en un hemisferio dado en un momento concreto. En una ciudad grande con contaminación lumínica importante, este número baja a 50-200. Por eso lugares como Tenerife, La Palma, el desierto de Atacama o los parques internacionales 'Starlight' son tan codiciados por astrónomos y fotógrafos."
+      },
+      {
+        "q": "¿Cuál es la estrella más cercana a la Tierra?",
+        "a": "Después del Sol (a 150 millones de km), la estrella más cercana es Próxima Centauri, una enana roja a 4,24 años luz (unos 40 billones de km). Forma parte del sistema triple Alfa Centauri junto a las estrellas Alfa Centauri A y B. En 2016 se descubrió que Próxima Centauri tiene un planeta potencialmente habitable, Próxima b, lo que la ha convertido en objetivo prioritario de futuras misiones de exploración interestelar como Breakthrough Starshot."
+      },
+      {
+        "q": "¿Cuál es la estrella más brillante del cielo?",
+        "a": "Sirio, en la constelación del Can Mayor, es la estrella más brillante de nuestro cielo nocturno, con una magnitud aparente de -1,46. Está a solo 8,6 años luz y es en realidad un sistema binario: Sirio A (una estrella blanca) y Sirio B (una enana blanca). Los antiguos egipcios la veneraban porque su aparición coincidía con las inundaciones del Nilo. Su nombre viene del griego 'seirios' que significa 'ardiente' o 'brillante'."
+      },
+      {
+        "q": "¿Por qué las estrellas parpadean?",
+        "a": "Las estrellas no parpadean realmente: lo que vemos como centelleo (en astronomía se llama 'scintillation') es el efecto de la atmósfera terrestre. Las distintas capas de aire, con temperaturas y densidades variables, desvían los rayos de luz de manera irregular, lo que hace que la estrella parezca temblar o cambiar de brillo. Los planetas no parpadean (o muy poco) porque están mucho más cerca y aparecen como pequeños discos en vez de puntos, lo que promedia las variaciones."
+      }
+    ],
+    "related": ["sol", "luna", "espacio", "planeta", "cosmos"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "planeta",
+    "locale": "es",
+    "keyword": "Planeta",
+    "matchPatterns": ["planeta", "planetas", "marte", "jupiter", "saturno", "venus"],
+    "topic": "sciences",
+    "title": "Planeta — del sistema solar a los exoplanetas, viaje cósmico",
+    "description": "Marte, Júpiter, Venus, exoplanetas habitables... todo sobre los planetas: composición, atmósferas, lunas y la búsqueda de vida extraterrestre.",
+    "emoji": "🪐",
+    "intro": "Un planeta es un cuerpo celeste que orbita una estrella, tiene suficiente masa para haber tomado forma esférica y ha 'limpiado' su órbita de otros objetos. Esa última condición, añadida por la Unión Astronómica Internacional en 2006, es la que provocó la degradación de Plutón al estatus de planeta enano, una decisión que sigue siendo polémica entre el público. Nuestro sistema solar tiene ocho planetas oficiales: los cuatro rocosos (Mercurio, Venus, Tierra, Marte) y los cuatro gigantes (Júpiter, Saturno, Urano, Neptuno). Júpiter es el más grande con un diámetro de 139.820 km (11 veces el de la Tierra) y su Gran Mancha Roja es una tormenta de más de 350 años de antigüedad. Saturno tiene los anillos más espectaculares del sistema. Pero más allá de nuestro sistema, los astrónomos han confirmado más de 5.500 exoplanetas desde el primer descubrimiento en 1995 (51 Pegasi b, que valió un Nobel en 2019 a Michel Mayor y Didier Queloz). Algunos exoplanetas están en la 'zona habitable' de su estrella, donde podría existir agua líquida y, quizás, vida. Proxima b, TRAPPIST-1, Kepler-452b son nombres que han pasado del paper científico al imaginario pop. En moomz, los debates 'team Marte vs team Venus' o '¿colonizarías Marte si pudieras?' explotan con cada misión nueva. La exploración planetaria nos recuerda a la vez nuestro tamaño minúsculo y la suerte alucinante de tener una Tierra perfectamente afinada para la vida.",
+    "sections": [
+      {
+        "h": "El sistema solar: ocho mundos muy distintos",
+        "body": "Mercurio: el más pequeño y cercano al Sol, sin atmósfera, con días que duran 176 días terrestres. Venus: del tamaño de la Tierra pero con efecto invernadero descontrolado, su superficie alcanza 465 °C, suficiente para fundir plomo. Tierra: el único conocido con vida y agua líquida en superficie. Marte: rojo por su óxido de hierro, con casquetes polares de hielo de agua, el Monte Olimpo (volcán de 22 km, casi 3 veces el Everest), y el robot Perseverance buscando rastros de vida microbiana antigua. Júpiter: gigante gaseoso con 95 lunas conocidas, entre ellas Europa que tiene un océano bajo su corteza de hielo. Saturno: anillos de hielo y polvo, 146 lunas (Titán tiene lagos de metano líquido). Urano: gira tumbado de lado tras una colisión antigua. Neptuno: el más ventoso con ráfagas de 2.100 km/h. Plutón, reclasificado en 2006, sigue siendo querido — la sonda New Horizons lo sobrevoló en 2015 revelando un corazón helado de nitrógeno."
+      },
+      {
+        "h": "Marte y la fiebre de la colonización",
+        "body": "Marte es el planeta que más obsesiona al imaginario popular. Tiene un día de 24 horas y 37 minutos, estaciones, dos lunas (Fobos y Deimos) y, sobre todo, evidencia geológica de que en algún momento de su pasado hubo agua líquida en abundancia. La NASA, ESA, China y SpaceX compiten por enviar humanos. Elon Musk afirma que SpaceX llevará a los primeros colonos en la década de 2030. Los desafíos son brutales: viaje de 6-9 meses con radiación cósmica, polvo marciano tóxico (perclorato), atmósfera 100 veces más fina que la terrestre, temperatura media de -63 °C. Pero también hay recursos: agua helada en los polos, dióxido de carbono que puede convertirse en oxígeno. Películas como 'The Martian', series como 'For All Mankind', y libros como la trilogía de Marte de Kim Stanley Robinson han alimentado este sueño durante décadas. ¿Sueño romántico o huida de un planeta que destrozamos? El debate sigue vivo."
+      },
+      {
+        "h": "Exoplanetas y la búsqueda de vida",
+        "body": "Desde 1995, los astrónomos han confirmado más de 5.500 exoplanetas usando técnicas como el tránsito (detección de la pequeña baja de brillo cuando un planeta pasa delante de su estrella) o la velocidad radial. El telescopio espacial Kepler de la NASA y luego TESS han revolucionado el campo. Hallazgos espectaculares: TRAPPIST-1, un sistema con siete planetas rocosos a 40 años luz, tres de ellos en zona habitable. Proxima b, en la estrella más cercana. Kepler-452b, llamado 'el primo de la Tierra'. El telescopio James Webb, lanzado en 2021, puede ahora analizar las atmósferas de algunos de estos mundos buscando biomarcadores: oxígeno, metano, vapor de agua. Si encontramos vida fuera de la Tierra, será probablemente bacteriana antes que extraterrestre estilo Hollywood. Pero el cambio filosófico sería brutal: ya no estaríamos solos en el universo."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué Plutón ya no es un planeta?",
+        "a": "En 2006, la Unión Astronómica Internacional redefinió 'planeta' con tres criterios: orbitar el Sol, tener forma esférica por su propia gravedad, y haber 'limpiado' su órbita de otros cuerpos. Plutón cumple los dos primeros, pero comparte su órbita con muchos otros objetos del cinturón de Kuiper, por lo que no cumple el tercero. Fue reclasificado como 'planeta enano', junto a Ceres, Eris, Haumea y Makemake. Muchos astrónomos y entusiastas siguen reivindicando su estatus original."
+      },
+      {
+        "q": "¿Cuál es el planeta más grande?",
+        "a": "Júpiter, con un diámetro de 139.820 km, es el planeta más grande del sistema solar. Es tan grande que más de 1.300 Tierras cabrían en su volumen. Su famosa Gran Mancha Roja es un anticiclón gigante que lleva al menos 350 años activo y mide más de dos veces el diámetro de la Tierra. Júpiter tiene un campo magnético 20.000 veces más potente que el terrestre y 95 lunas conocidas, entre ellas Ganímedes, la luna más grande del sistema solar."
+      },
+      {
+        "q": "¿Podríamos vivir en Marte?",
+        "a": "Técnicamente sí, pero con enormes desafíos. Marte tiene gravedad un 38% de la terrestre, día de 24h 37min, casquetes polares con agua helada, y dióxido de carbono que se podría convertir en oxígeno. Sin embargo, no tiene atmósfera respirable, las temperaturas son extremas (-63 °C de media), hay radiación cósmica peligrosa, y tormentas de polvo globales. Cualquier asentamiento humano necesitaría hábitats presurizados, trajes espaciales para salir, agua reciclada, alimento cultivado en invernaderos. Los planes apuntan a primeros aterrizajes humanos en los años 2030-2040."
+      },
+      {
+        "q": "¿Hay vida en otros planetas?",
+        "a": "No tenemos pruebas todavía, pero la búsqueda es activa y prometedora. Marte fue probablemente habitable hace miles de millones de años cuando tenía agua líquida y atmósfera más densa. Europa (luna de Júpiter) y Encélado (luna de Saturno) tienen océanos líquidos bajo su corteza de hielo y son candidatos serios para vida microbiana. Los exoplanetas en zona habitable como TRAPPIST-1e o Próxima b también son objetivos. El telescopio James Webb estudia sus atmósferas en busca de biomarcadores. La ecuación de Drake estima que podría haber miles o millones de civilizaciones en la galaxia, pero no las hemos encontrado: es la paradoja de Fermi."
+      }
+    ],
+    "related": ["sol", "luna", "espacio", "estrella", "tierra"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tierra",
+    "locale": "es",
+    "keyword": "Tierra",
+    "matchPatterns": ["tierra", "planeta tierra", "global", "globo", "geologia", "geología"],
+    "topic": "sciences",
+    "title": "Tierra — nuestro hogar azul, tectónica y crisis climática",
+    "description": "Todo sobre la Tierra: formación hace 4.500M años, tectónica, vida, atmósfera, biodiversidad y el reto climático del siglo XXI.",
+    "emoji": "🌍",
+    "intro": "La Tierra es el único planeta conocido donde existe la vida, y es estadísticamente alucinante que estés aquí leyendo esto. Nuestro planeta tiene 4.540 millones de años, se formó por acreción de polvo y rocas en el disco protoplanetario alrededor del joven Sol, y poco después de su nacimiento sufrió la colisión con Theia que dio origen a la Luna. Tiene un diámetro de 12.742 km, gira sobre sí misma en 23 horas 56 minutos y completa una órbita solar en 365,25 días. Su inclinación axial de 23,5° genera las estaciones. La superficie está cubierta en un 71% por océanos y el 29% restante por seis continentes en movimiento perpetuo a 2-10 cm por año gracias a la tectónica de placas — Pangea, el supercontinente único, se fragmentó hace unos 175 millones de años. La atmósfera está compuesta de 78% nitrógeno, 21% oxígeno (producido en gran parte por el fitoplancton oceánico) y 1% otros gases incluido el famoso CO2 que está aumentando peligrosamente desde la revolución industrial. La Tierra alberga entre 8 y 14 millones de especies (de las cuales solo hemos descrito unas 2 millones), 8.000 millones de humanos, y un campo magnético generado por el núcleo de hierro líquido que nos protege de la radiación solar. En moomz las encuestas sobre cambio climático, mejor país para vivir, naturaleza vs ciudad o predicción del fin del mundo dividen apasionadamente. La Tierra es un milagro frágil que cuidamos mal — el reto del siglo XXI es no romperla.",
+    "sections": [
+      {
+        "h": "Tectónica de placas: continentes en movimiento",
+        "body": "La superficie de la Tierra está fragmentada en una docena de placas tectónicas que flotan sobre el manto semi-líquido. Estas placas se mueven entre 2 y 10 cm por año, lo que parece poco pero a escala geológica reconfigura completamente el planeta. Pangea, el último supercontinente, existió hace 300-175 millones de años antes de empezar a fragmentarse. Las placas se encuentran en tres tipos de fronteras: divergentes (se separan, como la dorsal medio-atlántica donde nace nueva corteza), convergentes (chocan y crean cordilleras como el Himalaya, o subducción con volcanes y terremotos como el Cinturón de Fuego del Pacífico), y transformantes (se deslizan lateralmente, como la falla de San Andrés en California). Los terremotos más mortíferos de la historia (Haití 2010, Sumatra 2004, Tangshan 1976) ocurrieron en estos límites. Esta dinámica también recicla el carbono del planeta y mantiene la habitabilidad a largo plazo — sin tectónica, la Tierra sería un páramo congelado o un infierno tipo Venus."
+      },
+      {
+        "h": "La vida en la Tierra: 3.500 millones de años de evolución",
+        "body": "Los primeros organismos vivos aparecieron en los océanos hace unos 3.500 millones de años, bacterias unicelulares que utilizaban el sulfuro de hidrógeno como fuente de energía. Hace 2.400 millones de años, las cianobacterias inventaron la fotosíntesis y oxigenaron la atmósfera (la Gran Oxidación), provocando además la primera extinción masiva. Hace 540 millones de años, la Explosión Cámbrica diversificó la vida pluricelular. Los dinosaurios reinaron durante 165 millones de años hasta el impacto del asteroide de Chicxulub hace 66 millones de años. Los mamíferos llenaron el nicho, y hace 7 millones de años los primeros homínidos se separaron de los chimpancés. El Homo sapiens apareció en África hace unos 300.000 años, salió hace 70.000 y colonizó el planeta. Hoy somos 8.000 millones — un crecimiento exponencial sin precedentes que está provocando la sexta extinción masiva: 1 millón de especies en riesgo según la ONU."
+      },
+      {
+        "h": "Crisis climática: el reto del siglo",
+        "body": "Desde la revolución industrial (~1850), los humanos hemos liberado a la atmósfera unos 2,4 billones de toneladas de CO2 quemando carbón, petróleo y gas. La concentración de CO2 ha pasado de 280 ppm preindustriales a 421 ppm en 2024, el nivel más alto en al menos 800.000 años. La temperatura media global ha subido 1,3 °C respecto a la era preindustrial y los acuerdos de París intentan limitar el calentamiento a 1,5 °C, pero vamos camino de 2,5-3 °C. Consecuencias: olas de calor mortales (Europa 2003, Pakistán 2022), incendios forestales gigantes (Australia 2020, California 2018), aumento del nivel del mar (3,6 mm/año), acidificación oceánica, pérdida de glaciares y hielo ártico, eventos meteorológicos extremos. Las soluciones técnicas existen (renovables, eficiencia, electrificación) pero exigen voluntad política y cambios de estilo de vida masivos. En moomz se debate sin parar: ¿más optimista o más pesimista para 2050?"
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo se formó la Tierra?",
+        "a": "La Tierra se formó hace 4.540 millones de años por acreción gravitacional de polvo y rocas en el disco protoplanetario alrededor del joven Sol. En los primeros millones de años, era un infierno fundido bombardeado por meteoritos. Poco después, la colisión con Theia (un proto-planeta del tamaño de Marte) creó la Luna. La superficie se enfrió, se formaron los océanos por desgasificación volcánica y por el aporte de cometas, y hace unos 3.500 millones de años aparecieron los primeros organismos vivos en estos océanos primitivos."
+      },
+      {
+        "q": "¿Cuántas especies hay en la Tierra?",
+        "a": "Los biólogos estiman entre 8 y 14 millones de especies de seres vivos en la Tierra, de las cuales solo hemos descrito y clasificado oficialmente unos 2 millones. La gran mayoría son insectos (más de 1 millón conocidos, posiblemente 5-10 millones reales), bacterias y hongos. Los océanos contienen probablemente entre 700.000 y 2 millones de especies, de las que conocemos menos del 30%. Cada año se descubren entre 15.000 y 20.000 especies nuevas, pero también desaparecen miles por la actividad humana."
+      },
+      {
+        "q": "¿Por qué la Tierra es azul?",
+        "a": "La Tierra es azul vista desde el espacio porque el 71% de su superficie está cubierta por agua, y porque la atmósfera dispersa la luz azul más que las otras longitudes de onda (la misma física que hace el cielo azul). Yuri Gagarin, el primer ser humano en orbitar la Tierra en 1961, lo expresó así: 'La Tierra es azul'. La famosa foto 'La canica azul' tomada por la tripulación del Apolo 17 en 1972 cambió la conciencia ecológica al mostrar nuestro hogar frágil flotando en la inmensidad oscura del espacio."
+      },
+      {
+        "q": "¿Cuál es el lugar más extremo de la Tierra?",
+        "a": "Depende del criterio. El punto más alto: el Everest (8.849 m). El más bajo en tierra: el Mar Muerto (-430 m). El punto más profundo del océano: la fosa de las Marianas (-10.984 m). El lugar más caliente registrado: Furnace Creek en Death Valley, California (56,7 °C en 1913). El más frío: la base soviética Vostok en la Antártida (-89,2 °C en 1983). El más seco: el desierto de Atacama en Chile, donde algunas zonas no han recibido lluvia en décadas. El más húmedo: Mawsynram en India (11.872 mm/año)."
+      }
+    ],
+    "related": ["sol", "luna", "mar", "espacio", "planeta"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "agua",
+    "locale": "es",
+    "keyword": "Agua",
+    "matchPatterns": ["agua", "h2o", "rio", "río", "lago", "manantial", "potable"],
+    "topic": "sciences",
+    "title": "Agua — la molécula de la vida, ríos y crisis hídrica global",
+    "description": "Todo sobre el agua: H2O, propiedades únicas, ciclo hidrológico, ríos famosos, agua potable, sed mundial y por qué es la sustancia más mágica.",
+    "emoji": "💧",
+    "intro": "El agua, esa molécula tan simple (H2O: dos hidrógenos y un oxígeno), es probablemente la sustancia más mágica del universo. Es la única conocida que existe naturalmente en sus tres estados (sólido, líquido, gaseoso) en las condiciones de la Tierra. Es el solvente universal, el medio en el que ocurrió la vida hace 3.500 millones de años, y constituye entre el 50% y el 75% del cuerpo humano según la edad. La Tierra tiene unos 1.386 millones de km³ de agua, de los cuales el 97% es salada en los océanos. Solo el 3% es agua dulce, y de ese 3% más del 68% está atrapada en glaciares y casquetes polares. El agua dulce accesible (ríos, lagos, acuíferos) representa menos del 1% del agua total del planeta. Y sin embargo, 2.200 millones de personas todavía no tienen acceso a agua potable segura en 2024, según la OMS. El ciclo hidrológico es uno de los mecanismos más bellos del planeta: evaporación, condensación, precipitación, escorrentía — y vuelta a empezar. Los grandes ríos del mundo (Amazonas, Nilo, Yangtsé, Misisipi, Volga, Danubio) son arterias vitales de civilizaciones enteras. En moomz, las encuestas sobre agua arrasan: ¿agua del grifo o embotellada? ¿Mar o piscina? ¿Cuántos vasos al día? ¿Mejor playa o lago de montaña? La obsesión moderna por la hidratación (Stanley cups, botellas de hidrojugo, agua con limón al despertar) refleja una verdad antigua: sin agua, no hay vida ni vibra.",
+    "sections": [
+      {
+        "h": "Propiedades alucinantes del H2O",
+        "body": "El agua tiene propiedades únicas que la hacen perfecta para la vida. Es polar (un extremo positivo y otro negativo) lo que la convierte en solvente universal: disuelve más sustancias que ningún otro líquido. Tiene una alta capacidad calorífica, lo que estabiliza el clima de la Tierra y permite que los océanos almacenen enormes cantidades de calor sin grandes cambios de temperatura. Su densidad máxima es a 4 °C, no a 0 °C, lo que significa que el hielo flota — propiedad rarísima que permite la vida bajo los lagos congelados. Tiene una tensión superficial muy alta, lo que permite a los insectos caminar sobre el agua y al agua subir por los capilares de las plantas hasta lo alto de los árboles más altos (las secuoyas californianas alcanzan los 115 metros). Si el agua se comportara como cualquier otra molécula similar, la vida tal como la conocemos sería imposible. Por algo se la llama 'el solvente de la vida'."
+      },
+      {
+        "h": "El ciclo del agua y los grandes ríos",
+        "body": "El ciclo hidrológico mueve cada año unos 500.000 km³ de agua: evaporación de océanos y suelos (el Sol calienta y el agua se transforma en vapor), transporte atmosférico por vientos, condensación en nubes, precipitación (lluvia, nieve, granizo), y vuelta al mar por ríos y aguas subterráneas. Los grandes ríos del planeta son auténticos motores de civilización: el Nilo (6.650 km) hizo posible Egipto; el Amazonas (6.992 km y descarga récord) regula gran parte del clima sudamericano y contiene el 20% del agua dulce líquida del planeta; el Yangtsé (6.300 km) cruza China; el Ganges es sagrado para 1.000 millones de personas; el Misisipi formó la cultura del sur de EE.UU. En España, el Tajo, Ebro, Duero y Guadalquivir han modelado la geografía y la historia. Las disputas por el agua entre países (Egipto-Etiopía sobre el Nilo, Israel-Palestina, Turquía-Siria-Irak) muestran que el agua es ya un asunto geopolítico tan candente como el petróleo."
+      },
+      {
+        "h": "Crisis hídrica y agua del futuro",
+        "body": "Aunque el agua sea abundante en términos absolutos, la crisis hídrica es uno de los grandes desafíos del siglo XXI. Según la ONU, en 2025 dos tercios de la humanidad vivirán en zonas con estrés hídrico. Las sequías son cada vez más frecuentes (Europa 2022, Cuerno de África 2020-2024, California 2012-2017). Los grandes acuíferos se están agotando (Ogallala en EE.UU., acuífero del norte de la India). El cambio climático multiplica los extremos: o demasiada agua (inundaciones devastadoras) o muy poca (sequías récord). Las soluciones combinan tecnología (desalación, especialmente en Israel y los países del Golfo, reuso de aguas residuales, riego de precisión por goteo) y comportamientos (consumo doméstico, dieta — la carne consume 15.000 litros por kg, mientras que las legumbres solo 4.000). Cada español consume unos 130 litros directos por día, pero su 'huella hídrica' total (incluyendo alimentación e industria) ronda los 4.700 litros diarios."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánta agua debe beber una persona al día?",
+        "a": "La cifra clásica de '2 litros al día' es un buen estimado, pero las necesidades varían mucho según el peso, la actividad física, el clima y la dieta. La Autoridad Europea de Seguridad Alimentaria recomienda 2,5 litros para hombres y 2 litros para mujeres, contando tanto las bebidas como el agua contenida en los alimentos (frutas y verduras pueden contener un 90% de agua). En climas cálidos o con ejercicio intenso, las necesidades pueden duplicarse. La sed es un buen indicador en personas sanas, aunque las personas mayores la perciben menos."
+      },
+      {
+        "q": "¿El agua mineral es mejor que la del grifo?",
+        "a": "En España, el agua del grifo es perfectamente potable y está sometida a controles más estrictos que el agua embotellada. Su impacto ecológico es 1.000 veces menor que el agua en botellas de plástico, que requiere extracción, envasado, transporte y gestión de residuos. El agua mineral natural tiene diferencias en composición mineral (calcio, magnesio, bicarbonato) que pueden interesar para regímenes específicos. El sabor de agua del grifo varía según la zona — algunas ciudades como Madrid presumen de tener una de las mejores del mundo, mientras que en Barcelona muchos prefieren filtrarla."
+      },
+      {
+        "q": "¿Por qué el hielo flota en el agua?",
+        "a": "Porque al congelarse, las moléculas de agua se organizan en una estructura cristalina hexagonal que ocupa más volumen que el agua líquida. Resultado: el hielo es menos denso (0,92 g/cm³) que el agua líquida (1 g/cm³) y por eso flota. Esto es excepcional en química: la mayoría de las sustancias se vuelven más densas cuando se solidifican. Si el hielo se hundiera, los lagos y océanos se congelarían desde abajo y la vida acuática moriría en invierno. Es una de las propiedades más cruciales del agua para la vida."
+      },
+      {
+        "q": "¿De dónde vino el agua de la Tierra?",
+        "a": "El origen del agua terrestre sigue siendo objeto de debate. Las hipótesis principales: o bien estaba presente desde la formación del planeta hace 4.500 millones de años, atrapada en las rocas y luego liberada por desgasificación volcánica; o bien fue traída por bombardeos de cometas y asteroides ricos en hielo durante los primeros mil millones de años (los cometas son a menudo descritos como 'bolas de hielo sucio'). Los análisis isotópicos del agua del cometa 67P/Churyumov-Gerasimenko por la sonda Rosetta en 2014 sugieren que los meteoritos contribuyeron más que los cometas — probablemente una mezcla de ambas fuentes."
+      }
+    ],
+    "related": ["mar", "tierra", "sol", "tormenta", "nube"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fuego",
+    "locale": "es",
+    "keyword": "Fuego",
+    "matchPatterns": ["fuego", "llamas", "incendio", "hoguera", "candela", "vela"],
+    "topic": "sciences",
+    "title": "Fuego — química, fascinación humana y crisis de incendios",
+    "description": "Todo sobre el fuego: reacción de combustión, dominio prometeico, incendios forestales y por qué seguimos hipnotizados por las llamas.",
+    "emoji": "🔥",
+    "intro": "El fuego, esa fascinación primaria que nos hipnotiza desde hace al menos 1 millón de años. La química detrás es simple: una reacción de oxidación rápida y exotérmica que requiere tres ingredientes — combustible, oxígeno y energía de activación (calor) — el famoso triángulo del fuego. Cuando estos tres elementos se combinan en las proporciones adecuadas, se producen las llamas que vemos: son plasma incandescente compuesto de gases ionizados, no exactamente sólido ni líquido ni gas. Los colores del fuego dependen de la temperatura y de los elementos que se queman: amarillo (~1.000 °C) por la presencia de carbono, azul (~1.400 °C) en combustión completa, verde por el cobre, rojo intenso por el estroncio. Los humanos somos la única especie que controla el fuego, y este dominio fue probablemente la invención más transformadora de nuestra historia: nos permitió cocinar (mejorando enormemente la digestibilidad de los alimentos y permitiendo el desarrollo del cerebro), iluminar la noche, ahuyentar depredadores, fundir metales y eventualmente lanzar cohetes al espacio. Pero el fuego también es destrucción. Los incendios forestales masivos de los últimos años (Australia 2019-2020, California 2018-2021, Grecia 2023, España 2022) son consecuencia directa del cambio climático: bosques más secos, olas de calor más intensas, vientos más violentos. En moomz se debate sin parar: ¿prefieres una chimenea o una hoguera? ¿Acampar al aire libre? ¿Has visto un incendio cerca de tu casa? El fuego sigue siendo el espectáculo más viejo y más fascinante del mundo.",
+    "sections": [
+      {
+        "h": "La química detrás de las llamas",
+        "body": "Una combustión es una reacción de oxidación: el combustible (madera, gas, papel) reacciona con el oxígeno (O2) del aire liberando dióxido de carbono (CO2), vapor de agua (H2O) y calor. Pero antes de eso ocurre la pirólisis: el combustible se calienta lo suficiente para descomponerse en gases inflamables que son los que arden realmente — por eso cuando ves arder un tronco, las llamas no tocan directamente la madera sino los gases que se desprenden. La temperatura de ignición varía: papel a 230 °C, madera 300 °C, gasolina 280 °C, magnesio 473 °C. El color de las llamas indica su temperatura: rojo oscuro (700 °C), naranja (1.100 °C), amarillo (1.300 °C), blanco-amarillo (1.500 °C), azul (1.700 °C en combustión completa). Las llamas más calientes alcanzadas en laboratorio rondan los 5.000 °C con dicianoacetileno y ozono. Los bomberos cortan el fuego eliminando uno de los tres lados del triángulo: agua para enfriar, espuma para aislar del oxígeno, retardantes para quitar el combustible."
+      },
+      {
+        "h": "El dominio del fuego en la historia humana",
+        "body": "Las evidencias arqueológicas más antiguas de uso controlado del fuego datan de hace al menos 1 millón de años en Wonderwerk (Sudáfrica), pero pudo ser antes. Hace 400.000 años, los Homo erectus ya cocinaban regularmente, lo que cambió la evolución humana: la cocción de los alimentos aumenta su digestibilidad y libera más calorías, permitiendo el desarrollo del cerebro grande del Homo sapiens. El fuego también extendió las horas de actividad social: las hogueras nocturnas son el origen de la narración oral, la música y la cohesión de grupo. Los romanos usaban el fuego para fundir metales y desarrollar arquitectura con cal. La pólvora china (siglo IX) cambió la guerra. La máquina de vapor (siglo XVIII) y los motores de combustión (siglo XIX-XX) basados en el fuego de carbón y petróleo lanzaron la Revolución Industrial. La energía nuclear y los cohetes del siglo XX son las últimas evoluciones de esa relación. En la mitología, Prometeo robó el fuego a los dioses para entregarlo a los humanos."
+      },
+      {
+        "h": "Incendios forestales: la nueva normalidad",
+        "body": "Los megaincendios son uno de los marcadores más visibles del cambio climático. Australia 2019-2020 (los 'Black Summer fires'): 18,6 millones de hectáreas quemadas, 33 muertos, 3.000 millones de animales muertos o desplazados. California acumula récords año tras año con incendios como el Camp Fire de 2018 (85 muertos en Paradise) o el Dixie Fire de 2021 (la quema más grande de un solo incendio en la historia californiana). Grecia 2023: récord europeo con un incendio de más de 80.000 hectáreas en Alexandroupolis. España 2022 batió su propio récord con más de 300.000 hectáreas arrasadas. Las causas: bosques más secos por sequías, calor extremo, viento, y prácticas de gestión forestal (en muchos países falta limpieza de monte). En Galicia, Portugal, California y Australia, los incendios provocados por humanos (negligencia o intencionalidad) son mayoría. La prevención pasa por gestión forestal, cortafuegos, vigilancia con drones y sensibilización ciudadana — un cigarrillo mal apagado puede destruir miles de hectáreas."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Por qué nos fascina mirar el fuego?",
+        "a": "Hay varias explicaciones evolutivas. Tras un millón de años de evolución alrededor del fuego, nuestro cerebro está literalmente programado para encontrarlo reconfortante y atrapante: significaba seguridad (depredadores alejados), calor, comida cocinada y comunidad. Estudios recientes (universidad de Alabama, 2014) muestran que mirar fuego baja la presión arterial y produce un efecto calmante similar al de la meditación. El movimiento constante e impredecible de las llamas (un patrón fractal) captura nuestra atención de la misma forma que el agua corriente, las nubes o el oleaje."
+      },
+      {
+        "q": "¿Por qué las llamas son amarillas a veces y azules otras?",
+        "a": "El color de una llama depende principalmente de su temperatura y su combustión. Una llama amarilla (chimenea, vela, hoguera) significa combustión incompleta con muchas partículas de carbón incandescente — más fría (~1.000 °C). Una llama azul (mechero Bunsen, fogón de gas) indica combustión completa con suficiente oxígeno — más caliente (~1.400 °C). Los colores especiales vienen de sales metálicas: cobre da verde, sodio amarillo intenso, estroncio rojo, potasio violeta, litio carmesí. Por eso los fuegos artificiales tienen colores tan variados — son química pura."
+      },
+      {
+        "q": "¿Cómo se apaga un fuego?",
+        "a": "Eliminando uno de los tres lados del triángulo del fuego: combustible, oxígeno o calor. Agua: enfría y, al evaporarse, desplaza el oxígeno. CO2 (extintor rojo): desplaza el oxígeno. Espuma o polvo: aísla del oxígeno. Para fuegos eléctricos (clase C) jamás se usa agua. Para fuegos de aceite (clase F en cocina), nunca agua tampoco — se usa una manta ignífuga o sal/bicarbonato. Para incendios forestales, los bomberos crean cortafuegos eliminando combustible, y aviones tipo Canadair lanzan agua o retardantes para enfriar y aislar."
+      },
+      {
+        "q": "¿Es seguro dormir con una vela encendida?",
+        "a": "No es recomendable. Cada año mueren cientos de personas en todo el mundo por incendios domésticos causados por velas olvidadas. Una vela puede caer por una corriente de aire, una mascota o un movimiento involuntario. La cera derretida puede inflamarse si hay materiales cerca. Además, las velas consumen oxígeno y producen CO2 y partículas finas que pueden afectar la calidad del aire en una habitación cerrada. Si quieres ambiente relajante, mejor velas LED o un difusor de aromas. Si usas velas reales, apágalas antes de dormir."
+      }
+    ],
+    "related": ["sol", "tormenta", "verano", "agua", "tierra"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "nube",
+    "locale": "es",
+    "keyword": "Nube",
+    "matchPatterns": ["nube", "nubes", "cielo", "cumulus", "nublado", "lluvia"],
+    "topic": "sciences",
+    "title": "Nube — cumulus, cirrus, lluvia y por qué amamos el cielo",
+    "description": "Todo sobre las nubes: formación, tipos (cumulus, cirrus, stratus), por qué llueve, y la fascinación humana por mirar al cielo.",
+    "emoji": "☁️",
+    "intro": "Las nubes son uno de los espectáculos naturales más fascinantes y gratuitos del mundo. Técnicamente, una nube es una acumulación visible de gotitas de agua o cristales de hielo suspendidos en la atmósfera. Se forman cuando el aire caliente y húmedo sube, se enfría con la altitud y el vapor de agua se condensa alrededor de partículas microscópicas (polvo, sal marina, polen) llamadas núcleos de condensación. Una nube cumulus típica puede pesar más de 500.000 kg — el equivalente a 80 elefantes flotando sobre tu cabeza. Las nubes cubren en promedio el 70% del cielo terrestre en un momento dado, y juegan un papel fundamental en el clima: reflejan parte de la luz solar (efecto albedo) enfriando el planeta, pero también atrapan calor (efecto invernadero) calentándolo. La clasificación moderna fue establecida por el meteorólogo amateur inglés Luke Howard en 1803, que dio los nombres latinos que todavía usamos: cirrus, stratus, cumulus, nimbus. Tu nube favorita probablemente dice algo de ti — los cumulus de buen tiempo en un cielo azul son la imagen de la felicidad, los cumulonimbus tormentosos de drama, y los altocumulus en cielo otoñal de melancolía. En moomz, las encuestas 'tiempo soleado o nublado' o '¿qué prefieres, tormenta o llovizna?' generan debate: hay un team sol firme pero también un team nubes / lluvia que adora el cosy, las mañanas grises y el sonido de la lluvia en la ventana.",
+    "sections": [
+      {
+        "h": "Los diez géneros de nubes según la OMM",
+        "body": "La Organización Meteorológica Mundial clasifica las nubes en 10 géneros según altitud y forma. Nubes altas (5-13 km): cirrus (filamentos de hielo, presagio de cambio de tiempo), cirrocumulus (pequeñas bolitas blancas, 'cielo aborregado'), cirrostratus (velo blanco que crea halos alrededor del Sol). Nubes medias (2-7 km): altocumulus (capas con texturas), altostratus (manto gris uniforme, lluvia ligera próxima). Nubes bajas (debajo de 2 km): stratus (niebla a baja altura), stratocumulus (rollos grises), nimbostratus (cielo gris uniforme con lluvia continuada). Nubes de desarrollo vertical: cumulus (algodones blancos, signo de buen tiempo), cumulonimbus (la nube tormentosa por excelencia, en forma de yunque, puede llegar a los 15 km de altura y contener rayos, granizo, microrráfagas). Identificar nubes es un pasatiempo gratuito que conecta con la naturaleza — aplicaciones como CloudSpotter permiten geolocalizar tus avistamientos."
+      },
+      {
+        "h": "Cómo llueve y por qué",
+        "body": "Las gotitas de agua de una nube son minúsculas (10-20 micrómetros), demasiado ligeras para caer. La lluvia se forma cuando estas gotitas chocan y se fusionan en gotas más grandes (un proceso llamado coalescencia) hasta alcanzar un tamaño suficiente (al menos 0,5 mm) para vencer la corriente ascendente y caer al suelo. En climas fríos, el proceso pasa por la fase hielo (Bergeron-Findeisen): se forman cristales de hielo que crecen a costa de las gotitas, luego se funden al descender. La lluvia varía enormemente: la llovizna (gotas <0,5 mm), la lluvia normal, los chubascos intensos. En zonas tropicales pueden caer 100 mm en una hora. El récord mundial de pluviometría está en Cherrapunji y Mawsynram (India) con casi 12.000 mm al año. La sequía en Atacama (Chile) puede durar décadas. La lluvia es vital: el ciclo del agua riega bosques, recarga acuíferos, alimenta cultivos y ríos."
+      },
+      {
+        "h": "El cielo, las nubes y nosotros",
+        "body": "Mirar las nubes es una de las actividades humanas más antiguas y más universales. Aristóteles ya escribió sobre meteorología en el siglo IV a.C. Las nubes han inspirado innumerables obras de arte: las pinturas barrocas de Tiépolo, los cielos de Constable y Turner, las fotos de Stieglitz. En literatura: las descripciones de Proust, Baudelaire ('los maravillosos nubarrones... allá... allá...'). El movimiento Nubo-philia (la 'sociedad de apreciación de las nubes' fundada por Gavin Pretor-Pinney en 2005) reúne miles de aficionados que comparten fotos por Instagram. Para los niños, encontrar formas en las nubes (paréidolia) es uno de los primeros juegos de imaginación. Para la ciencia, las nubes son uno de los grandes desafíos de los modelos climáticos: sabemos calcular su efecto medio, pero las nubes pequeñas son difíciles de modelar y representan la mayor incertidumbre en las proyecciones de cambio climático."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto pesa una nube?",
+        "a": "Una nube cumulus típica de 1 km cúbico contiene unos 500.000 kg de agua — el peso aproximado de 80 elefantes africanos adultos. Una gran tormenta cumulonimbus puede contener varias decenas o cientos de millones de kg de agua. Pero estas masas están distribuidas en miles de millones de gotitas microscópicas suspendidas por las corrientes ascendentes de aire, por eso no caen. Solo cuando las gotas se fusionan y se vuelven demasiado pesadas para ser sostenidas por el aire, comienza la lluvia."
+      },
+      {
+        "q": "¿Por qué las nubes son blancas?",
+        "a": "Las nubes son blancas porque las gotitas de agua que las componen dispersan toda la luz visible por igual (dispersión de Mie). La luz solar contiene todos los colores, y cuando estos se dispersan uniformemente sin selección, vemos blanco. Cuando una nube se vuelve más espesa, la luz tiene más dificultad para atravesarla y aparece gris por debajo — por eso las nubes de tormenta son tan oscuras. Al amanecer y atardecer, las nubes adoptan tonos rosados y anaranjados porque el ángulo bajo del Sol filtra las longitudes de onda azules y solo dejan pasar las rojas."
+      },
+      {
+        "q": "¿Por qué a veces hay nubes en forma de OVNI?",
+        "a": "Las nubes lenticulares (en forma de lente o disco) se forman cuando el aire húmedo sube por una cordillera y se enfría en una zona específica, condensándose en forma de lente. Son frecuentes en montañas como los Andes, los Pirineos o el Monte Fuji. Son perfectamente naturales pero su forma extraña ha alimentado muchas historias de OVNIs. Los pilotos las evitan porque indican turbulencias importantes. Otra nube espectacular son las mammatus, en forma de bolsas colgantes, que aparecen en la base de nubes tormentosas."
+      },
+      {
+        "q": "¿Las nubes contribuyen al cambio climático?",
+        "a": "Sí, y de forma compleja. Las nubes reflejan parte de la luz solar al espacio (efecto enfriador, especialmente las cumulus bajas) pero también atrapan el calor emitido por la Tierra (efecto invernadero, sobre todo los cirrus altos). El equilibrio neto es ligeramente enfriador. Con el cambio climático, las distribuciones de nubes están cambiando: menos cumulus marinos en los trópicos, más cirrus en latitudes altas. Estas retroalimentaciones nube-clima son una de las mayores incertidumbres en los modelos climáticos del IPCC y un campo activo de investigación."
+      }
+    ],
+    "related": ["sol", "agua", "tormenta", "tierra", "mar"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tormenta",
+    "locale": "es",
+    "keyword": "Tormenta",
+    "matchPatterns": ["tormenta", "rayo", "trueno", "lluvia", "huracan", "huracán", "tornado"],
+    "topic": "sciences",
+    "title": "Tormenta — rayos, truenos, huracanes y el espectáculo del cielo",
+    "description": "Todo sobre las tormentas: formación, rayos a 30.000 °C, huracanes, tornados y por qué hipnotizan tanto como aterran.",
+    "emoji": "⛈️",
+    "intro": "Una tormenta es uno de los espectáculos más imponentes que ofrece la naturaleza. En el planeta hay en promedio 1.800 tormentas activas en cualquier momento, lo que se traduce en unos 16 millones de tormentas al año y aproximadamente 100 rayos por segundo. Una tormenta típica nace cuando aire caliente y húmedo sube rápidamente por convección, se enfría con la altitud, y forma una nube cumulonimbus que puede alcanzar los 12-15 km de altura. Dentro de esta nube, las corrientes ascendentes y descendentes hacen chocar partículas de hielo y gotitas de agua, generando una separación de cargas eléctricas: la base se vuelve negativa, la cima positiva. Cuando la diferencia de potencial alcanza el millón de voltios por metro, salta el rayo. Un rayo típico calienta el aire a su alrededor hasta 30.000 °C (cinco veces la temperatura de la superficie del Sol), provoca una expansión brutal del aire que crea la onda sonora del trueno, y libera tanta energía como una pequeña bomba nuclear. Cada año mueren entre 6.000 y 24.000 personas en el mundo alcanzadas por rayos. Pero las tormentas también son agua vital, electricidad atmosférica que produce ozono, espectáculo poético y experiencia primaria. En moomz, las encuestas '¿amas o temes las tormentas?' dividen claramente: hay un team 'tormenta cosy' que adora dormir con el sonido de la lluvia, y un team 'tormenta = ansiedad' que sufre cada vez que el cielo se oscurece.",
+    "sections": [
+      {
+        "h": "Anatomía de un rayo",
+        "body": "Un rayo es una descarga eléctrica entre dos zonas de cargas opuestas, que pueden estar dentro de la misma nube (rayo intra-nube, los más numerosos), entre dos nubes (inter-nube), o entre la nube y el suelo (los más espectaculares y peligrosos). Cuando la diferencia de potencial supera el millón de voltios por metro, el aire se ioniza y se vuelve conductor. Un primer canal invisible llamado 'líder escalonado' baja desde la nube en saltos de 50 metros cada milisegundo. Cuando llega cerca del suelo, una descarga ascendente sube a su encuentro y se establece el contacto. Entonces ocurre el 'arco de retorno': una corriente de 30.000 amperios sube del suelo a la nube a un tercio de la velocidad de la luz, calentando el aire a 30.000 °C en menos de una milésima de segundo. Esta expansión explosiva crea la onda sonora que llamamos trueno. Como la luz viaja más rápido que el sonido, vemos el rayo antes de oír el trueno — contar los segundos entre los dos te da una idea de la distancia (3 segundos por km)."
+      },
+      {
+        "h": "Huracanes, tifones y ciclones",
+        "body": "Los huracanes son tormentas tropicales gigantescas que se forman sobre aguas oceánicas cálidas (al menos 26 °C), absorben enormes cantidades de energía calórica y la liberan en forma de viento devastador y lluvias torrenciales. Los términos cambian según la región: huracán en el Atlántico y Pacífico nororiental, tifón en el Pacífico noroccidental, ciclón en el Índico y el hemisferio sur. La escala Saffir-Simpson clasifica los huracanes del 1 al 5 según la velocidad del viento sostenido. Categoría 5: vientos superiores a 252 km/h. Huracanes recientes devastadores: Katrina (2005, Nueva Orleans, 1.836 muertos), Harvey (2017, Houston, daños históricos), María (2017, Puerto Rico), Ian (2022, Florida), Otis (2023, Acapulco, intensificación récord). Con el cambio climático, los huracanes son más raros pero más intensos: los más fuertes se intensifican rápidamente, llevan más agua y suben con el nivel del mar provocando inundaciones costeras peores."
+      },
+      {
+        "h": "Tornados: la furia rotativa",
+        "body": "Los tornados son columnas de aire rotantes en contacto con el suelo, asociadas a tormentas supercélulares. Pueden alcanzar 500 km/h en sus formas más extremas (categoría EF5 en la escala mejorada de Fujita) y arrasarlo todo en su camino. EE.UU. concentra el 80% de los tornados mundiales en el famoso 'Tornado Alley' (Texas, Oklahoma, Kansas, Nebraska, Dakotas), con unos 1.200 tornados al año. España registra unos 25 tornados débiles al año, principalmente en Andalucía, Cataluña y Baleares. El tornado más mortífero de la historia fue el Daulatpur-Saturia en Bangladesh (1989, 1.300 muertos). Los cazadores de tormentas (storm chasers) persiguen estos fenómenos por ciencia, fotografía o adrenalina pura — un trabajo peligroso popularizado por la película 'Twister' (1996) y su secuela 'Twisters' (2024)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué hacer durante una tormenta eléctrica?",
+        "a": "Si estás en el exterior, busca refugio rápidamente: un edificio cerrado es ideal, un coche con techo metálico también funciona (efecto jaula de Faraday). Evita árboles aislados, cimas de montaña, masas metálicas, agua (piscinas, mar, ríos). Si estás expuesto sin refugio, agáchate en cuclillas, con los pies juntos, evita tumbarte plano. En casa, evita el agua corriente (los rayos viajan por las tuberías) y los aparatos enchufados. La regla de los 30/30: si el trueno llega menos de 30 segundos después del rayo, refúgiate; espera 30 minutos tras el último trueno antes de salir."
+      },
+      {
+        "q": "¿Por qué no truenan los rayos a veces?",
+        "a": "Sí truenan, pero a veces no oímos el trueno si el rayo está muy lejos. Más allá de unos 15-25 km, el sonido se disipa por la atmósfera y no llega a nuestros oídos — vemos el rayo pero todo está en silencio. Es lo que llamamos 'rayos secos' o 'heat lightning', frecuentes en verano por la noche cuando una tormenta está en el horizonte. También existe el fenómeno opuesto: en tormentas muy intensas y cercanas, el rayo y el trueno son casi simultáneos, lo que asusta enormemente."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre un huracán y un tornado?",
+        "a": "Son fenómenos completamente distintos. Un huracán es una tormenta tropical gigantesca (cientos a miles de km de diámetro), se forma sobre aguas oceánicas cálidas, dura varios días o semanas, y se mueve lentamente (15-30 km/h). Un tornado es una columna de aire rotante mucho más pequeña (50-500 m de diámetro), asociada a una tormenta supercélular continental, dura entre unos minutos y un par de horas, pero con vientos muy superiores (hasta 500 km/h) localmente. Un huracán puede generar varios tornados al tocar tierra."
+      },
+      {
+        "q": "¿Cómo se llaman las tormentas?",
+        "a": "Los huracanes y tormentas tropicales reciben nombres desde 1953 (originalmente solo femeninos, masculinos también desde 1979) para facilitar la comunicación. La Organización Meteorológica Mundial mantiene listas rotativas: por ejemplo, para el Atlántico hay 6 listas alfabéticas que se reciclan cada 6 años. Los nombres de huracanes especialmente mortíferos (Katrina, Andrew, María) son retirados permanentemente. En Europa, los servicios meteorológicos nacionales (España con AEMET) nombran también las tormentas mayores desde 2017, alternando hombres y mujeres por orden alfabético."
+      }
+    ],
+    "related": ["nube", "agua", "fuego", "sol", "terremoto"],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "terremoto",
+    "locale": "es",
+    "keyword": "Terremoto",
+    "matchPatterns": ["terremoto", "sismo", "temblor", "magnitud", "falla", "richter"],
+    "topic": "sciences",
+    "title": "Terremoto — placas tectónicas, magnitud Richter y los peores sismos",
+    "description": "Todo sobre los terremotos: tectónica, fallas, escala Richter, tsunamis, sismos históricos y cómo prepararse.",
+    "emoji": "🌋",
+    "intro": "Los terremotos son una de las fuerzas más poderosas y aterradoras del planeta. Cada año se registran más de medio millón de sismos en el mundo, de los cuales unos 100.000 son perceptibles por humanos y solo unos 100 causan daños significativos. La causa principal es la tectónica de placas: la corteza terrestre está fragmentada en una docena de placas que se mueven a 2-10 cm por año, y cuando dos placas se atascan y luego se liberan bruscamente, la energía acumulada se libera en forma de ondas sísmicas. La escala Richter, inventada por Charles Richter en 1935, mide la magnitud (energía liberada) de forma logarítmica: cada punto adicional multiplica la energía por unas 32 veces. Un sismo de magnitud 9 libera 1.000 veces más energía que uno de magnitud 7. Hoy se usa más la escala de magnitud de momento (Mw) que es similar pero más precisa para grandes terremotos. Las zonas más sísmicas del planeta son el Cinturón de Fuego del Pacífico (Japón, Indonesia, Chile, California, Alaska), el cinturón Alpino-Himalayo (Italia, Grecia, Turquía, Irán, Himalaya), y las dorsales oceánicas. El terremoto más fuerte registrado fue el Gran Terremoto de Valdivia (Chile, 1960) con Mw 9,5. El más mortífero de la historia moderna fue el de Tangshan (China, 1976) con al menos 240.000 muertos. En moomz, las encuestas '¿has vivido un terremoto?' o '¿temes los desastres naturales?' generan respuestas muy distintas según el país. España vive sismos pequeños regularmente (Granada, Murcia) pero el último gran terremoto destructor fue el de Lorca en 2011.",
+    "sections": [
+      {
+        "h": "Por qué tiembla la Tierra: la tectónica",
+        "body": "Bajo nuestros pies, la litosfera (corteza más manto superior, unos 100 km de espesor) está fragmentada en placas que flotan sobre la astenosfera, una capa parcialmente fundida. Estas placas se mueven por convección térmica del manto. Cuando dos placas se encuentran, pueden divergir (separarse, creando nueva corteza en las dorsales oceánicas), converger (chocar, creando cordilleras y subducciones), o deslizarse lateralmente (fallas transformantes como la de San Andrés). En las zonas de subducción (una placa se hunde bajo otra), se generan los terremotos más potentes — Japón, Chile, Alaska, Sumatra. Las fallas pueden estar bloqueadas durante décadas o siglos acumulando energía elástica, y se liberan súbitamente generando el sismo. El epicentro es el punto en la superficie justo encima del hipocentro (donde ocurre la fractura). La velocidad de las ondas P (primarias, compresivas) es de 6-8 km/s, las ondas S (secundarias, transversales) son más lentas — la diferencia permite a los sismógrafos localizar el epicentro."
+      },
+      {
+        "h": "Tsunamis: cuando el océano se levanta",
+        "body": "Cuando un terremoto submarino desplaza una columna de agua oceánica, se generan tsunamis: ondas largas que viajan a 800 km/h en océano abierto (la velocidad de un avión comercial) pero con amplitudes pequeñas (apenas 1 metro), por lo que pasan inadvertidas para los barcos. Al llegar a aguas poco profundas cerca de la costa, frenan y crecen brutalmente: pueden alcanzar 30-40 metros de altura. El tsunami del Océano Índico (26 de diciembre de 2004) provocado por el terremoto de Sumatra (Mw 9,1) mató a 230.000 personas en 14 países. El tsunami de Tōhoku (Japón, 11 de marzo de 2011) provocado por un terremoto de Mw 9,1 mató a unas 19.000 personas y provocó el desastre nuclear de Fukushima. Los sistemas de alerta tsunami como el del Pacífico (PTWC en Hawai) y el del Mediterráneo permiten avisar a las poblaciones costeras minutos u horas antes del impacto, pero los tsunamis cercanos al epicentro (como Tōhoku) llegan demasiado rápido para una evacuación completa."
+      },
+      {
+        "h": "Cómo prepararse y qué hacer durante un sismo",
+        "body": "En zonas sísmicas, la preparación es clave. Identifica zonas seguras en tu casa: bajo mesas robustas o en marcos de puertas reforzados. Fija muebles altos a la pared (estanterías, espejos), guarda objetos pesados en estantes bajos. Ten un kit de emergencia: agua (3 litros por persona y día durante 3 días), alimentos no perecederos, linterna, pilas, radio, botiquín, copia de documentos, dinero en efectivo, llaves. Durante un terremoto: si estás dentro, AGÁCHATE-CÚBRETE-AGÁRRATE (Drop-Cover-Hold On) bajo una mesa robusta; no salgas corriendo. Si estás fuera, aléjate de edificios, cables eléctricos y árboles. Si estás en un coche, detente lejos de puentes y túneles. Después del sismo, espera réplicas (pueden durar días o semanas), comprueba lesiones, gas, agua, electricidad. Japón tiene los mejores códigos de construcción antisísmica del mundo, lo que explica por qué un Mw 9,1 mató 'solo' a 19.000 personas en 2011, frente a los cientos de miles del Haití de 2010 (Mw 7,0)."
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál fue el terremoto más fuerte de la historia?",
+        "a": "El Gran Terremoto de Valdivia en Chile, ocurrido el 22 de mayo de 1960, con una magnitud de momento Mw 9,5. Liberó tanta energía que hizo vibrar el planeta entero durante días y provocó un tsunami que cruzó el Pacífico, llegando a Hawái, Japón y Filipinas con olas devastadoras 22 horas después. Causó al menos 1.655 muertos en Chile y miles de millones de dólares en daños. La falla rompió a lo largo de 1.000 km de costa, con un desplazamiento de varios metros. Es el sismo más potente jamás registrado con instrumentos modernos."
+      },
+      {
+        "q": "¿Por qué España tiene tan pocos terremotos grandes?",
+        "a": "España está en el contacto entre las placas africana y euroasiática, pero esta convergencia es lenta (4-5 mm/año) en comparación con zonas como Japón o Chile. Hay sismos regulares pero generalmente de magnitud moderada. Los más significativos: el terremoto de Lisboa de 1755 (Mw ~8,5-9, devastó Portugal y el sur de España con un gran tsunami, mató a unas 60.000 personas), el de Andalucía de 1884 (Mw 6,5, 800 muertos), y más recientemente Lorca en 2011 (Mw 5,1, 9 muertos)."
+      },
+      {
+        "q": "¿Se puede predecir un terremoto?",
+        "a": "No, todavía no. A pesar de décadas de investigación, no existe ningún método científico confiable para predecir terremotos individualmente. Lo que sí se puede hacer es: identificar zonas de alto riesgo, estimar probabilidades a largo plazo (en California la probabilidad de un Big One en los próximos 30 años está calculada), y dar alertas tempranas (de segundos a minutos) cuando un sismo ya está ocurriendo, gracias a redes de sismógrafos que detectan las ondas P más rápidas antes de las S más destructivas. Japón, México y California tienen estos sistemas."
+      },
+      {
+        "q": "¿Por qué tiembla más a veces sin que pase nada después?",
+        "a": "Los pequeños terremotos son extremadamente comunes — millones cada año. La mayoría son réplicas, ajustes de fallas tras un sismo principal, o liberaciones progresivas de tensión. No todos preceden a un terremoto grande, ni mucho menos. Lo que sí ocurre a veces es la 'serie sísmica', una concentración de pequeños sismos en una zona durante días o semanas. Puede preceder a uno mayor (como en L'Aquila, Italia 2009) o no terminar nunca en algo grande. Por eso los sismólogos son tan prudentes con las predicciones."
+      }
+    ],
+    "related": ["tormenta", "fuego", "tierra", "mar", "agua"],
+    "updatedAt": "2026-05-20"
+  }
+]
