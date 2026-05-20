@@ -6,6 +6,8 @@ import { getSupabase } from "@/lib/supabase";
 import { getServerSupabase } from "@/lib/supabase-server";
 import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
 import { buildPollSlug, randomSuffix } from "@/lib/slug";
+import { t } from "@/lib/i18n";
+import { getLocale } from "@/lib/i18n-server";
 
 type ProfileLookup =
   | { kind: "user"; userId: string }
@@ -84,23 +86,26 @@ export async function createPoll(formData: FormData) {
   const question = String(formData.get("question") || "").trim();
   const optionsRaw = formData.getAll("option").map((o) => String(o).trim()).filter(Boolean);
 
+  const locale = getLocale();
+  const tr = (key: string) => t(key, locale);
+
   if (!question || optionsRaw.length < 2) {
-    throw new Error("Pose une question et au moins 2 options.");
+    throw new Error(tr("errors.poll.shape"));
   }
-  if (question.length > 200) throw new Error("Question trop longue (200 max).");
-  if (optionsRaw.length > 6) throw new Error("6 options max.");
-  if (optionsRaw.some((o) => o.length > 80)) throw new Error("Une option fait plus de 80 caractères.");
+  if (question.length > 200) throw new Error(tr("errors.poll.questionTooLong"));
+  if (optionsRaw.length > 6) throw new Error(tr("errors.poll.tooManyOptions"));
+  if (optionsRaw.some((o) => o.length > 80)) throw new Error(tr("errors.poll.optionTooLong"));
   if (looksLikeNoise(question)) {
-    throw new Error("Question pas claire — utilise des vrais mots.");
+    throw new Error(tr("errors.poll.unclear"));
   }
   for (const opt of optionsRaw) {
     if (looksLikeNoise(opt)) {
-      throw new Error(`L'option "${opt.slice(0, 20)}" n'est pas claire.`);
+      throw new Error(tr("errors.poll.optionUnclear").replace("{opt}", opt.slice(0, 20)));
     }
   }
   const dedup = new Set(optionsRaw.map((o) => o.toLowerCase().trim()));
   if (dedup.size !== optionsRaw.length) {
-    throw new Error("Tes options doivent être différentes.");
+    throw new Error(tr("errors.poll.duplicateOptions"));
   }
 
   const supabase = getSupabase();
@@ -194,12 +199,16 @@ const RESERVED_USERNAMES = new Set([
   "terms", "privacy", "contact", "support", "blog", "docs", "www", "mail",
   // SEO landing routes that would be shadowed by a /[slug] match
   "idees", "ideas", "guides", "mot", "word", "read", "music", "creators",
-  "pricing", "alternatives",
+  "pricing", "alternatives", "compare", "template", "templates",
   // Reserved for future / static assets
   "ask", "daily", "world", "register", "password", "sw", "manifest", "robots",
   "sitemap", "opengraph", "icon", "favicon", "apple-icon", "push", "notif",
   "search", "explore", "trending", "new", "home", "static", "public", "next",
-  "404", "500", "logout", "verify",
+  "404", "500", "logout", "verify", "quiz", "outils", "tools",
+  // Utility tools shipped 2026-05-20
+  "convertisseur", "converter", "meteo", "weather", "heure", "time",
+  "jours-feries", "holidays", "crypto", "definition", "define", "cosmos",
+  "recettes", "recipes", "astro", "horoscope",
 ]);
 
 function randomToken() {

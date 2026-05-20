@@ -1,0 +1,228 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import {
+  HEURE_CITIES,
+  HEURE_REGIONS,
+  findCity,
+  flagEmoji,
+  formatOffset,
+  tzOffsetMinutes,
+} from "@/lib/tools/heure";
+import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
+
+// The hub displays the *current* hour for each city, so we revalidate at the
+// edge every minute. City info itself is static.
+export const revalidate = 60;
+
+export const metadata: Metadata = {
+  title: "Heure dans le monde — horloges live de 50 villes · moomz",
+  description:
+    "Quelle heure est-il à Paris, New York, Tokyo, Sydney ? 50+ villes avec horloge live, fuseau horaire et décalage UTC. Pas d'app, pas de pub.",
+  alternates: { canonical: "https://moomz.com/heure" },
+  openGraph: {
+    title: "Heure dans le monde — moomz",
+    description:
+      "50 villes, horloges en direct, fuseaux horaires. Tokyo, Paris, NYC, Sydney et plus.",
+    type: "website",
+    url: "https://moomz.com/heure",
+    siteName: "moomz",
+  },
+  twitter: { card: "summary_large_image" },
+};
+
+type HubStrings = {
+  title: string;
+  tagline: string;
+  subtitle: string;
+  ctaTitle: string;
+  ctaBody: string;
+  ctaButton: string;
+};
+
+const HUB_STRINGS: Record<Locale, HubStrings> = {
+  fr: {
+    title: "Heure dans le monde",
+    tagline: "50 villes · horloges live · fuseaux IANA",
+    subtitle: "🌍 Clique sur une ville pour son horloge en direct + décalage.",
+    ctaTitle: "Crée ton vibe check moomz",
+    ctaBody: "Sondage instantané, partage en 1 clic, résultats en live.",
+    ctaButton: "Lancer un moomz →",
+  },
+  en: {
+    title: "Time around the world",
+    tagline: "50 cities · live clocks · IANA timezones",
+    subtitle: "🌍 Tap a city for the live clock and timezone diff.",
+    ctaTitle: "Create your moomz vibe check",
+    ctaBody: "Instant poll, one-tap share, live results.",
+    ctaButton: "Start a moomz →",
+  },
+  es: {
+    title: "Hora en el mundo",
+    tagline: "50 ciudades · relojes en vivo · zonas IANA",
+    subtitle: "🌍 Toca una ciudad para ver su reloj en vivo.",
+    ctaTitle: "Crea tu encuesta moomz",
+    ctaBody: "Encuesta instantánea, compartir con 1 toque, resultados en vivo.",
+    ctaButton: "Lanzar moomz →",
+  },
+  it: {
+    title: "Ora nel mondo",
+    tagline: "50 città · orologi live · fusi IANA",
+    subtitle: "🌍 Tocca una città per l'orologio live.",
+    ctaTitle: "Crea il tuo vibe check moomz",
+    ctaBody: "Sondaggio istantaneo, condivisione facile, risultati live.",
+    ctaButton: "Lancia moomz →",
+  },
+  pt: {
+    title: "Hora no mundo",
+    tagline: "50 cidades · relógios ao vivo · fusos IANA",
+    subtitle: "🌍 Toque numa cidade para ver o relógio ao vivo.",
+    ctaTitle: "Crie sua enquete moomz",
+    ctaBody: "Enquete instantânea, compartilhamento fácil, resultados ao vivo.",
+    ctaButton: "Lançar moomz →",
+  },
+  de: {
+    title: "Zeit weltweit",
+    tagline: "50 Städte · Live-Uhren · IANA-Zeitzonen",
+    subtitle: "🌍 Tippe auf eine Stadt für die Live-Uhr.",
+    ctaTitle: "Erstelle deinen moomz-Vibe-Check",
+    ctaBody: "Sofortige Umfrage, Teilen mit einem Tipp, Live-Ergebnisse.",
+    ctaButton: "moomz starten →",
+  },
+  ja: {
+    title: "世界の時刻",
+    tagline: "50都市・ライブ時計・IANAタイムゾーン",
+    subtitle: "🌍 都市をタップしてライブ時計を見よう。",
+    ctaTitle: "moomzで投票を作る",
+    ctaBody: "瞬時に投票、ワンタップ共有、ライブ結果。",
+    ctaButton: "moomzを始める →",
+  },
+  zh: {
+    title: "世界时间",
+    tagline: "50个城市・实时时钟・IANA时区",
+    subtitle: "🌍 点击城市查看实时时钟。",
+    ctaTitle: "创建你的moomz投票",
+    ctaBody: "即时投票，一键分享，实时结果。",
+    ctaButton: "开始moomz →",
+  },
+};
+
+function fmtHour(date: Date, tz: string): string {
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: tz,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+}
+
+export default function HeureHubPage() {
+  const locale = getLocale();
+  const S = HUB_STRINGS[locale] ?? HUB_STRINGS.fr;
+  const now = new Date();
+
+  // JSON-LD: CollectionPage with a flat ItemList of all cities.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: S.title,
+    description: S.tagline,
+    url: "https://moomz.com/heure",
+    inLanguage: locale,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: HEURE_CITIES.length,
+      itemListElement: HEURE_CITIES.map((c, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: c.name,
+        url: `https://moomz.com/heure/${c.slug}`,
+      })),
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="space-y-8 fade-up">
+        <header className="text-center space-y-2">
+          <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
+            🕐 {S.title}
+          </h1>
+          <p className="text-white/65 text-base sm:text-lg max-w-md mx-auto text-balance">
+            {S.tagline}
+          </p>
+          <p className="text-white/40 text-sm">{S.subtitle}</p>
+        </header>
+
+        {HEURE_REGIONS.map((region) => {
+          const cities = region.slugs
+            .map((s) => findCity(s))
+            .filter((c): c is NonNullable<typeof c> => c != null);
+          if (cities.length === 0) return null;
+          return (
+            <section key={region.id} className="space-y-3" aria-labelledby={`region-${region.id}`}>
+              <h2
+                id={`region-${region.id}`}
+                className="text-lg font-bold tracking-tight flex items-center gap-2"
+              >
+                <span aria-hidden>{region.emoji}</span>
+                <span>{region.label}</span>
+                <span className="text-xs text-white/40 font-normal">({cities.length})</span>
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+                {cities.map((c) => {
+                  const hour = fmtHour(now, c.tz);
+                  const offset = formatOffset(tzOffsetMinutes(c.tz, now));
+                  return (
+                    <Link
+                      key={c.slug}
+                      href={`/heure/${c.slug}`}
+                      aria-label={`Heure à ${c.name} (${c.country})`}
+                      className="glass block rounded-2xl p-3 hover:scale-[1.02] active:scale-[0.99] transition group"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span className="text-2xl shrink-0" aria-hidden>
+                          {flagEmoji(c.cc)}
+                        </span>
+                        <div className="min-w-0 flex-1">
+                          <div className="font-bold text-sm leading-tight truncate group-hover:text-white">
+                            {c.name}
+                          </div>
+                          <div className="text-[11px] text-white/40 truncate">
+                            UTC{offset}
+                          </div>
+                        </div>
+                      </div>
+                      <div className="font-display text-2xl tabular-nums bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent mt-2 text-right">
+                        {hour}
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+
+        <aside className="glass rounded-3xl p-5 sm:p-6 text-center space-y-2">
+          <div className="text-xs uppercase tracking-[0.2em] text-white/40 font-semibold">
+            ✨ {locale === "fr" ? "Propulsé par moomz" : "Powered by moomz"}
+          </div>
+          <h2 className="text-xl sm:text-2xl font-bold">{S.ctaTitle}</h2>
+          <p className="text-sm text-white/60 max-w-sm mx-auto">{S.ctaBody}</p>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2 text-sm font-bold mt-1"
+          >
+            {S.ctaButton}
+          </Link>
+        </aside>
+      </div>
+    </>
+  );
+}

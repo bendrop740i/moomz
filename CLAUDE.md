@@ -3,7 +3,31 @@
 > **For Claude reading this on session resume**: this file IS the conversation memory. It is updated after every meaningful change. Read it cold. The user (bendrop740i, French speaker) returns here without re-explaining anything — assume the state below is current. **Always re-edit this file at the end of any meaningful change** (new feature, schema migration, deploy, product decision) — that's an explicit user request.
 
 ## Where we left off (most recent)
-**2026-05-20, credibility hardening pass (latest).** User showed the live site and pointed out the spam polls + obvious fake votes were destroying credibility. After a frank back-and-forth on strategy, they validated a pragmatic plan (no page deletions, no audience switch — just kill the visible spam, calibrate the bot, label the characters). Shipped:
+**2026-05-20, 9 utility tools pack (latest).** User asked for live-API-backed utility surfaces to make the site useful beyond polls ("jai add les page et plein de truc je peux generer quoi de + pour rendre le site utile, style des convertisseur devise, ou des truc linker a des api gratuite en live ?" → then "fait totu ca met des agent et fait dans les langue dispo"). Shipped via **9 parallel agents** + a main-thread integration pass — **~488 new routes** spanning currency / weather / time / holidays / crypto / dictionary / NASA / recipes / horoscope, with each detail page carrying a poll-prefill CTA that deeplinks back to the home create form (`/?q=...&o=opt1|opt2`).
+
+Each tool lives in `app/<tool>/{page.tsx,[slug]/page.tsx}` + `lib/tools/<tool>.ts` (slug arrays + helpers + fetchers + inline 8-lang STRINGS). All server-rendered (only exceptions: `/heure/[city]/live-clock.tsx` ticking clock, `/astro/sign-finder.tsx` date input). Every detail page emits relevant JSON-LD (Article / Product / Event / Place / DefinedTerm depending on tool). Every API call uses `fetch(url, { next: { revalidate: N } })` with graceful `null`/stub fallbacks — no crashes if upstream is down.
+
+Tools shipped (slug count / API source):
+- **`/convertisseur/[pair]`** — 58 forex pairs across 15 currencies (Frankfurter.app, no key, 1h ISR). EUR→14, USD→14, GBP→14, JPY→14, +7 reverses. Big rate card + 8-row conversion table + server-SVG 30d sparkline + 30d change %.
+- **`/meteo/[city]`** — 50 world cities (Open-Meteo, no key, 30min ISR). 7-day forecast grid, current temp, feels-like, humidity, wind, sunrise/sunset, per-city climate prose (FR + EN hand-written for top 7 cities, generic fallback for the rest).
+- **`/heure/[city]`** — 56 cities (pure `Intl.DateTimeFormat`, no API). Live-ticking client clock + UTC offset + diff table vs Paris/NYC/London/Tokyo + sunrise/sunset via NOAA formula from lat/lon.
+- **`/jours-feries/[country-year]`** — 30 countries × {2026, 2027} = 60 slugs (date.nager.at, no key). Next-holiday countdown + full chronological calendar + ponts (Tue/Thu) + weekend-holiday counters + per-country FR+EN editorial blurbs.
+- **`/crypto/[id]`** — top 30 coins (CoinGecko, no key, 10min ISR). Live EUR+USD price + 24h change + market cap + 30d SVG sparkline + ATH/ATL + curated FR/EN blurbs for top 10 (API description fallback for the rest).
+- **`/definition/[word]` (FR) + `/define/[word]` (EN)** — 64 FR + 68 EN words hand-written (no API — dictionaryapi.dev was too inconsistent). Mix of Gen Z slang + everyday vocab. ASCII-safe slugs (`cafe` not `café`). UI labels translated for all 8 langs even when serving FR/EN word data.
+- **`/cosmos[/<date>]`** — NASA APOD (DEMO_KEY, 1h ISR). 60 pre-rendered dates + dynamic params for any valid date (`1995-06-16`..today). Prev/next-day arrow nav, image or 16:9 iframe for video, "🌐 EN" note since NASA only ships English explanations.
+- **`/recettes/[category]`** — 15 ingredients + 5 categories (TheMealDB, no key, 24h ISR). Recipe grid with thumbnail + name + outbound link to themealdb.com canonical recipe.
+- **`/astro/[sign]`** — 12 zodiac signs (pure JS). Big colored emoji + traits + compatible/challenging signs + ~250-word personality (FR+EN) + weekly element-aligned vibe. Hub has date-picker client component that maps birthday → sign.
+
+Hub `/outils` orchestrator (main thread): grid of all 9 tools with per-locale title/description/tag in all 8 langs, ItemList JSON-LD, "create your own poll" CTA.
+
+Wiring:
+- **`app/sitemap.ts`** — added 10 hub URLs + ~478 detail URLs via 9 slug-array imports.
+- **`app/seo-footer.tsx`** — new "Outils gratuits" / "Free tools" pill row (10 chips) above the existing SEO-page sections.
+- **`app/actions.ts`** — added 16 new reserved usernames (`outils`, `tools`, `convertisseur`, `converter`, `meteo`, `weather`, `heure`, `time`, `jours-feries`, `holidays`, `crypto`, `definition`, `define`, `cosmos`, `recettes`, `recipes`, `astro`, `horoscope`) so they can't be claimed and shadow the routes.
+
+`npx tsc --noEmit` exit 0 across the whole repo. Each agent verified its own tsc independently. No new npm packages.
+
+**Earlier 2026-05-20, credibility hardening pass.** User showed the live site and pointed out the spam polls + obvious fake votes were destroying credibility. After a frank back-and-forth on strategy, they validated a pragmatic plan (no page deletions, no audience switch — just kill the visible spam, calibrate the bot, label the characters). Shipped:
 
 - **Migrations `013` + `013b` + `013c`** applied live via PAT to Supabase. Net effect after the 3 passes:
   - **`is_noisy_question(text)` SQL helper** mirrors `looksLikeNoise` from `app/actions.ts`. Catches: <4 char questions, 6+ consecutive same chars, <3 distinct chars (now triggers at length ≥4 instead of ≥5 — that's how "rttr" slipped through), no content chars (after stripping whitespace/punct/digits — works for CJK/Hindi/Arabic/Cyrillic), and <30% content ratio for 8+ char strings. **First version broke ~730 non-ASCII seed polls** because POSIX `[[:alpha:]]` doesn't match CJK in this Supabase collation; `013b` restored them by counting "non-whitespace/punct/digit" chars instead of "alpha" chars.

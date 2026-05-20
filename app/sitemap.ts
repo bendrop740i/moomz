@@ -9,6 +9,15 @@ import { compareUrl } from "@/lib/seo/compare/types";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { templateUrl } from "@/lib/seo/templates/types";
 import { getSupabase } from "@/lib/supabase";
+import { CONVERTISSEUR_SLUGS } from "@/lib/tools/convertisseur";
+import { METEO_SLUGS } from "@/lib/tools/meteo";
+import { HEURE_SLUGS } from "@/lib/tools/heure";
+import { JOURS_FERIES_SLUGS } from "@/lib/tools/jours-feries";
+import { CRYPTO_SLUGS } from "@/lib/tools/crypto";
+import { FR_SLUGS as DEFINITION_FR_SLUGS, EN_SLUGS as DEFINITION_EN_SLUGS } from "@/lib/tools/definition";
+import { COSMOS_SLUGS } from "@/lib/tools/cosmos";
+import { RECETTES_SLUGS } from "@/lib/tools/recettes";
+import { ASTRO_SLUGS } from "@/lib/tools/astro";
 
 const BASE = "https://moomz.com";
 
@@ -78,7 +87,81 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE}/quiz`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE}/template`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/outils`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE}/convertisseur`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${BASE}/meteo`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${BASE}/heure`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${BASE}/jours-feries`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${BASE}/crypto`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${BASE}/definition`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/define`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/cosmos`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
+    { url: `${BASE}/recettes`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/astro`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+  ];
+
+  const toolsUrls: MetadataRoute.Sitemap = [
+    ...CONVERTISSEUR_SLUGS.map((s) => ({
+      url: `${BASE}/convertisseur/${s}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
+    })),
+    ...METEO_SLUGS.map((s) => ({
+      url: `${BASE}/meteo/${s}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
+    })),
+    ...HEURE_SLUGS.map((s) => ({
+      url: `${BASE}/heure/${s}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.65,
+    })),
+    ...JOURS_FERIES_SLUGS.map((s) => ({
+      url: `${BASE}/jours-feries/${s}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...CRYPTO_SLUGS.map((s) => ({
+      url: `${BASE}/crypto/${s}`,
+      lastModified: now,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
+    })),
+    ...DEFINITION_FR_SLUGS.map((s) => ({
+      url: `${BASE}/definition/${s}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    })),
+    ...DEFINITION_EN_SLUGS.map((s) => ({
+      url: `${BASE}/define/${s}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    })),
+    ...COSMOS_SLUGS.map((s) => ({
+      url: `${BASE}/cosmos/${s}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...RECETTES_SLUGS.map((s) => ({
+      url: `${BASE}/recettes/${s}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...ASTRO_SLUGS.map((s) => ({
+      url: `${BASE}/astro/${s}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
   ];
 
   const keywordUrls: MetadataRoute.Sitemap = getAllKeywords().map((k) => ({
@@ -139,6 +222,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...quizUrls,
     ...compareUrls,
     ...templateUrls,
+    ...toolsUrls,
     ...pollUrls,
     ...profileUrls,
   ];

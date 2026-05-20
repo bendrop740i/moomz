@@ -16,6 +16,32 @@ const FOOTER_LINKS_EN = [
   { label: "Blog", href: "/blog" },
 ];
 
+const TOOL_LINKS_FR = [
+  { label: "💱 Convertisseur", href: "/convertisseur" },
+  { label: "🌤️ Météo", href: "/meteo" },
+  { label: "🕐 Heure dans le monde", href: "/heure" },
+  { label: "🎉 Jours fériés", href: "/jours-feries" },
+  { label: "₿ Crypto", href: "/crypto" },
+  { label: "📖 Dictionnaire", href: "/definition" },
+  { label: "🌌 Cosmos", href: "/cosmos" },
+  { label: "🍽️ Recettes", href: "/recettes" },
+  { label: "♈ Horoscope", href: "/astro" },
+  { label: "🧰 Tous les outils", href: "/outils" },
+];
+
+const TOOL_LINKS_EN = [
+  { label: "💱 Currency converter", href: "/convertisseur" },
+  { label: "🌤️ Weather", href: "/meteo" },
+  { label: "🕐 World clock", href: "/heure" },
+  { label: "🎉 Holidays", href: "/jours-feries" },
+  { label: "₿ Crypto", href: "/crypto" },
+  { label: "📖 Dictionary", href: "/define" },
+  { label: "🌌 Cosmos", href: "/cosmos" },
+  { label: "🍽️ Recipes", href: "/recettes" },
+  { label: "♈ Horoscope", href: "/astro" },
+  { label: "🧰 All tools", href: "/outils" },
+];
+
 // Deterministic shuffle seeded by day-of-year so the footer rotates daily
 // without breaking caching mid-day.
 function seededShuffle<T>(arr: T[], seed: number): T[] {
@@ -96,6 +122,7 @@ function Section({
 
 export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
   const links = locale === "en" ? FOOTER_LINKS_EN : FOOTER_LINKS_FR;
+  const toolLinks = locale === "en" ? TOOL_LINKS_EN : TOOL_LINKS_FR;
 
   // Filter pages by locale (with EN as fallback for FR-only readers if pool is thin)
   const localePages = allPages.filter((p) => p.locale === locale);
@@ -110,6 +137,7 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
         vs: "moomz vs…",
         formats: "Poll formats",
         blog: "Blog",
+        tools: "Free tools",
       }
     : {
         ideas: "Idées populaires",
@@ -117,6 +145,7 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
         vs: "moomz vs…",
         formats: "Formats de sondage",
         blog: "Blog",
+        tools: "Outils gratuits",
       };
 
   return (
@@ -131,6 +160,22 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
             {l.label}
           </Link>
         ))}
+      </div>
+
+      <div>
+        <div className="text-xs uppercase tracking-widest text-white/30 mb-2">{labels.tools}</div>
+        <ul className="flex flex-wrap gap-1.5">
+          {toolLinks.map((l) => (
+            <li key={l.href} className="max-w-full">
+              <Link
+                href={l.href}
+                className="inline-flex items-center max-w-full rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:text-white transition whitespace-nowrap overflow-hidden text-ellipsis"
+              >
+                <span className="truncate">{l.label}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <Section title={labels.ideas} pages={buckets.ideas} limit={12} />
