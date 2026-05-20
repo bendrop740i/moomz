@@ -1,10 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import {
-  findKeyword,
-  getAllKeywords,
-  isKeywordLocale,
-} from "@/lib/seo/keywords/loader";
+import { findKeyword, isKeywordLocale } from "@/lib/seo/keywords/loader";
 import KeywordPageView from "@/app/_seo/keyword-page-view";
 
 export const revalidate = 3600;
@@ -18,10 +14,10 @@ const OG_LOCALE: Record<string, string> = {
   zh: "zh_CN",
 };
 
-export function generateStaticParams() {
-  return getAllKeywords()
-    .filter((k) => k.locale !== "fr" && k.locale !== "en")
-    .map((k) => ({ locale: k.locale, slug: k.slug }));
+// On-demand ISR — keyword pages render on first visit then cache (revalidate
+// above), instead of pre-rendering ~600 at build time.
+export function generateStaticParams(): { locale: string; slug: string }[] {
+  return [];
 }
 
 export function generateMetadata({

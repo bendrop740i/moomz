@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { findQuotePage, getAllQuotes, isQuoteLocale } from "@/lib/seo/quotes/loader";
+import { findQuotePage, isQuoteLocale } from "@/lib/seo/quotes/loader";
 import QuotePageView from "@/app/_seo/quote-page-view";
 
 export const revalidate = 3600;
@@ -14,10 +14,10 @@ const OG_LOCALE: Record<string, string> = {
   zh: "zh_CN",
 };
 
-export function generateStaticParams() {
-  return getAllQuotes()
-    .filter((q) => q.locale !== "fr" && q.locale !== "en")
-    .map((q) => ({ locale: q.locale, slug: q.slug }));
+// On-demand ISR — quote pages render on first visit then cache (revalidate
+// above), instead of pre-rendering ~750 at build time.
+export function generateStaticParams(): { locale: string; slug: string }[] {
+  return [];
 }
 
 export function generateMetadata({

@@ -6,19 +6,17 @@ import {
   AUDIENCES,
   THEMES,
   generatePage,
-  getAllRoutes,
   type ProgLocale,
   type Topic,
 } from "@/lib/seo/programmatic";
 
 type Params = { locale: string; topic: string; modifier: string };
 
-export function generateStaticParams() {
-  return getAllRoutes().map((r) => ({
-    locale: r.locale,
-    topic: r.topic,
-    modifier: r.modifier,
-  }));
+// On-demand ISR: 1100 programmatic pages render on first visit then cache,
+// instead of pre-rendering all of them at build time (build overload).
+export const revalidate = 86400;
+export function generateStaticParams(): { locale: string; topic: string; modifier: string }[] {
+  return [];
 }
 
 function pollLaunchHref(q: string, options: string[]) {
