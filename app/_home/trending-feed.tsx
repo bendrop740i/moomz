@@ -5,6 +5,7 @@ import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
 import { getLocale } from "@/lib/i18n-server";
 import { t, type Locale } from "@/lib/i18n";
+import { relatedPagesForPoll } from "@/lib/seo/match-poll";
 
 type TrendingPoll = {
   id: string;
@@ -157,6 +158,11 @@ export default async function TrendingFeed() {
             : false;
           const isNew = Date.now() - new Date(p.created_at).getTime() < 30 * 60_000;
           const isRising = (p.recent_votes ?? 0) >= 4 && !isNew;
+          const relatedPages = relatedPagesForPoll(
+            p.question,
+            p.options,
+            p.lang ?? locale,
+          );
           return (
             <div
               key={p.id}
@@ -177,6 +183,7 @@ export default async function TrendingFeed() {
                 authorCosmeticId={
                   p.profile_id ? cosmeticsByAuthor.get(p.profile_id) ?? null : null
                 }
+                relatedPages={relatedPages}
               />
             </div>
           );

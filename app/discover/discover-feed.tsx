@@ -5,6 +5,10 @@ import Link from "next/link";
 import PollCard from "../poll-card";
 import { useT } from "../locale-context";
 
+// Serializable internal-link descriptor matching lib/seo/match-poll.ts's
+// RelatedPage — kept inline so this client module imports no server code.
+type RelatedPage = { label: string; href: string; emoji?: string; primary?: boolean };
+
 type Poll = {
   id: string;
   slug: string;
@@ -23,6 +27,7 @@ export default function DiscoverFeed({
   polls: initialPolls,
   topScore,
   firstInitialVoteCount,
+  pollChips,
 }: {
   polls: Poll[];
   topScore: number;
@@ -34,8 +39,26 @@ export default function DiscoverFeed({
    * no "blank for 500ms" while IntersectionObserver / refreshCounts catches up.
    */
   firstInitialVoteCount?: number;
+  /**
+   * Per-poll related SEO/keyword landing-page links, computed server-side
+   * (one array per poll, same order as `polls`). Re-keyed by slug here so it
+   * survives the client-side skip filter that removes polls from the feed.
+   */
+  pollChips?: RelatedPage[][];
 }) {
   const t = useT();
+  // Map slug → its related-page chips so lookups stay correct after `skip`
+  // mutates the polls array (index-based access would drift).
+  const chipsBySlug = useMemo(() => {
+    const m = new Map<string, RelatedPage[]>();
+    if (pollChips) {
+      initialPolls.forEach((p, i) => {
+        const chips = pollChips[i];
+        if (chips && chips.length > 0) m.set(p.slug, chips);
+      });
+    }
+    return m;
+  }, [initialPolls, pollChips]);
   // Bake the server-prefetched count into the first poll so the card shows it
   // immediately. The client-side refreshCounts call (gated by visibility) will
   // still re-sync per-option counts shortly after mount.
@@ -132,6 +155,7 @@ export default function DiscoverFeed({
                   isNew={isNew}
                   isRising={isRising}
                   authorCosmeticId={p.authorCosmeticId ?? null}
+                  relatedPages={chipsBySlug.get(p.slug)}
                   onSkip={() => skip(p.slug)}
                   onVoted={scrollToNext}
                 />

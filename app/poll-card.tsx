@@ -85,6 +85,11 @@ type Props = {
   // a `PaletteId` in lib/cosmetics.ts. Unknown / "auto" / null → fall back to
   // paletteFor(slug).
   authorCosmeticId?: string | null;
+  // Internal links to the SEO / keyword pages this poll's topic belongs to.
+  // Computed server-side (lib/seo/match-poll.ts) and passed in as plain data
+  // because this is a client component. The single `primary` entry renders as
+  // a bold "source" badge; the rest as small chips. Empty/undefined → nothing.
+  relatedPages?: { label: string; href: string; emoji?: string; primary?: boolean }[];
   onSkip?: () => void;
   onVoted?: () => void;
 };
@@ -101,6 +106,7 @@ export default function PollCard({
   isNew,
   isRising,
   authorCosmeticId,
+  relatedPages,
   onSkip,
   onVoted,
 }: Props) {
@@ -521,6 +527,35 @@ export default function PollCard({
           </Link>
         </div>
       </div>
+      {relatedPages && relatedPages.length > 0 && (
+        <div className="flex flex-wrap items-center gap-1.5 pt-1.5 border-t border-white/[0.07]">
+          {relatedPages.map((r) =>
+            r.primary ? (
+              <Link
+                key={r.href}
+                href={r.href}
+                aria-label={`${t("card.relatedSource")}: ${r.label}`}
+                className="group inline-flex items-center gap-1.5 min-h-[32px] rounded-full pl-2 pr-3 py-1 text-xs font-bold bg-gradient-to-r from-pink-500/25 to-purple-500/25 border border-pink-400/50 text-pink-50 hover:from-pink-500/40 hover:to-purple-500/40 hover:scale-[1.04] active:scale-[0.97] transition shadow-[0_2px_10px_rgba(236,72,153,0.25)]"
+              >
+                <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-pink-400/30 text-pink-100">
+                  {t("card.relatedSource")}
+                </span>
+                {r.emoji ? <span aria-hidden>{r.emoji}</span> : null}
+                <span className="max-w-[11rem] truncate">{r.label}</span>
+              </Link>
+            ) : (
+              <Link
+                key={r.href}
+                href={r.href}
+                className="inline-flex items-center gap-1 min-h-[32px] rounded-full px-2.5 py-1 text-xs font-medium bg-white/[0.06] border border-white/10 text-white/70 hover:bg-white/[0.12] hover:text-white hover:border-pink-400/40 active:scale-[0.97] transition"
+              >
+                {r.emoji ? <span aria-hidden>{r.emoji}</span> : null}
+                <span className="max-w-[8rem] truncate">{r.label}</span>
+              </Link>
+            ),
+          )}
+        </div>
+      )}
       {skipped && (
         <div className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center text-white/60 rounded-2xl">
           {t("card.passed")}

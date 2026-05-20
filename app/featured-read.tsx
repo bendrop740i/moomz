@@ -66,11 +66,10 @@ export default function FeaturedRead({
 
   const seed = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
 
-  let pool = localized;
-  if (pool.length < 6) {
-    const others = allRead.filter((p) => p.locale !== locale);
-    pool = [...pool, ...others];
-  }
+  // Locale-pure: only show the visitor's-language stories. If the current
+  // locale genuinely has fewer than 6, show fewer — never pad with other
+  // languages. Only fall back to other locales when there are ZERO stories.
+  const pool = localized.length > 0 ? localized : allRead;
 
   const picked = shuffleDeterministic(pool, seed).slice(0, 6);
 
