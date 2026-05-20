@@ -1,0 +1,578 @@
+[
+  {
+    "slug": "sondaggio-matrimonio-scelte-invitati-it",
+    "locale": "it",
+    "emoji": "💍",
+    "title": "Sondaggio matrimonio: fai votare gli invitati",
+    "h1": "Sondaggio: lasciate decidere agli invitati i dettagli del matrimonio",
+    "description": "Modello di sondaggio gratuito e anonimo per coinvolgere gli invitati nelle scelte del matrimonio: menu, musica, tema. Manda il link e vince la maggioranza.",
+    "intro": "Organizzare un matrimonio significa prendere mille decisioni, e ogni invitato ha un'opinione che ti arriva per messaggio in momenti casuali. Questo modello mette ordine nel caos: invece di raccogliere pareri sparsi, lanci un sondaggio con tre o quattro opzioni concrete e lasci che siano gli invitati a scegliere insieme un dettaglio del grande giorno. Funziona benissimo per il menu, la prima canzone del ballo, il dress code o il tipo di intrattenimento. È anonimo, quindi nessuno vota per fare contenti gli sposi, e i risultati arrivano in tempo reale. Cambia le opzioni con quelle del tuo matrimonio e condividi il link nel gruppo: ottieni una scelta condivisa senza decine di telefonate.",
+    "category": "wedding",
+    "audience": "Sposi e wedding planner che vogliono coinvolgere gli invitati in una scelta senza raccogliere pareri uno per uno",
+    "question": "Quale menu preferite per il nostro matrimonio?",
+    "options": [
+      "Menu di mare con antipasti misti",
+      "Menu di terra classico tradizionale",
+      "Buffet ricco con isole gastronomiche",
+      "Menu vegetariano con piatti gourmet"
+    ],
+    "whyItWorks": "Trasforma una decisione delicata in un gesto che fa sentire gli invitati partecipi. Limitare a quattro opzioni evita le richieste infinite e l'anonimato fa emergere le vere preferenze, anche di chi non oserebbe dirle agli sposi. Il risultato in tempo reale dà subito una direzione chiara per chiudere gli accordi con il catering.",
+    "tips": [
+      "Filtra prima le opzioni con il catering, proponi solo menu davvero disponibili.",
+      "Manda il sondaggio insieme al save the date così tutti lo vedono presto.",
+      "Aggiungi un emoji accanto a ogni opzione per renderla più appetitosa.",
+      "Chiarisci che il voto è indicativo e la decisione finale resta agli sposi.",
+      "Apri sondaggi separati per musica, dress code e bomboniere senza confondere i temi."
+    ],
+    "variations": [
+      {
+        "question": "Quale stile per il matrimonio?",
+        "options": ["Elegante classico", "Rustico in campagna", "Bohémien e fiori", "Minimal moderno"]
+      },
+      {
+        "question": "Quale prima canzone per il ballo degli sposi?",
+        "options": ["Un classico romantico", "Un brano pop attuale", "Una canzone del nostro primo appuntamento", "Lasciamo scegliere il DJ"]
+      },
+      {
+        "question": "Che tipo di intrattenimento volete alla festa?",
+        "options": ["DJ con pista da ballo", "Band dal vivo", "Photobooth e giochi", "Mix di musica e spettacoli"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quante persone possono votare al sondaggio del matrimonio?",
+        "a": "Non c'è alcun limite. Puoi condividere il link con un piccolo gruppo di parenti stretti o con tutta la lista degli invitati. Ogni persona vota una sola volta e i risultati si aggiornano in tempo reale, così vedi subito la preferenza generale."
+      },
+      {
+        "q": "Gli invitati vedranno chi ha votato cosa?",
+        "a": "No, moomz è anonimo per impostazione predefinita. Si vedono solo i totali per ogni opzione, mai il voto del singolo invitato. Questo permette a tutti di esprimersi liberamente senza imbarazzo verso gli sposi o gli altri ospiti."
+      },
+      {
+        "q": "Il voto degli invitati ci obbliga a scegliere quella opzione?",
+        "a": "No, il sondaggio è uno strumento di orientamento. La decisione finale resta sempre vostra. Serve a capire la preferenza della maggioranza e a far sentire gli ospiti coinvolti, ma potete scegliere diversamente se avete vincoli di budget o logistica."
+      },
+      {
+        "q": "Posso usarlo anche per scelte piccole tipo le bomboniere?",
+        "a": "Certo, è perfetto. Creare un sondaggio richiede pochi secondi, quindi puoi lanciarne uno per ogni dettaglio: bomboniere, colori, segnaposto. Basta condividere ogni volta il nuovo link nel gruppo degli invitati."
+      }
+    ],
+    "related": [
+      "sondaggio-addio-nubilato-programma-it",
+      "sondaggio-festa-tema-serata-it",
+      "sondaggio-compleanno-regalo-amico-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-addio-nubilato-programma-it",
+    "locale": "it",
+    "emoji": "👰",
+    "title": "Sondaggio addio al nubilato: organizza il programma",
+    "h1": "Sondaggio: come organizziamo l'addio al nubilato?",
+    "description": "Modello di sondaggio gratuito per le amiche che organizzano un addio al nubilato. Vota destinazione e attività, condividi il link e blocca il programma.",
+    "intro": "Organizzare un addio al nubilato è bellissimo finché non bisogna mettere d'accordo otto amiche con otto idee diverse. Una vuole una spa, un'altra una serata in discoteca, un'altra ancora un weekend lontano e qualcuna ha un budget ristretto. Questo modello sblocca lo stallo: proponi tre o quattro programmi realistici, mandi il link al gruppo e in poche ore hai un vincitore. Il sondaggio è anonimo, così anche le amiche più timide votano davvero quello che vogliono, senza seguire la più decisa del gruppo. Cambia le opzioni in base al budget e alle disponibilità reali, condividi su WhatsApp e organizza una sorpresa che piace a tutte, sposa compresa.",
+    "category": "bachelorette",
+    "audience": "Amiche e testimoni che organizzano un addio al nubilato e vogliono un programma condiviso senza litigi",
+    "question": "Come organizziamo l'addio al nubilato?",
+    "options": [
+      "Weekend in una città divertente",
+      "Giornata spa più cena elegante",
+      "Serata a tema con giochi e discoteca",
+      "Villa con piscina tutte insieme"
+    ],
+    "whyItWorks": "Chiude in poche ore una decisione che di solito si trascina per settimane. Quattro opzioni filtrate per budget e date evitano il caos delle proposte all'infinito. L'anonimato dà voce a chi normalmente si adatta, e il risultato in tempo reale offre subito una base concreta su cui prenotare e organizzare la sorpresa.",
+    "tips": [
+      "Escludi la sposa dal gruppo del sondaggio se volete tenere la sorpresa.",
+      "Filtra prima le opzioni per budget massimo e date davvero possibili.",
+      "Indica accanto a ogni opzione una stima di costo a testa.",
+      "Metti una scadenza al voto, ad esempio 48 ore, per organizzarvi in tempo.",
+      "Dopo il programma, apri un altro sondaggio per il dress code o il tema della serata."
+    ],
+    "variations": [
+      {
+        "question": "Quale destinazione per il weekend dell'addio al nubilato?",
+        "options": ["Una città d'arte vivace", "Una località di mare", "Una capitale europea low cost", "Una casa in campagna riservata"]
+      },
+      {
+        "question": "Budget a testa per l'addio al nubilato?",
+        "options": ["Meno di 80€", "Tra 80 e 150€", "Tra 150 e 300€", "Oltre 300€, occasione speciale"]
+      },
+      {
+        "question": "Quale attività non può mancare?",
+        "options": ["Aperitivo lungo e brindisi", "Spettacolo o esperienza divertente", "Sessione foto a tema", "Ballare fino a tardi"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Come tengo la sorpresa se uso un sondaggio?",
+        "a": "Semplice: crei il gruppo del sondaggio senza la sposa e condividi il link solo con le amiche organizzatrici. Essendo anonimo, nessuno scopre i dettagli prima del momento giusto, e la sposa riceve solo la sorpresa finale già decisa da tutte."
+      },
+      {
+        "q": "Quante amiche possono votare?",
+        "a": "Non c'è limite. Puoi coinvolgere un piccolo gruppo di tre testimoni o tutte le venti invitate. Ognuna vota una sola volta e i risultati si aggiornano in diretta, così vedi subito quale programma sta vincendo."
+      },
+      {
+        "q": "E se i voti sono in pareggio tra due opzioni?",
+        "a": "Lancia un secondo sondaggio veloce solo con le due finaliste. Bastano quindici secondi per crearlo. In alternativa, le organizzatrici possono scegliere tra le due in base a costi o logistica, dato che il sondaggio resta uno strumento di orientamento."
+      },
+      {
+        "q": "Posso usarlo anche per decidere il regalo per la sposa?",
+        "a": "Sì, è un ottimo uso. Crea un sondaggio a parte con tre o quattro idee regalo e condividilo nel gruppo organizzatrici. In pochi minuti sai cosa vuole comprare il gruppo e nessuno deve gestire la raccolta da solo."
+      }
+    ],
+    "related": [
+      "sondaggio-matrimonio-scelte-invitati-it",
+      "sondaggio-festa-tema-serata-it",
+      "sondaggio-compleanno-regalo-amico-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-festa-tema-serata-it",
+    "locale": "it",
+    "emoji": "🎊",
+    "title": "Sondaggio festa: scegli il tema della serata",
+    "h1": "Sondaggio: quale tema per la nostra festa?",
+    "description": "Modello di sondaggio gratuito e anonimo per decidere il tema di una festa con gli amici. Vota il dress code, condividi il link e fai partire l'organizzazione.",
+    "intro": "Una festa senza un tema chiaro rischia di diventare una serata qualunque, ma decidere il tema in chat finisce sempre in mille messaggi senza conclusione. Questo modello ti dà una serata con identità in pochi minuti. Proponi tre o quattro temi possibili, mandi il link agli invitati e lasci che voti la maggioranza. Funziona per un compleanno, una festa di casa nuova, una serata di fine semestre o un raduno tra amici. È anonimo, quindi nessuno si sente in dovere di votare il tema proposto dal padrone di casa, e i risultati arrivano in diretta. Una volta scelto il tema, tutti sanno come vestirsi e l'atmosfera è garantita.",
+    "category": "party",
+    "audience": "Amici e organizzatori che vogliono dare un'identità alla festa scegliendo insieme un tema",
+    "question": "Quale tema per la festa di sabato?",
+    "options": [
+      "Anni 2000 nostalgia pura",
+      "Total black elegante",
+      "Tropicale e colori sgargianti",
+      "Travestimento libero a piacere"
+    ],
+    "whyItWorks": "Dà alla festa un'identità precisa senza imporla dall'alto. Quattro temi chiari evitano il caos delle proposte continue e l'anonimato fa votare anche i più discreti. Il risultato in tempo reale permette agli invitati di organizzare il look in anticipo, così nessuno arriva impreparato e l'atmosfera è coerente fin dall'inizio.",
+    "tips": [
+      "Lancia il sondaggio almeno una settimana prima così tutti trovano il look.",
+      "Aggiungi una breve descrizione accanto a ogni tema per ispirare gli invitati.",
+      "Scegli temi con un budget basso, recuperabili senza spese folli.",
+      "Chiudi le votazioni a una data precisa per comunicare il tema in tempo.",
+      "Dopo il tema, apri un sondaggio per la playlist o il menu della serata."
+    ],
+    "variations": [
+      {
+        "question": "Dove facciamo la festa?",
+        "options": ["A casa di qualcuno", "In un locale affittato", "Festa all'aperto in giardino", "In un bar privatizzato"]
+      },
+      {
+        "question": "Che tipo di musica vogliamo alla festa?",
+        "options": ["Hit del momento", "Tormentoni anni 2000 e 2010", "Mix di generi a sorpresa", "Playlist scelta dagli invitati"]
+      },
+      {
+        "question": "A che ora iniziamo la serata?",
+        "options": ["Aperitivo dalle 19", "Cena e poi festa dalle 21", "Direttamente festa dalle 22", "Decidiamo in base agli invitati"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanti amici possono votare il tema della festa?",
+        "a": "Non c'è limite di partecipanti. Puoi condividere il link con un piccolo gruppo o con tutta la lista degli invitati. Ognuno vota una sola volta e i risultati si aggiornano in tempo reale, così vedi subito quale tema sta convincendo di più."
+      },
+      {
+        "q": "Gli invitati sapranno cosa ho votato?",
+        "a": "No, moomz è anonimo. Si vedono solo i totali per ogni tema, mai il voto del singolo. Questo permette a tutti di scegliere il tema che vogliono davvero, senza sentirsi obbligati a seguire la proposta del padrone di casa."
+      },
+      {
+        "q": "Posso aggiungere un tema dopo aver creato il sondaggio?",
+        "a": "Le opzioni non si modificano dopo la creazione, ma puoi creare un nuovo sondaggio in quindici secondi con la lista aggiornata. Basta condividere il nuovo link nel gruppo e chiedere a tutti di rivotare sulla versione completa."
+      },
+      {
+        "q": "Funziona per una festa con invitati che non si conoscono tutti?",
+        "a": "Sì, anzi è ancora più utile. Quando il gruppo è misto, un tema condiviso rompe il ghiaccio e dà a tutti un punto in comune. Ognuno vota dal proprio telefono e il risultato è uguale per tutti, indipendentemente da chi conosce chi."
+      }
+    ],
+    "related": [
+      "sondaggio-compleanno-regalo-amico-it",
+      "sondaggio-addio-nubilato-programma-it",
+      "sondaggio-gaming-prossima-partita-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-classe-gita-scolastica-it",
+    "locale": "it",
+    "emoji": "🎒",
+    "title": "Sondaggio classe: scegliete la gita scolastica",
+    "h1": "Sondaggio: dove andiamo in gita scolastica?",
+    "description": "Modello di sondaggio gratuito e anonimo per far decidere alla classe la meta della gita. Vota, condividi il link e chiudi la destinazione senza litigi.",
+    "intro": "Decidere la gita scolastica in classe è quasi sempre un disastro: chi urla più forte impone la sua idea, i più timidi non dicono niente e alla fine la meta scontenta metà della classe. Questo modello rende la scelta democratica e veloce. L'insegnante o il rappresentante propone tre o quattro mete realistiche, condivide il link e ogni studente vota dal telefono. È anonimo, quindi nessuno si fa influenzare dagli amici, e i risultati arrivano in tempo reale durante la stessa ora di lezione. Cambia le opzioni in base al budget e alla durata approvati dalla scuola: in pochi minuti la classe ha una destinazione scelta da tutti, da presentare ai professori già pronta.",
+    "category": "classroom",
+    "audience": "Studenti, rappresentanti di classe e insegnanti che vogliono decidere la gita scolastica in modo democratico",
+    "question": "Dove andiamo in gita scolastica quest'anno?",
+    "options": [
+      "Una città d'arte italiana",
+      "Una capitale europea",
+      "Un parco naturale con attività",
+      "Una città di mare con visite"
+    ],
+    "whyItWorks": "Rende la scelta della meta davvero democratica invece di lasciarla ai più rumorosi. L'anonimato fa votare anche gli studenti timidi, così il risultato rappresenta tutta la classe. Quattro opzioni filtrate per budget e durata evitano discussioni sterili, e il voto in tempo reale dà un esito chiaro da portare subito agli insegnanti.",
+    "tips": [
+      "Concorda prima con i professori budget e numero di giorni, poi crea le opzioni.",
+      "Condividi il link in classe o nel gruppo, dando una scadenza chiara al voto.",
+      "Inserisci accanto a ogni meta una breve nota su costo e attività previste.",
+      "In caso di pareggio, lancia un secondo sondaggio con le due mete finaliste.",
+      "Usa lo stesso strumento per votare la data o la divisione delle camere."
+    ],
+    "variations": [
+      {
+        "question": "Quanti giorni dovrebbe durare la gita?",
+        "options": ["Una giornata sola", "Due giorni con un pernottamento", "Tre o quattro giorni", "Una settimana intera"]
+      },
+      {
+        "question": "Quale attività preferite durante la gita?",
+        "options": ["Musei e monumenti", "Attività all'aperto e sport", "Tempo libero per esplorare", "Mix di visite e svago"]
+      },
+      {
+        "question": "Come dividiamo le camere in gita?",
+        "options": ["Gruppi scelti liberamente", "Sorteggio per fare conoscere tutti", "Decide l'insegnante", "Camere singole se possibile"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Tutta la classe può votare la meta della gita?",
+        "a": "Sì, non c'è limite di partecipanti. Basta condividere il link con tutti gli studenti, anche con chi è assente quel giorno. Ognuno vota una sola volta dal proprio telefono e i risultati si aggiornano in tempo reale durante la lezione."
+      },
+      {
+        "q": "Gli insegnanti vedranno cosa ha votato ogni studente?",
+        "a": "No, moomz è anonimo. Si vedono solo i totali per ogni meta, mai il voto del singolo studente. Questo garantisce che ognuno scelga in libertà, senza temere il giudizio dei compagni o dei professori."
+      },
+      {
+        "q": "Come evitiamo che votino persone esterne alla classe?",
+        "a": "Condividi il link solo nel gruppo privato della classe o mostralo direttamente in aula. Non serve registrazione, quindi la correttezza si basa sulla fiducia interna al gruppo, che in una classe è facile da garantire."
+      },
+      {
+        "q": "Possiamo usare il sondaggio anche per altre decisioni di classe?",
+        "a": "Assolutamente sì. Creare un sondaggio richiede pochi secondi, quindi potete usarlo per la data della gita, per la scelta del regalo a un professore, per il tema della festa di fine anno o per qualsiasi decisione collettiva."
+      }
+    ],
+    "related": [
+      "sondaggio-ufficio-team-building-it",
+      "sondaggio-dibattito-questione-divisiva-it",
+      "sondaggio-festa-tema-serata-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-ufficio-team-building-it",
+    "locale": "it",
+    "emoji": "💼",
+    "title": "Sondaggio ufficio: scegli l'attività di team building",
+    "h1": "Sondaggio: quale attività di team building facciamo?",
+    "description": "Modello di sondaggio gratuito e anonimo per far scegliere al team l'attività di team building. Condividi il link, vota e organizza senza decidere da solo.",
+    "intro": "Organizzare un'attività di team building è un classico problema d'ufficio: una persona finisce per decidere tutto da sola, oppure nascono dieci proposte in chat che non portano mai a una scelta. Questo modello mette il team al centro. Proponi tre o quattro attività concrete, condividi il link su Slack o nella chat di lavoro e in poco tempo hai una maggioranza chiara. Il sondaggio è anonimo, così anche i colleghi più riservati esprimono la loro vera preferenza, senza adeguarsi al capo o al collega più estroverso. I risultati arrivano in tempo reale e ti danno una decisione condivisa da tutti, senza che nessuno si prenda la responsabilità di scegliere per gli altri.",
+    "category": "work",
+    "audience": "Team e responsabili che vogliono scegliere un'attività di team building con il consenso di tutti i colleghi",
+    "question": "Quale attività di team building preferite?",
+    "options": [
+      "Escape room a squadre",
+      "Cena in un ristorante insieme",
+      "Giornata sportiva all'aperto",
+      "Laboratorio creativo o di cucina"
+    ],
+    "whyItWorks": "Toglie a una sola persona il peso di decidere per tutto il team. L'anonimato fa rispondere onestamente anche chi di solito tace nelle riunioni, così l'attività scelta piace davvero alla maggioranza. Quattro opzioni strutturate evitano discussioni infinite e il risultato in tempo reale permette di prenotare e organizzare con largo anticipo.",
+    "tips": [
+      "Verifica prima budget e disponibilità, poi proponi solo attività fattibili.",
+      "Condividi il link nei canali interni, mai pubblicamente, per voti puliti.",
+      "Indica accanto a ogni attività durata e costo stimato a persona.",
+      "Dai una scadenza chiara al voto, ad esempio una settimana lavorativa.",
+      "Lancia un secondo sondaggio per la data così tutti possono partecipare."
+    ],
+    "variations": [
+      {
+        "question": "Quando organizziamo il team building?",
+        "options": ["In orario di lavoro", "Un venerdì pomeriggio", "Nel weekend", "La sera dopo l'ufficio"]
+      },
+      {
+        "question": "Che tipo di esperienza preferite per il team?",
+        "options": ["Qualcosa di rilassante", "Una sfida competitiva", "Un'attività creativa", "Un evento sociale informale"]
+      },
+      {
+        "question": "Quanto budget a persona per il team building?",
+        "options": ["Fino a 25€", "Tra 25 e 50€", "Tra 50 e 100€", "Lo decide l'azienda"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Chi può partecipare al sondaggio del team building?",
+        "a": "Tutti quelli a cui invii il link. Conviene condividerlo nei canali interni come Slack o la chat di team, così vota solo chi fa parte del gruppo. Ogni persona può votare una sola volta e i risultati si aggiornano in diretta."
+      },
+      {
+        "q": "Le risposte dei colleghi sono davvero anonime?",
+        "a": "Sì. moomz non registra chi ha scelto cosa: sono visibili solo i totali per ogni opzione. Questo è importante in un contesto lavorativo, perché permette anche ai colleghi più riservati di rispondere senza sentirsi osservati dal responsabile."
+      },
+      {
+        "q": "Come impedisco che votino persone esterne al team?",
+        "a": "Dato che non serve registrazione, condividi il link solo nei canali aziendali privati e non in spazi pubblici. In un ambiente di lavoro la correttezza si basa sulla fiducia, e tenere il link interno è sufficiente a garantirla."
+      },
+      {
+        "q": "Posso usare lo stesso strumento per altre decisioni di lavoro?",
+        "a": "Certo. Creare un sondaggio richiede pochi secondi, quindi puoi usarlo per scegliere il ristorante della cena di Natale, l'orario di una riunione, il regalo per un collega o qualsiasi decisione che vuoi prendere col consenso del team."
+      }
+    ],
+    "related": [
+      "sondaggio-classe-gita-scolastica-it",
+      "sondaggio-dibattito-questione-divisiva-it",
+      "sondaggio-compleanno-regalo-amico-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-compleanno-regalo-amico-it",
+    "locale": "it",
+    "emoji": "🎂",
+    "title": "Sondaggio compleanno: scegliete il regalo di gruppo",
+    "h1": "Sondaggio: che regalo facciamo per il compleanno?",
+    "description": "Modello di sondaggio gratuito e anonimo per decidere in gruppo il regalo di compleanno di un amico. Vota, condividi il link e chiudi la raccolta senza stress.",
+    "intro": "Quando un gruppo di amici deve fare un regalo di compleanno insieme, la chat diventa un caos: chi propone un'idea, chi non risponde, chi ha un budget diverso e alla fine si compra qualcosa all'ultimo minuto. Questo modello sistema tutto. Chi organizza propone tre o quattro idee regalo concrete, condivide il link nel gruppo, ovviamente senza il festeggiato, e in poche ore esce un vincitore chiaro. Il sondaggio è anonimo, così chi ha un budget più basso non si sente in imbarazzo a votare l'opzione economica, e i risultati sono in tempo reale. Cambia le idee in base a quello che piace al festeggiato e parti con la raccolta sapendo già cosa comprare.",
+    "category": "birthday",
+    "audience": "Gruppi di amici che organizzano un regalo di compleanno collettivo e vogliono decidere senza confusione",
+    "question": "Che regalo facciamo per il compleanno?",
+    "options": [
+      "Un'esperienza, tipo cena o concerto",
+      "Un regalo tecnologico utile",
+      "Un buono regalo da spendere liberamente",
+      "Un oggetto personalizzato a sorpresa"
+    ],
+    "whyItWorks": "Trasforma una chat confusa in una decisione netta in poche ore. L'anonimato evita l'imbarazzo legato al budget, così ognuno vota davvero quanto è disposto a spendere. Quattro idee concrete eliminano le proposte vaghe e il risultato in tempo reale dice subito a chi organizza cosa comprare e quanto chiedere a ciascuno.",
+    "tips": [
+      "Crea il gruppo del sondaggio senza il festeggiato per tenere la sorpresa.",
+      "Proponi idee che si adattano a fasce di budget diverse.",
+      "Indica accanto a ogni opzione un costo indicativo a persona.",
+      "Metti una scadenza al voto per partire in tempo con la raccolta.",
+      "Dopo il regalo, usa un altro sondaggio per decidere come festeggiare."
+    ],
+    "variations": [
+      {
+        "question": "Quanto spendiamo a testa per il regalo?",
+        "options": ["Fino a 10€", "Tra 10 e 25€", "Tra 25 e 50€", "Oltre 50€, è un'occasione speciale"]
+      },
+      {
+        "question": "Come consegniamo il regalo al festeggiato?",
+        "options": ["Sorpresa a una festa", "A cena tutti insieme", "Una consegna a casa", "In un momento speciale a due"]
+      },
+      {
+        "question": "Come festeggiamo il compleanno?",
+        "options": ["Cena al ristorante", "Festa a casa", "Aperitivo in un locale", "Una gita di gruppo"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Come tengo il regalo segreto se uso un sondaggio?",
+        "a": "Crea il gruppo del sondaggio senza il festeggiato e condividi il link solo con gli altri amici. Essendo anonimo e separato dalla chat principale, il festeggiato non scopre nulla e riceve la sorpresa già decisa dal gruppo."
+      },
+      {
+        "q": "Quante persone possono votare il regalo?",
+        "a": "Non c'è limite. Puoi coinvolgere un piccolo gruppo di tre amici stretti o una lista più ampia di colleghi e conoscenti. Ognuno vota una sola volta e i risultati si aggiornano in tempo reale, così vedi subito la preferenza."
+      },
+      {
+        "q": "Il sondaggio gestisce anche la raccolta dei soldi?",
+        "a": "No, moomz serve solo a decidere quale regalo comprare e a capire quanto ognuno è disposto a spendere grazie alla variazione sul budget. La raccolta vera e propria la gestisci poi separatamente, ma con un'idea chiara su importo e numero di persone."
+      },
+      {
+        "q": "E se i voti sono in pareggio tra due idee regalo?",
+        "a": "Lancia un secondo sondaggio veloce solo con le due opzioni finaliste, ci vogliono quindici secondi. Oppure chi organizza sceglie tra le due in base al budget raccolto, dato che il sondaggio resta uno strumento di orientamento."
+      }
+    ],
+    "related": [
+      "sondaggio-festa-tema-serata-it",
+      "sondaggio-matrimonio-scelte-invitati-it",
+      "sondaggio-gaming-prossima-partita-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-gaming-prossima-partita-it",
+    "locale": "it",
+    "emoji": "🎮",
+    "title": "Sondaggio gaming: scegliete a cosa giocare stasera",
+    "h1": "Sondaggio: a quale gioco giochiamo stasera?",
+    "description": "Modello di sondaggio gratuito e anonimo per decidere col gruppo di amici a cosa giocare. Vota il titolo, condividi il link e parti senza discussioni.",
+    "intro": "La serata gaming inizia sempre allo stesso modo: tutti online, nessuno che decide a cosa giocare. Uno propone uno sparatutto, un altro un gioco di strategia, qualcuno vuole qualcosa di rilassante e si perdono venti minuti di voci sovrapposte prima di lanciare la prima partita. Questo modello chiude la discussione subito. Proponi tre o quattro titoli che tutti possiedono, mandi il link nella chat Discord o WhatsApp del gruppo e in un minuto avete il gioco vincente. È anonimo, quindi nessuno vota per fare contento il leader del clan, e i risultati arrivano in tempo reale. Cambia i giochi con quelli della vostra libreria condivisa e iniziate la serata senza perdere tempo.",
+    "category": "gaming",
+    "audience": "Gruppi di amici e clan che vogliono decidere a cosa giocare senza perdere tempo a discutere",
+    "question": "A quale gioco giochiamo stasera in gruppo?",
+    "options": [
+      "Uno sparatutto competitivo",
+      "Un gioco cooperativo da affrontare insieme",
+      "Un party game leggero e divertente",
+      "Un titolo di strategia o survival"
+    ],
+    "whyItWorks": "Elimina i venti minuti di voci sovrapposte all'inizio di ogni serata gaming. Quattro titoli concreti che tutti possiedono evitano le proposte impossibili e l'anonimato fa votare la vera preferenza del gruppo, non quella del giocatore più insistente. Il risultato in tempo reale fa partire la prima partita senza altre discussioni.",
+    "tips": [
+      "Proponi solo giochi che tutto il gruppo possiede già, evita acquisti dell'ultimo minuto.",
+      "Condividi il link nella chat Discord o nel gruppo del clan poco prima della serata.",
+      "Aggiungi accanto a ogni titolo il numero di giocatori supportati.",
+      "Se la serata è lunga, vota più giochi e segui l'ordine dei risultati.",
+      "Salva il link e riusalo ogni settimana per decidere la sessione."
+    ],
+    "variations": [
+      {
+        "question": "Che modalità preferite per la sessione di stasera?",
+        "options": ["Classificata competitiva", "Partite normali rilassate", "Modalità storia in coop", "Modalità a tema o eventi"]
+      },
+      {
+        "question": "A che ora iniziamo la sessione di gioco?",
+        "options": ["Subito dopo cena", "Verso le 21", "Dalle 22 in poi", "Decidiamo nel gruppo all'ultimo"]
+      },
+      {
+        "question": "Quanto dura la serata gaming?",
+        "options": ["Una o due partite veloci", "Un paio d'ore", "Fino a tardi senza limiti", "Finché restiamo svegli"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quanti giocatori possono votare il gioco della serata?",
+        "a": "Non c'è limite. Puoi condividere il link con un piccolo gruppo di amici o con tutto il clan. Ognuno vota una sola volta dal proprio dispositivo e i risultati si aggiornano in tempo reale, così la scelta è immediata."
+      },
+      {
+        "q": "Gli altri giocatori vedranno cosa ho votato?",
+        "a": "No, moomz è anonimo. Si vedono solo i totali per ogni gioco, mai il voto del singolo. Questo evita che qualcuno voti solo per allinearsi al leader del gruppo e fa emergere la vera preferenza della serata."
+      },
+      {
+        "q": "Funziona se il gruppo gioca su piattaforme diverse?",
+        "a": "Sì, il sondaggio serve solo a decidere il titolo. Ognuno vota dal telefono o dal PC, indipendentemente dalla console su cui gioca. Basta proporre giochi cross-platform o disponibili su tutte le piattaforme del gruppo."
+      },
+      {
+        "q": "Posso riusare lo stesso sondaggio ogni settimana?",
+        "a": "Le opzioni di un sondaggio sono fisse, ma crearne uno nuovo richiede pochi secondi. Molti gruppi ne lanciano uno ogni settimana con la libreria aggiornata, così la scelta del gioco diventa un rituale veloce prima di ogni sessione."
+      }
+    ],
+    "related": [
+      "sondaggio-festa-tema-serata-it",
+      "sondaggio-dibattito-questione-divisiva-it",
+      "sondaggio-compleanno-regalo-amico-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-drama-chi-ha-ragione-it",
+    "locale": "it",
+    "emoji": "🍿",
+    "title": "Sondaggio drama: chi ha ragione secondo voi?",
+    "h1": "Sondaggio: nel drama, da che parte stai?",
+    "description": "Modello di sondaggio gratuito e anonimo per far votare gli amici su un drama di gruppo. Manda il link e scopri da che parte sta davvero la maggioranza.",
+    "intro": "Ogni gruppo di amici ha il suo drama: una discussione, un litigio, una situazione su cui tutti hanno un'opinione ma nessuno la dice apertamente per non schierarsi. Questo modello trasforma il pettegolezzo in un verdetto chiaro. Imposti la situazione in modo neutrale, dai due o tre punti di vista e mandi il link al gruppo. Tutti votano in anonimo da che parte stanno, senza dover dire in faccia agli amici cosa pensano. I risultati arrivano in tempo reale e mostrano cosa pensa davvero la maggioranza. È perfetto per chiudere un dibattito che gira da giorni o semplicemente per il gusto di scoprire come la pensa il gruppo, senza che nessuno debba esporsi.",
+    "category": "drama",
+    "audience": "Gruppi di amici che vogliono un verdetto onesto su un drama senza che nessuno debba schierarsi apertamente",
+    "question": "Nel drama del gruppo, chi ha ragione secondo voi?",
+    "options": [
+      "Ha ragione la prima persona",
+      "Ha ragione la seconda persona",
+      "Hanno torto entrambe allo stesso modo",
+      "È solo un malinteso, nessuno ha torto"
+    ],
+    "whyItWorks": "Dà un verdetto onesto su una situazione che altrimenti resta sospesa per giorni. L'anonimato è la chiave: permette a tutti di dire cosa pensano davvero senza dover litigare con un amico o sembrare schierati. Il risultato in tempo reale mostra l'opinione reale della maggioranza e spesso chiude il drama meglio di mille discussioni.",
+    "tips": [
+      "Scrivi la situazione in modo neutrale, senza far capire da che parte stai tu.",
+      "Includi sempre un'opzione tipo nessuno ha torto per i casi sfumati.",
+      "Condividi il link solo nel gruppo coinvolto, non allargarlo a estranei.",
+      "Usa il sondaggio per chiudere il discorso, non per riaccendere la lite.",
+      "Se la situazione è delicata, tieni i nomi fuori dalla domanda."
+    ],
+    "variations": [
+      {
+        "question": "Era il caso di reagire così in quella situazione?",
+        "options": ["Sì, reazione giustificata", "No, ha esagerato", "Una via di mezzo", "Dipende dal contesto"]
+      },
+      {
+        "question": "Come dovrebbe finire questo drama?",
+        "options": ["Con delle scuse", "Lasciar perdere e voltare pagina", "Una chiacchierata chiarificatrice", "Ognuno per la sua strada"]
+      },
+      {
+        "question": "Avete mai vissuto un drama simile nel gruppo?",
+        "options": ["Sì, esattamente uguale", "Qualcosa di simile", "Mai successo a noi", "Preferisco non rispondere"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Gli amici scopriranno da che parte ho votato nel drama?",
+        "a": "No, moomz è completamente anonimo. Si vedono solo i totali per ogni opzione, mai il voto del singolo. Questo è il punto di forza: puoi dire onestamente cosa pensi senza dover litigare con nessuno o sembrare schierato."
+      },
+      {
+        "q": "Come scrivo la domanda senza alimentare la lite?",
+        "a": "Imposta la situazione in modo neutrale, descrivendo i fatti senza aggettivi e senza far capire la tua opinione. Se possibile, evita nomi espliciti. Un sondaggio ben scritto chiude il drama, mentre uno di parte rischia di riaccenderlo."
+      },
+      {
+        "q": "Quante persone possono votare nel sondaggio del drama?",
+        "a": "Non c'è limite, ma per un drama conviene tenerlo nel gruppo coinvolto. Condividi il link solo con chi conosce la situazione, così il verdetto resta significativo e non viene falsato da persone esterne che non hanno il contesto."
+      },
+      {
+        "q": "E se il risultato non chiude comunque il drama?",
+        "a": "Il sondaggio dà un'istantanea onesta di cosa pensa il gruppo, e spesso questo basta a sgonfiare la tensione. Se la situazione resta calda, può comunque servire come punto di partenza per una chiacchierata chiarificatrice tra le persone coinvolte."
+      }
+    ],
+    "related": [
+      "sondaggio-dibattito-questione-divisiva-it",
+      "sondaggio-festa-tema-serata-it",
+      "sondaggio-gaming-prossima-partita-it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondaggio-dibattito-questione-divisiva-it",
+    "locale": "it",
+    "emoji": "⚖️",
+    "title": "Sondaggio dibattito: vota la questione divisiva",
+    "h1": "Sondaggio: dibattito acceso, da che parte stai?",
+    "description": "Modello di sondaggio gratuito e anonimo per lanciare un dibattito divisivo e raccogliere opinioni vere. Vota, condividi il link e scopri come la pensa la gente.",
+    "intro": "Certe domande dividono qualsiasi gruppo: l'ananas sulla pizza, il cane o il gatto, la pizza o la pasta come piatto preferito. Sono dibattiti leggeri ma capaci di accendere conversazioni infinite. Questo modello trasforma il dibattito in dati concreti. Lanci la domanda divisiva, proponi due o tre posizioni nette e mandi il link a chiunque vuoi: amici, follower, colleghi. Tutti votano in anonimo, quindi rispondono quello che pensano davvero e non quello che è socialmente accettato. I risultati arrivano in tempo reale e mostrano la spaccatura esatta. È perfetto per animare una serata, alimentare un contenuto sui social o semplicemente per il gusto di vedere chi ha ragione tra te e i tuoi amici.",
+    "category": "debate",
+    "audience": "Chiunque voglia lanciare un dibattito divisivo e raccogliere opinioni oneste da amici o follower",
+    "question": "L'ananas sulla pizza: sì o no?",
+    "options": [
+      "Sì, è buonissima",
+      "No, è un crimine culinario",
+      "Solo in certe combinazioni",
+      "Non ho un'opinione forte"
+    ],
+    "whyItWorks": "Trasforma una discussione senza fine in numeri chiari. L'anonimato spinge le persone a votare cosa pensano davvero, non la risposta socialmente comoda, quindi il risultato è onesto. Una domanda divisiva con posizioni nette genera tanti voti rapidi, e vedere la spaccatura in tempo reale rende il dibattito molto più coinvolgente.",
+    "tips": [
+      "Scegli una domanda che divide davvero, le mezze misure non funzionano.",
+      "Tieni le opzioni nette e brevi, così la scelta è immediata.",
+      "Aggiungi un'opzione neutra per chi non si schiera, evita voti forzati.",
+      "Condividi il link sui social o nel gruppo per raccogliere tanti voti.",
+      "Quando i voti rallentano, mostra i risultati per rilanciare la discussione."
+    ],
+    "variations": [
+      {
+        "question": "Cane o gatto, quale animale è meglio?",
+        "options": ["Cane senza dubbi", "Gatto tutta la vita", "Entrambi, impossibile scegliere", "Nessuno dei due"]
+      },
+      {
+        "question": "Il cappuccino dopo pranzo è accettabile?",
+        "options": ["Sì, quando voglio", "No, mai dopo le 11", "Solo in certe occasioni", "Non bevo cappuccino"]
+      },
+      {
+        "question": "Estate o inverno, quale stagione preferisci?",
+        "options": ["Estate e caldo", "Inverno e freddo", "Mezze stagioni, primavera e autunno", "Mi vanno bene tutte"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Le risposte al dibattito sono davvero anonime?",
+        "a": "Sì, moomz è anonimo per impostazione predefinita. Si vedono solo i totali per ogni opzione, mai chi ha votato cosa. Proprio per questo i risultati sono onesti: le persone votano la loro vera opinione senza paura di essere giudicate."
+      },
+      {
+        "q": "Quante persone possono partecipare al dibattito?",
+        "a": "Non c'è alcun limite. Puoi condividere il link con un piccolo gruppo di amici o pubblicarlo sui social per raccogliere centinaia di voti. Ogni persona vota una sola volta e i risultati si aggiornano in tempo reale."
+      },
+      {
+        "q": "Come scelgo una buona domanda per un dibattito?",
+        "a": "Scegli un tema che divide davvero, in cui esistono almeno due posizioni nette e difendibili. I dibattiti leggeri come ananas sulla pizza o cane contro gatto funzionano benissimo perché tutti hanno un'opinione e nessuno si offende a votare."
+      },
+      {
+        "q": "Posso usare il sondaggio per un contenuto social?",
+        "a": "Sì, è un uso molto comune. Lanci il dibattito, condividi il link in storia o nel post e inviti i follower a votare. I risultati in tempo reale danno un contenuto pronto da commentare e da mostrare, perfetto per generare interazione."
+      }
+    ],
+    "related": [
+      "sondaggio-drama-chi-ha-ragione-it",
+      "sondaggio-gaming-prossima-partita-it",
+      "sondaggio-classe-gita-scolastica-it"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

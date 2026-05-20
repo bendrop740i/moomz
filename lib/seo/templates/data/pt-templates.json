@@ -1,0 +1,569 @@
+[
+  {
+    "slug": "sondagem-casamento-musica-festa-pt",
+    "locale": "pt",
+    "emoji": "💍",
+    "title": "Sondagem para escolher a música do casamento",
+    "h1": "Sondagem: que música fecha a festa de casamento?",
+    "description": "Modelo de sondagem gratuita e anónima para os noivos e convidados escolherem a música da primeira dança e do encerramento da festa de casamento.",
+    "intro": "A música certa transforma um casamento numa noite que ninguém esquece, mas decidir o repertório quase sempre vira uma discussão entre quem ama sertanejo, quem só dança kizomba e a tia que pede pimba. Este modelo resolve o impasse antes do grande dia: os noivos lançam três ou quatro hipóteses para a primeira dança ou para a faixa que fecha a pista, partilham o link com os padrinhos e a família, e cada um vota em paz. Por ser anónima, o sogro vota de verdade e não só para agradar. O resultado em tempo real dá ao DJ uma base clara, e dá aos noivos a certeza de que o momento mais importante terá a banda sonora que toda a gente quer ouvir.",
+    "category": "wedding",
+    "audience": "Noivos e convidados que querem alinhar o repertório do casamento sem desentendimentos com o DJ",
+    "question": "Que estilo de música vai abrir a pista no nosso casamento?",
+    "options": [
+      "Romântica para a primeira danca",
+      "Sertanejo e pagode para animar",
+      "Pop internacional dos anos 2000",
+      "Kizomba e musica latina"
+    ],
+    "whyItWorks": "Casamento mistura gerações e gostos muito diferentes, e isso normalmente trava qualquer decisão. Reduzir a quatro estilos fechados evita a lista infinita de pedidos. A votação anónima faz os convidados serem sinceros sem medo de contrariar os noivos, e o resultado em tempo real dá ao DJ uma encomenda concreta semanas antes da festa.",
+    "tips": [
+      "Lança a sondagem com pelo menos um mes de antecedencia para o DJ preparar tudo.",
+      "Inclui sempre uma opcao mais calma e outra para encher a pista a noite.",
+      "Partilha o link no grupo dos padrinhos antes de abrir aos convidados.",
+      "Depois do estilo vencedor, lanca outra sondagem so com tres musicas concretas.",
+      "Guarda o resultado para mostrar ao DJ como briefing oficial da festa."
+    ],
+    "variations": [
+      {
+        "question": "Qual vai ser a música da nossa primeira dança?",
+        "options": ["Um clássico romântico", "A nossa música do início do namoro", "Algo lento e atual", "Surpresa coreografada"]
+      },
+      {
+        "question": "O que servimos na mesa de doces do casamento?",
+        "options": ["Brigadeiro e beijinho", "Pastéis de nata e doces conventuais", "Mesa mista BR e PT", "Bolo e fim de história"]
+      },
+      {
+        "question": "A que horas deve acabar a festa?",
+        "options": ["Até à meia-noite", "Até às 2h", "Até de manhã", "Até o último convidado cair"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos convidados podem votar na sondagem do casamento?",
+        "a": "Não há limite nenhum. Podes partilhar o link com os dez padrinhos ou com a lista completa de duzentos convidados. Cada pessoa vota uma única vez e o resultado atualiza em tempo real, por isso dá para acompanhar a tendência enquanto as respostas chegam."
+      },
+      {
+        "q": "Os convidados sabem em que estilo de música votei?",
+        "a": "Não. A moomz é anónima por defeito, mostra apenas o total por opção e nunca quem votou em quê. Isto é importante num casamento, porque a família vota com sinceridade sem receio de contrariar os noivos ou os sogros."
+      },
+      {
+        "q": "Posso usar a sondagem para o DJ ou banda?",
+        "a": "Sim, e é uma das melhores utilizações. Em vez de chegares ao DJ com gostos vagos, mostras um resultado claro com o estilo que a maioria dos convidados quer. Funciona como briefing oficial e evita pedidos de última hora a meio da festa."
+      },
+      {
+        "q": "Funciona se metade dos convidados é do Brasil e outra de Portugal?",
+        "a": "Funciona muito bem, é até para isso que serve. Cada convidado vota do telemóvel onde estiver e o resultado equilibra naturalmente os gostos dos dois lados. Assim o repertório reflete a festa real, com sertanejo e pimba a conviverem na mesma pista."
+      }
+    ],
+    "related": [
+      "sondagem-despedida-solteira-destino-pt",
+      "sondagem-aniversario-tema-festa-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-despedida-solteira-destino-pt",
+    "locale": "pt",
+    "emoji": "👰",
+    "title": "Sondagem para escolher o destino da despedida de solteira",
+    "h1": "Sondagem: onde fazemos a despedida de solteira?",
+    "description": "Modelo de sondagem gratuita e anónima para o grupo decidir o destino da despedida de solteira sem stress nem chat infinito.",
+    "intro": "Organizar uma despedida de solteira costuma ser um campo minado: a noiva quer algo memorável, a madrinha quer controlar tudo, e há sempre uma amiga que tem orçamento curto e não se atreve a dizer. Este modelo desbloqueia o plano numa tarde. A organizadora coloca três ou quatro destinos viáveis, do fim de semana na praia ao spa perto de casa, partilha o link no grupo e deixa todas votarem em segredo. Por ser anónima, quem não pode gastar muito vota com honestidade e ninguém se sente pressionada. O resultado em tempo real fecha o destino sem aquela troca de mensagens sem fim, e o grupo passa logo para o melhor: reservar e contar os dias.",
+    "category": "bachelorette",
+    "audience": "Madrinhas e amigas que organizam a despedida de solteira e querem fechar o destino sem pressão de grupo",
+    "question": "Onde vamos fazer a despedida de solteira?",
+    "options": [
+      "Fim de semana numa praia (Algarve ou litoral)",
+      "Escapadinha de cidade (Lisboa ou Porto)",
+      "Dia de spa e relax perto de casa",
+      "Festa numa casa alugada so para o grupo"
+    ],
+    "whyItWorks": "Numa despedida de solteira o orçamento e a disponibilidade variam muito de amiga para amiga, e isso costuma travar tudo. A votação anónima permite que cada uma escolha sem se sentir julgada pelo grupo. Limitar a quatro destinos já filtrados evita o caos de propostas, e o resultado imediato deixa a organizadora reservar com tempo e bom preço.",
+    "tips": [
+      "Filtra os destinos por orcamento maximo antes de criar a sondagem.",
+      "Indica um custo aproximado por pessoa ao lado de cada opcao.",
+      "Nao incluas a noiva na votacao se quiseres manter parte surpresa.",
+      "Define um prazo curto para votar, por exemplo 48 horas.",
+      "Depois do destino, lanca outra sondagem so para as datas possiveis."
+    ],
+    "variations": [
+      {
+        "question": "Que tipo de despedida de solteira combina mais com a noiva?",
+        "options": ["Tranquila e chill", "Festa e dança a noite toda", "Aventura e atividades", "Mistura de tudo num fim de semana"]
+      },
+      {
+        "question": "Quanto pode cada uma gastar na despedida?",
+        "options": ["Até 100€", "Entre 100 e 200€", "Entre 200 e 350€", "Sem limite, vale a pena"]
+      },
+      {
+        "question": "Qual é o tema do look do grupo?",
+        "options": ["Tudo de branco e a noiva destacada", "Cor única combinada", "T-shirts personalizadas", "Cada uma à vontade"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas amigas podem votar na sondagem da despedida?",
+        "a": "Não há limite. Podes partilhar o link com um grupo pequeno de cinco amigas ou com a lista alargada de vinte. Cada pessoa vota uma vez só e o resultado atualiza ao vivo, o que ajuda a perceber cedo qual destino está a ganhar."
+      },
+      {
+        "q": "Dá para esconder a sondagem da noiva e manter a surpresa?",
+        "a": "Dá. Basta partilhar o link apenas no grupo de amigas e deixar a noiva de fora. A moomz não exige registo nem conta, por isso ninguém recebe notificações que possam estragar a surpresa. A organizadora controla quem recebe o link."
+      },
+      {
+        "q": "As amigas sabem quem votou em cada destino?",
+        "a": "Não. A votação é totalmente anónima e só se vê o total por opção. Isto é essencial numa despedida, porque a amiga com orçamento mais curto vota com sinceridade no plano mais barato sem se sentir exposta perante o grupo."
+      },
+      {
+        "q": "E se as amigas estiverem em cidades ou países diferentes?",
+        "a": "Funciona perfeitamente. Cada amiga vota do telemóvel onde estiver, seja em Lisboa, no Porto ou no Brasil. O resultado em tempo real é visível para todas, por isso dá para organizar uma despedida mesmo com o grupo espalhado."
+      }
+    ],
+    "related": [
+      "sondagem-casamento-musica-festa-pt",
+      "sondagem-festa-local-noite-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-festa-local-noite-pt",
+    "locale": "pt",
+    "emoji": "🎉",
+    "title": "Sondagem para decidir onde sair à noite com o grupo",
+    "h1": "Sondagem: onde vamos sair esta noite?",
+    "description": "Modelo de sondagem gratuita e anónima para o grupo decidir onde sair à noite sem mensagens infinitas no chat.",
+    "intro": "Toda a gente conhece a cena: são oito da noite de sábado, o grupo do WhatsApp tem cinquenta mensagens e ninguém decidiu nada. Uns querem um bar tranquilo para conversar, outros querem dançar até de manhã, e há sempre quem só responda quando o plano já arrancou. Este modelo corta o ruído em minutos. Lanças três ou quatro hipóteses concretas de saída, partilhas o link e cada um vota onde estiver. Por ser anónima, ninguém vota só por seguir o amigo mais teimoso, e o resultado em tempo real mostra logo a tendência. Em vez de perder a noite a combinar, o grupo decide rápido e aproveita o que importa: sair.",
+    "category": "party",
+    "audience": "Grupos de amigos que querem fechar o plano de saída à noite sem perder horas a combinar no chat",
+    "question": "Onde vamos sair esta noite?",
+    "options": [
+      "Bar tranquilo para conversar e beber",
+      "Discoteca para dancar ate de manha",
+      "Casa de alguem com musica e petiscos",
+      "Esplanada e depois logo se ve"
+    ],
+    "whyItWorks": "Decidir uma saída em grupo falha porque metade do grupo só responde tarde e a outra metade impõe o gosto pessoal. A votação anónima dá voz aos mais discretos e tira o peso de quem grita mais alto. Quatro opções fechadas evitam o ciclo de propostas, e o resultado ao vivo permite decidir em minutos e ainda ter noite pela frente.",
+    "tips": [
+      "Cria a sondagem cedo, ao fim da tarde, para dar tempo a toda a gente votar.",
+      "Coloca opcoes realistas conforme o dia da semana e o orcamento do grupo.",
+      "Define que a votacao fecha a uma hora certa para o plano arrancar.",
+      "Se houver empate, faz uma segunda sondagem com as duas opcoes mais votadas.",
+      "Guarda o link para reutilizar nas proximas saidas do mesmo grupo."
+    ],
+    "variations": [
+      {
+        "question": "A que horas marcamos para começar a noite?",
+        "options": ["Logo às 21h", "Por volta das 23h", "Só depois da meia-noite", "Cada um chega quando puder"]
+      },
+      {
+        "question": "Que tipo de música queremos esta noite?",
+        "options": ["Funk e brasileiro", "Pop e comerciais", "Eletrónica e house", "Tanto faz, o que tocar"]
+      },
+      {
+        "question": "Como vamos dividir a conta da noite?",
+        "options": ["Cada um paga o seu", "Dividimos tudo por igual", "Vaquinha combinada antes", "Logo se vê no fim"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas pessoas podem votar onde sair?",
+        "a": "Não há limite. Tanto serve para um grupo de quatro amigos como para uma turma inteira de trinta pessoas a combinar uma saída maior. Cada pessoa vota uma única vez e o resultado atualiza ao vivo enquanto as respostas vão chegando."
+      },
+      {
+        "q": "Os amigos veem em que sítio eu votei?",
+        "a": "Não. A moomz é anónima e mostra apenas o total por opção, nunca quem votou em quê. Assim ninguém vota só para agradar ao amigo mais insistente do grupo, e o plano vencedor reflete o que o grupo quer mesmo fazer."
+      },
+      {
+        "q": "Dá para usar a sondagem em cima da hora?",
+        "a": "Dá, é mesmo para isso que funciona melhor. Criar a sondagem leva segundos e o resultado aparece em tempo real, por isso podes lançá-la às oito da noite e ter o plano fechado antes das nove. Ninguém precisa de instalar nada nem criar conta."
+      },
+      {
+        "q": "E se metade do grupo só responde tarde?",
+        "a": "Não há problema. Quem chega atrasado abre o link e vota na mesma, o resultado vai-se atualizando. Para garantir uma decisão, basta combinar antes que a votação fecha a uma hora certa e que vale a opção mais votada nesse momento."
+      }
+    ],
+    "related": [
+      "sondagem-despedida-solteira-destino-pt",
+      "sondagem-aniversario-tema-festa-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-turma-visita-estudo-pt",
+    "locale": "pt",
+    "emoji": "🎒",
+    "title": "Sondagem para a turma escolher a visita de estudo",
+    "h1": "Sondagem: para onde vai a visita de estudo da turma?",
+    "description": "Modelo de sondagem gratuita e anónima para a turma e o professor decidirem o destino da visita de estudo de forma democrática.",
+    "intro": "Escolher a visita de estudo costuma acabar com o professor a impor um destino ou com a turma a discutir sem chegar a lado nenhum. Este modelo torna a decisão justa e rápida. O delegado de turma ou o próprio professor coloca três ou quatro destinos possíveis, dentro do orçamento e do programa da disciplina, partilha o link com os alunos e cada um vota em segredo. Por ser anónima, os alunos mais tímidos votam de verdade e não só seguem o grupo dos mais populares. O resultado em tempo real dá ao professor um argumento concreto para tratar das autorizações e da reserva do autocarro, e a turma sente que a escolha foi mesmo dela.",
+    "category": "classroom",
+    "audience": "Turmas, delegados e professores que querem decidir a visita de estudo de forma democrática e rápida",
+    "question": "Para onde queremos ir na visita de estudo?",
+    "options": [
+      "Museu ou centro de ciencia",
+      "Saida na natureza ou parque",
+      "Visita a uma cidade historica",
+      "Fabrica ou empresa ligada a materia"
+    ],
+    "whyItWorks": "Numa turma há sempre alunos que se calam para não contrariar os mais populares, e a decisão acaba por não representar todos. A votação anónima resolve isso e dá um resultado honesto. Quatro destinos já validados pelo professor mantêm a escolha realista, e o resultado claro serve de base para tratar das autorizações dos encarregados de educação.",
+    "tips": [
+      "Pede ao professor para validar os destinos antes de abrir a votacao.",
+      "Indica ao lado de cada opcao o custo aproximado e a ligacao a materia.",
+      "Partilha o link so no grupo da turma para evitar votos de fora.",
+      "Define um prazo de votacao, por exemplo uma semana de aulas.",
+      "Mostra o resultado ao diretor de turma como apoio do pedido."
+    ],
+    "variations": [
+      {
+        "question": "Em que mês preferimos fazer a visita de estudo?",
+        "options": ["Outono, início do ano letivo", "Antes das férias do Natal", "Primavera", "Fim do ano letivo"]
+      },
+      {
+        "question": "Quanto pode custar a visita de estudo por aluno?",
+        "options": ["Até 10€", "Entre 10 e 25€", "Entre 25 e 50€", "Mais de 50€"]
+      },
+      {
+        "question": "Quanto tempo deve durar a visita?",
+        "options": ["Só uma manhã", "Um dia inteiro", "Dois dias com dormida", "Mais de dois dias"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos alunos podem votar na sondagem da visita de estudo?",
+        "a": "Não há limite. Funciona para uma turma de vinte alunos ou para várias turmas do mesmo ano a partilharem destino. Cada aluno vota uma vez só e o resultado atualiza ao vivo, o que ajuda a turma a acompanhar a tendência durante a semana."
+      },
+      {
+        "q": "O professor consegue ver em que destino cada aluno votou?",
+        "a": "Não. A moomz é anónima e mostra apenas o total por opção. Isto é importante na escola, porque os alunos mais tímidos votam com sinceridade sem receio do que o professor ou os colegas mais populares vão pensar da escolha deles."
+      },
+      {
+        "q": "Como evito que votem alunos de outras turmas?",
+        "a": "Basta partilhar o link apenas no grupo privado da turma, seja no chat de WhatsApp ou na plataforma da escola. Como a moomz não exige conta, a votação assenta na confiança, por isso mantém o link dentro do círculo da turma."
+      },
+      {
+        "q": "Posso usar o resultado para pedir a autorização à escola?",
+        "a": "Sim, é uma das melhores utilizações. Em vez de chegares ao diretor de turma com uma ideia vaga, mostras um resultado concreto com o destino escolhido pela maioria. Isso reforça o pedido e facilita o tratamento das autorizações dos encarregados."
+      }
+    ],
+    "related": [
+      "sondagem-equipa-almoco-trabalho-pt",
+      "sondagem-debate-praia-vs-serra-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-equipa-almoco-trabalho-pt",
+    "locale": "pt",
+    "emoji": "💼",
+    "title": "Sondagem para a equipa escolher o almoço de trabalho",
+    "h1": "Sondagem: onde almoça a equipa hoje?",
+    "description": "Modelo de sondagem gratuita e anónima para a equipa decidir onde almoçar ou pedir comida sem perder meia hora no chat.",
+    "intro": "No escritório, a pergunta sobre onde almoçar consome cada dia uns bons quinze minutos de mensagens sem ninguém decidir. Há quem queira um marmita rápida, quem prefira sair, e quem só responde quando o pedido já foi feito. Este modelo arruma isso de vez. Alguém da equipa lança três ou quatro opções concretas, partilha o link no Slack ou no chat do grupo, e em poucos minutos há um vencedor. Por ser anónima, ninguém almoça contrariado só para agradar à chefia, e a opção que ganha é a que a equipa realmente quer. Reutilizas o mesmo formato todos os dias, e a hora do almoço deixa de ser uma negociação para voltar a ser uma pausa.",
+    "category": "work",
+    "audience": "Equipas e colegas de escritório que querem decidir o almoço rápido sem discussão diária no chat",
+    "question": "Onde vamos almoçar hoje em equipa?",
+    "options": [
+      "Restaurante de prato do dia perto",
+      "Pedir comida para o escritorio",
+      "Cada um traz a marmita e comemos juntos",
+      "Esplanada ou cafe para sair um pouco"
+    ],
+    "whyItWorks": "A decisão do almoço falha porque é repetitiva e ninguém quer ser o chato que escolhe. A votação anónima tira esse peso e evita que a equipa siga sempre o gosto da chefia. Quatro opções fechadas resolvem em minutos o que custava meia hora de chat, e o resultado em tempo real deixa fazer a reserva ou o pedido cedo.",
+    "tips": [
+      "Lanca a sondagem por volta das 11h para dar tempo de reservar ou pedir.",
+      "Adapta as opcoes aos sitios e ao orcamento real perto do escritorio.",
+      "Partilha o link no canal da equipa, nao em mensagens individuais.",
+      "Fecha a votacao a uma hora fixa para nao atrasar o almoco.",
+      "Guarda o link e reutiliza-o todos os dias, muda so as opcoes."
+    ],
+    "variations": [
+      {
+        "question": "A que horas marcamos o almoço de equipa?",
+        "options": ["Às 12h, mais cedo", "Por volta das 13h", "Às 14h, mais tarde", "Cada um vai quando puder"]
+      },
+      {
+        "question": "Que tipo de comida pedimos hoje?",
+        "options": ["Comida tradicional portuguesa", "Sushi ou asiático", "Pizza ou hambúrguer", "Salada ou opção leve"]
+      },
+      {
+        "question": "Onde fazemos o próximo almoço de equipa especial?",
+        "options": ["Restaurante mais cuidado", "Churrasco ou rodízio", "Atividade com almoço incluído", "Em casa de alguém da equipa"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos colegas podem votar na sondagem do almoço?",
+        "a": "Não há limite. Funciona para uma equipa de cinco pessoas ou para um escritório de quarenta a decidir em conjunto. Cada pessoa vota uma única vez e o resultado atualiza ao vivo, por isso vês a tendência logo nos primeiros minutos."
+      },
+      {
+        "q": "A chefia consegue ver em que opção cada um votou?",
+        "a": "Não. A moomz é anónima por defeito e mostra apenas o total por opção. Isto importa no trabalho, porque a equipa vota com sinceridade no que realmente lhe apetece comer, sem o reflexo de seguir a escolha do chefe ou do colega mais antigo."
+      },
+      {
+        "q": "Dá para usar a mesma sondagem todos os dias?",
+        "a": "Dá. Como criar uma sondagem leva segundos, o mais prático é lançar uma nova de manhã com as opções daquele dia. Guarda o link da última no chat da equipa como modelo e copia o formato, mudando só os restaurantes ou os pratos."
+      },
+      {
+        "q": "Funciona se a equipa trabalha em teletrabalho ou híbrido?",
+        "a": "Funciona muito bem. Quem está no escritório e quem está em casa votam todos do telemóvel ou do computador. Para os dias híbridos, dá para usar a sondagem para decidir entre pedir comida para quem está presente ou marcar um almoço de equipa presencial."
+      }
+    ],
+    "related": [
+      "sondagem-turma-visita-estudo-pt",
+      "sondagem-jogo-noite-grupo-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-aniversario-tema-festa-pt",
+    "locale": "pt",
+    "emoji": "🎂",
+    "title": "Sondagem para escolher o tema da festa de aniversário",
+    "h1": "Sondagem: qual é o tema da festa de aniversário?",
+    "description": "Modelo de sondagem gratuita e anónima para amigos e família decidirem o tema e o formato da festa de aniversário.",
+    "intro": "Organizar um aniversário a sério é difícil porque o aniversariante muitas vezes não quer escolher tudo sozinho, mas também não quer uma festa que não tenha a ver com ele. Este modelo equilibra as duas coisas. Quem organiza, ou o próprio aniversariante, coloca três ou quatro hipóteses de tema ou formato, partilha o link com os amigos e a família, e deixa o grupo votar. Por ser anónima, os convidados dizem o que pensam de verdade sobre fazer um jantar, uma festa surpresa ou um fim de tarde tranquilo. O resultado em tempo real dá uma direção clara para tratar do bolo, da decoração e dos convites, e a festa acaba a agradar a quem conta: o aniversariante e quem vai estar lá.",
+    "category": "birthday",
+    "audience": "Aniversariantes, amigos e família que organizam uma festa de anos sem sobrecarregar uma só pessoa",
+    "question": "Qual vai ser o tema da festa de aniversário?",
+    "options": [
+      "Jantar tranquilo so com os mais chegados",
+      "Festa surpresa com muita gente",
+      "Fim de tarde com petiscos e musica",
+      "Saida especial em vez de festa em casa"
+    ],
+    "whyItWorks": "Numa festa de aniversário, quem organiza tem medo de errar e o aniversariante tem medo de impor. A votação anónima tira esse peso dos dois lados: os convidados são sinceros sobre o formato e ninguém carrega a decisão sozinho. Quatro opções fechadas mantêm o plano realista, e o resultado claro orienta o bolo, a decoração e os convites.",
+    "tips": [
+      "Lanca a sondagem com duas a tres semanas de antecedencia.",
+      "Se for festa surpresa, nao incluas o aniversariante na votacao.",
+      "Adapta os temas a idade e ao estilo de quem faz anos.",
+      "Depois do tema, lanca outra sondagem para a data e a hora.",
+      "Partilha o link so com quem vai mesmo ser convidado."
+    ],
+    "variations": [
+      {
+        "question": "Que bolo de aniversário escolhemos?",
+        "options": ["Bolo de chocolate clássico", "Bolo de brigadeiro ou cenoura", "Bolo de frutas mais leve", "Em vez de bolo, mesa de doces"]
+      },
+      {
+        "question": "Como combinamos a prenda do aniversariante?",
+        "options": ["Vaquinha para uma prenda grande", "Cada um traz a sua prenda", "Lista de desejos partilhada", "Sem prendas, só a presença"]
+      },
+      {
+        "question": "Onde fazemos a festa de aniversário?",
+        "options": ["Em casa", "Num restaurante", "Espaço alugado para festas", "Ao ar livre, parque ou praia"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos convidados podem votar na sondagem do aniversário?",
+        "a": "Não há limite. Podes partilhar o link com um grupo pequeno de amigos próximos ou com toda a lista de convidados, família incluída. Cada pessoa vota uma única vez e o resultado atualiza ao vivo, por isso acompanhas a tendência durante os dias da votação."
+      },
+      {
+        "q": "Dá para esconder a sondagem do aniversariante numa festa surpresa?",
+        "a": "Dá. Basta partilhar o link só com os convidados e deixar o aniversariante de fora. A moomz não exige conta nem envia notificações que possam estragar a surpresa, por isso quem organiza controla totalmente quem recebe o link e quando."
+      },
+      {
+        "q": "Os convidados sabem em que tema votei?",
+        "a": "Não. A votação é anónima e mostra apenas o total por opção, nunca quem votou em quê. Assim os convidados são sinceros sobre o formato que preferem, sem o receio de contrariar quem organiza ou o próprio aniversariante."
+      },
+      {
+        "q": "Posso fazer várias sondagens para o mesmo aniversário?",
+        "a": "Sim, é até o mais prático. Faz uma para o tema, outra para a data, outra para o bolo e outra para a prenda. Cada sondagem leva segundos a criar e mantém cada decisão clara, sem misturar tudo num único chat confuso."
+      }
+    ],
+    "related": [
+      "sondagem-casamento-musica-festa-pt",
+      "sondagem-festa-local-noite-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-jogo-noite-grupo-pt",
+    "locale": "pt",
+    "emoji": "🎮",
+    "title": "Sondagem para escolher o jogo da noite com os amigos",
+    "h1": "Sondagem: que jogo vamos jogar esta noite?",
+    "description": "Modelo de sondagem gratuita e anónima para o grupo de amigos decidir que jogo jogar online ou em casa sem discussão.",
+    "intro": "A noite de jogos com os amigos quase sempre começa com meia hora a decidir o que jogar. Uns querem um shooter competitivo, outros um jogo cooperativo mais calmo, e há sempre quem queira algo de festa para toda a gente entrar. Enquanto não há acordo, a noite escorre no lobby. Este modelo resolve isso em segundos. Lanças três ou quatro jogos possíveis, partilhas o link no Discord ou no grupo, e cada um vota onde estiver. Por ser anónima, ninguém vota só por seguir o amigo que joga melhor, e o resultado em tempo real mostra logo o vencedor. Em vez de gastar a energia a discutir, o grupo entra direto no jogo e aproveita a noite toda.",
+    "category": "gaming",
+    "audience": "Grupos de amigos gamers que querem decidir o jogo da noite sem perder tempo no lobby",
+    "question": "Que jogo vamos jogar esta noite?",
+    "options": [
+      "Shooter competitivo em equipa",
+      "Jogo cooperativo para acabar juntos",
+      "Jogo de festa para toda a gente entrar",
+      "Jogo de tabuleiro ou cartas presencial"
+    ],
+    "whyItWorks": "A noite de jogos falha sempre na mesma fase: a decisão. Quem joga melhor costuma impor o título e os outros seguem sem vontade. A votação anónima dá voz a todos por igual, mesmo aos casuais. Quatro opções fechadas evitam o ciclo de propostas no chat, e o resultado imediato mete o grupo dentro do jogo enquanto a noite ainda é jovem.",
+    "tips": [
+      "Lanca a sondagem antes de toda a gente entrar no Discord.",
+      "Inclui um jogo mais leve para os menos competitivos do grupo.",
+      "Confirma que todos tem acesso aos jogos da lista antes de votar.",
+      "Define que a votacao fecha em dez minutos para nao arrastar.",
+      "Guarda o link e reutiliza-o nas proximas noites de jogos."
+    ],
+    "variations": [
+      {
+        "question": "Quanto tempo vamos jogar esta noite?",
+        "options": ["Uma ou duas partidas e já está", "Umas duas horas", "A noite toda sem hora", "Até alguém ter de sair"]
+      },
+      {
+        "question": "Como formamos as equipas hoje?",
+        "options": ["Equipas equilibradas por nível", "Equipas à sorte", "Sempre os mesmos grupos", "Todos contra todos"]
+      },
+      {
+        "question": "Que jogo compramos para jogar todos juntos?",
+        "options": ["Um jogo cooperativo novo", "Um clássico que todos já têm", "Um jogo de festa barato", "Esperar pelos saldos"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos amigos podem votar na sondagem do jogo?",
+        "a": "Não há limite. Funciona para um grupo de quatro a jogar em equipa ou para um servidor de Discord com vinte pessoas. Cada um vota uma única vez e o resultado atualiza ao vivo, por isso o jogo vencedor aparece em poucos minutos."
+      },
+      {
+        "q": "Os amigos veem em que jogo eu votei?",
+        "a": "Não. A moomz é anónima e mostra apenas o total por opção. Isto ajuda nas noites de jogos, porque os jogadores mais casuais votam com sinceridade no jogo mais acessível sem se sentirem pressionados pelos amigos mais competitivos do grupo."
+      },
+      {
+        "q": "Dá para usar a sondagem dentro do Discord?",
+        "a": "Dá. Crias a sondagem na moomz e colas o link num canal do Discord ou no chat de voz. Toda a gente abre o link, vota do telemóvel ou do computador, e o resultado em tempo real fica visível sem ninguém precisar de instalar nada."
+      },
+      {
+        "q": "E se metade do grupo não tem o jogo que ganhou?",
+        "a": "Para evitar isso, confirma antes da votação que todos têm acesso aos jogos da lista, ou inclui só títulos gratuitos. Se mesmo assim houver problema, lança uma segunda sondagem rápida apenas com os jogos que todo o grupo tem instalado."
+      }
+    ],
+    "related": [
+      "sondagem-equipa-almoco-trabalho-pt",
+      "sondagem-novela-melhor-personagem-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-novela-melhor-personagem-pt",
+    "locale": "pt",
+    "emoji": "📺",
+    "title": "Sondagem sobre a melhor personagem da novela",
+    "h1": "Sondagem: qual é a melhor personagem da novela?",
+    "description": "Modelo de sondagem gratuita e anónima para fãs de novelas votarem na personagem favorita e gerar debate no grupo.",
+    "intro": "Não há grupo de família ou de amigos que não tenha aquela discussão acesa sobre a novela do momento: quem é o vilão mais bem feito, qual personagem merecia melhor final, quem todos adoram odiar. As novelas brasileiras e portuguesas vivem desse drama, e o melhor é levá-lo para a votação. Este modelo transforma a conversa do grupo numa sondagem divertida. Lanças três ou quatro personagens, partilhas o link e cada fã vota em segredo. Por ser anónima, ninguém tem vergonha de admitir que torce pela vilã, e o resultado em tempo real acende o debate ainda mais. É a forma perfeita de manter o grupo a comentar a novela entre capítulos e de descobrir quem o público realmente apoia.",
+    "category": "drama",
+    "audience": "Fãs de novelas que adoram discutir personagens e querem transformar o debate numa votação divertida",
+    "question": "Qual é a melhor personagem da novela do momento?",
+    "options": [
+      "O mocinho ou a mocinha que todos torcem",
+      "A vila ou o vilao que todos adoram odiar",
+      "A personagem comica que salva os capitulos",
+      "A personagem secundaria subvalorizada"
+    ],
+    "whyItWorks": "Discutir novela no grupo é divertido mas raramente fecha com conclusão. A votação dá um vencedor claro e atiça ainda mais o debate. Por ser anónima, os fãs assumem que torcem pela vilã sem julgamentos, e o resultado em tempo real mantém o grupo a comentar a novela entre capítulos, alimentando a conversa em vez de a deixar morrer.",
+    "tips": [
+      "Lanca a sondagem a meio da novela, quando o drama esta no auge.",
+      "Usa nomes de personagens em vez de descricoes para os fas reconhecerem.",
+      "Partilha o link no grupo de quem acompanha a mesma novela.",
+      "Faz uma nova sondagem a cada reviravolta importante do enredo.",
+      "Mostra o resultado para reacender a conversa sobre o final."
+    ],
+    "variations": [
+      {
+        "question": "Qual foi a maior reviravolta da novela até agora?",
+        "options": ["A traição que ninguém esperava", "A volta de uma personagem dada como morta", "O segredo de família revelado", "O par romântico que mudou tudo"]
+      },
+      {
+        "question": "Qual personagem merecia um final melhor?",
+        "options": ["O herói que sofreu demais", "A vilã que tinha razão", "O par que não ficou junto", "A personagem esquecida no fim"]
+      },
+      {
+        "question": "Que tipo de novela preferes ver?",
+        "options": ["Novela brasileira de drama", "Novela portuguesa", "Novela de época", "Série turca ou estrangeira"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantos fãs podem votar na sondagem da novela?",
+        "a": "Não há limite. Podes partilhar o link num grupo pequeno de família ou num grupo grande de fãs da mesma novela com dezenas de pessoas. Cada um vota uma vez só e o resultado atualiza ao vivo, mostrando logo qual personagem está a ganhar."
+      },
+      {
+        "q": "As pessoas sabem em que personagem eu votei?",
+        "a": "Não. A moomz é anónima e mostra apenas o total por opção. Isso torna a sondagem mais divertida, porque os fãs votam com sinceridade até na vilã ou no vilão sem terem vergonha, e ninguém é julgado pela escolha no grupo."
+      },
+      {
+        "q": "Posso fazer uma sondagem nova a cada capítulo importante?",
+        "a": "Podes, e é uma ótima ideia. Como criar uma sondagem leva segundos, dá para lançar uma nova a cada reviravolta da novela. Assim o grupo mantém o debate vivo entre capítulos e há sempre um novo tema para comentar e votar."
+      },
+      {
+        "q": "Funciona se uns veem a novela no Brasil e outros em Portugal?",
+        "a": "Funciona. Muitas novelas passam nos dois países, às vezes com diferença de tempo. Para evitar spoilers, basta indicar no nome da sondagem até que capítulo conta. Cada fã vota do telemóvel e o resultado é o mesmo para todos, em tempo real."
+      }
+    ],
+    "related": [
+      "sondagem-jogo-noite-grupo-pt",
+      "sondagem-debate-praia-vs-serra-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sondagem-debate-praia-vs-serra-pt",
+    "locale": "pt",
+    "emoji": "⚖️",
+    "title": "Sondagem de debate: praia ou serra para as férias?",
+    "h1": "Sondagem de debate: praia ou serra, qual ganha?",
+    "description": "Modelo de sondagem gratuita e anónima para lançar o debate praia versus serra e ver de que lado está o grupo.",
+    "intro": "Praia ou serra é um daqueles debates eternos que dividem qualquer grupo de amigos e qualquer família portuguesa ou brasileira. Uns juram pelo mar, pelo calor e pela areia, outros defendem o silêncio da serra, o ar fresco e as caminhadas. Em vez de a conversa andar às voltas sem fim, este modelo transforma o debate numa votação clara. Lanças a pergunta com as duas posições bem marcadas, partilhas o link e cada um assume o seu lado em segredo. Por ser anónima, ninguém vota só para não contrariar o amigo, e o resultado em tempo real mostra de que lado está mesmo o grupo. É a forma perfeita de fechar uma discussão antiga, ou de a tornar ainda mais animada.",
+    "category": "debate",
+    "audience": "Grupos de amigos e famílias que adoram debater e querem saber de que lado está a maioria",
+    "question": "Para as férias, o que é melhor: praia ou serra?",
+    "options": [
+      "Praia, mar e calor sempre",
+      "Serra, ar fresco e natureza",
+      "Depende da epoca do ano",
+      "Cidade, nem praia nem serra"
+    ],
+    "whyItWorks": "Os debates de gostos arrastam-se sem nunca terem um vencedor, e isso cansa o grupo. Transformar o debate numa votação dá um resultado concreto e visual. Por ser anónima, cada um assume a sua posição sem pressão social, e o resultado em tempo real mostra a divisão real do grupo, transformando uma discussão repetida num jogo divertido.",
+    "tips": [
+      "Formula a pergunta com os dois lados bem claros e equilibrados.",
+      "Inclui uma opcao neutra para quem nao quer escolher um lado.",
+      "Partilha o link no grupo onde o debate ja costuma acontecer.",
+      "Mostra o resultado para fechar a discussao ou reacende-la.",
+      "Reaproveita o formato para outros debates classicos do grupo."
+    ],
+    "variations": [
+      {
+        "question": "Debate: verão ou inverno, qual é a melhor estação?",
+        "options": ["Verão, calor e dias longos", "Inverno, frio e aconchego", "Primavera ou outono, meio-termo", "Tanto faz, gosto de todas"]
+      },
+      {
+        "question": "Debate: viajar de carro ou de avião?",
+        "options": ["De carro, liberdade na estrada", "De avião, rápido e prático", "Depende da distância", "De comboio, melhor que os dois"]
+      },
+      {
+        "question": "Debate: festa em casa ou sair à rua?",
+        "options": ["Festa em casa, mais à vontade", "Sair, o ambiente lá fora", "Depende da disposição do dia", "Os dois na mesma noite"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Quantas pessoas podem votar na sondagem de debate?",
+        "a": "Não há limite. Tanto serve para um pequeno grupo de amigos como para uma família grande ou um grupo de dezenas de pessoas. Cada uma vota uma vez só e o resultado atualiza ao vivo, mostrando logo de que lado o debate está a pender."
+      },
+      {
+        "q": "As pessoas sabem que lado eu escolhi no debate?",
+        "a": "Não. A moomz é anónima e mostra apenas o total por opção. Isto torna o debate mais honesto, porque cada um assume a sua posição sem medo de contrariar amigos ou familiares, e o resultado reflete a opinião real do grupo e não a mais barulhenta."
+      },
+      {
+        "q": "Como faço uma boa pergunta de debate?",
+        "a": "Apresenta os dois lados de forma equilibrada, sem inclinar a pergunta para um deles. Acrescenta uma opção neutra, como depende, para quem não quer escolher. Quanto mais clara e justa for a pergunta, mais o resultado servirá para fechar ou animar a discussão."
+      },
+      {
+        "q": "Posso usar este formato para outros debates do grupo?",
+        "a": "Podes, e é mesmo a melhor utilização. Praia ou serra é só um exemplo: o formato serve para verão ou inverno, carro ou avião, ou qualquer discussão clássica do grupo. Como criar uma sondagem leva segundos, dá para lançar um debate novo sempre que apetecer."
+      }
+    ],
+    "related": [
+      "sondagem-novela-melhor-personagem-pt",
+      "sondagem-turma-visita-estudo-pt"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

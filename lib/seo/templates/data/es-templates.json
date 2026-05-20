@@ -1,0 +1,569 @@
+[
+  {
+    "slug": "encuesta-boda-invitados-decisiones-es",
+    "locale": "es",
+    "emoji": "💍",
+    "title": "Encuesta de boda para decidir con los invitados",
+    "h1": "Encuesta: ¿qué prefieren los invitados de la boda?",
+    "description": "Plantilla de encuesta gratis y anónima para que los novios decidan detalles de la boda con la opinión real de sus invitados. Vota y comparte el enlace.",
+    "intro": "Organizar una boda son cientos de decisiones pequeñas y cada una abre un grupo de WhatsApp distinto. Esta plantilla te ahorra ese caos: lanzas una encuesta sencilla con los detalles que de verdad importan a la gente que va a venir y dejas que voten. Sirve para sondear el menú, la música, el horario o incluso el código de vestimenta, todo sin que nadie se sienta señalado al opinar. Al ser anónima, los invitados son sinceros: te dirán si prefieren barra libre a candy bar sin miedo a quedar mal. Cambia las opciones por las tuyas, comparte el enlace en el grupo de la boda y cierra cada decisión con datos reales en vez de suposiciones.",
+    "category": "wedding",
+    "audience": "Novios que quieren organizar su boda teniendo en cuenta la opinión real de sus invitados",
+    "question": "¿Qué momento de la boda esperáis con más ganas?",
+    "options": [
+      "La ceremonia y los votos",
+      "El cóctel y el aperitivo",
+      "El banquete y los discursos",
+      "La fiesta y la barra libre"
+    ],
+    "whyItWorks": "Convierte una decisión emocional en datos claros sin abrir un debate familiar. Al ser anónima, los invitados votan lo que de verdad quieren y no lo que creen que deberían decir. Compartir el enlace por WhatsApp deja que cada persona vote a su ritmo, y el recuento en directo te da una respuesta inmediata para cerrar el detalle.",
+    "tips": [
+      "Lanza una encuesta por decisión: menú, música, horario, así no se mezcla todo.",
+      "Manda el enlace en el grupo oficial de la boda para que solo voten los invitados.",
+      "Pon una fecha límite clara para poder confirmar con proveedores a tiempo.",
+      "Acompaña cada opción con un detalle concreto, no solo una palabra suelta.",
+      "Guarda los resultados: te servirán de argumento si alguien cuestiona una decisión."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué estilo de menú preferís para el banquete?",
+        "options": ["Menú sentado tradicional", "Bufé libre", "Food trucks y picoteo", "Cóctel largo sin banquete"]
+      },
+      {
+        "question": "¿Qué tipo de música queréis en la fiesta?",
+        "options": ["DJ toda la noche", "Grupo en directo", "DJ y un set en vivo", "Playlist colaborativa"]
+      },
+      {
+        "question": "¿A qué hora preferís que empiece la ceremonia?",
+        "options": ["Mañana temprano", "Mediodía", "Media tarde", "Atardecer"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Pueden votar todos los invitados de la boda?",
+        "a": "Sí, sin límite de participantes. Puedes compartir el enlace en el grupo de WhatsApp de la boda o enviarlo por mensaje individual a cada persona, y cada invitado vota una sola vez desde su propio móvil sin necesidad de registrarse. Los resultados se actualizan en directo conforme entran los votos, así que en pocas horas tienes una respuesta clara y representativa para cerrar el detalle con el proveedor sin más demora."
+      },
+      {
+        "q": "¿Sabrán los invitados quién votó qué?",
+        "a": "No. moomz es anónimo por defecto, así que solo se ve el recuento total por opción y nunca el nombre de quien votó. Esto es clave en una boda, donde hay familia, amigos y compromisos sociales de por medio: un invitado puede decir con total sinceridad que prefiere una cosa u otra sin sentir que queda mal con los novios, con los suegros o con cualquier otro grupo presente en la celebración."
+      },
+      {
+        "q": "¿Es buena idea dejar que los invitados decidan algo de la boda?",
+        "a": "Las decisiones grandes y personales las tomáis vosotros, faltaría más, pero para detalles como la música, el horario o el estilo de menú una encuesta evita sorpresas desagradables el día del evento. Saber de antemano qué espera la gente ayuda a que todos disfruten más y, sobre todo, os quita a vosotros la presión de adivinar gustos ajenos. Es una herramienta de apoyo, no una renuncia a vuestra boda."
+      },
+      {
+        "q": "¿Puedo lanzar varias encuestas para la misma boda?",
+        "a": "Sí, y de hecho es lo más recomendable. Una encuesta por cada decisión mantiene cada votación limpia y fácil de interpretar: una para el menú, otra para la música, otra para el horario de la ceremonia. Cada encuesta se crea en apenas quince segundos y genera un enlace nuevo que compartes por separado, así los resultados no se mezclan y cada tema queda cerrado con claridad."
+      }
+    ],
+    "related": [
+      "encuesta-despedida-soltera-plan-es",
+      "encuesta-cumpleanos-plan-sorpresa-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-despedida-soltera-plan-es",
+    "locale": "es",
+    "emoji": "👰",
+    "title": "Encuesta para organizar la despedida de soltera",
+    "h1": "Encuesta: ¿cómo montamos la despedida de soltera?",
+    "description": "Plantilla de encuesta gratis y anónima para que las amigas decidan el plan de la despedida de soltera sin discutir. Vota y cierra el plan rápido.",
+    "intro": "Organizar una despedida de soltera es delicado: hay que sorprender a la novia, contentar a un grupo variado y no salirse del presupuesto de nadie. Esta plantilla pone orden. La organizadora lanza una encuesta con tres o cuatro planes posibles, la comparte en el grupo de amigas y deja que todas voten en privado. Al ser anónima, cada una dice de verdad lo que puede gastar y lo que le apetece, sin compromiso ni vergüenza. En una tarde tenéis decidido si la cosa va de spa relax, fin de semana fuera o noche de fiesta total. Cambia las opciones por las vuestras, manda el enlace y dejad de dar vueltas en el chat.",
+    "category": "bachelorette",
+    "audience": "Grupos de amigas que organizan una despedida de soltera y quieren un plan que contente a todas",
+    "question": "¿Cómo montamos la despedida de soltera?",
+    "options": [
+      "Fin de semana en una casa rural",
+      "Día de spa y cena elegante",
+      "Noche de fiesta en la ciudad",
+      "Escapada a la playa con actividades"
+    ],
+    "whyItWorks": "Quita de en medio el tema más incómodo de organizar una despedida: el dinero y los gustos distintos. Al votar en anónimo, cada amiga es sincera sobre su presupuesto sin sentirse juzgada. Las opciones cerradas evitan la espiral de propuestas y el recuento en directo le da a la organizadora una decisión clara para empezar a reservar.",
+    "tips": [
+      "No incluyas a la novia en el grupo de la encuesta si quieres que sea sorpresa.",
+      "Pon al lado de cada plan un coste aproximado por persona para evitar sustos.",
+      "Marca una fecha límite de votación, 48 horas suele bastar.",
+      "Si gana un plan caro, lanza una segunda encuesta para ajustar el presupuesto.",
+      "Después del plan, abre otra encuesta para la fecha exacta del fin de semana."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué presupuesto máximo por persona para la despedida?",
+        "options": ["Menos de 80€", "Entre 80 y 150€", "Entre 150 y 250€", "Más de 250€"]
+      },
+      {
+        "question": "¿Qué tono queremos para la despedida?",
+        "options": ["Relax y desconexión", "Fiesta y locura", "Aventura y actividades", "Mezcla equilibrada"]
+      },
+      {
+        "question": "¿Cuántos días reservamos para la despedida?",
+        "options": ["Solo una tarde-noche", "Un día completo", "Fin de semana entero", "Tres o cuatro días"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo mantengo la despedida en secreto para la novia?",
+        "a": "Crea un grupo de WhatsApp solo con las invitadas, sin incluir a la novia, y comparte ahí el enlace de la encuesta. Como moomz no exige registrarse ni manda notificaciones a personas ajenas a la votación, la novia no recibe ninguna señal de que se está cocinando algo. Se entera solo cuando vosotras decidáis darle la sorpresa, ni un segundo antes, así que puedes organizarlo todo con tranquilidad."
+      },
+      {
+        "q": "¿Pueden votar las amigas que aún no han confirmado si vienen?",
+        "a": "Sí, y de hecho es muy útil incluirlas desde el principio. Muchas amigas deciden si se apuntan en función del plan concreto y, sobre todo, del precio final por persona. Comparte el enlace con todo el grupo y deja que voten libremente: las que al final no puedan venir simplemente no votan, sin ninguna presión ni necesidad de dar explicaciones a las demás."
+      },
+      {
+        "q": "¿Y si las amigas tienen presupuestos muy distintos?",
+        "a": "Justo por eso la encuesta anónima funciona tan bien en una despedida. Nadie tiene que confesar en voz alta delante del grupo cuánto puede o no puede gastarse, algo que suele dar vergüenza. Usa la variación de presupuesto para ver el rango real que maneja el grupo y, con esa información, elegir un plan equilibrado que no deje fuera a ninguna amiga por motivos de dinero."
+      },
+      {
+        "q": "¿Cuánta antelación necesito para organizarla?",
+        "a": "Lo ideal es lanzar la encuesta del plan al menos un mes antes de la boda, así te queda margen suficiente para reservar alojamiento, restaurante o actividades sin agobios de última hora. Una vez que el grupo haya decidido el plan principal, una segunda encuesta rápida sirve para cerrar la fecha exacta del fin de semana cuadrando las disponibilidades de todas las que vienen."
+      }
+    ],
+    "related": [
+      "encuesta-boda-invitados-decisiones-es",
+      "encuesta-fiesta-finde-plan-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-fiesta-finde-plan-es",
+    "locale": "es",
+    "emoji": "🎉",
+    "title": "Encuesta para decidir el plan del finde",
+    "h1": "Encuesta: ¿qué hacemos este fin de semana?",
+    "description": "Plantilla de encuesta gratis y anónima para que el grupo decida el plan del fin de semana sin el típico chat eterno. Vota y queda cerrado.",
+    "intro": "El clásico: llega el jueves, alguien escribe en el grupo «¿qué hacemos el finde?» y empiezan cuarenta mensajes que no llevan a ningún sitio. Esta plantilla acaba con eso. Pones tres o cuatro planes reales sobre la mesa, mandas el enlace al grupo y en quince minutos hay ganador. Al ser anónima, nadie vota por seguir al más insistente y el plan que sale es el que de verdad apetece a la mayoría. Sirve para una noche de fiesta, un plan tranqui de pelis, una escapada de un día o una previa en casa. Cambia las opciones por lo que tengáis cerca, comparte el enlace y dejad el chat infinito para otra cosa.",
+    "category": "party",
+    "audience": "Grupos de amigos que quieren cerrar el plan del fin de semana sin debatir durante días",
+    "question": "¿Qué plan montamos este fin de semana?",
+    "options": [
+      "Salir de fiesta por la noche",
+      "Previa en casa con juegos y música",
+      "Plan tranqui: pelis y pizza",
+      "Escapada de un día fuera de la ciudad"
+    ],
+    "whyItWorks": "Sustituye el chat caótico de un grupo por una decisión limpia en minutos. Las cuatro opciones cerradas evitan que cada uno tire una idea nueva cada cinco mensajes. Al ser anónima, los que normalmente se callan también votan, así que el plan ganador representa al grupo entero y no solo a los dos de siempre.",
+    "tips": [
+      "Lanza la encuesta el jueves para tener margen de organizar el viernes.",
+      "Incluye siempre un plan barato y otro más movido para cubrir gustos.",
+      "Pon una fecha límite corta de votación para que nadie lo deje pasar.",
+      "Si hay empate, lanza una segunda encuesta solo con los dos finalistas.",
+      "Una vez decidido el plan, abre otra encuesta para la hora de quedada."
+    ],
+    "variations": [
+      {
+        "question": "¿A qué hora quedamos este finde?",
+        "options": ["Por la tarde", "Después de cenar", "Para cenar todos juntos", "Plan de mañana y día entero"]
+      },
+      {
+        "question": "¿Quién es el anfitrión para la previa?",
+        "options": ["En mi casa", "En casa de otro", "Sin previa, directos al sitio", "Decidimos luego"]
+      },
+      {
+        "question": "¿Qué presupuesto manejamos para el plan?",
+        "options": ["Plan gratis o casi", "Menos de 20€", "Entre 20 y 40€", "Sin tope, nos lo merecemos"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánta gente puede votar en la encuesta del plan?",
+        "a": "No hay ningún límite de participantes. Puedes mandar el enlace a un grupo pequeño de cinco amigos o a una lista de treinta personas sin problema. Cada uno vota una sola vez desde su móvil y los resultados se ven en tiempo real conforme van llegando, así que sabes el plan ganador casi al instante y puedes empezar a organizar la quedada sin esperar a que todos estén conectados a la vez."
+      },
+      {
+        "q": "¿Verán mis amigos lo que he votado?",
+        "a": "No. moomz es anónimo por diseño, solo se muestra el total de votos por cada opción y nunca quién eligió qué. Esto ayuda muchísimo a que la gente vote de verdad lo que le apetece hacer y no lo que cree que va a quedar bien con el resto del grupo. El resultado final acaba siendo mucho más honesto y representativo del plan que de verdad quiere la mayoría."
+      },
+      {
+        "q": "¿Y si el plan ganador no me convence?",
+        "a": "Esa es precisamente la gracia de someterlo a votación: gana la mayoría y se acaba el debate interminable en el chat. Si quieres dejar algo de margen, lo mejor es acordar entre todos antes de votar que el resultado va a ser vinculante. Y cuando las dos primeras opciones quedan muy igualadas, una segunda encuesta rápida solo con esos dos planes resuelve el empate en minutos."
+      },
+      {
+        "q": "¿Sirve para planes de última hora?",
+        "a": "Totalmente, es uno de sus mejores usos. Como crear la encuesta lleva apenas quince segundos y todo el mundo vota cómodamente desde el móvil sin instalar nada, puedes lanzarla un viernes por la tarde y tener el plan cerrado en lo que dura un café. Para decisiones rápidas y espontáneas funciona mucho mejor que un chat de grupo lleno de mensajes sin conclusión."
+      }
+    ],
+    "related": [
+      "encuesta-despedida-soltera-plan-es",
+      "encuesta-cumpleanos-plan-sorpresa-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-clase-actividad-fin-curso-es",
+    "locale": "es",
+    "emoji": "🎓",
+    "title": "Encuesta para clase: actividad de fin de curso",
+    "h1": "Encuesta: ¿qué actividad hacemos en clase?",
+    "description": "Plantilla de encuesta gratis y anónima para que profes y alumnos decidan juntos la actividad de clase o de fin de curso. Vota y comparte el enlace.",
+    "intro": "Decidir una actividad en clase suele acabar igual: gritan los tres de siempre y el resto se calla. Esta plantilla cambia la dinámica. El profe o un delegado lanza una encuesta con tres o cuatro opciones, comparte el enlace y toda la clase vota desde el móvil en silencio. Al ser anónima, los alumnos más tímidos también dicen lo que quieren, así que la decisión representa a todo el grupo y no solo a los más ruidosos. Sirve para elegir la excursión de fin de curso, la temática de un proyecto, el destino de un viaje de estudios o cómo repartir un trabajo. Cambia las opciones, comparte el enlace y deja que decida la clase entera.",
+    "category": "classroom",
+    "audience": "Profesores y alumnos que quieren decidir actividades de clase de forma justa y participativa",
+    "question": "¿Qué actividad hacemos para el fin de curso?",
+    "options": [
+      "Excursión a un parque o museo",
+      "Día de juegos y deporte al aire libre",
+      "Fiesta de fin de curso en clase",
+      "Salida cultural a otra ciudad"
+    ],
+    "whyItWorks": "Da voz a todo el grupo, no solo a los alumnos más extrovertidos. Al votar en anónimo desde el móvil, nadie se siente presionado por lo que opinan sus amigos y la decisión es de verdad democrática. Las opciones cerradas mantienen el orden y el recuento en directo se puede proyectar en clase para verlo juntos.",
+    "tips": [
+      "Acuerda con la clase las opciones antes de crear la encuesta para que sean realistas.",
+      "Comparte el enlace por el grupo de la clase o muéstralo con un código QR en pantalla.",
+      "Proyecta los resultados en directo: ver subir las barras engancha al grupo.",
+      "Pon un tiempo límite, por ejemplo hasta el final de la clase, para votar.",
+      "Si la actividad implica coste, lanza después una encuesta sobre el presupuesto."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué tema preferís para el proyecto de grupo?",
+        "options": ["Medio ambiente", "Historia y cultura", "Tecnología e innovación", "Arte y creatividad"]
+      },
+      {
+        "question": "¿Cómo repartimos el trabajo del proyecto?",
+        "options": ["Grupos pequeños", "Por parejas", "Toda la clase junta", "Cada uno una parte"]
+      },
+      {
+        "question": "¿Qué día preferís para la actividad?",
+        "options": ["Lunes", "Miércoles", "Viernes", "El último día de clase"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Es anónima la votación para los alumnos?",
+        "a": "Sí. moomz no guarda en ningún momento quién vota cada opción, solo muestra el total por cada respuesta. Esto resulta ideal en un aula porque los alumnos más callados o tímidos pueden expresar su preferencia real sin miedo a la opinión o las burlas de sus compañeros. El resultado de la votación sale mucho más representativo de lo que de verdad quiere el conjunto de la clase."
+      },
+      {
+        "q": "¿Cómo comparto la encuesta con toda la clase?",
+        "a": "Tienes dos formas muy fáciles y rápidas. La primera es pegar el enlace en el grupo de mensajería de la clase para que cada alumno lo abra. La segunda es mostrar el enlace o un código QR en la pantalla del aula para que lo escaneen. En ninguno de los dos casos hace falta crear cuentas ni registrarse: votan directamente desde su propio móvil en segundos."
+      },
+      {
+        "q": "¿Puede el profesor ver los resultados en tiempo real?",
+        "a": "Sí, los resultados se actualizan al instante cada vez que entra un voto nuevo. Una práctica muy recomendable es proyectar la encuesta en la pantalla de clase mientras los alumnos votan desde sus móviles. Ver cómo se mueven las barras en directo mantiene la atención de todo el grupo y convierte la decisión en un momento compartido y participativo que engancha mucho más."
+      },
+      {
+        "q": "¿Sirve para votar otras cosas además de actividades?",
+        "a": "Por supuesto. La misma plantilla vale para elegir el tema de un proyecto de grupo, votar la fecha más conveniente para un examen práctico, decidir el destino de un viaje de estudios, escoger al delegado o resolver cualquier otra decisión cotidiana de la clase. Cada encuesta nueva se crea en apenas unos segundos, así que puedes usarla tantas veces como necesites a lo largo del curso."
+      }
+    ],
+    "related": [
+      "encuesta-equipo-trabajo-decision-es",
+      "encuesta-debate-clasico-divisivo-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-equipo-trabajo-decision-es",
+    "locale": "es",
+    "emoji": "💼",
+    "title": "Encuesta para equipos de trabajo y reuniones",
+    "h1": "Encuesta: ¿qué decide el equipo?",
+    "description": "Plantilla de encuesta gratis y anónima para que equipos de trabajo tomen decisiones rápidas en reuniones. Vota, comparte el enlace y avanza sin bloqueos.",
+    "intro": "En el trabajo, muchas decisiones se atascan porque nadie quiere llevar la contraria al jefe o discutir delante de todos. Esta plantilla las desbloquea. Lanzas una encuesta con tres o cuatro opciones concretas, compartes el enlace en el chat del equipo o por Slack y todos votan en privado. Al ser anónima, la gente da su opinión real sin miedo a la jerarquía, así que el resultado refleja lo que de verdad piensa el equipo. Sirve para elegir la fecha de una reunión, priorizar tareas, decidir el sitio del after o votar una propuesta. Cambia las opciones por las tuyas, comparte el enlace y convierte una discusión larga en una decisión de dos minutos.",
+    "category": "work",
+    "audience": "Equipos de trabajo que necesitan tomar decisiones rápidas y honestas sin reuniones eternas",
+    "question": "¿Qué prioridad tiene el equipo esta semana?",
+    "options": [
+      "Cerrar el proyecto en curso",
+      "Empezar la nueva iniciativa",
+      "Limpiar tareas pendientes acumuladas",
+      "Dedicar tiempo a mejorar procesos"
+    ],
+    "whyItWorks": "Saca las decisiones de la dinámica de jerarquía: al votar en anónimo, nadie se autocensura por lo que opine el jefe. Las opciones cerradas evitan que la reunión se vaya por las ramas y el recuento en directo da un resultado inmediato. En vez de media hora de debate circular, el equipo decide en dos minutos y avanza.",
+    "tips": [
+      "Define las opciones de forma concreta y medible, no en frases vagas.",
+      "Comparte el enlace por el canal del equipo, así solo vota quien debe.",
+      "Lanza la encuesta antes de la reunión para llegar con la decisión hecha.",
+      "Si una opción gana de forma ajustada, dedica cinco minutos a debatirla.",
+      "Guarda el resultado como referencia para futuras revisiones del equipo."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué día va mejor para la reunión de equipo?",
+        "options": ["Lunes por la mañana", "Miércoles a mediodía", "Jueves por la tarde", "Viernes a primera hora"]
+      },
+      {
+        "question": "¿Cómo preferís trabajar esta semana?",
+        "options": ["Todos presencial", "Todos en remoto", "Modelo híbrido", "Que cada uno elija"]
+      },
+      {
+        "question": "¿Dónde montamos el after del equipo?",
+        "options": ["Bar cerca de la oficina", "Restaurante para cenar", "Actividad en grupo", "En la oficina, algo informal"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Es realmente anónima la votación del equipo?",
+        "a": "Sí. moomz no registra en ningún momento quién vota cada opción, solo muestra el recuento total por respuesta. Esto es absolutamente clave en un entorno laboral, donde la jerarquía pesa: la gente puede dar su opinión honesta sin miedo a llevar la contraria al jefe ni a quedar mal con un compañero. El resultado refleja lo que de verdad piensa el equipo y no lo que cada uno cree que debería decir en voz alta."
+      },
+      {
+        "q": "¿Cómo evito que vote gente ajena al equipo?",
+        "a": "La forma más segura es compartir el enlace únicamente por canales internos como el chat del equipo, Slack o el correo corporativo, nunca en sitios públicos. Como moomz no exige registro, la votación se basa en la confianza del grupo, igual que muchas otras decisiones de equipo. Mantener el enlace siempre dentro de canales privados y conocidos basta para que la votación se mantenga limpia y fiable."
+      },
+      {
+        "q": "¿Puedo usarla durante una reunión en directo?",
+        "a": "Sí, funciona especialmente bien en vivo. Comparte el enlace al inicio de la reunión, concede un minuto para que todos voten desde el móvil y proyecta los resultados en tiempo real en la pantalla. De esta forma conviertes un debate largo y circular en una decisión rápida, clara y visible para todos los presentes, sin que la reunión se alargue innecesariamente por culpa de un único punto."
+      },
+      {
+        "q": "¿Sirve para decisiones importantes o solo para cosas menores?",
+        "a": "Sirve perfectamente para ambos casos. Para temas menores como fijar la fecha de una reunión o elegir el sitio del after, la encuesta cierra el asunto al instante sin gastar tiempo de nadie. Para decisiones más grandes y estratégicas, úsala para medir de forma honesta el sentir del equipo y después dedica el debate de la reunión a profundizar en la opción que más votos ha recibido."
+      }
+    ],
+    "related": [
+      "encuesta-clase-actividad-fin-curso-es",
+      "encuesta-debate-clasico-divisivo-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-cumpleanos-plan-sorpresa-es",
+    "locale": "es",
+    "emoji": "🎂",
+    "title": "Encuesta para organizar un cumpleaños sorpresa",
+    "h1": "Encuesta: ¿cómo organizamos el cumple?",
+    "description": "Plantilla de encuesta gratis y anónima para que amigos y familia organicen un cumpleaños sorpresa sin descoordinarse. Vota y cierra el plan en grupo.",
+    "intro": "Organizar un cumpleaños sorpresa entre varias personas es un lío de mensajes cruzados: uno propone un sitio, otro pregunta por el regalo, nadie sabe quién compra la tarta. Esta plantilla lo ordena todo. Lanzas una encuesta con los detalles clave, la compartes en el grupo de los organizadores y todos votan en privado. Al ser anónima, cada uno dice lo que puede gastar y lo que le parece mejor sin compromiso. En una tarde tenéis decidido el tipo de fiesta, el sitio y la idea de regalo, sin filtraciones a quien cumple años. Cambia las opciones por las vuestras, comparte el enlace y dejad que el cumple se organice solo.",
+    "category": "birthday",
+    "audience": "Amigos y familiares que organizan un cumpleaños sorpresa y necesitan coordinarse sin caos",
+    "question": "¿Cómo organizamos la fiesta sorpresa de cumpleaños?",
+    "options": [
+      "Comida o cena en un restaurante",
+      "Fiesta sorpresa en casa de alguien",
+      "Plan de día: actividad y picoteo",
+      "Salida nocturna con todo el grupo"
+    ],
+    "whyItWorks": "Reúne en una sola votación las decisiones que normalmente se pierden en mensajes sueltos. Al ser anónima, los organizadores son sinceros sobre presupuesto y disponibilidad sin sentirse mal. Las opciones cerradas evitan la espiral de propuestas y el recuento en directo da una decisión rápida, sin que quien cumple años se entere de nada.",
+    "tips": [
+      "Crea un grupo solo con los organizadores, sin la persona que cumple años.",
+      "Lanza la encuesta con al menos dos semanas de margen para preparar todo.",
+      "Pon un coste aproximado al lado de cada plan para no descuadrar a nadie.",
+      "Después del plan, abre otra encuesta para la idea de regalo en grupo.",
+      "Marca quién se encarga de la tarta y la decoración una vez decidido el sitio."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué regalo en grupo le hacemos?",
+        "options": ["Una experiencia (escapada, taller)", "Un regalo material caro entre todos", "Varios regalos pequeños", "Un sobre con dinero"]
+      },
+      {
+        "question": "¿Cuánto ponemos cada uno para el regalo?",
+        "options": ["Hasta 10€", "Hasta 20€", "Hasta 30€", "Más de 30€"]
+      },
+      {
+        "question": "¿Qué día montamos la fiesta sorpresa?",
+        "options": ["El mismo día del cumple", "El fin de semana antes", "El fin de semana después", "Cuando esté libre la mayoría"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo mantengo el cumpleaños en secreto?",
+        "a": "Crea un grupo de mensajería exclusivo para los organizadores, sin incluir a la persona que cumple años, y comparte ahí el enlace de la encuesta. Como moomz no manda notificaciones a terceros ni exige registrarse para nada, quien cumple años no recibe ninguna señal de que se está cocinando algo a sus espaldas. Toda la organización queda dentro del grupo privado hasta el momento exacto de la sorpresa."
+      },
+      {
+        "q": "¿Pueden votar familiares y amigos a la vez?",
+        "a": "Sí, sin ningún problema. Reúne a todas las personas que vayan a colaborar en la organización dentro de un mismo grupo y comparte el enlace con todos. Mezclar amigos y familia en la misma votación es incluso recomendable, porque ayuda a encontrar un plan equilibrado que funcione para todos los círculos de la persona homenajeada y no solo para uno de ellos."
+      },
+      {
+        "q": "¿Sirve también para decidir el regalo?",
+        "a": "Sí, es uno de sus usos más prácticos y agradecidos. Lo ideal es lanzar encuestas específicas para el regalo: una para elegir entre una experiencia o algo material, y otra distinta para fijar cuánto pone cada persona. De esta forma el delicado tema del dinero se decide en anónimo, sin que nadie tenga que confesar en voz alta su presupuesto y sin tensiones dentro del grupo."
+      },
+      {
+        "q": "¿Y si los organizadores no se ponen de acuerdo?",
+        "a": "Para eso está precisamente la encuesta: gana la opción más votada y se acaba la discusión sin que nadie tenga que imponerse. Si al final dos planes quedan muy igualados en votos, basta con lanzar una segunda votación rápida solo con esos dos finalistas para desempatar. Así el grupo cierra el tema de forma definitiva y todos avanzan con la organización sin más rodeos."
+      }
+    ],
+    "related": [
+      "encuesta-fiesta-finde-plan-es",
+      "encuesta-boda-invitados-decisiones-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-gaming-mejor-juego-grupo-es",
+    "locale": "es",
+    "emoji": "🎮",
+    "title": "Encuesta gaming: ¿a qué jugamos esta noche?",
+    "h1": "Encuesta: ¿a qué jugamos en grupo?",
+    "description": "Plantilla de encuesta gratis y anónima para que el grupo de gaming decida a qué jugar sin perder media hora discutiendo. Vota y entra a la partida.",
+    "intro": "Todo grupo de gaming conoce el ritual: os conectáis al canal de Discord y pasáis veinte minutos discutiendo a qué jugar antes de tocar un mando. Esta plantilla acaba con esa media hora muerta. Lanzas una encuesta con tres o cuatro juegos, pegas el enlace en el chat de Discord y todos votan en segundos. Al ser anónima, nadie cede solo por no discutir con el más insistente y el juego ganador es el que de verdad apetece al grupo. Sirve para una noche de partidas, decidir el próximo juego que comprar entre todos o votar el modo en el que jugar. Cambia las opciones por vuestra biblioteca, comparte el enlace y a jugar ya.",
+    "category": "gaming",
+    "audience": "Grupos de amigos gamers que quieren decidir a qué jugar sin perder tiempo discutiendo",
+    "question": "¿A qué jugamos esta noche en grupo?",
+    "options": [
+      "Un shooter competitivo",
+      "Un juego cooperativo de aventura",
+      "Algo casual y de risa para todos",
+      "Maratón de un juego largo por capítulos"
+    ],
+    "whyItWorks": "Sustituye el clásico debate eterno del canal de voz por una decisión de quince segundos. Las opciones cerradas evitan que cada uno proponga un juego distinto en bucle. Al ser anónima, los que suelen ceder también votan lo que quieren, así que la noche empieza con un juego que apetece a todos y no solo al que más grita.",
+    "tips": [
+      "Mete solo juegos que tenga todo el grupo para que nadie quede fuera.",
+      "Pega el enlace directamente en el chat de texto de Discord o del grupo.",
+      "Lanza la encuesta nada más conectaros para no perder tiempo de juego.",
+      "Si hay empate, jugad el primero un rato y el segundo después.",
+      "Guarda el enlace o repítelo cada noche para que sea parte de la rutina."
+    ],
+    "variations": [
+      {
+        "question": "¿Qué juego compramos entre todos para jugar juntos?",
+        "options": ["El cooperativo nuevo de moda", "Un clásico en oferta", "El multijugador que pide todo el mundo", "Esperamos a las próximas rebajas"]
+      },
+      {
+        "question": "¿En qué modo jugamos esta partida?",
+        "options": ["Clasificatoria en serio", "Partidas normales sin presión", "Modo personalizado entre nosotros", "Modo historia o cooperativo"]
+      },
+      {
+        "question": "¿Hasta qué hora alargamos la sesión de juego?",
+        "options": ["Un par de horas y a dormir", "Hasta medianoche", "Hasta que el cuerpo aguante", "Solo una partida rápida"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo comparto la encuesta en Discord?",
+        "a": "Es muy sencillo. Crea la encuesta en moomz, copia el enlace corto que te genera y pégalo directamente en el chat de texto del servidor de Discord donde está tu grupo. Todos los miembros pueden abrirlo cómodamente desde el móvil o el ordenador y votar al instante, sin necesidad de instalar absolutamente nada ni de crear ninguna cuenta. En segundos tienes la votación en marcha."
+      },
+      {
+        "q": "¿Verán mis amigos a qué juego he votado?",
+        "a": "No. moomz es anónimo, solo se muestra el total de votos por cada juego y nunca quién votó qué. Esto es muy útil en un grupo de gaming, donde siempre hay alguien con un favorito muy marcado: puedes votar tranquilamente el juego que de verdad te apetece esa noche sin que el resto del grupo te presione para que elijas el suyo. La decisión final es más honesta."
+      },
+      {
+        "q": "¿Sirve para decidir qué juego comprar entre varios?",
+        "a": "Sí, es uno de sus usos más prácticos y recomendables. Cuando el grupo quiere comprar un juego en común para jugar todos juntos, una encuesta evita el clásico problema de gastar el dinero en algo que en realidad solo querían dos personas. Gana el juego más votado, la compra se hace con criterio y todo el grupo queda contento con la elección final."
+      },
+      {
+        "q": "¿Cuánto se tarda en crear la encuesta?",
+        "a": "Apenas unos quince segundos. Solo tienes que escribir la pregunta, añadir tres o cuatro juegos como opciones y al momento obtienes un enlace listo para compartir en vuestro chat. Es lo bastante rápido como para lanzarla justo en el momento de conectaros al canal de voz, votar todos en un minuto y empezar a jugar de inmediato sin perder tiempo discutiendo."
+      }
+    ],
+    "related": [
+      "encuesta-fiesta-finde-plan-es",
+      "encuesta-debate-clasico-divisivo-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-drama-grupo-quien-tiene-razon-es",
+    "locale": "es",
+    "emoji": "🍿",
+    "title": "Encuesta de drama: ¿quién tiene razón?",
+    "h1": "Encuesta: ¿de qué lado estás en este drama?",
+    "description": "Plantilla de encuesta gratis y anónima para resolver un drama de grupo y ver quién tiene razón. Vota, comparte el enlace y que decida la mayoría.",
+    "intro": "Todo grupo de amigos tiene su drama: una discusión que se alarga, dos personas que no se ponen de acuerdo y un chat dividido en bandos. Esta plantilla pone paz, o por lo menos claridad. Planteas la situación de forma neutral, das dos o tres posturas posibles y dejas que el grupo vote en anónimo quién cree que tiene razón. Como nadie sabe lo que votan los demás, la gente es sincera y no vota solo por no traicionar a su mejor amigo. El resultado en directo zanja la discusión con datos en vez de gritos. Cambia la pregunta por vuestro drama del momento, comparte el enlace y dejad que hable la mayoría.",
+    "category": "drama",
+    "audience": "Grupos de amigos que quieren resolver una discusión o un drama votando de forma anónima",
+    "question": "En el drama del grupo, ¿quién tiene razón?",
+    "options": [
+      "La persona A tiene razón",
+      "La persona B tiene razón",
+      "Los dos tienen parte de razón",
+      "Ninguno de los dos, hay que pasar página"
+    ],
+    "whyItWorks": "Saca el drama del terreno de los gritos y lo lleva al de los datos. Al votar en anónimo, nadie tiene que ponerse de parte de un amigo en público, así que la gente opina con honestidad. El recuento en directo da un veredicto del grupo que cuesta discutir, y muchas veces basta para que todos pasen página y se acabe la tensión.",
+    "tips": [
+      "Plantea la situación de forma neutral, sin cargar las tintas hacia un lado.",
+      "Da una opción intermedia tipo \"los dos tienen parte de razón\".",
+      "Comparte el enlace en el grupo entero, no solo con los que te apoyan.",
+      "Acepta el resultado de antemano: si lo lanzas, respeta lo que vote la mayoría.",
+      "Usa la encuesta para cerrar el tema, no para reabrir la pelea con el resultado."
+    ],
+    "variations": [
+      {
+        "question": "¿Estuvo bien o mal lo que hizo esa persona?",
+        "options": ["Hizo bien", "Se pasó claramente", "Zona gris, depende", "Da igual, exageramos todos"]
+      },
+      {
+        "question": "Después del drama, ¿qué debería pasar?",
+        "options": ["Que se pidan perdón", "Dejarlo estar sin más", "Hablarlo todos juntos", "Cada uno por su lado un tiempo"]
+      },
+      {
+        "question": "¿Quién debería dar el primer paso para arreglarlo?",
+        "options": ["La persona A", "La persona B", "Los dos a la vez", "Un tercero que medie"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Sabrán mis amigos de qué lado he votado?",
+        "a": "No. moomz es totalmente anónimo, solo se ve el recuento de votos por cada opción y nunca el nombre de quien votó. Esto es exactamente lo que hace que la herramienta funcione tan bien para un drama de grupo: puedes opinar con total sinceridad sobre quién crees que tiene razón sin tener que posicionarte en público ni arriesgarte a quedar mal con ninguna de las dos partes implicadas."
+      },
+      {
+        "q": "¿No empeorará la encuesta el drama del grupo?",
+        "a": "No tiene por qué, siempre que la plantees de forma neutral y que todos acepten el resultado de antemano. La encuesta no está pensada para humillar ni señalar a nadie, sino para cerrar un tema enquistado con un veredicto claro del grupo. Usada con cabeza, suele bajar la tensión en lugar de subirla, porque sustituye los gritos y los bandos por un dato objetivo que cuesta discutir."
+      },
+      {
+        "q": "¿Cómo planteo la situación sin influir en el voto?",
+        "a": "Describe únicamente los hechos, sin adjetivos cargados ni juicios de valor, y utiliza nombres neutros como persona A y persona B en lugar de los reales. Incluye siempre una opción intermedia para quienes no quieran elegir un bando claro o crean que ambas partes se equivocaron. Cuanto más neutral y equilibrada sea la forma de plantearlo, más fiable y honesto será el resultado de la votación."
+      },
+      {
+        "q": "¿Vale para dramas de pareja, familia o trabajo?",
+        "a": "Sí, la misma plantilla funciona para prácticamente cualquier tipo de conflicto. Solo tienes que cambiar la pregunta por tu situación concreta y compartir el enlace con las personas implicadas o con quienes conozcan el caso. Eso sí, en grupos pequeños conviene asegurarse antes de que todos los afectados están de acuerdo en someter el tema a votación, para que el resultado se acepte sin rencores."
+      }
+    ],
+    "related": [
+      "encuesta-debate-clasico-divisivo-es",
+      "encuesta-fiesta-finde-plan-es"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "encuesta-debate-clasico-divisivo-es",
+    "locale": "es",
+    "emoji": "🔥",
+    "title": "Encuesta de debate: el clásico que divide",
+    "h1": "Encuesta: ¿de qué lado estás en este debate?",
+    "description": "Plantilla de encuesta gratis y anónima para lanzar un debate clásico y ver de qué lado está la gente. Vota, comparte el enlace y descubre la mayoría.",
+    "intro": "Hay debates que no se acaban nunca: la piña en la pizza, el perro o el gato, la playa o la montaña. Esta plantilla los convierte en una encuesta rápida y divertida. Pones el clásico que quieras, compartes el enlace y dejas que la gente vote en anónimo de qué lado está. Como nadie ve quién vota qué, todos son sinceros y el resultado refleja la opinión real. Sirve para animar un grupo, romper el hielo en una clase, generar conversación en redes o simplemente saldar de una vez una discusión de sobremesa. Cambia la pregunta por tu debate favorito, comparte el enlace y mira cómo se divide la gente en tiempo real.",
+    "category": "debate",
+    "audience": "Cualquiera que quiera lanzar un debate clásico y ver de qué lado se posiciona la gente",
+    "question": "El debate eterno: ¿piña en la pizza, sí o no?",
+    "options": [
+      "Sí, la piña en la pizza es un acierto",
+      "No, es un crimen contra la pizza",
+      "Depende de con qué la acompañes",
+      "Me da igual, como de todo"
+    ],
+    "whyItWorks": "Un buen debate clásico engancha porque todo el mundo tiene opinión. La encuesta lo aprovecha: al ser anónima, la gente vota lo que de verdad piensa sin importar lo que digan los demás. El recuento en directo crea expectación, genera conversación y zanja para siempre una discusión que sin datos no se acabaría nunca.",
+    "tips": [
+      "Elige un debate con dos bandos claros y conocidos por todos.",
+      "Añade una opción intermedia para los indecisos, así nadie se queda fuera.",
+      "Comparte el enlace en redes o en un grupo grande para que vote mucha gente.",
+      "Cuantos más votos, más interesante: difunde la encuesta lo más posible.",
+      "Usa el resultado para arrancar una conversación, no para cerrar bocas."
+    ],
+    "variations": [
+      {
+        "question": "¿Equipo perro o equipo gato?",
+        "options": ["Perro sin duda", "Gato siempre", "Los dos por igual", "Ni uno ni otro"]
+      },
+      {
+        "question": "Para vacaciones, ¿playa o montaña?",
+        "options": ["Playa total", "Montaña total", "Depende del momento", "Ciudad, ni playa ni montaña"]
+      },
+      {
+        "question": "¿El cine en casa o en la sala?",
+        "options": ["En casa, mucho mejor", "En la sala, la experiencia real", "Según la película", "Casi nunca veo cine"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Verá la gente lo que he votado en el debate?",
+        "a": "No. moomz es anónimo por diseño, solo se ve el total de votos por cada opción y jamás quién eligió qué. Esto hace que la gente vote con total libertad y sinceridad: puedes posicionarte en cualquier lado del debate, por polémico que sea, sin que nadie te juzgue, te discuta ni te pida explicaciones por tu elección. El resultado refleja la opinión real, no la socialmente correcta."
+      },
+      {
+        "q": "¿Cuánta gente puede votar en una encuesta de debate?",
+        "a": "No hay ningún límite de participantes. Para un debate divertido, de hecho, cuanta más gente vote mucho mejor: puedes compartir el enlace en redes sociales, en grupos grandes de mensajería, en una historia o donde quieras alcanzar a más personas. Los resultados se actualizan en directo conforme entra cada voto, así que ver subir las barras se convierte en parte del propio espectáculo del debate."
+      },
+      {
+        "q": "¿Cómo hago una encuesta de debate que enganche?",
+        "a": "La clave está en elegir un tema con dos bandos claros y bien conocidos por todos, plantearlo con un punto de humor que invite a participar y añadir una opción intermedia para los indecisos, de modo que nadie se quede fuera. Cuanto más universal y reconocible sea el debate, más gente querrá votar, compartir la encuesta y comentar el resultado con sus amigos."
+      },
+      {
+        "q": "¿Sirve para usarla en clase o en una reunión?",
+        "a": "Sí, es una herramienta perfecta para romper el hielo en cualquier contexto. Lanza un debate ligero y divertido al inicio de una clase, una reunión de trabajo o un evento, proyecta los resultados en directo en la pantalla y úsalo como punto de partida para arrancar la conversación. Es una forma muy rápida y eficaz de generar buen ambiente y captar la atención del grupo desde el primer minuto."
+      }
+    ],
+    "related": [
+      "encuesta-drama-grupo-quien-tiene-razon-es",
+      "encuesta-gaming-mejor-juego-grupo-es"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

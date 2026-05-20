@@ -1,0 +1,569 @@
+[
+  {
+    "slug": "umfrage-hochzeit-location-gaeste-de",
+    "locale": "de",
+    "emoji": "💍",
+    "title": "Hochzeitsumfrage zur Location bei den Gästen",
+    "h1": "Umfrage: Welche Hochzeitslocation soll es werden?",
+    "description": "Kostenlose Umfragevorlage, um bei Gaesten oder im Brautpaar abzustimmen, welche Hochzeitslocation gewinnt. Link teilen, anonym voten, schnell entscheiden.",
+    "intro": "Die Location ist eine der ersten und schwersten Hochzeitsentscheidungen, und plötzlich reden Eltern, Trauzeugen und das Brautpaar gleichzeitig mit. Diese Vorlage bringt Ordnung rein. Du stellst drei oder vier Locations zur Auswahl, die ihr bereits besichtigt habt, schickst den Link an alle, die mitreden dürfen, und in einem Abend habt ihr ein Stimmungsbild. Die Abstimmung ist anonym, also wählt niemand nur aus Höflichkeit gegenüber der Schwiegermutter. Das Ergebnis erscheint live, ohne dass jemand die Diskussion dominieren kann. So entscheidet ihr als Brautpaar weiterhin selbst, habt aber ein ehrliches Bild davon, was Familie und Freunde wirklich am schönsten finden.",
+    "category": "wedding",
+    "audience": "Brautpaare, die ihre Familie oder den engsten Kreis in die Locationwahl einbeziehen wollen",
+    "question": "Welche Location soll unsere Hochzeit werden?",
+    "options": [
+      "Scheune mit Wiese im Grünen",
+      "Schloss mit Festsaal",
+      "Strandlocation am See",
+      "Restaurant mit Garten in der Stadt"
+    ],
+    "whyItWorks": "Vier besichtigte Locations als feste Optionen verhindern endlose Was-wäre-wenn-Diskussionen. Die Anonymität nimmt den Druck raus, dem Wunsch der Eltern zu folgen, und zeigt die echte Mehrheitsstimmung. Das Live-Ergebnis liefert dem Brautpaar eine klare Grundlage, ohne dass jemand das Gespräch an sich reißt.",
+    "tips": [
+      "Stimme nur über Locations ab, die ihr schon besichtigt habt und die im Budget liegen.",
+      "Teile den Link nur an Personen, deren Meinung wirklich zählen soll.",
+      "Nenne neben jeder Option die Gästezahl-Kapazität, damit die Wahl realistisch bleibt.",
+      "Macht klar, dass das Brautpaar das letzte Wort behält, die Umfrage ist nur ein Stimmungsbild.",
+      "Setze eine Deadline von wenigen Tagen, damit ihr die Location rechtzeitig buchen könnt."
+    ],
+    "variations": [
+      {
+        "question": "In welcher Jahreszeit soll unsere Hochzeit stattfinden?",
+        "options": ["Frühling", "Sommer", "Herbst", "Winter"]
+      },
+      {
+        "question": "Drinnen oder draußen feiern?",
+        "options": ["Komplett draußen", "Drinnen mit Außenbereich", "Komplett drinnen", "Wetterabhängig flexibel"]
+      },
+      {
+        "question": "Wie groß soll unsere Hochzeit werden?",
+        "options": ["Intim bis 30 Gäste", "Mittel 30 bis 80", "Groß 80 bis 150", "Riesig über 150"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Sollten wir die Locationwahl wirklich abstimmen lassen?",
+        "a": "Die Umfrage ersetzt nicht eure Entscheidung, sie liefert nur ein ehrliches Stimmungsbild. Ihr als Brautpaar behaltet das letzte Wort. Viele nutzen sie, um zu sehen, ob die Familie eine klare Tendenz hat, bevor sie sich festlegen."
+      },
+      {
+        "q": "Sehen die Gäste, wer für welche Location gestimmt hat?",
+        "a": "Nein. moomz ist anonym, sichtbar sind nur die Gesamtzahlen pro Option. So vermeidet ihr, dass sich Verwandte gegenseitig beeinflussen oder dass jemand sich übergangen fühlt, wenn seine Wahl verliert."
+      },
+      {
+        "q": "Wie viele Personen sollten mit abstimmen?",
+        "a": "Das entscheidet ihr. Manche fragen nur den engsten Kreis aus fünf Personen, andere binden die ganze erweiterte Familie ein. Es gibt keine Begrenzung, und jeder kann nur einmal abstimmen."
+      },
+      {
+        "q": "Können wir nach der Location weitere Hochzeitsumfragen machen?",
+        "a": "Ja, das ist sehr praktisch. Viele Brautpaare starten danach Umfragen zum Menü, zur Musik oder zur Sitzordnung. Jede neue Umfrage ist in wenigen Sekunden erstellt und mit eigenem Link teilbar."
+      }
+    ],
+    "related": [
+      "umfrage-junggesellinnenabschied-programm-de",
+      "umfrage-geburtstag-motto-party-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-junggesellinnenabschied-programm-de",
+    "locale": "de",
+    "emoji": "👰",
+    "title": "Umfrage zum Programm des Junggesellinnenabschieds",
+    "h1": "Umfrage: Was machen wir beim Junggesellinnenabschied?",
+    "description": "Kostenlose Umfragevorlage, mit der die Trauzeugin das JGA-Programm anonym abstimmen lässt, ohne die Braut zu fragen. Link teilen und Plan festzurren.",
+    "intro": "Einen Junggesellinnenabschied zu organisieren bedeutet, einen Plan zu finden, der zur Braut passt und gleichzeitig der ganzen Gruppe gefällt. Genau hier hakt es: Eine will Spa, eine will Party, eine hat ein knappes Budget. Diese Vorlage löst das Chaos in der Planungsgruppe. Die Trauzeugin stellt drei oder vier Programmideen zur Auswahl, schickt den Link in den Gruppenchat ohne die Braut, und in wenigen Stunden steht die Richtung fest. Die Abstimmung ist anonym, also traut sich auch die zurückhaltende Freundin, ehrlich zu sagen, was sie sich leisten kann und mag. Das Ergebnis erscheint live, und ihr könnt sofort mit Buchungen und Überraschungen starten.",
+    "category": "bachelorette",
+    "audience": "Trauzeuginnen und Planungsgruppen, die das JGA-Programm ohne wochenlange Chatdebatten festlegen wollen",
+    "question": "Was soll das Hauptprogramm beim Junggesellinnenabschied sein?",
+    "options": [
+      "Wellness- und Spa-Tag",
+      "Partynacht mit Cocktailkurs",
+      "Wochenendtrip in eine andere Stadt",
+      "Outdoor-Aktivität mit Picknick"
+    ],
+    "whyItWorks": "Vier konkrete Programmideen statt loser Vorschläge bringen die Planungsgruppe schnell auf einen Nenner. Die Anonymität sorgt dafür, dass auch Freundinnen mit kleinerem Budget ehrlich abstimmen, statt mitzuziehen. Das Live-Ergebnis gibt der Trauzeugin sofort eine klare Richtung für Buchungen.",
+    "tips": [
+      "Stimme im Gruppenchat ab, in dem die Braut nicht ist, sonst ist die Überraschung dahin.",
+      "Nenne neben jeder Option ein ungefähres Budget pro Person, damit niemand überrascht wird.",
+      "Berücksichtige die Interessen der Braut, das Programm soll zu ihr passen.",
+      "Setze eine kurze Deadline, JGA-Locations sind oft früh ausgebucht.",
+      "Starte danach eine zweite Umfrage zu Datum, Dresscode oder Überraschungsspielen."
+    ],
+    "variations": [
+      {
+        "question": "Wie hoch ist unser Budget pro Person für den JGA?",
+        "options": ["Bis 50€", "50 bis 100€", "100 bis 200€", "Über 200€"]
+      },
+      {
+        "question": "Wie lang soll der Junggesellinnenabschied dauern?",
+        "options": ["Nur ein Abend", "Ein ganzer Tag", "Wochenende mit Übernachtung", "Verlängertes Wochenende"]
+      },
+      {
+        "question": "Welcher Dresscode für den JGA?",
+        "options": ["Alle in einer Farbe", "Motto-Kostüme", "Schicke Abendoutfits", "Kein Dresscode, locker"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie halten wir den JGA vor der Braut geheim?",
+        "a": "Erstelle den Gruppenchat ohne die Braut und teile den Umfragelink nur dort. moomz braucht keinen Account, also bleibt nichts in einem öffentlichen Profil sichtbar. Die Überraschung ist sicher, solange der Link im privaten Kreis bleibt."
+      },
+      {
+        "q": "Sehen die anderen Freundinnen, wer was gewählt hat?",
+        "a": "Nein. Die Abstimmung ist komplett anonym, sichtbar sind nur die Gesamtzahlen. Das ist besonders hilfreich beim Budget, weil niemand offenlegen muss, wie viel Geld er ausgeben kann."
+      },
+      {
+        "q": "Was, wenn die Gruppe sich gar nicht einig wird?",
+        "a": "Genau dafür ist die Umfrage da: Sie zeigt schwarz auf weiß, welche Option vorne liegt. Bei einem knappen Gleichstand startet die Trauzeugin einfach eine Stichumfrage mit den beiden Favoriten."
+      },
+      {
+        "q": "Können auch Freundinnen aus anderen Städten abstimmen?",
+        "a": "Ja, das ist ideal. Jede stimmt vom eigenen Handy aus ab, egal wo sie wohnt. So planst du den JGA auch dann mühelos, wenn die Gruppe über mehrere Städte verteilt ist."
+      }
+    ],
+    "related": [
+      "umfrage-hochzeit-location-gaeste-de",
+      "umfrage-party-motto-freunde-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-party-motto-freunde-de",
+    "locale": "de",
+    "emoji": "🎉",
+    "title": "Umfrage zum Party-Motto mit Freunden",
+    "h1": "Umfrage: Welches Motto bekommt unsere Party?",
+    "description": "Kostenlose und anonyme Umfragevorlage, um mit der Gruppe das Party-Motto zu wählen. Link teilen, abstimmen und Deko sowie Outfits festlegen.",
+    "intro": "Eine Mottoparty steht und fällt mit dem Thema, aber genau darüber wird vorher ewig diskutiert. Einer will Neon, einer will die 2000er, einer hat keine Lust auf Verkleiden. Diese Vorlage beendet die Debatte. Du stellst drei oder vier Mottos zur Auswahl, schickst den Link an alle Eingeladenen und in kurzer Zeit steht das Thema fest. Die Abstimmung ist anonym, also stimmt niemand nur dem lautesten in der Gruppe zu, und die Live-Auswertung erzeugt sofort Vorfreude. Funktioniert für eine WG-Party, einen runden Geburtstag oder einfach ein Wochenende, an dem ihr es krachen lassen wollt. Sobald das Motto gewinnt, könnt ihr Deko, Playlist und Outfits planen.",
+    "category": "party",
+    "audience": "Freundesgruppen und Gastgeber, die ein Party-Motto schnell und einvernehmlich festlegen wollen",
+    "question": "Welches Motto soll unsere Party bekommen?",
+    "options": [
+      "Neon und Blacklight",
+      "2000er Throwback",
+      "Casino und Glamour",
+      "Sommer-Beachparty"
+    ],
+    "whyItWorks": "Vier feste Mottos verhindern, dass die Planung in losen Ideen versandet. Da die Abstimmung anonym ist, gewinnt das Thema, auf das die Gruppe wirklich Lust hat, nicht das des lautesten Gasts. Das Live-Ergebnis schafft Vorfreude und gibt dem Gastgeber sofort grünes Licht für Deko und Playlist.",
+    "tips": [
+      "Wähle Mottos, die mit wenig Aufwand umsetzbar sind, damit niemand abgeschreckt wird.",
+      "Setze ein Beispielbild oder Stichworte neben jede Option zur Inspiration.",
+      "Teile den Link früh genug, damit alle ihr Outfit organisieren können.",
+      "Starte nach dem Motto eine zweite Umfrage zur Playlist oder zum Essen.",
+      "Mache klar, dass das Gewinnermotto verbindlich ist, damit am Abend alle mitmachen."
+    ],
+    "variations": [
+      {
+        "question": "Wo soll unsere Party stattfinden?",
+        "options": ["Bei jemandem zu Hause", "Gemietete Location", "Im Garten oder Park", "Bar mit reserviertem Bereich"]
+      },
+      {
+        "question": "Wer kümmert sich um die Musik?",
+        "options": ["Gemeinsame Playlist", "Jemand legt auf", "DJ engagieren", "Einfach Streaming durchlaufen lassen"]
+      },
+      {
+        "question": "Was soll es zu essen geben?",
+        "options": ["Fingerfood und Snacks", "Grillen", "Jeder bringt etwas mit", "Pizza bestellen"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Gäste können beim Motto mit abstimmen?",
+        "a": "Es gibt keine Begrenzung. Du kannst den Link an zehn oder hundert Eingeladene schicken. Jeder stimmt nur einmal ab, und das Ergebnis aktualisiert sich für alle live, sobald neue Stimmen reinkommen."
+      },
+      {
+        "q": "Sehen die Gäste, wer für welches Motto gestimmt hat?",
+        "a": "Nein, moomz ist anonym. Es sind nur die Gesamtzahlen pro Motto sichtbar. So fühlt sich niemand bloßgestellt, wenn sein Wunschmotto am Ende nicht gewinnt."
+      },
+      {
+        "q": "Was passiert bei einem Gleichstand zwischen zwei Mottos?",
+        "a": "Starte einfach eine zweite kurze Umfrage nur mit den beiden führenden Mottos. Das dauert nur Sekunden, und du bekommst eine klare Entscheidung ohne weiteres Hin und Her im Chat."
+      },
+      {
+        "q": "Kann ich nachträglich ein Motto zur Auswahl hinzufügen?",
+        "a": "Die Optionen lassen sich nach dem Erstellen nicht ändern. Du kannst aber in fünfzehn Sekunden eine neue Umfrage mit der erweiterten Liste starten und den frischen Link in der Gruppe teilen."
+      }
+    ],
+    "related": [
+      "umfrage-junggesellinnenabschied-programm-de",
+      "umfrage-geburtstag-motto-party-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-klasse-ausflug-ziel-de",
+    "locale": "de",
+    "emoji": "🎒",
+    "title": "Umfrage zum Ausflugsziel der Klasse",
+    "h1": "Umfrage: Wohin geht der Klassenausflug?",
+    "description": "Kostenlose Umfragevorlage für Lehrkräfte und Klassen, um anonym über das Ausflugsziel abzustimmen. Link teilen, alle voten lassen, Ziel festlegen.",
+    "intro": "Bei einem Klassenausflug haben dreißig Schülerinnen und Schüler dreißig Meinungen, und in der Diskussion setzen sich am Ende nur die Lautesten durch. Diese Vorlage gibt jeder Stimme das gleiche Gewicht. Die Lehrkraft stellt drei oder vier organisatorisch machbare Ziele zur Auswahl, teilt den Link mit der Klasse, und in einer Schulstunde steht das Ergebnis fest. Die Abstimmung ist anonym, also traut sich auch der ruhige Teil der Klasse, ehrlich zu wählen, statt der Clique zu folgen. Das Live-Ergebnis ist transparent und nachvollziehbar, sodass am Ende niemand sagen kann, die Entscheidung sei unfair gewesen. So wird der Ausflug zu einem Plan, hinter dem die ganze Klasse steht.",
+    "category": "classroom",
+    "audience": "Lehrkräfte und Schulklassen, die das Ausflugsziel demokratisch und fair entscheiden wollen",
+    "question": "Wohin soll unser Klassenausflug gehen?",
+    "options": [
+      "Freizeitpark",
+      "Museum mit interaktiver Ausstellung",
+      "Kletterwald und Natur",
+      "Tagestrip in eine andere Stadt"
+    ],
+    "whyItWorks": "Vier von der Lehrkraft vorgefilterte Ziele halten die Auswahl realistisch und organisierbar. Die Anonymität sorgt dafür, dass auch zurückhaltende Schülerinnen und Schüler frei wählen, ohne dem Gruppendruck der Clique zu folgen. Das transparente Live-Ergebnis macht die Entscheidung für alle nachvollziehbar und fair.",
+    "tips": [
+      "Wähle nur Ziele, die zu Budget, Anfahrt und Lehrplan passen.",
+      "Stimme während der Unterrichtszeit ab, damit wirklich alle teilnehmen.",
+      "Nenne neben jedem Ziel die ungefähren Kosten und die Fahrzeit.",
+      "Erkläre vorher, dass das Mehrheitsergebnis verbindlich ist.",
+      "Starte danach eine zweite Umfrage zu Datum oder Gruppeneinteilung."
+    ],
+    "variations": [
+      {
+        "question": "Wie lang soll der Klassenausflug dauern?",
+        "options": ["Halber Tag", "Ganzer Tag", "Mit einer Übernachtung", "Mehrtägige Klassenfahrt"]
+      },
+      {
+        "question": "Wie reisen wir zum Ausflugsziel an?",
+        "options": ["Mit dem Reisebus", "Mit Bus und Bahn", "Mit der Regionalbahn", "Zu Fuß oder mit dem Rad"]
+      },
+      {
+        "question": "Was machen wir in der Mittagspause?",
+        "options": ["Jeder bringt Lunchpaket mit", "Gemeinsam einkehren", "Picknick im Park", "Imbiss vor Ort"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Können alle Schülerinnen und Schüler anonym abstimmen?",
+        "a": "Ja. moomz braucht keinen Account und speichert nicht, wer wofür gestimmt hat. Sichtbar sind nur die Gesamtzahlen. So traut sich auch der ruhige Teil der Klasse, frei und ehrlich zu wählen."
+      },
+      {
+        "q": "Wie stelle ich sicher, dass nur die Klasse abstimmt?",
+        "a": "Teile den Link ausschließlich im Klassenchat oder über die Schulplattform. Da kein öffentliches Verzeichnis existiert, findet niemand von außen die Umfrage, solange der Link im Klassenkreis bleibt."
+      },
+      {
+        "q": "Ist die Umfrage für Lehrkräfte kostenlos?",
+        "a": "Ja, moomz ist komplett kostenlos. Es fallen keine Gebühren an, und du brauchst weder eine Lizenz noch eine Schulanmeldung. Eine Umfrage ist in unter einer Minute erstellt und sofort teilbar."
+      },
+      {
+        "q": "Was tun, wenn zwei Ziele gleich viele Stimmen bekommen?",
+        "a": "Starte eine kurze Stichumfrage nur mit den beiden punktgleichen Zielen. Das dauert Sekunden und sorgt für eine eindeutige Entscheidung, ohne dass die Klasse erneut lange diskutieren muss."
+      }
+    ],
+    "related": [
+      "umfrage-team-mittagessen-buero-de",
+      "umfrage-debatte-streitfrage-klasse-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-team-mittagessen-buero-de",
+    "locale": "de",
+    "emoji": "🥗",
+    "title": "Umfrage zum Team-Mittagessen im Büro",
+    "h1": "Umfrage: Wo geht das Team heute mittagessen?",
+    "description": "Kostenlose Umfragevorlage, um im Team schnell zu entscheiden, wo es mittagessen geht. Link in den Chat, anonym voten, Entscheidung in Minuten.",
+    "intro": "Jeden Mittag dieselbe Szene im Büro: Alle sind hungrig, aber niemand will festlegen, wohin es geht, und die Frage zieht sich, bis die Pause halb vorbei ist. Diese Vorlage erledigt das in zwei Minuten. Du stellst drei oder vier Optionen zur Auswahl, von der Kantine bis zum Lieferdienst, schickst den Link in den Team-Chat oder per Slack, und das Ergebnis steht fest, bevor jemand seufzt. Die Abstimmung ist anonym, also wählt niemand nur das, was die Chefin vorschlägt, und die Live-Auswertung zeigt sofort die Mehrheit. Du kannst die Umfrage täglich neu starten oder als feste Routine in den Arbeitsalltag einbauen, damit die Mittagspause endlich entspannt beginnt.",
+    "category": "work",
+    "audience": "Büroteams, die die tägliche Mittagsfrage ohne Diskussion und Zeitverlust klären wollen",
+    "question": "Wo geht unser Team heute mittagessen?",
+    "options": [
+      "Kantine im Haus",
+      "Imbiss um die Ecke",
+      "Restaurant mit Mittagsmenü",
+      "Lieferdienst ins Büro"
+    ],
+    "whyItWorks": "Vier feste Optionen ersetzen das tägliche Schweigen, in dem niemand sich festlegen will. Die Anonymität sorgt dafür, dass das Team ehrlich wählt, statt dem Vorschlag der Vorgesetzten zu folgen. Das Live-Ergebnis liefert in unter zwei Minuten eine Entscheidung, sodass mehr von der Pause übrig bleibt.",
+    "tips": [
+      "Starte die Umfrage rund 30 Minuten vor der Pause, damit alle Zeit zum Abstimmen haben.",
+      "Halte die Optionen kurz und konkret, niemand liest mittags lange Listen.",
+      "Speichere den Link, du kannst dieselbe Umfrage als tägliche Routine wiederverwenden.",
+      "Bei Gleichstand entscheidet die Person, die zuletzt aussuchen durfte.",
+      "Berücksichtige bei den Optionen Allergien und vegetarische oder vegane Auswahl."
+    ],
+    "variations": [
+      {
+        "question": "Welche Küche soll es heute Mittag sein?",
+        "options": ["Asiatisch", "Italienisch", "Bowls und Salate", "Deftige Hausmannskost"]
+      },
+      {
+        "question": "Essen wir zusammen oder bringt jeder etwas mit?",
+        "options": ["Gemeinsam essen gehen", "Lieferung ins Büro", "Jeder für sich", "Mitgebrachtes in der Küche"]
+      },
+      {
+        "question": "Wie viel Zeit nehmen wir uns heute für die Pause?",
+        "options": ["30 Minuten", "45 Minuten", "Eine volle Stunde", "So kurz wie möglich"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Können wir die Umfrage jeden Tag neu nutzen?",
+        "a": "Ja. Eine Umfrage ist in unter einer Minute erstellt, du kannst also jeden Tag eine frische starten. Viele Teams machen daraus eine feste Routine und schicken den neuen Link kurz vor der Mittagspause in den Chat."
+      },
+      {
+        "q": "Sieht der Chef, wer wofür gestimmt hat?",
+        "a": "Nein. moomz ist anonym, sichtbar sind nur die Gesamtzahlen pro Option. Niemand muss aus Höflichkeit den Vorschlag der Führungskraft mitwählen, das Ergebnis spiegelt die echte Mehrheit."
+      },
+      {
+        "q": "Wie schnell steht das Ergebnis fest?",
+        "a": "Sehr schnell. Da nur vier kurze Optionen zur Auswahl stehen, stimmen die meisten innerhalb von Sekunden ab. Das Ergebnis aktualisiert sich live, sodass die Entscheidung oft in unter zwei Minuten steht."
+      },
+      {
+        "q": "Funktioniert das auch bei Teams im Homeoffice?",
+        "a": "Ja. Jeder stimmt vom eigenen Gerät ab, egal ob im Büro oder zu Hause. So entscheidet das ganze Team gemeinsam über Lieferdienst oder gemeinsames Mittagessen, auch wenn es verteilt arbeitet."
+      }
+    ],
+    "related": [
+      "umfrage-klasse-ausflug-ziel-de",
+      "umfrage-debatte-streitfrage-klasse-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-geburtstag-motto-party-de",
+    "locale": "de",
+    "emoji": "🎂",
+    "title": "Umfrage zur Geburtstagsfeier und zum Motto",
+    "h1": "Umfrage: Wie soll meine Geburtstagsfeier aussehen?",
+    "description": "Kostenlose Umfragevorlage, um Freunde über Format und Motto der Geburtstagsfeier abstimmen zu lassen. Link teilen, anonym voten, Plan festlegen.",
+    "intro": "Den eigenen Geburtstag zu planen ist ein Drahtseilakt: Du willst eine Feier, auf die du Lust hast, aber auch eine, zu der deine Freunde gerne kommen. Diese Vorlage nimmt das Rätselraten heraus. Du stellst drei oder vier Feier-Varianten zur Auswahl, vom gemütlichen Dinner bis zur großen Party, schickst den Link an deine Gäste und siehst in kurzer Zeit, worauf die meisten Lust haben. Die Abstimmung ist anonym, also sagt dir niemand nur aus Nettigkeit zu. Das Live-Ergebnis hilft dir, ehrlich einzuschätzen, wie viele wirklich kommen und welches Format zieht. So feierst du einen Geburtstag, der zu dir passt und gut besucht ist, statt mit halbem Risiko zu planen.",
+    "category": "birthday",
+    "audience": "Geburtstagskinder, die ihre Feier nach den echten Vorlieben ihrer Freunde planen wollen",
+    "question": "Wie soll meine Geburtstagsfeier aussehen?",
+    "options": [
+      "Gemütliches Dinner mit den engsten Freunden",
+      "Große Party mit allen",
+      "Tagesausflug oder Aktivität",
+      "Lockerer Brunch oder Picknick"
+    ],
+    "whyItWorks": "Vier klare Feier-Varianten ersparen dir das Raten, worauf deine Freunde Lust haben. Die Anonymität sorgt für ehrliche Antworten, statt höflicher Zusagen, die später platzen. Das Live-Ergebnis gibt dir eine realistische Vorstellung von Format und Resonanz, bevor du Location und Catering buchst.",
+    "tips": [
+      "Schicke die Umfrage zwei bis drei Wochen vorher, damit alle planen können.",
+      "Mische ein günstiges und ein aufwendigeres Format, damit alle Budgets passen.",
+      "Nenne neben jeder Option grobe Eckdaten wie Uhrzeit und ungefähre Kosten.",
+      "Achte auf deine eigene Lust, die Umfrage ist Orientierung, nicht Pflicht.",
+      "Starte nach dem Format eine zweite Umfrage zu Datum, Geschenk oder Essen."
+    ],
+    "variations": [
+      {
+        "question": "An welchem Tag soll ich feiern?",
+        "options": ["Freitagabend", "Samstagabend", "Sonntagnachmittag", "Am Geburtstag selbst"]
+      },
+      {
+        "question": "Welches Motto soll meine Geburtstagsparty haben?",
+        "options": ["Kein Motto, einfach feiern", "Retro und Throwback", "Kostümparty", "Eleganter Dresscode"]
+      },
+      {
+        "question": "Was wünsche ich mir von den Gästen?",
+        "options": ["Keine Geschenke, nur Zeit", "Gemeinsame Geldsammlung", "Kleine persönliche Geschenke", "Selbstgemachtes oder Erlebnisse"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ist es seltsam, die eigene Geburtstagsfeier abstimmen zu lassen?",
+        "a": "Überhaupt nicht. Es zeigt deinen Freunden, dass dir ihre Meinung wichtig ist, und du erfährst, welches Format wirklich zieht. Du entscheidest am Ende selbst, die Umfrage liefert dir nur ein ehrliches Stimmungsbild."
+      },
+      {
+        "q": "Sehen meine Freunde, wer wie abgestimmt hat?",
+        "a": "Nein. moomz ist anonym, es sind nur die Gesamtzahlen sichtbar. Deine Gäste können also frei wählen, ohne sich gegenseitig zu beeinflussen oder Rücksicht auf deinen vermuteten Wunsch zu nehmen."
+      },
+      {
+        "q": "Kann ich mehrere Umfragen für einen Geburtstag machen?",
+        "a": "Ja, das ist üblich. Eine für das Format, eine für das Datum, eine für das Motto oder die Geschenkfrage. Jede Umfrage ist in Sekunden erstellt und bekommt einen eigenen Link zum Teilen."
+      },
+      {
+        "q": "Hilft die Umfrage abzuschätzen, wie viele Gäste kommen?",
+        "a": "Indirekt ja. Die Abstimmung zeigt dir, welches Format am beliebtesten ist, und damit, was viele Zusagen bringen würde. Für eine genaue Zusagenzahl kannst du zusätzlich eine eigene Kommst-du-Umfrage starten."
+      }
+    ],
+    "related": [
+      "umfrage-party-motto-freunde-de",
+      "umfrage-hochzeit-location-gaeste-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-gaming-naechstes-spiel-de",
+    "locale": "de",
+    "emoji": "🎮",
+    "title": "Umfrage zum nächsten Game für den Gaming-Abend",
+    "h1": "Umfrage: Welches Spiel zocken wir heute Abend?",
+    "description": "Kostenlose und anonyme Umfragevorlage, um in der Gaming-Crew das nächste Spiel zu wählen. Link in den Discord, voten und sofort losspielen.",
+    "intro": "Jeder Gaming-Abend startet gleich: Alle sind im Discord, aber niemand kann sich auf ein Spiel einigen, und die ersten zwanzig Minuten gehen für die Diskussion drauf. Diese Vorlage beendet das Lobby-Gewarte. Du stellst drei oder vier Spiele zur Auswahl, schickst den Link in den Discord-Channel oder in den Gruppenchat, und in einer Minute weiß die ganze Crew, was gezockt wird. Die Abstimmung ist anonym, also wählt niemand nur das Spiel, das der Lobby-Host gut findet, und das Live-Ergebnis ist sofort für alle sichtbar. Funktioniert genauso für eine feste Stammcrew wie für eine bunt zusammengewürfelte Runde. Sobald das Game gewinnt, kann der Abend ohne Endlosdebatte starten.",
+    "category": "gaming",
+    "audience": "Gaming-Crews und Discord-Gruppen, die das Spiel des Abends ohne Lobby-Diskussion festlegen wollen",
+    "question": "Welches Spiel zocken wir heute Abend?",
+    "options": [
+      "Shooter im Team",
+      "Koop-Survival-Spiel",
+      "Party-Game mit Minispielen",
+      "Strategie- oder Aufbauspiel"
+    ],
+    "whyItWorks": "Vier feste Spiele ersetzen das endlose Hin und Her in der Lobby. Die Anonymität sorgt dafür, dass die Crew ehrlich wählt, statt dem Geschmack des Hosts zu folgen. Das Live-Ergebnis im Discord ist für alle sofort sichtbar, sodass der Abend ohne verlorene Zeit losgehen kann.",
+    "tips": [
+      "Wähle nur Spiele, die alle besitzen oder gratis spielen können.",
+      "Beachte die Spielerzahl, manche Games brauchen genau vier oder sechs Leute.",
+      "Schicke die Umfrage kurz vor dem geplanten Start, dann ist jeder online.",
+      "Speichere den Link, du kannst die Umfrage für jeden Gaming-Abend recyceln.",
+      "Bei Gleichstand entscheidet, wer beim letzten Mal nicht aussuchen durfte."
+    ],
+    "variations": [
+      {
+        "question": "Wie lang wollen wir heute zocken?",
+        "options": ["Eine kurze Runde", "Zwei bis drei Stunden", "Bis spät in die Nacht", "Open End, solange Lust ist"]
+      },
+      {
+        "question": "Spielen wir kompetitiv oder entspannt?",
+        "options": ["Voll kompetitiv und ranked", "Casual und locker", "Mix aus beidem", "Nur zum Spaß, kein Stress"]
+      },
+      {
+        "question": "Was zocken wir, wenn die Crew nicht komplett ist?",
+        "options": ["Trotzdem das Hauptspiel", "Etwas für weniger Spieler", "Auf alle warten", "Solo-fähiges Spiel mit Voicechat"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wie teile ich die Umfrage am besten in Discord?",
+        "a": "Erstelle die Umfrage und poste den Link direkt in den passenden Channel. Jeder klickt drauf und stimmt vom Handy oder PC ab. Das Ergebnis aktualisiert sich live, sodass die ganze Crew die Tendenz sofort sieht."
+      },
+      {
+        "q": "Sehen die anderen, welches Spiel ich gewählt habe?",
+        "a": "Nein. moomz ist anonym, es zählen nur die Gesamtstimmen pro Spiel. So wählt jeder ehrlich, was er wirklich zocken will, ohne sich am Geschmack des Lobby-Hosts zu orientieren."
+      },
+      {
+        "q": "Kann ich die Umfrage für jeden Gaming-Abend wiederverwenden?",
+        "a": "Du kannst denselben Link nutzen oder in fünfzehn Sekunden eine neue Umfrage mit aktualisierter Spieleliste erstellen. Viele Crews machen daraus eine feste Routine vor jedem Abend."
+      },
+      {
+        "q": "Was, wenn die Crew unterschiedlich groß ist als geplant?",
+        "a": "Nimm dafür eine Variation auf, etwa was gezockt wird, wenn nicht alle da sind. So habt ihr für jede Gruppengröße eine Option und müsst nicht spontan neu diskutieren, wenn jemand absagt."
+      }
+    ],
+    "related": [
+      "umfrage-party-motto-freunde-de",
+      "umfrage-debatte-streitfrage-klasse-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-drama-freundeskreis-streit-de",
+    "locale": "de",
+    "emoji": "🍿",
+    "title": "Umfrage zum Drama im Freundeskreis",
+    "h1": "Umfrage: Wer hat im Drama eigentlich recht?",
+    "description": "Kostenlose und anonyme Umfragevorlage, um den Freundeskreis über eine Streitfrage abstimmen zu lassen. Link teilen, voten und ehrliches Urteil holen.",
+    "intro": "In jedem Freundeskreis gibt es diese eine Diskussion, die kein Ende nimmt: War es okay, ungefragt auf eine fremde Party mitzukommen, oder nicht? Wer hat sich danebenbenommen? Diese Vorlage holt ein ehrliches Gruppenurteil ein, ohne dass jemand offen Partei ergreifen muss. Du formulierst die Streitfrage neutral, stellst zwei oder drei Sichtweisen zur Auswahl, schickst den Link in den Gruppenchat und siehst in kurzer Zeit, wie die Gruppe wirklich denkt. Die Abstimmung ist anonym, also traut sich jeder zu seiner echten Meinung, ohne eine Freundschaft aufs Spiel zu setzen. Das Ergebnis erscheint live und liefert Stoff für eine ehrliche, aber unterhaltsame Aussprache, statt für tagelanges Schmollen.",
+    "category": "drama",
+    "audience": "Freundesgruppen, die eine hitzige Streitfrage mit einem ehrlichen anonymen Gruppenvotum klären wollen",
+    "question": "Wer hat in dieser Situation eigentlich recht?",
+    "options": [
+      "Person A hatte völlig recht",
+      "Person B hatte völlig recht",
+      "Beide haben Fehler gemacht",
+      "Komplett überbewertet, kein echtes Drama"
+    ],
+    "whyItWorks": "Eine neutral formulierte Frage mit klaren Sichtweisen verwandelt einen festgefahrenen Streit in eine sachliche Abstimmung. Die Anonymität erlaubt jedem, ehrlich zu urteilen, ohne eine Freundschaft zu riskieren. Das Live-Ergebnis zeigt schwarz auf weiß, wie die Gruppe tickt, und entzieht endlosem Lästern den Boden.",
+    "tips": [
+      "Formuliere die Frage neutral, nenne keine echten Namen, sondern Person A und B.",
+      "Halte die Optionen fair, gib jeder Seite eine echte Chance.",
+      "Baue eine Option ein wie kein echtes Drama, das nimmt Druck raus.",
+      "Teile den Link nur im engsten Kreis, nicht öffentlich, das wäre unfair.",
+      "Nutze das Ergebnis als Gesprächsanstoß, nicht als Urteil zum Bloßstellen."
+    ],
+    "variations": [
+      {
+        "question": "Wie sollte die Gruppe mit dem Konflikt umgehen?",
+        "options": ["Offen aussprechen", "Einfach ruhen lassen", "Die Beteiligten klären es allein", "Eine neutrale Person vermittelt"]
+      },
+      {
+        "question": "War die Reaktion auf die Situation angemessen?",
+        "options": ["Ja, völlig nachvollziehbar", "Etwas übertrieben", "Klar überzogen", "Eher zu zurückhaltend"]
+      },
+      {
+        "question": "Soll das Thema beim nächsten Treffen angesprochen werden?",
+        "options": ["Ja, direkt klären", "Nur wenn es hochkommt", "Lieber gar nicht", "Erst mal abwarten"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ist eine Drama-Umfrage nicht riskant für Freundschaften?",
+        "a": "Nur wenn sie unfair gemacht wird. Formuliere die Frage neutral, ohne echte Namen, und gib jeder Seite eine faire Option. Richtig genutzt entschärft die Umfrage den Streit, weil sie endloses Lästern durch ein klares, anonymes Votum ersetzt."
+      },
+      {
+        "q": "Sehen die Beteiligten, wer wie abgestimmt hat?",
+        "a": "Nein. moomz ist vollständig anonym, sichtbar sind nur die Gesamtzahlen. Genau deshalb funktioniert es: Jeder kann ehrlich urteilen, ohne dass eine Freundschaft an seiner Stimme zerbricht."
+      },
+      {
+        "q": "Wie verhindere ich, dass Außenstehende abstimmen?",
+        "a": "Teile den Link ausschließlich im privaten Gruppenchat des Freundeskreises. Da es kein öffentliches Verzeichnis gibt, findet niemand von außen die Umfrage, solange ihr den Link unter euch behaltet."
+      },
+      {
+        "q": "Was mache ich mit dem Ergebnis?",
+        "a": "Nutze es als Gesprächsanstoß, nicht als Waffe. Das Votum zeigt, wie die Gruppe die Lage sieht, und das hilft, eine sachliche Aussprache zu starten, statt jemanden öffentlich an den Pranger zu stellen."
+      }
+    ],
+    "related": [
+      "umfrage-debatte-streitfrage-klasse-de",
+      "umfrage-party-motto-freunde-de"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "umfrage-debatte-streitfrage-klasse-de",
+    "locale": "de",
+    "emoji": "⚖️",
+    "title": "Umfrage zur Debatte einer Streitfrage in der Gruppe",
+    "h1": "Umfrage: Wie steht die Gruppe zu dieser Streitfrage?",
+    "description": "Kostenlose und anonyme Umfragevorlage, um eine Debatte oder Streitfrage in Klasse oder Gruppe abzustimmen. Link teilen, voten, Meinungsbild sehen.",
+    "intro": "Eine gute Debatte lebt von Argumenten, aber in jeder Gruppe melden sich am Ende nur die Lautesten zu Wort, während die Mehrheit still bleibt. Diese Vorlage macht das echte Meinungsbild sichtbar. Du formulierst die Streitfrage klar, stellst zwei bis vier Positionen zur Auswahl, teilst den Link mit der Klasse oder Gruppe, und in kurzer Zeit weißt du, wie alle wirklich denken. Die Abstimmung ist anonym, also traut sich auch der zurückhaltende Teil zu seiner Position, ohne Gegenwind fürchten zu müssen. Das Live-Ergebnis ist ein perfekter Startpunkt für eine Diskussion oder eine spannende Auflösung am Ende. Funktioniert für den Unterricht, eine Jugendgruppe oder einen Debattierclub.",
+    "category": "debate",
+    "audience": "Lehrkräfte, Gruppenleiter und Debattierrunden, die ein ehrliches Meinungsbild zu einer Streitfrage einholen wollen",
+    "question": "Wie steht ihr zu dieser Streitfrage?",
+    "options": [
+      "Klar dafür",
+      "Eher dafür",
+      "Eher dagegen",
+      "Klar dagegen"
+    ],
+    "whyItWorks": "Eine klar formulierte Frage mit abgestuften Positionen macht ein differenziertes Meinungsbild sichtbar. Die Anonymität sorgt dafür, dass auch zurückhaltende Teilnehmer ehrlich abstimmen, statt der lautesten Stimme zu folgen. Das Live-Ergebnis liefert einen idealen Einstieg in die Diskussion oder eine spannende Auflösung am Ende.",
+    "tips": [
+      "Formuliere die Streitfrage neutral, damit keine Antwortrichtung vorgegeben wird.",
+      "Biete abgestufte Optionen an, nicht nur ein hartes Dafür oder Dagegen.",
+      "Stimme einmal vor und einmal nach der Debatte ab, um Meinungswandel zu zeigen.",
+      "Teile den Link nur in der Gruppe, damit das Ergebnis aussagekräftig bleibt.",
+      "Nutze das Ergebnis als Gesprächsanstoß, nicht zur Bewertung einzelner Personen."
+    ],
+    "variations": [
+      {
+        "question": "Hat sich eure Meinung nach der Debatte geändert?",
+        "options": ["Ja, deutlich", "Ein bisschen", "Nein, gleich geblieben", "Ich war vorher unentschieden"]
+      },
+      {
+        "question": "Welche Seite hatte die besseren Argumente?",
+        "options": ["Pro-Seite", "Contra-Seite", "Beide gleich stark", "Keine hat überzeugt"]
+      },
+      {
+        "question": "Wollt ihr das Thema weiter vertiefen?",
+        "options": ["Ja, nächste Runde dazu", "Kurz noch nachbesprechen", "Lieber neues Thema", "Thema ist erledigt"]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Warum eine Umfrage statt einfach Handzeichen?",
+        "a": "Beim Handzeichen folgen viele der Mehrheit oder trauen sich nicht, eine unbeliebte Position zu zeigen. Die anonyme Umfrage liefert ein ehrliches Bild, weil niemand sieht, wer wie abgestimmt hat, nur die Gesamtzahlen sind sichtbar."
+      },
+      {
+        "q": "Kann ich vor und nach der Debatte abstimmen lassen?",
+        "a": "Ja, das ist sogar besonders spannend. Stimme einmal vorher und einmal nachher ab, dann seht ihr direkt, wie viele Teilnehmer ihre Position durch die Argumente geändert haben. Beide Umfragen sind in Sekunden erstellt."
+      },
+      {
+        "q": "Ist die Umfrage für den Unterricht geeignet?",
+        "a": "Ja. moomz ist kostenlos, braucht keinen Account und keine Schulanmeldung. Du teilst einfach den Link, und die Klasse stimmt anonym ab. So bekommt jede Stimme das gleiche Gewicht, auch die der ruhigen Schüler."
+      },
+      {
+        "q": "Wie halte ich die Debatte fair, wenn das Ergebnis sichtbar ist?",
+        "a": "Zeige das Ergebnis am besten erst nach der Diskussionsrunde, damit niemand sich vom Zwischenstand beeinflussen lässt. So bleibt die Debatte argumentgetrieben, und die Auflösung wird zum spannenden Höhepunkt."
+      }
+    ],
+    "related": [
+      "umfrage-drama-freundeskreis-streit-de",
+      "umfrage-klasse-ausflug-ziel-de"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

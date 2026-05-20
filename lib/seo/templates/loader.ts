@@ -9,6 +9,8 @@ const VALID_LOCALES: TemplateLocale[] = [
   "it",
   "pt",
   "de",
+  "ja",
+  "zh",
 ];
 
 const DATA_DIR = path.join(process.cwd(), "lib", "seo", "templates", "data");

@@ -1,4 +1,12 @@
-export type TemplateLocale = "fr" | "en" | "es" | "it" | "pt" | "de";
+export type TemplateLocale =
+  | "fr"
+  | "en"
+  | "es"
+  | "it"
+  | "pt"
+  | "de"
+  | "ja"
+  | "zh";
 
 export type TemplatePage = {
   slug: string;

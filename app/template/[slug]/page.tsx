@@ -28,6 +28,8 @@ export function generateMetadata({
     it: "it_IT",
     pt: "pt_PT",
     de: "de_DE",
+    ja: "ja_JP",
+    zh: "zh_CN",
   };
   return {
     title: page.title,
@@ -133,6 +135,34 @@ const T = {
     updated: "Aktualisiert am",
     cta: "Erstelle deine kostenlose moomz-Umfrage →",
     options: "Optionen",
+  },
+  ja: {
+    back: "← すべてのテンプレート",
+    sample: "投票プレビュー",
+    launch: "moomzでこの投票を作成 →",
+    whyWorks: "この投票が機能する理由",
+    tips: "コツ",
+    variations: "すぐ使えるバリエーション",
+    use: "このバリエーションを使う →",
+    faq: "よくある質問",
+    related: "関連テンプレート",
+    updated: "更新日",
+    cta: "無料でmoomz投票を作成 →",
+    options: "個の選択肢",
+  },
+  zh: {
+    back: "← 所有模板",
+    sample: "投票预览",
+    launch: "在 moomz 上发起这个投票 →",
+    whyWorks: "为什么这个投票有效",
+    tips: "小贴士",
+    variations: "可直接套用的变体",
+    use: "使用这个变体 →",
+    faq: "常见问题",
+    related: "相关模板",
+    updated: "更新于",
+    cta: "免费创建你的 moomz 投票 →",
+    options: "个选项",
   },
 };
 
