@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import {
   findTemplate,
   getAllTemplates,
@@ -185,6 +186,7 @@ export default function TemplatePage({
 
   return (
     <article className="space-y-10 fade-up">
+      <HubNav locale={page.locale} current="templates" />
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
           <Link href="/template" className="hover:text-white transition">

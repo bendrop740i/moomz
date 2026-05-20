@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import { findCompare, getAllCompares } from "@/lib/seo/compare/loader";
 
 export const revalidate = 3600;
@@ -112,6 +113,7 @@ export default function ComparePage({
 
   return (
     <article className="space-y-10 fade-up">
+      <HubNav locale={page.locale} current="compare" />
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
           <Link href="/compare" className="hover:text-white transition">

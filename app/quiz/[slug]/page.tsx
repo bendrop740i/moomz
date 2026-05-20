@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import HubNav from "@/app/_seo/hub-nav";
 import { findQuiz, relatedQuizzes, topicLabel } from "@/lib/quizzes";
 import { quizUrl } from "@/lib/quizzes/types";
 import QuizPlay from "./quiz-play";
@@ -79,6 +80,7 @@ export default function QuizPage({ params }: { params: Params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(quizLd) }}
       />
       <article className="space-y-6 fade-up">
+        <HubNav locale="fr" current="quiz" />
         <header className="space-y-2">
           <nav aria-label="Fil d'ariane" className="text-xs text-white/40">
             <Link href="/" className="hover:text-white/70">moomz</Link>

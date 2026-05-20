@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import AdSlot from "@/app/ad-slot";
 import { getSupabase } from "@/lib/supabase";
 import type { KeywordPage } from "@/lib/seo/keywords/types";
@@ -163,6 +164,7 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
 
   return (
     <article className="space-y-12 fade-up">
+      <HubNav locale={page.locale} current="keywords" showLanguages />
       {/* Hero */}
       <header className="relative overflow-hidden glass rounded-[2rem] p-6 sm:p-10">
         <div className="pointer-events-none absolute -top-16 -right-10 h-48 w-48 rounded-full bg-purple-600/30 blur-3xl" />

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
@@ -391,6 +392,7 @@ export default function OutilsHub() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
+        <HubNav locale="fr" current="tools" />
         <header className="text-center space-y-2">
           <h1 className="font-display text-5xl sm:text-6xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
             {t.h1}

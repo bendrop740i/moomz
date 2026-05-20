@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { keywordsByLocale, isKeywordLocale } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
 
@@ -54,6 +55,7 @@ export default function TopicLocaleHub({ params }: { params: { locale: string } 
   const sorted = [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]));
   return (
     <article className="space-y-8 fade-up">
+      <HubNav locale={params.locale as HubLocale} current="keywords" showLanguages />
       <header className="space-y-3">
         <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
           {LANG_LABEL[params.locale]}

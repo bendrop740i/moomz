@@ -3,7 +3,11 @@ import { allPages } from "@/lib/seo";
 import type { SeoPage } from "@/lib/seo/types";
 
 const FOOTER_LINKS_FR = [
+  { label: "🧭 Tout explorer", href: "/explore" },
   { label: "Idées de sondage", href: "/idees" },
+  { label: "Modèles de sondage", href: "/template" },
+  { label: "Quiz", href: "/quiz" },
+  { label: "Comparatifs", href: "/compare" },
   { label: "📖 Read", href: "/read" },
   { label: "💬 Citations", href: "/citations" },
   { label: "Guides", href: "/guides" },
@@ -11,11 +15,26 @@ const FOOTER_LINKS_FR = [
 ];
 
 const FOOTER_LINKS_EN = [
+  { label: "🧭 Explore all", href: "/explore" },
   { label: "Poll ideas", href: "/ideas" },
+  { label: "Poll templates", href: "/template" },
+  { label: "Quiz", href: "/quiz" },
+  { label: "Compare", href: "/compare" },
   { label: "📖 Read", href: "/read" },
   { label: "💬 Quotes", href: "/quotes" },
   { label: "Guides", href: "/guides" },
   { label: "Blog", href: "/blog" },
+];
+
+const KEYWORD_HUBS = [
+  { label: "Français", href: "/mot" },
+  { label: "English", href: "/word" },
+  { label: "Español", href: "/topic/es" },
+  { label: "Italiano", href: "/topic/it" },
+  { label: "Português", href: "/topic/pt" },
+  { label: "Deutsch", href: "/topic/de" },
+  { label: "日本語", href: "/topic/ja" },
+  { label: "中文", href: "/topic/zh" },
 ];
 
 const TOOL_LINKS_FR = [
@@ -161,6 +180,7 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
           inParis: "in Paris",
           explore: "Explore",
           tools: "Free tools",
+          keywords: "Keyword pages by language",
           ideas: "Popular ideas",
           guides: "Guides",
           vs: "moomz vs…",
@@ -175,6 +195,7 @@ export default function SeoFooter({ locale = "fr" }: { locale?: "fr" | "en" }) {
           inParis: "à Paris",
           explore: "Explorer",
           tools: "Outils gratuits",
+          keywords: "Mots-clés par langue",
           ideas: "Idées populaires",
           guides: "Guides",
           vs: "moomz vs…",

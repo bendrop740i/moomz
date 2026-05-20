@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 
 export const revalidate = 3600;
@@ -64,6 +65,7 @@ export default function TemplateHub() {
 
   return (
     <div className="space-y-10 fade-up">
+      <HubNav locale="fr" current="templates" />
       <header className="space-y-3 text-center">
         <div className="text-xs uppercase tracking-widest text-white/40">
           template · moomz

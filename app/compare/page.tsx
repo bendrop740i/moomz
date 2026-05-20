@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import HubNav from "@/app/_seo/hub-nav";
 import { getAllCompares } from "@/lib/seo/compare/loader";
 
 export const revalidate = 3600;
@@ -35,6 +36,7 @@ export default function CompareHub() {
 
   return (
     <div className="space-y-10 fade-up">
+      <HubNav locale="fr" current="compare" />
       <header className="space-y-3 text-center">
         <div className="text-xs uppercase tracking-widest text-white/40">
           compare · moomz

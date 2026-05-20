@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HubNav, { type HubKey } from "@/app/_seo/hub-nav";
 import AdSlot from "@/app/ad-slot";
 import type { SeoPage, Locale } from "@/lib/seo/types";
 import { pageUrl, pollLaunchUrl } from "@/lib/seo/types";
@@ -93,8 +94,16 @@ export default function SeoPageView({ page }: Props) {
 
   const breadcrumbItems = buildBreadcrumbs(page);
 
+  const hubKey: HubKey =
+    page.category === "guides"
+      ? "guides"
+      : page.category === "blog"
+      ? "blog"
+      : "ideas";
+
   return (
     <article className="space-y-12 fade-up">
+      <HubNav locale={page.locale} current={hubKey} />
       <BreadcrumbJsonLd items={breadcrumbItems} />
       <Breadcrumb page={page} />
 

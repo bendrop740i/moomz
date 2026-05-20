@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import type { SeoPage, Locale, Category } from "@/lib/seo/types";
 import { pageUrl } from "@/lib/seo/types";
 import { allPages } from "@/lib/seo";
@@ -211,6 +212,7 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
 
   return (
     <div className="space-y-12 fade-up">
+      <HubNav locale={loc as HubLocale} current="ideas" />
       {/* Hero */}
       <header className="relative overflow-hidden glass rounded-[2rem] p-8 sm:p-12 text-center">
         <div className="pointer-events-none absolute -top-20 left-1/2 -translate-x-1/2 h-56 w-72 rounded-full bg-pink-500/25 blur-3xl" />
