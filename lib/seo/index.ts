@@ -4,6 +4,7 @@ import { idees2 } from "./idees-2";
 import { idees3 } from "./idees-3";
 import { ideasEn } from "./ideas-en";
 import { ideasEn2 } from "./ideas-en-2";
+import { ideasEn3 } from "./ideas-en-3";
 import { guides } from "./guides";
 import { guides2 } from "./guides-2";
 import { blog } from "./blog";
@@ -20,6 +21,7 @@ export const allPages: SeoPage[] = [
   ...idees3,
   ...ideasEn,
   ...ideasEn2,
+  ...ideasEn3,
   ...guides,
   ...guides2,
   ...blog,
