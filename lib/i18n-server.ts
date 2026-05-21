@@ -2,8 +2,14 @@ import { cookies, headers } from "next/headers";
 import { LOCALES, t as translate, type Locale, pickLocaleFromAcceptLanguage } from "./i18n";
 
 export function getLocale(): Locale {
+  // 1) URL-based locale — set by middleware.ts when the request came in on a
+  //    /{locale}/... SEO URL. This is authoritative: the language is in the URL.
+  const headerValue = headers().get("x-moomz-locale") as Locale | null;
+  if (headerValue && (LOCALES as string[]).includes(headerValue)) return headerValue;
+  // 2) Cookie — the visitor's chosen language (app surface, homepage).
   const cookieValue = cookies().get("moomz_locale")?.value as Locale | undefined;
   if (cookieValue && (LOCALES as string[]).includes(cookieValue)) return cookieValue;
+  // 3) Browser Accept-Language.
   return pickLocaleFromAcceptLanguage(headers().get("accept-language"));
 }
 

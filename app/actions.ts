@@ -367,6 +367,8 @@ const RESERVED_USERNAMES = new Set([
   "convertisseur", "converter", "meteo", "weather", "heure", "time",
   "jours-feries", "holidays", "crypto", "definition", "define", "cosmos",
   "recettes", "recipes", "astro", "horoscope",
+  // Locale codes — reserved by the URL-based i18n routing (/{locale}/...)
+  "en", "fr", "es", "it", "pt", "de", "ja", "zh", "keywords",
 ]);
 
 function randomToken() {
