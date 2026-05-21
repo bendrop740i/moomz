@@ -19,8 +19,16 @@ import { NextResponse, type NextRequest } from "next/server";
 const LOCALES = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"];
 
 // Old un-prefixed SEO routes that 301 to their locale-prefixed URL.
-// Expanded stage by stage as each surface is activated.
-const REDIRECT_ROUTES = new Set<string>(["quiz"]);
+// These all render via getLocale(), so /{locale}/<route> already works
+// through the generic rewrite above — this just sends the bare URL there.
+// The twin routes (word/mot, ideas/idees, define/definition,
+// quotes/citations) are handled separately once unified.
+const REDIRECT_ROUTES = new Set<string>([
+  "quiz", "template", "compare", "vs", "outils", "blog", "guides", "read",
+  "explore", "formation", "creators", "alternatives", "pricing", "q",
+  "convertisseur", "meteo", "heure", "crypto", "cosmos", "astro",
+  "recettes", "jours-feries",
+]);
 
 const COOKIE = "moomz_locale";
 const YEAR = 60 * 60 * 24 * 365;
