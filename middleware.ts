@@ -30,6 +30,15 @@ const REDIRECT_ROUTES = new Set<string>([
   "recettes", "jours-feries",
 ]);
 
+// Twin routes carry a FIXED authored language (not visitor-detected): the
+// English route renders English, the French route French. They 301 to their
+// own fixed locale prefix. The [locale]-segment routes (/topic/<loc>,
+// /citation/<loc>) already carry the locale in the URL — left as-is.
+const TWIN_ROUTES: Record<string, string> = {
+  word: "en", ideas: "en", quotes: "en", define: "en",
+  mot: "fr", idees: "fr", citations: "fr", definition: "fr",
+};
+
 const COOKIE = "moomz_locale";
 const YEAR = 60 * 60 * 24 * 365;
 
@@ -73,7 +82,14 @@ export function middleware(req: NextRequest): NextResponse {
     return res;
   }
 
-  // 2) Old un-prefixed SEO route → 301 to its locale-prefixed URL.
+  // 2) Twin route (fixed authored language) → 301 to its fixed locale prefix.
+  if (first && TWIN_ROUTES[first]) {
+    const url = req.nextUrl.clone();
+    url.pathname = `/${TWIN_ROUTES[first]}${pathname}`;
+    return NextResponse.redirect(url, 301);
+  }
+
+  // 3) Old un-prefixed SEO route → 301 to the visitor's locale-prefixed URL.
   if (first && REDIRECT_ROUTES.has(first)) {
     const url = req.nextUrl.clone();
     url.pathname = `/${detectLocale(req)}${pathname}`;
