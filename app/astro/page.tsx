@@ -12,7 +12,7 @@ import { getLocale } from "@/lib/i18n-server";
 import { pickAstroStrings } from "./_strings";
 import SignFinder from "./sign-finder";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 const ASTRO_HUB_META: Record<string, { title: string; description: string; ogTitle: string; ogDesc: string }> = {

@@ -18,7 +18,7 @@ import { getLocale } from "@/lib/i18n-server";
 import { pickString, type ToolLocale } from "../_strings";
 import { pollPrompt } from "../_poll-prompts";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 type Params = { pair: string };

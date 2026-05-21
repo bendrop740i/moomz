@@ -12,7 +12,7 @@ import {
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 const HOLIDAYS_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {

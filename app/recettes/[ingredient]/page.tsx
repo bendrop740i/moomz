@@ -17,7 +17,7 @@ import {
   type ToolLocale,
 } from "../_strings";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 export function generateStaticParams() {

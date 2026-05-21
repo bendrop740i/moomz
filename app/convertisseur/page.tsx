@@ -13,7 +13,7 @@ import {
 import { getLocale } from "@/lib/i18n-server";
 import { STRINGS, pickString, type ToolLocale } from "./_strings";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const META_HUB: Record<ToolLocale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {

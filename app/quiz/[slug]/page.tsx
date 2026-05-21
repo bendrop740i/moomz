@@ -6,7 +6,7 @@ import { findQuiz, relatedQuizzes, topicLabel } from "@/lib/quizzes";
 import { quizUrl, type QuizLocale } from "@/lib/quizzes/types";
 import QuizPlay from "./quiz-play";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 type Params = { slug: string };

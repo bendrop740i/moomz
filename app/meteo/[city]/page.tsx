@@ -14,7 +14,7 @@ import {
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 1800;
 
 export function generateStaticParams() {

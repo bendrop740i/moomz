@@ -16,7 +16,7 @@ import { getLocale } from "@/lib/i18n-server";
 import { pickAstroStrings } from "../_strings";
 import { getPersonality } from "../_personality";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 type Params = { sign: string };

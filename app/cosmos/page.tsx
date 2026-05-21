@@ -10,7 +10,7 @@ import {
 import { pickString, type ToolLocale } from "./_strings";
 import { ApodView, ArchivesGrid, PollCta, StubView } from "./_apod-view";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const COSMOS_META: Record<ToolLocale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {

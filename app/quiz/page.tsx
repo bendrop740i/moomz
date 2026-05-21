@@ -102,7 +102,7 @@ const QUIZ_HUB_CHROME: Record<
 
 const QUIZ_HUB_LOCALES: HubLocale[] = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"];
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 // Per-locale static metadata for the quiz hub.

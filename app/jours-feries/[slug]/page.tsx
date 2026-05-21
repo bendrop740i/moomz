@@ -18,7 +18,7 @@ import {
 } from "@/lib/tools/jours-feries";
 import { getLocale } from "@/lib/i18n-server";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 export function generateStaticParams(): { slug: string }[] {

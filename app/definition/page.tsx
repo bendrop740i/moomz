@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { FR_WORDS } from "@/lib/tools/definition";
 import DefinitionHubView from "@/app/_seo/definition-hub-view";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {

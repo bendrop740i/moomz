@@ -15,7 +15,7 @@ import {
 import { ApodView, ArchivesGrid, PollCta, StubView } from "../_apod-view";
 import { bcp47, pickString, type ToolLocale } from "../_strings";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 export const dynamicParams = true;
 

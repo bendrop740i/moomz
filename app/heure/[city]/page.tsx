@@ -15,7 +15,7 @@ import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import LiveClock from "./live-clock";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 export function generateStaticParams() {

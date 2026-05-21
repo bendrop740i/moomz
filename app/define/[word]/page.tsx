@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { EN_SLUGS, EN_WORDS, findEnWord } from "@/lib/tools/definition";
 import DefinitionView from "@/app/_seo/definition-view";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 86400;
 
 export function generateStaticParams() {

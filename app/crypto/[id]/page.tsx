@@ -22,7 +22,7 @@ import {
 import { getLocale } from "@/lib/i18n-server";
 import { pickStrings } from "../_strings";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 export const revalidate = 600;
 
 export function generateStaticParams() {
