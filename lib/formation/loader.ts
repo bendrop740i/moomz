@@ -59,6 +59,20 @@ export function getFormationByTheme(theme: FormationTheme): FormationItem[] {
   return ALL.filter((i) => i.theme === theme);
 }
 
+// Content language of an item — legacy data has no `locale` field → "fr".
+function itemLocale(i: FormationItem): string {
+  return i.locale ?? "fr";
+}
+
+// Modules in one content language. Formation content exists in FR + EN; for any
+// other locale, fall back to English (the international default).
+export function getFormationByLocale(locale: string): FormationItem[] {
+  const want = locale === "fr" ? "fr" : "en";
+  const hit = ALL.filter((i) => itemLocale(i) === want);
+  if (hit.length > 0) return hit;
+  return ALL.filter((i) => itemLocale(i) === "fr");
+}
+
 export function getFormationThemeCounts(): Record<string, number> {
   const counts: Record<string, number> = {};
   for (const i of ALL) counts[i.theme] = (counts[i.theme] ?? 0) + 1;

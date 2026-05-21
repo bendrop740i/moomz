@@ -1,0 +1,1579 @@
+[
+  {
+    "slug": "learning-to-code-where-to-start",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Learning to code: where to actually start",
+    "emoji": "💻",
+    "intro": "Coding is learnable — but not in a week. Here's how to build a solid foundation without getting lost.",
+    "sections": [
+      {
+        "heading": "Pick one language and stick with it",
+        "body": "The classic mistake is jumping between ten languages. For beginners, Python is ideal: readable syntax, huge community, useful for automation, data, and web. If you want visible results fast, the HTML/CSS/JavaScript combo delivers something in the browser on day one. Choose one, and stay with it for three to six months. The core concepts — variables, loops, functions, conditions — transfer easily to any other language once you've got them down."
+      },
+      {
+        "heading": "Code every day, even just 30 minutes",
+        "body": "Consistency beats intensity. Thirty minutes a day beats six hours on Sunday. Your brain needs repetition to wire in the logic. Lock in a fixed time slot — maybe first thing in the morning before class or work. After three months of daily practice, you'll hit the tipping point where code starts to make sense. The first few weeks are rough for everyone — that's completely normal."
+      },
+      {
+        "heading": "Build mini projects, don't just follow tutorials",
+        "body": "Watching tutorials gives you a false sense of mastery. Real learning happens when you build something alone. After each new concept, make a small project: a calculator, a converter, a quiz. You'll get stuck, search for answers, make mistakes — that's exactly where the growth is. Keep your projects in a folder; you'll be able to track your progress, and they'll fuel your future portfolio."
+      },
+      {
+        "heading": "Learn to search and read the docs",
+        "body": "Developers spend a huge chunk of their time hunting for solutions. Knowing how to phrase a search query, read an error message, and consult the official docs is a skill in itself. Don't copy code without understanding it. When you find an answer, take thirty seconds to figure out why it works. That's what makes you self-sufficient."
+      }
+    ],
+    "steps": [
+      "Choose Python or JavaScript and commit to it for 3 months",
+      "Block 30 minutes of coding time in your schedule every day",
+      "Follow one free structured course all the way through",
+      "After each chapter, build a mini project on your own",
+      "Keep track of your errors and how you solved them",
+      "Join a community where you can ask questions"
+    ],
+    "faq": [
+      {
+        "q": "How long until I can build a real project?",
+        "a": "With consistent practice, expect 3 to 6 months for simple but real projects, and 1 to 2 years to reach an employable level. Be patient — it's a marathon."
+      },
+      {
+        "q": "Do I need to be good at math?",
+        "a": "For most web and app development, middle-school math is enough. Logic matters more than math. Some areas (data, 3D games) demand more."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "choosing-your-first-programming-language",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Which programming language should you learn first?",
+    "emoji": "🐍",
+    "intro": "Python, JavaScript, something else? The right choice depends on what you want to build — not what's trendy.",
+    "sections": [
+      {
+        "heading": "Start from your concrete goal",
+        "body": "The right language depends on the goal. Want to build websites and browser-based apps? JavaScript (with HTML/CSS). Want to automate tasks, do data work, or get into AI? Python. Aiming for mobile development? Kotlin for Android, Swift for iOS. Into games? C# with Unity. Define what excites you first — the language will follow naturally."
+      },
+      {
+        "heading": "Go for a large community",
+        "body": "A widely-used language means more tutorials, more forum answers, and more job opportunities. Python and JavaScript dominate for beginners for exactly this reason. Avoiding niche languages at the start means you're never stuck with no one to ask. Once you have the fundamentals, picking up a second language becomes much faster."
+      },
+      {
+        "heading": "Don't switch every month",
+        "body": "Beginner syndrome: jumping to a new language the moment something gets hard. That's counterproductive — difficulty is part of learning and you'll hit it everywhere. Commit to one language for at least three months. Mastering the foundational concepts is what counts, and those concepts transfer."
+      }
+    ],
+    "steps": [
+      "Write in one sentence what you want to create",
+      "Match your goal to the most appropriate language",
+      "Check that it has a large community and free resources",
+      "Commit to it for 3 months without switching",
+      "Only learn a second language after you've finished one project"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "html-css-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "HTML and CSS: build your first web page",
+    "emoji": "🌐",
+    "intro": "HTML structures the content, CSS styles it. This duo is the most visible entry point into coding.",
+    "sections": [
+      {
+        "heading": "Understanding the HTML/CSS difference",
+        "body": "HTML is the skeleton: headings, paragraphs, images, links, buttons. CSS is the skin: colors, fonts, spacing, layout. A page without CSS works but looks like a raw document. A page without HTML has nothing to style. Learn to structure things cleanly in HTML before worrying about design — well-organized content is much easier to style later."
+      },
+      {
+        "heading": "Master modern layout",
+        "body": "Forget the old table-based tricks. Today, two CSS tools cover 90% of layouts: Flexbox for aligning items along a row or column, and Grid for grid-based arrangements. Spend a day getting comfortable with each. Once you've got both down, laying out a page becomes logical instead of a fight."
+      },
+      {
+        "heading": "Think responsive from day one",
+        "body": "Most web traffic comes from mobile. Your page needs to adapt to every screen size. Use flexible units instead of fixed pixels, and media queries to adjust the layout based on width. Regularly test by resizing your browser window. A great-looking desktop page that breaks on mobile is a failed page."
+      }
+    ],
+    "steps": [
+      "Create an index.html file and write a basic structure",
+      "Add headings, paragraphs, images, and links",
+      "Link an external CSS stylesheet",
+      "Learn Flexbox then Grid on small examples",
+      "Make the page responsive with media queries",
+      "Put your page online for free to share it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "javascript-for-beginners",
+    "theme": "digital",
+    "locale": "en",
+    "title": "JavaScript for beginners: making a page interactive",
+    "emoji": "⚡",
+    "intro": "JavaScript brings your pages to life: clicks, animations, forms. It's the language of the browser.",
+    "sections": [
+      {
+        "heading": "The fundamentals you need to nail",
+        "body": "Before you touch interactivity, lock in the basics: variables, data types, conditions, loops, functions, arrays, and objects. These show up in every line of code. Don't rush toward frameworks. A developer who has mastered plain JavaScript learns React or Vue much faster than someone who skipped that step. Invest the time here — everything else follows."
+      },
+      {
+        "heading": "Manipulating the page with the DOM",
+        "body": "The DOM is the representation of your page that JavaScript can modify. You learn to select an element, change its text, add a class, react to a click. This is what turns a static page into an app. Practice with hands-on projects: a button that changes the background color, a to-do list, a counter. Seeing your code act on screen is incredibly motivating."
+      },
+      {
+        "heading": "Handling async without panicking",
+        "body": "Loading data from the internet takes time, and JavaScript doesn't just freeze and wait. That's the async concept — often confusing at first. Learn promises, then the cleaner async/await syntax. Practice fetching data from a free public API and displaying it. Once this clicks, a huge chunk of modern JavaScript will suddenly make sense."
+      }
+    ],
+    "steps": [
+      "Master variables, conditions, loops, and functions",
+      "Learn to select and modify DOM elements",
+      "Build a to-do list app from scratch",
+      "Understand promises, then async/await",
+      "Fetch and display data from a public API",
+      "Rebuild a project without looking at any tutorials"
+    ],
+    "faq": [
+      {
+        "q": "Should I jump straight into React?",
+        "a": "No. Master plain JavaScript for a few months first. React is much easier to learn after that — and you'll actually understand what it's doing under the hood."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-programming-logic",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding programming logic",
+    "emoji": "🧩",
+    "intro": "Before syntax comes logic. Knowing how to break down a problem is the real developer skill.",
+    "sections": [
+      {
+        "heading": "Break every problem into small steps",
+        "body": "A program is just a sequence of precise instructions. When facing a problem, don't go looking for the complete solution all at once. Chop it into tiny sub-tasks: receive some data, transform it, display it. Write these steps out in plain English before you start coding. This habit — called pseudocode — keeps you from getting lost and makes the jump to real code much smoother."
+      },
+      {
+        "heading": "Think: input, processing, output",
+        "body": "Almost every program follows this pattern: it takes inputs, processes them, and produces an output. A calculator takes two numbers, adds them, and shows the result. Keeping this model in mind clarifies any project. Always ask yourself: what data do I start with, what do I want at the end, and what transformations happen in between?"
+      },
+      {
+        "heading": "Get comfortable with conditions and loops",
+        "body": "Two tools cover almost everything. Conditions make decisions: if this situation, do this; otherwise, do that. Loops repeat an action: for each item in a list, do this. Most programs are just combinations of these two building blocks. Practice recognizing them in simple exercises until they feel automatic."
+      }
+    ],
+    "steps": [
+      "Take a problem and write it out in plain English step by step",
+      "Identify the input, the processing, and the output",
+      "Spot where you need a condition or a loop",
+      "Translate your pseudocode into real code, line by line",
+      "Solve a logic exercise every day"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-git-and-github",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Git and GitHub: save and share your code",
+    "emoji": "🔀",
+    "intro": "Git tracks your code history, GitHub hosts it online. Essential from your very first real project.",
+    "sections": [
+      {
+        "heading": "Why Git changes everything",
+        "body": "Git records every version of your project. You can roll back after a mistake, compare two states, work without fear of breaking things. It's a permanent safety net. Without Git, you make folders named project-final-FINAL-v2. With Git, your history is clean and you can find any version in seconds."
+      },
+      {
+        "heading": "The everyday commands you need",
+        "body": "You only need a handful of commands day-to-day. Init to start tracking, add to stage files, commit to save a version with a clear message, push to send to GitHub, pull to get changes back. Write descriptive commit messages — they tell the story of your project and help you find your way around later."
+      },
+      {
+        "heading": "GitHub: your developer showcase",
+        "body": "GitHub isn't just storage — it's a professional network. Recruiters look at GitHub profiles. An account with regular projects, clean READMEs, and readable code is a strong argument on a resume. Host your projects publicly, put care into their presentation, and even contribute modestly to open source to show you can collaborate."
+      }
+    ],
+    "steps": [
+      "Install Git and configure your name and email",
+      "Create a GitHub account with a professional username",
+      "Initialize a repo in your project with git init",
+      "Make regular commits with clear messages",
+      "Publish your project on GitHub with git push",
+      "Add a README that explains what your project does"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-smartly",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using AI smartly — without cheating yourself",
+    "emoji": "🤖",
+    "intro": "AI is a powerful tool. Used well, it accelerates your growth; used poorly, it gets in the way of learning.",
+    "sections": [
+      {
+        "heading": "AI as a tutor, not a crutch",
+        "body": "Ask AI to explain a concept, correct you, or suggest approaches — not to do everything for you. If you copy an answer without understanding it, you learn nothing and you'll be stuck the moment the tool isn't around. The right move: try on your own first, then use AI to understand why you were stuck. The goal is to become capable of working without it."
+      },
+      {
+        "heading": "Always verify what AI produces",
+        "body": "AI gets things wrong with confidence. It sometimes invents facts, functions, or sources that don't exist. Never blindly trust a response. Run the code to test it, cross-check information against reliable sources, challenge claims. AI speeds up your work, but the responsibility for the result stays with you."
+      },
+      {
+        "heading": "Honesty: don't pass AI output off as your own",
+        "body": "Submitting a homework assignment, article, or project that's entirely AI-generated as your own work is plagiarism — and it's often detected. It also robs you of your own growth. Use AI to brainstorm, structure, and correct, but keep the actual creation yours. When a context requires you to disclose AI use, do it. Integrity builds a reputation that lasts."
+      }
+    ],
+    "steps": [
+      "Always attempt to solve something yourself before asking AI",
+      "Ask for explanations, not just answers",
+      "Test and verify everything AI produces",
+      "Never submit AI work as entirely your own",
+      "Use AI to grow, not to skip learning"
+    ],
+    "faq": [
+      {
+        "q": "Will AI replace developers?",
+        "a": "It's transforming the job more than eliminating it. Those who can use AI while actually understanding code remain highly sought after. Learning the basics is still essential."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-good-ai-prompts",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Writing good prompts for AI",
+    "emoji": "✍️",
+    "intro": "The quality of an AI response depends on your question. A clear prompt makes all the difference.",
+    "sections": [
+      {
+        "heading": "Give context and assign a role",
+        "body": "AI responds better when it knows who it's helping and why. Provide context: your level, the goal, the target audience. You can also assign a role — for example, act as a tough editor or a patient teacher. Instead of saying 'fix this text', say 'fix this internship application email — professional tone, English-speaking audience.' The more specific, the more useful."
+      },
+      {
+        "heading": "Specify the output format",
+        "body": "If you don't say anything, AI picks a format at random. Tell it what you want: a bulleted list, a table, a short paragraph, commented code, a particular tone. You can also set a length. Asking for 'an explanation in five simple points' gives a far more usable result than a vague request. Format saves you a ton of time."
+      },
+      {
+        "heading": "Iterate instead of asking for everything at once",
+        "body": "Good results rarely come from the first prompt. Work in stages: get a draft, then ask for specific adjustments. Shorter. More formal. Add an example. Rephrase this part. This back-and-forth approach produces far better results than one giant prompt. It's a conversation, not a vending machine."
+      }
+    ],
+    "steps": [
+      "Specify context, goal, and audience",
+      "Assign a role to the AI when relevant",
+      "Indicate the desired format and length",
+      "Provide an example of the expected output if possible",
+      "Refine through back-and-forth iterations"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-to-learn-faster",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using AI to learn faster",
+    "emoji": "📚",
+    "intro": "Used well, AI becomes a 24/7 tutor available for any subject you want to tackle.",
+    "sections": [
+      {
+        "heading": "Get explanations tailored to your level",
+        "body": "One of AI's biggest strengths is adapting an explanation to wherever you're at. Stuck on a concept? Ask for a simple explanation with an everyday analogy, as if you're fifteen. Then ask for a more advanced version when you're ready. You can fire off questions non-stop without bothering anyone, until it actually clicks. No traditional course offers that kind of flexibility."
+      },
+      {
+        "heading": "Test yourself with quizzes",
+        "body": "Passive learning isn't enough — you have to test yourself. Ask AI to quiz you on a chapter, without showing the answers, then have it grade your responses. This active recall mechanism locks in knowledge for the long haul. You can also ask it to break down your mistakes. It's one of the most effective ways to study."
+      },
+      {
+        "heading": "Keep your critical eye",
+        "body": "AI is an excellent starting point, but not an absolute authority. For factual topics, statistics, current events, or sensitive questions, always cross-check with reliable sources. Use it to understand and structure, then verify. The goal is to learn to think for yourself — not to outsource your judgment to a machine."
+      }
+    ],
+    "steps": [
+      "Ask for explanations matched to your current level",
+      "Request an analogy when a concept stays fuzzy",
+      "Have it quiz you to lock in what you've learned",
+      "Ask it to analyze your mistakes",
+      "Cross-check factual info with reliable sources"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "knowing-ais-limits-and-pitfalls",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Knowing AI's limits and pitfalls",
+    "emoji": "⚠️",
+    "intro": "AI is impressive but fallible. Knowing its limits protects you from nasty surprises.",
+    "sections": [
+      {
+        "heading": "Hallucinations: confident errors",
+        "body": "An AI can make up false information while sounding completely sure of itself. It might cite a non-existent book, a wrong statistic, or a code function that doesn't exist. That's what's called a hallucination. The rule is simple: never take an important claim at face value. Always verify — especially facts, numbers, dates, and sources."
+      },
+      {
+        "heading": "Outdated data and bias",
+        "body": "An AI is trained on data up to a certain point — it might know nothing about recent events. It also reflects the biases present in its training data, which can color its answers on social or cultural topics. Keep in mind that its responses are neither neutral nor up-to-date by default. For current events, go to direct sources."
+      },
+      {
+        "heading": "Privacy: be careful what you share",
+        "body": "Don't paste sensitive information into an AI: passwords, banking details, confidential documents, other people's personal data. Depending on the tool, your inputs may be stored or used. Treat every conversation as potentially non-private. Anonymize sensitive information before asking for help, and check the tool's privacy settings."
+      }
+    ],
+    "steps": [
+      "Always verify facts, numbers, and sources",
+      "Don't rely on AI for recent news",
+      "Stay alert to bias in its answers",
+      "Never share sensitive or confidential information",
+      "Read the tool's privacy settings"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-strong-passwords",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Creating genuinely strong passwords",
+    "emoji": "🔑",
+    "intro": "A weak password is the first vulnerability attackers exploit. Here's how to protect all your accounts.",
+    "sections": [
+      {
+        "heading": "Long and unique beats complex",
+        "body": "Length is the most important factor. A 12-character-plus password holds up far better than a short one stuffed with symbols. A good technique is the passphrase: several unrelated words, easy to remember but hard to guess. Above all, never use the same password on two accounts — if one site gets breached, all your other accounts fall too."
+      },
+      {
+        "heading": "Use a password manager",
+        "body": "Remembering fifty unique, long passwords is impossible. A password manager generates them, stores them in encrypted form, and fills them in for you. You only need to memorize one master password — which has to be very strong. It's the single best security upgrade you can make in an afternoon."
+      },
+      {
+        "heading": "Identify your high-risk accounts",
+        "body": "Not all accounts carry the same weight. Your main email is the most critical: it's used to reset everything else. Protect it first with a unique password and two-factor authentication. Do the same for banking accounts and important social profiles. Regularly check whether your email address has leaked in a known data breach."
+      }
+    ],
+    "steps": [
+      "Create passwords of at least 12 characters",
+      "Use a unique password for every account",
+      "Install a reputable password manager",
+      "Choose a very strong master password",
+      "Enable two-factor authentication on sensitive accounts"
+    ],
+    "faq": [
+      {
+        "q": "Is a password manager actually safe?",
+        "a": "Yes — far safer than reusing the same passwords everywhere. Choose a well-known service, protect your master password, and enable two-factor authentication on it."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "two-factor-authentication",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Two-factor authentication: your best protection",
+    "emoji": "🛡️",
+    "intro": "Even with a strong password, 2FA adds a lock that stops the vast majority of attacks.",
+    "sections": [
+      {
+        "heading": "How it works",
+        "body": "Two-factor authentication requires a second proof on top of your password: a temporary code, a notification to approve, a physical key. Even if someone steals your password, they can't log in without that second factor. It's one of the most effective and easiest protections to switch on. It blocks the overwhelming majority of account takeovers."
+      },
+      {
+        "heading": "Authentication app over SMS",
+        "body": "Receiving a code by text is better than nothing, but still vulnerable to certain attacks. A dedicated authentication app generates codes on your phone without relying on the network — and it's more secure. For critical accounts, even better: a physical security key. Choose the level that fits the importance of the account."
+      },
+      {
+        "heading": "Save your recovery codes",
+        "body": "When you enable two-factor authentication, the service gives you one-time recovery codes. They let you log in if you lose your phone. Don't ignore them: write them down somewhere secure and offline, or save them in your password manager. Without them, losing your phone can mean losing access to your accounts."
+      }
+    ],
+    "steps": [
+      "Enable 2FA on your main email account",
+      "Extend it to banking accounts and social profiles",
+      "Prefer an authentication app over SMS",
+      "Store your recovery codes somewhere safe",
+      "For critical accounts, consider a physical security key"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "recognizing-phishing",
+    "theme": "digital",
+    "locale": "en",
+    "title": "How to spot and avoid phishing",
+    "emoji": "🎣",
+    "intro": "Phishing is the most common digital scam. Knowing how to recognize it protects your accounts and your money.",
+    "sections": [
+      {
+        "heading": "How phishing works",
+        "body": "Phishing involves impersonating a trusted service — a bank, a social network, a delivery company — to push you into handing over your login credentials or payment details. The message mimics the official look and plays on urgency or fear: account blocked, package waiting, payment failed. The goal is to get you to click and enter your info without thinking."
+      },
+      {
+        "heading": "The warning signs",
+        "body": "Several clues give away a phishing attempt: a strange sender address, spelling or grammar mistakes, an urgent or threatening tone, a link whose address doesn't match the official site, a request for sensitive information. Hover over a link before clicking to see where it actually goes. A legitimate service will never ask for your full password by email."
+      },
+      {
+        "heading": "The right reflex when in doubt",
+        "body": "Never click a suspicious link. If you're unsure, go directly to the official site by typing its address yourself, or use the official app. Contact the service through its known channels to verify. If you've unfortunately entered a password on a fake site, change it immediately everywhere you used it — and call your bank if financial details were involved."
+      }
+    ],
+    "steps": [
+      "Be suspicious of urgent or threatening messages",
+      "Check the sender's address and the links",
+      "Never enter your credentials through a link you received",
+      "When in doubt, navigate to the official site yourself",
+      "If you fell for it, change your passwords immediately"
+    ],
+    "faq": [
+      {
+        "q": "How can I tell if a delivery text is fake?",
+        "a": "A real carrier won't ask for payment or credentials by text. When in doubt, track your package on the carrier's official website — never through the link in the message."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "protecting-your-privacy-online",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Protecting your privacy online",
+    "emoji": "🔒",
+    "intro": "Your data has value. A few settings and habits significantly reduce your exposure.",
+    "sections": [
+      {
+        "heading": "Limit what you share publicly",
+        "body": "Every piece of public information can be used: your address, school, hangout spots, schedule, geotagged photos. Before posting, ask yourself whether the info could be useful to someone with bad intentions. Avoid announcing in real time that you're away on vacation. Keep personal details for close contacts, and think twice before posting photos of other people."
+      },
+      {
+        "heading": "Check your account privacy settings",
+        "body": "Default app settings favor maximum sharing, not your protection. Take an hour to go through the privacy settings on your main accounts: who sees your posts, who can contact you, what data is collected. Turn off location tracking when it isn't useful, and limit app permissions to what's strictly necessary."
+      },
+      {
+        "heading": "Shrink your digital footprint",
+        "body": "Type your name into a search engine to see what's publicly visible. Delete old accounts you no longer use — they're open doors in case of a breach. Use a secondary email address for low-stakes signups. The less you scatter your data, the more control you have over your image and your security."
+      }
+    ],
+    "steps": [
+      "Search your name online to see what's visible",
+      "Go through the privacy settings on your accounts",
+      "Disable location tracking when you don't need it",
+      "Limit app permissions",
+      "Delete old, unused accounts"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-an-online-portfolio",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Building an online portfolio that stands out",
+    "emoji": "🗂️",
+    "intro": "A portfolio shows what you can do, far better than a resume. It's your strongest professional asset.",
+    "sections": [
+      {
+        "heading": "Show, don't just tell",
+        "body": "An employer or client wants concrete proof. A portfolio brings together your best work: code projects, designs, articles, videos, photos. Quality over quantity applies: five excellent projects beat twenty mediocre ones. For each project, explain the context, your role, the decisions you made, and the outcome. The recruiter wants to understand how you think."
+      },
+      {
+        "heading": "Choose the right medium for your field",
+        "body": "The right format depends on your trade. A developer can use a personal site and GitHub. A graphic designer, a clean visual on a dedicated platform. A writer, a blog or links to published pieces. You don't need to code everything: no-code tools let you build a professional portfolio fast. What matters is that it's clear, loads quickly, and stays up to date."
+      },
+      {
+        "heading": "Polish the presentation and make yourself easy to reach",
+        "body": "A portfolio should be easy to browse: clear navigation, fast load, solid mobile display. Lead with who you are, what you're looking for, and how to get in touch. Add a visible contact method and a link to your professional profile. Proofread to eliminate typos — a careless portfolio sends the wrong message."
+      }
+    ],
+    "steps": [
+      "Select your 5 to 8 best pieces of work",
+      "For each project, describe the context, your role, and the result",
+      "Choose a medium that fits your field",
+      "Check mobile display and loading speed",
+      "Add a clear intro and a way to contact you",
+      "Update your portfolio as soon as a project is done"
+    ],
+    "faq": [
+      {
+        "q": "What if I don't have professional projects yet?",
+        "a": "Make some. Personal projects, polished exercises, a fictional redesign of an existing site — anything that demonstrates your skills counts, even without a real client behind it."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "personal-branding-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Personal branding: the basics for getting noticed",
+    "emoji": "🌟",
+    "intro": "Personal branding is about managing the image you project online — authentically and consistently.",
+    "sections": [
+      {
+        "heading": "Define what you want to be known for",
+        "body": "Strong personal branding starts with clarity. Ask yourself: which field do I want to grow in, what useful things can I share, who am I talking to? You don't need to be an expert to start — sharing your learning journey interests people at the same stage as you. Pick one main theme and stay committed to it rather than talking about everything."
+      },
+      {
+        "heading": "Be consistent across your profiles",
+        "body": "When someone searches your name, the profiles they find should all tell the same story. Use a recognizable profile photo, a clear and consistent bio, the same handle where possible. Consistency makes your image memorable and professional. Update your main profiles to reflect what you're doing today — not what you were doing two years ago."
+      },
+      {
+        "heading": "Deliver value, consistently",
+        "body": "Personal branding isn't built by talking about yourself non-stop — it's built by being useful. Share what you're learning, offer tips, show your projects, share your thoughts. Consistency matters more than perfection: posting something modest every week beats posting rarely but perfectly. Over time, that steadiness builds a reputation and an audience."
+      }
+    ],
+    "steps": [
+      "Pick one main theme for your online presence",
+      "Identify the audience you want to reach",
+      "Align your photo, handle, and bio across profiles",
+      "Post useful content on your theme regularly",
+      "Stay authentic — don't play a character"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-an-effective-bio",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Writing an effective social media bio",
+    "emoji": "📝",
+    "intro": "Your bio is the first thing people read. In a few words, it needs to say who you are and why someone should follow you.",
+    "sections": [
+      {
+        "heading": "Answer three questions",
+        "body": "A good bio answers three questions at a glance: who are you, what do you do or share, why should someone follow you? Avoid vague phrases like 'passionate about life.' Be specific: what you create, what your content covers, what the visitor gets out of it. A precise bio attracts the right people and filters out everyone else."
+      },
+      {
+        "heading": "Get straight to the point",
+        "body": "Space is limited and attention is short. Every word needs to earn its place. Cut the fluff, keep the useful info. A simple structure works well: your activity, your topic, one personality element, a call to action or a link. A few well-chosen emojis can air out the text, but don't overdo it — clarity beats decoration."
+      },
+      {
+        "heading": "Adapt it to the platform and keep it current",
+        "body": "A professional bio on a work-focused network won't look like your bio on a more casual one — adjust the tone. Also update your bio when your work changes: a stale bio makes a bad impression. If the platform allows a link, point it to whatever matters most to you right now — like your portfolio."
+      }
+    ],
+    "steps": [
+      "Write in one sentence who you are and what you do",
+      "State your content topic and the benefit of following you",
+      "Cut anything vague or unnecessary",
+      "Adapt the tone for each platform",
+      "Update your bio whenever your activity changes"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-video-content",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Creating video content: starting simple",
+    "emoji": "🎬",
+    "intro": "You don't need expensive gear to start making videos. Consistency and clarity matter more than budget.",
+    "sections": [
+      {
+        "heading": "Start with what you have",
+        "body": "A recent smartphone films very well. Don't wait for professional equipment — gear can't save content that has nothing to offer. Focus on two simple things that make all the difference: good lighting (natural light facing you is ideal) and clean audio. Viewers forgive average visuals but bail fast if the sound is bad."
+      },
+      {
+        "heading": "Hook them in the first few seconds",
+        "body": "With short-form content, the opening seconds decide whether someone stays or scrolls. Get straight to it: announce what the video delivers, ask a question, show something interesting immediately. Skip the long intros. Then structure your video clearly: one idea, developed, then a conclusion or call to action."
+      },
+      {
+        "heading": "Improve through consistency",
+        "body": "Your first videos will be imperfect — that's fine. Skill comes from repetition: framing, pacing, editing, on-camera confidence all improve video by video. Publish regularly, watch what works, adjust. Don't compare your beginnings to established creators — they all started awkwardly too. Consistency beats isolated talent."
+      }
+    ],
+    "steps": [
+      "Film with your smartphone, nail the lighting and audio",
+      "Hook viewers in the first few seconds",
+      "Structure each video around a single idea",
+      "Edit simply: cut the dead air",
+      "Publish consistently and analyze what works",
+      "Pick one specific thing to improve with each new video"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "video-editing-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "The basics of video editing",
+    "emoji": "✂️",
+    "intro": "Editing turns raw footage into a video that holds attention. Here are the fundamentals.",
+    "sections": [
+      {
+        "heading": "Pacing before effects",
+        "body": "The heart of editing isn't flashy transitions — it's pacing. Cut the hesitations, the silences, the slow parts. A dynamic video keeps viewers engaged. Simple rule: if a shot adds nothing, remove it. Better a short, punchy video than a long, sagging one. Effects come last, and used sparingly."
+      },
+      {
+        "heading": "Sound quality and readability",
+        "body": "Good editing balances audio: clear voice, subtle background music, no jarring volume swings. Add subtitles — plenty of people watch on mute, and captions significantly boost watch time. Keep on-screen text short, readable, and well-positioned. Readability beats aesthetics every time."
+      },
+      {
+        "heading": "Choose a tool that fits your level",
+        "body": "No need to start with a complex professional app. Free editing apps — on phone or computer — are more than enough to begin, and they take just a few hours to learn. Master the basics first: cutting, assembling, adjusting audio, adding text. You'll step up to a more advanced tool when you actually feel the need."
+      }
+    ],
+    "steps": [
+      "Import your footage and cut anything unnecessary",
+      "Work on pacing: trim the dead air",
+      "Balance voice and background music",
+      "Add readable subtitles",
+      "Keep effects and transitions to a minimum",
+      "Export in the right format for your platform"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smartphone-photography-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "The basics of smartphone photography",
+    "emoji": "📷",
+    "intro": "Great photos don't depend on your device — they depend on a few simple principles you can apply right now.",
+    "sections": [
+      {
+        "heading": "Light makes the photo",
+        "body": "Light is the single most important element. Soft natural light — early morning or late afternoon — flatters your subject. Avoid harsh midday sun that carves deep shadows, and uncontrolled backlight that plunges your subject into darkness. Position the light in front of you or to the side to add depth. Learning to read light will improve your photos more than any setting ever will."
+      },
+      {
+        "heading": "Compose your shot",
+        "body": "Good composition guides the eye. The rule of thirds is a useful starting point: place your subject on the guideline intersections rather than dead center. Watch your background — a cluttered backdrop distracts from the subject. Look for leading lines that pull the eye, and foreground elements that add depth. Turn on your camera's grid to help frame the shot."
+      },
+      {
+        "heading": "Edit with restraint",
+        "body": "Editing is for enhancing a photo, not rescuing it or distorting it. A few adjustments usually do the job: brightness, contrast, cropping, straightening the horizon. Avoid heavy filters that make everything look artificial. If you're building a feed or portfolio, aim for visual consistency between your photos. Natural still wins in the long run."
+      }
+    ],
+    "steps": [
+      "Find soft, natural light",
+      "Position the light to the side for depth",
+      "Turn on the grid and apply the rule of thirds",
+      "Clean up the background in your frame",
+      "Edit with a light touch: brightness, contrast, crop"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-well-for-the-web",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Writing well for the web",
+    "emoji": "🖊️",
+    "intro": "Writing online demands clarity and brevity. Reading a screen isn't like reading a book.",
+    "sections": [
+      {
+        "heading": "Get to the point",
+        "body": "Attention online is limited. State your topic and its value within the first few lines — no long warmup. Put the important information first. Cut long sentences, repetition, and filler words. Effective web writing says the same thing as verbose writing, but in half the words. Every word has to earn its spot."
+      },
+      {
+        "heading": "Structure for scanning",
+        "body": "Most readers skim before they read. Help them: short paragraphs, clear subheadings, bullet lists where relevant, key words emphasized in moderation. A well-structured page makes sense even skimmed. A dense, uniform block of text drives people away. White space is a courtesy to your reader."
+      },
+      {
+        "heading": "Revise and simplify",
+        "body": "The first draft is rarely good — and that's fine. The real work is in the revision: fix errors (which undermine your credibility) and, above all, simplify. Replace convoluted phrasing with plain sentences. Read your text aloud: if you stumble, your reader will too. Clear writing isn't weak writing — it's writing that respects the reader."
+      }
+    ],
+    "steps": [
+      "State your topic in the opening lines",
+      "Cut long sentences and filler words",
+      "Use subheadings and short paragraphs",
+      "Proofread to catch errors",
+      "Read aloud to spot anything clunky"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "graphic-design-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "The basics of graphic design",
+    "emoji": "🎨",
+    "intro": "A few simple principles are enough to create clean, professional visuals — no formal training required.",
+    "sections": [
+      {
+        "heading": "Hierarchy: guiding the eye",
+        "body": "A good visual immediately signals what's important. Hierarchy creates this order: the main element is bigger, higher contrast, or better positioned; the details are understated. If everything is the same size and intensity, the eye has nowhere to land. Before obsessing over colors, ask yourself: what should the viewer see first, second, and third?"
+      },
+      {
+        "heading": "Space and alignment",
+        "body": "White space isn't wasted space — it's what makes a visual feel airy and professional. Don't fill every inch. Leave breathing room around key elements. Align everything to shared guides: clean alignment registers even subconsciously, while sloppy alignment reads as amateur. Precision here makes the difference."
+      },
+      {
+        "heading": "Colors and fonts: less is more",
+        "body": "Beginners use too many colors and too many fonts. Limit yourself to a tight palette — two or three coherent colors — and one or two typefaces. Contrast needs to be high enough to keep text legible. Restraint almost always looks more professional than abundance. Study visuals you admire to train your eye."
+      }
+    ],
+    "steps": [
+      "Define the main element of your visual",
+      "Create hierarchy through size and contrast",
+      "Leave white space around key elements",
+      "Align everything to shared guides",
+      "Limit yourself to 2–3 colors and 1–2 fonts",
+      "Check that text stays clearly legible"
+    ],
+    "faq": [
+      {
+        "q": "Do you need to know how to draw for graphic design?",
+        "a": "No. Graphic design is mostly about composition, hierarchy, and readability. Modern tools handle the technical side — your eye develops with practice."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "choosing-colors-and-fonts",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Choosing the right colors and fonts",
+    "emoji": "🌈",
+    "intro": "Colors and fonts set the tone of a visual. A few rules prevent the most common mistakes.",
+    "sections": [
+      {
+        "heading": "Building a cohesive palette",
+        "body": "An effective palette stays small: one dominant color, one secondary color, one accent to draw the eye to what matters, plus neutrals. Too many colors muddy the message. Think about meaning too — colors evoke emotions and carry different weight across cultures. Reuse the same palette across all your materials for a recognizable identity."
+      },
+      {
+        "heading": "Choosing and pairing fonts",
+        "body": "One or two fonts will almost always do the job. One for headings, another for body text. Choose readable typefaces: an original but illegible font works against your message. For body copy, favor simplicity. Check legibility at small sizes and on screen. Golden rule: restraint almost always looks more professional."
+      },
+      {
+        "heading": "Maintaining contrast and accessibility",
+        "body": "Text must always be easy to read: sufficient contrast between text and background is non-negotiable. Light text on a light background, or pale gray, excludes part of your audience — especially those with low vision. Accessibility isn't optional: a design that anyone can read is simply a better design. Test your visuals on different screens."
+      }
+    ],
+    "steps": [
+      "Define a dominant color, a secondary, and an accent",
+      "Reuse the same palette across all your materials",
+      "Stick to 1–2 readable fonts",
+      "Reserve one font for headings, one for body text",
+      "Check text-to-background contrast for legibility"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "no-code-tools",
+    "theme": "digital",
+    "locale": "en",
+    "title": "No-code tools: building without coding",
+    "emoji": "🧱",
+    "intro": "No-code lets you build websites, apps, and automations without writing a single line of code. It's a real skill.",
+    "sections": [
+      {
+        "heading": "What no-code actually lets you do",
+        "body": "No-code tools replace code with visual interfaces: you assemble blocks and connect elements. That means you can build a website, an online store, a simple app, a connected form, or automate repetitive tasks between services. It's perfect for testing an idea quickly, without a development budget — or for saving time on manual, repetitive work."
+      },
+      {
+        "heading": "Choosing the right tool for the job",
+        "body": "There's a family of tools for every need: website creation, web apps, service-to-service automation, visual databases, forms. Don't search for the perfect all-in-one tool — start from your specific project and pick the tool that fits. Most offer a free tier that's more than enough to learn and launch a first project."
+      },
+      {
+        "heading": "Knowing the limits",
+        "body": "No-code is powerful, but it has ceilings. Very specific or complex projects often end up requiring real code. You're also dependent on the platform: its pricing, its rules, its longevity. No-code is great for starting out, validating an idea, or automating your day-to-day life. If your project grows significantly, knowing the basics of coding remains a real asset."
+      }
+    ],
+    "steps": [
+      "Define precisely what you want to build",
+      "Choose a tool category that fits that need",
+      "Start with the free tier of a well-known tool",
+      "Complete one simple project end to end",
+      "Identify the limits before committing to a large project"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-website-without-coding",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Building a website without writing code",
+    "emoji": "🖥️",
+    "intro": "Having your own site is within reach for everyone, thanks to visual website builders. Here's how to do it.",
+    "sections": [
+      {
+        "heading": "Define what your site is for",
+        "body": "Before choosing a tool, be clear on the purpose: a portfolio, a presentation page, a blog, a small shop. The goal determines the structure and the type of platform. A successful site does one thing well rather than ten things poorly. Write down the pages you need and the key message you want every visitor to take away."
+      },
+      {
+        "heading": "Pick a builder and a template",
+        "body": "Website builders offer ready-made templates you customize without code. Pick a template close to what you want to save time, then adapt the text, images, and colors to your identity. Keep it simple — clean, readable design ages better than a site overloaded with effects. Make sure above all that the mobile view looks great."
+      },
+      {
+        "heading": "Focus on content, speed, and discoverability",
+        "body": "A beautiful site with no useful content is pointless. Write clear text, choose strong images, make your contact info visible. Optimize speed by avoiding oversized images. Think about the SEO basics: descriptive titles, clear descriptions, a clean URL. Before sharing your site, test it on mobile and have someone proofread it."
+      }
+    ],
+    "steps": [
+      "Define the goal and the list of pages",
+      "Choose a website builder that fits your needs",
+      "Start from a template close to what you want",
+      "Customize the text, images, and colors",
+      "Check mobile display and loading speed",
+      "Proofread everything and publish"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "automating-repetitive-digital-tasks",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Automating your repetitive digital tasks",
+    "emoji": "🔁",
+    "intro": "Plenty of everyday digital tasks can be automated. That's time back in your week.",
+    "sections": [
+      {
+        "heading": "Spot what's worth automating",
+        "body": "Not everything deserves automation. Look for tasks that are repetitive, regular, and predictable: sorting files, backing up data, copying information between services, sending a reminder. Track your actions for a week. The ones that come up often and follow the same steps every time are your best candidates."
+      },
+      {
+        "heading": "No-code automation tools",
+        "body": "Automation platforms connect your apps with simple logic: when this happens, do that. You can automatically save an attachment, add a row in a spreadsheet, receive an alert. Your phone and computer also come with built-in shortcuts and automations. Most of these tools have a free tier that's enough to get started."
+      },
+      {
+        "heading": "Stay in control",
+        "body": "A badly designed automation can cause silent damage: deleting the wrong files, sending unwanted messages. Always test an automation on a small scope before rolling it out broadly. Verify it does exactly what you expect, and keep a way to turn it off. Automation should free up your time — not create new problems to babysit."
+      }
+    ],
+    "steps": [
+      "Track your repetitive tasks for a week",
+      "Select the ones that are regular and predictable",
+      "Choose an automation tool that fits",
+      "Create one simple automation first",
+      "Test it on a small scope before scaling up"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "digital-productivity",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Digital productivity: working smarter on screen",
+    "emoji": "⚙️",
+    "intro": "Your digital tools can save or drain massive amounts of time. A few habits change everything.",
+    "sections": [
+      {
+        "heading": "Cut the distractions",
+        "body": "The number one digital time sink is notifications. Every interruption breaks your focus, and it takes several minutes to recover it. Turn off non-essential notifications, move distracting apps off your home screen, and work in focused sessions without tab-hopping. A calm environment beats ten productivity apps."
+      },
+      {
+        "heading": "Learn keyboard shortcuts",
+        "body": "Keyboard shortcuts seem trivial but save enormous amounts of time over the long run. Copy, paste, undo, switch tabs, search: mastering these moves makes you significantly faster than using the mouse. Learn a few per week for the software you use most. After a month, they become automatic and your efficiency noticeably jumps."
+      },
+      {
+        "heading": "Organize your files and tabs",
+        "body": "A cluttered desktop and fifty open tabs drain your brain and waste time searching. Build a simple, logical folder structure and name your files clearly — add dates if useful. Close tabs you don't need anymore. A useful rule: if finding a file takes more than a few seconds, your organization needs a rethink."
+      }
+    ],
+    "steps": [
+      "Turn off non-essential notifications",
+      "Work in focused sessions without switching tabs",
+      "Learn a few keyboard shortcuts every week",
+      "Build a simple folder structure",
+      "Name your files clearly and close useless tabs"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-files-and-backups",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Managing your files and backing them up",
+    "emoji": "💾",
+    "intro": "Losing files is avoidable. Good organization and regular backups protect you for the long haul.",
+    "sections": [
+      {
+        "heading": "Get organized from the start",
+        "body": "A good file system takes one afternoon to set up and serves you for years. Create a few top-level folders by area, with logical subfolders inside. Stop dumping everything on the desktop. Name files clearly — a descriptive name, sometimes a date in year-month-day format so they sort themselves. You'll find anything in seconds."
+      },
+      {
+        "heading": "The backup rule",
+        "body": "Drives fail, phones get lost, files get corrupted — it's not a matter of if, but when. The classic rule: keep three copies of important data, on two different storage types, with one copy off-site. In practice: your device, an external drive, and a cloud service. Anything stored in only one place isn't really backed up."
+      },
+      {
+        "heading": "Automate and verify",
+        "body": "A manual backup you keep forgetting to run is useless. Enable automatic backups — most devices and services offer this. But don't stop there: occasionally verify that your backups are actually working and that you could restore a file. A backup you've never tested can let you down badly on the day you actually need it."
+      }
+    ],
+    "steps": [
+      "Build a clear folder structure organized by area",
+      "Name your files descriptively",
+      "Keep 3 copies of important data",
+      "Spread them across 2 storage types, 1 off-site",
+      "Enable automatic backups and verify them regularly"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-social-media-professionally",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using social media professionally",
+    "emoji": "📱",
+    "intro": "Social media can work for your career if you use it with intent — not just to scroll.",
+    "sections": [
+      {
+        "heading": "Separate professional and personal use",
+        "body": "Everything you post can be seen by a recruiter, client, or collaborator. Think about where the line is between your private life and your professional image. You can keep a personal account restricted to close friends, and have a presence designed for your field. Before posting, ask yourself whether you'd be comfortable with a future employer seeing that content."
+      },
+      {
+        "heading": "Choose the right platforms",
+        "body": "No need to be everywhere. Each network has its own audience and format. Figure out where people in your field actually hang out and focus your energy there. A regular, thoughtful presence on one or two platforms beats a ghost presence on six. Study the profiles you admire in your industry to understand what works."
+      },
+      {
+        "heading": "Contribute, don't just consume",
+        "body": "Using social media professionally means moving from viewer to contributor. Share what you're learning, leave smart comments, show your projects, engage with your community. You don't need to be an expert: your progress and your point of view are interesting. Consistency and authenticity build, over time, a network and a reputation that actually matter."
+      }
+    ],
+    "steps": [
+      "Define the line between your professional and personal image",
+      "Pick 1–2 platforms that suit your field",
+      "Study inspiring profiles in your sector",
+      "Post useful content regularly",
+      "Engage and exchange instead of just consuming"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-recommendation-algorithms",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding recommendation algorithms",
+    "emoji": "🧠",
+    "intro": "Algorithms decide what you see online. Understanding them makes you more clear-eyed — and more free.",
+    "sections": [
+      {
+        "heading": "What the algorithm is actually after",
+        "body": "A recommendation algorithm has one simple goal: keep you on the platform as long as possible. To do that, it measures your reactions — what you watch for a while, what you like, what gets a rise out of you — and keeps feeding you more of the same. It's not trying to inform or help you; it's after your attention. Understanding that gives you back some control."
+      },
+      {
+        "heading": "The filter bubble",
+        "body": "By constantly showing you what you already like, the algorithm gradually locks you in a bubble: you mostly see content that confirms your tastes and opinions. You can start to feel like everyone thinks the way you do. To break out, deliberately vary your sources, follow different points of view, and don't mistake your feed for a reflection of the real world."
+      },
+      {
+        "heading": "Taking back the wheel",
+        "body": "You don't have to just take what the algorithm gives you. You can shape it: flag content that doesn't interest you, actively follow what enriches you, use subscriptions and lists to control your feed. Above all, get into the habit of seeking out information yourself rather than waiting for it to be pushed at you. The algorithm is a tool — you decide who's driving."
+      }
+    ],
+    "steps": [
+      "Remember that the algorithm wants your time, not your wellbeing",
+      "Deliberately vary your sources and perspectives",
+      "Flag content that adds nothing",
+      "Actively follow content that genuinely enriches you",
+      "Go looking for information instead of just consuming what's pushed to you"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "fact-checking-online",
+    "theme": "digital",
+    "locale": "en",
+    "title": "How to fact-check information online",
+    "emoji": "🔍",
+    "intro": "The internet spreads truth and lies at the same speed. Knowing how to verify is an essential skill.",
+    "sections": [
+      {
+        "heading": "Trace it back to the source",
+        "body": "Something shared a thousand times is no more true for it. The first move is to trace it back to the original source. Who said this in the first place, and on what basis? A screenshot, a clickbait headline, or an anonymous post aren't sources. Find the full article, the cited study, the official statement. If the origin can't be found, be very suspicious."
+      },
+      {
+        "heading": "Cross-reference multiple sources",
+        "body": "Reliable information is generally picked up by several independent, credible outlets. If major news only exists on one obscure site, that's a red flag. Compare what different recognized media outlets are saying. Also watch the dates — old stories often resurface as if they're breaking news. Check when the events actually happened."
+      },
+      {
+        "heading": "Watch your emotions",
+        "body": "Misinformation is designed to trigger a strong emotion: anger, fear, outrage. It's the emotion that makes you share without thinking. When a piece of content gets a big reaction out of you, that's exactly when to pause and verify before passing it on. Images and videos can be taken out of context or manipulated. Doubt, verify, then share — in that order."
+      }
+    ],
+    "steps": [
+      "Trace the information back to its original source",
+      "Check who's making the claim and what it's based on",
+      "Cross-reference with several recognized outlets",
+      "Verify the actual date of the events",
+      "Be extra suspicious of content that makes you react strongly"
+    ],
+    "faq": [
+      {
+        "q": "How do I know if an image has been faked?",
+        "a": "Use a reverse image search to find its origin, look for inconsistent details, and check whether trusted sources published the same image in the right context."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-screen-time-healthily",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Managing your screen time in a healthy way",
+    "emoji": "⏳",
+    "intro": "The goal isn't to ban screens — it's to take back control of time that often gets stolen without you noticing.",
+    "sections": [
+      {
+        "heading": "Measure before you judge",
+        "body": "We almost always underestimate our screen time. The first step is to measure it objectively — your phone shows a detailed breakdown by app. Look at those numbers without guilt, just to see the reality. Usually, two or three apps account for most of the time. Identifying those specific black holes is more useful than feeling vaguely bad about yourself."
+      },
+      {
+        "heading": "Create friction",
+        "body": "Apps are designed to be opened effortlessly. You can flip that by adding friction: remove time-sucking apps from your home screen, turn off their notifications, log out so you have to type your password again, set time limits. Each small obstacle gives you a second to ask: do I actually want to open this right now?"
+      },
+      {
+        "heading": "Replace, don't just restrict",
+        "body": "Simply banning screens leaves a void that tends to get filled by screens again. The key is replacement: plan what you'll do instead — move, see people, work on a project, read, do a hobby. Also keep screen-free zones and moments, like mealtimes or right before sleep. The goal is intentional use — not use that just happens to you."
+      }
+    ],
+    "steps": [
+      "Check your actual screen time by app",
+      "Identify the 2–3 apps that eat the most time",
+      "Remove them from your home screen and turn off their notifications",
+      "Set time limits on those apps",
+      "Plan specific activities to replace the mindless scrolling"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-tools-to-create-content",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using AI tools to create content",
+    "emoji": "✨",
+    "intro": "AI speeds up creation, but it's an assistant — the vision and the judgment stay yours.",
+    "sections": [
+      {
+        "heading": "AI as a creative partner",
+        "body": "AI tools help at every stage of creation: generating ideas, structuring an outline, drafting, rephrasing, producing variations, proofreading. Used well, AI unblocks you when you're staring at a blank page and saves time on the tedious parts. But it produces generic output: your work of selecting, adding, and personalizing is what makes the result worth something."
+      },
+      {
+        "heading": "Keep your voice and your originality",
+        "body": "Fully AI-generated content is recognizable fast: it's smooth, edges sanded off, no real point of view. What sets you apart is your voice, your experience, your angle. Use AI as a starting point, then rewrite in your own words, add your examples, your opinions, your lived experience. People connect with a person, not a machine. Don't let AI erase what makes you you."
+      },
+      {
+        "heading": "Stay ethical and transparent",
+        "body": "AI-generated images, voices, and text can mislead. Don't pass AI content off as a real photo or an authentic quote. Respect copyright: don't ask AI to closely imitate someone's protected work to resell it. Depending on context, disclosing AI use is honest and expected. Transparency protects your credibility over the long term."
+      }
+    ],
+    "steps": [
+      "Use AI for ideas, outlines, and drafts",
+      "Rewrite the output in your own voice and with your own examples",
+      "Add your perspective and real experience",
+      "Verify facts and respect copyright",
+      "Disclose AI use when the context calls for it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-a-modern-digital-resume",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Creating a modern digital resume",
+    "emoji": "📄",
+    "intro": "A well-designed digital resume gets read in seconds and passes automated filters. Here's how.",
+    "sections": [
+      {
+        "heading": "Clarity and readability above all",
+        "body": "A recruiter spends only seconds on a resume at first glance. The structure must be crystal clear: obvious sections, clear hierarchy, one page if possible. Avoid resumes crammed with colors, flashy graphics, or quirky fonts. A clean, airy design reads better and passes company ATS filters — which often reject anything too visually unusual."
+      },
+      {
+        "heading": "Results, not just duties",
+        "body": "A strong resume doesn't just list what you did — it shows what you achieved. Instead of 'managed social media accounts,' write what it concretely produced when you can quantify it. Use action verbs and be specific. Also tailor your resume to each application: highlight the experience and skills most relevant to the specific role."
+      },
+      {
+        "heading": "The right format for sending",
+        "body": "Export your resume as a PDF to ensure the layout stays intact on the recipient's end. Name the file clearly with your name and the word 'resume' — never 'document-final.' Keep an up-to-date version ready at all times. You can also have an online version, for example on your portfolio, with a professional profile that matches your resume."
+      }
+    ],
+    "steps": [
+      "Structure your resume in clear sections, on one page",
+      "Choose a clean, readable design",
+      "Describe concrete results, not just duties",
+      "Tailor the resume to each job you apply for",
+      "Export as a PDF with a clear file name"
+    ],
+    "faq": [
+      {
+        "q": "Do I need a heavily designed resume with graphics?",
+        "a": "No, except in creative fields. Automated filters read heavily designed resumes poorly. For most roles, a clean and simple resume is more effective."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-your-professional-online-image",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Managing your professional image online",
+    "emoji": "🤵",
+    "intro": "Before an interview, recruiters search for you online. What they find should work in your favor.",
+    "sections": [
+      {
+        "heading": "Run your own audit",
+        "body": "Start by searching for yourself: type your name into a search engine in a private window. Look at what comes up: photos, old accounts, comments, posts. That's what a recruiter sees. Note what works against you: embarrassing photos, forgotten accounts, content you no longer want tied to your name. This honest audit is the foundation for everything else."
+      },
+      {
+        "heading": "Clean up and lock down",
+        "body": "For each problematic item, take action: delete what you can, set personal accounts to private, adjust privacy settings. You can't erase everything from the internet, but you can significantly reduce what's public. The goal isn't to be suspiciously blank — it's to make sure content from a few years ago doesn't hurt your chances today."
+      },
+      {
+        "heading": "Build a positive presence",
+        "body": "Beyond cleaning up, the best move is to create positive content that represents you. An up-to-date professional profile, a portfolio, useful posts in your field — all of this takes up space and gives a current, serious impression. Over time, what you build intentionally overshadows the old content. Your online image is something you steer — not something that happens to you."
+      }
+    ],
+    "steps": [
+      "Search your name online in a private window",
+      "List the content that works against you",
+      "Delete or set to private anything problematic",
+      "Update your main professional profile",
+      "Create positive content that represents you well"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "networking-online-smartly",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Building your network online — the smart way",
+    "emoji": "🤝",
+    "intro": "Building a professional network online isn't about collecting contacts. It's about creating real connections.",
+    "sections": [
+      {
+        "heading": "Quality over quantity",
+        "body": "Having hundreds of contacts who don't know you from Adam is worthless. A useful network is built on real connections: people you've actually exchanged with, who you can reach out to and who can do the same with you. Aim for connections that are relevant to your field and your goals. Twenty active relationships beat a thousand ghost contacts."
+      },
+      {
+        "heading": "Give before you ask",
+        "body": "Effective networking is generous. Before asking for anything, show that you bring something: a relevant comment, a useful piece of info, a helping hand, a share of their work. People remember those who've helped them. Reaching out to a contact only when you need something is transparent and rarely works."
+      },
+      {
+        "heading": "Personalized, human messages",
+        "body": "When you reach out to someone, skip the copy-paste generic message. Briefly explain who you are, why you're specifically reaching out to them, and be clear about what you're asking — without being pushy. Stay polite, concise, and human. And keep nurturing the relationship over time: a network isn't built in one shot, it's maintained through small, regular touches."
+      }
+    ],
+    "steps": [
+      "Target contacts who are relevant to your field",
+      "Offer value before asking for anything",
+      "Personalize every outreach message",
+      "Be clear, polite, and concise in what you ask",
+      "Nurture your relationships consistently over time"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "spreadsheet-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Mastering spreadsheet basics",
+    "emoji": "📊",
+    "intro": "Knowing how to use a spreadsheet is a universal skill — useful in almost every job and in everyday life.",
+    "sections": [
+      {
+        "heading": "Understanding the logic of a spreadsheet",
+        "body": "A spreadsheet organizes data in rows and columns of cells. Its power is automatic calculation: write a formula once, and it recalculates every time the data changes. Understanding this cell-reference logic is the foundation. Learn to keep your data clean: one piece of information per cell, clear headers. Well-structured data makes everything else easier."
+      },
+      {
+        "heading": "The essential formulas",
+        "body": "You don't need to know hundreds of functions. A handful covers most needs: summing a range, averaging, counting, applying a condition, looking up a value in a table. Master these basics on concrete examples first. Understanding how to combine two or three simple formulas together already solves the majority of everyday needs."
+      },
+      {
+        "heading": "Visualizing and presenting data",
+        "body": "A raw table of numbers is hard to interpret. Spreadsheets let you turn data into clear charts: changes over time, comparisons, breakdowns. Pick the chart type that fits the message. You can also format cells conditionally to make the important things pop. A well-presented spreadsheet becomes a genuine decision-making tool."
+      }
+    ],
+    "steps": [
+      "Understand the rows, columns, and cells structure",
+      "Keep your data clean with clear headers",
+      "Learn the basics: SUM, AVERAGE, IF",
+      "Practice on real examples from your life",
+      "Create charts to visualize your data"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-how-the-internet-works",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding how the internet works",
+    "emoji": "🌍",
+    "intro": "Knowing what happens when you open a page helps you use — and secure — your digital life more effectively.",
+    "sections": [
+      {
+        "heading": "The internet and the web aren't the same thing",
+        "body": "People often mix them up. The internet is the global physical network connecting devices to each other. The web is one of the services that runs on top of it: the pages you visit in a browser. Email, apps, and streaming also use the internet without being the web. Understanding this distinction helps you see the internet as infrastructure — not one big single app."
+      },
+      {
+        "heading": "What happens when you open a website",
+        "body": "When you type an address, your browser asks a service to translate that name into a numeric address, then contacts the corresponding server. The server sends back the page files, which your browser assembles and displays — all in a fraction of a second. Knowing there's a server behind every website, somewhere in the world, makes the internet feel more concrete and less magical."
+      },
+      {
+        "heading": "Security: the padlock and encryption",
+        "body": "When an address starts with https and shows a padlock, the connection between your device and the site is encrypted: what you send can't easily be read in transit. This matters for passwords and payments. The padlock doesn't guarantee the site is trustworthy — only that the connection is protected. Stay vigilant about the site's identity itself."
+      }
+    ],
+    "steps": [
+      "Distinguish the internet (the network) from the web (the pages)",
+      "Understand the role of browsers and servers",
+      "Check for https and the padlock on sensitive sites",
+      "Remember: the padlock protects the connection, not the site's trustworthiness",
+      "Stay curious: explore how the tools you use actually work"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "browsing-safely-online",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Browsing the internet safely",
+    "emoji": "🧭",
+    "intro": "A few simple habits significantly cut down your risk every day online.",
+    "sections": [
+      {
+        "heading": "Keep your software updated",
+        "body": "Updates don't just add new features — they patch security vulnerabilities that attackers actively exploit. An outdated browser, OS, or app is an open door. Enable automatic updates where possible, and install them promptly when prompted. It's one of the simplest and most effective protections available."
+      },
+      {
+        "heading": "Be careful with downloads and extensions",
+        "body": "Only download software and apps from official sources. Pirated versions or shady sites are a classic vector for malware. Browser extensions deserve the same caution — some spy on your browsing. Only install what you actually need, from trusted sources, and remove anything you no longer use."
+      },
+      {
+        "heading": "Watch out on public Wi-Fi",
+        "body": "A free public Wi-Fi network isn't necessarily safe — others can potentially intercept what's passing through it. Avoid doing anything sensitive on public Wi-Fi: payments, logging into important accounts. If you absolutely have to, prefer your mobile data connection, or a trusted VPN. When in doubt, wait until you're on a secure network."
+      }
+    ],
+    "steps": [
+      "Enable automatic updates on all your devices",
+      "Only download from official sources",
+      "Audit and limit your browser extensions",
+      "Avoid sensitive actions on public Wi-Fi",
+      "Stay alert to warning signs on sketchy sites"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "securing-your-social-media-accounts",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Securing your social media accounts",
+    "emoji": "🔐",
+    "intro": "A hacked social account can damage your reputation and affect the people around you. Here's how to lock it down.",
+    "sections": [
+      {
+        "heading": "Lock down access",
+        "body": "Start with the fundamentals: a long, unique password for every account, and two-factor authentication enabled. 2FA is especially important for social accounts, which are frequent targets. Also regularly review the list of devices connected to your account and log out any you don't recognize."
+      },
+      {
+        "heading": "Watch connected apps",
+        "body": "Over time, you grant access to all sorts of games, quizzes, and third-party apps. Each one is a potential risk. Go through the list of authorized apps in your account settings and revoke anything you no longer use or don't recognize. Be wary of apps that ask for permissions way beyond what their function requires."
+      },
+      {
+        "heading": "Spot targeted scams",
+        "body": "Social accounts are targeted by specific scams: fake login alerts, hacked friend accounts asking for favors, fake promotions, fake giveaways. Don't click suspicious links — even from a friend, whose account may be compromised. When in doubt, contact the person through a different channel. And never share your login codes with anyone."
+      }
+    ],
+    "steps": [
+      "Use a unique password and enable 2FA",
+      "Check the list of connected devices",
+      "Revoke useless or suspicious third-party apps",
+      "Be suspicious of odd messages, even from friends",
+      "Never share your login codes"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "recognizing-online-scams",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Recognizing online scams",
+    "emoji": "🚨",
+    "intro": "Online scams are plentiful and well-crafted. Learning to spot them saves you a lot of grief.",
+    "sections": [
+      {
+        "heading": "The pattern behind every scam",
+        "body": "Despite their variety, scams share common traits: an offer too good to be true, pressure to act quickly, a request for money or personal information, and a channel designed to avoid official routes. Whenever a situation combines several of these signals, suspicion should kick in. Nobody legitimate promises easy money or rushes you into paying under pressure."
+      },
+      {
+        "heading": "The most common scams",
+        "body": "A few forms keep coming up: fake tech support claiming your device is infected, fake job or investment offers with huge returns, fake romantic profiles that eventually ask for money, fake online stores with prices too good to be true, fake lottery winnings. Knowing these patterns lets you recognize them from the very first signs."
+      },
+      {
+        "heading": "What to do when you spot a scam",
+        "body": "If you spot a scam, don't respond, don't click, don't pay — and report it on the relevant platform. If you've already been caught: immediately change your passwords, contact your bank if money or financial details were involved, and report it to the relevant authorities. Shame often keeps victims silent — speaking up helps protect yourself and others."
+      }
+    ],
+    "steps": [
+      "Be suspicious of amazing offers and artificial urgency",
+      "Never give money or personal info under pressure",
+      "Learn to recognize the most common scam formats",
+      "Don't respond — report suspicious content",
+      "If you're a victim, act fast: bank, passwords, report"
+    ],
+    "faq": [
+      {
+        "q": "I gave my banking details to a fake site — what do I do?",
+        "a": "Call your bank immediately to block your card, change your passwords, monitor your accounts, and report the scam to the authorities. Acting fast limits the damage."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "copyright-and-licenses-online",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding copyright and online licenses",
+    "emoji": "©️",
+    "intro": "Not everything online is free to use. Knowing the rules protects you and respects creators.",
+    "sections": [
+      {
+        "heading": "By default, it's protected",
+        "body": "A common mistake is assuming that anything online is free to use. The opposite is true: an image, a piece of music, a text, a video is protected by copyright from the moment of its creation. Reusing it without permission can create legal problems — and is, at the very least, disrespectful toward the person who made it."
+      },
+      {
+        "heading": "Licenses that allow use",
+        "body": "To legally use someone else's work, look for content explicitly made available: image banks, music libraries, and resources under open licenses, or content in the public domain. Always read the terms: some licenses require attribution, others prohibit commercial use or modification. Following these terms is mandatory — even for free content."
+      },
+      {
+        "heading": "Protect your own work and credit others",
+        "body": "Copyright protects you as a creator too: your work belongs to you. On your end, get in the habit of citing sources and crediting authors when you use their work — even when the license doesn't strictly require it. It's intellectual honesty. When in doubt about a piece of content, the safest move is to ask for permission or simply not use it."
+      }
+    ],
+    "steps": [
+      "Assume any online content is protected",
+      "Look for resources under open licenses or in the public domain",
+      "Read the terms of each license before using",
+      "Cite and credit authors consistently",
+      "When in doubt, ask for permission or don't use it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-content-consistently",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Creating content consistently without burning out",
+    "emoji": "📅",
+    "intro": "Consistency is what grows a content project. The challenge is keeping it up without burning yourself out.",
+    "sections": [
+      {
+        "heading": "Consistency beats perfection",
+        "body": "A creator who publishes modestly but regularly improves faster than one who chases perfection and rarely posts. Consistency keeps your audience engaged, improves your craft through repetition, and helps you learn what works. Set a realistic, sustainable pace — even a humble one. One post a week for a year beats ten in one month and then nothing."
+      },
+      {
+        "heading": "Batch your work and plan ahead",
+        "body": "Creating content at the last minute every time is exhausting. An effective method is batching: dedicate one session to producing several pieces of content in advance. This builds a buffer that protects you through busy weeks or uninspired stretches. Also keep a running list of ideas where you jot down everything that crosses your mind — so you never start from zero."
+      },
+      {
+        "heading": "Avoid creator burnout",
+        "body": "Many creators quit from exhaustion. To last, set a sustainable pace — not your maximum pace. Repurpose your existing content intelligently instead of reinventing everything. Accept that not every piece will be your best. And don't forget why you started: if creating becomes an anxiety-inducing chore, slow down. A long-lasting project beats a sprint that collapses."
+      }
+    ],
+    "steps": [
+      "Pick a publishing rhythm that's realistic and sustainable",
+      "Keep a running idea list at all times",
+      "Batch-produce several pieces of content per session",
+      "Repurpose and adapt content instead of always starting fresh",
+      "Adjust your pace before you burn out, not after"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "storytelling-capture-attention",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Storytelling: capturing attention through narrative",
+    "emoji": "📖",
+    "intro": "A good story holds attention far better than a list of facts. Storytelling is a learnable skill.",
+    "sections": [
+      {
+        "heading": "Why stories work",
+        "body": "The human brain is wired for narrative. A raw piece of information is forgotten quickly; the same information wrapped in a story is retained and resonates. A story creates emotion, curiosity, and identification. Whether you're making a video, writing a post, or giving a presentation, turning your message into a narrative dramatically increases its impact. It's not manipulation — it's speaking the natural language of attention."
+      },
+      {
+        "heading": "The structure of a good story",
+        "body": "An effective story often follows a simple pattern: a starting situation, a disrupting event or a problem, twists and turns, then a resolution and a takeaway. There's a character to relate to and something at stake. You can apply this structure to almost anything: telling your story, presenting a project, explaining a lesson. The tension between a problem and its resolution is what keeps people hooked."
+      },
+      {
+        "heading": "Stay concrete, sincere, and concise",
+        "body": "A good story is concrete: specific details and real examples hit harder than vague generalities. It's also sincere: the audience detects fake fast. You don't need an extraordinary life — everyday stories connect deeply. Finally, be concise: cut anything that doesn't serve the narrative. A clear, well-paced story beats a long, rambling one every time."
+      }
+    ],
+    "steps": [
+      "Turn your message into a narrative instead of a list of facts",
+      "Structure it: situation, problem, twists, resolution",
+      "Create a character and a stake for the audience to connect with",
+      "Use concrete, real details",
+      "Stay sincere and cut anything that doesn't serve the story"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-seo-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding the basics of SEO",
+    "emoji": "🔎",
+    "intro": "SEO helps your content get found in search engines. Here are the fundamentals, made accessible.",
+    "sections": [
+      {
+        "heading": "What SEO is actually trying to do",
+        "body": "SEO (search engine optimization) is about making a page easy to find for people searching your topic. Search engines want to surface the most useful, relevant pages for every query. The core principle is simple: if your content genuinely answers a question people are asking, it has a real shot. Useful content is the foundation of everything."
+      },
+      {
+        "heading": "The basics you can act on",
+        "body": "A few concrete elements help a search engine understand your page: a clear, descriptive title; a readable URL; well-organized subheadings; text that actually covers the topic; described images. Think about the words your audience would actually type and use them naturally. A page that loads fast and looks great on mobile is also favored."
+      },
+      {
+        "heading": "Patience and quality — no shortcuts",
+        "body": "SEO is a long game: results take weeks or months. Be wary of techniques promising instant results — keyword-stuffing or gaming the system backfires. Focus on genuinely useful, consistent content and natural links. Quality and consistency always pay off better than shortcuts in the long run."
+      }
+    ],
+    "steps": [
+      "Identify the real questions your audience is asking",
+      "Create content that genuinely answers them well",
+      "Craft strong titles, subheadings, and clean URLs",
+      "Make sure the page loads fast and displays well on mobile",
+      "Be patient: quality and consistency pay off"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-cookies-and-trackers",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding cookies and web trackers",
+    "emoji": "🍪",
+    "intro": "Cookies and trackers follow your activity online. Understanding how they work helps you manage them better.",
+    "sections": [
+      {
+        "heading": "What cookies are for",
+        "body": "A cookie is a small file a website places on your device. Some are useful and necessary: they keep you logged in, remember your cart, or save your language preference. Others serve advertising tracking: they record what you browse to build a profile of your interests. Not all cookies are the same — and not all of them deserve the same treatment."
+      },
+      {
+        "heading": "Advertising tracking",
+        "body": "Advertising trackers follow your browsing across multiple sites to infer your tastes, age, habits, and target you with ads. That's why a search sometimes turns into ads following you everywhere. This profiling is mostly invisible. The consent banners you see everywhere exist precisely because this kind of tracking requires your agreement."
+      },
+      {
+        "heading": "Taking back control",
+        "body": "You have real leverage here. On cookie banners, take the time to decline what isn't necessary instead of clicking accept out of habit. In your browser settings, you can block third-party trackers, regularly clear cookies, and use private browsing. Some browsers are designed to limit tracking by default. A few settings significantly reduce your exposure."
+      }
+    ],
+    "steps": [
+      "Distinguish useful cookies from advertising trackers",
+      "On cookie banners, decline what isn't necessary",
+      "Enable third-party tracker blocking in your browser",
+      "Clear your cookies regularly",
+      "Use private browsing for sensitive searches"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "everyday-cybersecurity-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Everyday cybersecurity basics",
+    "emoji": "🛟",
+    "intro": "Cybersecurity isn't just for experts. A few simple habits protect the essentials of your digital life.",
+    "sections": [
+      {
+        "heading": "The core pillars",
+        "body": "Good digital hygiene rests on a few pillars: long, unique passwords managed by a password manager; two-factor authentication enabled; software kept up to date; regular backups; and vigilance toward suspicious messages. None of these is complicated. Together, they protect you against the vast majority of common attacks."
+      },
+      {
+        "heading": "Think in layers of protection",
+        "body": "No single protection is perfect — security comes from stacking layers. If one layer fails, the others limit the damage. A stolen password isn't enough if 2FA is active. A lost device is less scary if it's locked and your data is backed up. Think of your security as a series of nets, not one single wall."
+      },
+      {
+        "heading": "The human factor",
+        "body": "Most hacks don't rely on sophisticated technical exploits — they rely on manipulation: getting someone to click, hand over a code, or act in a rush. The best antivirus is your own vigilance. A simple method: when you receive any unexpected, urgent, or too-good-to-be-true message, slow down and verify before acting. The right dose of skepticism, at the right moment, prevents most problems."
+      }
+    ],
+    "steps": [
+      "Apply the pillars: passwords, 2FA, software updates",
+      "Back up your important data regularly",
+      "Think in layers: multiple protections beat one",
+      "Slow down and verify before acting on suspicious messages",
+      "Teach your close circle too — security is a team effort"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-and-using-a-vpn",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding and using a VPN",
+    "emoji": "🛰️",
+    "intro": "A VPN can boost your privacy — but you need to understand what it actually does, and what it doesn't.",
+    "sections": [
+      {
+        "heading": "What a VPN actually does",
+        "body": "A Virtual Private Network encrypts your connection and routes it through an intermediate server. Result: websites see that server's address instead of yours, and what you send is better protected on the local network — especially on public Wi-Fi. It's useful for privacy and security on untrusted networks. But a VPN isn't magic: it's a specific tool for a specific use case."
+      },
+      {
+        "heading": "What a VPN doesn't do",
+        "body": "A VPN doesn't make you anonymous or invulnerable. When you're logged into your accounts, those services still know who you are. It doesn't protect you against phishing, malware, or weak passwords. And you're shifting trust to your VPN provider — who can potentially see your traffic. A VPN complements good digital hygiene; it doesn't replace it."
+      },
+      {
+        "heading": "Choosing a good provider",
+        "body": "If you use a VPN, the provider you choose matters — you're trusting them with your traffic. Be very wary of free VPNs: running this infrastructure is expensive, and some fund themselves by selling their users' data. Pick a well-known provider that's transparent about its data retention policy and ideally audited by independent third parties."
+      }
+    ],
+    "steps": [
+      "Understand that a VPN encrypts your connection and masks your IP",
+      "Remember it doesn't make you anonymous or untouchable",
+      "Use it mainly on untrusted public Wi-Fi networks",
+      "Avoid free VPNs with dubious business models",
+      "Choose a reputable, transparent provider"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "creating-a-thumbnail-that-gets-clicks",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Creating a thumbnail that gets clicks",
+    "emoji": "🖼️",
+    "intro": "The thumbnail often decides whether someone clicks. A few principles make it work — without falling into the trap.",
+    "sections": [
+      {
+        "heading": "Readable in one second",
+        "body": "A thumbnail is seen small, on a screen, among dozens of others. It needs to communicate in one second. One clear subject, very short and very readable text, strong contrast. Avoid overloading it: three well-placed words beat a full sentence. Test your thumbnail by looking at it tiny — if the message doesn't jump out immediately, simplify further."
+      },
+      {
+        "heading": "Spark curiosity honestly",
+        "body": "A good thumbnail makes people want to know more: an emotion, a question, a contrast, a clear promise. But it has to stay honest about the content. A misleading thumbnail might get a click, but it disappoints, drives viewers away, and damages your credibility. Curiosity yes — clickbait no. Your audience's trust is worth far more than one isolated click."
+      },
+      {
+        "heading": "Consistency and identity",
+        "body": "Beyond any single thumbnail, think about cohesion across all of them. A recognizable style — same colors, same typography, same feel — makes your content identifiable at a glance and reinforces your image. Study what works in your field without copying. Over time, your thumbnails become a visual signature that does the work for you."
+      }
+    ],
+    "steps": [
+      "Keep one clear subject per thumbnail",
+      "Limit text to a few highly readable words",
+      "Check readability at actual small size",
+      "Spark curiosity without lying about the content",
+      "Adopt a consistent, recognizable visual style"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-a-great-title",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Writing a great title for your content",
+    "emoji": "🏷️",
+    "intro": "The title often decides whether someone reads or watches. A good title is clear, precise, and honest.",
+    "sections": [
+      {
+        "heading": "Promise something specific",
+        "body": "An effective title clearly tells people what they'll get out of it. Avoid vagueness: a fuzzy title hooks no one. Be concrete about the benefit or the subject. Ask yourself: if I read this title, do I know what's waiting for me and why it might matter to me? A precise title attracts the right people — the ones your content will actually satisfy."
+      },
+      {
+        "heading": "Clear beats clever",
+        "body": "Many creators chase the witty or mysterious title. The problem: too clever and the reader has no idea what it's about, so they move on. Clarity wins over cleverness almost every time. You can still be engaging while being clear. When you're torn between an intriguing-but-vague title and a simple-but-explicit one, go with the explicit one."
+      },
+      {
+        "heading": "Keep the promise",
+        "body": "A title creates an expectation — your content has to meet it. Clickbait — an exaggerated or misleading title — might inflate clicks short-term, but it disappoints, breeds frustration, and destroys trust. Long-term, an audience that knows your titles are reliable comes back and recommends you. Write titles that your content genuinely delivers on."
+      }
+    ],
+    "steps": [
+      "Clearly state the subject or the benefit",
+      "Favor clarity over cleverness",
+      "Keep it concise: cut unnecessary words",
+      "Make sure the content actually delivers on the title's promise",
+      "Test several versions and keep the clearest one"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

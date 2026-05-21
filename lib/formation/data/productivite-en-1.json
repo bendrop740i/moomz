@@ -1,0 +1,2018 @@
+[
+  {
+    "slug": "beat-procrastination",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Beat Procrastination Without Beating Yourself Up",
+    "emoji": "🐌",
+    "intro": "Procrastinating isn't laziness — it's usually an uncomfortable emotion you're running from. Understanding that mechanism puts you back in control.",
+    "sections": [
+      {
+        "heading": "Why We Put Things Off",
+        "body": "You delay a task when it triggers an uncomfortable feeling: boredom, fear of doing it wrong, or not knowing where to start. Your brain prefers instant relief (scrolling) over distant effort. That's not a character flaw — it's a protective reflex. Recognizing it without self-judgment already breaks the shame-avoidance-shame spiral that makes everything worse."
+      },
+      {
+        "heading": "The Two-Minute Rule",
+        "body": "Don't promise yourself you'll finish the task — just promise to start it for two minutes. Open the document, write one sentence, pull out your sneakers. Starting is the hardest step; once you're moving, momentum carries you and you usually keep going well past the two minutes. The goal is to make the first step so tiny it's ridiculous to refuse."
+      },
+      {
+        "heading": "Slice the Elephant",
+        "body": "A vague task ('study for the exam') paralyzes because your brain doesn't know where to enter. Turn it into concrete, bite-sized actions: 'reread chapter 1,' 'do 5 practice problems.' Each subtask you check off releases a little dopamine and keeps the momentum going. The more specific and small, the less scary."
+      },
+      {
+        "heading": "Forgive Yourself to Bounce Back",
+        "body": "Research shows that people who forgive themselves for a procrastination session actually procrastinate less the next time. Guilt, on the other hand, feeds avoidance. If you lost an hour, just note 'ok, it happens' and pick up at the next small step. Rest isn't the enemy — self-flagellation is what holds you back."
+      }
+    ],
+    "steps": [
+      "Identify the emotion making you avoid the task (fear, boredom, uncertainty).",
+      "Break the task into actions that take less than 15 minutes each.",
+      "Commit only to 2 minutes of starting.",
+      "Check off each micro-step to keep the momentum alive.",
+      "If you slip, forgive yourself and get back on track without drama."
+    ],
+    "faq": [
+      {
+        "q": "Does procrastinating mean I'm lazy?",
+        "a": "No. Procrastination is an emotion-management mechanism, not a character trait. Very hardworking people procrastinate on tasks that stress them out."
+      },
+      {
+        "q": "What if even 2 minutes feels like too much?",
+        "a": "Make it even smaller: just open the file, or set the textbook on your desk. The idea is to lower the bar until starting becomes easier than resisting."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pomodoro-method",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Pomodoro Method: Work in Focused Sprints",
+    "emoji": "🍅",
+    "intro": "The Pomodoro Technique alternates focused sprints with real breaks. Simple, free, and devastatingly effective against distraction.",
+    "sections": [
+      {
+        "heading": "The Principle in One Sentence",
+        "body": "Work for 25 minutes on a single task, then take a 5-minute complete break. After four cycles, give yourself a longer break of 15 to 30 minutes. The timer transforms a fuzzy day into a series of clear, achievable blocks. Knowing a break is coming soon makes the effort much more manageable."
+      },
+      {
+        "heading": "Why It Works",
+        "body": "A Pomodoro creates gentle urgency: 25 minutes is short, so the urge to scroll fades. The guaranteed break prevents burnout and sustains motivation. By counting your Pomodoros, you also get an honest measure of your actual work time — often lower than you'd think. That data helps you plan realistically."
+      },
+      {
+        "heading": "Adapting the Duration",
+        "body": "The 25/5 split isn't sacred. If you get into flow easily, try 50/10. If starting is hard, drop to 15/3. What matters is the effort-to-rest ratio and the ritual of the timer. Test a few formats over a week and keep whichever lets you finish blocks without burning out or getting bored."
+      },
+      {
+        "heading": "Protect the Break",
+        "body": "The break isn't optional — it's what recharges your attention. For 5 minutes, stand up, drink some water, look into the distance, stretch. Avoid screens, which don't truly rest the brain. A well-taken break makes the next Pomodoro noticeably sharper; a skipped break leads to a dead afternoon."
+      }
+    ],
+    "steps": [
+      "Pick ONE specific task for the Pomodoro.",
+      "Set a timer for 25 minutes and mute notifications.",
+      "Work without interruption until the timer goes off.",
+      "Take a real 5-minute break away from screens.",
+      "After 4 cycles, take a longer 20–30 minute break."
+    ],
+    "faq": [
+      {
+        "q": "What if an idea pops up during the Pomodoro?",
+        "a": "Jot it in a word on a notepad beside you and get back to your task. You'll handle it during the break or later, without breaking your focus."
+      },
+      {
+        "q": "Do I need a special app?",
+        "a": "No, your phone's built-in timer works fine. Switch it to airplane mode or use a kitchen timer to avoid screen temptation."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "time-blocking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Time Blocking: Give Every Task a Time Slot",
+    "emoji": "📅",
+    "intro": "A to-do list tells you what to do; time blocking tells you when. Scheduling a slot for each task turns intentions into appointments.",
+    "sections": [
+      {
+        "heading": "From List to Calendar",
+        "body": "A task list without a time stays a wish: everything feels urgent and nothing ever gets started. Time blocking means placing each important task in your calendar like an event, with a start and end time. You stop asking 'what should I do now?' — the calendar answers for you."
+      },
+      {
+        "heading": "Estimating Real Time",
+        "body": "We almost always underestimate how long tasks take. For each block, add 25 to 50% buffer. Also keep empty 'buffer' slots to absorb surprises and overruns. A calendar packed to 100% breaks at the first obstacle; a calendar filled to 70% stays workable all week."
+      },
+      {
+        "heading": "Block Rest Too",
+        "body": "Time blocking isn't just a work tool. Block your meals, exercise, breaks, and sleep with the same seriousness as a meeting. What has no slot ends up eaten by work or screens. Explicitly protecting rest guarantees you can keep the pace long-term."
+      },
+      {
+        "heading": "Review in the Evening",
+        "body": "No plan survives the day intact. In the evening, spend five minutes comparing what you planned versus what happened, reschedule what didn't get done, and adjust tomorrow's blocks. This correction loop makes your estimates more accurate week after week."
+      }
+    ],
+    "steps": [
+      "List your important tasks for the day.",
+      "Estimate the duration of each one and add a 30% buffer.",
+      "Place them in your calendar like events.",
+      "Block meals, exercise, breaks, and sleep too.",
+      "In the evening, adjust tomorrow's plan based on reality."
+    ],
+    "faq": [
+      {
+        "q": "Doesn't time blocking make the day too rigid?",
+        "a": "Think of it as a flexible plan, not a contract. You can move blocks freely — what matters is that every task has a moment, not that it's set in stone."
+      },
+      {
+        "q": "Paper or app?",
+        "a": "Both work. A digital calendar makes moving blocks easier; paper reduces distractions. Choose the tool you'll actually open every day."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "weekly-planning",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Plan Your Week in 20 Minutes on Sunday",
+    "emoji": "🗓️",
+    "intro": "Twenty minutes of planning on Sunday saves hours of aimlessness during the week. It's the best return on time you can get.",
+    "sections": [
+      {
+        "heading": "The Weekly Ritual",
+        "body": "Pick a fixed time — say, Sunday late afternoon — to prep the week ahead. This appointment with yourself replaces the foggy Monday morning start with a clear vision. Twenty minutes is the sweet spot: too long and you won't stick to it; too short and you'll miss the essentials. Consistency beats perfection."
+      },
+      {
+        "heading": "Choose 3 Priorities",
+        "body": "Before filling your calendar, identify the three outcomes that would make your week a success. Not ten — three. These go first in the calendar, in your best slots. Everything else organizes around them. This constraint forces you to distinguish what truly matters from what's just noisy or seemingly urgent."
+      },
+      {
+        "heading": "Map the Constraints",
+        "body": "Start by looking at what's already fixed: classes, work, appointments, commutes. These are the walls of your week. Then place your three priorities in the remaining open, high-energy slots. Seeing constraints first prevents you from promising time you don't have, making your plan realistic from the start."
+      },
+      {
+        "heading": "Leave Room to Breathe",
+        "body": "A good week isn't a packed week. Leave open stretches for the unexpected, rest, and spontaneity. Block at least one truly obligation-free evening. A plan that breathes is a plan you'll follow; a suffocating plan gets abandoned by Tuesday."
+      }
+    ],
+    "steps": [
+      "Set a recurring 20-minute slot on Sundays.",
+      "Write down the 3 key outcomes for the week ahead.",
+      "Identify already-occupied slots (classes, work, appointments).",
+      "Place your 3 priorities in the best available slots.",
+      "Leave empty stretches for rest and the unexpected."
+    ],
+    "faq": [
+      {
+        "q": "What if my week is always changing?",
+        "a": "All the more reason to plan: a lightweight plan gives you a reference point to adjust, rather than improvising everything under stress."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eisenhower-matrix",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Eisenhower Matrix: Sorting Urgent from Important",
+    "emoji": "🧭",
+    "intro": "Not everything deserves equal attention. The Eisenhower Matrix separates what's urgent from what's truly important.",
+    "sections": [
+      {
+        "heading": "The Four Quadrants",
+        "body": "Draw two axes: urgent or not, important or not. You get four boxes. Urgent and important: do it now. Important but not urgent: schedule it. Urgent but not important: delegate or handle it quickly. Neither: cut it. Placing a task in a box immediately decides its fate."
+      },
+      {
+        "heading": "The Urgency Trap",
+        "body": "We often confuse urgent with important. A notification is urgent but rarely important; preparing for an exam is important but not yet urgent. Living in permanent urgency means letting others dictate your schedule. The matrix puts you back in charge by forcing you to name what truly deserves your energy."
+      },
+      {
+        "heading": "Invest in Quadrant 2",
+        "body": "The 'important but not urgent' box is the most neglected and the most valuable: health, learning, relationships, deep projects. Putting regular time here is what prevents future crises. Block a weekly slot dedicated to this quadrant before it turns into an emergency."
+      },
+      {
+        "heading": "Dare to Delete",
+        "body": "The 'neither urgent nor important' box contains tasks you keep out of habit or guilt. Learning to scratch them cleanly frees up precious time. Deleting isn't negligence — it's recognizing that your time is limited and choosing where it has the most value."
+      }
+    ],
+    "steps": [
+      "Brain-dump all your tasks.",
+      "Classify each one: urgent? important?",
+      "Do the urgent-and-important ones right away.",
+      "Schedule the important-but-not-urgent ones in your calendar.",
+      "Delegate, speed through, or cut the rest."
+    ],
+    "faq": [
+      {
+        "q": "How do I know if a task is truly important?",
+        "a": "Ask yourself whether it moves you closer to a goal that matters to you. If the answer is no, it's probably just urgent or unnecessary."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "deep-work",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Deep Work: Sink Into True Focused Concentration",
+    "emoji": "🤿",
+    "intro": "Deep work means working without distraction on a demanding task. One hour like that often beats a whole scattered day.",
+    "sections": [
+      {
+        "heading": "Deep Work vs. Shallow Work",
+        "body": "Deep work means giving your full attention to a cognitively demanding task: writing, coding, understanding, creating. Shallow work (emails, notifications, quick tasks) runs on autopilot. Both are necessary, but only the first creates real value and real skills. The problem: it's rare and easy to erode."
+      },
+      {
+        "heading": "Creating the Right Conditions",
+        "body": "Deep concentration doesn't happen by accident — it has to be staged. Choose a time slot, a quiet place, a single task, and cut every source of interruption. Let people around you know you're unavailable. The more consistent the ritual, the faster your brain flips into focus mode, like a conditioned reflex built through repetition."
+      },
+      {
+        "heading": "Building Your Endurance",
+        "body": "Concentration is a muscle: if you start by aiming for four hours, you'll fail. Begin with 45-minute blocks and gradually lengthen them. Between sessions, resist the urge to fill every micro-moment of boredom with your phone — that habit is what destroys your ability to stay focused for long."
+      },
+      {
+        "heading": "Dose It, Don't Burn Out",
+        "body": "Deep work is intense; three to four hours per day is the maximum before quality drops. After that, handle shallow work and truly rest. A well-structured day alternates concentration peaks and recovery, rather than chasing maximum effort from morning to night."
+      }
+    ],
+    "steps": [
+      "Block a fixed time slot dedicated to one demanding task.",
+      "Find a quiet spot and switch off all notifications.",
+      "Work on one thing only, no tab-switching.",
+      "Start with 45 minutes and extend with practice.",
+      "Cap yourself at 3–4 hours of deep work per day, then rest."
+    ],
+    "faq": [
+      {
+        "q": "I can't hold focus for 45 minutes — is that bad?",
+        "a": "Not at all. Start at 20 minutes and build up. Concentration capacity grows slowly, exactly like physical endurance."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-phone-distractions",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Managing Phone Distractions",
+    "emoji": "📵",
+    "intro": "Your phone is engineered to grab your attention. Reclaiming control doesn't take heroic willpower — just better settings.",
+    "sections": [
+      {
+        "heading": "Why It's So Hard",
+        "body": "Apps are designed by whole teams to maximize screen time: notifications, infinite scroll, variable rewards. It's not a fair willpower battle. Understanding this removes the guilt and changes the strategy: instead of resisting constantly, modify your environment so distraction requires effort, not the other way around."
+      },
+      {
+        "heading": "Increase Friction",
+        "body": "Bury time-wasting apps in a folder on the third screen, no badge. Log out of accounts so you have to retype your password. Switch your screen to grayscale — a dull screen attracts far less attention. Each small obstacle between impulse and action gives you a fraction of a second of clarity to actually decide."
+      },
+      {
+        "heading": "Cut Notifications",
+        "body": "Disable all notifications except calls and direct messages from real people. A notification is an interruption decided by someone else; each one costs several minutes of lost focus. Going from a phone that pings you to a phone you check when you choose puts you back in control of your attention."
+      },
+      {
+        "heading": "Create Phone-Free Zones",
+        "body": "Define moments and places where the phone doesn't go: the dinner table, the first hour of the morning, the bedroom at night. During work, put it in another room, out of sight. The mere visible presence of your phone already reduces your cognitive performance — even when it's off."
+      }
+    ],
+    "steps": [
+      "Turn off all non-essential notifications.",
+      "Move distracting apps far away with no badges.",
+      "Switch your screen to grayscale.",
+      "Put your phone in another room while you work.",
+      "Create phone-free zones: meals, waking up, the bedroom."
+    ],
+    "faq": [
+      {
+        "q": "Do I need to delete social media entirely?",
+        "a": "Not necessarily. The goal is intentional use, not zero use. Start with friction and notifications; deletion is only useful if nothing else works."
+      },
+      {
+        "q": "What if I need my phone for work?",
+        "a": "Enable a focus mode that only allows work apps, or use a dedicated timer. You can separate the work tool from the dopamine toy."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-goals",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Setting SMART Goals That Actually Happen",
+    "emoji": "🎯",
+    "intro": "A vague goal never gets achieved. The SMART method turns a fuzzy desire into a clear, reachable target.",
+    "sections": [
+      {
+        "heading": "The Five Criteria",
+        "body": "SMART stands for Specific, Measurable, Achievable, Realistic, and Time-bound. 'Get fit' fails every criterion. 'Run 3 km without stopping within two months' hits them all. A good goal tells you exactly what to aim for, how to know when you've got there, and when. Without that, your brain has no direction."
+      },
+      {
+        "heading": "Make It Measurable",
+        "body": "If you can't measure a goal, you'll never know whether you're progressing, and motivation dies. Attach a number: a page count, a number of sessions, dollars, kilometers. Measurement transforms a vague feeling ('it's moving forward') into a verifiable fact, and each quantified step reinforces your drive to keep going."
+      },
+      {
+        "heading": "Aim Right — Not Too Easy, Not Unrealistic",
+        "body": "A too-easy goal doesn't engage you; an unrealistic one discourages you by the first week. Aim for a challenging but credible target given your actual time and constraints. You can always raise the bar once the first milestone is hit. Better to succeed small than fail big."
+      },
+      {
+        "heading": "The Power of a Deadline",
+        "body": "Without a date, a goal drifts indefinitely toward 'later.' A deadline creates useful tension and lets you plan backward: what do I need to do this month, this week, today? Then break the big goal into dated milestones to keep your rhythm and celebrate progress."
+      }
+    ],
+    "steps": [
+      "Write your goal in one precise sentence.",
+      "Add a number to make it measurable.",
+      "Check that it's challenging but realistic for you.",
+      "Set a clear deadline.",
+      "Break it into dated milestones and plan the first action."
+    ],
+    "faq": [
+      {
+        "q": "How many SMART goals should I track at once?",
+        "a": "Two or three maximum. Too many simultaneous goals scatter your energy and none of them really move forward."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "morning-routine",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Build a Morning Routine That Fits You",
+    "emoji": "🌅",
+    "intro": "A good morning routine isn't a list copied off the internet — it's a calm launch that puts your day on the right track.",
+    "sections": [
+      {
+        "heading": "The Launch Effect",
+        "body": "The first minutes after waking set the tone for the day. Starting by scrolling means handing your attention to others before you've even woken up. A routine, even a short one, puts you back in charge: you decide how you start. The psychological effect of a controlled morning often lasts all day."
+      },
+      {
+        "heading": "Start Small",
+        "body": "Don't aim for a one-hour routine on day one — you'll quit within three days. Pick two or three simple habits that fit in fifteen minutes: drink a glass of water, stretch, write three lines. A mini-routine held every single day beats an ambitious routine held for one week then forgotten."
+      },
+      {
+        "heading": "Delay the Phone",
+        "body": "The most powerful move is also the simplest: don't touch your phone for the first thirty minutes. Charge it outside your bedroom and use an old-school alarm. That delay protects your mental calm and keeps you from diving into the news and comparison flood before you've even had your coffee."
+      },
+      {
+        "heading": "Prepare the Night Before",
+        "body": "A good morning is often won the evening before: clothes laid out, bag ready, first task noted. This reduces the number of decisions you have to make at wake-up, when willpower is weakest. Less friction at getting up means a routine that holds even on the days you're not feeling it."
+      }
+    ],
+    "steps": [
+      "Charge your phone outside your bedroom.",
+      "Pick 2–3 simple habits that fit in 15 minutes.",
+      "Don't touch your phone for the first half hour.",
+      "Prepare your things and your first task the evening before.",
+      "Keep the routine identical every day to make it stick."
+    ],
+    "faq": [
+      {
+        "q": "Do you have to wake up super early to succeed?",
+        "a": "No. The ideal time depends on your sleep and obligations. A quality routine at 8 a.m. beats a 5 a.m. wake-up that robs you of sleep."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "evening-routine",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "An Evening Routine to Close Out the Day",
+    "emoji": "🌙",
+    "intro": "An evening routine cleanly wraps up your day and sets up the next one. It protects your sleep and peace of mind.",
+    "sections": [
+      {
+        "heading": "Mark the End of Work",
+        "body": "Without a closing ritual, work mentally bleeds into your evening and night. Create a shutdown signal: tidy your desk, write down tomorrow's tasks, close the laptop and say 'that's it for today.' This gesture tells your brain it can release vigilance and shift into rest mode."
+      },
+      {
+        "heading": "Empty Your Head on Paper",
+        "body": "The thoughts circling in bed are often un-noted tasks your brain keeps rehearsing for fear of forgetting them. Before sleep, write down everything that's worrying you plus your top three priorities for tomorrow. Once it's on paper, your mind lets go — it knows the information is safe elsewhere."
+      },
+      {
+        "heading": "Prepare for Sleep",
+        "body": "The last hour shapes the quality of your night. Dim the lights, step away from screens whose blue light delays sleep, and do something calm: read, stretch, take a warm shower. Keep consistent bedtimes: regularity helps your internal clock far more than any one-off trick."
+      },
+      {
+        "heading": "End on a Positive Note",
+        "body": "Finish by jotting down one thing that went well today, even something tiny. This rebalances attention naturally drawn to failures and lifts your mood at bedtime. You fall asleep feeling progress rather than a list of regrets — and wake up tomorrow more at ease."
+      }
+    ],
+    "steps": [
+      "Create a shutdown gesture to mark the end of work.",
+      "Write down what's on your mind and your top 3 tasks for tomorrow.",
+      "Cut screens at least 45 minutes before bed.",
+      "Do something calm and dim the lights.",
+      "Write down one positive thing from your day before sleeping."
+    ],
+    "faq": [
+      {
+        "q": "How long should an evening routine take?",
+        "a": "Twenty to thirty minutes is plenty. What matters is the regularity and the wind-down transition, not the length."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "effective-note-taking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Take Notes That Actually Serve You",
+    "emoji": "📝",
+    "intro": "Taking notes for the sake of taking notes is useless. Good notes capture what matters and are easy to find when you need them.",
+    "sections": [
+      {
+        "heading": "Understand First, Then Write",
+        "body": "Copying word for word keeps your hand busy but not your brain. Effective note-taking requires reformulation: listen, understand, then write the idea in your own words. That translation effort locks in the information far better than passive transcription. A few understood notes beat pages of copied text with no thought behind them."
+      },
+      {
+        "heading": "Structure to Retrieve",
+        "body": "A useful note is a findable note. Give it a clear title, a date, and keywords. Visually separate main ideas from details with headings, bullet points, and white space. A well-structured note can be re-read in seconds months later; a solid block of text will never be reopened."
+      },
+      {
+        "heading": "The Cornell Method",
+        "body": "Divide your page into three zones: a wide column for notes during class, a narrow column on the left for questions or keywords added afterward, and a strip at the bottom for a two-or-three-sentence summary. This structure forces you to revisit your notes, turning note-taking into revision."
+      },
+      {
+        "heading": "Review Quickly Afterward",
+        "body": "Your notes are worth little if you never look at them again. Spend five minutes that same evening reviewing and completing them while the context is fresh. This quick pass corrects gaps, clarifies abbreviations, and kicks off memorization. A note reviewed while it's still warm becomes a real study resource."
+      }
+    ],
+    "steps": [
+      "Listen and understand before writing.",
+      "Restate ideas in your own words.",
+      "Add a title, date, and keywords to each note.",
+      "Visually separate main ideas from details.",
+      "Review and complete your notes the same evening."
+    ],
+    "faq": [
+      {
+        "q": "Is it better to take notes by hand or on a keyboard?",
+        "a": "By hand, you write more slowly, so you reformulate more and retain better. A keyboard is useful for high volume — choose based on context."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "parkinsons-law",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Parkinson's Law: Set Shorter Deadlines",
+    "emoji": "⏳",
+    "intro": "'Work expands to fill the time available.' Understanding Parkinson's Law helps you work faster without toxic pressure.",
+    "sections": [
+      {
+        "heading": "The Principle",
+        "body": "If you give yourself a full day for a one-hour task, it will take a full day: you'll hesitate, over-polish, drift. Conversely, a tight deadline forces focus on what matters. Parkinson's Law simply says that without a time constraint, work expands. Intentionally short deadlines act as an accelerator."
+      },
+      {
+        "heading": "Use Artificial Deadlines",
+        "body": "You don't need to wait for a real deadline — create one. Decide 'I'll finish this draft in 45 minutes' and start a timer. The constraint forces you to choose what matters and ditch paralyzing perfectionism. Many tasks that drag on for hours actually get done in a fraction of the imagined time."
+      },
+      {
+        "heading": "The Perfectionism Trap",
+        "body": "Without a deadline, you endlessly polish details nobody will notice. A tight deadline forces you to aim for 'good enough' instead of 'perfect.' For 80% of tasks, 'good enough delivered on time' is far better than 'perfect never finished.' A time constraint cures perfectionism."
+      },
+      {
+        "heading": "Keep the Balance",
+        "body": "Short deadlines don't mean running constantly. The idea is to compress work time to free up rest time — not to pile on more tasks. Once you finish something quickly, genuinely enjoy the time you gained. Working with urgency then resting fully beats a tepid, stretched-out day."
+      }
+    ],
+    "steps": [
+      "Honestly estimate how long a task actually takes.",
+      "Set yourself a deadline slightly shorter than that estimate.",
+      "Start a visible timer and work without distraction.",
+      "Accept a 'good enough' result rather than a perfect one.",
+      "Genuinely use the freed-up time to rest."
+    ],
+    "faq": [
+      {
+        "q": "Don't short deadlines hurt quality?",
+        "a": "The opposite — they eliminate the superfluous and sterile perfectionism. Reserve long deadlines for the rare tasks where every detail truly matters."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "two-minute-rule",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Two-Minute Rule: Stop Letting Small Tasks Stack Up",
+    "emoji": "⚡",
+    "intro": "If a task takes less than two minutes, do it right now. This simple rule stops small tasks from piling into a mountain.",
+    "sections": [
+      {
+        "heading": "The Anti-Pile-Up Principle",
+        "body": "Many micro-tasks (replying to a message, putting something away, writing down an appointment) take less time to do than to remember and reschedule. The rule says: if it's doable in two minutes, do it immediately. You avoid the invisible accumulation of small things that ends up weighing heavily on your mental load."
+      },
+      {
+        "heading": "The Hidden Cost of Deferral",
+        "body": "Every deferred task takes up a little mental space: you have to remember it, reschedule it, see it sitting on your list. Ten pending micro-tasks create diffuse fatigue far heavier than the twenty minutes they actually represent. Handling them right away frees that mental space for the things that matter."
+      },
+      {
+        "heading": "The Other Version: Just Start",
+        "body": "There's a second reading of the rule, useful against procrastination: for any big task, just commit to spending two minutes on it. The goal isn't to finish but to start. Once you're going, you almost always keep going. Both versions share the same idea: lower the bar for action."
+      },
+      {
+        "heading": "When Not to Apply It",
+        "body": "The rule has a limit: in the middle of deep work, interrupting yourself for a micro-task breaks your concentration. In that case, note it down and handle it during a break or a dedicated small-tasks slot. Apply the two-minute rule outside of focus sessions, not during."
+      }
+    ],
+    "steps": [
+      "When a task comes up, estimate if it takes less than 2 minutes.",
+      "If yes, do it immediately.",
+      "If no, write it down to schedule later.",
+      "During deep work, note even micro-tasks without doing them.",
+      "Group the noted small tasks into a dedicated batch session."
+    ],
+    "faq": [
+      {
+        "q": "What if I have twenty two-minute tasks at once?",
+        "a": "Group them into a single 30–40-minute batching block rather than scattering them and fragmenting your day."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eat-the-frog",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Eat the Frog: Tackle Your Hardest Task First",
+    "emoji": "🐸",
+    "intro": "Doing the hardest task of the day first clears your head and creates momentum that carries everything else.",
+    "sections": [
+      {
+        "heading": "The Idea Behind the Frog",
+        "body": "Your 'frog' is the most important and most dreaded task of the day — the one you're tempted to delay. The rule is to attack it first, before emails and small stuff. Once done, the rest of the day feels easy and you no longer carry that shadow looming in the background."
+      },
+      {
+        "heading": "Use Your Morning Energy",
+        "body": "For most people, willpower and mental clarity peak at the start of the day and decline from there. Saving that peak for emails is a waste. Placing your most demanding task in that slot gives it your best resources and significantly raises your chances of doing it well."
+      },
+      {
+        "heading": "Choose Your Frog the Night Before",
+        "body": "Decide the night before what tomorrow's frog will be. That way, when you wake up, there's no deliberation or self-negotiation needed — the decision is already made, you just execute. Choosing in the morning leaves too much room for avoidance, because your willpower is still half asleep."
+      },
+      {
+        "heading": "One Frog Only",
+        "body": "Set yourself only one frog per day. Trying to 'eat' three hard tasks back to back leads to exhaustion and discouragement. One clear morning win is enough to transform your day. After the frog, give yourself a real break before moving on — the reward sustains the habit."
+      }
+    ],
+    "steps": [
+      "The night before, pick your most important task for tomorrow.",
+      "When you wake up, tackle it before emails and your phone.",
+      "Work on it until you hit a clear checkpoint.",
+      "Give yourself a real break once the frog is eaten.",
+      "Set yourself only one frog per day."
+    ],
+    "faq": [
+      {
+        "q": "What if I'm not a morning person?",
+        "a": "Place your frog at your own energy peak, even if that's late morning or afternoon. What matters is using your best window, not a forced hour."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "todo-list-that-doesnt-overwhelm",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Write a To-Do List That Doesn't Overwhelm You",
+    "emoji": "✅",
+    "intro": "A poorly made to-do list becomes a source of stress. Built right, it clarifies and eases your day.",
+    "sections": [
+      {
+        "heading": "The Problem with Infinite Lists",
+        "body": "A mixed list of thirty tasks doesn't guide you — it crushes you. Your brain sees a mass, doesn't know where to start, and guilt creeps in for every unchecked line. A good to-do list isn't a dump of everything you could do, but a clear selection of what you're actually going to do today."
+      },
+      {
+        "heading": "Separate Capture from Planning",
+        "body": "Keep two distinct spaces: a 'brain dump' list where you capture everything without filter so nothing is forgotten, and a short, realistic 'today' list you build each morning by picking from the first. Capture empties your head; the daily list focuses action. Mixing the two creates overwhelm."
+      },
+      {
+        "heading": "Three to Five Tasks Maximum",
+        "body": "Cap your daily list at five tasks, with exactly one top priority. A short list is realistic, so it's achievable, so it's motivating: you end the day feeling like you succeeded. Better to check off three chosen tasks than to leave twenty hanging and go to sleep feeling defeated."
+      },
+      {
+        "heading": "Write Concrete Actions",
+        "body": "'Maths project' isn't a task — it's a topic: your brain doesn't know what to do with it. Write a specific action starting with a verb: 'write the introduction,' 'send the email to Leo.' The more concrete the wording, the easier the task is to start and faster to check off."
+      }
+    ],
+    "steps": [
+      "Keep a 'brain dump' list where you note everything without filter.",
+      "Each morning, pick 3–5 tasks for the day.",
+      "Designate ONE task as the top priority.",
+      "Phrase each task as a concrete action with a verb.",
+      "At the end of the day, carry over undone tasks without guilt."
+    ],
+    "faq": [
+      {
+        "q": "What do I do with unfinished tasks?",
+        "a": "Calmly carry them to tomorrow, or question their usefulness. A task deferred five times probably isn't that important — own it and delete it."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "1-3-5-rule",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The 1-3-5 Rule to Calibrate Your Day",
+    "emoji": "🔢",
+    "intro": "The 1-3-5 rule offers a simple, realistic formula: one big task, three medium tasks, five small ones. Just right.",
+    "sections": [
+      {
+        "heading": "The Right Dosage",
+        "body": "A day rarely holds more than one major task, a few medium ones, and a handful of small ones. The 1-3-5 rule puts this reality into a formula: pick one big task, three medium ones, five small ones — and that's it. This framework stops you from overloading your day while guaranteeing real progress on what matters."
+      },
+      {
+        "heading": "Identify the Big Task",
+        "body": "The '1' task is the one that matters most, often the most demanding. It deserves your best slot and your best energy. If it's the only thing you do all day, that's already a win. Choose it consciously rather than letting the urgency of the moment decide for you."
+      },
+      {
+        "heading": "The Role of Small Tasks",
+        "body": "The five small tasks (emails, calls, tidying up) are necessary but shouldn't devour the day. By capping them at five, you stop them from filling all the space at the expense of deeper work. Group them in one slot if possible so they don't fragment your concentration throughout the day."
+      },
+      {
+        "heading": "Adapt to Reality",
+        "body": "The 1-3-5 is a starting point, not a law. On heavy days, scale down to 1-2-3; on calm days, you can add. The key is starting from a finite, chosen number of tasks rather than an open-ended list that just keeps growing. Always leave margin for the unexpected."
+      }
+    ],
+    "steps": [
+      "Choose 1 priority big task for the day.",
+      "Select 3 medium tasks.",
+      "List 5 quick small tasks.",
+      "Place the big task in your best slot.",
+      "Adjust the numbers based on your actual workload."
+    ],
+    "faq": [
+      {
+        "q": "What if a task comes up during the day?",
+        "a": "Add it only if it's urgent, removing an existing task. Otherwise, put it on tomorrow's list to keep your day manageable."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "task-batching",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Batching: Group Similar Tasks Together",
+    "emoji": "📦",
+    "intro": "Constantly switching between different types of tasks drains your brain. Batching groups similar work together for smoother flow.",
+    "sections": [
+      {
+        "heading": "The Cost of Context-Switching",
+        "body": "Every time you shift from one type of task to another, your brain has to reload a mental context: rules, vocabulary, mindset. That reload takes several minutes and energy. A day spent bouncing between emails, assignments, and calls leaves you exhausted with nothing much done. Batching cuts those switches."
+      },
+      {
+        "heading": "Group by Type",
+        "body": "The principle is simple: put tasks of the same kind into the same block. All emails together, all calls together, all errands together. You stay in one mental context longer, build momentum, and go faster. Batching transforms scattered fatigue into efficient blocks."
+      },
+      {
+        "heading": "Create Themed Slots",
+        "body": "Dedicate specific times to each category: emails at 11 a.m. and 5 p.m., calls on Tuesday afternoon, admin on Friday morning. Outside those slots, you don't touch them. This discipline protects your concentration windows and gives the week a reassuring structure."
+      },
+      {
+        "heading": "The Limits of Batching",
+        "body": "Batching doesn't suit everything: a real emergency can't wait for its scheduled slot, and some creative tasks can't be programmed in series. Use it for repetitive, low-intensity tasks where it shines — don't force everything into blocks."
+      }
+    ],
+    "steps": [
+      "List your recurring tasks and group them by type.",
+      "Create a dedicated slot for each category.",
+      "Handle each category all at once.",
+      "Outside the slot, don't touch those tasks.",
+      "Keep genuine emergencies outside the system."
+    ],
+    "faq": [
+      {
+        "q": "Does batching work for studying?",
+        "a": "Yes: group exercises from the same subject, or all your flashcard reviews. Just avoid studying two very similar subjects back to back so you don't mix them up."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "single-tasking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Single-Tasking: Do One Thing at a Time",
+    "emoji": "🎯",
+    "intro": "Multitasking is a myth: the brain just switches fast and badly. Single-tasking produces faster work of higher quality.",
+    "sections": [
+      {
+        "heading": "Multitasking Doesn't Exist",
+        "body": "Except for automatic movements, the brain doesn't process two cognitive tasks simultaneously — it alternates rapidly. Each switch carries a cost in time and errors. The feeling of being efficient while juggling is an illusion: you're actually slower, more tired, and less accurate than when focused on one thing."
+      },
+      {
+        "heading": "Decide, Then Commit",
+        "body": "Single-tasking starts with a decision: 'during this block, I'm only doing this.' Close other tabs, put other folders away, move other tasks out of sight. This voluntary restriction isn't a constraint — it's a release: your attention has only one place to go, and the work flows."
+      },
+      {
+        "heading": "Handle Stray Thoughts",
+        "body": "In single-task mode, your brain will offer unrelated ideas: 'what if I checked...' Don't follow them, but don't fight them either. Jot them in a word on a notepad beside you and return to your task. That 'later' list reassures your mind — it knows nothing will be forgotten, so it lets go."
+      },
+      {
+        "heading": "A Calmer Mind",
+        "body": "Beyond efficiency, single-tasking is calming. Constantly jumping from one thing to another creates background agitation and stress. Focusing fully on a single activity, even a simple one, brings a feeling of calm and presence. Healthy productivity and well-being point in the same direction here."
+      }
+    ],
+    "steps": [
+      "Pick one single task for the upcoming block.",
+      "Close all unrelated tabs and apps.",
+      "Put your phone out of sight.",
+      "Jot down stray thoughts instead of following them.",
+      "Only switch tasks once you've reached a clear checkpoint."
+    ],
+    "faq": [
+      {
+        "q": "Is listening to music while working multitasking?",
+        "a": "Not really, if the music is instrumental and familiar — it stays in the background. Avoid podcasts or songs with lyrics, which engage language the same way your task does."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "90-minute-cycles",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Working in 90-Minute Cycles",
+    "emoji": "🔄",
+    "intro": "Your energy follows natural cycles of roughly 90 minutes. Working with those waves instead of against them makes you far more effective.",
+    "sections": [
+      {
+        "heading": "Ultradian Rhythms",
+        "body": "Your body operates in roughly 90-minute cycles, even when awake: a phase of high alertness followed by a natural dip. Fighting the dip by pushing through just exhausts you and degrades quality. Recognizing these waves lets you organize work to push hard during peaks and recover during troughs."
+      },
+      {
+        "heading": "One Session, Then Rest",
+        "body": "Align a concentrated work session with an energy peak: about 90 minutes on a demanding task. Then give yourself 15 to 20 minutes of real rest to let the cycle renew. This sustained alternation easily outperforms one long continuous stretch where effectiveness collapses after the first 90 minutes."
+      },
+      {
+        "heading": "Find Your Own Peaks",
+        "body": "Not everyone has the same energy schedule. For one week, note what times you feel sharp and what times you fade. A pattern will emerge: your personal high-energy windows and your low points. Reserve hard tasks for your peaks and easy tasks for your troughs — work with your biology instead of fighting it."
+      },
+      {
+        "heading": "Rest Is Part of the Work",
+        "body": "The break after a cycle isn't lost time — it's the condition for the next cycle. Walk, stretch, look outside, close your eyes. Systematically skipping breaks to 'save time' leads to unproductive afternoons and burnout. Respecting the dip protects the peak that follows."
+      }
+    ],
+    "steps": [
+      "Track your high-energy hours for a week.",
+      "Schedule a ~90-min session during a peak.",
+      "Work on one demanding task through the cycle.",
+      "Take a real 15–20-minute break afterward.",
+      "Reserve easy tasks for your energy troughs."
+    ],
+    "faq": [
+      {
+        "q": "What if I'm still focused after 90 minutes?",
+        "a": "You can finish your current thought, but don't push too far past it — fatigue often hits right after, and a timely break protects the next session."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pareto-principle",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Pareto Principle: Target the 20% That Counts",
+    "emoji": "📊",
+    "intro": "About 80% of results come from 20% of efforts. Identifying that decisive 20% radically changes how you work.",
+    "sections": [
+      {
+        "heading": "The 80/20 Principle",
+        "body": "The Pareto Principle observes that results are rarely evenly distributed: a small fraction of actions produces most of the effects. In your studying, a few key chapters earn the most points; in a project, a few tasks make the real difference. Spotting that core lets you concentrate your energy where it counts."
+      },
+      {
+        "heading": "Finding Your 20%",
+        "body": "For each goal, ask yourself: which actions, if I only did those, would already deliver most of the result? For an exam, it's often the most frequently tested concepts. For a project, the visible deliverables. This question saves you from exhausting yourself on low-impact details."
+      },
+      {
+        "heading": "Lighten the Other 80%",
+        "body": "Once you've identified the decisive 20%, you can handle the rest faster, simplify it, delegate it, or sometimes drop it. Not everything needs to be perfect. Investing equal effort everywhere is a waste: Pareto gives you permission to dose your effort and put your best self where it actually changes something."
+      },
+      {
+        "heading": "Pareto and Balance",
+        "body": "Used well, the Pareto Principle isn't a tool for doing more and more — it's for doing less of what's useless. By focusing effort on what matters, you get solid results without sacrificing everything, and you free up time for rest. It's a principle of efficiency, not of overload."
+      }
+    ],
+    "steps": [
+      "For a goal, list all possible actions.",
+      "Identify the small group of high-impact actions.",
+      "Give your best time to that decisive 20%.",
+      "Simplify, speed up, or drop the rest.",
+      "Enjoy the freed-up time instead of piling on more."
+    ],
+    "faq": [
+      {
+        "q": "Is 80/20 an exact ratio?",
+        "a": "No, it's a metaphor. Sometimes it's 70/30 or 90/10. The takeaway is simply that effort and results aren't evenly distributed."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gtd-clear-your-head",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "GTD: Clear Your Head to Get Things Done",
+    "emoji": "🧺",
+    "intro": "Getting Things Done rests on a powerful idea: your brain is for thinking, not for storing. Get everything out of your head.",
+    "sections": [
+      {
+        "heading": "The Brain Is a Lousy Filing Cabinet",
+        "body": "Keeping tasks in your head creates constant tension: your brain rehearses them endlessly for fear of forgetting. This mental load tires you and blocks focus. The first GTD step is 'capture': write down absolutely everything rattling around in your head into a trusted system, freeing your mind."
+      },
+      {
+        "heading": "Clarify Each Item",
+        "body": "A raw capture list isn't actionable. For each item, ask: is this an action? If yes, what's the very next concrete step? If no, is it trash, something to archive, or something to incubate? This clarification step turns a jumble of ideas into clear, actionable items."
+      },
+      {
+        "heading": "Organize by Context",
+        "body": "GTD organizes actions by context rather than by project: 'calls to make,' 'errands,' 'at the computer.' That way, when you're in a given situation, you immediately see what you can do. This organization matches the reality of your days and reduces time spent wondering what to do next."
+      },
+      {
+        "heading": "The Regular Review",
+        "body": "A GTD system only stays useful if you review it. Once a week, go through all your lists: check off what's done, add the new, flag the stuck. This weekly review maintains your trust in the system; without it, you stop believing in it and drift back to the mental-load-of-everything approach."
+      }
+    ],
+    "steps": [
+      "Write down everything occupying your head into one list.",
+      "For each item, define the very next concrete action.",
+      "Organize actions by context (calls, errands, computer).",
+      "Do anything that takes less than two minutes immediately.",
+      "Review all your lists once a week."
+    ],
+    "faq": [
+      {
+        "q": "Isn't GTD too complex for everyday life?",
+        "a": "You can keep just the essentials: capture everything, define the next action, do a weekly review. Those three habits alone are enough to lighten your mental load."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "manage-energy-not-just-time",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Manage Your Energy as Much as Your Time",
+    "emoji": "🔋",
+    "intro": "Having free time means nothing if you're drained. Real productivity manages your energy as much as your schedule.",
+    "sections": [
+      {
+        "heading": "Time Alone Isn't Enough",
+        "body": "Two free hours when you're in great shape and two free hours when you're exhausted aren't worth the same. We often plan time while forgetting energy, and end up with a 'free' slot we're incapable of using. Thinking about productivity also means asking: at that moment, will I have the fuel?"
+      },
+      {
+        "heading": "Match Tasks to Energy Levels",
+        "body": "Reserve demanding tasks for your high-energy moments and mechanical tasks for your low points. Attacking a hard subject when you're depleted wastes time and demoralizes you. Conversely, sorting files when you're at peak energy wastes a precious spike. Aligning energy with tasks multiplies efficiency."
+      },
+      {
+        "heading": "Recharge Your Batteries",
+        "body": "Energy isn't fixed — it regenerates. Sleep is the main source, followed by nutrition, movement, time outdoors, and genuine breaks. Tending to these pillars isn't a luxury alongside productivity: it's the very engine of productivity. A rested body outperforms any method."
+      },
+      {
+        "heading": "Spot Energy Leaks",
+        "body": "Some things drain you without you noticing: prolonged scrolling, unresolved conflicts, clutter, deferred decisions. Identify your main leaks and patch them one by one. Protecting your energy matters as much as recharging it — and is often easier to put in place."
+      }
+    ],
+    "steps": [
+      "Track your energy levels through a typical day.",
+      "Put hard tasks on your peaks, easy tasks on your troughs.",
+      "Treat sleep, food, and movement as core pillars.",
+      "Take real breaks that recharge — not scroll sessions.",
+      "Identify and reduce your main energy leaks."
+    ],
+    "faq": [
+      {
+        "q": "How do I recharge in just a few minutes at work?",
+        "a": "Stand up, take a short walk, look into the distance, breathe slowly, or step outside. These micro-recharges beat another coffee or a glance at your phone."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "tame-digital-multitasking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Close the Tabs: Tame Digital Multitasking",
+    "emoji": "🪟",
+    "intro": "Twenty open tabs are twenty invitations to scatter. Taking back control of your screen means taking back control of your attention.",
+    "sections": [
+      {
+        "heading": "Every Tab Is a Permanent Distraction",
+        "body": "Every open tab is a temptation and a mental load: your eyes wander to it, you wonder if you should check it. A cluttered screen maintains constant dispersion. Reducing the number of visible tabs and windows mechanically reduces the number of chances to drift from your task."
+      },
+      {
+        "heading": "One Task, One Space",
+        "body": "Adopt the rule: one visible workspace at a time, containing only what you need for the current task. Close or group the rest. If you're working on an assignment, only what serves that assignment should be on screen. This simplification helps your brain stay on a single track."
+      },
+      {
+        "heading": "Handle 'Read Later' Tabs",
+        "body": "We often keep tabs open as reminders: 'I'll read this later.' The problem is they pile up and pollute. Use a reading list or dedicated bookmarks instead. That way you can close the tab without fear of losing the info, and your browser becomes a tool again, not a junk drawer."
+      },
+      {
+        "heading": "Cut Desktop Notifications",
+        "body": "Digital multitasking doesn't only come from tabs: messaging apps, email, and desktop apps interrupt you with pop-ups. Enable 'do not disturb' mode during work sessions. You'll check those channels at chosen times. One interruption avoided is several minutes of concentration preserved."
+      }
+    ],
+    "steps": [
+      "Before a session, close tabs that aren't relevant.",
+      "Keep only what serves the current task visible.",
+      "Bookmark 'read later' pages instead of leaving tabs open.",
+      "Enable 'do not disturb' on your computer.",
+      "Do a big tab clean-up at the end of each day."
+    ],
+    "faq": [
+      {
+        "q": "I'm afraid of losing important tabs when I close them.",
+        "a": "Create a 'in progress' bookmarks folder: you save everything in one click and reopen the group whenever you want, without cluttering your workspace."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "5-minute-daily-review",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The 5-Minute Daily Review",
+    "emoji": "🔎",
+    "intro": "Five minutes of review each evening is enough to learn from your day and better prepare the next one.",
+    "sections": [
+      {
+        "heading": "Why Review Your Day",
+        "body": "Without reflection time, days blur together and the same mistakes repeat. A short daily review lets you notice what worked, what got stuck, and what to adjust. It's a fast learning loop: each day you become a little more accurate in how you organize yourself."
+      },
+      {
+        "heading": "Three Simple Questions",
+        "body": "No need for a long journal. Three questions are enough: what went well today? What was difficult or didn't get done? What will I do differently tomorrow? Answer in a few words. The regularity of the ritual matters far more than the length of the answers."
+      },
+      {
+        "heading": "Review, Not Tribunal",
+        "body": "A review isn't a self-criticism session. A less productive day usually has concrete causes: poor sleep, overload, something unexpected. Look for the cause with curiosity, not blame. The goal is to adjust, not punish yourself. A compassionate review makes you want to continue; a guilt-ridden one gets abandoned fast."
+      },
+      {
+        "heading": "Bridge to Tomorrow",
+        "body": "Finish the review by noting two or three priorities for tomorrow. Your day then closes with a clear handoff to the next one: you shut down cleanly and set the stage. When you wake up, you already know where to start — no deliberating when your willpower is at its lowest."
+      }
+    ],
+    "steps": [
+      "Set aside a fixed 5 minutes at the end of each day.",
+      "Note what went well.",
+      "Note what got stuck, without judging yourself.",
+      "Decide one concrete adjustment for tomorrow.",
+      "List 2–3 priorities for the next day."
+    ],
+    "faq": [
+      {
+        "q": "Written or in your head?",
+        "a": "Writing is better: it forces clarity and keeps a record you can reread to spot patterns across several weeks."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "define-your-real-priorities",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Define Your Real Priorities",
+    "emoji": "🥇",
+    "intro": "Being busy isn't being productive. Setting priorities means consciously choosing what deserves your limited time.",
+    "sections": [
+      {
+        "heading": "Busy Isn't Productive",
+        "body": "You can fill an entire day without moving anything important forward: answering messages, rushing from one small task to another, reacting to requests. Busyness creates the illusion of work. Setting priorities means refusing that illusion and deciding in advance what truly matters, rather than being swept along by noise."
+      },
+      {
+        "heading": "Start from Your Goals",
+        "body": "A priority only makes sense when tied to a goal. Ask yourself: what, if accomplished this week, would bring me closest to what I want? Those answers are your priorities. Everything else is secondary by definition. Without a clear goal upstream, 'prioritizing' just means tidying up the random."
+      },
+      {
+        "heading": "To Choose Is to Give Up",
+        "body": "The word priority comes from 'first' — there can't be ten of them. Defining priorities means accepting that other things come later, or won't happen. That's uncomfortable but freeing: you stop spreading yourself thin and actually move forward on a few things. Conscious sacrifice beats half-assing everything."
+      },
+      {
+        "heading": "Protect Your Priorities",
+        "body": "Naming a priority isn't enough — you have to defend it. Place it early in the day and week, in a good slot, before emergencies eat your time. Learn to say no, or 'not right now,' to requests that threaten that slot. An unprotected priority quickly becomes a forgotten intention."
+      }
+    ],
+    "steps": [
+      "Clarify your goals for the week.",
+      "Identify the 2–3 highest-impact actions.",
+      "Accept that the rest comes after.",
+      "Place those priorities early in good slots.",
+      "Guard those slots against other people's requests."
+    ],
+    "faq": [
+      {
+        "q": "What if everything feels like a priority?",
+        "a": "That's a sign no sorting has been done. Force yourself to rank: if you could only do one thing today, which would it be? Start there."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "overcome-perfectionism",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Overcome the Perfectionism That Holds You Back",
+    "emoji": "💯",
+    "intro": "Wanting to do everything perfectly often prevents you from finishing — or even starting. Learning to aim for 'good enough' unblocks you.",
+    "sections": [
+      {
+        "heading": "Perfectionism Paralyzes",
+        "body": "Perfectionism disguises itself as high standards, but it stalls: you delay out of fear of doing it wrong, you don't dare show imperfect work, you endlessly polish invisible details. Result: projects that never get finished and a lot of anxiety. Understanding that perfectionism hurts productivity is the first step to breaking free."
+      },
+      {
+        "heading": "Aim for 'Good Enough'",
+        "body": "For the vast majority of tasks, a correct result delivered on time beats a perfect one never finished. Before starting, define the level actually needed: a draft, a shared version, an adequate grade. Work to hit that level, then stop. This explicit target cuts off the endless escalation."
+      },
+      {
+        "heading": "Done Beats Perfect",
+        "body": "Finished work can be improved; unfinished work doesn't exist. Get into the habit of producing a complete first version as fast as possible, even imperfect. You'll then have something concrete to refine, and improvement becomes easy. The worst enemy of good isn't bad — it's never-finished."
+      },
+      {
+        "heading": "Get Comfortable with Imperfection",
+        "body": "Deliberately practice delivering imperfect things: send a message without rereading it ten times, submit an assignment without reopening it. Each time, you'll see that the world doesn't end. This gradual exposure loosens perfectionism's grip and teaches you to distinguish healthy standards from sterile anxiety."
+      }
+    ],
+    "steps": [
+      "Before a task, define the level actually required.",
+      "Produce a complete first version, even if imperfect.",
+      "Stop once 'good enough' is reached.",
+      "Practice delivering without over-reviewing.",
+      "Notice that the consequences of imperfection are minor."
+    ],
+    "faq": [
+      {
+        "q": "How do I know if a task truly deserves perfection?",
+        "a": "Very few do: a final exam, a key job application. For everyday tasks, 'good enough' is almost always the right target."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "start-when-you-dont-feel-like-it",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Starting a Task When You Don't Feel Like It",
+    "emoji": "🚀",
+    "intro": "Waiting for motivation before starting means waiting forever. Often, the desire to work shows up after you've started, not before.",
+    "sections": [
+      {
+        "heading": "Motivation Follows Action",
+        "body": "We think we need to feel motivated to act — but it's usually the other way around: action triggers motivation. The first minutes of a task are the hardest; after that, momentum builds. Instead of waiting for drive that never comes, the right reflex is to force the start and let motivation follow."
+      },
+      {
+        "heading": "The Startup Ritual",
+        "body": "Create a small ritual that's always the same before working: clear your desk, make a drink, start the same playlist, open the file. Repeated, this ritual becomes an automatic trigger: your brain links those gestures to switching into work mode. You no longer need to decide — you just follow the sequence."
+      },
+      {
+        "heading": "Lower the First Step",
+        "body": "When you're not feeling it, the task feels enormous. Break it down until you get a first action that's almost laughably small: 'write the title,' 'open the textbook to the right page.' Commit only to that. Once that micro-step is done, continuing feels natural. The key is making the start too easy to refuse."
+      },
+      {
+        "heading": "Tell Laziness from Fatigue",
+        "body": "Sometimes lack of motivation hides genuine fatigue. Learn the difference: if you're truly exhausted, push a little but allow yourself rest without guilt, because forcing it with no fuel achieves nothing good. If it's just resistance to starting, apply the ritual and the micro-step. Listening to your body is part of healthy productivity."
+      }
+    ],
+    "steps": [
+      "Don't wait for motivation — trigger the start.",
+      "Create a fixed ritual that precedes every work session.",
+      "Break the task down to one tiny first action.",
+      "Commit only to that micro-step.",
+      "If it's genuine fatigue, rest without guilt."
+    ],
+    "faq": [
+      {
+        "q": "What if even after starting, the drive still doesn't come?",
+        "a": "Give yourself ten minutes of genuine effort. If nothing unlocks, it might be a sign of fatigue: rest for real, then try again later."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "handle-interruptions",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Handling Interruptions from Others",
+    "emoji": "🛑",
+    "intro": "An interruption costs more than its duration: it breaks concentration that takes time to rebuild. Learn to limit them without cutting yourself off from the world.",
+    "sections": [
+      {
+        "heading": "The Real Cost of an Interruption",
+        "body": "When someone interrupts you, you lose the current task but also the mental context you'd loaded up. Recovering it often takes several minutes. A day chopped by ten interruptions can lose a full hour of effective concentration, on top of the fatigue. Reducing interruptions has a far bigger effect than it seems."
+      },
+      {
+        "heading": "Make Your Focus Visible",
+        "body": "People don't always know they're disturbing you. Signal your focus windows: headphones on, a 'busy' status, a note on the door, an available-at time posted. You can also offer a slot: 'I'm tied up until 11, let's talk right after.' You protect your focus without pushing people away."
+      },
+      {
+        "heading": "Group Exchanges",
+        "body": "Rather than letting requests trickle in all day, offer dedicated windows for questions. Let your roommates or colleagues know: 'come find me between 2 and 3 p.m.' Exchanges get batched, your work windows stay intact. This structure also reassures others — they know exactly when they can reach you."
+      },
+      {
+        "heading": "Get Back Fast After an Interruption",
+        "body": "Some interruptions are unavoidable. To limit their cost, make a habit of jotting a quick note about where you were just before responding: 'picking back up at...' This note is your anchor point for diving back in quickly. Without it, you often restart from scratch and lose the thread you had."
+      }
+    ],
+    "steps": [
+      "Signal your focus periods (headphones, status, note).",
+      "Offer dedicated slots for other people's questions.",
+      "Before answering an interruption, note where you were.",
+      "Return to that anchor point as soon as the exchange is done.",
+      "Keep clearly protected windows in your day."
+    ],
+    "faq": [
+      {
+        "q": "How do I decline an interruption without offending anyone?",
+        "a": "Be warm but clear: 'happy to help, but let me finish this first — see you in 30 minutes.' You show interest while protecting your time."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "habit-stacking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Habit Stacking to Make New Habits Stick",
+    "emoji": "🧱",
+    "intro": "Attaching a new habit to an already solid one is one of the most reliable ways to make it last.",
+    "sections": [
+      {
+        "heading": "The Stacking Principle",
+        "body": "You already have dozens of automatic habits: brushing your teeth, making coffee, turning on your computer. Stacking means grafting a new habit immediately after one of them. The formula is simple: 'after [existing habit], I do [new habit].' The old habit becomes a reliable trigger for the new one."
+      },
+      {
+        "heading": "Choose a Good Anchor",
+        "body": "All the success depends on the trigger you choose. It must be something you already do without fail, every day, at the same time. 'After my morning coffee' is a good anchor; 'when I have a moment' isn't. The more stable and specific the anchor, the faster the new habit will take root."
+      },
+      {
+        "heading": "Start Tiny",
+        "body": "The grafted habit must be very small at first: one minute of reading, ten seconds of stretching, one written line. The initial goal isn't performance but consistency: making the sequence fire every day. You can expand the habit later, once the automatism is well established."
+      },
+      {
+        "heading": "Build Chains",
+        "body": "Once a stacked habit is well anchored, you can graft another one behind it, forming a chain. For example: coffee, then three lines of journaling, then planning the day. These sequences become smooth routines that flow almost effortlessly. Always add one link at a time to avoid overloading."
+      }
+    ],
+    "steps": [
+      "List your already automatic, reliable habits.",
+      "Pick one as a stable anchor point.",
+      "Write the formula: 'after [anchor], I do [new habit].'",
+      "Keep the new habit tiny at first.",
+      "Add a new link only once the previous one holds."
+    ],
+    "faq": [
+      {
+        "q": "How long until a stacked habit becomes automatic?",
+        "a": "It varies by person and habit, often several weeks. Daily consistency matters more than any specific number of days."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "habit-tracking",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Habit Tracking: Don't Break the Chain",
+    "emoji": "📈",
+    "intro": "Checking a box every day makes a habit visible and motivating. Watching the chain grow makes you want to keep it intact.",
+    "sections": [
+      {
+        "heading": "Make the Invisible Visible",
+        "body": "A habit is built over time, but daily progress is invisible: one day of reading doesn't show. A habit tracker — a simple grid where you check off each successful day — makes that progress concrete. You see consistency accumulating, turning an abstract effort into tangible proof of steadiness."
+      },
+      {
+        "heading": "Don't Break the Chain",
+        "body": "When you check off several days in a row, a chain forms. A simple motivation appears: don't break it. The satisfaction of keeping the streak intact becomes a daily driver. This mechanic is powerful because it shifts the goal: you're no longer trying to 'feel motivated' — you're just protecting your chain."
+      },
+      {
+        "heading": "Handle a Missed Day",
+        "body": "You will eventually miss a day: illness, something unexpected, fatigue. The golden rule is 'never miss twice in a row.' One skipped day is a harmless accident; two is the start of giving up. Get back on it the very next day without dramatizing. A chain broken then immediately restarted is still a success."
+      },
+      {
+        "heading": "Track Few Habits at a Time",
+        "body": "Don't put twenty habits on your tracker — you won't keep all of them and the tracker will become a source of guilt. Limit yourself to two or three habits being installed. Once one becomes automatic, you can drop it from the tracker and swap in a new one."
+      }
+    ],
+    "steps": [
+      "Choose 2–3 habits to install.",
+      "Create a simple grid (paper or app) to check them off.",
+      "Check each successful day to grow the chain.",
+      "If you miss a day, never miss two in a row.",
+      "Remove habits from the tracker once they're automatic."
+    ],
+    "faq": [
+      {
+        "q": "Doesn't tracking become just another chore?",
+        "a": "If it feels heavy, simplify: a cross in a notebook is enough. Tracking should take ten seconds, not become a project in itself."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "productive-workspace",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Set Up a Workspace That Helps You Focus",
+    "emoji": "🪑",
+    "intro": "Your environment shapes your concentration more than your willpower does. A well-designed workspace does part of the work for you.",
+    "sections": [
+      {
+        "heading": "Environment Shapes Behavior",
+        "body": "We overestimate willpower and underestimate environment. A cluttered, noisy workspace full of temptations makes concentration exhausting. A clear, dedicated space, on the other hand, makes switching into work mode easier. Setting up your environment means putting the conditions on your side so you don't have to fight constantly."
+      },
+      {
+        "heading": "Clear the Surface",
+        "body": "A clear desk sends a signal of calm and reduces visual distractions. Keep only what serves the current task on your surface; put the rest away. Your phone especially benefits from being out of sight. Five minutes of tidying before you start makes the whole session flow more smoothly."
+      },
+      {
+        "heading": "A Dedicated Work Space",
+        "body": "If possible, reserve one spot for work and another for rest. Working in bed blurs the signals: your brain can't tell if it's a place for effort or relaxation. A dedicated space, even small, creates a mental association: sitting down there is almost enough to kick-start concentration."
+      },
+      {
+        "heading": "Lighting and Comfort",
+        "body": "Good lighting, ideally natural, reduces eye fatigue and drowsiness. A proper chair and a screen at the right height protect your body over long sessions. Comfort isn't a luxury: discomfort quietly gnaws at your concentration without you noticing and shortens how long you can actually work."
+      }
+    ],
+    "steps": [
+      "Dedicate a specific spot to work, separate from rest areas.",
+      "Clear your surface: keep only what's useful.",
+      "Put your phone out of sight.",
+      "Prioritize good lighting, ideally natural.",
+      "Invest in a decent chair and proper screen height."
+    ],
+    "faq": [
+      {
+        "q": "I don't have a desk — what can I do?",
+        "a": "Create a dedicated corner, even just a section of a table you reserve for work during work hours. The consistency of the spot matters more than its size."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "learn-to-say-no",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Learn to Say No to Protect Your Time",
+    "emoji": "🙅",
+    "intro": "Every yes to one thing is a no to something else. Saying no isn't selfish — it's protecting what matters to you.",
+    "sections": [
+      {
+        "heading": "Every Yes Has a Cost",
+        "body": "Accepting a request commits time and energy you won't have for anything else. Saying yes to everything means letting other people's priorities erase yours. That's not a small thing: a schedule built entirely of reflexive yeses ends up empty of what you truly care about. No protects that choice."
+      },
+      {
+        "heading": "Decline Without Over-Explaining",
+        "body": "We tend to cushion a refusal with a thousand excuses, which opens negotiations. A clear, brief no is often more respectful: 'thanks for thinking of me, but I can't.' You don't owe anyone a full dossier of justifications. A firm, polite no is easier for the other person to accept than a hesitant one."
+      },
+      {
+        "heading": "Buy Time Before Answering",
+        "body": "You don't have to respond on the spot. When faced with a request, you can say 'let me check my schedule, I'll get back to you tonight.' This delay gets you out of the pressure of the moment and lets you decide with a clear head, looking at your real priorities. Many regretted yeses were said too fast."
+      },
+      {
+        "heading": "Offer an Alternative",
+        "body": "Saying no doesn't mean leaving someone stranded. You can decline the request while offering an option: a different time, partial help, suggesting someone else. 'I can't this week, but next week works' preserves the relationship. The no becomes a tool for clarity, not a wall."
+      }
+    ],
+    "steps": [
+      "Before accepting, ask yourself what that yes costs you.",
+      "Give yourself the right to answer later, with a clear head.",
+      "Phrase a refusal clearly and briefly, without over-explaining.",
+      "Offer an alternative when possible.",
+      "Save your yeses for requests that align with your priorities."
+    ],
+    "faq": [
+      {
+        "q": "I'm afraid of disappointing people by saying no.",
+        "a": "An honest no disappoints less than a yes poorly delivered or half-heartedly done. People respect someone who's reliable and clear about their limits."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "why-breaks-make-you-more-productive",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Why Breaks Make You More Productive",
+    "emoji": "☕",
+    "intro": "Skipping breaks to save time is a false economy. Breaks don't slow your work down — they sustain it.",
+    "sections": [
+      {
+        "heading": "Attention Is Finite",
+        "body": "Concentration depletes like a resource: the longer you work without a break, the lower it gets. At some point you're still sitting there but barely moving forward. Breaks let that resource replenish. Working without breaks is like driving on empty and hoping to go further."
+      },
+      {
+        "heading": "What a Real Break Does",
+        "body": "An effective break truly cuts from the task: stand up, move, look into the distance, breathe, step outside. Meanwhile, the brain keeps processing in the background what you were working on — it's often during breaks that solutions surface. A break isn't dead time; it's mental digestion time."
+      },
+      {
+        "heading": "The Fake Break on Screen",
+        "body": "Scrolling your phone isn't a real break: your eyes and brain stay engaged, and the information flow adds fatigue. You come back to your task as empty as before, sometimes more. For a break to genuinely restore, step away from screens and go for movement and quiet."
+      },
+      {
+        "heading": "Schedule Your Breaks",
+        "body": "Don't count on inspiration to take breaks — you'll forget them in the heat of the moment or skip them out of guilt. Schedule them like appointments: a short one every hour or hour and a half, a longer one at midday. A scheduled break gets taken; an optional break gets sacrificed."
+      }
+    ],
+    "steps": [
+      "Accept that concentration depletes and needs recharging.",
+      "Schedule a short break every 60–90 minutes.",
+      "During the break, actually stand up and move.",
+      "Avoid screens — they don't rest your brain.",
+      "Plan a longer break at the middle of your day."
+    ],
+    "faq": [
+      {
+        "q": "How long should a break be?",
+        "a": "Five to ten minutes after a work block, and twenty to thirty minutes at midday. What matters is genuinely cutting from the task, even briefly."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "sleep-and-productivity",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Sleep: The Hidden Foundation of Productivity",
+    "emoji": "😴",
+    "intro": "No method compensates for a lack of sleep. Sleeping well is the highest-return investment you can make for your productivity.",
+    "sections": [
+      {
+        "heading": "Sleep Isn't Wasted Time",
+        "body": "Trimming sleep to 'gain' hours is bad math: a tired brain works more slowly, makes more errors, and retains less. The hours scratched from the night are lost the next day in slowness and wandering attention. Getting enough sleep isn't a productivity sacrifice — it's the foundation of productivity."
+      },
+      {
+        "heading": "What Sleep Does for You",
+        "body": "During the night, your brain consolidates what you've learned, sorts information, and clears accumulated waste. A good night directly improves your memory, concentration, creativity, and emotional regulation the next day. Sleep is, in a sense, the most productive part of your day."
+      },
+      {
+        "heading": "Prioritize Consistency",
+        "body": "The most powerful factor for good sleep is regularity: going to bed and getting up at similar times every day, including weekends. This stability calibrates your internal clock, which makes you sleepy and alert at the right moments. Chaotic schedules disrupt that clock and degrade sleep quality even if you're getting enough hours."
+      },
+      {
+        "heading": "Prepare for the Night",
+        "body": "Sleep quality is partly decided in advance: limit screens and their blue light in the evening, avoid caffeine in the second half of the day, keep your bedroom cool and dark. A calm bedtime routine signals your body to slow down. These simple steps outperform any productivity hack."
+      }
+    ],
+    "steps": [
+      "Treat sleep as a priority, not an adjustable variable.",
+      "Go to bed and wake up at consistent times.",
+      "Cut screens in the hour before bed.",
+      "Avoid caffeine in the second half of the day.",
+      "Keep your bedroom cool, dark, and quiet."
+    ],
+    "faq": [
+      {
+        "q": "How many hours of sleep do I need?",
+        "a": "Most young adults need about seven to nine hours. The right signal: waking up rested without needing multiple alarms."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "one-goal-per-day",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Choose One Single Goal for the Day",
+    "emoji": "🎖️",
+    "intro": "Designating each morning THE one thing that would make your day a success gives you a clear direction and a guaranteed sense of accomplishment.",
+    "sections": [
+      {
+        "heading": "The Power of One Direction",
+        "body": "A list of ten scattered tasks rarely gets fully done and scatters attention. Choosing one primary goal for the day gives you a clear direction: whatever else happens, if you accomplish that one thing, your day is a win. This simplicity reduces anxiety and saves you from ending the day with the vague feeling of having 'done nothing.'"
+      },
+      {
+        "heading": "Choosing the Right Goal",
+        "body": "The day's goal isn't necessarily the most urgent but the most important: the one that moves you forward where it counts. It should be doable in a day and phrased concretely. 'Work on the thesis' is too vague; 'write the two pages of the introduction' is a solid single goal."
+      },
+      {
+        "heading": "Protect It First",
+        "body": "Once the goal is set, place it early and give it your best energy slot. Don't leave it for the end of the day, where fatigue and the unexpected win. The winning reflex is to tackle it before emails and small tasks: you lock in the essential while your concentration is intact."
+      },
+      {
+        "heading": "Everything Else Is a Bonus",
+        "body": "Everything you do after hitting your daily goal is a bonus, not an obligation. This reframe removes pressure: you can handle small tasks more calmly, or simply rest, without guilt. You've already won your day. This structure protects both your productivity and your balance."
+      }
+    ],
+    "steps": [
+      "Each morning, choose THE most important thing of the day.",
+      "Phrase it concretely and achievably in one day.",
+      "Give it your best slot, early if possible.",
+      "Tackle it before emails and small tasks.",
+      "Treat everything else as a bonus, rest included."
+    ],
+    "faq": [
+      {
+        "q": "Isn't one goal too little?",
+        "a": "You can do much more in a day, but guaranteeing one gives you a certain success. Better to hit one goal than to start ten."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "personal-kanban-board",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Personal Kanban Board to Visualize Your Tasks",
+    "emoji": "🗂️",
+    "intro": "A Kanban board shows you at a glance where all your tasks stand. Simple and visual, it limits scattered focus.",
+    "sections": [
+      {
+        "heading": "Three Columns to See Everything",
+        "body": "A personal Kanban comes down to three columns: 'to do,' 'in progress,' 'done.' Each task is a card you move from left to right as it advances. This visual layout instantly gives you an overview: what's waiting, what you're doing, what you've accomplished."
+      },
+      {
+        "heading": "Limit 'In Progress'",
+        "body": "The key Kanban rule is to cap the 'in progress' column: no more than two or three tasks at a time. If it's full, you must finish something before starting something new. This constraint stops you from launching everything without finishing anything — the main trap of scattered focus and the feeling of being overwhelmed."
+      },
+      {
+        "heading": "The Motivation of 'Done'",
+        "body": "The 'done' column isn't just a deposit: it's proof of progress. Watching cards pile up there delivers concrete satisfaction and keeps motivation going. At the end of the week, this column shows you everything you've accomplished, which counterbalances the tendency to only see what's still left to do."
+      },
+      {
+        "heading": "A Simple Tool — Paper or Digital",
+        "body": "Kanban doesn't require sophisticated software: sticky notes on a wall, a notebook divided in three, or a free app all work fine. The key is having it in plain sight and keeping it updated. Choose the format you'll actually look at every day — a Kanban forgotten in a drawer is useless."
+      }
+    ],
+    "steps": [
+      "Create three columns: to do, in progress, done.",
+      "Turn each task into a card.",
+      "Limit the 'in progress' column to 2–3 cards.",
+      "Move cards as they advance.",
+      "Keep the board visible and update it every day."
+    ],
+    "faq": [
+      {
+        "q": "Does Kanban replace a to-do list?",
+        "a": "It completes it: the 'to do' column is your list, but Kanban adds the notion of progress and limits how many tasks are active at the same time."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "rule-of-3-tasks",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Rule of 3 Tasks to Stay Realistic",
+    "emoji": "3️⃣",
+    "intro": "Choosing only three important tasks per day keeps you realistic, focused, and satisfied with your days.",
+    "sections": [
+      {
+        "heading": "Why Three",
+        "body": "Three is small enough to stay doable even when something unexpected comes up, and large enough to move several things forward. A day where you complete your three chosen tasks is a good day, full stop. This limit protects you from the trap of endless lists that never get finished and feed guilt."
+      },
+      {
+        "heading": "Choose the Right Three",
+        "body": "Your three tasks aren't the first three that come to mind, but the three most important: the ones that move you toward your goals. Choose them the night before or at the very start of the day, with a clear head, before urgency and requests cloud your judgment."
+      },
+      {
+        "heading": "Protect Them from the Unexpected",
+        "body": "Every day brings unplanned tasks. The rule of three doesn't ignore them — it gives you a backbone. Whatever happens, return to your three priorities as soon as you can. If an emergency devours everything, carry one task to tomorrow rather than abandoning the principle."
+      },
+      {
+        "heading": "End the Day on a Win",
+        "body": "The big advantage of this rule is psychological: three tasks is achievable, so you often end the day with a real sense of accomplishment. That regular success fuels motivation and confidence. A list of fifteen tasks, on the other hand, almost guarantees a frustrating end to every day."
+      }
+    ],
+    "steps": [
+      "The night before or at wake-up, choose 3 important tasks.",
+      "Check they move you toward your goals.",
+      "Put the most demanding one in your best slot.",
+      "Return to your 3 tasks after each unexpected event.",
+      "Consider the day a success once all 3 are done."
+    ],
+    "faq": [
+      {
+        "q": "What if I finish my 3 tasks before the day is over?",
+        "a": "Great: you can pick more tasks as a bonus, or stop and rest. You've already met your main goal."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "distraction-free-environment",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Build a Distraction-Free Environment",
+    "emoji": "🔕",
+    "intro": "Fighting distractions through willpower alone is exhausting. It's better to design an environment where they simply have no place.",
+    "sections": [
+      {
+        "heading": "Willpower Is Not a Strategy",
+        "body": "Resisting the urge to check your phone a hundred times an hour drains your willpower and eventually fails. A far more reliable approach is to modify the environment so distractions become hard to reach. You're not fighting temptation at every moment — you've simply moved it away in advance."
+      },
+      {
+        "heading": "Put Temptations Out of Reach",
+        "body": "Physically distance what distracts you: phone in another room, apps behind login screens, websites blocked during your work slots. Every obstacle added between impulse and distraction gives you a fraction of a second of awareness — usually enough to stay on task."
+      },
+      {
+        "heading": "Bring Helpful Things Closer",
+        "body": "The flip side of the same idea: make useful things easy to reach. Keep the textbook open to the right page, your work document ready, water at hand. If starting the right task takes less effort than finding a distraction, you naturally make the better choice."
+      },
+      {
+        "heading": "Reduce Ambient Noise",
+        "body": "Distractions aren't only digital: noise, people walking by, conversations also break concentration. Depending on your situation, isolate yourself, use headphones, play neutral background sound, or find a quieter spot. You can't control everything, but improving what's in your power already significantly cuts attention breaks."
+      }
+    ],
+    "steps": [
+      "Identify your three main sources of distraction.",
+      "Physically remove temptations (phone, apps, websites).",
+      "Make your task tools easy to access.",
+      "Reduce noise: headphones, quiet spot, neutral background sound.",
+      "Set up this environment before you start, not during."
+    ],
+    "faq": [
+      {
+        "q": "Do I need to completely block the internet to work?",
+        "a": "Only if your task doesn't need it. Otherwise, block the specific sites that distract you and keep access to useful tools."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "manage-your-inbox",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Manage Your Inbox Without Drowning in It",
+    "emoji": "📧",
+    "intro": "A constantly checked inbox fragments your day. With a few rules, email becomes a tool again, not your boss.",
+    "sections": [
+      {
+        "heading": "Email Shouldn't Run Your Day",
+        "body": "Keeping your inbox open and reacting to every arrival turns your day into a series of interruptions — other people decide your rhythm. Email is rarely as urgent as it feels. Taking back control starts with this idea: you check email at chosen times, not continuously."
+      },
+      {
+        "heading": "Process in Batches",
+        "body": "Instead of a continuous flow, set two or three dedicated email slots per day — say, mid-morning and late afternoon. Outside those, close the mail app. This habit batches the processing, protects your concentration windows, and shows you that almost nothing is lost by waiting a few hours."
+      },
+      {
+        "heading": "Process, Don't Skim",
+        "body": "During an email slot, handle each message properly: reply immediately if it's quick, turn it into a dated task if it'll take longer, archive or delete the rest. Avoid opening it, closing it, and leaving it 'unread' — an email re-read three times has been processed zero times."
+      },
+      {
+        "heading": "Clean Up at the Source",
+        "body": "Lots of emails don't even deserve to arrive. Unsubscribe without hesitation from newsletters you never read, and create filters to automatically sort secondary messages. An inbox that receives less noise is faster to process and far less stressful to open."
+      }
+    ],
+    "steps": [
+      "Close your mail app outside scheduled slots.",
+      "Set 2–3 times per day to process emails.",
+      "Handle each email once: reply, plan, or archive.",
+      "Turn longer emails into dated tasks.",
+      "Unsubscribe from useless newsletters and set up filters."
+    ],
+    "faq": [
+      {
+        "q": "What if people expect a quick reply?",
+        "a": "Real emergencies rarely come by email. If needed, add your check-in hours to your email signature to set clear expectations."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "prep-tomorrows-day-tonight",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Prepare Tomorrow's Day Tonight",
+    "emoji": "🌃",
+    "intro": "Deciding your day the night before stops you from just reacting to it. You wake up with a plan, not a question mark.",
+    "sections": [
+      {
+        "heading": "Morning Is a Bad Time to Decide",
+        "body": "On waking, willpower and mental clarity are fragile. Starting the day by asking 'so where do I even begin?' opens the door to hesitation and scrolling. Preparing the day the night before moves that decision to a moment when you're more clear-headed: in the morning, you just execute."
+      },
+      {
+        "heading": "Five Minutes Is Enough",
+        "body": "Prepping tomorrow doesn't need a long ritual. In five minutes, each evening, note your three priorities, spot your available slots, and pick your first concrete action in the morning. This brief exercise turns a fuzzy day into a framed one. Its shortness is its strength — you'll actually do it every night."
+      },
+      {
+        "heading": "Define the First Action",
+        "body": "The most useful point is deciding exactly how you'll start. Not 'work' but 'open the folder and write the first paragraph.' This specific, tiny first action eliminates morning hesitation and gets you moving immediately, before resistance even has time to set in."
+      },
+      {
+        "heading": "A More Peaceful Sleep",
+        "body": "Preparing the day the night before has a hidden benefit: your brain, knowing everything is noted and planned, lets go more easily. You ruminate less in bed about tomorrow's tasks. Evening prep improves both the next day's productivity and the quality of your night."
+      }
+    ],
+    "steps": [
+      "Reserve 5 minutes each evening to prep for tomorrow.",
+      "Note your 3 priorities for the day ahead.",
+      "Identify the available slots in your schedule.",
+      "Decide exactly what your first action will be in the morning.",
+      "Put the plan somewhere visible so you find it when you wake up."
+    ],
+    "faq": [
+      {
+        "q": "What if my plans change in the morning?",
+        "a": "A plan adjusts in seconds; starting from a clear base is still far more effective than improvising everything from scratch at wake-up."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "break-down-a-big-project",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Break a Big Project Down into Small Steps",
+    "emoji": "🪜",
+    "intro": "A large project is intimidating because you see it as a whole. Breaking it into small steps makes it approachable, one piece at a time.",
+    "sections": [
+      {
+        "heading": "The Block That Paralyzes",
+        "body": "'Write a dissertation,' 'prep for the competition' — seen as a single chunk, these projects crush. Your brain doesn't know where to enter and prefers to flee. The problem isn't the project itself but its global framing. Decomposing it into small, concrete steps suddenly makes it approachable: you don't climb a cliff, you walk up stairs."
+      },
+      {
+        "heading": "Break It Down to Concrete Actions",
+        "body": "Break your project into sub-sections, then each sub-section into tasks, until you reach actions doable in one to two hours maximum. A good step starts with a verb and is specific enough that you know exactly what to do: 'write the outline for chapter 2,' not 'work on chapter 2.'"
+      },
+      {
+        "heading": "Identify the Very First Step",
+        "body": "Once the project is broken down, find the very first action — the simplest one, the one to start with. That's the most important one: taking that first step breaks inertia. Often this first step is tiny, almost obvious. That's intentional: starting needs to be easy."
+      },
+      {
+        "heading": "Climb One Step at a Time",
+        "body": "Once the project is in steps, you no longer need to think about the whole: focus on the current step. Check it off, move to the next. Each completed step keeps momentum going and makes the next one lighter. The big project then happens almost without you ever having had to confront it head-on."
+      }
+    ],
+    "steps": [
+      "Write the overall project, then its major sub-sections.",
+      "Break each sub-section into one-to-two-hour tasks.",
+      "Phrase each task as a concrete action starting with a verb.",
+      "Identify the very first step — the simplest one.",
+      "Climb one step at a time, without staring at the whole summit."
+    ],
+    "faq": [
+      {
+        "q": "How far down do I need to break things?",
+        "a": "Until each step no longer scares you and is completely clear. If a task still blocks you, it's still too big — break it down further."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stay-motivated-long-term",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Staying Motivated for the Long Haul",
+    "emoji": "🔥",
+    "intro": "Initial motivation always burns out. Staying the course depends on systems, not enthusiasm.",
+    "sections": [
+      {
+        "heading": "Motivation Is Unstable",
+        "body": "Motivation comes and goes: strong at the launch of a project, it fades after days or weeks. Relying on it alone guarantees you'll quit at the first dip. People who stick with things long-term aren't more motivated — they rely on systems that work even on the days they have no drive."
+      },
+      {
+        "heading": "Replace Motivation with Habit",
+        "body": "An action that depends on desire stops when desire stops. An action turned into a habit happens almost automatically, motivation or not. Turn your goals into regular habits, at a fixed time, anchored in your routine. Habit is motivation's reliable relay: it takes the wheel when enthusiasm falls asleep."
+      },
+      {
+        "heading": "See and Celebrate Progress",
+        "body": "We often get discouraged because progress is invisible day to day. Keep track of your advancement: a tracker, checked milestones, before-photos. Looking at the ground covered — not just what remains — recharges motivation. Celebrate each milestone: those small wins keep the desire to continue alive."
+      },
+      {
+        "heading": "Accept the Dips",
+        "body": "There will be off days, phases of fatigue: that's normal and non-negotiable. Don't treat them as failure. On hard days, scale down to the minimum ('I'll just do five minutes') so you don't break the chain, and allow yourself rest. Persisting doesn't mean never wavering — it means always getting back up."
+      }
+    ],
+    "steps": [
+      "Don't count on motivation: build habits.",
+      "Anchor your key actions to fixed times.",
+      "Keep visible track of your progress.",
+      "Celebrate each milestone.",
+      "On hard days, scale to the minimum without giving up."
+    ],
+    "faq": [
+      {
+        "q": "How do I find motivation when it's completely gone?",
+        "a": "Reconnect with your original 'why' and take one tiny action. Action usually restarts motivation more reliably than waiting for it to return on its own."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "avoid-burnout",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Avoiding Burnout: Sustainable Productivity",
+    "emoji": "🌿",
+    "intro": "Pushing yourself without limits doesn't make you more productive — it drives you into a wall. Real performance is built on a sustainable pace.",
+    "sections": [
+      {
+        "heading": "Exhaustion Is Not a Badge of Honor",
+        "body": "The 'always more' culture glorifies exhaustion as proof of seriousness. That's a mistake: an exhausted brain and body produce work that's slower, worse, and more erratic. Burnout isn't the price of success — it's what derails it. Sustainable productivity refuses that sacrifice mentality."
+      },
+      {
+        "heading": "Spot the Warning Signs",
+        "body": "Burnout creeps in gradually: fatigue that rest can't fix, irritability, cynicism, loss of enjoyment, degraded sleep, a feeling of spinning in place. Learn to recognize these signals early. Ignoring them to 'hold out just a bit longer' worsens the fall. Listening to them in time lets you adjust before the break."
+      },
+      {
+        "heading": "Think of Work as a Marathon",
+        "body": "A permanent sprint is unsustainable: no one runs a marathon at sprint pace. Aim for a rhythm you could hold for months: intense but bounded workdays, real evenings and weekends off, actual vacations. Sustainable regularity easily beats brief intensity followed by collapse."
+      },
+      {
+        "heading": "Rest Is Part of the Work",
+        "body": "Rest isn't what you treat yourself to 'when everything is done' — it's a component of effective work, as legitimate as effort itself. Schedule it actively: breaks, free evenings, hobbies, sleep. Asking for help and knowing how to slow down aren't weaknesses — they're key skills for productivity that lasts."
+      }
+    ],
+    "steps": [
+      "Reject the idea that exhaustion proves how serious you are.",
+      "Watch for signals: persistent fatigue, irritability, loss of enjoyment.",
+      "Aim for a pace sustainable over months, not a sprint.",
+      "Schedule rest the same way you schedule work.",
+      "Dare to slow down or ask for help before you break."
+    ],
+    "faq": [
+      {
+        "q": "How do I know if I'm just tired or burning out?",
+        "a": "Normal fatigue passes with a good night or a weekend. If rest no longer recharges you and the weariness persists, take it seriously and ease off."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-chronotype",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Know Your Chronotype to Organize Better",
+    "emoji": "🦉",
+    "intro": "Some people are morning types, others are night owls. Organizing your day with your chronotype instead of against it changes everything.",
+    "sections": [
+      {
+        "heading": "What Is a Chronotype",
+        "body": "Your chronotype is your natural tendency to be more alert in the morning, evening, or in between. It's largely biological. Forcing a night owl to bring their best at 6 a.m., or the reverse, wastes energy. Knowing your chronotype lets you organize your day in sync with your internal clock."
+      },
+      {
+        "heading": "Spot Your Own Rhythm",
+        "body": "Observe yourself for one to two weeks: at what times do you feel naturally sharp, creative, and able to focus? At what times do you fade? Just note it down. A pattern will emerge: your personal high-energy windows and your troughs. These are precious personal data for building a realistic schedule."
+      },
+      {
+        "heading": "Align Tasks with Your Rhythm",
+        "body": "Place demanding and creative tasks at your peaks, and mechanical tasks (emails, admin, tidying) at your troughs. A night owl gains by saving deep work for late morning or afternoon. The idea isn't to be lazy but to spend your energy where it yields the most."
+      },
+      {
+        "heading": "Work Within Constraints",
+        "body": "You can't always follow your chronotype: classes, work, and obligations impose hours. In that case, at least protect your natural peaks for the tasks you choose, and take care of your sleep to minimize the gap. Knowing your rhythm helps even when you can't respect it perfectly."
+      }
+    ],
+    "steps": [
+      "Observe your high-energy hours for 1–2 weeks.",
+      "Also spot your regular low-energy troughs.",
+      "Place demanding tasks at your natural peaks.",
+      "Reserve mechanical tasks for your troughs.",
+      "When hours are imposed, at least protect your sleep."
+    ],
+    "faq": [
+      {
+        "q": "Can you change your chronotype?",
+        "a": "You can shift it a bit with consistent schedules and light exposure, but not transform it completely. Better to organize with it than fight against it."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "never-miss-twice",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Never Miss Twice in a Row",
+    "emoji": "⛓️",
+    "intro": "A habit doesn't die from one missed day — it dies from two. This simple rule helps you get through the no-motivation days without giving up entirely.",
+    "sections": [
+      {
+        "heading": "One Missed Day Isn't Failure",
+        "body": "Illness, the unexpected, fatigue: everyone skips a day sometimes. The problem isn't the missed day — it's what you conclude from it. Many people think 'I broke my streak, might as well stop' and quit. The 'never twice in a row' rule defuses that thought: one skipped day stays an accident, nothing more."
+      },
+      {
+        "heading": "The Real Danger Is Day Two",
+        "body": "Missing once is human. Missing twice in a row is the start of a new habit: the habit of not doing it. The second missed day turns the exception into the rule. Focusing all your vigilance on this one specific point — never letting two empty days follow each other — is enough to protect virtually all your habits."
+      },
+      {
+        "heading": "The Minimal Version for Hard Days",
+        "body": "To avoid missing twice, keep a miniature version of each habit in reserve: one page instead of a chapter, five minutes instead of an hour, two push-ups instead of a full session. On low-energy days, you do that minimal version. It's not cheating — it's keeping the chain alive."
+      },
+      {
+        "heading": "Forgive Yourself to Get Back Up",
+        "body": "When you miss a day, don't beat yourself up: guilt often pushes toward total abandonment. Just note 'ok, happens' and commit to getting back on it the next day. That self-compassion isn't laxness — it's exactly what lets you bounce back instead of spiral down."
+      }
+    ],
+    "steps": [
+      "Accept that missing a day will happen and it's not serious.",
+      "Set a firm rule: never two days in a row.",
+      "Prepare a minimal version of each habit.",
+      "On low-energy days, do that minimal version.",
+      "If you miss, forgive yourself and get back on it the next day."
+    ],
+    "faq": [
+      {
+        "q": "What if I miss two days in a row anyway?",
+        "a": "It's not the end: get back on it on day three without drama. A habit can always be rebuilt — what matters is not letting the gap keep widening."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "limit-social-media",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Limit Social Media Without Deleting Everything",
+    "emoji": "📱",
+    "intro": "Social media isn't the enemy — passive, compelled use is. The goal isn't zero screen time, but intentional, bounded use.",
+    "sections": [
+      {
+        "heading": "Passive or Intentional",
+        "body": "The problem isn't the social platform itself — it's the difference between passive and intentional use. Opening an app out of reflex with no goal and losing forty minutes: that's passive. Choosing to open it, using it for something specific, then closing it: that's intentional. The whole approach is about moving from the first mode to the second."
+      },
+      {
+        "heading": "Measure Before You Act",
+        "body": "We wildly underestimate our screen time. Start by checking — without judgment — the actual time spent on each app through your phone's built-in tools. That figure, often surprising, is your motivation and your starting point. You can't reduce what you don't measure: awareness comes before change."
+      },
+      {
+        "heading": "Add Concrete Limits",
+        "body": "Set realistic boundaries: a max daily time per app, phone-free windows (waking up, meals, work, bedtime), apps buried and notification-free. Enable built-in screen time limits. The goal isn't a total ban but guardrails that require a conscious choice each time you open something."
+      },
+      {
+        "heading": "Replace, Don't Just Remove",
+        "body": "Cutting back on social media leaves a void; if nothing fills it, you'll drift back. Decide in advance what you'll do with the freed time: read, walk, see friends, a hobby, genuine rest. The goal isn't deprivation — it's trading shallow time for time that actually nourishes you."
+      }
+    ],
+    "steps": [
+      "Check your real screen time per app, without judging.",
+      "Set a daily max for time-consuming apps.",
+      "Create phone-free windows: waking up, meals, work, bedtime.",
+      "Bury apps and turn off their notifications.",
+      "Prepare concrete activities to fill the freed-up time."
+    ],
+    "faq": [
+      {
+        "q": "Should you do a full 'detox'?",
+        "a": "A short break can help you gain perspective, but the sustainable goal is moderate, intentional use — not deprivation you won't maintain."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "slow-and-steady",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Slow and Steady: Move Forward Without Stopping",
+    "emoji": "🐢",
+    "intro": "Lasting progress doesn't come from grand dramatic bursts — it comes from small, relentless steps. Consistency beats speed.",
+    "sections": [
+      {
+        "heading": "Consistency Beats Intensity",
+        "body": "We overestimate what we can do in a day and underestimate what we can accomplish in a year of small steps. One hour of work every day easily outpaces a marathon day followed by two weeks of nothing. The tortoise that keeps moving arrives farther than the hare that sprints and stops."
+      },
+      {
+        "heading": "The Danger of Grand Surges",
+        "body": "Starting strong on a motivation spike is tempting but treacherous: the pace is unsustainable, and the hard stop that follows often brings complete abandonment. Better to start modestly, at a level you could hold even on a bad day. An overly ambitious start is the most common cause of giving up."
+      },
+      {
+        "heading": "Define a Sustainable Minimum",
+        "body": "Set a minimum for each goal so small it's almost impossible to miss: ten minutes, one page, one exercise. This minimum is your floor on hard days. You can always do more when energy is there, but the floor guarantees you never have a completely empty day. The chain doesn't break."
+      },
+      {
+        "heading": "Trust the Process",
+        "body": "Small steps seem insignificant day to day — that's their apparent weakness and their true strength. They're invisible on a single day, but they accumulate quietly. After several months, the result is remarkable. Trusting this slow buildup stops you from abandoning everything for lack of immediate results."
+      }
+    ],
+    "steps": [
+      "Choose consistency over intensity.",
+      "Start modestly at a truly sustainable pace.",
+      "Define a daily minimum that's almost impossible to miss.",
+      "On good days, do more; on bad days, do the minimum.",
+      "Trust the accumulation over several months."
+    ],
+    "faq": [
+      {
+        "q": "Isn't moving slowly frustrating?",
+        "a": "A little at first, but seeing the chain hold and results accumulate becomes very satisfying. Frustration mostly comes from giving up, not from going slow."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "make-the-most-of-free-time",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Actually Enjoying Your Free Time",
+    "emoji": "🎈",
+    "intro": "Free time is part of a productive life. Used poorly, it leaves you drained; chosen well, it genuinely recharges you.",
+    "sections": [
+      {
+        "heading": "Free Time Isn't Empty Time",
+        "body": "We often frame work and free time as useful versus useless. That's wrong: free time is what allows you to keep going and work well afterward. Treating it as throwaway filler leads to wasting it in passive scrolling. Recognizing its importance is the first step toward using it well."
+      },
+      {
+        "heading": "Active vs. Passive Leisure",
+        "body": "Not all leisure recharges equally. Passive leisure (mindless scrolling, binge-watching with no real desire) fills without nourishing and often leaves the feeling of wasted time. Active leisure (sport, creation, reading, seeing friends, learning something) requires some engagement but delivers satisfaction and energy. Aim for a good mix, with a portion of active."
+      },
+      {
+        "heading": "Choose Instead of Drifting",
+        "body": "Unplanned free time often defaults to whatever's easiest: the phone. Deciding in advance what you want to do with your evenings and weekends changes everything. A light intention ('tonight I'll read' or 'I'll go for a walk') gets you out of autopilot and makes free time genuinely restorative."
+      },
+      {
+        "heading": "The Right to Do Nothing",
+        "body": "Enjoying free time also means allowing yourself to do nothing without guilt: rest, daydream, be a little bored. Real rest doesn't need to be productive to be legitimate. What matters is that it's chosen and conscious, not anxious escape. Doing nothing on purpose isn't wasting time."
+      }
+    ],
+    "steps": [
+      "Treat free time as essential, not as empty filler.",
+      "Identify what truly recharges you vs. what drains you.",
+      "Include some active leisure in your evenings and weekends.",
+      "Decide in advance what you want to do with your free time.",
+      "Allow yourself to do nothing — consciously and without guilt."
+    ],
+    "faq": [
+      {
+        "q": "Should you plan free time too?",
+        "a": "A light intention is enough — not a minute-by-minute schedule. The idea is to choose, while leaving room for spontaneity and genuine rest."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "quarterly-goals",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "Think in Quarterly Goals",
+    "emoji": "🗓️",
+    "intro": "A year is too far away to stay motivated; a week is too short for real projects. The quarter is the ideal horizon.",
+    "sections": [
+      {
+        "heading": "The Right Time Horizon",
+        "body": "Annual goals are so distant that you forget them by February; weekly goals don't allow enough time to accomplish big things. A quarter — roughly twelve weeks — is an excellent compromise: long enough to complete a real project, short enough to stay concrete and urgent. It's the horizon that sustains both ambition and tension."
+      },
+      {
+        "heading": "Choose Few Goals",
+        "body": "For a quarter, set two or three major goals, not ten. That limit forces you to choose what truly matters and focuses your energy. Three clear goals over twelve weeks is a demanding but realistic program. A long list just dilutes and leads nowhere."
+      },
+      {
+        "heading": "Break It Down Into Weeks",
+        "body": "A quarterly goal doesn't happen by magic — it needs to be unpacked. Ask yourself what needs to be done this month, this week, and today to stay on track. This translation from distant goal to immediate action is what makes it alive. Without it, the quarter remains an intention on paper."
+      },
+      {
+        "heading": "The End-of-Quarter Review",
+        "body": "After twelve weeks, do an honest review: what did you hit, what did you miss, why, what do you adjust? Celebrate what worked and draw lessons from the rest without judging yourself harshly. This regular checkpoint turns each quarter into a learning cycle and makes the next one better designed."
+      }
+    ],
+    "steps": [
+      "Choose 2–3 major goals for the quarter.",
+      "Check they're ambitious but doable in 12 weeks.",
+      "Break each goal into monthly then weekly milestones.",
+      "Connect each week to a quarterly goal.",
+      "Do an honest review at the end of the quarter."
+    ],
+    "faq": [
+      {
+        "q": "Can you combine annual and quarterly goals?",
+        "a": "Yes: keep a broad annual vision as your direction, and use quarters as concrete steps toward it."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "buffett-two-list-strategy",
+    "theme": "productivite",
+    "locale": "en",
+    "title": "The Two-List Strategy for Laser Focus",
+    "emoji": "📋",
+    "intro": "This method, attributed to Warren Buffett, helps you distinguish what's truly essential from what quietly scatters your energy.",
+    "sections": [
+      {
+        "heading": "List Your Ambitions",
+        "body": "Start by writing down the goals that matter to you: projects, skills to build, things to accomplish. Write about twenty, without filtering. This first list is a panorama of everything you'd like to do. Seeing it all laid out at once is already illuminating — we rarely hold all of this in mind at the same time."
+      },
+      {
+        "heading": "Circle the Top Five",
+        "body": "Reread your list and circle the five most important goals — the ones that absolutely come before everything else. Choosing five from twenty is uncomfortable, and that's intentional: the discomfort of sorting is what gives the method its value. Those five items form your real priority list, the one that deserves your time and energy."
+      },
+      {
+        "heading": "The Avoid-at-All-Costs List",
+        "body": "Here's the heart of the method: the fifteen uncircled goals don't become a 'do later' list. They become your 'avoid' list. These are appealing things, but ones that would pull you away from your five priorities. As long as the five aren't well underway, you actively resist those fifteen."
+      },
+      {
+        "heading": "Why 'Later' Is a Trap",
+        "body": "The point of the method is understanding that secondary goals are dangerous precisely because they're attractive. If they stayed as 'later,' you'd nibble at them and scatter your energy. By explicitly labeling them as things to avoid, you protect the total focus your real priorities need to actually happen."
+      }
+    ],
+    "steps": [
+      "Write down about twenty goals that matter to you.",
+      "Circle the 5 most important ones.",
+      "Make those 5 your absolute priority list.",
+      "Put the other 15 on an 'avoid' list.",
+      "Resist those 15 until your 5 priorities are well advanced."
+    ],
+    "faq": [
+      {
+        "q": "Don't you risk abandoning good ideas?",
+        "a": "The 15 aren't lost: when a priority is achieved, you can redo the exercise. The idea is not to pursue everything at the same time."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -21,6 +21,8 @@ export type FormationSection = { heading: string; body: string };
 export type FormationItem = {
   slug: string;
   theme: FormationTheme;
+  /** Content language. Absent on legacy data → treated as "fr". */
+  locale?: string;
   title: string;
   emoji: string;
   intro: string;
@@ -88,3 +90,63 @@ export const THEME_META: Record<FormationTheme, ThemeMeta> = {
     tagline: "Cuisine, logement, démarches, santé de base — bien démarrer sa vie d'adulte.",
   },
 };
+
+// English theme labels — formation content exists in FR + EN; non-FR locales
+// fall back to the English theme meta.
+export const THEME_META_EN: Record<FormationTheme, ThemeMeta> = {
+  lookmaxxing: {
+    label: "Lookmaxxing & self-care",
+    emoji: "💎",
+    tagline: "Skin, hair, posture, hygiene — become your best self, the healthy way.",
+  },
+  fitness: {
+    label: "Fitness & weight",
+    emoji: "🏋️",
+    tagline: "Training, nutrition, sleep — sustainable habits, never extreme.",
+  },
+  money: {
+    label: "Money & income",
+    emoji: "💸",
+    tagline: "Budgeting, saving, skills that pay, your first online income.",
+  },
+  productivite: {
+    label: "Productivity",
+    emoji: "⚡",
+    tagline: "Manage your time, beat procrastination, hit your goals.",
+  },
+  mindset: {
+    label: "Confidence & mindset",
+    emoji: "🧠",
+    tagline: "Self-esteem, stress management, a solid mindset.",
+  },
+  social: {
+    label: "Relationships & social",
+    emoji: "💬",
+    tagline: "Communicate, make friends, charisma, healthy dating.",
+  },
+  etudes: {
+    label: "Studies & career",
+    emoji: "🎓",
+    tagline: "Ace your studies, pick your path, CV, interviews, first job.",
+  },
+  digital: {
+    label: "Digital skills",
+    emoji: "💻",
+    tagline: "Coding, using AI, creating content, personal branding.",
+  },
+  style: {
+    label: "Style & image",
+    emoji: "👕",
+    tagline: "Dress well, build a wardrobe, body type, polish your image.",
+  },
+  "vie-pratique": {
+    label: "Practical life & autonomy",
+    emoji: "🏠",
+    tagline: "Cooking, housing, admin, basic health — start adult life right.",
+  },
+};
+
+/** Theme meta for a content locale: FR → French labels, anything else → English. */
+export function themeMetaFor(locale: string | undefined): Record<FormationTheme, ThemeMeta> {
+  return locale === "fr" ? THEME_META : THEME_META_EN;
+}

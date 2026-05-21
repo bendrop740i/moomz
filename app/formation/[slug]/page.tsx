@@ -6,7 +6,7 @@ import {
   getFormationBySlug,
   getFormationByTheme,
 } from "@/lib/formation/loader";
-import { THEME_META } from "@/lib/formation/types";
+import { themeMetaFor } from "@/lib/formation/types";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
@@ -110,9 +110,9 @@ export default async function FormationItemPage({
   const c = COPY[locale] ?? COPY.en;
   const it = getFormationBySlug(params.slug);
   if (!it) notFound();
-  const meta = THEME_META[it.theme];
+  const meta = themeMetaFor(it.locale)[it.theme];
   const related = getFormationByTheme(it.theme)
-    .filter((r) => r.slug !== it.slug)
+    .filter((r) => r.slug !== it.slug && (r.locale ?? "fr") === (it.locale ?? "fr"))
     .slice(0, 6);
 
   const jsonLd = {
@@ -120,7 +120,7 @@ export default async function FormationItemPage({
     "@type": "Article",
     headline: it.title,
     description: it.intro,
-    inLanguage: "fr",
+    inLanguage: it.locale ?? "fr",
     dateModified: it.updatedAt,
     articleSection: meta.label,
     url: `https://moomz.com/formation/${it.slug}`,

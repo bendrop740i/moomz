@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllFormation } from "@/lib/formation/loader";
-import { FORMATION_THEMES, THEME_META } from "@/lib/formation/types";
+import { getFormationByLocale } from "@/lib/formation/loader";
+import { FORMATION_THEMES, themeMetaFor } from "@/lib/formation/types";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
@@ -145,10 +145,13 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function FormationHub() {
   const locale = getLocale();
   const c = COPY[locale] ?? COPY.en;
-  const all = getAllFormation();
+  // Content follows the visitor locale (FR → French modules, every other
+  // locale → English). The whole formation surface is localized this way.
+  const all = getFormationByLocale(locale);
+  const themeMeta = themeMetaFor(locale);
   const themes = FORMATION_THEMES.map((theme) => ({
     theme,
-    meta: THEME_META[theme],
+    meta: themeMeta[theme],
     items: all.filter((i) => i.theme === theme),
   })).filter((t) => t.items.length > 0);
 
