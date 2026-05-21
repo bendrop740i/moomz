@@ -133,13 +133,13 @@ const HUB_LABELS: Record<Locale, {
 
 const CATEGORY_LABEL: Record<Locale, Record<Category, string>> = {
   fr: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guides", blog: "Blog", read: "À lire" },
-  en: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guides", blog: "Blog", read: "Read" },
-  es: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guías", blog: "Blog", read: "Leer" },
-  it: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guide", blog: "Blog", read: "Letture" },
-  pt: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guias", blog: "Blog", read: "Ler" },
-  de: { idees: "Idées FR", ideas: "Ideas EN", guides: "Guides", blog: "Blog", read: "Lesen" },
-  ja: { idees: "Idées FR", ideas: "Ideas EN", guides: "ガイド", blog: "ブログ", read: "読む" },
-  zh: { idees: "Idées FR", ideas: "Ideas EN", guides: "指南", blog: "博客", read: "阅读" },
+  en: { idees: "Ideas FR", ideas: "Ideas EN", guides: "Guides", blog: "Blog", read: "Read" },
+  es: { idees: "Ideas FR", ideas: "Ideas EN", guides: "Guías", blog: "Blog", read: "Leer" },
+  it: { idees: "Idee FR", ideas: "Idee EN", guides: "Guide", blog: "Blog", read: "Letture" },
+  pt: { idees: "Ideias FR", ideas: "Ideias EN", guides: "Guias", blog: "Blog", read: "Ler" },
+  de: { idees: "Ideen FR", ideas: "Ideen EN", guides: "Guides", blog: "Blog", read: "Lesen" },
+  ja: { idees: "アイデア FR", ideas: "アイデア EN", guides: "ガイド", blog: "ブログ", read: "読む" },
+  zh: { idees: "创意 FR", ideas: "创意 EN", guides: "指南", blog: "博客", read: "阅读" },
 };
 
 function truncate(s: string, n: number): string {

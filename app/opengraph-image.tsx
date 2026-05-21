@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "moomz — crée ton vibe check en 10 sec";
+export const alt = "moomz — create your vibe check in 10 sec";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -102,7 +102,7 @@ export default async function OG() {
               textAlign: "center",
             }}
           >
-            Crée ton vibe check en 10 sec
+            Create your vibe check in 10 sec
           </div>
         </div>
 
@@ -132,7 +132,7 @@ export default async function OG() {
             }}
           >
             <span style={{ fontSize: 36, display: "flex" }}>🔥</span>
-            <span style={{ display: "flex" }}>Team pizza ou team sushi ?</span>
+            <span style={{ display: "flex" }}>Pizza team or sushi team?</span>
           </div>
           <div
             style={{
@@ -149,7 +149,7 @@ export default async function OG() {
             }}
           >
             <span style={{ fontSize: 36, display: "flex" }}>💖</span>
-            <span style={{ display: "flex" }}>Tu craques pour qui dans le groupe ?</span>
+            <span style={{ display: "flex" }}>Who&apos;s the cutest in the group?</span>
           </div>
           <div
             style={{
@@ -166,7 +166,7 @@ export default async function OG() {
             }}
           >
             <span style={{ fontSize: 36, display: "flex" }}>🌶️</span>
-            <span style={{ display: "flex" }}>Plus drama : sa story ou son ex ?</span>
+            <span style={{ display: "flex" }}>More drama: her story or her ex?</span>
           </div>
         </div>
 

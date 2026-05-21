@@ -116,7 +116,7 @@ export default function DailyCard({
           }),
         );
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Erreur");
+        alert(e instanceof Error ? e.message : "Error");
         setVoted(null);
         setCounts(null);
         setTotal(voteCount);
@@ -142,7 +142,7 @@ export default function DailyCard({
             <span className="text-xl" aria-hidden="true">🌅</span>
             <span>Daily Moomz</span>
             <span className="text-[10px] font-medium normal-case tracking-normal text-white/60 hidden sm:inline">
-              · {t("home.dailySub") === "home.dailySub" ? "le sondage du jour" : t("home.dailySub")}
+              · {t("home.dailySub") === "home.dailySub" ? "poll of the day" : t("home.dailySub")}
             </span>
           </h2>
           <time
@@ -151,7 +151,7 @@ export default function DailyCard({
             className="text-white/80 tabular-nums font-bold text-sm rounded-full bg-black/30 px-3 py-1"
           >
             <span aria-hidden="true">⏳ </span>
-            <span className="sr-only">Temps restant : </span>
+            <span className="sr-only">Time remaining: </span>
             {remaining}
           </time>
         </div>
@@ -172,7 +172,7 @@ export default function DailyCard({
                   key={i}
                   onClick={() => vote(i)}
                   disabled={pending}
-                  aria-label={`Voter pour: ${opt}`}
+                  aria-label={`Vote for: ${opt}`}
                   className="w-full min-h-[48px] text-left rounded-xl border border-white/25 bg-white/15 hover:bg-white/25 hover:border-white/40 hover:scale-[1.01] active:scale-[0.97] transition px-4 py-3 flex items-center gap-2.5 disabled:opacity-50"
                 >
                   <span className="text-lg shrink-0" aria-hidden>
@@ -211,7 +211,7 @@ export default function DailyCard({
                     </span>
                     {isMine && (
                       <span className="text-[10px] uppercase tracking-wide text-pink-100 shrink-0">
-                        {t("card.you") === "card.you" ? "toi" : t("card.you")}
+                        {t("card.you") === "card.you" ? "you" : t("card.you")}
                       </span>
                     )}
                   </div>
@@ -227,13 +227,13 @@ export default function DailyCard({
         <div className="flex items-center justify-between gap-3 pt-0.5">
           <span className="text-white/80 text-sm font-medium tabular-nums">
             <span className="text-pink-100 font-bold">{total.toLocaleString()}</span>{" "}
-            {t("daily.voted") === "daily.voted" ? "ont voté" : t("daily.voted")}
+            {t("daily.voted") === "daily.voted" ? "voted" : t("daily.voted")}
           </span>
           <Link
             href={`/${slug}`}
             className="text-white/70 hover:text-white text-xs font-semibold underline-offset-2 hover:underline transition"
           >
-            {t("card.detail") === "card.detail" ? "détail →" : `${t("card.detail")} →`}
+            {t("card.detail") === "card.detail" ? "detail →" : t("card.detail")}
           </Link>
         </div>
       </div>

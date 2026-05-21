@@ -4,12 +4,50 @@ import SeoHubView from "@/app/_seo/seo-hub";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/seo/types";
 
-export const metadata: Metadata = {
-  title: "Guides moomz : tutos sondage Instagram, anonyme, WhatsApp",
-  description:
-    "Guides pratiques : faire un sondage Instagram, anonyme, sans inscription, partager sur WhatsApp. FR + EN.",
-  alternates: { canonical: "https://moomz.com/guides" },
+const GUIDES_META: Record<Locale, { title: string; description: string }> = {
+  fr: {
+    title: "Guides moomz : tutos sondage Instagram, anonyme, WhatsApp",
+    description: "Guides pratiques : faire un sondage Instagram, anonyme, sans inscription, partager sur WhatsApp. FR + EN.",
+  },
+  en: {
+    title: "moomz guides: Instagram polls, anonymous, WhatsApp tutorials",
+    description: "Step-by-step guides: Instagram polls, anonymous polls, no sign-up, share on WhatsApp. FR + EN.",
+  },
+  es: {
+    title: "Guías moomz: tutoriales para encuestas en Instagram, anónimas, WhatsApp",
+    description: "Guías prácticas: encuestas en Instagram, anónimas, sin registro, compartir en WhatsApp.",
+  },
+  it: {
+    title: "Guide moomz: tutorial sondaggi Instagram, anonimi, WhatsApp",
+    description: "Guide pratiche: sondaggi su Instagram, anonimi, senza registrazione, condivisione su WhatsApp.",
+  },
+  pt: {
+    title: "Guias moomz: tutoriais para enquetes no Instagram, anônimas, WhatsApp",
+    description: "Guias práticos: enquetes no Instagram, anônimas, sem cadastro, compartilhar no WhatsApp.",
+  },
+  de: {
+    title: "moomz-Guides: Tutorials für Instagram-Umfragen, anonym, WhatsApp",
+    description: "Praktische Anleitungen: Instagram-Umfragen, anonyme Umfragen, ohne Anmeldung, WhatsApp teilen.",
+  },
+  ja: {
+    title: "moomz ガイド：Instagram投票、匿名、WhatsAppのチュートリアル",
+    description: "実践ガイド：Instagram投票、匿名投票、登録不要、WhatsAppでシェア。",
+  },
+  zh: {
+    title: "moomz 指南：Instagram 投票、匿名、WhatsApp 教程",
+    description: "实用指南：Instagram 投票、匿名投票、无需注册、WhatsApp 分享。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const m = GUIDES_META[locale] ?? GUIDES_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/guides" },
+  };
+}
 
 // Hub chrome (title + intro) localized for every supported visitor locale.
 // NOTE: the guide content itself only exists in FR/EN — this only translates

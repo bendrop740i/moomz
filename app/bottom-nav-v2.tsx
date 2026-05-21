@@ -20,7 +20,7 @@ const LEFT: TabItem[] = [
 ];
 const RIGHT: TabItem[] = [
   { href: "/play", labelKey: "nav.play", fallbackLabel: "Play", icon: PlayIcon },
-  { href: "/me", labelKey: "nav.me", fallbackLabel: "Profil", icon: MeIcon, badge: true },
+  { href: "/me", labelKey: "nav.me", fallbackLabel: "Profile", icon: MeIcon, badge: true },
 ];
 
 export default function BottomNavV2() {
@@ -137,7 +137,7 @@ export default function BottomNavV2() {
 
   return (
     <nav
-      aria-label="Navigation principale"
+      aria-label="Main navigation"
       className={`fixed bottom-0 inset-x-0 z-40 pb-[env(safe-area-inset-bottom)] transition-transform duration-300 will-change-transform ${
         hidden ? "translate-y-[140%]" : "translate-y-0"
       }`}

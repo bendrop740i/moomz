@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getSupabase } from "@/lib/supabase";
 import TopicPills from "./topic-pills";
+import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
 
 type TrendingProfile = {
   id: string;
@@ -11,20 +13,81 @@ type TrendingProfile = {
   total_points: number | null;
 };
 
-// Pill row: discoverability lanes shown at the foot of every public profile.
-// `mes-votes` is included unconditionally — it shows a "login" CTA when the
-// viewer is not signed in (already handled by the /mes-votes page itself), so
-// the anchor is always crawlable.
-const DEFAULT_PILLS = [
-  { href: "/discover", label: "Discover", emoji: "🔥" },
-  { href: "/idees", label: "Idées", emoji: "💡" },
-  { href: "/ideas", label: "Ideas", emoji: "✨" },
-  { href: "/guides", label: "Guides", emoji: "📘" },
-  { href: "/blog", label: "Blog", emoji: "📰" },
-  { href: "/read", label: "Read", emoji: "📖" },
-  { href: "/mes-votes", label: "Mes votes", emoji: "🗳️" },
-  { href: "/", label: "Crée un sondage", emoji: "➕" },
-];
+type ProfileStrings = {
+  trendingProfiles: string;
+  topicsTheyLike: string;
+  discoverMore: string;
+  myVotes: string;
+  createPoll: string;
+  profileAriaLabel: (username: string) => string;
+};
+
+const PROFILE_COPY: Record<Locale, ProfileStrings> = {
+  fr: {
+    trendingProfiles: "Profils tendance",
+    topicsTheyLike: "Topics qu'iel aime",
+    discoverMore: "Découvre + de monde",
+    myVotes: "Mes votes",
+    createPoll: "Crée un sondage",
+    profileAriaLabel: (u) => `Profil de @${u}`,
+  },
+  en: {
+    trendingProfiles: "Trending profiles",
+    topicsTheyLike: "Topics they like",
+    discoverMore: "Discover more people",
+    myVotes: "My votes",
+    createPoll: "Create a poll",
+    profileAriaLabel: (u) => `@${u}'s profile`,
+  },
+  es: {
+    trendingProfiles: "Perfiles en tendencia",
+    topicsTheyLike: "Temas que les gustan",
+    discoverMore: "Descubre más gente",
+    myVotes: "Mis votos",
+    createPoll: "Crea una encuesta",
+    profileAriaLabel: (u) => `Perfil de @${u}`,
+  },
+  it: {
+    trendingProfiles: "Profili di tendenza",
+    topicsTheyLike: "Temi che ama",
+    discoverMore: "Scopri più persone",
+    myVotes: "I miei voti",
+    createPoll: "Crea un sondaggio",
+    profileAriaLabel: (u) => `Profilo di @${u}`,
+  },
+  pt: {
+    trendingProfiles: "Perfis em alta",
+    topicsTheyLike: "Temas que curte",
+    discoverMore: "Descobre mais pessoas",
+    myVotes: "Os meus votos",
+    createPoll: "Cria uma enquete",
+    profileAriaLabel: (u) => `Perfil de @${u}`,
+  },
+  de: {
+    trendingProfiles: "Trending-Profile",
+    topicsTheyLike: "Themen, die sie mögen",
+    discoverMore: "Mehr Leute entdecken",
+    myVotes: "Meine Stimmen",
+    createPoll: "Umfrage erstellen",
+    profileAriaLabel: (u) => `Profil von @${u}`,
+  },
+  ja: {
+    trendingProfiles: "注目のプロフィール",
+    topicsTheyLike: "好きなテーマ",
+    discoverMore: "もっと見つける",
+    myVotes: "自分の投票",
+    createPoll: "投票を作る",
+    profileAriaLabel: (u) => `@${u} のプロフィール`,
+  },
+  zh: {
+    trendingProfiles: "热门用户",
+    topicsTheyLike: "他们喜欢的话题",
+    discoverMore: "发现更多人",
+    myVotes: "我的投票",
+    createPoll: "创建投票",
+    profileAriaLabel: (u) => `@${u} 的主页`,
+  },
+};
 
 async function fetchTrendingProfiles(
   supabase: ReturnType<typeof getSupabase>,
@@ -75,11 +138,24 @@ async function fetchProfileTopics(
     .map(([t]) => t);
 }
 
+function discoverPills(c: ProfileStrings): { href: string; label: string; emoji: string }[] {
+  return [
+    { href: "/discover", label: "Discover", emoji: "🔥" },
+    { href: "/idees", label: "Idées", emoji: "💡" },
+    { href: "/ideas", label: "Ideas", emoji: "✨" },
+    { href: "/guides", label: "Guides", emoji: "📘" },
+    { href: "/blog", label: "Blog", emoji: "📰" },
+    { href: "/read", label: "Read", emoji: "📖" },
+    { href: "/mes-votes", label: c.myVotes, emoji: "🗳️" },
+    { href: "/", label: c.createPoll, emoji: "➕" },
+  ];
+}
+
 export default async function BelowProfileSeo({
   profileId,
-  locale,
 }: {
   profileId: string;
+  /** @deprecated pass nothing — locale is now resolved server-side via getLocale() */
   locale?: string | null;
 }) {
   const supabase = getSupabase();
@@ -88,14 +164,16 @@ export default async function BelowProfileSeo({
     fetchProfileTopics(supabase, profileId),
   ]);
 
-  const isEn = locale === "en";
+  const locale = getLocale() as Locale;
+  const c = PROFILE_COPY[locale] ?? PROFILE_COPY.en;
+  const pills = discoverPills(c);
 
   return (
     <div className="space-y-8 mt-2">
       {profiles.length > 0 && (
-        <section className="space-y-3" aria-label={isEn ? "Trending profiles" : "Profils tendance"}>
+        <section className="space-y-3" aria-label={c.trendingProfiles}>
           <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-            {isEn ? "Trending profiles" : "Profils tendance"}
+            {c.trendingProfiles}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
             {profiles.map((p, idx) => (
@@ -103,7 +181,7 @@ export default async function BelowProfileSeo({
                 key={p.id}
                 href={`/${p.username}`}
                 prefetch={false}
-                aria-label={`Profil de @${p.username}`}
+                aria-label={c.profileAriaLabel(p.username)}
                 style={{ ["--i" as string]: idx }}
                 className="glass rounded-2xl p-3 sm:p-4 flex flex-col items-center text-center gap-1.5 hover:bg-white/[0.08] hover:scale-[1.02] active:scale-[0.99] transition card-in"
               >
@@ -127,17 +205,17 @@ export default async function BelowProfileSeo({
       {topics.length > 0 && (
         <TopicPills
           topics={topics}
-          lang={isEn ? "en" : "fr"}
-          label={isEn ? "Topics they like" : "Topics qu'iel aime"}
+          lang={locale}
+          label={c.topicsTheyLike}
         />
       )}
 
-      <section className="space-y-2" aria-label={isEn ? "Discover more people" : "Découvre plus de monde"}>
+      <section className="space-y-2" aria-label={c.discoverMore}>
         <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold">
-          {isEn ? "Discover more" : "Découvre + de monde"}
+          {c.discoverMore}
         </h2>
         <div className="flex flex-wrap gap-2">
-          {DEFAULT_PILLS.map((p) => (
+          {pills.map((p) => (
             <Link
               key={p.href}
               href={p.href}

@@ -7,20 +7,73 @@ import type { Locale } from "@/lib/i18n";
 export const dynamic = "force-static";
 export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  title: "Outils — convertisseur, météo, crypto, horoscope · moomz",
-  description:
-    "Une boîte à outils gratuite et sans pub : convertisseur de devises, météo, fuseaux horaires, jours fériés, crypto, dictionnaire, photo NASA, recettes, horoscope. Le tout interconnecté avec les sondages moomz.",
-  alternates: { canonical: "https://moomz.com/outils" },
-  openGraph: {
-    title: "Outils moomz — utilitaires gratuits",
-    description:
-      "Convertisseur, météo, crypto, horoscope, dictionnaire, jours fériés, NASA APOD… 9 outils gratuits sans clé API.",
-    type: "website",
-    url: "https://moomz.com/outils",
+const META: Record<Locale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {
+  fr: {
+    title: "Outils — convertisseur, météo, crypto, horoscope · moomz",
+    description: "Une boîte à outils gratuite et sans pub : convertisseur de devises, météo, fuseaux horaires, jours fériés, crypto, dictionnaire, photo NASA, recettes, horoscope. Le tout interconnecté avec les sondages moomz.",
+    ogTitle: "Outils moomz — utilitaires gratuits",
+    ogDesc: "Convertisseur, météo, crypto, horoscope, dictionnaire, jours fériés, NASA APOD… 9 outils gratuits sans clé API.",
   },
-  twitter: { card: "summary_large_image" },
+  en: {
+    title: "Tools — currency converter, weather, crypto, horoscope · moomz",
+    description: "A free, ad-free toolbox: currency converter, weather, world clocks, public holidays, crypto, dictionary, NASA photo, recipes, horoscope. All interlinked with moomz polls.",
+    ogTitle: "moomz tools — free utilities",
+    ogDesc: "Currency converter, weather, crypto, horoscope, dictionary, public holidays, NASA APOD… 9 free tools, no API key needed.",
+  },
+  es: {
+    title: "Herramientas — conversor, tiempo, cripto, horóscopo · moomz",
+    description: "Una caja de herramientas gratuita y sin anuncios: conversor de divisas, tiempo, husos horarios, festivos, cripto, diccionario, foto NASA, recetas, horóscopo.",
+    ogTitle: "Herramientas moomz — utilidades gratis",
+    ogDesc: "Conversor, tiempo, cripto, horóscopo, diccionario, festivos, NASA APOD… 9 herramientas gratis sin clave API.",
+  },
+  it: {
+    title: "Strumenti — convertitore, meteo, crypto, oroscopo · moomz",
+    description: "Una cassetta degli attrezzi gratuita e senza pubblicità: convertitore di valute, meteo, fusi orari, festivi, crypto, dizionario, foto NASA, ricette, oroscopo.",
+    ogTitle: "Strumenti moomz — utilità gratuite",
+    ogDesc: "Convertitore, meteo, crypto, oroscopo, dizionario, festivi, NASA APOD… 9 strumenti gratis senza chiave API.",
+  },
+  pt: {
+    title: "Ferramentas — conversor, tempo, cripto, horóscopo · moomz",
+    description: "Uma caixa de ferramentas gratuita e sem anúncios: conversor de moedas, tempo, fusos horários, feriados, cripto, dicionário, foto NASA, receitas, horóscopo.",
+    ogTitle: "Ferramentas moomz — utilitários gratuitos",
+    ogDesc: "Conversor, tempo, cripto, horóscopo, dicionário, feriados, NASA APOD… 9 ferramentas grátis sem chave de API.",
+  },
+  de: {
+    title: "Tools — Währungsrechner, Wetter, Krypto, Horoskop · moomz",
+    description: "Ein kostenloser Werkzeugkasten ohne Werbung: Währungsrechner, Wetter, Weltzeit, Feiertage, Krypto, Wörterbuch, NASA-Foto, Rezepte, Horoskop.",
+    ogTitle: "moomz-Tools — kostenlose Werkzeuge",
+    ogDesc: "Währungsrechner, Wetter, Krypto, Horoskop, Wörterbuch, Feiertage, NASA APOD… 9 kostenlose Tools ohne API-Schlüssel.",
+  },
+  ja: {
+    title: "ツール — 通貨換算、天気、暗号資産、星占い · moomz",
+    description: "無料・広告なしのツールボックス：通貨換算、天気、世界時計、祝日、暗号資産、辞書、NASA写真、レシピ、星占い。moomz投票と連携。",
+    ogTitle: "moomz ツール — 無料ユーティリティ",
+    ogDesc: "通貨換算、天気、暗号資産、星占い、辞書、祝日、NASA APOD…APIキー不要の9つの無料ツール。",
+  },
+  zh: {
+    title: "工具 — 货币换算、天气、加密货币、星座 · moomz",
+    description: "免费无广告工具箱：货币换算、天气、世界时钟、公共假期、加密货币、词典、NASA图片、食谱、星座运势。与 moomz 投票深度联动。",
+    ogTitle: "moomz 工具 — 免费实用工具",
+    ogDesc: "货币换算、天气、加密货币、星座、词典、公共假期、NASA APOD…9 个无需 API 密钥的免费工具。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const m = META[locale] ?? META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/outils" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDesc,
+      type: "website",
+      url: "https://moomz.com/outils",
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 type ToolDef = {
   slug: string;

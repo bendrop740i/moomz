@@ -18,6 +18,7 @@ const CHROME: Record<
   VsLocale,
   {
     kicker: string;
+    h1: string;
     sub: (n: number) => string;
     ctaTitle: string;
     ctaSub: string;
@@ -28,6 +29,7 @@ const CHROME: Record<
 > = {
   en: {
     kicker: "moomz · /vs",
+    h1: "Head-to-head",
     sub: (n) => `${n} pairs. Pros, cons, and the only verdict that matters: yours. Vote on moomz.`,
     ctaTitle: "Run your own showdown in 10 seconds",
     ctaSub: "moomz.com — anonymous, free",
@@ -37,6 +39,7 @@ const CHROME: Record<
   },
   fr: {
     kicker: "moomz · /vs",
+    h1: "Face à face",
     sub: (n) => `${n} duels. Pour, contre, et le seul verdict qui compte : le tien. Vote sur moomz.`,
     ctaTitle: "Lance ton propre duel en 10 secondes",
     ctaSub: "moomz.com — anonyme, gratuit",
@@ -46,6 +49,7 @@ const CHROME: Record<
   },
   es: {
     kicker: "moomz · /vs",
+    h1: "Cara a cara",
     sub: (n) => `${n} duelos. Pros, contras y el único veredicto que cuenta: el tuyo. Vota en moomz.`,
     ctaTitle: "Lanza tu propio duelo en 10 segundos",
     ctaSub: "moomz.com — anónimo, gratis",
@@ -55,6 +59,7 @@ const CHROME: Record<
   },
   it: {
     kicker: "moomz · /vs",
+    h1: "Faccia a faccia",
     sub: (n) => `${n} sfide. Pro, contro e l'unico verdetto che conta: il tuo. Vota su moomz.`,
     ctaTitle: "Lancia la tua sfida in 10 secondi",
     ctaSub: "moomz.com — anonimo, gratis",
@@ -64,6 +69,7 @@ const CHROME: Record<
   },
   pt: {
     kicker: "moomz · /vs",
+    h1: "Frente a frente",
     sub: (n) => `${n} duelos. Prós, contras e o único veredito que importa: o seu. Vote no moomz.`,
     ctaTitle: "Lance o seu próprio duelo em 10 segundos",
     ctaSub: "moomz.com — anônimo, grátis",
@@ -73,6 +79,7 @@ const CHROME: Record<
   },
   de: {
     kicker: "moomz · /vs",
+    h1: "Direkte Vergleiche",
     sub: (n) => `${n} Duelle. Pro, Kontra und das einzige Urteil, das zählt: deins. Stimme auf moomz ab.`,
     ctaTitle: "Starte dein eigenes Duell in 10 Sekunden",
     ctaSub: "moomz.com — anonym, kostenlos",
@@ -82,6 +89,7 @@ const CHROME: Record<
   },
   ja: {
     kicker: "moomz · /vs",
+    h1: "ガチ対決",
     sub: (n) => `${n}件の対決。長所、短所、そして本当に大事な結論はあなた次第。moomzで投票しよう。`,
     ctaTitle: "10秒で自分だけの対決をつくろう",
     ctaSub: "moomz.com — 匿名・無料",
@@ -91,6 +99,7 @@ const CHROME: Record<
   },
   zh: {
     kicker: "moomz · /vs",
+    h1: "正面对决",
     sub: (n) => `${n} 组对决。优点、缺点,以及唯一重要的结论:你的选择。在 moomz 上投票。`,
     ctaTitle: "10 秒发起你自己的对决",
     ctaSub: "moomz.com — 匿名、免费",
@@ -185,7 +194,7 @@ export default function VsHub() {
       <header className="space-y-3 text-center">
         <div className="text-xs uppercase tracking-widest text-white/40">{c.kicker}</div>
         <h1 className="font-display text-5xl sm:text-6xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-          Head-to-head
+          {c.h1}
         </h1>
         <p className="text-white/60 text-balance max-w-2xl mx-auto">{c.sub(allPairs.length)}</p>
       </header>

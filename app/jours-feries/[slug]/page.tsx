@@ -25,6 +25,42 @@ export function generateStaticParams(): { slug: string }[] {
   return JOURS_FERIES_SLUGS.map((slug) => ({ slug }));
 }
 
+type HolidayMeta = { title: (n: string, y: number) => string; desc: (n: string, y: number) => string };
+const DETAIL_META: Record<string, HolidayMeta> = {
+  fr: {
+    title: (n, y) => `Jours fériés ${n} ${y} — calendrier complet · moomz`,
+    desc: (n, y) => `Tous les jours fériés ${n} en ${y} : dates exactes, jour de la semaine, ponts possibles, contexte historique pour chaque date.`,
+  },
+  en: {
+    title: (n, y) => `Public holidays ${n} ${y} — full calendar · moomz`,
+    desc: (n, y) => `Every public holiday in ${n} for ${y}: exact dates, day of the week, possible long weekends, historical context for each date.`,
+  },
+  es: {
+    title: (n, y) => `Días festivos ${n} ${y} — calendario completo · moomz`,
+    desc: (n, y) => `Todos los días festivos de ${n} en ${y}: fechas exactas, día de la semana, posibles puentes, contexto histórico.`,
+  },
+  it: {
+    title: (n, y) => `Giorni festivi ${n} ${y} — calendario completo · moomz`,
+    desc: (n, y) => `Tutti i giorni festivi di ${n} nel ${y}: date esatte, giorno della settimana, ponti possibili, contesto storico.`,
+  },
+  pt: {
+    title: (n, y) => `Feriados ${n} ${y} — calendário completo · moomz`,
+    desc: (n, y) => `Todos os feriados de ${n} em ${y}: datas exatas, dia da semana, pontes possíveis, contexto histórico.`,
+  },
+  de: {
+    title: (n, y) => `Feiertage ${n} ${y} — vollständiger Kalender · moomz`,
+    desc: (n, y) => `Alle Feiertage in ${n} für ${y}: genaue Daten, Wochentag, mögliche Brückentage, historischer Kontext.`,
+  },
+  ja: {
+    title: (n, y) => `${n}の祝日${y}年 — 完全カレンダー · moomz`,
+    desc: (n, y) => `${n}の${y}年の祝日一覧：正確な日付、曜日、連休の可能性、各日付の歴史的背景。`,
+  },
+  zh: {
+    title: (n, y) => `${n} ${y}年公共假期 — 完整日历 · moomz`,
+    desc: (n, y) => `${n} ${y}年所有公共假期：确切日期、星期几、可能的连休、每个日期的历史背景。`,
+  },
+};
+
 export function generateMetadata({
   params,
 }: {
@@ -33,28 +69,29 @@ export function generateMetadata({
   const parsed = parseSlug(params.slug);
   if (!parsed) return {};
   const { country, year } = parsed;
+  const locale = getLocale();
+  const m = DETAIL_META[locale] ?? DETAIL_META.en;
+  const cName = locale === "fr" || locale === "es" || locale === "it" || locale === "pt"
+    ? country.name_fr
+    : country.name_en;
   const url = `https://moomz.com/jours-feries/${params.slug}`;
-  const titleFr = `Jours fériés ${country.name_fr} ${year} — calendrier complet · moomz`;
-  const titleEn = `Public holidays ${country.name_en} ${year} — full calendar · moomz`;
-  const descFr = `Tous les jours fériés ${country.name_fr} en ${year} : dates exactes, jour de la semaine, ponts possibles, contexte historique pour chaque date.`;
-  const descEn = `Every public holiday in ${country.name_en} for ${year}: exact dates, day of the week, possible long weekends, historical context for each date.`;
+  const title = m.title(cName, year);
+  const description = m.desc(cName, year);
   return {
-    title: titleFr,
-    description: descFr,
+    title,
+    description,
     alternates: { canonical: url },
     openGraph: {
-      title: titleFr,
-      description: descFr,
+      title,
+      description,
       url,
       type: "article",
       siteName: "moomz",
-      locale: "fr_FR",
-      alternateLocale: ["en_US"],
     },
     twitter: {
       card: "summary_large_image",
-      title: titleEn,
-      description: descEn,
+      title,
+      description,
     },
   };
 }
@@ -88,10 +125,18 @@ export default async function HolidayDetailPage({
   const apiFailed = holidays.length === 0;
 
   // Poll deeplink — prefills the create form on /
+  const pollQText: Record<string, (n: string) => string> = {
+    fr: (n) => `Ton jour férié préféré en ${n} ?`,
+    en: (n) => `Your favourite holiday in ${n}?`,
+    es: (n) => `¿Tu festivo favorito en ${n}?`,
+    it: (n) => `La tua festività preferita in ${n}?`,
+    pt: (n) => `Seu feriado favorito em ${n}?`,
+    de: (n) => `Dein liebster Feiertag in ${n}?`,
+    ja: (n) => `${n}で一番好きな祝日は？`,
+    zh: (n) => `你最喜欢${n}的哪个假期？`,
+  };
   const pollQ = encodeURIComponent(
-    locale === "fr"
-      ? `Ton jour férié préféré en ${cName} ?`
-      : `Your favourite holiday in ${cName}?`
+    (pollQText[locale] ?? pollQText.en)(cName)
   );
   const pollOpts = (() => {
     if (apiFailed) return "";

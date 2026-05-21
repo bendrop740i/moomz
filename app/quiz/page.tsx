@@ -105,20 +105,80 @@ const QUIZ_HUB_LOCALES: HubLocale[] = ["fr", "en", "es", "it", "pt", "de", "ja",
 export const dynamic = "force-static";
 export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  title: "Quiz — 200+ quiz de culture g, food, ciné, tech, sport · moomz",
-  description:
-    "200+ quiz à thèmes : cuisine, couple, drama, tech, ciné, sport, musique, histoire, sciences, anime. Chaque réponse avec une explication. Joue en 3 minutes.",
-  alternates: { canonical: "https://moomz.com/quiz" },
-  openGraph: {
-    title: "Quiz moomz — 200+ quiz à thèmes",
-    description:
-      "Joue, apprends, partage. 200+ quiz courts avec explications, du food au cinéma en passant par la tech et la pop culture.",
-    type: "website",
-    url: "https://moomz.com/quiz",
+// Per-locale static metadata for the quiz hub.
+const QUIZ_META: Record<HubLocale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
+  fr: {
+    title: "Quiz — 200+ quiz de culture g, food, ciné, tech, sport · moomz",
+    description: "200+ quiz à thèmes : cuisine, couple, drama, tech, ciné, sport, musique, histoire, sciences, anime. Chaque réponse avec une explication. Joue en 3 minutes.",
+    ogTitle: "Quiz moomz — 200+ quiz à thèmes",
+    ogDescription: "Joue, apprends, partage. 200+ quiz courts avec explications, du food au cinéma en passant par la tech et la pop culture.",
   },
-  twitter: { card: "summary_large_image" },
+  en: {
+    title: "Quiz — 200+ trivia quizzes on food, tech, film, sport · moomz",
+    description: "200+ themed quizzes: food, couples, drama, tech, film, sport, music, history, science, anime. Every answer explained. Play in 3 minutes.",
+    ogTitle: "Quiz moomz — 200+ themed quizzes",
+    ogDescription: "Play, learn, share. 200+ short quizzes with explanations — from food to cinema to tech and pop culture.",
+  },
+  es: {
+    title: "Quiz — más de 200 quiz de cultura general, food, cine, tech · moomz",
+    description: "200+ quiz temáticos: cocina, pareja, drama, tech, cine, deporte, música, historia, ciencias, anime. Cada respuesta explicada. Juega en 3 minutos.",
+    ogTitle: "Quiz moomz — 200+ quiz temáticos",
+    ogDescription: "Juega, aprende, comparte. 200+ quiz cortos con explicaciones, de la comida al cine pasando por la tech y la cultura pop.",
+  },
+  it: {
+    title: "Quiz — 200+ quiz di cultura generale, food, cinema, tech · moomz",
+    description: "200+ quiz a tema: cucina, coppia, drama, tech, cinema, sport, musica, storia, scienze, anime. Ogni risposta spiegata. Gioca in 3 minuti.",
+    ogTitle: "Quiz moomz — 200+ quiz tematici",
+    ogDescription: "Gioca, impara, condividi. 200+ quiz brevi con spiegazioni, dal cibo al cinema fino alla tech e alla cultura pop.",
+  },
+  pt: {
+    title: "Quiz — mais de 200 quizzes de cultura geral, food, cinema, tech · moomz",
+    description: "200+ quizzes temáticos: culinária, casal, drama, tech, cinema, esporte, música, história, ciências, anime. Cada resposta explicada. Jogue em 3 minutos.",
+    ogTitle: "Quiz moomz — 200+ quizzes temáticos",
+    ogDescription: "Jogue, aprenda, compartilhe. 200+ quizzes curtos com explicações, da comida ao cinema passando por tech e cultura pop.",
+  },
+  de: {
+    title: "Quiz — 200+ Quizze zu Allgemeinwissen, Food, Kino, Tech · moomz",
+    description: "200+ thematische Quizze: Kochen, Paare, Drama, Tech, Kino, Sport, Musik, Geschichte, Wissenschaft, Anime. Jede Antwort erklärt. Spiel in 3 Minuten.",
+    ogTitle: "Quiz moomz — 200+ thematische Quizze",
+    ogDescription: "Spielen, lernen, teilen. 200+ kurze Quizze mit Erklärungen — von Essen bis Kino, Tech und Popkultur.",
+  },
+  ja: {
+    title: "クイズ — 200以上のトリビアクイズ（フード・テック・映画・スポーツ）· moomz",
+    description: "200以上のテーマ別クイズ：料理、カップル、ドラマ、テック、映画、スポーツ、音楽、歴史、科学、アニメ。すべての答えに解説付き。3分でプレイ。",
+    ogTitle: "moomz クイズ — 200以上のテーマ別クイズ",
+    ogDescription: "遊んで、学んで、シェアしよう。フードから映画、テック、ポップカルチャーまで200以上の短いクイズ。",
+  },
+  zh: {
+    title: "测验 — 200+ 知识问答：美食、科技、电影、运动 · moomz",
+    description: "200+ 主题测验：烹饪、情侣、八卦、科技、电影、运动、音乐、历史、科学、动漫。每道题都有解析。3分钟搞定。",
+    ogTitle: "moomz 测验 — 200+ 主题问答",
+    ogDescription: "玩游戏、学知识、来分享。200+ 带解析的短测验，从美食到电影再到科技和流行文化。",
+  },
 };
+
+// generateMetadata reads the visitor locale from the cookie (same as the
+// component). With force-static the cookie is empty → defaults to "en",
+// which is the correct canonical metadata for Google crawlers.
+export async function generateMetadata(): Promise<Metadata> {
+  const visitorLocale = getLocale();
+  const locale: HubLocale = (QUIZ_HUB_LOCALES as string[]).includes(visitorLocale)
+    ? (visitorLocale as HubLocale)
+    : "en";
+  const m = QUIZ_META[locale];
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/quiz" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDescription,
+      type: "website",
+      url: "https://moomz.com/quiz",
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 export default function QuizHub() {
   const visitorLocale = getLocale();
@@ -137,7 +197,7 @@ export default function QuizHub() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Quiz moomz",
-    description: `Catalogue de ${totalQuizzes} quiz à thèmes avec ${totalQuestions} questions et leurs explications.`,
+    description: c.sub(totalQuizzes, totalQuestions),
     url: "https://moomz.com/quiz",
     mainEntity: {
       "@type": "ItemList",

@@ -8,22 +8,27 @@ import { trackEvent } from "@/lib/analytics";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
-const QUESTION_PLACEHOLDERS = [
-  "Pizza ananas, oui ou non ?",
-  "Mac ou Windows ?",
-  "Plage ou montagne ?",
-  "Café ou thé ?",
-  "Soirée ou Netflix ?",
-  "Iphone ou Android ?",
-  "Foot ou tennis ?",
-];
+const QUESTION_PLACEHOLDERS_BY_LOCALE: Record<string, string[]> = {
+  fr: ["Pizza ananas, oui ou non ?", "Mac ou Windows ?", "Plage ou montagne ?", "Café ou thé ?", "Soirée ou Netflix ?", "Iphone ou Android ?", "Foot ou tennis ?"],
+  en: ["Pineapple pizza, yes or no?", "Mac or Windows?", "Beach or mountains?", "Coffee or tea?", "Netflix or going out?", "iPhone or Android?", "Football or basketball?"],
+  es: ["¿Pizza piña, sí o no?", "¿Mac o Windows?", "¿Playa o montaña?", "¿Café o té?", "¿Fiesta o Netflix?", "¿iPhone o Android?", "¿Fútbol o baloncesto?"],
+  it: ["Pizza ananas, sì o no?", "Mac o Windows?", "Spiaggia o montagna?", "Caffè o tè?", "Serata o Netflix?", "iPhone o Android?", "Calcio o tennis?"],
+  pt: ["Pizza abacaxi, sim ou não?", "Mac ou Windows?", "Praia ou montanha?", "Café ou chá?", "Sair ou Netflix?", "iPhone ou Android?", "Futebol ou basquete?"],
+  de: ["Ananas auf Pizza, ja oder nein?", "Mac oder Windows?", "Strand oder Berge?", "Kaffee oder Tee?", "Feiern oder Netflix?", "iPhone oder Android?", "Fußball oder Tennis?"],
+  ja: ["パイナップルピザ、あり？なし？", "MacとWindowsどっち？", "海と山どっち？", "コーヒーと紅茶どっち？", "外出とNetflixどっち？", "iPhoneとAndroidどっち？", "サッカーと野球どっち？"],
+  zh: ["菠萝披萨，赞还是踩？", "Mac还是Windows？", "海滩还是山？", "咖啡还是茶？", "出去玩还是Netflix？", "iPhone还是Android？", "足球还是篮球？"],
+};
 
-const OPTION_EXAMPLES: [string, string][] = [
-  ["oui carrément", "non jamais"],
-  ["team A", "team B"],
-  ["matin", "soir"],
-  ["chaud", "pas chaud"],
-];
+const OPTION_EXAMPLES_BY_LOCALE: Record<string, [string, string][]> = {
+  fr: [["oui carrément", "non jamais"], ["team A", "team B"], ["matin", "soir"], ["chaud", "pas chaud"]],
+  en: [["yes definitely", "no way"], ["team A", "team B"], ["morning", "night"], ["hot", "not feeling it"]],
+  es: [["sí totalmente", "jamás"], ["equipo A", "equipo B"], ["mañana", "noche"], ["a tope", "para nada"]],
+  it: [["sì assolutamente", "mai"], ["team A", "team B"], ["mattina", "sera"], ["caldo", "freddo"]],
+  pt: [["sim com certeza", "nunca"], ["time A", "time B"], ["manhã", "noite"], ["quente", "frio"]],
+  de: [["auf jeden Fall", "niemals"], ["Team A", "Team B"], ["morgens", "abends"], ["warm", "kalt"]],
+  ja: [["絶対あり", "絶対なし"], ["チームA", "チームB"], ["朝派", "夜派"], ["あり", "なし"]],
+  zh: [["绝对支持", "绝不"], ["队A", "队B"], ["早上", "晚上"], ["热", "冷"]],
+};
 
 // Localized yes/no for the 1-tap option presets — kills blank-page friction.
 const YESNO: Record<string, [string, string]> = {
@@ -48,6 +53,8 @@ export default function CreatePollForm() {
     const list = raw.split("|").map((s) => s.trim()).filter(Boolean).slice(0, 6);
     return list.length >= 2 ? list : null;
   })();
+  const QUESTION_PLACEHOLDERS = QUESTION_PLACEHOLDERS_BY_LOCALE[locale] ?? QUESTION_PLACEHOLDERS_BY_LOCALE.en;
+  const OPTION_EXAMPLES = OPTION_EXAMPLES_BY_LOCALE[locale] ?? OPTION_EXAMPLES_BY_LOCALE.en;
   const [question, setQuestion] = useState(prefillQ);
   const [options, setOptions] = useState<string[]>(prefillOpts ?? ["", ""]);
   const [pending, setPending] = useState(false);
@@ -98,7 +105,7 @@ export default function CreatePollForm() {
         try {
           await createPoll(fd);
         } catch (e) {
-          alert(e instanceof Error ? e.message : "Erreur");
+          alert(e instanceof Error ? e.message : "Error");
           setPending(false);
         }
       }}
@@ -106,7 +113,7 @@ export default function CreatePollForm() {
       className="glass rounded-2xl p-4 sm:p-5 space-y-4 shadow-2xl shadow-pink-500/10"
     >
       <h2 id={headingId} className="sr-only">
-        Crée ton sondage en 10 secondes
+        {t("form.create")}
       </h2>
 
       <div>
@@ -129,7 +136,7 @@ export default function CreatePollForm() {
           className="w-full rounded-xl bg-white/5 border border-white/10 px-3.5 py-3 text-base sm:text-lg font-medium outline-none focus:bg-white/10 focus:border-pink-400/50 transition placeholder:text-white/30"
         />
         <span id={questionHintId} className="sr-only">
-          Pose une question courte, 200 caractères maximum.
+          {t("form.question.label")} — 200 max
         </span>
       </div>
 
@@ -141,7 +148,7 @@ export default function CreatePollForm() {
           {t("form.options.label")}
         </div>
         <span id={optionsHintId} className="sr-only">
-          Ajoute entre 2 et 6 options de réponse, 80 caractères maximum chacune.
+          {t("form.options.label")} — 2–6, 80 max
         </span>
         {options.length === 2 && !options[0] && !options[1] && (
           <div className="flex flex-wrap gap-1.5">
@@ -185,7 +192,7 @@ export default function CreatePollForm() {
                   type="button"
                   onClick={() => removeOption(i)}
                   className="rounded-lg w-11 h-11 shrink-0 flex items-center justify-center text-xl leading-none text-white/40 hover:text-red-400 hover:bg-red-500/10 transition"
-                  aria-label={`Supprimer l'option ${i + 1}`}
+                  aria-label={`× ${i + 1}`}
                 >
                   <span aria-hidden="true">×</span>
                 </button>
@@ -199,7 +206,7 @@ export default function CreatePollForm() {
             <button
               type="button"
               onClick={addOption}
-              aria-label={`Ajouter une option de réponse (${t("form.add")})`}
+              aria-label={t("form.add")}
               className="flex-1 min-h-[44px] rounded-xl border border-dashed border-white/15 bg-white/[0.02] text-white/40 hover:text-white hover:border-pink-400/40 hover:bg-white/5 transition text-sm font-medium flex items-center justify-center gap-1.5"
             >
               <span className="text-lg leading-none" aria-hidden="true">+</span>
@@ -214,8 +221,8 @@ export default function CreatePollForm() {
         disabled={pending}
         aria-label={
           pending
-            ? `${t("form.creating")} — création de votre sondage en cours`
-            : `${t("form.create")} — publier le sondage et obtenir un lien partageable`
+            ? t("form.creating")
+            : t("form.create")
         }
         className="w-full rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 text-base sm:text-lg hover:scale-[1.02] active:scale-[0.98] transition disabled:opacity-50 disabled:scale-100 shadow-lg shadow-pink-500/30"
       >

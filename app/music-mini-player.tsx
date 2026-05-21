@@ -3,6 +3,30 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useMusic } from "./music-provider";
 import TrackCover from "./music/track-cover";
+import { useLocale } from "./locale-context";
+import type { Locale } from "@/lib/i18n";
+
+const PLAYER_COPY: Record<Locale, {
+  open: string;
+  loadingAudio: string;
+  play: string;
+  pause: string;
+  collapse: string;
+  restart: string;
+  next: string;
+  position: string;
+  ofWord: string;
+  loading: string;
+}> = {
+  fr: { open: "Ouvrir le lecteur", loadingAudio: "Chargement audio", play: "Lecture", pause: "Pause", collapse: "Réduire le lecteur", restart: "Recommencer la track", next: "Suivant", position: "Position dans la track", ofWord: "sur", loading: "Chargement…" },
+  en: { open: "Open player", loadingAudio: "Buffering", play: "Play", pause: "Pause", collapse: "Minimize player", restart: "Restart track", next: "Next", position: "Track position", ofWord: "of", loading: "Loading…" },
+  es: { open: "Abrir reproductor", loadingAudio: "Cargando audio", play: "Reproducir", pause: "Pausa", collapse: "Minimizar reproductor", restart: "Reiniciar pista", next: "Siguiente", position: "Posición en la pista", ofWord: "de", loading: "Cargando…" },
+  it: { open: "Apri il player", loadingAudio: "Caricamento audio", play: "Riproduci", pause: "Pausa", collapse: "Riduci player", restart: "Ricomincia traccia", next: "Avanti", position: "Posizione nella traccia", ofWord: "di", loading: "Caricamento…" },
+  pt: { open: "Abrir player", loadingAudio: "Carregando áudio", play: "Reproduzir", pause: "Pausa", collapse: "Minimizar player", restart: "Reiniciar faixa", next: "Próxima", position: "Posição na faixa", ofWord: "de", loading: "Carregando…" },
+  de: { open: "Player öffnen", loadingAudio: "Audio lädt", play: "Abspielen", pause: "Pause", collapse: "Player minimieren", restart: "Track neu starten", next: "Weiter", position: "Position im Track", ofWord: "von", loading: "Lädt…" },
+  ja: { open: "プレイヤーを開く", loadingAudio: "読み込み中", play: "再生", pause: "一時停止", collapse: "プレイヤーを閉じる", restart: "トラックを再開", next: "次へ", position: "トラックの位置", ofWord: "/", loading: "読み込み中…" },
+  zh: { open: "打开播放器", loadingAudio: "加载中", play: "播放", pause: "暂停", collapse: "最小化播放器", restart: "重新播放", next: "下一首", position: "播放位置", ofWord: "/", loading: "加载中…" },
+};
 
 // localStorage key persisting the collapsed/expanded preference. Defaults to
 // collapsed (compact pill) so the player stays out of the way until the user
@@ -33,6 +57,8 @@ export default function MusicMiniPlayer() {
     seek,
     restart,
   } = useMusic();
+  const locale = useLocale();
+  const pc = PLAYER_COPY[locale as Locale] ?? PLAYER_COPY.en;
 
   const barRef = useRef<HTMLDivElement | null>(null);
 
@@ -120,7 +146,7 @@ export default function MusicMiniPlayer() {
           {/* Spinning album disc — tap to expand */}
           <button
             onClick={() => setCollapsedPersisted(false)}
-            aria-label="Ouvrir le lecteur"
+            aria-label={pc.open}
             title={current.title}
             className="w-10 h-10 rounded-full overflow-hidden shrink-0 relative ring-1 ring-white/15 transition active:scale-90"
           >
@@ -144,7 +170,7 @@ export default function MusicMiniPlayer() {
               <span
                 className="absolute top-0.5 right-0.5 w-1.5 h-1.5 rounded-full bg-pink-400"
                 style={{ animation: "moomz-mini-dot 1s ease-in-out infinite" }}
-                aria-label="Chargement audio"
+                aria-label={pc.loadingAudio}
               />
             )}
           </button>
@@ -153,7 +179,7 @@ export default function MusicMiniPlayer() {
           <button
             onClick={toggle}
             className="w-9 h-9 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 text-white flex items-center justify-center shrink-0 transition active:scale-90 shadow-md shadow-pink-500/30"
-            aria-label={isPlaying ? "Pause" : "Lecture"}
+            aria-label={isPlaying ? pc.pause : pc.play}
           >
             {isPlaying ? (
               <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
@@ -188,8 +214,8 @@ export default function MusicMiniPlayer() {
           {/* Cover — tap to collapse */}
           <button
             onClick={() => setCollapsedPersisted(true)}
-            aria-label="Réduire le lecteur"
-            title="Réduire"
+            aria-label={pc.collapse}
+            title={pc.collapse}
             className="w-9 h-9 rounded-lg overflow-hidden shrink-0 relative transition active:scale-90"
           >
             <TrackCover
@@ -209,7 +235,7 @@ export default function MusicMiniPlayer() {
           <div className="flex-1 min-w-0">
             <div className="truncate font-medium text-white/90 flex items-center gap-1.5">
               {isLoadingNext ? (
-                <span className="italic text-white/70">Chargement…</span>
+                <span className="italic text-white/70">{pc.loading}</span>
               ) : (
                 <>
                   <span className="truncate" title={current.title}>
@@ -221,7 +247,7 @@ export default function MusicMiniPlayer() {
                       style={{
                         animation: "moomz-mini-dot 1s ease-in-out infinite",
                       }}
-                      aria-label="Chargement audio"
+                      aria-label={pc.loadingAudio}
                     />
                   )}
                 </>
@@ -234,8 +260,8 @@ export default function MusicMiniPlayer() {
           <button
             onClick={restart}
             className="w-8 h-8 rounded-full hover:bg-white/10 text-white/70 hover:text-white flex items-center justify-center shrink-0 transition active:scale-90"
-            aria-label="Recommencer la track"
-            title="Recommencer"
+            aria-label={pc.restart}
+            title={pc.restart}
           >
             <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
               <rect x="2" y="2" width="2" height="8" rx="0.5" />
@@ -247,7 +273,7 @@ export default function MusicMiniPlayer() {
           <button
             onClick={toggle}
             className="w-9 h-9 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 text-white flex items-center justify-center shrink-0 transition active:scale-90 shadow-md shadow-pink-500/30"
-            aria-label={isPlaying ? "Pause" : "Lecture"}
+            aria-label={isPlaying ? pc.pause : pc.play}
           >
             {isPlaying ? (
               <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
@@ -266,8 +292,8 @@ export default function MusicMiniPlayer() {
             onClick={next}
             disabled={isLoading || isLoadingNext}
             className="w-8 h-8 rounded-full hover:bg-white/10 text-white/70 hover:text-white flex items-center justify-center shrink-0 disabled:opacity-50 transition active:scale-90"
-            aria-label="Suivant"
-            title="Suivant"
+            aria-label={pc.next}
+            title={pc.next}
           >
             <svg width="13" height="13" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
               <path d="M2 2l5 4-5 4z" />
@@ -279,8 +305,8 @@ export default function MusicMiniPlayer() {
           <button
             onClick={() => setCollapsedPersisted(true)}
             className="w-8 h-8 rounded-full hover:bg-white/10 text-white/70 hover:text-white flex items-center justify-center shrink-0 transition active:scale-90"
-            aria-label="Réduire le lecteur"
-            title="Réduire"
+            aria-label={pc.collapse}
+            title={pc.collapse}
           >
             <svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
               <path d="M2.5 7.5h7" />
@@ -297,11 +323,11 @@ export default function MusicMiniPlayer() {
             ref={barRef}
             role="slider"
             tabIndex={hasDuration ? 0 : -1}
-            aria-label="Position dans la track"
+            aria-label={pc.position}
             aria-valuemin={0}
             aria-valuemax={hasDuration ? Math.round(totalDuration) : 0}
             aria-valuenow={Math.round(currentTime)}
-            aria-valuetext={`${fmt(currentTime)} sur ${fmt(totalDuration)}`}
+            aria-valuetext={`${fmt(currentTime)} ${pc.ofWord} ${fmt(totalDuration)}`}
             onPointerDown={(e) => {
               if (!hasDuration) return;
               e.currentTarget.setPointerCapture(e.pointerId);

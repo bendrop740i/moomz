@@ -9,10 +9,20 @@ import BoutiqueGrid from "./boutique-grid";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: "Boutique — moomz",
-  robots: { index: false, follow: true },
+// Emoji prefix for the title tab — matches the page h1 emoji.
+const BOUTIQUE_TITLE_PREFIX: Record<Locale, string> = {
+  fr: "Boutique", en: "Shop", es: "Tienda", it: "Negozio",
+  pt: "Loja", de: "Shop", ja: "ショップ", zh: "商店",
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const prefix = BOUTIQUE_TITLE_PREFIX[locale] ?? BOUTIQUE_TITLE_PREFIX.en;
+  return {
+    title: `${prefix} — moomz`,
+    robots: { index: false, follow: true },
+  };
+}
 
 type Strings = {
   title: string;

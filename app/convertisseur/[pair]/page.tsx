@@ -29,11 +29,33 @@ export function generateStaticParams(): Params[] {
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const p = parsePair(params.pair);
-  if (!p) return { title: "Devise introuvable — moomz" };
-  const fromName = CURRENCIES[p.from].name_fr;
-  const toName = CURRENCIES[p.to].name_fr;
-  const title = `Convertisseur ${p.from} → ${p.to} : ${fromName} en ${toName} · moomz`;
-  const description = `Taux ${p.from}/${p.to} en direct, historique 30 jours, tableau de conversion 1·5·10·100·1000 ${p.from} en ${p.to}.`;
+  if (!p) return { title: "Currency not found — moomz" };
+  const locale = (getLocale() as ToolLocale) ?? "en";
+  const useFr = locale === "fr" || locale === "es" || locale === "it" || locale === "pt";
+  const fromName = useFr ? CURRENCIES[p.from].name_fr : CURRENCIES[p.from].name_en;
+  const toName = useFr ? CURRENCIES[p.to].name_fr : CURRENCIES[p.to].name_en;
+  const titles: Record<ToolLocale, string> = {
+    fr: `Convertisseur ${p.from} → ${p.to} : ${fromName} en ${toName} · moomz`,
+    en: `${p.from} to ${p.to} converter: ${fromName} to ${toName} · moomz`,
+    es: `Convertidor ${p.from} → ${p.to}: ${fromName} a ${toName} · moomz`,
+    it: `Convertitore ${p.from} → ${p.to}: ${fromName} in ${toName} · moomz`,
+    pt: `Conversor ${p.from} → ${p.to}: ${fromName} para ${toName} · moomz`,
+    de: `${p.from} → ${p.to} Rechner: ${fromName} in ${toName} · moomz`,
+    ja: `${p.from}→${p.to}換算：${fromName}から${toName} · moomz`,
+    zh: `${p.from}→${p.to}换算：${fromName}兑${toName} · moomz`,
+  };
+  const descs: Record<ToolLocale, string> = {
+    fr: `Taux ${p.from}/${p.to} en direct, historique 30 jours, tableau de conversion 1·5·10·100·1000 ${p.from} en ${p.to}.`,
+    en: `Live ${p.from}/${p.to} rate, 30-day history, conversion table 1·5·10·100·1000 ${p.from} to ${p.to}.`,
+    es: `Tasa ${p.from}/${p.to} en directo, historial 30 días, tabla de conversión 1·5·10·100·1000 ${p.from} en ${p.to}.`,
+    it: `Tasso ${p.from}/${p.to} in tempo reale, storico 30 giorni, tabella di conversione 1·5·10·100·1000 ${p.from} in ${p.to}.`,
+    pt: `Taxa ${p.from}/${p.to} ao vivo, histórico 30 dias, tabela de conversão 1·5·10·100·1000 ${p.from} para ${p.to}.`,
+    de: `Live-Kurs ${p.from}/${p.to}, 30-Tage-Verlauf, Umrechnungstabelle 1·5·10·100·1000 ${p.from} in ${p.to}.`,
+    ja: `${p.from}/${p.to}リアルタイムレート、30日間履歴、換算表 1·5·10·100·1000 ${p.from}→${p.to}。`,
+    zh: `${p.from}/${p.to}实时汇率、30天历史、换算表 1·5·10·100·1000 ${p.from}→${p.to}。`,
+  };
+  const title = titles[locale] ?? titles.en;
+  const description = descs[locale] ?? descs.en;
   const canonical = `https://moomz.com/convertisseur/${params.pair}`;
   return {
     title,
@@ -126,10 +148,10 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
           </nav>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
             <span aria-hidden className="mr-2">{fromInfo.flag}→{toInfo.flag}</span>
-            {fromInfo.name_fr} → {toInfo.name_fr}
+            {labelFor(p.from, locale)} → {labelFor(p.to, locale)}
           </h1>
           <p className="text-white/55 text-sm">
-            {p.from} / {p.to} · {fromInfo.region_fr} → {toInfo.region_fr}
+            {p.from} / {p.to} · {regionFor(p.from, locale)} → {regionFor(p.to, locale)}
           </p>
         </header>
 
@@ -344,26 +366,46 @@ function Sparkline({
 // Per-locale editorial text. Substantive, not boilerplate.
 // ------------------------------------------------------------------
 
+function labelFor(code: CurrencyCode, locale: ToolLocale): string {
+  const info = CURRENCIES[code];
+  if (locale === "fr" || locale === "es" || locale === "it" || locale === "pt") {
+    return info.name_fr;
+  }
+  return info.name_en;
+}
+
+function regionFor(code: CurrencyCode, locale: ToolLocale): string {
+  const info = CURRENCIES[code];
+  if (locale === "fr" || locale === "es" || locale === "it" || locale === "pt") {
+    return info.region_fr;
+  }
+  return info.region_en;
+}
+
 function whyText(from: CurrencyCode, to: CurrencyCode, locale: ToolLocale): string {
   const fromInfo = CURRENCIES[from];
   const toInfo = CURRENCIES[to];
+  const fn = labelFor(from, locale);
+  const tn = labelFor(to, locale);
+  const fr_ = regionFor(from, locale);
+  const tr_ = regionFor(to, locale);
   switch (locale) {
     case "en":
-      return `Converting ${fromInfo.name_en} (${from}) to ${toInfo.name_en} (${to}) is one of the most common operations for travelers, online shoppers and traders moving between the ${fromInfo.region_en} and the ${toInfo.region_en}. Knowing the current ${from}/${to} rate matters whether you're booking a flight, buying gear from a foreign e-commerce site, sending money abroad, or sizing a forex position. Banks usually add a 2-4% spread on top of the mid-market rate shown here, so for large amounts a specialised transfer service (Wise, Revolut, Curve) typically saves real money. For traders, watching the 30-day history below helps spot whether the pair is in an uptrend, range-bound or breaking down — useful context before any trade. Rates update every business day via the European Central Bank reference fixing, which is the same source used by most major banks for reporting.`;
+      return `Converting ${fn} (${from}) to ${tn} (${to}) is one of the most common operations for travelers, online shoppers and traders moving between the ${fr_} and the ${tr_}. Knowing the current ${from}/${to} rate matters whether you're booking a flight, buying gear from a foreign e-commerce site, sending money abroad, or sizing a forex position. Banks usually add a 2-4% spread on top of the mid-market rate shown here, so for large amounts a specialised transfer service (Wise, Revolut, Curve) typically saves real money. For traders, watching the 30-day history below helps spot whether the pair is in an uptrend, range-bound or breaking down — useful context before any trade. Rates update every business day via the European Central Bank reference fixing, which is the same source used by most major banks for reporting.`;
     case "es":
-      return `Convertir ${fromInfo.name_fr} (${from}) a ${toInfo.name_fr} (${to}) es una de las operaciones más comunes para viajeros, compradores online y traders entre ${fromInfo.region_fr} y ${toInfo.region_fr}. Conocer la tasa ${from}/${to} importa tanto si reservas un vuelo, compras en una tienda extranjera, envías dinero o abres una posición forex. Los bancos suelen añadir un 2-4% de comisión sobre la tasa mid-market, así que para cantidades grandes un servicio especializado (Wise, Revolut) puede ahorrar bastante. Los datos provienen del fixing de referencia del BCE, mismo origen que usan la mayoría de bancos.`;
+      return `Convertir ${fn} (${from}) a ${tn} (${to}) es una de las operaciones más comunes para viajeros, compradores online y traders entre ${fr_} y ${tr_}. Conocer la tasa ${from}/${to} importa tanto si reservas un vuelo, compras en una tienda extranjera, envías dinero o abres una posición forex. Los bancos suelen añadir un 2-4% de comisión sobre la tasa mid-market, así que para cantidades grandes un servicio especializado (Wise, Revolut) puede ahorrar bastante. Los datos provienen del fixing de referencia del BCE, mismo origen que usan la mayoría de bancos.`;
     case "it":
-      return `Convertire ${fromInfo.name_fr} (${from}) in ${toInfo.name_fr} (${to}) è una delle operazioni più comuni per viaggiatori, acquirenti online e trader tra ${fromInfo.region_fr} e ${toInfo.region_fr}. Conoscere il tasso ${from}/${to} è importante sia che tu stia prenotando un volo, comprando su un sito estero, mandando soldi o aprendo una posizione forex. Le banche aggiungono di solito un 2-4% sul tasso mid-market mostrato qui, quindi per importi grandi un servizio specializzato (Wise, Revolut) fa risparmiare. I dati arrivano dal fixing di riferimento della BCE.`;
+      return `Convertire ${fn} (${from}) in ${tn} (${to}) è una delle operazioni più comuni per viaggiatori, acquirenti online e trader tra ${fr_} e ${tr_}. Conoscere il tasso ${from}/${to} è importante sia che tu stia prenotando un volo, comprando su un sito estero, mandando soldi o aprendo una posizione forex. Le banche aggiungono di solito un 2-4% sul tasso mid-market mostrato qui, quindi per importi grandi un servizio specializzato (Wise, Revolut) fa risparmiare. I dati arrivano dal fixing di riferimento della BCE.`;
     case "pt":
-      return `Converter ${fromInfo.name_fr} (${from}) para ${toInfo.name_fr} (${to}) é uma das operações mais comuns para viajantes, compradores online e traders entre ${fromInfo.region_fr} e ${toInfo.region_fr}. Saber a taxa ${from}/${to} importa quer estejas a reservar um voo, comprar num site estrangeiro, enviar dinheiro ou abrir uma posição forex. Os bancos costumam acrescentar 2-4% sobre a taxa mid-market mostrada aqui, então para valores maiores um serviço especializado (Wise, Revolut) poupa bastante. Os dados vêm do fixing de referência do BCE.`;
+      return `Converter ${fn} (${from}) para ${tn} (${to}) é uma das operações mais comuns para viajantes, compradores online e traders entre ${fr_} e ${tr_}. Saber a taxa ${from}/${to} importa quer estejas a reservar um voo, comprar num site estrangeiro, enviar dinheiro ou abrir uma posição forex. Os bancos costumam acrescentar 2-4% sobre a taxa mid-market mostrada aqui, então para valores maiores um serviço especializado (Wise, Revolut) poupa bastante. Os dados vêm do fixing de referência do BCE.`;
     case "de":
-      return `${fromInfo.name_fr} (${from}) in ${toInfo.name_fr} (${to}) umzurechnen gehört zu den häufigsten Operationen für Reisende, Online-Käufer und Trader zwischen ${fromInfo.region_fr} und ${toInfo.region_fr}. Der aktuelle ${from}/${to}-Kurs ist relevant, egal ob du einen Flug buchst, im Ausland einkaufst, Geld überweist oder eine Forex-Position eröffnest. Banken schlagen meist 2-4% Aufschlag auf den hier gezeigten Mittelkurs auf — bei größeren Summen sparen Spezialanbieter (Wise, Revolut) deutlich. Die Daten stammen aus dem EZB-Referenzkursfixing.`;
+      return `${fn} (${from}) in ${tn} (${to}) umzurechnen gehört zu den häufigsten Operationen für Reisende, Online-Käufer und Trader zwischen ${fr_} und ${tr_}. Der aktuelle ${from}/${to}-Kurs ist relevant, egal ob du einen Flug buchst, im Ausland einkaufst, Geld überweist oder eine Forex-Position eröffnest. Banken schlagen meist 2-4% Aufschlag auf den hier gezeigten Mittelkurs auf — bei größeren Summen sparen Spezialanbieter (Wise, Revolut) deutlich. Die Daten stammen aus dem EZB-Referenzkursfixing.`;
     case "ja":
-      return `${fromInfo.name_fr}（${from}）を${toInfo.name_fr}（${to}）に換算するのは、旅行者、海外通販ユーザー、トレーダーにとって最も一般的な操作の一つです。現在の${from}/${to}レートは、フライト予約、海外サイトでの買い物、送金、FXポジションのサイジングなど、あらゆる場面で重要です。銀行は通常、ここに表示されているミッドマーケットレートに2-4%のスプレッドを上乗せするため、大口金額にはWiseやRevolutなどの専門サービスが有利です。データはECBの参照フィキシングから取得しています。`;
+      return `${fn}（${from}）を${tn}（${to}）に換算するのは、旅行者、海外通販ユーザー、トレーダーにとって最も一般的な操作の一つです。現在の${from}/${to}レートは、フライト予約、海外サイトでの買い物、送金、FXポジションのサイジングなど、あらゆる場面で重要です。銀行は通常、ここに表示されているミッドマーケットレートに2-4%のスプレッドを上乗せするため、大口金額にはWiseやRevolutなどの専門サービスが有利です。データはECBの参照フィキシングから取得しています。`;
     case "zh":
-      return `${fromInfo.name_fr}（${from}）兑换成${toInfo.name_fr}（${to}）是旅行者、跨境购物者和外汇交易者最常见的操作之一。无论你是订机票、在海外网站购物、汇款还是开仓外汇头寸，了解当前${from}/${to}汇率都很重要。银行通常会在此处显示的中间市场汇率基础上加收2-4%的点差，所以大额金额使用Wise、Revolut等专业服务可以节省不少。数据来源于欧洲央行的参考定盘价。`;
+      return `${fn}（${from}）兑换成${tn}（${to}）是旅行者、跨境购物者和外汇交易者最常见的操作之一。无论你是订机票、在海外网站购物、汇款还是开仓外汇头寸，了解当前${from}/${to}汇率都很重要。银行通常会在此处显示的中间市场汇率基础上加收2-4%的点差，所以大额金额使用Wise、Revolut等专业服务可以节省不少。数据来源于欧洲央行的参考定盘价。`;
     case "fr":
     default:
-      return `Convertir ${fromInfo.name_fr} (${from}) en ${toInfo.name_fr} (${to}) est l'une des opérations les plus courantes pour les voyageurs, les acheteurs en ligne et les traders entre ${fromInfo.region_fr} et ${toInfo.region_fr}. Connaître le taux ${from}/${to} du jour compte autant pour réserver un vol, payer sur un site e-commerce étranger, envoyer de l'argent à l'étranger, que pour dimensionner une position forex. Les banques classiques ajoutent typiquement 2 à 4 % de marge au-dessus du taux mid-market affiché ici, donc sur les gros montants un service spécialisé (Wise, Revolut, Curve) fait économiser plusieurs dizaines d'euros. Pour les traders, regarder l'historique 30 jours ci-dessus permet de repérer si la paire est en tendance haussière, en range ou en cassure — un contexte utile avant toute prise de position. Les taux sont rafraîchis chaque jour ouvré à partir du fixing de référence de la BCE, la même source que celle utilisée par la plupart des grandes banques pour leur reporting.`;
+      return `Convertir ${fn} (${from}) en ${tn} (${to}) est l'une des opérations les plus courantes pour les voyageurs, les acheteurs en ligne et les traders entre ${fr_} et ${tr_}. Connaître le taux ${from}/${to} du jour compte autant pour réserver un vol, payer sur un site e-commerce étranger, envoyer de l'argent à l'étranger, que pour dimensionner une position forex. Les banques classiques ajoutent typiquement 2 à 4 % de marge au-dessus du taux mid-market affiché ici, donc sur les gros montants un service spécialisé (Wise, Revolut, Curve) fait économiser plusieurs dizaines d'euros. Pour les traders, regarder l'historique 30 jours ci-dessus permet de repérer si la paire est en tendance haussière, en range ou en cassure — un contexte utile avant toute prise de position. Les taux sont rafraîchis chaque jour ouvré à partir du fixing de référence de la BCE, la même source que celle utilisée par la plupart des grandes banques pour leur reporting.`;
   }
 }

@@ -11,11 +11,19 @@ import { renderAchievement, categoryLabel, type AchLang } from "@/lib/achievemen
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: "Haut faits — moomz",
-  // Personal page — not for search indexing.
-  robots: { index: false, follow: true },
+const ACHV_TITLE: Record<Locale, string> = {
+  fr: "Haut faits", en: "Achievements", es: "Logros", it: "Imprese",
+  pt: "Conquistas", de: "Erfolge", ja: "実績", zh: "成就",
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const title = ACHV_TITLE[locale] ?? ACHV_TITLE.en;
+  return {
+    title: `${title} — moomz`,
+    robots: { index: false, follow: true },
+  };
+}
 
 const CATEGORY_ORDER: AchCategory[] = [
   "voting", "streak", "loyalty", "creating", "performance", "rebel",
@@ -41,6 +49,13 @@ const STR: Record<Locale, PageStrings> = {
   de: { title: "Erfolge", tagline: "Schalte Erfolge frei und verdiene Coins.", unlocked: "freigeschaltet", next: "Nächstes", done: "Abgeschlossen ✓", noProfile: "Sichere dir dein @, um Coins zu verdienen und Erfolge zu behalten.", cta: "Mein @ sichern" },
   ja: { title: "実績", tagline: "プレイして実績を解除し、コインを獲得しよう。", unlocked: "解除済み", next: "次", done: "達成 ✓", noProfile: "@を登録してコインを獲得し、実績を保存しよう。", cta: "@を登録" },
   zh: { title: "成就", tagline: "边玩边解锁成就，赚取金币。", unlocked: "已解锁", next: "下一个", done: "已完成 ✓", noProfile: "注册你的 @ 来赚取金币并保存成就。", cta: "注册我的 @" },
+};
+
+// "Shop" link label in the coin summary strip — no key in shared dict.
+const SHOP_LINK: Record<Locale, string> = {
+  fr: "🛍️ Boutique →", en: "🛍️ Shop →", es: "🛍️ Tienda →",
+  it: "🛍️ Negozio →", pt: "🛍️ Loja →", de: "🛍️ Shop →",
+  ja: "🛍️ ショップ →", zh: "🛍️ 商店 →",
 };
 
 // achievements of one family, ascending by threshold.
@@ -121,7 +136,7 @@ export default async function HautFaitsPage() {
             href="/boutique"
             className="glass rounded-2xl px-4 py-3 flex items-center font-semibold text-white hover:bg-white/10 transition"
           >
-            🛍️ Boutique →
+            {SHOP_LINK[locale] ?? SHOP_LINK.en}
           </Link>
         </div>
       </header>

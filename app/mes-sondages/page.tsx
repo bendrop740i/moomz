@@ -5,15 +5,41 @@ import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { emojisFor } from "@/lib/emojis";
 import { getLocale } from "@/lib/i18n-server";
-import { t } from "@/lib/i18n";
+import { t, type Locale } from "@/lib/i18n";
 import { getMyProfile } from "@/lib/profile";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: "Mes sondages — moomz",
-  robots: { index: false, follow: false },
+type PollsMeta = { title: string };
+const POLLS_META: Record<Locale, PollsMeta> = {
+  fr: { title: "Mes sondages — moomz" },
+  en: { title: "My polls — moomz" },
+  es: { title: "Mis encuestas — moomz" },
+  it: { title: "I miei sondaggi — moomz" },
+  pt: { title: "As minhas enquetes — moomz" },
+  de: { title: "Meine Umfragen — moomz" },
+  ja: { title: "私の投票 — moomz" },
+  zh: { title: "我的投票 — moomz" },
 };
+
+// Inline copy for strings with no shared key
+type SondagesCopy = { editProfile: string; noUsernameHint: string; firstPollCta: string };
+const SONDAGES_COPY: Record<Locale, SondagesCopy> = {
+  fr: { editProfile: "Édite ton profil · moomz.com/", noUsernameHint: "Mini Linktree + tes polls sous moomz.com/toi", firstPollCta: "Créer mon premier moomz →" },
+  en: { editProfile: "Edit your profile · moomz.com/", noUsernameHint: "Mini Linktree + your polls at moomz.com/you", firstPollCta: "Create my first moomz →" },
+  es: { editProfile: "Edita tu perfil · moomz.com/", noUsernameHint: "Mini Linktree + tus encuestas en moomz.com/tú", firstPollCta: "Crear mi primera moomz →" },
+  it: { editProfile: "Modifica il tuo profilo · moomz.com/", noUsernameHint: "Mini Linktree + i tuoi sondaggi su moomz.com/tu", firstPollCta: "Crea il mio primo moomz →" },
+  pt: { editProfile: "Edita o teu perfil · moomz.com/", noUsernameHint: "Mini Linktree + as tuas enquetes em moomz.com/você", firstPollCta: "Criar a minha primeira moomz →" },
+  de: { editProfile: "Profil bearbeiten · moomz.com/", noUsernameHint: "Mini-Linktree + deine Umfragen unter moomz.com/du", firstPollCta: "Mein erstes moomz erstellen →" },
+  ja: { editProfile: "プロフィールを編集 · moomz.com/", noUsernameHint: "ミニLinktree + moomz.com/あなた に投票一覧", firstPollCta: "最初の moomz を作る →" },
+  zh: { editProfile: "编辑你的资料 · moomz.com/", noUsernameHint: "迷你Linktree + 你的投票在 moomz.com/你", firstPollCta: "创建我的第一个 moomz →" },
+};
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const m = POLLS_META[locale] ?? POLLS_META.en;
+  return { title: m.title, robots: { index: false, follow: false } };
+}
 
 type Row = {
   slug: string;
@@ -33,8 +59,9 @@ function timeAgo(iso: string): string {
 }
 
 export default async function MesSondagesPage() {
-  const locale = getLocale();
+  const locale = getLocale() as Locale;
   const tx = (k: string) => t(k, locale);
+  const sc = SONDAGES_COPY[locale] ?? SONDAGES_COPY.en;
   const slugs = readSlugHistory("moomz_created_slugs");
   const jar = cookies();
 
@@ -98,7 +125,7 @@ export default async function MesSondagesPage() {
                   @{myProfile.username}
                 </div>
                 <div className="text-xs text-white/40 truncate">
-                  Édite ton profil · moomz.com/{myProfile.username}
+                  {sc.editProfile}{myProfile.username}
                 </div>
               </>
             ) : (
@@ -107,7 +134,7 @@ export default async function MesSondagesPage() {
                   {tx("misc.reserveUsernameCta")}
                 </div>
                 <div className="text-xs text-white/40 truncate">
-                  Mini Linktree + tes polls sous moomz.com/toi
+                  {sc.noUsernameHint}
                 </div>
               </>
             )}
@@ -126,7 +153,7 @@ export default async function MesSondagesPage() {
             href="/"
             className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            Créer mon premier moomz →
+            {sc.firstPollCta}
           </Link>
         </div>
       ) : (

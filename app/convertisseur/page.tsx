@@ -16,20 +16,73 @@ import { STRINGS, pickString, type ToolLocale } from "./_strings";
 export const dynamic = "force-static";
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: "Convertisseur de devises — taux en direct EUR USD GBP JPY · moomz",
-  description:
-    "Convertisseur de devises gratuit : EUR, USD, GBP, JPY, CHF et 10 autres. Taux mis à jour toutes les heures, historique 30 jours, conversion instantanée.",
-  alternates: { canonical: "https://moomz.com/convertisseur" },
-  openGraph: {
-    title: "Convertisseur de devises — moomz",
-    description:
-      "Taux de change en direct pour les principales devises. Convertis EUR, USD, GBP, JPY et plus en quelques secondes.",
-    type: "website",
-    url: "https://moomz.com/convertisseur",
+const META_HUB: Record<ToolLocale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {
+  fr: {
+    title: "Convertisseur de devises — taux en direct EUR USD GBP JPY · moomz",
+    description: "Convertisseur de devises gratuit : EUR, USD, GBP, JPY, CHF et 10 autres. Taux mis à jour toutes les heures, historique 30 jours, conversion instantanée.",
+    ogTitle: "Convertisseur de devises — moomz",
+    ogDesc: "Taux de change en direct pour les principales devises. Convertis EUR, USD, GBP, JPY et plus en quelques secondes.",
   },
-  twitter: { card: "summary_large_image" },
+  en: {
+    title: "Currency converter — live EUR USD GBP JPY rates · moomz",
+    description: "Free currency converter: EUR, USD, GBP, JPY, CHF and 10 more. Rates updated hourly, 30-day history, instant conversion.",
+    ogTitle: "Currency converter — moomz",
+    ogDesc: "Live exchange rates for major currencies. Convert EUR, USD, GBP, JPY and more in seconds.",
+  },
+  es: {
+    title: "Conversor de divisas — tasas en directo EUR USD GBP JPY · moomz",
+    description: "Conversor de divisas gratuito: EUR, USD, GBP, JPY, CHF y 10 más. Tasas actualizadas cada hora, historial 30 días, conversión instantánea.",
+    ogTitle: "Conversor de divisas — moomz",
+    ogDesc: "Tasas de cambio en directo para las principales divisas. Convierte EUR, USD, GBP, JPY y más en segundos.",
+  },
+  it: {
+    title: "Convertitore di valute — tassi live EUR USD GBP JPY · moomz",
+    description: "Convertitore di valute gratuito: EUR, USD, GBP, JPY, CHF e altri 10. Tassi aggiornati ogni ora, storico 30 giorni, conversione istantanea.",
+    ogTitle: "Convertitore di valute — moomz",
+    ogDesc: "Tassi di cambio in tempo reale per le principali valute. Converti EUR, USD, GBP, JPY e altro in secondi.",
+  },
+  pt: {
+    title: "Conversor de moedas — taxas ao vivo EUR USD GBP JPY · moomz",
+    description: "Conversor de moedas gratuito: EUR, USD, GBP, JPY, CHF e mais 10. Taxas atualizadas a cada hora, histórico 30 dias, conversão instantânea.",
+    ogTitle: "Conversor de moedas — moomz",
+    ogDesc: "Taxas de câmbio ao vivo para as principais moedas. Converta EUR, USD, GBP, JPY e mais em segundos.",
+  },
+  de: {
+    title: "Währungsrechner — Live-Kurse EUR USD GBP JPY · moomz",
+    description: "Kostenloser Währungsrechner: EUR, USD, GBP, JPY, CHF und 10 weitere. Stündlich aktualisierte Kurse, 30-Tage-Verlauf, Sofortumrechnung.",
+    ogTitle: "Währungsrechner — moomz",
+    ogDesc: "Live-Wechselkurse für die wichtigsten Währungen. Rechne EUR, USD, GBP, JPY und mehr in Sekunden um.",
+  },
+  ja: {
+    title: "通貨換算ツール — EUR USD GBP JPYリアルタイムレート · moomz",
+    description: "無料の通貨換算ツール：EUR、USD、GBP、JPY、CHFなど15通貨。毎時更新、30日間履歴、即時換算。",
+    ogTitle: "通貨換算ツール — moomz",
+    ogDesc: "主要通貨のリアルタイム為替レート。EUR、USD、GBP、JPYなどを数秒で換算。",
+  },
+  zh: {
+    title: "货币换算器 — 实时汇率 EUR USD GBP JPY · moomz",
+    description: "免费货币换算器：EUR、USD、GBP、JPY、CHF 等15种货币。每小时更新，30天历史，即时换算。",
+    ogTitle: "货币换算器 — moomz",
+    ogDesc: "主要货币实时汇率。几秒内换算 EUR、USD、GBP、JPY 等。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = (getLocale() as ToolLocale) ?? "fr";
+  const m = META_HUB[locale] ?? META_HUB.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/convertisseur" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDesc,
+      type: "website",
+      url: "https://moomz.com/convertisseur",
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 // We fetch live rates for the first FEATURED slugs only — keeps the hub fast
 // and stays well within the Frankfurter rate limits.

@@ -5,17 +5,42 @@ import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { emojisFor } from "@/lib/emojis";
 import { getLocale } from "@/lib/i18n-server";
-import { t } from "@/lib/i18n";
+import { t, type Locale } from "@/lib/i18n";
 import { getMyProfile } from "@/lib/profile";
 import { getServerSupabase } from "@/lib/supabase-server";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: "Mes votes — moomz",
-  description: "Historique privé de tes votes sur moomz.",
-  robots: { index: false, follow: false },
+type VotesMeta = { title: string; description: string };
+const VOTES_META: Record<Locale, VotesMeta> = {
+  fr: { title: "Mes votes — moomz", description: "Historique privé de tes votes sur moomz." },
+  en: { title: "My votes — moomz", description: "Your private vote history on moomz." },
+  es: { title: "Mis votos — moomz", description: "Historial privado de tus votos en moomz." },
+  it: { title: "I miei voti — moomz", description: "La tua cronologia privata dei voti su moomz." },
+  pt: { title: "Os meus votos — moomz", description: "O teu histórico privado de votos no moomz." },
+  de: { title: "Meine Abstimmungen — moomz", description: "Dein privater Abstimmungsverlauf auf moomz." },
+  ja: { title: "私の投票 — moomz", description: "moomz での投票履歴（非公開）。" },
+  zh: { title: "我的投票 — moomz", description: "你在 moomz 上的私人投票历史。" },
 };
+
+// Inline strings for the account row (no shared key)
+type VotesCopy = { savedViaEmail: string; securePrompt: string; keepPoints: string; discoverCta: string };
+const VOTES_COPY: Record<Locale, VotesCopy> = {
+  fr: { savedViaEmail: "Compte sauvegardé via email", securePrompt: "Sécurise ton compte avec ton email →", keepPoints: "Garde tes points, ton pseudo et tes sondages.", discoverCta: "— découvrir les sondages tendance →" },
+  en: { savedViaEmail: "Account saved via email", securePrompt: "Secure your account with your email →", keepPoints: "Keep your points, username and polls.", discoverCta: "— discover trending polls →" },
+  es: { savedViaEmail: "Cuenta guardada vía email", securePrompt: "Asegura tu cuenta con tu email →", keepPoints: "Guarda tus puntos, nombre de usuario y encuestas.", discoverCta: "— descubrir encuestas tendencia →" },
+  it: { savedViaEmail: "Account salvato via email", securePrompt: "Metti al sicuro il tuo account con l'email →", keepPoints: "Tieni i tuoi punti, username e sondaggi.", discoverCta: "— scopri sondaggi di tendenza →" },
+  pt: { savedViaEmail: "Conta guardada via email", securePrompt: "Protege a tua conta com o teu email →", keepPoints: "Guarda os teus pontos, nome de utilizador e enquetes.", discoverCta: "— descobrir enquetes em alta →" },
+  de: { savedViaEmail: "Konto per E-Mail gespeichert", securePrompt: "Sichere dein Konto mit deiner E-Mail →", keepPoints: "Behalte deine Punkte, deinen Benutzernamen und Umfragen.", discoverCta: "— Trend-Umfragen entdecken →" },
+  ja: { savedViaEmail: "メールでアカウント保存済み", securePrompt: "メールでアカウントを保護 →", keepPoints: "ポイント、ユーザー名、投票を保持。", discoverCta: "— トレンド投票を探す →" },
+  zh: { savedViaEmail: "账号已通过邮箱保存", securePrompt: "用邮箱保护你的账号 →", keepPoints: "保留你的积分、用户名和投票。", discoverCta: "— 发现热门投票 →" },
+};
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const m = VOTES_META[locale] ?? VOTES_META.en;
+  return { title: m.title, description: m.description, robots: { index: false, follow: false } };
+}
 
 type StreakCookie = { pts: number; cur: number; top: number; ts: number };
 
@@ -37,8 +62,9 @@ type Row = {
 };
 
 export default async function MesVotesPage() {
-  const locale = getLocale();
+  const locale = getLocale() as Locale;
   const tx = (k: string) => t(k, locale);
+  const vc = VOTES_COPY[locale] ?? VOTES_COPY.en;
   const slugs = readSlugHistory("moomz_voted_slugs");
   const streak = readStreakCookie();
 
@@ -121,16 +147,14 @@ export default async function MesVotesPage() {
               <>
                 <div className="font-semibold text-white truncate">@{myProfile.username}</div>
                 <div className="text-white/40 text-xs truncate">
-                  {auth.user
-                    ? "Compte sauvegardé via email"
-                    : "Sécurise ton compte avec ton email →"}
+                  {auth.user ? vc.savedViaEmail : vc.securePrompt}
                 </div>
               </>
             ) : (
               <>
                 <div className="font-semibold text-white truncate">{tx("auth.cta.connect")}</div>
                 <div className="text-white/40 text-xs truncate">
-                  Garde tes points, ton pseudo et tes sondages.
+                  {vc.keepPoints}
                 </div>
               </>
             )}
@@ -147,10 +171,9 @@ export default async function MesVotesPage() {
           </p>
           <Link
             href="/discover"
-            aria-label="Découvrir des sondages tendance et voter sur moomz"
             className="inline-flex items-center justify-center min-h-[48px] rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-3 px-6 sm:px-7 text-base hover:scale-[1.02] active:scale-[0.98] transition shadow-xl shadow-pink-500/40"
           >
-            {tx("votes.emptyCta")} — découvrir les sondages tendance →
+            {tx("votes.emptyCta")}{vc.discoverCta}
           </Link>
         </div>
       ) : (
@@ -161,7 +184,6 @@ export default async function MesVotesPage() {
               <Link
                 key={p.slug}
                 href={`/${p.slug}`}
-                aria-label={`Revoir le sondage : ${p.question}`}
                 title={p.question}
                 className="glass block rounded-xl px-3 py-2.5 min-h-[60px] hover:bg-white/[0.08] hover:border-pink-400/30 transition group card-in"
                 style={{ ["--i" as string]: idx }}

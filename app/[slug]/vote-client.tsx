@@ -10,6 +10,128 @@ import AnimatedNumber from "../animated-number";
 import { useT, useLocale } from "../locale-context";
 import { trackEvent } from "@/lib/analytics";
 import { getViralCopy, pickSuggestions, suggestionHref } from "@/lib/viral-copy";
+import type { Locale } from "@/lib/i18n";
+
+type VoteCopy = {
+  homeAriaLabel: string;
+  resultsAriaLabel: (total: number) => string;
+  voteForAriaLabel: (opt: string, pct: number) => string;
+  myVoteLabel: string;
+  totalVotes: (n: number) => string;
+  refreshAriaLabel: string;
+  refreshLabel: string;
+  voteErrGeneric: string;
+  revealRebel: (pct: number) => string;
+  revealMajority: (pct: number) => string;
+  revealShared: (pct: number) => string;
+};
+
+const VOTE_COPY: Record<Locale, VoteCopy> = {
+  fr: {
+    homeAriaLabel: "moomz, retour à l'accueil",
+    resultsAriaLabel: (n) => `Résultats du sondage, ${n} vote${n > 1 ? "s" : ""} au total`,
+    voteForAriaLabel: (opt, pct) => `Voter pour: ${opt}, actuellement ${pct}%`,
+    myVoteLabel: "· toi",
+    totalVotes: (n) => `${n} vote${n > 1 ? "s" : ""} au total`,
+    refreshAriaLabel: "Rafraîchir les résultats du sondage",
+    refreshLabel: "⟳ rafraîchir",
+    voteErrGeneric: "Erreur",
+    revealRebel: (pct) => `t'es dans les ${pct}%`,
+    revealMajority: (pct) => `avec la majorité · ${pct}%`,
+    revealShared: (pct) => `partagé · ${pct}%`,
+  },
+  en: {
+    homeAriaLabel: "moomz, back to home",
+    resultsAriaLabel: (n) => `Poll results, ${n} vote${n > 1 ? "s" : ""} total`,
+    voteForAriaLabel: (opt, pct) => `Vote for: ${opt}, currently ${pct}%`,
+    myVoteLabel: "· you",
+    totalVotes: (n) => `${n} vote${n > 1 ? "s" : ""} total`,
+    refreshAriaLabel: "Refresh poll results",
+    refreshLabel: "⟳ refresh",
+    voteErrGeneric: "Error",
+    revealRebel: (pct) => `you're in the ${pct}%`,
+    revealMajority: (pct) => `with the majority · ${pct}%`,
+    revealShared: (pct) => `split · ${pct}%`,
+  },
+  es: {
+    homeAriaLabel: "moomz, volver al inicio",
+    resultsAriaLabel: (n) => `Resultados, ${n} voto${n > 1 ? "s" : ""} en total`,
+    voteForAriaLabel: (opt, pct) => `Votar por: ${opt}, actualmente ${pct}%`,
+    myVoteLabel: "· tú",
+    totalVotes: (n) => `${n} voto${n > 1 ? "s" : ""} en total`,
+    refreshAriaLabel: "Actualizar resultados",
+    refreshLabel: "⟳ actualizar",
+    voteErrGeneric: "Error",
+    revealRebel: (pct) => `estás en el ${pct}%`,
+    revealMajority: (pct) => `con la mayoría · ${pct}%`,
+    revealShared: (pct) => `empatado · ${pct}%`,
+  },
+  it: {
+    homeAriaLabel: "moomz, torna alla home",
+    resultsAriaLabel: (n) => `Risultati, ${n} voto${n > 1 ? "i" : ""} in totale`,
+    voteForAriaLabel: (opt, pct) => `Vota per: ${opt}, attualmente ${pct}%`,
+    myVoteLabel: "· tu",
+    totalVotes: (n) => `${n} voto${n > 1 ? "i" : ""} in totale`,
+    refreshAriaLabel: "Aggiorna i risultati",
+    refreshLabel: "⟳ aggiorna",
+    voteErrGeneric: "Errore",
+    revealRebel: (pct) => `sei nel ${pct}%`,
+    revealMajority: (pct) => `con la maggioranza · ${pct}%`,
+    revealShared: (pct) => `diviso · ${pct}%`,
+  },
+  pt: {
+    homeAriaLabel: "moomz, voltar ao início",
+    resultsAriaLabel: (n) => `Resultados, ${n} voto${n > 1 ? "s" : ""} no total`,
+    voteForAriaLabel: (opt, pct) => `Votar em: ${opt}, atualmente ${pct}%`,
+    myVoteLabel: "· você",
+    totalVotes: (n) => `${n} voto${n > 1 ? "s" : ""} no total`,
+    refreshAriaLabel: "Atualizar resultados",
+    refreshLabel: "⟳ atualizar",
+    voteErrGeneric: "Erro",
+    revealRebel: (pct) => `você está nos ${pct}%`,
+    revealMajority: (pct) => `com a maioria · ${pct}%`,
+    revealShared: (pct) => `dividido · ${pct}%`,
+  },
+  de: {
+    homeAriaLabel: "moomz, zurück zur Startseite",
+    resultsAriaLabel: (n) => `Umfrageergebnisse, ${n} Stimme${n > 1 ? "n" : ""} insgesamt`,
+    voteForAriaLabel: (opt, pct) => `Abstimmen für: ${opt}, aktuell ${pct}%`,
+    myVoteLabel: "· du",
+    totalVotes: (n) => `${n} Stimme${n > 1 ? "n" : ""} insgesamt`,
+    refreshAriaLabel: "Ergebnisse aktualisieren",
+    refreshLabel: "⟳ aktualisieren",
+    voteErrGeneric: "Fehler",
+    revealRebel: (pct) => `du bist in den ${pct}%`,
+    revealMajority: (pct) => `mit der Mehrheit · ${pct}%`,
+    revealShared: (pct) => `geteilt · ${pct}%`,
+  },
+  ja: {
+    homeAriaLabel: "moomz、ホームに戻る",
+    resultsAriaLabel: (n) => `投票結果、合計 ${n} 票`,
+    voteForAriaLabel: (opt, pct) => `投票する: ${opt}、現在 ${pct}%`,
+    myVoteLabel: "· あなた",
+    totalVotes: (n) => `合計 ${n} 票`,
+    refreshAriaLabel: "結果を更新",
+    refreshLabel: "⟳ 更新",
+    voteErrGeneric: "エラー",
+    revealRebel: (pct) => `あなたは ${pct}% の少数派`,
+    revealMajority: (pct) => `多数派と同じ · ${pct}%`,
+    revealShared: (pct) => `拮抗中 · ${pct}%`,
+  },
+  zh: {
+    homeAriaLabel: "moomz，返回首页",
+    resultsAriaLabel: (n) => `投票结果，共 ${n} 票`,
+    voteForAriaLabel: (opt, pct) => `投票给：${opt}，当前 ${pct}%`,
+    myVoteLabel: "· 你",
+    totalVotes: (n) => `共 ${n} 票`,
+    refreshAriaLabel: "刷新结果",
+    refreshLabel: "⟳ 刷新",
+    voteErrGeneric: "出错了",
+    revealRebel: (pct) => `你在 ${pct}% 少数派`,
+    revealMajority: (pct) => `与多数人一致 · ${pct}%`,
+    revealShared: (pct) => `势均力敌 · ${pct}%`,
+  },
+};
 
 // Same vote-flow stylesheet as PollCard. Inject once into <head>; the dedupe
 // guard means we don't re-add it if PollCard already mounted it elsewhere.
@@ -102,6 +224,7 @@ export default function VoteClient({
   const pal = paletteFor(slug);
   const locale = useLocale();
   const vc = getViralCopy(locale);
+  const vc2 = VOTE_COPY[locale as Locale] ?? VOTE_COPY.en;
   const suggestions = useMemo(() => pickSuggestions(locale, 3), [locale]);
 
   useEffect(() => {
@@ -219,7 +342,7 @@ export default function VoteClient({
           );
         }
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Erreur");
+        alert(e instanceof Error ? e.message : vc2.voteErrGeneric);
         setVoted(null);
         setCounts(initialCounts);
         setTotal(initialTotal);
@@ -320,7 +443,7 @@ export default function VoteClient({
       <header className="text-center">
         <Link
           href="/"
-          aria-label="moomz, retour à l'accueil"
+          aria-label={vc2.homeAriaLabel}
           className="inline-block text-3xl font-bold tracking-tighter bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent"
         >
           moomz
@@ -340,7 +463,7 @@ export default function VoteClient({
           role={showResults ? "status" : undefined}
           aria-live={showResults ? "polite" : undefined}
           aria-atomic="false"
-          aria-label={showResults ? `Résultats du sondage, ${total} vote${total > 1 ? "s" : ""} au total` : undefined}
+          aria-label={showResults ? vc2.resultsAriaLabel(total) : undefined}
         >
           {options.map((opt, i) => {
             const c = counts[i] ?? 0;
@@ -354,7 +477,7 @@ export default function VoteClient({
                   key={i}
                   onClick={() => vote(i)}
                   disabled={pending}
-                  aria-label={`Voter pour: ${opt}, actuellement ${pct}%`}
+                  aria-label={vc2.voteForAriaLabel(opt, pct)}
                   className="w-full text-left rounded-2xl border-2 border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.97] transition px-3 sm:px-4 py-3.5 sm:py-4 flex items-center gap-3 disabled:opacity-50 min-h-[56px]"
                 >
                   <span
@@ -378,7 +501,7 @@ export default function VoteClient({
                 // wipe the CSS transition and snap the bar to its new width.
                 key={i}
                 role="group"
-                aria-label={`${opt}${isMine ? " (ton vote)" : ""}: ${pct}%, ${c} vote${c > 1 ? "s" : ""}`}
+                aria-label={`${opt}${isMine ? ` (${vc2.myVoteLabel.replace("· ", "")})` : ""}: ${pct}%, ${c} vote${c > 1 ? "s" : ""}`}
                 className={`relative overflow-hidden rounded-2xl border-2 ${
                   isMine ? "border-pink-400/60" : "border-white/10"
                 } bg-white/5 px-3 sm:px-4 py-3.5 sm:py-4 ${isMine ? "pop" : ""}`}
@@ -405,7 +528,7 @@ export default function VoteClient({
                       {opt}
                       {isMine && (
                         <span className="ml-2 text-pink-300 text-xs uppercase tracking-wide">
-                          · toi
+                          {vc2.myVoteLabel}
                         </span>
                       )}
                     </span>
@@ -434,11 +557,11 @@ export default function VoteClient({
             }`}
           >
             {reveal.isRebel ? (
-              <>🌶️ <b>REBEL</b> · t'es dans les {reveal.userPct}%</>
+              <>🌶️ <b>REBEL</b> · {vc2.revealRebel(reveal.userPct)}</>
             ) : reveal.isMajority ? (
-              <>✅ avec la majorité · {reveal.userPct}%</>
+              <>✅ {vc2.revealMajority(reveal.userPct)}</>
             ) : (
-              <>👀 partagé · {reveal.userPct}%</>
+              <>👀 {vc2.revealShared(reveal.userPct)}</>
             )}
           </div>
         )}
@@ -446,7 +569,7 @@ export default function VoteClient({
         {showResults && (
           <div className="flex items-center justify-between text-sm text-white/50">
             <span>
-              <AnimatedNumber value={total} /> vote{total > 1 ? "s" : ""} au total
+              <AnimatedNumber value={total} /> {vc2.totalVotes(total).replace(/^\d+ /, "")}
             </span>
             <span className="flex items-center gap-2">
               {isLive ? (
@@ -461,10 +584,10 @@ export default function VoteClient({
                 <button
                   onClick={refresh}
                   disabled={pending}
-                  aria-label="Rafraîchir les résultats du sondage"
+                  aria-label={vc2.refreshAriaLabel}
                   className="hover:text-white transition disabled:opacity-50"
                 >
-                  ⟳ rafraîchir
+                  {vc2.refreshLabel}
                 </button>
               )}
             </span>

@@ -4,12 +4,50 @@ import SeoHubView from "@/app/_seo/seo-hub";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/seo/types";
 
-export const metadata: Metadata = {
-  title: "Blog moomz : sondage, vibe-check, culture Gen Z",
-  description:
-    "Analyses et tendances : pourquoi les sondages cartonnent, vibe-check, culture Gen Z, dating poll, sondage anonyme.",
-  alternates: { canonical: "https://moomz.com/blog" },
+const BLOG_META: Record<Locale, { title: string; description: string }> = {
+  fr: {
+    title: "Blog moomz : sondage, vibe-check, culture Gen Z",
+    description: "Analyses et tendances : pourquoi les sondages cartonnent, vibe-check, culture Gen Z, dating poll, sondage anonyme.",
+  },
+  en: {
+    title: "moomz blog: polls, vibe-check, Gen Z culture",
+    description: "Trends and analysis: why polls go viral, vibe-checks, Gen Z culture, dating polls, anonymous polls.",
+  },
+  es: {
+    title: "Blog moomz: encuestas, vibe-check, cultura Gen Z",
+    description: "Tendencias y análisis: por qué las encuestas se viralizan, vibe-check, cultura Gen Z, encuestas de citas, encuestas anónimas.",
+  },
+  it: {
+    title: "Blog moomz: sondaggi, vibe-check, cultura Gen Z",
+    description: "Tendenze e analisi: perché i sondaggi diventano virali, vibe-check, cultura Gen Z, sondaggi di appuntamenti, sondaggi anonimi.",
+  },
+  pt: {
+    title: "Blog moomz: enquetes, vibe-check, cultura Gen Z",
+    description: "Tendências e análises: por que enquetes viralizam, vibe-check, cultura Gen Z, enquetes de relacionamento, enquetes anônimas.",
+  },
+  de: {
+    title: "moomz-Blog: Umfragen, Vibe-Check, Gen-Z-Kultur",
+    description: "Trends und Analysen: Warum Umfragen viral gehen, Vibe-Checks, Gen-Z-Kultur, Dating-Umfragen, anonyme Umfragen.",
+  },
+  ja: {
+    title: "moomz ブログ：投票、バイブチェック、Z世代カルチャー",
+    description: "トレンドと分析：投票がバズる理由、バイブチェック、Z世代カルチャー、匿名投票。",
+  },
+  zh: {
+    title: "moomz 博客：投票、氛围测试、Z世代文化",
+    description: "趋势与分析：投票为何走红、氛围测试、Z世代文化、匿名投票。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const m = BLOG_META[locale] ?? BLOG_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/blog" },
+  };
+}
 
 // Hub chrome (title + intro) localized for every supported visitor locale.
 // NOTE: the posts themselves only exist in FR/EN — this only translates the

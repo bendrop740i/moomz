@@ -7,6 +7,75 @@ import {
   getFormationByTheme,
 } from "@/lib/formation/loader";
 import { THEME_META } from "@/lib/formation/types";
+import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
+
+type FormationItemCopy = {
+  applyNow: string;
+  faq: string;
+  inTheme: (label: string) => string;
+  backAll: string;
+  createBtn: string;
+};
+
+const COPY: Record<Locale, FormationItemCopy> = {
+  fr: {
+    applyNow: "À appliquer maintenant",
+    faq: "Questions fréquentes",
+    inTheme: (label) => `Dans ${label}`,
+    backAll: "← Toute la formation",
+    createBtn: "Créer un moomz",
+  },
+  en: {
+    applyNow: "Apply it now",
+    faq: "Frequently asked",
+    inTheme: (label) => `More in ${label}`,
+    backAll: "← All modules",
+    createBtn: "Create a moomz",
+  },
+  es: {
+    applyNow: "Aplícalo ahora",
+    faq: "Preguntas frecuentes",
+    inTheme: (label) => `Más en ${label}`,
+    backAll: "← Todos los módulos",
+    createBtn: "Crear un moomz",
+  },
+  it: {
+    applyNow: "Applicalo adesso",
+    faq: "Domande frequenti",
+    inTheme: (label) => `Altro in ${label}`,
+    backAll: "← Tutti i moduli",
+    createBtn: "Crea un moomz",
+  },
+  pt: {
+    applyNow: "Aplique agora",
+    faq: "Perguntas frequentes",
+    inTheme: (label) => `Mais em ${label}`,
+    backAll: "← Todos os módulos",
+    createBtn: "Criar um moomz",
+  },
+  de: {
+    applyNow: "Jetzt anwenden",
+    faq: "Häufige Fragen",
+    inTheme: (label) => `Mehr in ${label}`,
+    backAll: "← Alle Module",
+    createBtn: "moomz erstellen",
+  },
+  ja: {
+    applyNow: "今すぐ実践しよう",
+    faq: "よくある質問",
+    inTheme: (label) => `${label}のモジュール`,
+    backAll: "← 全モジュール",
+    createBtn: "moomzを作る",
+  },
+  zh: {
+    applyNow: "现在就行动",
+    faq: "常见问题",
+    inTheme: (label) => `${label}中的更多内容`,
+    backAll: "← 全部模块",
+    createBtn: "创建 moomz",
+  },
+};
 
 export const revalidate = 3600;
 
@@ -32,11 +101,13 @@ export function generateMetadata({
   };
 }
 
-export default function FormationItemPage({
+export default async function FormationItemPage({
   params,
 }: {
   params: { slug: string };
 }) {
+  const locale = getLocale();
+  const c = COPY[locale] ?? COPY.en;
   const it = getFormationBySlug(params.slug);
   if (!it) notFound();
   const meta = THEME_META[it.theme];
@@ -114,7 +185,7 @@ export default function FormationItemPage({
       {it.steps.length > 0 && (
         <section className="glass rounded-2xl p-4 sm:p-5 space-y-2.5">
           <h2 className="text-sm font-bold uppercase tracking-wider text-pink-300">
-            À appliquer maintenant
+            {c.applyNow}
           </h2>
           <ul className="space-y-2">
             {it.steps.map((step, i) => (
@@ -134,7 +205,7 @@ export default function FormationItemPage({
 
       {it.faq && it.faq.length > 0 && (
         <section className="space-y-2">
-          <h2 className="text-lg font-bold text-white">Questions fréquentes</h2>
+          <h2 className="text-lg font-bold text-white">{c.faq}</h2>
           {it.faq.map((f, i) => (
             <details key={i} className="glass rounded-xl p-3.5">
               <summary className="cursor-pointer text-sm font-semibold text-white/85">
@@ -149,7 +220,7 @@ export default function FormationItemPage({
       {related.length > 0 && (
         <section className="space-y-2.5">
           <h2 className="text-sm font-bold uppercase tracking-wider text-white/40">
-            Dans {meta.label}
+            {c.inTheme(meta.label)}
           </h2>
           <div className="grid gap-2 sm:grid-cols-2">
             {related.map((r) => (
@@ -175,13 +246,13 @@ export default function FormationItemPage({
           href="/formation"
           className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/70 transition hover:bg-white/10 hover:text-white"
         >
-          ← Toute la formation
+          {c.backAll}
         </Link>
         <Link
           href="/create"
           className="rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-pink-500/30 transition hover:scale-[1.02]"
         >
-          Créer un moomz
+          {c.createBtn}
         </Link>
       </div>
     </article>

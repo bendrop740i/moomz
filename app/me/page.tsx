@@ -17,16 +17,16 @@ export const dynamic = "force-dynamic";
 // already mixes t() keys with an inline table; we extend that table here).
 const DASH: Record<
   Locale,
-  { achievements: string; coins: string; stats: string; viewProfile: string }
+  { achievements: string; coins: string; stats: string; viewProfile: string; urlPublic: string; noUsername: string }
 > = {
-  fr: { achievements: "Haut faits", coins: "Coins", stats: "Ton tableau de bord", viewProfile: "Voir ma page publique" },
-  en: { achievements: "Achievements", coins: "Coins", stats: "Your dashboard", viewProfile: "View my public page" },
-  es: { achievements: "Logros", coins: "Coins", stats: "Tu panel", viewProfile: "Ver mi página pública" },
-  it: { achievements: "Imprese", coins: "Coins", stats: "La tua dashboard", viewProfile: "Vedi la mia pagina pubblica" },
-  pt: { achievements: "Conquistas", coins: "Coins", stats: "Seu painel", viewProfile: "Ver minha página pública" },
-  de: { achievements: "Erfolge", coins: "Coins", stats: "Dein Dashboard", viewProfile: "Meine öffentliche Seite ansehen" },
-  ja: { achievements: "実績", coins: "コイン", stats: "ダッシュボード", viewProfile: "公開ページを見る" },
-  zh: { achievements: "成就", coins: "金币", stats: "你的面板", viewProfile: "查看我的公开页面" },
+  fr: { achievements: "Haut faits", coins: "Coins", stats: "Ton tableau de bord", viewProfile: "Voir ma page publique", urlPublic: "Ton URL publique : moomz.com/", noUsername: "Choisis un username pour avoir ta page publique moomz.com/toi" },
+  en: { achievements: "Achievements", coins: "Coins", stats: "Your dashboard", viewProfile: "View my public page", urlPublic: "Your public URL: moomz.com/", noUsername: "Pick a username to get your public page moomz.com/you" },
+  es: { achievements: "Logros", coins: "Coins", stats: "Tu panel", viewProfile: "Ver mi página pública", urlPublic: "Tu URL pública: moomz.com/", noUsername: "Elige un nombre de usuario para tener tu página pública moomz.com/tú" },
+  it: { achievements: "Imprese", coins: "Coins", stats: "La tua dashboard", viewProfile: "Vedi la mia pagina pubblica", urlPublic: "La tua URL pubblica: moomz.com/", noUsername: "Scegli un username per avere la tua pagina pubblica moomz.com/tu" },
+  pt: { achievements: "Conquistas", coins: "Coins", stats: "Seu painel", viewProfile: "Ver minha página pública", urlPublic: "Sua URL pública: moomz.com/", noUsername: "Escolha um nome de utilizador para ter a sua página pública moomz.com/você" },
+  de: { achievements: "Erfolge", coins: "Coins", stats: "Dein Dashboard", viewProfile: "Meine öffentliche Seite ansehen", urlPublic: "Deine öffentliche URL: moomz.com/", noUsername: "Wähle einen Benutzernamen für deine öffentliche Seite moomz.com/du" },
+  ja: { achievements: "実績", coins: "コイン", stats: "ダッシュボード", viewProfile: "公開ページを見る", urlPublic: "あなたの公開URL: moomz.com/", noUsername: "ユーザー名を選んで公開ページ moomz.com/あなた を取得しよう" },
+  zh: { achievements: "成就", coins: "金币", stats: "你的面板", viewProfile: "查看我的公开页面", urlPublic: "你的公开链接：moomz.com/", noUsername: "选择一个用户名来获取你的公开页面 moomz.com/你" },
 };
 
 type Stat = {
@@ -146,8 +146,8 @@ export default async function MePage() {
         </h1>
         <p className="text-white/50 text-xs sm:text-sm">
           {profile
-            ? `Ton URL publique : moomz.com/${profile.username}`
-            : "Choisis un username pour avoir ta page publique moomz.com/toi"}
+            ? `${dash.urlPublic}${profile.username}`
+            : dash.noUsername}
         </p>
       </header>
 

@@ -27,9 +27,9 @@ export default function AdSlot({ className }: { className?: string }) {
   if (!CLIENT || !SLOT) return null;
 
   return (
-    <aside className={`my-6 overflow-hidden ${className ?? ""}`} aria-label="Publicité">
+    <aside className={`my-6 overflow-hidden ${className ?? ""}`} aria-label="Ad">
       <div className="text-[10px] uppercase tracking-widest text-white/25 mb-1 text-center">
-        pub
+        ad
       </div>
       <ins
         className="adsbygoogle"

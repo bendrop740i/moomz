@@ -5,12 +5,50 @@ import type { Locale } from "@/lib/seo/types";
 import { pageUrl } from "@/lib/seo/types";
 import { getLocale } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "Read — WTF threads, viral stories, plot twists | moomz",
-  description:
-    "Histoires WTF, threads viraux, twist incroyables, drames Reddit, mystères. Lis et vote sur ce que tu aurais fait. 8 langues.",
-  alternates: { canonical: "https://moomz.com/read" },
+const READ_META: Record<Locale, { title: string; description: string }> = {
+  fr: {
+    title: "Read — threads WTF, histoires virales, plot twists | moomz",
+    description: "Histoires WTF, threads viraux, twists incroyables, drames Reddit, mystères. Lis et vote sur ce que tu aurais fait. 8 langues.",
+  },
+  en: {
+    title: "Read — WTF threads, viral stories, plot twists | moomz",
+    description: "WTF threads, viral stories, incredible plot twists, Reddit dramas, mysteries. Read and vote on what you'd have done. 8 languages.",
+  },
+  es: {
+    title: "Read — hilos WTF, historias virales, giros inesperados | moomz",
+    description: "Hilos WTF, historias virales, giros increíbles, dramas de Reddit, misterios. Lee y vota qué habrías hecho. 8 idiomas.",
+  },
+  it: {
+    title: "Read — thread WTF, storie virali, colpi di scena | moomz",
+    description: "Thread WTF, storie virali, colpi di scena incredibili, drammi Reddit, misteri. Leggi e vota cosa avresti fatto. 8 lingue.",
+  },
+  pt: {
+    title: "Read — threads WTF, histórias virais, reviravoltas | moomz",
+    description: "Threads WTF, histórias virais, reviravoltas incríveis, dramas do Reddit, mistérios. Leia e vote no que você teria feito. 8 idiomas.",
+  },
+  de: {
+    title: "Read — WTF-Threads, virale Storys, Plot-Twists | moomz",
+    description: "WTF-Threads, virale Storys, unglaubliche Plot-Twists, Reddit-Dramen, Mysterien. Lies und stimm ab, was du getan hättest. 8 Sprachen.",
+  },
+  ja: {
+    title: "Read — WTFスレ、バズった話、どんでん返し | moomz",
+    description: "WTFスレ、バズった話、どんでん返し、Redditの修羅場、ミステリー。読んであなたならどうするか投票しよう。8言語対応。",
+  },
+  zh: {
+    title: "Read — WTF 帖子、爆款故事、神转折 | moomz",
+    description: "WTF 帖子、爆款故事、神转折、Reddit 狗血、悬疑。读完投票决定换作是你会怎么做。支持 8 种语言。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const m = READ_META[locale] ?? READ_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/read" },
+  };
+}
 
 const LANG_NAMES: Record<Locale, string> = {
   fr: "Français",

@@ -334,12 +334,50 @@ function getStrings(locale: Locale): Strings {
 // Metadata
 // ────────────────────────────────────────────────────────────────────────────
 
+type CityMetaFn = { title: (name: string, country: string, tz: string) => string; desc: (name: string, tz: string) => string };
+const CITY_META: Record<Locale, CityMetaFn> = {
+  fr: {
+    title: (n, c) => `Heure à ${n} (${c}) — horloge live · moomz`,
+    desc: (n, tz) => `Quelle heure est-il à ${n} ? Horloge en direct, fuseau ${tz}, décalage avec Paris, New York, Londres, Tokyo. Mis à jour à la seconde.`,
+  },
+  en: {
+    title: (n, c) => `Time in ${n} (${c}) — live clock · moomz`,
+    desc: (n, tz) => `What time is it in ${n}? Live clock, ${tz} timezone, offset from Paris, New York, London, Tokyo. Updated every second.`,
+  },
+  es: {
+    title: (n, c) => `Hora en ${n} (${c}) — reloj en vivo · moomz`,
+    desc: (n, tz) => `¿Qué hora es en ${n}? Reloj en vivo, zona ${tz}, diferencia con París, Nueva York, Londres, Tokio. Actualizado al segundo.`,
+  },
+  it: {
+    title: (n, c) => `Ora a ${n} (${c}) — orologio live · moomz`,
+    desc: (n, tz) => `Che ore sono a ${n}? Orologio live, fuso ${tz}, differenza con Parigi, New York, Londra, Tokyo. Aggiornato al secondo.`,
+  },
+  pt: {
+    title: (n, c) => `Horário em ${n} (${c}) — relógio ao vivo · moomz`,
+    desc: (n, tz) => `Que horas são em ${n}? Relógio ao vivo, fuso ${tz}, diferença com Paris, Nova York, Londres, Tóquio. Atualizado a cada segundo.`,
+  },
+  de: {
+    title: (n, c) => `Uhrzeit in ${n} (${c}) — Live-Uhr · moomz`,
+    desc: (n, tz) => `Wie spät ist es in ${n}? Live-Uhr, Zeitzone ${tz}, Unterschied zu Paris, New York, London, Tokio. Sekundengenau aktualisiert.`,
+  },
+  ja: {
+    title: (n, c) => `${n}（${c}）の時刻 — ライブ時計 · moomz`,
+    desc: (n, tz) => `${n}は今何時？ライブ時計、タイムゾーン${tz}、パリ・ニューヨーク・ロンドン・東京との時差。毎秒更新。`,
+  },
+  zh: {
+    title: (n, c) => `${n}（${c}）时间 — 实时时钟 · moomz`,
+    desc: (n, tz) => `${n}现在几点？实时时钟，时区${tz}，与巴黎、纽约、伦敦、东京的时差。每秒更新。`,
+  },
+};
+
 export function generateMetadata({ params }: { params: { city: string } }): Metadata {
   const city = findCity(params.city);
-  if (!city) return { title: "Ville introuvable — moomz" };
+  if (!city) return { title: "City not found — moomz" };
+  const locale = getLocale();
+  const m = CITY_META[locale] ?? CITY_META.en;
   const canonical = `https://moomz.com/heure/${city.slug}`;
-  const title = `Heure à ${city.name} (${city.country}) — horloge live · moomz`;
-  const description = `Quelle heure est-il à ${city.name} ? Horloge en direct, fuseau ${city.tz}, décalage avec Paris, New York, Londres, Tokyo. Mis à jour à la seconde.`;
+  const title = m.title(city.name, city.country, city.tz);
+  const description = m.desc(city.name, city.tz);
   return {
     title,
     description,
@@ -411,30 +449,39 @@ function fmtDiff(minutes: number, S: Strings, refName: string): string {
   return minutes > 0 ? S.diffAhead(label, refName) : S.diffBehind(label, refName);
 }
 
-function aboutTextFR(cityName: string, tz: string, offsetLabel: string): string {
-  const obs = tz.startsWith("Europe/")
-    ? "qui observe l'heure d'été (CEST) entre fin mars et fin octobre"
-    : tz === "Asia/Tokyo" || tz === "Asia/Shanghai" || tz === "Asia/Hong_Kong" || tz === "Asia/Singapore" || tz === "Asia/Seoul" || tz === "Asia/Bangkok" || tz === "Asia/Kolkata" || tz === "Asia/Dubai"
-      ? "sans changement d'heure été/hiver"
-      : tz.startsWith("America/")
-        ? "qui suit l'heure d'été nord-américaine (DST) entre mars et novembre"
-        : tz.startsWith("Australia/")
-          ? "avec DST de l'hémisphère sud (octobre à avril)"
-          : "selon les règles locales";
-  return `${cityName} se trouve dans le fuseau horaire ${tz} (UTC${offsetLabel}), ${obs}. Pratique pour planifier un appel international, regarder un live, ou simplement savoir si tu peux encore envoyer un message sans réveiller quelqu'un. Cette horloge est synchronisée sur l'heure de ton appareil et se met à jour à la seconde — aucun appel réseau, aucun pistage.`;
+function dstNote(tz: string, locale: Locale): string {
+  const isAsiaNoDst = ["Asia/Tokyo", "Asia/Shanghai", "Asia/Hong_Kong", "Asia/Singapore", "Asia/Seoul", "Asia/Bangkok", "Asia/Kolkata", "Asia/Dubai"].includes(tz);
+  const notes: Record<Locale, { europe: string; asiaNoDst: string; america: string; australia: string; fallback: string }> = {
+    fr: { europe: "qui observe l'heure d'été (CEST) entre fin mars et fin octobre", asiaNoDst: "sans changement d'heure été/hiver", america: "qui suit l'heure d'été nord-américaine (DST) entre mars et novembre", australia: "avec DST de l'hémisphère sud (octobre à avril)", fallback: "selon les règles locales" },
+    en: { europe: "and observes summer time (CEST) from late March to late October", asiaNoDst: "and does not observe daylight saving time", america: "and follows North American daylight saving time (March to November)", australia: "with southern-hemisphere DST (October to April)", fallback: "per local rules" },
+    es: { europe: "que observa el horario de verano (CEST) de finales de marzo a finales de octubre", asiaNoDst: "sin cambio de horario verano/invierno", america: "que sigue el horario de verano norteamericano (DST) de marzo a noviembre", australia: "con DST del hemisferio sur (octubre a abril)", fallback: "según las reglas locales" },
+    it: { europe: "che osserva l'ora legale (CEST) da fine marzo a fine ottobre", asiaNoDst: "senza cambio di orario estate/inverno", america: "che segue l'ora legale nordamericana (DST) da marzo a novembre", australia: "con DST dell'emisfero sud (ottobre-aprile)", fallback: "secondo le regole locali" },
+    pt: { europe: "que observa o horário de verão (CEST) de fins de março a fins de outubro", asiaNoDst: "sem mudança de horário verão/inverno", america: "que segue o horário de verão norte-americano (DST) de março a novembro", australia: "com DST do hemisfério sul (outubro a abril)", fallback: "conforme as regras locais" },
+    de: { europe: "und Sommerzeit (CEST) von Ende März bis Ende Oktober beobachtet", asiaNoDst: "ohne Sommer-/Winterzeitwechsel", america: "und nordamerikanische Sommerzeit (DST) von März bis November folgt", australia: "mit DST der südlichen Hemisphäre (Oktober bis April)", fallback: "gemäß lokalen Regeln" },
+    ja: { europe: "3月末から10月末まで夏時間（CEST）を採用", asiaNoDst: "サマータイムなし", america: "3月から11月まで北米夏時間（DST）を採用", australia: "南半球DST（10月〜4月）採用", fallback: "現地のルールに従う" },
+    zh: { europe: "3月底至10月底实行夏令时（CEST）", asiaNoDst: "不实行夏令时", america: "3月至11月实行北美夏令时（DST）", australia: "实行南半球夏令时（10月至4月）", fallback: "按当地规则" },
+  };
+  const n = notes[locale] ?? notes.en;
+  if (tz.startsWith("Europe/")) return n.europe;
+  if (isAsiaNoDst) return n.asiaNoDst;
+  if (tz.startsWith("America/")) return n.america;
+  if (tz.startsWith("Australia/")) return n.australia;
+  return n.fallback;
 }
 
-function aboutTextEN(cityName: string, tz: string, offsetLabel: string): string {
-  const obs = tz.startsWith("Europe/")
-    ? "and observes summer time (CEST) from late March to late October"
-    : tz === "Asia/Tokyo" || tz === "Asia/Shanghai" || tz === "Asia/Hong_Kong" || tz === "Asia/Singapore" || tz === "Asia/Seoul" || tz === "Asia/Bangkok" || tz === "Asia/Kolkata" || tz === "Asia/Dubai"
-      ? "and does not observe daylight saving time"
-      : tz.startsWith("America/")
-        ? "and follows North American daylight saving time (March to November)"
-        : tz.startsWith("Australia/")
-          ? "with southern-hemisphere DST (October to April)"
-          : "per local rules";
-  return `${cityName} is in the ${tz} timezone (UTC${offsetLabel}) ${obs}. Handy for scheduling international calls, watching a livestream, or just knowing whether it's still polite to text someone. This clock syncs to your device time and refreshes every second — no network calls, no tracking.`;
+function buildAboutText(cityName: string, tz: string, offsetLabel: string, locale: Locale): string {
+  const dst = dstNote(tz, locale);
+  const texts: Record<Locale, string> = {
+    fr: `${cityName} se trouve dans le fuseau horaire ${tz} (UTC${offsetLabel}), ${dst}. Pratique pour planifier un appel international, regarder un live, ou simplement savoir si tu peux encore envoyer un message sans réveiller quelqu'un. Cette horloge est synchronisée sur l'heure de ton appareil et se met à jour à la seconde — aucun appel réseau, aucun pistage.`,
+    en: `${cityName} is in the ${tz} timezone (UTC${offsetLabel}) ${dst}. Handy for scheduling international calls, watching a livestream, or just knowing whether it's still polite to text someone. This clock syncs to your device time and refreshes every second — no network calls, no tracking.`,
+    es: `${cityName} está en la zona horaria ${tz} (UTC${offsetLabel}), ${dst}. Perfecto para planificar llamadas internacionales, ver un directo o simplemente saber si aún puedes enviar un mensaje sin despertar a alguien. Este reloj se sincroniza con la hora de tu dispositivo y se actualiza cada segundo — sin llamadas de red, sin rastreo.`,
+    it: `${cityName} si trova nel fuso orario ${tz} (UTC${offsetLabel}), ${dst}. Pratico per pianificare chiamate internazionali, guardare un live o semplicemente sapere se puoi ancora inviare un messaggio senza svegliare qualcuno. Questo orologio è sincronizzato con l'ora del dispositivo e si aggiorna ogni secondo — nessuna chiamata di rete, nessun tracciamento.`,
+    pt: `${cityName} está no fuso horário ${tz} (UTC${offsetLabel}), ${dst}. Prático para agendar chamadas internacionais, assistir a uma live ou simplesmente saber se ainda dá para enviar uma mensagem sem acordar alguém. Este relógio sincroniza com a hora do seu dispositivo e atualiza a cada segundo — sem chamadas de rede, sem rastreamento.`,
+    de: `${cityName} liegt in der Zeitzone ${tz} (UTC${offsetLabel}), ${dst}. Praktisch für internationale Anrufe, das Verfolgen eines Livestreams oder um zu wissen, ob man noch jemanden anschreiben kann, ohne ihn zu wecken. Diese Uhr synchronisiert sich mit der Gerätezeit und aktualisiert sich sekündlich — keine Netzwerkaufrufe, kein Tracking.`,
+    ja: `${cityName}はタイムゾーン${tz}（UTC${offsetLabel}）、${dst}。国際電話のスケジュール調整、ライブ視聴、または相手を起こさずにメッセージできるか確認するのに便利。この時計はデバイスの時刻と同期し、毎秒更新 — ネット通信なし、トラッキングなし。`,
+    zh: `${cityName}位于${tz}时区（UTC${offsetLabel}），${dst}。方便规划国际通话、观看直播，或判断发消息是否会打扰对方。此时钟与设备时间同步，每秒刷新——无网络请求，无追踪。`,
+  };
+  return texts[locale] ?? texts.en;
 }
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -475,19 +522,28 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
 
   const related = relatedByTz(city, 6);
   const flag = flagEmoji(city.cc);
-  const aboutText = locale === "fr" ? aboutTextFR(city.name, city.tz, offsetLabel) : aboutTextEN(city.name, city.tz, offsetLabel);
+  const aboutText = buildAboutText(city.name, city.tz, offsetLabel, locale);
 
   // Pre-filled poll deeplink — matches the existing /?q=&o=opt1|opt2 convention.
-  const pollQ = locale === "fr" ? "T'es plutôt matin ou soir ?" : "Are you a morning or a night person?";
-  const pollO = locale === "fr" ? "Lève-tôt|Couche-tard|Les deux" : "Early bird|Night owl|Both";
-  const pollHref = `/?q=${encodeURIComponent(pollQ)}&o=${encodeURIComponent(pollO)}`;
+  const pollQ = S.pollCtaTitle;
+  const pollO: Record<Locale, string> = {
+    fr: "Lève-tôt|Couche-tard|Les deux",
+    en: "Early bird|Night owl|Both",
+    es: "Madrugador|Noctámbulo|Los dos",
+    it: "Mattiniero|Nottambulo|Entrambi",
+    pt: "Matutino|Noturno|Os dois",
+    de: "Frühaufsteher|Nachtmensch|Beides",
+    ja: "朝型|夜型|どちらも",
+    zh: "早起型|夜猫子|两者都有",
+  };
+  const pollHref = `/?q=${encodeURIComponent(pollQ)}&o=${encodeURIComponent(pollO[locale] ?? pollO.en)}`;
 
   // JSON-LD: WebPage with a Place mainEntity carrying the IANA tz.
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `Heure à ${city.name}`,
-    description: `Horloge live et fuseau horaire de ${city.name}, ${city.country} (${city.tz}).`,
+    name: S.hero(city.name),
+    description: S.intro(city.name, city.country),
     url: `https://moomz.com/heure/${city.slug}`,
     inLanguage: locale,
     mainEntity: {
@@ -524,7 +580,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "moomz", item: "https://moomz.com" },
-        { "@type": "ListItem", position: 2, name: "Heure", item: "https://moomz.com/heure" },
+        { "@type": "ListItem", position: 2, name: S.back.replace("← ", ""), item: "https://moomz.com/heure" },
         { "@type": "ListItem", position: 3, name: city.name, item: `https://moomz.com/heure/${city.slug}` },
       ],
     },

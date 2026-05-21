@@ -7,20 +7,73 @@ import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: "Explorer moomz — tout le contenu au même endroit",
-  description:
-    "Le plan complet de moomz : sondages, modèles, quiz, comparatifs, outils gratuits, idées, guides, blog, citations, Read et musique. Tout au même endroit.",
-  alternates: { canonical: "https://moomz.com/explore" },
-  openGraph: {
-    title: "Explorer moomz",
-    description:
-      "Tout le contenu moomz au même endroit : sondages, modèles, quiz, comparatifs, outils, idées, guides, blog, citations, Read.",
-    url: "https://moomz.com/explore",
-    type: "website",
-    siteName: "moomz",
+const EXPLORE_META: Record<HubLocale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
+  fr: {
+    title: "Explorer moomz — tout le contenu au même endroit",
+    description: "Le plan complet de moomz : sondages, modèles, quiz, comparatifs, outils gratuits, idées, guides, blog, citations, Read et musique. Tout au même endroit.",
+    ogTitle: "Explorer moomz",
+    ogDescription: "Tout le contenu moomz au même endroit : sondages, modèles, quiz, comparatifs, outils, idées, guides, blog, citations, Read.",
+  },
+  en: {
+    title: "Explore moomz — all content in one place",
+    description: "The full moomz map: polls, templates, quizzes, comparisons, free tools, ideas, guides, blog, quotes, Read and music. All in one place.",
+    ogTitle: "Explore moomz",
+    ogDescription: "All moomz content in one place: polls, templates, quizzes, comparisons, tools, ideas, guides, blog, quotes, Read.",
+  },
+  es: {
+    title: "Explorar moomz — todo el contenido en un lugar",
+    description: "El mapa completo de moomz: encuestas, plantillas, quizzes, comparativas, herramientas gratuitas, ideas, guías, blog, citas, Read y música.",
+    ogTitle: "Explorar moomz",
+    ogDescription: "Todo el contenido de moomz en un lugar: encuestas, plantillas, quizzes, comparativas, herramientas, ideas, guías, blog, citas, Read.",
+  },
+  it: {
+    title: "Esplora moomz — tutti i contenuti in un posto",
+    description: "La mappa completa di moomz: sondaggi, modelli, quiz, confronti, strumenti gratuiti, idee, guide, blog, citazioni, Read e musica.",
+    ogTitle: "Esplora moomz",
+    ogDescription: "Tutti i contenuti di moomz in un posto: sondaggi, modelli, quiz, confronti, strumenti, idee, guide, blog, citazioni, Read.",
+  },
+  pt: {
+    title: "Explorar moomz — todo o conteúdo num só lugar",
+    description: "O mapa completo do moomz: enquetes, modelos, quizzes, comparações, ferramentas gratuitas, ideias, guias, blog, citações, Read e música.",
+    ogTitle: "Explorar moomz",
+    ogDescription: "Todo o conteúdo do moomz num só lugar: enquetes, modelos, quizzes, comparações, ferramentas, ideias, guias, blog, citações, Read.",
+  },
+  de: {
+    title: "moomz entdecken — alle Inhalte an einem Ort",
+    description: "Die komplette moomz-Übersicht: Umfragen, Vorlagen, Quizze, Vergleiche, kostenlose Tools, Ideen, Guides, Blog, Zitate, Read und Musik.",
+    ogTitle: "moomz entdecken",
+    ogDescription: "Alle moomz-Inhalte an einem Ort: Umfragen, Vorlagen, Quizze, Vergleiche, Tools, Ideen, Guides, Blog, Zitate, Read.",
+  },
+  ja: {
+    title: "moomz を見る — すべてのコンテンツが一箇所に",
+    description: "moomz の全コンテンツ：投票、テンプレート、クイズ、比較、無料ツール、アイデア、ガイド、ブログ、名言、Read、音楽。",
+    ogTitle: "moomz を見る",
+    ogDescription: "moomz のすべてのコンテンツ：投票、テンプレート、クイズ、比較、ツール、アイデア、ガイド、ブログ、名言、Read。",
+  },
+  zh: {
+    title: "探索 moomz — 所有内容尽在一处",
+    description: "moomz 完整地图：投票、模板、测验、对比、免费工具、创意、指南、博客、名言、Read 和音乐。",
+    ogTitle: "探索 moomz",
+    ogDescription: "moomz 所有内容尽在一处：投票、模板、测验、对比、工具、创意、指南、博客、名言、Read。",
   },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as HubLocale;
+  const m = EXPLORE_META[locale] ?? EXPLORE_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/explore" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDescription,
+      url: "https://moomz.com/explore",
+      type: "website",
+      siteName: "moomz",
+    },
+  };
+}
 
 const TOOLS: {
   emoji: string;

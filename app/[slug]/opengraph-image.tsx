@@ -46,7 +46,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
     .eq("slug", handle)
     .maybeSingle<Pick<Poll, "question" | "options" | "slug">>();
 
-  const question = poll?.question ?? "Crée ton vibe check";
+  const question = poll?.question ?? "Create your vibe check";
   const options = poll?.options ?? ["", ""];
   const slug = poll?.slug ?? handle;
   const pal = paletteFor(slug);
@@ -193,7 +193,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
                   display: "flex",
                 }}
               >
-                + {options.length - 4} autres
+                + {options.length - 4} more
               </div>
             )}
           </div>
@@ -210,7 +210,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
             zIndex: 1,
           }}
         >
-          👉 Vote en 1 clic
+          👉 Vote in 1 tap
         </div>
       </div>
     ),
@@ -423,7 +423,7 @@ function renderProfileOG(p: {
               display: "flex",
             }}
           >
-            ✨ Linker + vibe check anonyme
+            ✨ Profile linker + anonymous vibe check
           </div>
           <div
             style={{
@@ -433,7 +433,7 @@ function renderProfileOG(p: {
               display: "flex",
             }}
           >
-            Crée le tien →
+            Create yours →
           </div>
         </div>
       </div>

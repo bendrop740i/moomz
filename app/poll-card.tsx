@@ -12,6 +12,19 @@ import AnimatedNumber from "./animated-number";
 import { useT, useLocale } from "./locale-context";
 import { trackEvent } from "@/lib/analytics";
 import { getViralCopy } from "@/lib/viral-copy";
+import type { Locale } from "@/lib/i18n";
+
+type RevealCopy = { rebel: (pct: number) => string; majority: (pct: number) => string; split: (pct: number) => string };
+const REVEAL_COPY: Record<Locale, RevealCopy> = {
+  fr: { rebel: (p) => `🌶️ REBEL · t'es dans les ${p}%`, majority: (p) => `✅ avec la majorité · ${p}%`, split: (p) => `👀 partagé · ${p}%` },
+  en: { rebel: (p) => `🌶️ REBEL · you're in the ${p}%`, majority: (p) => `✅ with the majority · ${p}%`, split: (p) => `👀 split · ${p}%` },
+  es: { rebel: (p) => `🌶️ REBELDE · estás en el ${p}%`, majority: (p) => `✅ con la mayoría · ${p}%`, split: (p) => `👀 dividido · ${p}%` },
+  it: { rebel: (p) => `🌶️ REBEL · sei nel ${p}%`, majority: (p) => `✅ con la maggioranza · ${p}%`, split: (p) => `👀 diviso · ${p}%` },
+  pt: { rebel: (p) => `🌶️ REBELDE · você está nos ${p}%`, majority: (p) => `✅ com a maioria · ${p}%`, split: (p) => `👀 dividido · ${p}%` },
+  de: { rebel: (p) => `🌶️ REBEL · du bist in den ${p}%`, majority: (p) => `✅ mit der Mehrheit · ${p}%`, split: (p) => `👀 geteilt · ${p}%` },
+  ja: { rebel: (p) => `🌶️ REBEL · あなたは${p}%側`, majority: (p) => `✅ 多数派と同じ · ${p}%`, split: (p) => `👀 分かれている · ${p}%` },
+  zh: { rebel: (p) => `🌶️ 反叛 · 你在 ${p}% 里`, majority: (p) => `✅ 与多数人一致 · ${p}%`, split: (p) => `👀 意见分歧 · ${p}%` },
+};
 
 // Confetti is only rendered after a vote — load its 4 kB of keyframe + emoji
 // pool data lazily so the home/discover feed doesn't pay for it up-front.
@@ -184,6 +197,7 @@ export default function PollCard({
   const pal = palettePreviewFromCosmetic(authorCosmeticId) ?? paletteFor(slug);
   const locale = useLocale();
   const vc = getViralCopy(locale);
+  const rc = REVEAL_COPY[locale as Locale] ?? REVEAL_COPY.en;
 
   useEffect(() => {
     const match =
@@ -320,7 +334,7 @@ export default function PollCard({
         );
         if (onVoted) setTimeout(onVoted, 1800);
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Erreur");
+        alert(e instanceof Error ? e.message : "Error");
         setVoted(null);
         setCounts(null);
         setTotal(initialVoteCount);
@@ -402,7 +416,7 @@ export default function PollCard({
                 key={i}
                 onClick={() => vote(i)}
                 disabled={pending}
-                aria-label={`Voter pour: ${opt}`}
+                aria-label={`Vote for: ${opt}`}
                 className="relative overflow-hidden w-full min-h-[44px] text-left rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 hover:border-pink-400/50 hover:scale-[1.01] active:scale-[0.97] transition px-3 py-3 flex items-center gap-2.5 disabled:opacity-50"
               >
                 <span
@@ -495,13 +509,11 @@ export default function PollCard({
               : "bg-white/5 border-white/15 text-white/70"
           }`}
         >
-          {reveal.isRebel ? (
-            <>🌶️ <b>REBEL</b> · t'es dans les {reveal.userPct}%</>
-          ) : reveal.isMajority ? (
-            <>✅ avec la majorité · {reveal.userPct}%</>
-          ) : (
-            <>👀 partagé · {reveal.userPct}%</>
-          )}
+          {reveal.isRebel
+            ? rc.rebel(reveal.userPct)
+            : reveal.isMajority
+            ? rc.majority(reveal.userPct)
+            : rc.split(reveal.userPct)}
         </div>
       )}
 
@@ -538,7 +550,7 @@ export default function PollCard({
           <Link
             href={`/${slug}`}
             prefetch={true}
-            aria-label={`Voir le détail et partager → ${question}`}
+            aria-label={`${t("card.detail")} → ${question}`}
             className="min-h-[44px] px-3 inline-flex items-center gap-1 hover:text-white transition"
           >
             {t("card.detail")}

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function ProgHub() {
+  const total = TOPICS.length * AUDIENCES.length * THEMES.length * 2;
   return (
     <div className="space-y-8 fade-up">
       <header className="space-y-3 text-center">
@@ -18,7 +19,7 @@ export default function ProgHub() {
           Poll prompts
         </h1>
         <p className="text-white/60 text-balance max-w-2xl mx-auto">
-          {TOPICS.length} formats × {AUDIENCES.length} audiences × {THEMES.length} vibes × 2 langues. {TOPICS.length * AUDIENCES.length * THEMES.length * 2} curated combos. Tap, launch, share.
+          {TOPICS.length} formats × {AUDIENCES.length} audiences × {THEMES.length} vibes × 2 languages. {total} curated combos. Tap, launch, share.
         </p>
       </header>
 

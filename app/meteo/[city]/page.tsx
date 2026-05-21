@@ -536,10 +536,18 @@ export default async function MeteoCityPage({
   const related = relatedCities(city, 6);
 
   // Poll deep-link prefill for /?q=&o=
+  const POLL_Q_TEMPLATES: Record<string, (n: string) => string> = {
+    fr: (n) => `Tu préfères la pluie cosy ou le soleil & chaleur à ${n} ?`,
+    en: (n) => `Cozy rain or sun & heat in ${n}?`,
+    es: (n) => `¿Prefieres la lluvia acogedora o el sol y calor en ${n}?`,
+    it: (n) => `Preferisci la pioggia accogliente o il sole e il caldo a ${n}?`,
+    pt: (n) => `Você prefere chuva aconchegante ou sol e calor em ${n}?`,
+    de: (n) => `Gemütlicher Regen oder Sonne & Wärme in ${n}?`,
+    ja: (n) => `${n}、心地よい雨派？それとも太陽と暑さ派？`,
+    zh: (n) => `你喜欢${n}的温馨雨天还是阳光炎热？`,
+  };
   const pollQ = encodeURIComponent(
-    locale === "fr"
-      ? `Tu préfères la pluie cosy ou le soleil & chaleur à ${city.name} ?`
-      : `Cozy rain or sun & heat in ${city.name}?`,
+    (POLL_Q_TEMPLATES[locale] ?? POLL_Q_TEMPLATES.en)(city.name),
   );
   const pollO = encodeURIComponent(`${s.pollA}|${s.pollB}`);
   const pollHref = `/?q=${pollQ}&o=${pollO}`;

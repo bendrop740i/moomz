@@ -36,13 +36,37 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const id = params.id;
   if (!isKnownCoin(id)) return {};
+  const locale = getLocale();
+  const S = pickStrings(locale);
   const meta = getCoinMeta(id);
   const detail = await fetchCoinDetail(id);
   const priceLine = detail
-    ? ` — ${formatPrice(detail.price_eur, "EUR", "fr")}`
+    ? ` — ${formatPrice(detail.price_eur, "EUR", locale)}`
     : "";
-  const title = `${meta.name} (${meta.symbol})${priceLine} · prix en direct · moomz`;
-  const desc = `Prix en direct de ${meta.name} (${meta.symbol}) en EUR et USD, variation 24h, market cap, évolution 30 jours et plus haut historique. Données CoinGecko mises à jour toutes les 10 minutes.`;
+  const titles: Record<string, string> = {
+    fr: `${meta.name} (${meta.symbol})${priceLine} · prix en direct · moomz`,
+    en: `${meta.name} (${meta.symbol})${priceLine} · live price · moomz`,
+    es: `${meta.name} (${meta.symbol})${priceLine} · precio en directo · moomz`,
+    it: `${meta.name} (${meta.symbol})${priceLine} · prezzo live · moomz`,
+    pt: `${meta.name} (${meta.symbol})${priceLine} · preço ao vivo · moomz`,
+    de: `${meta.name} (${meta.symbol})${priceLine} · Live-Preis · moomz`,
+    ja: `${meta.name} (${meta.symbol})${priceLine} · リアルタイム価格 · moomz`,
+    zh: `${meta.name} (${meta.symbol})${priceLine} · 实时价格 · moomz`,
+  };
+  const descs: Record<string, string> = {
+    fr: `Prix en direct de ${meta.name} (${meta.symbol}) en EUR et USD, variation 24h, market cap, évolution 30 jours et plus haut historique. Données CoinGecko mises à jour toutes les 10 minutes.`,
+    en: `Live ${meta.name} (${meta.symbol}) price in EUR and USD, 24h change, market cap, 30-day chart and all-time high. CoinGecko data updated every 10 minutes.`,
+    es: `Precio en directo de ${meta.name} (${meta.symbol}) en EUR y USD, variación 24h, capitalización, evolución 30 días y máximo histórico. Datos CoinGecko actualizados cada 10 minutos.`,
+    it: `Prezzo live di ${meta.name} (${meta.symbol}) in EUR e USD, variazione 24h, capitalizzazione, andamento 30 giorni e massimo storico. Dati CoinGecko aggiornati ogni 10 minuti.`,
+    pt: `Preço ao vivo de ${meta.name} (${meta.symbol}) em EUR e USD, variação 24h, capitalização, evolução 30 dias e máximo histórico. Dados CoinGecko atualizados a cada 10 minutos.`,
+    de: `Live-Preis von ${meta.name} (${meta.symbol}) in EUR und USD, 24h-Änderung, Marktkapitalisierung, 30-Tage-Verlauf und Allzeithoch. CoinGecko-Daten alle 10 Minuten aktualisiert.`,
+    ja: `${meta.name}（${meta.symbol}）のリアルタイム価格（EUR・USD）、24時間変動、時価総額、30日チャート、史上最高値。CoinGeckoデータ10分ごと更新。`,
+    zh: `${meta.name}（${meta.symbol}）实时价格（EUR/USD）、24小时涨跌、市值、30天走势和历史最高价。CoinGecko数据每10分钟更新。`,
+  };
+  const title = titles[locale] ?? titles.en;
+  const desc = descs[locale] ?? descs.en;
+  // Suppress unused variable warning
+  void S;
   const url = `https://moomz.com/crypto/${id}`;
   return {
     title,

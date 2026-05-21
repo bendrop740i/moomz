@@ -8,15 +8,31 @@ import WalletBanner from "@/app/_play/wallet-banner";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
-  title: "Play — moomz",
-  description:
-    "Le hub jeu de moomz : gagne des coins, débloque 418 haut faits, dépense en boutique, joue aux quiz, parie sur les sondages avec les prédictions.",
-  robots: { index: false, follow: true },
-};
-
 const HUB_LOCALES = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"] as const;
 type HubLocale = (typeof HUB_LOCALES)[number];
+
+const PLAY_META_DESC: Record<HubLocale, string> = {
+  fr: "Le hub jeu de moomz : gagne des coins, débloque 418 haut faits, dépense en boutique, joue aux quiz, parie sur les sondages avec les prédictions.",
+  en: "moomz play hub: earn coins, unlock 418 achievements, spend in the shop, play quizzes, and bet on polls with predictions.",
+  es: "Hub de juego de moomz: gana coins, desbloquea 418 logros, gasta en la tienda, juega quizzes y apuesta en encuestas con predicciones.",
+  it: "Hub di gioco di moomz: guadagna coins, sblocca 418 imprese, spendi nel negozio, gioca ai quiz e scommetti sui sondaggi con le previsioni.",
+  pt: "Hub de jogo do moomz: ganha coins, desbloqueia 418 conquistas, gasta na loja, joga quizzes e aposta em enquetes com previsões.",
+  de: "moomz Spielhub: Verdiene Coins, schalte 418 Erfolge frei, gib sie im Shop aus, spiele Quizze und setze auf Umfragen mit Vorhersagen.",
+  ja: "moomz プレイハブ：コインを稼ぎ、418の実績を解除し、ショップで使い、クイズをプレイし、予想で投票に賭けよう。",
+  zh: "moomz 游戏中心：赚取金币、解锁418个成就、在商店消费、玩测验，并用预测押注投票。",
+};
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const hl: HubLocale = (HUB_LOCALES as readonly string[]).includes(locale)
+    ? (locale as HubLocale)
+    : "en";
+  return {
+    title: "Play — moomz",
+    description: PLAY_META_DESC[hl],
+    robots: { index: false, follow: true },
+  };
+}
 
 type PlayStrings = {
   kicker: string;

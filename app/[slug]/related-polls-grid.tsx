@@ -1,6 +1,19 @@
 import Link from "next/link";
 import { emojisFor } from "@/lib/emojis";
 import { paletteFor } from "@/lib/palette";
+import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
+
+const VOTE_FOR: Record<Locale, string> = {
+  fr: "Voter pour",
+  en: "Vote on",
+  es: "Votar por",
+  it: "Vota su",
+  pt: "Votar em",
+  de: "Abstimmen für",
+  ja: "投票する",
+  zh: "投票给",
+};
 
 export type RelatedPollRow = {
   slug: string;
@@ -14,6 +27,8 @@ export type RelatedPollRow = {
 // block lives below the active vote UI and is read as SEO content.
 export default function RelatedPollsGrid({ polls }: { polls: RelatedPollRow[] }) {
   if (polls.length === 0) return null;
+  const locale = getLocale() as Locale;
+  const voteFor = VOTE_FOR[locale] ?? VOTE_FOR.en;
   return (
     <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
       {polls.map((p, idx) => {
@@ -24,7 +39,7 @@ export default function RelatedPollsGrid({ polls }: { polls: RelatedPollRow[] })
             <Link
               href={`/${p.slug}`}
               prefetch={false}
-              aria-label={`Vote sur: ${p.question}`}
+              aria-label={`${voteFor}: ${p.question}`}
               style={{
                 ["--i" as string]: idx,
                 background: `linear-gradient(135deg, ${pal.c1}24, ${pal.c2}24, ${pal.c3}18)`,

@@ -373,15 +373,29 @@ function randomToken() {
   return crypto.randomUUID() + crypto.randomUUID().replace(/-/g, "");
 }
 
+const USERNAME_ERR: Record<string, { format: string; reserved: string; taken: string }> = {
+  fr: { format: "3-20 caractères : a-z, 0-9, _", reserved: "Nom réservé, choisis-en un autre.", taken: "Username déjà pris." },
+  en: { format: "3-20 chars: a-z, 0-9, _", reserved: "Reserved name, pick another one.", taken: "Username already taken." },
+  es: { format: "3-20 caracteres: a-z, 0-9, _", reserved: "Nombre reservado, elige otro.", taken: "Nombre de usuario ya tomado." },
+  it: { format: "3-20 caratteri: a-z, 0-9, _", reserved: "Nome riservato, scegline un altro.", taken: "Username già in uso." },
+  pt: { format: "3-20 caracteres: a-z, 0-9, _", reserved: "Nome reservado, escolhe outro.", taken: "Nome de utilizador já em uso." },
+  de: { format: "3-20 Zeichen: a-z, 0-9, _", reserved: "Reservierter Name, wähle einen anderen.", taken: "Benutzername bereits vergeben." },
+  ja: { format: "3〜20文字: a-z、0-9、_", reserved: "予約済みの名前です。別の名前を選んでください。", taken: "このユーザー名は既に使用されています。" },
+  zh: { format: "3-20个字符: a-z、0-9、_", reserved: "该名称已被保留，请换一个。", taken: "用户名已被占用。" },
+};
+
 export async function claimUsername(formData: FormData) {
   const username = String(formData.get("username") ?? "").trim().toLowerCase();
   const displayName = String(formData.get("display_name") ?? "").trim() || null;
 
+  const claimLocale = getLocale();
+  const uErr = USERNAME_ERR[claimLocale] ?? USERNAME_ERR.en;
+
   if (!/^[a-z0-9_]{3,20}$/.test(username)) {
-    throw new Error("3-20 caractères : a-z, 0-9, _");
+    throw new Error(uErr.format);
   }
   if (RESERVED_USERNAMES.has(username)) {
-    throw new Error("Nom réservé, choisis-en un autre.");
+    throw new Error(uErr.reserved);
   }
 
   const supabase = getSupabase();
@@ -400,7 +414,7 @@ export async function claimUsername(formData: FormData) {
           .eq("id", existing.id);
         if (error) {
           if (error.message.toLowerCase().includes("duplicate") || error.message.toLowerCase().includes("unique")) {
-            throw new Error("Username déjà pris.");
+            throw new Error(uErr.taken);
           }
           throw new Error(error.message);
         }
@@ -429,7 +443,7 @@ export async function claimUsername(formData: FormData) {
     .single();
   if (error) {
     if (error.message.toLowerCase().includes("duplicate") || error.message.toLowerCase().includes("unique")) {
-      throw new Error("Username déjà pris.");
+      throw new Error(uErr.taken);
     }
     throw new Error(error.message);
   }
@@ -460,16 +474,29 @@ function readSlugList(cookieName: string): string[] {
   return raw.split(",").filter(Boolean);
 }
 
+const UPDATE_PROFILE_ERR: Record<string, { noProfile: string; notFound: string }> = {
+  fr: { noProfile: "Pas de profil à éditer.", notFound: "Profil introuvable." },
+  en: { noProfile: "No profile to edit.", notFound: "Profile not found." },
+  es: { noProfile: "No hay perfil para editar.", notFound: "Perfil no encontrado." },
+  it: { noProfile: "Nessun profilo da modificare.", notFound: "Profilo non trovato." },
+  pt: { noProfile: "Nenhum perfil para editar.", notFound: "Perfil não encontrado." },
+  de: { noProfile: "Kein Profil zum Bearbeiten.", notFound: "Profil nicht gefunden." },
+  ja: { noProfile: "編集するプロフィールがありません。", notFound: "プロフィールが見つかりません。" },
+  zh: { noProfile: "没有可编辑的个人资料。", notFound: "找不到个人资料。" },
+};
+
 export async function updateProfile(formData: FormData) {
+  const upLocale = getLocale();
+  const upErr = UPDATE_PROFILE_ERR[upLocale] ?? UPDATE_PROFILE_ERR.en;
   const lookup = await getProfileLookup();
-  if (!lookup) throw new Error("Pas de profil à éditer.");
+  if (!lookup) throw new Error(upErr.noProfile);
 
   const supabase = getSupabase();
   const { data: existing } = await applyLookup(
     supabase.from("profiles").select("id"),
     lookup,
   ).maybeSingle();
-  if (!existing) throw new Error("Profil introuvable.");
+  if (!existing) throw new Error(upErr.notFound);
 
   const displayName = String(formData.get("display_name") ?? "").trim() || null;
   const bio = String(formData.get("bio") ?? "").trim().slice(0, 200) || null;

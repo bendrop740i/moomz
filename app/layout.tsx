@@ -17,6 +17,7 @@ import Script from "next/script";
 import { getLocale } from "@/lib/i18n-server";
 import { getDirection } from "@/lib/dir";
 import { t } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -43,25 +44,40 @@ const fontDisplay = Bagel_Fat_One({
   fallback: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "sans-serif"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://moomz.com"),
-  title: "moomz — quick vibe check",
-  description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
-  openGraph: {
-    title: "moomz — quick vibe check",
-    description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
-    type: "website",
-    siteName: "moomz",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "moomz — quick vibe check",
-    description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live.",
-  },
-  verification: {
-    google: "KGnDbYDNmHH_vLW6L8W4iwd9rxdxSNOvtRVsBygD2ts",
-  },
+const LAYOUT_META: Record<Locale, { title: string; description: string }> = {
+  fr: { title: "moomz — vibe check express", description: "Crée un sondage en 10 secondes. Partage le lien. Vois la vibe en live." },
+  en: { title: "moomz — quick vibe check", description: "Create a poll in 10 seconds. Share the link. See the vibe live." },
+  es: { title: "moomz — vibe check rápido", description: "Crea una encuesta en 10 segundos. Comparte el enlace. Mira la vibra en vivo." },
+  it: { title: "moomz — vibe check veloce", description: "Crea un sondaggio in 10 secondi. Condividi il link. Vedi la vibe in diretta." },
+  pt: { title: "moomz — vibe check rápido", description: "Cria uma enquete em 10 segundos. Partilha o link. Vê a vibe ao vivo." },
+  de: { title: "moomz — schneller Vibe-Check", description: "Erstelle eine Umfrage in 10 Sekunden. Teile den Link. Sieh die Vibe live." },
+  ja: { title: "moomz — 即席バイブチェック", description: "10秒で投票を作成。リンクをシェア。リアルタイムで反応を確認。" },
+  zh: { title: "moomz — 快速氛围测验", description: "10秒创建投票。分享链接。实时查看结果。" },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const meta = LAYOUT_META[locale] ?? LAYOUT_META.en;
+  return {
+    metadataBase: new URL("https://moomz.com"),
+    title: meta.title,
+    description: meta.description,
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "website",
+      siteName: "moomz",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
+    verification: {
+      google: "KGnDbYDNmHH_vLW6L8W4iwd9rxdxSNOvtRVsBygD2ts",
+    },
+  };
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = getLocale();

@@ -2,6 +2,19 @@
 
 import { useEffect, useState } from "react";
 import { ACHIEVEMENTS, type AchievementId } from "@/lib/achievements";
+import { useLocale } from "./locale-context";
+import type { Locale } from "@/lib/i18n";
+
+const ACHIEVEMENT_UNLOCKED: Record<Locale, string> = {
+  fr: "Achievement débloqué",
+  en: "Achievement unlocked",
+  es: "Logro desbloqueado",
+  it: "Impresa sbloccata",
+  pt: "Conquista desbloqueada",
+  de: "Erfolg freigeschaltet",
+  ja: "実績解除",
+  zh: "成就已解锁",
+};
 
 type ToastItem = { id: AchievementId; key: number };
 
@@ -27,9 +40,11 @@ export default function AchievementToast() {
     return () => clearTimeout(timer);
   }, [queue]);
 
+  const locale = useLocale();
   if (queue.length === 0) return null;
   const item = queue[0];
   const ach = ACHIEVEMENTS[item.id];
+  const unlockedLabel = ACHIEVEMENT_UNLOCKED[locale as Locale] ?? ACHIEVEMENT_UNLOCKED.en;
 
   return (
     <div
@@ -41,7 +56,7 @@ export default function AchievementToast() {
         <div className="text-3xl">{ach.emoji}</div>
         <div>
           <div className="text-[10px] uppercase tracking-widest text-pink-300 font-semibold">
-            Achievement débloqué
+            {unlockedLabel}
           </div>
           <div className="font-display text-lg leading-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
             {ach.title}

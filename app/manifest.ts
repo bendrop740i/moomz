@@ -8,7 +8,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description:
       "moomz is the free vibe-check app: create instant polls, vote with one tap, share a short link, get live results, and answer anonymous questions on your profile. Daily Moomz, streaks, trending feed, and a world map of votes — all in 8 languages.",
     categories: ["social", "entertainment", "lifestyle"],
-    lang: "fr",
+    lang: "en",
     dir: "ltr",
     start_url: "/?utm_source=pwa&utm_medium=installed&utm_campaign=launch",
     scope: "/",
@@ -40,10 +40,10 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     shortcuts: [
       {
-        name: "Créer un sondage",
-        short_name: "Créer",
+        name: "Create a poll",
+        short_name: "Create",
         description:
-          "Lance un nouveau vibe-check en quelques secondes et partage-le.",
+          "Launch a new vibe-check in seconds and share it.",
         url: "/?utm_source=pwa&utm_medium=shortcut&utm_campaign=create",
         icons: [{ src: "/icon-192.svg", sizes: "192x192", type: "image/svg+xml" }],
       },
@@ -51,15 +51,15 @@ export default function manifest(): MetadataRoute.Manifest {
         name: "Discover",
         short_name: "Discover",
         description:
-          "Swipe le feed de sondages tendance façon TikTok — vote en un tap.",
+          "Swipe trending polls TikTok-style — vote in one tap.",
         url: "/discover?utm_source=pwa&utm_medium=shortcut&utm_campaign=discover",
         icons: [{ src: "/icon-192.svg", sizes: "192x192", type: "image/svg+xml" }],
       },
       {
-        name: "Mon profil",
-        short_name: "Profil",
+        name: "My profile",
+        short_name: "Profile",
         description:
-          "Tes points, ton streak, tes badges et ta boîte de questions anonymes.",
+          "Your points, streak, badges and anonymous Q&A inbox.",
         url: "/me?utm_source=pwa&utm_medium=shortcut&utm_campaign=profile",
         icons: [{ src: "/icon-192.svg", sizes: "192x192", type: "image/svg+xml" }],
       },

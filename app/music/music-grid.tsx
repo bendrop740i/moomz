@@ -2,7 +2,102 @@
 
 import { useDeferredValue, useMemo, useState } from "react";
 import { useMusic, type Track } from "../music-provider";
+import { useLocale } from "../locale-context";
 import TrackCover from "./track-cover";
+
+type MusicGridLocale = "fr" | "en" | "es" | "it" | "pt" | "de" | "ja" | "zh";
+type GridCopy = {
+  startRadio: string;
+  searchPlaceholder: string;
+  clearSearch: string;
+  noResults: (q: string) => string;
+  resultsCount: (n: number) => string;
+  noResultsEmpty: string;
+  loading: string;
+  nowPlaying: string;
+};
+const GRID_COPY: Record<MusicGridLocale, GridCopy> = {
+  fr: {
+    startRadio: "▶️ Lancer la radio (shuffle)",
+    searchPlaceholder: "Chercher un titre…",
+    clearSearch: "Effacer la recherche",
+    noResults: (q) => `Aucun titre pour « ${q} »`,
+    resultsCount: (n) => `${n} résultat${n > 1 ? "s" : ""}`,
+    noResultsEmpty: "Rien trouvé. Essaie un autre mot ou lance la radio.",
+    loading: "Chargement",
+    nowPlaying: "Lecture en cours",
+  },
+  en: {
+    startRadio: "▶️ Start radio (shuffle)",
+    searchPlaceholder: "Search a track…",
+    clearSearch: "Clear search",
+    noResults: (q) => `No track for "${q}"`,
+    resultsCount: (n) => `${n} result${n > 1 ? "s" : ""}`,
+    noResultsEmpty: "Nothing found. Try another word or start the radio.",
+    loading: "Loading",
+    nowPlaying: "Now playing",
+  },
+  es: {
+    startRadio: "▶️ Iniciar la radio (shuffle)",
+    searchPlaceholder: "Buscar una canción…",
+    clearSearch: "Borrar búsqueda",
+    noResults: (q) => `Ningún título para « ${q} »`,
+    resultsCount: (n) => `${n} resultado${n > 1 ? "s" : ""}`,
+    noResultsEmpty: "Nada encontrado. Prueba otra palabra o lanza la radio.",
+    loading: "Cargando",
+    nowPlaying: "Reproduciendo",
+  },
+  it: {
+    startRadio: "▶️ Avvia la radio (shuffle)",
+    searchPlaceholder: "Cerca un brano…",
+    clearSearch: "Cancella ricerca",
+    noResults: (q) => `Nessun titolo per « ${q} »`,
+    resultsCount: (n) => `${n} risultat${n > 1 ? "i" : "o"}`,
+    noResultsEmpty: "Niente trovato. Prova un'altra parola o avvia la radio.",
+    loading: "Caricamento",
+    nowPlaying: "In riproduzione",
+  },
+  pt: {
+    startRadio: "▶️ Iniciar a rádio (shuffle)",
+    searchPlaceholder: "Pesquisar uma faixa…",
+    clearSearch: "Limpar pesquisa",
+    noResults: (q) => `Nenhum título para « ${q} »`,
+    resultsCount: (n) => `${n} resultado${n > 1 ? "s" : ""}`,
+    noResultsEmpty: "Nada encontrado. Tenta outra palavra ou inicia a rádio.",
+    loading: "A carregar",
+    nowPlaying: "A reproduzir",
+  },
+  de: {
+    startRadio: "▶️ Radio starten (Shuffle)",
+    searchPlaceholder: "Einen Titel suchen…",
+    clearSearch: "Suche löschen",
+    noResults: (q) => `Kein Titel für „${q}"`,
+    resultsCount: (n) => `${n} Ergebnis${n > 1 ? "se" : ""}`,
+    noResultsEmpty: "Nichts gefunden. Versuche ein anderes Wort oder starte das Radio.",
+    loading: "Wird geladen",
+    nowPlaying: "Wird abgespielt",
+  },
+  ja: {
+    startRadio: "▶️ ラジオ開始（シャッフル）",
+    searchPlaceholder: "トラックを検索…",
+    clearSearch: "検索をクリア",
+    noResults: (q) => `「${q}」に一致するトラックなし`,
+    resultsCount: (n) => `${n} 件`,
+    noResultsEmpty: "見つかりませんでした。別のキーワードを試すか、ラジオを開始してください。",
+    loading: "読み込み中",
+    nowPlaying: "再生中",
+  },
+  zh: {
+    startRadio: "▶️ 开始电台（随机播放）",
+    searchPlaceholder: "搜索歌曲…",
+    clearSearch: "清除搜索",
+    noResults: (q) => `没有找到「${q}」`,
+    resultsCount: (n) => `${n} 个结果`,
+    noResultsEmpty: "未找到。尝试另一个词或开始电台。",
+    loading: "加载中",
+    nowPlaying: "正在播放",
+  },
+};
 
 export default function MusicGrid({ tracks }: { tracks: Track[] }) {
   const {
@@ -14,6 +109,8 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
     start,
     playTrack,
   } = useMusic();
+  const locale = useLocale();
+  const gc = GRID_COPY[(locale as MusicGridLocale) in GRID_COPY ? (locale as MusicGridLocale) : "en"] ?? GRID_COPY.en;
   const [query, setQuery] = useState("");
   // Defer the filter computation so typing stays smooth even with 200+ tracks
   // — the input updates synchronously, the grid catches up at the next idle.
@@ -37,7 +134,7 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
         onClick={start}
         className="w-full rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold py-3 hover:scale-[1.01] active:scale-[0.99] transition shadow-lg shadow-pink-500/30"
       >
-        ▶️ Lancer la radio (shuffle)
+        {gc.startRadio}
       </button>
 
       <div className="relative">
@@ -48,14 +145,14 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Chercher un titre…"
+          placeholder={gc.searchPlaceholder}
           className="w-full glass rounded-xl pl-9 pr-9 py-2.5 text-sm text-white placeholder:text-white/30 outline-none focus:border-pink-400/40"
         />
         {query && (
           <button
             type="button"
             onClick={() => setQuery("")}
-            aria-label="Effacer la recherche"
+            aria-label={gc.clearSearch}
             className="absolute right-2.5 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 text-white/60 hover:text-white text-xs flex items-center justify-center transition"
           >
             ✕
@@ -66,8 +163,8 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
       {query.trim() && (
         <p className="text-white/45 text-xs px-0.5">
           {filtered.length === 0
-            ? `Aucun titre pour « ${query.trim()} »`
-            : `${filtered.length} résultat${filtered.length > 1 ? "s" : ""}`}
+            ? gc.noResults(query.trim())
+            : gc.resultsCount(filtered.length)}
         </p>
       )}
 
@@ -75,7 +172,7 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
         <div className="glass rounded-2xl p-6 text-center space-y-1">
           <div className="text-3xl">🤔</div>
           <p className="text-white/55 text-sm">
-            Rien trouvé. Essaie un autre mot ou lance la radio.
+            {gc.noResultsEmpty}
           </p>
         </div>
       ) : (
@@ -121,7 +218,7 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
                   ) : (
                     "❚❚"
                   )}
-                  {showEqualizer ? "Live" : "En cours"}
+                  {showEqualizer ? "Live" : gc.nowPlaying}
                 </span>
               )}
               <div className="aspect-square rounded-lg overflow-hidden mb-2 relative">
@@ -139,12 +236,12 @@ export default function MusicGrid({ tracks }: { tracks: Track[] }) {
                           animation:
                             "moomz-pulse-dot 1s ease-in-out infinite",
                         }}
-                        aria-label="Chargement"
+                        aria-label={gc.loading}
                       />
                     ) : showEqualizer ? (
                       <span
                         className="flex items-end gap-1 h-7 drop-shadow-lg"
-                        aria-label="Lecture en cours"
+                        aria-label={gc.nowPlaying}
                       >
                         <i className="w-1.5 bg-pink-300 rounded-sm moomz-eq-bar moomz-eq-1" />
                         <i className="w-1.5 bg-pink-300 rounded-sm moomz-eq-bar moomz-eq-2" />

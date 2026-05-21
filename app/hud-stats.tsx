@@ -121,7 +121,7 @@ export function HudPill({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/play"
-      aria-label="Play — points et coins"
+      aria-label="Play — points & coins"
       className={`glass rounded-full px-2.5 py-1 flex items-center gap-1.5 text-xs font-semibold transition hover:bg-white/10 ${
         flash || coinFlash ? "scale-110" : "scale-100"
       } ${className}`}

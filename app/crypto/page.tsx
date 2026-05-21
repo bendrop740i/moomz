@@ -15,26 +15,29 @@ import { pickStrings } from "./_strings";
 export const dynamic = "force-static";
 export const revalidate = 600;
 
-export const metadata: Metadata = {
-  title: "Prix des cryptos en direct — Bitcoin, Ethereum, Solana · moomz",
-  description:
-    "Suis les prix en direct, le market cap et l'évolution 30 jours des 30 plus grosses cryptos : Bitcoin, Ethereum, Solana, BNB et plus. Données CoinGecko, mise à jour toutes les 10 minutes.",
-  alternates: { canonical: "https://moomz.com/crypto" },
-  openGraph: {
-    title: "Prix des cryptos en direct · moomz",
-    description:
-      "Top 30 cryptos en direct : prix, market cap, évolution 30 jours.",
-    type: "website",
-    url: "https://moomz.com/crypto",
-    siteName: "moomz",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Prix des cryptos en direct · moomz",
-    description:
-      "Top 30 cryptos en direct : prix, market cap, évolution 30 jours.",
-  },
-};
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const S = pickStrings(locale);
+  const title = `${S.hubTitle} — Bitcoin, Ethereum, Solana · moomz`;
+  const desc = S.hubIntro;
+  return {
+    title,
+    description: desc,
+    alternates: { canonical: "https://moomz.com/crypto" },
+    openGraph: {
+      title: `${S.hubTitle} · moomz`,
+      description: desc,
+      type: "website",
+      url: "https://moomz.com/crypto",
+      siteName: "moomz",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${S.hubTitle} · moomz`,
+      description: desc,
+    },
+  };
+}
 
 export default async function CryptoHubPage() {
   const locale = getLocale();

@@ -24,6 +24,31 @@ export function generateStaticParams() {
   return RECETTES_SLUGS.map((ingredient) => ({ ingredient }));
 }
 
+type MetaTitles = Record<ToolLocale, (name: string, emoji: string) => string>;
+type MetaDescs = Record<ToolLocale, (name: string) => string>;
+
+const DETAIL_TITLES: MetaTitles = {
+  fr: (n, e) => `Recettes au ${n.toLowerCase()} ${e} — idées et inspirations · moomz`,
+  en: (n, e) => `${n} recipes ${e} — ideas and inspiration · moomz`,
+  es: (n, e) => `Recetas con ${n.toLowerCase()} ${e} — ideas e inspiración · moomz`,
+  it: (n, e) => `Ricette con ${n.toLowerCase()} ${e} — idee e ispirazione · moomz`,
+  pt: (n, e) => `Receitas com ${n.toLowerCase()} ${e} — ideias e inspiração · moomz`,
+  de: (n, e) => `${n}-Rezepte ${e} — Ideen und Inspiration · moomz`,
+  ja: (n, e) => `${n}のレシピ ${e} — アイデアとインスピレーション · moomz`,
+  zh: (n, e) => `${n}食谱 ${e} — 创意与灵感 · moomz`,
+};
+
+const DETAIL_DESCS: MetaDescs = {
+  fr: (n) => `Toutes les meilleures recettes au ${n.toLowerCase()} : classiques, plats du quotidien, idées d'inspiration. Sélection actualisée tous les jours.`,
+  en: (n) => `The best ${n.toLowerCase()} recipes: classics, everyday dishes, fresh ideas. Selection updated daily.`,
+  es: (n) => `Las mejores recetas con ${n.toLowerCase()}: clásicas, platos del día a día, ideas frescas. Selección actualizada diariamente.`,
+  it: (n) => `Le migliori ricette con ${n.toLowerCase()}: classiche, piatti di tutti i giorni, idee fresche. Selezione aggiornata ogni giorno.`,
+  pt: (n) => `As melhores receitas com ${n.toLowerCase()}: clássicas, pratos do dia a dia, ideias frescas. Seleção atualizada diariamente.`,
+  de: (n) => `Die besten ${n}-Rezepte: Klassiker, Alltagsgerichte, frische Ideen. Täglich aktualisierte Auswahl.`,
+  ja: (n) => `${n}を使ったおすすめレシピ：定番料理、毎日の献立、新鮮なアイデア。毎日更新。`,
+  zh: (n) => `最佳${n}食谱：经典菜肴、日常料理、新鲜创意。每天更新精选。`,
+};
+
 export function generateMetadata({
   params,
 }: {
@@ -31,10 +56,11 @@ export function generateMetadata({
 }): Metadata {
   const cat = findCategory(params.ingredient);
   if (!cat) return {};
-  const name = cat.name_fr;
+  const locale = (getLocale() as ToolLocale) ?? "fr";
+  const name = localizedName(cat, locale);
   const url = `https://moomz.com/recettes/${cat.slug}`;
-  const title = `Recettes au ${name.toLowerCase()} ${cat.emoji} — idées et inspirations · moomz`;
-  const description = `Toutes les meilleures recettes au ${name.toLowerCase()} : classiques, plats du quotidien, idées d'inspiration. Sélection actualisée tous les jours.`;
+  const title = (DETAIL_TITLES[locale] ?? DETAIL_TITLES.en)(name, cat.emoji);
+  const description = (DETAIL_DESCS[locale] ?? DETAIL_DESCS.en)(name);
   return {
     title,
     description,

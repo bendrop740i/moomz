@@ -17,7 +17,7 @@ type Props = {
   page: SeoPage;
 };
 
-const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: string; back: string; faq: string; tryNow: string; related: string }> = {
+const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: string; back: string; faq: string; tryNow: string; related: string; qPrefix: string }> = {
   fr: {
     create: "Crée ton sondage moomz",
     createSub: "moomz.com — 10 secondes, anonyme, gratuit",
@@ -26,6 +26,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Questions fréquentes",
     tryNow: "Lancer ce sondage",
     related: "À lire aussi",
+    qPrefix: "Q.",
   },
   en: {
     create: "Create your moomz poll",
@@ -35,6 +36,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Frequently asked",
     tryNow: "Launch this poll",
     related: "Related reads",
+    qPrefix: "Q.",
   },
   es: {
     create: "Crea tu encuesta moomz",
@@ -44,6 +46,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Preguntas frecuentes",
     tryNow: "Lanzar esta encuesta",
     related: "También para leer",
+    qPrefix: "P.",
   },
   it: {
     create: "Crea il tuo sondaggio moomz",
@@ -53,6 +56,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Domande frequenti",
     tryNow: "Lancia questo sondaggio",
     related: "Da leggere anche",
+    qPrefix: "D.",
   },
   pt: {
     create: "Crie sua enquete moomz",
@@ -62,6 +66,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Perguntas frequentes",
     tryNow: "Lançar esta enquete",
     related: "Leia também",
+    qPrefix: "P.",
   },
   de: {
     create: "Erstelle deine moomz-Umfrage",
@@ -71,6 +76,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "Häufige Fragen",
     tryNow: "Diese Umfrage starten",
     related: "Weiterlesen",
+    qPrefix: "F.",
   },
   ja: {
     create: "moomzで投票を作る",
@@ -80,6 +86,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "よくある質問",
     tryNow: "この投票をはじめる",
     related: "あわせて読む",
+    qPrefix: "Q.",
   },
   zh: {
     create: "创建你的 moomz 投票",
@@ -89,6 +96,7 @@ const CTA_LABELS: Record<Locale, { create: string; createSub: string; ideas: str
     faq: "常见问题",
     tryNow: "发起这个投票",
     related: "延伸阅读",
+    qPrefix: "问",
   },
 };
 
@@ -235,7 +243,7 @@ export default function SeoPageView({ page }: Props) {
               >
                 <summary className="font-semibold text-white cursor-pointer list-none flex items-center justify-between gap-3">
                   <span className="flex items-center gap-2.5">
-                    <span className="text-pink-300/70">Q.</span>
+                    <span className="text-pink-300/70">{labels.qPrefix}</span>
                     {f.q}
                   </span>
                   <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-white/10 text-white/50 group-open:rotate-45 group-open:bg-pink-500/30 group-open:text-pink-200 transition">

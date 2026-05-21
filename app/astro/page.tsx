@@ -15,20 +15,73 @@ import SignFinder from "./sign-finder";
 export const dynamic = "force-static";
 export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  title: "Astrologie & zodiaque — trouve ton signe · moomz",
-  description:
-    "Les 12 signes du zodiaque, leurs traits, compatibilités, planètes et la vibe de la semaine. Trouve ton signe à partir de ta date de naissance. Gratuit, sans inscription.",
-  alternates: { canonical: "https://moomz.com/astro" },
-  openGraph: {
-    title: "Astrologie & zodiaque — moomz",
-    description:
-      "Découvre ton signe, ton élément, tes compatibilités et la vibe de ta semaine.",
-    type: "website",
-    url: "https://moomz.com/astro",
+const ASTRO_HUB_META: Record<string, { title: string; description: string; ogTitle: string; ogDesc: string }> = {
+  fr: {
+    title: "Astrologie & zodiaque — trouve ton signe · moomz",
+    description: "Les 12 signes du zodiaque, leurs traits, compatibilités, planètes et la vibe de la semaine. Trouve ton signe à partir de ta date de naissance. Gratuit, sans inscription.",
+    ogTitle: "Astrologie & zodiaque — moomz",
+    ogDesc: "Découvre ton signe, ton élément, tes compatibilités et la vibe de ta semaine.",
   },
-  twitter: { card: "summary_large_image" },
+  en: {
+    title: "Astrology & zodiac — find your sign · moomz",
+    description: "All 12 zodiac signs: traits, compatibility, planets and weekly vibe. Find your sign from your birthday. Free, no signup.",
+    ogTitle: "Astrology & zodiac — moomz",
+    ogDesc: "Find your sign, your element, your compatibility and your weekly vibe.",
+  },
+  es: {
+    title: "Astrología y zodiaco — encuentra tu signo · moomz",
+    description: "Los 12 signos del zodíaco: rasgos, compatibilidades, planetas y la vibe semanal. Encuentra tu signo a partir de tu fecha de nacimiento. Gratis, sin registro.",
+    ogTitle: "Astrología y zodiaco — moomz",
+    ogDesc: "Descubre tu signo, tu elemento, tus compatibilidades y la vibe de tu semana.",
+  },
+  it: {
+    title: "Astrologia e zodiaco — trova il tuo segno · moomz",
+    description: "I 12 segni zodiacali: tratti, compatibilità, pianeti e vibe settimanale. Trova il tuo segno dalla tua data di nascita. Gratis, senza registrazione.",
+    ogTitle: "Astrologia e zodiaco — moomz",
+    ogDesc: "Scopri il tuo segno, il tuo elemento, le tue compatibilità e la vibe della settimana.",
+  },
+  pt: {
+    title: "Astrologia e zodíaco — encontra o teu signo · moomz",
+    description: "Os 12 signos do zodíaco: traços, compatibilidades, planetas e vibe semanal. Descubra o seu signo pela data de nascimento. Grátis, sem cadastro.",
+    ogTitle: "Astrologia e zodíaco — moomz",
+    ogDesc: "Descubra o seu signo, elemento, compatibilidades e a vibe da semana.",
+  },
+  de: {
+    title: "Astrologie & Sternzeichen — finde dein Zeichen · moomz",
+    description: "Alle 12 Sternzeichen: Eigenschaften, Kompatibilität, Planeten und Wochen-Vibe. Finde dein Zeichen anhand deines Geburtstags. Kostenlos, ohne Anmeldung.",
+    ogTitle: "Astrologie & Sternzeichen — moomz",
+    ogDesc: "Finde dein Zeichen, dein Element, deine Kompatibilitäten und deinen Wochen-Vibe.",
+  },
+  ja: {
+    title: "占星術と星座 — あなたの星座を見つけよう · moomz",
+    description: "12星座の特徴、相性、支配星、今週のvibe。誕生日から星座を調べよう。無料・登録不要。",
+    ogTitle: "占星術と星座 — moomz",
+    ogDesc: "あなたの星座、エレメント、相性、今週のvibeを発見しよう。",
+  },
+  zh: {
+    title: "占星术与星座 — 找到你的星座 · moomz",
+    description: "12星座特征、相性、守护星和本周vibe。从生日查找你的星座。免费，无需注册。",
+    ogTitle: "占星术与星座 — moomz",
+    ogDesc: "发现你的星座、元素、相性和本周vibe。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale();
+  const m = ASTRO_HUB_META[locale] ?? ASTRO_HUB_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/astro" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDesc,
+      type: "website",
+      url: "https://moomz.com/astro",
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 const ELEMENT_ORDER: Element[] = ["Feu", "Terre", "Air", "Eau"];
 const ELEMENT_COLOR: Record<Element, string> = {

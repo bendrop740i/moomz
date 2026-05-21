@@ -16,6 +16,54 @@ import BelowProfileSeo from "./below-profile-seo";
 import type { AskItem } from "./ask-section";
 import { getServerSupabase } from "@/lib/supabase-server";
 import { getLocale } from "@/lib/i18n-server";
+import type { Locale } from "@/lib/i18n";
+
+const META_DESC: Record<Locale, {
+  pollFallback: (q: string) => string;
+  noSlug: string;
+  profileFallback: (username: string) => string;
+}> = {
+  fr: {
+    pollFallback: (q) => `Vote sur "${q}" — découvre ce que les gens pensent vraiment, et compare ton choix.`,
+    noSlug: "Crée ton sondage en 10 secondes.",
+    profileFallback: (u) => `Découvre les sondages de @${u}`,
+  },
+  en: {
+    pollFallback: (q) => `Vote on "${q}" — see what people really think and compare your choice.`,
+    noSlug: "Create your poll in 10 seconds.",
+    profileFallback: (u) => `Check out @${u}'s polls`,
+  },
+  es: {
+    pollFallback: (q) => `Vota en "${q}" — descubre lo que la gente piensa y compara tu elección.`,
+    noSlug: "Crea tu encuesta en 10 segundos.",
+    profileFallback: (u) => `Descubre las encuestas de @${u}`,
+  },
+  it: {
+    pollFallback: (q) => `Vota su "${q}" — scopri cosa pensa la gente e confronta la tua scelta.`,
+    noSlug: "Crea il tuo sondaggio in 10 secondi.",
+    profileFallback: (u) => `Scopri i sondaggi di @${u}`,
+  },
+  pt: {
+    pollFallback: (q) => `Vote em "${q}" — veja o que as pessoas realmente pensam e compare a tua escolha.`,
+    noSlug: "Cria a tua enquete em 10 segundos.",
+    profileFallback: (u) => `Descobre as enquetes de @${u}`,
+  },
+  de: {
+    pollFallback: (q) => `Stimme ab zu "${q}" — sieh, was andere wirklich denken, und vergleiche deine Wahl.`,
+    noSlug: "Erstell deine Umfrage in 10 Sekunden.",
+    profileFallback: (u) => `Entdecke die Umfragen von @${u}`,
+  },
+  ja: {
+    pollFallback: (q) => `「${q}」に投票しよう — みんなが本当に思っていることを見て、自分と比べよう。`,
+    noSlug: "10秒で投票を作ろう。",
+    profileFallback: (u) => `@${u} の投票をチェック`,
+  },
+  zh: {
+    pollFallback: (q) => `投票「${q}」— 看看大家真实的想法，和自己的选择对比一下。`,
+    noSlug: "10 秒内创建你的投票。",
+    profileFallback: (u) => `查看 @${u} 的投票`,
+  },
+};
 
 export const dynamic = "force-dynamic";
 
@@ -27,11 +75,14 @@ export async function generateMetadata({
   const supabase = getSupabase();
   const handle = params.slug;
 
+  const metaLocale = (getLocale() as Locale) in META_DESC ? (getLocale() as Locale) : "en";
+  const metaCopy = META_DESC[metaLocale] ?? META_DESC.en;
+
   if (/^[a-z0-9_]{3,20}$/.test(handle)) {
     const profile = await getProfileByUsername(handle);
     if (profile) {
       const title = `@${profile.username}${profile.display_name ? ` (${profile.display_name})` : ""} — moomz`;
-      const description = profile.bio ?? `Découvre les sondages de @${profile.username}`;
+      const description = profile.bio ?? metaCopy.profileFallback(profile.username);
       // Animation/character accounts are intentionally not indexed: they exist
       // to seed engagement, not to compete in search. `follow:true` so internal
       // links still pass authority.
@@ -55,8 +106,8 @@ export async function generateMetadata({
   const title = poll ? `${poll.question} — moomz` : "moomz";
 
   // Use the first explainer paragraph as the description when available — much
-  // richer + keyword-dense vs the generic "Vote en 1 clic" fallback. Google /
-  // social previews love unique meta descriptions.
+  // richer + keyword-dense vs the generic fallback. Google / social previews
+  // love unique meta descriptions.
   let description: string;
   if (poll) {
     const firstExplainer =
@@ -66,10 +117,10 @@ export async function generateMetadata({
     if (firstExplainer) {
       description = String(firstExplainer).slice(0, 200);
     } else {
-      description = `Vote sur "${poll.question}" — découvre ce que les gens pensent vraiment, et compare ton choix.`.slice(0, 200);
+      description = metaCopy.pollFallback(poll.question).slice(0, 200);
     }
   } else {
-    description = "Crée ton sondage en 10 secondes.";
+    description = metaCopy.noSlug;
   }
 
   const canonical = `https://moomz.com/${handle}`;
@@ -187,7 +238,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
               pending,
             }}
           />
-          <BelowProfileSeo profileId={profile.id} locale={null} />
+          <BelowProfileSeo profileId={profile.id} />
         </>
       );
     }

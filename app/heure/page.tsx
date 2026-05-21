@@ -15,21 +15,74 @@ import type { Locale } from "@/lib/i18n";
 // edge every minute. City info itself is static.
 export const revalidate = 60;
 
-export const metadata: Metadata = {
-  title: "Heure dans le monde — horloges live de 50 villes · moomz",
-  description:
-    "Quelle heure est-il à Paris, New York, Tokyo, Sydney ? 50+ villes avec horloge live, fuseau horaire et décalage UTC. Pas d'app, pas de pub.",
-  alternates: { canonical: "https://moomz.com/heure" },
-  openGraph: {
-    title: "Heure dans le monde — moomz",
-    description:
-      "50 villes, horloges en direct, fuseaux horaires. Tokyo, Paris, NYC, Sydney et plus.",
-    type: "website",
-    url: "https://moomz.com/heure",
-    siteName: "moomz",
+const HEURE_HUB_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {
+  fr: {
+    title: "Heure dans le monde — horloges live de 50 villes · moomz",
+    description: "Quelle heure est-il à Paris, New York, Tokyo, Sydney ? 50+ villes avec horloge live, fuseau horaire et décalage UTC. Pas d'app, pas de pub.",
+    ogTitle: "Heure dans le monde — moomz",
+    ogDesc: "50 villes, horloges en direct, fuseaux horaires. Tokyo, Paris, NYC, Sydney et plus.",
   },
-  twitter: { card: "summary_large_image" },
+  en: {
+    title: "World clock — live time for 50 cities · moomz",
+    description: "What time is it in Paris, New York, Tokyo, Sydney? 50+ cities with live clock, timezone and UTC offset. No app, no ads.",
+    ogTitle: "World clock — moomz",
+    ogDesc: "50 cities, live clocks, timezones. Tokyo, Paris, NYC, Sydney and more.",
+  },
+  es: {
+    title: "Hora mundial — relojes en vivo de 50 ciudades · moomz",
+    description: "¿Qué hora es en París, Nueva York, Tokio, Sídney? 50+ ciudades con reloj en vivo, zona horaria y desfase UTC. Sin app, sin anuncios.",
+    ogTitle: "Hora mundial — moomz",
+    ogDesc: "50 ciudades, relojes en directo, zonas horarias. Tokio, París, NYC, Sídney y más.",
+  },
+  it: {
+    title: "Ora nel mondo — orologi live di 50 città · moomz",
+    description: "Che ore sono a Parigi, New York, Tokyo, Sydney? 50+ città con orologio live, fuso orario e offset UTC. Senza app, senza pubblicità.",
+    ogTitle: "Ora nel mondo — moomz",
+    ogDesc: "50 città, orologi in diretta, fusi orari. Tokyo, Parigi, NYC, Sydney e altro.",
+  },
+  pt: {
+    title: "Hora no mundo — relógios ao vivo de 50 cidades · moomz",
+    description: "Que horas são em Paris, Nova York, Tóquio, Sydney? 50+ cidades com relógio ao vivo, fuso horário e offset UTC. Sem app, sem anúncios.",
+    ogTitle: "Hora no mundo — moomz",
+    ogDesc: "50 cidades, relógios ao vivo, fusos horários. Tóquio, Paris, NYC, Sydney e mais.",
+  },
+  de: {
+    title: "Weltzeit — Live-Uhren für 50 Städte · moomz",
+    description: "Wie spät ist es in Paris, New York, Tokio, Sydney? 50+ Städte mit Live-Uhr, Zeitzone und UTC-Versatz. Keine App, keine Werbung.",
+    ogTitle: "Weltzeit — moomz",
+    ogDesc: "50 Städte, Live-Uhren, Zeitzonen. Tokio, Paris, NYC, Sydney und mehr.",
+  },
+  ja: {
+    title: "世界時計 — 50都市のライブ時計 · moomz",
+    description: "パリ、ニューヨーク、東京、シドニーの今の時刻は？50以上の都市のライブ時計・タイムゾーン・UTC差。アプリ不要・広告なし。",
+    ogTitle: "世界時計 — moomz",
+    ogDesc: "50都市、ライブ時計、タイムゾーン。東京・パリ・NYC・シドニーなど。",
+  },
+  zh: {
+    title: "世界时钟 — 50个城市实时时间 · moomz",
+    description: "巴黎、纽约、东京、悉尼现在几点？50多个城市的实时时钟、时区和UTC偏移。无需应用，无广告。",
+    ogTitle: "世界时钟 — moomz",
+    ogDesc: "50个城市，实时时钟，时区。东京、巴黎、纽约、悉尼等。",
+  },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const m = HEURE_HUB_META[locale] ?? HEURE_HUB_META.en;
+  return {
+    title: m.title,
+    description: m.description,
+    alternates: { canonical: "https://moomz.com/heure" },
+    openGraph: {
+      title: m.ogTitle,
+      description: m.ogDesc,
+      type: "website",
+      url: "https://moomz.com/heure",
+      siteName: "moomz",
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 type HubStrings = {
   title: string;

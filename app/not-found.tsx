@@ -3,13 +3,28 @@ import Link from "next/link";
 import SeoFooter from "./seo-footer";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  title: "Page introuvable — moomz",
-  description:
-    "Ce sondage ou ce profil n'existe pas (ou plus). Crée le tien en 10 secondes sur moomz — vibe check gratuit, partage en un lien.",
-  robots: { index: false, follow: true },
+const NOT_FOUND_META: Record<Locale, { title: string; description: string }> = {
+  fr: { title: "Page introuvable — moomz", description: "Ce sondage ou ce profil n'existe pas (ou plus). Crée le tien en 10 secondes." },
+  en: { title: "Page not found — moomz", description: "This poll or profile doesn't exist (or no longer does). Create yours in 10 seconds." },
+  es: { title: "Página no encontrada — moomz", description: "Esta encuesta o perfil no existe (o ya no). Crea la tuya en 10 segundos." },
+  it: { title: "Pagina non trovata — moomz", description: "Questo sondaggio o profilo non esiste (o non esiste più). Creane uno in 10 secondi." },
+  pt: { title: "Página não encontrada — moomz", description: "Esta enquete ou perfil não existe (ou não existe mais). Crie a sua em 10 segundos." },
+  de: { title: "Seite nicht gefunden — moomz", description: "Diese Umfrage oder dieses Profil existiert nicht (mehr). Erstelle deine in 10 Sekunden." },
+  ja: { title: "ページが見つかりません — moomz", description: "この投票またはプロフィールは存在しません（または削除されました）。10秒で作成しよう。" },
+  zh: { title: "页面未找到 — moomz", description: "此投票或个人资料不存在（或已删除）。10秒创建你的投票。" },
 };
+
+export function generateMetadata(): Metadata {
+  const locale = getLocale() as Locale;
+  const meta = NOT_FOUND_META[locale] ?? NOT_FOUND_META.en;
+  return {
+    title: meta.title,
+    description: meta.description,
+    robots: { index: false, follow: true },
+  };
+}
 
 export default function NotFound() {
   const locale = getLocale();
@@ -52,14 +67,14 @@ export default function NotFound() {
           🔥 {tx("nav.discover")}
         </Link>
         <Link
-          href="/idees"
+          href={locale === "en" ? "/ideas" : "/idees"}
           className="inline-block rounded-2xl glass text-white/90 font-semibold py-4 px-6 hover:scale-[1.02] active:scale-[0.98] transition"
         >
-          💡 {locale === "en" ? "Ideas" : "Idées"}
+          💡 {t("nav.ideas", locale) === "nav.ideas" ? (locale === "en" ? "Ideas" : "Idées") : t("nav.ideas", locale)}
         </Link>
       </div>
 
-      <SeoFooter locale={locale === "en" ? "en" : "fr"} />
+      <SeoFooter locale={locale as Locale} />
     </div>
   );
 }
