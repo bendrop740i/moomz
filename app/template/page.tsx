@@ -168,7 +168,9 @@ const CATEGORY_LABEL: Record<string, Record<HubLocale, string>> = {
 export default function TemplateHub() {
   const locale = toHubLocale(getLocale());
   const t = T[locale];
-  const all = getAllTemplates();
+  // Each template is authored in one language — show only the visitor's
+  // locale so an English visitor never sees French template cards.
+  const all = getAllTemplates().filter((p) => p.locale === locale);
   const byCategory = new Map<string, typeof all>();
   for (const p of all) {
     const list = byCategory.get(p.category) ?? [];

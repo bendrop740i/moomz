@@ -189,8 +189,12 @@ export default function QuizHub() {
   const c = QUIZ_HUB_CHROME[locale];
   // Topic labels only ship FR/EN — use FR for FR visitors, EN for everyone else.
   const topicLang: "fr" | "en" = locale === "fr" ? "fr" : "en";
-  const totalQuizzes = allQuizzes.length;
-  const totalQuestions = allQuizzes.reduce((s, q) => s + q.questions.length, 0);
+  // Each quiz is authored in one language. The hub used to dump all 273
+  // quizzes (mostly FR) on every visitor — filter to the visitor's locale
+  // so an English visitor only sees the English quizzes.
+  const localeQuizzes = allQuizzes.filter((q) => q.lang === locale);
+  const totalQuizzes = localeQuizzes.length;
+  const totalQuestions = localeQuizzes.reduce((s, q) => s + q.questions.length, 0);
 
   // JSON-LD: ItemList of topics → CollectionPage
   const jsonLd = {
@@ -202,7 +206,7 @@ export default function QuizHub() {
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: totalQuizzes,
-      itemListElement: allQuizzes.slice(0, 50).map((q, i) => ({
+      itemListElement: localeQuizzes.slice(0, 50).map((q, i) => ({
         "@type": "ListItem",
         position: i + 1,
         name: q.title,
@@ -231,8 +235,9 @@ export default function QuizHub() {
         </header>
 
         {QUIZ_TOPICS.map((topic) => {
-          // No cap — link every quiz in the topic (full nav coverage).
-          const items = quizzesByTopic(topic.id);
+          // No cap — link every quiz in the topic (full nav coverage),
+          // restricted to the visitor's locale.
+          const items = quizzesByTopic(topic.id).filter((q) => q.lang === locale);
           if (items.length === 0) return null;
           return (
             <section key={topic.id} className="space-y-3" aria-labelledby={`topic-${topic.id}`}>

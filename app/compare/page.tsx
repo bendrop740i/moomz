@@ -154,7 +154,10 @@ const TOPIC_LABEL: Record<string, Record<HubLocale, string>> = {
 export default function CompareHub() {
   const locale = toHubLocale(getLocale());
   const t = T[locale];
-  const all = getAllCompares();
+  // Comparisons are authored in FR or EN only — show the visitor's
+  // language (EN for every non-FR locale) so the hub is never mixed.
+  const compareLocale = locale === "fr" ? "fr" : "en";
+  const all = getAllCompares().filter((p) => p.locale === compareLocale);
   const byTopic = new Map<string, typeof all>();
   for (const p of all) {
     const list = byTopic.get(p.topic) ?? [];
