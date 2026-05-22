@@ -1,6 +1,8 @@
+"use client";
+
 import Link from "next/link";
-import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { useLocale } from "./locale-context";
 import {
   seoHref,
   keywordHubHref,
@@ -13,6 +15,10 @@ import {
 // resolves to the version that matches the visitor's locale: keyword + quote
 // hubs have per-locale routes; the rest are single routes whose content
 // already follows the locale cookie.
+//
+// Client component on purpose: the root layout never re-renders on client-side
+// navigation, so a server `getLocale()` here would freeze the footer in the
+// first-load language. `useLocale()` is URL/cookie-aware and updates live.
 
 type FooterStrings = {
   tagline: string;
@@ -41,7 +47,7 @@ const STR: Record<Locale, FooterStrings> = {
 };
 
 export default function SiteFooter() {
-  const locale = getLocale() as Locale;
+  const locale = useLocale() as Locale;
   const s = STR[locale] ?? STR.en;
 
   // [emoji, label, href] — order = display order.
