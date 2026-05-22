@@ -4,6 +4,7 @@ import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 export function generateMetadata(): Metadata {

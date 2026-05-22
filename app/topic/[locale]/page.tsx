@@ -5,6 +5,7 @@ import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { keywordsByLocale, isKeywordLocale } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const LANG_LABEL: Record<string, string> = {

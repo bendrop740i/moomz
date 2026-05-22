@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { findQuotePage, isQuoteLocale } from "@/lib/seo/quotes/loader";
 import QuotePageView from "@/app/_seo/quote-page-view";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const OG_LOCALE: Record<string, string> = {

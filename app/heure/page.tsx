@@ -14,6 +14,7 @@ import { jsonLdHtml } from "@/lib/json-ld";
 
 // The hub displays the *current* hour for each city, so we revalidate at the
 // edge every minute. City info itself is static.
+export const dynamic = "force-dynamic";
 export const revalidate = 60;
 
 const HEURE_HUB_META: Record<Locale, { title: string; description: string; ogTitle: string; ogDesc: string }> = {

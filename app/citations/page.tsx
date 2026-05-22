@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import QuoteHub from "@/app/_seo/quote-hub";
 import { canonicalUrl } from "@/lib/i18n-server";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 export function generateMetadata(): Metadata {

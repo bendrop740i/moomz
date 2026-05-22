@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { findKeyword, isKeywordLocale } from "@/lib/seo/keywords/loader";
 import KeywordPageView from "@/app/_seo/keyword-page-view";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const OG_LOCALE: Record<string, string> = {

@@ -4,6 +4,7 @@ import { findKeyword, keywordsByLocale } from "@/lib/seo/keywords/loader";
 import KeywordPageView from "@/app/_seo/keyword-page-view";
 import { canonicalUrl } from "@/lib/i18n-server";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 export function generateStaticParams() {

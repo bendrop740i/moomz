@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { isQuoteLocale, quotesByLocale } from "@/lib/seo/quotes/loader";
 import QuoteHub from "@/app/_seo/quote-hub";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 const META: Record<string, { title: string; description: string }> = {

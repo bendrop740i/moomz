@@ -6,6 +6,7 @@ import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { jsonLdHtml } from "@/lib/json-ld";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 type FormationHubCopy = {

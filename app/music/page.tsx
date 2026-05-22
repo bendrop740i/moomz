@@ -9,6 +9,7 @@ import MusicGrid from "./music-grid";
 // Tracks rarely change — let the rendered HTML cache at the edge and
 // revalidate in the background every 5 minutes. Big speedup vs. force-dynamic
 // which re-queried Supabase on every visit.
+export const dynamic = "force-dynamic";
 export const revalidate = 300;
 
 type MusicMeta = { title: string; description: string; descShort: string; h1: string; shuffleHint: string; emptyHint: string; emptyLib: string };

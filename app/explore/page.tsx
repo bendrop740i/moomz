@@ -11,6 +11,7 @@ import {
   dictHubHref,
 } from "@/lib/seo/seo-href";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 3600;
 
 // Bare app-surface routes (cookie locale) stay as-is. Every other href on this
