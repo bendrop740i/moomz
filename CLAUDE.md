@@ -84,6 +84,7 @@ npm run dev    # http://localhost:3001 (port 3000 busy on the user's machine)
 - Deploy: push to `main` → Vercel auto-deploys.
 
 ## Conventions & decisions (must follow)
+- **⚠️ SEO pages rendering**: the root layout reads `headers()`/`cookies()` via `getLocale()`, so any page that exports `revalidate` MUST also export `dynamic = "force-dynamic"` — otherwise a runtime on-demand render throws `DYNAMIC_SERVER_USAGE` → 500. Every SEO `page.tsx` already follows this; keep it that way.
 - **Style**: SSX-cartoon, dark + colorful, "vivant". Never propose minimal/professional designs unasked.
 - **Speed**: user iterates VERY fast ("vasy", "fais tout", "ok continue"). Standing **OK to push to `main`** without asking.
 - **Multi-agent**: big content/translation batches are routinely done with many parallel agents (one per language/chunk). When translating SEO data files, instruct agents to wrap every string in backticks → avoids the recurring CJK/German quote-escaping bug.
@@ -102,6 +103,7 @@ npm run dev    # http://localhost:3001 (port 3000 busy on the user's machine)
 - AR: RTL only, no UI translation. PT quiz half of `scienze-it-pt.ts` never shipped.
 
 ## Recent changelog (newest first, one line each)
+- **2026-05-22 (hotfix)** — 18 routes SEO renvoyaient 500 (`DYNAMIC_SERVER_USAGE`) : `revalidate` sans `force-dynamic` → conflit avec le `headers()`/`cookies()` du layout. `force-dynamic` ajouté aux 18 (topic/word/mot/quotes/citations/template/formation détails + hubs). Vérifié live, `/topic/*` 500→200.
 - **2026-05-22** — Version MVP finale (6 agents) : redirections 301 en cascade réglées (liens SEO nus → URLs locale-préfixées, `/vs`, deeplinks `/?q=`, sitemap) ; nettoyage DB mig 032 (5610→5234, −garbage/−doublons/−langues sans UI) ; `bottom-nav-v2` refondu ; footer fantôme du feed réglé ; 5 `alert()`→toast `app/toast.tsx` ; headers sécurité `next.config.mjs` ; 9 fichiers morts supprimés.
 - **2026-05-22** — `/idees`+`/ideas` traduits en 8 langues : 83 pages EN `ideas` → es/it/pt/de/ja/zh (498 pages, 36 agents, `lib/seo/ideas-<lang>-<n>.ts`). `/ideas` hub locale-aware ; `ideasHubHref` per-locale ; build OOM Windows → `NODE_OPTIONS=--max-old-space-size=8192`. Surface SEO i18n complète. GA committé.
 - **2026-05-22** — `/formation` réduit 1000→100 modules/langue + traduit en 8 langues (800 modules / 800 slugs uniques, 30 agents). `getFormationByLocale` filtre par locale exacte ; `THEME_META` 8 langues ; sitemap formation localisé.
