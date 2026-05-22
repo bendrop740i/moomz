@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getFormationByLocale } from "@/lib/formation/loader";
-import { FORMATION_THEMES, themeMetaFor } from "@/lib/formation/types";
+import { FORMATION_THEMES, themeMetaFor, FORMATION_NAME } from "@/lib/formation/types";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
@@ -34,10 +34,10 @@ const COPY: Record<Locale, FormationHubCopy> = {
     ctaBtn: "Créer un moomz",
   },
   en: {
-    metaTitle: "Formation — practical guides for 17-34 year olds | moomz",
+    metaTitle: "Courses — practical guides for 17-34 year olds | moomz",
     metaDesc:
       "Self-care, fitness, money, confidence, studies, style, everyday life… hundreds of short, actionable modules to become the best version of yourself.",
-    ogTitle: "moomz Formation — level up for real",
+    ogTitle: "moomz Courses — level up for real",
     ogDesc: "Short, useful modules: self-care, fitness, money, mindset, studies, style.",
     tagline:
       "Short, actionable modules to improve — self-care, fitness, money, mindset, studies, style. Built for 17-34 year olds.",
@@ -86,10 +86,10 @@ const COPY: Record<Locale, FormationHubCopy> = {
     ctaBtn: "Criar um moomz",
   },
   de: {
-    metaTitle: "Formation — praktische Guides für 17-34-Jährige | moomz",
+    metaTitle: "Kurse — praktische Guides für 17-34-Jährige | moomz",
     metaDesc:
       "Lookmaxxing, Fitness, Geld, Selbstvertrauen, Studium, Stil, Alltag… Hunderte kurze, praxisnahe Module, um die beste Version von dir zu werden.",
-    ogTitle: "moomz Formation — wirklich weiterkommen",
+    ogTitle: "moomz Kurse — wirklich weiterkommen",
     ogDesc: "Kurze, nützliche Module: Selbstpflege, Fitness, Geld, Mindset, Studium, Stil.",
     tagline:
       "Kurze, praxisnahe Module zum Vorankommen — Selbstpflege, Fitness, Geld, Mindset, Studium, Stil. Für 17-34-Jährige.",
@@ -99,10 +99,10 @@ const COPY: Record<Locale, FormationHubCopy> = {
     ctaBtn: "moomz erstellen",
   },
   ja: {
-    metaTitle: "フォーメーション — 17〜34歳向け実践ガイド | moomz",
+    metaTitle: "コース — 17〜34歳向け実践ガイド | moomz",
     metaDesc:
       "ルックスマキシング・フィットネス・お金・自信・勉強・スタイル・日常生活… 自分の最高バージョンになるための短くて実践的なモジュールが揃っています。",
-    ogTitle: "moomzフォーメーション — 本当に成長しよう",
+    ogTitle: "moomzコース — 本当に成長しよう",
     ogDesc: "短くて役立つモジュール：セルフケア・フィットネス・お金・マインドセット・勉強・スタイル。",
     tagline:
       "成長のための短くて実践的なモジュール — セルフケア・フィットネス・お金・マインドセット・勉強・スタイル。17〜34歳向け。",
@@ -158,7 +158,7 @@ export default async function FormationHub() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Formation moomz",
+    name: `${FORMATION_NAME[locale] ?? FORMATION_NAME.en} moomz`,
     numberOfItems: all.length,
     itemListElement: all.slice(0, 100).map((it, i) => ({
       "@type": "ListItem",
@@ -178,7 +178,7 @@ export default async function FormationHub() {
 
       <header className="space-y-2 pt-2 text-center">
         <h1 className="font-display text-4xl sm:text-5xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent">
-          Formation
+          {FORMATION_NAME[locale] ?? FORMATION_NAME.en}
         </h1>
         <p className="mx-auto max-w-md text-sm text-white/60">
           {c.tagline}

@@ -16,6 +16,20 @@ export const FORMATION_THEMES = [
 
 export type FormationTheme = (typeof FORMATION_THEMES)[number];
 
+// Display name of the /formation section per visitor language. The URL stays
+// /formation; only the label changes ("Formation" is a French word — English
+// speakers should see "Courses", etc.).
+export const FORMATION_NAME: Record<string, string> = {
+  fr: "Formation",
+  en: "Courses",
+  es: "Cursos",
+  it: "Corsi",
+  pt: "Cursos",
+  de: "Kurse",
+  ja: "コース",
+  zh: "课程",
+};
+
 export type FormationSection = { heading: string; body: string };
 
 export type FormationItem = {

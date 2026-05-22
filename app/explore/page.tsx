@@ -603,13 +603,13 @@ const YOU_LINKS: Record<HubLocale, { emoji: string; label: string; href: string 
 // Formation — practical self-improvement modules for 17-34 year olds.
 const FORMATION_T: Record<HubLocale, { title: string; sub: string }> = {
   fr: { title: "Formation", sub: "Modules concrets : lookmaxxing, forme, argent, mental, études, style…" },
-  en: { title: "Formation", sub: "Practical modules: looksmaxxing, fitness, money, mindset, studies, style…" },
-  es: { title: "Formación", sub: "Módulos prácticos: estética, forma física, dinero, mentalidad, estudios…" },
-  it: { title: "Formazione", sub: "Moduli pratici: cura di sé, forma, soldi, mentalità, studio, stile…" },
-  pt: { title: "Formação", sub: "Módulos práticos: estética, forma, dinheiro, mentalidade, estudos…" },
-  de: { title: "Formation", sub: "Praktische Module: Looksmaxxing, Fitness, Geld, Mindset, Studium…" },
-  ja: { title: "フォーメーション", sub: "実践モジュール:ルックスマックス、運動、お金、メンタル、勉強…" },
-  zh: { title: "成长课程", sub: "实用模块：颜值提升、健身、赚钱、心态、学习、穿搭…" },
+  en: { title: "Courses", sub: "Practical modules: looksmaxxing, fitness, money, mindset, studies, style…" },
+  es: { title: "Cursos", sub: "Módulos prácticos: estética, forma física, dinero, mentalidad, estudios…" },
+  it: { title: "Corsi", sub: "Moduli pratici: cura di sé, forma, soldi, mentalità, studio, stile…" },
+  pt: { title: "Cursos", sub: "Módulos práticos: estética, forma, dinheiro, mentalidade, estudos…" },
+  de: { title: "Kurse", sub: "Praktische Module: Looksmaxxing, Fitness, Geld, Mindset, Studium…" },
+  ja: { title: "コース", sub: "実践モジュール:ルックスマックス、運動、お金、メンタル、勉強…" },
+  zh: { title: "课程", sub: "实用模块：颜值提升、健身、赚钱、心态、学习、穿搭…" },
 };
 
 export default function ExplorePage() {

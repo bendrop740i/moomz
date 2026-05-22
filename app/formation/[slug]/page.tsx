@@ -6,7 +6,7 @@ import {
   getFormationBySlug,
   getFormationByTheme,
 } from "@/lib/formation/loader";
-import { themeMetaFor } from "@/lib/formation/types";
+import { themeMetaFor, FORMATION_NAME } from "@/lib/formation/types";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
@@ -88,12 +88,13 @@ export function generateMetadata({
 }: {
   params: { slug: string };
 }): Metadata {
+  const name = FORMATION_NAME[getLocale()] ?? FORMATION_NAME.en;
   const it = getFormationBySlug(params.slug);
-  if (!it) return { title: "Formation — moomz" };
+  if (!it) return { title: `${name} — moomz` };
   const description = it.intro.slice(0, 200);
   const canonical = canonicalUrl();
   return {
-    title: `${it.title} | Formation moomz`,
+    title: `${it.title} | ${name} moomz`,
     description,
     alternates: { canonical },
     openGraph: { title: it.title, description, type: "article", url: canonical },
@@ -155,7 +156,7 @@ export default async function FormationItemPage({
 
       <nav className="flex items-center gap-1.5 text-xs text-white/45">
         <Link href="/formation" className="hover:text-white/80 transition">
-          Formation
+          {FORMATION_NAME[locale] ?? FORMATION_NAME.en}
         </Link>
         <span aria-hidden>/</span>
         <span className="text-white/70">
