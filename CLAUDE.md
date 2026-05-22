@@ -9,7 +9,16 @@
 - **Stage 4 — `/formation` traduit en anglais (`c89c2eb`)** : les 1000 modules étaient 100 % FR sans champ `locale`. Traduits FR→EN via 18 agents parallèles → `lib/formation/data/*-en*.json` (1000 modules `locale:"en"`, slugs anglais). `FormationItem.locale` ajouté ; loader `getFormationByLocale()` (FR→modules FR, toute autre locale→EN) ; `THEME_META_EN` + `themeMetaFor()`. `/en/formation` rend désormais 100 % anglais. 2000 pages formation indexables (1000 FR + 1000 EN).
 - **Stage 3 — sitemap + hreflang + canonical (`38e408c` `8d9f2cc` `ded7478`)** : `app/sitemap.ts` réécrit — chaque hub SEO émet ses 8 URLs `/{loc}/<route>` reliées par `hreflang` (~14k URLs, ~4,9k liens hreflang). `middleware.ts` expose `x-moomz-path` ; helper `canonicalUrl()` ; les 54 pages SEO ont `canonical`/`og:url` préfixés par langue (`/en/quiz` self-canonical vers `/en/quiz`). Migration i18n **fonctionnellement complète**.
 - **Post-migration (2026-05-22)** : (a) **URLs SEO localisées** — les 7 routes au nom français servent un segment localisé (`/en/courses` `/es/herramientas` `/de/wetter`…) via `lib/seo/route-names.ts` + middleware ; (b) **votes fake supprimés** — mig 028, les 2 crons `fake_vote_burst` coupés, 23 813 votes bots purgés (191 humains restants), compteurs profil recalculés, fonction dropée ; (c) **auto-traduction des sondages** — mig 029 `polls.translations` jsonb, `lib/translate.ts` (MyMemory gratuit) traduit question+options à la création, affichées dans la langue du lecteur ; (d) **anti-keysmash renforcé** — `looksLikeNoise` rejette aussi les suites clavier (qwerty/azerty/abcdef…).
-- **Reste à faire** : liens de nav internes vers URLs nues (301 — micro-optim) ; Stage 5 (contenu es/it/pt/de/ja/zh) ; **chantier suivant validé : feed Discover plein écran immersif** (cœur du produit — voir l'audit produit). Plan migration : `~/.claude/plans/fluffy-launching-rivest.md`.
+- **Reste à faire (mineur)** : liens de nav internes vers URLs nues (301 — micro-optim) ; Stage 5 (contenu es/it/pt/de/ja/zh — repli EN/FR aujourd'hui).
+
+## 🎯 PROCHAIN CHANTIER — feed Discover plein écran immersif
+Validé avec le user (audit produit 2026-05-22). **C'est LE cœur produit.** Transformer `/discover` (snap-scroll actuel) en expérience TikTok-like pour les opinions :
+1. **Cartes sondage plein écran** — 100 vh, 1 question = 1 écran immersif.
+2. **Vote sticky pouce** — options ancrées en bas, atteignables au pouce.
+3. **Animation de révélation** après vote — barres qui se remplissent + verdict émotionnel (« 🔥 t'es un rebelle » / « avec la majorité »).
+4. **Swipe vertical fluide** + préchargement de la carte suivante.
+5. **CTA création** intercalé tous les ~5 sondages.
+Fichiers : `app/discover/discover-feed.tsx`, `app/discover/page.tsx`, `app/poll-card.tsx`. Approche : **mode plan → exécution par étapes vérifiées**. Garder l'esprit SSX-cartoon, dark, Gen Z, mobile-first. Positioning retenu : « moomz — the opinion engine » (TikTok pour les opinions). Ne PAS ajouter follower system / commentaires (déclinés : tuent l'anonyme-rapide).
 
 **Session précédente — 2026-05-20, UX/IA refonte — navigation unifiée (`28aef98`).** User: "trop le bazar" — 4 systèmes de nav qui se contredisaient, prompts install/notif empilés en bas, aucune structure d'app claire. Corrigé en une passe (3 agents parallèles + cœur à la main).
 
