@@ -6,12 +6,10 @@
 // Also receives Web Push events (Daily Moomz, ASK pings, streak warnings).
 // Version bump invalidates old caches on next activate.
 
-const VERSION = "moomz-v3-swr";
+const VERSION = "moomz-v4-rsc";
 const HTML_CACHE = `${VERSION}-html`;
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
-
-const HTML_NETWORK_TIMEOUT_MS = 1500;
 
 const PRECACHE_PATHS = ["/", "/icon-192.svg", "/icon-512.svg", "/manifest.webmanifest"];
 
@@ -72,45 +70,29 @@ function isAllowedCrossOrigin(url) {
   return CROSS_ORIGIN_ALLOW.some((host) => url.hostname.endsWith(host));
 }
 
-// HTML strategy: race network vs 1500ms timeout, fall back to cached HTML and
-// revalidate in the background. Never serve cached HTML for non-2xx network
-// responses (we still return the bad response so the user sees the real error).
+// HTML strategy: strict network-first. Page content is dynamic — locale, the
+// feed, vote counts all depend on a live server render — so the cache is an
+// OFFLINE fallback ONLY. It is never served just because the network is slow:
+// doing that surfaced stale content (most visibly, the previous language right
+// after a language switch). Online visitors always get a fresh render.
 async function htmlStrategy(req) {
   const cache = await caches.open(HTML_CACHE);
-  const cached = await cache.match(req);
-
-  const networkPromise = fetch(req)
-    .then((res) => {
-      if (res && res.ok && res.type !== "opaque") {
-        cache.put(req, res.clone()).catch(() => {});
-      }
-      return res;
-    })
-    .catch(() => null);
-
-  // Race network against a timeout. If network wins with a 2xx, use it.
-  const timed = new Promise((resolve) => {
-    setTimeout(() => resolve(null), HTML_NETWORK_TIMEOUT_MS);
-  });
-
-  const raced = await Promise.race([networkPromise, timed]);
-  if (raced && raced.ok) return raced;
-
-  // Either network was slow OR returned non-2xx. Prefer cache if we have it,
-  // and keep the network promise running so the cache updates in background.
-  if (cached) {
-    // background revalidate (already running via networkPromise)
-    return cached;
+  try {
+    const res = await fetch(req);
+    if (res && res.ok && res.type !== "opaque") {
+      cache.put(req, res.clone()).catch(() => {});
+    }
+    // Return whatever the network gave — even a non-2xx — so the user sees
+    // the real response, never a stale cached page masking it.
+    return res;
+  } catch {
+    // Network failed (genuinely offline) — fall back to cache.
+    const cached = await cache.match(req);
+    if (cached) return cached;
+    const shell = await cache.match("/");
+    if (shell) return shell;
+    return new Response("offline", { status: 503, statusText: "offline" });
   }
-
-  // No cache: wait for network to settle whatever it does.
-  const finalRes = await networkPromise;
-  if (finalRes) return finalRes;
-
-  // Total offline: last-resort fallback to root shell.
-  const shell = await cache.match("/");
-  if (shell) return shell;
-  return new Response("offline", { status: 503, statusText: "offline" });
 }
 
 // Cache-first for static assets. Versioned cache means old build assets vanish.
@@ -160,6 +142,12 @@ self.addEventListener("fetch", (event) => {
 
   // Skip the SW file itself so updates always land.
   if (url.pathname === "/sw.js") return;
+
+  // Next.js RSC navigation / prefetch payloads are dynamic — never cache them.
+  // Serving a stale RSC breaks client-side navigation: a language switch (or
+  // any nav) would render the previous, cached language until a hard reload.
+  // Let these go straight to the network.
+  if (req.headers.get("RSC") || url.searchParams.has("_rsc")) return;
 
   // Cross-origin: only handle allow-listed hosts via SWR. Let the rest pass through.
   if (url.origin !== self.location.origin) {

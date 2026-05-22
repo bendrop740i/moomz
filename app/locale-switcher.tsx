@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { LOCALES, LOCALE_NAMES, type Locale } from "@/lib/i18n";
 import { switchLocalePath } from "@/lib/locale-routing";
 import { setLocale } from "./actions";
@@ -25,7 +25,6 @@ export default function LocaleSwitcher({
   placement?: "up" | "down";
 }) {
   const current = useLocale();
-  const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
@@ -54,11 +53,14 @@ export default function LocaleSwitcher({
     if (l === current) return;
     // Persist the choice (homepage + app surface read the cookie).
     await setLocale(l);
-    // The SEO surface carries the locale in the URL — switching language must
-    // navigate to the equivalent localized URL, not just refresh the old one.
+    // Hard navigation — a language switch must re-render EVERYTHING (the page
+    // AND the persistent chrome: header, bottom nav, footer) from the server
+    // in the new language. router.push()/refresh() left stale client state and
+    // could be served a stale cached RSC payload, so the page stayed in the
+    // old language until a manual reload. A full navigation is bulletproof.
     const target = switchLocalePath(pathname, l);
-    if (target) router.push(target);
-    else router.refresh();
+    if (target) window.location.assign(target);
+    else window.location.reload();
   };
 
   return (
