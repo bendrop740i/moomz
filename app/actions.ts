@@ -9,6 +9,7 @@ import { buildPollSlug, randomSuffix } from "@/lib/slug";
 import { t } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
 import { ALL_LOCALIZED_SEGMENTS } from "@/lib/seo/route-names";
+import { translatePollSafe } from "@/lib/translate";
 import { evaluateFromMetrics } from "@/lib/achievements/engine";
 
 // Shared cookie defaults: secure in prod, sameSite=lax everywhere.
@@ -94,6 +95,21 @@ function looksLikeNoise(text: string, minLen = 2): boolean {
     const letters = (t.match(/\p{L}/gu) ?? []).length;
     if (letters / t.length < 0.3) return true;
   }
+  // Keyboard mash / straight sequences: "qwerty", "asdfgh", "azerty", "abcdef",
+  // "zxcvbn", "123456" — a string that's just a run along a keyboard row or the
+  // alphabet. Real questions never strip down to a row substring.
+  const ROWS = [
+    "azertyuiop", "qsdfghjklm", "wxcvbn", // AZERTY
+    "qwertyuiop", "asdfghjkl", "zxcvbnm", // QWERTY
+    "abcdefghijklmnopqrstuvwxyz", "0123456789", // alphabet / digits
+  ];
+  const seqs = ROWS.flatMap((r) => [r, [...r].reverse().join("")]);
+  const norm = t.toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (norm.length >= 5 && seqs.some((s) => s.includes(norm))) return true;
+  for (const tok of t.toLowerCase().split(/\s+/)) {
+    const w = tok.replace(/[^a-z0-9]/g, "");
+    if (w.length >= 5 && seqs.some((s) => s.includes(w))) return true;
+  }
   return false;
 }
 
@@ -168,6 +184,11 @@ export async function createPoll(formData: FormData) {
     ? langCookie!
     : "fr";
 
+  // Auto-translate the poll into the other 7 locales (free machine
+  // translation). Capped at a few seconds and best-effort — a failure just
+  // means the poll shows in its original language.
+  const translations = await translatePollSafe(question, optionsRaw, lang);
+
   const { error } = await supabase.from("polls").insert({
     slug,
     question,
@@ -175,6 +196,7 @@ export async function createPoll(formData: FormData) {
     profile_id: profileId,
     topics,
     lang,
+    translations,
   });
   if (error) throw new Error(error.message);
 

@@ -99,11 +99,16 @@ export async function generateMetadata({
 
   const { data: poll } = await supabase
     .from("polls")
-    .select("question,explainer,lang,options")
+    .select("question,explainer,lang,options,translations")
     .eq("slug", handle)
-    .maybeSingle<{ question: string; explainer: Record<string, string> | null; lang: string | null; options: string[] }>();
+    .maybeSingle<{ question: string; explainer: Record<string, string> | null; lang: string | null; options: string[]; translations: Record<string, { question: string; options: string[] }> | null }>();
 
-  const title = poll ? `${poll.question} — moomz` : "moomz";
+  // Show the question in the viewer's language if an auto-translation exists.
+  const metaQuestion =
+    (poll?.lang && poll.lang !== metaLocale
+      ? poll.translations?.[metaLocale]?.question
+      : null) || poll?.question;
+  const title = poll ? `${metaQuestion} — moomz` : "moomz";
 
   // Use the first explainer paragraph as the description when available — much
   // richer + keyword-dense vs the generic fallback. Google / social previews
@@ -248,7 +253,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   // pulled to drive the BelowPollSeo similar-polls query + topic pills.
   const { data: poll } = await supabase
     .from("polls")
-    .select("id,slug,question,options,created_at,explainer,lang,topics,is_dead,profile_id,boost_until")
+    .select("id,slug,question,options,created_at,explainer,lang,topics,is_dead,profile_id,boost_until,translations")
     .eq("slug", handle)
     .maybeSingle<
       Poll & {
@@ -256,10 +261,27 @@ export default async function Page({ params }: { params: { slug: string } }) {
         is_dead: boolean | null;
         profile_id: string | null;
         boost_until: string | null;
+        translations: Record<string, { question: string; options: string[] }> | null;
       }
     >();
 
   if (!poll) notFound();
+
+  // Auto-translation: show the poll in the viewer's language when a machine
+  // translation exists. Votes still record by option index (order preserved).
+  const viewerLocale = getLocale();
+  const tr =
+    poll.lang && poll.lang !== viewerLocale && poll.translations
+      ? poll.translations[viewerLocale]
+      : null;
+  const displayQuestion = tr?.question?.trim() ? tr.question : poll.question;
+  const displayOptions =
+    tr?.options && tr.options.length === poll.options.length ? tr.options : poll.options;
+  const AUTO_TR_LABEL: Record<string, string> = {
+    fr: "Traduit automatiquement", en: "Auto-translated", es: "Traducido automáticamente",
+    it: "Tradotto automaticamente", pt: "Traduzido automaticamente", de: "Automatisch übersetzt",
+    ja: "自動翻訳", zh: "自动翻译",
+  };
 
   // NOTE: poll + votes are sequential because the votes lookup needs poll.id.
   // Could be combined into one round-trip via a SQL view that JOINs polls and
@@ -398,11 +420,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
         />
       )}
       <MarkSeenIfOwner slug={poll.slug} voteCount={total} />
+      {tr && (
+        <p className="-mb-3 text-center text-[11px] text-white/35">
+          🌐 {AUTO_TR_LABEL[viewerLocale] ?? AUTO_TR_LABEL.en}
+        </p>
+      )}
       <VoteClient
         pollId={poll.id}
         slug={poll.slug}
-        question={poll.question}
-        options={poll.options}
+        question={displayQuestion}
+        options={displayOptions}
         counts={counts}
         total={total}
         alreadyVoted={alreadyVoted}
