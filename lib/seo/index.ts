@@ -32,6 +32,42 @@ import { extras } from "./extras";
 import { read } from "./read";
 import { seoVs } from "./seo-vs";
 import { seoFormats } from "./seo-formats";
+import { ideasEs1 } from "./ideas-es-1";
+import { ideasEs2 } from "./ideas-es-2";
+import { ideasEs3 } from "./ideas-es-3";
+import { ideasEs4 } from "./ideas-es-4";
+import { ideasEs5 } from "./ideas-es-5";
+import { ideasEs6 } from "./ideas-es-6";
+import { ideasIt1 } from "./ideas-it-1";
+import { ideasIt2 } from "./ideas-it-2";
+import { ideasIt3 } from "./ideas-it-3";
+import { ideasIt4 } from "./ideas-it-4";
+import { ideasIt5 } from "./ideas-it-5";
+import { ideasIt6 } from "./ideas-it-6";
+import { ideasPt1 } from "./ideas-pt-1";
+import { ideasPt2 } from "./ideas-pt-2";
+import { ideasPt3 } from "./ideas-pt-3";
+import { ideasPt4 } from "./ideas-pt-4";
+import { ideasPt5 } from "./ideas-pt-5";
+import { ideasPt6 } from "./ideas-pt-6";
+import { ideasDe1 } from "./ideas-de-1";
+import { ideasDe2 } from "./ideas-de-2";
+import { ideasDe3 } from "./ideas-de-3";
+import { ideasDe4 } from "./ideas-de-4";
+import { ideasDe5 } from "./ideas-de-5";
+import { ideasDe6 } from "./ideas-de-6";
+import { ideasJa1 } from "./ideas-ja-1";
+import { ideasJa2 } from "./ideas-ja-2";
+import { ideasJa3 } from "./ideas-ja-3";
+import { ideasJa4 } from "./ideas-ja-4";
+import { ideasJa5 } from "./ideas-ja-5";
+import { ideasJa6 } from "./ideas-ja-6";
+import { ideasZh1 } from "./ideas-zh-1";
+import { ideasZh2 } from "./ideas-zh-2";
+import { ideasZh3 } from "./ideas-zh-3";
+import { ideasZh4 } from "./ideas-zh-4";
+import { ideasZh5 } from "./ideas-zh-5";
+import { ideasZh6 } from "./ideas-zh-6";
 
 export const allPages: SeoPage[] = [
   ...idees1,
@@ -67,6 +103,12 @@ export const allPages: SeoPage[] = [
   ...read,
   ...seoVs,
   ...seoFormats,
+  ...ideasEs1, ...ideasEs2, ...ideasEs3, ...ideasEs4, ...ideasEs5, ...ideasEs6,
+  ...ideasIt1, ...ideasIt2, ...ideasIt3, ...ideasIt4, ...ideasIt5, ...ideasIt6,
+  ...ideasPt1, ...ideasPt2, ...ideasPt3, ...ideasPt4, ...ideasPt5, ...ideasPt6,
+  ...ideasDe1, ...ideasDe2, ...ideasDe3, ...ideasDe4, ...ideasDe5, ...ideasDe6,
+  ...ideasJa1, ...ideasJa2, ...ideasJa3, ...ideasJa4, ...ideasJa5, ...ideasJa6,
+  ...ideasZh1, ...ideasZh2, ...ideasZh3, ...ideasZh4, ...ideasZh5, ...ideasZh6,
 ];
 
 export function pagesByCategory(category: Category): SeoPage[] {

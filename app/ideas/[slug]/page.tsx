@@ -5,6 +5,11 @@ import SeoPageView from "@/app/_seo/seo-page";
 import { ArticleJsonLd, FaqJsonLd } from "@/app/_seo/json-ld";
 import { canonicalUrl } from "@/lib/i18n-server";
 
+const OG_LOCALE: Record<string, string> = {
+  fr: "fr_FR", en: "en_US", es: "es_ES", it: "it_IT",
+  pt: "pt_BR", de: "de_DE", ja: "ja_JP", zh: "zh_CN",
+};
+
 export function generateStaticParams() {
   return pagesByCategory("ideas").map((p) => ({ slug: p.slug }));
 }
@@ -23,7 +28,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       url,
       type: "article",
       siteName: "moomz",
-      locale: page.locale === "fr" ? "fr_FR" : "en_US",
+      locale: OG_LOCALE[page.locale] ?? "en_US",
     },
     twitter: {
       card: "summary_large_image",

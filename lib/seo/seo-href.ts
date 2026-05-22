@@ -28,10 +28,11 @@ export function quoteHubHref(locale: Locale): string {
   return `/citation/${locale}`;
 }
 
-// Poll-ideas section: /idees and /ideas are fixed fr/en twin routes; every
-// other locale falls back to the English hub until per-locale ideas ship.
+// Poll-ideas section: French lives at /fr/idees; every other locale is served
+// by the /ideas route, which is locale-aware (es/it/pt/de/ja/zh translations
+// carry category "ideas" — see lib/seo/ideas-*.ts).
 export function ideasHubHref(locale: Locale): string {
-  return locale === "fr" ? "/fr/idees" : "/en/ideas";
+  return locale === "fr" ? "/fr/idees" : `/${locale}/ideas`;
 }
 
 // Dictionary is EN + FR only (define / definition twin).

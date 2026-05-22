@@ -124,6 +124,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </LocaleProvider>
         <Analytics />
         <SpeedInsights />
+        <Script
+          id="ga-loader"
+          async
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-8BFV1DWKY9"
+        />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8BFV1DWKY9');
+          `}
+        </Script>
         {process.env.NEXT_PUBLIC_ADSENSE_CLIENT && (
           <Script
             id="adsbygoogle-loader"
