@@ -1,4 +1,10 @@
 import Link from "next/link";
+import {
+  seoHref,
+  keywordHubHref,
+  quoteHubHref,
+  ideasHubHref,
+} from "@/lib/seo/seo-href";
 
 // Shared cross-hub navigation strip rendered at the top of every SEO surface
 // (keyword hubs + detail pages, templates, quiz, compare, tools, ideas, guides,
@@ -131,36 +137,28 @@ const EMOJI: Record<HubKey, string> = {
   quotes: "💬",
 };
 
-// The keyword hub URL differs per locale: FR/EN have dedicated routes, the
-// other six share /topic/<locale>.
-function keywordHub(locale: HubLocale): string {
-  if (locale === "fr") return "/mot";
-  if (locale === "en") return "/word";
-  return `/topic/${locale}`;
-}
-
 function hubHref(key: HubKey, locale: HubLocale): string {
   switch (key) {
     case "explore":
-      return "/explore";
+      return seoHref("explore", locale);
     case "ideas":
-      return locale === "fr" ? "/idees" : "/ideas";
+      return ideasHubHref(locale);
     case "keywords":
-      return keywordHub(locale);
+      return keywordHubHref(locale);
     case "templates":
-      return "/template";
+      return seoHref("template", locale);
     case "quiz":
-      return "/quiz";
+      return seoHref("quiz", locale);
     case "compare":
-      return "/compare";
+      return seoHref("compare", locale);
     case "tools":
-      return "/outils";
+      return seoHref("outils", locale);
     case "guides":
-      return "/guides";
+      return seoHref("guides", locale);
     case "blog":
-      return "/blog";
+      return seoHref("blog", locale);
     case "quotes":
-      return locale === "fr" ? "/citations" : "/quotes";
+      return quoteHubHref(locale);
   }
 }
 
@@ -248,7 +246,7 @@ export default function HubNav({
               return (
                 <li key={l.code}>
                   <Link
-                    href={keywordHub(l.code)}
+                    href={keywordHubHref(l.code)}
                     aria-current={active ? "page" : undefined}
                     className={
                       active

@@ -2,21 +2,31 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav from "@/app/_seo/hub-nav";
-import { findCompare, getAllCompares } from "@/lib/seo/compare/loader";
-import { canonicalUrl } from "@/lib/i18n-server";
+import { findCompare } from "@/lib/seo/compare/loader";
+import type { CompareLocale } from "@/lib/seo/compare/types";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
-export const revalidate = 3600;
+// Comparisons exist in 8 languages keyed by visitor locale — render dynamically
+// so the middleware-set locale picks the right translation per request.
+export const dynamic = "force-dynamic";
 
-export function generateStaticParams() {
-  return getAllCompares().map((p) => ({ slug: p.slug }));
-}
+const OG_LOCALE: Record<CompareLocale, string> = {
+  fr: "fr_FR",
+  en: "en_US",
+  es: "es_ES",
+  it: "it_IT",
+  pt: "pt_BR",
+  de: "de_DE",
+  ja: "ja_JP",
+  zh: "zh_CN",
+};
 
 export function generateMetadata({
   params,
 }: {
   params: { slug: string };
 }): Metadata {
-  const page = findCompare(params.slug);
+  const page = findCompare(params.slug, getLocale() as CompareLocale);
   if (!page) return {};
   const url = canonicalUrl();
   return {
@@ -29,7 +39,7 @@ export function generateMetadata({
       url,
       type: "article",
       siteName: "moomz",
-      locale: page.locale === "fr" ? "fr_FR" : "en_US",
+      locale: OG_LOCALE[page.locale] ?? "en_US",
     },
     twitter: {
       card: "summary_large_image",
@@ -38,6 +48,36 @@ export function generateMetadata({
     },
   };
 }
+
+// UI chrome localized for all 8 visitor locales. The comparison data itself
+// (intro / verdict / highlights / faq) is translated in the JSON per locale.
+const DETAIL_T: Record<
+  CompareLocale,
+  {
+    back: string;
+    wins: string;
+    tie: string;
+    headToHead: string;
+    verdict: string;
+    pick: string;
+    faq: string;
+    cta: string;
+    related: string;
+    updated: string;
+    feature: string;
+    ctaCardTitle: string;
+    ctaCardSub: string;
+  }
+> = {
+  fr: { back: "← toutes les comparaisons", wins: " gagne", tie: "égalité", headToHead: "Face à face :", verdict: "Verdict", pick: "Choisis", faq: "FAQ", cta: "Lance ton sondage moomz gratuit →", related: "À comparer aussi", updated: "Mis à jour le", feature: "Critère", ctaCardTitle: "Lance ton sondage moomz", ctaCardSub: "10 secondes, anonyme, gratuit" },
+  en: { back: "← all comparisons", wins: " wins", tie: "tie", headToHead: "Head-to-head:", verdict: "Verdict", pick: "Pick", faq: "Frequently asked", cta: "Create your free moomz poll →", related: "Compare also", updated: "Last updated", feature: "Feature", ctaCardTitle: "Create your free moomz poll", ctaCardSub: "10 seconds, anonymous, free" },
+  es: { back: "← todas las comparativas", wins: " gana", tie: "empate", headToHead: "Cara a cara:", verdict: "Veredicto", pick: "Elige", faq: "Preguntas frecuentes", cta: "Crea tu encuesta moomz gratis →", related: "Comparar también", updated: "Última actualización", feature: "Criterio", ctaCardTitle: "Crea tu encuesta moomz gratis", ctaCardSub: "10 segundos, anónima, gratis" },
+  it: { back: "← tutti i confronti", wins: " vince", tie: "pareggio", headToHead: "Testa a testa:", verdict: "Verdetto", pick: "Scegli", faq: "Domande frequenti", cta: "Crea il tuo sondaggio moomz gratis →", related: "Da confrontare anche", updated: "Ultimo aggiornamento", feature: "Criterio", ctaCardTitle: "Crea il tuo sondaggio moomz", ctaCardSub: "10 secondi, anonimo, gratis" },
+  pt: { back: "← todas as comparações", wins: " vence", tie: "empate", headToHead: "Frente a frente:", verdict: "Veredito", pick: "Escolhe", faq: "Perguntas frequentes", cta: "Cria a tua sondagem moomz grátis →", related: "Comparar também", updated: "Última atualização", feature: "Critério", ctaCardTitle: "Cria a tua sondagem moomz", ctaCardSub: "10 segundos, anónima, grátis" },
+  de: { back: "← alle Vergleiche", wins: " gewinnt", tie: "Unentschieden", headToHead: "Direktvergleich:", verdict: "Fazit", pick: "Wähle", faq: "Häufige Fragen", cta: "Erstelle deine kostenlose moomz-Umfrage →", related: "Auch vergleichen", updated: "Zuletzt aktualisiert", feature: "Kriterium", ctaCardTitle: "Erstelle deine moomz-Umfrage", ctaCardSub: "10 Sekunden, anonym, kostenlos" },
+  ja: { back: "← すべての比較", wins: " の勝ち", tie: "引き分け", headToHead: "直接対決：", verdict: "結論", pick: "選ぶなら", faq: "よくある質問", cta: "無料で moomz 投票を作成 →", related: "こちらも比較", updated: "最終更新", feature: "項目", ctaCardTitle: "無料で moomz 投票を作成", ctaCardSub: "10秒、匿名、無料" },
+  zh: { back: "← 所有对比", wins: " 胜出", tie: "平局", headToHead: "正面对决：", verdict: "结论", pick: "选择", faq: "常见问题", cta: "免费创建你的 moomz 投票 →", related: "也来对比", updated: "最后更新", feature: "对比项", ctaCardTitle: "免费创建你的 moomz 投票", ctaCardSub: "10 秒、匿名、免费" },
+};
 
 const WINNER_STYLES: Record<
   "a" | "b" | "tie",
@@ -65,41 +105,10 @@ export default function ComparePage({
 }: {
   params: { slug: string };
 }) {
-  const page = findCompare(params.slug);
+  const page = findCompare(params.slug, getLocale() as CompareLocale);
   if (!page) notFound();
 
-  const t =
-    page.locale === "fr"
-      ? {
-          back: "← toutes les comparaisons",
-          aWins: " gagne",
-          bWins: " gagne",
-          tie: "égalité",
-          headToHead: "Face à face :",
-          verdict: "Verdict",
-          pickA: "Choisis",
-          pickB: "Choisis",
-          faq: "FAQ",
-          cta: "Lance ton sondage moomz gratuit →",
-          related: "À comparer aussi",
-          updated: "Mis à jour le",
-          feature: "Critère",
-        }
-      : {
-          back: "← all comparisons",
-          aWins: " wins",
-          bWins: " wins",
-          tie: "tie",
-          headToHead: "Head-to-head:",
-          verdict: "Verdict",
-          pickA: "Pick",
-          pickB: "Pick",
-          faq: "Frequently asked",
-          cta: "Create your free moomz poll →",
-          related: "Compare also",
-          updated: "Last updated",
-          feature: "Feature",
-        };
+  const t = DETAIL_T[page.locale] ?? DETAIL_T.en;
 
   const aWins = page.highlights.filter((h) => h.winner === "a").length;
   const bWins = page.highlights.filter((h) => h.winner === "b").length;
@@ -107,9 +116,9 @@ export default function ComparePage({
 
   const winnerLabel = (w: "a" | "b" | "tie") =>
     w === "a"
-      ? `${page.a.name}${t.aWins}`
+      ? `${page.a.name}${t.wins}`
       : w === "b"
-      ? `${page.b.name}${t.bWins}`
+      ? `${page.b.name}${t.wins}`
       : t.tie;
 
   return (
@@ -117,7 +126,10 @@ export default function ComparePage({
       <HubNav locale={page.locale} current="compare" />
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href="/compare" className="hover:text-white transition">
+          <Link
+            href={`/${page.locale}/compare`}
+            className="hover:text-white transition"
+          >
             {t.back}
           </Link>
         </div>
@@ -153,16 +165,9 @@ export default function ComparePage({
       >
         <div className="flex items-center justify-between gap-3">
           <div>
-            <div className="font-display text-xl">
-              {page.locale === "fr"
-                ? "Lance ton sondage moomz"
-                : "Create your free moomz poll"}
-            </div>
+            <div className="font-display text-xl">{t.ctaCardTitle}</div>
             <div className="text-xs text-white/50">
-              moomz.com —{" "}
-              {page.locale === "fr"
-                ? "10 secondes, anonyme, gratuit"
-                : "10 seconds, anonymous, free"}
+              moomz.com — {t.ctaCardSub}
             </div>
           </div>
           <span className="text-2xl">→</span>
@@ -230,7 +235,7 @@ export default function ComparePage({
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
           <div className="glass rounded-2xl border border-pink-400/20 p-4">
             <div className="text-xs uppercase tracking-widest text-pink-200 mb-2">
-              {t.pickA} {page.a.name}
+              {t.pick} {page.a.name}
             </div>
             <p className="text-sm text-white/80 leading-relaxed">
               {page.pickA}
@@ -238,7 +243,7 @@ export default function ComparePage({
           </div>
           <div className="glass rounded-2xl border border-violet-400/20 p-4">
             <div className="text-xs uppercase tracking-widest text-violet-200 mb-2">
-              {t.pickB} {page.b.name}
+              {t.pick} {page.b.name}
             </div>
             <p className="text-sm text-white/80 leading-relaxed">
               {page.pickB}
@@ -271,7 +276,7 @@ export default function ComparePage({
             {page.related.map((slug) => (
               <li key={slug}>
                 <Link
-                  href={`/compare/${slug}`}
+                  href={`/${page.locale}/compare/${slug}`}
                   className="rounded-full bg-white/5 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:bg-white/10 transition"
                 >
                   {slug.replace(/-vs-/g, " vs ").replace(/-/g, " ")}

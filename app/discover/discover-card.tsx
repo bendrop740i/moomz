@@ -76,6 +76,9 @@ export default function DiscoverCard({
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
   const [skipped, setSkipped] = useState(false);
   const [shareToast, setShareToast] = useState(false);
+  // Double-tap to vote: the first tap on an option arms it, a second tap on
+  // the same option commits — guards the immersive feed against mis-taps.
+  const [armed, setArmed] = useState<number | null>(null);
   // Latched true the first time the card scrolls into view — drives the
   // one-shot entrance animation. Card 1 is on screen at load so it starts
   // already entered (no opacity flash; the page's own fade-up covers it).
@@ -87,6 +90,8 @@ export default function DiscoverCard({
   // Mirror of `isVisible` so the post-vote auto-advance can read it without
   // re-arming a timeout on every visibility flip.
   const isVisibleRef = useRef(false);
+  // Pending auto-disarm for the double-tap arming state.
+  const disarmTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
@@ -98,6 +103,13 @@ export default function DiscoverCard({
   useEffect(() => {
     isVisibleRef.current = isVisible;
   }, [isVisible]);
+
+  // Clear the double-tap disarm timer on unmount.
+  useEffect(() => {
+    return () => {
+      if (disarmTimerRef.current) clearTimeout(disarmTimerRef.current);
+    };
+  }, []);
 
   // This browser's voter id — so the realtime channel ignores echoes of our
   // own vote (we already counted it optimistically).
@@ -263,6 +275,24 @@ export default function DiscoverCard({
     });
   };
 
+  // First tap arms an option; a second tap on the same option commits the
+  // vote. A quick real-world double-tap fires both in one motion.
+  const tapOption = (i: number) => {
+    if (voted !== null || pending) return;
+    if (disarmTimerRef.current) {
+      clearTimeout(disarmTimerRef.current);
+      disarmTimerRef.current = null;
+    }
+    if (armed === i) {
+      vote(i);
+      return;
+    }
+    haptic("tap");
+    setArmed(i);
+    // Auto-disarm so a stray tap never leaves an option primed indefinitely.
+    disarmTimerRef.current = setTimeout(() => setArmed(null), 3500);
+  };
+
   const handleSkip = () => {
     if (skipped) return;
     haptic("tap");
@@ -273,7 +303,12 @@ export default function DiscoverCard({
   };
 
   const share = async () => {
-    const url = `${window.location.origin}/${slug}`;
+    // Post-vote shares carry the viewer's pick (v) + locale (l) so the link
+    // unfurls with a personal-verdict OG card instead of the neutral poll one.
+    const url =
+      reveal && voted !== null
+        ? `${window.location.origin}/${slug}?v=${voted}&l=${locale}`
+        : `${window.location.origin}/${slug}`;
     trackEvent("share", { slug, source: "discover-card" });
     // After a vote, lead the share with the emotional verdict so the link
     // lands as a hot take ("🌶️ REBEL · you're in the 12%") instead of a
@@ -408,13 +443,22 @@ export default function DiscoverCard({
               const isPulsing = emojiPulse?.idx === i;
 
               if (!showResults) {
+                const isArmed = armed === i;
+                const dimmed = armed !== null && !isArmed;
                 return (
                   <button
                     key={i}
-                    onClick={() => vote(i)}
+                    onClick={() => tapOption(i)}
                     disabled={pending}
-                    aria-label={`Vote: ${opt}`}
-                    className="flex min-h-[52px] w-full items-center gap-3 rounded-2xl border border-white/25 bg-black/40 px-4 py-3 text-left backdrop-blur-md transition hover:border-white/50 hover:bg-black/50 active:scale-[0.97] disabled:opacity-60"
+                    aria-label={isArmed ? `Confirm vote: ${opt}` : `Vote: ${opt}`}
+                    aria-pressed={isArmed}
+                    className={`flex min-h-[52px] w-full items-center gap-3 rounded-2xl border px-4 py-3 text-left backdrop-blur-md transition active:scale-[0.97] disabled:opacity-60 ${
+                      isArmed
+                        ? "scale-[1.02] border-white/80 bg-black/65 ring-2 ring-white/55"
+                        : dimmed
+                          ? "border-white/15 bg-black/25 opacity-55"
+                          : "border-white/25 bg-black/40 hover:border-white/50 hover:bg-black/50"
+                    }`}
                   >
                     <span
                       key={isPulsing ? emojiPulse!.k : undefined}
@@ -426,6 +470,14 @@ export default function DiscoverCard({
                     <span className="min-w-0 break-words text-base font-bold text-white sm:text-lg">
                       {opt}
                     </span>
+                    {isArmed && (
+                      <span className="ml-auto flex shrink-0 items-center gap-1 rounded-full bg-white px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-wide text-black">
+                        <span className="animate-pulse" aria-hidden>
+                          👆
+                        </span>
+                        ✓
+                      </span>
+                    )}
                   </button>
                 );
               }

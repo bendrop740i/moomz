@@ -4,8 +4,36 @@ import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { FORMATION_THEMES, THEME_META } from "@/lib/formation/types";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
+import {
+  seoHref,
+  quoteHubHref,
+  ideasHubHref,
+  dictHubHref,
+} from "@/lib/seo/seo-href";
 
 export const revalidate = 3600;
+
+// Bare app-surface routes (cookie locale) stay as-is. Every other href on this
+// page is SEO surface and gets a /{locale}/ prefix so nav skips the 301.
+const APP_ROUTES = new Set([
+  "/",
+  "/discover",
+  "/create",
+  "/me",
+  "/haut-faits",
+  "/mes-votes",
+  "/mes-sondages",
+  "/music",
+]);
+
+function exploreHref(href: string, locale: HubLocale): string {
+  if (APP_ROUTES.has(href)) return href;
+  const seg = href.replace(/^\/+/, "");
+  if (seg === "idees" || seg === "ideas") return ideasHubHref(locale);
+  if (seg === "citations" || seg === "quotes") return quoteHubHref(locale);
+  if (seg === "define" || seg === "definition") return dictHubHref(locale);
+  return seoHref(seg, locale);
+}
 
 const EXPLORE_META: Record<HubLocale, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   fr: {
@@ -669,7 +697,7 @@ export default function ExplorePage() {
       {/* Templates + Quiz + Compare */}
       <section className="grid gap-3 sm:grid-cols-3">
         <Link
-          href="/template"
+          href={seoHref("template", hl)}
           className="glass rounded-2xl p-5 hover:bg-white/10 transition flex flex-col gap-1"
         >
           <span className="text-3xl">📋</span>
@@ -682,7 +710,7 @@ export default function ExplorePage() {
           </span>
         </Link>
         <Link
-          href="/quiz"
+          href={seoHref("quiz", hl)}
           className="glass rounded-2xl p-5 hover:bg-white/10 transition flex flex-col gap-1"
         >
           <span className="text-3xl">🧠</span>
@@ -691,7 +719,7 @@ export default function ExplorePage() {
           <span className="text-xs text-pink-300/80 mt-1">{t.browse} →</span>
         </Link>
         <Link
-          href="/compare"
+          href={seoHref("compare", hl)}
           className="glass rounded-2xl p-5 hover:bg-white/10 transition flex flex-col gap-1"
         >
           <span className="text-3xl">⚔️</span>
@@ -715,7 +743,7 @@ export default function ExplorePage() {
             return (
               <li key={theme}>
                 <Link
-                  href="/formation"
+                  href={seoHref("formation", hl)}
                   className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 px-3.5 py-2 text-sm text-white/75 hover:text-white transition"
                 >
                   <span aria-hidden="true">{m.emoji}</span>
@@ -737,7 +765,7 @@ export default function ExplorePage() {
           {TOOLS.map((tool) => (
             <li key={tool.href}>
               <Link
-                href={tool.href}
+                href={exploreHref(tool.href, hl)}
                 className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 px-3.5 py-2 text-sm text-white/75 hover:text-white transition"
               >
                 <span aria-hidden="true">{tool.emoji}</span>
@@ -747,7 +775,7 @@ export default function ExplorePage() {
           ))}
           <li>
             <Link
-              href="/outils"
+              href={seoHref("outils", hl)}
               className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500/25 to-purple-500/25 border border-pink-400/30 px-3.5 py-2 text-sm text-white hover:from-pink-500/35 hover:to-purple-500/35 transition"
             >
               🧰 {t.allTools} →
@@ -766,7 +794,7 @@ export default function ExplorePage() {
           {contentLinks.map((l) => (
             <li key={l.href}>
               <Link
-                href={l.href}
+                href={exploreHref(l.href, hl)}
                 className="inline-flex items-center gap-1.5 rounded-full bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 px-3.5 py-2 text-sm text-white/75 hover:text-white transition"
               >
                 <span aria-hidden="true">{l.emoji}</span>

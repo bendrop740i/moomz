@@ -33,6 +33,13 @@ import { cienciasEsQuizzes } from "./data/ciencias-es";
 import { wissenschaftDeQuizzes } from "./data/wissenschaft-de";
 import { scienzeItPtQuizzes } from "./data/scienze-it-pt";
 import { sciencesJaZhQuizzes } from "./data/sciences-ja-zh";
+// 2026-05-22 — translated quiz packs filling es/it/pt/de/ja/zh (one per locale).
+import { quizEs } from "./data/quiz-es";
+import { quizIt } from "./data/quiz-it";
+import { quizPt } from "./data/quiz-pt";
+import { quizDe } from "./data/quiz-de";
+import { quizJa } from "./data/quiz-ja";
+import { quizZh } from "./data/quiz-zh";
 
 export const allQuizzes: Quiz[] = [
   ...cuisineMondeQuizzes,
@@ -65,6 +72,12 @@ export const allQuizzes: Quiz[] = [
   ...wissenschaftDeQuizzes,
   ...scienzeItPtQuizzes,
   ...sciencesJaZhQuizzes,
+  ...quizEs,
+  ...quizIt,
+  ...quizPt,
+  ...quizDe,
+  ...quizJa,
+  ...quizZh,
 ];
 
 export function findQuiz(slug: string): Quiz | null {

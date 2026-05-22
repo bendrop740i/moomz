@@ -70,8 +70,10 @@ export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: {
   params: { slug: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }): Promise<Metadata> {
   const supabase = getSupabase();
   const handle = params.slug;
@@ -131,12 +133,35 @@ export async function generateMetadata({
 
   const canonical = `https://moomz.com/${handle}`;
 
+  // Personal-verdict share card: a post-vote share carries ?v=<optionIndex>
+  // (+ ?l=<locale>) so the unfurled link preview shows the sharer's own result
+  // instead of the neutral poll card. See app/api/og/verdict.
+  const vRaw = typeof searchParams?.v === "string" ? searchParams.v : undefined;
+  const vIdx = vRaw && /^\d+$/.test(vRaw) ? Number(vRaw) : -1;
+  const verdictImg =
+    poll && vIdx >= 0 && vIdx < (poll.options?.length ?? 0)
+      ? `https://moomz.com/api/og/verdict?slug=${encodeURIComponent(handle)}&v=${vIdx}&l=${
+          typeof searchParams?.l === "string" ? searchParams.l : metaLocale
+        }`
+      : null;
+
   return {
     title,
     description,
     alternates: { canonical },
-    openGraph: { title, description, type: "website", url: canonical },
-    twitter: { card: "summary_large_image", title, description },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: canonical,
+      ...(verdictImg ? { images: [{ url: verdictImg, width: 1200, height: 630 }] } : {}),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      ...(verdictImg ? { images: [verdictImg] } : {}),
+    },
   };
 }
 

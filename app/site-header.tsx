@@ -3,8 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { useT } from "./locale-context";
+import { useT, useLocale } from "./locale-context";
 import { HudPill } from "./hud-stats";
+import { seoHref } from "@/lib/seo/seo-href";
 
 // `/` and `/discover` render their own full-bleed branded hero — a top bar there
 // would just double up the wordmark. On those two pages the StreakHUD floats the
@@ -14,6 +15,7 @@ const HIDE_EXACT = new Set(["/", "/discover"]);
 export default function SiteHeader() {
   const pathname = usePathname();
   const t = useT();
+  const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
 
   // Subtle scroll behavior: deepen the blur + add a glow shadow once the user
@@ -29,8 +31,9 @@ export default function SiteHeader() {
 
   const exploreTr = t("nav.explore");
   const exploreLabel = exploreTr === "nav.explore" ? "Explore" : exploreTr;
-  const exploreActive =
-    pathname === "/explore" || pathname?.startsWith("/explore/");
+  const exploreHref = seoHref("explore", locale);
+  // The Explore link now lands on /{locale}/explore — match any /…/explore.
+  const exploreActive = pathname?.split("/").includes("explore") ?? false;
 
   return (
     <header
@@ -62,7 +65,7 @@ export default function SiteHeader() {
         <div className="flex shrink-0 items-center gap-1.5">
           <HudPill />
           <Link
-            href="/explore"
+            href={exploreHref}
             aria-current={exploreActive ? "page" : undefined}
             className={`flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition active:scale-95 ${
               exploreActive

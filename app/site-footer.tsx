@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
-import { quoteHubUrl } from "@/lib/seo/quotes/types";
+import {
+  seoHref,
+  keywordHubHref,
+  quoteHubHref,
+  ideasHubHref,
+} from "@/lib/seo/seo-href";
 
 // Locale-aware site footer — a compact responsive nav to every moomz surface.
 // Mounted once in the root layout so it appears on every page. Each link
@@ -35,12 +40,6 @@ const STR: Record<Locale, FooterStrings> = {
   zh: { tagline: "可分享的氛围测验。", create: "创建投票", discover: "Discover", ideas: "创意", keywords: "关键词", quotes: "名言", quiz: "测验", achievements: "成就", shop: "商店", tools: "工具", guides: "指南", blog: "博客" },
 };
 
-function keywordHub(locale: Locale): string {
-  if (locale === "fr") return "/mot";
-  if (locale === "en") return "/word";
-  return `/topic/${locale}`;
-}
-
 export default function SiteFooter() {
   const locale = getLocale() as Locale;
   const s = STR[locale] ?? STR.en;
@@ -49,15 +48,15 @@ export default function SiteFooter() {
   const links: [string, string, string][] = [
     ["🗳️", s.create, "/"],
     ["🔥", s.discover, "/discover"],
-    ["💬", s.quotes, quoteHubUrl(locale)],
-    ["🧠", s.quiz, "/quiz"],
+    ["💬", s.quotes, quoteHubHref(locale)],
+    ["🧠", s.quiz, seoHref("quiz", locale)],
     ["🏅", s.achievements, "/haut-faits"],
     ["🛍️", s.shop, "/boutique"],
-    ["💡", s.ideas, locale === "fr" ? "/idees" : "/ideas"],
-    ["🔤", s.keywords, keywordHub(locale)],
-    ["🧰", s.tools, "/outils"],
-    ["📘", s.guides, "/guides"],
-    ["✍️", s.blog, "/blog"],
+    ["💡", s.ideas, ideasHubHref(locale)],
+    ["🔤", s.keywords, keywordHubHref(locale)],
+    ["🧰", s.tools, seoHref("outils", locale)],
+    ["📘", s.guides, seoHref("guides", locale)],
+    ["✍️", s.blog, seoHref("blog", locale)],
   ];
 
   return (

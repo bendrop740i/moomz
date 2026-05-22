@@ -1,8 +1,24 @@
 import Link from "next/link";
 import { allPages } from "@/lib/seo";
 import type { SeoPage } from "@/lib/seo/types";
+import {
+  seoHref,
+  quoteHubHref,
+  ideasHubHref,
+  dictHubHref,
+} from "@/lib/seo/seo-href";
 
 type FooterLocale = "fr" | "en" | "es" | "it" | "pt" | "de" | "ja" | "zh";
+
+// Map a bare SEO route (as stored in the link tables below) to the visitor's
+// locale-prefixed URL, so the footer nav skips the middleware 301 redirect.
+function localizeFooterHref(href: string, locale: FooterLocale): string {
+  const seg = href.replace(/^\/+/, "");
+  if (seg === "idees" || seg === "ideas") return ideasHubHref(locale);
+  if (seg === "citations" || seg === "quotes") return quoteHubHref(locale);
+  if (seg === "define" || seg === "definition") return dictHubHref(locale);
+  return seoHref(seg, locale);
+}
 
 const FOOTER_LINKS: Record<FooterLocale, { label: string; href: string }[]> = {
   fr: [
@@ -291,7 +307,7 @@ function Section({
       <ul className="flex flex-wrap gap-1.5">
         {list.map((p) => (
           <li key={p.slug + p.category} className="max-w-full">
-            <Pill href={`/${p.category}/${p.slug}`}>
+            <Pill href={`/${p.locale}/${p.category}/${p.slug}`}>
               {p.emoji ? `${p.emoji} ` : ""}
               {pillLabel(p)}
             </Pill>
@@ -505,7 +521,7 @@ export default function SeoFooter({
                 {links.map((l) => (
                   <li key={l.href}>
                     <Link
-                      href={l.href}
+                      href={localizeFooterHref(l.href, locale)}
                       className="block py-1.5 text-sm text-white/65 hover:text-white transition-colors"
                     >
                       {l.label}
@@ -521,7 +537,7 @@ export default function SeoFooter({
               <ul className="flex flex-wrap gap-1.5">
                 {toolLinks.map((l) => (
                   <li key={l.href} className="max-w-full">
-                    <Pill href={l.href}>{l.label}</Pill>
+                    <Pill href={localizeFooterHref(l.href, locale)}>{l.label}</Pill>
                   </li>
                 ))}
               </ul>

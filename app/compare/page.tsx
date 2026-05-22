@@ -156,10 +156,13 @@ const TOPIC_LABEL: Record<string, Record<HubLocale, string>> = {
 export default function CompareHub() {
   const locale = toHubLocale(getLocale());
   const t = T[locale];
-  // Comparisons are authored in FR or EN only — show the visitor's
-  // language (EN for every non-FR locale) so the hub is never mixed.
-  const compareLocale = locale === "fr" ? "fr" : "en";
-  const all = getAllCompares().filter((p) => p.locale === compareLocale);
+  // Show the visitor's-language comparisons; fall back to EN if a locale has
+  // no translated set yet so the hub is never empty.
+  const localized = getAllCompares().filter((p) => p.locale === locale);
+  const all =
+    localized.length > 0
+      ? localized
+      : getAllCompares().filter((p) => p.locale === "en");
   const byTopic = new Map<string, typeof all>();
   for (const p of all) {
     const list = byTopic.get(p.topic) ?? [];
@@ -199,7 +202,7 @@ export default function CompareHub() {
             {list.map((p) => (
               <li key={p.slug}>
                 <Link
-                  href={`/compare/${p.slug}`}
+                  href={`/${locale}/compare/${p.slug}`}
                   className="glass rounded-2xl px-5 py-4 hover:bg-white/10 transition flex items-start gap-3 h-full"
                 >
                   <span className="text-3xl shrink-0">
@@ -216,7 +219,7 @@ export default function CompareHub() {
                       {p.description}
                     </div>
                     <div className="mt-2 text-[10px] uppercase tracking-widest text-white/30">
-                      {p.locale === "fr" ? "FR" : "EN"}
+                      {p.locale.toUpperCase()}
                     </div>
                   </div>
                 </Link>

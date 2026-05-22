@@ -1,4 +1,4 @@
-export type CompareLocale = "fr" | "en";
+export type CompareLocale = "fr" | "en" | "es" | "it" | "pt" | "de" | "ja" | "zh";
 
 export type CompareWinner = "a" | "b" | "tie";
 
