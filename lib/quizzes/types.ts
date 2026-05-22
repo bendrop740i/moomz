@@ -35,6 +35,8 @@ export type Quiz = {
   updatedAt: string;
 };
 
-export function quizUrl(quiz: Pick<Quiz, "slug">): string {
-  return `/quiz/${quiz.slug}`;
+export function quizUrl(quiz: Pick<Quiz, "slug" | "lang">): string {
+  // Locale-prefixed with the quiz's own language so the link hits the
+  // middleware rewrite (no 301) and the chrome matches the quiz content.
+  return `/${quiz.lang}/quiz/${quiz.slug}`;
 }

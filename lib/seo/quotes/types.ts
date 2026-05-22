@@ -55,13 +55,14 @@ export type QuotePage = {
 };
 
 export function quoteUrl(p: QuotePage): string {
-  if (p.locale === "fr") return `/citations/${p.slug}`;
-  if (p.locale === "en") return `/quotes/${p.slug}`;
+  // Locale-prefixed so the link hits the middleware rewrite, never a 301.
+  if (p.locale === "fr") return `/fr/citations/${p.slug}`;
+  if (p.locale === "en") return `/en/quotes/${p.slug}`;
   return `/citation/${p.locale}/${p.slug}`;
 }
 
 export function quoteHubUrl(locale: QuoteLocale): string {
-  if (locale === "fr") return "/citations";
-  if (locale === "en") return "/quotes";
+  if (locale === "fr") return "/fr/citations";
+  if (locale === "en") return "/en/quotes";
   return `/citation/${locale}`;
 }

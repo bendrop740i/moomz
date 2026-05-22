@@ -35,12 +35,14 @@ export type TemplatePage = {
   updatedAt: string;
 };
 
-export function templateUrl(p: { slug: string }) {
-  return `/template/${p.slug}`;
+export function templateUrl(p: { slug: string; locale: TemplateLocale }) {
+  // Locale-prefixed so the link hits the middleware rewrite, never a 301.
+  return `/${p.locale}/template/${p.slug}`;
 }
 
 export function templateLaunchUrl(p: TemplatePage) {
   const q = encodeURIComponent(p.question);
   const o = encodeURIComponent(p.options.join("|"));
-  return `/?q=${q}&o=${o}`;
+  // /create directly — the old "/?q=" form is 307-redirected by middleware.
+  return `/create?q=${q}&o=${o}`;
 }

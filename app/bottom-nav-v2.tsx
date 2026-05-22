@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { useT } from "./locale-context";
+import { useT, useLocale } from "./locale-context";
+import { seoHref } from "@/lib/seo/seo-href";
 
 type TabItem = {
   href: string;
@@ -28,6 +29,7 @@ const RIGHT: TabItem[] = [
 export default function BottomNavV2() {
   const pathname = usePathname();
   const t = useT();
+  const locale = useLocale();
   const [badge, setBadge] = useState<number | null>(null);
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
@@ -165,6 +167,7 @@ export default function BottomNavV2() {
             <Tab
               key={item.href}
               item={item}
+              href={item.href === "/explore" ? seoHref("explore", locale) : item.href}
               active={isActive(item.href)}
               label={labelFor(item)}
               badge={null}
@@ -223,6 +226,7 @@ export default function BottomNavV2() {
             <Tab
               key={item.href}
               item={item}
+              href={item.href}
               active={isActive(item.href)}
               label={labelFor(item)}
               badge={item.badge ? badge : null}
@@ -236,11 +240,13 @@ export default function BottomNavV2() {
 
 function Tab({
   item,
+  href,
   active,
   label,
   badge,
 }: {
   item: TabItem;
+  href: string;
   active: boolean;
   label: string;
   badge: number | null;
@@ -248,7 +254,7 @@ function Tab({
   const Icon = item.icon;
   return (
     <Link
-      href={item.href}
+      href={href}
       aria-label={label}
       aria-current={active ? "page" : undefined}
       className="group relative flex flex-1 flex-col items-center justify-end gap-1 pb-0.5 pt-1"

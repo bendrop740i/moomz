@@ -40,7 +40,8 @@ export type KeywordPage = {
 };
 
 export function keywordUrl(p: KeywordPage): string {
-  if (p.locale === "fr") return `/mot/${p.slug}`;
-  if (p.locale === "en") return `/word/${p.slug}`;
+  // Locale-prefixed so the link hits the middleware rewrite, never a 301.
+  if (p.locale === "fr") return `/fr/mot/${p.slug}`;
+  if (p.locale === "en") return `/en/word/${p.slug}`;
   return `/topic/${p.locale}/${p.slug}`;
 }

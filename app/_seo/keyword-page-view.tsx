@@ -5,6 +5,7 @@ import { getSupabase } from "@/lib/supabase";
 import type { KeywordPage } from "@/lib/seo/keywords/types";
 import { keywordUrl } from "@/lib/seo/keywords/types";
 import { findKeyword, keywordsByLocale } from "@/lib/seo/keywords/loader";
+import { keywordHubHref } from "@/lib/seo/seo-href";
 
 type MatchedPoll = {
   slug: string;
@@ -182,8 +183,7 @@ export default async function KeywordPageView({ page }: { page: KeywordPage }) {
     .map((s) => findKeyword(page.locale, s))
     .filter((p): p is KeywordPage => Boolean(p));
   const similar = pickSimilarKeywords(page, 48);
-  const hubHref =
-    page.locale === "fr" ? "/mot" : page.locale === "en" ? "/word" : `/topic/${page.locale}`;
+  const hubHref = keywordHubHref(page.locale);
 
   return (
     <article className="space-y-12 fade-up">

@@ -3,6 +3,7 @@ import Link from "next/link";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { seoHref } from "@/lib/seo/seo-href";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 3600;
@@ -216,7 +217,7 @@ export default function TemplateHub() {
               {list.map((p) => (
                 <li key={p.slug}>
                   <Link
-                    href={`/template/${p.slug}`}
+                    href={`${seoHref("template", locale)}/${p.slug}`}
                     className="glass rounded-2xl px-5 py-4 hover:bg-white/10 transition flex items-start gap-3 h-full"
                   >
                     <span className="text-3xl shrink-0">{p.emoji}</span>

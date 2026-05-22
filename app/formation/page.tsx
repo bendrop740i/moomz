@@ -5,6 +5,7 @@ import { FORMATION_THEMES, themeMetaFor, FORMATION_NAME } from "@/lib/formation/
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 3600;
@@ -166,7 +167,7 @@ export default async function FormationHub() {
       "@type": "ListItem",
       position: i + 1,
       name: it.title,
-      url: `https://moomz.com/formation/${it.slug}`,
+      url: `https://moomz.com${seoHref("formation", locale)}/${it.slug}`,
     })),
   };
 
@@ -209,7 +210,7 @@ export default async function FormationHub() {
             {items.map((it) => (
               <Link
                 key={it.slug}
-                href={`/formation/${it.slug}`}
+                href={`${seoHref("formation", locale)}/${it.slug}`}
                 className="glass flex items-center gap-2.5 rounded-xl px-3 py-2.5 transition hover:bg-white/10 active:scale-[0.98]"
               >
                 <span aria-hidden className="text-lg shrink-0">

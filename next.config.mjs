@@ -21,10 +21,10 @@ const nextConfig = {
     ];
     return [
       {
-        // Whole site EXCEPT /embed — block framing (clickjacking) via the
+        // Whole site EXCEPT /embed/* — block framing (clickjacking) via the
         // modern `frame-ancestors` directive (X-Frame-Options would be a
         // blunter, less flexible equivalent).
-        source: "/((?!embed).*)",
+        source: "/((?!embed/).*)",
         headers: [
           ...base,
           { key: "Content-Security-Policy", value: "frame-ancestors 'self'" },

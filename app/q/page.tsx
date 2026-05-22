@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { TOPICS, AUDIENCES, THEMES } from "@/lib/seo/programmatic";
-import { canonicalUrl } from "@/lib/i18n-server";
+import { canonicalUrl, getLocale } from "@/lib/i18n-server";
 
 export function generateMetadata(): Metadata {
   return {
@@ -14,6 +14,9 @@ export function generateMetadata(): Metadata {
 
 export default function ProgHub() {
   const total = TOPICS.length * AUDIENCES.length * THEMES.length * 2;
+  // Visitor locale for the URL prefix — links straight to the middleware
+  // rewrite target so a prompt-card click never takes a 301 hop.
+  const visitorLocale = getLocale();
   return (
     <div className="space-y-8 fade-up">
       <header className="space-y-3 text-center">
@@ -49,7 +52,7 @@ export default function ProgHub() {
                   THEMES.slice(0, 4).map((th) => (
                     <Link
                       key={`${a.id}-${th.id}`}
-                      href={`/q/${locale}/${topic.id}/for-${a.id}-${th.id}`}
+                      href={`/${visitorLocale}/q/${locale}/${topic.id}/for-${a.id}-${th.id}`}
                       className="inline-flex items-center rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1 text-xs text-white/70 hover:text-white transition"
                     >
                       {a.label[locale]} · {th.label[locale]}
