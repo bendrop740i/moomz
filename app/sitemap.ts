@@ -17,6 +17,7 @@ import { COSMOS_SLUGS } from "@/lib/tools/cosmos";
 import { RECETTES_SLUGS } from "@/lib/tools/recettes";
 import { ASTRO_SLUGS } from "@/lib/tools/astro";
 import { getAllFormation } from "@/lib/formation/loader";
+import { routeSeg } from "@/lib/seo/route-names";
 
 const BASE = "https://moomz.com";
 const LOCALES = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"] as const;
@@ -107,10 +108,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // --- SEO hubs — one /<loc>/<hub> URL per locale, all linked via hreflang --
   for (const hub of UNIFORM_HUBS) {
-    const alt = alternatesFor((l) => `/${l}/${hub}`);
+    const alt = alternatesFor((l) => `/${l}/${routeSeg(hub, l)}`);
     for (const l of LOCALES) {
       out.push({
-        url: `${BASE}/${l}/${hub}`,
+        url: `${BASE}/${l}/${routeSeg(hub, l)}`,
         lastModified: now,
         changeFrequency: "weekly",
         priority: 0.85,
@@ -218,11 +219,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const { tool, slugs, freq } of toolSlugs) {
     for (const s of slugs) {
       out.push({
-        url: `${BASE}/en/${tool}/${s}`,
+        url: `${BASE}/en/${routeSeg(tool, "en")}/${s}`,
         lastModified: now,
         changeFrequency: freq,
         priority: 0.65,
-        alternates: alternatesFor((l) => `/${l}/${tool}/${s}`),
+        alternates: alternatesFor((l) => `/${l}/${routeSeg(tool, l)}/${s}`),
       });
     }
   }

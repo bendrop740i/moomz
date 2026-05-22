@@ -8,6 +8,7 @@ import { TOPIC_IDS, tagQuestion, type Topic } from "@/lib/topics";
 import { buildPollSlug, randomSuffix } from "@/lib/slug";
 import { t } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
+import { ALL_LOCALIZED_SEGMENTS } from "@/lib/seo/route-names";
 import { evaluateFromMetrics } from "@/lib/achievements/engine";
 
 // Shared cookie defaults: secure in prod, sameSite=lax everywhere.
@@ -369,6 +370,8 @@ const RESERVED_USERNAMES = new Set([
   "recettes", "recipes", "astro", "horoscope",
   // Locale codes — reserved by the URL-based i18n routing (/{locale}/...)
   "en", "fr", "es", "it", "pt", "de", "ja", "zh", "keywords",
+  // Localized SEO route segments (courses, tools, converter, weather…)
+  ...ALL_LOCALIZED_SEGMENTS,
 ]);
 
 function randomToken() {

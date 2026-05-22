@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { SEGMENT_TO_CANONICAL, routeSeg } from "@/lib/seo/route-names";
 
 // --- URL-based locale routing for the SEO surface --------------------------
 // moomz keeps the homepage + app + poll short-links (moomz.com/abc12) at the
@@ -74,7 +75,22 @@ export function middleware(req: NextRequest): NextResponse {
     // /{locale}/{rest}: rewrite to the un-prefixed route, carry the locale in
     // a request header. Invisible to the user and to Google (no redirect).
     const url = req.nextUrl.clone();
-    url.pathname = "/" + segments.slice(1).join("/");
+    const sub = segments.slice(1);
+    const canon = SEGMENT_TO_CANONICAL[sub[0]];
+    if (canon) {
+      // The first segment is a localized route name (courses, converter, …).
+      const want = routeSeg(canon, first);
+      if (sub[0] !== want) {
+        // Wrong-locale name for this locale (e.g. /en/formation, /en/cursos)
+        // → 301 to the correct localized URL.
+        url.pathname = "/" + [first, want, ...sub.slice(1)].join("/");
+        return NextResponse.redirect(url, 301);
+      }
+      // Correct localized name → serve the canonical (French-named) folder.
+      url.pathname = "/" + [canon, ...sub.slice(1)].join("/");
+    } else {
+      url.pathname = "/" + sub.join("/");
+    }
     const headers = new Headers(req.headers);
     headers.set("x-moomz-locale", first);
     // Original public path — lets pages build a correct locale-prefixed
@@ -92,10 +108,12 @@ export function middleware(req: NextRequest): NextResponse {
     return NextResponse.redirect(url, 301);
   }
 
-  // 3) Old un-prefixed SEO route → 301 to the visitor's locale-prefixed URL.
+  // 3) Old un-prefixed SEO route → 301 to the visitor's locale-prefixed URL
+  //    (with the route name localized: /formation → /en/courses).
   if (first && REDIRECT_ROUTES.has(first)) {
+    const loc = detectLocale(req);
     const url = req.nextUrl.clone();
-    url.pathname = `/${detectLocale(req)}${pathname}`;
+    url.pathname = "/" + [loc, routeSeg(first, loc), ...segments.slice(1)].join("/");
     return NextResponse.redirect(url, 301);
   }
 
