@@ -4,7 +4,6 @@ import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { getLocale } from "@/lib/i18n-server";
 import { t, type Locale } from "@/lib/i18n";
-import { relatedPagesForPoll } from "@/lib/seo/match-poll";
 import DiscoverFeed from "./discover-feed";
 
 export const dynamic = "force-dynamic";
@@ -158,13 +157,6 @@ export default async function DiscoverPage() {
   const seenAgain = rows.filter((r) => voted.has(r.slug) && !skipped.has(r.slug)).map(enrich);
   const polls = [...fresh, ...seenAgain];
 
-  // Match each poll's text against keyword + SEO landing pages server-side
-  // (touches `fs` — can't run in the client DiscoverFeed/PollCard). One entry
-  // per poll, threaded through DiscoverFeed to each card by index.
-  const pollChips = polls.map((p) =>
-    relatedPagesForPoll(p.question, p.options, p.lang ?? locale),
-  );
-
   const topScore = rows[0]?.trending_score ?? 0;
 
   // First-card preload: fetch the per-option vote distribution server-side
@@ -210,20 +202,15 @@ export default async function DiscoverPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <header className="absolute left-0 right-0 top-0 z-20 px-5 pt-[calc(env(safe-area-inset-top)+0.5rem)] pb-3 flex items-center justify-between bg-gradient-to-b from-[#0b0613]/80 via-[#0b0613]/40 to-transparent backdrop-blur-sm pointer-events-none">
+      <header className="absolute left-0 right-0 top-0 z-20 flex items-center px-5 pt-[calc(env(safe-area-inset-top)+0.5rem)] pb-3 bg-gradient-to-b from-[#0b0613]/80 via-[#0b0613]/40 to-transparent backdrop-blur-sm pointer-events-none">
         <h1 className="font-display text-2xl sm:text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent pointer-events-auto">
           {tx("discover.title")}
         </h1>
-        <span className="text-[10px] uppercase tracking-widest text-white/50 pointer-events-auto">
-          {polls.length} {tx("discover.count")}
-          {polls.length > 1 ? "s" : ""}
-        </span>
       </header>
       <DiscoverFeed
         polls={polls}
         topScore={topScore}
         firstInitialVoteCount={firstInitialVoteCount}
-        pollChips={pollChips}
       />
     </div>
   );

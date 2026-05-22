@@ -408,6 +408,39 @@ select:focus-visible,
   will-change: transform, opacity;
 }
 
+/* Immersive Discover feed — verdict banner reveal, emoji tap pop, swipe cue. */
+@keyframes verdict-reveal {
+  0% { opacity: 0; transform: translate3d(0, 18px, 0) scale(0.92); }
+  55% { opacity: 1; transform: translate3d(0, -3px, 0) scale(1.04); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+.verdict-reveal {
+  animation: verdict-reveal 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  will-change: transform, opacity;
+}
+
+@keyframes emoji-pop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.4); }
+  60% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+.emoji-pop {
+  display: inline-block;
+  animation: emoji-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform;
+}
+
+@keyframes swipe-cue {
+  0%, 100% { transform: translate3d(0, 0, 0); opacity: 0.35; }
+  50% { transform: translate3d(0, -5px, 0); opacity: 0.8; }
+}
+.swipe-cue {
+  display: inline-block;
+  animation: swipe-cue 1.9s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
 /* Reduced motion: kill the expensive infinite blob animations and replace with
    a static gradient. Also strip card-in / fade-up / pulses. */
 @media (prefers-reduced-motion: reduce) {
@@ -429,7 +462,10 @@ select:focus-visible,
   .count-bump,
   .shimmer,
   .skeleton-dot,
-  .fade-in-content {
+  .fade-in-content,
+  .verdict-reveal,
+  .emoji-pop,
+  .swipe-cue {
     animation: none !important;
   }
   .hover-lift {
