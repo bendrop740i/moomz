@@ -10,6 +10,7 @@ import { paletteFor } from "@/lib/palette";
 import { palettePreviewFromCosmetic } from "@/lib/cosmetics";
 import { REVEAL_COPY } from "@/lib/reveal-copy";
 import { trackEvent } from "@/lib/analytics";
+import { haptic } from "@/lib/haptics";
 import type { Locale } from "@/lib/i18n";
 import AnimatedNumber from "../animated-number";
 import { useT, useLocale } from "../locale-context";
@@ -75,6 +76,10 @@ export default function DiscoverCard({
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
   const [skipped, setSkipped] = useState(false);
   const [shareToast, setShareToast] = useState(false);
+  // Latched true the first time the card scrolls into view — drives the
+  // one-shot entrance animation. Card 1 is on screen at load so it starts
+  // already entered (no opacity flash; the page's own fade-up covers it).
+  const [entered, setEntered] = useState(index === 1);
 
   const myVoterIdRef = useRef<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
@@ -123,6 +128,8 @@ export default function DiscoverCard({
       (entries) => {
         for (const e of entries) {
           setIsVisible((prev) => (prev === e.isIntersecting ? prev : e.isIntersecting));
+          // One-way latch — once the card has been seen, the entrance plays.
+          if (e.isIntersecting) setEntered(true);
         }
       },
       { rootMargin: "150px" },
@@ -187,6 +194,7 @@ export default function DiscoverCard({
 
   const vote = (i: number) => {
     if (voted !== null || pending) return;
+    haptic("vote");
     setVoted(i);
     setEmojiPulse({ idx: i, k: Date.now() });
     setTotal((tt) => tt + 1);
@@ -218,6 +226,7 @@ export default function DiscoverCard({
           isRebel: res.reveal.isRebel,
           userPct: res.reveal.userPct,
         });
+        haptic(res.reveal.isRebel ? "rebel" : res.reveal.isMajority ? "majority" : "tap");
         window.dispatchEvent(
           new CustomEvent("moomz:vote", {
             detail: {
@@ -256,6 +265,7 @@ export default function DiscoverCard({
 
   const handleSkip = () => {
     if (skipped) return;
+    haptic("tap");
     setSkipped(true);
     trackEvent("skip", { slug, source: "discover-card" });
     skipPoll(slug).catch(() => {});
@@ -265,9 +275,20 @@ export default function DiscoverCard({
   const share = async () => {
     const url = `${window.location.origin}/${slug}`;
     trackEvent("share", { slug, source: "discover-card" });
+    // After a vote, lead the share with the emotional verdict so the link
+    // lands as a hot take ("🌶️ REBEL · you're in the 12%") instead of a
+    // neutral question — a sharper hook when it hits a friend's feed.
+    const verdict = reveal
+      ? reveal.isRebel
+        ? rc.rebel(reveal.userPct)
+        : reveal.isMajority
+          ? rc.majority(reveal.userPct)
+          : rc.split(reveal.userPct)
+      : null;
+    const shareText = verdict ? `${verdict}\n${question}` : question;
     if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
       try {
-        await navigator.share({ title: "moomz", text: question, url });
+        await navigator.share({ title: "moomz", text: shareText, url });
       } catch {
         // user cancelled the native share sheet — nothing to do
       }
@@ -349,14 +370,18 @@ export default function DiscoverCard({
           )}
           <h2
             id={`poll-${slug}`}
-            className="max-w-[22rem] text-balance break-words text-[1.75rem] font-extrabold leading-[1.16] tracking-tight text-white drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)] sm:text-[2.4rem]"
+            className={`max-w-[22rem] text-balance break-words text-[1.75rem] font-extrabold leading-[1.16] tracking-tight text-white drop-shadow-[0_2px_24px_rgba(0,0,0,0.6)] sm:text-[2.4rem] ${entered ? "disco-hero-in" : ""}`}
           >
             {question}
           </h2>
         </div>
 
         {/* BOTTOM — verdict + vote pills + meta, all inside the thumb zone */}
-        <div className="space-y-2.5 px-4 pb-[calc(env(safe-area-inset-bottom)+5.25rem)]">
+        <div
+          className={`space-y-2.5 px-4 pb-[calc(env(safe-area-inset-bottom)+5.25rem)] ${
+            entered ? "disco-block-in" : ""
+          }`}
+        >
           {reveal && (
             <div
               className={`verdict-reveal rounded-2xl border px-4 py-2.5 text-center text-[15px] font-extrabold ${

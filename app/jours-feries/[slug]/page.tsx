@@ -17,6 +17,7 @@ import {
   stringsFor,
 } from "@/lib/tools/jours-feries";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 86400;
@@ -207,7 +208,7 @@ export default async function HolidayDetailPage({
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <header className="space-y-3">

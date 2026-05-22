@@ -5,6 +5,7 @@ import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { findQuiz, relatedQuizzes, topicLabel } from "@/lib/quizzes";
 import { quizUrl, type QuizLocale } from "@/lib/quizzes/types";
 import { canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import QuizPlay from "./quiz-play";
 
 export const dynamic = "force-dynamic";
@@ -224,12 +225,12 @@ export default function QuizPage({ params }: { params: Params }) {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(breadcrumb) }}
       />
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(quizLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(quizLd) }}
       />
       <article className="space-y-6 fade-up">
         <HubNav locale={hubLocaleOf(quiz.lang)} current="quiz" />

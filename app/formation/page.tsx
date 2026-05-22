@@ -4,6 +4,7 @@ import { getFormationByLocale } from "@/lib/formation/loader";
 import { FORMATION_THEMES, themeMetaFor, FORMATION_NAME } from "@/lib/formation/types";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 export const revalidate = 3600;
 
@@ -173,7 +174,7 @@ export default async function FormationHub() {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
 
       <header className="space-y-2 pt-2 text-center">

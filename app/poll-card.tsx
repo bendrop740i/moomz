@@ -11,6 +11,7 @@ import { palettePreviewFromCosmetic } from "@/lib/cosmetics";
 import AnimatedNumber from "./animated-number";
 import { useT, useLocale } from "./locale-context";
 import { trackEvent } from "@/lib/analytics";
+import { haptic } from "@/lib/haptics";
 import { getViralCopy } from "@/lib/viral-copy";
 import { REVEAL_COPY } from "@/lib/reveal-copy";
 import type { Locale } from "@/lib/i18n";
@@ -270,6 +271,7 @@ export default function PollCard({
 
   const vote = (i: number) => {
     if (voted !== null || pending) return;
+    haptic("vote");
     setVoted(i);
     setEmojiPulse({ idx: i, k: Date.now() });
     setTotal((t) => t + 1);
@@ -301,6 +303,7 @@ export default function PollCard({
         setPointsToast({ k: Date.now(), gained: res.points.gained, mult: res.points.multiplier });
         setTimeout(() => setPointsToast(null), 1600);
         setReveal({ isMajority: res.reveal.isMajority, isRebel: res.reveal.isRebel, userPct: res.reveal.userPct });
+        haptic(res.reveal.isRebel ? "rebel" : res.reveal.isMajority ? "majority" : "tap");
         window.dispatchEvent(
           new CustomEvent("moomz:vote", {
             detail: {
@@ -527,6 +530,7 @@ export default function PollCard({
           {!showResults && (
             <button
               onClick={() => {
+                haptic("tap");
                 setSkipped(true);
                 skipPoll(slug).catch(() => {});
                 if (onSkip) setTimeout(onSkip, 200);

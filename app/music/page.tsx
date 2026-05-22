@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { getSupabase } from "@/lib/supabase";
 import { getLocale } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 import MusicGrid from "./music-grid";
 
 // Tracks rarely change — let the rendered HTML cache at the edge and
@@ -168,7 +169,7 @@ async function TracksGrid() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <p className="text-white/50 text-xs sm:text-sm -mt-4">
         {tracks.length > 0 ? m.shuffleHint : m.emptyHint}

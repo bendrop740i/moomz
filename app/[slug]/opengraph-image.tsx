@@ -42,14 +42,41 @@ export default async function OG({ params }: { params: { slug: string } }) {
 
   const { data: poll } = await supabase
     .from("polls")
-    .select("question, options, slug")
+    .select("id, question, options, slug")
     .eq("slug", handle)
-    .maybeSingle<Pick<Poll, "question" | "options" | "slug">>();
+    .maybeSingle<Pick<Poll, "id" | "question" | "options" | "slug">>();
 
   const question = poll?.question ?? "Create your vibe check";
   const options = poll?.options ?? ["", ""];
   const slug = poll?.slug ?? handle;
   const pal = paletteFor(slug);
+
+  // Live vote tally — turns a plain share card into a results snapshot.
+  // Capped so a mega-poll can't balloon the edge fetch; the % stays
+  // representative either way. Best-effort: any failure falls back to the
+  // pre-vote layout.
+  const counts = options.map(() => 0);
+  let totalVotes = 0;
+  if (poll?.id) {
+    try {
+      const { data: votes } = await supabase
+        .from("votes")
+        .select("option_index")
+        .eq("poll_id", poll.id)
+        .limit(5000);
+      for (const v of votes ?? []) {
+        const idx = (v as { option_index: number }).option_index;
+        if (idx >= 0 && idx < counts.length) {
+          counts[idx] += 1;
+          totalVotes += 1;
+        }
+      }
+    } catch {
+      // tally is non-critical — render the card without bars
+    }
+  }
+  const hasVotes = totalVotes > 0;
+  const maxCount = hasVotes ? Math.max(...counts) : 0;
 
   return new ImageResponse(
     (
@@ -165,25 +192,60 @@ export default async function OG({ params }: { params: { slug: string } }) {
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-            {options.slice(0, 4).map((opt, i) => (
-              <div
-                key={i}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 20,
-                  background: "rgba(255,255,255,0.07)",
-                  border: "2px solid rgba(255,255,255,0.12)",
-                  borderRadius: 22,
-                  padding: "18px 28px",
-                  fontSize: 34,
-                  fontWeight: 500,
-                }}
-              >
-                <span style={{ fontSize: 40, display: "flex" }}>{EMOJIS[i]}</span>
-                <span style={{ display: "flex" }}>{opt}</span>
-              </div>
-            ))}
+            {options.slice(0, 4).map((opt, i) => {
+              const pct = hasVotes ? Math.round((counts[i] / totalVotes) * 100) : 0;
+              const leading = hasVotes && counts[i] > 0 && counts[i] === maxCount;
+              return (
+                <div
+                  key={i}
+                  style={{
+                    position: "relative",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: 20,
+                    overflow: "hidden",
+                    background: "rgba(255,255,255,0.07)",
+                    border: `2px solid ${
+                      leading ? "rgba(255,179,209,0.55)" : "rgba(255,255,255,0.12)"
+                    }`,
+                    borderRadius: 22,
+                    padding: "18px 28px",
+                    fontSize: 34,
+                    fontWeight: 500,
+                  }}
+                >
+                  {hasVotes && (
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        bottom: 0,
+                        width: `${pct}%`,
+                        display: "flex",
+                        background: leading
+                          ? "linear-gradient(90deg, rgba(255,107,168,0.55), rgba(168,85,247,0.42))"
+                          : "rgba(255,255,255,0.10)",
+                      }}
+                    />
+                  )}
+                  <div
+                    style={{ display: "flex", alignItems: "center", gap: 20, zIndex: 1 }}
+                  >
+                    <span style={{ fontSize: 40, display: "flex" }}>{EMOJIS[i]}</span>
+                    <span style={{ display: "flex" }}>{opt}</span>
+                  </div>
+                  {hasVotes && (
+                    <span
+                      style={{ display: "flex", zIndex: 1, fontWeight: 800, fontSize: 38 }}
+                    >
+                      {pct}%
+                    </span>
+                  )}
+                </div>
+              );
+            })}
             {options.length > 4 && (
               <div
                 style={{
@@ -202,7 +264,7 @@ export default async function OG({ params }: { params: { slug: string } }) {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-end",
+            justifyContent: hasVotes ? "space-between" : "flex-end",
             alignItems: "center",
             fontSize: 30,
             fontWeight: 600,
@@ -210,7 +272,17 @@ export default async function OG({ params }: { params: { slug: string } }) {
             zIndex: 1,
           }}
         >
-          👉 Vote in 1 tap
+          {hasVotes && (
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ display: "flex", fontSize: 34 }}>🔥</span>
+              <span style={{ display: "flex" }}>
+                {totalVotes.toLocaleString()} {totalVotes === 1 ? "vote" : "votes"}
+              </span>
+            </div>
+          )}
+          <div style={{ display: "flex" }}>
+            👉 {hasVotes ? "Add yours" : "Vote in 1 tap"}
+          </div>
         </div>
       </div>
     ),

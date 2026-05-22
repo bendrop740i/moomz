@@ -13,6 +13,7 @@ import {
   type Element,
 } from "@/lib/tools/astro";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { pickAstroStrings } from "../_strings";
 import { getPersonality } from "../_personality";
 
@@ -121,7 +122,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <nav className="text-xs text-white/40 flex items-center gap-1.5" aria-label="breadcrumb">

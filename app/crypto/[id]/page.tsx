@@ -20,6 +20,7 @@ import {
   relatedCoins,
 } from "@/lib/tools/crypto";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { pickStrings } from "../_strings";
 
 export const dynamic = "force-dynamic";
@@ -188,7 +189,7 @@ export default async function CryptoDetailPage({
           key={i}
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdHtml(j) }}
         />
       ))}
       <div className="space-y-8 fade-up">

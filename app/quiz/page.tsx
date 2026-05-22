@@ -4,6 +4,7 @@ import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { allQuizzes, QUIZ_TOPICS, topicLabel, quizzesByTopic } from "@/lib/quizzes";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { quizUrl } from "@/lib/quizzes/types";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 // 8-lang chrome for the (mixed-locale) quiz hub. Keyed off the visitor locale.
 const QUIZ_HUB_CHROME: Record<
@@ -220,7 +221,7 @@ export default function QuizHub() {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <HubNav locale={locale} current="quiz" />

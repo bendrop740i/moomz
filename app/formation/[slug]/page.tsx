@@ -9,6 +9,7 @@ import {
 import { themeMetaFor, FORMATION_NAME } from "@/lib/formation/types";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 type FormationItemCopy = {
   applyNow: string;
@@ -144,13 +145,13 @@ export default async function FormationItemPage({
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       {faqLd && (
         <script
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdHtml(faqLd) }}
         />
       )}
 

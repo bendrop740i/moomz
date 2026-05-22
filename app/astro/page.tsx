@@ -9,6 +9,7 @@ import {
   type Element,
 } from "@/lib/tools/astro";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { pickAstroStrings } from "./_strings";
 import SignFinder from "./sign-finder";
 
@@ -120,7 +121,7 @@ export default function AstroHub() {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <header className="text-center space-y-2">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getLabels, type WordEntry } from "@/lib/tools/definition";
 import { getLocale } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 type Lang = "fr" | "en";
 
@@ -56,7 +57,7 @@ export default function DefinitionHubView({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <header className="space-y-3 text-center">

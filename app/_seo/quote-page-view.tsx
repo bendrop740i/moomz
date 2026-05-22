@@ -4,6 +4,7 @@ import { getSupabase } from "@/lib/supabase";
 import type { QuotePage, QuoteLocale } from "@/lib/seo/quotes/types";
 import { quoteUrl, quoteHubUrl } from "@/lib/seo/quotes/types";
 import { findQuotePage, quotesByLocale, getAllQuotes } from "@/lib/seo/quotes/loader";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 // Native language names for the per-quote language-switcher row.
 const LOCALE_NAMES: Record<QuoteLocale, string> = {
@@ -224,7 +225,7 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
 
       <header className="space-y-3">

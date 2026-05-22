@@ -9,6 +9,7 @@ import {
   RECETTES_SLUGS,
 } from "@/lib/tools/recettes";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import {
   localizedIntro,
   localizedName,
@@ -127,7 +128,7 @@ export default async function RecetteDetailPage({
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <nav className="text-sm text-white/50">

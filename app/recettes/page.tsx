@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { RECIPE_CATEGORIES, RECETTES_SLUGS } from "@/lib/tools/recettes";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { localizedName, pickString, type ToolLocale } from "./_strings";
 
 export const dynamic = "force-dynamic";
@@ -105,7 +106,7 @@ export default function RecettesHub() {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         <header className="text-center space-y-2">

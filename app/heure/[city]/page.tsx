@@ -13,6 +13,7 @@ import {
 } from "@/lib/tools/heure";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 import LiveClock from "./live-clock";
 
 export const dynamic = "force-dynamic";
@@ -591,7 +592,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <div className="space-y-8 fade-up">
         {/* Hero */}

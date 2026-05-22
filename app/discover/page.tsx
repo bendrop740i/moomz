@@ -4,6 +4,7 @@ import { getSupabase } from "@/lib/supabase";
 import { readSlugHistory } from "@/lib/history";
 import { getLocale } from "@/lib/i18n-server";
 import { t, type Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 import DiscoverFeed from "./discover-feed";
 
 export const dynamic = "force-dynamic";
@@ -200,7 +201,7 @@ export default async function DiscoverPage() {
     <div className="fade-up -mx-4 sm:-mx-6 -mt-8 sm:-mt-12 -mb-28">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <header className="absolute left-0 right-0 top-0 z-20 flex items-center px-5 pt-[calc(env(safe-area-inset-top)+0.5rem)] pb-3 bg-gradient-to-b from-[#0b0613]/80 via-[#0b0613]/40 to-transparent backdrop-blur-sm pointer-events-none">
         <h1 className="font-display text-2xl sm:text-3xl tracking-tight bg-gradient-to-br from-white via-pink-200 to-pink-400 bg-clip-text text-transparent pointer-events-auto">

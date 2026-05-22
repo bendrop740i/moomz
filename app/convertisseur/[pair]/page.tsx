@@ -15,6 +15,7 @@ import {
   type HistoryPoint,
 } from "@/lib/tools/convertisseur";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { pickString, type ToolLocale } from "../_strings";
 import { pollPrompt } from "../_poll-prompts";
 
@@ -135,7 +136,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
       <article className="space-y-8 fade-up">
         <header className="space-y-2">

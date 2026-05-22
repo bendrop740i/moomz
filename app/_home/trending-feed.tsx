@@ -5,6 +5,7 @@ import { readSlugHistory } from "@/lib/history";
 import { parseTopicsCookie } from "@/lib/topics";
 import { getLocale } from "@/lib/i18n-server";
 import { t, type Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 import { relatedPagesForPoll } from "@/lib/seo/match-poll";
 
 type TrendingPoll = {
@@ -138,7 +139,7 @@ export default async function TrendingFeed() {
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(itemListLd) }}
       />
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-sm uppercase tracking-widest text-white/40 font-semibold flex items-center gap-2 min-w-0 truncate">

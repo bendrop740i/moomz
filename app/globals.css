@@ -441,6 +441,27 @@ select:focus-visible,
   will-change: transform, opacity;
 }
 
+/* One-shot entrance for an immersive Discover card as it snaps into view —
+   the hero question lifts + sharpens, the vote zone slides up just after. */
+@keyframes disco-hero-in {
+  0% { opacity: 0; transform: translate3d(0, 26px, 0) scale(0.94); filter: blur(6px); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); filter: blur(0); }
+}
+.disco-hero-in {
+  animation: disco-hero-in 0.66s cubic-bezier(0.16, 1, 0.3, 1) both;
+  will-change: transform, opacity, filter;
+}
+
+@keyframes disco-block-in {
+  0% { opacity: 0; transform: translate3d(0, 34px, 0); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+.disco-block-in {
+  animation: disco-block-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: 0.08s;
+  will-change: transform, opacity;
+}
+
 /* Reduced motion: kill the expensive infinite blob animations and replace with
    a static gradient. Also strip card-in / fade-up / pulses. */
 @media (prefers-reduced-motion: reduce) {
@@ -465,7 +486,9 @@ select:focus-visible,
   .fade-in-content,
   .verdict-reveal,
   .emoji-pop,
-  .swipe-cue {
+  .swipe-cue,
+  .disco-hero-in,
+  .disco-block-in {
     animation: none !important;
   }
   .hover-lift {

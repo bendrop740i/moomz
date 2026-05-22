@@ -1,4 +1,5 @@
 import type { SeoPage, Locale } from "@/lib/seo/types";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 const HOME_LABEL: Record<Locale, string> = {
   fr: "Accueil",
@@ -50,7 +51,7 @@ export function BreadcrumbJsonLd({ items }: { items: BreadcrumbItem[] }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdHtml(json) }}
     />
   );
 }
@@ -108,7 +109,7 @@ export function SeoPageJsonLd({ page }: { page: SeoPage }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdHtml(json) }}
     />
   );
 }
@@ -136,7 +137,7 @@ export function ArticleJsonLd({ page }: { page: SeoPage }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdHtml(json) }}
     />
   );
 }
@@ -155,7 +156,7 @@ export function FaqJsonLd({ page }: { page: SeoPage }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+      dangerouslySetInnerHTML={{ __html: jsonLdHtml(json) }}
     />
   );
 }

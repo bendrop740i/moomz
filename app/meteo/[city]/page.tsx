@@ -13,6 +13,7 @@ import {
 } from "@/lib/tools/meteo";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
+import { jsonLdHtml } from "@/lib/json-ld";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 1800;
@@ -557,7 +558,7 @@ export default async function MeteoCityPage({
       <script
         type="application/ld+json"
         // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
 
       {/* HERO */}
