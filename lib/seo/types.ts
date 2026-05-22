@@ -1,3 +1,5 @@
+import { routeSeg } from "./route-names";
+
 export type Locale = "fr" | "en" | "es" | "it" | "pt" | "de" | "ja" | "zh";
 
 export type Category = "idees" | "ideas" | "guides" | "blog" | "read";
@@ -33,13 +35,20 @@ export type SeoPage = {
   updatedAt: string;
 };
 
+// The SEO surface lives at /{locale}/<segment> (see middleware.ts). Linking
+// straight to that final URL skips the bare-route → locale-prefix 301 that
+// otherwise causes a visible double page-load. routeSeg() applies any
+// per-locale route name (none of the page categories have one — idees / ideas
+// / guides / blog / read all pass through unchanged), and the result hits the
+// middleware rewrite branch with zero redirect.
 export function pageUrl(p: SeoPage): string {
-  const base = p.category;
-  return `/${base}/${p.slug}`;
+  return `/${p.locale}/${routeSeg(p.category, p.locale)}/${p.slug}`;
 }
 
 export function pollLaunchUrl(poll: SeoPoll): string {
   const q = encodeURIComponent(poll.q);
   const o = poll.options.map((s) => encodeURIComponent(s)).join("|");
-  return `/?q=${q}&o=${o}`;
+  // /create directly — the app's create form. The old "/?q=&o=" form is
+  // 307-redirected by middleware.ts, so link straight to the target.
+  return `/create?q=${q}&o=${o}`;
 }

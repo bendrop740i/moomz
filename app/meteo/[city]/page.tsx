@@ -14,6 +14,7 @@ import {
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 1800;
@@ -518,6 +519,9 @@ export default async function MeteoCityPage({
   const locale = getLocale();
   const s = STRINGS[locale] ?? STRINGS.en;
   const data = await fetchForecast(city);
+  // /meteo 301s the bare path to its locale-prefixed (localized) URL — link
+  // straight to the final form so there is no redirect hop.
+  const meteoBase = seoHref("meteo", locale); // /{loc}/<localized meteo>
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -536,7 +540,7 @@ export default async function MeteoCityPage({
 
   const related = relatedCities(city, 6);
 
-  // Poll deep-link prefill for /?q=&o=
+  // Poll deep-link prefill for /create?q=&o=
   const POLL_Q_TEMPLATES: Record<string, (n: string) => string> = {
     fr: (n) => `Tu préfères la pluie cosy ou le soleil & chaleur à ${n} ?`,
     en: (n) => `Cozy rain or sun & heat in ${n}?`,
@@ -551,7 +555,7 @@ export default async function MeteoCityPage({
     (POLL_Q_TEMPLATES[locale] ?? POLL_Q_TEMPLATES.en)(city.name),
   );
   const pollO = encodeURIComponent(`${s.pollA}|${s.pollB}`);
-  const pollHref = `/?q=${pollQ}&o=${pollO}`;
+  const pollHref = `/create?q=${pollQ}&o=${pollO}`;
 
   return (
     <article className="space-y-8 fade-up">
@@ -564,7 +568,7 @@ export default async function MeteoCityPage({
       {/* HERO */}
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href="/meteo" className="hover:text-white transition">
+          <Link href={meteoBase} className="hover:text-white transition">
             {s.back}
           </Link>
         </div>
@@ -737,7 +741,7 @@ export default async function MeteoCityPage({
             {related.map((c) => (
               <li key={c.slug}>
                 <Link
-                  href={`/meteo/${c.slug}`}
+                  href={`${meteoBase}/${c.slug}`}
                   className="glass rounded-xl px-3 py-2 flex items-center gap-2 hover:bg-white/10 transition"
                 >
                   <span className="text-xl shrink-0">{flagOf(c.cc)}</span>
@@ -757,7 +761,7 @@ export default async function MeteoCityPage({
       <p className="text-center text-xs text-white/30">{s.updated}</p>
 
       <Link
-        href="/meteo"
+        href={meteoBase}
         className="block text-center text-sm text-white/60 hover:text-white transition"
       >
         {s.back}

@@ -18,6 +18,7 @@ import {
 } from "@/lib/tools/jours-feries";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 86400;
@@ -116,6 +117,9 @@ export default async function HolidayDetailPage({
   const { country, year } = parsed;
   const locale = getLocale();
   const S = stringsFor(locale);
+  // /jours-feries 301s the bare path to its locale-prefixed (localized) URL —
+  // link straight to the final form so there is no redirect hop.
+  const joursBase = seoHref("jours-feries", locale); // /{loc}/<localized jours-feries>
 
   const holidays = await fetchHolidays(year, country.cc);
   const stats = computeStats(holidays, new Date());
@@ -213,7 +217,7 @@ export default async function HolidayDetailPage({
       <div className="space-y-8 fade-up">
         <header className="space-y-3">
           <div className="text-xs uppercase tracking-[0.2em] text-white/40">
-            <Link href="/jours-feries" className="hover:text-white transition">
+            <Link href={joursBase} className="hover:text-white transition">
               {S.back}
             </Link>
           </div>
@@ -358,7 +362,7 @@ export default async function HolidayDetailPage({
           <h2 className="text-xl sm:text-2xl font-bold">{S.pollHeadline}</h2>
           <p className="text-sm text-white/60 max-w-sm mx-auto">{S.pollBody}</p>
           <Link
-            href={`/?q=${pollQ}${pollOpts}`}
+            href={`/create?q=${pollQ}${pollOpts}`}
             className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2 text-sm font-bold mt-1"
           >
             {S.pollCta}
@@ -376,7 +380,7 @@ export default async function HolidayDetailPage({
             {otherYearList.map((y) => (
               <Link
                 key={y}
-                href={`/jours-feries/${holidaySlug(country, y)}`}
+                href={`${joursBase}/${holidaySlug(country, y)}`}
                 className="glass rounded-full px-4 py-2 text-sm font-semibold hover:scale-[1.02] transition"
               >
                 {country.flag} {cName} {y}
@@ -396,7 +400,7 @@ export default async function HolidayDetailPage({
             {others.map((c) => (
               <Link
                 key={c.cc}
-                href={`/jours-feries/${holidaySlug(c, year)}`}
+                href={`${joursBase}/${holidaySlug(c, year)}`}
                 className="glass rounded-xl px-3 py-2.5 text-sm hover:scale-[1.01] active:scale-[0.99] transition flex items-center gap-2"
               >
                 <span aria-hidden>{c.flag}</span>
@@ -410,7 +414,7 @@ export default async function HolidayDetailPage({
 
         <div className="text-center">
           <Link
-            href="/jours-feries"
+            href={joursBase}
             className="inline-block text-sm text-white/50 hover:text-white transition"
           >
             {S.back}

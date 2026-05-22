@@ -2,6 +2,7 @@ import Link from "next/link";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import type { SeoPage, Locale, Category } from "@/lib/seo/types";
 import { pageUrl } from "@/lib/seo/types";
+import { seoHref, ideasHubHref, keywordHubHref } from "@/lib/seo/seo-href";
 import { allPages } from "@/lib/seo";
 import { categoryBadge, getFooterLabels } from "./related-grid";
 
@@ -400,7 +401,11 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
             {otherCats.map(({ category, count }) => (
               <Link
                 key={category}
-                href={`/${category}`}
+                href={
+                  category === "idees" || category === "ideas"
+                    ? ideasHubHref(loc)
+                    : seoHref(category, loc)
+                }
                 className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
                 <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">
@@ -414,7 +419,7 @@ export default function SeoHubView({ title, description, pages, locale }: Props)
             {/* Keyword hubs — route exists only for FR (/mot) and EN (/word) */}
             {loc === "fr" || loc === "en" ? (
               <Link
-                href={loc === "fr" ? "/mot" : "/word"}
+                href={keywordHubHref(loc)}
                 className="glass rounded-2xl px-4 py-3.5 hover:bg-white/[0.08] hover:border-pink-400/30 transition flex items-center justify-between group"
               >
                 <span className="text-sm font-semibold text-white group-hover:text-pink-200 transition">{labels.keywordHub}</span>

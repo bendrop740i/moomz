@@ -134,7 +134,7 @@ export default function SearchClient() {
                   ))}
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-wider text-white/40">
-                  {r.vote_count} {r.vote_count === 1 ? "vote" : "votes"}
+                  {r.vote_count} {r.vote_count === 1 ? t("card.vote") : t("card.votes")}
                 </div>
               </Link>
             </li>

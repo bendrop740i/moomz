@@ -197,9 +197,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     });
   }
+  // /vs detail: the route is app/vs/[locale]/[slug] but the bare /vs/... path
+  // 301s through middleware (vs ∈ REDIRECT_ROUTES). The canonical, non-redirecting
+  // URL is /{chromeLocale}/vs/{contentLocale}/{slug} — use the content locale as
+  // the chrome prefix so the sitemap lists only final URLs.
   for (const r of getVsRoutes()) {
     out.push({
-      url: `${BASE}/vs/${r.locale}/${r.slug}`,
+      url: `${BASE}/${r.locale}/vs/${r.locale}/${r.slug}`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,

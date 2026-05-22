@@ -9,6 +9,8 @@ import {
   type ProgLocale,
   type Topic,
 } from "@/lib/seo/programmatic";
+import { seoHref } from "@/lib/seo/seo-href";
+import { getLocale } from "@/lib/i18n-server";
 
 type Params = { locale: string; topic: string; modifier: string };
 
@@ -20,7 +22,7 @@ export const dynamic = "force-dynamic";
 function pollLaunchHref(q: string, options: string[]) {
   const qx = encodeURIComponent(q);
   const ox = options.map((s) => encodeURIComponent(s)).join("|");
-  return `/?q=${qx}&o=${ox}`;
+  return `/create?q=${qx}&o=${ox}`;
 }
 
 export function generateMetadata({ params }: { params: Params }): Metadata {
@@ -76,12 +78,17 @@ export default function ProgPage({ params }: { params: Params }) {
     page.locale === "fr" ? "Plus de sujets" : "More topics";
   const moreLabel = page.locale === "fr" ? "Voir tout" : "See all";
 
+  // The /q route 301s the bare /q/... path to /{visitorLocale}/q/... — build
+  // every internal link with that prefix so there is no redirect. `page.locale`
+  // is the content locale (en/fr); the URL prefix needs the visitor's locale.
+  const qBase = `${seoHref("q", getLocale())}/${page.locale}`; // /{visitorLocale}/q/{contentLocale}
+
   // Suggested cross-links: same topic, different audience or theme
   const related: Array<{ href: string; label: string }> = [];
   for (const a of AUDIENCES) {
     if (a.id === page.audience) continue;
     related.push({
-      href: `/q/${page.locale}/${page.topic}/for-${a.id}-${page.theme}`,
+      href: `${qBase}/${page.topic}/for-${a.id}-${page.theme}`,
       label: `${page.topicLabel} · ${a.label[page.locale]}`,
     });
     if (related.length >= 4) break;
@@ -89,7 +96,7 @@ export default function ProgPage({ params }: { params: Params }) {
   for (const th of THEMES) {
     if (th.id === page.theme) continue;
     related.push({
-      href: `/q/${page.locale}/${page.topic}/for-${page.audience}-${th.id}`,
+      href: `${qBase}/${page.topic}/for-${page.audience}-${th.id}`,
       label: `${page.topicLabel} · ${th.label[page.locale]}`,
     });
     if (related.length >= 8) break;
@@ -99,11 +106,11 @@ export default function ProgPage({ params }: { params: Params }) {
     <article className="space-y-8 fade-up">
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href="/q" className="hover:text-white transition">
+          <Link href={seoHref("q", getLocale())} className="hover:text-white transition">
             /q
           </Link>
           <span>·</span>
-          <Link href={`/q/${page.locale}/${page.topic}`} className="hover:text-white transition">
+          <Link href={`${qBase}/${page.topic}`} className="hover:text-white transition">
             {page.topicLabel.toLowerCase()}
           </Link>
           <span>·</span>
@@ -175,7 +182,7 @@ export default function ProgPage({ params }: { params: Params }) {
       <section className="space-y-3">
         <div className="flex items-baseline justify-between">
           <h2 className="font-semibold text-xl text-white">{moreTopic}</h2>
-          <Link href="/q" className="text-xs text-white/40 hover:text-white">
+          <Link href={seoHref("q", getLocale())} className="text-xs text-white/40 hover:text-white">
             {moreLabel} →
           </Link>
         </div>

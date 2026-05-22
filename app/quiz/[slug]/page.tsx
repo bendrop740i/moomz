@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { findQuiz, relatedQuizzes, topicLabel } from "@/lib/quizzes";
 import { quizUrl, type QuizLocale } from "@/lib/quizzes/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import { canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
 import QuizPlay from "./quiz-play";
@@ -238,7 +239,7 @@ export default function QuizPage({ params }: { params: Params }) {
           <nav aria-label={c.breadcrumb} className="text-xs text-white/40">
             <Link href="/" className="hover:text-white/70">moomz</Link>
             <span aria-hidden> › </span>
-            <Link href="/quiz" className="hover:text-white/70">{c.quizCrumb}</Link>
+            <Link href={seoHref("quiz", quiz.lang)} className="hover:text-white/70">{c.quizCrumb}</Link>
             <span aria-hidden> › </span>
             <span className="text-white/60">{topicLabel(quiz.topic, topicLang)}</span>
           </nav>

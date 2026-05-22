@@ -2,11 +2,10 @@ import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Bagel_Fat_One } from "next/font/google";
 import BottomNav from "./bottom-nav-v2";
 import SiteHeader from "./site-header";
-import SiteFooter from "./site-footer";
+import FooterZone from "./footer-zone";
 import StreakHUD from "./streak-hud";
 import AchievementToast from "./achievement-toast";
 import { LocaleProvider } from "./locale-context";
-import LocaleSwitcher from "./locale-switcher";
 import ServiceWorkerRegister from "./sw-register";
 import AppPrompts from "./app-prompts";
 import { MusicProvider } from "./music-provider";
@@ -110,10 +109,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="relative mx-auto w-full max-w-xl px-4 pt-5 sm:px-6 sm:pt-6 pb-[calc(7rem+env(safe-area-inset-bottom))]">
             <AppPrompts installStrings={installStrings} pushStrings={pushStrings} />
             {children}
-            <SiteFooter />
-            <div className="mt-6 flex justify-center border-t border-white/10 pt-6">
-              <LocaleSwitcher placement="up" />
-            </div>
+            <FooterZone />
           </main>
           <StreakHUD />
           <AchievementToast />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { canonicalUrl } from "@/lib/i18n-server";
+import { seoHref } from "@/lib/seo/seo-href";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export function generateMetadata(): Metadata {
   const url = canonicalUrl();
@@ -101,6 +102,8 @@ const FAQ: { q: string; a: string }[] = [
 ];
 
 export default function CreatorsPage() {
+  // /pricing 301s to /{visitorLocale}/pricing — link straight to the final URL.
+  const locale = getLocale();
   return (
     <article className="space-y-10 fade-up">
       <header className="space-y-4">
@@ -168,7 +171,7 @@ export default function CreatorsPage() {
             ))}
           </ul>
           <Link
-            href="/pricing"
+            href={seoHref("pricing", locale)}
             className="block rounded-xl bg-gradient-to-r from-pink-500/20 to-purple-600/20 border border-pink-400/30 px-5 py-3 text-center font-display text-lg hover:from-pink-500/30 hover:to-purple-600/30 transition"
           >
             Join the waitlist <span aria-hidden>→</span>

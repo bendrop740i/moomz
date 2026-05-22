@@ -11,6 +11,7 @@ import { useT, useLocale } from "../locale-context";
 import { trackEvent } from "@/lib/analytics";
 import { getViralCopy, pickSuggestions, suggestionHref } from "@/lib/viral-copy";
 import type { Locale } from "@/lib/i18n";
+import { useToast } from "../toast";
 
 type VoteCopy = {
   homeAriaLabel: string;
@@ -201,6 +202,7 @@ export default function VoteClient({
   alreadyVoted,
 }: Props) {
   const t = useT();
+  const { toast, ToastHost } = useToast();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[]>(initialCounts);
@@ -342,7 +344,7 @@ export default function VoteClient({
           );
         }
       } catch (e) {
-        alert(e instanceof Error ? e.message : vc2.voteErrGeneric);
+        toast(e instanceof Error ? e.message : vc2.voteErrGeneric, "error");
         setVoted(null);
         setCounts(initialCounts);
         setTotal(initialTotal);
@@ -714,6 +716,8 @@ export default function VoteClient({
           </Link>
         </div>
       </div>
+
+      <ToastHost />
     </div>
   );
 }

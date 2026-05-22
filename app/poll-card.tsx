@@ -15,6 +15,7 @@ import { haptic } from "@/lib/haptics";
 import { getViralCopy } from "@/lib/viral-copy";
 import { REVEAL_COPY } from "@/lib/reveal-copy";
 import type { Locale } from "@/lib/i18n";
+import { useToast } from "./toast";
 
 // Confetti is only rendered after a vote — load its 4 kB of keyframe + emoji
 // pool data lazily so the home/discover feed doesn't pay for it up-front.
@@ -73,6 +74,20 @@ function ensureVoteFlowStyle() {
   document.head.appendChild(el);
 }
 
+// Friendly fallback for a non-Error vote failure (rare — castVote throws
+// localized Errors). Per-component i18n map, matching how this codebase keeps
+// small string sets local instead of bloating lib/i18n.ts.
+const VOTE_ERR: Record<string, string> = {
+  fr: "Vote impossible, réessaie",
+  en: "Couldn't vote, try again",
+  es: "No se pudo votar, inténtalo de nuevo",
+  it: "Voto non riuscito, riprova",
+  pt: "Não deu pra votar, tenta de novo",
+  de: "Abstimmen ging nicht, versuch's nochmal",
+  ja: "投票できませんでした。もう一度お試しを",
+  zh: "投票失败，再试一次",
+};
+
 type Props = {
   pollId: string;
   slug: string;
@@ -117,6 +132,7 @@ export default function PollCard({
 }: Props) {
   const [skipped, setSkipped] = useState(false);
   const t = useT();
+  const { toast, ToastHost } = useToast();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[] | null>(null);
@@ -326,7 +342,10 @@ export default function PollCard({
         );
         if (onVoted) setTimeout(onVoted, 1800);
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Error");
+        toast(
+          e instanceof Error ? e.message : VOTE_ERR[locale] ?? VOTE_ERR.en,
+          "error",
+        );
         setVoted(null);
         setCounts(null);
         setTotal(initialVoteCount);
@@ -584,6 +603,8 @@ export default function PollCard({
           {t("card.passed")}
         </div>
       )}
+
+      <ToastHost />
     </article>
   );
 }

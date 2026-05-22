@@ -21,6 +21,7 @@ import {
 } from "@/lib/tools/crypto";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 import { pickStrings } from "../_strings";
 
 export const dynamic = "force-dynamic";
@@ -106,6 +107,8 @@ export default async function CryptoDetailPage({
   const locale = getLocale();
   const S = pickStrings(locale);
   const meta = getCoinMeta(id);
+  // /crypto 301s the bare path to /{visitorLocale}/crypto — link straight there.
+  const cryptoBase = seoHref("crypto", locale); // /{visitorLocale}/crypto
 
   const [detail, chart] = await Promise.all([
     fetchCoinDetail(id),
@@ -122,9 +125,9 @@ export default async function CryptoDetailPage({
 
   const pollQuestion = S.pollCtaQuestion(meta.name);
   const pollOptions = [S.pollOptYes, S.pollOptNo, S.pollOptMaybe].join("|");
-  const pollHref = `/?q=${encodeURIComponent(pollQuestion)}&o=${encodeURIComponent(pollOptions)}`;
+  const pollHref = `/create?q=${encodeURIComponent(pollQuestion)}&o=${encodeURIComponent(pollOptions)}`;
   const pollQuestion2 = S.pollCtaPriceQuestion(meta.name);
-  const pollHref2 = `/?q=${encodeURIComponent(pollQuestion2)}&o=${encodeURIComponent(pollOptions)}`;
+  const pollHref2 = `/create?q=${encodeURIComponent(pollQuestion2)}&o=${encodeURIComponent(pollOptions)}`;
 
   const changeClass = (v: number | null) =>
     v === null ? "text-white/60" : v >= 0 ? "text-emerald-400" : "text-rose-400";
@@ -405,7 +408,7 @@ export default async function CryptoDetailPage({
               return (
                 <Link
                   key={slug}
-                  href={`/crypto/${slug}`}
+                  href={`${cryptoBase}/${slug}`}
                   className="glass rounded-xl px-3 py-2.5 text-sm hover:scale-[1.01] active:scale-[0.99] transition flex items-center gap-2"
                 >
                   <span className="text-lg" aria-hidden>{m.emoji}</span>
@@ -421,7 +424,7 @@ export default async function CryptoDetailPage({
 
         <div className="text-center pt-2">
           <Link
-            href="/crypto"
+            href={cryptoBase}
             className="inline-flex items-center gap-1.5 text-sm text-white/60 hover:text-white"
           >
             <span aria-hidden>←</span> {S.backToHub}

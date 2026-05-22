@@ -7,6 +7,7 @@ import {
   getFormationByTheme,
 } from "@/lib/formation/loader";
 import { themeMetaFor, FORMATION_NAME } from "@/lib/formation/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { jsonLdHtml } from "@/lib/json-ld";
@@ -156,7 +157,7 @@ export default async function FormationItemPage({
       )}
 
       <nav className="flex items-center gap-1.5 text-xs text-white/45">
-        <Link href="/formation" className="hover:text-white/80 transition">
+        <Link href={seoHref("formation", locale)} className="hover:text-white/80 transition">
           {FORMATION_NAME[locale] ?? FORMATION_NAME.en}
         </Link>
         <span aria-hidden>/</span>
@@ -228,7 +229,7 @@ export default async function FormationItemPage({
             {related.map((r) => (
               <Link
                 key={r.slug}
-                href={`/formation/${r.slug}`}
+                href={`${seoHref("formation", locale)}/${r.slug}`}
                 className="glass flex items-center gap-2.5 rounded-xl px-3 py-2.5 transition hover:bg-white/10 active:scale-[0.98]"
               >
                 <span aria-hidden className="text-lg shrink-0">
@@ -245,7 +246,7 @@ export default async function FormationItemPage({
 
       <div className="flex flex-wrap gap-2 pt-1">
         <Link
-          href="/formation"
+          href={seoHref("formation", locale)}
           className="rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/70 transition hover:bg-white/10 hover:text-white"
         >
           {c.backAll}

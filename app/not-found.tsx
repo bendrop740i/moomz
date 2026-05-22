@@ -4,6 +4,7 @@ import SeoFooter from "./seo-footer";
 import { getLocale } from "@/lib/i18n-server";
 import { t } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n";
+import { ideasHubHref } from "@/lib/seo/seo-href";
 
 const NOT_FOUND_META: Record<Locale, { title: string; description: string }> = {
   fr: { title: "Page introuvable — moomz", description: "Ce sondage ou ce profil n'existe pas (ou plus). Crée le tien en 10 secondes." },
@@ -67,10 +68,10 @@ export default function NotFound() {
           🔥 {tx("nav.discover")}
         </Link>
         <Link
-          href={locale === "en" ? "/ideas" : "/idees"}
+          href={ideasHubHref(locale as Locale)}
           className="inline-block rounded-2xl glass text-white/90 font-semibold py-4 px-6 hover:scale-[1.02] active:scale-[0.98] transition"
         >
-          💡 {t("nav.ideas", locale) === "nav.ideas" ? (locale === "en" ? "Ideas" : "Idées") : t("nav.ideas", locale)}
+          💡 {tx("nav.ideas")}
         </Link>
       </div>
 

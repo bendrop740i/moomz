@@ -4,7 +4,8 @@ import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
 import { castVote, refreshCounts } from "./actions";
 import { emojisFor } from "@/lib/emojis";
-import { useT } from "./locale-context";
+import { useT, useLocale } from "./locale-context";
+import { useToast } from "./toast";
 
 type Props = {
   pollId: string;
@@ -32,6 +33,20 @@ function endOfUtcDayIso(): string {
   return end.toISOString();
 }
 
+// Friendly fallback for a non-Error vote failure (rare — castVote throws
+// localized Errors). Per-component i18n map, matching how this codebase keeps
+// small string sets local instead of bloating lib/i18n.ts.
+const VOTE_ERR: Record<string, string> = {
+  fr: "Vote impossible, réessaie",
+  en: "Couldn't vote, try again",
+  es: "No se pudo votar, inténtalo de nuevo",
+  it: "Voto non riuscito, riprova",
+  pt: "Não deu pra votar, tenta de novo",
+  de: "Abstimmen ging nicht, versuch's nochmal",
+  ja: "投票できませんでした。もう一度お試しを",
+  zh: "投票失败，再试一次",
+};
+
 export default function DailyCard({
   pollId,
   slug,
@@ -41,6 +56,8 @@ export default function DailyCard({
   alreadyVoted,
 }: Props) {
   const t = useT();
+  const locale = useLocale();
+  const { toast, ToastHost } = useToast();
   const [remaining, setRemaining] = useState("…");
   const [endIso, setEndIso] = useState<string | undefined>(undefined);
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
@@ -116,7 +133,10 @@ export default function DailyCard({
           }),
         );
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Error");
+        toast(
+          e instanceof Error ? e.message : VOTE_ERR[locale] ?? VOTE_ERR.en,
+          "error",
+        );
         setVoted(null);
         setCounts(null);
         setTotal(voteCount);
@@ -237,6 +257,8 @@ export default function DailyCard({
           </Link>
         </div>
       </div>
+
+      <ToastHost />
     </article>
   );
 }

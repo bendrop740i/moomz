@@ -13,7 +13,7 @@ function pollHref(entry: WordEntry): string | null {
   if (!entry.poll) return null;
   const q = encodeURIComponent(entry.poll.q);
   const o = encodeURIComponent(entry.poll.o.join("|"));
-  return `/?q=${q}&o=${o}`;
+  return `/create?q=${q}&o=${o}`;
 }
 
 function usageBlurb(entry: WordEntry, lang: Lang): string {
@@ -168,7 +168,7 @@ export default function DefinitionView({
             <>
               <p className="text-sm text-white/65">{labels.noPoll}</p>
               <Link
-                href={`/?q=${encodeURIComponent(entry.word)}`}
+                href={`/create?q=${encodeURIComponent(entry.word)}`}
                 className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2 text-sm font-bold mt-1"
               >
                 {labels.createPoll} <span aria-hidden>→</span>

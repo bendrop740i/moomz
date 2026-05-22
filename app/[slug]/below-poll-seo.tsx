@@ -119,12 +119,12 @@ function explorePills(locale: Locale): { href: string; label: string; emoji: str
   ];
 }
 
-// Builds /?q=...&o=... so the CTA pre-fills the home create-form with this
+// Builds /create?q=...&o=... so the CTA pre-fills the create-form with this
 // poll's question + options (the create-form already parses these params).
 function forkUrl(question: string, options: string[]): string {
   const q = encodeURIComponent(question);
   const o = options.map((s) => encodeURIComponent(s)).join("|");
-  return `/?q=${q}&o=${o}`;
+  return `/create?q=${q}&o=${o}`;
 }
 
 async function fetchSimilar(

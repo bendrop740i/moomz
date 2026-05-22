@@ -135,7 +135,7 @@ export function PollCta({
   className?: string;
 }) {
   const opts = S.pollOptions.map((o) => o.trim()).filter(Boolean).join("|");
-  const href = `/?q=${encodeURIComponent(S.pollQuestion)}&o=${encodeURIComponent(opts)}`;
+  const href = `/create?q=${encodeURIComponent(S.pollQuestion)}&o=${encodeURIComponent(opts)}`;
   return (
     <aside
       className={`glass rounded-3xl p-5 sm:p-6 text-center space-y-2 ${className}`}

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { allPairs } from "@/lib/seo/vs/loader";
 import type { VsCategoryId, VsLocale } from "@/lib/seo/vs/types";
 import { VS_LOCALES } from "@/lib/seo/vs/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export function generateMetadata(): Metadata {
@@ -178,6 +179,11 @@ export default function VsHub() {
     : "en";
   const c = CHROME[locale];
 
+  // The /vs route 301s the bare /vs/... path to /{visitorLocale}/vs/... — link
+  // pair detail pages straight to that locale-prefixed form so the click lands
+  // on the rewrite branch (no redirect). URL = /{visitorLocale}/vs/{contentLocale}/{slug}.
+  const vsBase = seoHref("vs", visitorLocale); // /{visitorLocale}/vs
+
   // Pick the best-available locale for a pair link: prefer the visitor locale,
   // else its first authored locale.
   const linkLocale = (p: (typeof allPairs)[number]): string =>
@@ -255,7 +261,7 @@ export default function VsHub() {
                 {list.map((p) => (
                   <Link
                     key={p.slug}
-                    href={`/vs/${linkLocale(p)}/${p.slug}`}
+                    href={`${vsBase}/${linkLocale(p)}/${p.slug}`}
                     className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition text-sm text-white/80 truncate"
                   >
                     {p.emoji_a ?? ""} {p.a} <span className="text-white/40">vs</span> {p.b}{" "}

@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { pairBySlug, pairsByCategory } from "@/lib/seo/vs/loader";
 import type { VsLocale } from "@/lib/seo/vs/types";
 import { VS_LOCALES } from "@/lib/seo/vs/types";
+import { seoHref } from "@/lib/seo/seo-href";
+import { getLocale } from "@/lib/i18n-server";
 
 // Dynamic on-demand: the root layout reads cookies() for locale, which
 // rules out static/ISR rendering. Each /vs pair renders per-request and
@@ -152,6 +154,13 @@ export default function VsPage({ params }: { params: Params }) {
   const content = pair.content[locale];
   if (!content) notFound();
 
+  // The /vs route 301s the bare /vs/... path to /{visitorLocale}/vs/... — link
+  // internal nav straight to that locale-prefixed form so there is no redirect.
+  // `params.locale` is the vs *content* locale; the URL prefix needs the
+  // visitor's chrome locale.
+  const chromeLocale = getLocale();
+  const vsBase = seoHref("vs", chromeLocale); // /{visitorLocale}/vs
+
   const siblings = pairsByCategory(pair.category)
     .filter((p) => p.slug !== pair.slug && p.content[locale])
     .slice(0, 6);
@@ -163,7 +172,7 @@ export default function VsPage({ params }: { params: Params }) {
   const c = CHROME[locale] ?? CHROME.en;
   const cta = c.cta;
 
-  const pollHref = `/?q=${encodeURIComponent(`${pair.a} vs ${pair.b}?`)}&o=${encodeURIComponent(pair.a)}|${encodeURIComponent(pair.b)}`;
+  const pollHref = `/create?q=${encodeURIComponent(`${pair.a} vs ${pair.b}?`)}&o=${encodeURIComponent(pair.a)}|${encodeURIComponent(pair.b)}`;
 
   const verdictLabel = c.verdict;
   const faqLabel = c.faq;
@@ -173,7 +182,7 @@ export default function VsPage({ params }: { params: Params }) {
     <article className="space-y-8 fade-up">
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2 flex-wrap">
-          <Link href="/vs" className="hover:text-white transition">/vs</Link>
+          <Link href={vsBase} className="hover:text-white transition">/vs</Link>
           <span>·</span>
           <span>{pair.category}</span>
           <span>·</span>
@@ -260,7 +269,7 @@ export default function VsPage({ params }: { params: Params }) {
             {availableLangs.map((l) => (
               <Link
                 key={l}
-                href={`/vs/${l}/${pair.slug}`}
+                href={`${vsBase}/${l}/${pair.slug}`}
                 className="rounded-full bg-white/5 hover:bg-white/10 border border-white/10 px-3 py-1 text-xs text-white/70 hover:text-white transition"
               >
                 {l.toUpperCase()}
@@ -277,7 +286,7 @@ export default function VsPage({ params }: { params: Params }) {
             {siblings.map((s) => (
               <Link
                 key={s.slug}
-                href={`/vs/${locale}/${s.slug}`}
+                href={`${vsBase}/${locale}/${s.slug}`}
                 className="glass rounded-xl px-4 py-3 hover:bg-white/10 transition text-sm text-white/80 truncate"
               >
                 {s.emoji_a ?? ""} {s.a} <span className="text-white/40">vs</span> {s.b} {s.emoji_b ?? ""}

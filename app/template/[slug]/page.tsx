@@ -7,6 +7,7 @@ import {
   getAllTemplates,
 } from "@/lib/seo/templates/loader";
 import { templateLaunchUrl } from "@/lib/seo/templates/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import { canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
@@ -171,7 +172,7 @@ const T = {
 function variationUrl(question: string, options: string[]) {
   const q = encodeURIComponent(question);
   const o = encodeURIComponent(options.join("|"));
-  return `/?q=${q}&o=${o}`;
+  return `/create?q=${q}&o=${o}`;
 }
 
 export default function TemplatePage({
@@ -190,7 +191,7 @@ export default function TemplatePage({
       <HubNav locale={page.locale} current="templates" />
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href="/template" className="hover:text-white transition">
+          <Link href={seoHref("template", page.locale)} className="hover:text-white transition">
             {t.back}
           </Link>
         </div>
@@ -320,7 +321,7 @@ export default function TemplatePage({
             {page.related.map((slug) => (
               <li key={slug}>
                 <Link
-                  href={`/template/${slug}`}
+                  href={`${seoHref("template", page.locale)}/${slug}`}
                   className="rounded-full bg-white/5 border border-white/10 px-3 py-1.5 text-xs text-white/70 hover:bg-white/10 transition"
                 >
                   {slug.replace(/-/g, " ")}

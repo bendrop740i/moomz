@@ -14,6 +14,7 @@ import {
 } from "@/lib/tools/astro";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 import { pickAstroStrings } from "../_strings";
 import { getPersonality } from "../_personality";
 
@@ -70,6 +71,8 @@ export default function AstroSignPage({ params }: { params: Params }) {
 
   const locale = getLocale();
   const S = pickAstroStrings(locale);
+  // /astro 301s the bare path to /{visitorLocale}/astro — link straight there.
+  const astroBase = seoHref("astro", locale); // /{visitorLocale}/astro
   const name = signName(sign, locale);
   const range = formatDateRange(sign, locale);
   const traits = signTraits(sign, locale);
@@ -102,7 +105,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
   };
   const q = pollQ[locale] ?? pollQ.en;
   const o = pollOpts[locale] ?? pollOpts.en;
-  const pollHref = `/?q=${encodeURIComponent(q)}&o=${encodeURIComponent(o.join("|"))}`;
+  const pollHref = `/create?q=${encodeURIComponent(q)}&o=${encodeURIComponent(o.join("|"))}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -128,7 +131,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
         <nav className="text-xs text-white/40 flex items-center gap-1.5" aria-label="breadcrumb">
           <Link href="/" className="hover:text-white/70 transition">moomz</Link>
           <span aria-hidden>›</span>
-          <Link href="/astro" className="hover:text-white/70 transition">{S.hubTitle}</Link>
+          <Link href={astroBase} className="hover:text-white/70 transition">{S.hubTitle}</Link>
           <span aria-hidden>›</span>
           <span className="text-white/60">{name}</span>
         </nav>
@@ -212,7 +215,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
                 return (
                   <Link
                     key={slug}
-                    href={`/astro/${slug}`}
+                    href={`${astroBase}/${slug}`}
                     className="rounded-full bg-gradient-to-r from-pink-500/30 to-purple-500/30 border border-pink-400/30 px-3 py-1 text-xs font-semibold flex items-center gap-1 hover:from-pink-500/50 hover:to-purple-500/50 transition"
                   >
                     <span aria-hidden>{s.emoji}</span>
@@ -233,7 +236,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
                 return (
                   <Link
                     key={slug}
-                    href={`/astro/${slug}`}
+                    href={`${astroBase}/${slug}`}
                     className="rounded-full bg-white/5 border border-white/10 px-3 py-1 text-xs font-semibold text-white/55 flex items-center gap-1 hover:bg-white/10 hover:text-white/80 transition"
                   >
                     <span aria-hidden>{s.emoji}</span>
@@ -283,7 +286,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
             {elementGroup.map((s) => (
               <Link
                 key={s.slug}
-                href={`/astro/${s.slug}`}
+                href={`${astroBase}/${s.slug}`}
                 className="glass rounded-xl p-3 text-center hover:scale-[1.02] active:scale-[0.98] transition"
               >
                 <div className="text-2xl" aria-hidden style={{ color: s.color }}>{s.emoji}</div>
@@ -296,7 +299,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
               {S.oppositeSign}
             </div>
             <Link
-              href={`/astro/${opp.slug}`}
+              href={`${astroBase}/${opp.slug}`}
               className="glass rounded-xl p-3 flex items-center gap-3 hover:scale-[1.01] active:scale-[0.99] transition"
             >
               <span className="text-2xl" aria-hidden style={{ color: opp.color }}>
@@ -313,7 +316,7 @@ export default function AstroSignPage({ params }: { params: Params }) {
 
         <div className="pt-2">
           <Link
-            href="/astro"
+            href={astroBase}
             className="inline-block text-sm text-white/55 hover:text-white/80 transition"
           >
             {S.backToHub}

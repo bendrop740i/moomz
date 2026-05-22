@@ -282,6 +282,17 @@ select:focus-visible,
   animation: live-pulse 1.4s ease-in-out infinite;
 }
 
+/* Bottom-nav center Create button — a slow breathing glow halo so the primary
+   action always reads as "alive" without being distracting. */
+@keyframes nav-fab-glow {
+  0%, 100% { opacity: 0.4; transform: scale(0.9); }
+  50% { opacity: 0.78; transform: scale(1.1); }
+}
+.nav-fab-glow {
+  animation: nav-fab-glow 3.4s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
 @keyframes flame-burst {
   0% {
     opacity: 0;
@@ -480,6 +491,7 @@ select:focus-visible,
   .pop,
   .bar-grow,
   .live-dot,
+  .nav-fab-glow,
   .count-bump,
   .shimmer,
   .skeleton-dot,

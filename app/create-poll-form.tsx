@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { createPoll } from "./actions";
 import { useT, useLocale } from "./locale-context";
 import { trackEvent } from "@/lib/analytics";
+import { useToast } from "./toast";
 
 const EMOJIS = ["🔥", "💖", "✨", "👀", "🌶️", "😭"];
 
@@ -42,9 +43,23 @@ const YESNO: Record<string, [string, string]> = {
   zh: ["是", "否"],
 };
 
+// Fallback toast text when createPoll throws a non-Error (it normally throws
+// localized validation Errors, so this is a rare last resort).
+const GENERIC_ERR: Record<string, string> = {
+  fr: "Oups, réessaie",
+  en: "Oops, try again",
+  es: "Ups, inténtalo de nuevo",
+  it: "Ops, riprova",
+  pt: "Ops, tenta de novo",
+  de: "Hoppla, versuch's nochmal",
+  ja: "おっと、もう一度お試しを",
+  zh: "出错了，再试一次",
+};
+
 export default function CreatePollForm() {
   const t = useT();
   const locale = useLocale();
+  const { toast, ToastHost } = useToast();
   const searchParams = useSearchParams();
   const prefillQ = searchParams.get("q") ?? "";
   const prefillOpts = (() => {
@@ -105,7 +120,12 @@ export default function CreatePollForm() {
         try {
           await createPoll(fd);
         } catch (e) {
-          alert(e instanceof Error ? e.message : "Error");
+          toast(
+            e instanceof Error
+              ? e.message
+              : GENERIC_ERR[locale] ?? GENERIC_ERR.en,
+            "error",
+          );
           setPending(false);
         }
       }}
@@ -228,6 +248,8 @@ export default function CreatePollForm() {
       >
         {pending ? t("form.creating") : t("form.create")}
       </button>
+
+      <ToastHost />
     </form>
   );
 }

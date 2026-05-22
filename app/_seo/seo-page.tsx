@@ -3,6 +3,7 @@ import HubNav, { type HubKey } from "@/app/_seo/hub-nav";
 import AdSlot from "@/app/ad-slot";
 import type { SeoPage, Locale } from "@/lib/seo/types";
 import { pageUrl, pollLaunchUrl } from "@/lib/seo/types";
+import { seoHref, ideasHubHref } from "@/lib/seo/seo-href";
 import { relatedPages } from "@/lib/seo";
 import { BreadcrumbJsonLd, buildBreadcrumbs } from "./json-ld";
 import {
@@ -130,7 +131,13 @@ export default function SeoPageView({ page }: Props) {
         <div className="relative space-y-4">
           <div className="flex items-center gap-2 text-[11px] uppercase tracking-[0.2em]">
             <Link
-              href={page.category === "idees" || page.category === "guides" || page.category === "ideas" || page.category === "blog" ? `/${page.category}` : "/"}
+              href={
+                page.category === "idees" || page.category === "ideas"
+                  ? ideasHubHref(page.locale)
+                  : page.category === "guides" || page.category === "blog" || page.category === "read"
+                  ? seoHref(page.category, page.locale)
+                  : "/"
+              }
               className="rounded-full bg-white/10 border border-white/15 px-3 py-1 text-white/70 hover:bg-white/20 hover:text-white transition"
             >
               {page.category}

@@ -7,6 +7,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { Quiz, QuizLocale } from "@/lib/quizzes/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import { recordQuizDone } from "../../actions";
 
 type Phase = "answering" | "revealed" | "done";
@@ -330,7 +331,7 @@ export default function QuizPlay({ quiz, slug }: { quiz: Quiz; slug: string }) {
             {c.restart}
           </button>
           <Link
-            href="/quiz"
+            href={seoHref("quiz", quiz.lang)}
             className="rounded-xl bg-white/10 hover:bg-white/15 border border-white/15 text-white font-semibold px-4 py-2.5 text-sm transition"
           >
             {c.otherQuizzes}

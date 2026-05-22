@@ -14,6 +14,7 @@ import {
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 import LiveClock from "./live-clock";
 
 export const dynamic = "force-dynamic";
@@ -495,6 +496,9 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
 
   const locale = getLocale();
   const S = getStrings(locale);
+  // /heure 301s the bare path to its locale-prefixed (localized) URL — link
+  // straight to the final form so there is no redirect hop.
+  const heureBase = seoHref("heure", locale); // /{loc}/<localized heure>
 
   // Snapshot the moment of the request — the LiveClock client component will
   // tick from there. Using a fresh Date keeps the static cache fresh for the
@@ -525,7 +529,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
   const flag = flagEmoji(city.cc);
   const aboutText = buildAboutText(city.name, city.tz, offsetLabel, locale);
 
-  // Pre-filled poll deeplink — matches the existing /?q=&o=opt1|opt2 convention.
+  // Pre-filled poll deeplink — /create?q=&o=opt1|opt2 (the create form parses these).
   const pollQ = S.pollCtaTitle;
   const pollO: Record<Locale, string> = {
     fr: "Lève-tôt|Couche-tard|Les deux",
@@ -537,7 +541,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
     ja: "朝型|夜型|どちらも",
     zh: "早起型|夜猫子|两者都有",
   };
-  const pollHref = `/?q=${encodeURIComponent(pollQ)}&o=${encodeURIComponent(pollO[locale] ?? pollO.en)}`;
+  const pollHref = `/create?q=${encodeURIComponent(pollQ)}&o=${encodeURIComponent(pollO[locale] ?? pollO.en)}`;
 
   // JSON-LD: WebPage with a Place mainEntity carrying the IANA tz.
   const jsonLd = {
@@ -659,7 +663,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
                       {flagEmoji(ref.cc)}
                     </span>
                     <Link
-                      href={`/heure/${ref.slug}`}
+                      href={`${heureBase}/${ref.slug}`}
                       className="font-semibold hover:text-pink-200 transition-colors truncate"
                     >
                       {ref.name}
@@ -747,7 +751,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
               {related.map((r) => (
                 <Link
                   key={r.slug}
-                  href={`/heure/${r.slug}`}
+                  href={`${heureBase}/${r.slug}`}
                   className="glass block rounded-xl p-3 hover:scale-[1.01] transition"
                   aria-label={S.clockOf(r.name)}
                 >
@@ -768,7 +772,7 @@ export default function HeureCityPage({ params }: { params: { city: string } }) 
 
         <div className="text-center pt-2">
           <Link
-            href="/heure"
+            href={heureBase}
             className="inline-flex items-center gap-1.5 rounded-full bg-white/10 hover:bg-white/15 transition px-4 py-2 text-sm font-semibold"
           >
             {S.back}

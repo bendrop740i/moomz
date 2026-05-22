@@ -33,12 +33,12 @@ export default function ServiceWorkerRegister() {
     }
 
     // Refresh the SW when the tab regains focus — catches new builds quickly.
+    // `focus` alone is enough; `visibilitychange` also fires on every tab
+    // switch / phone unlock, which just churned the SW for no benefit.
     window.addEventListener("focus", triggerUpdate);
-    document.addEventListener("visibilitychange", triggerUpdate);
 
     return () => {
       window.removeEventListener("focus", triggerUpdate);
-      document.removeEventListener("visibilitychange", triggerUpdate);
     };
   }, []);
 

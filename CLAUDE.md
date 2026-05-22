@@ -3,12 +3,13 @@
 > **For Claude on session resume**: this file IS the project memory. Read it cold — the user (bendrop740i, French speaker) returns without re-explaining. **Update it at the end of any meaningful change.** Keep it tight: compress the changelog, never let it grow back into a blow-by-blow log.
 
 ## Where we left off (most recent)
-**2026-05-22 — `/idees` + `/ideas` traduits dans les 8 langues. La surface SEO est maintenant 100 % multilingue.** Utilisateur : « traduis le reste idée et ce qu'il manque, puis synthétise le CLAUDE.md puis push ». Audit d'abord (mémoire : « manquant » = souvent un bug de routing) — cette fois c'était du vrai contenu manquant : 80 pages FR `idees` + 83 EN `ideas`, zéro traduction es/it/pt/de/ja/zh.
-- **Traduction** — les 83 pages EN `ideas` traduites en es/it/pt/de/ja/zh via 36 agents parallèles (2 vagues de 18, 6 fichiers/langue). 498 nouvelles pages → `lib/seo/ideas-<lang>-<1..6>.ts`. Slugs = slug EN + `-{xx}` (uniques globalement). Catégorie `ideas` pour toutes les langues sauf FR (FR reste en catégorie `idees`, route `/fr/idees`). Astuce anti-bug : agents instruits d'emballer **toute** chaîne en backticks → zéro problème d'échappement de guillemets (cf. mémoire).
-- **Routing** — `/ideas` devient locale-aware comme `/blog` : le hub filtre par `getLocale()` (repli EN), `/{loc}/ideas` rend la bonne langue via le middleware. `ideasHubHref()` pointe maintenant `fr→/fr/idees`, autres→`/{loc}/ideas`. `/ideas/[slug]` SSG sur les 581 pages, OG locale mappée 8 langues. Sitemap émet 83 URLs `ideas` × 6 langues localisées.
-- **⚠️ Build** — le projet fait désormais **3232 pages SSG** ; `next build` plante sur Windows (code `3221226505`, OOM) avec le heap par défaut. **Builder avec `NODE_OPTIONS=--max-old-space-size=8192`.**
-- Vérifié : `tsc` clean, `next build` clean (3232 pages), 8 hubs + 6 détails rendent 200, contenu bien localisé (titres es/de/zh/ja corrects), sitemap OK. `app/layout.tsx` (Google Analytics `G-8BFV1DWKY9` de l'utilisateur) **committé cette fois** (resté non commité ~5 sessions).
-- **Surface SEO i18n désormais complète** : `/vs` `/compare` `/quiz` `/guides` `/blog` `/formation` `/idees`+`/ideas`, keywords, quotes, templates, tools — tout est en 8 langues. Plus de section non traduite.
+**2026-05-22 — Version MVP FINALE : audit 6 agents, bugs réglés, menu refondu.** Utilisateur : « prépare la version MVP finale, résous les bugs sans demander, refais le menu (trop moche), vérifie trad/nav/ux, push ». À geler ~1 an.
+- **Bug « pages qui se chargent plusieurs fois » = redirections 301/307 en cascade.** Des liens internes de la surface SEO pointaient sur des routes nues (`/quiz`, `/ideas/x`, `/?q=`…) que `middleware.ts` redirige → double-chargement visible à chaque clic. Réglé : `pageUrl()`/`pollLaunchUrl()` (`lib/seo/types.ts`) émettent l'URL finale locale-préfixée ; liens nus corrigés dans `seo-page`/`seo-hub`/`related-grid`, breadcrumbs des ~20 pages détail, hub `/vs`, deeplinks `/?q=`→`/create?q=`, sitemap. Zéro redirection sur clic interne.
+- **Bug « moomz qui ressemblent à rien » = contenu poubelle dans le feed.** Nettoyage DB (mig 032) : 5610→5234 polls — supprimé 9 garbage (keysmash, polls de test), 175 polls en langues sans UI (ar/hi/ko/pl/tr/ru/nl), 192 doublons exacts. 8 langues, 0 doublon.
+- **Menu refondu** (`bottom-nav-v2.tsx`) : glass premium, onglet actif = pilule gradient lumineuse (fondu), bouton central 60px avec halo respirant (`nav-fab-glow`) + sheen glossy. Badge profil affiné.
+- **Footer fantôme** sous le feed immersif réglé : `footer-zone.tsx` masque footer + locale-switcher sur `/` et `/discover` (le feed 100dvh est désormais seul à l'écran).
+- **Polish** : 5 `alert()` natifs → toast glassmorphism (`app/toast.tsx`) ; headers de sécurité (`next.config.mjs` — `frame-ancestors` garde `/embed` framable, `poweredByHeader:false`) ; 3 clés i18n manquantes ajoutées ×8 langues ; 9 fichiers morts supprimés (`bottom-nav.tsx` v1, `onboarding.tsx` orphelin, etc.) ; skeleton de chargement `/[slug]` ; SW `update()` throttlé.
+- Vérifié : `tsc` clean, `next build` clean. **Toujours builder avec `NODE_OPTIONS=--max-old-space-size=8192`** (OOM Windows sinon, code `3221226505`).
 
 ## What it is
 Free mini-SaaS: **vibe-check / shareable polls**. User asks a question (2-6 emoji options), gets a short link `moomz.com/abc12`, shares it; votes show live with animated bars. Anti-double-vote via cookie + SQL `unique(poll_id, voter_id)`. Audience: Gen Z, mobile-first. Plus a large SEO surface (~3200 routes, all 8 langs) for Google traffic. Live on `moomz.com` since 2026-05-18.
@@ -60,7 +61,7 @@ Virtual **coins** backbone (no cashout — legal). Faucets = streaks/Daily/achie
 - Daily editorial drip: `moomzhq` account + `editorial_queue` + `publish_daily_editorial()` cron (9h UTC, 1 fresh poll/lang).
 
 ## Database
-Postgres. Tables incl. `polls`, `votes`, `profiles`, `ask_questions`, `daily_moomz`, `tracks`, `push_subscriptions`, `coin_transactions`, `achievement_defs`, `predictions`, `editorial_queue`. Public views (`polls_with_stats`, `polls_trending`, `profiles_public`, `ask_questions_public`, `votes_world_24h`) all `security_invoker=true`. Migrations in `supabase-migrations/` 001→031b. Apply via Supabase MCP (`apply_migration`/`execute_sql`) or the PAT.
+Postgres. Tables incl. `polls`, `votes`, `profiles`, `ask_questions`, `daily_moomz`, `tracks`, `push_subscriptions`, `coin_transactions`, `achievement_defs`, `predictions`, `editorial_queue`. Public views (`polls_with_stats`, `polls_trending`, `profiles_public`, `ask_questions_public`, `votes_world_24h`) all `security_invoker=true`. Migrations in `supabase-migrations/` 001→032. Apply via Supabase MCP (`apply_migration`/`execute_sql`) or the PAT.
 
 ## Supabase admin access (PAT)
 The user authorized SQL / Management API calls. **Secrets vault: `.secrets.txt`** (gitignored). Multi-line `key=value`: Supabase PAT, `supabase_anon_key`, Resend, blob token, `r2_*` keys.
@@ -101,6 +102,7 @@ npm run dev    # http://localhost:3001 (port 3000 busy on the user's machine)
 - AR: RTL only, no UI translation. PT quiz half of `scienze-it-pt.ts` never shipped.
 
 ## Recent changelog (newest first, one line each)
+- **2026-05-22** — Version MVP finale (6 agents) : redirections 301 en cascade réglées (liens SEO nus → URLs locale-préfixées, `/vs`, deeplinks `/?q=`, sitemap) ; nettoyage DB mig 032 (5610→5234, −garbage/−doublons/−langues sans UI) ; `bottom-nav-v2` refondu ; footer fantôme du feed réglé ; 5 `alert()`→toast `app/toast.tsx` ; headers sécurité `next.config.mjs` ; 9 fichiers morts supprimés.
 - **2026-05-22** — `/idees`+`/ideas` traduits en 8 langues : 83 pages EN `ideas` → es/it/pt/de/ja/zh (498 pages, 36 agents, `lib/seo/ideas-<lang>-<n>.ts`). `/ideas` hub locale-aware ; `ideasHubHref` per-locale ; build OOM Windows → `NODE_OPTIONS=--max-old-space-size=8192`. Surface SEO i18n complète. GA committé.
 - **2026-05-22** — `/formation` réduit 1000→100 modules/langue + traduit en 8 langues (800 modules / 800 slugs uniques, 30 agents). `getFormationByLocale` filtre par locale exacte ; `THEME_META` 8 langues ; sitemap formation localisé.
 - **2026-05-22** — Bug i18n de navigation réglé à la racine : `LocaleProvider` re-dérive la locale par render (le root layout ne re-render pas en nav client App Router). `SiteFooter` repassé en client component.

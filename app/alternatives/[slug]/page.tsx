@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alternatives } from "@/lib/seo/alternatives";
-import { canonicalUrl } from "@/lib/i18n-server";
+import { seoHref } from "@/lib/seo/seo-href";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export function generateStaticParams() {
   return alternatives.map((a) => ({ slug: a.slug }));
@@ -65,6 +66,9 @@ export default function AlternativePage({
   const page = alternatives.find((a) => a.slug === params.slug);
   if (!page) notFound();
 
+  // /alternatives 301s to /{visitorLocale}/alternatives — link straight there.
+  const locale = getLocale();
+
   const moomzWins = page.highlights.filter((h) => h.winner === "moomz").length;
   const compWins = page.highlights.filter(
     (h) => h.winner === "competitor"
@@ -75,7 +79,7 @@ export default function AlternativePage({
     <article className="space-y-10 fade-up">
       <header className="space-y-3">
         <div className="text-xs uppercase tracking-widest text-white/40 flex items-center gap-2">
-          <Link href="/alternatives" className="hover:text-white transition">
+          <Link href={seoHref("alternatives", locale)} className="hover:text-white transition">
             ← all alternatives
           </Link>
         </div>

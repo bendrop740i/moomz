@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { SeoPage, Locale, Category } from "@/lib/seo/types";
 import { pageUrl } from "@/lib/seo/types";
+import { seoHref, ideasHubHref, keywordHubHref } from "@/lib/seo/seo-href";
 import { allPages } from "@/lib/seo";
 
 // ---------------------------------------------------------------------------
@@ -273,7 +274,11 @@ export function ExploreThemes({ locale }: { locale: Locale }) {
         {counts.map(({ category, count }) => (
           <Link
             key={category}
-            href={`/${category}`}
+            href={
+              category === "idees" || category === "ideas"
+                ? ideasHubHref(locale)
+                : seoHref(category, locale)
+            }
             className="glass rounded-2xl px-4 py-3 hover:bg-white/10 transition flex items-center gap-3"
           >
             <span className="text-2xl">{CATEGORY_EMOJI[category]}</span>
@@ -288,7 +293,7 @@ export function ExploreThemes({ locale }: { locale: Locale }) {
         {/* Keyword hubs — route exists only for FR (/mot) and EN (/word) */}
         {locale === "fr" || locale === "en" ? (
           <Link
-            href={locale === "fr" ? "/mot" : "/word"}
+            href={keywordHubHref(locale)}
             className="glass rounded-2xl px-4 py-3 hover:bg-white/10 transition flex items-center gap-3"
           >
             <span className="text-2xl">🔤</span>
@@ -328,7 +333,14 @@ export function Breadcrumb({ page }: { page: SeoPage }) {
         {homeLabel}
       </Link>
       <span aria-hidden="true">›</span>
-      <Link href={`/${page.category}`} className="hover:text-white/80 transition">
+      <Link
+        href={
+          page.category === "idees" || page.category === "ideas"
+            ? ideasHubHref(page.locale)
+            : seoHref(page.category, page.locale)
+        }
+        className="hover:text-white/80 transition"
+      >
         {catLabel}
       </Link>
       <span aria-hidden="true">›</span>

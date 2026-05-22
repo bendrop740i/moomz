@@ -15,6 +15,9 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 type Dict = Record<string, string>;
 
 const fr: Dict = {
+  "nav.ideas": "Idées",
+  "home.dailySub": "le sondage du jour",
+  "daily.voted": "ont voté",
   "home.tagline": "Vote, partage, vois la vibe en live.",
   "home.trending": "🔥 Trending",
   "home.active": "actifs",
@@ -231,6 +234,9 @@ const fr: Dict = {
 };
 
 const en: Dict = {
+  "nav.ideas": "Ideas",
+  "home.dailySub": "poll of the day",
+  "daily.voted": "voted",
   "home.tagline": "Vote, share, see the vibe live.",
   "home.trending": "🔥 Trending",
   "home.active": "active",
@@ -447,6 +453,9 @@ const en: Dict = {
 };
 
 const es: Dict = {
+  "nav.ideas": "Ideas",
+  "home.dailySub": "la encuesta del día",
+  "daily.voted": "votaron",
   "home.tagline": "Vota, comparte, mira la vibra en vivo.",
   "home.trending": "🔥 Trending",
   "home.active": "activos",
@@ -663,6 +672,9 @@ const es: Dict = {
 };
 
 const it: Dict = {
+  "nav.ideas": "Idee",
+  "home.dailySub": "il sondaggio del giorno",
+  "daily.voted": "hanno votato",
   "home.tagline": "Vota, condividi, guarda la vibe in diretta.",
   "home.trending": "🔥 Trending",
   "home.active": "attivi",
@@ -879,6 +891,9 @@ const it: Dict = {
 };
 
 const pt: Dict = {
+  "nav.ideas": "Ideias",
+  "home.dailySub": "a sondagem do dia",
+  "daily.voted": "votaram",
   "home.tagline": "Vota, partilha, vê a vibe ao vivo.",
   "home.trending": "🔥 Trending",
   "home.active": "ativos",
@@ -1085,6 +1100,9 @@ const pt: Dict = {
 };
 
 const de: Dict = {
+  "nav.ideas": "Ideen",
+  "home.dailySub": "die Umfrage des Tages",
+  "daily.voted": "abgestimmt",
   "home.tagline": "Stimmen, teilen, die Vibe live sehen.",
   "home.trending": "🔥 Trending",
   "home.active": "aktiv",
@@ -1291,6 +1309,9 @@ const de: Dict = {
 };
 
 const ja: Dict = {
+  "nav.ideas": "アイデア",
+  "home.dailySub": "今日の投票",
+  "daily.voted": "投票済み",
   "home.tagline": "投票して、シェアして、リアルタイムで反応を見よう。",
   "home.trending": "🔥 トレンド",
   "home.active": "アクティブ",
@@ -1497,6 +1518,9 @@ const ja: Dict = {
 };
 
 const zh: Dict = {
+  "nav.ideas": "创意",
+  "home.dailySub": "每日投票",
+  "daily.voted": "已投票",
   "home.tagline": "投票、分享、实时看氛围。",
   "home.trending": "🔥 热门",
   "home.active": "活跃",

@@ -16,6 +16,7 @@ import {
 } from "@/lib/tools/convertisseur";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 import { pickString, type ToolLocale } from "../_strings";
 import { pollPrompt } from "../_poll-prompts";
 
@@ -75,6 +76,9 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
 
   const locale = (getLocale() as ToolLocale) ?? "fr";
   const S = pickString(locale);
+  // /convertisseur 301s the bare path to its locale-prefixed (localized) URL —
+  // link straight to the final form so there is no redirect hop.
+  const convBase = seoHref("convertisseur", locale); // /{loc}/<localized convertisseur>
 
   const [latest, history] = await Promise.all([
     fetchLatestRate(p.from, p.to),
@@ -87,7 +91,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
   const related = relatedPairs(p, 6);
 
   const prompt = pollPrompt(p.from, p.to, locale);
-  const pollHref = `/?q=${encodeURIComponent(prompt.q)}&o=${encodeURIComponent(prompt.o.join("|"))}`;
+  const pollHref = `/create?q=${encodeURIComponent(prompt.q)}&o=${encodeURIComponent(prompt.o.join("|"))}`;
 
   // JSON-LD: Article + FinancialProduct + Breadcrumb
   const url = `https://moomz.com/convertisseur/${params.pair}`;
@@ -143,7 +147,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
           <nav aria-label="Breadcrumb" className="text-xs text-white/40">
             <Link href="/" className="hover:text-white/70">{S.breadcrumbHome}</Link>
             <span aria-hidden> › </span>
-            <Link href="/convertisseur" className="hover:text-white/70">{S.breadcrumbHub}</Link>
+            <Link href={convBase} className="hover:text-white/70">{S.breadcrumbHub}</Link>
             <span aria-hidden> › </span>
             <span className="text-white/60">{p.from} → {p.to}</span>
           </nav>
@@ -286,7 +290,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
                 return (
                   <Link
                     key={slug}
-                    href={`/convertisseur/${slug}`}
+                    href={`${convBase}/${slug}`}
                     className="glass rounded-xl px-3 py-2.5 text-sm hover:scale-[1.01] active:scale-[0.99] transition flex items-center gap-2"
                   >
                     <span aria-hidden>{CURRENCIES[rp.from].flag}→{CURRENCIES[rp.to].flag}</span>
@@ -299,7 +303,7 @@ export default async function ConvertisseurPair({ params }: { params: Params }) 
         )}
 
         <div className="text-center pt-2">
-          <Link href="/convertisseur" className="text-sm text-white/55 hover:text-white/85">
+          <Link href={convBase} className="text-sm text-white/55 hover:text-white/85">
             {S.backToHub}
           </Link>
         </div>

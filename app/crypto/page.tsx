@@ -183,7 +183,7 @@ export default async function CryptoHubPage() {
           </h2>
           <p className="text-sm text-white/60 max-w-sm mx-auto">{S.pollCta}</p>
           <Link
-            href={`/?q=${encodeURIComponent(S.pollCtaQuestion(COIN_META.bitcoin.name))}&o=${encodeURIComponent([S.pollOptYes, S.pollOptNo, S.pollOptMaybe].join("|"))}`}
+            href={`/create?q=${encodeURIComponent(S.pollCtaQuestion(COIN_META.bitcoin.name))}&o=${encodeURIComponent([S.pollOptYes, S.pollOptNo, S.pollOptMaybe].join("|"))}`}
             className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2 text-sm font-bold mt-1"
           >
             {S.pollCtaButton} <span aria-hidden>→</span>

@@ -10,6 +10,7 @@ import {
 } from "@/lib/tools/recettes";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
+import { seoHref } from "@/lib/seo/seo-href";
 import {
   localizedIntro,
   localizedName,
@@ -84,7 +85,7 @@ export function generateMetadata({
 function buildPollHref(question: string, options: string[]): string {
   const q = encodeURIComponent(question);
   const o = encodeURIComponent(options.join("|"));
-  return `/?q=${q}&o=${o}`;
+  return `/create?q=${q}&o=${o}`;
 }
 
 export default async function RecetteDetailPage({
@@ -97,6 +98,9 @@ export default async function RecetteDetailPage({
 
   const locale = (getLocale() as ToolLocale) ?? "fr";
   const S = pickString(locale);
+  // /recettes 301s the bare path to its locale-prefixed (localized) URL — link
+  // straight to the final form so there is no redirect hop.
+  const recettesBase = seoHref("recettes", locale); // /{loc}/<localized recettes>
   const name = localizedName(cat, locale);
   const intro = localizedIntro(cat, locale);
   const poll = localizedPoll(cat, locale);
@@ -132,7 +136,7 @@ export default async function RecetteDetailPage({
       />
       <div className="space-y-8 fade-up">
         <nav className="text-sm text-white/50">
-          <Link href="/recettes" className="hover:text-white transition">
+          <Link href={recettesBase} className="hover:text-white transition">
             {S.allRecipes}
           </Link>
           <span className="mx-2 text-white/30">/</span>
@@ -236,7 +240,7 @@ export default async function RecetteDetailPage({
               {related.map((c) => (
                 <Link
                   key={c.slug}
-                  href={`/recettes/${c.slug}`}
+                  href={`${recettesBase}/${c.slug}`}
                   className="glass rounded-xl px-3 py-2.5 text-sm hover:scale-[1.01] active:scale-[0.99] transition flex items-center gap-2"
                 >
                   <span aria-hidden className="text-lg">
@@ -253,7 +257,7 @@ export default async function RecetteDetailPage({
 
         <div className="text-center pt-2">
           <Link
-            href="/recettes"
+            href={recettesBase}
             className="inline-block text-sm text-white/50 hover:text-white transition"
           >
             {S.backToHub}

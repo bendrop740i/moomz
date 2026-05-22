@@ -218,7 +218,7 @@ export default async function QuotePageView({ page }: { page: QuotePage }) {
     })),
   };
 
-  const ctaHref = `/?q=${encodeURIComponent(labels.ctaQuestion(page.label))}`;
+  const ctaHref = `/create?q=${encodeURIComponent(labels.ctaQuestion(page.label))}`;
 
   return (
     <article className="space-y-8 fade-up">

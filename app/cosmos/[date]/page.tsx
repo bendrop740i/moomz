@@ -15,6 +15,7 @@ import {
 } from "@/lib/tools/cosmos";
 import { ApodView, ArchivesGrid, PollCta, StubView } from "../_apod-view";
 import { bcp47, pickString, type ToolLocale } from "../_strings";
+import { seoHref } from "@/lib/seo/seo-href";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 3600;
@@ -69,6 +70,8 @@ export default async function CosmosDetail({
   if (!isValidCosmosDate(params.date)) notFound();
   const locale = (getLocale() as ToolLocale) ?? "en";
   const S = pickString(locale);
+  // /cosmos 301s the bare path to /{visitorLocale}/cosmos — link straight there.
+  const cosmosBase = seoHref("cosmos", locale); // /{visitorLocale}/cosmos
 
   const apod = await fetchApod(params.date);
   const prev = prevCosmosDate(params.date);
@@ -123,7 +126,7 @@ export default async function CosmosDetail({
         <nav className="flex items-center justify-between gap-2 text-sm">
           {prev ? (
             <Link
-              href={`/cosmos/${prev}`}
+              href={`${cosmosBase}/${prev}`}
               className="glass rounded-full px-3 py-2 hover:bg-white/10 transition"
             >
               {S.previousDay}
@@ -134,14 +137,14 @@ export default async function CosmosDetail({
             </span>
           )}
           <Link
-            href="/cosmos"
+            href={cosmosBase}
             className="rounded-full px-3 py-2 text-white/60 hover:text-white transition text-center"
           >
             {S.backToToday}
           </Link>
           {next ? (
             <Link
-              href={`/cosmos/${next}`}
+              href={`${cosmosBase}/${next}`}
               className="glass rounded-full px-3 py-2 hover:bg-white/10 transition"
             >
               {S.nextDay}
@@ -170,7 +173,7 @@ export default async function CosmosDetail({
 
         <div className="text-center">
           <Link
-            href="/cosmos"
+            href={cosmosBase}
             className="text-sm text-white/50 hover:text-white/85 transition"
           >
             {S.backToHub}

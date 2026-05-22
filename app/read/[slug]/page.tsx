@@ -4,6 +4,7 @@ import Link from "next/link";
 import { findPage, pagesByCategory } from "@/lib/seo";
 import { canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/seo/types";
+import { seoHref } from "@/lib/seo/seo-href";
 import SeoPageView from "@/app/_seo/seo-page";
 import { ArticleJsonLd, FaqJsonLd } from "@/app/_seo/json-ld";
 
@@ -71,7 +72,7 @@ export default function ReadPage({ params }: { params: { slug: string } }) {
       {/* Explicit back-link to the /read hub so the detail page is never a dead-end. */}
       <div className="mt-10">
         <Link
-          href="/read"
+          href={seoHref("read", page.locale)}
           className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-sm text-white/70 hover:bg-white/10 hover:text-white transition"
         >
           {backLabel}

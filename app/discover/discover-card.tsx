@@ -14,6 +14,7 @@ import { haptic } from "@/lib/haptics";
 import type { Locale } from "@/lib/i18n";
 import AnimatedNumber from "../animated-number";
 import { useT, useLocale } from "../locale-context";
+import { useToast } from "../toast";
 
 // Confetti pulls ~4 kB of keyframe / emoji data — only needed after a vote, so
 // load it lazily and keep the feed scroll cheap.
@@ -23,6 +24,20 @@ const Confetti = dynamic(() => import("../confetti"), { ssr: false });
 // top of the vivid colour wash.
 const ACTION_PILL =
   "inline-flex min-h-[34px] items-center gap-1 rounded-full border border-white/20 bg-black/40 px-3 text-[11px] font-bold uppercase tracking-wide text-white/85 backdrop-blur-md transition hover:bg-black/60 active:scale-95";
+
+// Friendly fallback for a non-Error vote failure (rare — castVote throws
+// localized Errors). Per-component i18n map, matching how this codebase keeps
+// small string sets local instead of bloating lib/i18n.ts.
+const VOTE_ERR: Record<string, string> = {
+  fr: "Vote impossible, réessaie",
+  en: "Couldn't vote, try again",
+  es: "No se pudo votar, inténtalo de nuevo",
+  it: "Voto non riuscito, riprova",
+  pt: "Não deu pra votar, tenta de novo",
+  de: "Abstimmen ging nicht, versuch's nochmal",
+  ja: "投票できませんでした。もう一度お試しを",
+  zh: "投票失败，再试一次",
+};
 
 type Props = {
   pollId: string;
@@ -62,6 +77,7 @@ export default function DiscoverCard({
 }: Props) {
   const t = useT();
   const locale = useLocale();
+  const { toast, ToastHost } = useToast();
   const [pending, startTransition] = useTransition();
   const [voted, setVoted] = useState<number | null>(alreadyVoted);
   const [counts, setCounts] = useState<number[] | null>(null);
@@ -267,7 +283,10 @@ export default function DiscoverCard({
           }, 3000);
         }
       } catch (e) {
-        alert(e instanceof Error ? e.message : "Error");
+        toast(
+          e instanceof Error ? e.message : VOTE_ERR[locale] ?? VOTE_ERR.en,
+          "error",
+        );
         setVoted(null);
         setCounts(null);
         setTotal(initialVoteCount);
@@ -575,6 +594,8 @@ export default function DiscoverCard({
           {t("card.passed")}
         </div>
       )}
+
+      <ToastHost />
     </article>
   );
 }
