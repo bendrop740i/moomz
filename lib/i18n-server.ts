@@ -13,6 +13,14 @@ export function getLocale(): Locale {
   return pickLocaleFromAcceptLanguage(headers().get("accept-language"));
 }
 
+// Canonical URL for the current request — `https://moomz.com` + the original
+// public path (set by middleware as `x-moomz-path`). Correct on locale-prefixed
+// SEO routes even though middleware internally rewrites them.
+export function canonicalUrl(): string {
+  const path = headers().get("x-moomz-path") || "/";
+  return `https://moomz.com${path === "/" ? "" : path}`;
+}
+
 // Server-side translator factory — mirror of the `useT()` client hook. Pass
 // an explicit locale (typically from `getLocale()`) and call the returned
 // function with `i18n.ts` keys. Useful for server components that need to

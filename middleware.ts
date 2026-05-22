@@ -77,6 +77,9 @@ export function middleware(req: NextRequest): NextResponse {
     url.pathname = "/" + segments.slice(1).join("/");
     const headers = new Headers(req.headers);
     headers.set("x-moomz-locale", first);
+    // Original public path — lets pages build a correct locale-prefixed
+    // canonical / OG url even though the route was rewritten.
+    headers.set("x-moomz-path", pathname);
     const res = NextResponse.rewrite(url, { request: { headers } });
     res.cookies.set(COOKIE, first, { path: "/", maxAge: YEAR, sameSite: "lax" });
     return res;
@@ -96,8 +99,11 @@ export function middleware(req: NextRequest): NextResponse {
     return NextResponse.redirect(url, 301);
   }
 
-  // 3) Homepage, polls, app surface — untouched.
-  return NextResponse.next();
+  // 3) Homepage, polls, app surface — untouched (but expose the path so any
+  //    page can build a self-canonical).
+  const passHeaders = new Headers(req.headers);
+  passHeaders.set("x-moomz-path", pathname);
+  return NextResponse.next({ request: { headers: passHeaders } });
 }
 
 export const config = {
