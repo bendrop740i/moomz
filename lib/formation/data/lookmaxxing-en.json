@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "beginner-skincare-routine",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Building a Beginner Skincare Routine",
+    "emoji": "✨",
+    "intro": "You don't need ten products for great skin. Three simple steps, repeated every day, are enough to get started.",
+    "sections": [
+      {
+        "heading": "The three pillars",
+        "body": "An effective routine comes down to three steps: cleanse, moisturize, protect. In the morning, cleanse gently, apply a moisturizer, then sunscreen. In the evening, cleanse to remove the day's dust and sebum, then moisturize. Everything else is optional. Consistency beats product count every time — a simple routine you actually stick to will always beat a complex one you abandon after a week."
+      },
+      {
+        "heading": "Choosing the right products",
+        "body": "Skip the luxury brands. A gentle soap-free cleanser, a neutral moisturizer, and a sunscreen will cover your needs and cost very little at a drugstore or grocery store. Figure out your skin type first: skin that feels tight after cleansing often means dry skin; a midday shine usually means oily skin. Go for lighter textures if your skin is oily, richer ones if it's dry. Avoid heavily fragranced products — they can irritate."
+      },
+      {
+        "heading": "Mistakes to avoid",
+        "body": "The first mistake is overdoing it: layering strong actives right from the start irritates skin and triggers redness and breakouts. The second is skipping sunscreen, which is actually the most effective anti-aging move you can make. The third is switching products every week — give your skin three to four weeks to respond before you judge anything. Be patient and just observe."
+      }
+    ],
+    "steps": [
+      "Morning: cleanse, moisturize, apply SPF 30 minimum.",
+      "Evening: cleanse to remove sebum and impurities, then moisturize.",
+      "Start with only three basic products.",
+      "Stick to the same routine for at least a month before judging it.",
+      "Add an active (acid, retinol) only once the basics are locked in."
+    ],
+    "faq": [
+      {
+        "q": "Do I need different products for morning and night?",
+        "a": "The big difference is sunscreen in the morning. At night you can add a targeted treatment, but it's not mandatory."
+      },
+      {
+        "q": "Are expensive products better?",
+        "a": "Not necessarily. Many affordable drugstore products work really well. What matters is the formula and consistency, not the price tag."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-skin-type",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Identifying Your Skin Type So You Can Care for It Better",
+    "emoji": "🔍",
+    "intro": "Choosing the right products starts with knowing your skin. A simple at-home test gives you the answer in a few hours.",
+    "sections": [
+      {
+        "heading": "The main skin types",
+        "body": "There are four main profiles: normal (balanced), dry (tight, can flake), oily (shiny with visible pores), and combination (oily in the T-zone, normal or dry on the cheeks). Then there's sensitive skin, which reacts easily with redness or tingling — and it can overlap with any of the other types. Knowing your profile stops you from buying products that aren't right for you."
+      },
+      {
+        "heading": "The tissue test",
+        "body": "Clean your face in the evening with a gentle product and apply nothing afterward. The next morning, before washing, press a paper tissue to different areas of your face. If it stays dry everywhere, your skin leans normal or dry. If there's oiliness only in the center, you're combination. Oil everywhere means oily skin. A feeling of tightness points to dry skin."
+      },
+      {
+        "heading": "Skin changes over time",
+        "body": "Your skin type isn't fixed. It shifts with age, seasons, stress, diet, and hormones. Oily teenage skin can become combination later in life. In winter, cold often dries skin out; in summer it tends to get shinier. Reassess your skin twice a year and adjust your textures: lighter in summer, more nourishing in winter."
+      }
+    ],
+    "steps": [
+      "Do the tissue test in the morning before applying anything.",
+      "Notice which zones are oily, tight, or prone to redness.",
+      "Check if your skin stings easily — a sign of sensitivity.",
+      "Choose light textures for oily skin, richer ones for dry skin.",
+      "Reassess your skin type with each change of season."
+    ],
+    "faq": [
+      {
+        "q": "Can skin be oily and dehydrated at the same time?",
+        "a": "Yes. Oily skin produces sebum but can still lack water. In that case, a light moisturizer is still essential."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "how-to-wash-your-face",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "How to Cleanse Your Face Properly Morning and Night",
+    "emoji": "🧼",
+    "intro": "Cleansing is the foundation of great skin. Done wrong, it irritates; done right, it preps skin for everything else.",
+    "sections": [
+      {
+        "heading": "Why you need to cleanse",
+        "body": "Throughout the day, your skin builds up sebum, dust, pollution, and product residue. Cleansing removes that layer to prevent clogged pores and help skincare absorb better. But cleansing doesn't mean stripping: if your skin feels really tight after washing, you've been too harsh. A good cleanse leaves skin clean, supple, and comfortable — never rough or irritated."
+      },
+      {
+        "heading": "The right technique",
+        "body": "Use lukewarm water, never boiling hot — water that's too hot strips the skin. Apply your cleanser with your fingertips using gentle circular motions for thirty seconds to a minute. Give a little extra attention to the nose and chin where sebum builds up. Rinse thoroughly to leave no residue, then pat dry with a clean towel — don't rub. In the morning, a plain water rinse can be enough if your skin is dry."
+      },
+      {
+        "heading": "Frequency and overdoing it",
+        "body": "Two cleansing sessions a day is plenty: morning and night. Washing your face too often disrupts the skin's protective barrier and makes it reactive. After exercise, a rinse with plain water is enough if you're short on time. Skip harsh, foamy, or heavily fragranced cleansers that dry you out. If your skin consistently feels tight after washing, switch to something gentler."
+      }
+    ],
+    "steps": [
+      "Wash your hands before touching your face.",
+      "Use lukewarm water — never scalding hot.",
+      "Massage the cleanser in gentle circles for thirty seconds.",
+      "Rinse well and pat dry with a clean towel — no rubbing.",
+      "Cleanse twice a day: morning and night, no more."
+    ],
+    "faq": [
+      {
+        "q": "Do I need a washcloth or cleansing brush?",
+        "a": "Clean fingers work just fine. Cloths and brushes can irritate and harbor bacteria if not changed frequently."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moisturize-your-skin-daily",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "How to Moisturize Your Skin Every Day Without Getting It Wrong",
+    "emoji": "💧",
+    "intro": "Well-hydrated skin looks smoother, more radiant, and ages better. It's a quick step with visible results.",
+    "sections": [
+      {
+        "heading": "Why everyone needs to moisturize",
+        "body": "Even oily skin needs hydration: sebum isn't water. When skin is dehydrated, it defends itself by producing more oil — which makes shine worse. Moisturizer strengthens the skin barrier, reduces tightness, and keeps skin supple. The result: a more even complexion and finer-looking pores. It's a useful step at any age, regardless of your skin type."
+      },
+      {
+        "heading": "Picking the right texture",
+        "body": "The key is matching the texture to your skin. Oily or combination skin: go for a gel or light cream, non-comedogenic, that doesn't leave a greasy film. Dry skin: choose a richer cream, possibly with nourishing ingredients. Sensitive skin: look for short ingredient lists, fragrance-free. In winter, don't hesitate to switch to a richer texture even if your skin is normally oily."
+      },
+      {
+        "heading": "When and how to apply",
+        "body": "Apply your moisturizer on slightly damp skin, right after cleansing — the residual water helps lock in hydration. Use a pea-sized amount, dot it across your face, then spread upward and outward without tugging. Don't forget your neck. In the morning, moisturizer goes on before sunscreen. At night, it can be the last step in your routine."
+      }
+    ],
+    "steps": [
+      "Apply moisturizer on skin that's still slightly damp.",
+      "A pea-sized amount is enough — more product doesn't mean more benefit.",
+      "Spread upward and outward, no tugging or rubbing.",
+      "Don't skip your neck — it's often neglected.",
+      "Adjust the texture to the season and your skin type."
+    ],
+    "faq": [
+      {
+        "q": "My skin is oily — do I still need to moisturize?",
+        "a": "Absolutely. Skipping moisturizer pushes your skin to produce even more oil. Just choose a light gel formula."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "daily-sunscreen-habit",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Wearing Sunscreen Every Single Day",
+    "emoji": "☀️",
+    "intro": "This is the most powerful and cheapest anti-aging move you can make. A thirty-second habit that changes everything long-term.",
+    "sections": [
+      {
+        "heading": "Why the sun marks your skin",
+        "body": "UV rays are responsible for the majority of visible skin aging: wrinkles, dark spots, loss of firmness, and dull tone. They penetrate clouds and glass, so they're working even on grey days or when you're sitting near a window indoors. Sunscreen blocks a large portion of these rays. It is, by far, the highest-ROI action you can take for long-term great skin."
+      },
+      {
+        "heading": "Choosing and applying it right",
+        "body": "Go for SPF 30 minimum, ideally SPF 50 for your face, with broad-spectrum coverage. Texture matters — you need to actually want to wear it every day: fluid for oily skin, cream for dry skin. Apply a generous amount (about two fingers' worth for face and neck) as the last step in your morning routine, before any makeup. Too thin a layer dramatically reduces protection."
+      },
+      {
+        "heading": "Reapplying through the day",
+        "body": "Sunscreen doesn't last all day — it breaks down with time, sweat, and friction. If you're indoors, one morning application is usually enough. If you're outside, reapply every two hours. There are sprays and sticks that make reapplying over makeup easy. Don't forget the spots people miss: ears, the back of the neck, and the backs of your hands."
+      }
+    ],
+    "steps": [
+      "Apply SPF 30–50 every morning, even on cloudy days.",
+      "Use a generous amount: two fingers' worth for face and neck.",
+      "Apply it as the last skincare step, before makeup.",
+      "Reapply every two hours when you're outside.",
+      "Don't forget your ears, neck, and hands."
+    ],
+    "faq": [
+      {
+        "q": "Do I need sunscreen in winter or on cloudy days?",
+        "a": "Yes. UV rays penetrate clouds and are present all year. A daily habit is what actually protects you."
+      },
+      {
+        "q": "Will sunscreen stop me from getting a tan?",
+        "a": "It slows tanning and protects against damage. Healthy, unburned skin is always the better goal."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-acne-calmly",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Managing Acne Calmly and With Good Habits",
+    "emoji": "🌱",
+    "intro": "Acne is extremely common and nothing to be ashamed of. A few simple habits can help calm it without aggressing your skin.",
+    "sections": [
+      {
+        "heading": "Understanding acne",
+        "body": "Acne appears when pores get clogged with sebum and dead skin cells, sometimes worsened by bacteria and hormones. It affects a huge percentage of teenagers and many adults — you are absolutely not alone. It's not a sign of poor hygiene. Understanding that it's a normal skin process helps you approach it with patience rather than panic."
+      },
+      {
+        "heading": "Good daily habits",
+        "body": "Keep your routine gentle: a non-aggressive cleanser, a light non-comedogenic moisturizer, sunscreen. Avoid stripping your skin — that usually makes acne worse. Don't touch your spots or try to pop them: you risk lasting marks and infection. Change your pillowcase regularly, clean your phone, and keep your hands off your face. Consistency calms skin little by little."
+      },
+      {
+        "heading": "When to see a professional",
+        "body": "If your acne is widespread, painful, leaving marks, or not improving with a gentle routine after a few months, see a dermatologist or doctor. Effective, targeted treatments exist. Asking for help isn't failure — it's the most direct path to results. Steer clear of miracle cures found online: most are ineffective or irritating."
+      }
+    ],
+    "steps": [
+      "Keep your routine gentle — never strip your skin.",
+      "Don't touch or pop your spots.",
+      "Change your pillowcase every week.",
+      "Clean your phone — it touches your cheek constantly.",
+      "See a doctor if acne is severe or persistent."
+    ],
+    "faq": [
+      {
+        "q": "Does chocolate cause breakouts?",
+        "a": "The direct link is weak. A balanced diet helps your skin, but acne is mainly driven by hormones."
+      },
+      {
+        "q": "Should I stop wearing makeup?",
+        "a": "No, but choose non-comedogenic products and always remove your makeup thoroughly every night."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gentle-skin-exfoliation",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Exfoliating Your Skin Gently Without Going Too Far",
+    "emoji": "🌀",
+    "intro": "When used right, exfoliants give you smoother, more glowing skin. Used wrong, they irritate. Here's how to find the balance.",
+    "sections": [
+      {
+        "heading": "What exfoliation does",
+        "body": "Exfoliation removes dead cells that have built up on the surface of your skin. The result: finer texture, a brighter complexion, and better penetration for the products you apply afterward. Skin renews itself naturally, but that process slows with age and can become uneven. Measured exfoliation gives it a boost — without ever replacing your baseline cleansing and moisturizing."
+      },
+      {
+        "heading": "Physical vs chemical exfoliants",
+        "body": "Physical scrubs use particles to buff the skin: choose one with fine particles and apply without pressing hard. Chemical exfoliants use gentle acids to dissolve dead cells without any scrubbing — often more respectful of the skin barrier. For beginners, a light formula once or twice a week is plenty. Whatever type you use, the guiding principle is always gentleness."
+      },
+      {
+        "heading": "Avoiding overdoing it",
+        "body": "The most common mistake is exfoliating too often or too aggressively, thinking more is better. Over-exfoliated skin becomes red, sensitive, shiny, and uncomfortable. Cap yourself at once or twice a week maximum, and never on already irritated skin or over inflamed spots. After exfoliating, moisturize well and wear sunscreen the next day — freshly exfoliated skin is more reactive to UV."
+      }
+    ],
+    "steps": [
+      "Exfoliate no more than once or twice a week.",
+      "Choose a gentle scrub with fine particles, or a mild acid.",
+      "Never press hard — let the product do the work.",
+      "Don't exfoliate irritated skin or inflamed breakouts.",
+      "Moisturize after and protect from the sun the next day."
+    ],
+    "faq": [
+      {
+        "q": "My face looks red after exfoliating — is that normal?",
+        "a": "Slight temporary redness can happen, but strong or lasting redness means you're exfoliating too much. Space out your sessions."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eye-area-skincare",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Taking Care of the Skin Around Your Eyes",
+    "emoji": "👁️",
+    "intro": "The skin around your eyes is thin and delicate. A few gentle moves help keep your gaze looking fresh and rested.",
+    "sections": [
+      {
+        "heading": "A zone that needs extra care",
+        "body": "The skin around the eye area is among the thinnest on the body and has very few oil glands. It shows fatigue, dehydration, and lack of sleep quickly. It's also a highly mobile area — you blink thousands of times a day. That doesn't mean you need to stress: a little attention and gentleness is all it takes to keep it in good shape."
+      },
+      {
+        "heading": "Moisturize and handle with care",
+        "body": "An eye cream isn't mandatory: a gentle, well-tolerated moisturizer can be enough as long as it doesn't sting. What matters most is how you apply it. Use your ring finger — the lightest touch of any finger — and tap the product on very gently without tugging or rubbing. Don't get too close to the lash line. Never rub your eyes forcefully — it's one of the worst things you can do to this zone."
+      },
+      {
+        "heading": "What actually makes the eye area look tired",
+        "body": "Tired-looking eyes usually come from lifestyle, not products. Lack of sleep, dehydration, excess salt, screens, and dry air mark the eye area fast. Getting enough sleep, drinking water, and taking screen breaks will do more than any cream. Cold helps in the morning — a chilled spoon held there for a few minutes can reduce puffiness."
+      }
+    ],
+    "steps": [
+      "Apply product with your ring finger, using a light tapping motion.",
+      "Never tug at the skin or rub your eyes.",
+      "A gentle moisturizer can work fine if it doesn't sting.",
+      "Sleep enough and drink water — those are the real eye treatments.",
+      "Use cold in the morning to reduce puffiness."
+    ],
+    "faq": [
+      {
+        "q": "At what age should I start using eye cream?",
+        "a": "There's no set age. Good lifestyle habits matter far more than any specific product at any specific time."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remove-makeup-every-night",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Removing Your Makeup Completely Every Night",
+    "emoji": "🌙",
+    "intro": "Sleeping in makeup tires out your skin. A thorough makeup removal takes just a few minutes and makes a real difference.",
+    "sections": [
+      {
+        "heading": "Why you should never sleep in your makeup",
+        "body": "While you sleep, your skin regenerates. Leaving makeup on clogs pores, mixing with the day's pollution and sebum. That leads to breakouts, a dull complexion, and can irritate your eyes. A few minutes of makeup removal in the evening prevents all of this. It's one of the simplest and most rewarding steps in any routine, whatever your skin type."
+      },
+      {
+        "heading": "The double cleanse technique",
+        "body": "Double cleansing works really well: start with an oil-based product or balm that dissolves makeup, sunscreen, and sebum; follow with a water-based cleanser to remove the residue. For eyes, soak a cotton pad with a gentle remover, hold it on your eye for a few seconds to melt the makeup, then wipe away without rubbing. That patience prevents irritating this delicate zone."
+      },
+      {
+        "heading": "Even on lazy nights",
+        "body": "On nights when you're exhausted, keep a quick solution within reach: wipes are an acceptable backup occasionally, even if they don't cleanse as thoroughly. The goal is to never completely skip the step. Set up your makeup removal area so it's effortless: products visible, cotton pads accessible. The easier it is, the longer you'll actually keep the habit."
+      }
+    ],
+    "steps": [
+      "Remove your makeup every single night, no exceptions.",
+      "Start with an oil-based product, then follow with a water-based cleanser.",
+      "Hold the cotton pad on your eyes for a few seconds before wiping.",
+      "Never rub, especially around the eyes.",
+      "Keep a quick option ready for tired nights."
+    ],
+    "faq": [
+      {
+        "q": "Is micellar water enough on its own?",
+        "a": "It works as a backup, but rinsing with a gentle cleanser afterward leaves skin much cleaner, especially if you're wearing long-wear makeup."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "caring-for-sensitive-skin",
+    "theme": "lookmaxxing",
+    "locale": "en",
+    "title": "Caring for Sensitive and Reactive Skin",
+    "emoji": "🌸",
+    "intro": "Sensitive skin calls for gentleness and simplicity. Fewer, well-chosen products beat a bloated routine every time.",
+    "sections": [
+      {
+        "heading": "Recognizing sensitive skin",
+        "body": "Sensitive skin flushes easily, tingles or heats up with certain products, hard water, or temperature changes. It can feel tight and uncomfortable. Sensitivity isn't a skin type on its own — it can show up on dry, oily, or combination skin. The good news is that with the right routine, it often calms down noticeably."
+      },
+      {
+        "heading": "Simplify your routine",
+        "body": "The principle is to cut down to the minimum: one very gentle cleanser, one soothing moisturizer, one well-tolerated sunscreen. Look for short ingredient lists, no fragrance, no alcohol. Avoid strong actives, aggressive scrubs, and constant product-hopping. When trying something new, patch test it first on a small area like the inside of your wrist or your jawline for a few days."
+      },
+      {
+        "heading": "Protecting the skin barrier",
+        "body": "Sensitive skin often has a compromised barrier that lets irritants in and lets moisture escape. To strengthen it, avoid overly hot water, don't strip your skin, and moisturize morning and night. Cold, wind, and dry indoor heating air all worsen sensitivity — protect your face in winter. If redness is strong or constant, see a doctor to rule out a specific underlying cause."
+      }
+    ],
+    "steps": [
+      "Trim your routine down to the gentle essentials.",
+      "Choose fragrance-free, alcohol-free formulas.",
+      "Patch test every new product on a small area first.",
+      "Avoid hot water and aggressive scrubs.",
+      "Protect your skin from cold and wind in winter."
+    ],
+    "faq": [
+      {
+        "q": "Is sensitive skin the same as allergic skin?",
+        "a": "No. Sensitivity is a general reactivity; an allergy is a specific reaction to one ingredient. When in doubt, see a doctor."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

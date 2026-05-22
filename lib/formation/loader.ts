@@ -64,12 +64,13 @@ function itemLocale(i: FormationItem): string {
   return i.locale ?? "fr";
 }
 
-// Modules in one content language. Formation content exists in FR + EN; for any
-// other locale, fall back to English (the international default).
+// Modules in one content language. Formation content exists in all 8 locales;
+// if a locale somehow has no modules, fall back to English then French.
 export function getFormationByLocale(locale: string): FormationItem[] {
-  const want = locale === "fr" ? "fr" : "en";
-  const hit = ALL.filter((i) => itemLocale(i) === want);
+  const hit = ALL.filter((i) => itemLocale(i) === locale);
   if (hit.length > 0) return hit;
+  const en = ALL.filter((i) => itemLocale(i) === "en");
+  if (en.length > 0) return en;
   return ALL.filter((i) => itemLocale(i) === "fr");
 }
 

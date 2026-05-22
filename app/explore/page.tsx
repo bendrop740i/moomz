@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
-import { FORMATION_THEMES, THEME_META } from "@/lib/formation/types";
+import { FORMATION_THEMES, themeMetaFor } from "@/lib/formation/types";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import {
   seoHref,
@@ -739,7 +739,7 @@ export default function ExplorePage() {
         </div>
         <ul className="flex flex-wrap gap-2">
           {FORMATION_THEMES.map((theme) => {
-            const m = THEME_META[theme];
+            const m = themeMetaFor(hl)[theme];
             return (
               <li key={theme}>
                 <Link

@@ -1,0 +1,406 @@
+[
+  {
+    "slug": "starting-exercise-without-pressure-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Iniziare a Fare Movimento Senza la Pressione del Perfezionismo",
+    "emoji": "🚀",
+    "intro": "La maggior parte delle persone si arrende perché punta troppo in alto troppo in fretta. Iniziare in piccolo e rimanere costanti batte sempre il piano perfetto.",
+    "sections": [
+      {
+        "heading": "Perché il perfezionismo uccide la motivazione",
+        "body": "Quando ti imponi una routine quotidiana di un'ora fin dal primo giorno, il livello è così alto che la prima sessione saltata sembra un fallimento totale — e ci si arrende. Il progresso reale viene dalla costanza, non dall'intensità iniziale. Il corpo si adatta lentamente e ha bisogno di ripetizioni distribuite nel tempo. Dieci minuti fatti cento volte battono un'ora fatta tre volte e poi abbandonata."
+      },
+      {
+        "heading": "L'obiettivo ridicolmente basso",
+        "body": "Scegli un obiettivo così piccolo da sembrare quasi imbarazzante: cinque flessioni, dieci minuti di camminata, due allungamenti. Il punto non è che sia sufficiente — è che è impossibile fallire anche nelle giornate difficili. Una volta che sei in movimento, di solito farai di più naturalmente. Nei giorni duri, raggiungi il minimo e mantieni la tua striscia viva. È la costanza che costruisce l'abitudine, non la performance."
+      },
+      {
+        "heading": "Separare l'esercizio dall'aspetto fisico",
+        "body": "Se la tua unica motivazione è cambiare il tuo corpo, ogni giorno senza risultati visibili diventa demoralizzante. Aggiungi ragioni immediate: dormire meglio, avere più energia, scaricare lo stress, sentirti orgoglioso di te stesso. Questi benefici arrivano in giorni, non in mesi. Alimentano la motivazione mentre i cambiamenti fisici — più lenti ad arrivare — si costruiscono silenziosamente in sottofondo."
+      }
+    ],
+    "steps": [
+      "Scegli un'attività che non ti spaventa",
+      "Fissati un obiettivo minimo ridicolmente piccolo per iniziare",
+      "Blocca uno slot fisso nella tua settimana, anche breve",
+      "Nota come ti senti dopo ogni sessione, non solo prima",
+      "Celebra la costanza, non la performance, nelle prime settimane"
+    ],
+    "faq": [
+      {
+        "q": "Quante volte a settimana iniziare?",
+        "a": "Due o tre sessioni sono più che sufficienti all'inizio. Lasciano tempo per recuperare e si inseriscono in una settimana piena senza esaurirti."
+      },
+      {
+        "q": "Ho bisogno di attrezzatura per iniziare?",
+        "a": "No. Camminare, esercizi a corpo libero e stretching non richiedono nulla. Puoi progredire per mesi prima di aver bisogno di qualsiasi attrezzo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "healthy-weight-loss-basics-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Le Basi Reali del Dimagrimento Sano",
+    "emoji": "⚖️",
+    "intro": "Perdere peso in modo sano è lento, graduale e senza sofferenza. Tutto ciò che promette velocità ti costerà caro in seguito.",
+    "sections": [
+      {
+        "heading": "Perché le diete drastiche falliscono",
+        "body": "Le diete molto restrittive fanno perdere peso in fretta — perlopiù acqua e muscolo — poi il metabolismo rallenta e la fame aumenta. Risultato: si recupera tutto, spesso con qualcosa in più. È l'effetto yo-yo: frustrante e dannoso per la salute. Il cambiamento duraturo si costruisce lentamente, con abitudini che si possono mantenere per tutta la vita — non con uno sforzo eroico di qualche settimana."
+      },
+      {
+        "heading": "Un ritmo realistico e sicuro",
+        "body": "Un dimagrimento sano si aggira intorno a 0,5 kg a settimana, il che richiede un leggero deficit — non la fame. A questo ritmo proteggi l'energia, i muscoli e l'umore. Il peso fluttua anche giorno per giorno a seconda dell'acqua, del sale e del ciclo. Guarda il trend su più settimane, mai un singolo numero. La pazienza non è una debolezza — è la strategia che funziona davvero."
+      },
+      {
+        "heading": "Mangiare meglio anziché mangiare meno",
+        "body": "Invece di tagliare drasticamente, cambia cosa c'è nel piatto: più verdure, proteine e fibre che saziano — meno cibi ultra-processati e bevande zuccherate. Si mangia fino a sentirsi soddisfatti, ma con alimenti più nutrienti per caloria. Questo approccio è sostenibile perché non si basa sulla privazione — solo su scelte migliori ripetute ogni giorno."
+      },
+      {
+        "heading": "Quando consultare un professionista",
+        "body": "Se hai molto peso da perdere, un rapporto difficile con il cibo, o uno sforzo costante non porta risultati, parla con un medico o un dietologo. Non è un'ammissione di fallimento — sono alleati che personalizzano il percorso ed escludono cause mediche. Nessuno dovrebbe affrontare da solo un disturbo alimentare o l'obesità."
+      }
+    ],
+    "steps": [
+      "Punta a una perdita lenta e costante — non a uno sprint",
+      "Migliora la qualità del piatto prima di ridurre le quantità",
+      "Monitora il trend del peso nel mese, non il numero quotidiano",
+      "Rimani attivo per preservare la massa muscolare",
+      "Rivolgiti a un professionista se la situazione è complessa o bloccata"
+    ],
+    "faq": [
+      {
+        "q": "Devo pesarmi ogni giorno?",
+        "a": "Non è necessario. Se il numero ti stressa, pesati una volta a settimana o per niente, e affidati a come ti senti e a come ti stanno i vestiti."
+      },
+      {
+        "q": "Si può perdere peso senza fare sport?",
+        "a": "Sì — l'alimentazione fa la maggior parte del lavoro. Ma muoversi aiuta a preservare muscolo, umore ed energia, quindi è un alleato prezioso da non ignorare."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-caloric-deficit-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Capire il Deficit Calorico Senza Esagerare",
+    "emoji": "🔢",
+    "intro": "Il deficit calorico spiega il dimagrimento, ma non è una licenza per morire di fame. Tienilo moderato e sostenibile.",
+    "sections": [
+      {
+        "heading": "Il principio in una frase",
+        "body": "Il corpo brucia energia ogni giorno solo per respirare, muoversi e funzionare. Se mangi leggermente meno di quanto consumi, attinge alle riserve e perdi peso. Tutto qui. Nessun alimento è magico o vietato per principio. Capirlo ti libera da molti miti: quello che conta è il bilancio complessivo della settimana, non un singolo pasto."
+      },
+      {
+        "heading": "Perché un deficit piccolo batte uno grande",
+        "body": "Un deficit enorme fa perdere peso in fretta ma ti lascia affamato, esausto, irritabile e prima o poi cedi. Un deficit moderato — quasi impercettibile — ti lascia l'energia per fare sport e vivere. Perdi più lentamente ma ci rimani, e preservi il muscolo. L'obiettivo non è soffrire il più possibile; è creare un piccolo gap confortevole che puoi mantenere per mesi."
+      },
+      {
+        "heading": "Il pericolo di restringere troppo",
+        "body": "Scendere troppo con le calorie priva l'organismo di nutrienti essenziali e indebolisce ossa, sistema immunitario, umore e ciclo ormonale. Nei giovani ancora in sviluppo, è particolarmente rischioso. Se ti senti sempre affamato, sempre freddo, esausto o ossessionato dal cibo, il tuo deficit è troppo aggressivo. Mangia di più. Mangiare abbastanza non è barare — è il punto centrale di un approccio sano."
+      }
+    ],
+    "steps": [
+      "Capire che un deficit è uno scarto leggero, non la fame",
+      "Punta a un deficit moderato che puoi mantenere senza soffrire",
+      "Riempi il piatto di alimenti sazianti per non avere fame",
+      "Attenzione ai segnali d'allarme: stanchezza profonda, freddo, pensieri ossessivi sul cibo",
+      "Chiedi a un professionista di aiutarti a definire un obiettivo sano e personalizzato"
+    ],
+    "faq": [
+      {
+        "q": "Devo contare le calorie?",
+        "a": "No. Molte persone ci riescono semplicemente migliorando qualità e porzioni. Contare può aiutare ad imparare, ma diventa malsano se diventa un'ossessione."
+      },
+      {
+        "q": "Quale deficit è troppo pericoloso?",
+        "a": "Qualsiasi deficit che ti lascia esausto, costantemente affamato o sconvolge il tuo ciclo è troppo aggressivo. Un medico può aiutarti a definire un obiettivo sicuro e personalizzato."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-balanced-plate-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Costruire un Piatto Equilibrato nel Modo Semplice",
+    "emoji": "🍽️",
+    "intro": "Nessuna tabella complicata necessaria. Un piatto equilibrato si riduce a una semplice visione che puoi replicare a ogni pasto.",
+    "sections": [
+      {
+        "heading": "Il metodo del piatto visivo",
+        "body": "Immagina il piatto diviso: circa metà verdure o prodotti freschi, un quarto di proteine, un quarto di cereali integrali o carboidrati complessi, e un po' di grassi buoni. Questa semplice suddivisione copre gli essenziali senza alcun calcolo. Sazia grazie a fibre e proteine, fornisce energia duratura e riduce i desideri. Puoi applicarla al ristorante, in mensa o a casa — senza strumenti."
+      },
+      {
+        "heading": "Cosa fa ciascun componente",
+        "body": "Le verdure portano fibre, vitamine e volume per pochissime calorie. Le proteine riparano i muscoli e saziano. I cereali integrali forniscono energia duratura e prevengono i cali. I grassi buoni — olio d'oliva, noci, avocado — sono essenziali per il cervello e gli ormoni. Nessun gruppo è il nemico: ognuno ha un ruolo, e tagliarne uno crea carenze."
+      },
+      {
+        "heading": "Adattarsi alla propria fame e al livello di attività",
+        "body": "Questo piatto non è una regola rigida. Nei giorni in cui sei molto attivo, puoi aumentare i carboidrati e le proteine. Nei giorni tranquilli, segui una fame più moderata. Quello che conta è mantenere la struttura generale e mangiare secondo la fame reale — senza forzare né restringere. Con la pratica, costruirai un piatto solido senza nemmeno pensarci."
+      }
+    ],
+    "steps": [
+      "Riempi metà del piatto di verdure a ogni pasto principale",
+      "Aggiungi una fonte proteica a ogni pasto",
+      "Scegli cereali integrali per un'energia che dura",
+      "Tieni una piccola porzione di grassi buoni — non eliminarli mai del tutto",
+      "Adatta le quantità alla tua fame e al livello di attività"
+    ],
+    "faq": [
+      {
+        "q": "E se non mi piacciono molte verdure?",
+        "a": "Inizia con quelle che riesci a tollerare e varia come le cucini e le condisci. Il gusto si impara — aggiungi una verdura nuova alla volta invece di stravolgere tutto in una volta."
+      },
+      {
+        "q": "Devo pesare il cibo?",
+        "a": "Non è necessario. Il metodo delle proporzioni visive funziona per la stragrande maggioranza delle persone e rimane pratico nel lungo termine senza diventare un peso."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-protein-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Capire le Proteine e Perché Sono Importanti",
+    "emoji": "🥚",
+    "intro": "Le proteine riparano il corpo, saziano e supportano i muscoli. Distribuirle bene durante la giornata fa una differenza reale.",
+    "sections": [
+      {
+        "heading": "Cosa fanno davvero le proteine",
+        "body": "Le proteine sono i mattoni dei muscoli, della pelle, dei capelli e di innumerevoli funzioni corporee. Quando ti alleni, riparano e rinforzano i muscoli che hai lavorato. Sono anche molto sazianti — un pasto ricco di proteine ti tiene sazio più a lungo e riduce gli spuntini. Questo le rende un alleato chiave quando vuoi restare attivo mantenendo la fame sotto controllo."
+      },
+      {
+        "heading": "Dove trovarle, con o senza carne",
+        "body": "Le proteine si trovano nelle uova, nel pesce e nella carne, ma anche nei legumi come lenticchie e ceci, nel tofu, nei latticini e in alcuni cereali. Una dieta vegetariana o vegana può assolutamente coprire il fabbisogno proteico variando le fonti. L'obiettivo non è mangiare quantità enormi di carne — è avere una fonte proteica a ogni pasto, animale o vegetale."
+      },
+      {
+        "heading": "Quante, senza esagerare",
+        "body": "La maggior parte delle persone attive copre il fabbisogno con una porzione proteica a ogni pasto — senza polveri né quantità estreme. Mangiarne in eccesso non accelera nulla e squilibra il piatto. La costanza durante la giornata conta più di un pasto gigante. Se fai molto sport o hai obiettivi specifici, un dietologo può affinare la quantità giusta per il tuo profilo."
+      }
+    ],
+    "steps": [
+      "Includi una fonte proteica in ciascuno dei tuoi pasti",
+      "Varia tra fonti animali e vegetali secondo le tue preferenze",
+      "Dai priorità alle proteine nei giorni in cui ti alleni",
+      "Non forzare quantità enormi — la costanza è sufficiente",
+      "Chiedi consiglio a un professionista se hai un obiettivo sportivo specifico"
+    ],
+    "faq": [
+      {
+        "q": "Ho bisogno di integratori proteici?",
+        "a": "No — sono facoltativi. Sono solo un alimento comodo. Una dieta variata copre le esigenze della stragrande maggioranza delle persone, anche gli sportivi occasionali."
+      },
+      {
+        "q": "Si può mangiare troppe proteine?",
+        "a": "In eccesso estremo, sì — squilibra il piatto e può affaticare i reni in alcune persone. Attieniti a porzioni normali e mangia in modo vario."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-carbs-without-demonizing-them-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Capire i Carboidrati Senza Demonizzarli",
+    "emoji": "🍞",
+    "intro": "I carboidrati non sono il nemico. Sono il tuo carburante principale. Quello che conta è quali e in che quantità.",
+    "sections": [
+      {
+        "heading": "Il carburante per corpo e cervello",
+        "body": "I carboidrati forniscono l'energia più prontamente disponibile per il cervello, i muscoli e la concentrazione. Eliminarli del tutto causa spesso stanchezza, irritabilità e cali di prestazione. Molte tendenze presentano i carboidrati come la causa dell'aumento di peso, ma è il surplus calorico complessivo che conta — non un singolo gruppo alimentare. Pane, riso e pasta hanno tutti un posto legittimo in una dieta equilibrata."
+      },
+      {
+        "heading": "Carboidrati integrali vs raffinati",
+        "body": "Non tutti i carboidrati sono uguali. Le versioni integrali — pane integrale, riso bruno, avena, legumi — contengono fibre che rallentano il rilascio di energia e saziano più a lungo. Le versioni molto raffinate e zuccherate danno un picco energetico seguito da un calo. Scegliere l'integrale la maggior parte del tempo stabilizza fame ed energia, senza bandire completamente gli altri."
+      },
+      {
+        "heading": "Adattare le quantità all'attività",
+        "body": "Più ti muovi, più carboidrati ti servono per alimentare lo sforzo. Una giornata di allenamento intenso non ha le stesse esigenze di una giornata seduta alla scrivania. Invece di tagliare i carboidrati, adatta la quantità: un po' di più nei giorni attivi, un po' di meno in quelli tranquilli. Questa flessibilità previene i desideri e ti permette di performare senza restrizioni inutili."
+      }
+    ],
+    "steps": [
+      "Tieni i carboidrati nei pasti — sono il tuo carburante",
+      "Scegli le versioni integrali la maggior parte del tempo",
+      "Abbinali a proteine e verdure per restare sazio",
+      "Aumenta la porzione nei giorni di allenamento intenso",
+      "Evita di eliminarli del tutto — penalizza l'energia"
+    ],
+    "faq": [
+      {
+        "q": "I carboidrati la sera fanno ingrassare?",
+        "a": "No — è un mito falso. Quello che conta è l'apporto totale durante la giornata. Mangiare carboidrati la sera può addirittura favorire un sonno migliore."
+      },
+      {
+        "q": "Bisogna evitare il pane per dimagrire?",
+        "a": "No. Il pane, specialmente integrale, può assolutamente far parte di un dimagrimento sano. L'apporto calorico complessivo è ciò che determina il risultato."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "why-healthy-fats-are-essential-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Grassi Buoni: Perché Sono Indispensabili",
+    "emoji": "🥑",
+    "intro": "I grassi hanno avuto una brutta reputazione per molto tempo. Ma senza i grassi giusti, corpo e cervello semplicemente non funzionano al meglio.",
+    "sections": [
+      {
+        "heading": "Il grasso non è il nemico",
+        "body": "I grassi servono a produrre ormoni, proteggere il cervello, assorbire alcune vitamine e fornire energia densa. Eliminarli altera umore, pelle e, nelle ragazze giovani, a volte il ciclo ormonale. La parola 'grasso' spaventa perché evoca l'aumento di peso, ma i grassi alimentari sono essenziali. Come per tutto, quantità e qualità sono ciò che fa la differenza."
+      },
+      {
+        "heading": "Fonti buone vs fonti da limitare",
+        "body": "I grassi di qualità vengono dall'olio d'oliva, dalle noci, dalle mandorle, dall'avocado, dal pesce grasso come salmone o sardine, e dai semi. Supportano cuore e cervello. D'altro canto, i grassi dei prodotti ultra-processati, delle fritture industriali e dei dolci vale la pena limitarli — ma non bandirli completamente. Puntare a un buon rapporto quotidiano è sufficiente; la perfezione non è l'obiettivo."
+      },
+      {
+        "heading": "Mantenere la giusta quantità",
+        "body": "I grassi sono caloricamente densi: poco basta. Nessun motivo per temerli, ma nemmeno per affogare ogni piatto nell'olio. Un cucchiaio d'olio per cucinare, una manciata di noci come snack, un po' di avocado — è la giusta misura. L'equilibrio viene dalla costanza e dalla varietà, non dal monitorare ansiosamente ogni grammo di grasso."
+      }
+    ],
+    "steps": [
+      "Includi una piccola fonte di grassi buoni a ogni pasto",
+      "Prediligi olio d'oliva, noci, avocado e pesce grasso",
+      "Limita i grassi dei cibi ultra-processati senza bandirli",
+      "Misura gli oli: poco basta — sono caloricamente densi",
+      "Non eliminare mai i grassi completamente dalla dieta"
+    ],
+    "faq": [
+      {
+        "q": "I grassi fanno automaticamente ingrassare?",
+        "a": "No. È il surplus calorico complessivo a causare l'aumento di peso. I grassi buoni, in quantità ragionevoli, fanno parte di una dieta soddisfacente e nutriente."
+      },
+      {
+        "q": "Bisogna comprare prodotti light?",
+        "a": "Non necessariamente. I prodotti light sono a volte più ricchi di zucchero o meno sazianti. Un alimento semplice e naturale in quantità ragionevole è spesso la scelta migliore."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "why-fiber-changes-your-satiety-and-digestion-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Perché le Fibre Cambiano Sazietà e Digestione",
+    "emoji": "🥦",
+    "intro": "Le fibre sono l'eroe silenzioso della nutrizione: saziano, nutrono l'intestino e stabilizzano l'energia.",
+    "sections": [
+      {
+        "heading": "Il potere saziante delle fibre",
+        "body": "Le fibre occupano volume e rallentano la digestione, prolungando la sensazione di sazietà dopo i pasti. Un piatto ricco di verdure, legumi e cereali integrali sazia molto più a lungo di un pasto raffinato con le stesse calorie. È una leva potente quando si vuole mangiare fino a sentirsi davvero sazi mantenendo porzioni ragionevoli — non si combatte la fame, la si disinnescat."
+      },
+      {
+        "heading": "Un intestino più sano",
+        "body": "Le fibre nutrono i batteri benefici nell'intestino, che hanno un ruolo nella digestione, nell'immunità e persino nell'umore. Una dieta povera di fibre favorisce la stitichezza e la digestione irregolare. Aggiungendo gradualmente più verdure, frutta e cereali integrali, si migliora il comfort digestivo. Aumenta lentamente per dare al corpo il tempo di adattarsi, e bevi abbastanza acqua nel frattempo."
+      },
+      {
+        "heading": "Dove trovarle facilmente",
+        "body": "Le fibre sono ovunque nel mondo vegetale: verdure, frutta con la buccia, legumi, cereali integrali e noci. Bastano poche mosse semplici: passare al pane integrale, aggiungere una porzione di verdure, guarnire uno yogurt con frutta e avena. Non servono integratori — variare l'apporto vegetale durante la giornata copre ampiamente il fabbisogno di fibre."
+      }
+    ],
+    "steps": [
+      "Aggiungi una porzione di verdure a ogni pasto principale",
+      "Passa a pane, riso e pasta integrali quando possibile",
+      "Includi i legumi più volte a settimana",
+      "Mangia la frutta intera anziché in succo",
+      "Aumenta le fibre gradualmente e bevi abbastanza acqua"
+    ],
+    "faq": [
+      {
+        "q": "Perché mi gonfio quando aggiungo più fibre?",
+        "a": "È normale se l'aumento è troppo brusco. Procedi lentamente in qualche settimana e rimani ben idratato — il sistema digestivo si adatterà."
+      },
+      {
+        "q": "Gli integratori di fibre sono utili?",
+        "a": "Per la maggior parte delle persone, no. Una dieta variata a base vegetale è sufficiente. Gli integratori non sostituiscono gli altri nutrienti che si ottengono dal cibo vero."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "staying-hydrated-every-day-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Mantenersi Idratati Ogni Giorno, Semplicemente",
+    "emoji": "💧",
+    "intro": "L'idratazione influisce su energia, concentrazione e recupero. Eppure la maggior parte delle persone beve troppo poco senza rendersene conto.",
+    "sections": [
+      {
+        "heading": "Perché l'acqua è così importante",
+        "body": "Il corpo è fatto principalmente di acqua. Trasporta i nutrienti, regola la temperatura, lubrifica le articolazioni e mantiene il cervello attivo. Anche una lieve disidratazione basta a provocare stanchezza, mal di testa, scarsa concentrazione e quello che sembra fame. Bere abbastanza è una delle cose più semplici e sottovalutate che puoi fare per sentirti meglio ogni giorno e performare meglio nello sport."
+      },
+      {
+        "heading": "Quanto bere davvero",
+        "body": "Il fabbisogno varia per corporatura, caldo e livello di attività, ma puntare a circa 1,5-2 litri d'acqua al giorno è un buon riferimento per la maggior parte degli adulti. Nei giorni di sport o di caldo, bevi di più. Il miglior indicatore è il colore delle urine: giallo chiaro è un buon segno; scuro significa che devi bere di più. Non serve forzare quantità estreme."
+      },
+      {
+        "heading": "Trucchi per ricordarsi",
+        "body": "Se dimentichi di bere, tieni una borraccia ben visibile sulla scrivania e riempila più volte al giorno. Bevi un bicchiere al risveglio, prima di ogni pasto e durante l'esercizio. Puoi aromatizzare l'acqua con limone o menta se quella liscia ti annoia. Anche le tisane contano. L'obiettivo non è tracciare ogni goccia — è costruire abitudini automatiche e regolari."
+      }
+    ],
+    "steps": [
+      "Bevi un grande bicchiere d'acqua appena ti svegli",
+      "Tieni una borraccia visibile e riempila durante la giornata",
+      "Bevi un bicchiere prima di ogni pasto",
+      "Controlla il colore delle urine come indicatore",
+      "Bevi di più nelle giornate calde o quando fai attività fisica"
+    ],
+    "faq": [
+      {
+        "q": "Caffè e tè contano come idratazione?",
+        "a": "Sì, contribuiscono all'idratazione nonostante il lieve effetto diuretico. L'acqua resta la bevanda base migliore — senza zucchero né stimolanti."
+      },
+      {
+        "q": "Si può bere troppa acqua?",
+        "a": "È raro e accade solo in caso di eccesso veramente estremo. Per un'assunzione normale distribuita nella giornata, non c'è alcun rischio — anzi."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cutting-back-on-sugary-drinks-it",
+    "theme": "fitness",
+    "locale": "it",
+    "title": "Ridurre le Bevande Zuccherate Senza Frustrazione",
+    "emoji": "🥤",
+    "intro": "Le bevande zuccherate portano tante calorie senza saziarti. Ridurle è uno dei cambiamenti più efficaci che puoi fare.",
+    "sections": [
+      {
+        "heading": "La trappola delle calorie liquide",
+        "body": "Bibite gassate, succhi industriali e energy drink contengono molto zucchero ma non saziano come il cibo vero. Puoi facilmente consumare centinaia di calorie senza ridurre la fame al pasto successivo. È uno dei motivi principali per cui queste bevande contribuiscono tanto all'aumento di peso. Ridurle è spesso la mossa con l'impatto maggiore perché non richiede nessuna privazione alimentare."
+      },
+      {
+        "heading": "Sostituirle gradualmente",
+        "body": "Non serve eliminare tutto di colpo e sentirsi privati. Sostituisci gradualmente: acqua frizzante, acqua aromatizzata fatta in casa con limone o frutta, tè freddo non zuccherato. Tieni la bevanda zuccherata per le occasioni vere invece che per l'abitudine quotidiana. Man mano che la riduci, il palato si adatta — e alla fine le cose molto dolci possono iniziare a sembrare eccessive. Il cambiamento avviene naturalmente."
+      },
+      {
+        "heading": "E le versioni diet o zero zuccheri",
+        "body": "Le versioni senza zucchero evitano le calorie, il che può aiutare come transizione, ma mantengono il palato abituato a sapori molto dolci. Sono meglio delle versioni normali per il peso, ma l'obiettivo finale ideale è riaddestrare il gusto verso bevande meno dolci. Usale come gradino, non come destinazione finale — e torna verso l'acqua quando puoi."
+      }
+    ],
+    "steps": [
+      "Identifica quante bevande zuccherate consumi a settimana",
+      "Sostituiscine una al giorno con acqua o un'alternativa non zuccherata",
+      "Prepara acqua aromatizzata fatta in casa così hai sempre un'opzione pronta",
+      "Riserva le bibite alle occasioni speciali, non all'uso quotidiano",
+      "Lascia che il palato si adatti gradualmente verso sapori meno dolci"
+    ],
+    "faq": [
+      {
+        "q": "I succhi di frutta sono migliori delle bibite?",
+        "a": "Leggermente, poiché contengono vitamine, ma sono comunque ricchi di zucchero e non saziano. Meglio mangiare la frutta intera e tenere il succo per le occasioni."
+      },
+      {
+        "q": "Bisogna bandire tutte le bevande dolci?",
+        "a": "No. Una bibita zuccherata ogni tanto non è un problema. Il problema è il consumo quotidiano. Punta alla moderazione, non a un divieto assoluto."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

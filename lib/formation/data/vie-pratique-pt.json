@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "cook-a-quick-cheap-meal-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Cozinhar uma refeição rápida e barata",
+    "emoji": "🍳",
+    "intro": "Comer bem sem estourar o orçamento nem passar horas no fogão é uma habilidade que se aprende. Alguns básicos são suficientes para você se virar de verdade.",
+    "sections": [
+      {
+        "heading": "Manter uma despensa básica sempre abastecida",
+        "body": "Com alguns ingredientes secos e baratos sempre em casa, você consegue montar uma refeição a qualquer hora. Macarrão, arroz, lentilha, tomate pelado em lata, grão-de-bico, ovos, cebola, alho, azeite e temperos formam uma base sólida. Esses itens duram bastante e custam muito pouco. Com a despensa abastecida, você nunca vai acabar pedindo uma entrega cara numa noite preguiçosa."
+      },
+      {
+        "heading": "Dominar três receitas confiáveis",
+        "body": "Você não precisa de cinquenta receitas — três pratos que você manda bem toda vez já bastam para variar a semana inteira. Um macarrão com legumes salteados, um arroz frito com ovo e um sopão de lentilha ou dahl cobrem o essencial. Domine-os de verdade e depois varie os legumes e os temperos. A confiança na cozinha vem da repetição, não da complexidade."
+      },
+      {
+        "heading": "Cozinhar em porções maiores",
+        "body": "Fazer duas ou três porções em vez de uma leva quase nenhum tempo extra. Você come naquele dia e guarda o resto para o almoço do dia seguinte, ou congela. Esse hábito — chamado de batch cooking — significa que você não precisa cozinhar todo dia e reduz o desperdício. Invista em alguns potes herméticos: eles se pagam rapidamente comparados ao custo de comprar comida pronta."
+      }
+    ],
+    "steps": [
+      "Monte uma despensa básica com macarrão, arroz, lentilha e conservas.",
+      "Escolha três receitas simples e treine até dominar.",
+      "Cozinhe sempre duas porções em vez de uma.",
+      "Mantenha potes herméticos para as sobras.",
+      "Anote o que você curte para criar seu próprio repertório de receitas."
+    ],
+    "faq": [
+      {
+        "q": "Não tenho nenhum utensílio — por onde começo?",
+        "a": "Uma frigideira, uma panela, uma faca decente e uma tábua de corte cobrem 90% das receitas. Compre o resto conforme as necessidades reais aparecerem."
+      },
+      {
+        "q": "Cozinhar em casa é mesmo mais barato do que comprar pronto?",
+        "a": "Sim, com folga. Uma refeição caseira geralmente custa de duas a três vezes menos do que um prato pronto ou um delivery, e a qualidade é melhor."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Fazer compras no mercado sem gastar demais",
+    "emoji": "🛒",
+    "intro": "O mercado pesa no bolso de qualquer orçamento. Com um método simples, você gasta menos sem comer pior.",
+    "sections": [
+      {
+        "heading": "Fazer uma lista e segui-la",
+        "body": "Entrar no mercado sem uma lista é garantia de comprar por impulso e ultrapassar o orçamento. Antes de sair, veja o que você tem, planeje algumas refeições e anote exatamente o que precisa. A lista te protege das compras por impulso estrategicamente posicionadas no final das prateleiras. Fazer compras com o estômago cheio também ajuda muito."
+      },
+      {
+        "heading": "Comparar pelo preço por quilo",
+        "body": "O preço grande na frente do produto não diz muita coisa. Sempre olhe o preço por quilo ou por litro, impresso em letras pequenas na etiqueta — é a única forma honesta de comparar dois produtos. Formatos maiores costumam ser mais baratos por unidade, mas nem sempre. Produtos de marca própria frequentemente oferecem a mesma qualidade que as grandes marcas por bem menos."
+      },
+      {
+        "heading": "Preferir alimentos in natura e da estação",
+        "body": "Produtos processados e prontos custam mais e alimentam menos. Redirecionar parte do orçamento para alimentos in natura — legumes, tubérculos, leguminosas, ovos — compensa. Frutas e verduras da estação são mais saborosas e mais baratas. O congelado simples é um grande aliado: econômico, sem desperdício e tão nutritivo quanto o fresco."
+      }
+    ],
+    "steps": [
+      "Verifique a despensa e planeje algumas refeições antes de ir.",
+      "Escreva uma lista precisa e siga à risca.",
+      "Compare os produtos pelo preço por quilo ou litro.",
+      "Prefira marcas próprias e produtos da estação.",
+      "Nunca faça compras com fome."
+    ],
+    "faq": [
+      {
+        "q": "Fazer compras online ajuda a gastar menos?",
+        "a": "Na maioria das vezes sim: você acompanha o total subindo em tempo real e evita as prateleiras de tentação. Só fique atento às taxas de entrega."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eating-healthy-on-a-tight-budget-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Comer bem com pouco dinheiro",
+    "emoji": "🥗",
+    "intro": "Comer bem não é privilégio de quem tem dinheiro. Os alimentos mais nutritivos estão muitas vezes entre os mais baratos.",
+    "sections": [
+      {
+        "heading": "Fontes de proteína acessíveis",
+        "body": "Carne não é a única fonte de proteína, e costuma ser a mais cara. Ovos, lentilha, grão-de-bico, feijão e tofu são baratos e nutritivos. Alternar essas fontes ao longo da semana reduz bastante a conta e ainda deixa o cardápio variado. Quando for comprar carne, os cortes para refogar ou ensopado são mais baratos e ficam incrivelmente gostosos."
+      },
+      {
+        "heading": "Montar um prato simples",
+        "body": "Um prato equilibrado não é complicado: uma fonte de carboidrato, uma de proteína e legumes ocupando metade do prato. Não precisa calcular — esse modelo visual já é suficiente. Legumes congelados ou em conserva valem tanto quanto os frescos. A ideia é cor e variedade sem pensar demais nem gastar mais."
+      },
+      {
+        "heading": "Reduzir açucarados e ultraprocessados",
+        "body": "Refrigerantes, biscoitos, pratos prontos e salgadinhos são caros e pouco nutritivos. Cortar o consumo libera orçamento para comida de verdade. Não precisa eliminar — trate-os como um prazer eventual, não um hábito diário. A água da torneira continua sendo a bebida mais barata e a melhor para a saúde."
+      }
+    ],
+    "steps": [
+      "Substitua parte da carne por ovos e leguminosas.",
+      "Monte os pratos com carboidrato, proteína e legumes.",
+      "Use legumes congelados e em conserva sem hesitar.",
+      "Guarde açucarados e processados para ocasiões especiais.",
+      "Beba água em vez de refrigerante."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "plan-your-weekly-meals-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Planejar as refeições da semana",
+    "emoji": "📅",
+    "intro": "Decidir o que comer todo dia em cima da hora é cansativo e caro. Dez minutos de planejamento por semana liberam sua cabeça.",
+    "sections": [
+      {
+        "heading": "Por que planejar muda tudo",
+        "body": "Sem um plano, você frequentemente acaba pedindo delivery ou comprando aleatoriamente, o que custa mais e alimenta menos. Planejar as refeições te dá uma lista de compras precisa, reduz o desperdício e elimina a pergunta estressante 'o que tem para jantar?'. Não precisa planejar tudo — mesmo decidir aproximadamente cinco jantares já transforma a semana."
+      },
+      {
+        "heading": "Começar pelo que você já tem",
+        "body": "Antes de inventar receitas, abra os armários, a geladeira e o congelador. Monte as refeições em torno do que já está lá, especialmente o que está próximo do vencimento. Esse hábito evita que comida seja esquecida no fundo da geladeira e reduz visivelmente o desperdício. Depois é só completar a lista de compras com o estritamente necessário."
+      },
+      {
+        "heading": "Manter alguma flexibilidade",
+        "body": "Um plano rígido demais raramente sobrevive a uma semana inteira. Em vez disso, monte uma lista de refeições possíveis sem atribuir um prato específico a cada dia. Tenha também uma refeição coringa super simples — macarrão ou omelete — para as noites em que a energia está baixa. O planejamento deve trabalhar para você, não te aprisionar."
+      }
+    ],
+    "steps": [
+      "Reserve dez minutos fixos por semana para planejar.",
+      "Faça um balanço da geladeira, dos armários e do congelador.",
+      "Escolha de cinco a sete refeições usando o que você já tem.",
+      "Monte a lista de compras a partir do plano.",
+      "Tenha uma refeição coringa para as noites de baixa energia."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cut-down-on-food-waste-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Reduzir o desperdício de alimentos",
+    "emoji": "♻️",
+    "intro": "Jogar comida fora é jogar dinheiro fora. Pequenos hábitos permitem aproveitar quase tudo que você compra.",
+    "sections": [
+      {
+        "heading": "Organizar a geladeira direito",
+        "body": "Uma geladeira bem organizada te ajuda a ver o que você tem. Coloque os produtos mais antigos na frente para consumi-los primeiro. A parte de baixo da geladeira é a mais fria — ideal para carne e peixe; a gaveta de legumes é para verduras. Mantenha uma área visível para os alimentos que precisam ser consumidos logo. Ver o que tem evita os itens esquecidos que acabam no lixo."
+      },
+      {
+        "heading": "Entender as datas de validade",
+        "body": "Existem dois tipos de datas. A data de validade em produtos frescos como carne significa que não deve ultrapassá-la. A data de consumo preferencial apenas indica uma possível perda de qualidade — muitos produtos continuam bons depois dela. Confie no olfato e no bom senso também para produtos secos."
+      },
+      {
+        "heading": "Cozinhar com sobras e o congelador",
+        "body": "Sobras não são desperdício — elas viram a refeição de amanhã ou a base de um prato novo. Pão amanhecido vira crouton, legumes murchos viram sopa, o arroz de ontem vira arroz frito. O congelador é seu aliado: ele pausa quase tudo, de fatias de pão a porções cozidas, e para a corrida contra o vencimento."
+      }
+    ],
+    "steps": [
+      "Coloque os produtos mais antigos na frente da geladeira.",
+      "Aprenda a diferença entre os dois tipos de data.",
+      "Transforme as sobras em uma nova refeição.",
+      "Congele o que você não vai comer a tempo.",
+      "Faça uma rápida conferência da geladeira antes de cada compra."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "kitchen-essentials-on-a-budget-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Equipar a cozinha com o essencial",
+    "emoji": "🍴",
+    "intro": "Dá para cozinhar muito bem sem uma cozinha equipada com tecnologia. Alguns utensílios bem escolhidos duram anos.",
+    "sections": [
+      {
+        "heading": "O mínimo para começar",
+        "body": "Para fazer a grande maioria das refeições, você precisa de muito pouco: uma frigideira, uma panela, uma boa faca de chef, uma tábua de corte, uma peneira, uma colher de pau e uma espátula. Isso já cobre quase tudo. Não precisa encher o armário de gadgets que vão juntar poeira. Compre o resto só quando uma necessidade real surgir."
+      },
+      {
+        "heading": "Investir onde faz diferença",
+        "body": "Em alguns itens, a qualidade faz diferença real e dura muito. Uma boa faca afiada transforma o cotidiano na cozinha e é mais segura — faca sem fio escorrega e corta o dedo. Uma frigideira decente evita que tudo grude. Para todo o resto, o básico resolve. Brechós e sites de usados são ótimos para se equipar por pouco."
+      },
+      {
+        "heading": "Cuidar para durar",
+        "body": "Equipamentos bem cuidados duram anos. Lave as facas à mão e guarde-as separadas para preservar o fio. Evite utensílios de metal em frigideiras antiaderentes. Seque os itens de metal para evitar ferrugem. Esses hábitos simples evitam ter que comprar tudo de novo e mantêm a cozinha agradável e segura."
+      }
+    ],
+    "steps": [
+      "Compre primeiro uma frigideira, uma panela, uma faca e uma tábua.",
+      "Invista mais na faca e na frigideira.",
+      "Encontre todo o resto em brechós ou feiras.",
+      "Lave as facas à mão e guarde separadas.",
+      "Só acrescente mais utensílios quando surgir uma necessidade real."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "basic-nutrition-fundamentals-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Entender o básico de nutrição",
+    "emoji": "🍎",
+    "intro": "Não precisa ser especialista para comer bem. Alguns pontos de referência simples são suficientes para fazer boas escolhas todo dia.",
+    "sections": [
+      {
+        "heading": "Os três grupos principais de alimentos",
+        "body": "Seu corpo precisa de três tipos amplos de nutrientes. Carboidratos — em farináceos e frutas — fornecem energia. Proteínas — em carnes, ovos e leguminosas — constroem e reparam o organismo. Gorduras — em azeite, oleaginosas e peixes — são essenciais apesar da má fama. Um prato equilibrado contém um pouco de cada, sem demonizar nenhum grupo."
+      },
+      {
+        "heading": "Ler um rótulo de forma simples",
+        "body": "Os rótulos parecem complicados, mas alguns pontos de referência bastam. Confira a lista de ingredientes: quanto mais curta e legível, melhor. Desconfie de produtos nos quais o açúcar aparece entre os primeiros ingredientes. A tabela nutricional permite comparar dois produtos, especialmente quanto a açúcar e sal. Um sistema simples de semáforo ou pontuação dá uma visão rápida para comparar."
+      },
+      {
+        "heading": "Variedade acima de perfeição",
+        "body": "Nenhum alimento é mágico e nenhum é proibido. O segredo é variedade e equilíbrio ao longo da semana, não perfeição em cada refeição. Busque bastante verdura, proteína em toda refeição e limite os ultraprocessados sem bani-los. Ouvir seus sinais de fome e saciedade importa tanto quanto os números. Uma relação tranquila com a comida é mais sustentável."
+      }
+    ],
+    "steps": [
+      "Inclua carboidratos, proteína e alguma gordura em cada refeição.",
+      "Leia as listas de ingredientes e prefira as mais curtas.",
+      "Compare açúcar e sal pela tabela nutricional.",
+      "Busque variedade ao longo da semana, não perfeição.",
+      "Preste atenção nos sinais de fome e saciedade."
+    ],
+    "faq": [
+      {
+        "q": "Preciso contar calorias?",
+        "a": "Para a maioria das pessoas, não. Priorizar alimentos in natura e ouvir a fome já é suficiente. Contar calorias pode até criar uma relação ansiosa com a comida."
+      },
+      {
+        "q": "Suplementos alimentares são necessários?",
+        "a": "Uma dieta variada cobre as necessidades da maioria das pessoas. Para uma preocupação específica, como vitamina D, fale com um médico ou farmacêutico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "quick-healthy-breakfast-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Montar um café da manhã rápido e saudável",
+    "emoji": "🥣",
+    "intro": "O café da manhã não precisa ser elaborado para começar o dia bem. Algumas ideias simples já resolvem.",
+    "sections": [
+      {
+        "heading": "Como é um bom café da manhã na prática",
+        "body": "Um café da manhã satisfatório combina idealmente uma fonte de carboidrato complexo, uma de proteína e uma fruta. Pão integral com ovo, iogurte com aveia e fruta, ou pasta de amendoim na torrada com banana — tudo funciona. O ponto-chave é evitar um café totalmente açucarado, que causa uma queda de energia duas horas depois. Um pouco de proteína ajuda a chegar no almoço sem fome."
+      },
+      {
+        "heading": "Economizar tempo de manhã",
+        "body": "Se a manhã é corrida, prepare na noite anterior. O overnight oats (aveia deixada na geladeira) pode ser comido gelado direto ao acordar. Cortar frutas ou deixar os utensílios prontos na véspera economiza minutos preciosos. Você também pode preparar várias porções de uma vez. Um café pronto elimina uma decisão e reduz o estresse matinal."
+      },
+      {
+        "heading": "E se você não tiver fome cedo",
+        "body": "Nem todo mundo tem fome logo ao acordar, e tudo bem. Não precisa se forçar — você pode levar algo para comer um pouco mais tarde, no meio da manhã. Uma fruta, um punhado de oleaginosas ou um iogurte na bolsa funcionam bem. O principal é não chegar no almoço completamente faminto e pegar a primeira coisa que aparecer."
+      }
+    ],
+    "steps": [
+      "Combine carboidrato complexo, proteína e uma fruta.",
+      "Evite cafés 100% açucarados.",
+      "Prepare overnight oats na noite anterior se estiver com pressa.",
+      "Deixe um lanche na bolsa se não tiver fome cedo.",
+      "Encontre dois ou três formatos que você realmente curta."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "store-food-properly-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Armazenar os alimentos do jeito certo",
+    "emoji": "🧊",
+    "intro": "Armazenar os alimentos corretamente faz com que durem mais, reduz o desperdício e protege sua saúde.",
+    "sections": [
+      {
+        "heading": "Na geladeira, cada coisa tem seu lugar",
+        "body": "A geladeira não tem a mesma temperatura em todos os compartimentos. A parte de baixo é a mais fria — coloque carnes, peixes e produtos frescos sensíveis lá. As prateleiras do meio são para laticínios e sobras. A porta, que é mais quente, é feita para condimentos e bebidas. Mantenha a geladeira em torno de quatro graus e não a sobrecarregue para o ar circular."
+      },
+      {
+        "heading": "O que não deve ir para a geladeira",
+        "body": "Alguns alimentos se conservam melhor fora da geladeira. O tomate perde o sabor lá dentro; batata, cebola e alho preferem um lugar seco e escuro. O pão fica amanhecido mais rápido no frio — melhor congelar se você não vai terminar. A banana escurece na geladeira. Conhecer essas exceções evita estragos de textura e sabor."
+      },
+      {
+        "heading": "Usar bem o congelador",
+        "body": "O congelador amplia muito a durabilidade dos alimentos. Congele em porções para descongelar só o que precisa. Etiquete com a data para controlar. Descongele na geladeira, nunca em temperatura ambiente por muito tempo, para evitar bactérias. Nunca recongele um produto que já foi descongelado cru."
+      }
+    ],
+    "steps": [
+      "Guarde carne e peixe na parte de baixo da geladeira.",
+      "Mantenha tomate, batata e cebola fora da geladeira.",
+      "Congele pão e as porções excedentes.",
+      "Etiquete os potes com a data.",
+      "Descongele na geladeira, nunca deixe muito tempo fora do frio."
+    ],
+    "faq": [
+      {
+        "q": "Quanto tempo um prato cozido pode ficar na geladeira?",
+        "a": "Em geral, de dois a três dias no máximo. Se tiver qualquer dúvida sobre o cheiro ou a aparência, não arrisque — jogue fora."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reinvent-your-leftovers-pt",
+    "theme": "vie-pratique",
+    "locale": "pt",
+    "title": "Transformar as sobras em uma nova refeição",
+    "emoji": "🍲",
+    "intro": "Sobras não são chateação. Com algumas ideias, elas viram uma refeição inteligente e sem desperdício.",
+    "sections": [
+      {
+        "heading": "As bases que se reciclam em tudo",
+        "body": "Algumas sobras se transformam com facilidade. O arroz de ontem vira arroz frito com ovo e legumes. A massa fria fica ótima gratinada. O pão amanhecido vira crouton, rabanada ou farinha de rosca. Os legumes murchos acabam na sopa, na omelete ou num refogado. Essas receitas curinga absorvem quase qualquer coisa esquecida na geladeira."
+      },
+      {
+        "heading": "Pensar por categoria, não por receita",
+        "body": "Em vez de buscar uma receita específica, olhe o que você tem por tipo: um farináceo, uma proteína, alguns legumes. Farináceo mais legumes mais ovo já é uma refeição. Uma sopa aceita quase qualquer verdura. Uma quiche ou omelete recicla proteínas e legumes. Essa lógica te torna autossuficiente sem depender de uma receita pronta."
+      },
+      {
+        "heading": "Segurança com as sobras",
+        "body": "Reciclar sobras é ótimo, mas mantenha o bom senso. Coloque as sobras na geladeira rapidamente após a refeição, em até duas horas. Consuma em dois a três dias. Aqueça bem até ficar bem quente por dentro. Não aqueça o mesmo prato várias vezes. Se tiver qualquer dúvida sobre o cheiro, a cor ou a textura, não arrisque."
+      }
+    ],
+    "steps": [
+      "Refrigere as sobras em até duas horas após comer.",
+      "Separe o que você tem por farináceo, proteína e legume.",
+      "Recicle arroz em arroz frito, pão em croutons.",
+      "Use sopas e omeletes para aproveitar os legumes que sobraram.",
+      "Aqueça bem e consuma em até três dias."
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

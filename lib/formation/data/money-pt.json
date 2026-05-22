@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "making-your-first-budget-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Como Fazer o Seu Primeiro Orçamento",
+    "emoji": "📊",
+    "intro": "Orçamento não é castigo — é só saber para onde vai o seu dinheiro para você retomar o controle. Trinta minutos são o suficiente para começar.",
+    "sections": [
+      {
+        "heading": "Por que um orçamento muda tudo",
+        "body": "Sem orçamento, o dinheiro some e você não faz ideia para onde foi. Com um, cada real tem uma função: gastos fixos, lazer, poupança. Isso não te faz mão-fechada — te liberta, porque com o plano definido você gasta sem culpa. O objetivo não é controlar cada centavo, mas enxergar o quadro geral e parar de fechar o mês no vermelho sem entender o porquê."
+      },
+      {
+        "heading": "Liste entradas e saídas",
+        "body": "Comece anotando tudo que entra: salário, bico, mesada, bolsa de estudos. Depois liste tudo que sai num mês típico: aluguel, assinaturas, transporte, mercado, lazer. Puxe os extratos dos dois últimos meses para não deixar nada passar. A maioria das pessoas descobre assinaturas esquecidas ou pequenas compras repetidas que somam um valor surpreendente no final."
+      },
+      {
+        "heading": "A regra 50/30/20",
+        "body": "Uma divisão simples para começar: cerca de 50% da renda para necessidades (moradia, comida, transporte), 30% para desejos (lazer, roupas, hobbies), 20% para poupança. Não são regras rígidas — se o aluguel é alto, ajuste. O que importa é ter uma meta e sempre guardar alguma coisa, mesmo que seja pouco, antes de gastar o restante."
+      },
+      {
+        "heading": "Acompanhar sem complicar",
+        "body": "Um orçamento abandonado não serve pra nada. Escolha a ferramenta mais simples que funcione pra você: um app do banco que categoriza os gastos, uma planilha ou mesmo um caderno. Faça um check-in de cinco minutos uma vez por semana. Não precisa ser perfeito — se gastou demais em uma categoria, ajuste no mês seguinte. Consistência importa mais do que precisão."
+      }
+    ],
+    "steps": [
+      "Anote toda a sua renda do mês.",
+      "Liste gastos fixos e variáveis usando seus extratos bancários.",
+      "Distribua aproximadamente 50% para necessidades, 30% para desejos, 20% para poupança.",
+      "Escolha uma ferramenta simples — app, planilha ou caderno.",
+      "Faça uma revisão rápida toda semana e ajuste no mês seguinte."
+    ],
+    "faq": [
+      {
+        "q": "E se minha renda muda todo mês?",
+        "a": "Baseie seu orçamento no mês mais fraco dos últimos meses. Quando ganhar mais, coloque o excesso na poupança em vez de aumentar os gastos."
+      },
+      {
+        "q": "Quanto tempo até funcionar de verdade?",
+        "a": "Dê de dois a três meses. Os primeiros servem principalmente para descobrir seus hábitos reais. Os ajustes vêm naturalmente depois disso."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-where-your-money-goes-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Entenda Para Onde Vai o Seu Dinheiro",
+    "emoji": "🔍",
+    "intro": "Antes de poupar mais, você precisa ter uma visão clara. Analisar os gastos passados quase sempre revela surpresas fáceis de resolver.",
+    "sections": [
+      {
+        "heading": "O extrato bancário é o seu melhor professor",
+        "body": "Exporte ou imprima os extratos dos últimos três meses e leia linha por linha. É menos divertido do que um filme, mas é a coisa mais útil que você vai fazer com o seu dinheiro. Você vai encontrar cobranças esquecidas, assinaturas duplicadas e saídas à noite mais frequentes do que lembrava. Nenhum app substitui esse encontro honesto com as suas próprias escolhas."
+      },
+      {
+        "heading": "Organize em categorias amplas",
+        "body": "Coloque cada gasto em um balde: moradia, alimentação, transporte, assinaturas, lazer, roupas, outros. Some cada balde. Você terá um retrato claro de para onde o dinheiro vai de fato. Geralmente uma ou duas categorias aparecem muito maiores do que o esperado — delivery e pequenas compras online são os culpados mais comuns. É aí que está a maior margem para melhorar."
+      },
+      {
+        "heading": "Identifique os vazamentos silenciosos",
+        "body": "Os vazamentos quase nunca são os gastos grandes — são os pequenos e repetidos. Um cafezinho diário, um delivery por semana, três serviços de streaming. Multiplique cada gasto pequeno pelo número de vezes que acontece no mês, depois por doze. O valor anual costuma ser chocante, e é isso que finalmente te motiva a mudar um hábito específico em vez de sacrificar tudo de uma vez."
+      },
+      {
+        "heading": "Decida o que fica e o que vai",
+        "body": "O objetivo não é cortar tudo — é manter o que realmente importa pra você e eliminar o resto sem arrependimento. Se uma assinatura traz alegria de verdade, fica. Se você percebe que uma compra era só hábito automático, cancela. Um gasto consciente vale mais do que um passivo, mesmo que o preço seja idêntico."
+      }
+    ],
+    "steps": [
+      "Puxe os extratos dos últimos três meses.",
+      "Classifique cada gasto em uma categoria clara.",
+      "Some cada categoria para ver quais pesam mais.",
+      "Calcule o custo anual dos seus pequenos gastos recorrentes.",
+      "Corte dois ou três gastos que não acrescentam nada à sua vida."
+    ],
+    "faq": [
+      {
+        "q": "É normal ficar mal-humorado olhando para a conta?",
+        "a": "No começo, sim — é desconfortável. Mas esse desconforto logo se transforma em sensação de controle. Pense nisso como um reset, não como um julgamento."
+      },
+      {
+        "q": "Quantos meses de gastos devo analisar?",
+        "a": "Três meses dão uma média sólida — um mês pode ser atípico. Você verá seus hábitos reais, e não uma exceção pontual."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "opening-your-first-bank-account-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Como Abrir e Escolher a Sua Primeira Conta Bancária",
+    "emoji": "🏦",
+    "intro": "Sua conta bancária é a base de toda a sua vida financeira. Escolher a certa te livra de taxas desnecessárias por anos.",
+    "sections": [
+      {
+        "heading": "Banco digital ou agência física?",
+        "body": "Bancos digitais costumam oferecer contas gratuitas sem mensalidade e com cartão incluído. Bancos tradicionais têm agência física mas geralmente cobram tarifas mensais. Para uma primeira conta simples, um banco digital de reputação é mais do que suficiente. Considere uma agência física só se precisar de atendimento presencial com frequência."
+      },
+      {
+        "heading": "Tarifas que você precisa verificar",
+        "body": "Compare quatro coisas: mensalidade, custo do cartão, tarifas de saque em caixas fora da rede e taxas de transações internacionais. Um banco pode anunciar cartão gratuito mas cobrar por cada saque. Leia a tabela completa de tarifas, não só a propaganda. Ao longo de um ano, a diferença entre dois bancos pode chegar a centenas de reais pelo exato mesmo serviço."
+      },
+      {
+        "heading": "Documentos para preparar",
+        "body": "Para abrir uma conta você vai precisar de um documento de identidade com foto, um comprovante de endereço recente e às vezes comprovante de renda ou vínculo estudantil. Se você for menor de idade, um responsável precisa estar presente. Tenha esses documentos prontos como fotos nítidas — a abertura online leva minutos em vez de várias idas e vindas."
+      },
+      {
+        "heading": "Evitar o cheque especial",
+        "body": "O cheque especial parece prático mas custa caro em tarifas e juros. Prefira um cartão pré-pago ou de débito — ele recusa pagamentos quando o saldo está baixo demais, evitando que você entre no vermelho. É uma rede de segurança, não uma vergonha. Você pode migrar para um cartão convencional quando seu controle financeiro estiver mais sólido."
+      }
+    ],
+    "steps": [
+      "Compare ao menos três bancos com suas tabelas completas de tarifas.",
+      "Verifique taxas do cartão, saques e transações internacionais.",
+      "Prepare seu documento de identidade, comprovante de endereço e de situação.",
+      "Comece com um cartão de débito ou pré-pago como rede de segurança.",
+      "Ative as notificações de pagamento para acompanhar seu saldo."
+    ],
+    "faq": [
+      {
+        "q": "Posso ter mais de uma conta?",
+        "a": "Sim, e é até útil — uma conta corrente para o dia a dia e uma conta poupança para as metas. Só evite acumular várias contas pagas sem necessidade."
+      },
+      {
+        "q": "Trocar de banco é complicado?",
+        "a": "Hoje não é. Você pode solicitar portabilidade e transferir débitos automáticos. Compare bem antes e faça a mudança sem medo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-an-emergency-fund-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Como Montar uma Reserva de Emergência",
+    "emoji": "🛟",
+    "intro": "A reserva de emergência é um dinheiro guardado para te proteger do inesperado sem precisar se endividar. É o primeiro passo para qualquer segurança financeira de verdade.",
+    "sections": [
+      {
+        "heading": "Para que serve a reserva de emergência",
+        "body": "A vida prega peças: celular quebrado, notebook que pifou, uma viagem inesperada, perder um freela ou emprego. Sem uma reserva, essas surpresas te empurram para o cheque especial ou o cartão de crédito. A reserva absorve o impacto. Não é dinheiro para gastar à toa nem investimento — é um colchão de segurança que você usa só em emergências genuínas, fora do seu controle."
+      },
+      {
+        "heading": "Quanto juntar",
+        "body": "Quando está começando, defina uma primeira meta acessível: um mês de gastos, ou mesmo R$ 1.000 se isso parecer mais realista. Ao atingir essa meta inicial, vá construindo gradualmente até três meses de gastos. O segredo é começar pequeno para sentir a segurança logo, em vez de mirar um número enorme que parece impossível antes mesmo de dar o primeiro passo."
+      },
+      {
+        "heading": "Onde guardar",
+        "body": "Essa reserva precisa estar sempre acessível e sem risco. Uma conta poupança com rendimento ou uma conta de liquidez diária é o lugar certo — o dinheiro fica seguro, sem tarifas e disponível em poucas horas. Nunca invista a reserva de emergência na bolsa: o valor pode cair exatamente quando você mais precisar."
+      },
+      {
+        "heading": "Recompor depois de usar",
+        "body": "Se você usou a reserva, isso não é fracasso — é exatamente para isso que ela existe. A única regra é recompô-la depois. Retome a transferência automática no mês seguinte até voltar à meta. Ver a reserva se reconstruindo após uma emergência traz confiança: o sistema funciona e você está preparado para o próximo imprevisto."
+      }
+    ],
+    "steps": [
+      "Defina uma primeira meta realista — por exemplo, um mês de gastos.",
+      "Abra uma conta separada dedicada a essa reserva.",
+      "Configure uma transferência automática mensal, mesmo que pequena.",
+      "Só mexa nela para emergências reais e inevitáveis.",
+      "Recomponha-a rapidamente após cada uso."
+    ],
+    "faq": [
+      {
+        "q": "Devo montar a reserva antes de quitar dívidas?",
+        "a": "Monte um colchão pequeno primeiro, depois ataque a dívida. Sem nenhuma reserva, qualquer gasto inesperado te obrigaria a se endividar de novo."
+      },
+      {
+        "q": "Onde eu definitivamente não devo guardar a reserva?",
+        "a": "Nunca na bolsa ou em qualquer investimento arriscado — o valor pode cair exatamente quando você precisar. Ela precisa ficar segura e acessível a qualquer momento."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "saving-on-a-low-income-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Poupar Mesmo Ganhando Pouco",
+    "emoji": "🪙",
+    "intro": "As pessoas acham que precisam ganhar muito para poupar. Errado — o que conta é o hábito, e você o constrói com valores pequenos.",
+    "sections": [
+      {
+        "heading": "Pague a si mesmo primeiro",
+        "body": "A maioria das pessoas poupa o que sobra no final do mês — e nunca sobra nada. Inverta a lógica: assim que a renda cair, separe uma quantia pequena antes de gastar qualquer coisa. Mesmo que sejam cinquenta reais. Ao tratar a poupança como uma despesa fixa, você a torna automática e mal percebe a diferença."
+      },
+      {
+        "heading": "A automação é sua aliada",
+        "body": "Configure uma transferência automática da sua conta corrente para a poupança no dia seguinte ao pagamento. O dinheiro sai antes de você ter chance de gastá-lo. Você não precisa mais decidir todo mês, então não há tentação de pular a transferência. A automação transforma uma boa intenção em resultado concreto sem precisar de força de vontade."
+      },
+      {
+        "heading": "Aumente em pequenos passos",
+        "body": "Comece com um valor tão pequeno que não doa. A cada dois ou três meses, aumente um pouco — de R$ 50 para R$ 70, por exemplo. Você vai se ajustando gradualmente sem nenhum choque no estilo de vida. Essa evolução suave é muito mais sustentável do que um grande esforço inicial que desmorona no primeiro mês difícil."
+      },
+      {
+        "heading": "Dê um objetivo à sua poupança",
+        "body": "Poupar por poupar cansa rápido. Dê um nome à sua poupança: uma viagem, a carteira de motorista, um notebook, sair do aluguel. Uma meta concreta torna cada depósito satisfatório porque você vê seu sonho se aproximando. Você pode até criar vários 'cofrinhos mentais' dentro de uma mesma conta, um por projeto, para acompanhar o progresso."
+      }
+    ],
+    "steps": [
+      "Escolha um valor tão pequeno que pareça indolor.",
+      "Configure uma transferência automática logo após o dia de pagamento.",
+      "Aumente o valor um pouquinho a cada dois ou três meses.",
+      "Conecte a poupança a uma meta concreta e motivadora.",
+      "Acompanhe o progresso uma vez por mês para se manter motivado."
+    ],
+    "faq": [
+      {
+        "q": "Vale a pena guardar R$ 50 por mês?",
+        "a": "Sim — são R$ 600 ao longo de um ano, e, mais importante, você está criando o hábito. O hábito vale mais do que o valor no começo."
+      },
+      {
+        "q": "Quando devo agendar a transferência da poupança?",
+        "a": "Logo após receber, para poupar antes de gastar. Se esperar até o final do mês, normalmente não sobra nada."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-savings-accounts-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Entendendo as Contas Poupança",
+    "emoji": "📒",
+    "intro": "Contas poupança são a forma mais simples e segura de guardar dinheiro. Você só precisa entender como elas realmente funcionam.",
+    "sections": [
+      {
+        "heading": "O que é uma conta poupança",
+        "body": "Uma conta poupança é um lugar seguro e sem tarifas para estacionar dinheiro que rende um pequeno juro. Seu dinheiro fica totalmente protegido, disponível quando precisar, e os juros são creditados regularmente — muitas vezes com benefício fiscal dependendo do tipo de conta. É o destino ideal para a sua reserva de emergência e metas de curto prazo."
+      },
+      {
+        "heading": "Como os juros funcionam",
+        "body": "A conta rende uma taxa anual: se a taxa for 6% ao ano, R$ 1.000 rendem cerca de R$ 60 ao longo do ano. Os juros são compostos — o que você rendeu também rende no período seguinte. É um efeito bola de neve pequeno, mas real. Para maximizá-lo, deposite no início do período de rendimento, e não no final."
+      },
+      {
+        "heading": "Os limites que você precisa conhecer",
+        "body": "Algumas contas poupança têm teto de depósito ou limite de aportes. Quando atingir o teto, o dinheiro extra precisa ir para outro lugar. Acima de tudo, lembre que o retorno da poupança é baixo — ela protege seu dinheiro mas não o faz crescer de verdade. Pense nela como uma ferramenta de segurança, não de crescimento."
+      },
+      {
+        "heading": "Usar as contas com inteligência",
+        "body": "A estratégia inteligente é simples: use uma conta para a reserva de emergência e outra para metas planejadas para os próximos um a três anos. Mantenha na conta corrente só o que precisar para o mês. Todo o resto vai para a poupança, onde fica seguro e rende um pouquinho — em vez de parado sem render nada."
+      }
+    ],
+    "steps": [
+      "Verifique quais contas poupança seu banco oferece.",
+      "Abra uma conta poupança sem tarifas para guardar seu dinheiro.",
+      "Configure uma transferência automática para ela.",
+      "Mantenha na conta corrente só o necessário para o mês.",
+      "Fique de olho no teto de saldo e redirecione o excesso se necessário."
+    ],
+    "faq": [
+      {
+        "q": "Uma conta poupança pode perder valor?",
+        "a": "Seu saldo em dinheiro nunca cai. Porém, se a inflação superar a taxa de rendimento, seu poder de compra vai diminuindo aos poucos — isso é normal para uma conta sem risco."
+      },
+      {
+        "q": "O que fazer quando a conta atingir o limite?",
+        "a": "O dinheiro extra precisa ir para outro lugar — uma conta de investimento diferente ou, para metas de muito longo prazo, uma aplicação diversificada. Pesquise o que combina com o seu horizonte."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cleaning-out-subscriptions-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Faça uma Faxina nas Suas Assinaturas",
+    "emoji": "✂️",
+    "intro": "As assinaturas se acumulam em silêncio e vão corroendo seu orçamento. Uma faxina geral uma vez por ano pode te economizar uma grana surpreendente.",
+    "sections": [
+      {
+        "heading": "Faça a lista completa",
+        "body": "Anote cada assinatura: streaming de vídeo e música, jogos, apps, academia, caixinhas de assinatura, armazenamento em nuvem, sites de notícias. Muitas são cobradas quietinhas e já foram esquecidas. Procure no extrato do banco as cobranças recorrentes, mesmo as pequenas. Você vai se surpreender com o total mensal — e ainda mais com o anual quando somar tudo."
+      },
+      {
+        "heading": "O teste do uso real",
+        "body": "Para cada assinatura, se pergunte honestamente: usei isso este mês? Agrega valor de verdade ou é só hábito? Se não abriu em semanas, é candidata ao cancelamento. Só mantenha o que você usa e aproveita de verdade. Todo o resto é dinheiro jogado fora sem nada em troca."
+      },
+      {
+        "heading": "Rodízio em vez de acúmulo",
+        "body": "Você não precisa de três plataformas de streaming ao mesmo tempo. Assine uma, assista o que te interessa, cancele e passe para a próxima no mês seguinte. A maioria das assinaturas não tem fidelidade. Esse rodízio te dá acesso a tudo pelo preço de uma assinatura de cada vez."
+      },
+      {
+        "heading": "Fique de olho nas renovações",
+        "body": "Períodos de teste se convertem automaticamente em assinaturas pagas se você esquecer de cancelar. Marque no calendário a data de encerramento de cada teste. Fique atento também aos aumentos silenciosos de preço — as plataformas reajustam sem avisar. Refaça essa faxina a cada seis meses para manter o controle dos seus gastos recorrentes."
+      }
+    ],
+    "steps": [
+      "Liste todas as assinaturas a partir do extrato bancário.",
+      "Marque as que você realmente usou este mês.",
+      "Cancele tudo que não agrega valor de verdade.",
+      "Adote a estratégia de rodízio em vez de acumular plataformas.",
+      "Anote as datas de encerramento dos testes para não pagar por acidente."
+    ],
+    "faq": [
+      {
+        "q": "E se a assinatura tiver contrato de fidelidade?",
+        "a": "Anote a data de vencimento e cancele logo antes. Coloque um lembrete — caso contrário, ela renova automaticamente por outro período completo."
+      },
+      {
+        "q": "Com que frequência devo fazer essa faxina?",
+        "a": "A cada seis meses, mais ou menos. As assinaturas se acumulam rápido e os preços sobem na surdina — uma revisão periódica mantém seus custos recorrentes sob controle."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-on-a-budget-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Fazer Compras no Mercado com Inteligência",
+    "emoji": "🛒",
+    "intro": "Alimentação é uma área onde dá para economizar muito sem se privar — só mudando alguns hábitos simples.",
+    "sections": [
+      {
+        "heading": "A lista de compras — sua defesa contra os impulsos",
+        "body": "Fazer compras sem lista é um convite aberto para compras por impulso. Planeje as refeições da semana e faça a lista com base nelas — depois siga à risca. Coma antes de ir ao mercado: a fome te leva a comprar mais do que precisa e pegar coisas que não precisa. Uma lista clara transforma uma tarefa cara em uma missão rápida e controlada."
+      },
+      {
+        "heading": "Compare pelo preço unitário",
+        "body": "O preço exibido é enganoso: uma embalagem maior pode custar mais por quilo do que uma menor, e vice-versa. Sempre verifique o preço unitário impresso em letras pequenas na etiqueta da prateleira. Os produtos de marca própria costumam custar metade do preço das marcas famosas com qualidade muito próxima. Experimente — muitos são feitos nas mesmas fábricas."
+      },
+      {
+        "heading": "Cozinhar do zero em vez de comprar pronto",
+        "body": "Refeições prontas e delivery custam várias vezes mais do que os ingredientes crus. Aprender cinco ou seis receitas simples com legumes, grãos, arroz, macarrão e ovos reduz bastante a conta com alimentação. Lentilha, grão-de-bico e ovos são fontes de proteína baratas. Cozinhar em quantidade e congelar porções economiza tempo e dinheiro."
+      },
+      {
+        "heading": "Hábitos antidesperdício que compensam",
+        "body": "Desperdício é dinheiro no lixo. Organize a geladeira de forma que o que precisa ser consumido primeiro fique na frente. Cozinhe com as sobras em vez de jogar fora. Aproveite produtos com validade próxima vendidos com desconto e apps de combate ao desperdício que revendem itens não vendidos. Compre frutas e verduras da estação — são mais baratas e mais gostosas."
+      }
+    ],
+    "steps": [
+      "Planeje as refeições da semana antes de escrever a lista.",
+      "Nunca vá ao mercado com fome.",
+      "Sempre compare pelo preço unitário — por quilo ou por litro.",
+      "Prefira as marcas próprias e os produtos da estação.",
+      "Cozinhe em quantidade e congele porções para reduzir o desperdício."
+    ],
+    "faq": [
+      {
+        "q": "Comer barato significa comer mal?",
+        "a": "Não. Grãos, ovos, cereais integrais e legumes da estação são econômicos e nutritivos. São os prontos que custam caro e nutrem pouco."
+      },
+      {
+        "q": "Os produtos de marca própria têm qualidade inferior?",
+        "a": "Nem sempre — muitos são fabricados nas mesmas fábricas das marcas famosas. Experimente: a qualidade costuma ser muito próxima a um preço bem menor."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "selling-second-hand-items-online-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Vender Suas Coisas pela Internet",
+    "emoji": "📦",
+    "intro": "Você quase certamente tem coisas em casa que valem dinheiro. Vendê-las libera espaço e enche o bolso.",
+    "sections": [
+      {
+        "heading": "Identificar o que vende",
+        "body": "Vasculhe seus pertences: roupas que nunca usou, jogos finalizados, livros, eletrônicos, acessórios. Qualquer coisa que não usou em um ano é candidata à revenda. Itens em bom estado, de marcas conhecidas e vendidos com tudo incluído vendem melhor. Não precisa listar tudo de uma vez — comece com dez itens para pegar o jeito."
+      },
+      {
+        "heading": "Fotos e descrições que vendem",
+        "body": "Um bom anúncio vende; um ruim só ocupa espaço. Tire fotos nítidas com luz natural, em fundo neutro, de vários ângulos, e inclua defeitos de forma honesta. Escreva um título claro com marca e modelo. Descreva o estado real, tamanho e dimensões. Transparência evita disputas e constrói sua reputação como vendedor confiável."
+      },
+      {
+        "heading": "Definir o preço certo",
+        "body": "Pesquise pelo que itens similares foram vendidos de fato — não apenas o que estão anunciando. Um preço muito alto afasta compradores; muito baixo, você perde dinheiro. Leve em conta o estado e a demanda. Você pode anunciar um pouquinho acima da sua meta para ter margem de negociação, que é comum nessas plataformas."
+      },
+      {
+        "heading": "Vender com segurança",
+        "body": "Use o sistema de pagamento seguro da plataforma, não transferências bancárias diretas. Para entregas presenciais, escolha um local público e movimentado. Desconfie de compradores que queiram levar a negociação para fora da plataforma ou que enviem links de pagamento estranhos — é quase sempre golpe. Mantenha toda a comunicação dentro do app."
+      }
+    ],
+    "steps": [
+      "Escolha dez itens em bom estado que não usa mais.",
+      "Fotografe cada item com luz natural, incluindo os defeitos.",
+      "Escreva títulos e descrições precisos e honestos.",
+      "Defina o preço com base em vendas reais de itens similares.",
+      "Use apenas o pagamento seguro da plataforma."
+    ],
+    "faq": [
+      {
+        "q": "Qual plataforma usar?",
+        "a": "Adapte a plataforma ao item — um app focado em moda para roupas, um marketplace geral para o resto. Compare as comissões cobradas em cada venda."
+      },
+      {
+        "q": "Preciso declarar esse dinheiro?",
+        "a": "Revender pertences pessoais com prejuízo ou por valores pequenos geralmente não é tributável. Se você vende com frequência e regularidade, verifique os limites de declaração no seu país."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "finding-a-student-job-pt",
+    "theme": "money",
+    "locale": "pt",
+    "title": "Como Encontrar um Emprego de Estudante",
+    "emoji": "🎒",
+    "intro": "Um trabalho de estudante traz renda regular e sua primeira experiência profissional de verdade. Saber onde procurar — e o que procurar — faz toda a diferença.",
+    "sections": [
+      {
+        "heading": "Onde procurar com eficiência",
+        "body": "Vagas para estudantes aparecem em vários lugares: no setor de estágios da sua escola, em sites de vagas, em comércios locais abordados diretamente e pelo boca a boca. O contato direto costuma funcionar melhor do que candidaturas online — entre em lojas, restaurantes e cafés com um currículo simples, especialmente antes das épocas de maior movimento."
+      },
+      {
+        "heading": "Escolher um emprego compatível",
+        "body": "O melhor emprego de estudante não vai custar seus estudos. Verifique os horários — turnos noturnos ou de fim de semana mantêm seus dias livres. Leve em conta o tempo de deslocamento, que não é pago. Um emprego perto de casa ou da faculdade com horário flexível supera um emprego mais bem pago que te esgota e fica longe demais."
+      },
+      {
+        "heading": "Conheça seus direitos",
+        "body": "Mesmo para um trabalho pequeno, você tem direito a contrato escrito, pelo menos o salário mínimo, holerites e férias proporcionais. Trabalhar sem contrato te deixa sem direitos e sem proteção se algo der errado. Sempre recuse trabalho sem contrato formal, independentemente do salário prometido."
+      },
+      {
+        "heading": "Aproveitar ao máximo a experiência",
+        "body": "Além do salário, um emprego de estudante desenvolve habilidades reais: pontualidade, atendimento ao cliente, trabalho em equipe, lidar com pressão. Isso conta no currículo. Peça uma carta de recomendação quando sair. Um trabalho de meio período, bem descrito numa entrevista, demonstra seriedade e senso de responsabilidade."
+      }
+    ],
+    "steps": [
+      "Entre em contato com o setor de estágios ou carreiras da sua escola.",
+      "Monte um currículo simples para entregar pessoalmente.",
+      "Mire em comércios um pouco antes das épocas de pico.",
+      "Verifique os horários e o deslocamento para não prejudicar os estudos.",
+      "Sempre exija contrato formal e holerites."
+    ],
+    "faq": [
+      {
+        "q": "Quantas horas posso trabalhar sendo estudante?",
+        "a": "Depende da sua carga horária e da legislação local. Mantenha o bom senso — o trabalho nunca deve afetar suas notas, que continuam sendo a prioridade."
+      },
+      {
+        "q": "Como me candidatar sem ter experiência?",
+        "a": "Destaque suas qualidades: pontualidade, confiabilidade, entusiasmo. Para vagas de estudante, as empresas sabem que você está começando e buscam principalmente alguém de confiança."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

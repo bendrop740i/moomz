@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "cook-a-quick-cheap-meal-es",
+    "theme": "vie-pratique",
+    "title": "Cocina una comida rápida y económica",
+    "emoji": "🍳",
+    "locale": "es",
+    "intro": "Comer bien sin arruinarse ni pasarse horas en la cocina es una habilidad que se aprende. Con unos pocos fundamentos, te las arreglas de verdad.",
+    "sections": [
+      {
+        "heading": "Mantener siempre una despensa básica",
+        "body": "Con unos pocos ingredientes secos y baratos a mano, puedes preparar una comida en cualquier momento. Pasta, arroz, lentejas, tomate y garbanzos en conserva, huevos, cebolla, ajo, aceite y especias forman una base sólida. Estos productos duran mucho y cuestan muy poco. Cuando la despensa está bien surtida, nunca te quedas sin opciones y pides un delivery caro en un momento de vagancia."
+      },
+      {
+        "heading": "Dominar tres recetas de confianza",
+        "body": "No necesitas cincuenta recetas: con tres platos que salgan perfectos cada vez es suficiente para rotar toda la semana. Un salteado de pasta con verduras, un arroz frito con huevo y una sopa de lentejas o dahl cubren lo esencial. Domínalas bien y luego varía las verduras y las especias. La confianza en la cocina viene de la repetición, no de la complejidad."
+      },
+      {
+        "heading": "Cocinar en cantidades mayores",
+        "body": "Preparar dos o tres raciones en lugar de una apenas lleva tiempo extra. Comes esa noche y guardas el resto para el almuerzo del día siguiente, o lo congelas. Este hábito —llamado batch cooking— significa que no tienes que cocinar todos los días y reduce el desperdicio. Invierte en unos recipientes herméticos: se amortizan rápido comparado con comprar comida preparada."
+      }
+    ],
+    "steps": [
+      "Construye una despensa básica con pasta, arroz, lentejas y conservas.",
+      "Elige tres recetas sencillas y practica hasta que las domines.",
+      "Cocina dos raciones de forma sistemática en lugar de una.",
+      "Guarda recipientes herméticos para las sobras.",
+      "Anota lo que te gusta para construir tu propio recetario."
+    ],
+    "faq": [
+      {
+        "q": "No tengo utensilios — ¿por dónde empiezo?",
+        "a": "Una sartén, un cazo, un buen cuchillo y una tabla de cortar cubren el 90% de las recetas. Lo demás, cómpralo cuando surja una necesidad real."
+      },
+      {
+        "q": "¿Cocinar en casa es realmente más barato que comprar comida preparada?",
+        "a": "Sí, y por mucho. Una comida casera suele costar dos o tres veces menos que un plato preparado o un delivery, y la calidad es mejor."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-es",
+    "theme": "vie-pratique",
+    "title": "Hacer la compra sin arruinarte",
+    "emoji": "🛒",
+    "locale": "es",
+    "intro": "La compra pesa en cualquier presupuesto. Con un método sencillo, gastas menos sin comer peor.",
+    "sections": [
+      {
+        "heading": "Hacer una lista y cumplirla",
+        "body": "Entrar en un supermercado sin lista es la forma más segura de comprar por impulso y pasarse de presupuesto. Antes de salir, revisa lo que tienes, planifica algunas comidas y apunta exactamente lo que necesitas. Una lista te protege de las compras impulsivas que colocan estratégicamente al final de los pasillos. Hacer la compra sin hambre también ayuda mucho."
+      },
+      {
+        "heading": "Comparar por precio por kilo",
+        "body": "El precio grande en la etiqueta no te dice mucho. Mira siempre el precio por kilo o por litro, que aparece pequeño en la etiqueta: es la única forma honesta de comparar dos productos. Los formatos grandes suelen ser más baratos por unidad, pero no siempre. Los productos de marca blanca frecuentemente ofrecen la misma calidad que las grandes marcas a mucho menor precio."
+      },
+      {
+        "heading": "Apostar por alimentos sin procesar y productos de temporada",
+        "body": "Los productos procesados y precocinados cuestan más y nutren menos. Redirigir parte del presupuesto hacia alimentos sin procesar —verduras, farináceos, legumbres, huevos— compensa. La fruta y la verdura de temporada están más ricas y son más baratas. Los congelados sin procesar son un gran aliado: económicos, sin desperdicio y tan nutritivos como los frescos."
+      }
+    ],
+    "steps": [
+      "Revisa tu despensa y planifica algunas comidas antes de ir.",
+      "Escribe una lista precisa y cúmplela.",
+      "Compara los productos por precio por kilo o litro.",
+      "Prefiere las marcas blancas y los productos de temporada.",
+      "Nunca hagas la compra con hambre."
+    ],
+    "faq": [
+      {
+        "q": "¿La compra online ayuda a gastar menos?",
+        "a": "A menudo sí: ves el total subir en tiempo real y evitas los pasillos de la tentación. Ojo solo con los gastos de envío."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eating-healthy-on-a-tight-budget-es",
+    "theme": "vie-pratique",
+    "title": "Comer bien con poco presupuesto",
+    "emoji": "🥗",
+    "locale": "es",
+    "intro": "Comer bien no es un privilegio para quien tiene dinero. Los alimentos más nutritivos suelen estar entre los más baratos.",
+    "sections": [
+      {
+        "heading": "Fuentes de proteína económicas",
+        "body": "La carne no es la única fuente de proteínas, y suele ser la más cara. Los huevos, las lentejas, los garbanzos, las alubias y el tofu son baratos y saciantes. Alternar estas fuentes a lo largo de la semana reduce considerablemente la factura y mantiene la variedad. Cuando sí compres carne, los cortes para guisar son más baratos y están increíblemente buenos."
+      },
+      {
+        "heading": "Armar un plato sencillo",
+        "body": "Un plato equilibrado no es complicado: una fuente de farináceos, una de proteínas y verduras para la mitad del plato. No hace falta calcular nada: esta plantilla visual es suficiente. Las verduras congeladas o en conserva cuentan igual que las frescas. La idea es color y variedad sin darle más vueltas ni gastar más."
+      },
+      {
+        "heading": "Reducir los azucarados y ultraprocesados",
+        "body": "Los refrescos, las galletas, los platos preparados y los snacks son caros y aportan poca nutrición real. Recortarlos libera presupuesto para comida de verdad. No hace falta eliminarlos: trátalos como un placer ocasional, no como un hábito diario. El agua del grifo sigue siendo la bebida más barata y la mejor para la salud."
+      }
+    ],
+    "steps": [
+      "Sustituye algo de carne por huevos y legumbres.",
+      "Arma tus platos con farináceos, proteínas y verduras.",
+      "Usa verduras congeladas y en conserva sin dudarlo.",
+      "Reserva los azucarados y procesados para ocasiones especiales.",
+      "Bebe agua del grifo en lugar de refrescos."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "plan-your-weekly-meals-es",
+    "theme": "vie-pratique",
+    "title": "Planifica tus comidas de la semana",
+    "emoji": "📅",
+    "locale": "es",
+    "intro": "Decidir qué comer cada día a última hora es agotador y caro. Diez minutos de planificación a la semana te despejan la cabeza.",
+    "sections": [
+      {
+        "heading": "Por qué planificar lo cambia todo",
+        "body": "Sin un plan, acabas pidiendo comida a domicilio o comprando al azar, lo que cuesta más y nutre menos. Planificar las comidas te da una lista de la compra precisa, reduce el desperdicio y elimina el estresante «¿qué hay para cenar?». No hace falta planificarlo todo: con decidir a grandes rasgos cinco cenas ya transformas la semana."
+      },
+      {
+        "heading": "Empezar con lo que ya tienes",
+        "body": "Antes de inventar recetas, abre los armarios, el frigorífico y el congelador. Construye las comidas alrededor de lo que ya hay, especialmente lo que esté próximo a caducar. Este hábito evita que los alimentos se olviden en el fondo de la nevera y reduce el desperdicio de forma notable. Luego solo completas la lista de la compra con lo estrictamente necesario."
+      },
+      {
+        "heading": "Mantener algo de flexibilidad",
+        "body": "Un plan demasiado rígido raramente sobrevive una semana entera. En cambio, elabora una lista de posibles comidas sin asignar un plato fijo a cada día. Ten también una comida comodín ultrasencilla —pasta o una tortilla— para las noches en que la energía escasea. El plan debe trabajar para ti, no atraparte."
+      }
+    ],
+    "steps": [
+      "Reserva diez minutos fijos cada semana para planificar.",
+      "Revisa la nevera, los armarios y el congelador.",
+      "Elige cinco a siete comidas usando lo que ya tienes.",
+      "Saca la lista de la compra del plan.",
+      "Ten una comida de reserva para las noches de poca energía."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cut-down-on-food-waste-es",
+    "theme": "vie-pratique",
+    "title": "Reducir el desperdicio alimentario",
+    "emoji": "♻️",
+    "locale": "es",
+    "intro": "Tirar comida es tirar dinero. Con pequeños hábitos, puedes aprovechar casi todo lo que compras.",
+    "sections": [
+      {
+        "heading": "Organizar bien la nevera",
+        "body": "Una nevera bien organizada te ayuda a ver lo que tienes. Pon los productos más antiguos al frente para consumirlos primero. La parte inferior de la nevera es la más fría: ideal para carne y pescado; el cajón de verduras, para las hortalizas. Crea una zona visible para los alimentos que hay que comer pronto. Ver bien lo que tienes evita que las cosas se olviden y acaben en la basura."
+      },
+      {
+        "heading": "Entender las fechas de los productos",
+        "body": "Hay dos tipos de fechas. La fecha de consumo preferente en productos frescos como la carne significa que no debes pasarla. La fecha de caducidad solo indica una posible pérdida de calidad: muchos productos siguen siendo buenos después. Confía en tu nariz y en el sentido común también con los productos secos."
+      },
+      {
+        "heading": "Cocinar con sobras y el congelador",
+        "body": "Las sobras no son un problema: se convierten en la comida de mañana o en la base de un plato nuevo. El pan duro se convierte en crutones, las verduras mustias en sopa, el arroz de ayer en arroz frito. El congelador es tu aliado: congela casi cualquier cosa, desde pan hasta raciones cocinadas, y detiene la carrera contra la fecha de caducidad."
+      }
+    ],
+    "steps": [
+      "Pon los productos más antiguos en la parte delantera de la nevera.",
+      "Aprende la diferencia entre los dos tipos de fechas.",
+      "Transforma las sobras en una comida nueva.",
+      "Congela lo que no vayas a consumir a tiempo.",
+      "Haz una revisión rápida de la nevera antes de cada compra."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "kitchen-essentials-on-a-budget-es",
+    "theme": "vie-pratique",
+    "title": "Equipar tu cocina con lo esencial",
+    "emoji": "🍴",
+    "locale": "es",
+    "intro": "Se puede cocinar muy bien sin una cocina de alta tecnología. Unos pocos utensilios bien elegidos te durarán años.",
+    "sections": [
+      {
+        "heading": "El mínimo indispensable para empezar",
+        "body": "Para preparar la gran mayoría de comidas, necesitas muy poco: una sartén, un cazo, un buen cuchillo de chef, una tabla de cortar, un escurridor, una cuchara de madera y una espátula. Con eso ya cubres casi todo. No hace falta llenar los armarios de artilugios que acumularán polvo. Compra el resto solo cuando surja una necesidad real."
+      },
+      {
+        "heading": "Invertir donde importa",
+        "body": "En ciertos utensilios, la calidad marca una diferencia real y dura mucho tiempo. Un buen cuchillo afilado transforma la cocina del día a día y es más seguro: un cuchillo sin filo resbala y corta los dedos. Una buena sartén evita que todo se pegue. Para el resto, lo básico es suficiente. Los mercadillos y las webs de segunda mano son geniales para equiparse sin gastar mucho."
+      },
+      {
+        "heading": "Mantener para que dure",
+        "body": "El material bien cuidado dura años. Lava los cuchillos a mano y guárdalos por separado para preservar el filo. Evita los utensilios metálicos en las sartenes antiadherentes. Seca los utensilios de metal para evitar la oxidación. Estos hábitos sencillos evitan tener que reponer equipamiento y mantienen la cocina agradable y segura."
+      }
+    ],
+    "steps": [
+      "Compra primero una sartén, un cazo, un cuchillo y una tabla de cortar.",
+      "Invierte más en calidad para el cuchillo y la sartén.",
+      "Consigue el resto de segunda mano o en mercadillos.",
+      "Lava los cuchillos a mano y guárdalos por separado.",
+      "Añade más utensilios solo cuando surja una necesidad real."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "basic-nutrition-fundamentals-es",
+    "theme": "vie-pratique",
+    "title": "Entiende los fundamentos de la nutrición",
+    "emoji": "🍎",
+    "locale": "es",
+    "intro": "No hace falta ser experto para comer bien. Unos pocos puntos de referencia sencillos bastan para tomar buenas decisiones cada día.",
+    "sections": [
+      {
+        "heading": "Los tres grupos alimentarios principales",
+        "body": "El cuerpo necesita tres tipos generales de nutrientes. Los hidratos de carbono —en farináceos y frutas— proporcionan energía. Las proteínas —en carne, huevos y legumbres— construyen y reparan el organismo. Las grasas —en aceite, frutos secos y pescado— son esenciales a pesar de su mala fama. Un plato equilibrado contiene un poco de cada grupo, sin demonizar ninguno."
+      },
+      {
+        "heading": "Leer una etiqueta de forma sencilla",
+        "body": "Las etiquetas parecen complicadas, pero con unos pocos puntos de referencia es suficiente. Mira la lista de ingredientes: cuanto más corta y comprensible, mejor. Desconfía de los productos en los que el azúcar aparece entre los primeros ingredientes. La tabla nutricional te permite comparar dos productos, especialmente en azúcar y sal. Un sistema de semáforo o de puntuación sencilla da una visión rápida para comparar."
+      },
+      {
+        "heading": "Variedad por encima de la perfección",
+        "body": "Ningún alimento es mágico y ninguno está prohibido. La clave está en la variedad y el equilibrio a lo largo de la semana, no en la perfección en cada comida. Apunta a muchas verduras, proteína en cada comida y limita los ultraprocesados sin eliminarlos. Escuchar el hambre y la saciedad importa tanto como los números. Una relación relajada con la comida es más sostenible."
+      }
+    ],
+    "steps": [
+      "Incluye hidratos, proteínas y algo de grasa en cada comida.",
+      "Lee las listas de ingredientes y prefiere las más cortas.",
+      "Compara azúcar y sal mediante la tabla nutricional.",
+      "Busca la variedad a lo largo de la semana, no la perfección.",
+      "Escucha las señales de hambre y saciedad."
+    ],
+    "faq": [
+      {
+        "q": "¿Necesito contar calorías?",
+        "a": "Para la mayoría de las personas, no. Priorizar alimentos sin procesar y escuchar el hambre es suficiente. Contar calorías puede crear una relación ansiosa con la comida."
+      },
+      {
+        "q": "¿Son necesarios los suplementos dietéticos?",
+        "a": "Una dieta variada cubre las necesidades de la mayoría de la gente. Para una preocupación concreta, como la vitamina D, consulta a un médico o farmacéutico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "quick-healthy-breakfast-es",
+    "theme": "vie-pratique",
+    "title": "Prepara un desayuno rápido y saludable",
+    "emoji": "🥣",
+    "locale": "es",
+    "intro": "El desayuno no tiene que ser elaborado para arrancar bien el día. Unas pocas ideas sencillas son todo lo que necesitas.",
+    "sections": [
+      {
+        "heading": "Cómo es un buen desayuno en la práctica",
+        "body": "Un desayuno que llena combina idealmente una fuente de carbohidratos complejos, una de proteínas y una pieza de fruta. Pan integral con un huevo, yogur con avena y fruta, o mantequilla de cacahuete en tostadas con un plátano funcionan muy bien. La clave es evitar el desayuno 100% azucarado, que provoca una bajada de energía dos horas después. Un poco de proteína ayuda a aguantar hasta la hora de comer."
+      },
+      {
+        "heading": "Ahorrar tiempo por la mañana",
+        "body": "Si las mañanas son ajetreadas, prepara la noche anterior. Los overnight oats (porridge dejado en la nevera) se pueden comer fríos directamente al levantarse. Cortar la fruta o preparar los recipientes la noche antes ahorra minutos muy valiosos. También puedes preparar varias raciones a la vez. Un desayuno listo de antemano elimina una decisión y reduce el estrés matutino."
+      },
+      {
+        "heading": "¿Y si no tienes hambre al levantarte?",
+        "body": "No todo el mundo tiene hambre nada más despertar, y está bien. No hace falta forzarse: puedes llevarte algo para comer un poco más tarde, a media mañana. Una fruta, un puñado de frutos secos o un yogur en el bolso funcionan bien. Lo importante es no llegar a la hora de comer con un hambre terrible y agarrar lo primero que encuentres."
+      }
+    ],
+    "steps": [
+      "Combina carbohidratos complejos, proteínas y una pieza de fruta.",
+      "Evita los desayunos 100% azucarados.",
+      "Prepara overnight oats la noche anterior si tienes prisa.",
+      "Lleva un snack en el bolso si por las mañanas no tienes hambre.",
+      "Encuentra dos o tres formatos que de verdad te gusten."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "store-food-properly-es",
+    "theme": "vie-pratique",
+    "title": "Conserva los alimentos correctamente",
+    "emoji": "🧊",
+    "locale": "es",
+    "intro": "Conservar bien los alimentos los hace durar más, reduce el desperdicio y protege tu salud.",
+    "sections": [
+      {
+        "heading": "En la nevera, cada cosa tiene su sitio",
+        "body": "La nevera no tiene la misma temperatura en todas partes. La parte inferior es la más fría: pon ahí la carne, el pescado y los productos frescos delicados. Los estantes del medio son para lácteos y sobras. La puerta, que es más cálida, es para condimentos y bebidas. Mantén la nevera a unos cuatro grados y no la sobrecargues para que circule el aire."
+      },
+      {
+        "heading": "Lo que no debe ir en la nevera",
+        "body": "Algunos alimentos se conservan mejor fuera de la nevera. Los tomates pierden el sabor dentro; las patatas, las cebollas y el ajo prefieren un lugar seco y oscuro. El pan se pone duro más rápido con el frío: es mejor congelarlo si no lo vas a terminar. Los plátanos se ennegrecen en la nevera. Conocer estas excepciones evita arruinar la textura y el sabor."
+      },
+      {
+        "heading": "Sacarle partido al congelador",
+        "body": "El congelador alarga enormemente la vida útil de los alimentos. Congela en porciones para descongelar solo lo que necesitas. Etiqueta con la fecha para no perder el control. Descongela en la nevera, nunca a temperatura ambiente durante mucho tiempo, para evitar bacterias. Nunca vuelvas a congelar un producto que ya hayas descongelado en crudo."
+      }
+    ],
+    "steps": [
+      "Guarda carne y pescado en la parte inferior de la nevera.",
+      "Deja los tomates, patatas y cebollas fuera de la nevera.",
+      "Congela el pan y las raciones sobrantes.",
+      "Etiqueta los recipientes con la fecha.",
+      "Descongela en la nevera, nunca dejándolo a temperatura ambiente mucho tiempo."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto tiempo puede durar un plato cocinado en la nevera?",
+        "a": "Por lo general, dos o tres días como máximo. Si tienes alguna duda sobre el olor o el aspecto, no te la juegues: tíralo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reinvent-your-leftovers-es",
+    "theme": "vie-pratique",
+    "title": "Transforma las sobras en una comida nueva",
+    "emoji": "🍲",
+    "locale": "es",
+    "intro": "Las sobras no son una molestia. Con unas pocas ideas, se convierten en una comida ingeniosa y sin desperdicio.",
+    "sections": [
+      {
+        "heading": "Las bases que se reciclan en cualquier sitio",
+        "body": "Algunas sobras se transforman con facilidad. El arroz de ayer se convierte en arroz frito con un huevo y verduras. La pasta fría se recalienta en un gratinado. El pan duro se convierte en crutones, torrijas o pan rallado. Las verduras mustias acaban en una sopa, una tortilla o un salteado. Estas recetas comodín absorben casi cualquier cosa que haya en la nevera."
+      },
+      {
+        "heading": "Pensar por categorías, no por recetas",
+        "body": "En lugar de buscar una receta concreta, mira lo que tienes por tipo: un farináceo, una proteína, algunas verduras. Un farináceo más verduras más un huevo ya es una comida. Una sopa admite casi cualquier verdura. Una quiche o una tortilla recicla proteínas y verduras. Esta lógica te hace autosuficiente sin depender de una receta fija."
+      },
+      {
+        "heading": "Seguridad con las sobras",
+        "body": "Reciclar las sobras está genial, pero con sentido común. Guárdalas en la nevera rápidamente después de comer, en menos de dos horas. Consúmelas en dos o tres días. Recalienta bien, hasta que estén muy calientes por dentro. No recalientes el mismo plato varias veces. Al menor indicio de olor, color o textura rara, no te arriesgues."
+      }
+    ],
+    "steps": [
+      "Refrigera las sobras en menos de dos horas después de comer.",
+      "Clasifica lo que tienes en farináceo, proteína y verdura.",
+      "Recicla el arroz en arroz frito, el pan en crutones.",
+      "Usa sopas y tortillas para aprovechar las verduras sobrantes.",
+      "Recalienta bien y consume en un plazo de tres días."
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

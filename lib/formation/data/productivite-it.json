@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "beat-procrastination-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Sconfiggere la procrastinazione senza colpevolizzarsi",
+    "emoji": "🐌",
+    "intro": "Procrastinare non è pigrizia — è quasi sempre un'emozione scomoda da cui stai scappando. Capire questo meccanismo ti rimette in controllo.",
+    "sections": [
+      {
+        "heading": "Perché rimandiamo le cose",
+        "body": "Rimandi un compito quando ti scatena una sensazione scomoda: noia, paura di sbagliare o non sapere da dove iniziare. Il tuo cervello preferisce il sollievo immediato (scorrere il feed) allo sforzo lontano. Non è un difetto di carattere — è un riflesso protettivo. Riconoscerlo senza autogiudizio già spezza la spirale vergogna-evitamento-vergogna che peggiora tutto."
+      },
+      {
+        "heading": "La regola dei due minuti",
+        "body": "Non prometterti di finire il compito — promettiti solo di iniziarlo per due minuti. Apri il documento, scrivi una frase, tira fuori le scarpe da ginnastica. Iniziare è il passo più difficile; una volta in moto, lo slancio ti porta avanti e di solito continui ben oltre i due minuti. L'obiettivo è rendere il primo passo così piccolo da essere ridicolo rifiutarsi."
+      },
+      {
+        "heading": "Spezza l'elefante in pezzi",
+        "body": "Un compito vago ('studia per l'esame') paralizza perché il cervello non sa da dove entrare. Trasformalo in azioni concrete e bite-size: 'rileggere il capitolo 1', 'fare 5 esercizi di pratica'. Ogni sottotask che spunti rilascia un po' di dopamina e mantiene lo slancio. Più è specifico e piccolo, meno fa paura."
+      },
+      {
+        "heading": "Perdonati per ripartire",
+        "body": "Le ricerche mostrano che chi si perdona per una sessione di procrastinazione in realtà procrastina meno la volta successiva. Il senso di colpa, al contrario, alimenta l'evitamento. Se hai perso un'ora, nota semplicemente 'ok, succede' e riparti dal prossimo piccolo passo. Il riposo non è il nemico — l'autoflagellazione è ciò che ti blocca."
+      }
+    ],
+    "steps": [
+      "Identifica l'emozione che ti fa evitare il compito (paura, noia, incertezza).",
+      "Spezza il compito in azioni che richiedono meno di 15 minuti ciascuna.",
+      "Impegnati solo su 2 minuti di avvio.",
+      "Spunta ogni micro-passo per mantenere lo slancio.",
+      "Se scivoli, perdonati e rimetti in carreggiata senza drammi."
+    ],
+    "faq": [
+      {
+        "q": "Procrastinare significa essere pigri?",
+        "a": "No. La procrastinazione è un meccanismo di gestione delle emozioni, non un tratto caratteriale. Persone molto laboriose procrastinano sui compiti che le stressano."
+      },
+      {
+        "q": "E se anche 2 minuti sembrano troppi?",
+        "a": "Rendilo ancora più piccolo: apri solo il file, o metti il libro di testo sulla scrivania. L'idea è abbassare l'asticella finché iniziare diventa più facile che resistere."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "pomodoro-method-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Il metodo Pomodoro: lavora a sprint concentrati",
+    "emoji": "🍅",
+    "intro": "La tecnica Pomodoro alterna sprint di concentrazione e pause vere. Semplice, gratuita e devastante contro le distrazioni.",
+    "sections": [
+      {
+        "heading": "Il principio in una frase",
+        "body": "Lavora 25 minuti su un singolo compito, poi fai una pausa completa di 5 minuti. Dopo quattro cicli, concediti una pausa più lunga di 15-30 minuti. Il timer trasforma una giornata nebulosa in una serie di blocchi chiari e realizzabili. Sapere che la pausa è vicina rende lo sforzo molto più gestibile."
+      },
+      {
+        "heading": "Perché funziona",
+        "body": "Un Pomodoro crea una urgenza leggera: 25 minuti è breve, quindi la voglia di scorrere il feed si affievolisce. La pausa garantita previene l'esaurimento e sostiene la motivazione. Contando i Pomodori ottieni anche una misura onesta del tuo tempo di lavoro effettivo — spesso inferiore a quanto pensi. Quei dati ti aiutano a pianificare in modo realistico."
+      },
+      {
+        "heading": "Adattare la durata",
+        "body": "La suddivisione 25/5 non è sacra. Se entri facilmente in flow, prova 50/10. Se iniziare è difficile, scendi a 15/3. Ciò che conta è il rapporto sforzo-riposo e il rituale del timer. Testa alcuni formati per una settimana e tieni quello che ti permette di finire i blocchi senza esaurirti o annoiarti."
+      },
+      {
+        "heading": "Proteggi la pausa",
+        "body": "La pausa non è facoltativa — è ciò che ricarica la tua attenzione. Per 5 minuti, alzati, bevi dell'acqua, guarda lontano, fai stretching. Evita gli schermi, che non fanno riposare davvero il cervello. Una pausa ben fatta rende il Pomodoro successivo notevolmente più nitido; una pausa saltata porta a un pomeriggio morto."
+      }
+    ],
+    "steps": [
+      "Scegli UN compito specifico per il Pomodoro.",
+      "Imposta un timer di 25 minuti e silenzia le notifiche.",
+      "Lavora senza interruzioni fino allo squillo del timer.",
+      "Fai una vera pausa di 5 minuti lontano dagli schermi.",
+      "Dopo 4 cicli, fai una pausa più lunga di 20-30 minuti."
+    ],
+    "faq": [
+      {
+        "q": "E se mi viene un'idea durante il Pomodoro?",
+        "a": "Annotala con una parola su un blocco note accanto a te e torna al compito. La gestirai durante la pausa o dopo, senza spezzare la concentrazione."
+      },
+      {
+        "q": "Ho bisogno di un'app apposita?",
+        "a": "No, va benissimo il timer integrato del telefono. Mettilo in modalità aereo o usa un timer da cucina per evitare la tentazione dello schermo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "time-blocking-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Time blocking: dai a ogni compito il suo slot",
+    "emoji": "📅",
+    "intro": "Una to-do list dice cosa fare; il time blocking dice quando. Assegnare uno slot a ogni compito trasforma le intenzioni in appuntamenti.",
+    "sections": [
+      {
+        "heading": "Dalla lista al calendario",
+        "body": "Una lista di compiti senza un orario resta un desiderio: tutto sembra urgente e niente viene mai iniziato. Il time blocking significa inserire ogni compito importante nel calendario come un evento, con ora di inizio e fine. Smetti di chiederti 'cosa dovrei fare adesso?' — il calendario risponde per te."
+      },
+      {
+        "heading": "Stimare il tempo reale",
+        "body": "Sottovalutiamo quasi sempre quanto impiegano le attività. Per ogni blocco, aggiungi un buffer del 25-50%. Tieni anche slot 'cuscinetto' vuoti per assorbire imprevisti e sforamenti. Un calendario pieno al 100% si rompe al primo ostacolo; uno riempito al 70% rimane gestibile per tutta la settimana."
+      },
+      {
+        "heading": "Blocca anche il riposo",
+        "body": "Il time blocking non è solo uno strumento di lavoro. Blocca i pasti, l'esercizio fisico, le pause e il sonno con la stessa serietà di una riunione. Ciò che non ha uno slot finisce per essere divorato dal lavoro o dagli schermi. Proteggere esplicitamente il riposo garantisce di poter tenere il ritmo a lungo termine."
+      },
+      {
+        "heading": "Revisione serale",
+        "body": "Nessun piano sopravvive intatto alla giornata. La sera, dedicati cinque minuti a confrontare ciò che hai pianificato con ciò che è successo, riprogramma ciò che non è stato fatto e aggiusta i blocchi del giorno dopo. Questo ciclo di correzione rende le tue stime sempre più precise settimana dopo settimana."
+      }
+    ],
+    "steps": [
+      "Elenca i compiti importanti della giornata.",
+      "Stima la durata di ognuno e aggiungi un buffer del 30%.",
+      "Inseriscili nel calendario come eventi.",
+      "Blocca anche pasti, esercizio, pause e sonno.",
+      "La sera, aggiusta il piano del giorno dopo in base alla realtà."
+    ],
+    "faq": [
+      {
+        "q": "Il time blocking non rende la giornata troppo rigida?",
+        "a": "Consideralo un piano flessibile, non un contratto. Puoi spostare i blocchi liberamente — ciò che conta è che ogni compito abbia un momento, non che sia scolpito nella pietra."
+      },
+      {
+        "q": "Carta o app?",
+        "a": "Entrambe funzionano. Un calendario digitale facilita lo spostamento dei blocchi; la carta riduce le distrazioni. Scegli lo strumento che aprirai davvero ogni giorno."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "weekly-planning-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Pianifica la tua settimana in 20 minuti la domenica",
+    "emoji": "🗓️",
+    "intro": "Venti minuti di pianificazione la domenica risparmiano ore di confusione durante la settimana. È il miglior ritorno sul tempo che puoi ottenere.",
+    "sections": [
+      {
+        "heading": "Il rituale settimanale",
+        "body": "Scegli un orario fisso — diciamo, domenica nel tardo pomeriggio — per prepararti la settimana. Questo appuntamento con te stesso sostituisce il lunedì mattina nebuloso con una visione chiara. Venti minuti è il tempo giusto: troppo lungo e non lo terrai; troppo breve e ti mancheranno gli elementi essenziali. La costanza batte la perfezione."
+      },
+      {
+        "heading": "Scegli 3 priorità",
+        "body": "Prima di riempire il calendario, identifica i tre risultati che renderebbero la settimana un successo. Non dieci — tre. Questi entrano per primi nel calendario, negli slot migliori. Tutto il resto si organizza attorno a loro. Questo vincolo ti costringe a distinguere ciò che conta davvero da ciò che è solo rumore o apparentemente urgente."
+      },
+      {
+        "heading": "Mappa i vincoli",
+        "body": "Inizia guardando cosa è già fisso: lezioni, lavoro, appuntamenti, spostamenti. Queste sono le pareti della tua settimana. Poi inserisci le tue tre priorità negli slot aperti e ad alta energia rimasti. Vedere prima i vincoli ti evita di promettere tempo che non hai, rendendo il piano realistico fin dall'inizio."
+      },
+      {
+        "heading": "Lascia spazio per respirare",
+        "body": "Una buona settimana non è una settimana piena zeppa. Lascia spazi aperti per l'imprevisto, il riposo e la spontaneità. Blocca almeno una serata davvero libera da obblighi. Un piano che respira è un piano che seguirai; uno soffocante viene abbandonato entro martedì."
+      }
+    ],
+    "steps": [
+      "Fissa un appuntamento ricorrente di 20 minuti ogni domenica.",
+      "Scrivi i 3 risultati chiave per la settimana che inizia.",
+      "Identifica gli slot già occupati (lezioni, lavoro, appuntamenti).",
+      "Inserisci le 3 priorità negli slot migliori disponibili.",
+      "Lascia spazi vuoti per il riposo e gli imprevisti."
+    ],
+    "faq": [
+      {
+        "q": "E se la mia settimana cambia sempre?",
+        "a": "Ancora più motivo per pianificare: un piano leggero ti dà un punto di riferimento per aggiustare, invece di improvvisare tutto sotto stress."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eisenhower-matrix-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "La matrice di Eisenhower: separare l'urgente dall'importante",
+    "emoji": "🧭",
+    "intro": "Non tutto merita la stessa attenzione. La matrice di Eisenhower separa ciò che è urgente da ciò che è davvero importante.",
+    "sections": [
+      {
+        "heading": "I quattro quadranti",
+        "body": "Disegna due assi: urgente o no, importante o no. Ottieni quattro riquadri. Urgente e importante: fallo subito. Importante ma non urgente: pianificalo. Urgente ma non importante: delegalo o gestiscilo velocemente. Né l'uno né l'altro: eliminalo. Inserire un compito in un riquadro ne decide immediatamente il destino."
+      },
+      {
+        "heading": "La trappola dell'urgenza",
+        "body": "Spesso confondiamo urgente con importante. Una notifica è urgente ma raramente importante; prepararsi a un esame è importante ma non ancora urgente. Vivere in urgenza permanente significa lasciare che siano gli altri a dettare il tuo programma. La matrice ti rimette in comando costringendoti a nominare ciò che merita davvero la tua energia."
+      },
+      {
+        "heading": "Investi nel quadrante 2",
+        "body": "Il riquadro 'importante ma non urgente' è il più trascurato e il più prezioso: salute, apprendimento, relazioni, progetti profondi. Dedicarci tempo regolare è ciò che previene le crisi future. Blocca uno slot settimanale dedicato a questo quadrante prima che diventi un'emergenza."
+      },
+      {
+        "heading": "Osa eliminare",
+        "body": "Il riquadro 'né urgente né importante' contiene compiti che mantieni per abitudine o senso di colpa. Imparare a cancellarli con decisione libera tempo prezioso. Eliminare non è negligenza — è riconoscere che il tuo tempo è limitato e scegliere dove ha più valore."
+      }
+    ],
+    "steps": [
+      "Fai un brain dump di tutti i tuoi compiti.",
+      "Classifica ognuno: urgente? importante?",
+      "Fai subito quelli urgenti-e-importanti.",
+      "Pianifica nel calendario quelli importanti-ma-non-urgenti.",
+      "Delega, sbriga velocemente o elimina il resto."
+    ],
+    "faq": [
+      {
+        "q": "Come faccio a sapere se un compito è davvero importante?",
+        "a": "Chiediti se ti avvicina a un obiettivo che conta per te. Se la risposta è no, è probabilmente solo urgente o superfluo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "deep-work-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Deep work: immergersi in una vera concentrazione profonda",
+    "emoji": "🤿",
+    "intro": "Il deep work significa lavorare senza distrazioni su un compito impegnativo. Un'ora così vale spesso un'intera giornata dispersa.",
+    "sections": [
+      {
+        "heading": "Deep work vs. lavoro superficiale",
+        "body": "Il deep work significa dare tutta la tua attenzione a un compito cognitivamente impegnativo: scrivere, programmare, capire, creare. Il lavoro superficiale (email, notifiche, task veloci) funziona in automatico. Entrambi sono necessari, ma solo il primo crea valore reale e competenze reali. Il problema: è raro ed è facile eroderlo."
+      },
+      {
+        "heading": "Creare le condizioni giuste",
+        "body": "La concentrazione profonda non avviene per caso — va costruita. Scegli uno slot orario, un posto tranquillo, un singolo compito e taglia ogni fonte di interruzione. Fai sapere a chi ti circonda che non sei disponibile. Più il rituale è costante, più velocemente il cervello entra in modalità concentrazione, come un riflesso condizionato costruito dalla ripetizione."
+      },
+      {
+        "heading": "Costruire la resistenza",
+        "body": "La concentrazione è un muscolo: se inizi puntando a quattro ore, fallisci. Comincia con blocchi di 45 minuti e allungali gradualmente. Tra una sessione e l'altra, resisti all'impulso di riempire ogni micro-momento di noia con il telefono — è quell'abitudine che distrugge la capacità di restare concentrati a lungo."
+      },
+      {
+        "heading": "Dosalo senza bruciarti",
+        "body": "Il deep work è intenso; tre-quattro ore al giorno è il massimo prima che la qualità cali. Dopo, gestisci il lavoro superficiale e riposati davvero. Una giornata ben strutturata alterna picchi di concentrazione e recupero, invece di inseguire il massimo sforzo dalla mattina alla sera."
+      }
+    ],
+    "steps": [
+      "Blocca uno slot fisso dedicato a un solo compito impegnativo.",
+      "Trova un posto tranquillo e spegni tutte le notifiche.",
+      "Lavora su una sola cosa, senza cambiare scheda.",
+      "Inizia con 45 minuti e allungali con la pratica.",
+      "Limitati a 3-4 ore di deep work al giorno, poi riposati."
+    ],
+    "faq": [
+      {
+        "q": "Non riesco a mantenere la concentrazione per 45 minuti — è un problema?",
+        "a": "Per niente. Inizia con 20 minuti e aumenta gradualmente. La capacità di concentrazione cresce lentamente, esattamente come la resistenza fisica."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-phone-distractions-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Gestire le distrazioni del telefono",
+    "emoji": "📵",
+    "intro": "Il tuo telefono è progettato per catturare la tua attenzione. Riprendere il controllo non richiede una forza di volontà eroica — bastano impostazioni migliori.",
+    "sections": [
+      {
+        "heading": "Perché è così difficile",
+        "body": "Le app sono progettate da interi team per massimizzare il tempo sullo schermo: notifiche, scroll infinito, ricompense variabili. Non è una battaglia equa di volontà. Capirlo elimina il senso di colpa e cambia la strategia: invece di resistere costantemente, modifica l'ambiente in modo che distrarsi richieda sforzo, e non il contrario."
+      },
+      {
+        "heading": "Aumenta l'attrito",
+        "body": "Nascondi le app che fanno perdere tempo in una cartella nella terza schermata, senza badge. Disconnettiti dagli account così devi reinserire la password. Passa lo schermo in scala di grigi — uno schermo spento attira molto meno l'attenzione. Ogni piccolo ostacolo tra impulso e azione ti dà una frazione di secondo di lucidità per decidere davvero."
+      },
+      {
+        "heading": "Taglia le notifiche",
+        "body": "Disattiva tutte le notifiche tranne le chiamate e i messaggi diretti da persone reali. Una notifica è un'interruzione decisa da qualcun altro; ognuna costa diversi minuti di concentrazione persa. Passare da un telefono che ti tempesta a uno che controlli quando vuoi ti rimette in controllo della tua attenzione."
+      },
+      {
+        "heading": "Crea zone senza telefono",
+        "body": "Definisci momenti e luoghi dove il telefono non entra: la tavola da pranzo, la prima ora del mattino, la camera da letto di notte. Durante il lavoro, mettilo in un'altra stanza, fuori dalla vista. La semplice presenza visiva del telefono riduce già le tue prestazioni cognitive — anche quando è spento."
+      }
+    ],
+    "steps": [
+      "Spegni tutte le notifiche non essenziali.",
+      "Sposta le app che distraggono lontano, senza badge.",
+      "Passa lo schermo in scala di grigi.",
+      "Metti il telefono in un'altra stanza mentre lavori.",
+      "Crea zone senza telefono: pasti, mattino, camera da letto."
+    ],
+    "faq": [
+      {
+        "q": "Devo eliminare i social media del tutto?",
+        "a": "Non necessariamente. L'obiettivo è un uso consapevole, non zero uso. Inizia con attrito e notifiche; l'eliminazione è utile solo se nient'altro funziona."
+      },
+      {
+        "q": "E se ho bisogno del telefono per lavoro?",
+        "a": "Attiva una modalità focus che consente solo le app di lavoro, o usa un timer dedicato. Puoi separare lo strumento di lavoro dal giocattolo da dopamina."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-goals-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Fissare obiettivi SMART che si realizzano davvero",
+    "emoji": "🎯",
+    "intro": "Un obiettivo vago non si raggiunge mai. Il metodo SMART trasforma un desiderio nebuloso in un traguardo chiaro e raggiungibile.",
+    "sections": [
+      {
+        "heading": "I cinque criteri",
+        "body": "SMART sta per Specifico, Misurabile, Achievable (raggiungibile), Realistico e Temporalmente definito. 'Mettermi in forma' non soddisfa nessun criterio. 'Correre 3 km senza fermarmi entro due mesi' li soddisfa tutti. Un buon obiettivo ti dice esattamente cosa raggiungere, come sapere quando ci sei arrivato e quando. Senza questo, il cervello non ha direzione."
+      },
+      {
+        "heading": "Rendilo misurabile",
+        "body": "Se non puoi misurare un obiettivo, non saprai mai se stai progredendo, e la motivazione muore. Aggiungi un numero: un numero di pagine, di sessioni, euro, chilometri. La misurazione trasforma una sensazione vaga ('sta andando avanti') in un fatto verificabile, e ogni passo quantificato rinforza la voglia di continuare."
+      },
+      {
+        "heading": "Mira giusto — né troppo facile né irrealistico",
+        "body": "Un obiettivo troppo facile non ti coinvolge; uno irrealistico ti scoraggia dalla prima settimana. Punta a un traguardo sfidante ma credibile, dato il tuo tempo e i tuoi vincoli reali. Puoi sempre alzare l'asticella una volta raggiunta la prima pietra miliare. Meglio riuscire in piccolo che fallire in grande."
+      },
+      {
+        "heading": "Il potere di una scadenza",
+        "body": "Senza una data, un obiettivo scivola indefinitamente verso 'dopo'. Una scadenza crea una tensione utile e ti permette di pianificare a ritroso: cosa devo fare questo mese, questa settimana, oggi? Poi spezza il grande obiettivo in milestone con date per mantenere il ritmo e festeggiare i progressi."
+      }
+    ],
+    "steps": [
+      "Scrivi il tuo obiettivo in una frase precisa.",
+      "Aggiungi un numero per renderlo misurabile.",
+      "Verifica che sia sfidante ma realistico per te.",
+      "Fissa una scadenza chiara.",
+      "Spezzalo in milestone con date e pianifica la prima azione."
+    ],
+    "faq": [
+      {
+        "q": "Quanti obiettivi SMART devo seguire contemporaneamente?",
+        "a": "Due o tre al massimo. Troppi obiettivi simultanei disperdono l'energia e nessuno avanza davvero."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "morning-routine-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Costruire una routine mattutina su misura per te",
+    "emoji": "🌅",
+    "intro": "Una buona routine mattutina non è una lista copiata da internet — è un lancio sereno che mette la tua giornata sui binari giusti.",
+    "sections": [
+      {
+        "heading": "L'effetto lancio",
+        "body": "I primi minuti dopo il risveglio danno il tono alla giornata. Iniziare scorrendo lo schermo significa cedere la propria attenzione agli altri prima ancora di essersi svegliati del tutto. Una routine, anche breve, ti rimette al comando: sei tu a decidere come iniziare. L'effetto psicologico di un mattino controllato dura spesso per tutto il giorno."
+      },
+      {
+        "heading": "Inizia in piccolo",
+        "body": "Non puntare a una routine di un'ora dal primo giorno — molli entro tre giorni. Scegli due o tre abitudini semplici che stiano in quindici minuti: bevi un bicchiere d'acqua, fai stretching, scrivi tre righe. Una mini-routine mantenuta ogni giorno vale più di una ambiziosa tenuta per una settimana e poi dimenticata."
+      },
+      {
+        "heading": "Ritarda il telefono",
+        "body": "La mossa più potente è anche la più semplice: non toccare il telefono per i primi trenta minuti. Caricalo fuori dalla camera da letto e usa una sveglia tradizionale. Quel ritardo protegge la calma mentale e ti impedisce di tuffarti nel flusso di notizie e confronti prima ancora di aver bevuto il caffè."
+      },
+      {
+        "heading": "Prepara la sera prima",
+        "body": "Un buon mattino si vince spesso la sera prima: vestiti già pronti, borsa fatta, primo compito annotato. Questo riduce il numero di decisioni da prendere al risveglio, quando la forza di volontà è al minimo. Meno attrito nell'alzarsi significa una routine che regge anche nei giorni in cui non ci si sente al massimo."
+      }
+    ],
+    "steps": [
+      "Carica il telefono fuori dalla camera da letto.",
+      "Scegli 2-3 abitudini semplici che stiano in 15 minuti.",
+      "Non toccare il telefono per la prima mezz'ora.",
+      "Prepara le cose e il primo compito la sera prima.",
+      "Mantieni la routine identica ogni giorno per farla diventare automatica."
+    ],
+    "faq": [
+      {
+        "q": "Bisogna svegliarsi super presto per avere successo?",
+        "a": "No. L'orario ideale dipende dal tuo sonno e dai tuoi impegni. Una routine di qualità alle 8 vale più di un risveglio alle 5 che ti priva del sonno."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "evening-routine-it",
+    "theme": "productivite",
+    "locale": "it",
+    "title": "Una routine serale per chiudere bene la giornata",
+    "emoji": "🌙",
+    "intro": "Una routine serale mette un punto fermo alla giornata e prepara quella successiva. Protegge il sonno e la serenità mentale.",
+    "sections": [
+      {
+        "heading": "Segnare la fine del lavoro",
+        "body": "Senza un rituale di chiusura, il lavoro invade mentalmente la sera e la notte. Crea un segnale di shutdown: riordina la scrivania, scrivi i compiti di domani, chiudi il laptop e di' 'basta per oggi'. Questo gesto dice al cervello che può rilasciare la vigilanza e passare alla modalità riposo."
+      },
+      {
+        "heading": "Svuota la testa su carta",
+        "body": "I pensieri che girano in testa a letto sono spesso compiti non annotati che il cervello continua a ripassare per paura di dimenticarli. Prima di dormire, scrivi tutto ciò che ti preoccupa e le tre priorità di domani. Una volta su carta, la mente lascia andare — sa che le informazioni sono al sicuro altrove."
+      },
+      {
+        "heading": "Prepararsi al sonno",
+        "body": "L'ultima ora plasma la qualità della notte. Abbassa le luci, allontanati dagli schermi la cui luce blu ritarda il sonno, e fai qualcosa di calmo: leggi, fai stretching, fai una doccia calda. Mantieni orari di sonno costanti: la regolarità aiuta il tuo orologio interno molto più di qualsiasi trucchetto occasionale."
+      },
+      {
+        "heading": "Chiudi con una nota positiva",
+        "body": "Finisci annotando una cosa che è andata bene oggi, anche piccola. Questo riequilibra l'attenzione naturalmente attratta dai fallimenti e migliora l'umore prima di dormire. Ti addormenti con la sensazione di progredire piuttosto che con una lista di rimpianti — e domani ti sveglierai più sereno."
+      }
+    ],
+    "steps": [
+      "Crea un gesto di shutdown per segnare la fine del lavoro.",
+      "Scrivi ciò che hai in testa e i tuoi 3 compiti principali di domani.",
+      "Stacca dagli schermi almeno 45 minuti prima di dormire.",
+      "Fai qualcosa di calmo e abbassa le luci.",
+      "Scrivi una cosa positiva della tua giornata prima di addormentarti."
+    ],
+    "faq": [
+      {
+        "q": "Quanto deve durare una routine serale?",
+        "a": "Venti-trenta minuti sono più che sufficienti. Ciò che conta è la regolarità e la transizione di decompressione, non la durata."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

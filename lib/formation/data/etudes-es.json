@@ -1,0 +1,378 @@
+[
+  {
+    "slug": "pomodoro-method-studying-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Estudia mejor con el método Pomodoro",
+    "emoji": "🍅",
+    "intro": "Dividir las sesiones de estudio en bloques cortos y cronometrados hace que repasar se sienta más llevadero y funciona mucho mejor. Tu cerebro retiene más cuando sabe que pronto viene un descanso.",
+    "sections": [
+      {
+        "heading": "Cómo funciona",
+        "body": "Un Pomodoro son 25 minutos de trabajo concentrado seguidos de una pausa de 5 minutos. Después de cuatro ciclos, tomas un descanso más largo de entre 15 y 30 minutos. La clave del método es que convierte una montaña en pasos manejables. En vez de decirte 'tengo que estudiar toda la tarde', solo piensas 'un Pomodoro a la vez', lo que hace que empezar sea mucho más fácil."
+      },
+      {
+        "heading": "Por qué funciona de verdad",
+        "body": "La atención humana decae de forma natural después de 20 a 30 minutos. Al parar antes de agotarte, mantienes un foco constante en vez de ir apagándote poco a poco. Los descansos regulares también consolidan la memoria: tu cerebro procesa la información durante esos momentos de reposo. Además, el cronómetro genera una presión sana que vence la procrastinación y te mantiene presente en lo que haces."
+      },
+      {
+        "heading": "Sacarle el máximo a los descansos",
+        "body": "Un buen descanso significa alejarse de las pantallas: levántate, bebe agua, estira, mira por la ventana. Scrollear el móvil no descansa el cerebro, lo sobreestimula. Deja el teléfono fuera de la habitación durante el bloque de 25 minutos de trabajo. Si te viene un pensamiento a destiempo, anótalo en un papel y retómalo después."
+      }
+    ],
+    "steps": [
+      "Elige una tarea concreta antes de arrancar el temporizador.",
+      "Pon 25 minutos y trabaja sin interrupciones hasta que suene.",
+      "Tómate un descanso real de 5 minutos lejos de las pantallas.",
+      "Apunta el Pomodoro completado para ver tu avance.",
+      "Después de 4 ciclos, date una pausa generosa de 20 minutos."
+    ],
+    "faq": [
+      {
+        "q": "¿Y si 25 minutos no es suficiente para meterme en el tema?",
+        "a": "Prueba con 45 minutos de trabajo y 10 de descanso. Lo importante es mantener un ritmo trabajo/pausa constante que se adapte a ti."
+      },
+      {
+        "q": "¿Necesito una app especial para esto?",
+        "a": "Para nada. Un temporizador básico del móvil o de cocina hace el trabajo. La herramienta importa mucho menos que la regularidad del ritmo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-recall-flashcards-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Fija el conocimiento con el repaso activo y las flashcards",
+    "emoji": "🃏",
+    "intro": "Releer los apuntes te da la ilusión de que dominas el material. Ponerte a prueba, en cambio, es lo que ancla el conocimiento en la memoria a largo plazo.",
+    "sections": [
+      {
+        "heading": "Releer no es suficiente",
+        "body": "Cuando relees los apuntes, todo te suena familiar y crees que ya lo tienes. Es una trampa: reconocer no es lo mismo que recordar. El día del examen tienes que recuperar la información sin verla. El repaso activo consiste en cerrar los apuntes e intentar recitar lo que sabes. Ese esfuerzo de recuperación es exactamente lo que refuerza la huella en la memoria."
+      },
+      {
+        "heading": "Cómo funcionan las flashcards",
+        "body": "Una flashcard tiene una pregunta en un lado y la respuesta en el otro. Lees la pregunta, respondes mentalmente y luego compruebas. Las tarjetas que fallaste vuelven antes; las que acertaste se espacian más. Esto combina dos principios muy potentes: el autoexamen y la repetición espaciada. Apps como Anki automatizan ese proceso, pero las tarjetas de papel funcionan igual de bien."
+      },
+      {
+        "heading": "Crear buenas tarjetas",
+        "body": "Una buena flashcard prueba una sola idea a la vez. Evita preguntas demasiado amplias como 'Explica la Revolución Francesa'. Mejor algo concreto como '¿En qué año comenzó la Revolución Francesa?' Escribe las preguntas con tus propias palabras en vez de copiar el libro al pie de la letra. Reformular te obliga a entender el contenido, convirtiendo la tarjeta en una herramienta de verdad."
+      }
+    ],
+    "steps": [
+      "Convierte cada concepto clave de tus apuntes en una pregunta sencilla.",
+      "Responde siempre en voz alta o por escrito antes de girar la tarjeta.",
+      "Pon las tarjetas que fallaste en una pila aparte para repasarlas pronto.",
+      "Espacia las tarjetas que ya dominas a lo largo de varios días.",
+      "Repasa un poco cada día en vez de intentar atiborrarte todo de golpe."
+    ],
+    "faq": [
+      {
+        "q": "¿Anki o tarjetas de papel?",
+        "a": "Anki gestiona automáticamente la repetición espaciada, ideal para grandes volúmenes. Las tarjetas de papel funcionan perfectamente para una sola asignatura o tema."
+      },
+      {
+        "q": "¿Cuántas tarjetas debo repasar al día?",
+        "a": "Veinte tarjetas diarias durante dos semanas le gana siempre a 280 tarjetas la noche anterior. La constancia supera a la intensidad."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "spaced-repetition-studying-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Entiende y aplica la repetición espaciada",
+    "emoji": "📅",
+    "intro": "Olvidas la mayor parte de lo que aprendes si solo lo ves una vez. Revisar el material a intervalos crecientes lo fija para siempre, con menos esfuerzo total.",
+    "sections": [
+      {
+        "heading": "La curva del olvido",
+        "body": "Después de aprender algo, pierdes una gran parte en cuestión de días si no lo revisas. Eso es la curva del olvido: normal y universal. La repetición espaciada la contrarresta: cada repaso reactiva la memoria justo antes de que el olvido total se instale. Con cada recuerdo, la huella se vuelve más sólida y dura más sin necesidad de mantenimiento."
+      },
+      {
+        "heading": "Intervalos que van creciendo",
+        "body": "La secuencia clásica: repasa un concepto al día siguiente, luego 3 días después, luego una semana, luego dos semanas, luego un mes. Cada repaso exitoso aleja el siguiente. Si fallas un recuerdo, vuelves a un intervalo más corto. El objetivo no es repasar todo cada día, sino repasar la cosa correcta en el momento correcto, lo que ahorra una cantidad enorme de esfuerzo."
+      },
+      {
+        "heading": "Integrarlo en tu rutina",
+        "body": "Puedes gestionar la repetición espaciada con un software como Anki, o de forma manual con un calendario y pilas de tarjetas. El secreto es planificar los repasos desde el inicio del semestre, no la noche antes del examen. Quince minutos al día durante dos meses siempre le ganarán a diez horas de maratón de estudio."
+      }
+    ],
+    "steps": [
+      "Anota la fecha en que aprendes cada concepto clave.",
+      "Programa un primer repaso al día siguiente.",
+      "Alarga el intervalo con cada repaso exitoso.",
+      "Vuelve a un intervalo corto cuando falles un recuerdo.",
+      "Reserva un bloque fijo diario para estos repasos."
+    ],
+    "faq": [
+      {
+        "q": "¿Funciona con una agenda muy cargada?",
+        "a": "Está diseñado exactamente para eso. Al distribuir los repasos, haces menos cada día y evitas las noches sin dormir."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cornell-note-taking-method-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "El método Cornell para tomar apuntes más claros e inteligentes",
+    "emoji": "📝",
+    "intro": "Unos apuntes bien estructurados se pueden repasar en minutos. El método Cornell organiza la página para que pienses en clase, no solo copies.",
+    "sections": [
+      {
+        "heading": "Dividir la página en tres zonas",
+        "body": "Traza una línea vertical dejando una columna de aproximadamente un tercio a la izquierda, y una franja horizontal en la parte inferior. La zona grande de la derecha es donde tomas apuntes en clase. La columna izquierda es para palabras clave y preguntas. La franja inferior es para tu resumen. Esta sencilla estructura transforma una hoja pasiva en una herramienta activa de repaso."
+      },
+      {
+        "heading": "Durante y después de clase",
+        "body": "En clase, escribe en la zona grande: ideas principales, ejemplos, diagramas, sin intentar transcribirlo todo. Esa misma tarde, relee y rellena la columna izquierda con preguntas y palabras clave que resuman cada bloque. Esta revisión rápida mientras todo está fresco ya consolida mucho. Estás trabajando el material cuando aún está caliente."
+      },
+      {
+        "heading": "Repasar con Cornell",
+        "body": "Para repasar, cubre la zona grande de la derecha y lee solo la columna izquierda. Intenta responder cada pregunta de memoria y luego comprueba. Has convertido tus apuntes en una sesión de repaso activo sin ninguna preparación extra. La franja inferior, donde has resumido lo esencial en tres o cuatro frases, es tu herramienta de repaso rápido la víspera del examen."
+      }
+    ],
+    "steps": [
+      "Prepara las tres zonas en las páginas antes de que empiece la clase.",
+      "Anota las ideas clave en la columna grande durante la clase.",
+      "Esa tarde, añade preguntas y palabras clave en la columna izquierda.",
+      "Escribe un resumen de 3 o 4 frases al pie de la página.",
+      "Repasa cubriendo la zona grande y respondiendo las preguntas."
+    ],
+    "faq": [
+      {
+        "q": "¿Funciona para asignaturas de ciencias?",
+        "a": "Sí. La zona grande alberga demostraciones y ejemplos; la columna izquierda recoge los tipos de ejercicios clave o las fórmulas."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-exam-stress-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Gestiona el estrés de los exámenes sin derrumbarte",
+    "emoji": "😮‍💨",
+    "intro": "Un poco de estrés te ayuda a rendir, pero demasiado te paraliza. Unos hábitos sencillos mantienen la presión en un nivel que impulsa en vez de frenar.",
+    "sections": [
+      {
+        "heading": "El estrés no es el enemigo",
+        "body": "Antes de un examen, el corazón acelerado y la mente alerta son señales de que tu cuerpo se está preparando para rendir. El problema empieza cuando el estrés se vuelve crónico e invade tus noches. El objetivo no es cero estrés, eso es poco realista, sino un estrés controlado. Solo recordarte que esas sensaciones son normales ya elimina una capa de ansiedad innecesaria."
+      },
+      {
+        "heading": "La preparación es tu mejor arma contra la ansiedad",
+        "body": "La mejor defensa contra la ansiedad es una preparación distribuida en el tiempo. Cuando sabes que has estado repasando de forma constante, tu cerebro tiene pruebas concretas de que estás listo. El atracón de última hora, en cambio, alimenta el pánico porque no paras de enfrentarte a todo lo que todavía no dominas. Planifica con antelación: un calendario realista es uno de los mejores antiestrés que existen."
+      },
+      {
+        "heading": "Herramientas para los momentos de máxima tensión",
+        "body": "Cuando la ansiedad se dispara, respira despacio: inspira 4 segundos, expira 6, repítelo varias veces. Esa exhalación larga calma el sistema nervioso. Reduce la cafeína, que amplifica los nervios y la agitación. El día del examen, llega pronto para no añadir el estrés de las prisas, y aléjate de los compañeros en pánico justo antes, su ansiedad es contagiosa."
+      }
+    ],
+    "steps": [
+      "Distribuye el repaso para llegar preparado, no en pánico.",
+      "Practica la respiración lenta cada vez que la presión sube.",
+      "Duerme bien durante la semana de exámenes: es innegociable.",
+      "Reduce el café y las bebidas energéticas que amplifican la ansiedad.",
+      "El día del examen, llega pronto y mantente alejado de los que entran en pánico."
+    ],
+    "faq": [
+      {
+        "q": "Se me queda la mente en blanco durante el examen. ¿Qué hago?",
+        "a": "Deja el bolígrafo, respira hondo tres veces y empieza por la pregunta más fácil. La calma y un pequeño logro desbloquean el resto de la memoria."
+      },
+      {
+        "q": "El estrés no me deja dormir la noche antes del examen. ¿Es normal?",
+        "a": "Es muy habitual y tiene solución. Deja las pantallas una hora antes de dormir y lee algo ligero. Una noche de sueño mediocre no arruina un examen bien preparado."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-realistic-study-schedule-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Crea un plan de estudio que puedas cumplir de verdad",
+    "emoji": "🗓️",
+    "intro": "Un buen plan no es una lista imposible, es un calendario que puedes seguir de verdad, distribuyendo el esfuerzo sin noches en vela.",
+    "sections": [
+      {
+        "heading": "Empieza por la fecha del examen",
+        "body": "Comienza marcando todas las fechas de examen y trabaja hacia atrás. Cuenta los días disponibles y el volumen de materia a cubrir. Esta visión panorámica te salva de la desagradable sorpresa de descubrir, tres días antes, que aún te queda un capítulo entero. Ver el tiempo real disponible también te obliga a ser honesto sobre lo que es viable."
+      },
+      {
+        "heading": "Divídelo en sesiones concretas",
+        "body": "Evita bloques vagos como 'estudiar matemáticas'. En cambio, escribe 'resolver ejercicios del capítulo 4' o 'flashcards del capítulo 2'. Una tarea concreta es más fácil de empezar y de terminar. Planifica sesiones más cortas de lo que crees necesitar: siempre sobreestimamos lo que podemos hacer en un día. Mejor terminar antes que sentirse desbordado."
+      },
+      {
+        "heading": "Incorpora flexibilidad",
+        "body": "Deja huecos en tu semana: bloques de margen. Absorben lo inesperado: un tema más difícil de lo esperado, un día de bajón, una urgencia. Sin margen, el menor retraso derrumba todo el plan y mata la motivación. Incluye también descansos: un plan sin pausas sencillamente no es sostenible y lleva directo al agotamiento."
+      }
+    ],
+    "steps": [
+      "Anota todas las fechas de examen y la materia a cubrir.",
+      "Divide cada asignatura en sesiones concretas y breves.",
+      "Coloca las asignaturas más difíciles en tus horas de mayor concentración.",
+      "Reserva dos o tres bloques vacíos de margen por semana.",
+      "Marca las sesiones completadas para ver cómo avanzas."
+    ],
+    "faq": [
+      {
+        "q": "Mi plan siempre se desmorona a los dos días. ¿Por qué?",
+        "a": "Probablemente es demasiado ambicioso. Reduce la carga a la mitad. Un plan seguido al 100% supera siempre a uno perfecto que nunca se cumple."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stop-procrastinating-on-studying-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Deja de procrastinar con el repaso",
+    "emoji": "🐢",
+    "intro": "Posponer el repaso no es pereza: suele ser evitación ante una tarea que parece demasiado grande o desagradable. Y eso es algo en lo que puedes trabajar.",
+    "sections": [
+      {
+        "heading": "Entender por qué lo postergamos",
+        "body": "Procrastinamos sobre todo cuando una tarea parece vaga, enorme o aburrida. El cerebro evita el malestar inmediato y busca algo reconfortante. Identificar la emoción en juego, aburrimiento, miedo al fracaso, perfeccionismo, te ayuda a encontrar la solución correcta. Procrastinar no es un defecto de carácter; es un mecanismo de evitación que puedes desactivar con las estrategias adecuadas."
+      },
+      {
+        "heading": "La regla de los dos minutos",
+        "body": "Lo más difícil es empezar. Comprométete solo con dos minutos: abre los apuntes, lee el título del capítulo, escribe la primera línea. Una vez en movimiento, la inercia trabaja a tu favor y a menudo sigues mucho más allá de esos dos minutos. Este truco esquiva la resistencia inicial haciendo el comienzo ridículamente pequeño, imposible de rechazar."
+      },
+      {
+        "heading": "Reduce la fricción",
+        "body": "Prepara el entorno la noche anterior: apuntes en la mesa, móvil en otra habitación, pestañas inútiles cerradas. Cada obstáculo entre tú y el trabajo alimenta la procrastinación. Por el contrario, haz que las distracciones sean más difíciles de alcanzar. También puedes estudiar siempre en el mismo sitio: el lugar se convierte en un disparador automático de concentración."
+      }
+    ],
+    "steps": [
+      "Identifica la emoción que te hace evitar la tarea.",
+      "Divide el repaso en una microacción de dos minutos para arrancar.",
+      "Deja el móvil fuera de tu alcance antes de empezar.",
+      "Prepara el espacio de trabajo la noche anterior.",
+      "Celébralo por empezar, no solo por terminar."
+    ],
+    "faq": [
+      {
+        "q": "Procrastino haciendo otras tareas útiles. ¿Es malo?",
+        "a": "Eso es la procrastinación productiva: ordenar en vez de estudiar. Identifícala y redirige hacia la tarea prioritaria, aunque sea de forma mínima."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "memory-palace-technique-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Memoriza cualquier cosa con el palacio de la memoria",
+    "emoji": "🏛️",
+    "intro": "El cerebro es pésimo memorizando listas abstractas, pero brillante navegando lugares conocidos. El palacio de la memoria aprovecha esa fortaleza para anclar incluso el material más difícil.",
+    "sections": [
+      {
+        "heading": "El principio del lugar conocido",
+        "body": "Elige un lugar que conozcas a la perfección: tu piso, tu camino a la universidad. Vas a colocar mentalmente la información que necesitas recordar en puntos concretos a lo largo del recorrido. Para recuperarla, solo tienes que dar un paseo mental por ese lugar. Esta técnica, usada por campeones de memoria, aprovecha nuestra memoria espacial, que es excepcionalmente potente y completamente natural."
+      },
+      {
+        "heading": "Asociar información a imágenes vívidas",
+        "body": "Para cada dato, crea una imagen mental exagerada, divertida o absurda y colócala en un punto del lugar. Cuanto más extraña sea la imagen, mejor se queda. Una fecha histórica puede convertirse en un personaje disfrazado sentado en tu sofá. Lo ridículo no es un defecto aquí, es lo que hace que el recuerdo destaque y sea fácil de recuperar el día del examen."
+      },
+      {
+        "heading": "Cuándo usarlo",
+        "body": "El palacio de la memoria brilla con listas ordenadas, pasos de un proceso, definiciones y esquemas de ensayos. Es menos adecuado para entender razonamientos complejos, donde necesitas pensar y no solo recordar. Úsalo como una herramienta más entre varias: combínalo con la comprensión real y el repaso activo. Es un complemento potentísimo, no un método universal."
+      }
+    ],
+    "steps": [
+      "Elige un lugar que conozcas a la perfección.",
+      "Define un recorrido fijo con paradas concretas.",
+      "Convierte cada dato en una imagen llamativa.",
+      "Coloca cada imagen en una parada del recorrido.",
+      "Repasa dando mentalmente un paseo por el lugar."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánta información cabe en un palacio?",
+        "a": "Unas diez cosas para empezar. Con práctica, puedes manejar varios palacios para diferentes asignaturas."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-reading-technique-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Lee tus apuntes de forma activa, no en piloto automático",
+    "emoji": "📖",
+    "intro": "Hojear los apuntes en piloto automático consume horas con poco resultado. La lectura activa convierte cada página en comprensión real.",
+    "sections": [
+      {
+        "heading": "Echa un vistazo antes de sumergirte",
+        "body": "Antes de leer en detalle, recorre primero el capítulo a vuelo de pájaro: títulos, subtítulos, palabras en negrita, diagramas, el resumen final. Este repaso general crea un mapa mental donde encajarán los detalles. Leer sin ese contexto es como caminar en la niebla. Cinco minutos de ojeada hacen la lectura detallada mucho más rápida y comprensible."
+      },
+      {
+        "heading": "Hazte preguntas",
+        "body": "Convierte cada título en una pregunta antes de leer la sección. Ante 'Causas de la crisis de 1929', pregúntate '¿Qué provocó la crisis de 1929?' Luego lees para responderla, con la mente buscando activamente. Esta actitud interrogativa mantiene la atención viva y evita que los ojos resbalen por las palabras sin asimilarlas."
+      },
+      {
+        "heading": "Reformula al terminar",
+        "body": "Al final de cada sección, cierra el libro y resume en voz alta o por escrito lo que acabas de leer. Si no puedes, es que la lectura no caló: vuelve y relee el fragmento confuso. Esta reformulación inmediata es una comprobación honesta de la comprensión, mucho más fiable que la vaga sensación de haber entendido."
+      }
+    ],
+    "steps": [
+      "Ojea el capítulo completo antes de la lectura detallada.",
+      "Convierte cada título en una pregunta a responder.",
+      "Lee sección por sección, no todo de un tirón.",
+      "Cierra el libro y resume cada sección con tus propias palabras.",
+      "Relee los fragmentos que no pudiste resumir."
+    ],
+    "faq": [
+      {
+        "q": "¿Debería subrayar mientras leo?",
+        "a": "Subraya muy poco: solo las ideas centrales. Una página completamente amarilla no prioriza nada y no ayuda al repaso."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-your-first-resume-es",
+    "theme": "etudes",
+    "locale": "es",
+    "title": "Escribe tu primer CV cuando tienes poca experiencia",
+    "emoji": "📄",
+    "intro": "Un primer CV no se juzga por el número de experiencias, sino por su claridad y relevancia. Bien construido, abre puertas aunque no tengas un largo historial.",
+    "sections": [
+      {
+        "heading": "Una estructura sencilla y legible",
+        "body": "Un CV cabe en una página: datos de contacto arriba, luego formación, experiencia, habilidades y, opcionalmente, intereses. Elige un diseño limpio, una sola fuente, títulos claros. Los reclutadores dedican pocos segundos a cada CV: necesitan entender de un vistazo quién eres. Evita los adornos gráficos que distraen más que informan."
+      },
+      {
+        "heading": "Saca partido a lo que ya tienes",
+        "body": "Sin un trabajo a jornada completa que mostrar, resalta prácticas, trabajos de verano, voluntariado, proyectos académicos, canguros o responsabilidades en asociaciones. Todo ello demuestra cualidades reales: fiabilidad, habilidades sociales, organización. Describe cada experiencia con una acción concreta y un resultado, no con una etiqueta vaga. 'Gestioné la caja y atendí a 50 clientes al día' supera a 'trabajé en una tienda'."
+      },
+      {
+        "heading": "Adapta el CV a cada candidatura",
+        "body": "Un CV genérico enviado a todo el mundo funciona mal. Relee la oferta, detecta las habilidades esperadas y pon en primer plano las que tú tienes. Toma algunas palabras clave del anuncio, ya que algunos sistemas filtran los CVs automáticamente. Adaptar no es mentir: es poner en el centro la parte de ti más relevante para ese puesto."
+      }
+    ],
+    "steps": [
+      "Elige una plantilla limpia que quepa en una página.",
+      "Lista todas tus experiencias, incluidas las no profesionales.",
+      "Describe cada una con una acción concreta y un resultado.",
+      "Identifica las palabras clave de la oferta y adapta el CV en consecuencia.",
+      "Pide a alguien que lo revise para detectar erratas y frases vagas."
+    ],
+    "faq": [
+      {
+        "q": "¿Debo incluir una foto?",
+        "a": "No es obligatorio y cada vez se espera menos. Si la incluyes, que sea nítida, neutra y profesional."
+      },
+      {
+        "q": "¿Es arriesgado exagerar un poco una experiencia?",
+        "a": "Sí, mucho. Las mentiras se detectan rápido en las entrevistas o en el trabajo y destruyen tu credibilidad. Muestra honestamente lo que tienes en vez de inventar."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

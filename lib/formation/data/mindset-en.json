@@ -1,0 +1,385 @@
+[
+  {
+    "slug": "understanding-self-esteem",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "What Self-Esteem Really Means",
+    "emoji": "🪞",
+    "intro": "Self-esteem isn't about thinking you're perfect — it's about valuing yourself even when you mess up. It's a foundation, not a trophy.",
+    "sections": [
+      {
+        "heading": "Self-esteem vs. confidence",
+        "body": "People confuse these two all the time. Confidence means believing you can do something specific — nail a presentation, cook a meal. Self-esteem goes deeper: it's the overall value you place on yourself as a person, regardless of outcomes. You can fail an exam and still have solid self-esteem, as long as you separate what you do from who you are."
+      },
+      {
+        "heading": "It's built, not born",
+        "body": "Nobody enters the world with a fixed level of self-esteem. It gets shaped by experiences, things you heard growing up, wins and losses. The good news: what got built can be rebuilt. The brain stays adaptable your whole life. Every time you act in line with your values, you lay down another solid brick."
+      },
+      {
+        "heading": "Signs of low self-esteem",
+        "body": "Fragile self-esteem shows up in predictable patterns: constantly seeking approval, struggling to say no, apologizing for everything, downplaying your wins and amplifying your mistakes. Spotting these patterns isn't self-criticism — it's getting a map of where to do the work. Awareness is always the first step toward change."
+      }
+    ],
+    "steps": [
+      "Notice the difference between 'I failed at that' and 'I'm a failure'.",
+      "Identify one low-self-esteem reflex you notice in yourself often.",
+      "List 3 stable qualities you have that don't depend on your results.",
+      "Each evening, note one action you took that aligned with your values."
+    ],
+    "faq": [
+      {
+        "q": "Can you really change your self-esteem at 20?",
+        "a": "Yes, at any age. The brain keeps its plasticity. It takes consistent effort, not a magic transformation — but the progress is real and lasting."
+      },
+      {
+        "q": "Is good self-esteem the same as arrogance?",
+        "a": "No. Arrogance needs to put others down to feel on top. Healthy self-esteem just feels comfortable in its own skin, without needing to diminish anyone."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "calming-a-stress-spike",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "How to Calm Down Fast When Stress Hits",
+    "emoji": "🌬️",
+    "intro": "When stress surges, your body reacts before your brain does. A few simple moves let you take back control in minutes.",
+    "sections": [
+      {
+        "heading": "What happens in your body",
+        "body": "When your brain senses a threat, it floods your system with adrenaline: racing heart, shallow breathing, sweaty hands. This is a normal survival response. The problem is that it fires for an exam or an awkward text just as readily as a real danger. Understanding that the feeling itself isn't dangerous strips away one layer of the panic."
+      },
+      {
+        "heading": "The breathing that slows everything down",
+        "body": "Breathe in for 4 seconds, hold for 4 seconds, breathe out for 6 seconds. The extended exhale activates your parasympathetic nervous system — the calm mode. Repeat 5 to 10 cycles. This is the fastest, most discreet tool available: you can do it in class, on the subway, before speaking in front of people, and nobody will notice."
+      },
+      {
+        "heading": "Grounding through the senses",
+        "body": "Stress drags you into a catastrophic future. Grounding pulls you back to now. Name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste. This exercise gives your brain something concrete to do and breaks the thought spiral. Within two minutes, the intensity usually drops noticeably."
+      }
+    ],
+    "steps": [
+      "Acknowledge it: 'This is stress — it's not dangerous.'",
+      "Do 5 rounds of 4-4-6 breathing.",
+      "Ground yourself with the 5-4-3-2-1 exercise.",
+      "Drink a glass of water and move your body a little.",
+      "Return to what you were doing — just one small step at a time."
+    ],
+    "faq": [
+      {
+        "q": "What if breathing doesn't work?",
+        "a": "Move your body: walk, shake out your hands, climb some stairs. Physical activity burns off adrenaline. Combine breathing with movement for a stronger effect."
+      },
+      {
+        "q": "When should frequent stress be a concern?",
+        "a": "If stress is daily, disrupts your sleep, or stops you from functioning, talk to a doctor or therapist. Chronic stress is very treatable when addressed properly."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "growth-mindset",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Adopting a Growth Mindset",
+    "emoji": "🌱",
+    "intro": "Believing your abilities can grow changes everything: effort becomes a path forward, not a sign of weakness. That's the growth mindset.",
+    "sections": [
+      {
+        "heading": "Fixed vs. growth",
+        "body": "A fixed mindset believes intelligence and talent are set in stone — you either have it or you don't. A growth mindset believes everything develops with effort, the right strategies, and time. Carol Dweck's research shows the second approach leads to better outcomes, because it doesn't run from difficulty."
+      },
+      {
+        "heading": "The power of 'yet'",
+        "body": "Instead of saying 'I can't do this,' say 'I can't do this yet.' That one small word transforms a failure statement into a step on a journey. It reminds your brain that the skill is still being built. It's not magic — it's a way of framing difficulty that keeps motivation alive."
+      },
+      {
+        "heading": "Learning to love the hard part",
+        "body": "When something gets difficult, your brain is literally building new connections. The feeling of struggle isn't a sign you're hopeless — it's a sign you're learning. Reinterpreting discomfort as a good signal completely changes your relationship with learning and training."
+      }
+    ],
+    "steps": [
+      "Catch a fixed-mindset thought ('I'm just bad at...') this week.",
+      "Reframe it with 'not yet'.",
+      "Deliberately choose a task that's slightly too hard for you right now.",
+      "After a setback, ask: what does this teach me?",
+      "Praise your effort and approach, not just the result."
+    ],
+    "faq": [
+      {
+        "q": "So talent doesn't matter at all?",
+        "a": "Talent exists and gives a head start, but it doesn't decide everything. Without effort and strategy, talent stalls. With them, even a modest start can go far."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bouncing-back-from-failure",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Bouncing Back from Failure Without Destroying Yourself",
+    "emoji": "🪂",
+    "intro": "Failure hurts — that's normal. But it doesn't define your worth or your future. How you handle it matters more than the failure itself.",
+    "sections": [
+      {
+        "heading": "Let the emotion land first",
+        "body": "Right after a failure, you're in no shape to analyze anything. Disappointment, shame, and anger need space. Give yourself a set amount of time to actually feel it — an evening, a day. Cry, talk it out, go for a walk. Suppressing emotion makes it last longer. Letting it in allows it to pass."
+      },
+      {
+        "heading": "Separate the event from your identity",
+        "body": "A failure is an event, not a verdict on who you are. 'I didn't get that job' is true. 'I'm a loser' is a toxic overgeneralization. Watch for that language shift. You failed at one specific thing, at one specific moment, under specific conditions. Nothing more."
+      },
+      {
+        "heading": "Extract the useful lesson",
+        "body": "Once the emotion settles, become an investigator — not a judge. What was missing: preparation, method, timing, or just bad luck? Write down one or two concrete things to adjust. Failure only has value if you pull actionable information from it. Otherwise, it's just wasted pain."
+      },
+      {
+        "heading": "Restart small",
+        "body": "After a fall, trying to reclaim everything at once wears you out. Pick one small, easy action to get back on track. It restarts the engine and proves to yourself you're still capable. Confidence rebuilds through accumulated small wins, not through one dramatic comeback."
+      }
+    ],
+    "steps": [
+      "Give yourself a time-limited window to feel the emotion.",
+      "Reframe 'I'm worthless' as 'I failed at this specific thing'.",
+      "Write down 1 or 2 concrete, actionable lessons.",
+      "Choose one easy action to get moving again.",
+      "Talk about the failure with someone who has your back."
+    ],
+    "faq": [
+      {
+        "q": "What if I can't move on?",
+        "a": "If a failure haunts you weeks later and blocks your progress, talking to a therapist can help a lot. That's not weakness — it's smart."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stop-comparing-yourself",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Stop Constantly Comparing Yourself to Others",
+    "emoji": "⚖️",
+    "intro": "Comparing yourself is human, but doing it nonstop chips away at self-esteem. You can learn to redirect that reflex instead of being controlled by it.",
+    "sections": [
+      {
+        "heading": "Why the brain compares",
+        "body": "Comparison is an old social reflex: our ancestors needed to gauge their standing in the group to survive. The modern problem is that we no longer compare ourselves to 30 people — we compare to millions, usually their best curated moments. Your brain takes these images as reality and concludes you're falling behind."
+      },
+      {
+        "heading": "You're comparing apples to oranges",
+        "body": "You see other people's results, never their full journey, starting advantages, or struggles. Comparing your backstage to their highlight reel is rigged from the start. The only fair comparison is you today vs. you six months or a year ago. That's when you have all the information, and the verdict is honest."
+      },
+      {
+        "heading": "Turn envy into a compass",
+        "body": "When someone makes you feel envious, don't beat yourself up — observe. That envy is pointing at something that genuinely matters to you. If you envy someone's travel, adventure is calling you; if it's a skill, that's what you want to build. Envy becomes direction instead of poison."
+      }
+    ],
+    "steps": [
+      "When you compare yourself, ask: do I have the full picture?",
+      "Only compare yourself to who you were 6 months ago.",
+      "Turn each envious feeling into a concrete goal for yourself.",
+      "Cut back on accounts that mostly trigger comparison.",
+      "Write down one personal progress point each evening, no matter how small."
+    ],
+    "faq": [
+      {
+        "q": "Is comparison always bad?",
+        "a": "No. An inspiring comparison ('this person proves it's possible') can motivate. It's the kind that makes you feel small and deflated that you need to defuse."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reshaping-your-inner-voice",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Reshaping Your Inner Voice",
+    "emoji": "🗣️",
+    "intro": "The voice in your head talks to you all day. If it's harsh, it wears you down. You can learn to make it more honest and more on your side.",
+    "sections": [
+      {
+        "heading": "Notice the critical voice",
+        "body": "Most people don't even hear their inner monologue — it's that automatic. First step: actually listen to it. For one day, write down the things you tell yourself when you mess up or hesitate. Often, it's a level of harshness you'd never aim at a friend. That awareness alone is a big step."
+      },
+      {
+        "heading": "The friend test",
+        "body": "When you catch yourself being harsh with yourself, ask a simple question: would I say this to my best friend in the same situation? Almost always, the answer is no. You'd say something gentler and more accurate. Then say that version to yourself. This isn't lying to yourself — it's stopping the habit of exaggerating the negative."
+      },
+      {
+        "heading": "Replace, don't suppress",
+        "body": "The goal isn't to force empty affirmations like 'I'm amazing.' Your brain won't buy it. Aim for realistic, kind language: 'This is tough, but I've handled hard things before,' 'I'm new to this — struggling is normal.' A believable, encouraging inner voice does far more than hollow slogans."
+      }
+    ],
+    "steps": [
+      "For one day, write down your negative self-talk.",
+      "For each one, ask: would I say this to a friend?",
+      "Rewrite it in a version that's honest and kind.",
+      "Re-read your rewritten list in the morning.",
+      "Quietly acknowledge yourself after a small win."
+    ],
+    "faq": [
+      {
+        "q": "Isn't being kind to yourself just lying?",
+        "a": "Not if you stay realistic. The goal isn't to deny difficulties — it's to stop amplifying them and adding unnecessary self-insults."
+      },
+      {
+        "q": "What if the critical voice keeps coming back?",
+        "a": "That's normal at first — it's been trained for years. Each reframe weakens it a little. Consistency matters more than perfection."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stepping-outside-comfort-zone",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Stepping Outside Your Comfort Zone — Gradually",
+    "emoji": "🚪",
+    "intro": "Growing requires doing things that scare you a little. The good news: you can dial it up slowly — no dramatic leaps required.",
+    "sections": [
+      {
+        "heading": "The three zones",
+        "body": "Picture three circles. In the center: your comfort zone — easy, but nothing changes. Around it: the learning zone — challenging without being crushing; this is where growth happens. Further out: the panic zone — too hard, blocks you, kills motivation. The goal is never the panic zone, always the learning zone, just at the edge of comfort."
+      },
+      {
+        "heading": "Expand through small steps",
+        "body": "A comfort zone grows like a muscle: through increments. If public speaking terrifies you, don't start with a conference. First, ask a question in class, then give a short presentation to friends. Every small challenge you complete pushes the boundary, making the next one reachable. It compounds, and faster than you'd expect."
+      },
+      {
+        "heading": "Discomfort isn't danger",
+        "body": "Your body reacts the same way to real danger and a simple challenge: racing heart, sweaty palms. But the discomfort of a challenge isn't a threat — it's the feeling of growth. Learn to welcome it as a sign that you're doing something that counts, instead of treating it as an alarm to flee."
+      }
+    ],
+    "steps": [
+      "Identify a learning zone — not too easy, not terrifying.",
+      "Break the challenge into steps of increasing difficulty.",
+      "Take the first step this week.",
+      "After each step, note what you felt and learned.",
+      "Rest in your comfort zone between challenges."
+    ],
+    "faq": [
+      {
+        "q": "Do you have to be pushing your comfort zone all the time?",
+        "a": "No. The comfort zone exists so you can recover. The idea is to alternate challenges and rest, not live in constant tension."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-resilience",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Building Resilience When Life Gets Hard",
+    "emoji": "🌳",
+    "intro": "Resilience isn't about being numb — it's the ability to absorb, move through, and get back up. It's a skill you can build.",
+    "sections": [
+      {
+        "heading": "What resilience is not",
+        "body": "Being resilient doesn't mean never suffering or pretending everything's fine. Resilient people feel pain, sadness, and fear fully. The difference is they don't stay stuck — they find a way forward in time, despite everything. Resilience is a movement, not armor."
+      },
+      {
+        "heading": "The role of connection",
+        "body": "The number one resilience factor in research isn't solo mental toughness — it's the quality of your relationships. Having at least one person you can talk to, who supports you without judgment, dramatically changes your ability to get through hard times. Nurturing your connections in good times is building your safety net in advance."
+      },
+      {
+        "heading": "Finding meaning in hardship",
+        "body": "You can't control what happens to you, but you keep some say over the meaning you give it. Asking 'what is this period teaching me, how is it making me stronger' doesn't erase the pain, but it gives it direction. Many people discover strengths after the fact that they didn't know they had."
+      }
+    ],
+    "steps": [
+      "Identify 2 or 3 people you can rely on.",
+      "Reach out to one of them, even briefly.",
+      "When facing hardship, give yourself permission to feel before acting.",
+      "Note one strength you've developed because of a difficult past.",
+      "Take care of the basics: sleep, movement, simple nutrition."
+    ],
+    "faq": [
+      {
+        "q": "Are you born resilient or do you become it?",
+        "a": "Mostly the latter. Resilience is built through relationships, habits, and experience. Nobody has a fixed reserve of it."
+      },
+      {
+        "q": "What if a hard time completely overwhelms me?",
+        "a": "If you feel overwhelmed, unable to cope, or hopeless, talk to a mental health professional. Asking for help is a form of resilience, not its opposite."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-daily-anxiety",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Managing Anxiety Day to Day",
+    "emoji": "🧩",
+    "intro": "Anxiety is your brain anticipating dangers — usually imaginary ones. A few simple habits can loosen its grip.",
+    "sections": [
+      {
+        "heading": "Understanding the mechanism",
+        "body": "Anxiety is projection: your brain imagines a future problem and triggers an alarm as if it were happening right now. At small doses, that's useful — it gets you prepared. But when it loops, it exhausts you without solving anything. Recognizing that an anxious thought is just a hypothesis, not a prediction, already takes away some of its power."
+      },
+      {
+        "heading": "The worry window",
+        "body": "Schedule a daily 15-minute slot — always at the same time — to worry on purpose. When a worry pops up outside that window, write it down and postpone it to the slot. Often, when the time arrives, the worry has lost its intensity. This technique teaches your brain that you handle worries on your terms, not whenever they feel like barging in."
+      },
+      {
+        "heading": "Act on what you can control",
+        "body": "A lot of anxiety comes from fixating on things outside your control. Sort it out: what depends on me, what doesn't? For the controllable stuff, take one concrete action. For the rest, practice letting go. Action — even tiny — is the most reliable antidote to rumination."
+      }
+    ],
+    "steps": [
+      "Write down an anxious thought and ask: fact or hypothesis?",
+      "Create a daily 15-minute 'worry window'.",
+      "Sort each worry: within my control or not.",
+      "Take one concrete action on what you can control.",
+      "Reduce coffee and screens in the evening — both amplify anxiety."
+    ],
+    "faq": [
+      {
+        "q": "What's the difference between stress and anxiety?",
+        "a": "Stress responds to a present, identifiable pressure. Anxiety anticipates a future threat, usually vague. The tools largely overlap."
+      },
+      {
+        "q": "When does anxiety need professional help?",
+        "a": "If it's nearly daily, disrupts your sleep, studying, or social life, see a doctor or therapist. Anxiety responds very well to treatment."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "staying-motivated-long-term",
+    "theme": "mindset",
+    "locale": "en",
+    "title": "Staying Motivated for the Long Haul",
+    "emoji": "🔋",
+    "intro": "Motivation isn't a magic reserve that runs indefinitely — it needs to be recharged. Understanding how it works means you stop blindly depending on it.",
+    "sections": [
+      {
+        "heading": "Action comes before motivation",
+        "body": "We think we need motivation to act. In reality, it usually works the other way: action creates motivation. Starting a task — even half-heartedly — sparks momentum that didn't exist before. Waiting for the perfect mood is a trap. The right move is to start small and let motivation catch up along the way."
+      },
+      {
+        "heading": "Internal vs. external motivation",
+        "body": "External motivation — grades, others' opinions, rewards — works for a while but fades. Internal motivation, fed by purpose, the joy of learning, and the sense of progress, lasts much longer. Connect your goals to a 'why' that genuinely moves you. That's what carries you on the low-energy days."
+      },
+      {
+        "heading": "Build systems, not just goals",
+        "body": "Goals tell you where to go; systems tell you how to get there every day. A goal with no routine depends entirely on willpower, which fluctuates. A well-installed habit works even without motivation. Bet on small, consistent routines rather than intense bursts of enthusiasm that burn out fast."
+      }
+    ],
+    "steps": [
+      "When the drive isn't there, start with just 2 minutes.",
+      "Write down the deep 'why' behind your goal.",
+      "Turn the goal into a simple daily routine.",
+      "Track your progress visually so you can see how far you've come.",
+      "Accept the low days without abandoning everything."
+    ],
+    "faq": [
+      {
+        "q": "How do you handle days with zero motivation?",
+        "a": "Lower the bar to the minimum: do a 'micro' version of the task. Keeping the streak alive — even tiny — beats stopping altogether."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

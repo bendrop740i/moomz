@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "beginner-skincare-routine-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Costruire una Routine Skincare da Zero",
+    "emoji": "✨",
+    "intro": "Non servono dieci prodotti per avere una bella pelle. Tre semplici passi, ripetuti ogni giorno, sono più che sufficienti per iniziare.",
+    "sections": [
+      {
+        "heading": "I tre pilastri",
+        "body": "Una routine efficace si riduce a tre passaggi: detergere, idratare, proteggere. La mattina, detergere delicatamente, applicare un idratante e poi la protezione solare. La sera, detergere per eliminare polvere e sebo della giornata, poi idratare. Tutto il resto è facoltativo. La costanza batte sempre il numero di prodotti: una routine semplice che si mantiene davvero sarà sempre meglio di una complicata che si abbandona dopo una settimana."
+      },
+      {
+        "heading": "Scegliere i prodotti giusti",
+        "body": "Lascia perdere i brand di lusso. Un detergente delicato senza sapone, un idratante neutro e una protezione solare soddisfano già tutto il necessario e costano pochissimo in farmacia o al supermercato. Prima di tutto, capire il tuo tipo di pelle: se la pelle è tesa dopo la detersione, tende ad essere secca; se brilla a metà giornata, è probabilmente grassa. Scegli texture leggere per la pelle grassa, più ricche per quella secca. Evita prodotti con molto profumo — possono irritare."
+      },
+      {
+        "heading": "Gli errori da evitare",
+        "body": "Il primo errore è esagerare: sovrapporre attivi forti fin dall'inizio irrita la pelle e provoca rossori e imperfezioni. Il secondo è saltare la protezione solare, che è in realtà l'azione anti-età più efficace in assoluto. Il terzo è cambiare prodotti ogni settimana: dai alla pelle tre o quattro settimane per rispondere prima di giudicare qualsiasi cosa. Sii paziente e osserva semplicemente."
+      }
+    ],
+    "steps": [
+      "Mattina: detergere, idratare, applicare SPF 30 minimo.",
+      "Sera: detergere per rimuovere sebo e impurità, poi idratare.",
+      "Inizia con soli tre prodotti base.",
+      "Mantieni la stessa routine per almeno un mese prima di giudicarla.",
+      "Aggiungi un attivo (acido, retinolo) solo una volta consolidate le basi."
+    ],
+    "faq": [
+      {
+        "q": "Ho bisogno di prodotti diversi per mattina e sera?",
+        "a": "La grande differenza è la protezione solare al mattino. La sera puoi aggiungere un trattamento mirato, ma non è obbligatorio."
+      },
+      {
+        "q": "I prodotti costosi sono migliori?",
+        "a": "Non necessariamente. Molti prodotti da farmacia a prezzi accessibili funzionano benissimo. Quello che conta è la formula e la costanza, non il prezzo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-skin-type-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Riconoscere il Tuo Tipo di Pelle per Prendertene Cura Meglio",
+    "emoji": "🔍",
+    "intro": "Scegliere i prodotti giusti parte dalla conoscenza della propria pelle. Un semplice test a casa ti dà la risposta in poche ore.",
+    "sections": [
+      {
+        "heading": "I principali tipi di pelle",
+        "body": "Ci sono quattro profili principali: normale (equilibrata), secca (tesa, può squamarsi), grassa (lucida con pori visibili) e mista (grassa nella zona T, normale o secca sulle guance). Poi c'è la pelle sensibile, che reagisce facilmente con rossori o bruciore — e può sovrapporsi a tutti gli altri tipi. Conoscere il tuo profilo ti evita di acquistare prodotti non adatti a te."
+      },
+      {
+        "heading": "Il test del fazzoletto",
+        "body": "La sera, detergere il viso con un prodotto delicato e non applicare nulla dopo. La mattina seguente, prima di lavare, premere un fazzoletto di carta in diverse zone del viso. Se rimane asciutto ovunque, la pelle tende al normale o al secco. Se c'è untuosità solo al centro, è mista. Olio ovunque significa pelle grassa. Una sensazione di tensione indica pelle secca."
+      },
+      {
+        "heading": "La pelle cambia nel tempo",
+        "body": "Il tipo di pelle non è fisso. Cambia con l'età, le stagioni, lo stress, l'alimentazione e gli ormoni. La pelle grassa in adolescenza può diventare mista in seguito. D'inverno il freddo tende a seccarla; d'estate diventa più lucida. Rivaluta la tua pelle due volte l'anno e adatta le texture: più leggere in estate, più nutrienti in inverno."
+      }
+    ],
+    "steps": [
+      "Fai il test del fazzoletto al mattino prima di applicare qualsiasi cosa.",
+      "Nota quali zone sono unte, tese o soggette a rossori.",
+      "Controlla se la pelle punge facilmente — segno di sensibilità.",
+      "Scegli texture leggere per la pelle grassa, più ricche per quella secca.",
+      "Rivaluta il tuo tipo di pelle a ogni cambio di stagione."
+    ],
+    "faq": [
+      {
+        "q": "La pelle può essere grassa e disidratata allo stesso tempo?",
+        "a": "Sì. La pelle grassa produce sebo ma può comunque mancare d'acqua. In quel caso, un idratante leggero è comunque essenziale."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "how-to-wash-your-face-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Come Detergere il Viso Correttamente Mattina e Sera",
+    "emoji": "🧼",
+    "intro": "La detersione è la base di una buona pelle. Fatta male, irrita; fatta bene, prepara la pelle a tutto il resto.",
+    "sections": [
+      {
+        "heading": "Perché è importante detergere",
+        "body": "Durante la giornata, la pelle accumula sebo, polvere, smog e residui di prodotti. La detersione rimuove quello strato per prevenire i pori ostruiti e aiutare i prodotti skincare ad assorbirsi meglio. Ma detergere non significa aggredire: se la pelle è molto tesa dopo il lavaggio, sei stato troppo brusco. Una buona detersione lascia la pelle pulita, morbida e a proprio agio — mai ruvida o irritata."
+      },
+      {
+        "heading": "La tecnica giusta",
+        "body": "Usa acqua tiepida, mai bollente — l'acqua troppo calda aggredisce la pelle. Applica il detergente con i polpastrelli facendo movimenti circolari delicati per trenta secondi o un minuto. Dai un po' più di attenzione al naso e al mento dove si accumula il sebo. Risciacqua bene senza lasciare residui, poi tampona con un asciugamano pulito — non strofinate. Al mattino, un semplice risciacquo con acqua può bastare se la pelle è secca."
+      },
+      {
+        "heading": "Frequenza ed eccessi",
+        "body": "Due detersioni al giorno sono più che sufficienti: mattina e sera. Lavare il viso troppo spesso altera la barriera protettiva della pelle e la rende reattiva. Dopo l'attività fisica, un risciacquo con acqua semplice basta se hai poco tempo. Evita detergenti aggressivi, schiumogeni o molto profumati che seccanno. Se la pelle è sistematicamente tesa dopo il lavaggio, passa a qualcosa di più delicato."
+      }
+    ],
+    "steps": [
+      "Lavati le mani prima di toccarti il viso.",
+      "Usa acqua tiepida — mai troppo calda.",
+      "Massaggia il detergente in cerchi delicati per trenta secondi.",
+      "Risciacqua bene e tampona con un asciugamano pulito — senza strofinare.",
+      "Detergi due volte al giorno: mattina e sera, non di più."
+    ],
+    "faq": [
+      {
+        "q": "Ho bisogno di un panno o di uno spazzolino per la detersione?",
+        "a": "Le dita pulite vanno benissimo. Panni e spazzolini possono irritare e raccogliere batteri se non si cambiano spesso."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moisturize-your-skin-daily-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Come Idratare la Pelle Ogni Giorno Senza Sbagliare",
+    "emoji": "💧",
+    "intro": "Una pelle ben idratata appare più liscia, più luminosa e invecchia meglio. È un passaggio veloce con risultati visibili.",
+    "sections": [
+      {
+        "heading": "Perché tutti hanno bisogno di idratarsi",
+        "body": "Anche la pelle grassa ha bisogno di idratazione: il sebo non è acqua. Quando la pelle è disidratata, si difende producendo ancora più sebo — il che peggiora la lucentezza. L'idratante rinforza la barriera cutanea, riduce la tensione e mantiene la pelle morbida. Il risultato: un incarnato più uniforme e pori dall'aspetto più fine. È un passaggio utile a qualsiasi età, indipendentemente dal tipo di pelle."
+      },
+      {
+        "heading": "Scegliere la texture giusta",
+        "body": "La chiave è abbinare la texture alla propria pelle. Pelle grassa o mista: opta per un gel o una crema leggera, non comedogenica, che non lasci una pellicola unta. Pelle secca: scegli una crema più ricca, magari con ingredienti nutrienti. Pelle sensibile: cerca liste di ingredienti corte, senza profumo. D'inverno, non esitare a passare a una texture più ricca anche se la tua pelle è normalmente grassa."
+      },
+      {
+        "heading": "Quando e come applicarla",
+        "body": "Applica l'idratante sulla pelle leggermente umida, subito dopo la detersione — l'acqua residua aiuta a trattenere l'idratazione. Usa una quantità piccola come un pisello, distribuiscila sul viso e poi stendila verso l'alto e verso l'esterno senza tirare. Non dimenticare il collo. Al mattino, l'idratante si applica prima della protezione solare. La sera può essere l'ultimo passaggio della routine."
+      }
+    ],
+    "steps": [
+      "Applica l'idratante sulla pelle ancora leggermente umida.",
+      "Una quantità piccola come un pisello è sufficiente — più prodotto non significa più beneficio.",
+      "Stendi verso l'alto e verso l'esterno, senza tirare né strofinare.",
+      "Non dimenticare il collo — spesso trascurato.",
+      "Adatta la texture alla stagione e al tuo tipo di pelle."
+    ],
+    "faq": [
+      {
+        "q": "Ho la pelle grassa — devo comunque idratarla?",
+        "a": "Assolutamente. Saltare l'idratante spinge la pelle a produrre ancora più sebo. Scegli semplicemente una formula in gel leggera."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "daily-sunscreen-habit-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Mettere la Protezione Solare Ogni Singolo Giorno",
+    "emoji": "☀️",
+    "intro": "È l'azione anti-età più potente ed economica che puoi fare. Un'abitudine da trenta secondi che cambia tutto sul lungo periodo.",
+    "sections": [
+      {
+        "heading": "Perché il sole segna la pelle",
+        "body": "I raggi UV sono responsabili della maggior parte dell'invecchiamento cutaneo visibile: rughe, macchie scure, perdita di compattezza e incarnato spento. Penetrano le nuvole e i vetri, quindi agiscono anche nelle giornate grigie o quando si è seduti vicino a una finestra. La protezione solare blocca gran parte di questi raggi. È, di gran lunga, l'azione con il miglior ritorno sulla pelle nel lungo termine."
+      },
+      {
+        "heading": "Sceglierla e applicarla correttamente",
+        "body": "Scegli almeno SPF 30, idealmente SPF 50 per il viso, con protezione ad ampio spettro. La texture conta — deve essere un prodotto che hai effettivamente voglia di mettere ogni giorno: fluido per la pelle grassa, crema per quella secca. Applica una quantità generosa (circa due dita per viso e collo) come ultimo passaggio della routine mattutina, prima del trucco. Uno strato troppo sottile riduce drasticamente la protezione."
+      },
+      {
+        "heading": "Riapplicare durante la giornata",
+        "body": "La protezione solare non dura tutto il giorno — si degrada con il tempo, il sudore e lo sfregamento. Se sei al chiuso, una sola applicazione mattutina di solito basta. Se sei all'aperto, riapplica ogni due ore. Esistono spray e stick che facilitano la riapplicazione sopra il trucco. Non dimenticare i punti che si tralasciano spesso: orecchie, nuca e dorso delle mani."
+      }
+    ],
+    "steps": [
+      "Applica SPF 30–50 ogni mattina, anche nelle giornate nuvolose.",
+      "Usa una quantità generosa: due dita per viso e collo.",
+      "Applicala come ultimo passaggio della skincare, prima del trucco.",
+      "Riapplica ogni due ore quando sei all'esterno.",
+      "Non dimenticare orecchie, collo e mani."
+    ],
+    "faq": [
+      {
+        "q": "Ho bisogno della protezione solare in inverno o nelle giornate nuvolose?",
+        "a": "Sì. I raggi UV penetrano le nuvole e sono presenti tutto l'anno. Un'abitudine quotidiana è ciò che ti protegge davvero."
+      },
+      {
+        "q": "La protezione solare impedirà di abbronzarmi?",
+        "a": "Rallenta l'abbronzatura e protegge dai danni. Una pelle sana, senza scottature, è sempre l'obiettivo migliore."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-acne-calmly-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Gestire l'Acne con Calma e Buone Abitudini",
+    "emoji": "🌱",
+    "intro": "L'acne è estremamente comune e non c'è nulla di cui vergognarsi. Alcune semplici abitudini possono aiutare a calmarla senza aggredire la pelle.",
+    "sections": [
+      {
+        "heading": "Capire l'acne",
+        "body": "L'acne compare quando i pori si ostruiscono con sebo e cellule morte, a volte aggravata da batteri e ormoni. Colpisce una grande percentuale di adolescenti e molti adulti — non sei assolutamente solo. Non è un segno di scarsa igiene. Capire che è un processo cutaneo normale aiuta ad affrontarla con pazienza anziché con panico."
+      },
+      {
+        "heading": "Le buone abitudini quotidiane",
+        "body": "Mantieni una routine delicata: un detergente non aggressivo, un idratante leggero non comedogenico, la protezione solare. Evita di aggredire la pelle — di solito peggiora l'acne. Non toccare i brufoli e non spremerli: rischi di lasciare segni duraturi e di infezioni. Cambia la federa del cuscino regolarmente, pulisci il telefono e tieni le mani lontane dal viso. La costanza calma la pelle poco a poco."
+      },
+      {
+        "heading": "Quando consultare un professionista",
+        "body": "Se l'acne è diffusa, dolorosa, lascia segni o non migliora con una routine delicata dopo qualche mese, rivolgiti a un dermatologo o a un medico. Esistono trattamenti efficaci e mirati. Chiedere aiuto non è un fallimento — è il percorso più diretto ai risultati. Diffida delle cure miracolose trovate online: la maggior parte è inefficace o irritante."
+      }
+    ],
+    "steps": [
+      "Mantieni una routine delicata — non aggredire mai la pelle.",
+      "Non toccare né schiacciare i brufoli.",
+      "Cambia la federa del cuscino ogni settimana.",
+      "Pulisci il telefono — tocca continuamente la tua guancia.",
+      "Rivolgiti a un medico se l'acne è grave o persistente."
+    ],
+    "faq": [
+      {
+        "q": "Il cioccolato causa i brufoli?",
+        "a": "Il legame diretto è debole. Una dieta equilibrata aiuta la pelle, ma l'acne è principalmente guidata dagli ormoni."
+      },
+      {
+        "q": "Devo smettere di truccarmi?",
+        "a": "No, ma scegli prodotti non comedogenici e rimuovi sempre accuratamente il trucco ogni sera."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gentle-skin-exfoliation-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Esfoliare la Pelle Delicatamente Senza Esagerare",
+    "emoji": "🌀",
+    "intro": "Usati nel modo giusto, gli esfolianti donano una pelle più liscia e luminosa. Usati male, irritano. Ecco come trovare l'equilibrio.",
+    "sections": [
+      {
+        "heading": "A cosa serve l'esfoliazione",
+        "body": "L'esfoliazione rimuove le cellule morte accumulate sulla superficie della pelle. Il risultato: texture più fine, incarnato più luminoso e migliore penetrazione dei prodotti applicati dopo. La pelle si rinnova naturalmente, ma questo processo rallenta con l'età e può diventare irregolare. Un'esfoliazione misurata la stimola — senza mai sostituire la detersione e l'idratazione di base."
+      },
+      {
+        "heading": "Esfolianti fisici vs chimici",
+        "body": "Gli scrub fisici usano particelle per levigare la pelle: scegline uno con particelle fini e applicalo senza premere forte. Gli esfolianti chimici usano acidi delicati per sciogliere le cellule morte senza sfregamento — spesso più rispettosi della barriera cutanea. Per chi inizia, una formula leggera una o due volte a settimana è più che sufficiente. Qualunque tipo si utilizzi, il principio guida è sempre la delicatezza."
+      },
+      {
+        "heading": "Evitare gli eccessi",
+        "body": "L'errore più comune è esfoliare troppo spesso o troppo aggressivamente, pensando che di più sia meglio. Una pelle iper-esfoliata diventa rossa, sensibile, lucida e a disagio. Limitati a una o due volte a settimana al massimo, e mai su pelle già irritata o sopra brufoli infiammati. Dopo l'esfoliazione, idrata bene e usa la protezione solare il giorno dopo — la pelle appena esfoliata è più reattiva ai raggi UV."
+      }
+    ],
+    "steps": [
+      "Esfoliare non più di una o due volte a settimana.",
+      "Scegli uno scrub delicato con particelle fini, o un acido leggero.",
+      "Non premere mai forte — lascia che sia il prodotto a lavorare.",
+      "Non esfoliare la pelle irritata né i brufoli infiammati.",
+      "Idrata dopo e proteggiti dal sole il giorno successivo."
+    ],
+    "faq": [
+      {
+        "q": "Il viso diventa rosso dopo l'esfoliazione — è normale?",
+        "a": "Un leggero rossore temporaneo può capitare, ma un rossore forte o persistente significa che stai esfoliando troppo. Allarga gli intervalli tra le sessioni."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eye-area-skincare-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Prendersi Cura della Pelle Intorno agli Occhi",
+    "emoji": "👁️",
+    "intro": "La pelle intorno agli occhi è sottile e delicata. Qualche piccola attenzione aiuta a mantenere lo sguardo fresco e riposato.",
+    "sections": [
+      {
+        "heading": "Una zona che richiede cura extra",
+        "body": "La pelle della zona perioculare è tra le più sottili del corpo e ha pochissime ghiandole sebacee. Mostra la stanchezza, la disidratazione e la mancanza di sonno molto in fretta. È anche una zona molto mobile — si sbatte migliaia di volte al giorno. Questo non significa angosciarsi: basta un po' di attenzione e delicatezza per mantenerla in buona forma."
+      },
+      {
+        "heading": "Idratare e trattare con cura",
+        "body": "Una crema contorno occhi non è obbligatoria: un idratante delicato e ben tollerato può bastare, purché non bruci. Ciò che conta di più è come si applica. Usa l'anulare — il dito con il tocco più leggero — e picchietta il prodotto molto delicatamente senza tirare né strofinare. Non avvicinarti troppo alla rima ciliare. Non strofinarti mai gli occhi con forza — è una delle cose peggiori che tu possa fare a questa zona."
+      },
+      {
+        "heading": "Cosa rende davvero stanca la zona occhi",
+        "body": "Gli occhi dall'aspetto stanco di solito dipendono dallo stile di vita, non dai prodotti. Mancanza di sonno, disidratazione, eccesso di sale, schermi e aria secca segnano la zona occhi in fretta. Dormire a sufficienza, bere acqua e fare pause dagli schermi farà più di qualsiasi crema. Il freddo aiuta al mattino — un cucchiaio freddo tenuto lì per qualche minuto può ridurre le borse."
+      }
+    ],
+    "steps": [
+      "Applica il prodotto con l'anulare, usando un leggero movimento a tampone.",
+      "Non tirare mai la pelle né strofinarti gli occhi.",
+      "Un idratante delicato può andare bene se non brucia.",
+      "Dormi a sufficienza e bevi acqua — sono i veri trattamenti per gli occhi.",
+      "Usa il freddo al mattino per ridurre le borse."
+    ],
+    "faq": [
+      {
+        "q": "A che età dovrei iniziare a usare la crema contorno occhi?",
+        "a": "Non c'è un'età precisa. Le buone abitudini di vita contano molto di più di qualsiasi prodotto specifico in qualsiasi momento."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remove-makeup-every-night-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Rimuovere il Trucco Completamente Ogni Sera",
+    "emoji": "🌙",
+    "intro": "Dormire truccata stanca la pelle. Una struccatura accurata richiede solo qualche minuto e fa una differenza reale.",
+    "sections": [
+      {
+        "heading": "Perché non si dovrebbe mai dormire truccata",
+        "body": "Mentre dormi, la pelle si rigenera. Lasciare il trucco ostruisce i pori, mescolando lo smog e il sebo della giornata. Questo porta a brufoli, incarnato spento e può irritare gli occhi. Qualche minuto di struccatura la sera previene tutto questo. È uno dei passaggi più semplici e gratificanti di qualsiasi routine, qualunque sia il tuo tipo di pelle."
+      },
+      {
+        "heading": "La tecnica del doppio struccaggio",
+        "body": "Il doppio struccaggio funziona molto bene: inizia con un prodotto a base oleosa o un balsamo che scioglie trucco, protezione solare e sebo; segui con un detergente a base acquosa per rimuovere i residui. Per gli occhi, immergi un dischetto di cotone in un removore delicato, tienilo sull'occhio qualche secondo per sciogliere il trucco, poi rimuovi senza strofinare. Quella pazienza evita di irritare questa zona delicata."
+      },
+      {
+        "heading": "Anche nelle sere più pigre",
+        "body": "Nelle serate in cui sei esausta, tieni a portata di mano una soluzione rapida: le salviettine struccanti sono un'alternativa accettabile ogni tanto, anche se non detergono in modo così approfondito. L'obiettivo è non saltare mai completamente il passaggio. Organizza la tua postazione di struccatura in modo che sia immediata: prodotti a vista, dischetti di cotone a portata di mano. Più è facile, più l'abitudine durerà davvero."
+      }
+    ],
+    "steps": [
+      "Rimuovi il trucco ogni sera, senza eccezioni.",
+      "Inizia con un prodotto a base oleosa, poi passa a uno a base acquosa.",
+      "Tieni il dischetto di cotone sugli occhi qualche secondo prima di rimuoverlo.",
+      "Non strofinare mai, soprattutto intorno agli occhi.",
+      "Tieni sempre un'opzione rapida pronta per le serate di stanchezza."
+    ],
+    "faq": [
+      {
+        "q": "L'acqua micellare da sola è sufficiente?",
+        "a": "Funziona come alternativa, ma risciacquare dopo con un detergente delicato lascia la pelle molto più pulita, soprattutto se si usa trucco a lunga tenuta."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "caring-for-sensitive-skin-it",
+    "theme": "lookmaxxing",
+    "locale": "it",
+    "title": "Prendersi Cura della Pelle Sensibile e Reattiva",
+    "emoji": "🌸",
+    "intro": "La pelle sensibile richiede delicatezza e semplicità. Pochi prodotti ben scelti battono sempre una routine sovraccarica.",
+    "sections": [
+      {
+        "heading": "Riconoscere la pelle sensibile",
+        "body": "La pelle sensibile arrossisce facilmente, formica o si scalda con certi prodotti, l'acqua dura o i cambiamenti di temperatura. Può sentirsi tesa e a disagio. La sensibilità non è un tipo di pelle a sé stante — può comparire su pelle secca, grassa o mista. La buona notizia è che con la routine giusta si calma notevolmente."
+      },
+      {
+        "heading": "Semplificare la routine",
+        "body": "Il principio è ridurre al minimo: un detergente molto delicato, un idratante levatvio, una protezione solare ben tollerata. Cerca liste di ingredienti corte, senza profumo, senza alcool. Evita attivi forti, scrub aggressivi e il continuo cambio di prodotti. Prima di provare qualcosa di nuovo, testa il prodotto su una piccola area come l'interno del polso o la mandibola per qualche giorno."
+      },
+      {
+        "heading": "Proteggere la barriera cutanea",
+        "body": "La pelle sensibile ha spesso una barriera compromessa che lascia passare gli irritanti e perdere l'umidità. Per rinforzarla, evita l'acqua troppo calda, non aggredire la pelle e idrata mattina e sera. Freddo, vento e aria secca del riscaldamento peggiorano la sensibilità — proteggi il viso d'inverno. Se il rossore è forte o costante, rivolgiti a un medico per escludere una causa sottostante specifica."
+      }
+    ],
+    "steps": [
+      "Riduci la routine agli essenziali delicati.",
+      "Scegli formule senza profumo e senza alcool.",
+      "Testa ogni nuovo prodotto su una piccola area prima.",
+      "Evita l'acqua calda e gli scrub aggressivi.",
+      "Proteggi la pelle dal freddo e dal vento d'inverno."
+    ],
+    "faq": [
+      {
+        "q": "La pelle sensibile è uguale alla pelle allergica?",
+        "a": "No. La sensibilità è una reattività generale; un'allergia è una reazione specifica a un ingrediente. In caso di dubbio, rivolgiti a un medico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

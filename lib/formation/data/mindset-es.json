@@ -1,0 +1,385 @@
+[
+  {
+    "slug": "understanding-self-esteem-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Qué significa realmente la autoestima",
+    "emoji": "🪞",
+    "intro": "La autoestima no es creer que eres perfecto — es valorarte incluso cuando la riegas. Es una base, no un trofeo.",
+    "sections": [
+      {
+        "heading": "Autoestima vs. confianza",
+        "body": "La gente confunde estas dos cosas constantemente. La confianza es creer que puedes hacer algo concreto — dominar una presentación, cocinar bien. La autoestima va más a fondo: es el valor global que te das como persona, independientemente de los resultados. Puedes reprobar un examen y seguir teniendo una autoestima sólida, siempre que sepas separar lo que haces de lo que eres."
+      },
+      {
+        "heading": "Se construye, no se nace con ella",
+        "body": "Nadie llega al mundo con un nivel fijo de autoestima. Se va moldeando con las experiencias, lo que escuchaste al crecer, los éxitos y los fracasos. La buena noticia: lo que se construyó puede reconstruirse. El cerebro se mantiene adaptable toda la vida. Cada vez que actúas en línea con tus valores, pones otro ladrillo sólido en esa base."
+      },
+      {
+        "heading": "Señales de baja autoestima",
+        "body": "La autoestima frágil se manifiesta en patrones predecibles: buscar aprobación constantemente, no saber decir que no, disculparse por todo, quitarle importancia a tus logros y magnificar tus errores. Reconocer estos patrones no es autocrítica — es hacerte un mapa de dónde hay que trabajar. La conciencia siempre es el primer paso hacia el cambio."
+      }
+    ],
+    "steps": [
+      "Nota la diferencia entre 'fallé en eso' y 'soy un fracaso'.",
+      "Identifica un reflejo de baja autoestima que notes en ti con frecuencia.",
+      "Escribe 3 cualidades estables que tienes y que no dependen de tus resultados.",
+      "Cada noche, anota una acción que hayas tomado en línea con tus valores."
+    ],
+    "faq": [
+      {
+        "q": "¿De verdad puedes cambiar tu autoestima a los 20?",
+        "a": "Sí, a cualquier edad. El cerebro mantiene su plasticidad. Se necesita esfuerzo constante, no una transformación mágica — pero el progreso es real y duradero."
+      },
+      {
+        "q": "¿Una buena autoestima es lo mismo que arrogancia?",
+        "a": "No. La arrogancia necesita rebajar a los demás para sentirse superior. Una autoestima sana simplemente se siente cómoda en su propia piel, sin necesidad de minimizar a nadie."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "calming-a-stress-spike-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Cómo calmarte rápido cuando el estrés te golpea",
+    "emoji": "🌬️",
+    "intro": "Cuando el estrés sube de golpe, tu cuerpo reacciona antes que tu cabeza. Unos pocos movimientos simples te permiten recuperar el control en minutos.",
+    "sections": [
+      {
+        "heading": "Qué pasa en tu cuerpo",
+        "body": "Cuando tu cerebro detecta una amenaza, inunda tu sistema con adrenalina: corazón acelerado, respiración superficial, manos sudadas. Es una respuesta de supervivencia completamente normal. El problema es que se dispara igual ante un examen o un mensaje incómodo que ante un peligro real. Entender que la sensación en sí no es peligrosa ya elimina una capa del pánico."
+      },
+      {
+        "heading": "La respiración que frena todo",
+        "body": "Inhala 4 segundos, aguanta 4 segundos, exhala 6 segundos. La exhalación prolongada activa tu sistema nervioso parasimpático — el modo calma. Repite 5 a 10 ciclos. Es la herramienta más rápida y discreta que existe: puedes usarla en clase, en el metro, antes de hablar en público, y nadie se dará cuenta."
+      },
+      {
+        "heading": "Anclarse a través de los sentidos",
+        "body": "El estrés te arrastra hacia un futuro catastrófico. Anclarte te devuelve al presente. Nombra 5 cosas que puedas ver, 4 que puedas tocar, 3 que puedas escuchar, 2 que puedas oler y 1 que puedas saborear. Este ejercicio le da a tu cerebro algo concreto en qué enfocarse y rompe la espiral de pensamientos. En dos minutos, la intensidad suele bajar notablemente."
+      }
+    ],
+    "steps": [
+      "Reconócelo: 'Esto es estrés — no es peligroso'.",
+      "Haz 5 rondas de respiración 4-4-6.",
+      "Anclarte con el ejercicio 5-4-3-2-1.",
+      "Bebe un vaso de agua y mueve el cuerpo un poco.",
+      "Vuelve a lo que estabas haciendo — un pequeño paso a la vez."
+    ],
+    "faq": [
+      {
+        "q": "¿Y si respirar no funciona?",
+        "a": "Mueve el cuerpo: camina, sacude las manos, sube unas escaleras. La actividad física quema la adrenalina. Combinar respiración con movimiento tiene un efecto más potente."
+      },
+      {
+        "q": "¿Cuándo debería preocuparme si tengo estrés frecuente?",
+        "a": "Si el estrés es diario, altera tu sueño o te impide funcionar, habla con un médico o terapeuta. El estrés crónico responde muy bien al tratamiento cuando se aborda correctamente."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "growth-mindset-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Adoptar una mentalidad de crecimiento",
+    "emoji": "🌱",
+    "intro": "Creer que tus capacidades pueden crecer lo cambia todo: el esfuerzo se convierte en un camino a seguir, no en una señal de debilidad. Eso es la mentalidad de crecimiento.",
+    "sections": [
+      {
+        "heading": "Fija vs. crecimiento",
+        "body": "La mentalidad fija cree que la inteligencia y el talento son inamovibles — o los tienes o no los tienes. La mentalidad de crecimiento cree que todo se desarrolla con esfuerzo, las estrategias adecuadas y tiempo. La investigación de Carol Dweck muestra que el segundo enfoque lleva a mejores resultados, porque no le huye a la dificultad."
+      },
+      {
+        "heading": "El poder del 'todavía'",
+        "body": "En lugar de decir 'no puedo hacer esto', di 'todavía no puedo hacer esto'. Esa pequeña palabra transforma una declaración de fracaso en un paso en un camino. Le recuerda a tu cerebro que la habilidad sigue construyéndose. No es magia — es una forma de enmarcar la dificultad que mantiene viva la motivación."
+      },
+      {
+        "heading": "Aprender a amar la parte difícil",
+        "body": "Cuando algo se pone difícil, tu cerebro está literalmente creando nuevas conexiones. La sensación de lucha no es una señal de que eres un caso perdido — es una señal de que estás aprendiendo. Reinterpretar la incomodidad como algo positivo transforma por completo tu relación con el aprendizaje y el entrenamiento."
+      }
+    ],
+    "steps": [
+      "Detecta un pensamiento de mentalidad fija ('simplemente soy malo en...') esta semana.",
+      "Reformúlalo con 'todavía no'.",
+      "Elige deliberadamente una tarea que sea un poco difícil para ti ahora mismo.",
+      "Tras un tropiezo, pregúntate: ¿qué me está enseñando esto?",
+      "Valora tu esfuerzo y tu enfoque, no solo el resultado."
+    ],
+    "faq": [
+      {
+        "q": "¿O sea que el talento no importa en absoluto?",
+        "a": "El talento existe y da ventaja al principio, pero no lo decide todo. Sin esfuerzo y estrategia, el talento se estanca. Con ellos, incluso un punto de partida modesto puede llegar lejos."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "bouncing-back-from-failure-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Levantarse tras el fracaso sin destruirte",
+    "emoji": "🪂",
+    "intro": "El fracaso duele — eso es normal. Pero no define tu valor ni tu futuro. Cómo lo manejas importa más que el fracaso en sí.",
+    "sections": [
+      {
+        "heading": "Deja que la emoción aterrice primero",
+        "body": "Justo después de un fracaso, no estás en condiciones de analizar nada. La decepción, la vergüenza y el enojo necesitan espacio. Date un tiempo definido para sentirlo de verdad — una tarde, un día. Llora, habla con alguien, sal a caminar. Reprimir la emoción hace que dure más. Dejarla entrar le permite pasar."
+      },
+      {
+        "heading": "Separa el evento de tu identidad",
+        "body": "Un fracaso es un evento, no un veredicto sobre quién eres. 'No conseguí ese trabajo' es verdad. 'Soy un perdedor' es una generalización tóxica. Presta atención a ese cambio de lenguaje. Fracasaste en algo concreto, en un momento concreto, bajo condiciones concretas. Nada más."
+      },
+      {
+        "heading": "Extrae la lección útil",
+        "body": "Una vez que la emoción se asienta, conviértete en investigador — no en juez. ¿Qué faltó: preparación, método, timing o simplemente mala suerte? Escribe una o dos cosas concretas a ajustar. El fracaso solo tiene valor si extraes información accionable. De lo contrario, es solo dolor desperdiciado."
+      },
+      {
+        "heading": "Reinicia poco a poco",
+        "body": "Después de una caída, intentar recuperarlo todo de golpe te agota. Elige una acción pequeña y fácil para volver a la marcha. Eso reactiva el motor y te demuestra que sigues siendo capaz. La confianza se reconstruye a través de pequeñas victorias acumuladas, no de un regreso dramático de una sola vez."
+      }
+    ],
+    "steps": [
+      "Date una ventana de tiempo limitada para sentir la emoción.",
+      "Reformula 'no valgo nada' como 'fallé en esto específico'.",
+      "Escribe 1 o 2 lecciones concretas y accionables.",
+      "Elige una acción fácil para volver a moverte.",
+      "Habla del fracaso con alguien que te apoye."
+    ],
+    "faq": [
+      {
+        "q": "¿Y si no puedo seguir adelante?",
+        "a": "Si un fracaso te persigue semanas después y bloquea tu progreso, hablar con un terapeuta puede ayudar mucho. Eso no es debilidad — es inteligencia."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stop-comparing-yourself-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Deja de compararte constantemente con los demás",
+    "emoji": "⚖️",
+    "intro": "Compararte es humano, pero hacerlo sin parar erosiona la autoestima. Puedes aprender a redirigir ese reflejo en lugar de dejarte controlar por él.",
+    "sections": [
+      {
+        "heading": "Por qué el cerebro compara",
+        "body": "La comparación es un viejo reflejo social: nuestros ancestros necesitaban medir su posición en el grupo para sobrevivir. El problema moderno es que ya no nos comparamos con 30 personas — nos comparamos con millones, generalmente con sus mejores momentos seleccionados. Tu cerebro toma esas imágenes como realidad y concluye que vas por detrás."
+      },
+      {
+        "heading": "Estás comparando peras con manzanas",
+        "body": "Ves los resultados de los demás, nunca su recorrido completo, sus ventajas de partida ni sus dificultades. Comparar tu bambalinas con su escaparate está trucado desde el inicio. La única comparación justa eres tú hoy vs. tú hace seis meses o un año. Ahí sí tienes toda la información y el veredicto es honesto."
+      },
+      {
+        "heading": "Convierte la envidia en brújula",
+        "body": "Cuando alguien te provoca envidia, no te fustigues — observa. Esa envidia está señalando algo que de verdad te importa. Si envidias los viajes de alguien, la aventura te está llamando; si es una habilidad, eso es lo que quieres desarrollar. La envidia se convierte en dirección en lugar de veneno."
+      }
+    ],
+    "steps": [
+      "Cuando te compares, pregúntate: ¿tengo el panorama completo?",
+      "Solo compárate con quien eras hace 6 meses.",
+      "Transforma cada sentimiento de envidia en un objetivo concreto para ti.",
+      "Reduce el tiempo en cuentas que principalmente te generan comparación.",
+      "Escribe cada noche un punto de progreso personal, por pequeño que sea."
+    ],
+    "faq": [
+      {
+        "q": "¿La comparación siempre es mala?",
+        "a": "No. Una comparación inspiradora ('esta persona demuestra que es posible') puede motivar. La que hay que neutralizar es la que te hace sentir pequeño y desanimado."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reshaping-your-inner-voice-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Transformar tu voz interior",
+    "emoji": "🗣️",
+    "intro": "La voz en tu cabeza te habla todo el día. Si es dura, te desgasta. Puedes aprender a hacerla más honesta y más de tu lado.",
+    "sections": [
+      {
+        "heading": "Nota la voz crítica",
+        "body": "La mayoría de la gente ni siquiera escucha su monólogo interior — funciona en piloto automático. Primer paso: escúchalo de verdad. Durante un día, escribe lo que te dices cuando metes la pata o dudas. Generalmente, es un nivel de dureza que nunca le dirigirías a un amigo. Esa toma de conciencia ya es un gran paso."
+      },
+      {
+        "heading": "La prueba del amigo",
+        "body": "Cuando te pilles siendo duro contigo mismo, hazte una pregunta sencilla: ¿le diría esto a mi mejor amigo en la misma situación? Casi siempre la respuesta es no. Le dirías algo más amable y más acertado. Entonces dite esa versión a ti mismo. Esto no es engañarte — es dejar de exagerar lo negativo."
+      },
+      {
+        "heading": "Reemplaza, no suprimas",
+        "body": "El objetivo no es forzar afirmaciones vacías como 'soy increíble'. Tu cerebro no se lo creerá. Apunta a un lenguaje realista y amable: 'Esto es difícil, pero ya he superado cosas complicadas antes', 'Soy nuevo en esto — que me cueste es normal'. Una voz interior creíble y alentadora hace mucho más que slogans huecos."
+      }
+    ],
+    "steps": [
+      "Durante un día, anota tu autocrítica negativa.",
+      "Por cada una, pregúntate: ¿se lo diría a un amigo?",
+      "Reescríbela en una versión honesta y amable.",
+      "Relee tu lista reescrita por la mañana.",
+      "Reconócete en silencio después de un pequeño logro."
+    ],
+    "faq": [
+      {
+        "q": "¿No es ser amable contigo mismo una forma de mentirte?",
+        "a": "No si te mantienes realista. El objetivo no es negar las dificultades — es dejar de amplificarlas y de añadirte insultos innecesarios."
+      },
+      {
+        "q": "¿Y si la voz crítica sigue volviendo?",
+        "a": "Es normal al principio — lleva años entrenada. Cada reformulación la debilita un poco. La constancia importa más que la perfección."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stepping-outside-comfort-zone-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Salir de tu zona de confort — de forma gradual",
+    "emoji": "🚪",
+    "intro": "Crecer exige hacer cosas que te dan un poco de miedo. La buena noticia: puedes subir el nivel despacio — no hacen falta saltos dramáticos.",
+    "sections": [
+      {
+        "heading": "Las tres zonas",
+        "body": "Imagina tres círculos. En el centro: tu zona de confort — fácil, pero nada cambia. Alrededor: la zona de aprendizaje — desafiante sin ser aplastante; aquí es donde ocurre el crecimiento. Más afuera: la zona de pánico — demasiado difícil, te bloquea, mata la motivación. El objetivo nunca es la zona de pánico, siempre la zona de aprendizaje, justo en el borde de la comodidad."
+      },
+      {
+        "heading": "Expandirse a través de pequeños pasos",
+        "body": "La zona de confort crece como un músculo: por incrementos. Si hablar en público te aterra, no empieces por una conferencia. Primero haz una pregunta en clase, luego una breve presentación a amigos. Cada pequeño reto que superas empuja el límite, haciendo que el siguiente sea alcanzable. Se acumula, y más rápido de lo que esperarías."
+      },
+      {
+        "heading": "Incomodidad no es peligro",
+        "body": "Tu cuerpo reacciona igual ante un peligro real que ante un simple reto: corazón acelerado, palmas sudadas. Pero la incomodidad de un desafío no es una amenaza — es la sensación de crecer. Aprender a recibirla como señal de que estás haciendo algo que vale cambia por completo tu relación con el aprendizaje."
+      }
+    ],
+    "steps": [
+      "Identifica una zona de aprendizaje — no demasiado fácil, ni aterradora.",
+      "Divide el reto en pasos de dificultad creciente.",
+      "Da el primer paso esta semana.",
+      "Después de cada paso, anota lo que sentiste y aprendiste.",
+      "Descansa en tu zona de confort entre retos."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay que estar empujando la zona de confort todo el tiempo?",
+        "a": "No. La zona de confort existe para que puedas recuperarte. La idea es alternar retos y descanso, no vivir en tensión constante."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-resilience-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Desarrollar resiliencia cuando la vida se pone dura",
+    "emoji": "🌳",
+    "intro": "La resiliencia no es estar blindado — es la capacidad de absorber, atravesar y levantarse. Es una habilidad que puedes desarrollar.",
+    "sections": [
+      {
+        "heading": "Lo que la resiliencia no es",
+        "body": "Ser resiliente no significa no sufrir nunca ni fingir que todo está bien. Las personas resilientes sienten el dolor, la tristeza y el miedo plenamente. La diferencia es que no se quedan atascadas — encuentran un camino hacia adelante con el tiempo, a pesar de todo. La resiliencia es un movimiento, no una armadura."
+      },
+      {
+        "heading": "El papel de la conexión",
+        "body": "El principal factor de resiliencia en las investigaciones no es la fortaleza mental individual — es la calidad de tus relaciones. Tener al menos una persona con quien hablar, que te apoye sin juzgarte, cambia radicalmente tu capacidad de superar momentos difíciles. Cuidar tus vínculos en los buenos tiempos es construir tu red de seguridad por adelantado."
+      },
+      {
+        "heading": "Encontrar sentido en las dificultades",
+        "body": "No puedes controlar lo que te pasa, pero conservas cierta influencia sobre el significado que le das. Preguntarse 'qué me está enseñando este período, cómo me está haciendo más fuerte' no borra el dolor, pero le da dirección. Mucha gente descubre después fortalezas que no sabía que tenía."
+      }
+    ],
+    "steps": [
+      "Identifica 2 o 3 personas en las que puedas apoyarte.",
+      "Contacta a una de ellas, aunque sea brevemente.",
+      "Ante una dificultad, date permiso para sentir antes de actuar.",
+      "Anota una fortaleza que hayas desarrollado gracias a un pasado difícil.",
+      "Cuida lo básico: sueño, movimiento, alimentación sencilla."
+    ],
+    "faq": [
+      {
+        "q": "¿Se nace resiliente o uno se vuelve resiliente?",
+        "a": "Principalmente lo segundo. La resiliencia se construye a través de relaciones, hábitos y experiencia. Nadie tiene una reserva fija de ella."
+      },
+      {
+        "q": "¿Y si un momento difícil me supera por completo?",
+        "a": "Si te sientes desbordado, incapaz de hacerle frente o sin esperanza, habla con un profesional de salud mental. Pedir ayuda es una forma de resiliencia, no lo contrario."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-daily-anxiety-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Manejar la ansiedad día a día",
+    "emoji": "🧩",
+    "intro": "La ansiedad es tu cerebro anticipando peligros — generalmente imaginarios. Unos pocos hábitos simples pueden aflojar su grip.",
+    "sections": [
+      {
+        "heading": "Entender el mecanismo",
+        "body": "La ansiedad es proyección: tu cerebro imagina un problema futuro y activa la alarma como si estuviera pasando ahora mismo. En pequeñas dosis, eso es útil — te prepara. Pero cuando entra en bucle, te agota sin resolver nada. Reconocer que un pensamiento ansioso es solo una hipótesis, no una predicción, ya le quita parte de su poder."
+      },
+      {
+        "heading": "La ventana de preocupaciones",
+        "body": "Reserva un bloque diario de 15 minutos — siempre a la misma hora — para preocuparte a propósito. Cuando una preocupación aparezca fuera de ese bloque, anótala y pospónla. A menudo, cuando llega el momento, la preocupación ha perdido intensidad. Esta técnica le enseña a tu cerebro que manejas las preocupaciones en tus propios términos, no cuando ellas quieren irrumpir."
+      },
+      {
+        "heading": "Actúa sobre lo que puedes controlar",
+        "body": "Mucha ansiedad viene de obsesionarse con cosas fuera de tu control. Clasifícalo: ¿qué depende de mí, qué no? Para lo controlable, toma una acción concreta. Para lo demás, practica soltarlo. La acción — aunque sea pequeña — es el antídoto más fiable contra la rumiación."
+      }
+    ],
+    "steps": [
+      "Escribe un pensamiento ansioso y pregúntate: ¿hecho o hipótesis?",
+      "Crea una 'ventana de preocupaciones' diaria de 15 minutos.",
+      "Clasifica cada preocupación: dentro de mi control o no.",
+      "Toma una acción concreta sobre lo que puedes controlar.",
+      "Reduce el café y las pantallas por la noche — ambos amplifican la ansiedad."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuál es la diferencia entre estrés y ansiedad?",
+        "a": "El estrés responde a una presión presente e identificable. La ansiedad anticipa una amenaza futura, generalmente vaga. Las herramientas se solapan en gran medida."
+      },
+      {
+        "q": "¿Cuándo necesita la ansiedad ayuda profesional?",
+        "a": "Si es casi diaria, altera tu sueño, estudios o vida social, consulta a un médico o terapeuta. La ansiedad responde muy bien al tratamiento."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "staying-motivated-long-term-es",
+    "theme": "mindset",
+    "locale": "es",
+    "title": "Mantener la motivación a largo plazo",
+    "emoji": "🔋",
+    "intro": "La motivación no es una reserva mágica que dura indefinidamente — necesita recargarse. Entender cómo funciona te permite dejar de depender ciegamente de ella.",
+    "sections": [
+      {
+        "heading": "La acción va antes que la motivación",
+        "body": "Creemos que necesitamos motivación para actuar. En realidad, suele funcionar al revés: la acción crea motivación. Empezar una tarea — aunque sea sin muchas ganas — genera un impulso que antes no existía. Esperar el momento perfecto es una trampa. Lo correcto es empezar pequeño y dejar que la motivación llegue sola por el camino."
+      },
+      {
+        "heading": "Motivación interna vs. externa",
+        "body": "La motivación externa — notas, la opinión de los demás, recompensas — funciona un tiempo pero se desvanece. La motivación interna, alimentada por el propósito, el placer de aprender y la sensación de avanzar, dura mucho más. Conecta tus objetivos con un 'por qué' que de verdad te mueva. Eso es lo que te sostiene los días de poca energía."
+      },
+      {
+        "heading": "Construye sistemas, no solo metas",
+        "body": "Las metas te dicen a dónde ir; los sistemas te dicen cómo llegar ahí cada día. Una meta sin rutina depende enteramente de la fuerza de voluntad, que fluctúa. Un hábito bien instalado funciona incluso sin motivación. Apuesta por rutinas pequeñas y consistentes en lugar de arranques de entusiasmo intenso que se agotan rápido."
+      }
+    ],
+    "steps": [
+      "Cuando no tengas ganas, empieza con solo 2 minutos.",
+      "Escribe el 'por qué' profundo detrás de tu objetivo.",
+      "Convierte el objetivo en una rutina diaria sencilla.",
+      "Registra tu progreso visualmente para ver hasta dónde has llegado.",
+      "Acepta los días bajos sin abandonarlo todo."
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo manejas los días con cero motivación?",
+        "a": "Baja el listón al mínimo: haz una versión 'micro' de la tarea. Mantener la racha viva — aunque sea pequeña — vale más que parar por completo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "cook-a-quick-cheap-meal-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Schnell und günstig kochen",
+    "emoji": "🍳",
+    "intro": "Gut essen, ohne das Budget zu sprengen oder stundenlang am Herd zu stehen, ist eine Fähigkeit, die du lernen kannst. Ein paar Grundlagen reichen, um wirklich für dich selbst sorgen zu können.",
+    "sections": [
+      {
+        "heading": "Immer eine einfache Vorratskammer parat haben",
+        "body": "Mit ein paar günstigen Grundvorräten, die immer da sind, kannst du jederzeit eine Mahlzeit zusammenstellen. Pasta, Reis, Linsen, Dosentomaten und Kichererbsen, Eier, Zwiebeln, Knoblauch, Öl und Gewürze bilden ein solides Fundament. Diese Sachen halten lang und kosten wenig. Wenn deine Vorratskammer gut gefüllt ist, bestellst du nie mehr aus Faulheit teuer."
+      },
+      {
+        "heading": "Drei verlässliche Rezepte draufhaben",
+        "body": "Du brauchst keine fünfzig Rezepte — drei Gerichte, die du jedes Mal hinbekommst, reichen, um die ganze Woche zu rotieren. Eine Nudel-Gemüse-Pfanne, gebratener Reis mit Ei und eine Linsensuppe oder Dahl decken das Wesentliche ab. Beherrsche sie richtig, dann variiere Gemüse und Gewürze. Sicherheit in der Küche kommt durch Wiederholung, nicht durch Komplexität."
+      },
+      {
+        "heading": "In größeren Mengen kochen",
+        "body": "Zwei oder drei Portionen statt einer zu machen, kostet kaum mehr Zeit. Du isst abends und behältst den Rest für das Mittagessen am nächsten Tag, oder frierst ihn ein. Diese Gewohnheit — Batch-Cooking genannt — bedeutet, dass du nicht jeden Tag kochen musst und Verschwendung reduziert wird. Investiere in ein paar luftdichte Behälter: Sie amortisieren sich schnell im Vergleich zu Fertigessen."
+      }
+    ],
+    "steps": [
+      "Bau eine Grundvorratskammer mit Pasta, Reis, Linsen und Konserven auf.",
+      "Such dir drei einfache Rezepte aus und übe, bis du sie im Schlaf kannst.",
+      "Koch konsequent zwei Portionen statt einer.",
+      "Halte luftdichte Behälter für Reste bereit.",
+      "Notiere, was dir schmeckt, um dein eigenes Rezeptrepertoire aufzubauen."
+    ],
+    "faq": [
+      {
+        "q": "Ich habe kein Equipment — wo fange ich an?",
+        "a": "Eine Bratpfanne, ein Kochtopf, ein gutes Messer und ein Schneidebrett decken 90% der Rezepte ab. Den Rest kaufst du, wenn echter Bedarf entsteht."
+      },
+      {
+        "q": "Ist selbst kochen wirklich günstiger als Fertigessen?",
+        "a": "Ja, deutlich. Eine selbst gekochte Mahlzeit kostet oft zwei- bis dreimal weniger als ein Fertiggericht oder eine Lieferung, und die Qualität ist besser."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Einkaufen ohne das Budget zu sprengen",
+    "emoji": "🛒",
+    "intro": "Der Einkauf schlägt bei jedem Budget zu Buche. Mit einer einfachen Methode gibst du weniger aus, ohne schlechter zu essen.",
+    "sections": [
+      {
+        "heading": "Eine Liste machen und daran halten",
+        "body": "Ohne Liste in den Supermarkt zu gehen, ist ein sicherer Weg, impulsiv einzukaufen und das Budget zu überschreiten. Bevor du losgehst, schau, was du hast, plan ein paar Mahlzeiten und schreib genau auf, was du brauchst. Eine Liste schützt dich vor den Impulskäufen, die strategisch am Regalende platziert sind. Satt einkaufen hilft ebenfalls enorm."
+      },
+      {
+        "heading": "Preis pro Kilo vergleichen",
+        "body": "Das große Preisschild vorne sagt dir nicht viel. Schau immer auf den Preis pro Kilogramm oder Liter, der klein auf dem Etikett steht — das ist der einzige ehrliche Weg, zwei Produkte zu vergleichen. Größere Formate sind oft günstiger pro Einheit, aber nicht immer. Eigenmarkenprodukte bieten häufig die gleiche Qualität wie große Marken, für deutlich weniger Geld."
+      },
+      {
+        "heading": "Auf Vollwertkost und saisonales Gemüse setzen",
+        "body": "Verarbeitete und vorgefertigte Produkte kosten mehr und nähren weniger. Einen Teil deines Budgets auf Vollwertkost umzulenken — Gemüse, Stärke, Hülsenfrüchte, Eier — zahlt sich aus. Saisonales Obst und Gemüse schmeckt besser und ist günstiger. Tiefgefrorenes Gemüse ist ein super Verbündeter: günstig, kein Abfall und genauso nährstoffreich wie frisches."
+      }
+    ],
+    "steps": [
+      "Check deinen Vorrat und plan ein paar Mahlzeiten, bevor du gehst.",
+      "Schreib eine genaue Liste und halte dich daran.",
+      "Vergleiche Produkte nach Preis pro Kilo oder Liter.",
+      "Bevorzuge Eigenmarken und saisonales Gemüse.",
+      "Geh nie hungrig einkaufen."
+    ],
+    "faq": [
+      {
+        "q": "Hilft Online-Einkaufen, weniger auszugeben?",
+        "a": "Oft ja: Du siehst die Summe in Echtzeit steigen und umgehst Verlockungsgänge. Pass nur auf die Liefergebühren auf."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eating-healthy-on-a-tight-budget-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Gut essen mit knappem Budget",
+    "emoji": "🥗",
+    "intro": "Gesund essen ist nicht nur für Leute mit Geld. Die nährstoffreichsten Lebensmittel gehören oft zu den günstigsten.",
+    "sections": [
+      {
+        "heading": "Günstige Proteinquellen",
+        "body": "Fleisch ist nicht die einzige Proteinquelle, und in der Regel die teuerste. Eier, Linsen, Kichererbsen, Bohnen und Tofu sind günstig und sättigend. Diese Quellen abwechselnd durch die Woche zu verwenden, senkt die Rechnung deutlich und hält die Ernährung abwechslungsreich. Wenn du Fleisch kaufst, sind Schmorteile günstiger und unglaublich lecker."
+      },
+      {
+        "heading": "Einen einfachen Teller aufbauen",
+        "body": "Ein ausgewogener Teller ist nicht kompliziert: eine Stärkekomponente, eine Proteinquelle und Gemüse für die halbe Portion. Du musst nichts berechnen — diese visuelle Vorlage reicht. Gefrorenes oder konserviertes Gemüse zählt genauso wie frisches. Die Idee ist Farbe und Abwechslung, ohne darüber nachzudenken oder mehr auszugeben."
+      },
+      {
+        "heading": "Zuckerhaltiges und ultraprozessiertes Essen reduzieren",
+        "body": "Softdrinks, Kekse, Fertiggerichte und Snacks sind teuer und nährstoffarm. Weniger davon zu konsumieren, gibt Budget frei für echte Lebensmittel. Du musst sie nicht komplett streichen — behandle sie als gelegentlichen Genuss statt als tägliche Gewohnheit. Leitungswasser bleibt das günstigste und gesündeste Getränk."
+      }
+    ],
+    "steps": [
+      "Ersetze etwas Fleisch durch Eier und Hülsenfrüchte.",
+      "Baue deine Mahlzeiten mit Stärke, Protein und Gemüse auf.",
+      "Verwende Tiefkühl- und Konservengemüse ohne Bedenken.",
+      "Hebe Zucker- und verarbeitete Produkte für besondere Anlässe auf.",
+      "Trink Leitungswasser statt Softdrinks."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "plan-your-weekly-meals-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Deine Mahlzeiten für die Woche planen",
+    "emoji": "📅",
+    "intro": "Jeden Tag in letzter Minute zu entscheiden, was man isst, ist anstrengend und teuer. Zehn Minuten Planung pro Woche befreien den Kopf.",
+    "sections": [
+      {
+        "heading": "Warum Planung alles verändert",
+        "body": "Ohne Plan landest du oft beim Bestellen oder kaufst willkürlich ein, was teurer ist und weniger nährt. Mahlzeiten zu planen gibt dir eine genaue Einkaufsliste, reduziert Verschwendung und beseitigt die stressige Frage „Was esse ich heute Abend?\". Du musst nicht alles planen — schon grob fünf Abendessen festzulegen reicht, um die Woche zu transformieren."
+      },
+      {
+        "heading": "Mit dem beginnen, was du schon hast",
+        "body": "Bevor du neue Rezepte erfindet, öffne deine Schränke, den Kühlschrank und den Gefrierschrank. Baue deine Mahlzeiten um das auf, was bereits da ist, besonders Sachen, die bald ablaufen. Diese Gewohnheit verhindert, dass Essen vergessen hinten im Kühlschrank landet, und reduziert spürbar die Verschwendung. Dann ergänzt du die Einkaufsliste nur mit dem, was wirklich fehlt."
+      },
+      {
+        "heading": "Flexibel bleiben",
+        "body": "Ein zu starrer Plan überlebt selten eine ganze Woche. Stelle stattdessen eine Liste möglicher Mahlzeiten zusammen, ohne jedem Tag ein bestimmtes Gericht zuzuweisen. Halte außerdem ein supereinfaches Backup-Gericht bereit — Pasta oder ein Omelett — für Abende, an denen die Energie fehlt. Planung soll für dich arbeiten, nicht dich einengen."
+      }
+    ],
+    "steps": [
+      "Reserviere jede Woche feste zehn Minuten zum Planen.",
+      "Mach Bestand im Kühlschrank, in Schränken und im Gefrierschrank.",
+      "Wähle fünf bis sieben Mahlzeiten aus dem, was du bereits hast.",
+      "Leite deine Einkaufsliste aus dem Plan ab.",
+      "Halte ein Backup-Gericht für energiearme Abende bereit."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cut-down-on-food-waste-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Lebensmittelverschwendung reduzieren",
+    "emoji": "♻️",
+    "intro": "Essen wegzuwerfen bedeutet, Geld wegzuwerfen. Kleine Gewohnheiten helfen dir, fast alles zu verwerten, was du kaufst.",
+    "sections": [
+      {
+        "heading": "Den Kühlschrank richtig organisieren",
+        "body": "Ein gut organisierter Kühlschrank hilft dir zu sehen, was du hast. Stell ältere Produkte nach vorne, damit du sie zuerst isst. Der untere Teil des Kühlschranks ist am kältesten — ideal für Fleisch und Fisch; das Gemüsefach ist für Gemüse. Halte eine gut sichtbare Zone für Lebensmittel, die bald aufgebraucht werden müssen. Deinen Vorrat klar zu sehen, verhindert die vergessenen Sachen, die im Müll enden."
+      },
+      {
+        "heading": "Datumsaufschriften verstehen",
+        "body": "Es gibt zwei Arten von Daten. Das Mindesthaltbarkeitsdatum auf frischen Produkten wie Fleisch bedeutet: nicht überschreiten. Das Mindesthaltbarkeitsdatum signalisiert nur einen möglichen Qualitätsverlust — viele Produkte sind danach noch gut. Vertraue auch bei Trockenwaren deiner Nase und deinem gesunden Menschenverstand."
+      },
+      {
+        "heading": "Mit Resten und Gefrierschrank kochen",
+        "body": "Reste sind kein Abfall — sie werden die Mahlzeit von morgen oder die Basis eines neuen Gerichts. Altes Brot wird zu Croutons, müdes Gemüse zu Suppe, gestriger Reis zu gebratenen Reis. Der Gefrierschrank ist dein Verbündeter: Er hält fast alles an — von Brot bis zu gekochten Portionen — und stoppt den Wettlauf gegen das Ablaufdatum."
+      }
+    ],
+    "steps": [
+      "Stell ältere Produkte im Kühlschrank nach vorne.",
+      "Lerne den Unterschied zwischen den beiden Arten von Datumsaufschriften.",
+      "Verwandle deine Reste in eine neue Mahlzeit.",
+      "Friere ein, was du nicht rechtzeitig aufessen wirst.",
+      "Mach vor jedem Einkauf einen kurzen Kühlschrank-Check."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "kitchen-essentials-on-a-budget-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Die Küche mit den Basics ausstatten",
+    "emoji": "🍴",
+    "intro": "Du kannst sehr gut kochen ohne eine High-Tech-Küche. Ein paar gut gewählte Werkzeuge halten dich jahrelang.",
+    "sections": [
+      {
+        "heading": "Das absolute Minimum zum Starten",
+        "body": "Um die große Mehrheit der Gerichte zuzubereiten, brauchst du sehr wenig: eine Bratpfanne, einen Kochtopf, ein gutes Kochmesser, ein Schneidebrett, ein Sieb, einen Holzlöffel und einen Pfannenwender. Das deckt schon fast alles ab. Du musst deine Schränke nicht mit Gadgets füllen, die Staub sammeln. Den Rest kaufst du nur, wenn echter Bedarf entsteht."
+      },
+      {
+        "heading": "Dort investieren, wo es zählt",
+        "body": "Bei bestimmten Dingen macht Qualität einen echten Unterschied und hält lang. Ein gutes, scharfes Messer verändert das tägliche Kochen und ist sicher — ein stumpfes Messer rutscht ab und schneidet in die Finger. Eine anständige Pfanne verhindert, dass alles anhaftet. Für alles andere reicht Einsteigerqualität. Flohmärkte und Second-Hand-Seiten sind super, um sich günstig auszustatten."
+      },
+      {
+        "heading": "Pflegen, damit es hält",
+        "body": "Gut gepflegtes Equipment hält jahrelang. Wasche deine Messer von Hand und bewahre sie getrennt auf, damit die Klinge erhalten bleibt. Vermeide Metallutensilien in Antihaft-Pfannen. Trockne Metallteile, um Rost zu vermeiden. Diese einfachen Gewohnheiten bewahren dich davor, Equipment nachkaufen zu müssen, und halten deine Küche angenehm und sicher."
+      }
+    ],
+    "steps": [
+      "Kaufe zuerst Pfanne, Topf, Messer und Schneidebrett.",
+      "Gib mehr Geld für Qualität beim Messer und der Pfanne aus.",
+      "Alles andere günstig Second-Hand oder auf Flohmärkten finden.",
+      "Messer von Hand waschen und separat aufbewahren.",
+      "Weiteres Equipment nur kaufen, wenn echter Bedarf entsteht."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "basic-nutrition-fundamentals-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Die Grundlagen der Ernährung verstehen",
+    "emoji": "🍎",
+    "intro": "Du musst kein Experte sein, um gut zu essen. Ein paar einfache Orientierungspunkte reichen, um täglich gute Entscheidungen zu treffen.",
+    "sections": [
+      {
+        "heading": "Die drei Hauptnährstoffgruppen",
+        "body": "Dein Körper braucht drei breite Nährstofftypen. Kohlenhydrate — in Stärke und Obst — liefern Energie. Proteine — in Fleisch, Eiern und Hülsenfrüchten — bauen und reparieren den Körper. Fette — in Öl, Nüssen und Fisch — sind trotz ihres schlechten Rufs unverzichtbar. Ein ausgewogener Teller enthält etwas von jedem, ohne eine Gruppe zu verteufeln."
+      },
+      {
+        "heading": "Ein Etikett einfach lesen",
+        "body": "Etiketten wirken kompliziert, aber ein paar Orientierungspunkte reichen. Prüf die Zutatenliste: Je kürzer und lesbarer sie ist, desto besser. Sei vorsichtig bei Produkten, bei denen Zucker unter den ersten Zutaten auftaucht. Die Nährwerttabelle ermöglicht den Vergleich zweier Produkte, besonders bei Zucker und Salz. Ein einfaches Ampel- oder Bewertungssystem gibt einen schnellen Überblick zum Vergleich."
+      },
+      {
+        "heading": "Abwechslung vor Perfektion",
+        "body": "Kein Lebensmittel ist magisch und keines ist verboten. Das Wichtigste ist Abwechslung und Balance über die Woche, nicht Perfektion bei jeder Mahlzeit. Strebe nach viel Gemüse, Protein bei jeder Mahlzeit und begrenze ultraprozessiertes Essen ohne es zu verbieten. Auf Hunger und Sättigung zu hören, zählt genauso wie die Zahlen. Eine entspannte Beziehung zum Essen ist nachhaltiger."
+      }
+    ],
+    "steps": [
+      "Füge bei jeder Mahlzeit Kohlenhydrate, Protein und etwas Fett hinzu.",
+      "Lies Zutatenlisten und bevorzuge kurze.",
+      "Vergleiche Zucker und Salz über die Nährwerttabelle.",
+      "Strebe über die Woche nach Abwechslung statt nach Perfektion.",
+      "Hör auf deine Hunger- und Sättigungssignale."
+    ],
+    "faq": [
+      {
+        "q": "Muss ich Kalorien zählen?",
+        "a": "Für die meisten Menschen nicht. Vollwertige Lebensmittel zu bevorzugen und auf den Hunger zu hören, reicht aus. Kalorienzählen kann sogar eine ängstliche Beziehung zum Essen erzeugen."
+      },
+      {
+        "q": "Sind Nahrungsergänzungsmittel notwendig?",
+        "a": "Eine abwechslungsreiche Ernährung deckt den Bedarf der meisten Menschen. Bei einem spezifischen Anliegen wie Vitamin D sprich mit einem Arzt oder Apotheker."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "quick-healthy-breakfast-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Ein schnelles, gesundes Frühstück zusammenstellen",
+    "emoji": "🥣",
+    "intro": "Das Frühstück muss nicht aufwendig sein, um den Tag gut zu starten. Ein paar einfache Ideen reichen völlig aus.",
+    "sections": [
+      {
+        "heading": "Wie ein gutes Frühstück in der Praxis aussieht",
+        "body": "Ein sättigendes Frühstück kombiniert idealerweise eine Quelle komplexer Kohlenhydrate, eine Proteinquelle und ein Stück Obst. Vollkornbrot mit einem Ei, Joghurt mit Haferflocken und Obst oder Erdnussbutter auf Toast mit einer Banane erfüllen ihren Zweck. Das Wichtigste ist, nicht rein auf Zucker zu setzen, was zwei Stunden später einen Energieabfall verursacht. Etwas Protein hilft dir, bis zum Mittagessen durchzuhalten."
+      },
+      {
+        "heading": "Morgens Zeit sparen",
+        "body": "Wenn es morgens hektisch zugeht, bereite am Abend vor. Overnight Oats (im Kühlschrank über Nacht eingeweichter Porridge) können direkt aus dem Kühlschrank gegessen werden. Obst zu schneiden oder Schüsseln am Abend vorzubereiten spart wertvolle Minuten. Du kannst auch gleich mehrere Portionen auf einmal vorbereiten. Ein fertiges Frühstück nimmt dir eine Entscheidung ab und reduziert den Morgenstress."
+      },
+      {
+        "heading": "Was, wenn du morgens keinen Hunger hast",
+        "body": "Nicht jeder hat gleich nach dem Aufwachen Hunger, und das ist okay. Du musst dich nicht zwingen — du kannst etwas etwas später mitnehmen, gegen Vormittag. Ein Stück Obst, eine Handvoll Nüsse oder ein Joghurt in der Tasche funktioniert gut. Die Hauptsache ist, nicht völlig ausgehungert zum Mittagessen anzukommen und wahllos zuzugreifen."
+      }
+    ],
+    "steps": [
+      "Kombiniere komplexe Kohlenhydrate, Protein und ein Stück Obst.",
+      "Vermeide rein süße Frühstücke.",
+      "Bereite Overnight Oats am Abend vorher zu, wenn du's eilig hast.",
+      "Halte einen Snack in der Tasche, falls du frühs keinen Hunger hast.",
+      "Find zwei oder drei Formate, die dir wirklich schmecken."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "store-food-properly-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Lebensmittel richtig lagern",
+    "emoji": "🧊",
+    "intro": "Lebensmittel richtig aufzubewahren lässt sie länger halten, reduziert Verschwendung und schützt deine Gesundheit.",
+    "sections": [
+      {
+        "heading": "Im Kühlschrank hat alles seinen Platz",
+        "body": "Der Kühlschrank hat nicht überall die gleiche Temperatur. Unten ist es am kältesten — leg Fleisch, Fisch und empfindliche frische Produkte dorthin. Mittlere Regale sind für Milchprodukte und Reste. Die Tür, die wärmer ist, ist für Kondimente und Getränke gedacht. Halte den Kühlschrank bei etwa vier Grad und überfülle ihn nicht, damit die Luft zirkulieren kann."
+      },
+      {
+        "heading": "Was nicht in den Kühlschrank gehört",
+        "body": "Manche Lebensmittel halten sich besser außerhalb des Kühlschranks. Tomaten verlieren dort ihren Geschmack; Kartoffeln, Zwiebeln und Knoblauch bevorzugen einen trockenen, dunklen Platz. Brot wird in der Kälte schneller altbacken — besser einfrieren, wenn du es nicht aufbrauchst. Bananen werden im Kühlschrank schwarz. Diese Ausnahmen zu kennen, verhindert, Textur und Geschmack zu ruinieren."
+      },
+      {
+        "heading": "Den Gefrierschrank gut nutzen",
+        "body": "Der Gefrierschrank verlängert die Haltbarkeit von Lebensmitteln enorm. Friere in Portionen ein, damit du nur auftauen musst, was du brauchst. Beschrifte mit dem Datum, um den Überblick zu behalten. Tau im Kühlschrank auf, nie lang bei Raumtemperatur, um Bakterien zu vermeiden. Friere nie ein Produkt wieder ein, das bereits roh aufgetaut wurde."
+      }
+    ],
+    "steps": [
+      "Lagere Fleisch und Fisch unten im Kühlschrank.",
+      "Bewahre Tomaten, Kartoffeln und Zwiebeln außerhalb des Kühlschranks auf.",
+      "Friere Brot und übrig gebliebene Portionen ein.",
+      "Beschrifte Behälter mit dem Datum.",
+      "Tau im Kühlschrank auf, nie lang bei Raumtemperatur."
+    ],
+    "faq": [
+      {
+        "q": "Wie lange hält sich ein gekochtes Gericht im Kühlschrank?",
+        "a": "In der Regel maximal zwei bis drei Tage. Wenn du bei Geruch oder Aussehen unsicher bist, riskier es nicht — wirf es weg."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reinvent-your-leftovers-de",
+    "theme": "vie-pratique",
+    "locale": "de",
+    "title": "Aus deinen Resten eine neue Mahlzeit zaubern",
+    "emoji": "🍲",
+    "intro": "Reste sind keine Last. Mit ein paar Ideen werden sie zu einer cleveren Mahlzeit ohne Verschwendung.",
+    "sections": [
+      {
+        "heading": "Die Basen, die sich überall wiederverwenden lassen",
+        "body": "Manche Reste lassen sich leicht umwandeln. Gestriger Reis wird zu gebratenem Reis mit Ei und Gemüse. Kalte Pasta wird zu einem Auflauf aufgewärmt. Altes Brot macht Croutons, French Toast oder Semmelbrösel. Müdes Gemüse landet als Suppe, Omelett oder Pfannengericht. Diese Allzweckrezepte nehmen fast alles auf, was im Kühlschrank schlummert."
+      },
+      {
+        "heading": "Nach Kategorien denken, nicht nach Rezepten",
+        "body": "Statt nach einem bestimmten Rezept zu suchen, schau, was du nach Typ hast: eine Stärkekomponente, ein Protein, etwas Gemüse. Stärke plus Gemüse plus Ei ist schon eine Mahlzeit. Eine Suppe nimmt fast jedes Gemüse auf. Eine Quiche oder ein Omelett recycelt Proteine und Gemüse. Diese Logik macht dich unabhängig, ohne auf ein festgelegtes Rezept angewiesen zu sein."
+      },
+      {
+        "heading": "Sicherheit bei Resten",
+        "body": "Reste zu verwerten ist toll, aber bleib vernünftig. Stell Reste schnell nach der Mahlzeit in den Kühlschrank, spätestens nach zwei Stunden. Iss sie innerhalb von zwei bis drei Tagen. Erhitze sie gründlich, bis alles durch und durch heiß ist. Erwärme dasselbe Gericht nicht mehrere Male. Beim kleinsten Zweifel an Geruch, Farbe oder Textur geh kein Risiko ein."
+      }
+    ],
+    "steps": [
+      "Reste innerhalb von zwei Stunden nach dem Essen in den Kühlschrank stellen.",
+      "Sortiere, was du hast, nach Stärke, Protein und Gemüse.",
+      "Verwerte Reis zu gebratenem Reis, Brot zu Croutons.",
+      "Nutze Suppen und Omeletts, um übrig gebliebenes Gemüse aufzunehmen.",
+      "Gründlich erhitzen und innerhalb von drei Tagen aufessen."
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

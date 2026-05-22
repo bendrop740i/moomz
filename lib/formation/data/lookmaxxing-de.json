@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "beginner-skincare-routine-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Deine erste Hautpflege-Routine aufbauen",
+    "emoji": "✨",
+    "intro": "Du brauchst keine zehn Produkte für schöne Haut. Drei einfache Schritte, täglich wiederholt, reichen völlig aus, um anzufangen.",
+    "sections": [
+      {
+        "heading": "Die drei Grundpfeiler",
+        "body": "Eine effektive Routine besteht aus drei Schritten: Reinigen, Feuchtigkeitspflege, Schutz. Morgens: sanft reinigen, Feuchtigkeitscreme auftragen, dann Sonnenschutz. Abends: reinigen, um Staub und Talg des Tages zu entfernen, dann eincremen. Alles andere ist optional. Konsequenz schlägt Produktanzahl jedes Mal — eine einfache Routine, die du wirklich durchhältst, ist immer besser als eine aufwendige, die du nach einer Woche abbrichst."
+      },
+      {
+        "heading": "Die richtigen Produkte auswählen",
+        "body": "Vergiss teure Luxusmarken. Ein sanfter, seifenfreier Reiniger, eine neutrale Feuchtigkeitscreme und ein Sonnenschutz decken deinen Bedarf und kosten in der Drogerie fast nichts. Finde zuerst deinen Hauttyp heraus: Haut, die sich nach dem Reinigen eng anfühlt, ist oft trocken; Glanz um die Mittagszeit deutet auf fettige Haut hin. Wähle leichtere Texturen bei fettiger Haut, reichhaltigere bei trockener. Stark parfümierte Produkte können reizen — besser vermeiden."
+      },
+      {
+        "heading": "Häufige Fehler",
+        "body": "Der erste Fehler ist zu viel auf einmal: Wer sofort starke Wirkstoffe schichtet, reizt die Haut und provoziert Rötungen und Pickel. Der zweite ist, auf Sonnenschutz zu verzichten — dabei ist er die wirksamste Anti-Aging-Maßnahme überhaupt. Der dritte ist der wöchentliche Produktwechsel — gib deiner Haut drei bis vier Wochen Zeit zu reagieren, bevor du ein Urteil fällst. Einfach geduldig beobachten."
+      }
+    ],
+    "steps": [
+      "Morgens: reinigen, eincremen, mindestens LSF 30 auftragen.",
+      "Abends: reinigen, um Talg und Unreinheiten zu entfernen, dann eincremen.",
+      "Nur mit drei Basisprodukten starten.",
+      "Mindestens einen Monat bei derselben Routine bleiben, bevor du sie bewertest.",
+      "Einen Wirkstoff (Säure, Retinol) erst hinzufügen, wenn die Grundroutine sitzt."
+    ],
+    "faq": [
+      {
+        "q": "Brauche ich verschiedene Produkte für morgens und abends?",
+        "a": "Der große Unterschied ist der Sonnenschutz morgens. Abends kannst du eine gezielte Behandlung ergänzen, aber das ist kein Muss."
+      },
+      {
+        "q": "Sind teure Produkte besser?",
+        "a": "Nicht unbedingt. Viele günstige Drogerieprodukte funktionieren wirklich gut. Was zählt, ist die Formel und die Konsequenz — nicht der Preis."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-skin-type-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Deinen Hauttyp kennen, um besser für sie zu sorgen",
+    "emoji": "🔍",
+    "intro": "Die richtigen Produkte zu wählen beginnt damit, deine Haut zu kennen. Ein einfacher Heimtest liefert dir die Antwort in wenigen Stunden.",
+    "sections": [
+      {
+        "heading": "Die wichtigsten Hauttypen",
+        "body": "Es gibt vier Grundprofile: normal (ausgeglichen), trocken (spannt, neigt zu Schuppenbildung), fettig (glänzend mit sichtbaren Poren) und Mischhaut (fettig in der T-Zone, normal oder trocken an den Wangen). Dann gibt es noch empfindliche Haut, die leicht mit Rötungen oder Kribbeln reagiert — sie kann mit jedem anderen Typ kombiniert auftreten. Wer sein Profil kennt, kauft keine ungeeigneten Produkte mehr."
+      },
+      {
+        "heading": "Der Taschentuch-Test",
+        "body": "Reinige dein Gesicht abends mit einem sanften Produkt und trag nichts auf. Am nächsten Morgen, vor dem Waschen, drücke ein Papiertaschentuch auf verschiedene Stellen deines Gesichts. Bleibt es überall trocken, tendiert deine Haut zu normal oder trocken. Gibt es Fettigkeit nur in der Mitte, hast du Mischhaut. Fett überall bedeutet fettige Haut. Ein Spannungsgefühl weist auf trockene Haut hin."
+      },
+      {
+        "heading": "Haut verändert sich",
+        "body": "Dein Hauttyp ist nicht unveränderlich. Er wandelt sich mit dem Alter, den Jahreszeiten, Stress, Ernährung und Hormonen. Fettige Teenagerhaut kann später zu Mischhaut werden. Im Winter trocknet Kälte die Haut oft aus, im Sommer glänzt sie mehr. Überprüfe deinen Hauttyp zweimal im Jahr und passe die Texturen an: leichter im Sommer, nährender im Winter."
+      }
+    ],
+    "steps": [
+      "Mach den Taschentuch-Test morgens, bevor du etwas aufträgst.",
+      "Beachte, welche Zonen fettig, gespannt oder rötungsanfällig sind.",
+      "Check, ob deine Haut leicht brennt — ein Zeichen für Empfindlichkeit.",
+      "Wähle leichte Texturen für fettige Haut, reichhaltigere für trockene.",
+      "Überprüfe deinen Hauttyp mit jedem Jahreszeitzenwechsel."
+    ],
+    "faq": [
+      {
+        "q": "Kann Haut gleichzeitig fettig und dehydriert sein?",
+        "a": "Ja. Fettige Haut produziert Talg, kann aber trotzdem Wasser mangeln. In dem Fall ist eine leichte Feuchtigkeitscreme trotzdem wichtig."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "how-to-wash-your-face-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Gesicht richtig reinigen – morgens und abends",
+    "emoji": "🧼",
+    "intro": "Reinigung ist das Fundament guter Haut. Falsch gemacht reizt sie; richtig gemacht bereitet sie die Haut auf alles weitere vor.",
+    "sections": [
+      {
+        "heading": "Warum Reinigen so wichtig ist",
+        "body": "Im Laufe des Tages sammeln sich Talg, Staub, Umweltverschmutzung und Produktreste auf deiner Haut. Die Reinigung entfernt diese Schicht, verhindert verstopfte Poren und hilft Pflegeprodukte besser einziehen zu lassen. Reinigen heißt aber nicht ausstreifen: Fühlt sich deine Haut nach dem Waschen sehr eng an, warst du zu aggressiv. Eine gute Reinigung hinterlässt die Haut sauber, geschmeidig und angenehm — nie rau oder gereizt."
+      },
+      {
+        "heading": "Die richtige Technik",
+        "body": "Nutze lauwarmes Wasser, nie kochend heiß — zu heißes Wasser greift die Haut an. Trag den Reiniger mit den Fingerspitzen in sanften, kreisenden Bewegungen für dreißig Sekunden bis eine Minute auf. Gib Nase und Kinn etwas mehr Aufmerksamkeit, wo sich Talg sammelt. Gut abspülen, damit kein Rückstand bleibt, dann mit einem sauberen Handtuch abtupfen — nicht reiben. Morgens reicht bei trockener Haut oft klares Wasser."
+      },
+      {
+        "heading": "Häufigkeit und Übertreiben",
+        "body": "Zweimal täglich reinigen reicht: morgens und abends. Zu häufiges Waschen stört die Schutzbarriere der Haut und macht sie reaktiv. Nach dem Sport reicht eine Abspülung mit klarem Wasser, wenn die Zeit knapp ist. Meid aggressive, stark schäumende oder stark parfümierte Reiniger, die austrocknen. Fühlt sich deine Haut nach dem Waschen regelmäßig eng an, wechsle zu etwas Sanfterem."
+      }
+    ],
+    "steps": [
+      "Wasche die Hände, bevor du dein Gesicht anfasst.",
+      "Lauwarmes Wasser verwenden — nie kochend heiß.",
+      "Den Reiniger dreißig Sekunden in sanften Kreisen einmassieren.",
+      "Gut abspülen und mit einem sauberen Handtuch abtupfen — nicht reiben.",
+      "Zweimal täglich reinigen: morgens und abends, nicht öfter."
+    ],
+    "faq": [
+      {
+        "q": "Brauche ich ein Waschlappen oder eine Reinigungsbürste?",
+        "a": "Saubere Finger reichen völlig aus. Tücher und Bürsten können reizen und Bakterien beherbergen, wenn sie nicht oft genug gewechselt werden."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moisturize-your-skin-daily-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Haut täglich eincremen – richtig gemacht",
+    "emoji": "💧",
+    "intro": "Gut hydratisierte Haut sieht glatter, strahlender aus und altert besser. Ein schneller Schritt mit sichtbarem Ergebnis.",
+    "sections": [
+      {
+        "heading": "Warum jede Haut Feuchtigkeit braucht",
+        "body": "Sogar fettige Haut braucht Feuchtigkeit: Talg ist kein Wasser. Wenn die Haut dehydriert ist, produziert sie als Schutzreaktion mehr Fett — was den Glanz verstärkt. Feuchtigkeitscreme stärkt die Hautbarriere, reduziert das Spannungsgefühl und hält die Haut geschmeidig. Das Ergebnis: ein gleichmäßigerer Teint und feinere Poren. Ein sinnvoller Schritt in jedem Alter, unabhängig vom Hauttyp."
+      },
+      {
+        "heading": "Die richtige Textur wählen",
+        "body": "Das Wichtigste ist, die Textur dem Hauttyp anzupassen. Fettige oder Mischhaut: Gel oder leichte Creme, nicht komedogen, kein fettiger Film. Trockene Haut: reichhaltigere Creme, vielleicht mit pflegenden Inhaltsstoffen. Empfindliche Haut: kurze Inhaltsstofflisten, ohne Duftstoffe. Im Winter ruhig zu einer reichhaltigeren Textur wechseln, auch wenn die Haut normalerweise fettig ist."
+      },
+      {
+        "heading": "Wann und wie auftragen",
+        "body": "Trag deine Feuchtigkeitscreme auf leicht feuchter Haut auf, direkt nach dem Reinigen — das Restwasser hilft, die Feuchtigkeit einzuschließen. Nimm eine erbsengroße Menge, verteile sie auf dem Gesicht und streiche sie nach oben und außen ohne zu ziehen. Vergiss den Hals nicht. Morgens kommt die Feuchtigkeitscreme vor dem Sonnenschutz. Abends kann sie der letzte Schritt der Routine sein."
+      }
+    ],
+    "steps": [
+      "Feuchtigkeitscreme auf noch leicht feuchter Haut auftragen.",
+      "Eine erbsengroße Menge reicht — mehr Produkt bringt keinen Mehrwert.",
+      "Nach oben und außen streichen, kein Ziehen oder Reiben.",
+      "Den Hals nicht vergessen — er wird oft vernachlässigt.",
+      "Textur je nach Jahreszeit und Hauttyp anpassen."
+    ],
+    "faq": [
+      {
+        "q": "Meine Haut ist fettig — muss ich trotzdem eincremen?",
+        "a": "Unbedingt. Wer auf Feuchtigkeitspflege verzichtet, bringt die Haut dazu, noch mehr Fett zu produzieren. Wähle einfach eine leichte Gelformel."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "daily-sunscreen-habit-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Jeden Tag Sonnenschutz auftragen",
+    "emoji": "☀️",
+    "intro": "Das ist die wirksamste und günstigste Anti-Aging-Maßnahme überhaupt. Eine Dreißig-Sekunden-Gewohnheit, die langfristig alles verändert.",
+    "sections": [
+      {
+        "heading": "Warum die Sonne deine Haut zeichnet",
+        "body": "UV-Strahlen sind verantwortlich für den Großteil der sichtbaren Hautalterung: Falten, Pigmentflecken, Elastizitätsverlust und fahler Teint. Sie dringen durch Wolken und Glas, wirken also auch an grauen Tagen oder wenn du drinnen am Fenster sitzt. Sonnenschutz blockiert einen Großteil dieser Strahlen. Er ist mit Abstand die wirkungsvollste Investition für langfristig schöne Haut."
+      },
+      {
+        "heading": "Den richtigen wählen und richtig auftragen",
+        "body": "Mindestens LSF 30, idealerweise LSF 50 fürs Gesicht, mit Breitbandschutz. Die Textur spielt eine Rolle — du musst ihn wirklich täglich tragen wollen: Fluid bei fettiger Haut, Creme bei trockener. Trag eine großzügige Menge auf (ca. zwei Finger breit für Gesicht und Hals) als letzten Schritt der Morgenroutine, vor dem Make-up. Eine zu dünne Schicht reduziert den Schutz erheblich."
+      },
+      {
+        "heading": "Den ganzen Tag nachcremen",
+        "body": "Sonnenschutz hält nicht den ganzen Tag — er baut sich mit der Zeit, durch Schweiß und Reibung ab. Wer drinnen ist, kommt mit einmaligem Morgenauftragen meist aus. Draußen alle zwei Stunden nachcremen. Es gibt Sprays und Stifte, die das Nachcremen über Make-up hinweg einfach machen. Vergiss die oft übersehenen Stellen nicht: Ohren, Nacken und Handrücken."
+      }
+    ],
+    "steps": [
+      "Jeden Morgen LSF 30–50 auftragen, auch an bewölkten Tagen.",
+      "Eine großzügige Menge verwenden: zwei Finger breit für Gesicht und Hals.",
+      "Als letzten Hautpflegeschritt auftragen, vor dem Make-up.",
+      "Draußen alle zwei Stunden nachcremen.",
+      "Ohren, Hals und Hände nicht vergessen."
+    ],
+    "faq": [
+      {
+        "q": "Brauche ich im Winter oder an bewölkten Tagen Sonnenschutz?",
+        "a": "Ja. UV-Strahlen dringen durch Wolken und sind das ganze Jahr über aktiv. Nur eine tägliche Gewohnheit schützt wirklich."
+      },
+      {
+        "q": "Verhindert Sonnenschutz das Bräunen?",
+        "a": "Er verlangsamt das Bräunen und schützt vor Schäden. Gesunde, nicht verbrannte Haut ist immer das bessere Ziel."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-acne-calmly-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Akne gelassen und mit guten Gewohnheiten in den Griff bekommen",
+    "emoji": "🌱",
+    "intro": "Akne ist extrem häufig und kein Grund zur Scham. Ein paar einfache Gewohnheiten helfen, sie zu beruhigen, ohne die Haut zu stressen.",
+    "sections": [
+      {
+        "heading": "Akne verstehen",
+        "body": "Akne entsteht, wenn Poren durch Talg und abgestorbene Hautzellen verstopfen, manchmal verstärkt durch Bakterien und Hormone. Sie betrifft einen Großteil aller Teenager und viele Erwachsene — du bist damit absolut nicht allein. Sie ist kein Zeichen mangelnder Hygiene. Zu verstehen, dass es sich um einen normalen Hautprozess handelt, hilft dir, ihn mit Geduld statt mit Panik anzugehen."
+      },
+      {
+        "heading": "Gute tägliche Gewohnheiten",
+        "body": "Halte deine Routine sanft: ein milder Reiniger, eine leichte, nicht komedogene Feuchtigkeitscreme, Sonnenschutz. Vermeide es, deine Haut auszustreifen — das verschlimmert Akne meist. Fass deine Pickel nicht an und drücke sie nicht aus: Du riskierst bleibende Narben und Infektionen. Wechsle regelmäßig den Kopfkissenbezug, reinige dein Smartphone und halte die Hände vom Gesicht fern. Konsequenz beruhigt die Haut Schritt für Schritt."
+      },
+      {
+        "heading": "Wann du zum Arzt solltest",
+        "body": "Wenn deine Akne großflächig, schmerzhaft ist, Narben hinterlässt oder sich nach einigen Monaten mit sanfter Routine nicht bessert, geh zum Hautarzt oder Arzt. Wirksame, gezielte Behandlungen gibt es. Um Hilfe zu bitten ist kein Versagen — es ist der direkteste Weg zu Ergebnissen. Lass die Finger von Wundermitteln aus dem Internet: Die meisten sind wirkungslos oder reizend."
+      }
+    ],
+    "steps": [
+      "Routine sanft halten — die Haut nie ausstreifen.",
+      "Pickel nicht anfassen oder ausdrücken.",
+      "Kopfkissenbezug jede Woche wechseln.",
+      "Smartphone reinigen — es berührt ständig deine Wange.",
+      "Bei hartnäckiger oder starker Akne einen Arzt aufsuchen."
+    ],
+    "faq": [
+      {
+        "q": "Verursacht Schokolade Pickel?",
+        "a": "Der direkte Zusammenhang ist schwach. Eine ausgewogene Ernährung hilft der Haut, aber Akne wird hauptsächlich durch Hormone ausgelöst."
+      },
+      {
+        "q": "Soll ich aufhören, Make-up zu tragen?",
+        "a": "Nein, aber wähle nicht komedogene Produkte und entferne dein Make-up jeden Abend gründlich."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gentle-skin-exfoliation-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Haut sanft peelen – ohne zu übertreiben",
+    "emoji": "🌀",
+    "intro": "Richtig eingesetzt geben Peelings eine glattere, strahlendere Haut. Falsch angewendet reizen sie. So findest du die Balance.",
+    "sections": [
+      {
+        "heading": "Was Peeling bewirkt",
+        "body": "Peeling entfernt abgestorbene Zellen, die sich auf der Hautoberfläche angesammelt haben. Das Ergebnis: feinere Textur, strahlenderen Teint und bessere Aufnahme der danach aufgetragenen Produkte. Die Haut erneuert sich natürlich, aber dieser Prozess verlangsamt sich mit dem Alter und kann unregelmäßig werden. Dosiertes Peeling gibt ihm einen Schub — ersetzt aber nie die grundlegende Reinigung und Pflege."
+      },
+      {
+        "heading": "Physikalische vs. chemische Peelings",
+        "body": "Physikalische Peelings verwenden Partikel, um die Haut abzureiben: wähle eines mit feinen Partikeln und trag es ohne starken Druck auf. Chemische Peelings nutzen sanfte Säuren, um abgestorbene Zellen aufzulösen, ohne zu schrubben — oft schonender für die Hautbarriere. Für Einsteiger reicht eine leichte Formel ein- bis zweimal pro Woche völlig aus. Was auch immer du verwendest, Sanftheit ist das oberste Gebot."
+      },
+      {
+        "heading": "Übertreiben vermeiden",
+        "body": "Der häufigste Fehler ist zu häufiges oder zu aggressives Peelen in der Annahme, mehr hilft mehr. Überpeelte Haut wird rot, empfindlich, glänzend und unangenehm. Maximal ein- bis zweimal pro Woche, und nie auf bereits gereizter Haut oder über entzündeten Pickeln. Nach dem Peelen gut eincremen und am nächsten Tag Sonnenschutz tragen — frisch gepeelte Haut reagiert stärker auf UV."
+      }
+    ],
+    "steps": [
+      "Höchstens ein- bis zweimal pro Woche peelen.",
+      "Sanftes Peeling mit feinen Partikeln oder eine milde Säure wählen.",
+      "Nie stark drücken — das Produkt erledigt die Arbeit.",
+      "Gereizte Haut oder entzündete Pickel nicht peelen.",
+      "Danach eincremen und am nächsten Tag Sonnenschutz tragen."
+    ],
+    "faq": [
+      {
+        "q": "Mein Gesicht ist nach dem Peelen rot — ist das normal?",
+        "a": "Eine leichte vorübergehende Rötung kann vorkommen, aber starke oder anhaltende Rötung bedeutet, dass du zu oft peelingst. Verringere die Häufigkeit."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eye-area-skincare-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Die Haut rund ums Auge pflegen",
+    "emoji": "👁️",
+    "intro": "Die Haut rund ums Auge ist dünn und empfindlich. Ein paar sanfte Handgriffe helfen, deinen Blick frisch und ausgeruht wirken zu lassen.",
+    "sections": [
+      {
+        "heading": "Eine Zone, die besondere Aufmerksamkeit braucht",
+        "body": "Die Haut rund ums Auge gehört zur dünnsten am gesamten Körper und hat sehr wenige Talgdrüsen. Sie zeigt Müdigkeit, Dehydrierung und Schlafmangel schnell. Außerdem ist sie eine Hochmobilitätszone — du blinzelst tausende Male täglich. Das heißt aber nicht, dass du dir Sorgen machen musst: Ein wenig Aufmerksamkeit und Sanftheit reicht, um sie in Form zu halten."
+      },
+      {
+        "heading": "Feuchtigkeitspflege und schonende Behandlung",
+        "body": "Eine Augencreme ist nicht zwingend nötig: eine sanfte, gut verträgliche Feuchtigkeitscreme reicht aus, solange sie nicht brennt. Was am meisten zählt, ist das Auftragen. Verwende den Ringfinger — er hat den leichtesten Druck — und tippe das Produkt sehr sanft auf, ohne zu ziehen oder zu reiben. Geh nicht zu nah an die Wimpernlinie. Reibe dir nie mit Nachdruck die Augen — das ist eine der schlimmsten Sachen, die du dieser Zone antun kannst."
+      },
+      {
+        "heading": "Was die Augenpartie wirklich müde wirken lässt",
+        "body": "Müde Augen kommen meistens vom Lebensstil, nicht von Produkten. Schlafmangel, Dehydrierung, zu viel Salz, Bildschirmzeit und trockene Luft zeichnen die Augenpartie schnell. Genug schlafen, viel Wasser trinken und Bildschirmpausen einlegen bringen mehr als jede Creme. Kälte hilft morgens — ein gekühlter Löffel, ein paar Minuten aufgedrückt, kann Schwellungen reduzieren."
+      }
+    ],
+    "steps": [
+      "Produkt mit dem Ringfinger durch sanftes Antippen auftragen.",
+      "Nie an der Haut ziehen oder die Augen reiben.",
+      "Eine sanfte Feuchtigkeitscreme reicht, wenn sie nicht brennt.",
+      "Genug schlafen und Wasser trinken — das sind die echten Augenpfleger.",
+      "Morgens Kälte einsetzen, um Schwellungen zu reduzieren."
+    ],
+    "faq": [
+      {
+        "q": "Ab welchem Alter sollte ich Augencreme verwenden?",
+        "a": "Es gibt kein festgelegtes Alter. Gute Lebensgewohnheiten sind viel wichtiger als ein bestimmtes Produkt zu einem bestimmten Zeitpunkt."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remove-makeup-every-night-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Make-up jeden Abend vollständig entfernen",
+    "emoji": "🌙",
+    "intro": "Mit Make-up zu schlafen stresst deine Haut. Eine gründliche Reinigung dauert nur ein paar Minuten und macht einen echten Unterschied.",
+    "sections": [
+      {
+        "heading": "Warum du nie mit Make-up schlafen solltest",
+        "body": "Im Schlaf regeneriert sich deine Haut. Make-up drauf lassen verstopft Poren, die sich mit dem Staub und Talg des Tages vermischen. Das führt zu Pickeln, fahlem Teint und kann die Augen reizen. Einige Minuten Abschminken am Abend verhindert all das. Es ist einer der einfachsten und lohnendsten Schritte in jeder Routine, egal welcher Hauttyp."
+      },
+      {
+        "heading": "Die Double-Cleansing-Methode",
+        "body": "Doppelreinigung funktioniert ausgezeichnet: Beginne mit einem ölbasiertem Produkt oder Balsam, der Make-up, Sonnenschutz und Talg auflöst; folge dann mit einem wasserbasiertem Reiniger, um die Rückstände zu entfernen. Für die Augen tränke ein Wattepäd mit einem sanften Abschminker, halte es für ein paar Sekunden auf dem Auge, damit das Make-up sich löst, dann vorsichtig abtupfen ohne zu reiben. Diese Geduld schützt die empfindliche Zone."
+      },
+      {
+        "heading": "Auch an faulen Abenden",
+        "body": "An Abenden, wo du erschöpft bist, halte eine Schnelllösung griffbereit: Abschminktücher sind gelegentlich ein akzeptables Backup, auch wenn sie nicht so gründlich reinigen. Das Ziel ist, den Schritt nie vollständig auszulassen. Richte deinen Abschminkbereich so ein, dass es mühelos geht: Produkte sichtbar, Wattepäds griffbereit. Je einfacher es ist, desto länger hältst du die Gewohnheit durch."
+      }
+    ],
+    "steps": [
+      "Jeden Abend abschminken — keine Ausnahmen.",
+      "Mit einem ölbasierten Produkt beginnen, dann mit einem wasserbasierten Reiniger folgen.",
+      "Das Wattepäd ein paar Sekunden auf den Augen halten, bevor du abtupfst.",
+      "Nie reiben, besonders rund ums Auge.",
+      "Eine Schnelllösung für müde Abende bereithalten."
+    ],
+    "faq": [
+      {
+        "q": "Reicht Mizellarwasser allein?",
+        "a": "Als Backup ja, aber danach noch mit einem sanften Reiniger abspülen lässt die Haut deutlich sauberer zurück — besonders bei langhaftendem Make-up."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "caring-for-sensitive-skin-de",
+    "theme": "lookmaxxing",
+    "locale": "de",
+    "title": "Empfindliche und reaktive Haut pflegen",
+    "emoji": "🌸",
+    "intro": "Empfindliche Haut braucht Sanftheit und Einfachheit. Wenige, gut ausgewählte Produkte schlagen jede aufgeblähte Routine.",
+    "sections": [
+      {
+        "heading": "Empfindliche Haut erkennen",
+        "body": "Empfindliche Haut rötet sich leicht, kribbelt oder erhitzt sich bei bestimmten Produkten, hartem Wasser oder Temperaturwechseln. Sie kann sich eng und unangenehm anfühlen. Empfindlichkeit ist kein eigenständiger Hauttyp — sie kann bei trockener, fettiger oder Mischhaut auftreten. Die gute Nachricht: Mit der richtigen Routine beruhigt sie sich oft merklich."
+      },
+      {
+        "heading": "Routine vereinfachen",
+        "body": "Das Prinzip: auf das Minimum reduzieren. Ein sehr sanfter Reiniger, eine beruhigende Feuchtigkeitscreme, ein gut verträglicher Sonnenschutz. Kurze Inhaltsstofflisten, kein Duft, kein Alkohol. Starke Wirkstoffe, aggressive Peelings und ständige Produktwechsel vermeiden. Wenn du etwas Neues ausprobierst, teste es zuerst auf einer kleinen Fläche — zum Beispiel Handgelenk oder Kinn — für ein paar Tage."
+      },
+      {
+        "heading": "Die Hautbarriere schützen",
+        "body": "Empfindliche Haut hat oft eine geschwächte Barriere, die Reizstoffe eindringen und Feuchtigkeit entweichen lässt. Um sie zu stärken: zu heißes Wasser vermeiden, Haut nicht ausstreifen und morgens wie abends eincremen. Kälte, Wind und trockene Heizungsluft verstärken die Empfindlichkeit — schütz dein Gesicht im Winter. Bei starken oder dauerhaften Rötungen zum Arzt gehen, um eine spezifische Ursache auszuschließen."
+      }
+    ],
+    "steps": [
+      "Routine auf die sanften Grundlagen reduzieren.",
+      "Duft- und alkoholfreie Formeln wählen.",
+      "Jedes neue Produkt zuerst auf einer kleinen Fläche testen.",
+      "Heißes Wasser und aggressive Peelings vermeiden.",
+      "Im Winter Haut vor Kälte und Wind schützen."
+    ],
+    "faq": [
+      {
+        "q": "Ist empfindliche Haut dasselbe wie allergische Haut?",
+        "a": "Nein. Empfindlichkeit ist eine allgemeine Reaktivität; eine Allergie ist eine spezifische Reaktion auf einen Inhaltsstoff. Im Zweifel einen Arzt aufsuchen."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

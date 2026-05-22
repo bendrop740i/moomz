@@ -1,0 +1,332 @@
+[
+  {
+    "slug": "learning-to-code-where-to-start",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Learning to code: where to actually start",
+    "emoji": "💻",
+    "intro": "Coding is learnable — but not in a week. Here's how to build a solid foundation without getting lost.",
+    "sections": [
+      {
+        "heading": "Pick one language and stick with it",
+        "body": "The classic mistake is jumping between ten languages. For beginners, Python is ideal: readable syntax, huge community, useful for automation, data, and web. If you want visible results fast, the HTML/CSS/JavaScript combo delivers something in the browser on day one. Choose one, and stay with it for three to six months. The core concepts — variables, loops, functions, conditions — transfer easily to any other language once you've got them down."
+      },
+      {
+        "heading": "Code every day, even just 30 minutes",
+        "body": "Consistency beats intensity. Thirty minutes a day beats six hours on Sunday. Your brain needs repetition to wire in the logic. Lock in a fixed time slot — maybe first thing in the morning before class or work. After three months of daily practice, you'll hit the tipping point where code starts to make sense. The first few weeks are rough for everyone — that's completely normal."
+      },
+      {
+        "heading": "Build mini projects, don't just follow tutorials",
+        "body": "Watching tutorials gives you a false sense of mastery. Real learning happens when you build something alone. After each new concept, make a small project: a calculator, a converter, a quiz. You'll get stuck, search for answers, make mistakes — that's exactly where the growth is. Keep your projects in a folder; you'll be able to track your progress, and they'll fuel your future portfolio."
+      },
+      {
+        "heading": "Learn to search and read the docs",
+        "body": "Developers spend a huge chunk of their time hunting for solutions. Knowing how to phrase a search query, read an error message, and consult the official docs is a skill in itself. Don't copy code without understanding it. When you find an answer, take thirty seconds to figure out why it works. That's what makes you self-sufficient."
+      }
+    ],
+    "steps": [
+      "Choose Python or JavaScript and commit to it for 3 months",
+      "Block 30 minutes of coding time in your schedule every day",
+      "Follow one free structured course all the way through",
+      "After each chapter, build a mini project on your own",
+      "Keep track of your errors and how you solved them",
+      "Join a community where you can ask questions"
+    ],
+    "faq": [
+      {
+        "q": "How long until I can build a real project?",
+        "a": "With consistent practice, expect 3 to 6 months for simple but real projects, and 1 to 2 years to reach an employable level. Be patient — it's a marathon."
+      },
+      {
+        "q": "Do I need to be good at math?",
+        "a": "For most web and app development, middle-school math is enough. Logic matters more than math. Some areas (data, 3D games) demand more."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "choosing-your-first-programming-language",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Which programming language should you learn first?",
+    "emoji": "🐍",
+    "intro": "Python, JavaScript, something else? The right choice depends on what you want to build — not what's trendy.",
+    "sections": [
+      {
+        "heading": "Start from your concrete goal",
+        "body": "The right language depends on the goal. Want to build websites and browser-based apps? JavaScript (with HTML/CSS). Want to automate tasks, do data work, or get into AI? Python. Aiming for mobile development? Kotlin for Android, Swift for iOS. Into games? C# with Unity. Define what excites you first — the language will follow naturally."
+      },
+      {
+        "heading": "Go for a large community",
+        "body": "A widely-used language means more tutorials, more forum answers, and more job opportunities. Python and JavaScript dominate for beginners for exactly this reason. Avoiding niche languages at the start means you're never stuck with no one to ask. Once you have the fundamentals, picking up a second language becomes much faster."
+      },
+      {
+        "heading": "Don't switch every month",
+        "body": "Beginner syndrome: jumping to a new language the moment something gets hard. That's counterproductive — difficulty is part of learning and you'll hit it everywhere. Commit to one language for at least three months. Mastering the foundational concepts is what counts, and those concepts transfer."
+      }
+    ],
+    "steps": [
+      "Write in one sentence what you want to create",
+      "Match your goal to the most appropriate language",
+      "Check that it has a large community and free resources",
+      "Commit to it for 3 months without switching",
+      "Only learn a second language after you've finished one project"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "html-css-basics",
+    "theme": "digital",
+    "locale": "en",
+    "title": "HTML and CSS: build your first web page",
+    "emoji": "🌐",
+    "intro": "HTML structures the content, CSS styles it. This duo is the most visible entry point into coding.",
+    "sections": [
+      {
+        "heading": "Understanding the HTML/CSS difference",
+        "body": "HTML is the skeleton: headings, paragraphs, images, links, buttons. CSS is the skin: colors, fonts, spacing, layout. A page without CSS works but looks like a raw document. A page without HTML has nothing to style. Learn to structure things cleanly in HTML before worrying about design — well-organized content is much easier to style later."
+      },
+      {
+        "heading": "Master modern layout",
+        "body": "Forget the old table-based tricks. Today, two CSS tools cover 90% of layouts: Flexbox for aligning items along a row or column, and Grid for grid-based arrangements. Spend a day getting comfortable with each. Once you've got both down, laying out a page becomes logical instead of a fight."
+      },
+      {
+        "heading": "Think responsive from day one",
+        "body": "Most web traffic comes from mobile. Your page needs to adapt to every screen size. Use flexible units instead of fixed pixels, and media queries to adjust the layout based on width. Regularly test by resizing your browser window. A great-looking desktop page that breaks on mobile is a failed page."
+      }
+    ],
+    "steps": [
+      "Create an index.html file and write a basic structure",
+      "Add headings, paragraphs, images, and links",
+      "Link an external CSS stylesheet",
+      "Learn Flexbox then Grid on small examples",
+      "Make the page responsive with media queries",
+      "Put your page online for free to share it"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "javascript-for-beginners",
+    "theme": "digital",
+    "locale": "en",
+    "title": "JavaScript for beginners: making a page interactive",
+    "emoji": "⚡",
+    "intro": "JavaScript brings your pages to life: clicks, animations, forms. It's the language of the browser.",
+    "sections": [
+      {
+        "heading": "The fundamentals you need to nail",
+        "body": "Before you touch interactivity, lock in the basics: variables, data types, conditions, loops, functions, arrays, and objects. These show up in every line of code. Don't rush toward frameworks. A developer who has mastered plain JavaScript learns React or Vue much faster than someone who skipped that step. Invest the time here — everything else follows."
+      },
+      {
+        "heading": "Manipulating the page with the DOM",
+        "body": "The DOM is the representation of your page that JavaScript can modify. You learn to select an element, change its text, add a class, react to a click. This is what turns a static page into an app. Practice with hands-on projects: a button that changes the background color, a to-do list, a counter. Seeing your code act on screen is incredibly motivating."
+      },
+      {
+        "heading": "Handling async without panicking",
+        "body": "Loading data from the internet takes time, and JavaScript doesn't just freeze and wait. That's the async concept — often confusing at first. Learn promises, then the cleaner async/await syntax. Practice fetching data from a free public API and displaying it. Once this clicks, a huge chunk of modern JavaScript will suddenly make sense."
+      }
+    ],
+    "steps": [
+      "Master variables, conditions, loops, and functions",
+      "Learn to select and modify DOM elements",
+      "Build a to-do list app from scratch",
+      "Understand promises, then async/await",
+      "Fetch and display data from a public API",
+      "Rebuild a project without looking at any tutorials"
+    ],
+    "faq": [
+      {
+        "q": "Should I jump straight into React?",
+        "a": "No. Master plain JavaScript for a few months first. React is much easier to learn after that — and you'll actually understand what it's doing under the hood."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-programming-logic",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Understanding programming logic",
+    "emoji": "🧩",
+    "intro": "Before syntax comes logic. Knowing how to break down a problem is the real developer skill.",
+    "sections": [
+      {
+        "heading": "Break every problem into small steps",
+        "body": "A program is just a sequence of precise instructions. When facing a problem, don't go looking for the complete solution all at once. Chop it into tiny sub-tasks: receive some data, transform it, display it. Write these steps out in plain English before you start coding. This habit — called pseudocode — keeps you from getting lost and makes the jump to real code much smoother."
+      },
+      {
+        "heading": "Think: input, processing, output",
+        "body": "Almost every program follows this pattern: it takes inputs, processes them, and produces an output. A calculator takes two numbers, adds them, and shows the result. Keeping this model in mind clarifies any project. Always ask yourself: what data do I start with, what do I want at the end, and what transformations happen in between?"
+      },
+      {
+        "heading": "Get comfortable with conditions and loops",
+        "body": "Two tools cover almost everything. Conditions make decisions: if this situation, do this; otherwise, do that. Loops repeat an action: for each item in a list, do this. Most programs are just combinations of these two building blocks. Practice recognizing them in simple exercises until they feel automatic."
+      }
+    ],
+    "steps": [
+      "Take a problem and write it out in plain English step by step",
+      "Identify the input, the processing, and the output",
+      "Spot where you need a condition or a loop",
+      "Translate your pseudocode into real code, line by line",
+      "Solve a logic exercise every day"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-git-and-github",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Git and GitHub: save and share your code",
+    "emoji": "🔀",
+    "intro": "Git tracks your code history, GitHub hosts it online. Essential from your very first real project.",
+    "sections": [
+      {
+        "heading": "Why Git changes everything",
+        "body": "Git records every version of your project. You can roll back after a mistake, compare two states, work without fear of breaking things. It's a permanent safety net. Without Git, you make folders named project-final-FINAL-v2. With Git, your history is clean and you can find any version in seconds."
+      },
+      {
+        "heading": "The everyday commands you need",
+        "body": "You only need a handful of commands day-to-day. Init to start tracking, add to stage files, commit to save a version with a clear message, push to send to GitHub, pull to get changes back. Write descriptive commit messages — they tell the story of your project and help you find your way around later."
+      },
+      {
+        "heading": "GitHub: your developer showcase",
+        "body": "GitHub isn't just storage — it's a professional network. Recruiters look at GitHub profiles. An account with regular projects, clean READMEs, and readable code is a strong argument on a resume. Host your projects publicly, put care into their presentation, and even contribute modestly to open source to show you can collaborate."
+      }
+    ],
+    "steps": [
+      "Install Git and configure your name and email",
+      "Create a GitHub account with a professional username",
+      "Initialize a repo in your project with git init",
+      "Make regular commits with clear messages",
+      "Publish your project on GitHub with git push",
+      "Add a README that explains what your project does"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-smartly",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using AI smartly — without cheating yourself",
+    "emoji": "🤖",
+    "intro": "AI is a powerful tool. Used well, it accelerates your growth; used poorly, it gets in the way of learning.",
+    "sections": [
+      {
+        "heading": "AI as a tutor, not a crutch",
+        "body": "Ask AI to explain a concept, correct you, or suggest approaches — not to do everything for you. If you copy an answer without understanding it, you learn nothing and you'll be stuck the moment the tool isn't around. The right move: try on your own first, then use AI to understand why you were stuck. The goal is to become capable of working without it."
+      },
+      {
+        "heading": "Always verify what AI produces",
+        "body": "AI gets things wrong with confidence. It sometimes invents facts, functions, or sources that don't exist. Never blindly trust a response. Run the code to test it, cross-check information against reliable sources, challenge claims. AI speeds up your work, but the responsibility for the result stays with you."
+      },
+      {
+        "heading": "Honesty: don't pass AI output off as your own",
+        "body": "Submitting a homework assignment, article, or project that's entirely AI-generated as your own work is plagiarism — and it's often detected. It also robs you of your own growth. Use AI to brainstorm, structure, and correct, but keep the actual creation yours. When a context requires you to disclose AI use, do it. Integrity builds a reputation that lasts."
+      }
+    ],
+    "steps": [
+      "Always attempt to solve something yourself before asking AI",
+      "Ask for explanations, not just answers",
+      "Test and verify everything AI produces",
+      "Never submit AI work as entirely your own",
+      "Use AI to grow, not to skip learning"
+    ],
+    "faq": [
+      {
+        "q": "Will AI replace developers?",
+        "a": "It's transforming the job more than eliminating it. Those who can use AI while actually understanding code remain highly sought after. Learning the basics is still essential."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-good-ai-prompts",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Writing good prompts for AI",
+    "emoji": "✍️",
+    "intro": "The quality of an AI response depends on your question. A clear prompt makes all the difference.",
+    "sections": [
+      {
+        "heading": "Give context and assign a role",
+        "body": "AI responds better when it knows who it's helping and why. Provide context: your level, the goal, the target audience. You can also assign a role — for example, act as a tough editor or a patient teacher. Instead of saying 'fix this text', say 'fix this internship application email — professional tone, English-speaking audience.' The more specific, the more useful."
+      },
+      {
+        "heading": "Specify the output format",
+        "body": "If you don't say anything, AI picks a format at random. Tell it what you want: a bulleted list, a table, a short paragraph, commented code, a particular tone. You can also set a length. Asking for 'an explanation in five simple points' gives a far more usable result than a vague request. Format saves you a ton of time."
+      },
+      {
+        "heading": "Iterate instead of asking for everything at once",
+        "body": "Good results rarely come from the first prompt. Work in stages: get a draft, then ask for specific adjustments. Shorter. More formal. Add an example. Rephrase this part. This back-and-forth approach produces far better results than one giant prompt. It's a conversation, not a vending machine."
+      }
+    ],
+    "steps": [
+      "Specify context, goal, and audience",
+      "Assign a role to the AI when relevant",
+      "Indicate the desired format and length",
+      "Provide an example of the expected output if possible",
+      "Refine through back-and-forth iterations"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-to-learn-faster",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Using AI to learn faster",
+    "emoji": "📚",
+    "intro": "Used well, AI becomes a 24/7 tutor available for any subject you want to tackle.",
+    "sections": [
+      {
+        "heading": "Get explanations tailored to your level",
+        "body": "One of AI's biggest strengths is adapting an explanation to wherever you're at. Stuck on a concept? Ask for a simple explanation with an everyday analogy, as if you're fifteen. Then ask for a more advanced version when you're ready. You can fire off questions non-stop without bothering anyone, until it actually clicks. No traditional course offers that kind of flexibility."
+      },
+      {
+        "heading": "Test yourself with quizzes",
+        "body": "Passive learning isn't enough — you have to test yourself. Ask AI to quiz you on a chapter, without showing the answers, then have it grade your responses. This active recall mechanism locks in knowledge for the long haul. You can also ask it to break down your mistakes. It's one of the most effective ways to study."
+      },
+      {
+        "heading": "Keep your critical eye",
+        "body": "AI is an excellent starting point, but not an absolute authority. For factual topics, statistics, current events, or sensitive questions, always cross-check with reliable sources. Use it to understand and structure, then verify. The goal is to learn to think for yourself — not to outsource your judgment to a machine."
+      }
+    ],
+    "steps": [
+      "Ask for explanations matched to your current level",
+      "Request an analogy when a concept stays fuzzy",
+      "Have it quiz you to lock in what you've learned",
+      "Ask it to analyze your mistakes",
+      "Cross-check factual info with reliable sources"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "knowing-ais-limits-and-pitfalls",
+    "theme": "digital",
+    "locale": "en",
+    "title": "Knowing AI's limits and pitfalls",
+    "emoji": "⚠️",
+    "intro": "AI is impressive but fallible. Knowing its limits protects you from nasty surprises.",
+    "sections": [
+      {
+        "heading": "Hallucinations: confident errors",
+        "body": "An AI can make up false information while sounding completely sure of itself. It might cite a non-existent book, a wrong statistic, or a code function that doesn't exist. That's what's called a hallucination. The rule is simple: never take an important claim at face value. Always verify — especially facts, numbers, dates, and sources."
+      },
+      {
+        "heading": "Outdated data and bias",
+        "body": "An AI is trained on data up to a certain point — it might know nothing about recent events. It also reflects the biases present in its training data, which can color its answers on social or cultural topics. Keep in mind that its responses are neither neutral nor up-to-date by default. For current events, go to direct sources."
+      },
+      {
+        "heading": "Privacy: be careful what you share",
+        "body": "Don't paste sensitive information into an AI: passwords, banking details, confidential documents, other people's personal data. Depending on the tool, your inputs may be stored or used. Treat every conversation as potentially non-private. Anonymize sensitive information before asking for help, and check the tool's privacy settings."
+      }
+    ],
+    "steps": [
+      "Always verify facts, numbers, and sources",
+      "Don't rely on AI for recent news",
+      "Stay alert to bias in its answers",
+      "Never share sensitive or confidential information",
+      "Read the tool's privacy settings"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

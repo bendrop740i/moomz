@@ -1,0 +1,332 @@
+[
+  {
+    "slug": "learning-to-code-where-to-start-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Programmieren lernen: wo du wirklich anfangen solltest",
+    "emoji": "💻",
+    "intro": "Programmieren ist erlernbar – aber nicht in einer Woche. So baust du ein solides Fundament, ohne dich zu verirren.",
+    "sections": [
+      {
+        "heading": "Eine Sprache wählen und dabei bleiben",
+        "body": "Der klassische Fehler ist es, zwischen zehn Sprachen zu springen. Für Anfänger ist Python ideal: lesbare Syntax, riesige Community, nützlich für Automatisierung, Daten und Web. Wenn du schnell sichtbare Ergebnisse willst, liefert die Kombination HTML/CSS/JavaScript am ersten Tag etwas im Browser. Wähle eine Sprache und bleib ihr drei bis sechs Monate treu. Die Grundkonzepte – Variablen, Schleifen, Funktionen, Bedingungen – lassen sich danach leicht auf jede andere Sprache übertragen."
+      },
+      {
+        "heading": "Täglich coden, auch nur 30 Minuten",
+        "body": "Regelmäßigkeit schlägt Intensität. Dreißig Minuten täglich schlagen sechs Stunden am Sonntag. Dein Gehirn braucht Wiederholung, um die Logik zu verankern. Blocke einen festen Zeitslot – vielleicht morgens früh vor Uni oder Arbeit. Nach drei Monaten täglicher Übung erreichst du den Wendepunkt, an dem Code anfängt, Sinn zu ergeben. Die ersten Wochen sind für alle schwer – das ist völlig normal."
+      },
+      {
+        "heading": "Mini-Projekte bauen, nicht nur Tutorials folgen",
+        "body": "Tutorials zuzuschauen vermittelt ein falsches Gefühl von Beherrschung. Echtes Lernen passiert, wenn du alleine etwas baust. Nach jedem neuen Konzept mach ein kleines Projekt: einen Rechner, einen Konverter, ein Quiz. Du wirst stecken bleiben, nach Antworten suchen, Fehler machen – genau dort passiert das Wachstum. Behalte deine Projekte in einem Ordner; du siehst deinen Fortschritt und sie bilden die Basis deines späteren Portfolios."
+      },
+      {
+        "heading": "Suchen und Dokumentation lesen lernen",
+        "body": "Entwickler verbringen einen großen Teil ihrer Zeit damit, nach Lösungen zu suchen. Eine Suchanfrage gut zu formulieren, eine Fehlermeldung zu lesen und die offizielle Dokumentation zu konsultieren ist selbst eine Fähigkeit. Kopiere keinen Code, ohne ihn zu verstehen. Wenn du eine Antwort findest, nimm dir dreißig Sekunden, um zu verstehen, warum sie funktioniert. Das macht dich selbstständig."
+      }
+    ],
+    "steps": [
+      "Wähle Python oder JavaScript und verpflichte dich 3 Monate dazu",
+      "Blocke täglich 30 Minuten Coding-Zeit in deinen Kalender",
+      "Arbeite einen kostenlosen strukturierten Kurs von Anfang bis Ende durch",
+      "Baue nach jedem Kapitel ein eigenes Mini-Projekt",
+      "Halte deine Fehler und ihre Lösungen fest",
+      "Tritt einer Community bei, in der du Fragen stellen kannst"
+    ],
+    "faq": [
+      {
+        "q": "Wie lange dauert es, bis ich ein echtes Projekt bauen kann?",
+        "a": "Mit regelmäßiger Übung rechne mit 3 bis 6 Monaten für einfache, aber echte Projekte, und 1 bis 2 Jahren, um ein beschäftigungsfähiges Niveau zu erreichen. Hab Geduld – es ist ein Marathon."
+      },
+      {
+        "q": "Muss ich gut in Mathe sein?",
+        "a": "Für die meisten Web- und App-Entwicklungen reicht Schulmathe vollkommen aus. Logik zählt mehr als Mathe. Einige Bereiche (Daten, 3D-Spiele) verlangen mehr."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "choosing-your-first-programming-language-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Welche Programmiersprache solltest du zuerst lernen?",
+    "emoji": "🐍",
+    "intro": "Python, JavaScript oder etwas anderes? Die richtige Wahl hängt davon ab, was du bauen willst – nicht davon, was gerade trendy ist.",
+    "sections": [
+      {
+        "heading": "Von deinem konkreten Ziel ausgehen",
+        "body": "Die richtige Sprache hängt vom Ziel ab. Websites und browserbasierte Apps bauen? JavaScript (mit HTML/CSS). Aufgaben automatisieren, mit Daten arbeiten oder in die KI einsteigen? Python. Mobile Apps entwickeln? Kotlin für Android, Swift für iOS. Spiele? C# mit Unity. Definiere zuerst, was dich begeistert – die Sprache ergibt sich dann von selbst."
+      },
+      {
+        "heading": "Auf eine große Community setzen",
+        "body": "Eine weit verbreitete Sprache bedeutet mehr Tutorials, mehr Forum-Antworten und mehr Job-Chancen. Python und JavaScript dominieren für Anfänger genau aus diesem Grund. Nischensprachen am Anfang zu meiden bedeutet, nie ohne Ansprechpartner dazustehen. Sobald du die Grundlagen hast, wird eine zweite Sprache viel schneller gelernt."
+      },
+      {
+        "heading": "Nicht jeden Monat wechseln",
+        "body": "Anfänger-Syndrom: zur nächsten Sprache zu wechseln, sobald etwas schwer wird. Das ist kontraproduktiv – Schwierigkeiten gehören zum Lernen und du begegnest ihnen überall. Verpflichte dich mindestens drei Monate zu einer Sprache. Die Grundkonzepte zu meistern ist entscheidend, und diese Konzepte übertragen sich."
+      }
+    ],
+    "steps": [
+      "Schreibe in einem Satz, was du erschaffen möchtest",
+      "Ordne dein Ziel der passendsten Sprache zu",
+      "Prüfe, ob sie eine große Community und kostenlose Ressourcen hat",
+      "Bleib ihr 3 Monate treu, ohne zu wechseln",
+      "Lerne eine zweite Sprache erst, nachdem du ein Projekt abgeschlossen hast"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "html-css-basics-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "HTML und CSS: deine erste Webseite bauen",
+    "emoji": "🌐",
+    "intro": "HTML strukturiert den Inhalt, CSS gestaltet ihn. Dieses Duo ist der sichtbarste Einstieg ins Programmieren.",
+    "sections": [
+      {
+        "heading": "Den Unterschied zwischen HTML und CSS verstehen",
+        "body": "HTML ist das Skelett: Überschriften, Absätze, Bilder, Links, Buttons. CSS ist die Haut: Farben, Schriften, Abstände, Layout. Eine Seite ohne CSS funktioniert, sieht aber wie ein rohes Dokument aus. Eine Seite ohne HTML hat nichts zum Gestalten. Lerne, Dinge in HTML sauber zu strukturieren, bevor du dir um Design Gedanken machst – gut organisierter Inhalt lässt sich viel leichter gestalten."
+      },
+      {
+        "heading": "Modernes Layout beherrschen",
+        "body": "Vergiss die alten tabellenbasierten Tricks. Heute decken zwei CSS-Werkzeuge 90 % aller Layouts ab: Flexbox zum Ausrichten von Elementen in einer Reihe oder Spalte, und Grid für rasterbasierte Anordnungen. Nimm dir einen Tag, um dich mit beiden vertraut zu machen. Wenn du beides draufhast, wird das Layouten einer Seite logisch statt mühsam."
+      },
+      {
+        "heading": "Von Anfang an responsiv denken",
+        "body": "Der Großteil des Webtraffics kommt vom Handy. Deine Seite muss sich an jede Bildschirmgröße anpassen. Verwende flexible Einheiten statt fixer Pixel und Media Queries, um das Layout je nach Breite anzupassen. Teste regelmäßig, indem du das Browserfenster verkleinerst. Eine toll aussehende Desktop-Seite, die auf dem Handy bricht, ist eine gescheiterte Seite."
+      }
+    ],
+    "steps": [
+      "Erstelle eine index.html-Datei und schreibe eine grundlegende Struktur",
+      "Füge Überschriften, Absätze, Bilder und Links hinzu",
+      "Verknüpfe ein externes CSS-Stylesheet",
+      "Lerne Flexbox und dann Grid anhand kleiner Beispiele",
+      "Mach die Seite mit Media Queries responsiv",
+      "Stelle deine Seite kostenlos online, um sie zu teilen"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "javascript-for-beginners-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "JavaScript für Anfänger: eine Seite interaktiv machen",
+    "emoji": "⚡",
+    "intro": "JavaScript bringt deine Seiten zum Leben: Klicks, Animationen, Formulare. Es ist die Sprache des Browsers.",
+    "sections": [
+      {
+        "heading": "Die Grundlagen, die du wirklich draufhaben musst",
+        "body": "Bevor du dich mit Interaktivität beschäftigst, verinnerliche die Basics: Variablen, Datentypen, Bedingungen, Schleifen, Funktionen, Arrays und Objekte. Diese tauchen in jeder Codezeile auf. Renne nicht zu Frameworks. Ein Entwickler, der reines JavaScript beherrscht, lernt React oder Vue viel schneller als jemand, der diesen Schritt übersprungen hat. Investiere die Zeit hier – alles andere folgt."
+      },
+      {
+        "heading": "Die Seite mit dem DOM manipulieren",
+        "body": "Das DOM ist die Darstellung deiner Seite, die JavaScript verändern kann. Du lernst, ein Element auszuwählen, seinen Text zu ändern, eine Klasse hinzuzufügen, auf einen Klick zu reagieren. Das verwandelt eine statische Seite in eine App. Übe mit praktischen Projekten: ein Button, der die Hintergrundfarbe ändert, eine To-do-Liste, ein Zähler. Zu sehen, wie dein Code auf dem Bildschirm wirkt, ist unglaublich motivierend."
+      },
+      {
+        "heading": "Async ohne Panik verstehen",
+        "body": "Daten aus dem Internet zu laden braucht Zeit, und JavaScript friert dabei nicht einfach ein. Das ist das Async-Konzept – am Anfang oft verwirrend. Lerne Promises, dann die sauberere async/await-Syntax. Übe, Daten von einer kostenlosen öffentlichen API abzurufen und anzuzeigen. Wenn das klickt, ergibt plötzlich ein riesiger Teil von modernem JavaScript Sinn."
+      }
+    ],
+    "steps": [
+      "Variablen, Bedingungen, Schleifen und Funktionen beherrschen",
+      "Lernen, DOM-Elemente auszuwählen und zu verändern",
+      "Eine To-do-Liste-App von Grund auf bauen",
+      "Promises und dann async/await verstehen",
+      "Daten von einer öffentlichen API abrufen und anzeigen",
+      "Ein Projekt neu bauen, ohne auf Tutorials zu schauen"
+    ],
+    "faq": [
+      {
+        "q": "Soll ich gleich mit React anfangen?",
+        "a": "Nein. Erst ein paar Monate reines JavaScript meistern. React lässt sich danach viel leichter lernen – und du verstehst wirklich, was unter der Haube passiert."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-programming-logic-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Programmierlogik verstehen",
+    "emoji": "🧩",
+    "intro": "Vor der Syntax kommt die Logik. Zu wissen, wie man ein Problem aufbricht, ist die eigentliche Entwicklerfähigkeit.",
+    "sections": [
+      {
+        "heading": "Jedes Problem in kleine Schritte aufteilen",
+        "body": "Ein Programm ist nur eine Abfolge präziser Anweisungen. Wenn du vor einem Problem stehst, suche nicht gleich nach der vollständigen Lösung. Zerhacke es in winzige Teilaufgaben: Daten empfangen, verarbeiten, anzeigen. Schreibe diese Schritte auf Deutsch auf, bevor du anfängst zu coden. Diese Gewohnheit – Pseudocode genannt – verhindert, dass du dich verläufst, und macht den Sprung zum echten Code viel leichter."
+      },
+      {
+        "heading": "Denken: Eingabe, Verarbeitung, Ausgabe",
+        "body": "Fast jedes Programm folgt diesem Muster: Es empfängt Eingaben, verarbeitet sie und erzeugt eine Ausgabe. Ein Taschenrechner nimmt zwei Zahlen, addiert sie und zeigt das Ergebnis. Dieses Modell im Hinterkopf zu behalten klärt jedes Projekt. Frage dich immer: Mit welchen Daten starte ich, was will ich am Ende haben und welche Umwandlungen passieren dazwischen?"
+      },
+      {
+        "heading": "Mit Bedingungen und Schleifen vertraut werden",
+        "body": "Zwei Werkzeuge decken fast alles ab. Bedingungen treffen Entscheidungen: wenn diese Situation, dann das; sonst das andere. Schleifen wiederholen eine Aktion: für jedes Element in einer Liste, tu dies. Die meisten Programme sind nur Kombinationen dieser beiden Bausteine. Übe, sie in einfachen Aufgaben zu erkennen, bis sie sich automatisch anfühlen."
+      }
+    ],
+    "steps": [
+      "Nimm ein Problem und schreibe es Schritt für Schritt auf Deutsch auf",
+      "Identifiziere die Eingabe, die Verarbeitung und die Ausgabe",
+      "Erkenne, wo du eine Bedingung oder eine Schleife brauchst",
+      "Übersetze deinen Pseudocode Zeile für Zeile in echten Code",
+      "Löse täglich eine Logikaufgabe"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-git-and-github-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Git und GitHub: Code speichern und teilen",
+    "emoji": "🔀",
+    "intro": "Git verfolgt deine Code-Historie, GitHub hostet sie online. Unverzichtbar ab deinem ersten echten Projekt.",
+    "sections": [
+      {
+        "heading": "Warum Git alles verändert",
+        "body": "Git speichert jede Version deines Projekts. Du kannst nach einem Fehler zurückrollen, zwei Zustände vergleichen, ohne Angst arbeiten, etwas kaputtzumachen. Es ist ein dauerhaftes Sicherheitsnetz. Ohne Git erstellst du Ordner mit Namen wie projekt-final-FINAL-v2. Mit Git ist deine Historie sauber und du findest jede Version in Sekunden."
+      },
+      {
+        "heading": "Die Alltagsbefehle, die du brauchst",
+        "body": "Du brauchst täglich nur eine Handvoll Befehle. Init zum Starten der Verfolgung, add zum Vormerken von Dateien, commit zum Speichern einer Version mit einer klaren Nachricht, push zum Hochladen auf GitHub, pull zum Herunterladen von Änderungen. Schreibe aussagekräftige Commit-Nachrichten – sie erzählen die Geschichte deines Projekts und helfen dir, dich später zurechtzufinden."
+      },
+      {
+        "heading": "GitHub: deine Entwickler-Visitenkarte",
+        "body": "GitHub ist nicht nur Speicher – es ist ein professionelles Netzwerk. Recruiter schauen sich GitHub-Profile an. Ein Account mit regelmäßigen Projekten, sauberen READMEs und lesbarem Code ist ein starkes Argument im Lebenslauf. Hoste deine Projekte öffentlich, pflege ihre Präsentation sorgfältig und trage bescheiden zu Open Source bei, um zu zeigen, dass du teamfähig bist."
+      }
+    ],
+    "steps": [
+      "Git installieren und Namen sowie E-Mail konfigurieren",
+      "Einen GitHub-Account mit einem professionellen Nutzernamen erstellen",
+      "Ein Repo in deinem Projekt mit git init initialisieren",
+      "Regelmäßige Commits mit klaren Nachrichten erstellen",
+      "Dein Projekt mit git push auf GitHub veröffentlichen",
+      "Eine README hinzufügen, die erklärt, was dein Projekt macht"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-smartly-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "KI clever nutzen – ohne sich selbst zu betrügen",
+    "emoji": "🤖",
+    "intro": "KI ist ein mächtiges Werkzeug. Richtig eingesetzt beschleunigt sie dein Wachstum; falsch eingesetzt behindert sie das Lernen.",
+    "sections": [
+      {
+        "heading": "KI als Tutor, nicht als Krücke",
+        "body": "Bitte KI darum, ein Konzept zu erklären, dich zu korrigieren oder Ansätze vorzuschlagen – nicht darum, alles für dich zu erledigen. Wenn du eine Antwort kopierst, ohne sie zu verstehen, lernst du nichts und steckst sofort fest, sobald das Werkzeug nicht verfügbar ist. Der richtige Weg: Erst selbst versuchen, dann KI nutzen, um zu verstehen, warum du feststeckst. Das Ziel ist es, ohne sie auszukommen."
+      },
+      {
+        "heading": "Alles, was KI produziert, immer prüfen",
+        "body": "KI irrt sich mit Selbstvertrauen. Sie erfindet manchmal Fakten, Funktionen oder Quellen, die nicht existieren. Vertraue einer Antwort niemals blind. Teste den Code, prüfe Informationen mit zuverlässigen Quellen gegen, hinterfrage Behauptungen. KI beschleunigt deine Arbeit, aber die Verantwortung für das Ergebnis liegt bei dir."
+      },
+      {
+        "heading": "Ehrlichkeit: KI-Output nicht als eigene Arbeit ausgeben",
+        "body": "Eine Hausarbeit, einen Artikel oder ein Projekt einzureichen, das vollständig von KI generiert wurde und als eigenes Werk auszugeben, ist Plagiat – und wird oft entdeckt. Es beraubt dich auch deines eigenen Wachstums. Nutze KI zum Brainstormen, Strukturieren und Korrigieren, aber behalte die eigentliche Erstellung bei dir. Wenn ein Kontext verlangt, den KI-Einsatz offenzulegen, tu es. Integrität baut einen Ruf auf, der hält."
+      }
+    ],
+    "steps": [
+      "Versuche immer, etwas selbst zu lösen, bevor du KI fragst",
+      "Frage nach Erklärungen, nicht nur nach Antworten",
+      "Teste und prüfe alles, was KI produziert",
+      "Reiche KI-Arbeit nie vollständig als deine eigene ein",
+      "Nutze KI, um zu wachsen – nicht um das Lernen zu überspringen"
+    ],
+    "faq": [
+      {
+        "q": "Wird KI Entwickler ersetzen?",
+        "a": "Sie verändert den Beruf mehr, als sie ihn eliminiert. Wer KI einsetzen kann und dabei Code wirklich versteht, ist weiterhin sehr gefragt. Die Grundlagen zu lernen bleibt unverzichtbar."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-good-ai-prompts-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Gute Prompts für KI schreiben",
+    "emoji": "✍️",
+    "intro": "Die Qualität einer KI-Antwort hängt von deiner Frage ab. Ein klarer Prompt macht den entscheidenden Unterschied.",
+    "sections": [
+      {
+        "heading": "Kontext geben und eine Rolle zuweisen",
+        "body": "KI antwortet besser, wenn sie weiß, wem sie hilft und warum. Gib Kontext: dein Niveau, das Ziel, die Zielgruppe. Du kannst auch eine Rolle zuweisen – z. B. 'Sei ein strenger Lektor' oder 'Erkläre wie ein geduldiger Lehrer'. Statt 'Korrigiere diesen Text' sagst du: 'Korrigiere diese Bewerbungs-E-Mail für ein Praktikum – professioneller Ton, deutschsprachige Leserschaft.' Je spezifischer, desto nützlicher."
+      },
+      {
+        "heading": "Das Ausgabeformat angeben",
+        "body": "Wenn du nichts sagst, wählt KI ein Format nach Gutdünken. Sag ihr, was du möchtest: eine Aufzählungsliste, eine Tabelle, einen kurzen Absatz, kommentierten Code, einen bestimmten Ton. Du kannst auch eine Länge vorgeben. Um 'eine Erklärung in fünf einfachen Punkten' zu bitten liefert ein viel brauchbareres Ergebnis als eine vage Anfrage. Format spart dir jede Menge Zeit."
+      },
+      {
+        "heading": "In Schritten arbeiten statt alles auf einmal",
+        "body": "Gute Ergebnisse kommen selten beim ersten Prompt. Arbeite in Etappen: erst einen Entwurf holen, dann um spezifische Anpassungen bitten. Kürzer. Formeller. Ein Beispiel hinzufügen. Diesen Teil umformulieren. Dieser iterative Ansatz liefert viel bessere Ergebnisse als ein einziger riesiger Prompt. Es ist ein Gespräch, kein Automat."
+      }
+    ],
+    "steps": [
+      "Kontext, Ziel und Zielgruppe angeben",
+      "Der KI bei Bedarf eine Rolle zuweisen",
+      "Das gewünschte Format und die Länge angeben",
+      "Wenn möglich ein Beispiel des erwarteten Ergebnisses liefern",
+      "Durch Iterationen verfeinern"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-to-learn-faster-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "KI nutzen, um schneller zu lernen",
+    "emoji": "📚",
+    "intro": "Richtig eingesetzt wird KI zu einem 24/7-Tutor für jedes Thema, das du angehen willst.",
+    "sections": [
+      {
+        "heading": "Erklärungen auf deinem Niveau bekommen",
+        "body": "Eine der größten Stärken von KI ist es, eine Erklärung an deinen aktuellen Stand anzupassen. Hängst du bei einem Konzept? Bitte um eine einfache Erklärung mit einer Alltagsanalogie, als wärst du fünfzehn. Bitte dann um eine fortgeschrittenere Version, wenn du bereit bist. Du kannst Fragen ohne Unterbrechung stellen, bis es wirklich klickt. Kein herkömmlicher Kurs bietet diese Flexibilität."
+      },
+      {
+        "heading": "Mit Quizzes testen",
+        "body": "Passives Lernen reicht nicht – du musst dich testen. Bitte KI, dich zu einem Kapitel abzufragen, ohne die Antworten zu zeigen, und dann deine Antworten zu bewerten. Dieser aktive Abrufmechanismus verankert Wissen langfristig. Du kannst sie auch bitten, deine Fehler zu analysieren. Das ist eine der effektivsten Lernmethoden."
+      },
+      {
+        "heading": "Den kritischen Blick behalten",
+        "body": "KI ist ein ausgezeichneter Ausgangspunkt, aber keine absolute Autorität. Bei Faktenfragen, Statistiken, aktuellen Ereignissen oder heiklen Themen immer mit zuverlässigen Quellen gegenchecken. Nutze sie zum Verstehen und Strukturieren, dann prüfe nach. Das Ziel ist es, selbstständig denken zu lernen – nicht das eigene Urteil an eine Maschine auszulagern."
+      }
+    ],
+    "steps": [
+      "Um Erklärungen bitten, die zu deinem aktuellen Niveau passen",
+      "Eine Analogie anfragen, wenn ein Konzept unklar bleibt",
+      "Dich abfragen lassen, um das Gelernte zu verankern",
+      "Deine Fehler analysieren lassen",
+      "Faktische Informationen mit zuverlässigen Quellen gegenchecken"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "knowing-ais-limits-and-pitfalls-de",
+    "theme": "digital",
+    "locale": "de",
+    "title": "Die Grenzen und Fallstricke von KI kennen",
+    "emoji": "⚠️",
+    "intro": "KI ist beeindruckend, aber fehleranfällig. Ihre Grenzen zu kennen schützt dich vor bösen Überraschungen.",
+    "sections": [
+      {
+        "heading": "Halluzinationen: selbstsichere Fehler",
+        "body": "Eine KI kann falsche Informationen erfinden und dabei völlig sicher klingen. Sie zitiert vielleicht ein nicht existierendes Buch, eine falsche Statistik oder eine Codefunktion, die es nicht gibt. Das nennt man Halluzination. Die Regel ist einfach: Vertraue keiner wichtigen Aussage auf Anhieb. Immer prüfen – besonders Fakten, Zahlen, Daten und Quellen."
+      },
+      {
+        "heading": "Veraltete Daten und Verzerrungen",
+        "body": "Eine KI wird mit Daten bis zu einem bestimmten Zeitpunkt trainiert – über aktuelle Ereignisse weiß sie möglicherweise nichts. Sie spiegelt auch die Verzerrungen ihrer Trainingsdaten wider, was ihre Antworten zu sozialen oder kulturellen Themen beeinflussen kann. Denke daran, dass ihre Antworten weder neutral noch standardmäßig aktuell sind. Für aktuelle Ereignisse geh zu direkten Quellen."
+      },
+      {
+        "heading": "Datenschutz: pass auf, was du teilst",
+        "body": "Gib keine sensiblen Informationen in eine KI ein: Passwörter, Bankdaten, vertrauliche Dokumente, personenbezogene Daten anderer. Je nach Tool können deine Eingaben gespeichert oder verwendet werden. Behandle jedes Gespräch als potenziell nicht privat. Anonymisiere sensible Informationen, bevor du um Hilfe bittest, und überprüfe die Datenschutzeinstellungen des Tools."
+      }
+    ],
+    "steps": [
+      "Fakten, Zahlen und Quellen immer prüfen",
+      "KI nicht für aktuelle Nachrichten heranziehen",
+      "Auf Verzerrungen in den Antworten achten",
+      "Nie sensible oder vertrauliche Informationen teilen",
+      "Die Datenschutzeinstellungen des Tools lesen"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

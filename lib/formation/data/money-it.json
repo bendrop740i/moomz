@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "making-your-first-budget-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Come creare il tuo primo budget semplice",
+    "emoji": "📊",
+    "intro": "Un budget non è una punizione — è semplicemente sapere dove va il tuo denaro per riprenderne il controllo. Bastano trenta minuti per cominciare.",
+    "sections": [
+      {
+        "heading": "Perché un budget cambia tutto",
+        "body": "Senza un budget, i soldi svaniscono e non sai dove sono finiti. Con uno, ogni euro ha un compito: spese fisse, svago, risparmio. Non ti rende taccagno — ti rende libero, perché una volta che il piano è in piedi puoi spendere senza sensi di colpa. L'obiettivo non è tracciare ogni centesimo, ma avere una visione d'insieme e smettere di finire il mese in rosso chiedendoti perché."
+      },
+      {
+        "heading": "Elenca entrate e uscite",
+        "body": "Inizia scrivendo tutto ciò che entra: stipendio, lavoro studentesco, aiuti familiari, borse di studio. Poi elenca tutto ciò che esce in un mese tipico: affitto, abbonamenti, trasporti, spesa, uscite. Controlla gli estratti conto degli ultimi due mesi per non tralasciare nulla. La maggior parte delle persone scopre abbonamenti dimenticati o piccoli acquisti ripetuti che sommati fanno una cifra sorprendente."
+      },
+      {
+        "heading": "La regola del 50/30/20",
+        "body": "Una suddivisione semplice per iniziare: circa il 50% del reddito per i bisogni (casa, cibo, trasporti), il 30% per i desideri (uscite, vestiti, hobby), il 20% per il risparmio. Non sono regole rigide — se l'affitto è alto, adattati. L'importante è avere un obiettivo e mettere sempre da parte qualcosa per il risparmio, anche poco, prima di spendere il resto."
+      },
+      {
+        "heading": "Tenere traccia senza complicarsi la vita",
+        "body": "Un budget abbandonato non serve a nessuno. Scegli lo strumento più semplice che funzioni per te: un'app bancaria che categorizza le spese, un foglio di calcolo, anche un quaderno. Fai un controllo di cinque minuti una volta alla settimana. Non devi essere perfetto — se sforti in una categoria, aggiusta il mese successivo. La costanza conta più della precisione."
+      }
+    ],
+    "steps": [
+      "Scrivi tutte le tue entrate del mese.",
+      "Elenca le spese fisse e poi quelle variabili usando gli estratti conto.",
+      "Assegna circa il 50% ai bisogni, 30% ai desideri, 20% al risparmio.",
+      "Scegli uno strumento semplice per tenere traccia — app, foglio di calcolo o quaderno.",
+      "Fai una revisione veloce ogni settimana e aggiusta il mese seguente."
+    ],
+    "faq": [
+      {
+        "q": "E se il mio reddito cambia ogni mese?",
+        "a": "Basa il budget sul tuo mese più magro degli ultimi tempi. Quando guadagni di più, metti il surplus nel risparmio invece di gonfiare le spese."
+      },
+      {
+        "q": "Quanto tempo prima che funzioni davvero?",
+        "a": "Dai due o tre mesi. I primi mesi servono soprattutto a scoprire le tue abitudini reali. Gli aggiustamenti arrivano da soli dopo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-where-your-money-goes-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Capire dove va davvero il tuo denaro",
+    "emoji": "🔍",
+    "intro": "Prima di poter risparmiare di più, hai bisogno di un quadro chiaro. Analizzare le spese passate riserva quasi sempre sorprese facili da correggere.",
+    "sections": [
+      {
+        "heading": "Il tuo estratto conto è il tuo migliore insegnante",
+        "body": "Esporta o stampa gli estratti conto degli ultimi tre mesi e leggili riga per riga. È meno divertente di un film, ma è la cosa più utile che farai mai con i tuoi soldi. Troverai addebiti dimenticati, abbonamenti doppi e serate fuori più frequenti di quanto ricordassi. Nessuna app sostituisce questo confronto onesto con le proprie scelte."
+      },
+      {
+        "heading": "Dividi per categorie ampie",
+        "body": "Metti ogni spesa in un gruppo: casa, cibo, trasporti, abbonamenti, uscite, abbigliamento, varie. Somma ogni gruppo. Ottieni un'istantanea chiara di dove va davvero il tuo denaro. Di solito una o due categorie sono molto più alte del previsto — food delivery e piccoli acquisti online sono i colpevoli più comuni. È lì che si nasconde il maggiore margine di miglioramento."
+      },
+      {
+        "heading": "Individua le perdite silenziose",
+        "body": "Le perdite quasi mai sono le grandi spese — sono quelle piccole e ripetute. Un caffè quotidiano, una consegna a settimana, tre abbonamenti in streaming. Moltiplica ogni piccola spesa per quante volte accade in un mese, poi per dodici. Il dato annuale è di solito sorprendente, ed è quello che alla fine ti motiva a cambiare una singola abitudine invece di sacrificare tutto in una volta."
+      },
+      {
+        "heading": "Decidi cosa tenere e cosa eliminare",
+        "body": "L'obiettivo non è tagliare tutto — è conservare ciò che conta davvero per te ed eliminare il resto senza rimpianti. Se un abbonamento dà vera soddisfazione, tienilo. Se ti rendi conto che un acquisto era solo abitudine automatica, cancellalo. Una spesa consapevole vale più di una passiva, anche se il prezzo è identico."
+      }
+    ],
+    "steps": [
+      "Recupera gli estratti conto degli ultimi tre mesi.",
+      "Suddividi ogni spesa in una categoria chiara.",
+      "Somma ogni categoria per vedere quali pesano di più.",
+      "Calcola il costo annuale delle tue piccole spese ricorrenti.",
+      "Elimina due o tre spese che non aggiungono nulla alla tua vita."
+    ],
+    "faq": [
+      {
+        "q": "È normale sentirsi giù guardando i propri conti?",
+        "a": "All'inizio sì — è scomodo. Ma quel disagio si trasforma rapidamente in una sensazione di controllo. Considerala un punto di partenza, non un giudizio."
+      },
+      {
+        "q": "Quanti mesi di spese devo analizzare?",
+        "a": "Tre mesi danno una buona media — un solo mese può essere atipico. Vedrai le tue abitudini reali anziché un'eccezione isolata."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "opening-your-first-bank-account-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Aprire e scegliere il tuo primo conto in banca",
+    "emoji": "🏦",
+    "intro": "Il conto bancario è la base di tutta la tua vita finanziaria. Scegliere quello giusto ti fa risparmiare commissioni inutili per anni.",
+    "sections": [
+      {
+        "heading": "Banca online o sportello tradizionale?",
+        "body": "Le banche online offrono spesso conti gratuiti senza canone mensile e carta di debito inclusa. Le banche tradizionali hanno una filiale fisica ma di solito applicano canoni mensili. Per un primo conto semplice, una banca online affidabile è più che sufficiente. Considera una banca con sportello solo se hai davvero bisogno di consulenza in presenza con regolarità."
+      },
+      {
+        "heading": "Le commissioni che devi assolutamente controllare",
+        "body": "Confronta quattro voci: canone di gestione del conto, costo della carta, commissioni per prelievi ATM fuori rete e spese per transazioni in valuta estera. Una banca può pubblicizzare una carta gratuita ma addebitare ogni prelievo. Leggi il foglio spese completo, non solo la pubblicità. In un anno, la differenza tra due banche può arrivare a cento euro o più per lo stesso identico servizio."
+      },
+      {
+        "heading": "Documenti da preparare",
+        "body": "Per aprire un conto ti serviranno un documento d'identità valido con foto, una prova di residenza recente e a volte una prova di reddito o di iscrizione scolastica. Se sei minorenne, deve essere presente un genitore. Tieni pronti questi documenti come foto nitide in anticipo — l'apertura online richiede poi pochi minuti invece di andate e ritorni."
+      },
+      {
+        "heading": "Evitare lo scoperto",
+        "body": "Uno scoperto autorizzato sembra comodo ma costa molto in commissioni. Chiedi invece una carta con autorizzazione preventiva — rifiuta i pagamenti quando il saldo è troppo basso, impedendoti di andare in rosso. È una rete di sicurezza, non una vergogna. Puoi sempre passare a una carta standard quando la gestione del denaro è solida."
+      }
+    ],
+    "steps": [
+      "Confronta almeno tre banche sul foglio spese completo.",
+      "Controlla i costi della carta, gli ATM e le commissioni estere.",
+      "Prepara il documento d'identità, la prova di residenza e lo stato.",
+      "Inizia con una carta a preautorizzazione come rete di sicurezza.",
+      "Attiva le notifiche di pagamento per monitorare il saldo."
+    ],
+    "faq": [
+      {
+        "q": "Posso avere più di un conto?",
+        "a": "Sì, ed è persino utile — un conto corrente per le spese quotidiane e un conto risparmio per i tuoi obiettivi. Evita solo di accumulare più conti a pagamento senza una ragione."
+      },
+      {
+        "q": "Cambiare banca è complicato?",
+        "a": "Non più. I servizi di trasferimento bancario aiutano a spostare i tuoi addebiti automatici e ordini permanenti. Confronta attentamente, poi fai il cambio senza paura."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-an-emergency-fund-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Costruire un fondo di emergenza",
+    "emoji": "🛟",
+    "intro": "Il fondo di emergenza è denaro messo da parte per proteggerti dagli imprevisti senza indebitarsi. È il primo mattone di qualsiasi vera sicurezza finanziaria.",
+    "sections": [
+      {
+        "heading": "A cosa serve il fondo di emergenza",
+        "body": "La vita riserva sorprese: un telefono rotto, un laptop morto, un viaggio improvviso, la perdita di un lavoro part-time. Senza un cuscinetto, questi imprevisti ti spingono allo scoperto o al debito. Il fondo di emergenza assorbe il colpo. Non è denaro per divertirsi né un investimento — è un ammortizzatore che usi solo per emergenze vere e proprie, fuori dal tuo controllo."
+      },
+      {
+        "heading": "A quanto mirare",
+        "body": "Quando sei agli inizi, fissa un primo traguardo raggiungibile: un mese di spese, o anche 500 € se ti sembra più realistico. Una volta raggiunto il primo obiettivo, costruisci gradualmente verso tre mesi di spese. La chiave è partire in piccolo per sentire subito la sicurezza, invece di puntare a una cifra enorme che sembra impossibile ancora prima di iniziare."
+      },
+      {
+        "heading": "Dove tenerlo",
+        "body": "Questo fondo deve restare immediatamente accessibile e senza rischi. Un conto di risparmio ad alto rendimento o un conto del mercato monetario è la soluzione giusta — il tuo denaro è al sicuro, senza commissioni e recuperabile in poche ore. Non investire mai il fondo di emergenza in borsa: potrebbe perdere valore proprio quando ne hai più bisogno."
+      },
+      {
+        "heading": "Ricostruirlo dopo averlo usato",
+        "body": "Se lo usi, non è un fallimento — è esattamente a cosa serve. L'unica regola è ricostruirlo dopo. Riprendi il bonifico automatico il mese successivo finché non sei tornato al tuo obiettivo. Guardare il fondo recuperare dopo un'emergenza dà fiducia: sai che il sistema funziona e sei pronto per il prossimo imprevisto."
+      }
+    ],
+    "steps": [
+      "Fissa un primo obiettivo realistico — ad esempio, un mese di spese.",
+      "Apri un conto risparmio dedicato solo a questo fondo.",
+      "Imposta un bonifico automatico mensile, anche piccolo.",
+      "Usalo solo per emergenze vere e inevitabili.",
+      "Ricostruiscilo prontamente dopo ogni utilizzo."
+    ],
+    "faq": [
+      {
+        "q": "Devo costruire il fondo prima di estinguere i debiti?",
+        "a": "Crea prima un piccolo cuscinetto, poi attacca il debito. Senza un margine di sicurezza, qualsiasi spesa imprevista ti costringerebbe a indebitarti di nuovo."
+      },
+      {
+        "q": "Dove non devo assolutamente tenere il fondo di emergenza?",
+        "a": "Mai in borsa o in qualsiasi investimento rischioso — potrebbe perdere valore proprio quando ne hai bisogno. Deve restare al sicuro e immediatamente accessibile."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "saving-on-a-low-income-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Risparmiare anche con un reddito basso",
+    "emoji": "🪙",
+    "intro": "In molti pensano di dover guadagnare tanto per risparmiare. Sbagliato — è l'abitudine che conta, e si costruisce con piccole cifre.",
+    "sections": [
+      {
+        "heading": "Paga prima te stesso",
+        "body": "La maggior parte delle persone risparmia quello che avanza a fine mese — e non avanza mai nulla. Rovescia la logica: nel momento in cui arriva il reddito, metti da parte una piccola somma prima di spendere qualsiasi cosa. Anche dieci o venti euro. Trattando il risparmio come una spesa fissa, lo rendi automatico e quasi non lo senti."
+      },
+      {
+        "heading": "L'automazione è la tua alleata",
+        "body": "Imposta un bonifico automatico dal conto corrente al conto risparmio il giorno dopo aver ricevuto lo stipendio. I soldi partono prima che tu abbia la possibilità di spenderli. Non devi più decidere ogni mese, quindi non c'è tentazione di saltare un versamento. L'automazione trasforma una buona intenzione in un risultato concreto senza richiedere alcuna forza di volontà."
+      },
+      {
+        "heading": "Aumenta a piccoli passi",
+        "body": "Inizia con una cifra così piccola da non farti male. Poi ogni due o tre mesi, aumentala leggermente — passa da 20 a 25 €, ad esempio. Ti adatti gradualmente senza shock al tuo stile di vita. Questa crescita dolce è molto più sostenibile di un grande slancio iniziale che crolla al primo mese difficile."
+      },
+      {
+        "heading": "Dai un obiettivo al tuo risparmio",
+        "body": "Risparmiare per il gusto di risparmiare stanca in fretta. Dai un nome al tuo risparmio: un viaggio, la patente, un laptop, l'indipendenza. Un obiettivo concreto rende ogni versamento soddisfacente perché vedi il tuo sogno avvicinarsi. Puoi persino creare più contenitori mentali all'interno di un unico conto, uno per progetto, per seguire i progressi."
+      }
+    ],
+    "steps": [
+      "Scegli una cifra di risparmio così piccola da sembrare indolore.",
+      "Imposta un bonifico automatico subito dopo il giorno di paga.",
+      "Aumenta la cifra di un piccolo passo ogni due o tre mesi.",
+      "Collega il risparmio a un obiettivo concreto e motivante.",
+      "Controlla i progressi una volta al mese per mantenerti motivato."
+    ],
+    "faq": [
+      {
+        "q": "Vale davvero la pena risparmiare 20 € al mese?",
+        "a": "Sì — sono 240 € in un anno, e soprattutto stai costruendo l'abitudine. L'abitudine vale più della cifra all'inizio."
+      },
+      {
+        "q": "Quando devo programmare il bonifico di risparmio?",
+        "a": "Subito dopo l'arrivo del reddito, così risparmi prima di spendere. Se aspetti la fine del mese, di solito non rimane nulla."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-savings-accounts-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Capire i conti di risparmio",
+    "emoji": "📒",
+    "intro": "I conti di risparmio sono il modo più semplice e sicuro per mettere da parte denaro. Basta capire come funzionano davvero.",
+    "sections": [
+      {
+        "heading": "Cos'è un conto di risparmio",
+        "body": "Un conto di risparmio è un posto sicuro e senza commissioni dove parcheggiare denaro che frutta un piccolo interesse. Il tuo denaro è completamente protetto, resta accessibile quando ne hai bisogno e gli interessi vengono aggiunti regolarmente — spesso con vantaggi fiscali a seconda del tipo di conto. È la soluzione ideale per il fondo di emergenza e gli obiettivi a breve termine."
+      },
+      {
+        "heading": "Come funzionano gli interessi",
+        "body": "Il conto matura un tasso di interesse annuale: se il tasso è 3%, 1.000 € fruttano circa 30 € nel corso dell'anno. Gli interessi si capitalizzano — cioè gli interessi guadagnati maturano a loro volta interessi l'anno successivo. È un piccolo effetto valanga. Per massimizzarlo, deposita il denaro all'inizio di un periodo di capitalizzazione piuttosto che alla fine."
+      },
+      {
+        "heading": "I limiti da conoscere",
+        "body": "Alcuni conti di risparmio hanno massimali di deposito o limiti di versamento. Una volta raggiunto il tetto, il denaro in eccesso deve andare altrove. Tieni soprattutto presente che i rendimenti di un conto risparmio sono bassi — il conto protegge il tuo denaro ma non lo fa crescere davvero. Consideralo uno strumento di sicurezza, non un motore di crescita."
+      },
+      {
+        "heading": "Usare i conti con intelligenza",
+        "body": "La strategia intelligente è semplice: usa un conto per il fondo di emergenza e un altro per gli obiettivi pianificati nel prossimo uno-tre anni. Tieni sul conto corrente solo ciò che ti serve per il mese. Tutto il resto va su un conto risparmio dove è al sicuro e frutta qualcosa — invece di restare fermo senza interessi."
+      }
+    ],
+    "steps": [
+      "Verifica quali conti risparmio offre la tua banca.",
+      "Apri un conto risparmio gratuito per i tuoi risparmi.",
+      "Imposta un bonifico automatico verso di esso.",
+      "Tieni sul conto corrente solo le necessità mensili.",
+      "Controlla il massimale e ridistribuisci il surplus se necessario."
+    ],
+    "faq": [
+      {
+        "q": "Un conto risparmio può perdere valore?",
+        "a": "Il saldo in contanti non scende mai. Tuttavia, se l'inflazione supera il tasso di interesse, il tuo potere d'acquisto si erode silenziosamente — è normale per un conto senza rischi."
+      },
+      {
+        "q": "Cosa fare quando ho raggiunto il massimale del conto?",
+        "a": "Il denaro in eccesso deve andare altrove — un altro conto risparmio, o per obiettivi molto a lungo termine, un investimento diversificato. Studia cosa si adatta alla tua orizzonte temporale."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cleaning-out-subscriptions-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Fare pulizia tra i tuoi abbonamenti",
+    "emoji": "✂️",
+    "intro": "Gli abbonamenti si accumulano silenziosamente e rosicchiano il budget. Una bella pulizia una volta all'anno può farti risparmiare una cifra sorprendente.",
+    "sections": [
+      {
+        "heading": "Fai la lista completa",
+        "body": "Scrivi ogni abbonamento: streaming video e musicale, giochi, app, palestre, box in abbonamento, cloud storage, siti di notizie. Molti vengono addebitati silenziosamente e dimenticati da tempo. Cerca negli estratti conto gli addebiti ricorrenti, anche quelli piccoli. Rimarrai stupito dal totale mensile — e ancora di più da quello annuale quando sommi tutto."
+      },
+      {
+        "heading": "Il test dell'uso reale",
+        "body": "Per ogni abbonamento, chiediti onestamente: l'ho usato davvero questo mese? Aggiunge valore reale o è solo abitudine? Se non lo apri da settimane, è un candidato alla cancellazione. Tieni solo ciò che usi e ti piace davvero. Tutto il resto è denaro buttato via senza ricevere nulla in cambio."
+      },
+      {
+        "heading": "Ruota invece di accumulare",
+        "body": "Non hai bisogno di tre piattaforme in streaming contemporaneamente. Iscriviti a una, guarda ciò che ti interessa, poi disdici e passa alla successiva il mese dopo. La maggior parte degli abbonamenti non ha vincoli. Questa rotazione ti dà accesso a tutto al prezzo di un abbonamento alla volta."
+      },
+      {
+        "heading": "Tieni d'occhio i rinnovi",
+        "body": "Le prove gratuite si trasformano automaticamente in abbonamenti a pagamento se dimentichi di disdire. Segna la data di scadenza di ogni prova sul calendario. Fai attenzione anche agli aumenti silenziosi di prezzo — le piattaforme aumentano i prezzi di continuo senza avvertirti. Rifai questa pulizia ogni sei mesi per tenere sotto controllo le spese ricorrenti."
+      }
+    ],
+    "steps": [
+      "Elenca ogni abbonamento dagli estratti conto.",
+      "Spunta quelli che hai usato davvero questo mese.",
+      "Cancella tutto ciò che non aggiunge valore reale.",
+      "Adotta una strategia di rotazione invece di accumulare piattaforme.",
+      "Segna le date di fine prova per non pagare mai per sbaglio."
+    ],
+    "faq": [
+      {
+        "q": "E se l'abbonamento ha un contratto?",
+        "a": "Nota la data di scadenza del contratto e disdici poco prima. Metti un promemoria — altrimenti si rinnova automaticamente per un altro periodo intero."
+      },
+      {
+        "q": "Ogni quanto devo fare questa pulizia?",
+        "a": "Circa ogni sei mesi. Gli abbonamenti si accumulano in fretta e i prezzi salgono di nascosto — un controllo regolare mantiene le spese ricorrenti sotto controllo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-on-a-budget-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Fare la spesa intelligente con poco budget",
+    "emoji": "🛒",
+    "intro": "Il cibo è uno dei settori dove puoi risparmiare molto senza privarti di nulla — basta cambiare qualche semplice abitudine.",
+    "sections": [
+      {
+        "heading": "La lista della spesa — la tua difesa contro gli acquisti impulsivi",
+        "body": "Fare la spesa senza lista è un invito aperto agli acquisti impulsivi. Pianifica i pasti della settimana e fai una lista in base a quelli — poi rispettala. Mangia prima di andare a fare la spesa: la fame ti spinge a comprare troppo e a prendere cose di cui non hai bisogno. Una lista chiara trasforma una commissione costosa in una missione rapida e controllata."
+      },
+      {
+        "heading": "Confronta il prezzo unitario",
+        "body": "Il prezzo esposto inganna: un formato grande può costare di più al chilo di uno piccolo, e viceversa. Controlla sempre il prezzo unitario stampato in piccolo sul cartellino del scaffale. I prodotti a marchio del distributore spesso costano la metà di quelli di marca per una qualità molto simile. Provaci — la maggior parte viene prodotta negli stessi stabilimenti."
+      },
+      {
+        "heading": "Cucinare da zero invece di comprare il pronto",
+        "body": "I piatti pronti e le consegne a domicilio costano molte volte il prezzo degli ingredienti crudi. Imparare cinque o sei ricette semplici a base di verdure, legumi, riso, pasta e uova riduce drasticamente il conto alimentare. Lenticchie, ceci e uova sono fonti proteiche economiche. Cucinare in quantità e congelare le porzioni fa risparmiare sia tempo che denaro."
+      },
+      {
+        "heading": "Abitudini anti-spreco che pagano",
+        "body": "Lo spreco è denaro nella spazzatura. Organizza il frigo in modo che ciò che va consumato prima sia in primo piano. Cucina con gli avanzi invece di buttarli. Approfitta dei prodotti a scadenza breve venduti a prezzo ridotto e delle app di recupero alimentare che rivendono gli invenduti. Compra frutta e verdura di stagione — costano meno e hanno un sapore migliore."
+      }
+    ],
+    "steps": [
+      "Pianifica i pasti della settimana prima di scrivere la lista.",
+      "Non fare mai la spesa a stomaco vuoto.",
+      "Confronta sempre per prezzo unitario — al chilo o al litro.",
+      "Preferisci le marche del distributore e i prodotti di stagione.",
+      "Cucina in grandi quantità e congela le porzioni per ridurre gli sprechi."
+    ],
+    "faq": [
+      {
+        "q": "Mangiare con poco vuol dire mangiare male?",
+        "a": "No. Legumi, uova, cereali integrali e verdure di stagione sono economici e nutrienti. È il cibo pronto che costa tanto e nutre poco."
+      },
+      {
+        "q": "I prodotti a marchio del distributore sono di qualità inferiore?",
+        "a": "Non necessariamente — molti vengono prodotti negli stessi stabilimenti dei brand. Provaci: la qualità è di solito molto simile a un prezzo molto più basso."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "selling-second-hand-items-online-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Vendere le tue cose online",
+    "emoji": "📦",
+    "intro": "Quasi certamente hai oggetti in casa che valgono denaro. Venderli fa ordine nello spazio e riempie il portafoglio.",
+    "sections": [
+      {
+        "heading": "Individuare cosa si vende",
+        "body": "Passa in rassegna le tue cose: vestiti mai indossati, videogiochi finiti, libri, elettronica, accessori. Tutto ciò che non usi da un anno è un candidato alla rivendita. Gli oggetti in buone condizioni, di marchi conosciuti e venduti completi di tutto si vendono meglio. Non devi mettere tutto in lista subito — inizia con dieci articoli per imparare le regole."
+      },
+      {
+        "heading": "Foto e descrizioni che convincono",
+        "body": "Un buon annuncio vende; uno scarso resta lì fermo. Scatta foto nitide alla luce naturale su uno sfondo neutro, da più angolazioni, inclusi eventuali difetti in modo onesto. Scrivi un titolo chiaro con marca e modello. Descrivi le condizioni reali, la taglia e le dimensioni. La trasparenza evita dispute e costruisce la tua reputazione di venditore affidabile."
+      },
+      {
+        "heading": "Fissare il prezzo giusto",
+        "body": "Guarda a quanto sono stati effettivamente venduti articoli simili — non solo a quanto sono in vendita. Un prezzo troppo alto spaventa i compratori; troppo basso ti fa perdere denaro. Considera le condizioni e la domanda. Puoi listare leggermente sopra il tuo obiettivo per lasciare spazio alla trattativa, comune su queste piattaforme."
+      },
+      {
+        "heading": "Vendere in sicurezza",
+        "body": "Usa il pagamento sicuro integrato nella piattaforma anziché bonifici bancari diretti. Per le consegne di persona, scegli un luogo pubblico e affollato. Diffida degli acquirenti che vogliono spostare la trattativa fuori dalla piattaforma o inviano link di pagamento strani — è quasi sempre una truffa. Mantieni tutte le comunicazioni all'interno dell'app."
+      }
+    ],
+    "steps": [
+      "Scegli dieci oggetti inutilizzati in buone condizioni.",
+      "Fotografa ogni articolo alla luce naturale, inclusi i difetti.",
+      "Scrivi titoli e descrizioni accurati e onesti.",
+      "Fissa il prezzo basandoti sulle vendite reali di articoli simili.",
+      "Usa solo il pagamento sicuro della piattaforma."
+    ],
+    "faq": [
+      {
+        "q": "Quale piattaforma devo usare?",
+        "a": "Abbina la piattaforma all'articolo — un'app specializzata in moda per i vestiti, un marketplace generalista per tutto il resto. Confronta la commissione applicata su ogni vendita."
+      },
+      {
+        "q": "Devo dichiarare questi guadagni?",
+        "a": "La rivendita di oggetti personali in perdita è generalmente non imponibile. Se vendi di frequente e con regolarità, verifica le soglie di comunicazione nel tuo paese."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "finding-a-student-job-it",
+    "theme": "money",
+    "locale": "it",
+    "title": "Trovare un lavoro da studente",
+    "emoji": "🎒",
+    "intro": "Un lavoro da studente porta reddito regolare e la prima vera esperienza lavorativa. Sapere come cercare — e cosa cercare — fa tutta la differenza.",
+    "sections": [
+      {
+        "heading": "Dove cercare in modo efficace",
+        "body": "I lavori da studente si trovano in diversi posti: l'ufficio placement della tua scuola, i siti di annunci, le attività locali che contatti direttamente e il passaparola. Il contatto diretto spesso funziona meglio delle candidature online — entra in negozi, ristoranti e bar con un CV semplice, soprattutto poco prima dei loro periodi di punta."
+      },
+      {
+        "heading": "Scegliere un lavoro compatibile",
+        "body": "Il miglior lavoro da studente non ti costerà la laurea. Controlla gli orari — turni serali o nel weekend tengono libere le giornate. Considera il tempo di spostamento, che non viene pagato. Un lavoro vicino a casa o al campus con orari flessibili vale più di uno meglio retribuito che ti esaurisce e richiede ore di viaggio."
+      },
+      {
+        "heading": "Conosci i tuoi diritti",
+        "body": "Anche per un piccolo lavoro, hai diritto a un contratto scritto, almeno il salario minimo, buste paga e diritto proporzionale alle ferie. Lavorare senza contratto ti lascia senza diritti e senza tutele se qualcosa va storto. Rifiuta sempre il lavoro senza un contratto regolare, qualunque sia lo stipendio promesso."
+      },
+      {
+        "heading": "Sfruttare al massimo l'esperienza",
+        "body": "Oltre alla busta paga, un lavoro da studente costruisce competenze reali: puntualità, relazione con i clienti, lavoro di squadra, gestione della pressione. Queste contano nel curriculum. Chiedi una referenza o una lettera di presentazione quando vai via. Un lavoro part-time, descritto bene in un colloquio, dimostra serietà e senso di responsabilità."
+      }
+    ],
+    "steps": [
+      "Contatta l'ufficio placement o orientamento della tua scuola.",
+      "Prepara un CV semplice da consegnare di persona.",
+      "Punta alle attività poco prima dei loro periodi di punta.",
+      "Verifica orari e spostamenti per non penalizzare gli studi.",
+      "Insisti sempre su un contratto scritto e buste paga regolari."
+    ],
+    "faq": [
+      {
+        "q": "Quante ore posso lavorare da studente?",
+        "a": "Dipende dal tuo carico di studi e dalle normative locali. Sii ragionevole — un lavoro non deve mai far crollare i voti, che restano la tua prima priorità."
+      },
+      {
+        "q": "Come mi candido senza esperienza?",
+        "a": "Punta sulle tue qualità: puntualità, affidabilità, entusiasmo. Per un lavoro da studente, i datori di lavoro sanno che sei agli inizi e cercano soprattutto qualcuno di cui fidarsi."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

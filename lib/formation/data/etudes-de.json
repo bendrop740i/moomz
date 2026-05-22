@@ -1,0 +1,378 @@
+[
+  {
+    "slug": "pomodoro-method-studying-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Schlauer lernen mit der Pomodoro-Methode",
+    "emoji": "🍅",
+    "intro": "Wenn du deine Lernphasen in kurze, zeitlich begrenzte Blöcke aufteilst, fühlt sich Wiederholen leichter an – und bringt viel mehr. Dein Gehirn hält länger durch, wenn es weiß, dass gleich eine Pause kommt.",
+    "sections": [
+      {
+        "heading": "So funktioniert's",
+        "body": "Ein Pomodoro sind 25 Minuten konzentriertes Arbeiten, gefolgt von einer 5-Minuten-Pause. Nach vier Durchläufen gönne dir eine längere Pause von 15 bis 30 Minuten. Die Stärke dieser Methode liegt darin, dass sie einen Berg in überschaubare Schritte verwandelt. Statt dir zu sagen 'Ich muss den ganzen Nachmittag lernen', sagst du dir einfach 'einen Pomodoro nach dem anderen' – und das macht den Start viel leichter."
+      },
+      {
+        "heading": "Warum es wirklich funktioniert",
+        "body": "Die menschliche Aufmerksamkeit lässt nach 20 bis 30 Minuten natürlich nach. Indem du aufhörst, bevor du ausgebrannt bist, bleibst du konstant fokussiert, anstatt dich langsam zu verausgaben. Regelmäßige Pausen helfen auch beim Einprägen – dein Gehirn sortiert Informationen in diesen Ruhemomenten ab. Der Timer erzeugt außerdem einen gesunden Zeitdruck, der Prokrastination schlägt und dich bei der Aufgabe hält."
+      },
+      {
+        "heading": "Pausen richtig nutzen",
+        "body": "Eine sinnvolle Pause bedeutet, weg vom Bildschirm zu gehen: aufstehen, Wasser trinken, strecken, aus dem Fenster schauen. Auf dem Handy scrollen entspannt dein Gehirn nicht – es überstimuliert es. Leg dein Handy während des 25-minütigen Arbeitsblocks in ein anderes Zimmer. Wenn ein Gedanke auftaucht, notiere ihn kurz auf einem Zettel und kümmere dich später darum."
+      }
+    ],
+    "steps": [
+      "Wähle eine konkrete Aufgabe aus, bevor du den Timer stellst.",
+      "Stelle 25 Minuten ein und arbeite ohne Unterbrechung durch.",
+      "Mach eine echte 5-Minuten-Pause weg von Bildschirmen.",
+      "Notiere den abgeschlossenen Pomodoro, um deinen Fortschritt zu verfolgen.",
+      "Belohne dich nach 4 Durchläufen mit einer soliden 20-Minuten-Pause."
+    ],
+    "faq": [
+      {
+        "q": "Was, wenn 25 Minuten nicht reichen, um ins Thema einzutauchen?",
+        "a": "Versuch es mit 45 Minuten Arbeit und 10 Minuten Pause. Das Wichtigste ist ein gleichmäßiger Arbeits-/Pausen-Rhythmus, der zu dir passt."
+      },
+      {
+        "q": "Brauche ich dafür eine spezielle App?",
+        "a": "Nein. Ein normaler Handy- oder Küchentimer reicht völlig aus. Das Werkzeug spielt viel weniger eine Rolle als die Konsequenz im Rhythmus."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-recall-flashcards-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Wissen verankern mit aktivem Abrufen und Karteikarten",
+    "emoji": "🃏",
+    "intro": "Deine Notizen nochmals durchzulesen vermittelt dir das Gefühl, den Stoff zu kennen. Dich selbst abzufragen dagegen verankert Wissen wirklich im Langzeitgedächtnis.",
+    "sections": [
+      {
+        "heading": "Nochmals lesen reicht nicht",
+        "body": "Wenn du deine Notizen nochmals liest, kommt dir alles vertraut vor – und du denkst, du hast es drauf. Das ist eine Falle: Wiedererkennen ist nicht dasselbe wie Erinnern. In der Prüfung musst du Informationen abrufen, ohne sie zu sehen. Aktives Abrufen bedeutet, die Notizen zu schließen und zu versuchen, das Gelernte aus dem Kopf wiederzugeben. Genau diese Abrubanstrengung stärkt die Gedächtnisspur."
+      },
+      {
+        "heading": "Wie Karteikarten funktionieren",
+        "body": "Eine Karteikarte hat auf einer Seite eine Frage und auf der anderen die Antwort. Du liest die Frage, antwortest im Kopf und prüfst dann nach. Karten, bei denen du falsch lagst, kommen früher wieder; Karten, die du beherrschst, werden gestreckt. Das verbindet zwei starke Prinzipien: Selbsttests und verteiltes Wiederholen. Apps wie Anki automatisieren diese Sortierung, aber Papierkarteikarten funktionieren genauso gut."
+      },
+      {
+        "heading": "Gute Karten schreiben",
+        "body": "Eine gute Karteikarte prüft eine Idee auf einmal. Vermeide zu breite Fragen wie 'Erkläre die Französische Revolution'. Besser ist etwas wie: 'In welchem Jahr begann die Französische Revolution?' Schreib Fragen mit deinen eigenen Worten, statt das Lehrbuch wörtlich abzutippen. Das Umformulieren zwingt dich, den Stoff wirklich zu verstehen, und macht die Karte zu einem echten Testwerkzeug."
+      }
+    ],
+    "steps": [
+      "Verwandle jeden Schlüsselbegriff aus deinen Notizen in eine einfache Frage.",
+      "Beantworte jede Karte immer laut oder schriftlich, bevor du umdrehst.",
+      "Lege falsch beantwortete Karten in einen Stapel zum baldigen Wiederholen.",
+      "Strecke die Karten, die du beherrschst, über mehrere Tage.",
+      "Lerne lieber jeden Tag ein bisschen als alles auf einmal."
+    ],
+    "faq": [
+      {
+        "q": "Anki oder Papierkarteikarten?",
+        "a": "Anki übernimmt das verteilte Wiederholen automatisch – ideal bei großen Mengen. Papierkarteikarten sind für ein einzelnes Fach oder Thema absolut ausreichend."
+      },
+      {
+        "q": "Wie viele Karten sollte ich täglich wiederholen?",
+        "a": "Zwanzig Karten täglich über zwei Wochen schlägt 280 Karten am Vorabend. Regelmäßigkeit gewinnt immer gegen Intensität."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "spaced-repetition-studying-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Verteiltes Wiederholen verstehen und anwenden",
+    "emoji": "📅",
+    "intro": "Du vergisst das meiste von dem, was du lernst, wenn du es nur einmal siehst. Wenn du den Stoff in wachsenden Abständen wiederholst, prägt er sich langfristig ein – mit insgesamt weniger Aufwand.",
+    "sections": [
+      {
+        "heading": "Die Vergessenskurve",
+        "body": "Nachdem du etwas gelernt hast, verlierst du einen Großteil davon innerhalb von Tagen, wenn du es nicht wiederholst. Das ist die Vergessenskurve – normal und universell. Verteiltes Wiederholen wirkt dagegen: Jede Wiederholung setzt die Erinnerung kurz vor dem totalen Vergessen neu auf. Mit jedem Abruf wird die Spur stärker und hält länger ohne Auffrischung."
+      },
+      {
+        "heading": "Abstände, die immer größer werden",
+        "body": "Der klassische Zeitplan: ein Konzept am nächsten Tag wiederholen, dann 3 Tage später, dann eine Woche, dann zwei Wochen, dann einen Monat. Jede erfolgreiche Wiederholung schiebt die nächste weiter hinaus. Wenn du eine Runde aussetzt, startest du mit einem kürzeren Abstand neu. Das Ziel ist nicht, jeden Tag alles zu wiederholen – sondern zur richtigen Zeit das Richtige, was enorm viel Aufwand spart."
+      },
+      {
+        "heading": "In den Alltag einbauen",
+        "body": "Du kannst verteiltes Wiederholen mit Software wie Anki umsetzen oder manuell mit einem Kalender und Kartenstapeln. Das Geheimnis ist, die Wiederholungen von Semesterbeginn an einzuplanen – nicht am Vorabend der Prüfung. Fünfzehn Minuten täglich über zwei Monate schlagen zehn Stunden Panik-Pauken immer."
+      }
+    ],
+    "steps": [
+      "Notiere das Datum, an dem du jeden Schlüsselbegriff lernst.",
+      "Plane eine erste Wiederholung für den nächsten Tag ein.",
+      "Verlängere den Abstand nach jeder erfolgreichen Wiederholung.",
+      "Setze den Abstand auf kurz zurück, wenn du eine Runde aussetzt.",
+      "Blocke täglich eine feste Zeit für diese Wiederholungen."
+    ],
+    "faq": [
+      {
+        "q": "Funktioniert das auch mit einem vollen Stundenplan?",
+        "a": "Es ist buchstäblich dafür gemacht. Indem du die Wiederholungen verteilst, machst du täglich weniger und vermeidest Nachtschichten."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cornell-note-taking-method-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Die Cornell-Methode für klarere, klügere Notizen",
+    "emoji": "📝",
+    "intro": "Gut strukturierte Notizen lassen sich in Minuten wiederholen. Die Cornell-Methode gliedert dein Blatt so, dass du im Unterricht mitdenkst – und nicht nur abschreibst.",
+    "sections": [
+      {
+        "heading": "Dein Blatt in drei Zonen einteilen",
+        "body": "Ziehe eine senkrechte Linie, die links etwa ein Drittel des Blatts abtrennt, und einen waagerechten Streifen unten. Die große rechte Zone ist für deine Notizen im Unterricht. Die linke Spalte ist für Schlüsselbegriffe und Fragen. Der untere Streifen ist für deine Zusammenfassung. Diese einfache Struktur verwandelt ein passives Blatt in ein aktives Lernwerkzeug."
+      },
+      {
+        "heading": "Während und nach dem Unterricht",
+        "body": "Im Unterricht schreibst du in die große Zone: Hauptideen, Beispiele, Skizzen – ohne zu versuchen, alles wortwörtlich mitzuschreiben. Noch am selben Abend liest du nach und füllst die linke Spalte mit Fragen und Schlüsselwörtern, die jeden Block zusammenfassen. Diese kurze Wiederholung, solange der Stoff noch frisch ist, leistet bereits viel für das Einprägen. Du überarbeitest den Stoff, während er noch warm ist."
+      },
+      {
+        "heading": "Mit Cornell wiederholen",
+        "body": "Zum Wiederholen deckst du die große rechte Zone ab und liest nur die linke Spalte. Versuche, jede Frage aus dem Gedächtnis zu beantworten, und prüfe dann nach. Damit hast du deine Notizen ohne zusätzliche Vorbereitung in eine aktive Abrufübung verwandelt. Der untere Streifen – mit dem Wesentlichen in drei bis vier Sätzen zusammengefasst – ist dein Schnellwiederholungstool am Vorabend einer Prüfung."
+      }
+    ],
+    "steps": [
+      "Richte deine Blätter mit den drei Zonen ein, bevor der Unterricht beginnt.",
+      "Notiere Schlüsselideen in der großen Spalte während des Unterrichts.",
+      "Füge noch am Abend Fragen und Schlüsselbegriffe links ein.",
+      "Schreibe eine Zusammenfassung von 3 bis 4 Sätzen unten auf die Seite.",
+      "Wiederhole, indem du die große Zone abdeckst und die Fragen beantwortest."
+    ],
+    "faq": [
+      {
+        "q": "Funktioniert das auch für Naturwissenschaften?",
+        "a": "Ja. Die große Zone nimmt Beweise und Beispiele auf; die linke Spalte enthält wichtige Aufgabentypen oder Formeln."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-exam-stress-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Prüfungsstress in den Griff kriegen, ohne durchzudrehen",
+    "emoji": "😮‍💨",
+    "intro": "Ein bisschen Stress hilft dir, aufzudrehen – zu viel lähmt dich. Ein paar einfache Gewohnheiten halten den Druck auf einem Niveau, das hilft, statt blockiert.",
+    "sections": [
+      {
+        "heading": "Stress ist nicht der Feind",
+        "body": "Vor einer Prüfung sind ein schnellerer Herzschlag und ein wacher Kopf Zeichen dafür, dass dein Körper sich vorbereitet. Das Problem beginnt, wenn Stress chronisch wird und deine Nächte befällt. Das Ziel ist nicht null Stress – das ist unrealistisch – sondern kontrollierbarer Stress. Allein daran zu erinnern, dass diese Gefühle normal sind, nimmt bereits eine Schicht unnötiger Angst weg."
+      },
+      {
+        "heading": "Vorbereitung ist dein bestes Anti-Angst-Mittel",
+        "body": "Das wirksamste Mittel gegen Prüfungsangst ist eine rechtzeitige, verteilte Vorbereitung. Wenn du weißt, dass du regelmäßig wiederholt hast, hat dein Gehirn einen konkreten Beweis, dass du bereit bist. Last-Minute-Pauken hingegen verstärkt Panik, weil du ständig auf das stößt, was du noch nicht beherrschst. Plane voraus: Ein realistischer Zeitplan ist eines der wirksamsten Mittel gegen Stress."
+      },
+      {
+        "heading": "Werkzeuge für die stressigsten Momente",
+        "body": "Wenn die Angst steigt, atme langsam: 4 Sekunden einatmen, 6 Sekunden ausatmen, mehrmals wiederholen. Das lange Ausatmen beruhigt dein Nervensystem. Schränke Koffein ein – es verstärkt Nervosität und Unruhe. Am Prüfungstag komm früh an, um den Stress des Hetzens zu vermeiden, und halte dich kurz vor der Prüfung von aufgewühlten Mitstudierenden fern – ihre Angst ist ansteckend."
+      }
+    ],
+    "steps": [
+      "Verteile deine Wiederholungen, damit du vorbereitet – nicht panisch – ankommst.",
+      "Übe langsames Atmen, sobald der Druck steigt.",
+      "Schlaf in der Prüfungswoche ausreichend – das ist nicht verhandelbar.",
+      "Schränke Kaffee und Energy-Drinks ein, die Angst verstärken.",
+      "Komm am Prüfungstag früh an und bleib von den Panikmachern weg."
+    ],
+    "faq": [
+      {
+        "q": "In der Prüfung wird mein Kopf leer – was soll ich tun?",
+        "a": "Lege deinen Stift ab, atme dreimal tief durch und fange mit der leichtesten Frage an. Ruhe und ein kleiner Erfolg öffnen den Rest deines Gedächtnisses."
+      },
+      {
+        "q": "Stress hält mich in der Nacht vor der Prüfung wach – ist das normal?",
+        "a": "Sehr häufig – und beherrschbar. Weg mit Bildschirmen eine Stunde vor dem Schlafen, lies etwas Leichtes. Selbst eine durchschnittliche Nacht ruiniert eine gut vorbereitete Prüfung nicht."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-realistic-study-schedule-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Einen Lernplan erstellen, den du wirklich durchhältst",
+    "emoji": "🗓️",
+    "intro": "Ein guter Lernplan ist keine unmögliche Liste – sondern ein Kalender, dem du wirklich folgen kannst, der Aufwand verteilt, ohne Nachtschichten.",
+    "sections": [
+      {
+        "heading": "Am Prüfungsdatum anfangen",
+        "body": "Markiere zuerst alle deine Prüfungsdaten und arbeite dann rückwärts. Zähle die verfügbaren Tage und den zu bewältigenden Stoff. Diese Vogelperspektive bewahrt dich vor der unangenehmen Überraschung, drei Tage vor der Prüfung festzustellen, dass du noch ein ganzes Kapitel vor dir hast. Die verfügbare Zeit zu sehen, zwingt dich auch zur Ehrlichkeit darüber, was realistisch machbar ist."
+      },
+      {
+        "heading": "In konkrete Einheiten aufteilen",
+        "body": "Vermeide vage Blöcke wie 'Mathe lernen'. Schreib stattdessen 'Aufgaben aus Kapitel 4 durcharbeiten' oder 'Karteikarten für Kapitel 2'. Eine konkrete Aufgabe ist leichter zu starten und zu beenden. Plane auch kürzere Einheiten ein, als du glaubst zu brauchen – wir überschätzen immer, was wir an einem Tag schaffen. Früher fertig zu sein ist besser, als sich überfordert zu fühlen."
+      },
+      {
+        "heading": "Flexibilität einbauen",
+        "body": "Lass Lücken in deiner Woche – Pufferslots. Sie federn Unvorhergesehenes ab: ein schwierigeres Thema als erwartet, ein müder Tag, ein Notfall. Ohne Puffer lässt die kleinste Verzögerung den ganzen Plan zusammenbrechen und tötet die Motivation. Baue auch Erholung ein: Ein Plan ohne Pausen ist einfach nicht nachhaltig und führt direkt zum Burnout."
+      }
+    ],
+    "steps": [
+      "Liste alle Prüfungsdaten und den zu lernenden Stoff auf.",
+      "Teile jedes Fach in konkrete, kurze Einheiten auf.",
+      "Lege die schwersten Fächer in deine produktivsten Stunden.",
+      "Halte zwei bis drei freie Pufferslots pro Woche.",
+      "Hake erledigte Einheiten ab, um deinen Fortschritt zu sehen."
+    ],
+    "faq": [
+      {
+        "q": "Mein Lernplan bricht immer nach zwei Tagen zusammen – warum?",
+        "a": "Wahrscheinlich ist er zu ambitioniert. Halbiere die Last. Ein zu 100 % eingehaltener Plan schlägt einen perfekten Plan, dem man nie folgt."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stop-procrastinating-on-studying-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Aufhören, das Lernen aufzuschieben",
+    "emoji": "🐢",
+    "intro": "Lernen aufzuschieben ist keine Faulheit – es ist meistens Vermeidungsverhalten angesichts einer Aufgabe, die zu groß oder unangenehm wirkt. Und das lässt sich angehen.",
+    "sections": [
+      {
+        "heading": "Verstehen, warum du es aufschiebst",
+        "body": "Wir prokrastinieren vor allem, wenn eine Aufgabe vage, riesig oder langweilig wirkt. Das Gehirn vermeidet sofortiges Unbehagen und greift stattdessen nach etwas Angenehmem. Die Emotion zu identifizieren – Langeweile, Versagensangst, Perfektionismus – hilft dir, die richtige Lösung zu finden. Prokrastination ist kein Charakterfehler; sie ist ein Vermeidungsmechanismus, den du mit den richtigen Strategien entschärfen kannst."
+      },
+      {
+        "heading": "Die Zwei-Minuten-Regel",
+        "body": "Der schwerste Teil ist der Anfang. Verpflichte dich zu nur zwei Minuten: Notizen aufschlagen, die Kapitelüberschrift lesen, die erste Zeile schreiben. Wenn du erst mal in Bewegung bist, arbeitet die Trägheit für dich – und oft machst du weit über diese zwei Minuten hinaus weiter. Dieser Trick umgeht den anfänglichen Widerstand, indem er den Start lächerlich klein macht – unmöglich, nein zu sagen."
+      },
+      {
+        "heading": "Reibung reduzieren",
+        "body": "Bereite deine Umgebung am Vorabend vor: Notizen auf dem Tisch, Handy in einem anderen Zimmer, unnötige Tabs geschlossen. Jedes Hindernis zwischen dir und der Arbeit nährt die Prokrastination. Mach Ablenkungen umgekehrt schwerer zugänglich. Du kannst auch jeden Tag am selben Ort lernen – der Ort wird dann zum automatischen Auslöser für Konzentration."
+      }
+    ],
+    "steps": [
+      "Erkenne die Emotion, die dich vor der Aufgabe fliehen lässt.",
+      "Brich die Lerneinheit in eine Zwei-Minuten-Mikroaktion auf, um zu starten.",
+      "Lege dein Handy vor dem Start außer Reichweite.",
+      "Richte deinen Arbeitsplatz am Vorabend ein.",
+      "Feiere den Start – nicht nur das Ende."
+    ],
+    "faq": [
+      {
+        "q": "Ich prokrastiniere, indem ich andere nützliche Dinge erledige – ist das schlimm?",
+        "a": "Das ist produktive Prokrastination: aufräumen statt lernen. Erkenne sie, und lenke dich wieder zur Prioritätsaufgabe um, auch in kleinen Schritten."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "memory-palace-technique-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Alles merken mit der Gedächtnispalast-Technik",
+    "emoji": "🏛️",
+    "intro": "Das Gehirn ist schlecht darin, abstrakte Listen zu merken – aber brillant darin, vertraute Orte zu navigieren. Der Gedächtnispalast nutzt diese Stärke, um selbst schwierigsten Stoff zu verankern.",
+    "sections": [
+      {
+        "heading": "Das Prinzip des vertrauten Ortes",
+        "body": "Wähle einen Ort, den du perfekt kennst: deine Wohnung, dein Weg zur Uni. Du wirst die zu merkenden Informationen gedanklich an bestimmten Stellen entlang des Weges platzieren. Um sie abzurufen, gehst du einfach mental durch diesen Ort spazieren. Diese Technik – von Gedächtnismeistern genutzt – greift auf unser räumliches Gedächtnis zurück, das außergewöhnlich stark und völlig natürlich ist."
+      },
+      {
+        "heading": "Informationen mit lebhaften Bildern verknüpfen",
+        "body": "Erstelle für jede Information ein übertriebenes, witziges oder absurdes mentales Bild und platziere es an einer Stelle im Ort. Je seltsamer das Bild, desto besser bleibt es hängen. Ein historisches Datum kann zu einer verkleideten Figur auf deinem Sofa werden. Die Absurdität ist hier kein Fehler – sie ist das, was die Erinnerung hervorstechen und am Prüfungstag leicht abrufbar macht."
+      },
+      {
+        "heading": "Wann du ihn einsetzen solltest",
+        "body": "Der Gedächtnispalast glänzt bei geordneten Listen, Prozessschritten, Definitionen und Gliederungen von Aufsätzen. Er eignet sich weniger zum Verstehen komplexer Zusammenhänge, bei denen du denken statt abrufen musst. Nutze ihn als eines von vielen Werkzeugen – kombiniere ihn mit echtem Verständnis und aktivem Abrufen. Er ist eine starke Ergänzung, kein Allheilmittel."
+      }
+    ],
+    "steps": [
+      "Wähle einen Ort, den du perfekt kennst.",
+      "Lege eine feste Route mit bestimmten Haltepunkten fest.",
+      "Verwandle jede Information in ein eindrucksvolles Bild.",
+      "Platziere jedes Bild an einem Haltepunkt entlang der Route.",
+      "Wiederhole, indem du den Ort gedanklich entlanggehst."
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Informationen passen in einen Palast?",
+        "a": "Zum Einstieg etwa zehn Elemente. Mit Übung kannst du mehrere Paläste für verschiedene Fächer verwalten."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-reading-technique-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Aktiv lesen statt auf Autopilot",
+    "emoji": "📖",
+    "intro": "Notizen gedankenlos durchblättern verschwendet Stunden für wenig Ertrag. Aktives Lesen verwandelt jede Seite in echtes Verstehen.",
+    "sections": [
+      {
+        "heading": "Erst überfliegen, dann eintauchen",
+        "body": "Bevor du detailliert liest, überflieg das Kapitel zuerst: Überschriften, Zwischenüberschriften, fett gedruckte Wörter, Diagramme, die Abschlusszusammenfassung. Dieser Überblick schafft eine mentale Karte, in die sich die Details einfügen können. Ohne dieses Gesamtbild zu lesen ist wie im Nebel gehen. Fünf Minuten Überfliegen machen das detaillierte Lesen viel schneller und viel besser verständlich."
+      },
+      {
+        "heading": "Fragen stellen",
+        "body": "Verwandle jede Überschrift in eine Frage, bevor du den Abschnitt liest. Vor 'Ursachen der Krise von 1929' fragst du dich: 'Was verursachte die Krise von 1929?' Dann liest du, um sie zu beantworten – der Kopf sucht aktiv. Diese fragende Haltung hält deine Aufmerksamkeit wach und verhindert, dass du über Wörter hinweggleitest, ohne sie wirklich aufzunehmen."
+      },
+      {
+        "heading": "Am Ende umformulieren",
+        "body": "Am Ende jedes Abschnitts schließe das Buch und fasse in deinen eigenen Worten zusammen, was du gerade gelesen hast – laut oder schriftlich. Wenn das nicht geht, ist das Gelesene nicht angekommen: Geh zurück und lies die unklare Passage nochmals. Diese sofortige Umformulierung ist eine ehrliche Verständnisprüfung, viel zuverlässiger als das vage Gefühl, verstanden zu haben."
+      }
+    ],
+    "steps": [
+      "Überflieg das ganze Kapitel, bevor du detailliert liest.",
+      "Verwandle jede Überschrift in eine zu beantwortende Frage.",
+      "Lies Abschnitt für Abschnitt, nicht alles auf einmal.",
+      "Schließe das Buch und fasse jeden Abschnitt in eigenen Worten zusammen.",
+      "Lies Passagen nochmals, die du nicht zusammenfassen konntest."
+    ],
+    "faq": [
+      {
+        "q": "Soll ich beim Lesen markieren?",
+        "a": "Sehr sparsam markieren – nur die zentralen Ideen. Eine komplett gelb markierte Seite priorisiert nichts mehr und hilft beim Wiederholen nicht."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-your-first-resume-de",
+    "theme": "etudes",
+    "locale": "de",
+    "title": "Deinen ersten Lebenslauf schreiben, wenn du kaum Erfahrung hast",
+    "emoji": "📄",
+    "intro": "Ein erster Lebenslauf wird nicht an der Anzahl der Stationen bewertet, sondern an seiner Klarheit und Relevanz. Gut gestaltet öffnet er Türen – auch ohne lange Karriere.",
+    "sections": [
+      {
+        "heading": "Eine einfache, lesbare Struktur",
+        "body": "Ein Lebenslauf passt auf eine Seite: Kontaktdaten oben, dann Ausbildung, Erfahrungen, Kenntnisse und optional Interessen. Wähle ein klares Layout, eine einzige Schriftart, deutliche Überschriften. Recruiter verbringen wenige Sekunden pro Lebenslauf – sie müssen auf einen Blick verstehen, wer du bist. Verzichte auf grafische Spielereien, die mehr ablenken als informieren."
+      },
+      {
+        "heading": "Das Beste aus dem machen, was du hast",
+        "body": "Ohne einen Vollzeitjob als Vorzeigeobjekt betone Praktika, Ferienjobs, Ehrenamt, Schulprojekte, Babysitten oder Führungsrollen in Vereinen. All das zeigt echte Qualitäten: Zuverlässigkeit, soziale Kompetenz, Organisation. Beschreibe jede Erfahrung mit einer konkreten Handlung und einem Ergebnis – keine vagen Bezeichnungen. 'Kasse bedient und täglich 50 Kunden betreut' schlägt 'in einem Geschäft gearbeitet'."
+      },
+      {
+        "heading": "Den Lebenslauf auf jede Bewerbung anpassen",
+        "body": "Ein generischer Lebenslauf, der überall verschickt wird, schneidet schlecht ab. Lies die Stellenanzeige nochmals, erkenne die erwarteten Kompetenzen und bringe die, die du hast, in jedem Abschnitt nach vorne. Übernimm einige Schlüsselwörter aus der Anzeige – manche Systeme filtern Lebensläufe automatisch. Anpassen ist kein Lügen – es ist das Relevanteste an dir in den Vordergrund zu stellen."
+      }
+    ],
+    "steps": [
+      "Wähle eine übersichtliche Vorlage, die auf eine Seite passt.",
+      "Liste alle deine Erfahrungen auf, einschließlich nicht beruflicher.",
+      "Beschreibe jede mit einer konkreten Handlung und einem Ergebnis.",
+      "Erkenne die Schlüsselwörter der Stellenanzeige und passe deinen Lebenslauf an.",
+      "Lass ihn von jemandem gegenlesen, um Tippfehler und vage Formulierungen zu finden."
+    ],
+    "faq": [
+      {
+        "q": "Soll ich ein Foto hinzufügen?",
+        "a": "Es ist nicht erforderlich und wird zunehmend weniger erwartet. Falls du eines verwendest, achte auf ein scharfes, neutrales und professionelles Bild."
+      },
+      {
+        "q": "Ist es riskant, eine Erfahrung leicht zu übertreiben?",
+        "a": "Ja, sehr. Lügen werden im Vorstellungsgespräch oder im Job schnell entdeckt und zerstören deine Glaubwürdigkeit. Präsentiere stattdessen ehrlich, was du zu bieten hast."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "build-a-capsule-wardrobe-es",
+    "theme": "style",
+    "title": "Crea un armario cápsula que de verdad te quede bien",
+    "emoji": "🧳",
+    "locale": "es",
+    "intro": "Un armario cápsula es un conjunto pequeño de prendas que combinan entre sí. Menos piezas, más outfits y cero estrés por las mañanas.",
+    "sections": [
+      {
+        "heading": "Cómo funciona un armario cápsula",
+        "body": "Un armario cápsula reúne unas 30 a 40 prendas elegidas para que combinen entre ellas. El objetivo no es privarte de nada, sino quedarte solo con lo que realmente usas y te encanta. Cuando todas las piezas comparten una paleta coherente y cortes que te gustan, cualquier parte de arriba va con cualquier parte de abajo. El resultado: te vistes en dos minutos y nunca sientes que no tienes nada que ponerte aunque el armario esté lleno."
+      },
+      {
+        "heading": "Ser honesto al hacer la selección",
+        "body": "Saca todo y clasifícalo en tres grupos: lo que te encanta y usas, lo que no te has puesto en un año, y lo que no tienes claro. Con el grupo del medio, sé sincero contigo mismo: si algo no te queda bien o ya no te gusta, cada mañana te roba energía mental. Dónalo, véndelo o recíclalo en lugar de acumularlo. Con las prendas dudosas, pruébatelas frente al espejo y quédate solo con lo que te hace sentir bien."
+      },
+      {
+        "heading": "Empezar con una base neutra",
+        "body": "Construye a partir de una paleta de dos o tres colores neutros que te gusten: negro, blanco, beige, azul marino, gris, caqui. Estos tonos combinan sin esfuerzo. Luego añade uno o dos colores de acento que ames para las prendas más llamativas. Esta lógica sencilla hace que casi todo combine, sin importar tu presupuesto ni tu tipo de cuerpo."
+      }
+    ],
+    "steps": [
+      "Vacía todo tu armario sobre la cama",
+      "Clasifica en tres grupos: lo que amas, lo que nunca usas, lo que dudas",
+      "Elige 2-3 colores neutros como base",
+      "Quédate con 30-40 prendas que combinen entre sí",
+      "Anota los huecos que llenar poco a poco"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuántas prendas debe tener un armario cápsula?",
+        "a": "Entre 30 y 40, sin contar ropa interior ni ropa deportiva. El número exacto importa menos que la coherencia: lo clave es que todo combine con todo."
+      },
+      {
+        "q": "¿Tengo que comprarlo todo desde cero?",
+        "a": "No. Un armario cápsula se construye principalmente seleccionando lo que ya tienes. Solo añades las piezas que faltan, de una en una."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "timeless-basics-everyone-can-wear-es",
+    "theme": "style",
+    "title": "Los básicos atemporales que le quedan bien a todo el mundo",
+    "emoji": "🤍",
+    "locale": "es",
+    "intro": "Algunas prendas nunca pasan de moda y funcionan en cualquier persona. Tenerlas significa que siempre puedes armar un look limpio y cuidado.",
+    "sections": [
+      {
+        "heading": "Por qué importan los básicos",
+        "body": "Un básico es una prenda de corte sencillo, en color neutro, sin logos ni detalles llamativos. Su valor está en la versatilidad: puedes vestirlo de manera formal o casual, solo o en capas. Invertir en buenos básicos antes que en prendas de tendencia evita acabar con un armario lleno de cosas que no combinan entre sí. Los básicos son la base; las prendas especiales, la decoración."
+      },
+      {
+        "heading": "Tu lista de inicio",
+        "body": "En la parte de arriba: una camiseta blanca bien cortada, una camiseta negra, una camisa lisa, un jersey delgado en tono neutro y una sudadera limpia. En la parte de abajo: unos vaqueros que de verdad te queden bien y un pantalón más elegante. Una capa exterior versátil —blazer o cazadora de cuero— y unas zapatillas limpias y discretas. Esta lista funciona para todos los géneros y tipos de cuerpo: los cortes y tallas se adaptan a ti, no al revés."
+      },
+      {
+        "heading": "Calidad por encima de cantidad",
+        "body": "Una buena camiseta blanca que mantiene su forma vale más que cinco que se deforman después del tercer lavado. Fíjate en la composición: un algodón más grueso y de mayor gramaje dura más. No hace falta gastar mucho —la ropa de segunda mano y los artículos de fin de temporada permiten conseguir calidad sin arruinarse. La idea es reponer pocas veces, no comprar en exceso."
+      }
+    ],
+    "steps": [
+      "Haz un inventario de los básicos que ya tienes",
+      "Detecta los huecos: parte de arriba, de abajo, chaqueta, zapatos",
+      "Comprueba el ajuste antes de preocuparte por el color",
+      "Busca un algodón bueno y grueso",
+      "Añade una pieza cada vez, sin pasarte de presupuesto"
+    ],
+    "faq": [
+      {
+        "q": "¿Un básico siempre tiene que ser neutro?",
+        "a": "Generalmente sí, porque maximiza las opciones. Pero si un color realmente te favorece, puede convertirse en tu básico personal."
+      },
+      {
+        "q": "¿Cuántos básicos necesito?",
+        "a": "Unos diez básicos bien elegidos es más que suficiente. Lo que importa no es la cantidad, sino que te queden bien y que combinen todos entre sí."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understand-your-body-type-es",
+    "theme": "style",
+    "title": "Conoce tu tipo de cuerpo sin complejos",
+    "emoji": "📐",
+    "locale": "es",
+    "intro": "Conocer tu silueta te ayuda a elegir cortes en los que te sientas cómodo. Es una herramienta, no un juicio: ningún tipo de cuerpo es mejor que otro.",
+    "sections": [
+      {
+        "heading": "Para qué sirve realmente",
+        "body": "El tipo de cuerpo simplemente describe tus proporciones: dónde están tus hombros, cintura y caderas. El objetivo no es esconder nada, sino entender qué cortes te sientan bien y cuáles se ven raros. Puedes ponerte lo que quieras: esto es solo una referencia para elegir más rápido y sentirte bien con tu ropa, no una caja en la que meterte."
+      },
+      {
+        "heading": "Observar sin juzgar",
+        "body": "Colócate frente al espejo con los brazos a los lados y observa el equilibrio general entre la parte superior e inferior de tu cuerpo. Quizás tus hombros son más anchos que tus caderas, o al revés, o estás bastante equilibrado. Fíjate también en tu altura y en la longitud de tus piernas. Ninguna de estas observaciones es un defecto: son simplemente datos para ayudarte a elegir cortes."
+      },
+      {
+        "heading": "Jugar con el equilibrio",
+        "body": "El principio general es el equilibrio visual: si quieres armonizar la parte superior e inferior, el volumen en un lado puede compensarse con un corte más estructurado en el otro. Pero nada es obligatorio. Si un corte te queda bien y te hace sentir bien, es tuyo, punto. La confianza cambia la lectura de un outfit más que cualquier regla de estilo."
+      }
+    ],
+    "steps": [
+      "Mírate de frente en el espejo, sin juzgarte",
+      "Observa el equilibrio entre la parte superior e inferior de tu silueta",
+      "Anota lo que te gusta destacar",
+      "Prueba distintos cortes y quédate con los que te gusten",
+      "Ignora las reglas si un outfit te hace sentir genial"
+    ],
+    "faq": [
+      {
+        "q": "¿Tengo que seguir las reglas del tipo de cuerpo al pie de la letra?",
+        "a": "No. Son pautas, no leyes. Lo más importante es sentirte seguro y cómodo con lo que llevas puesto."
+      },
+      {
+        "q": "¿La ropa puede cambiar tu tipo de cuerpo?",
+        "a": "No cambias tu cuerpo: juegas con efectos visuales si quieres. Pero el objetivo es sentirte bien, no transformar tu silueta."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "mixing-colours-without-clashing-es",
+    "theme": "style",
+    "title": "Combina colores sin que choquen",
+    "emoji": "🎨",
+    "locale": "es",
+    "intro": "Combinar bien los colores hace que un outfit parezca más cuidado al instante. Solo necesitas unos principios sencillos para dejar de dudar por las mañanas.",
+    "sections": [
+      {
+        "heading": "La regla de los neutros",
+        "body": "La opción más segura es construir el outfit en torno a uno o dos colores neutros: negro, blanco, gris, beige, azul marino. Los neutros combinan con todo y entre sí. Luego añade un único toque de color como acento: un jersey colorido sobre un pantalón neutro, o unos zapatos que animen un conjunto sencillo. Esta base evita el 90% de los errores de color."
+      },
+      {
+        "heading": "Colores complementarios y looks tonales",
+        "body": "Dos enfoques funcionan bien para ir más allá. El tonal: varios tonos de la misma familia de colores —beige, camel y marrón juntos dan una sensación suave y chic. El complementario: colores opuestos en el círculo cromático, como el azul y el naranja, crean un contraste dinámico. En ese caso, deja que un color domine y usa el otro solo como pequeño acento para no pasarte."
+      },
+      {
+        "heading": "Cómo funcionan los colores en ti",
+        "body": "Algunos colores iluminan tu rostro; otros lo apagan un poco. Acerca una prenda a tu cara frente al espejo con luz natural del día y verás rápidamente cuál te da mejor aspecto. Ningún color está prohibido: hay tonos que simplemente te favorecen más. Anota tus favoritos y dales prioridad en las prendas cercanas a tu cara."
+      }
+    ],
+    "steps": [
+      "Construye el outfit alrededor de 1-2 colores neutros",
+      "Añade solo un toque de color como acento",
+      "Prueba el contraste tonal O el complementario",
+      "Deja que un color domine y el otro sea el acento",
+      "Encuentra los colores que te dan mejor cara"
+    ],
+    "faq": [
+      {
+        "q": "¿Se pueden mezclar varios colores vivos?",
+        "a": "Sí, pero es más arriesgado. Limítate a dos como máximo y mantén la intensidad coherente para que el conjunto siga siendo armonioso."
+      },
+      {
+        "q": "¿Se puede combinar negro y azul marino?",
+        "a": "Sí, y de hecho queda muy elegante. La idea de que está prohibido es obsoleta: aprovecha el contraste sutil entre ambos."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dressing-well-on-a-tight-budget-es",
+    "theme": "style",
+    "title": "Vestir bien con poco dinero",
+    "emoji": "💶",
+    "locale": "es",
+    "intro": "El estilo no depende del dinero. Con una estrategia inteligente, puedes verte arreglado sin gastar una fortuna.",
+    "sections": [
+      {
+        "heading": "El estilo cuesta menos que la moda",
+        "body": "Seguir cada tendencia es caro y deja el armario sin sentido. Un estilo personal, en cambio, se construye sobre unas pocas prendas bien elegidas que conservas durante mucho tiempo. Antes de cualquier compra, pregúntate: ¿me voy a poner esto al menos treinta veces? Esa pregunta sencilla elimina los caprichos y enfoca tu presupuesto en lo que realmente usas."
+      },
+      {
+        "heading": "Dónde gastar y dónde ahorrar",
+        "body": "Invierte en las prendas que más usas y que son más visibles: un buen par de zapatos, una chaqueta, unos vaqueros que te queden bien. Estas son las que marcan el tono de un outfit. En camisetas básicas, ropa interior o prendas muy de tendencia, ahorra: la segunda mano y las marcas asequibles son más que suficientes. Distribuir el dinero así hace que cada euro rinda más."
+      },
+      {
+        "heading": "Hábitos inteligentes para no derrochar",
+        "body": "Compra fuera de temporada cuando bajan los precios, busca artículos de fin de serie y revisa la segunda mano antes de comprar algo nuevo. Evita las rebajas que te engañan para comprar cosas que no necesitas solo porque están rebajadas. Cuidar tu ropa —lavarla correctamente y repararla— alarga su vida y es la mejor inversión de todas."
+      }
+    ],
+    "steps": [
+      "Establece un presupuesto mensual claro para ropa",
+      "Invierte en zapatos, una chaqueta y unos vaqueros",
+      "Ahorra en básicos y prendas de tendencia",
+      "Revisa la segunda mano antes de comprar nuevo",
+      "Cuida tus prendas para que duren"
+    ],
+    "faq": [
+      {
+        "q": "¿Hay que gastar mucho para vestir bien?",
+        "a": "No. El ajuste, el cuidado y la coherencia importan más que el precio. Una prenda barata bien llevada supera a una cara mal elegida."
+      },
+      {
+        "q": "¿Vale la pena comprar en rebajas?",
+        "a": "Solo si ya necesitabas esa prenda. Comprar algo solo porque está rebajado sigue siendo un gasto innecesario."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "finding-your-personal-style-es",
+    "theme": "style",
+    "title": "Encuentra tu estilo personal paso a paso",
+    "emoji": "🪞",
+    "locale": "es",
+    "intro": "Tu estilo es la forma de contar tu historia sin hablar. Descubrirlo lleva algo de tiempo, pero el proceso es sencillo y hasta resulta divertido.",
+    "sections": [
+      {
+        "heading": "Inspirarse sin copiar",
+        "body": "Empieza recopilando imágenes que te llamen la atención: outfits, ambientes, personas cuyo look te habla. Crea una carpeta o un moodboard. Después de treinta o cuarenta imágenes, aparecen patrones: colores, cortes, una actitud que se repite. Esos elementos recurrentes son las primeras pistas de tu estilo. El objetivo no es copiar a nadie, sino identificar lo que resuena en ti."
+      },
+      {
+        "heading": "Probarlo de verdad",
+        "body": "La inspiración no basta: hay que probar. Entra en una tienda o en un mercadillo y pruébate cortes que normalmente no te atreverías a usar, sin presión de compra. Fíjate en cómo te sientes, no solo en cómo te ves. Una prenda que te hace sentir seguro vale más que una que cumple una tendencia. Anota lo que te queda bien y lo que te incomoda."
+      },
+      {
+        "heading": "Aceptar que evoluciona",
+        "body": "Tu estilo no es fijo: cambia con tu edad, tus gustos y tu vida. Eso es normal y sano. No intentes encasillar tu imagen en una etiqueta permanente. Conserva algunas prendas clave que te representen de verdad y deja que el resto evolucione. El estilo más fuerte no es el más original, sino el más coherente con quien eres hoy."
+      }
+    ],
+    "steps": [
+      "Recopila 30-40 imágenes que te inspiren",
+      "Detecta los patrones: colores, cortes, vibe",
+      "Prueba prendas en tiendas sin comprar nada",
+      "Anota lo que te hace sentir seguro",
+      "Conserva 2-3 prendas clave y deja que el resto evolucione"
+    ],
+    "faq": [
+      {
+        "q": "¿Y si no tengo un estilo definido?",
+        "a": "Es un punto de partida completamente normal. El estilo se construye a través de la experimentación. Nadie nace con él: todos lo van refinando con el tiempo."
+      },
+      {
+        "q": "¿Necesito encajar en una estética concreta?",
+        "a": "No. Las estéticas pueden inspirar, pero encerrarte en una no sirve de nada. Toma lo que te guste de varias y crea la tuya propia."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dressing-for-a-job-interview-es",
+    "theme": "style",
+    "title": "Cómo vestirse para una entrevista de trabajo",
+    "emoji": "💼",
+    "locale": "es",
+    "intro": "Un outfit bien pensado para la entrevista demuestra que te tomas la reunión en serio. El objetivo: verte cuidado, sentirte cómodo y encajar en el puesto.",
+    "sections": [
+      {
+        "heading": "Adaptarse al sector",
+        "body": "No existe un outfit correcto para todas las entrevistas: depende del campo. Para banca, derecho o consultoría, opta por algo formal: un traje sobrio. Para roles creativos, tecnológicos o del tercer sector, el smart-casual funciona mejor. Investiga la cultura de la empresa a través de su web o redes sociales. La regla sencilla: viste un nivel por encima de lo que usarías en el día a día de ese trabajo."
+      },
+      {
+        "heading": "El cuidado importa más que el lujo",
+        "body": "No necesitas ropa cara. Lo que destaca ante un reclutador es el cuidado: ropa limpia y planchada, sin enganches ni manchas, de tu talla. Unos zapatos limpios y lustrados mandan una señal fuerte. Un outfit sencillo en perfecto estado siempre causa mejor impresión que una prenda cara descuidada. Prepara tu ropa la noche anterior para evitar el estrés matutino."
+      },
+      {
+        "heading": "Ser tú mismo y estar cómodo",
+        "body": "Un outfit incómodo te distrae durante la entrevista. Elige prendas en las que puedas respirar, sentarte y moverte. Evita cosas que nunca hayas llevado antes: prueba el look completo con antelación. Mantén un pequeño toque personal, discreto pero intencionado: un reloj, unos calcetines, un color. Debes mostrar tu mejor versión, no disfrazarte."
+      }
+    ],
+    "steps": [
+      "Investiga la cultura de la empresa",
+      "Apunta a un nivel por encima del código de vestimenta habitual",
+      "Elige ropa limpia, planchada y de tu talla",
+      "Limpia o lustra tus zapatos",
+      "Prepara y prueba el outfit la noche anterior"
+    ],
+    "faq": [
+      {
+        "q": "¿Hace falta traje en todas las entrevistas?",
+        "a": "No. En tecnología, campos creativos o retail informal, un traje puede incluso parecer fuera de lugar. Adáptate al sector."
+      },
+      {
+        "q": "¿Y si no tengo ropa formal?",
+        "a": "Una camisa lisa o una camiseta elegante, un pantalón limpio y unos zapatos cuidados suelen ser suficientes. Pedir prestado o recurrir a la segunda mano también son excelentes opciones."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dressing-for-a-first-date-es",
+    "theme": "style",
+    "title": "Cómo vestirse para una primera cita",
+    "emoji": "💗",
+    "locale": "es",
+    "intro": "Un buen outfit para una primera cita te muestra sin disfrazarte. El secreto: sentirte bien para poder ser natural.",
+    "sections": [
+      {
+        "heading": "La comodidad, primero",
+        "body": "Una primera cita ya consume bastante energía mental: no le añadas un outfit que te apriete o unos zapatos que duelen. Elige ropa en la que de verdad te sientas a gusto. La comodidad se nota en la cara: te relaja y te hace más atractivo. Si estás pensando en el outfit toda la noche, era la elección equivocada."
+      },
+      {
+        "heading": "Adaptarse al contexto",
+        "body": "Lo que te pones depende de adónde vas. Un café de día pide algo relajado y cuidado. Un restaurante por la noche permite ir un poco más arreglado. Una actividad —paseo, galería, bolos— pide algo práctico. Pregunta adónde vais antes de vestirte. Ir demasiado arreglado o demasiado informal crea una incomodidad sutil; acertar demuestra que pensaste en el momento."
+      },
+      {
+        "heading": "Un toque que sea tuyo",
+        "body": "El objetivo no es impresionar con un outfit espectacular, sino mostrar una versión pulida y auténtica de ti mismo. Lleva una prenda que de verdad ames y que sea fácil punto de conversación: un color que te define, un accesorio con historia. La persona que tienes enfrente quiere conocerte a ti, no a un maniquí. Mantente fiel a tu estilo."
+      }
+    ],
+    "steps": [
+      "Pregunta adónde vais para vestirte en consecuencia",
+      "Elige comodidad: nada que apriete",
+      "Lleva una prenda que de verdad te guste",
+      "Comprueba que está limpia, planchada y los zapatos en buen estado",
+      "Sé fiel a tu estilo, nada de disfrazarte"
+    ],
+    "faq": [
+      {
+        "q": "¿Hay que esforzarse mucho para una primera cita?",
+        "a": "No. Un outfit cuidado y natural es suficiente. Pasarse puede crear distancia: la autenticidad tranquiliza más."
+      },
+      {
+        "q": "¿Deberías ponerte algo nuevo para una cita?",
+        "a": "No: es mejor llevar un outfit probado con el que te sientas bien. Algo que nunca hayas usado puede ser incómodo o darte sorpresas."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "dressing-for-a-night-out-es",
+    "theme": "style",
+    "title": "Cómo vestirse para una noche increíble",
+    "emoji": "🎉",
+    "locale": "es",
+    "intro": "Un buen outfit para salir te da confianza desde el momento en que llegas. Unas pautas sencillas te ayudan a sentirte cómodo y encajar en el ambiente.",
+    "sections": [
+      {
+        "heading": "Descifrar el código de vestimenta",
+        "body": "Primero, identifica el tipo de evento. El cumpleaños de un amigo, una noche de club, un evento de gala o una cena en casa requieren cosas distintas. Si se anuncia un dress code, síguelo. Si no, pregunta al anfitrión o investiga el local. Una pregunta rápida es mejor que llegar en vaqueros a una cena de gala, o con traje a una barbacoa en el jardín."
+      },
+      {
+        "heading": "Añadir una pieza protagonista",
+        "body": "Una noche de salida es una oportunidad para atreverte un poco más de lo habitual: un color vivo, una tela que capte la luz, una pieza llamativa. El método seguro: una pieza fuerte sobre una base sencilla. Una chaqueta impactante con unos pantalones simples, o unos zapatos que llamen la atención. Concentrar la atención en un solo elemento te da ese punto especial sin pasarte."
+      },
+      {
+        "heading": "Pensar en toda la noche",
+        "body": "Una noche de salida es larga: bailarás, te sentarás, puede que tengas calor y luego frío. Elige prendas que aguanten el movimiento y prevé una capa para cuando refresque fuera. Unos zapatos en los que puedas aguantar horas cambian todo. Piensa también en lo práctico: bolsillos o un bolso pequeño para el móvil y las llaves, para no cargar con ellos toda la noche."
+      }
+    ],
+    "steps": [
+      "Identifica el tipo de evento y el dress code",
+      "Empieza con una base sencilla y cómoda",
+      "Añade una pieza protagonista que llame la atención",
+      "Elige zapatos con los que puedas aguantar horas",
+      "Lleva una capa y donde guardar tus cosas"
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo destacar sin pasarse?",
+        "a": "Una pieza protagonista sobre una base neutra. El contraste hace que la pieza resalte sin sobrecargar la silueta."
+      },
+      {
+        "q": "¿Y si no sé cuál es el dress code?",
+        "a": "Pregunta al anfitrión o fíjate en el tipo de local. Ante la duda, opta por un término medio: base sencilla con un toque cuidado."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "buying-secondhand-and-thrift-es",
+    "theme": "style",
+    "title": "Cómo comprar de segunda mano y en tiendas vintage sin fallar",
+    "emoji": "♻️",
+    "locale": "es",
+    "intro": "La segunda mano te permite encontrar prendas únicas y de calidad a buen precio, reduciendo el impacto ambiental. Solo hay que saber dónde y cómo buscar.",
+    "sections": [
+      {
+        "heading": "Por qué apostar por la segunda mano",
+        "body": "Comprar ropa usada tiene tres ventajas: es más barato, más sostenible y encuentras piezas que nadie más tiene. Las colecciones antiguas solían estar mejor confeccionadas que gran parte de la moda rápida actual. Comprar de segunda mano requiere más paciencia que comprar nuevo, pero la emoción del hallazgo y el precio bien valen el esfuerzo."
+      },
+      {
+        "heading": "Cómo inspeccionar una prenda de segunda mano",
+        "body": "Antes de comprar, examina la prenda con atención. Revisa las costuras, los botones, la cremallera y las zonas de desgaste: axilas, cuello, codos, entrepierna. Busca manchas y bolitas. Huélela. Un pequeño arreglo está bien si puedes hacerlo; un defecto visible en una zona clave, mejor descártala. Pruébate siempre las prendas, porque las tallas vintage y extranjeras no coinciden con los estándares actuales."
+      },
+      {
+        "heading": "Comprar con método",
+        "body": "En las tiendas físicas de segunda mano, apunta a los días de reposición y tómate tu tiempo: la pieza adecuada requiere esfuerzo encontrarla. En internet, filtra por talla y marca, pide las medidas exactas al vendedor y mira bien las fotos. Ten una lista de lo que realmente buscas para no comprar a lo loco. La segunda mano se vuelve una trampa si solo acumulas cosas porque son baratas."
+      }
+    ],
+    "steps": [
+      "Haz una lista de las prendas que de verdad estás buscando",
+      "Revisa costuras, cremalleras y zonas de desgaste",
+      "Busca manchas, huele la prenda y comprueba si tiene bolitas",
+      "Pruébate siempre todo: ignora la etiqueta de talla",
+      "Compra solo lo que de verdad vayas a usar, no te guíes solo por el precio"
+    ],
+    "faq": [
+      {
+        "q": "¿Cómo lavar una prenda de segunda mano?",
+        "a": "Lávala antes de ponértela, a la temperatura indicada en la etiqueta. Un ciclo algo más largo con un buen aclarado elimina los olores."
+      },
+      {
+        "q": "¿Son fiables las tallas de segunda mano?",
+        "a": "No mucho. Las tallas varían según la época, la marca y el país. Fíate de las medidas reales, no de la etiqueta."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

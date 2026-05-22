@@ -189,8 +189,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
   for (const it of getAllFormation()) {
+    const loc = (it.locale ?? "fr") as Loc;
     out.push({
-      url: `${BASE}/${it.locale ?? "fr"}/formation/${it.slug}`,
+      url: `${BASE}/${loc}/${routeSeg("formation", loc)}/${it.slug}`,
       lastModified: new Date(it.updatedAt),
       changeFrequency: "monthly",
       priority: 0.7,

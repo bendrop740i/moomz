@@ -1,0 +1,406 @@
+[
+  {
+    "slug": "starting-exercise-without-pressure-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Começar a se Exercitar Sem a Pressão do Perfeccionismo",
+    "emoji": "🚀",
+    "intro": "A maioria das pessoas desiste porque tenta demais rápido demais. Começar pequeno e ser consistente sempre vai superar o plano perfeito.",
+    "sections": [
+      {
+        "heading": "Por que o perfeccionismo mata a motivação",
+        "body": "Quando você define uma rotina diária de uma hora logo no primeiro dia, a barra fica tão alta que a primeira sessão perdida parece um fracasso total — e você desiste. O progresso real vem da consistência, não de se esforçar muito no início. O corpo se adapta devagar e precisa de repetições distribuídas ao longo do tempo. Dez minutos feitos cem vezes valem mais do que uma hora feita três vezes e depois abandonada."
+      },
+      {
+        "heading": "A meta ridiculamente pequena",
+        "body": "Escolha uma meta tão pequena que quase dê vergonha: cinco flexões, dez minutos de caminhada, dois alongamentos. O ponto não é que seja suficiente — é que é impossível falhar, mesmo num dia difícil. Uma vez em movimento, você geralmente acaba fazendo mais naturalmente. Nos dias duros, você atinge o mínimo e mantém sua sequência viva. É a consistência que cria o hábito, não o desempenho."
+      },
+      {
+        "heading": "Separar o exercício da aparência",
+        "body": "Se sua única motivação for mudar o corpo, cada dia sem resultados visíveis vira desânimo. Acrescente razões imediatas: dormir melhor, ter mais energia, aliviar o estresse, se sentir orgulhoso de si mesmo. Esses benefícios aparecem em dias, não em meses. Eles alimentam sua motivação enquanto as mudanças físicas — mais lentas para chegar — vão se construindo silenciosamente em segundo plano."
+      }
+    ],
+    "steps": [
+      "Escolha uma atividade que você não detesta",
+      "Defina uma meta mínima ridiculamente pequena para começar",
+      "Reserve um horário fixo na semana, mesmo que curto",
+      "Anote como você se sente depois de cada sessão, não só antes",
+      "Celebre a consistência, não o desempenho, nas primeiras semanas"
+    ],
+    "faq": [
+      {
+        "q": "Quantas vezes por semana para começar?",
+        "a": "Duas ou três sessões já é mais que suficiente no começo. Deixa tempo para se recuperar e cabe numa agenda cheia sem te esgotar."
+      },
+      {
+        "q": "Preciso de equipamento para começar?",
+        "a": "De jeito nenhum. Caminhada, exercícios com o peso do corpo e alongamentos não precisam de nada. Você consegue evoluir por meses antes de precisar de qualquer equipamento."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "healthy-weight-loss-basics-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "O Básico Real de Como Perder Peso de Forma Saudável",
+    "emoji": "⚖️",
+    "intro": "Perder peso de forma saudável é lento, gradual e sem sofrimento. Tudo que promete velocidade vai te custar caro mais tarde.",
+    "sections": [
+      {
+        "heading": "Por que as dietas radicais fracassam",
+        "body": "Dietas muito restritivas fazem o peso cair rápido — principalmente água e músculo — depois o metabolismo desacelera e a fome dispara. Resultado: você recupera tudo, muitas vezes com mais. É o efeito sanfona: frustrante e ruim para a saúde. A mudança duradoura se constrói devagar, com hábitos que você consegue manter para sempre — não um esforço heroico sustentado por algumas semanas."
+      },
+      {
+        "heading": "Um ritmo realista e seguro",
+        "body": "A perda de peso saudável fica em torno de 0,5 kg por semana, o que exige um déficit leve — não passar fome. Nesse ritmo, você protege sua energia, seu músculo e seu humor. O peso também oscila dia a dia dependendo da água, do sal e do ciclo. Olhe para a tendência ao longo de várias semanas, nunca para um único número. Paciência aqui não é fraqueza — é a estratégia que realmente funciona."
+      },
+      {
+        "heading": "Comer melhor em vez de comer menos",
+        "body": "Em vez de cortar drasticamente, mude o que tem no prato: mais legumes, proteína e fibras que saciam — menos ultraprocessados e bebidas açucaradas. Você come até se sentir satisfeito, mas com alimentos mais nutritivos por caloria. Essa abordagem é sustentável porque não se baseia na privação — apenas em escolhas melhores repetidas todo dia."
+      },
+      {
+        "heading": "Quando consultar um profissional",
+        "body": "Se você tem muito peso para perder, uma relação difícil com a comida, ou o esforço consistente não está surtindo efeito, converse com um médico ou nutricionista. Não é admitir fracasso — são aliados que personalizam a sua abordagem e descartam causas médicas. Ninguém deveria enfrentar um transtorno alimentar ou obesidade sozinho."
+      }
+    ],
+    "steps": [
+      "Aponte para uma perda lenta e constante — não uma corrida",
+      "Melhore a qualidade do prato antes de reduzir a quantidade",
+      "Acompanhe a tendência do peso no mês, não o número diário",
+      "Mantenha-se ativo para preservar a massa muscular",
+      "Consulte um profissional se a situação for complexa ou travada"
+    ],
+    "faq": [
+      {
+        "q": "Devo me pesar todo dia?",
+        "a": "Não é necessário. Se o número te estressa, pese uma vez por semana ou nem isso, e confie em como você se sente e em como as roupas ficam."
+      },
+      {
+        "q": "Dá para emagrecer sem exercício?",
+        "a": "Sim — a alimentação faz a maior parte do trabalho. Mas se movimentar ajuda a preservar músculo, humor e energia, então é um aliado valioso que você não quer ignorar."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-caloric-deficit-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Entendendo o Déficit Calórico Sem Exagerar",
+    "emoji": "🔢",
+    "intro": "O déficit calórico explica a perda de peso, mas não é uma licença para passar fome. Mantenha-o modesto e sustentável.",
+    "sections": [
+      {
+        "heading": "O princípio em uma frase",
+        "body": "Seu corpo gasta energia todo dia só para respirar, se mover e funcionar. Se você come um pouco menos do que isso, ele recorre às reservas e você emagrece. Só isso. Nenhum alimento é magicamente proibido. Entender isso te libera de muitos mitos: o que importa é o seu equilíbrio geral ao longo da semana, não uma única refeição."
+      },
+      {
+        "heading": "Por que um déficit pequeno supera um grande",
+        "body": "Um déficit enorme faz o peso cair rápido, mas te deixa faminto, exausto, irritado e você acaba cedendo. Um déficit modesto — quase imperceptível — te deixa energia para os exercícios e para a vida. Você emagrece mais devagar, mas mantém o rumo e preserva a massa muscular. O objetivo não é sofrer o máximo possível; é criar uma diferença pequena e confortável que você consiga manter por meses."
+      },
+      {
+        "heading": "O perigo de restringir demais",
+        "body": "Comer muito pouco priva o corpo de nutrientes essenciais e enfraquece os ossos, a imunidade, o humor e o ciclo hormonal. Em jovens ainda em desenvolvimento, é especialmente arriscado. Se você se sentir com fome o tempo todo, sentindo frio, exausto ou obcecado por comida, seu déficit está agressivo demais. Coma mais. Comer o suficiente não é trapacear — é o ponto central de uma abordagem saudável."
+      }
+    ],
+    "steps": [
+      "Entenda que déficit é uma pequena diferença, não passar fome",
+      "Aponte para um déficit moderado que você consiga manter sem sofrer",
+      "Encha o prato com alimentos que saciam para não ficar com fome",
+      "Fique atento a sinais de alerta: cansaço profundo, frio, pensamentos obsessivos sobre comida",
+      "Peça a um profissional para te ajudar a definir uma meta saudável e personalizada"
+    ],
+    "faq": [
+      {
+        "q": "Preciso contar calorias?",
+        "a": "Não. Muitas pessoas têm sucesso simplesmente melhorando a qualidade e as porções. Contar pode ajudar a aprender, mas vira algo prejudicial se se tornar obsessivo."
+      },
+      {
+        "q": "Que déficit é perigoso demais?",
+        "a": "Qualquer déficit que te deixe exausto, com fome constante ou que bagunce o seu ciclo é agressivo demais. Um médico pode te ajudar a definir uma meta segura e personalizada."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-balanced-plate-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Como Montar um Prato Equilibrado de Forma Simples",
+    "emoji": "🍽️",
+    "intro": "Sem tabelas complicadas. Um prato equilibrado se resume a uma visualização simples que você pode replicar em qualquer refeição.",
+    "sections": [
+      {
+        "heading": "O método visual do prato",
+        "body": "Imagine seu prato dividido: cerca de metade em vegetais ou saladas, um quarto de proteína, um quarto de cereais integrais ou carboidratos complexos, e um pouco de gordura saudável. Essa divisão simples cobre o essencial sem nenhuma matemática. Sacia graças às fibras e à proteína, fornece energia duradoura e reduz os desejos. Você pode aplicar isso num restaurante, no refeitório ou em casa — sem precisar de nenhuma ferramenta."
+      },
+      {
+        "heading": "O que cada componente faz",
+        "body": "Os vegetais trazem fibras, vitaminas e volume com poucas calorias. A proteína repara o músculo e mantém a saciedade. Os cereais integrais fornecem energia de longa duração e evitam quedas de energia. As gorduras saudáveis — azeite, castanhas, abacate — são essenciais para o cérebro e os hormônios. Nenhum grupo é o inimigo: cada um tem um papel, e cortar qualquer um cria deficiências."
+      },
+      {
+        "heading": "Adaptando à sua fome e nível de atividade",
+        "body": "Esse prato não é uma regra rígida. Nos dias em que você se movimenta muito, pode aumentar os carboidratos e a proteína. Nos dias mais tranquilos, siga uma fome mais moderada. O que importa é manter a estrutura geral e comer conforme sua fome real — sem forçar nem restringir. Com a prática, você vai montar um prato equilibrado sem nem pensar nisso."
+      }
+    ],
+    "steps": [
+      "Encha metade do prato com vegetais em cada refeição principal",
+      "Acrescente uma fonte de proteína em toda refeição",
+      "Escolha cereais integrais para uma energia que dura",
+      "Mantenha uma pequena porção de gordura saudável — nunca corte por completo",
+      "Ajuste as quantidades conforme sua fome e nível de atividade"
+    ],
+    "faq": [
+      {
+        "q": "E se eu não gostar de muitos vegetais?",
+        "a": "Comece pelos que você tolera e varie o modo de preparo e os temperos. O gosto se aprende — acrescente um vegetal novo de cada vez em vez de mudar tudo de uma vez."
+      },
+      {
+        "q": "Preciso pesar os alimentos?",
+        "a": "Não é necessário. O método visual de proporções funciona para a grande maioria das pessoas e continua prático a longo prazo sem virar uma tarefa chata."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-protein-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Entendendo as Proteínas e Por Que Elas São Importantes",
+    "emoji": "🥚",
+    "intro": "A proteína repara o corpo, sacia e sustenta os músculos. Distribuí-la bem ao longo do dia faz uma diferença real.",
+    "sections": [
+      {
+        "heading": "O que as proteínas realmente fazem",
+        "body": "As proteínas são os blocos de construção dos seus músculos, pele, cabelo e inúmeras funções do corpo. Quando você se exercita, elas reparam e fortalecem os músculos trabalhados. São também altamente saciantes — uma refeição rica em proteínas mantém você satisfeito por mais tempo e reduz os beliscos. Isso as torna uma aliada essencial para quem quer se manter ativo sem ser vencido pela fome."
+      },
+      {
+        "heading": "Onde encontrar, com ou sem carne",
+        "body": "A proteína está nos ovos, peixe e carne, mas também nas leguminosas como lentilha e grão-de-bico, no tofu, nos laticínios e em alguns cereais. Uma dieta vegetariana ou vegana consegue perfeitamente cobrir as necessidades de proteína variando as fontes. O objetivo não é comer quantidades enormes de carne — é ter uma fonte de proteína em cada refeição, seja animal ou vegetal."
+      },
+      {
+        "heading": "Quanto, sem exagerar",
+        "body": "A maioria das pessoas ativas cobre suas necessidades com uma porção de proteína em cada refeição — sem suplementos em pó nem quantidades extremas. Comer muito mais do que o necessário não acelera nada e pode desequilibrar o prato. A consistência ao longo do dia importa mais do que uma refeição gigante. Se você pratica muito esporte ou tem objetivos específicos, um nutricionista pode ajustar a quantidade certa para o seu perfil."
+      }
+    ],
+    "steps": [
+      "Inclua uma fonte de proteína em cada refeição",
+      "Varie entre fontes animais e vegetais conforme suas preferências",
+      "Priorize a proteína nos dias de treino",
+      "Não force quantidades enormes — a consistência já é suficiente",
+      "Busque orientação profissional se tiver um objetivo atlético específico"
+    ],
+    "faq": [
+      {
+        "q": "Preciso de whey protein?",
+        "a": "Não — é opcional. É só um alimento conveniente. Uma dieta variada cobre as necessidades da grande maioria das pessoas, mesmo as que praticam esportes por lazer."
+      },
+      {
+        "q": "Dá para comer proteína demais?",
+        "a": "Em excesso extremo, sim — desequilibra o prato e pode sobrecarregar os rins em algumas pessoas. Fique nas porções normais e mantenha uma dieta variada."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-carbs-without-demonizing-them-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Entendendo os Carboidratos Sem Demonizá-los",
+    "emoji": "🍞",
+    "intro": "Os carboidratos não são o inimigo. São o seu combustível principal. O que importa é quais e em que quantidade.",
+    "sections": [
+      {
+        "heading": "O combustível do corpo e do cérebro",
+        "body": "Os carboidratos fornecem a energia mais prontamente disponível para o seu cérebro, músculos e foco. Cortá-los completamente frequentemente causa cansaço, irritabilidade e queda de desempenho. Muitas tendências apontam os carboidratos como vilões do ganho de peso, mas o que importa é o excesso calórico total — não um único grupo alimentar. Pão, arroz e macarrão têm um lugar legítimo numa dieta equilibrada."
+      },
+      {
+        "heading": "Carboidratos integrais x refinados",
+        "body": "Nem todos os carboidratos são iguais. As versões integrais — pão integral, arroz integral, aveia, leguminosas — contêm fibras que retardam a liberação de energia e mantêm a saciedade por mais tempo. As versões altamente refinadas e açucaradas dão um pico de energia seguido de uma queda. Escolher integrais na maior parte do tempo estabiliza a fome e a energia, sem proibir totalmente os outros."
+      },
+      {
+        "heading": "Ajustando a quantidade à sua atividade",
+        "body": "Quanto mais você se movimenta, mais carboidratos você precisa para abastecer o esforço. Um dia de treino intenso não tem as mesmas necessidades que um dia sentado na mesa. Em vez de cortar os carboidratos, ajuste a quantidade: um pouco mais nos dias ativos, um pouco menos nos dias tranquilos. Essa flexibilidade previne compulsões e permite que você se desempenhe sem restrições desnecessárias."
+      }
+    ],
+    "steps": [
+      "Mantenha os carboidratos nas refeições — eles são o seu combustível",
+      "Prefira as versões integrais na maioria das vezes",
+      "Combine-os com proteína e vegetais para se manter saciado",
+      "Aumente a porção nos dias de treino intenso",
+      "Evite cortá-los completamente — prejudica a sua energia"
+    ],
+    "faq": [
+      {
+        "q": "Carboidratos à noite engordam?",
+        "a": "Não — esse mito é falso. O que importa é o total consumido ao longo do dia. Comer carboidratos à noite pode até favorecer um sono melhor."
+      },
+      {
+        "q": "Devo evitar o pão para emagrecer?",
+        "a": "Não. O pão, especialmente o integral, pode perfeitamente fazer parte de uma perda de peso saudável. O que determina o resultado é o total calórico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "why-healthy-fats-are-essential-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Gorduras Boas: Por Que São Insubstituíveis",
+    "emoji": "🥑",
+    "intro": "A gordura teve má fama por muito tempo. Mas sem as gorduras certas, o seu corpo e o seu cérebro simplesmente não funcionam tão bem.",
+    "sections": [
+      {
+        "heading": "Gordura não é o inimigo",
+        "body": "As gorduras são usadas para produzir hormônios, proteger o cérebro, absorver certas vitaminas e fornecer energia concentrada. Cortá-las perturba o humor, a pele e, em mulheres jovens, às vezes o ciclo hormonal. A palavra 'gordura' parece assustadora porque evoca ganho de peso, mas a gordura alimentar é essencial. Como em tudo, quantidade e qualidade são o que fazem a diferença."
+      },
+      {
+        "heading": "Boas fontes x fontes a limitar",
+        "body": "As gorduras de qualidade vêm do azeite, nozes, amêndoas, abacate, peixes gordurosos como salmão e sardinha, e sementes. Elas beneficiam o coração e o cérebro. Já as gorduras de ultraprocessados, frituras industriais e massas industrializadas valem a pena limitar — mas não proibir completamente. Buscar uma boa proporção diária é suficiente; a perfeição não é o objetivo."
+      },
+      {
+        "heading": "Mantendo a quantidade certa",
+        "body": "As gorduras são densas em calorias: um pouco já vai longe. Não é preciso temê-las, mas também não é preciso afogar cada prato em óleo. Uma colher de sopa de azeite para cozinhar, um punhado de castanhas de lanche, um pouco de abacate — esse é o equilíbrio certo. O equilíbrio vem da consistência e da variedade, não de monitorar ansiosamente cada grama de gordura."
+      }
+    ],
+    "steps": [
+      "Mantenha uma pequena fonte de gordura boa em cada refeição",
+      "Priorize azeite, nozes, abacate e peixes gordurosos",
+      "Limite as gorduras de ultraprocessados sem proibi-las",
+      "Meça os óleos: um pouquinho já é suficiente — são calóricos",
+      "Nunca elimine a gordura completamente da alimentação"
+    ],
+    "faq": [
+      {
+        "q": "A gordura engorda automaticamente?",
+        "a": "Não. O que causa ganho de peso é o excesso calórico total. As gorduras boas, em quantidades razoáveis, fazem parte de uma dieta satisfatória e nutritiva."
+      },
+      {
+        "q": "Vale comprar produtos com gordura reduzida?",
+        "a": "Não necessariamente. Produtos com gordura reduzida às vezes têm mais açúcar ou são menos saciantes. Um alimento simples e natural em quantidade razoável costuma ser a melhor escolha."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "why-fiber-changes-your-satiety-and-digestion-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Por Que as Fibras Mudam a Sua Saciedade e a Digestão",
+    "emoji": "🥦",
+    "intro": "As fibras são as heroínas anônimas da nutrição: saciam, alimentam o intestino e estabilizam a energia.",
+    "sections": [
+      {
+        "heading": "O poder saciante das fibras",
+        "body": "As fibras ocupam volume e retardam a digestão, o que prolonga a sensação de saciedade após uma refeição. Um prato rico em vegetais, leguminosas e cereais integrais mantém você satisfeito por muito mais tempo do que uma refeição refinada com as mesmas calorias. Esse é um recurso poderoso quando você quer comer até se sentir realmente saciado sem exagerar nas porções — você não está lutando contra a fome, está desarmando-a."
+      },
+      {
+        "heading": "Um intestino mais saudável",
+        "body": "As fibras alimentam as bactérias benéficas do intestino, que têm um papel na digestão, na imunidade e até no humor. Uma alimentação pobre em fibras favorece a prisão de ventre e uma digestão irregular. Ao acrescentar gradualmente mais vegetais, frutas e cereais integrais, você melhora o conforto digestivo. Aumente devagar para que o corpo se adapte e beba água suficiente ao mesmo tempo."
+      },
+      {
+        "heading": "Onde encontrá-las facilmente",
+        "body": "As fibras estão por toda parte no reino vegetal: vegetais, frutas com casca, leguminosas, cereais integrais e castanhas. Alguns ajustes simples já bastam: trocar pelo pão integral, acrescentar uma porção de vegetais, colocar fruta e aveia no iogurte. Você não precisa de suplementos — apenas variar a ingestão de alimentos vegetais ao longo do dia cobre amplamente as necessidades de fibras."
+      }
+    ],
+    "steps": [
+      "Acrescente uma porção de vegetais em toda refeição principal",
+      "Troque para pão, arroz e macarrão integrais quando possível",
+      "Inclua leguminosas várias vezes por semana",
+      "Coma a fruta inteira em vez de em forma de suco",
+      "Aumente as fibras gradualmente e beba água suficiente"
+    ],
+    "faq": [
+      {
+        "q": "Por que fico com gases quando acrescento mais fibras?",
+        "a": "É comum quando o aumento é muito abrupto. Vá devagar ao longo de algumas semanas e mantenha-se bem hidratado — o sistema digestivo vai se ajustar."
+      },
+      {
+        "q": "Suplementos de fibras são úteis?",
+        "a": "Para a maioria das pessoas, não. Uma dieta variada com alimentos vegetais já é suficiente. Os suplementos não substituem os outros nutrientes que vêm dos alimentos de verdade."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "staying-hydrated-every-day-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Como se Manter Hidratado Todo Dia de Forma Simples",
+    "emoji": "💧",
+    "intro": "A hidratação afeta sua energia, foco e recuperação. Mesmo assim, a maioria das pessoas bebe pouco sem perceber.",
+    "sections": [
+      {
+        "heading": "Por que a água importa tanto",
+        "body": "O corpo é composto principalmente de água. Ela transporta nutrientes, regula a temperatura, lubrifica as articulações e mantém o cérebro funcionando. Até uma desidratação leve já é suficiente para provocar cansaço, dor de cabeça, dificuldade de concentração e o que parece ser fome. Beber o suficiente é uma das coisas mais simples e subestimadas que você pode fazer para se sentir melhor todo dia e ter um melhor desempenho nos esportes."
+      },
+      {
+        "heading": "Quanto realmente beber",
+        "body": "As necessidades variam conforme o tamanho, o calor e o nível de atividade, mas apontar para cerca de 1,5 a 2 litros de água por dia é uma referência sólida para a maioria dos adultos. Em dias de esporte ou calor intenso, beba mais. O melhor indicador é a cor da urina: amarelo claro é um bom sinal; escuro significa que você precisa beber mais. Não há necessidade de forçar quantidades extremas."
+      },
+      {
+        "heading": "Truques para não esquecer",
+        "body": "Se você esquece de beber, mantenha uma garrafinha visível na mesa e reabastece várias vezes ao dia. Beba um copo ao acordar, antes de cada refeição e durante o exercício. Você pode aromatizar a água com limão ou hortelã se a água natural te entedia. Chás também contam. O objetivo não é controlar cada gota — é criar hábitos automáticos e regulares."
+      }
+    ],
+    "steps": [
+      "Beba um copo grande de água logo ao acordar",
+      "Mantenha uma garrafinha visível e reabastece ao longo do dia",
+      "Beba um copo antes de cada refeição",
+      "Observe a cor da urina como indicador",
+      "Beba mais em dias quentes ou durante os exercícios"
+    ],
+    "faq": [
+      {
+        "q": "Café e chá contam para a hidratação?",
+        "a": "Sim, contribuem para a hidratação apesar do leve efeito diurético. A água continua sendo a melhor bebida base — sem açúcar nem estimulantes."
+      },
+      {
+        "q": "Dá para beber água demais?",
+        "a": "É raro e só acontece em excessos realmente extremos. Para uma ingestão normal distribuída ao longo do dia, não há nenhum risco — bem pelo contrário."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cutting-back-on-sugary-drinks-pt",
+    "theme": "fitness",
+    "locale": "pt",
+    "title": "Como Reduzir as Bebidas Açucaradas Sem Frustração",
+    "emoji": "🥤",
+    "intro": "As bebidas açucaradas concentram muitas calorias sem saciar. Reduzi-las é uma das mudanças mais eficazes que você pode fazer.",
+    "sections": [
+      {
+        "heading": "A armadilha das calorias líquidas",
+        "body": "Refrigerantes, sucos industrializados e energéticos têm muito açúcar mas não saciam como a comida de verdade. Você pode consumir centenas de calorias sem reduzir a fome na próxima refeição. Esse é um grande motivo pelo qual essas bebidas contribuem tanto para o ganho de peso. Reduzi-las costuma ser o gesto de maior impacto porque não exige nenhuma privação alimentar."
+      },
+      {
+        "heading": "Substituindo gradualmente",
+        "body": "Não é preciso cortar tudo de uma vez e se sentir privado. Troque aos poucos: água com gás, água aromatizada caseira com limão ou fruta, chá gelado sem açúcar. Reserve a bebida açucarada para ocasiões especiais de verdade, não para o hábito diário. À medida que você vai reduzindo, o paladar se adapta — e aquilo que era muito doce pode começar a parecer enjoativo. A mudança acontece naturalmente."
+      },
+      {
+        "heading": "E as bebidas diet ou zero açúcar",
+        "body": "As versões sem açúcar evitam as calorias, o que pode ajudar como transição, mas mantêm o paladar acostumado a algo muito doce. São melhores do que as versões normais para o peso, mas o objetivo ideal é reeducar o paladar em direção a bebidas menos adoçadas. Use-as como trampolim, não como destino final — e volte para a água quando puder."
+      }
+    ],
+    "steps": [
+      "Identifique quantas bebidas açucaradas você consome por semana",
+      "Substitua uma por dia por água ou uma alternativa sem açúcar",
+      "Prepare água aromatizada caseira para ter sempre uma opção",
+      "Reserve os refrigerantes para ocasiões especiais, não para o uso diário",
+      "Deixe o paladar se adaptar gradualmente às bebidas menos doces"
+    ],
+    "faq": [
+      {
+        "q": "Sucos de fruta são melhores do que refrigerantes?",
+        "a": "Um pouco, pois contêm vitaminas, mas continuam sendo ricos em açúcar e não saciam. É melhor comer a fruta inteira e deixar o suco para ocasiões especiais."
+      },
+      {
+        "q": "Devo proibir todas as bebidas doces?",
+        "a": "Não. Uma bebida açucarada ocasional não é problema. O problema é o consumo diário. Busque a moderação, não a proibição total."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

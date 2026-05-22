@@ -1,0 +1,332 @@
+[
+  {
+    "slug": "learning-to-code-where-to-start-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Aprender a programar: por dónde empezar de verdad",
+    "emoji": "💻",
+    "intro": "Programar se puede aprender, pero no en una semana. Así se construye una base sólida sin perderse en el camino.",
+    "sections": [
+      {
+        "heading": "Elige un lenguaje y quédate con él",
+        "body": "El error clásico es saltar entre diez lenguajes. Para empezar, Python es ideal: sintaxis legible, comunidad enorme, útil para automatización, datos y web. Si quieres resultados visibles rápido, el combo HTML/CSS/JavaScript muestra algo en el navegador desde el primer día. Elige uno y mantenlo durante tres a seis meses. Los conceptos fundamentales, variables, bucles, funciones, condiciones, se trasladan fácilmente a cualquier otro lenguaje una vez que los tienes bien asimilados."
+      },
+      {
+        "heading": "Programa cada día, aunque sean 30 minutos",
+        "body": "La constancia supera a la intensidad. Treinta minutos al día le gana a seis horas el domingo. Tu cerebro necesita repetición para interiorizar la lógica. Reserva un horario fijo: por ejemplo, a primera hora de la mañana antes de clase o del trabajo. Después de tres meses de práctica diaria, llegarás al punto de inflexión en que el código empieza a tener sentido. Las primeras semanas son duras para todo el mundo, es completamente normal."
+      },
+      {
+        "heading": "Crea mini proyectos, no te limites a seguir tutoriales",
+        "body": "Ver tutoriales te da una falsa sensación de dominio. El aprendizaje real ocurre cuando construyes algo solo. Después de cada concepto nuevo, haz un pequeño proyecto: una calculadora, un conversor, un quiz. Te quedarás atascado, buscarás respuestas, cometerás errores: ahí es exactamente donde está el crecimiento. Guarda tus proyectos en una carpeta; podrás ver tu progreso y te servirán de base para tu futuro portfolio."
+      },
+      {
+        "heading": "Aprende a buscar y leer la documentación",
+        "body": "Los desarrolladores dedican gran parte de su tiempo a buscar soluciones. Saber formular una búsqueda, leer un mensaje de error y consultar la documentación oficial es una habilidad en sí misma. No copies código sin entenderlo. Cuando encuentres una respuesta, dedica treinta segundos a entender por qué funciona. Eso es lo que te hace autosuficiente."
+      }
+    ],
+    "steps": [
+      "Elige Python o JavaScript y comprométete con él durante 3 meses",
+      "Bloquea 30 minutos de programación en tu agenda cada día",
+      "Sigue un curso gratuito y estructurado de principio a fin",
+      "Después de cada capítulo, construye un mini proyecto por tu cuenta",
+      "Lleva un registro de tus errores y cómo los resolviste",
+      "Únete a una comunidad donde puedas hacer preguntas"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto tarda en poder construir un proyecto real?",
+        "a": "Con práctica constante, espera entre 3 y 6 meses para proyectos simples pero reales, y 1 o 2 años para alcanzar un nivel empleable. Ten paciencia: es una carrera de fondo."
+      },
+      {
+        "q": "¿Necesito ser bueno en matemáticas?",
+        "a": "Para la mayoría del desarrollo web y de apps, las matemáticas de secundaria son suficientes. La lógica importa más que las matemáticas. Algunas áreas, como datos o juegos 3D, sí requieren más."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "choosing-your-first-programming-language-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "¿Qué lenguaje de programación aprender primero?",
+    "emoji": "🐍",
+    "intro": "¿Python, JavaScript, u otro? La elección correcta depende de lo que quieres crear, no de lo que esté de moda.",
+    "sections": [
+      {
+        "heading": "Parte de tu objetivo concreto",
+        "body": "El lenguaje adecuado depende del objetivo. ¿Quieres crear sitios web y apps para el navegador? JavaScript (con HTML/CSS). ¿Automatizar tareas, trabajar con datos o adentrarte en la IA? Python. ¿Desarrollo móvil? Kotlin para Android, Swift para iOS. ¿Videojuegos? C# con Unity. Define primero qué te emociona: el lenguaje llegará solo."
+      },
+      {
+        "heading": "Apuesta por una comunidad grande",
+        "body": "Un lenguaje muy usado significa más tutoriales, más respuestas en foros y más ofertas de trabajo. Python y JavaScript dominan entre principiantes exactamente por eso. Evitar lenguajes de nicho al principio significa que nunca te quedas sin nadie a quien preguntar. Una vez que tienes los fundamentos, aprender un segundo lenguaje es mucho más rápido."
+      },
+      {
+        "heading": "No cambies de lenguaje cada mes",
+        "body": "El síndrome del principiante: saltar a un nuevo lenguaje en cuanto algo se pone difícil. Eso es contraproducente: la dificultad forma parte del aprendizaje y te la encontrarás en todas partes. Comprométete con un lenguaje al menos tres meses. Lo que cuenta es dominar los conceptos fundamentales, y esos conceptos se transfieren."
+      }
+    ],
+    "steps": [
+      "Escribe en una frase qué quieres crear",
+      "Relaciona tu objetivo con el lenguaje más apropiado",
+      "Comprueba que tiene una comunidad grande y recursos gratuitos",
+      "Comprométete con él durante 3 meses sin cambiar",
+      "Aprende un segundo lenguaje solo después de terminar un proyecto"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "html-css-basics-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "HTML y CSS: crea tu primera página web",
+    "emoji": "🌐",
+    "intro": "HTML estructura el contenido, CSS lo estiliza. Este dúo es la puerta de entrada más visible al mundo del código.",
+    "sections": [
+      {
+        "heading": "Entender la diferencia entre HTML y CSS",
+        "body": "HTML es el esqueleto: encabezados, párrafos, imágenes, enlaces, botones. CSS es la piel: colores, fuentes, espaciado, diseño. Una página sin CSS funciona pero parece un documento en bruto. Una página sin HTML no tiene nada que estilizar. Aprende a estructurar bien en HTML antes de preocuparte por el diseño: el contenido bien organizado es mucho más fácil de estilizar después."
+      },
+      {
+        "heading": "Domina la maquetación moderna",
+        "body": "Olvida los viejos trucos con tablas. Hoy, dos herramientas de CSS cubren el 90% de los layouts: Flexbox para alinear elementos en fila o columna, y Grid para disposiciones en cuadrícula. Dedica un día a familiarizarte con cada una. Una vez que las dominas, maquetar una página pasa a ser algo lógico en vez de una lucha."
+      },
+      {
+        "heading": "Piensa en responsive desde el primer día",
+        "body": "La mayor parte del tráfico web viene del móvil. Tu página necesita adaptarse a cualquier tamaño de pantalla. Usa unidades flexibles en lugar de píxeles fijos, y media queries para ajustar el diseño según el ancho. Prueba regularmente redimensionando la ventana del navegador. Una página preciosa en escritorio que se rompe en móvil es una página fallida."
+      }
+    ],
+    "steps": [
+      "Crea un archivo index.html y escribe una estructura básica",
+      "Añade encabezados, párrafos, imágenes y enlaces",
+      "Vincula una hoja de estilos CSS externa",
+      "Aprende Flexbox y luego Grid con ejemplos pequeños",
+      "Haz la página responsive con media queries",
+      "Sube tu página a internet gratis para compartirla"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "javascript-for-beginners-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "JavaScript para principiantes: dando vida a una página",
+    "emoji": "⚡",
+    "intro": "JavaScript anima tus páginas: clics, animaciones, formularios. Es el lenguaje del navegador.",
+    "sections": [
+      {
+        "heading": "Los fundamentos que debes dominar",
+        "body": "Antes de tocar la interactividad, consolida las bases: variables, tipos de datos, condiciones, bucles, funciones, arrays y objetos. Estos conceptos aparecen en cada línea de código. No te precipites hacia los frameworks. Un desarrollador que domina JavaScript puro aprende React o Vue mucho más rápido que alguien que se saltó ese paso. Invierte el tiempo aquí: todo lo demás viene después."
+      },
+      {
+        "heading": "Manipular la página con el DOM",
+        "body": "El DOM es la representación de tu página que JavaScript puede modificar. Aprendes a seleccionar un elemento, cambiar su texto, añadir una clase, reaccionar a un clic. Eso es lo que convierte una página estática en una app. Practica con proyectos prácticos: un botón que cambia el color de fondo, una lista de tareas, un contador. Ver tu código actuar en pantalla es increíblemente motivador."
+      },
+      {
+        "heading": "Manejar lo asíncrono sin entrar en pánico",
+        "body": "Cargar datos de internet lleva tiempo, y JavaScript no se congela a esperar. Ese es el concepto asíncrono, que al principio suele confundir. Aprende las promesas y luego la sintaxis más clara de async/await. Practica obteniendo datos de una API pública gratuita y mostrándolos. Cuando esto encaje, una gran parte del JavaScript moderno empezará a tener sentido de repente."
+      }
+    ],
+    "steps": [
+      "Domina variables, condiciones, bucles y funciones",
+      "Aprende a seleccionar y modificar elementos del DOM",
+      "Crea una app de lista de tareas desde cero",
+      "Entiende las promesas y luego async/await",
+      "Obtén y muestra datos de una API pública",
+      "Reconstruye un proyecto sin mirar ningún tutorial"
+    ],
+    "faq": [
+      {
+        "q": "¿Debería saltar directamente a React?",
+        "a": "No. Domina JavaScript puro durante unos meses primero. React es mucho más fácil de aprender después, y entenderás de verdad lo que hace por debajo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-programming-logic-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Entender la lógica de programación",
+    "emoji": "🧩",
+    "intro": "Antes de la sintaxis está la lógica. Saber descomponer un problema es la habilidad real del desarrollador.",
+    "sections": [
+      {
+        "heading": "Divide cada problema en pequeños pasos",
+        "body": "Un programa es simplemente una secuencia de instrucciones precisas. Ante un problema, no busques la solución completa de golpe. Divídelo en subtareas pequeñas: recibir datos, transformarlos, mostrarlos. Escribe esos pasos en lenguaje natural antes de empezar a escribir código. Este hábito, llamado pseudocódigo, evita que te pierdas y hace el salto al código real mucho más fluido."
+      },
+      {
+        "heading": "Piensa: entrada, procesamiento, salida",
+        "body": "Casi todo programa sigue este esquema: recibe entradas, las procesa y produce una salida. Una calculadora toma dos números, los suma y muestra el resultado. Tener este modelo en mente clarifica cualquier proyecto. Pregúntate siempre: ¿con qué datos empiezo?, ¿qué quiero al final?, ¿qué transformaciones ocurren en el medio?"
+      },
+      {
+        "heading": "Familiarízate con condiciones y bucles",
+        "body": "Dos herramientas cubren casi todo. Las condiciones toman decisiones: si se da esta situación, haz esto; si no, haz aquello. Los bucles repiten una acción: para cada elemento de una lista, haz esto. La mayoría de los programas son combinaciones de estos dos bloques. Practica reconociéndolos en ejercicios sencillos hasta que salgan de forma automática."
+      }
+    ],
+    "steps": [
+      "Toma un problema y escríbelo en lenguaje natural paso a paso",
+      "Identifica la entrada, el procesamiento y la salida",
+      "Detecta dónde necesitas una condición o un bucle",
+      "Traduce tu pseudocódigo a código real, línea a línea",
+      "Resuelve un ejercicio de lógica cada día"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-git-and-github-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Git y GitHub: guarda y comparte tu código",
+    "emoji": "🔀",
+    "intro": "Git registra el historial de tu código, GitHub lo aloja en la nube. Imprescindibles desde tu primer proyecto real.",
+    "sections": [
+      {
+        "heading": "Por qué Git lo cambia todo",
+        "body": "Git guarda cada versión de tu proyecto. Puedes volver atrás después de un error, comparar dos estados, trabajar sin miedo a romper cosas. Es una red de seguridad permanente. Sin Git, acabas con carpetas llamadas proyecto-final-FINAL-v2. Con Git, tu historial está limpio y puedes encontrar cualquier versión en segundos."
+      },
+      {
+        "heading": "Los comandos del día a día que necesitas",
+        "body": "Solo necesitas un puñado de comandos cotidianos. Init para empezar a rastrear, add para preparar archivos, commit para guardar una versión con un mensaje claro, push para enviar a GitHub, pull para traer los cambios. Escribe mensajes de commit descriptivos: cuentan la historia de tu proyecto y te ayudan a orientarte más adelante."
+      },
+      {
+        "heading": "GitHub: tu escaparate como desarrollador",
+        "body": "GitHub no es solo almacenamiento: es una red profesional. Los reclutadores miran los perfiles de GitHub. Una cuenta con proyectos regulares, READMEs cuidados y código legible es un argumento sólido en el CV. Publica tus proyectos de forma pública, cuida su presentación y contribuye modestamente al open source para demostrar que sabes colaborar."
+      }
+    ],
+    "steps": [
+      "Instala Git y configura tu nombre y correo electrónico",
+      "Crea una cuenta de GitHub con un nombre de usuario profesional",
+      "Inicializa un repositorio en tu proyecto con git init",
+      "Haz commits regulares con mensajes claros",
+      "Publica tu proyecto en GitHub con git push",
+      "Añade un README que explique qué hace tu proyecto"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-smartly-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Usar la IA de forma inteligente, sin engañarte a ti mismo",
+    "emoji": "🤖",
+    "intro": "La IA es una herramienta potente. Bien usada, acelera tu crecimiento; mal usada, se interpone en tu aprendizaje.",
+    "sections": [
+      {
+        "heading": "La IA como tutor, no como muleta",
+        "body": "Pídele a la IA que te explique un concepto, te corrija o te sugiera enfoques, no que lo haga todo por ti. Si copias una respuesta sin entenderla, no aprendes nada y te quedarás bloqueado en cuanto la herramienta no esté disponible. Lo correcto: intenta por tu cuenta primero y luego usa la IA para entender dónde te atascaste. El objetivo es ser capaz de trabajar sin ella."
+      },
+      {
+        "heading": "Verifica siempre lo que produce la IA",
+        "body": "La IA se equivoca con seguridad. A veces inventa hechos, funciones o fuentes que no existen. Nunca confíes ciegamente en una respuesta. Ejecuta el código para probarlo, contrasta la información con fuentes fiables, cuestiona las afirmaciones. La IA acelera tu trabajo, pero la responsabilidad del resultado sigue siendo tuya."
+      },
+      {
+        "heading": "Honestidad: no hagas pasar el trabajo de la IA por tuyo",
+        "body": "Entregar una tarea, un artículo o un proyecto generado íntegramente por IA como propio es plagio, y a menudo se detecta. Además, te roba tu propio crecimiento. Usa la IA para hacer lluvia de ideas, estructurar y corregir, pero conserva la creación real para ti. Cuando el contexto exija declarar el uso de IA, hazlo. La integridad construye una reputación que dura."
+      }
+    ],
+    "steps": [
+      "Intenta resolver algo por tu cuenta antes de preguntar a la IA",
+      "Pide explicaciones, no solo respuestas",
+      "Prueba y verifica todo lo que produzca la IA",
+      "Nunca entregues trabajo de IA como completamente tuyo",
+      "Usa la IA para crecer, no para saltarte el aprendizaje"
+    ],
+    "faq": [
+      {
+        "q": "¿La IA reemplazará a los desarrolladores?",
+        "a": "Está transformando el trabajo más que eliminándolo. Quienes saben usar la IA entendiendo el código de verdad siguen siendo muy buscados. Aprender las bases sigue siendo esencial."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-good-ai-prompts-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Cómo escribir buenos prompts para la IA",
+    "emoji": "✍️",
+    "intro": "La calidad de una respuesta de IA depende de tu pregunta. Un prompt claro marca toda la diferencia.",
+    "sections": [
+      {
+        "heading": "Da contexto y asigna un rol",
+        "body": "La IA responde mejor cuando sabe a quién ayuda y por qué. Proporciona contexto: tu nivel, el objetivo, el público destinatario. También puedes asignarle un rol: por ejemplo, que actúe como un editor exigente o un profesor paciente. En vez de decir 'arregla este texto', di 'corrige este correo de solicitud de prácticas: tono profesional, destinatario de habla inglesa'. Cuanto más específico, más útil."
+      },
+      {
+        "heading": "Especifica el formato de salida",
+        "body": "Si no dices nada, la IA elige un formato al azar. Dile qué quieres: una lista con viñetas, una tabla, un párrafo corto, código comentado, un tono concreto. También puedes fijar una extensión. Pedir 'una explicación en cinco puntos sencillos' da un resultado mucho más útil que una petición vaga. El formato te ahorra un montón de tiempo."
+      },
+      {
+        "heading": "Itera en vez de pedirlo todo a la vez",
+        "body": "Los buenos resultados raramente llegan del primer prompt. Trabaja por etapas: obtén un borrador y luego pide ajustes concretos. Más corto. Más formal. Añade un ejemplo. Reformula esta parte. Este enfoque de ida y vuelta produce resultados muy superiores a un único prompt gigante. Es una conversación, no una máquina expendedora."
+      }
+    ],
+    "steps": [
+      "Especifica el contexto, el objetivo y el público",
+      "Asigna un rol a la IA cuando sea relevante",
+      "Indica el formato y la extensión deseados",
+      "Proporciona un ejemplo del resultado esperado si es posible",
+      "Refina mediante iteraciones sucesivas"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "using-ai-to-learn-faster-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Usar la IA para aprender más rápido",
+    "emoji": "📚",
+    "intro": "Bien usada, la IA se convierte en un tutor disponible 24/7 para cualquier tema que quieras abordar.",
+    "sections": [
+      {
+        "heading": "Pide explicaciones adaptadas a tu nivel",
+        "body": "Una de las grandes fortalezas de la IA es adaptar una explicación a donde estás tú. ¿Atascado en un concepto? Pide una explicación sencilla con una analogía cotidiana, como si tuvieras quince años. Luego pide una versión más avanzada cuando estés listo. Puedes lanzar preguntas sin parar sin molestar a nadie, hasta que realmente haga clic. Ningún curso tradicional ofrece esa flexibilidad."
+      },
+      {
+        "heading": "Ponte a prueba con cuestionarios",
+        "body": "El aprendizaje pasivo no basta: tienes que ponerte a prueba. Pídele a la IA que te haga un cuestionario sobre un capítulo sin mostrarte las respuestas, y luego que evalúe tus respuestas. Este mecanismo de repaso activo fija el conocimiento para siempre. También puedes pedirle que analice tus errores. Es una de las formas más efectivas de estudiar."
+      },
+      {
+        "heading": "Mantén el ojo crítico",
+        "body": "La IA es un excelente punto de partida, pero no una autoridad absoluta. Para temas factuales, estadísticas, eventos recientes o preguntas delicadas, contrasta siempre con fuentes fiables. Úsala para entender y estructurar, luego verifica. El objetivo es aprender a pensar por ti mismo, no externalizar tu criterio a una máquina."
+      }
+    ],
+    "steps": [
+      "Pide explicaciones adaptadas a tu nivel actual",
+      "Solicita una analogía cuando un concepto no acaba de quedar claro",
+      "Pídele que te haga un cuestionario para fijar lo aprendido",
+      "Pídele que analice tus errores",
+      "Contrasta la información factual con fuentes fiables"
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "knowing-ais-limits-and-pitfalls-es",
+    "theme": "digital",
+    "locale": "es",
+    "title": "Conocer los límites y las trampas de la IA",
+    "emoji": "⚠️",
+    "intro": "La IA es impresionante pero falible. Conocer sus límites te protege de sorpresas desagradables.",
+    "sections": [
+      {
+        "heading": "Alucinaciones: errores con total seguridad",
+        "body": "Una IA puede inventarse información falsa sonando completamente segura de sí misma. Puede citar un libro inexistente, una estadística errónea o una función de código que no existe. Eso es lo que se llama una alucinación. La regla es simple: nunca te creas una afirmación importante sin verificarla. Comprueba siempre hechos, cifras, fechas y fuentes."
+      },
+      {
+        "heading": "Datos desactualizados y sesgos",
+        "body": "Una IA se entrena con datos hasta cierto punto en el tiempo: puede no saber nada de eventos recientes. Además, refleja los sesgos presentes en sus datos de entrenamiento, lo que puede teñir sus respuestas sobre temas sociales o culturales. Ten en cuenta que sus respuestas no son neutrales ni están actualizadas por defecto. Para la actualidad, acude a fuentes directas."
+      },
+      {
+        "heading": "Privacidad: ten cuidado con lo que compartes",
+        "body": "No pegues información sensible en una IA: contraseñas, datos bancarios, documentos confidenciales, datos personales de otras personas. Dependiendo de la herramienta, tus entradas pueden almacenarse o usarse. Trata cada conversación como potencialmente no privada. Anonimiza la información sensible antes de pedir ayuda y revisa la configuración de privacidad de la herramienta."
+      }
+    ],
+    "steps": [
+      "Verifica siempre hechos, cifras y fuentes",
+      "No dependas de la IA para noticias recientes",
+      "Mantente alerta a los sesgos en sus respuestas",
+      "Nunca compartas información sensible o confidencial",
+      "Lee la configuración de privacidad de la herramienta"
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

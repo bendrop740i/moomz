@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "beginner-skincare-routine-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Montar uma Rotina Básica de Skincare",
+    "emoji": "✨",
+    "intro": "Você não precisa de dez produtos para ter uma pele bonita. Três passos simples, repetidos todo dia, já são suficientes para começar.",
+    "sections": [
+      {
+        "heading": "Os três pilares",
+        "body": "Uma rotina eficaz se resume a três etapas: limpar, hidratar, proteger. De manhã, faça uma limpeza suave, aplique um hidratante e depois o protetor solar. À noite, limpe para remover a sujeira e o sebo acumulados durante o dia, depois hidrate. Tudo o mais é opcional. Consistência vale mais do que quantidade de produtos — uma rotina simples que você realmente mantém sempre será melhor do que uma complicada que você abandona em uma semana."
+      },
+      {
+        "heading": "Escolhendo os produtos certos",
+        "body": "Deixe as marcas caras de lado. Um sabonete facial suave sem sabão, um hidratante neutro e um protetor solar atendem às suas necessidades por muito pouco dinheiro em farmácias ou supermercados. Primeiro, identifique seu tipo de pele: pele que fica apertada após a limpeza geralmente é seca; brilho no meio do dia costuma indicar pele oleosa. Prefira texturas mais leves para pele oleosa, e mais ricas para pele seca. Evite produtos com muito perfume — eles podem irritar."
+      },
+      {
+        "heading": "Erros a evitar",
+        "body": "O primeiro erro é exagerar: usar ativos fortes logo de cara irrita a pele e provoca vermelhidão e espinhas. O segundo é pular o protetor solar, que é, na prática, o gesto antiestressante mais eficaz que você pode fazer. O terceiro é trocar de produto toda semana — dê à sua pele de três a quatro semanas para responder antes de julgar qualquer coisa. Tenha paciência e apenas observe."
+      }
+    ],
+    "steps": [
+      "Manhã: limpe, hidrate e aplique FPS 30 no mínimo.",
+      "Noite: limpe para remover o sebo e as impurezas, depois hidrate.",
+      "Comece com apenas três produtos básicos.",
+      "Mantenha a mesma rotina por pelo menos um mês antes de avaliá-la.",
+      "Acrescente um ativo (ácido, retinol) só depois que o básico estiver consolidado."
+    ],
+    "faq": [
+      {
+        "q": "Preciso de produtos diferentes para manhã e noite?",
+        "a": "A grande diferença é o protetor solar, usado de manhã. À noite, você pode acrescentar um tratamento específico, mas não é obrigatório."
+      },
+      {
+        "q": "Produtos caros são melhores?",
+        "a": "Não necessariamente. Muitos produtos acessíveis de farmácia funcionam muito bem. O que importa é a fórmula e a consistência, não o preço."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-skin-type-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Identificar Seu Tipo de Pele para Cuidar Melhor Dela",
+    "emoji": "🔍",
+    "intro": "Escolher os produtos certos começa por conhecer a sua pele. Um teste simples em casa te dá a resposta em poucas horas.",
+    "sections": [
+      {
+        "heading": "Os principais tipos de pele",
+        "body": "Existem quatro perfis principais: normal (equilibrada), seca (apertada, pode descamar), oleosa (brilhante com poros visíveis) e mista (oleosa na zona T, normal ou seca nas bochechas). Há também a pele sensível, que reage facilmente com vermelhidão ou ardência — e pode estar presente em qualquer um dos outros tipos. Conhecer o seu perfil evita que você compre produtos que não são adequados para você."
+      },
+      {
+        "heading": "O teste do papel",
+        "body": "Limpe o rosto à noite com um produto suave e não aplique nada depois. Na manhã seguinte, antes de lavar, pressione um papel ou lenço em diferentes áreas do rosto. Se ficar seco em todos os lugares, sua pele tende a ser normal ou seca. Se houver oleosidade só no centro, você tem pele mista. Óleo em todo o rosto indica pele oleosa. Sensação de aperto aponta para pele seca."
+      },
+      {
+        "heading": "A pele muda com o tempo",
+        "body": "O tipo de pele não é fixo. Ele muda com a idade, as estações, o estresse, a alimentação e os hormônios. A pele oleosa da adolescência pode se tornar mista mais tarde. No inverno, o frio costuma ressecar a pele; no verão ela tende a ficar mais brilhante. Reavalie sua pele duas vezes por ano e ajuste as texturas: mais leve no verão, mais nutritiva no inverno."
+      }
+    ],
+    "steps": [
+      "Faça o teste do papel de manhã, antes de aplicar qualquer coisa.",
+      "Observe quais áreas estão oleosas, apertadas ou com tendência a vermelhidão.",
+      "Verifique se a pele arde com facilidade — sinal de sensibilidade.",
+      "Escolha texturas leves para pele oleosa e mais ricas para pele seca.",
+      "Reavalie seu tipo de pele a cada mudança de estação."
+    ],
+    "faq": [
+      {
+        "q": "A pele pode ser oleosa e desidratada ao mesmo tempo?",
+        "a": "Sim. A pele oleosa produz sebo, mas ainda pode carecer de água. Nesse caso, um hidratante leve continua sendo essencial."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "how-to-wash-your-face-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Limpar o Rosto Corretamente de Manhã e à Noite",
+    "emoji": "🧼",
+    "intro": "A limpeza é a base de uma pele bonita. Feita do jeito errado, irrita; feita certo, prepara a pele para tudo o mais.",
+    "sections": [
+      {
+        "heading": "Por que é preciso limpar o rosto",
+        "body": "Ao longo do dia, a pele acumula sebo, poeira, poluição e resíduos de produtos. A limpeza remove essa camada para evitar poros entupidos e ajudar o skincare a ser absorvido com mais eficiência. Mas limpar não significa agredir: se a pele ficar muito apertada depois de lavar, você foi além do necessário. Uma boa limpeza deixa a pele limpa, macia e confortável — nunca áspera ou irritada."
+      },
+      {
+        "heading": "A técnica correta",
+        "body": "Use água morna, nunca quente demais — água muito quente resseca a pele. Aplique o produto de limpeza com as pontas dos dedos, fazendo movimentos circulares suaves por trinta segundos a um minuto. Dê atenção extra ao nariz e ao queixo, onde o sebo se acumula mais. Enxágue bem para não deixar resíduos e seque com uma toalha limpa dando tapinhas suaves — nunca esfregue. De manhã, enxaguar apenas com água pode ser suficiente para peles secas."
+      },
+      {
+        "heading": "Frequência e excessos",
+        "body": "Duas limpezas por dia é o suficiente: manhã e noite. Lavar o rosto com muita frequência prejudica a barreira protetora da pele e a deixa reativa. Depois de se exercitar, um enxague com água simples já basta se você não tiver tempo. Evite sabonetes agressivos, muito espumantes ou com muito perfume, que ressecam a pele. Se ela ficar sempre apertada depois de lavar, troque por algo mais suave."
+      }
+    ],
+    "steps": [
+      "Lave as mãos antes de tocar no rosto.",
+      "Use água morna — nunca quente demais.",
+      "Massageie o produto em círculos suaves por trinta segundos.",
+      "Enxágue bem e seque com uma toalha limpa dando tapinhas — sem esfregar.",
+      "Limpe o rosto duas vezes ao dia: manhã e noite, nada mais."
+    ],
+    "faq": [
+      {
+        "q": "Preciso de esponja ou escova de limpeza facial?",
+        "a": "Os dedos limpos funcionam muito bem. Esponjas e escovas podem irritar e acumular bactérias se não forem trocadas com frequência."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moisturize-your-skin-daily-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Hidratar a Pele Todo Dia Sem Errar",
+    "emoji": "💧",
+    "intro": "Uma pele bem hidratada parece mais lisa, mais radiante e envelhece melhor. É um passo rápido com resultados visíveis.",
+    "sections": [
+      {
+        "heading": "Por que todo mundo precisa hidratar",
+        "body": "Até a pele oleosa precisa de hidratação: sebo não é água. Quando a pele está desidratada, ela se defende produzindo mais óleo — o que piora o brilho. O hidratante fortalece a barreira cutânea, reduz a sensação de aperto e mantém a pele macia. O resultado: um tom mais uniforme e poros com aparência mais fina. É um passo útil em qualquer idade, independentemente do tipo de pele."
+      },
+      {
+        "heading": "Escolhendo a textura certa",
+        "body": "O segredo é combinar a textura com a sua pele. Pele oleosa ou mista: prefira um gel ou creme leve, não comedogênico, que não deixe resíduo gorduroso. Pele seca: escolha um creme mais rico, com ingredientes nutritivos. Pele sensível: procure fórmulas com poucos ingredientes, sem fragrância. No inverno, não hesite em usar uma textura mais encorpada, mesmo que sua pele seja normalmente oleosa."
+      },
+      {
+        "heading": "Quando e como aplicar",
+        "body": "Aplique o hidratante com a pele ainda levemente úmida, logo após a limpeza — a água residual ajuda a fixar a hidratação. Use uma quantidade do tamanho de uma ervilha, distribua pelo rosto e espalhe de baixo para cima e de dentro para fora, sem puxar. Não esqueça do pescoço. De manhã, o hidratante vai antes do protetor solar. À noite, pode ser o último passo da sua rotina."
+      }
+    ],
+    "steps": [
+      "Aplique o hidratante com a pele ainda levemente úmida.",
+      "Uma quantidade do tamanho de uma ervilha é suficiente — mais produto não significa mais resultado.",
+      "Espalhe de baixo para cima e de dentro para fora, sem puxar nem esfregar.",
+      "Não esqueça do pescoço — é uma área frequentemente negligenciada.",
+      "Adapte a textura à estação do ano e ao seu tipo de pele."
+    ],
+    "faq": [
+      {
+        "q": "Minha pele é oleosa — preciso mesmo hidratar?",
+        "a": "Com certeza. Pular o hidratante faz a pele produzir ainda mais óleo. Escolha apenas uma fórmula em gel mais leve."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "daily-sunscreen-habit-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Usar Protetor Solar Todo Dia, Sem Exceção",
+    "emoji": "☀️",
+    "intro": "Esse é o gesto antiestressante mais poderoso e barato que existe. Um hábito de trinta segundos que muda tudo a longo prazo.",
+    "sections": [
+      {
+        "heading": "Por que o sol marca a pele",
+        "body": "Os raios UV são responsáveis pela maior parte do envelhecimento cutâneo visível: rugas, manchas, perda de firmeza e tom apagado. Eles atravessam nuvens e vidro, então estão agindo mesmo em dias nublados ou quando você está perto de uma janela. O protetor solar bloqueia grande parte desses raios. Ele é, de longe, a ação com maior retorno para ter uma pele bonita a longo prazo."
+      },
+      {
+        "heading": "Como escolher e aplicar corretamente",
+        "body": "Prefira FPS 30 no mínimo, idealmente FPS 50 para o rosto, com cobertura de amplo espectro. A textura importa — você precisa querer usar todos os dias: fluido para pele oleosa, creme para pele seca. Aplique uma quantidade generosa (cerca de dois dedos para rosto e pescoço) como último passo da sua rotina matinal, antes da maquiagem. Uma camada muito fina reduz drasticamente a proteção."
+      },
+      {
+        "heading": "Reaplicando ao longo do dia",
+        "body": "O protetor solar não dura o dia todo — ele se degrada com o tempo, o suor e a fricção. Se você ficar em ambientes fechados, uma aplicação pela manhã geralmente basta. Se estiver ao ar livre, reaplicaque a cada duas horas. Existem sprays e bastões que facilitam a reaplicação por cima da maquiagem. Não esqueça os pontos que as pessoas costumam ignorar: orelhas, nuca e dorso das mãos."
+      }
+    ],
+    "steps": [
+      "Aplique FPS 30–50 toda manhã, mesmo em dias nublados.",
+      "Use uma quantidade generosa: dois dedos para rosto e pescoço.",
+      "Aplique como último passo do skincare, antes da maquiagem.",
+      "Reaplicaque a cada duas horas quando estiver ao ar livre.",
+      "Não esqueça as orelhas, o pescoço e as mãos."
+    ],
+    "faq": [
+      {
+        "q": "Preciso de protetor solar no inverno ou em dias nublados?",
+        "a": "Sim. Os raios UV atravessam as nuvens e estão presentes o ano todo. Um hábito diário é o que realmente protege."
+      },
+      {
+        "q": "O protetor solar vai me impedir de bronzear?",
+        "a": "Ele diminui o bronzeado e protege contra os danos. Ter uma pele saudável e sem queimaduras é sempre o melhor objetivo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-acne-calmly-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Lidar com a Acne com Calma e Bons Hábitos",
+    "emoji": "🌱",
+    "intro": "A acne é extremamente comum e não é motivo de vergonha. Alguns hábitos simples ajudam a acalmá-la sem agredir a pele.",
+    "sections": [
+      {
+        "heading": "Entendendo a acne",
+        "body": "A acne aparece quando os poros ficam entupidos com sebo e células mortas da pele, às vezes agravada por bactérias e hormônios. Ela afeta uma grande parcela dos adolescentes e muitos adultos — você definitivamente não está sozinho. Não é sinal de falta de higiene. Entender que é um processo normal da pele ajuda você a encarar o problema com paciência em vez de pânico."
+      },
+      {
+        "heading": "Bons hábitos diários",
+        "body": "Mantenha a rotina suave: um sabonete não agressivo, um hidratante leve não comedogênico, protetor solar. Evite ressecar a pele — isso geralmente piora a acne. Não toque nas espinhas nem tente espremê-las: você arrisca marcas duradouras e infecção. Troque a fronha do travesseiro com frequência, limpe o celular e mantenha as mãos longe do rosto. A consistência acalma a pele pouco a pouco."
+      },
+      {
+        "heading": "Quando procurar um profissional",
+        "body": "Se a acne for generalizada, dolorosa, estiver deixando marcas ou não melhorar com uma rotina suave após alguns meses, procure um dermatologista ou médico. Existem tratamentos eficazes e direcionados. Pedir ajuda não é fracasso — é o caminho mais direto para o resultado. Fuja de soluções milagrosas encontradas na internet: a maioria é ineficaz ou irritante."
+      }
+    ],
+    "steps": [
+      "Mantenha a rotina suave — nunca agrida a pele.",
+      "Não toque nem espreme as espinhas.",
+      "Troque a fronha do travesseiro toda semana.",
+      "Limpe o celular — ele encosta no seu rosto o tempo todo.",
+      "Consulte um médico se a acne for intensa ou persistente."
+    ],
+    "faq": [
+      {
+        "q": "Chocolate causa espinhas?",
+        "a": "A relação direta é fraca. Uma alimentação equilibrada ajuda a pele, mas a acne é principalmente controlada pelos hormônios."
+      },
+      {
+        "q": "Devo parar de usar maquiagem?",
+        "a": "Não, mas escolha produtos não comedogênicos e sempre remova a maquiagem completamente toda noite."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gentle-skin-exfoliation-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Esfoliar a Pele com Suavidade Sem Exagerar",
+    "emoji": "🌀",
+    "intro": "Usados corretamente, os esfoliantes deixam a pele mais lisa e luminosa. Usados de forma errada, irritam. Veja como encontrar o equilíbrio.",
+    "sections": [
+      {
+        "heading": "O que a esfoliação faz",
+        "body": "A esfoliação remove as células mortas acumuladas na superfície da pele. O resultado: textura mais fina, um aspecto mais iluminado e melhor absorção dos produtos aplicados depois. A pele se renova naturalmente, mas esse processo desacelera com a idade e pode ficar irregular. Uma esfoliação moderada dá um impulso a esse processo — sem nunca substituir a limpeza e hidratação básicas."
+      },
+      {
+        "heading": "Esfoliantes físicos x químicos",
+        "body": "Os esfoliantes físicos usam partículas para polir a pele: escolha um com partículas finas e aplique sem pressionar muito. Os esfoliantes químicos usam ácidos suaves para dissolver as células mortas sem nenhuma fricção — em geral, mais respeitosos com a barreira cutânea. Para iniciantes, uma fórmula leve uma ou duas vezes por semana já é suficiente. Qualquer que seja o tipo escolhido, o princípio é sempre a suavidade."
+      },
+      {
+        "heading": "Evitando os excessos",
+        "body": "O erro mais comum é esfoliar com muita frequência ou de forma muito agressiva, achando que mais é melhor. A pele superesfoliada fica vermelha, sensível, brilhante e desconfortável. Limite-se a uma ou duas vezes por semana no máximo, e nunca em pele já irritada ou sobre espinhas inflamadas. Após a esfoliação, hidrate bem e use protetor solar no dia seguinte — a pele recém-esfoliada é mais reativa aos raios UV."
+      }
+    ],
+    "steps": [
+      "Esfolie no máximo uma ou duas vezes por semana.",
+      "Escolha um esfoliante suave com partículas finas, ou um ácido leve.",
+      "Nunca pressione com força — deixe o produto trabalhar.",
+      "Não esfolie pele irritada ou espinhas inflamadas.",
+      "Hidrate após a esfoliação e proteja do sol no dia seguinte."
+    ],
+    "faq": [
+      {
+        "q": "Meu rosto fica vermelho depois de esfoliar — é normal?",
+        "a": "Um leve vermelhidão temporária pode acontecer, mas se for intensa ou persistente significa que você está esfoliando demais. Aumente o intervalo entre as sessões."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eye-area-skincare-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Cuidar da Pele ao Redor dos Olhos",
+    "emoji": "👁️",
+    "intro": "A pele ao redor dos olhos é fina e delicada. Alguns gestos suaves ajudam a manter o olhar com aparência fresca e descansada.",
+    "sections": [
+      {
+        "heading": "Uma área que merece cuidado extra",
+        "body": "A pele da região dos olhos está entre as mais finas do corpo e tem muito poucas glândulas sebáceas. Ela mostra cansaço, desidratação e falta de sono rapidamente. É também uma área muito móvel — você pisca milhares de vezes por dia. Mas isso não precisa ser motivo de estresse: um pouco de atenção e delicadeza já é suficiente para mantê-la em boa forma."
+      },
+      {
+        "heading": "Hidratar e tratar com cuidado",
+        "body": "O creme para os olhos não é obrigatório: um hidratante suave e bem tolerado pode ser suficiente, desde que não cause ardência. O mais importante é a forma de aplicar. Use o dedo anelar — o mais leve de todos — e dê leves tapinhas no produto sem puxar nem esfregar. Não chegue perto da linha dos cílios. Nunca esfregue os olhos com força — é uma das piores coisas que você pode fazer nessa região."
+      },
+      {
+        "heading": "O que realmente deixa a área dos olhos com aparência cansada",
+        "body": "O aspecto cansado nos olhos costuma vir do estilo de vida, não dos produtos. Falta de sono, desidratação, excesso de sal, telas e ar seco marcam a região dos olhos rapidamente. Dormir bem, beber água e fazer pausas nas telas vai fazer mais do que qualquer creme. O frio ajuda de manhã — uma colher gelada mantida ali por alguns minutos pode reduzir o inchaço."
+      }
+    ],
+    "steps": [
+      "Aplique o produto com o dedo anelar, usando movimentos de tapinha leve.",
+      "Nunca puxe a pele nem esfregue os olhos.",
+      "Um hidratante suave pode funcionar bem se não causar ardência.",
+      "Durma o suficiente e beba água — esses são os verdadeiros cuidados para os olhos.",
+      "Use o frio de manhã para reduzir o inchaço."
+    ],
+    "faq": [
+      {
+        "q": "A partir de que idade devo usar creme para os olhos?",
+        "a": "Não existe uma idade definida. Bons hábitos de vida importam muito mais do que qualquer produto específico em qualquer momento."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remove-makeup-every-night-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Remover a Maquiagem Completamente Todo Dia à Noite",
+    "emoji": "🌙",
+    "intro": "Dormir com maquiagem cansa a pele. Uma demaquilação completa leva apenas alguns minutos e faz uma diferença real.",
+    "sections": [
+      {
+        "heading": "Por que nunca dormir com maquiagem",
+        "body": "Enquanto você dorme, a pele se regenera. Deixar a maquiagem entupa os poros, misturada com a poluição e o sebo do dia. Isso leva a espinhas, um tom apagado e pode irritar os olhos. Alguns minutos de demaquilação à noite previnem tudo isso. É um dos passos mais simples e recompensadores de qualquer rotina, independentemente do tipo de pele."
+      },
+      {
+        "heading": "A técnica da dupla limpeza",
+        "body": "A dupla limpeza funciona muito bem: comece com um produto à base de óleo ou balm que dissolve maquiagem, protetor solar e sebo; siga com um produto de limpeza à base de água para remover os resíduos. Para os olhos, embeba um algodão com um demaquilante suave, mantenha sobre o olho por alguns segundos para dissolver a maquiagem e retire sem esfregar. Essa paciência evita irritar essa área delicada."
+      },
+      {
+        "heading": "Mesmo nas noites preguiçosas",
+        "body": "Nas noites em que você está exausto, tenha uma solução rápida à mão: lenços demaquilantes são um substituto aceitável ocasionalmente, mesmo que não limpem tão bem. O objetivo é nunca pular essa etapa completamente. Organize seu cantinho de demaquilação para ser fácil: produtos visíveis, algodão acessível. Quanto mais fácil for, mais tempo você vai manter o hábito."
+      }
+    ],
+    "steps": [
+      "Remova a maquiagem toda noite, sem exceções.",
+      "Comece com um produto oleoso, depois use um produto de limpeza à base de água.",
+      "Mantenha o algodão sobre os olhos por alguns segundos antes de limpar.",
+      "Nunca esfregue, especialmente ao redor dos olhos.",
+      "Tenha uma opção rápida à mão para as noites de cansaço."
+    ],
+    "faq": [
+      {
+        "q": "A água micelar é suficiente sozinha?",
+        "a": "Funciona como alternativa ocasional, mas enxaguar com um produto de limpeza suave depois deixa a pele muito mais limpa, especialmente se você usar maquiagem de longa duração."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "caring-for-sensitive-skin-pt",
+    "theme": "lookmaxxing",
+    "locale": "pt",
+    "title": "Como Cuidar de Pele Sensível e Reativa",
+    "emoji": "🌸",
+    "intro": "A pele sensível pede suavidade e simplicidade. Menos produtos, bem escolhidos, sempre superam uma rotina cheia de etapas.",
+    "sections": [
+      {
+        "heading": "Reconhecendo a pele sensível",
+        "body": "A pele sensível avermelha com facilidade, arde ou aquece com certos produtos, água com muito cloro ou mudanças de temperatura. Pode parecer apertada e desconfortável. A sensibilidade não é um tipo de pele em si — ela pode aparecer em pele seca, oleosa ou mista. A boa notícia é que, com a rotina certa, ela costuma se acalmar bastante."
+      },
+      {
+        "heading": "Simplifique sua rotina",
+        "body": "O princípio é reduzir ao mínimo: um sabonete muito suave, um hidratante calmante, um protetor solar bem tolerado. Procure fórmulas com poucos ingredientes, sem fragrância, sem álcool. Evite ativos fortes, esfoliantes agressivos e a tentação de trocar de produto o tempo todo. Ao experimentar algo novo, faça um teste de patch primeiro em uma pequena área, como o pulso ou o queixo, por alguns dias."
+      },
+      {
+        "heading": "Protegendo a barreira cutânea",
+        "body": "A pele sensível muitas vezes tem uma barreira comprometida que deixa entrar irritantes e perde umidade. Para fortalecê-la, evite água muito quente, não agrida a pele e hidrate de manhã e à noite. Frio, vento e aquecimento seco em ambientes fechados pioram a sensibilidade — proteja o rosto no inverno. Se a vermelhidão for intensa ou constante, consulte um médico para descartar uma causa específica."
+      }
+    ],
+    "steps": [
+      "Reduza a rotina ao essencial mais suave.",
+      "Escolha fórmulas sem fragrância e sem álcool.",
+      "Faça um teste de patch em uma pequena área com cada produto novo.",
+      "Evite água quente e esfoliantes agressivos.",
+      "Proteja a pele do frio e do vento no inverno."
+    ],
+    "faq": [
+      {
+        "q": "Pele sensível é a mesma coisa que pele alérgica?",
+        "a": "Não. Sensibilidade é uma reatividade geral; alergia é uma reação específica a um ingrediente. Em caso de dúvida, consulte um médico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

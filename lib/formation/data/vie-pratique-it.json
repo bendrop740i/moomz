@@ -1,0 +1,334 @@
+[
+  {
+    "slug": "cook-a-quick-cheap-meal-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Cucinare un pasto veloce ed economico",
+    "emoji": "🍳",
+    "intro": "Mangiare bene senza prosciugare il portafoglio né passare ore ai fornelli è un'abilità che si impara. Bastano poche basi per cavartela davvero.",
+    "sections": [
+      {
+        "heading": "Tieni sempre una dispensa di base fornita",
+        "body": "Con qualche alimento secco economico sempre a portata di mano, puoi mettere insieme un pasto in qualsiasi momento. Pasta, riso, lenticchie, pomodori in scatola e ceci, uova, cipolle, aglio, olio e spezie formano una base solida. Questi prodotti si conservano a lungo e costano pochissimo. Quando la dispensa è fornita, non ti ritroverai mai a ordinare una costosa consegna a domicilio per pigrizia."
+      },
+      {
+        "heading": "Padroneggia tre ricette di fiducia",
+        "body": "Non servono cinquanta ricette — tre piatti che sai fare alla perfezione bastano per ruotare durante tutta la settimana. Pasta con verdure saltate, riso fritto con uovo e zuppa di lenticchie coprono l'essenziale. Imparale bene, poi varia le verdure e le spezie. La sicurezza in cucina viene dalla ripetizione, non dalla complessità."
+      },
+      {
+        "heading": "Cucinare in quantità",
+        "body": "Preparare due o tre porzioni invece di una richiede quasi nessun tempo extra. Mangi la sera e tieni il resto per il pranzo del giorno dopo, o lo congeli. Questa abitudine — chiamata batch cooking — significa che non devi cucinare ogni giorno e riduce gli sprechi. Investi in qualche contenitore ermetico: si ripagano rapidamente rispetto all'acquisto di cibo pronto."
+      }
+    ],
+    "steps": [
+      "Costruisci una dispensa di base con pasta, riso, lenticchie e conserve.",
+      "Scegli tre ricette semplici e allenati finché non le conosci a memoria.",
+      "Cucina regolarmente due porzioni invece di una.",
+      "Tieni contenitori ermetici per gli avanzi.",
+      "Annota ciò che ti piace per costruire il tuo repertorio personale."
+    ],
+    "faq": [
+      {
+        "q": "Non ho attrezzatura — da dove comincio?",
+        "a": "Una padella, una casseruola, un buon coltello e un tagliere coprono il 90% delle ricette. Il resto compralo solo quando ne hai davvero bisogno."
+      },
+      {
+        "q": "Cucinare costa davvero meno che comprare il cibo pronto?",
+        "a": "Sì, e di molto. Un pasto cucinato in casa spesso costa due o tre volte meno di un piatto pronto o di una consegna, e la qualità è migliore."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Fare la spesa senza esagerare con il budget",
+    "emoji": "🛒",
+    "intro": "La spesa pesa su qualsiasi budget. Con un metodo semplice, spendi meno senza mangiare peggio.",
+    "sections": [
+      {
+        "heading": "Fai una lista e rispettala",
+        "body": "Entrare in un supermercato senza lista è il modo sicuro per fare acquisti d'impulso e sforare il budget. Prima di uscire, controlla cosa hai, pianifica qualche pasto e scrivi esattamente quello che ti serve. La lista ti protegge dagli acquisti impulsivi strategicamente posizionati in fondo alle corsie. Fare la spesa a stomaco pieno aiuta molto."
+      },
+      {
+        "heading": "Confronta per prezzo al chilo",
+        "body": "Il prezzo grosso in bella vista non ti dice molto. Guarda sempre il prezzo al chilo o al litro, scritto in piccolo sull'etichetta — è l'unico modo onesto per confrontare due prodotti. I formati più grandi sono spesso più economici per unità, ma non sempre. I prodotti a marchio del distributore offrono frequentemente la stessa qualità dei grandi brand a un prezzo molto inferiore."
+      },
+      {
+        "heading": "Punta su alimenti integrali e prodotti di stagione",
+        "body": "I prodotti trasformati e pronti costano di più e nutrono meno. Spostare parte del budget verso alimenti interi — verdure, amidi, legumi, uova — conviene. La frutta e la verdura di stagione sono più gustose ed economiche. I surgelati semplici sono un grande alleato: economici, zero sprechi e altrettanto nutrienti dei freschi."
+      }
+    ],
+    "steps": [
+      "Controlla la dispensa e pianifica qualche pasto prima di uscire.",
+      "Scrivi una lista precisa e rispettala.",
+      "Confronta i prodotti per prezzo al chilo o al litro.",
+      "Preferisci i prodotti del distributore e quelli di stagione.",
+      "Non fare la spesa quando hai fame."
+    ],
+    "faq": [
+      {
+        "q": "La spesa online aiuta a spendere meno?",
+        "a": "Spesso sì: vedi il totale crescere in tempo reale ed eviti le corsie delle tentazioni. Fai attenzione solo alle spese di consegna."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eating-healthy-on-a-tight-budget-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Mangiare bene con un budget ridotto",
+    "emoji": "🥗",
+    "intro": "Mangiare bene non è un privilegio di chi ha soldi. Gli alimenti più nutrienti sono spesso tra i più economici.",
+    "sections": [
+      {
+        "heading": "Fonti di proteine economiche",
+        "body": "La carne non è l'unica fonte di proteine, ed è solitamente la più costosa. Uova, lenticchie, ceci, fagioli e tofu sono economici e sazianti. Alternare queste fonti durante la settimana riduce notevolmente il conto mantenendo varietà. Quando compri carne, i tagli da brasato sono più economici e incredibilmente gustosi."
+      },
+      {
+        "heading": "Costruisci un piatto semplice",
+        "body": "Un piatto equilibrato non è complicato: una fonte di carboidrati, una di proteine e verdure per metà piatto. Non serve calcolare nulla — questo schema visivo è sufficiente. Verdure surgelate o in scatola contano quanto i freschi. L'idea è colore e varietà senza pensarci troppo né spendere di più."
+      },
+      {
+        "heading": "Ridurre gli zuccheri e i cibi ultra-processati",
+        "body": "Bibite, biscotti, piatti pronti e snack costano caro e nutrono poco. Ridurli libera budget per il cibo vero. Non devi eliminarli — trattali come piaceri occasionali, non abitudini quotidiane. L'acqua del rubinetto resta la bevanda più economica e la migliore per la salute."
+      }
+    ],
+    "steps": [
+      "Sostituisci parte della carne con uova e legumi.",
+      "Costruisci i piatti con amidi, proteine e verdure.",
+      "Usa senza esitazione verdure surgelate e in scatola.",
+      "Riserva prodotti zuccherati e processati alle occasioni speciali.",
+      "Bevi acqua del rubinetto invece di bibite."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "plan-your-weekly-meals-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Pianifica i pasti della settimana",
+    "emoji": "📅",
+    "intro": "Decidere cosa mangiare ogni giorno all'ultimo momento è stressante e costoso. Dieci minuti di pianificazione a settimana liberano la mente.",
+    "sections": [
+      {
+        "heading": "Perché pianificare cambia tutto",
+        "body": "Senza un piano, spesso si finisce per ordinare cibo o comprare a caso, il che costa di più e nutre meno. Pianificare i pasti ti dà una lista della spesa precisa, riduce gli sprechi ed elimina il logorante «cosa mangio stasera?». Non devi pianificare tutto — anche decidere approssimativamente cinque cene basta a trasformare la settimana."
+      },
+      {
+        "heading": "Parti da ciò che hai già",
+        "body": "Prima di inventare ricette, apri dispensa, frigo e freezer. Costruisci i pasti attorno a quello che c'è già, soprattutto le cose vicine alla scadenza. Questa abitudine impedisce che il cibo venga dimenticato in fondo al frigo e riduce visibilmente gli sprechi. Poi integri la lista della spesa solo con ciò che manca davvero."
+      },
+      {
+        "heading": "Mantieni una certa flessibilità",
+        "body": "Un piano troppo rigido raramente sopravvive a una settimana intera. Piuttosto, prepara una lista di pasti possibili senza assegnare un piatto specifico a ogni giorno. Tieni anche un pasto super-semplice di riserva — pasta o una frittata — per le serate con poca energia. La pianificazione deve lavorare per te, non intrappolarti."
+      }
+    ],
+    "steps": [
+      "Dedica dieci minuti fissi ogni settimana alla pianificazione.",
+      "Fai l'inventario di frigo, dispensa e freezer.",
+      "Scegli cinque-sette pasti usando ciò che hai già.",
+      "Ricava la lista della spesa dal piano.",
+      "Tieni un pasto di riserva per le serate senza energia."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cut-down-on-food-waste-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Ridurre gli sprechi alimentari",
+    "emoji": "♻️",
+    "intro": "Buttare cibo è buttare soldi. Piccole abitudini ti permettono di usare quasi tutto quello che compri.",
+    "sections": [
+      {
+        "heading": "Organizzare bene il frigo",
+        "body": "Un frigo ben organizzato ti fa vedere cosa hai. Metti i prodotti più vecchi davanti, così li consumi per primi. Il fondo del frigo è la zona più fredda — ideale per carne e pesce; il cassetto delle verdure è per gli ortaggi. Crea una zona visibile per i cibi da consumare presto. Vedere chiaramente le proprie scorte evita gli alimenti dimenticati che finiscono nel bidone."
+      },
+      {
+        "heading": "Capire le etichette di scadenza",
+        "body": "Esistono due tipi di date. La data di scadenza sui prodotti freschi come la carne significa che non va superata. La data di consumo preferibile indica solo una possibile perdita di qualità — molti prodotti sono ancora buoni dopo. Per i prodotti secchi, fidati del naso e del buon senso."
+      },
+      {
+        "heading": "Cucinare con gli avanzi e il freezer",
+        "body": "Gli avanzi non sono uno spreco — diventano il pasto di domani o la base di un nuovo piatto. Il pane raffermo diventa crostini, le verdure stanche diventano zuppa, il riso di ieri diventa riso fritto. Il freezer è il tuo alleato: mette in pausa quasi tutto, dal pane alle porzioni cotte, e ferma la corsa contro le scadenze."
+      }
+    ],
+    "steps": [
+      "Metti i prodotti più vecchi davanti nel frigo.",
+      "Impara la differenza tra i due tipi di etichette di scadenza.",
+      "Trasforma gli avanzi in un nuovo pasto.",
+      "Congela ciò che non consumerai in tempo.",
+      "Fai una rapida verifica del frigo prima di ogni spesa."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "kitchen-essentials-on-a-budget-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Attrezzare la cucina con l'essenziale",
+    "emoji": "🍴",
+    "intro": "Si cucina benissimo senza una cucina high-tech. Pochi strumenti scelti bene durano anni.",
+    "sections": [
+      {
+        "heading": "Il minimo indispensabile per iniziare",
+        "body": "Per cucinare la grande maggioranza dei piatti serve pochissimo: una padella, una casseruola, un buon coltello da chef, un tagliere, uno scolapasta, un cucchiaio di legno e una spatola. Questo copre già quasi tutto. Non c'è bisogno di riempire i cassetti di gadget che raccoglieranno polvere. Compra il resto solo quando nasce un'esigenza concreta."
+      },
+      {
+        "heading": "Investi dove conta",
+        "body": "Su certi articoli, la qualità fa davvero la differenza e dura a lungo. Un buon coltello affilato trasforma la cucina quotidiana ed è più sicuro — un coltello smussato scivola e taglia le dita. Una buona padella impedisce che tutto si attacchi. Per tutto il resto, l'entry level va benissimo. Mercatini e siti di second hand sono ottimi per attrezzarsi a costo zero."
+      },
+      {
+        "heading": "Curare per far durare",
+        "body": "Gli strumenti ben curati durano anni. Lava i coltelli a mano e riponili separatamente per preservare il filo. Evita utensili metallici sulle padelle antiaderenti. Asciuga gli oggetti metallici per evitare la ruggine. Queste piccole abitudini ti evitano di dover ricomprare attrezzatura e mantengono la cucina piacevole e sicura."
+      }
+    ],
+    "steps": [
+      "Compra prima padella, casseruola, coltello e tagliere.",
+      "Spendi di più sulla qualità per il coltello e la padella.",
+      "Trova tutto il resto al second hand o ai mercatini.",
+      "Lava i coltelli a mano e riponili separatamente.",
+      "Aggiungi altra attrezzatura solo quando ne hai davvero bisogno."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "basic-nutrition-fundamentals-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Capire le basi della nutrizione",
+    "emoji": "🍎",
+    "intro": "Non serve essere esperti per mangiare bene. Pochi punti di riferimento semplici bastano per fare scelte giuste ogni giorno.",
+    "sections": [
+      {
+        "heading": "I tre macronutrienti principali",
+        "body": "Il corpo ha bisogno di tre grandi categorie di nutrienti. I carboidrati — presenti in amidi e frutta — forniscono energia. Le proteine — in carne, uova e legumi — costruiscono e riparano il corpo. I grassi — in olio, frutta secca e pesce — sono essenziali nonostante la cattiva reputazione. Un piatto equilibrato contiene un po' di tutto, senza demonizzare nessun gruppo."
+      },
+      {
+        "heading": "Leggere un'etichetta in modo semplice",
+        "body": "Le etichette sembrano complicate, ma bastano pochi riferimenti. Guarda la lista degli ingredienti: più è corta e leggibile, meglio è. Diffida dei prodotti in cui lo zucchero compare tra i primi ingredienti. La tabella nutrizionale permette di confrontare due prodotti, in particolare per zuccheri e sale. Un sistema a semaforo o un punteggio sintetico dà una panoramica rapida per il confronto."
+      },
+      {
+        "heading": "Varietà prima di perfezione",
+        "body": "Nessun alimento è magico e nessuno è vietato. La chiave è la varietà e l'equilibrio nel corso della settimana, non la perfezione a ogni pasto. Punta su tante verdure, proteine a ogni pasto e limita gli ultra-processati senza bandirli. Ascoltare la fame e la sazietà conta quanto i numeri. Un rapporto sereno con il cibo è più sostenibile nel tempo."
+      }
+    ],
+    "steps": [
+      "Includi carboidrati, proteine e un po' di grassi a ogni pasto.",
+      "Leggi la lista degli ingredienti e preferisci quelle brevi.",
+      "Confronta zuccheri e sale tramite la tabella nutrizionale.",
+      "Punta sulla varietà settimanale piuttosto che sulla perfezione.",
+      "Ascolta i segnali di fame e sazietà."
+    ],
+    "faq": [
+      {
+        "q": "Devo contare le calorie?",
+        "a": "Per la maggior parte delle persone no. Privilegiare alimenti interi e ascoltare la fame è sufficiente. Contare le calorie può creare un rapporto ansioso con il cibo."
+      },
+      {
+        "q": "Gli integratori alimentari sono necessari?",
+        "a": "Una dieta varia copre le esigenze della maggior parte delle persone. Per una preoccupazione specifica come la vitamina D, consulta un medico o un farmacista."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "quick-healthy-breakfast-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Preparare una colazione veloce e sana",
+    "emoji": "🥣",
+    "intro": "La colazione non deve essere elaborata per iniziare bene la giornata. Bastano poche idee semplici.",
+    "sections": [
+      {
+        "heading": "Come appare una buona colazione in pratica",
+        "body": "Una colazione saziante idealmente combina una fonte di carboidrati complessi, una di proteine e un frutto. Pane integrale con un uovo, yogurt con fiocchi d'avena e frutta, o burro di arachidi su toast con una banana fanno al caso tuo. L'importante è evitare una colazione tutta zuccheri, che causa un calo di energia due ore dopo. Un po' di proteine aiuta a reggere fino a pranzo."
+      },
+      {
+        "heading": "Risparmiare tempo al mattino",
+        "body": "Se le mattine sono di corsa, prepara la sera prima. L'overnight oats (porridge lasciato in frigo) si mangia freddo appena alzata. Tagliare la frutta o preparare le ciotole la sera fa risparmiare minuti preziosi. Puoi anche preparare più porzioni insieme. Una colazione già pronta elimina una decisione e riduce lo stress mattutino."
+      },
+      {
+        "heading": "E se non si ha fame al mattino",
+        "body": "Non tutte le persone hanno fame appena sveglie, ed è normale. Non serve forzarsi — puoi portarti qualcosa da mangiare un po' più tardi, a metà mattina. Un frutto, una manciata di frutta secca o uno yogurt in borsa funzionano bene. La cosa importante è non arrivare a pranzo con una fame assurda e mangiare il primo che capita."
+      }
+    ],
+    "steps": [
+      "Abbina carboidrati complessi, proteine e un frutto.",
+      "Evita colazioni composte al 100% di zuccheri.",
+      "Prepara l'overnight oats la sera se sei di fretta.",
+      "Tieni uno snack in borsa se al mattino non hai fame.",
+      "Trova due o tre formati che ti piacciano davvero."
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "store-food-properly-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Conservare gli alimenti correttamente",
+    "emoji": "🧊",
+    "intro": "Conservare bene il cibo fa durare di più, riduce gli sprechi e protegge la salute.",
+    "sections": [
+      {
+        "heading": "In frigo, ogni cosa al suo posto",
+        "body": "Il frigo non ha la stessa temperatura ovunque. Il fondo è la zona più fredda — mettici carne, pesce e prodotti freschi delicati. I ripiani centrali sono per latticini e avanzi. Lo sportello, che è più caldo, è fatto per condimenti e bevande. Mantieni il frigo intorno ai quattro gradi e non sovraccaricare in modo che l'aria circoli."
+      },
+      {
+        "heading": "Cosa non appartiene al frigo",
+        "body": "Alcuni alimenti si conservano meglio fuori dal frigo. I pomodori perdono sapore al freddo; patate, cipolle e aglio preferiscono un posto buio e asciutto. Il pane si raffredda più in fretta al freddo — meglio congelarlo se non riesci a finirlo. Le banane diventano nere in frigo. Conoscere queste eccezioni evita di rovinare consistenza e sapore."
+      },
+      {
+        "heading": "Sfruttare bene il freezer",
+        "body": "Il freezer allunga enormemente la vita degli alimenti. Congela per porzioni così scongeli solo quello che ti serve. Etichetta con la data per tenere traccia. Scongela in frigo, mai a temperatura ambiente per troppo tempo, per evitare batteri. Non ricongelare mai un prodotto già scongelato crudo."
+      }
+    ],
+    "steps": [
+      "Conserva carne e pesce nel fondo del frigo.",
+      "Tieni pomodori, patate e cipolle fuori dal frigo.",
+      "Congela il pane e le porzioni in eccesso.",
+      "Etichetta i contenitori con la data.",
+      "Scongela in frigo, non lasciare a lungo a temperatura ambiente."
+    ],
+    "faq": [
+      {
+        "q": "Quanto tempo si conserva un piatto cucinato in frigo?",
+        "a": "In genere due o tre giorni al massimo. Se hai il minimo dubbio su odore o aspetto, non rischiare — buttalo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "reinvent-your-leftovers-it",
+    "theme": "vie-pratique",
+    "locale": "it",
+    "title": "Trasformare gli avanzi in un nuovo pasto",
+    "emoji": "🍲",
+    "intro": "Gli avanzi non sono una scocciatura. Con qualche idea, diventano un pasto intelligente a spreco zero.",
+    "sections": [
+      {
+        "heading": "Le basi che si riciclano ovunque",
+        "body": "Certi avanzi si trasformano con facilità. Il riso di ieri diventa riso fritto con uovo e verdure. La pasta fredda si scalda in un gratin. Il pane raffermo fa crostini, french toast o pangrattato. Le verdure stanche diventano zuppa, frittata o un saltato. Queste ricette jolly assorbono quasi qualsiasi cosa rimasta in frigo."
+      },
+      {
+        "heading": "Ragionare per categoria, non per ricetta",
+        "body": "Invece di cercare una ricetta specifica, guarda cosa hai per tipo: un amido, una proteina, delle verdure. Un amido più verdure più un uovo è già un pasto. Una zuppa accoglie quasi qualsiasi verdura. Un quiche o una frittata ricicla proteine e verdure. Questa logica ti rende autonoma senza dipendere da una ricetta precisa."
+      },
+      {
+        "heading": "Sicurezza con gli avanzi",
+        "body": "Riciclare gli avanzi è fantastico, ma restare ragionevoli. Metti gli avanzi in frigo subito dopo il pasto, entro due ore. Consumali entro due-tre giorni. Scalda bene fino a quando è ben caldo al centro. Non riscaldare lo stesso piatto più volte. Al minimo dubbio su odore, colore o consistenza, non rischiare."
+      }
+    ],
+    "steps": [
+      "Metti gli avanzi in frigo entro due ore dal pasto.",
+      "Dividi ciò che hai per amido, proteina e verdura.",
+      "Ricicla il riso in riso fritto, il pane in crostini.",
+      "Usa zuppe e frittate per assorbire le verdure avanzate.",
+      "Scalda bene e consuma entro tre giorni."
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "slug": "pomodoro-method-studying",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Study Smarter with the Pomodoro Method",
+    "emoji": "🍅",
+    "intro": "Breaking your study sessions into short, timed blocks makes revision feel lighter and work far better. Your brain holds on longer when it knows a break is coming.",
+    "sections": [
+      {
+        "heading": "How it works",
+        "body": "One Pomodoro is 25 minutes of focused work followed by a 5-minute break. After four cycles, you take a longer break of 15 to 30 minutes. The power of this method is that it turns a mountain into manageable steps. Instead of telling yourself 'I have to study all afternoon', you just say 'one Pomodoro at a time' — which makes starting so much easier."
+      },
+      {
+        "heading": "Why it actually works",
+        "body": "Human attention naturally dips after 20 to 30 minutes. By stopping before you burn out, you maintain consistent focus instead of slowly draining yourself. Regular breaks also consolidate memory — your brain files information during those rest moments. The timer also creates a healthy sense of urgency that beats procrastination and keeps you present on your task."
+      },
+      {
+        "heading": "Making the most of your breaks",
+        "body": "A useful break means stepping away from screens: stand up, drink some water, stretch, look out the window. Scrolling on your phone doesn't rest your brain — it overstimulates it. Keep your phone out of the room during the 25-minute work block. If a stray thought pops up, jot it on a piece of paper and come back to it later."
+      }
+    ],
+    "steps": [
+      "Pick one specific task before starting the timer.",
+      "Set 25 minutes and work without interruption until it goes off.",
+      "Take a real 5-minute break away from screens.",
+      "Log the completed Pomodoro to track your progress.",
+      "After 4 cycles, reward yourself with a solid 20-minute break."
+    ],
+    "faq": [
+      {
+        "q": "What if 25 minutes isn't enough time to get into the topic?",
+        "a": "Try 45 minutes of work and 10 minutes of break. The key is keeping a consistent work/break rhythm that suits you."
+      },
+      {
+        "q": "Do I need a special app for this?",
+        "a": "Nope. A basic phone or kitchen timer does the job. The tool matters far less than the consistency of the rhythm."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-recall-flashcards",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Lock In Knowledge with Active Recall and Flashcards",
+    "emoji": "🃏",
+    "intro": "Re-reading your notes gives you the illusion of knowing the material. Quizzing yourself, on the other hand, actually anchors knowledge in long-term memory.",
+    "sections": [
+      {
+        "heading": "Re-reading isn't enough",
+        "body": "When you re-read your notes, everything feels familiar, so you think you've got it. That's a trap: recognition is not the same as recall. On exam day, you have to retrieve information without seeing it. Active recall means closing your notes and trying to recite what you know. That effort of retrieval is exactly what strengthens the memory trace."
+      },
+      {
+        "heading": "How flashcards work",
+        "body": "A flashcard has a question on one side and the answer on the other. You read the question, answer in your head, then check. Cards you got wrong come back sooner; cards you nailed get spaced out. This combines two powerful principles: self-testing and spaced repetition. Apps like Anki automate this sorting, but paper cards work just as well."
+      },
+      {
+        "heading": "Writing good cards",
+        "body": "A good flashcard tests one idea at a time. Avoid overly broad questions like 'Explain the French Revolution'. Go for something like 'In what year did the French Revolution begin?' Write questions in your own words rather than copying the textbook word for word. Rephrasing forces you to understand the material, turning the card into a real test tool rather than just a copy job."
+      }
+    ],
+    "steps": [
+      "Turn every key concept from your notes into a simple question.",
+      "Always answer out loud or in writing before flipping the card.",
+      "Put cards you got wrong back in a stack to review soon.",
+      "Space out the cards you've mastered over several days.",
+      "Review a little every day rather than cramming it all at once."
+    ],
+    "faq": [
+      {
+        "q": "Anki or paper cards?",
+        "a": "Anki automatically handles spaced repetition, which is great for large volumes. Paper cards are perfectly fine for a single subject or topic."
+      },
+      {
+        "q": "How many cards should I review per day?",
+        "a": "Twenty cards a day over two weeks beats 280 cards the night before. Consistency trumps intensity every time."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "spaced-repetition-studying",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Understand and Use Spaced Repetition",
+    "emoji": "📅",
+    "intro": "You forget most of what you learn if you only see it once. Revisiting material at increasing intervals locks it in for the long haul — with less total effort.",
+    "sections": [
+      {
+        "heading": "The forgetting curve",
+        "body": "After learning something, you lose a large chunk of it within days if you don't revisit it. This is the forgetting curve — normal and universal. Spaced repetition counters it: each review relaunches memory just before total forgetting kicks in. With each recall, the trace gets stronger and lasts longer without upkeep."
+      },
+      {
+        "heading": "Intervals that keep growing",
+        "body": "The classic schedule: review a concept the next day, then 3 days later, then a week, then two weeks, then a month. Each successful review pushes the next one further out. If you miss a recall, you reset to a shorter interval. The point isn't to review everything every day — it's to review the right thing at the right time, which saves an enormous amount of effort."
+      },
+      {
+        "heading": "Working it into your schedule",
+        "body": "You can manage spaced repetition with software like Anki, or manually with a calendar and card stacks. The secret is planning your reviews from the start of the semester, not the night before exams. Fifteen minutes a day spread over two months will always beat ten hours of panic cramming."
+      }
+    ],
+    "steps": [
+      "Note the date you learn each key concept.",
+      "Schedule a first review the following day.",
+      "Extend the interval with each successful review.",
+      "Reset to a short interval whenever you miss a recall.",
+      "Block a fixed daily slot for these reviews."
+    ],
+    "faq": [
+      {
+        "q": "Does this work with a packed schedule?",
+        "a": "It's literally built for that. By spreading reviews out, you do less each day and avoid all-nighters."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cornell-note-taking-method",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "The Cornell Method for Cleaner, Smarter Notes",
+    "emoji": "📝",
+    "intro": "Well-structured notes can be revised in minutes. The Cornell method organizes your page so you're thinking during class, not just copying.",
+    "sections": [
+      {
+        "heading": "Dividing your page into three zones",
+        "body": "Draw a vertical line leaving a column about one-third of the way in on the left, and a horizontal strip at the bottom. The large right-hand zone is where you take notes during class. The left column is for keywords and questions. The bottom strip is for your summary. This simple structure transforms a passive sheet into an active revision tool."
+      },
+      {
+        "heading": "During and after class",
+        "body": "During class, write in the large zone: main ideas, examples, diagrams — without trying to transcribe everything. That same evening, re-read and fill the left column with questions and keywords that summarize each block. This quick review while things are fresh already does a lot of consolidation. You're reworking the material while it's still warm."
+      },
+      {
+        "heading": "Revising with Cornell",
+        "body": "To revise, cover the large right-hand zone and read only the left column. Try to answer each question from memory, then check. You've turned your notes into an active recall session without any extra prep. The bottom strip — where you've summarized the essentials in three or four sentences — is your quick-fire review tool the night before an exam."
+      }
+    ],
+    "steps": [
+      "Set up your pages with the three zones before class starts.",
+      "Note key ideas in the large column during class.",
+      "That evening, add questions and keywords on the left.",
+      "Write a 3-to-4-sentence summary at the bottom of the page.",
+      "Revise by covering the large zone and answering the questions."
+    ],
+    "faq": [
+      {
+        "q": "Does this work for science subjects?",
+        "a": "Yes. The large zone handles proofs and examples; the left column holds key exercise types or formulas."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-exam-stress",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Handle Exam Stress Without Cracking",
+    "emoji": "😮‍💨",
+    "intro": "A little stress helps you rise to the occasion, but too much freezes you. A few simple habits keep the pressure at a level that helps instead of holds you back.",
+    "sections": [
+      {
+        "heading": "Stress isn't the enemy",
+        "body": "Before an exam, a faster heartbeat and a sharp mind are signs your body is preparing to perform. The problem starts when stress becomes chronic and invades your nights. The goal isn't zero stress — that's unrealistic — it's controlled stress. Just reminding yourself these feelings are normal already strips away a layer of unnecessary anxiety."
+      },
+      {
+        "heading": "Preparation is your best anti-anxiety tool",
+        "body": "The best weapon against anxiety is preparation spread out over time. When you know you've been reviewing consistently, your brain has concrete proof that you're ready. Last-minute cramming, on the other hand, fuels panic because you keep confronting everything you haven't mastered yet. Plan ahead: a realistic schedule is one of the most powerful stress relievers out there."
+      },
+      {
+        "heading": "Tools for peak-stress moments",
+        "body": "When anxiety spikes, breathe slowly: inhale for 4 seconds, exhale for 6, repeat several times. That long exhale calms your nervous system. Cut back on caffeine — it amplifies jitters and restlessness. On exam day, arrive early to avoid the stress of rushing, and stay away from panicked classmates just beforehand — their anxiety is contagious."
+      }
+    ],
+    "steps": [
+      "Spread your revision so you arrive prepared, not panicked.",
+      "Practice slow breathing whenever the pressure builds.",
+      "Get enough sleep during exam week — non-negotiable.",
+      "Limit coffee and energy drinks that amplify anxiety.",
+      "On the day, arrive early and keep away from the panickers."
+    ],
+    "faq": [
+      {
+        "q": "My mind goes blank during the exam — what should I do?",
+        "a": "Put down your pen, take three deep breaths, and start with the easiest question. Calm and a small win unlock the rest of your memory."
+      },
+      {
+        "q": "Stress is keeping me awake the night before the exam — is that normal?",
+        "a": "Very common, and manageable. Cut screens an hour before bed, read something light. Even an average night's sleep won't ruin a well-prepared exam."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-a-realistic-study-schedule",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Build a Study Schedule You Can Actually Stick To",
+    "emoji": "🗓️",
+    "intro": "A good schedule isn't an impossible list — it's a calendar you can genuinely follow, spreading effort out without any all-nighters.",
+    "sections": [
+      {
+        "heading": "Start from the exam date",
+        "body": "Begin by marking all your exam dates, then work backwards. Count the days you have and the volume of material to cover. This bird's-eye view saves you from the unpleasant surprise of discovering — three days out — that you still have an entire chapter to go. Seeing the actual time available also forces you to be honest about what's feasible."
+      },
+      {
+        "heading": "Break it into specific sessions",
+        "body": "Avoid vague blocks like 'study maths'. Instead, write 'work through exercises from chapter 4' or 'flashcards for chapter 2'. A specific task is easier to start and finish. Also schedule shorter sessions than you think you need — we always overestimate what we can do in a day. Better to finish early than feel overwhelmed."
+      },
+      {
+        "heading": "Build in flexibility",
+        "body": "Leave gaps in your week — buffer slots. They absorb the unexpected: a topic harder than expected, a tired day, an emergency. Without margin, the slightest delay collapses the whole schedule and kills morale. Build in rest too: a schedule with no breaks simply isn't sustainable and leads straight to burnout."
+      }
+    ],
+    "steps": [
+      "List all your exam dates and the material to cover.",
+      "Break each subject into concrete, short sessions.",
+      "Place the hardest subjects during your sharpest hours.",
+      "Keep two or three empty buffer slots per week.",
+      "Check off completed sessions to see your progress build."
+    ],
+    "faq": [
+      {
+        "q": "My schedule always falls apart after two days — why?",
+        "a": "It's probably too ambitious. Cut the load in half. A schedule kept to 100% beats a perfect schedule that's never followed."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "stop-procrastinating-on-studying",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Stop Procrastinating on Your Revision",
+    "emoji": "🐢",
+    "intro": "Putting off revision isn't laziness — it's usually avoidance in the face of a task that feels too big or unpleasant. And that's something you can work on.",
+    "sections": [
+      {
+        "heading": "Understanding why you put it off",
+        "body": "We procrastinate mostly when a task feels vague, massive, or boring. The brain avoids immediate discomfort and reaches for something comforting instead. Identifying the emotion at play — boredom, fear of failure, perfectionism — helps you target the right fix. Procrastination isn't a character flaw; it's an avoidance mechanism you can defuse with the right strategies."
+      },
+      {
+        "heading": "The two-minute rule",
+        "body": "The hardest part is starting. Commit to just two minutes: open your notes, read the chapter title, write the first line. Once you're moving, inertia works in your favour and you often keep going well past those two minutes. This trick bypasses initial resistance by making the start ridiculously small — impossible to say no to."
+      },
+      {
+        "heading": "Reduce friction",
+        "body": "Prep your environment the night before: notes on the desk, phone in another room, useless tabs closed. Every obstacle between you and the work feeds procrastination. Conversely, make distraction harder to access. You can also sit at the same spot every day to study — the location becomes an automatic trigger for focus."
+      }
+    ],
+    "steps": [
+      "Identify the emotion making you avoid the task.",
+      "Break the revision into a two-minute micro-action to start.",
+      "Put your phone out of reach before you begin.",
+      "Set up your workspace the night before.",
+      "Celebrate starting — not just finishing."
+    ],
+    "faq": [
+      {
+        "q": "I procrastinate by doing other useful tasks — is that bad?",
+        "a": "That's productive procrastination: tidying instead of studying. Spot it, and redirect back to the priority task, even in a small way."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "memory-palace-technique",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Memorise Anything with the Memory Palace Technique",
+    "emoji": "🏛️",
+    "intro": "The brain is terrible at remembering abstract lists but brilliant at navigating familiar places. The memory palace exploits that strength to anchor even the trickiest material.",
+    "sections": [
+      {
+        "heading": "The familiar place principle",
+        "body": "Choose a place you know perfectly: your flat, your route to campus. You're going to mentally place the information you need to remember at specific spots along the way. To retrieve it, you just take a mental walk through that place. This technique — used by memory champions — taps into our spatial memory, which is exceptionally strong and completely natural."
+      },
+      {
+        "heading": "Pairing information with vivid images",
+        "body": "For each piece of information, create an exaggerated, funny, or absurd mental image and place it at a spot in the location. The stranger the image, the better it sticks. A historical date can become a costumed character on your sofa. The ridiculousness isn't a flaw here — it's what makes the memory pop out and easy to retrieve on exam day."
+      },
+      {
+        "heading": "When to use it",
+        "body": "The memory palace shines for ordered lists, process steps, definitions, and essay outlines. It's less suited for understanding complex reasoning, where you need to think rather than recall. Use it as one tool among many — combine it with genuine understanding and active recall. It's a deadly complement, not a universal method."
+      }
+    ],
+    "steps": [
+      "Choose a place you know perfectly.",
+      "Define a fixed route with specific landmark stops.",
+      "Turn each piece of information into a striking image.",
+      "Place each image at a stop along the route.",
+      "Revise by mentally walking through the location."
+    ],
+    "faq": [
+      {
+        "q": "How much information can you put in one palace?",
+        "a": "Around ten items to start. With practice, you can manage multiple palaces for different subjects."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "active-reading-technique",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Read Your Notes Actively, Not on Autopilot",
+    "emoji": "📖",
+    "intro": "Skimming through notes on autopilot wastes hours for little return. Active reading turns every page into real understanding.",
+    "sections": [
+      {
+        "heading": "Scan before you dive in",
+        "body": "Before reading in detail, skim the chapter first: headings, subheadings, bolded words, diagrams, the final summary. This overview creates a mental map for the details to slot into. Reading without this big picture is like walking in fog. Five minutes of scanning makes the detailed reading much faster and far better understood."
+      },
+      {
+        "heading": "Ask yourself questions",
+        "body": "Turn each heading into a question before reading the section. Faced with 'Causes of the 1929 crisis', ask yourself 'What caused the 1929 crisis?' You then read to answer it — mind actively searching. This questioning stance keeps your attention alive and stops you from sliding over words without really taking them in."
+      },
+      {
+        "heading": "Reformulate at the end",
+        "body": "At the end of each section, close the book and summarise what you just read in your own words — out loud or in writing. If you can't, the reading didn't land: go back and re-read the fuzzy passage. This immediate reformulation is an honest comprehension check, far more reliable than the vague feeling that you understood."
+      }
+    ],
+    "steps": [
+      "Skim the whole chapter before detailed reading.",
+      "Turn each heading into a question to answer.",
+      "Read section by section, not all in one go.",
+      "Close the book and summarise each section in your own words.",
+      "Re-read passages you couldn't summarise."
+    ],
+    "faq": [
+      {
+        "q": "Should I highlight as I read?",
+        "a": "Highlight very sparingly — only the central ideas. A page completely yellow no longer prioritises anything and doesn't help revision."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "writing-your-first-resume",
+    "theme": "etudes",
+    "locale": "en",
+    "title": "Writing Your First CV When You Have Little Experience",
+    "emoji": "📄",
+    "intro": "A first CV isn't judged by the number of experiences on it, but by its clarity and relevance. Built well, it opens doors even without a long track record.",
+    "sections": [
+      {
+        "heading": "A simple, readable structure",
+        "body": "A CV fits on one page: contact details at the top, then education, experience, skills, and optionally interests. Choose a clean layout, a single font, clear headings. Recruiters spend a few seconds per CV — they need to understand at a glance who you are. Skip the graphic flourishes that distract more than inform."
+      },
+      {
+        "heading": "Make the most of what you already have",
+        "body": "Without a full-time job to show, highlight internships, summer jobs, volunteering, school projects, babysitting, or leadership roles in clubs. All of it demonstrates real qualities: reliability, people skills, organisation. Describe each experience with a concrete action and a result, not a vague label. 'Managed the till and served 50 customers a day' beats 'worked in a shop'."
+      },
+      {
+        "heading": "Tailor your CV to each application",
+        "body": "A generic CV sent everywhere performs poorly. Re-read the job ad, spot the expected skills, and bring the ones you have to the top of each section. Pick up a few keywords from the ad, since some systems filter CVs automatically. Tailoring isn't lying — it's putting the most relevant side of yourself in the spotlight."
+      }
+    ],
+    "steps": [
+      "Choose a clean template that fits on one page.",
+      "List all your experiences, including non-professional ones.",
+      "Describe each with a concrete action and a result.",
+      "Spot the job ad's keywords and adapt your CV accordingly.",
+      "Have someone proofread it to catch typos and vague phrasing."
+    ],
+    "faq": [
+      {
+        "q": "Should I include a photo?",
+        "a": "It's not required and increasingly less expected. If you do include one, make it sharp, neutral, and professional."
+      },
+      {
+        "q": "Is it risky to slightly exaggerate an experience?",
+        "a": "Yes, very. Lies are spotted quickly in interviews or on the job and destroy your credibility. Honestly showcase what you have instead of inventing."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

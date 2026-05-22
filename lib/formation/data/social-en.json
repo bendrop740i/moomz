@@ -1,0 +1,364 @@
+[
+  {
+    "slug": "truly-listen-to-someone",
+    "theme": "social",
+    "locale": "en",
+    "title": "Learning to Actually Listen",
+    "emoji": "👂",
+    "intro": "Most people are just waiting for their turn to talk instead of really listening. Genuine listening changes the quality of every relationship you have.",
+    "sections": [
+      {
+        "heading": "Listen to understand, not to respond",
+        "body": "When someone's talking, your brain is usually already drafting your reply. Result: you catch maybe half of what they're saying. Real listening means putting your response on pause and fully focusing on what the person is feeling and trying to express. The goal isn't to win the exchange — it's to understand. That mental shift is simple to make and immediately transforms the conversation."
+      },
+      {
+        "heading": "The signals that show you're listening",
+        "body": "Listening is visible. Turn toward the person, put your phone down, make eye contact without staring. Nod, slip in a few 'mm-hmms' or 'I see's. Those nonverbal signals say: what you're saying matters. Without them, the other person feels alone even while talking. With them, they feel safe enough to open up more."
+      },
+      {
+        "heading": "Paraphrase to check your understanding",
+        "body": "After someone explains something, summarize it back in your own words: 'So if I'm getting this right, you're frustrated because...' It shows you were paying attention and clears up misunderstandings on the spot. The person feels genuinely heard, which is rare and valuable. Paraphrasing is also your best tool when the topic is sensitive or emotional."
+      }
+    ],
+    "steps": [
+      "During a conversation, put your phone out of sight.",
+      "Before responding, wait one beat longer than usual.",
+      "Paraphrase what the person just said.",
+      "Ask a question about how they feel, not just about the facts."
+    ],
+    "faq": [
+      {
+        "q": "What if I have nothing to say after listening?",
+        "a": "That's fine. A simple 'thanks for telling me that' or a follow-up question is enough. They're mostly looking to feel heard, not to receive a solution."
+      },
+      {
+        "q": "Does listening mean agreeing with everything?",
+        "a": "Not at all. You can understand someone without sharing their view. Listening means taking in their perspective, not giving up your own."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "starting-a-conversation-with-strangers",
+    "theme": "social",
+    "locale": "en",
+    "title": "How to Start a Conversation with a Stranger",
+    "emoji": "🗣️",
+    "intro": "Approaching someone feels scary, but most people are open to a friendly chat. A few simple anchors remove the mental block.",
+    "sections": [
+      {
+        "heading": "Start with shared context",
+        "body": "You don't need a brilliant opening line. The most natural approach is to comment on something you're both experiencing: the queue you're both in, the event, the class, even the weather. 'Is it always this slow here?' or 'What brought you to this?' is more than enough. Shared context gives you an obvious starting point and takes the pressure off being original."
+      },
+      {
+        "heading": "Show genuine interest",
+        "body": "Once the ice is broken, ask an open question and actually listen to the answer. People love talking about what they're passionate about. Build on a detail: 'You mentioned you're from Portland — do you miss it?' The goal isn't to perform; it's to create a pleasant moment. Genuine curiosity does all the heavy lifting."
+      },
+      {
+        "heading": "Accept that it won't always click",
+        "body": "Sometimes the person is in a hurry, tired, or just not in the mood. That's not a failure or a rejection of you — it's just bad timing. Smile, wrap it up politely, and move on. The more you practice, the more you'll see that the vast majority of exchanges go just fine. The worst-case scenario is actually very manageable."
+      }
+    ],
+    "steps": [
+      "Pick a simple remark tied to your shared context.",
+      "Smile and keep your tone relaxed as you approach.",
+      "Follow up with an open-ended question.",
+      "If the exchange fizzles, wrap it up politely without forcing it."
+    ],
+    "faq": [
+      {
+        "q": "How do I know if I'm bothering someone?",
+        "a": "Watch the signals: very short replies, avoiding eye contact, body turned away. If you see those, smile and exit gracefully. No drama needed."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remembering-peoples-names",
+    "theme": "social",
+    "locale": "en",
+    "title": "How to Actually Remember Names",
+    "emoji": "🧠",
+    "intro": "Forgetting someone's name makes it seem like you don't care. A few simple techniques fix this for good.",
+    "sections": [
+      {
+        "heading": "Repeat it right away",
+        "body": "At introductions, you're often managing your nerves — so you don't even register the name. The fix: repeat it out loud immediately. 'Nice to meet you, Sarah.' That simple repetition locks the word in and forces you to actually hear it. If you missed it, ask right away — that's far better than bluffing the whole conversation."
+      },
+      {
+        "heading": "Create a mental image",
+        "body": "The brain retains images much better than abstract words. Link the name to something visual: a celebrity with the same name, a rhyme, a physical detail. 'Marcus' + a mark on his shirt, for example. The association doesn't need to make sense — just be memorable. The funnier or more absurd it is, the better it sticks."
+      },
+      {
+        "heading": "Use the name during the conversation",
+        "body": "Drop the name once or twice during the exchange and when you say goodbye. 'Great talking with you, Sarah.' Each use reinforces the memory and, as a bonus, makes the other person feel acknowledged. Don't overdo it — three times in two minutes sounds fake. Natural is always the rule."
+      }
+    ],
+    "steps": [
+      "Repeat the name out loud at the introduction.",
+      "If you didn't catch it, ask them to repeat it.",
+      "Create a mental image linked to the name.",
+      "Use the name once or twice before you part ways."
+    ],
+    "faq": [
+      {
+        "q": "I forgot someone's name — what do I do?",
+        "a": "Be honest and light about it: 'Sorry, your name slipped my mind.' Everyone's done it. That's a thousand times better than avoiding them all evening."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "asking-questions-that-open-people-up",
+    "theme": "social",
+    "locale": "en",
+    "title": "Asking Questions That Get People Talking",
+    "emoji": "❓",
+    "intro": "A good question relaunches a conversation and signals genuine interest. Knowing how to ask them makes you someone people enjoy being around.",
+    "sections": [
+      {
+        "heading": "Open questions over closed ones",
+        "body": "A closed question gets a yes or no and often kills the exchange. An open question invites someone to develop their thoughts. Instead of 'Did you like the movie?', try 'What stuck with you about that film?' Words like how, why, and what open the door. The person actually has something to say, and the conversation breathes."
+      },
+      {
+        "heading": "Build on the details they give you",
+        "body": "The best questions aren't prepared in advance — they spring from what the other person just said. If someone mentions a trip, don't change the subject: 'What surprised you most over there?' This shows you're genuinely listening and avoids the interrogation feel of a scripted list of disconnected questions."
+      },
+      {
+        "heading": "Go toward feelings and meaning",
+        "body": "Facts inform; emotions connect. Once you know the what, ask why it matters: 'What did that bring you?' or 'How did that feel?' These questions invite more personal answers and create real closeness. Calibrate them to your level of intimacy — you don't probe a stranger in the first minute."
+      }
+    ],
+    "steps": [
+      "Replace your closed questions with open ones.",
+      "Listen for a detail and ask a follow-up about it.",
+      "When it fits, ask how the person felt about something.",
+      "Avoid firing three questions in a row without sharing anything about yourself."
+    ],
+    "faq": [
+      {
+        "q": "How do I avoid sounding like an interrogation?",
+        "a": "Alternate questions with things you share about yourself. After two questions, offer something from your own experience. The exchange should flow both ways."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "handling-awkward-silences",
+    "theme": "social",
+    "locale": "en",
+    "title": "Handling Silences Without Panicking",
+    "emoji": "🤫",
+    "intro": "A lull in conversation isn't a catastrophe. Learning to sit with it makes you far more comfortable in social situations.",
+    "sections": [
+      {
+        "heading": "Silence isn't failure",
+        "body": "We experience silences as embarrassing when they're perfectly normal — even with close friends. The other person often doesn't notice them as much as you do. Your panic comes from the interpretation, not the silence itself. Reminding yourself that a few seconds of quiet is totally ordinary takes most of the pressure off and stops you from filling the gap with something awkward."
+      },
+      {
+        "heading": "Use silence to restart",
+        "body": "A pause is a great moment to circle back to something mentioned earlier: 'You said you were changing jobs — how's that going?' You can also glance at your surroundings for a new entry point. Silence becomes a useful breath in the conversation rather than a void you urgently need to fill."
+      },
+      {
+        "heading": "Know when to wrap it up",
+        "body": "Sometimes silence simply signals that the conversation has run its course. That's fine. Rather than clinging on, close warmly: 'Anyway, really good to see you.' Knowing when to end a conversation gracefully is just as valuable a skill as knowing how to start one. It leaves a good impression."
+      }
+    ],
+    "steps": [
+      "Breathe and remind yourself that a silence is normal.",
+      "Use the pause to bring back a topic that came up earlier.",
+      "Look around for something to anchor a new thread.",
+      "If the exchange is done, close it warmly."
+    ],
+    "faq": [
+      {
+        "q": "Why do silences stress me out so much?",
+        "a": "Usually it's fear of judgment — you think the silence is announcing that you're boring. In reality, the other person rarely experiences it that way. It's an interpretation worth unpacking."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "making-friends-as-an-adult",
+    "theme": "social",
+    "locale": "en",
+    "title": "Making Friends as an Adult",
+    "emoji": "🤝",
+    "intro": "Making friends gets harder after school, but it's absolutely doable with a more intentional approach.",
+    "sections": [
+      {
+        "heading": "Friendship requires repetition",
+        "body": "A friendship rarely grows out of a single encounter. It needs repeated contact in the same setting: a sport, a class, a club, a job. Regularity creates familiarity, and familiarity opens the door to trust. If you want more friends, choose recurring activities over one-off events."
+      },
+      {
+        "heading": "Dare to make the first move",
+        "body": "A lot of potential friendships die because neither person has the nerve to suggest something. After a few good exchanges, just invite them: 'Want to grab coffee after class?' The perceived risk is way higher than the actual risk. Most people are also looking to make friends and will be glad you reached out. Taking initiative almost always lands well."
+      },
+      {
+        "heading": "Keep the connection alive over time",
+        "body": "A friendship you don't feed quietly fades. Check in, suggest things, remember important dates. You don't need to be available every day — consistency matters more than intensity. A genuine message now and then keeps the thread alive and shows that the person actually matters to you."
+      }
+    ],
+    "steps": [
+      "Sign up for a recurring activity that genuinely interests you.",
+      "After a few exchanges, suggest a one-on-one hangout.",
+      "Take the initiative to organize things — don't just wait to be invited.",
+      "Check in regularly with the friendships you want to keep."
+    ],
+    "faq": [
+      {
+        "q": "Is it normal to find this harder than before?",
+        "a": "Yes. As an adult, you no longer have the daily school environment. You have to deliberately create opportunities to see people. That takes effort — it's not a flaw."
+      },
+      {
+        "q": "How long does it take for a friendship to form?",
+        "a": "Research suggests it takes several dozen hours spent together to go from acquaintance to close friend. Patience is part of the process."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "keeping-friendships-alive",
+    "theme": "social",
+    "locale": "en",
+    "title": "Maintaining Friendships Over Time",
+    "emoji": "🌱",
+    "intro": "Friendships don't maintain themselves. A few simple habits stop them from slowly dying out through neglect.",
+    "sections": [
+      {
+        "heading": "Consistency beats intensity",
+        "body": "A friendship doesn't need spectacular grand reunions. It needs regular contact, even brief: a text, a call, a coffee. That continuous thread is what keeps closeness alive. A small check-in every week beats a long absence followed by a full-day catch-up. Consistency reassures and sustains the bond."
+      },
+      {
+        "heading": "Show up for the moments that matter",
+        "body": "Friendships solidify most during important moments: a success, a hard time, a birthday. Note the dates, congratulate, support. Being there when it counts is worth more than a hundred casual messages. A friend who remembers and reaches out at the right moment leaves a lasting mark. That's where real friendship is measured."
+      },
+      {
+        "heading": "Accept phases of distance",
+        "body": "A friendship can go through periods of seeing each other less without dying. Moving, heavy workload, a new relationship — that's just life. A good friendship can hibernate and pick right back up. Don't confuse a pause with abandonment. When you can, a simple 'thinking of you' is enough to keep the connection alive."
+      }
+    ],
+    "steps": [
+      "Block a regular slot to check in with people.",
+      "Note important dates for your close friends.",
+      "Show up in their big moments, good ones and hard ones alike.",
+      "Forgive the phases of distance that come with life."
+    ],
+    "faq": [
+      {
+        "q": "I always make the first move — is that a bad sign?",
+        "a": "Not necessarily — some people just aren't initiators. But if the effort is always one-sided and it's wearing on you, that's worth bringing up directly."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "saying-no-without-guilt-social",
+    "theme": "social",
+    "locale": "en",
+    "title": "Saying No Without the Guilt Trip",
+    "emoji": "🚫",
+    "intro": "Always saying yes eventually burns you out and breeds resentment. Learning to decline cleanly protects your time and your relationships.",
+    "sections": [
+      {
+        "heading": "Why we can't say no",
+        "body": "We say yes out of fear: fear of disappointing someone, of being rejected, of looking selfish. But a forced yes isn't a real gift — it comes with resentment and often ends up poorly delivered. Understanding that saying no is legitimate, not an attack, is freeing. You have every right to protect your energy, just as others have every right to ask."
+      },
+      {
+        "heading": "Decline clearly and respectfully",
+        "body": "A good no is clear, calm, and brief. You don't need to justify at length — the more you explain, the more negotiable you seem. 'Thanks for thinking of me, but I won't be able to make it' is enough. You can add a warm word without walking back your decision. Quiet firmness is more respected than endless apologies."
+      },
+      {
+        "heading": "Offer an alternative when you genuinely want to",
+        "body": "Saying no doesn't mean closing the door permanently. If you want to, offer something else: 'I can't tonight, but what about next week?' It shows you're declining the request, not the person. Just be careful: the alternative should be sincere, not a reflex to soften a no you're actually committed to."
+      }
+    ],
+    "steps": [
+      "Before answering, ask yourself if you genuinely want to do it.",
+      "Give a short, clear no without over-explaining.",
+      "Keep your tone warm even while declining.",
+      "Only offer an alternative if you actually mean it."
+    ],
+    "faq": [
+      {
+        "q": "What if the person keeps pushing?",
+        "a": "Calmly repeat the same thing without escalating. When someone insists, consistency works better than new justifications that just reopen the negotiation."
+      },
+      {
+        "q": "Isn't saying no selfish?",
+        "a": "No — it's setting a boundary. A healthy relationship accepts that everyone has limits. Selfishness would be never considering the other person at all, which is a different thing."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "setting-clear-boundaries",
+    "theme": "social",
+    "locale": "en",
+    "title": "Setting Clear Boundaries",
+    "emoji": "🧱",
+    "intro": "Clear limits protect your relationships just as much as they protect you. Expressing them calmly prevents built-up resentment.",
+    "sections": [
+      {
+        "heading": "Identify your limits first",
+        "body": "Before you can express a boundary, you need to know what it is. Notice what makes you uncomfortable: a repeated joke, too-frequent demands, a lack of respect for your time. Discomfort, irritation, or exhaustion after certain interactions are all signals. Putting words to what you no longer want is the essential first step."
+      },
+      {
+        "heading": "Frame the boundary around you, not them",
+        "body": "A boundary lands better when it's expressed as 'I' rather than an accusation. Instead of 'you're being a pain,' try 'I need us not to joke about that.' You're talking about your feeling and your need, not attacking. The person can then adjust without feeling attacked. A boundary isn't a punishment — it's useful information for the relationship."
+      },
+      {
+        "heading": "Hold the line over time",
+        "body": "A boundary stated once but never enforced won't hold. If it gets crossed, calmly restate it — no drama, no anger. Consistency teaches people how to treat you. Respectful people adjust quickly. Those who keep crossing the line tell you everything about how much space they're willing to give your needs."
+      }
+    ],
+    "steps": [
+      "Identify the situations that regularly make you uncomfortable.",
+      "Frame your boundary around your need, not a criticism of the other person.",
+      "Express it calmly, at the right moment.",
+      "Restate it serenely if it's not respected."
+    ],
+    "faq": [
+      {
+        "q": "What if setting a boundary creates conflict?",
+        "a": "A short-term conflict beats long-term resentment. A healthy relationship can survive a boundary. If it can't, the boundary just revealed an imbalance."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "handling-conflict-calmly",
+    "theme": "social",
+    "locale": "en",
+    "title": "Working Through Conflict Without Blowing Things Up",
+    "emoji": "⚖️",
+    "intro": "A disagreement handled well can actually strengthen a relationship. A few principles stop an argument from spiraling.",
+    "sections": [
+      {
+        "heading": "Attack the problem, not the person",
+        "body": "In a conflict, the temptation is to target the other person: 'you're so selfish,' 'you always do this.' Those attacks trigger defensiveness and block any solution. Focus on the specific behavior and its effect on you: 'When plans get cancelled at the last minute, I feel sidelined.' The problem becomes something you solve together."
+      },
+      {
+        "heading": "Bring the temperature down",
+        "body": "When the tone rises, no one is thinking clearly anymore — the brain goes into survival mode. If you feel things heating up, call a pause: 'Let's take ten minutes and come back to this calmly.' That's not running away — it's giving yourself the conditions to actually talk. A calm conversation moves a thousand times further than a shouting match."
+      },
+      {
+        "heading": "Seek what's right, not who wins",
+        "body": "Needing to be right at all costs turns a close person into an adversary. Ask a different question: what would be fair for both of us? Look for common ground, suggest a compromise, own your part. A well-resolved conflict ends with no winners or losers — just two people who understand each other better than they did before."
+      }
+    ],
+    "steps": [
+      "Describe the specific behavior, not the other person's character.",
+      "If the tone rises, call a pause and come back when it's calm.",
+      "Hear the other person's side before defending yours.",
+      "Look for a fair solution rather than trying to win."
+    ],
+    "faq": [
+      {
+        "q": "What if the other person refuses to talk calmly?",
+        "a": "You can only control your part. Stay calm and offer to postpone. If they remain aggressive, this isn't the moment to resolve anything."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

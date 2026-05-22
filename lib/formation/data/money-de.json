@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "making-your-first-budget-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Dein erstes einfaches Budget erstellen",
+    "emoji": "📊",
+    "intro": "Ein Budget ist keine Strafe — es bedeutet einfach zu wissen, wohin dein Geld fließt, damit du wieder die Kontrolle übernimmst. Dreißig Minuten reichen für den Einstieg.",
+    "sections": [
+      {
+        "heading": "Warum ein Budget alles verändert",
+        "body": "Ohne Budget verschwindet das Geld, und du weißt nicht wohin. Mit einem hat jeder Euro eine Aufgabe: feste Ausgaben, Spaß, Sparen. Das macht dich nicht kleinlich — es macht dich frei, denn sobald der Plan steht, kannst du ausgeben, ohne ein schlechtes Gewissen zu haben. Ziel ist nicht, jeden Cent zu verfolgen, sondern das große Ganze zu sehen und aufzuhören, jeden Monat im Minus zu enden und dich zu fragen warum."
+      },
+      {
+        "heading": "Einnahmen und Ausgaben auflisten",
+        "body": "Fang damit an, alles aufzuschreiben, was reinkommt: Lohn, Nebenjob, Unterstützung von der Familie, Stipendien. Dann liste alles auf, was in einem typischen Monat rausgeht: Miete, Abonnements, Transport, Lebensmittel, Ausgehen. Schau dir deine Kontoauszüge der letzten zwei Monate an, damit nichts durchrutscht. Die meisten entdecken dabei vergessene Abos oder kleine wiederkehrende Käufe, die sich zu einem erstaunlichen Gesamtbetrag summieren."
+      },
+      {
+        "heading": "Die 50/30/20-Regel",
+        "body": "Eine einfache Aufteilung für den Anfang: etwa 50% des Einkommens für Notwendiges (Wohnen, Essen, Transport), 30% für Wünsche (Ausgehen, Kleidung, Hobbys), 20% für Sparen. Das sind keine starren Regeln — wenn deine Miete hoch ist, pass sie an. Wichtig ist, ein Ziel zu haben und immer etwas für Ersparnisse zurückzulegen, auch einen kleinen Betrag, bevor du den Rest ausgibst."
+      },
+      {
+        "heading": "Tracken ohne es zu verkomplizieren",
+        "body": "Ein verlassenes Budget hilft niemandem. Wähle das einfachste Tool, das für dich funktioniert: eine Banking-App, die Ausgaben kategorisiert, eine Tabelle oder sogar ein Notizbuch. Mach einmal pro Woche einen kurzen fünfminütigen Check-in. Du musst nicht perfekt sein — wenn du in einer Kategorie zu viel ausgibst, pass das im nächsten Monat an. Beständigkeit ist wichtiger als Präzision."
+      }
+    ],
+    "steps": [
+      "Notiere alle Einnahmen des Monats.",
+      "Liste feste und variable Ausgaben anhand deiner Kontoauszüge auf.",
+      "Teile grob auf: 50% Bedarf, 30% Wünsche, 20% Sparen.",
+      "Wähle ein einfaches Tracking-Tool — App, Tabelle oder Notizbuch.",
+      "Mach jede Woche einen kurzen Rückblick und passe den Folgermonat an."
+    ],
+    "faq": [
+      {
+        "q": "Was, wenn mein Einkommen jeden Monat schwankt?",
+        "a": "Basiere dein Budget auf deinem niedrigsten Monat der letzten Zeit. Wenn du mehr verdienst, steck den Überschuss in Ersparnisse statt deine Ausgaben aufzublähen."
+      },
+      {
+        "q": "Wie lange dauert es, bis es wirklich funktioniert?",
+        "a": "Gib ihm zwei bis drei Monate. Die ersten Monate geht es vor allem darum, deine echten Gewohnheiten kennenzulernen. Die Anpassungen kommen danach ganz natürlich."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-where-your-money-goes-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Verstehen, wohin dein Geld wirklich geht",
+    "emoji": "🔍",
+    "intro": "Bevor du mehr sparen kannst, brauchst du ein klares Bild. Wer seine Ausgaben der Vergangenheit analysiert, stößt fast immer auf Überraschungen, die sich leicht beheben lassen.",
+    "sections": [
+      {
+        "heading": "Dein Kontoauszug ist dein bester Lehrer",
+        "body": "Exportiere oder drucke deine Kontoauszüge der letzten drei Monate und lies sie Zeile für Zeile durch. Das macht weniger Spaß als ein Film, aber es ist das Nützlichste, was du je mit deinem Geld tun wirst. Du entdeckst vergessene Abbuchungen, doppelte Abos und Abende aus, die häufiger vorkamen als du dachtest. Keine App ersetzt diese ehrliche Auseinandersetzung mit deinen eigenen Entscheidungen."
+      },
+      {
+        "heading": "In grobe Kategorien einteilen",
+        "body": "Ordne jede Ausgabe einem Bereich zu: Wohnen, Essen, Transport, Abonnements, Ausgehen, Kleidung, Sonstiges. Addiere dann jeden Bereich. Du bekommst eine klare Momentaufnahme davon, wohin dein Geld wirklich geht. Meistens sind eine oder zwei Kategorien weit größer als erwartet — Essenslieferungen und kleine Online-Käufe sind häufige Übeltäter. Dort steckt dein größtes Verbesserungspotenzial."
+      },
+      {
+        "heading": "Die stillen Lecks aufspüren",
+        "body": "Die Lecks sind fast nie die großen Ausgaben — es sind die kleinen, wiederkehrenden. Ein täglicher Kaffee, eine Lieferung pro Woche, drei Streaming-Abos. Multipliziere jede kleine Ausgabe mit der Häufigkeit im Monat, dann mit zwölf. Der Jahresbetrag ist meistens schockierend — und genau das motiviert dich endlich, eine bestimmte Gewohnheit zu ändern, statt alles auf einmal zu opfern."
+      },
+      {
+        "heading": "Entscheiden, was bleibt und was geht",
+        "body": "Das Ziel ist nicht, alles zu streichen — sondern das zu behalten, was dir wirklich wichtig ist, und den Rest ohne Bedauern loszuwerden. Wenn ein Abo echte Freude bringt, behalte es. Wenn du merkst, dass ein Kauf nur eine automatische Gewohnheit war, kündige ihn. Eine bewusste Ausgabe schlägt eine passive — auch wenn der Preis identisch ist."
+      }
+    ],
+    "steps": [
+      "Hol dir deine Kontoauszüge der letzten drei Monate.",
+      "Ordne jede Ausgabe einer klaren Kategorie zu.",
+      "Addiere jede Kategorie, um zu sehen, welche am schwersten wiegt.",
+      "Berechne die Jahreskosten deiner kleinen wiederkehrenden Ausgaben.",
+      "Streiche zwei oder drei Ausgaben, die deinem Leben nichts hinzufügen."
+    ],
+    "faq": [
+      {
+        "q": "Ist es normal, sich schlecht zu fühlen, wenn man auf seine Konten schaut?",
+        "a": "Am Anfang schon — es ist unangenehm. Aber dieses Unbehagen verwandelt sich schnell in ein Gefühl von Kontrolle. Sieh es als Reset, nicht als Urteil."
+      },
+      {
+        "q": "Wie viele Monate sollte ich analysieren?",
+        "a": "Drei Monate ergeben einen soliden Durchschnitt — ein Monat kann ungewöhnlich sein. So siehst du deine echten Gewohnheiten statt einer einmaligen Ausnahme."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "opening-your-first-bank-account-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Dein erstes Bankkonto eröffnen und wählen",
+    "emoji": "🏦",
+    "intro": "Dein Bankkonto ist das Fundament deines gesamten Finanzlebens. Das richtige zu wählen erspart dir jahrelang unnötige Gebühren.",
+    "sections": [
+      {
+        "heading": "Onlinebank oder klassische Filiale?",
+        "body": "Onlinebanken bieten häufig kostenlose Konten ohne monatliche Gebühr und eine inklusive Debitkarte. Filialbanken haben einen persönlichen Ansprechpartner vor Ort, berechnen aber meistens monatliche Gebühren. Für ein erstes einfaches Konto ist eine seriöse Onlinebank mehr als ausreichend. Eine Filialbank lohnt sich nur, wenn du wirklich regelmäßig persönliche Beratung brauchst."
+      },
+      {
+        "heading": "Gebühren, die du unbedingt prüfen musst",
+        "body": "Vergleiche vier Punkte: Kontoführungsgebühren, Kartenkosten, Gebühren für Abhebungen an fremden Geldautomaten und Auslandstransaktionsgebühren. Eine Bank kann eine kostenlose Karte bewerben, aber für jede Abhebung Gebühren verlangen. Lies das vollständige Preisverzeichnis, nicht nur die Werbung. Über ein Jahr kann der Unterschied zwischen zwei Banken für exakt denselben Service hundert Euro oder mehr betragen."
+      },
+      {
+        "heading": "Dokumente vorbereiten",
+        "body": "Für die Kontoeröffnung brauchst du einen gültigen Lichtbildausweis, einen aktuellen Adressnachweis und manchmal einen Einkommensnachweis oder Studentenstatus. Wenn du minderjährig bist, muss ein Elternteil dabei sein. Halte diese Dokumente als klare Fotos bereit — die Online-Kontoeröffnung dauert dann Minuten statt mehrere Hin- und Herwege."
+      },
+      {
+        "heading": "Dispo vermeiden",
+        "body": "Ein genehmigter Dispo klingt praktisch, kostet aber eine Menge Gebühren. Bitte stattdessen um eine Prepaid- oder Debitkarte ohne Überziehungsrahmen — sie lehnt Zahlungen ab, wenn dein Guthaben zu niedrig ist, und bewahrt dich davor, ins Minus zu rutschen. Das ist ein Sicherheitsnetz, keine Peinlichkeit. Du kannst jederzeit auf eine Standardkarte umstellen, sobald dein Finanzmanagement solide ist."
+      }
+    ],
+    "steps": [
+      "Vergleiche mindestens drei Banken anhand des vollständigen Preisverzeichnisses.",
+      "Prüfe Kartengebühren, Automatengebühren und Auslandskosten.",
+      "Bereite Ausweis, Adressnachweis und Statusnachweis vor.",
+      "Starte mit einer Karte ohne Überziehungsrahmen als Sicherheitsnetz.",
+      "Aktiviere Zahlungsbenachrichtigungen, um dein Guthaben im Blick zu behalten."
+    ],
+    "faq": [
+      {
+        "q": "Kann ich mehr als ein Konto haben?",
+        "a": "Ja, und das ist sogar sinnvoll — ein Girokonto für den Alltag und ein Sparkonto für deine Ziele. Vermeide nur mehrere kostenpflichtige Konten ohne Grund."
+      },
+      {
+        "q": "Ist ein Bankwechsel kompliziert?",
+        "a": "Nicht mehr. Kontowechselservices helfen, Lastschriften und Daueraufträge zu übertragen. Vergleiche sorgfältig und wechsle dann ohne Scheu."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "building-an-emergency-fund-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Einen Notgroschen aufbauen",
+    "emoji": "🛟",
+    "intro": "Ein Notgroschen ist Geld, das du zur Seite legst, um dich vor dem Unerwarteten zu schützen, ohne Schulden zu machen. Er ist der erste Baustein echter finanzieller Sicherheit.",
+    "sections": [
+      {
+        "heading": "Wofür ein Notgroschen da ist",
+        "body": "Das Leben hält Überraschungen bereit: ein kaputtes Handy, ein toter Laptop, eine ungeplante Reise, der Verlust eines Nebenjobs. Ohne Puffer drängen dich diese Überraschungen in den Dispo oder in Schulden. Ein Notgroschen fängt den Schlag auf. Es ist kein Spaßgeld und keine Geldanlage — es ist ein Sicherheitspuffer, den du nur für echte Notfälle angreifst, die wirklich außerhalb deiner Kontrolle liegen."
+      },
+      {
+        "heading": "Wie viel du anstreben solltest",
+        "body": "Am Anfang setz dir einen erreichbaren ersten Meilenstein: einen Monat Ausgaben, oder sogar 500 €, wenn sich das realistischer anfühlt. Sobald du dieses erste Ziel erreichst, bau schrittweise auf drei Monatsbeiträge auf. Der Schlüssel ist, klein anzufangen, damit du die Sicherheit schnell spürst, statt eine riesige Summe anzustreben, die sich unmöglich anfühlt, bevor du überhaupt begonnen hast."
+      },
+      {
+        "heading": "Wo du es aufbewahrst",
+        "body": "Dieser Puffer muss sofort zugänglich und risikolos bleiben. Ein Tagesgeldkonto oder ein Geldmarktkonto ist die richtige Heimat — dein Geld ist sicher, gebührenfrei und innerhalb von Stunden abrufbar. Investiere deinen Notgroschen niemals an der Börse: Sein Wert könnte genau dann fallen, wenn du ihn am dringendsten brauchst."
+      },
+      {
+        "heading": "Wiederaufbauen nach der Nutzung",
+        "body": "Wenn du ihn angreifst, ist das kein Versagen — genau dafür ist er da. Die einzige Regel: danach wieder aufbauen. Richte im folgenden Monat die automatische Überweisung wieder ein, bis du zurück auf deinem Ziel bist. Dabei zuzusehen, wie der Puffer nach einer Notlage wieder wächst, gibt Vertrauen: Du weißt, dass das System funktioniert und du für den nächsten Überraschungsmoment bereit bist."
+      }
+    ],
+    "steps": [
+      "Setz dir ein realistisches erstes Ziel — zum Beispiel einen Monat Ausgaben.",
+      "Eröffne ein separates Sparkonto nur für diesen Puffer.",
+      "Richte eine automatische monatliche Überweisung ein, auch einen kleinen Betrag.",
+      "Greif nur bei echten, unvermeidbaren Notfällen darauf zurück.",
+      "Bau es nach jeder Nutzung zügig wieder auf."
+    ],
+    "faq": [
+      {
+        "q": "Sollte ich den Notgroschen aufbauen, bevor ich Schulden abzahle?",
+        "a": "Leg zuerst einen kleinen Puffer an, dann geh deine Schulden an. Ohne Puffer würde jede kleine unerwartete Ausgabe dich zurück ins Minus zwingen."
+      },
+      {
+        "q": "Wo sollte ich meinen Notgroschen auf keinen Fall aufbewahren?",
+        "a": "Niemals an der Börse oder in riskanten Anlagen — der Wert könnte genau dann fallen, wenn du ihn brauchst. Er muss sicher und sofort zugänglich bleiben."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "saving-on-a-low-income-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Sparen auch mit wenig Geld",
+    "emoji": "🪙",
+    "intro": "Viele denken, man muss viel verdienen, um zu sparen. Falsch — es kommt auf die Gewohnheit an, und die baust du mit kleinen Beträgen auf.",
+    "sections": [
+      {
+        "heading": "Zahl dich zuerst",
+        "body": "Die meisten sparen, was am Ende des Monats übrig bleibt — und es bleibt nie etwas übrig. Dreh die Logik um: Sobald dein Einkommen ankommt, leg einen kleinen Betrag beiseite, bevor du irgendetwas anderes ausgibst. Auch zehn oder zwanzig Euro. Indem du das Sparen wie eine feste Ausgabe behandelst, wird es automatisch und du merkst es kaum."
+      },
+      {
+        "heading": "Automatisierung ist dein Verbündeter",
+        "body": "Richte einen automatischen Dauerauftrag von deinem Girokonto auf dein Sparkonto für den Tag nach dem Gehaltseingang ein. Das Geld geht weg, bevor du die Chance hast, es auszugeben. Du musst nicht jeden Monat neu entscheiden, also gibt es keine Versuchung, eine Überweisung zu überspringen. Automatisierung verwandelt eine gute Absicht in ein konkretes Ergebnis — ganz ohne Willenskraft."
+      },
+      {
+        "heading": "In kleinen Schritten erhöhen",
+        "body": "Fang mit einem Betrag an, der so klein ist, dass er nicht wehtut. Dann erhöhe ihn alle zwei bis drei Monate leicht — von 20 auf 25 € zum Beispiel. Du passt dich schrittweise an, ohne einen Schock für deinen Lebensstil. Dieser sanfte Anstieg ist weit nachhaltiger als ein großer Anfangsschub, der beim ersten schwierigen Monat zusammenbricht."
+      },
+      {
+        "heading": "Gib deinem Sparen ein Ziel",
+        "body": "Einfach so zu sparen wird schnell langweilig. Gib deinen Ersparnissen einen Namen: eine Reise, Führerschein, ein Laptop, ausziehen. Ein konkretes Ziel macht jede Einzahlung befriedigend, weil du siehst, wie dein Traum näher rückt. Du kannst sogar mehrere gedankliche Töpfe innerhalb eines Kontos anlegen, einen pro Projekt, um deinen Fortschritt zu verfolgen."
+      }
+    ],
+    "steps": [
+      "Wähle einen Sparbetrag, der sich schmerzlos anfühlt.",
+      "Richte einen automatischen Dauerauftrag direkt nach dem Gehaltseingang ein.",
+      "Erhöhe den Betrag alle zwei bis drei Monate um einen kleinen Schritt.",
+      "Verknüpfe dein Sparen mit einem konkreten, motivierenden Ziel.",
+      "Schau einmal im Monat nach deinem Fortschritt, um motiviert zu bleiben."
+    ],
+    "faq": [
+      {
+        "q": "Lohnen sich 20 € pro Monat wirklich?",
+        "a": "Ja — das sind 240 € im Jahr, und noch wichtiger baust du die Gewohnheit auf. Die Gewohnheit ist am Anfang mehr wert als der Betrag."
+      },
+      {
+        "q": "Wann sollte ich meine Sparüberweisung einrichten?",
+        "a": "Direkt nach dem Gehaltseingang, damit du sparst, bevor du ausgibst. Wenn du bis Monatsende wartest, ist meistens nichts mehr übrig."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "understanding-savings-accounts-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Sparkonten verstehen",
+    "emoji": "📒",
+    "intro": "Sparkonten sind der einfachste und sicherste Weg, Geld zurückzulegen. Du musst nur verstehen, wie sie wirklich funktionieren.",
+    "sections": [
+      {
+        "heading": "Was ein Sparkonto ist",
+        "body": "Ein Sparkonto ist ein sicherer, gebührenfreier Ort, an dem Geld geparkt wird und kleine Zinsen einbringt. Dein Geld ist vollständig geschützt, jederzeit verfügbar und wird regelmäßig verzinst — je nach Kontotyp oft steuerbegünstigt. Es ist die ideale Heimat für deinen Notgroschen und kurzfristige Ziele."
+      },
+      {
+        "heading": "Wie Zinsen funktionieren",
+        "body": "Das Konto bringt einen Jahreszins ein: Bei 3% bringt 1.000 € im Jahr ungefähr 30 €. Zinsen werden verzinst — das bedeutet, die Zinsen, die du verdienst, bringen im Folgejahr ebenfalls Zinsen. Das ist ein kleiner Schneeballeffekt. Um ihn zu maximieren, lege Geld zu Beginn eines Zinszeitraums ein statt am Ende."
+      },
+      {
+        "heading": "Die Grenzen, die du kennen solltest",
+        "body": "Manche Sparkonten haben Einlagegrenzen oder Einzahlungslimits. Sobald du die Decke erreichst, muss zusätzliches Geld woanders hin. Bedenke vor allem: Die Renditen von Sparkonten sind niedrig — das Konto schützt dein Geld, lässt es aber nicht wirklich wachsen. Sieh es als Sicherheitswerkzeug, nicht als Wachstumsmotor."
+      },
+      {
+        "heading": "Konten clever nutzen",
+        "body": "Die smarte Strategie ist einfach: ein Konto für den Notgroschen, ein anderes für geplante Ziele in den nächsten ein bis drei Jahren. Lass auf dem Girokonto nur das, was du für den Monat brauchst. Alles andere geht auf ein Sparkonto, wo es sicher ist und ein bisschen Zinsen bringt — statt untätig ohne Zinsen herumzuliegen."
+      }
+    ],
+    "steps": [
+      "Schau, welche Sparkonten deine Bank anbietet.",
+      "Eröffne ein gebührenfreies Sparkonto für deine Ersparnisse.",
+      "Richte einen automatischen Dauerauftrag dorthin ein.",
+      "Behalte auf dem Girokonto nur deinen Monatsbedarf.",
+      "Behalte das Einlagenlimit im Blick und leite überschüssige Mittel um, wenn nötig."
+    ],
+    "faq": [
+      {
+        "q": "Kann ein Sparkonto an Wert verlieren?",
+        "a": "Dein Guthaben sinkt nie. Wenn die Inflation aber höher ist als der Zinssatz, schwindet deine Kaufkraft still — das ist normal für ein risikofreies Konto."
+      },
+      {
+        "q": "Was tue ich, wenn das Konto voll ist?",
+        "a": "Überschüssiges Geld muss woanders hin — ein anderes Sparkonto oder für sehr langfristige Ziele eine breit gestreute Geldanlage. Informiere dich, was zu deinem Zeithorizont passt."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "cleaning-out-subscriptions-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Abonnements ausmisten",
+    "emoji": "✂️",
+    "intro": "Abos häufen sich still an und nagen an deinem Budget. Eine große Aufräumaktion einmal im Jahr kann überraschend viel sparen.",
+    "sections": [
+      {
+        "heading": "Die vollständige Liste erstellen",
+        "body": "Schreib jedes Abo auf: Video- und Musik-Streaming, Games, Apps, Fitnessstudio, Abo-Boxen, Cloud-Speicher, Nachrichtenseiten. Viele werden still abgebucht und sind längst vergessen. Durchsuche deine Kontoauszüge nach wiederkehrenden Abbuchungen, auch kleinen. Die monatliche Summe wird dich schockieren — und die jährliche noch mehr, wenn du alles zusammenzählst."
+      },
+      {
+        "heading": "Der echte Nutzungstest",
+        "body": "Frag dich bei jedem Abo ehrlich: Habe ich das diesen Monat wirklich genutzt? Bringt es echten Mehrwert oder ist es nur Gewohnheit? Wenn du es seit Wochen nicht geöffnet hast, ist es ein Kandidat zum Kündigen. Behalte nur, was du wirklich nutzt und genießt. Alles andere ist weggeworfenes Geld ohne Gegenleistung."
+      },
+      {
+        "heading": "Rotieren statt stapeln",
+        "body": "Du brauchst nicht drei Streaming-Plattformen gleichzeitig. Abonniere eine, schau, was dich interessiert, kündige dann und wechsle im nächsten Monat zur nächsten. Die meisten Abos haben keine Bindungsfrist. Diese Rotation gibt dir Zugang zu allem — zum Preis von einem Abo auf einmal."
+      },
+      {
+        "heading": "Auf Verlängerungen achten",
+        "body": "Kostenlose Testphasen werden automatisch zu kostenpflichtigen Abos, wenn du vergisst zu kündigen. Trag das Ende jeder Testphase in deinen Kalender ein. Achte auch auf stille Preiserhöhungen — Plattformen erhöhen laufend ihre Preise. Mache diese Aufräumaktion alle sechs Monate, um deine wiederkehrenden Ausgaben im Griff zu behalten."
+      }
+    ],
+    "steps": [
+      "Liste alle Abos aus deinen Kontoauszügen auf.",
+      "Hake die ab, die du diesen Monat wirklich genutzt hast.",
+      "Kündige alles, was keinen echten Mehrwert bringt.",
+      "Wähle eine Rotationsstrategie statt Plattformen zu stapeln.",
+      "Notiere Testzeitraum-Enddaten, damit du nie aus Versehen zahlst."
+    ],
+    "faq": [
+      {
+        "q": "Was, wenn das Abo eine Vertragslaufzeit hat?",
+        "a": "Notiere das Vertragsende und kündige kurz davor. Stell dir eine Erinnerung ein — sonst verlängert es sich automatisch für eine weitere volle Periode."
+      },
+      {
+        "q": "Wie oft sollte ich diese Aufräumaktion machen?",
+        "a": "Etwa alle sechs Monate. Abos häufen sich schnell an und Preise steigen still — ein regelmäßiger Check hält deine Fixkosten unter Kontrolle."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "smart-grocery-shopping-on-a-budget-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Clever einkaufen mit kleinem Budget",
+    "emoji": "🛒",
+    "intro": "Beim Essen kannst du eine Menge sparen, ohne dich zu kasteien — einfach durch ein paar simple Gewohnheiten.",
+    "sections": [
+      {
+        "heading": "Die Einkaufsliste — dein Schutz vor Impulskäufen",
+        "body": "Ohne Liste einzukaufen ist eine offene Einladung für Impulskäufe. Plane deine Mahlzeiten für die Woche und erstelle eine Liste danach — und halte dich daran. Iss vor dem Einkaufen: Hunger treibt dich dazu, zu viel und Dinge zu kaufen, die du nicht brauchst. Eine klare Liste verwandelt einen kostspieligen Aufwand in eine schnelle, kontrollierte Mission."
+      },
+      {
+        "heading": "Nach dem Grundpreis vergleichen",
+        "body": "Der angezeigte Preis ist trügerisch: Ein großes Format kann pro Kilo teurer sein als ein kleineres, und umgekehrt. Schau immer auf den Grundpreis, der klein auf dem Regalschild steht. Eigenmarkenprodukte sind oft halb so teuer wie Markenprodukte bei sehr ähnlicher Qualität. Probiere sie aus — viele werden in denselben Fabriken hergestellt."
+      },
+      {
+        "heading": "Selbst kochen statt Fertigkost kaufen",
+        "body": "Fertiggerichte und Essenslieferungen kosten ein Vielfaches im Vergleich zu rohen Zutaten. Fünf bis sechs einfache Rezepte mit Gemüse, Hülsenfrüchten, Reis, Nudeln und Eiern zu lernen senkt die Lebensmittelkosten drastisch. Linsen, Kichererbsen und Eier sind günstige Proteinquellen. Auf Vorrat zu kochen und Portionen einzufrieren spart Zeit und Geld."
+      },
+      {
+        "heading": "Anti-Verschwendungs-Gewohnheiten, die sich auszahlen",
+        "body": "Lebensmittelverschwendung ist Geld in der Tonne. Organisiere deinen Kühlschrank so, dass das, was zuerst gegessen werden muss, ganz vorne steht. Koche mit Resten, statt sie wegzuwerfen. Nutze kurz haltbare Produkte im Sonderangebot und Apps, die unverkaufte Lebensmittel günstig weiterverkaufen. Kaufe saisonales Obst und Gemüse — es ist günstiger und schmeckt besser."
+      }
+    ],
+    "steps": [
+      "Plane deine Mahlzeiten für die Woche, bevor du deine Liste schreibst.",
+      "Geh nie mit leerem Magen einkaufen.",
+      "Vergleiche immer nach dem Grundpreis — pro Kilo oder pro Liter.",
+      "Greife standardmäßig zu Eigenmarken und saisonalem Gemüse.",
+      "Koche auf Vorrat und frier Portionen ein, um Verschwendung zu reduzieren."
+    ],
+    "faq": [
+      {
+        "q": "Bedeutet günstig essen auch schlecht essen?",
+        "a": "Nein. Hülsenfrüchte, Eier, Vollkornprodukte und saisonales Gemüse sind günstig und nährstoffreich. Fertigkost ist es, die viel kostet und wenig nährt."
+      },
+      {
+        "q": "Sind Eigenmarkenprodukte schlechter?",
+        "a": "Nicht unbedingt — viele werden in denselben Fabriken wie Markenprodukte hergestellt. Probier sie aus: Die Qualität ist meistens sehr ähnlich, zum deutlich niedrigeren Preis."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "selling-second-hand-items-online-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Deine Sachen online verkaufen",
+    "emoji": "📦",
+    "intro": "Du hast zu Hause mit ziemlicher Sicherheit Dinge, die Geld wert sind. Sie zu verkaufen entrümpelt deinen Raum und füllt dein Portemonnaie.",
+    "sections": [
+      {
+        "heading": "Erkennen, was sich verkauft",
+        "body": "Geh deine Sachen durch: Klamotten, die du nie getragen hast, fertig gespielte Videospiele, Bücher, Elektronik, Accessoires. Alles, was du seit einem Jahr nicht benutzt hast, ist ein Kandidat für den Weiterverkauf. Artikel in gutem Zustand, von bekannten Marken und mit allem Zubehör verkaufen sich am besten. Du musst nicht alles auf einmal einstellen — fang mit zehn Artikeln an, um die Abläufe kennenzulernen."
+      },
+      {
+        "heading": "Fotos und Beschreibungen, die überzeugen",
+        "body": "Ein gutes Inserat verkauft; ein schlechtes liegt einfach rum. Mache scharfe Fotos bei Tageslicht auf neutralem Hintergrund, aus mehreren Winkeln, und zeige eventuelle Mängel ehrlich. Schreibe einen klaren Titel mit Marke und Modell. Beschreibe Zustand, Größe und Maße wahrheitsgemäß. Transparenz vermeidet Streit und baut deinen Ruf als vertrauenswürdiger Verkäufer auf."
+      },
+      {
+        "heading": "Den richtigen Preis festlegen",
+        "body": "Schau dir an, wofür ähnliche Artikel tatsächlich verkauft wurden — nicht nur, was gelistet wird. Ein zu hoher Preis schreckt Käufer ab; zu niedrig kostet dich Geld. Berücksichtige Zustand und Nachfrage. Du kannst etwas über deinem Zielpreis listen, um Verhandlungsspielraum zu lassen — das ist auf diesen Plattformen üblich."
+      },
+      {
+        "heading": "Sicher verkaufen",
+        "body": "Nutze das plattformeigene sichere Zahlungssystem statt direkter Banküberweisung. Für persönliche Übergaben wähle einen belebten öffentlichen Ort. Sei vorsichtig bei Käufern, die den Deal außerhalb der Plattform abwickeln oder merkwürdige Zahlungslinks schicken — das ist fast immer Betrug. Führe alle Kommunikation in der App."
+      }
+    ],
+    "steps": [
+      "Such dir zehn ungenutzte Artikel in gutem Zustand aus.",
+      "Fotografiere jeden Artikel bei Tageslicht, inklusive etwaiger Mängel.",
+      "Schreibe genaue, ehrliche Titel und Beschreibungen.",
+      "Lege den Preis anhand tatsächlicher Verkäufe ähnlicher Artikel fest.",
+      "Nutze ausschließlich das sichere Zahlungssystem der Plattform."
+    ],
+    "faq": [
+      {
+        "q": "Welche Plattform soll ich nutzen?",
+        "a": "Passe die Plattform an den Artikel an — eine modezentrierte App für Kleidung, ein allgemeiner Marktplatz für alles andere. Vergleiche die Provision, die bei jedem Verkauf anfällt."
+      },
+      {
+        "q": "Muss ich diese Einnahmen versteuern?",
+        "a": "Den Weiterverkauf eigener Gegenstände mit Verlust musst du generell nicht versteuern. Wenn du häufig und regelmäßig verkaufst, prüfe die Meldeschwellen in deinem Land."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "finding-a-student-job-de",
+    "theme": "money",
+    "locale": "de",
+    "title": "Einen Studentenjob finden",
+    "emoji": "🎒",
+    "intro": "Ein Studentenjob bringt regelmäßiges Einkommen und deine ersten echten Berufserfahrungen. Zu wissen, wo und wie man sucht, macht den Unterschied.",
+    "sections": [
+      {
+        "heading": "Wo man effektiv sucht",
+        "body": "Studentenjobs gibt es an verschiedenen Stellen: im Career-Center deiner Uni, auf Jobportalen, bei lokalen Betrieben, die du direkt ansprichst, und über Mundpropaganda. Direktkontakt funktioniert oft besser als Online-Bewerbungen — geh mit einem einfachen Lebenslauf in Läden, Restaurants und Cafés, besonders kurz vor der Hauptsaison."
+      },
+      {
+        "heading": "Einen kompatiblen Job wählen",
+        "body": "Der beste Studentenjob kostet dich nicht dein Studium. Prüfe die Arbeitszeiten — Abend- oder Wochenendschichten lassen deine Tage frei. Rechne auch die Pendelzeit ein, die unbezahlt ist. Ein Job nah an Wohnung oder Campus mit flexiblen Stunden schlägt einen besser bezahlten, der dich erschöpft und ewig zu erreichen ist."
+      },
+      {
+        "heading": "Deine Rechte kennen",
+        "body": "Auch für einen kleinen Job hast du Anspruch auf einen schriftlichen Vertrag, mindestens Mindestlohn, Gehaltsabrechnungen und anteiligen Urlaubsanspruch. Ohne Vertrag zu arbeiten lässt dich völlig schutzlos dastehen, wenn etwas schiefgeht. Lehne immer Arbeit ohne ordentlichen Vertrag ab, egal welches Gehalt versprochen wird."
+      },
+      {
+        "heading": "Das Beste aus der Erfahrung machen",
+        "body": "Jenseits des Gehalts baut ein Studentenjob echte Fähigkeiten auf: Pünktlichkeit, Kundenkontakt, Teamarbeit, Umgang mit Druck. Das zählt im Lebenslauf. Bitte beim Abgang um eine Referenz oder Empfehlung. Ein Teilzeitjob, im Vorstellungsgespräch gut beschrieben, zeigt Ernsthaftigkeit und Verantwortungsbewusstsein."
+      }
+    ],
+    "steps": [
+      "Wende dich an das Career-Center oder Studierendenwerk deiner Hochschule.",
+      "Erstelle einen einfachen Lebenslauf zum persönlichen Einreichen.",
+      "Sprich Betriebe kurz vor der Hochsaison direkt an.",
+      "Prüfe Zeiten und Pendelweg, damit dein Studium nicht leidet.",
+      "Bestehe immer auf einem schriftlichen Vertrag und ordentlichen Lohnabrechnungen."
+    ],
+    "faq": [
+      {
+        "q": "Wie viele Stunden kann ich als Student arbeiten?",
+        "a": "Das hängt von deinem Studienplan und den gesetzlichen Vorgaben ab. Bleib vernünftig — ein Job sollte nie deine Noten ruinieren, denn das Studium hat Vorrang."
+      },
+      {
+        "q": "Wie bewerbe ich mich ohne Erfahrung?",
+        "a": "Stell deine Stärken in den Vordergrund: Pünktlichkeit, Zuverlässigkeit, Begeisterung. Bei einem Studentenjob wissen Arbeitgeber, dass du Anfänger bist, und suchen vor allem jemanden, auf den sie sich verlassen können."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]

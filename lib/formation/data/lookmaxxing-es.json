@@ -1,0 +1,374 @@
+[
+  {
+    "slug": "beginner-skincare-routine-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Cómo armar tu rutina de cuidado facial desde cero",
+    "emoji": "✨",
+    "intro": "No necesitas diez productos para tener una buena piel. Tres pasos sencillos, repetidos cada día, son más que suficientes para empezar.",
+    "sections": [
+      {
+        "heading": "Los tres pilares",
+        "body": "Una rutina eficaz se reduce a tres pasos: limpiar, hidratar y proteger. Por la mañana, limpia suavemente, aplica una crema hidratante y luego protector solar. Por la noche, limpia para eliminar el polvo y el sebo del día, y después hidrata. Todo lo demás es opcional. La constancia siempre supera al número de productos: una rutina simple que realmente sostienes en el tiempo vale más que una compleja que abandonas a la semana."
+      },
+      {
+        "heading": "Cómo elegir los productos correctos",
+        "body": "Olvídate de las marcas de lujo. Un limpiador suave sin jabón, una crema hidratante neutra y un protector solar cubren todas tus necesidades y se consiguen a buen precio en cualquier farmacia o supermercado. Primero identifica tu tipo de piel: si se siente tirante después de limpiarla, probablemente sea seca; si a mediodía brilla, es grasa. Opta por texturas más ligeras si tu piel es grasa, y más ricas si es seca. Evita los productos con mucha fragancia, pueden irritar."
+      },
+      {
+        "heading": "Errores que debes evitar",
+        "body": "El primer error es pasarse: empezar con activos fuertes desde el principio irrita la piel y provoca rojez y granos. El segundo es no usar protector solar, que en realidad es el mejor gesto antiedad que puedes hacer. El tercero es cambiar de productos cada semana: dale a tu piel tres o cuatro semanas para responder antes de opinar sobre nada. Sé paciente y solo observa."
+      }
+    ],
+    "steps": [
+      "Mañana: limpiar, hidratar y aplicar SPF 30 como mínimo.",
+      "Noche: limpiar para eliminar el sebo e impurezas, luego hidratar.",
+      "Empieza solo con tres productos básicos.",
+      "Mantén la misma rutina al menos un mes antes de evaluarla.",
+      "Agrega un activo (ácido, retinol) solo cuando tengas los básicos bien asentados."
+    ],
+    "faq": [
+      {
+        "q": "¿Necesito productos diferentes para la mañana y la noche?",
+        "a": "La gran diferencia es el protector solar por la mañana. Por la noche puedes agregar un tratamiento específico, pero no es obligatorio."
+      },
+      {
+        "q": "¿Los productos caros son mejores?",
+        "a": "No necesariamente. Muchos productos asequibles de farmacia funcionan muy bien. Lo que importa es la fórmula y la constancia, no el precio."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "know-your-skin-type-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Identifica tu tipo de piel para cuidarla mejor",
+    "emoji": "🔍",
+    "intro": "Elegir los productos correctos empieza por conocer tu piel. Una prueba sencilla en casa te da la respuesta en pocas horas.",
+    "sections": [
+      {
+        "heading": "Los principales tipos de piel",
+        "body": "Existen cuatro perfiles principales: normal (equilibrada), seca (tirante, puede descamarse), grasa (brillante con poros visibles) y mixta (grasa en la zona T, normal o seca en las mejillas). Luego está la piel sensible, que reacciona fácilmente con rojeces o picores, y puede superponerse a cualquiera de los otros tipos. Conocer tu perfil te evita comprar productos que no son para ti."
+      },
+      {
+        "heading": "La prueba del papel",
+        "body": "Limpia tu cara por la noche con un producto suave y no apliques nada después. A la mañana siguiente, antes de lavarte, presiona un papel de seda en distintas zonas de tu cara. Si permanece seco en todas partes, tu piel tiende a ser normal o seca. Si solo hay grasa en el centro, es mixta. Si hay grasa por todas partes, es grasa. Una sensación de tirantez apunta a piel seca."
+      },
+      {
+        "heading": "La piel cambia con el tiempo",
+        "body": "Tu tipo de piel no es fijo. Cambia con la edad, las estaciones, el estrés, la dieta y las hormonas. Una piel grasa en la adolescencia puede volverse mixta más adelante. En invierno el frío suele resecarla; en verano tiende a brillar más. Reevalúa tu piel dos veces al año y ajusta las texturas: más ligeras en verano, más nutritivas en invierno."
+      }
+    ],
+    "steps": [
+      "Haz la prueba del papel por la mañana antes de aplicar nada.",
+      "Fíjate en qué zonas están grasas, tirantes o propensas a rojeces.",
+      "Comprueba si tu piel pica fácilmente: es señal de sensibilidad.",
+      "Elige texturas ligeras para piel grasa, más ricas para piel seca.",
+      "Reevalúa tu tipo de piel con cada cambio de estación."
+    ],
+    "faq": [
+      {
+        "q": "¿Puede la piel ser grasa y deshidratada al mismo tiempo?",
+        "a": "Sí. La piel grasa produce sebo pero puede seguir faltándole agua. En ese caso, una hidratante ligera sigue siendo esencial."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "how-to-wash-your-face-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Cómo limpiar la cara correctamente mañana y noche",
+    "emoji": "🧼",
+    "intro": "La limpieza es la base de una buena piel. Mal hecha irrita; bien hecha prepara la piel para todo lo demás.",
+    "sections": [
+      {
+        "heading": "Por qué hay que limpiar la piel",
+        "body": "A lo largo del día, tu piel acumula sebo, polvo, contaminación y residuos de productos. La limpieza elimina esa capa para prevenir poros obstruidos y ayudar a que el skincare se absorba mejor. Pero limpiar no significa agredir: si tu piel queda muy tirante después de lavarte, has sido demasiado brusco/a. Una buena limpieza deja la piel limpia, suave y cómoda, nunca áspera ni irritada."
+      },
+      {
+        "heading": "La técnica correcta",
+        "body": "Usa agua tibia, nunca muy caliente: el agua demasiado caliente agrede la piel. Aplica el limpiador con las yemas de los dedos haciendo movimientos circulares suaves durante treinta segundos a un minuto. Presta un poco más de atención a la nariz y el mentón, donde se acumula el sebo. Aclara bien para no dejar residuos y sécate dando toquecitos con una toalla limpia: no frotes. Por la mañana, si tu piel es seca, puede bastar con aclarar solo con agua."
+      },
+      {
+        "heading": "Frecuencia y excesos",
+        "body": "Dos limpiezas al día son suficientes: mañana y noche. Lavarse la cara con demasiada frecuencia altera la barrera protectora de la piel y la vuelve reactiva. Después del ejercicio, aclarar con agua es suficiente si no tienes tiempo. Evita los limpiadores agresivos, muy espumosos o con mucha fragancia que resecan. Si tu piel siempre queda tirante después de lavarte, cambia a algo más suave."
+      }
+    ],
+    "steps": [
+      "Lávate las manos antes de tocar tu cara.",
+      "Usa agua tibia, nunca caliente.",
+      "Masajea el limpiador en círculos suaves durante treinta segundos.",
+      "Aclara bien y sécate dando toquecitos con una toalla limpia, sin frotar.",
+      "Limpia dos veces al día: mañana y noche, no más."
+    ],
+    "faq": [
+      {
+        "q": "¿Necesito una esponja o un cepillo limpiador?",
+        "a": "Los dedos limpios funcionan perfectamente. Los paños y cepillos pueden irritar y albergar bacterias si no se cambian con frecuencia."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "moisturize-your-skin-daily-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Cómo hidratar tu piel cada día sin equivocarte",
+    "emoji": "💧",
+    "intro": "Una piel bien hidratada se ve más tersa, luminosa y envejece mejor. Es un paso rápido con resultados visibles.",
+    "sections": [
+      {
+        "heading": "Por qué todo el mundo necesita hidratarse",
+        "body": "Incluso la piel grasa necesita hidratación: el sebo no es agua. Cuando la piel está deshidratada, se defiende produciendo más grasa, lo que empeora el brillo. La crema hidratante refuerza la barrera cutánea, reduce la tirantez y mantiene la piel flexible. El resultado: un tono más uniforme y poros con mejor aspecto. Es un paso útil a cualquier edad, independientemente del tipo de piel."
+      },
+      {
+        "heading": "Elegir la textura adecuada",
+        "body": "La clave es adaptar la textura a tu piel. Piel grasa o mixta: opta por un gel o crema ligera, no comedogénica, que no deje película grasa. Piel seca: elige una crema más rica, con ingredientes nutritivos. Piel sensible: busca listas de ingredientes cortas, sin fragancia. En invierno no dudes en cambiar a una textura más rica aunque tu piel sea normalmente grasa."
+      },
+      {
+        "heading": "Cuándo y cómo aplicarla",
+        "body": "Aplica la hidratante sobre la piel todavía un poco húmeda, justo después de limpiar: el agua residual ayuda a fijar la hidratación. Usa una cantidad del tamaño de un guisante, distribúyela por el rostro y extiéndela hacia arriba y hacia fuera sin tirar. No olvides el cuello. Por la mañana, la hidratante va antes del protector solar. Por la noche puede ser el último paso de tu rutina."
+      }
+    ],
+    "steps": [
+      "Aplica la hidratante con la piel todavía un poco húmeda.",
+      "Una cantidad del tamaño de un guisante es suficiente: más producto no significa más beneficio.",
+      "Extiende hacia arriba y hacia fuera, sin tirar ni frotar.",
+      "No te olvides del cuello, suele descuidarse.",
+      "Ajusta la textura según la estación y tu tipo de piel."
+    ],
+    "faq": [
+      {
+        "q": "Mi piel es grasa, ¿de verdad tengo que hidratarme?",
+        "a": "Sí, totalmente. Saltarte la hidratante empuja a tu piel a producir aún más grasa. Solo elige una fórmula en gel ligera."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "daily-sunscreen-habit-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Usar protector solar todos los días sin excepción",
+    "emoji": "☀️",
+    "intro": "Es el gesto antiedad más poderoso y barato que puedes hacer. Un hábito de treinta segundos que lo cambia todo a largo plazo.",
+    "sections": [
+      {
+        "heading": "Por qué el sol deja huella en la piel",
+        "body": "Los rayos UV son responsables de la mayor parte del envejecimiento cutáneo visible: arrugas, manchas, pérdida de firmeza y tono apagado. Atraviesan las nubes y el cristal, por lo que actúan incluso en días nublados o cuando estás sentado/a junto a una ventana. El protector solar bloquea una gran parte de esos rayos. Es, con diferencia, la acción con mayor retorno para tener una buena piel a largo plazo."
+      },
+      {
+        "heading": "Elegirlo y aplicarlo bien",
+        "body": "Opta por un SPF 30 mínimo, idealmente SPF 50 para la cara, con protección de amplio espectro. La textura importa: tienes que querer usarlo cada día. Fluido para pieles grasas, crema para pieles secas. Aplica una cantidad generosa (unas dos líneas en los dedos para cara y cuello) como último paso de tu rutina de mañana, antes del maquillaje. Una capa demasiado fina reduce drásticamente la protección."
+      },
+      {
+        "heading": "Reaplicar durante el día",
+        "body": "El protector solar no dura todo el día: se degrada con el tiempo, el sudor y el roce. Si estás en interior, una aplicación por la mañana suele ser suficiente. Si estás al aire libre, reaaplica cada dos horas. Existen sprays y sticks que facilitan la reaplicación sobre el maquillaje. No olvides las zonas que la gente suele saltarse: las orejas, la nuca y el dorso de las manos."
+      }
+    ],
+    "steps": [
+      "Aplica SPF 30-50 cada mañana, aunque esté nublado.",
+      "Usa una cantidad generosa: dos líneas en los dedos para cara y cuello.",
+      "Aplícalo como último paso del skincare, antes del maquillaje.",
+      "Reaaplica cada dos horas si estás al aire libre.",
+      "No olvides las orejas, el cuello y las manos."
+    ],
+    "faq": [
+      {
+        "q": "¿Necesito protector solar en invierno o en días nublados?",
+        "a": "Sí. Los rayos UV atraviesan las nubes y están presentes todo el año. Un hábito diario es lo que realmente protege."
+      },
+      {
+        "q": "¿El protector solar me impide broncearme?",
+        "a": "Ralentiza el bronceado y protege de los daños. Una piel sana y sin quemaduras es siempre el mejor objetivo."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "managing-acne-calmly-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Manejar el acné con calma y buenos hábitos",
+    "emoji": "🌱",
+    "intro": "El acné es muy común y no hay nada de lo que avergonzarse. Unos pocos hábitos simples pueden ayudar a calmarlo sin agredir la piel.",
+    "sections": [
+      {
+        "heading": "Entender el acné",
+        "body": "El acné aparece cuando los poros se obstruyen con sebo y células muertas, a veces empeorado por bacterias y hormonas. Afecta a un porcentaje altísimo de adolescentes y a muchos adultos: no estás solo/a. No es señal de mala higiene. Entender que es un proceso cutáneo normal ayuda a abordarlo con paciencia en lugar de pánico."
+      },
+      {
+        "heading": "Buenos hábitos diarios",
+        "body": "Mantén tu rutina suave: un limpiador no agresivo, una hidratante ligera no comedogénica, protector solar. Evita agredir la piel, eso suele empeorar el acné. No toques los granos ni intentes reventarlos: arriesgas marcas duraderas e infección. Cambia la funda de almohada regularmente, limpia tu móvil y mantén las manos alejadas de la cara. La constancia calma la piel poco a poco."
+      },
+      {
+        "heading": "Cuándo ver a un profesional",
+        "body": "Si tu acné es extenso, doloroso, deja marcas o no mejora con una rutina suave después de unos meses, consulta a un dermatólogo o médico. Existen tratamientos eficaces y específicos. Pedir ayuda no es fracasar, es el camino más directo a los resultados. Mantente lejos de los remedios milagrosos de internet: la mayoría son ineficaces o irritantes."
+      }
+    ],
+    "steps": [
+      "Mantén tu rutina suave, nunca agredir la piel.",
+      "No toques ni revientes los granos.",
+      "Cambia la funda de almohada cada semana.",
+      "Limpia tu móvil, toca tu mejilla constantemente.",
+      "Ve al médico si el acné es intenso o persistente."
+    ],
+    "faq": [
+      {
+        "q": "¿El chocolate provoca granos?",
+        "a": "La relación directa es débil. Una dieta equilibrada ayuda a la piel, pero el acné lo impulsan principalmente las hormonas."
+      },
+      {
+        "q": "¿Debería dejar de usar maquillaje?",
+        "a": "No, pero elige productos no comedogénicos y desmaquíllate siempre de forma completa cada noche."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "gentle-skin-exfoliation-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Exfoliar la piel con suavidad sin pasarse",
+    "emoji": "🌀",
+    "intro": "Usados bien, los exfoliantes dan una piel más suave y luminosa. Mal usados, irritan. Aquí te contamos cómo encontrar el equilibrio.",
+    "sections": [
+      {
+        "heading": "Para qué sirve la exfoliación",
+        "body": "La exfoliación elimina las células muertas acumuladas en la superficie de la piel. El resultado: una textura más fina, un tono más luminoso y mejor penetración de los productos que aplicas después. La piel se renueva de forma natural, pero ese proceso se ralentiza con la edad y puede volverse irregular. Una exfoliación moderada le da un impulso, sin sustituir nunca la limpieza e hidratación base."
+      },
+      {
+        "heading": "Exfoliantes físicos vs. químicos",
+        "body": "Los exfoliantes físicos usan partículas para pulir la piel: elige uno con partículas finas y aplícalo sin presionar fuerte. Los exfoliantes químicos usan ácidos suaves para disolver las células muertas sin frotar, y suelen ser más respetuosos con la barrera cutánea. Para principiantes, una fórmula ligera una o dos veces por semana es más que suficiente. Sea cual sea el tipo, el principio rector es siempre la suavidad."
+      },
+      {
+        "heading": "Evitar los excesos",
+        "body": "El error más habitual es exfoliar con demasiada frecuencia o de forma demasiado agresiva, pensando que más es mejor. Una piel sobre-exfoliada se vuelve roja, sensible, brillante e incómoda. Limítate a una o dos veces por semana como máximo, y nunca sobre piel ya irritada ni encima de granos inflamados. Después de exfoliar, hidrata bien y usa protector solar al día siguiente: la piel recién exfoliada es más reactiva a los UV."
+      }
+    ],
+    "steps": [
+      "Exfolia como máximo una o dos veces por semana.",
+      "Elige un exfoliante suave con partículas finas o un ácido suave.",
+      "No presiones fuerte: deja que el producto haga el trabajo.",
+      "No exfolies piel irritada ni granos inflamados.",
+      "Hidrata después y protege del sol al día siguiente."
+    ],
+    "faq": [
+      {
+        "q": "Mi cara se pone roja después de exfoliar, ¿es normal?",
+        "a": "Un ligero enrojecimiento temporal puede ocurrir, pero una rojez intensa o duradera significa que te estás exfoliando demasiado. Espacía las sesiones."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "eye-area-skincare-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Cuidar la piel del contorno de ojos",
+    "emoji": "👁️",
+    "intro": "La piel alrededor de los ojos es fina y delicada. Unos gestos suaves ayudan a mantener la mirada fresca y descansada.",
+    "sections": [
+      {
+        "heading": "Una zona que necesita atención especial",
+        "body": "La piel del contorno de ojos es de las más finas del cuerpo y tiene muy pocas glándulas sebáceas. Muestra la fatiga, la deshidratación y la falta de sueño rápidamente. Además, es una zona muy móvil: parpadeas miles de veces al día. Eso no significa que debas estresarte: un poco de atención y suavidad es todo lo que hace falta para mantenerla en buen estado."
+      },
+      {
+        "heading": "Hidratar y tocar con cuidado",
+        "body": "Una crema de ojos no es imprescindible: una hidratante suave y bien tolerada puede ser suficiente siempre que no pique. Lo más importante es cómo la aplicas. Usa el dedo anular, el que ejerce menos presión, y da toquecitos muy suaves sin tirar ni frotar. No te acerques demasiado a la línea de las pestañas. Nunca te frotes los ojos con fuerza: es uno de los peores gestos para esta zona."
+      },
+      {
+        "heading": "Lo que realmente cansa el contorno de ojos",
+        "body": "Los ojos cansados suelen venir del estilo de vida, no de los productos. La falta de sueño, la deshidratación, el exceso de sal, las pantallas y el aire seco marcan el contorno de ojos rápidamente. Dormir bien, beber agua y tomar descansos de pantalla hará más que cualquier crema. El frío ayuda por las mañanas: una cucharilla fría aplicada unos minutos puede reducir la hinchazón."
+      }
+    ],
+    "steps": [
+      "Aplica el producto con el dedo anular dando toquecitos ligeros.",
+      "Nunca tires de la piel ni te frotes los ojos.",
+      "Una hidratante suave puede funcionar bien si no pica.",
+      "Duerme suficiente y bebe agua: esos son los verdaderos tratamientos para los ojos.",
+      "Usa frío por la mañana para reducir la hinchazón."
+    ],
+    "faq": [
+      {
+        "q": "¿A qué edad debo empezar a usar crema de ojos?",
+        "a": "No hay una edad establecida. Los buenos hábitos de vida importan mucho más que cualquier producto específico en un momento concreto."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "remove-makeup-every-night-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Desmaquillarse por completo cada noche",
+    "emoji": "🌙",
+    "intro": "Dormir con maquillaje cansa la piel. Un desmaquillado completo lleva solo unos minutos y marca una diferencia real.",
+    "sections": [
+      {
+        "heading": "Por qué nunca debes dormir con maquillaje",
+        "body": "Mientras duermes, tu piel se regenera. Dejar el maquillaje puesto obstruye los poros, mezclándose con la contaminación y el sebo del día. Eso provoca granos, un tono apagado y puede irritar los ojos. Unos minutos de desmaquillado por la tarde-noche previenen todo esto. Es uno de los pasos más sencillos y rentables de cualquier rutina, sea cual sea tu tipo de piel."
+      },
+      {
+        "heading": "La técnica de doble limpieza",
+        "body": "La doble limpieza funciona muy bien: empieza con un producto oleoso o un bálsamo que disuelva el maquillaje, el protector solar y el sebo; luego usa un limpiador acuoso para eliminar los residuos. Para los ojos, empapa un algodón con un desmaquillante suave, mantenlo sobre el ojo unos segundos para que disuelva el maquillaje y después retíralo sin frotar. Esa paciencia evita irritar esta zona tan delicada."
+      },
+      {
+        "heading": "Incluso las noches en que no tienes ganas",
+        "body": "En las noches en que estás agotado/a, ten a mano una solución rápida: las toallitas son una alternativa aceptable de vez en cuando, aunque no limpien tan a fondo. El objetivo es no saltarse el paso completamente. Organiza tu rincón de desmaquillado para que sea fácil: productos a la vista, algodones accesibles. Cuanto más sencillo sea, más tiempo mantendrás el hábito."
+      }
+    ],
+    "steps": [
+      "Desmaquíllate cada noche sin excepción.",
+      "Empieza con un producto oleoso y luego sigue con un limpiador acuoso.",
+      "Mantén el algodón sobre los ojos unos segundos antes de retirar.",
+      "No frotes, especialmente alrededor de los ojos.",
+      "Ten a mano una opción rápida para las noches de cansancio."
+    ],
+    "faq": [
+      {
+        "q": "¿Es suficiente el agua micelar sola?",
+        "a": "Funciona como opción de emergencia, pero aclarar con un limpiador suave después deja la piel mucho más limpia, especialmente si llevas maquillaje de larga duración."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  },
+  {
+    "slug": "caring-for-sensitive-skin-es",
+    "theme": "lookmaxxing",
+    "locale": "es",
+    "title": "Cuidar la piel sensible y reactiva",
+    "emoji": "🌸",
+    "intro": "La piel sensible pide suavidad y sencillez. Menos productos, bien elegidos, siempre le ganarán a una rutina recargada.",
+    "sections": [
+      {
+        "heading": "Reconocer la piel sensible",
+        "body": "La piel sensible se enrojece con facilidad, pica o arde con ciertos productos, agua dura o cambios de temperatura. Puede sentirse tirante e incómoda. La sensibilidad no es un tipo de piel en sí misma: puede aparecer sobre piel seca, grasa o mixta. La buena noticia es que con la rutina adecuada, a menudo se calma de forma notable."
+      },
+      {
+        "heading": "Simplifica tu rutina",
+        "body": "El principio es reducir al mínimo: un limpiador muy suave, una hidratante calmante, un protector solar bien tolerado. Busca listas de ingredientes cortas, sin fragancia, sin alcohol. Evita los activos fuertes, los exfoliantes agresivos y cambiar de producto constantemente. Cuando pruebes algo nuevo, haz primero una prueba en una zona pequeña, como la cara interna de la muñeca o la mandíbula, durante unos días."
+      },
+      {
+        "heading": "Proteger la barrera cutánea",
+        "body": "La piel sensible suele tener una barrera comprometida que deja entrar los irritantes y escapa la humedad. Para reforzarla, evita el agua muy caliente, no agredir la piel e hidrata mañana y noche. El frío, el viento y el aire seco de la calefacción interior empeoran la sensibilidad: protege la cara en invierno. Si el enrojecimiento es intenso o constante, consulta a un médico para descartar una causa subyacente específica."
+      }
+    ],
+    "steps": [
+      "Reduce tu rutina a lo esencial y suave.",
+      "Elige fórmulas sin fragancia y sin alcohol.",
+      "Haz una prueba en una zona pequeña antes de probar cualquier producto nuevo.",
+      "Evita el agua caliente y los exfoliantes agresivos.",
+      "Protege la piel del frío y el viento en invierno."
+    ],
+    "faq": [
+      {
+        "q": "¿La piel sensible es lo mismo que la piel alérgica?",
+        "a": "No. La sensibilidad es una reactividad general; una alergia es una reacción específica a un ingrediente concreto. En caso de duda, consulta a un médico."
+      }
+    ],
+    "updatedAt": "2026-05-20"
+  }
+]
