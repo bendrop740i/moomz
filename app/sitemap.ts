@@ -1,15 +1,10 @@
 import type { MetadataRoute } from "next";
 import { allPages } from "@/lib/seo";
 import { getAllKeywords } from "@/lib/seo/keywords/loader";
-import { keywordUrl } from "@/lib/seo/keywords/types";
 import { getAllQuotes } from "@/lib/seo/quotes/loader";
-import { quoteUrl } from "@/lib/seo/quotes/types";
 import { allQuizzes } from "@/lib/quizzes";
-import { quizUrl } from "@/lib/quizzes/types";
 import { getAllCompares } from "@/lib/seo/compare/loader";
-import { compareUrl } from "@/lib/seo/compare/types";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
-import { templateUrl } from "@/lib/seo/templates/types";
 import { getAllLocalizedRoutes as getVsRoutes } from "@/lib/seo/vs/loader";
 import { getSupabase } from "@/lib/supabase";
 import { CONVERTISSEUR_SLUGS } from "@/lib/tools/convertisseur";
@@ -24,30 +19,55 @@ import { ASTRO_SLUGS } from "@/lib/tools/astro";
 import { getAllFormation } from "@/lib/formation/loader";
 
 const BASE = "https://moomz.com";
-
-// Static site shell — home + discover get hreflang alternates because the same
-// URL serves all 8 locales (we detect via cookie/Accept-Language).
 const LOCALES = ["fr", "en", "es", "it", "pt", "de", "ja", "zh"] as const;
+type Loc = (typeof LOCALES)[number];
 
-function homeAlternates(path: string) {
-  // Next.js doesn't accept duplicate URLs in the sitemap, but we can emit
-  // `alternates.languages` so the rendered XML includes xhtml:link tags.
+// ---------------------------------------------------------------------------
+// URL-based locale routing (see middleware.ts). The SEO surface lives at
+// /{locale}/<route>. This sitemap emits every locale's URL and links them with
+// hreflang `alternates.languages` so Google indexes all 8 languages.
+// ---------------------------------------------------------------------------
+
+// hreflang map for a page that exists in all 8 locales at the given path-builder.
+function alternatesFor(pathFor: (l: Loc) => string) {
   const languages: Record<string, string> = {};
-  for (const l of LOCALES) languages[l] = `${BASE}${path}`;
-  languages["x-default"] = `${BASE}${path}`;
+  for (const l of LOCALES) languages[l] = `${BASE}${pathFor(l)}`;
+  languages["x-default"] = `${BASE}${pathFor("en")}`;
   return { languages };
 }
 
-async function getPolls(): Promise<{ slug: string; lang: string | null; created_at: string }[]> {
+// The visitor-locale SEO routes that work uniformly at /{loc}/<route>.
+const UNIFORM_HUBS = [
+  "quiz", "template", "compare", "vs", "outils", "blog", "guides", "read",
+  "explore", "formation", "q", "creators", "alternatives", "pricing",
+  "convertisseur", "meteo", "heure", "crypto", "cosmos", "astro",
+  "recettes", "jours-feries",
+];
+
+// Twin routes keep a per-locale path (the English/French route names differ;
+// es..zh keywords/quotes use the /topic & /citation segment routes).
+function keywordHubPath(l: Loc): string {
+  return l === "en" ? "/en/word" : l === "fr" ? "/fr/mot" : `/topic/${l}`;
+}
+function keywordDetailPath(l: string, slug: string): string {
+  return l === "en" ? `/en/word/${slug}` : l === "fr" ? `/fr/mot/${slug}` : `/topic/${l}/${slug}`;
+}
+function quoteHubPath(l: Loc): string {
+  return l === "en" ? "/en/quotes" : l === "fr" ? "/fr/citations" : `/citation/${l}`;
+}
+function quoteDetailPath(l: string, slug: string): string {
+  return l === "en" ? `/en/quotes/${slug}` : l === "fr" ? `/fr/citations/${slug}` : `/citation/${l}/${slug}`;
+}
+
+async function getPolls(): Promise<{ slug: string; created_at: string }[]> {
   try {
     const supabase = getSupabase();
-    // Pull in two passes to dodge the default 1000-row PostgREST limit.
-    const out: { slug: string; lang: string | null; created_at: string }[] = [];
+    const out: { slug: string; created_at: string }[] = [];
     const PAGE = 1000;
     for (let from = 0; from < 5000; from += PAGE) {
       const { data, error } = await supabase
         .from("polls")
-        .select("slug,lang,created_at")
+        .select("slug,created_at")
         .eq("is_dead", false)
         .order("created_at", { ascending: false })
         .range(from, from + PAGE - 1);
@@ -77,194 +97,161 @@ async function getProfiles(): Promise<{ username: string; created_at: string }[]
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
+  const out: MetadataRoute.Sitemap = [];
 
-  const staticUrls: MetadataRoute.Sitemap = [
-    { url: BASE, lastModified: now, changeFrequency: "daily", priority: 1.0, alternates: homeAlternates("") },
-    { url: `${BASE}/discover`, lastModified: now, changeFrequency: "daily", priority: 0.9, alternates: homeAlternates("/discover") },
-    { url: `${BASE}/idees`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/ideas`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/guides`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/read`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/mot`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/word`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citations`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/quotes`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/citation/es`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citation/it`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citation/pt`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citation/de`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citation/ja`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/citation/zh`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/quiz`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/template`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/explore`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/outils`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/convertisseur`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
-    { url: `${BASE}/meteo`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
-    { url: `${BASE}/heure`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
-    { url: `${BASE}/jours-feries`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/crypto`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
-    { url: `${BASE}/definition`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/define`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/cosmos`, lastModified: now, changeFrequency: "daily", priority: 0.85 },
-    { url: `${BASE}/recettes`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE}/astro`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
-    { url: `${BASE}/formation`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE}/login`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-  ];
+  // --- App shell (root, cookie locale) -------------------------------------
+  out.push(
+    { url: BASE, lastModified: now, changeFrequency: "daily", priority: 1.0 },
+    { url: `${BASE}/discover`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
+  );
 
-  const toolsUrls: MetadataRoute.Sitemap = [
-    ...CONVERTISSEUR_SLUGS.map((s) => ({
-      url: `${BASE}/convertisseur/${s}`,
+  // --- SEO hubs — one /<loc>/<hub> URL per locale, all linked via hreflang --
+  for (const hub of UNIFORM_HUBS) {
+    const alt = alternatesFor((l) => `/${l}/${hub}`);
+    for (const l of LOCALES) {
+      out.push({
+        url: `${BASE}/${l}/${hub}`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.85,
+        alternates: alt,
+      });
+    }
+  }
+  // Twin hubs: keyword + quote.
+  for (const l of LOCALES) {
+    out.push({
+      url: `${BASE}${keywordHubPath(l)}`,
       lastModified: now,
-      changeFrequency: "daily" as const,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: alternatesFor(keywordHubPath),
+    });
+    out.push({
+      url: `${BASE}${quoteHubPath(l)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: alternatesFor(quoteHubPath),
+    });
+  }
+
+  // --- Content detail pages — each authored in one language ----------------
+  for (const q of allQuizzes) {
+    out.push({
+      url: `${BASE}/${q.lang}/quiz/${q.slug}`,
+      lastModified: new Date(q.updatedAt),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    });
+  }
+  for (const p of getAllTemplates()) {
+    out.push({
+      url: `${BASE}/${p.locale}/template/${p.slug}`,
+      lastModified: new Date(p.updatedAt),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    });
+  }
+  for (const p of getAllCompares()) {
+    out.push({
+      url: `${BASE}/${p.locale}/compare/${p.slug}`,
+      lastModified: new Date(p.updatedAt),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    });
+  }
+  for (const k of getAllKeywords()) {
+    out.push({
+      url: `${BASE}${keywordDetailPath(k.locale, k.slug)}`,
+      lastModified: new Date(k.updatedAt),
+      changeFrequency: "weekly",
       priority: 0.7,
-    })),
-    ...METEO_SLUGS.map((s) => ({
-      url: `${BASE}/meteo/${s}`,
-      lastModified: now,
-      changeFrequency: "daily" as const,
+    });
+  }
+  for (const qt of getAllQuotes()) {
+    out.push({
+      url: `${BASE}${quoteDetailPath(qt.locale, qt.slug)}`,
+      lastModified: new Date(qt.updatedAt),
+      changeFrequency: "weekly",
+      priority: 0.75,
+    });
+  }
+  const SEO_CATEGORIES = new Set(["idees", "ideas", "guides", "blog", "read"]);
+  for (const p of allPages) {
+    if (!SEO_CATEGORIES.has(p.category)) continue;
+    out.push({
+      url: `${BASE}/${p.locale}/${p.category}/${p.slug}`,
+      lastModified: new Date(p.updatedAt),
+      changeFrequency: "monthly",
+      priority: p.category === "idees" || p.category === "ideas" ? 0.8 : 0.7,
+    });
+  }
+  for (const it of getAllFormation()) {
+    out.push({
+      url: `${BASE}/${it.locale ?? "fr"}/formation/${it.slug}`,
+      lastModified: new Date(it.updatedAt),
+      changeFrequency: "monthly",
       priority: 0.7,
-    })),
-    ...HEURE_SLUGS.map((s) => ({
-      url: `${BASE}/heure/${s}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.65,
-    })),
-    ...JOURS_FERIES_SLUGS.map((s) => ({
-      url: `${BASE}/jours-feries/${s}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
-    ...CRYPTO_SLUGS.map((s) => ({
-      url: `${BASE}/crypto/${s}`,
-      lastModified: now,
-      changeFrequency: "daily" as const,
-      priority: 0.7,
-    })),
-    ...DEFINITION_FR_SLUGS.map((s) => ({
-      url: `${BASE}/definition/${s}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.65,
-    })),
-    ...DEFINITION_EN_SLUGS.map((s) => ({
-      url: `${BASE}/define/${s}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.65,
-    })),
-    ...COSMOS_SLUGS.map((s) => ({
-      url: `${BASE}/cosmos/${s}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    })),
-    ...RECETTES_SLUGS.map((s) => ({
-      url: `${BASE}/recettes/${s}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
-    ...ASTRO_SLUGS.map((s) => ({
-      url: `${BASE}/astro/${s}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    })),
-  ];
-
-  const keywordUrls: MetadataRoute.Sitemap = getAllKeywords().map((k) => ({
-    url: `${BASE}${keywordUrl(k)}`,
-    lastModified: new Date(k.updatedAt),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
-
-  const quoteUrls: MetadataRoute.Sitemap = getAllQuotes().map((q) => ({
-    url: `${BASE}${quoteUrl(q)}`,
-    lastModified: new Date(q.updatedAt),
-    changeFrequency: "weekly" as const,
-    priority: 0.75,
-  }));
-
-  const quizUrls: MetadataRoute.Sitemap = allQuizzes.map((q) => ({
-    url: `${BASE}${quizUrl(q)}`,
-    lastModified: new Date(q.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
-
-  const compareUrls: MetadataRoute.Sitemap = getAllCompares().map((p) => ({
-    url: `${BASE}${compareUrl(p)}`,
-    lastModified: new Date(p.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
-
-  const templateUrls: MetadataRoute.Sitemap = getAllTemplates().map((p) => ({
-    url: `${BASE}${templateUrl(p)}`,
-    lastModified: new Date(p.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
-
-  const formationUrls: MetadataRoute.Sitemap = getAllFormation().map((it) => ({
-    url: `${BASE}/formation/${it.slug}`,
-    lastModified: new Date(it.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-
-  const seoUrls: MetadataRoute.Sitemap = allPages.map((p) => ({
-    url: `${BASE}/${p.category}/${p.slug}`,
-    lastModified: new Date(p.updatedAt),
-    changeFrequency: "monthly" as const,
-    priority: p.category === "idees" || p.category === "ideas" ? 0.8 : 0.7,
-  }));
-
-  const vsUrls: MetadataRoute.Sitemap = [
-    { url: `${BASE}/vs`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.8 },
-    ...getVsRoutes().map((r) => ({
+    });
+  }
+  for (const r of getVsRoutes()) {
+    out.push({
       url: `${BASE}/vs/${r.locale}/${r.slug}`,
       lastModified: now,
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.6,
-    })),
-  ];
+    });
+  }
 
+  // --- Utility-tool detail pages — same content in all 8 locales -----------
+  const toolSlugs: { tool: string; slugs: readonly string[]; freq: "daily" | "weekly" | "monthly" }[] = [
+    { tool: "convertisseur", slugs: CONVERTISSEUR_SLUGS, freq: "daily" },
+    { tool: "meteo", slugs: METEO_SLUGS, freq: "daily" },
+    { tool: "heure", slugs: HEURE_SLUGS, freq: "weekly" },
+    { tool: "jours-feries", slugs: JOURS_FERIES_SLUGS, freq: "monthly" },
+    { tool: "crypto", slugs: CRYPTO_SLUGS, freq: "daily" },
+    { tool: "cosmos", slugs: COSMOS_SLUGS, freq: "monthly" },
+    { tool: "recettes", slugs: RECETTES_SLUGS, freq: "monthly" },
+    { tool: "astro", slugs: ASTRO_SLUGS, freq: "weekly" },
+  ];
+  for (const { tool, slugs, freq } of toolSlugs) {
+    for (const s of slugs) {
+      out.push({
+        url: `${BASE}/en/${tool}/${s}`,
+        lastModified: now,
+        changeFrequency: freq,
+        priority: 0.65,
+        alternates: alternatesFor((l) => `/${l}/${tool}/${s}`),
+      });
+    }
+  }
+  // Dictionary is EN + FR only (define / definition twin).
+  for (const s of DEFINITION_EN_SLUGS) {
+    out.push({ url: `${BASE}/en/define/${s}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+  }
+  for (const s of DEFINITION_FR_SLUGS) {
+    out.push({ url: `${BASE}/fr/definition/${s}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+  }
+
+  // --- Polls + profiles (root, not locale-prefixed) ------------------------
   const [polls, profiles] = await Promise.all([getPolls(), getProfiles()]);
+  for (const p of polls) {
+    out.push({
+      url: `${BASE}/${p.slug}`,
+      lastModified: new Date(p.created_at),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+  for (const p of profiles) {
+    out.push({
+      url: `${BASE}/${p.username}`,
+      lastModified: new Date(p.created_at),
+      changeFrequency: "weekly",
+      priority: 0.5,
+    });
+  }
 
-  const pollUrls: MetadataRoute.Sitemap = polls.map((p) => ({
-    url: `${BASE}/${p.slug}`,
-    lastModified: new Date(p.created_at),
-    changeFrequency: "weekly" as const,
-    priority: 0.6,
-  }));
-
-  const profileUrls: MetadataRoute.Sitemap = profiles.map((p) => ({
-    url: `${BASE}/${p.username}`,
-    lastModified: new Date(p.created_at),
-    changeFrequency: "weekly" as const,
-    priority: 0.5,
-  }));
-
-  return [
-    ...staticUrls,
-    ...seoUrls,
-    ...keywordUrls,
-    ...quoteUrls,
-    ...quizUrls,
-    ...compareUrls,
-    ...templateUrls,
-    ...formationUrls,
-    ...toolsUrls,
-    ...vsUrls,
-    ...pollUrls,
-    ...profileUrls,
-  ];
+  return out;
 }
