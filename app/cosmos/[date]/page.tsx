@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import {
   COSMOS_SLUGS,
   fetchApod,
@@ -30,7 +30,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!isValidCosmosDate(params.date)) return {};
   const apod = await fetchApod(params.date);
-  const url = `https://moomz.com/cosmos/${params.date}`;
+  const url = canonicalUrl();
   if (!apod) {
     return {
       title: `Cosmos · ${params.date} — moomz`,

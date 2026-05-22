@@ -9,7 +9,7 @@ import {
   formatPct,
   getCoinMeta,
 } from "@/lib/tools/crypto";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { pickStrings } from "./_strings";
 
 export const dynamic = "force-dynamic";
@@ -23,12 +23,12 @@ export function generateMetadata(): Metadata {
   return {
     title,
     description: desc,
-    alternates: { canonical: "https://moomz.com/crypto" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: `${S.hubTitle} · moomz`,
       description: desc,
       type: "website",
-      url: "https://moomz.com/crypto",
+      url: canonicalUrl(),
       siteName: "moomz",
     },
     twitter: {

@@ -1,25 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "moomz for creators — embed polls, see who voted, grow your audience",
-  description:
-    "Embeddable polls + real-time analytics for YouTubers, IG creators, podcasters and newsletter writers. Free to start, Creator tier €2.99/mo. No watermark.",
-  alternates: { canonical: "https://moomz.com/creators" },
-  openGraph: {
-    title: "moomz for creators — polls that fit anywhere you post",
+export function generateMetadata(): Metadata {
+  const url = canonicalUrl();
+  return {
+    title: "moomz for creators — embed polls, see who voted, grow your audience",
     description:
-      "Embeddable polls + real-time analytics for YouTubers, IG creators, podcasters and newsletter writers. Free to start, Creator tier €2.99/mo.",
-    url: "https://moomz.com/creators",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "moomz for creators",
-    description:
-      "Embeddable polls + real-time analytics for creators. Free to start, Creator tier €2.99/mo.",
-  },
-};
+      "Embeddable polls + real-time analytics for YouTubers, IG creators, podcasters and newsletter writers. Free to start, Creator tier €2.99/mo. No watermark.",
+    alternates: { canonical: url },
+    openGraph: {
+      title: "moomz for creators — polls that fit anywhere you post",
+      description:
+        "Embeddable polls + real-time analytics for YouTubers, IG creators, podcasters and newsletter writers. Free to start, Creator tier €2.99/mo.",
+      url,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "moomz for creators",
+      description:
+        "Embeddable polls + real-time analytics for creators. Free to start, Creator tier €2.99/mo.",
+    },
+  };
+}
 
 const FEATURES: { emoji: string; h: string; body: string }[] = [
   {

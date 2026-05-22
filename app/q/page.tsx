@@ -1,13 +1,16 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { TOPICS, AUDIENCES, THEMES } from "@/lib/seo/programmatic";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "Poll prompts hub — would you rather, this or that, hot takes",
-  description:
-    "Ready-to-launch poll prompts for couples, work, friends, college, first dates. Funny, deep, spicy, savage. Launch in 1 tap on moomz.",
-  alternates: { canonical: "https://moomz.com/q" },
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "Poll prompts hub — would you rather, this or that, hot takes",
+    description:
+      "Ready-to-launch poll prompts for couples, work, friends, college, first dates. Funny, deep, spicy, savage. Launch in 1 tap on moomz.",
+    alternates: { canonical: canonicalUrl() },
+  };
+}
 
 export default function ProgHub() {
   const total = TOPICS.length * AUDIENCES.length * THEMES.length * 2;

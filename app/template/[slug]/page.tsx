@@ -7,6 +7,7 @@ import {
   getAllTemplates,
 } from "@/lib/seo/templates/loader";
 import { templateLaunchUrl } from "@/lib/seo/templates/types";
+import { canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
 
@@ -21,7 +22,7 @@ export function generateMetadata({
 }): Metadata {
   const page = findTemplate(params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/template/${page.slug}`;
+  const url = canonicalUrl();
   const localeMap: Record<string, string> = {
     fr: "fr_FR",
     en: "en_US",

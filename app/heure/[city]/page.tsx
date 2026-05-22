@@ -11,7 +11,7 @@ import {
   sunTimes,
   relatedByTz,
 } from "@/lib/tools/heure";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 import LiveClock from "./live-clock";
 
@@ -375,7 +375,7 @@ export function generateMetadata({ params }: { params: { city: string } }): Meta
   if (!city) return { title: "City not found — moomz" };
   const locale = getLocale();
   const m = CITY_META[locale] ?? CITY_META.en;
-  const canonical = `https://moomz.com/heure/${city.slug}`;
+  const canonical = canonicalUrl();
   const title = m.title(city.name, city.country, city.tz);
   const description = m.desc(city.name, city.tz);
   return {

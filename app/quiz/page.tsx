@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { allQuizzes, QUIZ_TOPICS, topicLabel, quizzesByTopic } from "@/lib/quizzes";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { quizUrl } from "@/lib/quizzes/types";
 
 // 8-lang chrome for the (mixed-locale) quiz hub. Keyed off the visitor locale.
@@ -169,12 +169,12 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/quiz" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDescription,
       type: "website",
-      url: "https://moomz.com/quiz",
+      url: canonicalUrl(),
     },
     twitter: { card: "summary_large_image" },
   };

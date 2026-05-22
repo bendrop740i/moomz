@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getFormationByLocale } from "@/lib/formation/loader";
 import { FORMATION_THEMES, themeMetaFor } from "@/lib/formation/types";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 export const revalidate = 3600;
@@ -132,12 +132,12 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: c.metaTitle,
     description: c.metaDesc,
-    alternates: { canonical: "https://moomz.com/formation" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: c.ogTitle,
       description: c.ogDesc,
       type: "website",
-      url: "https://moomz.com/formation",
+      url: canonicalUrl(),
     },
   };
 }

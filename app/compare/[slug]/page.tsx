@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav from "@/app/_seo/hub-nav";
 import { findCompare, getAllCompares } from "@/lib/seo/compare/loader";
+import { canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
 
@@ -17,7 +18,7 @@ export function generateMetadata({
 }): Metadata {
   const page = findCompare(params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/compare/${page.slug}`;
+  const url = canonicalUrl();
   return {
     title: page.title,
     description: page.description,

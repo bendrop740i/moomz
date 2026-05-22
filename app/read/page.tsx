@@ -3,7 +3,7 @@ import Link from "next/link";
 import { pagesByCategory } from "@/lib/seo";
 import type { Locale } from "@/lib/seo/types";
 import { pageUrl } from "@/lib/seo/types";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 const READ_META: Record<Locale, { title: string; description: string }> = {
   fr: {
@@ -46,7 +46,7 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/read" },
+    alternates: { canonical: canonicalUrl() },
   };
 }
 

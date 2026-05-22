@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { findQuiz, relatedQuizzes, topicLabel } from "@/lib/quizzes";
 import { quizUrl, type QuizLocale } from "@/lib/quizzes/types";
+import { canonicalUrl } from "@/lib/i18n-server";
 import QuizPlay from "./quiz-play";
 
 export const dynamic = "force-dynamic";
@@ -163,7 +164,7 @@ function hubLocaleOf(lang: QuizLocale): HubLocale {
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const quiz = findQuiz(params.slug);
   if (!quiz) return { title: "Quiz not found — moomz" };
-  const canonical = `https://moomz.com${quizUrl(quiz)}`;
+  const canonical = canonicalUrl();
   return {
     title: `${quiz.title} | Quiz moomz`,
     description: quiz.description,

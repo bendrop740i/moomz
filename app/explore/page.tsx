@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
 import { FORMATION_THEMES, THEME_META } from "@/lib/formation/types";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
@@ -64,11 +64,11 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/explore" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDescription,
-      url: "https://moomz.com/explore",
+      url: canonicalUrl(),
       type: "website",
       siteName: "moomz",
     },

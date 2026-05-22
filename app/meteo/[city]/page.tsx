@@ -11,7 +11,7 @@ import {
   type City,
   type WxKind,
 } from "@/lib/tools/meteo";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
@@ -483,7 +483,7 @@ export async function generateMetadata({
   const tempLabel = data ? `${data.current.temperature}°C` : "—";
   const title = s.metaTitle(city.name, tempLabel);
   const description = s.pageDesc(city.name, city.country);
-  const url = `https://moomz.com/meteo/${city.slug}`;
+  const url = canonicalUrl();
   return {
     title,
     description,

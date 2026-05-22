@@ -8,7 +8,7 @@ import {
   relatedCategories,
   RECETTES_SLUGS,
 } from "@/lib/tools/recettes";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import {
   localizedIntro,
   localizedName,
@@ -58,7 +58,7 @@ export function generateMetadata({
   if (!cat) return {};
   const locale = (getLocale() as ToolLocale) ?? "fr";
   const name = localizedName(cat, locale);
-  const url = `https://moomz.com/recettes/${cat.slug}`;
+  const url = canonicalUrl();
   const title = (DETAIL_TITLES[locale] ?? DETAIL_TITLES.en)(name, cat.emoji);
   const description = (DETAIL_DESCS[locale] ?? DETAIL_DESCS.en)(name);
   return {

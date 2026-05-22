@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alternatives } from "@/lib/seo/alternatives";
+import { canonicalUrl } from "@/lib/i18n-server";
 
 export function generateStaticParams() {
   return alternatives.map((a) => ({ slug: a.slug }));
@@ -14,7 +15,7 @@ export function generateMetadata({
 }): Metadata {
   const page = alternatives.find((a) => a.slug === params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/alternatives/${page.slug}`;
+  const url = canonicalUrl();
   return {
     title: page.title,
     description: page.description,

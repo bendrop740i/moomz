@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { findPage, pagesByCategory } from "@/lib/seo";
 import SeoPageView from "@/app/_seo/seo-page";
 import { ArticleJsonLd, FaqJsonLd } from "@/app/_seo/json-ld";
+import { canonicalUrl } from "@/lib/i18n-server";
 
 export function generateStaticParams() {
   return pagesByCategory("idees").map((p) => ({ slug: p.slug }));
@@ -11,7 +12,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = findPage("idees", params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/idees/${page.slug}`;
+  const url = canonicalUrl();
   return {
     title: page.title,
     description: page.description,

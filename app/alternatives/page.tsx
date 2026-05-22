@@ -1,28 +1,32 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alternatives } from "@/lib/seo/alternatives";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "moomz alternatives: Strawpoll, Mentimeter, Slido…",
-  description:
-    "Comparing moomz to Strawpoll, Mentimeter, Slido, Poll Everywhere, Google Forms and Doodle. Honest head-to-head — pricing, design, anonymity, share flow.",
-  alternates: { canonical: "https://moomz.com/alternatives" },
-  openGraph: {
+export function generateMetadata(): Metadata {
+  const url = canonicalUrl();
+  return {
     title: "moomz alternatives: Strawpoll, Mentimeter, Slido…",
     description:
-      "Honest comparison of moomz vs the big poll tools. Pick the right one for your question.",
-    url: "https://moomz.com/alternatives",
-    type: "website",
-    siteName: "moomz",
-    locale: "en_US",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "moomz alternatives: Strawpoll, Mentimeter, Slido…",
-    description:
-      "Honest comparison of moomz vs the big poll tools. Pick the right one for your question.",
-  },
-};
+      "Comparing moomz to Strawpoll, Mentimeter, Slido, Poll Everywhere, Google Forms and Doodle. Honest head-to-head — pricing, design, anonymity, share flow.",
+    alternates: { canonical: url },
+    openGraph: {
+      title: "moomz alternatives: Strawpoll, Mentimeter, Slido…",
+      description:
+        "Honest comparison of moomz vs the big poll tools. Pick the right one for your question.",
+      url,
+      type: "website",
+      siteName: "moomz",
+      locale: "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "moomz alternatives: Strawpoll, Mentimeter, Slido…",
+      description:
+        "Honest comparison of moomz vs the big poll tools. Pick the right one for your question.",
+    },
+  };
+}
 
 export default function AlternativesHub() {
   return (

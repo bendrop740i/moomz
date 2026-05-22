@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { METEO_CITIES, flagOf, type City } from "@/lib/tools/meteo";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
@@ -110,11 +110,11 @@ export function generateMetadata(): Metadata {
   return {
     title: s.title,
     description: s.description,
-    alternates: { canonical: "https://moomz.com/meteo" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: s.title,
       description: s.description,
-      url: "https://moomz.com/meteo",
+      url: canonicalUrl(),
       type: "website",
       siteName: "moomz",
       locale,

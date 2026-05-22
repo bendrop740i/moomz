@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FR_SLUGS, FR_WORDS, findFrWord } from "@/lib/tools/definition";
+import { canonicalUrl } from "@/lib/i18n-server";
 import DefinitionView from "@/app/_seo/definition-view";
 
 export const dynamic = "force-dynamic";
@@ -20,7 +21,7 @@ export function generateMetadata({
   const firstSense = entry.definitions[0]?.text ?? "";
   const title = `${entry.word} — définition, sens et exemples · dictionnaire moomz`;
   const description = `${entry.word} (${entry.partOfSpeech}) : ${firstSense}`;
-  const url = `https://moomz.com/definition/${entry.slug}`;
+  const url = canonicalUrl();
   return {
     title,
     description,

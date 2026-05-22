@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav from "@/app/_seo/hub-nav";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
@@ -64,12 +64,12 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/outils" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDesc,
       type: "website",
-      url: "https://moomz.com/outils",
+      url: canonicalUrl(),
     },
     twitter: { card: "summary_large_image" },
   };

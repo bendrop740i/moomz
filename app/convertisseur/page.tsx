@@ -10,7 +10,7 @@ import {
   parsePair,
   type CurrencyCode,
 } from "@/lib/tools/convertisseur";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { STRINGS, pickString, type ToolLocale } from "./_strings";
 
 export const dynamic = "force-dynamic";
@@ -73,12 +73,12 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/convertisseur" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDesc,
       type: "website",
-      url: "https://moomz.com/convertisseur",
+      url: canonicalUrl(),
     },
     twitter: { card: "summary_large_image" },
   };

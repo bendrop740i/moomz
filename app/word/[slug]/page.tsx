@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { findKeyword, keywordsByLocale } from "@/lib/seo/keywords/loader";
 import KeywordPageView from "@/app/_seo/keyword-page-view";
+import { canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
 
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = findKeyword("en", params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/word/${page.slug}`;
+  const url = canonicalUrl();
   return {
     title: page.title,
     description: page.description,

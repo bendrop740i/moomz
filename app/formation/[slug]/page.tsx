@@ -7,7 +7,7 @@ import {
   getFormationByTheme,
 } from "@/lib/formation/loader";
 import { themeMetaFor } from "@/lib/formation/types";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 type FormationItemCopy = {
@@ -91,7 +91,7 @@ export function generateMetadata({
   const it = getFormationBySlug(params.slug);
   if (!it) return { title: "Formation — moomz" };
   const description = it.intro.slice(0, 200);
-  const canonical = `https://moomz.com/formation/${it.slug}`;
+  const canonical = canonicalUrl();
   return {
     title: `${it.title} | Formation moomz`,
     description,

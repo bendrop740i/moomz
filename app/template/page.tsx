@@ -2,29 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { getAllTemplates } from "@/lib/seo/templates/loader";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: "Poll templates: 100+ ready-to-launch polls · moomz",
-  description:
-    "Browse ready-made poll templates for wedding, classroom, couple, party, work, food, travel. One click to launch — your question and options pre-filled on moomz.",
-  alternates: { canonical: "https://moomz.com/template" },
-  openGraph: {
-    title: "Poll templates · moomz",
+export function generateMetadata(): Metadata {
+  return {
+    title: "Poll templates: 100+ ready-to-launch polls · moomz",
     description:
-      "100+ ready-to-launch poll templates. Wedding, classroom, party, couple, work. One click to launch on moomz.",
-    url: "https://moomz.com/template",
-    type: "website",
-    siteName: "moomz",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Poll templates · moomz",
-    description: "100+ ready-to-launch poll templates.",
-  },
-};
+      "Browse ready-made poll templates for wedding, classroom, couple, party, work, food, travel. One click to launch — your question and options pre-filled on moomz.",
+    alternates: { canonical: canonicalUrl() },
+    openGraph: {
+      title: "Poll templates · moomz",
+      description:
+        "100+ ready-to-launch poll templates. Wedding, classroom, party, couple, work. One click to launch on moomz.",
+      url: canonicalUrl(),
+      type: "website",
+      siteName: "moomz",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Poll templates · moomz",
+      description: "100+ ready-to-launch poll templates.",
+    },
+  };
+}
 
 const HUB_LOCALES: HubLocale[] = [
   "fr",

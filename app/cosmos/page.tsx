@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import {
   COSMOS_SLUGS,
   fetchApod,
@@ -70,12 +70,12 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/cosmos" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDesc,
       type: "website",
-      url: "https://moomz.com/cosmos",
+      url: canonicalUrl(),
     },
     twitter: { card: "summary_large_image" },
   };

@@ -14,7 +14,7 @@ import {
   type CurrencyCode,
   type HistoryPoint,
 } from "@/lib/tools/convertisseur";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { pickString, type ToolLocale } from "../_strings";
 import { pollPrompt } from "../_poll-prompts";
 
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
   const title = titles[locale] ?? titles.en;
   const description = descs[locale] ?? descs.en;
-  const canonical = `https://moomz.com/convertisseur/${params.pair}`;
+  const canonical = canonicalUrl();
   return {
     title,
     description,

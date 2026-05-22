@@ -8,7 +8,7 @@ import {
   formatDateRange,
   type Element,
 } from "@/lib/tools/astro";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { pickAstroStrings } from "./_strings";
 import SignFinder from "./sign-finder";
 
@@ -72,12 +72,12 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/astro" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDesc,
       type: "website",
-      url: "https://moomz.com/astro",
+      url: canonicalUrl(),
     },
     twitter: { card: "summary_large_image" },
   };

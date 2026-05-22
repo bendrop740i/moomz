@@ -9,7 +9,7 @@ import {
   holidaySlug,
   stringsFor,
 } from "@/lib/tools/jours-feries";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
@@ -72,12 +72,12 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/jours-feries" },
+    alternates: { canonical: canonicalUrl() },
     openGraph: {
       title: m.ogTitle,
       description: m.ogDesc,
       type: "website",
-      url: "https://moomz.com/jours-feries",
+      url: canonicalUrl(),
       siteName: "moomz",
     },
     twitter: {

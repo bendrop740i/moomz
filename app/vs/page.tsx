@@ -3,14 +3,16 @@ import type { Metadata } from "next";
 import { allPairs } from "@/lib/seo/vs/loader";
 import type { VsCategoryId, VsLocale } from "@/lib/seo/vs/types";
 import { VS_LOCALES } from "@/lib/seo/vs/types";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "moomz /vs — head-to-head comparisons on 10 topics",
-  description:
-    "1000+ side-by-side comparisons: tools, tech, food, travel, science, chemistry, animals, lifestyle, culture. Pick a side, share the poll.",
-  alternates: { canonical: "https://moomz.com/vs" },
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "moomz /vs — head-to-head comparisons on 10 topics",
+    description:
+      "1000+ side-by-side comparisons: tools, tech, food, travel, science, chemistry, animals, lifestyle, culture. Pick a side, share the poll.",
+    alternates: { canonical: canonicalUrl() },
+  };
+}
 
 // Per-locale chrome. Data (pair names) is authored-language by design and is
 // never translated here.

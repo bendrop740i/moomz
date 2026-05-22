@@ -3,13 +3,16 @@ import Link from "next/link";
 import HubNav from "@/app/_seo/hub-nav";
 import { keywordsByLocale } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "Keywords: every moomz poll topic in one place",
-  description:
-    "Every topic people poll about on moomz: pizza, couple, drama, AI, Mozart, Halloween, the Sun, snow and more. One page per word with its polls.",
-  alternates: { canonical: "https://moomz.com/word" },
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "Keywords: every moomz poll topic in one place",
+    description:
+      "Every topic people poll about on moomz: pizza, couple, drama, AI, Mozart, Halloween, the Sun, snow and more. One page per word with its polls.",
+    alternates: { canonical: canonicalUrl() },
+  };
+}
 
 export default function WordHub() {
   const pages = keywordsByLocale("en");

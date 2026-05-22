@@ -2,29 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HubNav, { type HubLocale } from "@/app/_seo/hub-nav";
 import { getAllCompares } from "@/lib/seo/compare/loader";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: "Compare poll & quiz tools: head-to-head reviews · moomz",
-  description:
-    "Head-to-head comparisons of poll and quiz tools — moomz vs Strawpoll, Mentimeter, Slido, Typeform, Google Forms, plus cross-competitor matchups. Pick the right tool.",
-  alternates: { canonical: "https://moomz.com/compare" },
-  openGraph: {
+export function generateMetadata(): Metadata {
+  return {
     title: "Compare poll & quiz tools: head-to-head reviews · moomz",
     description:
-      "Honest 2x2 comparisons between the major poll, survey and audience tools.",
-    url: "https://moomz.com/compare",
-    type: "website",
-    siteName: "moomz",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Compare poll & quiz tools",
-    description: "Head-to-head reviews of the major poll & survey tools.",
-  },
-};
+      "Head-to-head comparisons of poll and quiz tools — moomz vs Strawpoll, Mentimeter, Slido, Typeform, Google Forms, plus cross-competitor matchups. Pick the right tool.",
+    alternates: { canonical: canonicalUrl() },
+    openGraph: {
+      title: "Compare poll & quiz tools: head-to-head reviews · moomz",
+      description:
+        "Honest 2x2 comparisons between the major poll, survey and audience tools.",
+      url: canonicalUrl(),
+      type: "website",
+      siteName: "moomz",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Compare poll & quiz tools",
+      description: "Head-to-head reviews of the major poll & survey tools.",
+    },
+  };
+}
 
 const HUB_LOCALES: HubLocale[] = [
   "fr",

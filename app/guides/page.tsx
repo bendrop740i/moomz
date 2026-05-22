@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { pagesByCategory } from "@/lib/seo";
 import SeoHubView from "@/app/_seo/seo-hub";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/seo/types";
 
 const GUIDES_META: Record<Locale, { title: string; description: string }> = {
@@ -45,7 +45,7 @@ export function generateMetadata(): Metadata {
   return {
     title: m.title,
     description: m.description,
-    alternates: { canonical: "https://moomz.com/guides" },
+    alternates: { canonical: canonicalUrl() },
   };
 }
 

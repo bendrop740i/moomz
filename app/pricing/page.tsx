@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "moomz pricing — free polls, Creator tier €2.99/month",
-  description:
-    "moomz is free forever for polls and votes. Upgrade to Creator for €2.99/month: analytics, trending boost, verified badge, custom palette, priority support.",
-  alternates: {
-    canonical: "https://moomz.com/pricing",
-  },
-  openGraph: {
+export function generateMetadata(): Metadata {
+  const url = canonicalUrl();
+  return {
     title: "moomz pricing — free polls, Creator tier €2.99/month",
     description:
-      "Free forever for polls. Creator at €2.99/mo unlocks analytics, trending boost, verified badge and more.",
-    url: "https://moomz.com/pricing",
-    type: "website",
-  },
-};
+      "moomz is free forever for polls and votes. Upgrade to Creator for €2.99/month: analytics, trending boost, verified badge, custom palette, priority support.",
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "moomz pricing — free polls, Creator tier €2.99/month",
+      description:
+        "Free forever for polls. Creator at €2.99/mo unlocks analytics, trending boost, verified badge and more.",
+      url,
+      type: "website",
+    },
+  };
+}
 
 type Tier = {
   name: string;

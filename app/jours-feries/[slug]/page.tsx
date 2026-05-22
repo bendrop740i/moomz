@@ -16,7 +16,7 @@ import {
   relatedCountries,
   stringsFor,
 } from "@/lib/tools/jours-feries";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 86400;
@@ -74,7 +74,7 @@ export function generateMetadata({
   const cName = locale === "fr" || locale === "es" || locale === "it" || locale === "pt"
     ? country.name_fr
     : country.name_en;
-  const url = `https://moomz.com/jours-feries/${params.slug}`;
+  const url = canonicalUrl();
   const title = m.title(cName, year);
   const description = m.desc(cName, year);
   return {

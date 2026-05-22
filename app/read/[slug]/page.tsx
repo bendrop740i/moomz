@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { findPage, pagesByCategory } from "@/lib/seo";
+import { canonicalUrl } from "@/lib/i18n-server";
 import type { Locale } from "@/lib/seo/types";
 import SeoPageView from "@/app/_seo/seo-page";
 import { ArticleJsonLd, FaqJsonLd } from "@/app/_seo/json-ld";
@@ -37,7 +38,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = findPage("read", params.slug);
   if (!page) return {};
-  const url = `https://moomz.com/read/${page.slug}`;
+  const url = canonicalUrl();
   return {
     title: page.title,
     description: page.description,

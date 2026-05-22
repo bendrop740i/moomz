@@ -19,7 +19,7 @@ import {
   isKnownCoin,
   relatedCoins,
 } from "@/lib/tools/crypto";
-import { getLocale } from "@/lib/i18n-server";
+import { getLocale, canonicalUrl } from "@/lib/i18n-server";
 import { pickStrings } from "../_strings";
 
 export const dynamic = "force-dynamic";
@@ -67,7 +67,7 @@ export async function generateMetadata({
   const desc = descs[locale] ?? descs.en;
   // Suppress unused variable warning
   void S;
-  const url = `https://moomz.com/crypto/${id}`;
+  const url = canonicalUrl();
   return {
     title,
     description: desc,

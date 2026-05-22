@@ -3,13 +3,16 @@ import Link from "next/link";
 import HubNav from "@/app/_seo/hub-nav";
 import { keywordsByLocale } from "@/lib/seo/keywords/loader";
 import { keywordUrl } from "@/lib/seo/keywords/types";
+import { canonicalUrl } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  title: "Mots-clés : tous les sujets de sondage moomz",
-  description:
-    "Tous les sujets qui font causer sur moomz : pizza, couple, drama, ferme du buzz, IA, Mozart, Halloween, soleil, neige et bien plus. Une page par mot avec ses sondages.",
-  alternates: { canonical: "https://moomz.com/mot" },
-};
+export function generateMetadata(): Metadata {
+  return {
+    title: "Mots-clés : tous les sujets de sondage moomz",
+    description:
+      "Tous les sujets qui font causer sur moomz : pizza, couple, drama, ferme du buzz, IA, Mozart, Halloween, soleil, neige et bien plus. Une page par mot avec ses sondages.",
+    alternates: { canonical: canonicalUrl() },
+  };
+}
 
 export default function MotHub() {
   const pages = keywordsByLocale("fr");
