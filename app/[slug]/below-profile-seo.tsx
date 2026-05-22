@@ -147,7 +147,7 @@ function discoverPills(c: ProfileStrings): { href: string; label: string; emoji:
     { href: "/blog", label: "Blog", emoji: "📰" },
     { href: "/read", label: "Read", emoji: "📖" },
     { href: "/mes-votes", label: c.myVotes, emoji: "🗳️" },
-    { href: "/", label: c.createPoll, emoji: "➕" },
+    { href: "/create", label: c.createPoll, emoji: "➕" },
   ];
 }
 

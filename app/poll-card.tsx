@@ -511,7 +511,7 @@ export default function PollCard({
 
       {showResults && (
         <Link
-          href="/"
+          href="/create"
           onClick={() => trackEvent("create_cta_click", { source: "after-vote-card" })}
           className="flex items-center justify-between gap-2 rounded-xl border border-pink-400/30 bg-gradient-to-r from-pink-500/15 to-purple-500/10 px-3 py-2.5 transition hover:from-pink-500/25 hover:to-purple-500/20 active:scale-[0.98]"
         >

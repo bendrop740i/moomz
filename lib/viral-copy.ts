@@ -151,9 +151,9 @@ export function getViralCopy(locale: Locale): ViralCopy {
   return VIRAL_COPY[locale] ?? VIRAL_COPY.en;
 }
 
-// Deeplink to the home create form, prefilled via the existing ?q=&o= params.
+// Deeplink to the create form, prefilled via the existing ?q=&o= params.
 export function suggestionHref(s: Suggestion): string {
-  return `/?q=${encodeURIComponent(s.q)}&o=${encodeURIComponent(s.o.join("|"))}`;
+  return `/create?q=${encodeURIComponent(s.q)}&o=${encodeURIComponent(s.o.join("|"))}`;
 }
 
 export function pickSuggestions(locale: Locale, n = 3): Suggestion[] {

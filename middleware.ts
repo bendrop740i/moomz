@@ -58,6 +58,16 @@ function detectLocale(req: NextRequest): string {
 
 export function middleware(req: NextRequest): NextResponse {
   const { pathname } = req.nextUrl;
+
+  // The app opens into the immersive feed at `/`, so the create form moved to
+  // /create. Old `/?q=&o=` prefill deeplinks (SEO pages, idea suggestions) →
+  // redirect to /create so a tap still lands on a prefilled form.
+  if (pathname === "/" && req.nextUrl.searchParams.has("q")) {
+    const url = req.nextUrl.clone();
+    url.pathname = "/create";
+    return NextResponse.redirect(url, 307);
+  }
+
   const segments = pathname.split("/").filter(Boolean);
   const first = segments[0];
 

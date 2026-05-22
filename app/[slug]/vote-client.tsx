@@ -604,7 +604,7 @@ export default function VoteClient({
             <p className="text-sm text-white/65">{vc.ctaSub}</p>
           </div>
           <Link
-            href="/"
+            href="/create"
             onClick={() => trackEvent("create_cta_click", { source: "after-vote-page" })}
             className="block w-full rounded-2xl bg-gradient-to-r from-pink-500 to-purple-600 py-3.5 text-center text-base font-bold text-white shadow-lg shadow-pink-500/30 transition hover:scale-[1.02] active:scale-[0.98]"
           >
@@ -706,7 +706,7 @@ export default function VoteClient({
             {t("share.other")}
           </button>
           <Link
-            href="/"
+            href="/create"
             aria-label={t("share.new")}
             className="flex-1 min-h-[44px] rounded-2xl border-2 border-white/15 bg-white/5 hover:bg-white/10 font-semibold py-3 text-center transition flex items-center justify-center"
           >

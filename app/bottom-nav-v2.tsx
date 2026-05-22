@@ -13,10 +13,12 @@ type TabItem = {
   badge?: boolean;
 };
 
-// Two flat tabs on each side of the elevated center Create button.
+// Two flat tabs on each side of the elevated center Create button. `/` is now
+// the immersive feed itself (Home + Discover merged), so the second tab is
+// Explore — the browse-everything surface.
 const LEFT: TabItem[] = [
   { href: "/", labelKey: "nav.home", fallbackLabel: "Home", icon: HomeIcon },
-  { href: "/discover", labelKey: "nav.discover", fallbackLabel: "Discover", icon: DiscoverIcon },
+  { href: "/explore", labelKey: "nav.explore", fallbackLabel: "Explore", icon: ExploreIcon },
 ];
 const RIGHT: TabItem[] = [
   { href: "/play", labelKey: "nav.play", fallbackLabel: "Play", icon: PlayIcon },
@@ -33,7 +35,11 @@ export default function BottomNavV2() {
   const isActive = (href: string) =>
     href === "/"
       ? pathname === "/"
-      : pathname === href || pathname?.startsWith(href + "/");
+      : href === "/explore"
+        ? // Explore is a SEO route — it lives at /{locale}/explore after the
+          // middleware redirect, so match the segment anywhere in the path.
+          (pathname?.split("/").includes("explore") ?? false)
+        : pathname === href || pathname?.startsWith(href + "/");
 
   // Scroll-hide: translate off-screen on scroll-down, reappear on scroll-up.
   useEffect(() => {
@@ -268,7 +274,7 @@ function HomeIcon({ active }: { active?: boolean }) {
   );
 }
 
-function DiscoverIcon({ active }: { active?: boolean }) {
+function ExploreIcon({ active }: { active?: boolean }) {
   return (
     <svg
       width="22"
