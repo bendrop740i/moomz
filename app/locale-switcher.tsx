@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { LOCALES, LOCALE_NAMES, type Locale } from "@/lib/i18n";
+import { switchLocalePath } from "@/lib/locale-routing";
 import { setLocale } from "./actions";
 import { useLocale } from "./locale-context";
 
@@ -25,6 +26,7 @@ export default function LocaleSwitcher({
 }) {
   const current = useLocale();
   const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
 
@@ -50,8 +52,13 @@ export default function LocaleSwitcher({
   const pick = async (l: Locale) => {
     setOpen(false);
     if (l === current) return;
+    // Persist the choice (homepage + app surface read the cookie).
     await setLocale(l);
-    router.refresh();
+    // The SEO surface carries the locale in the URL — switching language must
+    // navigate to the equivalent localized URL, not just refresh the old one.
+    const target = switchLocalePath(pathname, l);
+    if (target) router.push(target);
+    else router.refresh();
   };
 
   return (
