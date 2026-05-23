@@ -90,6 +90,13 @@ export default function DiscoverFeed({ polls: initialPolls }: { polls: FeedPoll[
 
   const vc = getViralCopy(locale);
 
+  // Virtualization window — only mount a real <DiscoverCard> within ±RENDER of
+  // the active slide. Off-window slides render as empty 100dvh placeholders,
+  // so the snap-scroll layout still works but hydration only pays for ~5 cards
+  // at a time instead of 25. The card key (poll.id) is stable, so swapping in
+  // the real card on scroll is just a mount — no flash, no animation replay.
+  const RENDER_RADIUS = 2;
+
   if (polls.length === 0) {
     return (
       <div className="fade-up flex min-h-[70dvh] flex-col items-center justify-center gap-5 px-6 py-10 pt-[calc(env(safe-area-inset-top)+4rem)] text-center">
@@ -119,36 +126,42 @@ export default function DiscoverFeed({ polls: initialPolls }: { polls: FeedPoll[
       className="scrollbar-hide h-[100dvh] snap-y snap-mandatory overflow-y-scroll overscroll-y-contain"
       style={{ scrollSnapStop: "always", WebkitOverflowScrolling: "touch" }}
     >
-      {slides.map((slide) => {
+      {slides.map((slide, slideIdx) => {
+        const near = Math.abs(slideIdx - activeIdx) <= RENDER_RADIUS;
+
         if (slide.kind === "cta") {
           return (
             <section
               key={`cta-${slide.ctaIndex}`}
               className="relative h-[100dvh] snap-start overflow-hidden"
             >
-              <div
-                aria-hidden
-                className="absolute inset-0 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700"
-              />
-              <div aria-hidden className="absolute inset-0 bg-black/40" />
-              <div className="relative z-10 flex h-full flex-col items-center justify-center gap-5 px-8 pb-[calc(env(safe-area-inset-bottom)+6rem)] pt-[calc(env(safe-area-inset-top)+3.5rem)] text-center">
-                <div className="text-7xl drop-shadow-[0_8px_24px_rgba(0,0,0,0.4)]" aria-hidden>
-                  👀
-                </div>
-                <div className="font-display text-4xl leading-tight tracking-tight text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.5)]">
-                  {vc.ctaTitle}
-                </div>
-                <p className="max-w-xs text-sm text-white/80">{vc.ctaSub}</p>
-                <Link
-                  href={createHref}
-                  onClick={() =>
-                    trackEvent("create_cta_click", { source: "discover-interstitial" })
-                  }
-                  className="inline-flex min-h-[52px] items-center justify-center rounded-2xl bg-white px-8 text-base font-extrabold text-[#0b0613] shadow-xl shadow-black/30 transition hover:scale-[1.04] active:scale-[0.97]"
-                >
-                  {vc.ctaButton}
-                </Link>
-              </div>
+              {near && (
+                <>
+                  <div
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700"
+                  />
+                  <div aria-hidden className="absolute inset-0 bg-black/40" />
+                  <div className="relative z-10 flex h-full flex-col items-center justify-center gap-5 px-8 pb-[calc(env(safe-area-inset-bottom)+6rem)] pt-[calc(env(safe-area-inset-top)+3.5rem)] text-center">
+                    <div className="text-7xl drop-shadow-[0_8px_24px_rgba(0,0,0,0.4)]" aria-hidden>
+                      👀
+                    </div>
+                    <div className="font-display text-4xl leading-tight tracking-tight text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.5)]">
+                      {vc.ctaTitle}
+                    </div>
+                    <p className="max-w-xs text-sm text-white/80">{vc.ctaSub}</p>
+                    <Link
+                      href={createHref}
+                      onClick={() =>
+                        trackEvent("create_cta_click", { source: "discover-interstitial" })
+                      }
+                      className="inline-flex min-h-[52px] items-center justify-center rounded-2xl bg-white px-8 text-base font-extrabold text-[#0b0613] shadow-xl shadow-black/30 transition hover:scale-[1.04] active:scale-[0.97]"
+                    >
+                      {vc.ctaButton}
+                    </Link>
+                  </div>
+                </>
+              )}
             </section>
           );
         }
@@ -163,23 +176,25 @@ export default function DiscoverFeed({ polls: initialPolls }: { polls: FeedPoll[
           : false;
         return (
           <section key={p.id} className="h-[100dvh] snap-start">
-            <DiscoverCard
-              pollId={p.id}
-              slug={p.slug}
-              question={p.question}
-              options={p.options}
-              initialVoteCount={p.vote_count}
-              alreadyVoted={p.alreadyVoted}
-              isHot={isHot}
-              isLive={isLive}
-              isNew={isNew}
-              isRising={isRising}
-              authorCosmeticId={p.authorCosmeticId}
-              index={i + 1}
-              feedSize={polls.length}
-              onSkip={() => skip(p.slug)}
-              onVoted={scrollToNext}
-            />
+            {near ? (
+              <DiscoverCard
+                pollId={p.id}
+                slug={p.slug}
+                question={p.question}
+                options={p.options}
+                initialVoteCount={p.vote_count}
+                alreadyVoted={p.alreadyVoted}
+                isHot={isHot}
+                isLive={isLive}
+                isNew={isNew}
+                isRising={isRising}
+                authorCosmeticId={p.authorCosmeticId}
+                index={i + 1}
+                feedSize={polls.length}
+                onSkip={() => skip(p.slug)}
+                onVoted={scrollToNext}
+              />
+            ) : null}
           </section>
         );
       })}
