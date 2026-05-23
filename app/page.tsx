@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { getLocale } from "@/lib/i18n-server";
 import { jsonLdHtml } from "@/lib/json-ld";
 import ImmersiveFeed from "./_feed/immersive-feed";
-import FeedSkeleton from "./_feed/feed-skeleton";
 
 export const dynamic = "force-dynamic";
 
@@ -104,13 +102,7 @@ export default function HomePage() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
-      {/* Stream the feed: chrome + skeleton ship in the first HTML chunk so
-          the visitor sees a card-shaped placeholder instantly. The real feed
-          (which awaits the Supabase RPC) streams in a second chunk when it's
-          ready — no more multi-second blank window on cold-start visits. */}
-      <Suspense fallback={<FeedSkeleton />}>
-        <ImmersiveFeed />
-      </Suspense>
+      <ImmersiveFeed />
     </>
   );
 }
