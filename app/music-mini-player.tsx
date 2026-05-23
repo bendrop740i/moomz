@@ -17,15 +17,16 @@ const PLAYER_COPY: Record<Locale, {
   position: string;
   ofWord: string;
   loading: string;
+  launch: string;
 }> = {
-  fr: { open: "Ouvrir le lecteur", loadingAudio: "Chargement audio", play: "Lecture", pause: "Pause", collapse: "Réduire le lecteur", restart: "Recommencer la track", next: "Suivant", position: "Position dans la track", ofWord: "sur", loading: "Chargement…" },
-  en: { open: "Open player", loadingAudio: "Buffering", play: "Play", pause: "Pause", collapse: "Minimize player", restart: "Restart track", next: "Next", position: "Track position", ofWord: "of", loading: "Loading…" },
-  es: { open: "Abrir reproductor", loadingAudio: "Cargando audio", play: "Reproducir", pause: "Pausa", collapse: "Minimizar reproductor", restart: "Reiniciar pista", next: "Siguiente", position: "Posición en la pista", ofWord: "de", loading: "Cargando…" },
-  it: { open: "Apri il player", loadingAudio: "Caricamento audio", play: "Riproduci", pause: "Pausa", collapse: "Riduci player", restart: "Ricomincia traccia", next: "Avanti", position: "Posizione nella traccia", ofWord: "di", loading: "Caricamento…" },
-  pt: { open: "Abrir player", loadingAudio: "Carregando áudio", play: "Reproduzir", pause: "Pausa", collapse: "Minimizar player", restart: "Reiniciar faixa", next: "Próxima", position: "Posição na faixa", ofWord: "de", loading: "Carregando…" },
-  de: { open: "Player öffnen", loadingAudio: "Audio lädt", play: "Abspielen", pause: "Pause", collapse: "Player minimieren", restart: "Track neu starten", next: "Weiter", position: "Position im Track", ofWord: "von", loading: "Lädt…" },
-  ja: { open: "プレイヤーを開く", loadingAudio: "読み込み中", play: "再生", pause: "一時停止", collapse: "プレイヤーを閉じる", restart: "トラックを再開", next: "次へ", position: "トラックの位置", ofWord: "/", loading: "読み込み中…" },
-  zh: { open: "打开播放器", loadingAudio: "加载中", play: "播放", pause: "暂停", collapse: "最小化播放器", restart: "重新播放", next: "下一首", position: "播放位置", ofWord: "/", loading: "加载中…" },
+  fr: { open: "Ouvrir le lecteur", loadingAudio: "Chargement audio", play: "Lecture", pause: "Pause", collapse: "Réduire le lecteur", restart: "Recommencer la track", next: "Suivant", position: "Position dans la track", ofWord: "sur", loading: "Chargement…", launch: "Vibe radio" },
+  en: { open: "Open player", loadingAudio: "Buffering", play: "Play", pause: "Pause", collapse: "Minimize player", restart: "Restart track", next: "Next", position: "Track position", ofWord: "of", loading: "Loading…", launch: "Vibe radio" },
+  es: { open: "Abrir reproductor", loadingAudio: "Cargando audio", play: "Reproducir", pause: "Pausa", collapse: "Minimizar reproductor", restart: "Reiniciar pista", next: "Siguiente", position: "Posición en la pista", ofWord: "de", loading: "Cargando…", launch: "Vibe radio" },
+  it: { open: "Apri il player", loadingAudio: "Caricamento audio", play: "Riproduci", pause: "Pausa", collapse: "Riduci player", restart: "Ricomincia traccia", next: "Avanti", position: "Posizione nella traccia", ofWord: "di", loading: "Caricamento…", launch: "Vibe radio" },
+  pt: { open: "Abrir player", loadingAudio: "Carregando áudio", play: "Reproduzir", pause: "Pausa", collapse: "Minimizar player", restart: "Reiniciar faixa", next: "Próxima", position: "Posição na faixa", ofWord: "de", loading: "Carregando…", launch: "Vibe radio" },
+  de: { open: "Player öffnen", loadingAudio: "Audio lädt", play: "Abspielen", pause: "Pause", collapse: "Player minimieren", restart: "Track neu starten", next: "Weiter", position: "Position im Track", ofWord: "von", loading: "Lädt…", launch: "Vibe radio" },
+  ja: { open: "プレイヤーを開く", loadingAudio: "読み込み中", play: "再生", pause: "一時停止", collapse: "プレイヤーを閉じる", restart: "トラックを再開", next: "次へ", position: "トラックの位置", ofWord: "/", loading: "読み込み中…", launch: "Vibe radio" },
+  zh: { open: "打开播放器", loadingAudio: "加载中", play: "播放", pause: "暂停", collapse: "最小化播放器", restart: "重新播放", next: "下一首", position: "播放位置", ofWord: "/", loading: "加载中…", launch: "Vibe radio" },
 };
 
 // localStorage key persisting the collapsed/expanded preference. Defaults to
@@ -56,6 +57,7 @@ export default function MusicMiniPlayer() {
     next,
     seek,
     restart,
+    start,
   } = useMusic();
   const locale = useLocale();
   const pc = PLAYER_COPY[locale as Locale] ?? PLAYER_COPY.en;
@@ -96,11 +98,29 @@ export default function MusicMiniPlayer() {
     [duration, seek],
   );
 
-  // Idle state: no track loaded yet. Render nothing — a permanent floating
-  // "launch radio" pill on every page was just clutter. The radio is launched
-  // from /music and /play; once a track is playing the player pill appears
-  // here and persists across navigation (the <audio> singleton survives).
-  if (!current) return null;
+  // Idle state: no track loaded yet. Show a compact "▶ Vibe radio" launcher
+  // pill bottom-right so the radio is reachable from every page (not just
+  // /music and /play). Once a track is playing, the same slot becomes the
+  // collapsed mini-player and the <audio> singleton survives navigation.
+  if (!current) {
+    return (
+      <div className="fixed bottom-20 right-3 z-30 select-none">
+        <button
+          onClick={() => start()}
+          disabled={isLoading}
+          aria-label={pc.launch}
+          className="glass rounded-full shadow-lg shadow-black/40 pl-2.5 pr-3.5 py-2 flex items-center gap-2 text-xs font-semibold text-white/90 hover:bg-white/[0.08] transition active:scale-95 disabled:opacity-60"
+        >
+          <span className="w-6 h-6 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center shrink-0 shadow-md shadow-pink-500/30">
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="white" aria-hidden>
+              <path d="M3 2l7 4-7 4z" />
+            </svg>
+          </span>
+          <span>{isLoading ? pc.loading : pc.launch}</span>
+        </button>
+      </div>
+    );
+  }
 
   const showBufferingDot = isBuffering && !isLoadingNext;
   // Prefer the live <audio> duration; fall back to the DB-stored duration_s
