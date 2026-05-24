@@ -404,6 +404,14 @@ export default async function Page({ params }: { params: { slug: string } }) {
   }
 
   // Schema.org JSON-LD — helps Google parse poll as a Q&A page.
+  // Author/datePublished/url are present on Question AND on each
+  // suggestedAnswer to satisfy Search Console's QAPage requirements.
+  const pollUrl = `https://moomz.com/${poll.slug}`;
+  const authorEntity = {
+    "@type": "Organization",
+    name: "moomz",
+    url: "https://moomz.com",
+  };
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "QAPage",
@@ -412,10 +420,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
       name: poll.question,
       text: poll.question,
       dateCreated: poll.created_at,
+      datePublished: poll.created_at,
+      author: authorEntity,
+      url: pollUrl,
       answerCount: poll.options.length,
       suggestedAnswer: poll.options.map((opt, i) => ({
         "@type": "Answer",
         text: opt,
+        datePublished: poll.created_at,
+        author: authorEntity,
+        url: `${pollUrl}#opt-${i}`,
         ...(poll.explainer && typeof poll.explainer === "object" && poll.explainer[String(i)]
           ? { description: poll.explainer[String(i)] }
           : {}),
@@ -423,7 +437,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
       })),
     },
     inLanguage: poll.lang ?? "fr",
-    url: `https://moomz.com/${poll.slug}`,
+    url: pollUrl,
   };
 
   return (

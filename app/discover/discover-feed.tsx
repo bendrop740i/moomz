@@ -79,15 +79,6 @@ export default function DiscoverFeed({ polls: initialPolls }: { polls: FeedPoll[
     setPolls((curr) => curr.filter((p) => p.slug !== slug));
   };
 
-  // Glide to the next slide — used on vote (auto-advance) and on skip.
-  const scrollToNext = () => {
-    const el = containerRef.current;
-    if (!el) return;
-    const target = el.children[activeIdx + 1] as HTMLElement | undefined;
-    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
-    else el.scrollTo({ top: el.scrollTop + el.clientHeight, behavior: "smooth" });
-  };
-
   const vc = getViralCopy(locale);
 
   // Virtualization window — only mount a real <DiscoverCard> within ±RENDER of
@@ -192,7 +183,6 @@ export default function DiscoverFeed({ polls: initialPolls }: { polls: FeedPoll[
                 index={i + 1}
                 feedSize={polls.length}
                 onSkip={() => skip(p.slug)}
-                onVoted={scrollToNext}
               />
             ) : null}
           </section>

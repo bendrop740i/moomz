@@ -55,7 +55,6 @@ type Props = {
   index: number;
   feedSize: number;
   onSkip?: () => void;
-  onVoted?: () => void;
 };
 
 export default function DiscoverCard({
@@ -73,7 +72,6 @@ export default function DiscoverCard({
   index,
   feedSize,
   onSkip,
-  onVoted,
 }: Props) {
   const t = useT();
   const locale = useLocale();
@@ -92,9 +90,6 @@ export default function DiscoverCard({
   const [pointsToast, setPointsToast] = useState<{ k: number; gained: number; mult: number } | null>(null);
   const [skipped, setSkipped] = useState(false);
   const [shareToast, setShareToast] = useState(false);
-  // Double-tap to vote: the first tap on an option arms it, a second tap on
-  // the same option commits — guards the immersive feed against mis-taps.
-  const [armed, setArmed] = useState<number | null>(null);
   // Latched true the first time the card scrolls into view — drives the
   // one-shot entrance animation. Card 1 is on screen at load so it starts
   // already entered (no opacity flash; the page's own fade-up covers it).
@@ -103,11 +98,6 @@ export default function DiscoverCard({
   const myVoterIdRef = useRef<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
   const preloadInFlightRef = useRef(false);
-  // Mirror of `isVisible` so the post-vote auto-advance can read it without
-  // re-arming a timeout on every visibility flip.
-  const isVisibleRef = useRef(false);
-  // Pending auto-disarm for the double-tap arming state.
-  const disarmTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const showResults = voted !== null;
   const EMOJIS = emojisFor(slug, options.length);
@@ -115,17 +105,6 @@ export default function DiscoverCard({
   // palette gives each poll its own colour identity in the feed.
   const pal = palettePreviewFromCosmetic(authorCosmeticId) ?? paletteFor(slug);
   const rc = REVEAL_COPY[locale as Locale] ?? REVEAL_COPY.en;
-
-  useEffect(() => {
-    isVisibleRef.current = isVisible;
-  }, [isVisible]);
-
-  // Clear the double-tap disarm timer on unmount.
-  useEffect(() => {
-    return () => {
-      if (disarmTimerRef.current) clearTimeout(disarmTimerRef.current);
-    };
-  }, []);
 
   // This browser's voter id — so the realtime channel ignores echoes of our
   // own vote (we already counted it optimistically).
@@ -275,13 +254,6 @@ export default function DiscoverCard({
             detail: { balance: res.coins.balance, gained: res.coins.gained },
           }),
         );
-        // Let the reveal breathe (~3s), then glide to the next card — but only
-        // if the user is still parked here. A manual swipe cancels the glide.
-        if (onVoted) {
-          setTimeout(() => {
-            if (isVisibleRef.current) onVoted();
-          }, 3000);
-        }
       } catch (e) {
         toast(
           e instanceof Error ? e.message : VOTE_ERR[locale] ?? VOTE_ERR.en,
@@ -292,24 +264,6 @@ export default function DiscoverCard({
         setTotal(initialVoteCount);
       }
     });
-  };
-
-  // First tap arms an option; a second tap on the same option commits the
-  // vote. A quick real-world double-tap fires both in one motion.
-  const tapOption = (i: number) => {
-    if (voted !== null || pending) return;
-    if (disarmTimerRef.current) {
-      clearTimeout(disarmTimerRef.current);
-      disarmTimerRef.current = null;
-    }
-    if (armed === i) {
-      vote(i);
-      return;
-    }
-    haptic("tap");
-    setArmed(i);
-    // Auto-disarm so a stray tap never leaves an option primed indefinitely.
-    disarmTimerRef.current = setTimeout(() => setArmed(null), 3500);
   };
 
   const handleSkip = () => {
@@ -462,22 +416,13 @@ export default function DiscoverCard({
               const isPulsing = emojiPulse?.idx === i;
 
               if (!showResults) {
-                const isArmed = armed === i;
-                const dimmed = armed !== null && !isArmed;
                 return (
                   <button
                     key={i}
-                    onClick={() => tapOption(i)}
+                    onClick={() => vote(i)}
                     disabled={pending}
-                    aria-label={isArmed ? `Confirm vote: ${opt}` : `Vote: ${opt}`}
-                    aria-pressed={isArmed}
-                    className={`flex min-h-[52px] w-full items-center gap-3 rounded-2xl border px-4 py-3 text-left backdrop-blur-md transition active:scale-[0.97] disabled:opacity-60 ${
-                      isArmed
-                        ? "scale-[1.02] border-white/80 bg-black/65 ring-2 ring-white/55"
-                        : dimmed
-                          ? "border-white/15 bg-black/25 opacity-55"
-                          : "border-white/25 bg-black/40 hover:border-white/50 hover:bg-black/50"
-                    }`}
+                    aria-label={`Vote: ${opt}`}
+                    className="flex min-h-[52px] w-full items-center gap-3 rounded-2xl border border-white/25 bg-black/40 px-4 py-3 text-left backdrop-blur-md transition hover:border-white/50 hover:bg-black/50 active:scale-[0.97] disabled:opacity-60"
                   >
                     <span
                       key={isPulsing ? emojiPulse!.k : undefined}
@@ -489,14 +434,6 @@ export default function DiscoverCard({
                     <span className="min-w-0 break-words text-base font-bold text-white sm:text-lg">
                       {opt}
                     </span>
-                    {isArmed && (
-                      <span className="ml-auto flex shrink-0 items-center gap-1 rounded-full bg-white px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-wide text-black">
-                        <span className="animate-pulse" aria-hidden>
-                          👆
-                        </span>
-                        ✓
-                      </span>
-                    )}
                   </button>
                 );
               }

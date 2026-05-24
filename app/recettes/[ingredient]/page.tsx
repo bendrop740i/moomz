@@ -108,6 +108,10 @@ export default async function RecetteDetailPage({
   const meals = await fetchMealsFor(cat);
   const related = relatedCategories(cat, 6);
 
+  // Plain ItemList of links to TheMealDB — we don't have the full Recipe
+  // payload (ingredients/instructions/nutrition/prepTime) here, so we link out
+  // as WebPages instead of claiming Recipe schema with missing required fields
+  // (which Search Console flags as "Champ X manquant").
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -118,12 +122,9 @@ export default async function RecetteDetailPage({
     itemListElement: meals.slice(0, 50).map((meal, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      item: {
-        "@type": "Recipe",
-        name: meal.strMeal,
-        image: meal.strMealThumb,
-        url: mealDbUrl(meal.idMeal),
-      },
+      url: mealDbUrl(meal.idMeal),
+      name: meal.strMeal,
+      image: meal.strMealThumb,
     })),
   };
 
