@@ -112,9 +112,10 @@ npm run dev    # http://localhost:3001 (port 3000 busy on the user's machine)
 - Push event pings ("ton sondage explose", "verdict tombé") — optional next step beyond the daily push.
 - Wire `trackEvent()` (`lib/analytics.ts`) into real flows.
 - Editorial polish: "✦ moomz" badge on editorial content, pin Daily Moomz atop the feed.
-- AR: RTL only, no UI translation. PT quiz half of `scienze-it-pt.ts` never shipped.
+- AR: RTL only, no UI translation.
 
 ## Recent changelog (newest first, one line each)
+- **2026-05-24 (PT/IT quiz parity)** — Bouclé la moitié manquante de `scienze-it-pt.ts` : ajout `quiz-ciencias-pt-quimica-elementos` (PT chimie, 12 questions) + `quiz-scienze-it-biologia-cellulare` (IT bio, mirror du PT). Le fichier est maintenant équilibré 3 IT + 3 PT (physique/chimie/biologie chacun). PT passe à 15, IT à 16.
 - **2026-05-24** — Feed immersif (home/discover) : vote en 1 clic (suppr. armed/double-tap), fix « double-saut au scroll » (suppr. auto-advance 3s post-vote). + Search Console : QAPage gagne author/datePublished/url sur Question + suggestedAnswer ; Recipe perd `@type:Recipe` (on n'a pas les champs obligatoires depuis TheMealDB filter.php). Commit `7ff98ec`.
 - **2026-05-23 (deep fix)** — Home « charge à l'infini » réglé à la cause : SSR émettait 95 sections plein écran (80 polls + CTA) = 443 KB HTML + hydratation lourde 80 cartes → 5-10s main-thread bloqué sur mobile. Fix : `FEED_LIMIT = 25` (`app/_feed/immersive-feed.tsx`) + virtualisation `RENDER_RADIUS = 2` (`discover-feed.tsx`) → ~5 cartes mountées à la fois, scroll-snap intact. Commit `669bd0c`.
 - **2026-05-23 (revert)** — Le 1er essai de fix via `<Suspense>` autour de `<ImmersiveFeed/>` a empiré le truc en prod (skeleton bloquait, jamais remplacé). Revert commit `cbc9d94` (suppr. `_feed/feed-skeleton.tsx`).
